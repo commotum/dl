@@ -1,0 +1,74 @@
+from __future__ import annotations
+
+import io
+import tempfile
+import unittest
+from contextlib import redirect_stdout
+from pathlib import Path
+
+from cookiekit.cli import main
+from cookiekit.cookiestxt import save_cookies_txt
+from http.cookiejar import Cookie
+
+
+def make_cookie(name: str, value: str, domain: str) -> Cookie:
+    return Cookie(
+        version=0,
+        name=name,
+        value=value,
+        port=None,
+        port_specified=False,
+        domain=domain,
+        domain_specified=True,
+        domain_initial_dot=domain.startswith("."),
+        path="/",
+        path_specified=True,
+        secure=False,
+        expires=None,
+        discard=True,
+        comment=None,
+        comment_url=None,
+        rest={},
+        rfc2109=False,
+    )
+
+
+class CliTests(unittest.TestCase):
+    def test_load_and_check_commands(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            cookie_file = Path(temp_dir) / "cookies.txt"
+            save_cookies_txt(cookie_file, [make_cookie("sid", "1", ".example.com")])
+
+            stdout = io.StringIO()
+            with redirect_stdout(stdout):
+                rc_load = main(["load", str(cookie_file)])
+            self.assertEqual(rc_load, 0)
+            self.assertIn("Loaded 1 cookies", stdout.getvalue())
+
+            stdout = io.StringIO()
+            with redirect_stdout(stdout):
+                rc_check = main(
+                    [
+                        "check",
+                        str(cookie_file),
+                        "--require",
+                        "sid",
+                        "--domain",
+                        "example.com",
+                        "--allow-subdomains",
+                    ]
+                )
+            self.assertEqual(rc_check, 0)
+            self.assertIn("OK", stdout.getvalue())
+
+    def test_parse_spec_command(self) -> None:
+        stdout = io.StringIO()
+        with redirect_stdout(stdout):
+            rc = main(["parse-spec", "firefox/.example.com::Work"])
+        self.assertEqual(rc, 0)
+        self.assertIn('"browser": "firefox"', stdout.getvalue())
+        self.assertIn('"container": "Work"', stdout.getvalue())
+
+
+if __name__ == "__main__":
+    unittest.main()
