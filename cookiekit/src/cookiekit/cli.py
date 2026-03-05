@@ -4,11 +4,14 @@ from __future__ import annotations
 
 import argparse
 import json
+import random
 from dataclasses import asdict
 
 from .checks import check_required_cookies
 from .cookiestxt import load_cookies_txt, save_cookies_txt
+from .selectors import load_rotate_index, save_rotate_index, select_source
 from .spec import parse_browser_spec
+from .sources import load_source, parse_source, resolve_update_target
 
 
 def _cmd_parse_spec(args: argparse.Namespace) -> int:
@@ -53,6 +56,43 @@ def _cmd_check(args: argparse.Namespace) -> int:
         print("OK")
         return 0
     return 1
+
+
+def _cmd_sync(args: argparse.Namespace) -> int:
+    sources = [parse_source(value) for value in args.source]
+
+    rotate_index = 0
+    if args.select == "rotate":
+        rotate_index = load_rotate_index(args.rotate_state_file)
+
+    rng = random.Random(args.random_seed) if args.random_seed is not None else None
+    selected, next_rotate_index = select_source(
+        sources,
+        mode=args.select,
+        rotate_index=rotate_index,
+        rng=rng,
+    )
+
+    try:
+        loaded = load_source(selected)
+    except NotImplementedError as exc:
+        print(f"Source error: {exc}")
+        return 2
+
+    if args.select == "rotate":
+        save_rotate_index(args.rotate_state_file, next_rotate_index)
+
+    print(f"Selected source: {selected.kind}:{selected.value}")
+    print(f"Loaded {len(loaded.cookies)} cookies")
+
+    update_target = resolve_update_target(args.cookies_update, loaded)
+    if update_target:
+        save_cookies_txt(update_target, loaded.cookies, atomic=not args.no_atomic)
+        print(f"Updated cookies at: {update_target}")
+    else:
+        print("cookies-update is off or no update target resolved")
+
+    return 0
 
 
 def _build_parser() -> argparse.ArgumentParser:
@@ -110,6 +150,45 @@ def _build_parser() -> argparse.ArgumentParser:
         help="Warn for cookies expiring in less than this many seconds",
     )
     check.set_defaults(func=_cmd_check)
+
+    sync = subparsers.add_parser(
+        "sync",
+        aliases=["noop"],
+        help="Cookie-only flow: select a source, load cookies, and optionally persist update.",
+    )
+    sync.add_argument(
+        "--source",
+        action="append",
+        required=True,
+        help="Cookie source. File path or browser spec via browser:<SPEC>",
+    )
+    sync.add_argument(
+        "--select",
+        choices=("first", "random", "rotate"),
+        default="first",
+        help="Source selection strategy for multiple --source values",
+    )
+    sync.add_argument(
+        "--rotate-state-file",
+        default=".cookiekit.rotate-state.json",
+        help="State file used to persist rotate index",
+    )
+    sync.add_argument(
+        "--random-seed",
+        type=int,
+        help="Optional seed for deterministic random source selection",
+    )
+    sync.add_argument(
+        "--cookies-update",
+        default="auto",
+        help="Update behavior: auto|off|<path>. auto updates selected file source.",
+    )
+    sync.add_argument(
+        "--no-atomic",
+        action="store_true",
+        help="Write directly when updating cookies instead of temp-file replace.",
+    )
+    sync.set_defaults(func=_cmd_sync)
 
     return parser
 

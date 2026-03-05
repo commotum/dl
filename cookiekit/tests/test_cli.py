@@ -7,7 +7,7 @@ from contextlib import redirect_stdout
 from pathlib import Path
 
 from cookiekit.cli import main
-from cookiekit.cookiestxt import save_cookies_txt
+from cookiekit.cookiestxt import load_cookies_txt, save_cookies_txt
 from http.cookiejar import Cookie
 
 
@@ -68,6 +68,82 @@ class CliTests(unittest.TestCase):
         self.assertEqual(rc, 0)
         self.assertIn('"browser": "firefox"', stdout.getvalue())
         self.assertIn('"container": "Work"', stdout.getvalue())
+
+    def test_sync_rotate_and_state(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            source_a = Path(temp_dir) / "a.txt"
+            source_b = Path(temp_dir) / "b.txt"
+            state = Path(temp_dir) / "rotate.json"
+            save_cookies_txt(source_a, [make_cookie("a", "1", ".example.com")])
+            save_cookies_txt(source_b, [make_cookie("b", "1", ".example.com")])
+
+            stdout = io.StringIO()
+            with redirect_stdout(stdout):
+                rc1 = main(
+                    [
+                        "sync",
+                        "--source",
+                        str(source_a),
+                        "--source",
+                        str(source_b),
+                        "--select",
+                        "rotate",
+                        "--rotate-state-file",
+                        str(state),
+                        "--cookies-update",
+                        "off",
+                    ]
+                )
+            self.assertEqual(rc1, 0)
+            self.assertIn(f"Selected source: file:{source_a}", stdout.getvalue())
+
+            stdout = io.StringIO()
+            with redirect_stdout(stdout):
+                rc2 = main(
+                    [
+                        "sync",
+                        "--source",
+                        str(source_a),
+                        "--source",
+                        str(source_b),
+                        "--select",
+                        "rotate",
+                        "--rotate-state-file",
+                        str(state),
+                        "--cookies-update",
+                        "off",
+                    ]
+                )
+            self.assertEqual(rc2, 0)
+            self.assertIn(f"Selected source: file:{source_b}", stdout.getvalue())
+
+    def test_noop_alias_and_explicit_update_target(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            source = Path(temp_dir) / "source.txt"
+            output = Path(temp_dir) / "out.txt"
+            save_cookies_txt(source, [make_cookie("sid", "1", ".example.com")])
+
+            stdout = io.StringIO()
+            with redirect_stdout(stdout):
+                rc = main(
+                    [
+                        "noop",
+                        "--source",
+                        str(source),
+                        "--cookies-update",
+                        str(output),
+                    ]
+                )
+            self.assertEqual(rc, 0)
+            self.assertIn(f"Updated cookies at: {output}", stdout.getvalue())
+            self.assertEqual(len(load_cookies_txt(output)), 1)
+
+    def test_sync_browser_source_not_implemented(self) -> None:
+        stdout = io.StringIO()
+        with redirect_stdout(stdout):
+            rc = main(["sync", "--source", "browser:firefox"])
+        self.assertEqual(rc, 2)
+        self.assertIn("not implemented yet", stdout.getvalue())
 
 
 if __name__ == "__main__":
