@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import sqlite3
 import struct
+import sys
 import tempfile
 import unittest
 from pathlib import Path
@@ -13,6 +14,7 @@ from cookiekit.browser import (
     MacChromiumCookieDecryptor,
     WindowsChromiumCookieDecryptor,
     _build_chromium_cookie_decryptor,
+    _get_gnome_keyring_password,
     load_browser_cookies,
     load_chromium_cookies,
     parse_webkit_binarycookies,
@@ -271,6 +273,15 @@ class BrowserTests(unittest.TestCase):
                 browser="chrome", db_path=db_path, keyring=None, meta_version=0
             )
             self.assertIsInstance(dec, WindowsChromiumCookieDecryptor)
+
+    def test_gnome_keyring_missing_dbus_is_soft_failure(self) -> None:
+        fake_secretstorage = mock.Mock()
+        fake_secretstorage.dbus_init.side_effect = RuntimeError("no session dbus")
+
+        with mock.patch.dict(sys.modules, {"secretstorage": fake_secretstorage}):
+            password = _get_gnome_keyring_password("Chrome")
+
+        self.assertEqual(password, b"")
 
 
 if __name__ == "__main__":

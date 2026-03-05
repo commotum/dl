@@ -686,9 +686,9 @@ def _get_kwallet_password(browser_keyring_name: str) -> bytes:
 def _get_gnome_keyring_password(browser_keyring_name: str) -> bytes:
     try:
         import secretstorage  # type: ignore
+        con = secretstorage.dbus_init()
     except Exception:
         return b""
-    con = secretstorage.dbus_init()
     try:
         collection = secretstorage.get_default_collection(con)
         label = f"{browser_keyring_name} Safe Storage"
