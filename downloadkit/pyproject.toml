@@ -4,7 +4,10 @@ version = "0.1.0"
 description = "Personal download toolkit for practical file transfer workflows."
 readme = "README.md"
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "requestkit",
+    "requests>=2.32.0",
+]
 
 [project.scripts]
 downloadkit = "downloadkit.cli:main"
@@ -13,6 +16,9 @@ downloadkit = "downloadkit.cli:main"
 dev = [
     "pytest>=8.4.2",
 ]
+
+[tool.uv.sources]
+requestkit = { workspace = true }
 
 [build-system]
 requires = ["uv_build>=0.8.0,<0.9"]

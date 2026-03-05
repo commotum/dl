@@ -124,8 +124,8 @@ If a feature is not helping real workflows, it should probably not exist.
 ## Workspace map
 
 - `cookiekit/`: cookie extraction package
-- `requestkit/`: request/session package scaffold
-- `downloadkit/`: download package scaffold
+- `requestkit/`: request/session package
+- `downloadkit/`: download package
 - `gallery-dl/`: reference codebase used for comparison and idea extraction
 - `building-clis-uv-summary.md`: notes on packaging small CLIs with `uv`
 
@@ -133,14 +133,14 @@ If a feature is not helping real workflows, it should probably not exist.
 
 - `cookiekit` is already usable
 - `requestkit` has a working v1 core with `get` and `dump`, browser-like session setup, retries, pacing, challenge detection, cookies.txt loading, and redacted diagnostics
-- `downloadkit` is scaffolded but not implemented
+- `downloadkit` has a working v1 core with `fetch`, atomic file writes, resume support, fallback URLs, binary-vs-HTML validation, and JSON/plain-text result output
 
 Package-specific usage and implementation details belong in each package README, not in this root document.
 
 ## Related Docs
 
 - Package README: [`cookiekit/README.md`](cookiekit/README.md)
+- Package README: [`requestkit/README.md`](requestkit/README.md)
+- Package README: [`downloadkit/README.md`](downloadkit/README.md)
 - `uv` tooling summary: [`building-clis-uv-summary.md`](building-clis-uv-summary.md)
-- V1 feature inventory: [`V1/cookie-features.md`](V1/cookie-features.md)
-- V1 roadmap: [`V1/todo.md`](V1/todo.md)
 - Release workflow: [`cookiekit/docs/release.md`](cookiekit/docs/release.md)
