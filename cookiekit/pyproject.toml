@@ -1,13 +1,21 @@
 [project]
 name = "cookiekit"
 version = "0.1.0"
-description = "Add your description here"
+description = "Cookie extraction, validation, and sync toolkit for downloader workflows."
 readme = "README.md"
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "pycryptodome>=3.23.0",
+    "secretstorage>=3.5.0 ; sys_platform == 'linux'",
+]
 
 [project.scripts]
 cookiekit = "cookiekit.cli:main"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4.2",
+]
 
 [build-system]
 requires = ["uv_build>=0.8.0,<0.9"]

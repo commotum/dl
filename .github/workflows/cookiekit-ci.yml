@@ -1,0 +1,50 @@
+name: cookiekit-ci
+
+on:
+  push:
+    paths:
+      - "cookiekit/**"
+      - "uv.lock"
+      - ".github/workflows/cookiekit-ci.yml"
+  pull_request:
+    paths:
+      - "cookiekit/**"
+      - "uv.lock"
+      - ".github/workflows/cookiekit-ci.yml"
+
+jobs:
+  test-build-smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install uv
+        run: python -m pip install --upgrade pip uv
+
+      - name: Lockfile check
+        run: uv lock --check
+
+      - name: Run cookiekit tests
+        run: uv run --package cookiekit --group dev pytest -q cookiekit/tests
+
+      - name: Build publishable artifacts
+        run: uv build --package cookiekit --no-sources
+
+      - name: Smoke test wheel install/import (networked deps)
+        run: |
+          wheel="$(ls -1 dist/cookiekit-*.whl | head -n1)"
+          python -m venv /tmp/cookiekit-smoke
+          /tmp/cookiekit-smoke/bin/pip install "$wheel"
+          /tmp/cookiekit-smoke/bin/python -c "import cookiekit; print(cookiekit.__version__)"
+          /tmp/cookiekit-smoke/bin/cookiekit --help >/dev/null
+
+      - name: Smoke test wheel in uv isolated env
+        run: |
+          wheel="$(ls -1 dist/cookiekit-*.whl | head -n1)"
+          uv run --no-project --isolated --with "$wheel" python -c "import cookiekit; print(cookiekit.__version__)"

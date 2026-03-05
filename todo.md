@@ -29,11 +29,11 @@ Status: complete (file-source scope)
 Implementation target:
 - Added `sources.py` and `selectors.py`
 - Extended CLI with source selection + update target options (`sync`/`noop`)
-- Browser-source extraction remains intentionally deferred to Phase 3
+- Browser-source extraction completed in Phase 3
 
 ## Phase 3: Browser extraction (Firefox + Chromium + WebKit)
 
-Status: complete (Phase 4 decryption deferred)
+Status: complete
 
 - [x] Profile discovery
 - [x] Domain filtering
@@ -46,7 +46,7 @@ Notes:
 - Implemented in `cookiekit/src/cookiekit/browser.py`
 - Browser sources now wired through `cookiekit/src/cookiekit/sources.py`
 - Added tests in `cookiekit/tests/test_browser.py`
-- Chromium encrypted-cookie decryption is intentionally deferred to Phase 4
+- Chromium encrypted-cookie decryption hardening landed in Phase 4
 
 ## Phase 4: Decryption hardening + diagnostics
 
@@ -65,19 +65,18 @@ Notes:
 
 ## Phase 5: Packaging + external consumption
 
-Status: partially started
+Status: complete
 
 - [x] Package scaffold + CLI entrypoint
-- [ ] Stable library API docs
-- [ ] Expanded CLI docs/examples
-- [ ] Versioning + changelog workflow
-- [ ] Build/publish workflow docs/commands
-- [ ] `uv build --no-sources` clean run gate
-- [ ] Install/import smoke test from built artifact
+- [x] Stable library API docs
+- [x] Expanded CLI docs/examples
+- [x] Versioning + changelog workflow
+- [x] Build/publish workflow docs/commands
+- [x] `uv build --no-sources` clean run gate
+- [x] Install/import smoke test from built artifact
 
 ## Immediate next tasks
 
-- [ ] Start Phase 5 packaging and external-consumption hardening
-- [ ] Add stable library API docs and richer CLI examples
-- [ ] Add changelog/versioning workflow
-- [ ] Run `uv build --no-sources` and add publish smoke checks
+- [x] Add CI automation for lock/test/build/smoke workflow
+- [x] Add a networked release smoke job (`pip install` with dependencies)
+- [ ] Define first post-0.1.0 feature scope
