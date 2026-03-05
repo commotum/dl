@@ -6,6 +6,8 @@ This repo is a personal workspace for three small tools:
 - `requestkit`: make requests with sane browser-like session behavior
 - `downloadkit`: turn a URL into a correct file on disk
 
+There is also a top-level `dl` wrapper that dispatches to those package CLIs.
+
 These are principles of practical download tooling for logged-in web workflows, not principles of general web crawling.
 
 ## The point
@@ -84,6 +86,12 @@ Each package should be usable in two ways:
 
 The CLI should be the shortest path for a human or an AI agent. The library should exist so tools can be composed without shelling out.
 
+In this workspace, the shortest path is usually:
+
+- `uv run dl cookiekit ...`
+- `uv run dl requestkit ...`
+- `uv run dl downloadkit ...`
+
 ### 6. Be explicit instead of magical
 
 Good defaults matter, but hidden behavior should be limited.
@@ -134,8 +142,18 @@ If a feature is not helping real workflows, it should probably not exist.
 - `cookiekit` is already usable
 - `requestkit` has a working v1 core with `get` and `dump`, browser-like session setup, retries, pacing, challenge detection, cookies.txt loading, and redacted diagnostics
 - `downloadkit` has a working v1 core with `fetch`, atomic file writes, resume support, fallback URLs, binary-vs-HTML validation, and JSON/plain-text result output
+- `dl` is a working top-level wrapper for all three CLIs
 
 Package-specific usage and implementation details belong in each package README, not in this root document.
+
+## Wrapper usage
+
+```bash
+uv run dl --help
+uv run dl cookiekit --help
+uv run dl requestkit --help
+uv run dl downloadkit --help
+```
 
 ## Related Docs
 

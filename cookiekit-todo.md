@@ -21,4 +21,4 @@ Treat this package as maintenance mode, not active expansion.
 
 ## Root CLI
 
-- [ ] Add a simple root-level wrapper so `cookiekit` can be invoked from the repo root in the same style as the future `requestkit` and `downloadkit` CLIs
+- [x] Add a simple root-level wrapper so `cookiekit` can be invoked from the repo root in the same style as the future `requestkit` and `downloadkit` CLIs

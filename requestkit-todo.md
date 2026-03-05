@@ -35,7 +35,7 @@ It should cover just the reusable request behavior that sits between `cookiekit`
 ## V1 CLI tasks
 
 - [x] Define the first CLI surface: `requestkit get URL`, `requestkit dump URL`
-- [ ] Add a root-level wrapper command in the parent `dl` folder
+- [x] Add a root-level wrapper command in the parent `dl` folder
 - [x] Support `--browser`, `--user-agent`, `--referer`, `--proxy`, `--cookies`, `--timeout`, `--retries`, `--sleep-request`, `--sleep-429`, and `--json`
 - [x] Make output straightforward for both shell use and AI-agent use
 

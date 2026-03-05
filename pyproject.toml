@@ -5,9 +5,18 @@ description = "Personal workspace for cookie, request, and download tooling."
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "pycryptodome>=3.23.0",
-    "secretstorage>=3.5.0 ; sys_platform == 'linux'",
+    "cookiekit",
+    "requestkit",
+    "downloadkit",
 ]
+
+[project.scripts]
+dl = "dl.cli:main"
+
+[tool.uv.sources]
+cookiekit = { workspace = true }
+requestkit = { workspace = true }
+downloadkit = { workspace = true }
 
 [tool.uv.workspace]
 members = [
@@ -15,3 +24,7 @@ members = [
     "requestkit",
     "downloadkit",
 ]
+
+[build-system]
+requires = ["uv_build>=0.8.0,<0.9"]
+build-backend = "uv_build"

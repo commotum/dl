@@ -245,16 +245,18 @@ wheels = [
 [[package]]
 name = "dl"
 version = "0.1.0"
-source = { virtual = "." }
+source = { editable = "." }
 dependencies = [
-    { name = "pycryptodome" },
-    { name = "secretstorage", marker = "sys_platform == 'linux'" },
+    { name = "cookiekit" },
+    { name = "downloadkit" },
+    { name = "requestkit" },
 ]
 
 [package.metadata]
 requires-dist = [
-    { name = "pycryptodome", specifier = ">=3.23.0" },
-    { name = "secretstorage", marker = "sys_platform == 'linux'", specifier = ">=3.5.0" },
+    { name = "cookiekit", editable = "cookiekit" },
+    { name = "downloadkit", editable = "downloadkit" },
+    { name = "requestkit", editable = "requestkit" },
 ]
 
 [[package]]

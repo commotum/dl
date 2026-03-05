@@ -30,7 +30,7 @@ This should be the layer that handles "take a URL and make the file land correct
 ## V1 CLI tasks
 
 - [x] Define the first CLI surface: `downloadkit fetch URL`
-- [ ] Add a root-level wrapper command in the parent `dl` folder
+- [x] Add a root-level wrapper command in the parent `dl` folder
 - [x] Support `-o/--output`, `--cookies`, `--resume`, `--overwrite`, `--retry`, `--timeout`, `--rate`, `--header`, `--fallback`, and `--json`
 - [x] Return simple machine-readable result output for success, skip, resume, and failure cases
 
