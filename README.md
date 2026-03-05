@@ -1,243 +1,141 @@
-# cookiekit Workspace
+# Principles of Practical Download Tooling
 
-`cookiekit` is a small library and CLI for one primary job:
+This repo is a personal workspace for three small tools:
 
-- read cookies from a browser profile where you are already logged in
-- optionally scope them to a target site
-- write a Netscape `cookies.txt` file that other tools can use
+- `cookiekit`: get cookies out of a logged-in browser and write `cookies.txt`
+- `requestkit`: make requests with sane browser-like session behavior
+- `downloadkit`: turn a URL into a correct file on disk
 
-If you only need one thing from this repo, use `cookiekit export-browser`.
+These are principles of practical download tooling for logged-in web workflows, not principles of general web crawling.
 
-## Fastest path
+## The point
 
-1. Log in to the target site in your browser.
-2. Export cookies from that browser/profile/container.
-3. Use the generated `cookies.txt` with your downstream tool.
+Most download problems are not one problem.
 
-Workspace install:
+They are usually three different problems that get tangled together:
 
-```bash
-uv sync --package cookiekit
-```
+- finding the authenticated browser state you already have
+- making requests that survive real sites
+- downloading files without corrupting, truncating, or misclassifying them
 
-Show CLI help:
+This repo keeps those concerns separate on purpose.
 
-```bash
-uv run --package cookiekit cookiekit --help
-```
+## Principles
 
-Export cookies from Chrome for a site:
+### 1. Prefer real browser state over scripted login
 
-```bash
-uv run --package cookiekit cookiekit export-browser \
-  --browser chrome \
-  --domain .github.com \
-  --output github-cookies.txt
-```
+If the user is already logged in, use that.
 
-Export cookies from Firefox using a specific profile and container:
+That is usually more reliable than:
 
-```bash
-uv run --package cookiekit cookiekit export-browser \
-  --browser firefox \
-  --profile default-release \
-  --container Work \
-  --domain .instagram.com \
-  --output instagram-cookies.txt
-```
+- reimplementing login flows
+- storing usernames and passwords
+- chasing MFA and challenge pages
 
-If you prefer the compact browser-spec form:
+This is why `cookiekit` exists.
 
-```bash
-uv run --package cookiekit cookiekit export-browser \
-  --spec "chrome/.github.com:Default" \
-  --output github-cookies.txt
-```
+### 2. Separate cookies, requests, and downloads
 
-For machine-readable output:
+Cookie extraction, request/session behavior, and file transfer are different concerns with different failure modes.
 
-```bash
-uv run --package cookiekit cookiekit export-browser \
-  --browser chrome \
-  --domain .github.com \
-  --output github-cookies.txt \
-  --json
-```
+They should not live in one giant kitchen-sink library unless that complexity is actually paying for itself.
 
-## How To Pick The Right Account
+The intended split here is:
 
-`cookiekit` does not log in for you. It only reads the session that already exists in the browser storage you point it at.
+- `cookiekit` for browser cookies
+- `requestkit` for sessions and request behavior
+- `downloadkit` for robust file transfer
 
-- If the account is in your normal Chrome profile, use `--browser chrome` and optionally `--profile Default`.
-- If you keep different accounts in different browser profiles, choose the right `--profile`.
-- If you keep different accounts in Firefox containers, use `--container`.
-- If you omit `--profile`, `cookiekit` auto-picks the most recently used matching profile database.
+### 3. Optimize for the real failure modes
 
-Use `--domain` whenever you know the target site.
+Naive tools usually fail because of ordinary operational problems:
 
-- `example.com` matches that host.
-- `.example.com` matches the host and its subdomains.
+- wrong browser profile
+- stale or missing cookies
+- bad `Referer` or headers
+- `429` responses
+- challenge pages returned as HTML
+- expired tokenized media URLs
+- interrupted downloads
 
-This keeps the exported file smaller and reduces noise from unrelated cookies.
+The toolkit should make those failure modes explicit and manageable.
 
-## Browser Support
+### 4. Keep the core generic and the hacks local
 
-Supported browsers:
+There is no universal anti-detection trick that works everywhere.
 
-- Chromium family: `brave`, `chrome`, `chromium`, `edge`, `opera`, `thorium`, `vivaldi`
-- Firefox family: `firefox`, `librewolf`, `zen`, `floorp`
-- WebKit family: `safari`, `orion`
+The reusable core is things like:
 
-Supported extraction features:
+- browser-like headers
+- pacing and retries
+- cookie loading
+- challenge detection
+- fallback URLs
+- resume support
 
-- Cross-platform profile discovery on Linux, macOS, and Windows
-- Firefox container filtering
-- SQLite read-only immutable mode with copy fallback
-- Chromium encrypted-cookie decryption
-- Netscape `cookies.txt` export
+If a site needs weird reverse-engineered behavior, that should live in site-specific code, not in the shared core.
 
-Linux Chromium notes:
+### 5. Small CLIs, composable libraries
 
-- `--keyring kwallet`
-- `--keyring gnomekeyring`
-- `--keyring basictext`
+Each package should be usable in two ways:
 
-Only Chromium-family browsers accept `--keyring`.
+- as a small CLI with obvious flags
+- as a library with a narrow surface area
 
-## CLI Guide
+The CLI should be the shortest path for a human or an AI agent. The library should exist so tools can be composed without shelling out.
 
-### Primary command: `export-browser`
+### 6. Be explicit instead of magical
 
-This is the command most users and agents want.
+Good defaults matter, but hidden behavior should be limited.
 
-Inputs:
+Prefer:
 
-- `--browser <name>` plus optional `--profile`, `--domain`, `--container`, `--keyring`
-- or `--spec "<BROWSER[/DOMAIN][+KEYRING][:PROFILE][::CONTAINER]>"` if you already have a full spec string
+- explicit profile selection
+- explicit domain scoping
+- visible retry and sleep settings
+- visible output paths
+- inspectable JSON or text summaries
 
-Output:
+The operator should be able to tell what happened without reverse-engineering the tool.
 
-- `-o/--output/--cookies-export <path>` writes Netscape `cookies.txt`
+### 7. Redact secrets and preserve evidence
 
-Other useful flags:
+Debugging network problems is necessary. Leaking credentials is not.
 
-- `--json` prints a structured summary
-- `--no-atomic` writes directly instead of temp-file replace
+Diagnostics should:
 
-Examples:
+- allow request/response dumps
+- redact cookies and auth headers
+- preserve enough evidence to explain failures
 
-```bash
-# Auto-pick the most recently used Chrome profile
-uv run --package cookiekit cookiekit export-browser \
-  --browser chrome \
-  --domain .x.com \
-  --output twitter-cookies.txt
+### 8. Personal tools first
 
-# Explicit Firefox profile path
-uv run --package cookiekit cookiekit export-browser \
-  --browser firefox \
-  --profile ~/.mozilla/firefox/abcd1234.default-release \
-  --domain .reddit.com \
-  --output reddit-cookies.txt
+This repo is for personal use, not for building a maximal framework.
 
-# Safari / Orion on macOS
-uv run --package cookiekit cookiekit export-browser \
-  --browser safari \
-  --domain .patreon.com \
-  --output patreon-cookies.txt
-```
+That means:
 
-### Other commands
+- fewer abstractions
+- less ceremony
+- no speculative generalization
+- only enough packaging structure to keep the tools clean
 
-These are useful, but they are secondary to `export-browser`:
+If a feature is not helping real workflows, it should probably not exist.
 
-- `parse-spec`: parse a browser spec and print JSON
-- `load`: load a `cookies.txt` file and print a summary
-- `save`: copy/normalize a `cookies.txt` file
-- `check`: verify required cookies by name/domain/expiration
-- `sync` / `noop`: advanced multi-source flows with file sources, browser sources, `first`/`random`/`rotate`, and `cookies-update`
+## Workspace map
 
-Advanced example:
+- `cookiekit/`: cookie extraction package
+- `requestkit/`: request/session package scaffold
+- `downloadkit/`: download package scaffold
+- `gallery-dl/`: reference codebase used for comparison and idea extraction
+- `building-clis-uv-summary.md`: notes on packaging small CLIs with `uv`
 
-```bash
-uv run --package cookiekit cookiekit sync \
-  --source cookies-primary.txt \
-  --source browser:firefox/.example.com:default-release::Work \
-  --source browser:chrome/.example.com+kwallet:Default \
-  --select rotate \
-  --rotate-state-file .cookiekit.rotate-state.json \
-  --cookies-update auto
-```
+## Current status
 
-## Library Usage
+- `cookiekit` is already usable
+- `requestkit` is scaffolded but not implemented
+- `downloadkit` is scaffolded but not implemented
 
-Fastest library path:
-
-```python
-from cookiekit import export_browser_cookies
-
-result = export_browser_cookies(
-    "chrome/.github.com:Default",
-    "github-cookies.txt",
-)
-print(result.cookie_count)
-print(result.output)
-```
-
-If you want cookies in memory without writing a file:
-
-```python
-from cookiekit import load_browser_cookies, parse_browser_spec
-
-spec = parse_browser_spec("firefox/.instagram.com:default-release::Work")
-cookies = load_browser_cookies(spec)
-print(len(cookies))
-```
-
-Stable public imports:
-
-```python
-from cookiekit import (
-    BrowserExportResult,
-    BrowserSpec,
-    CheckResult,
-    CookieSource,
-    LoadedCookies,
-    check_required_cookies,
-    dumps_cookies_txt,
-    export_browser_cookies,
-    load_browser_cookies,
-    load_cookies_txt,
-    load_rotate_index,
-    load_source,
-    parse_browser_spec,
-    parse_source,
-    redact_header_value,
-    redact_headers,
-    redact_http_header_lines,
-    resolve_update_target,
-    save_cookies_txt,
-    save_rotate_index,
-    select_source,
-)
-```
-
-## Troubleshooting
-
-- If Chrome/Chromium export returns fewer cookies than expected on Linux, try an explicit `--keyring`.
-- If you use multiple Firefox containers, make sure you pass the right `--container`.
-- If you are unsure which browser profile holds the login, start without `--profile`, then tighten it once you identify the right one.
-- If the target tool needs Netscape cookies, use `export-browser`; that is the default output format.
-
-## Repo Layout
-
-- `cookiekit/`: Python package
-- `cookiekit/src/cookiekit/`: implementation modules
-- `cookiekit/tests/`: test suite
-- `cookiekit/docs/release.md`: build/release workflow
-- `V1/`: original planning docs and feature inventory
-- `building-clis-uv-summary.md`: extracted `uv` summary for packaging CLIs and tools
-- `gallery-dl/`: retained reference codebase/submodule
+Package-specific usage and implementation details belong in each package README, not in this root document.
 
 ## Related Docs
 

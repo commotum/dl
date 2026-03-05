@@ -6,6 +6,8 @@ requires-python = ">=3.10"
 members = [
     "cookiekit",
     "dl",
+    "downloadkit",
+    "requestkit",
 ]
 
 [[package]]
@@ -158,6 +160,21 @@ requires-dist = [
 ]
 
 [[package]]
+name = "downloadkit"
+version = "0.1.0"
+source = { editable = "downloadkit" }
+
+[package.dev-dependencies]
+dev = [
+    { name = "pytest" },
+]
+
+[package.metadata]
+
+[package.metadata.requires-dev]
+dev = [{ name = "pytest", specifier = ">=8.4.2" }]
+
+[[package]]
 name = "exceptiongroup"
 version = "1.3.1"
 source = { registry = "https://pypi.org/simple" }
@@ -275,6 +292,21 @@ sdist = { url = "https://files.pythonhosted.org/packages/d1/db/7ef3487e0fb0049dd
 wheels = [
     { url = "https://files.pythonhosted.org/packages/3b/ab/b3226f0bd7cdcf710fbede2b3548584366da3b19b5021e74f5bde2a8fa3f/pytest-9.0.2-py3-none-any.whl", hash = "sha256:711ffd45bf766d5264d487b917733b453d917afd2b0ad65223959f59089f875b", size = 374801, upload-time = "2025-12-06T21:30:49.154Z" },
 ]
+
+[[package]]
+name = "requestkit"
+version = "0.1.0"
+source = { editable = "requestkit" }
+
+[package.dev-dependencies]
+dev = [
+    { name = "pytest" },
+]
+
+[package.metadata]
+
+[package.metadata.requires-dev]
+dev = [{ name = "pytest", specifier = ">=8.4.2" }]
 
 [[package]]
 name = "secretstorage"
