@@ -12,6 +12,9 @@ The format is based on Keep a Changelog, and this project follows Semantic Versi
 - Phase 3 browser extraction for Firefox, Chromium, and WebKit sources.
 - Phase 4 Chromium decryption hardening, per-mode failure accounting, and redacted diagnostics helpers.
 - Phase 5 packaging baseline, stable API docs, CLI docs/examples, and build/smoke workflows.
+- Added `export-browser` as the primary one-shot CLI for exporting cookies from logged-in browser profiles.
+- Added `export_browser_cookies()` and `BrowserExportResult` for one-shot library exports.
+- Reworked the README docs around the primary browser-to-`cookies.txt` workflow.
 
 ## [0.1.0] - 2026-03-05
 

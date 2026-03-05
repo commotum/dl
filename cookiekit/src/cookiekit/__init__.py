@@ -1,7 +1,7 @@
 """Standalone cookie management toolkit."""
 
 from .checks import CheckResult, check_required_cookies
-from .browser import load_browser_cookies
+from .browser import BrowserExportResult, export_browser_cookies, load_browser_cookies
 from .cookiestxt import dumps_cookies_txt, load_cookies_txt, save_cookies_txt
 from .diagnostics import redact_header_value, redact_headers, redact_http_header_lines
 from .selectors import load_rotate_index, save_rotate_index, select_source
@@ -10,11 +10,13 @@ from .sources import CookieSource, LoadedCookies, load_source, parse_source, res
 
 __all__ = [
     "BrowserSpec",
+    "BrowserExportResult",
     "CheckResult",
     "CookieSource",
     "LoadedCookies",
     "check_required_cookies",
     "dumps_cookies_txt",
+    "export_browser_cookies",
     "load_browser_cookies",
     "load_rotate_index",
     "load_source",

@@ -7,10 +7,11 @@ import json
 import random
 from dataclasses import asdict
 
+from .browser import BrowserExportResult, export_browser_cookies
 from .checks import check_required_cookies
 from .cookiestxt import load_cookies_txt, save_cookies_txt
 from .selectors import load_rotate_index, save_rotate_index, select_source
-from .spec import parse_browser_spec
+from .spec import BrowserSpec, SUPPORTED_BROWSERS, parse_browser_spec
 from .sources import load_source, parse_source, resolve_update_target
 
 
@@ -56,6 +57,73 @@ def _cmd_check(args: argparse.Namespace) -> int:
         print("OK")
         return 0
     return 1
+
+
+def _build_export_browser_spec(args: argparse.Namespace) -> BrowserSpec:
+    if args.spec:
+        extras = {
+            "--domain": args.domain,
+            "--profile": args.profile,
+            "--keyring": args.keyring,
+            "--container": args.container,
+        }
+        used = [name for name, value in extras.items() if value]
+        if used:
+            names = ", ".join(used)
+            raise ValueError(f"--spec cannot be combined with {names}")
+        return parse_browser_spec(args.spec)
+
+    return BrowserSpec(
+        browser=args.browser,
+        profile=args.profile,
+        keyring=args.keyring,
+        container=args.container,
+        domain=args.domain,
+    )
+
+
+def _emit_export_browser_result(result: BrowserExportResult, *, as_json: bool) -> None:
+    payload = {
+        "browser": result.spec.browser,
+        "profile": result.spec.profile,
+        "keyring": result.spec.keyring,
+        "container": result.spec.container,
+        "domain": result.spec.domain,
+        "output": str(result.output),
+        "cookie_count": result.cookie_count,
+    }
+    if result.chromium_decryption is not None:
+        payload["chromium_decryption"] = result.chromium_decryption
+
+    if as_json:
+        print(json.dumps(payload, indent=2, sort_keys=True))
+        return
+
+    print(f"Exported {result.cookie_count} cookies to {result.output}")
+    print(f"Browser: {result.spec.browser}")
+    if result.spec.profile:
+        print(f"Profile: {result.spec.profile}")
+    if result.spec.container:
+        print(f"Container: {result.spec.container}")
+    if result.spec.domain:
+        print(f"Domain filter: {result.spec.domain}")
+    if result.chromium_decryption is not None:
+        stats = result.chromium_decryption
+        print("Chromium decryption stats:", json.dumps(stats, sort_keys=True))
+        if stats.get("failed", 0):
+            print(f"Warning: skipped {stats['failed']} encrypted cookies that could not be decrypted")
+
+
+def _cmd_export_browser(args: argparse.Namespace) -> int:
+    try:
+        spec = _build_export_browser_spec(args)
+        result = export_browser_cookies(spec, args.output, atomic=not args.no_atomic)
+    except Exception as exc:
+        print(f"Browser export error: {exc}")
+        return 2
+
+    _emit_export_browser_result(result, as_json=args.json)
+    return 0
 
 
 def _cmd_sync(args: argparse.Namespace) -> int:
@@ -150,6 +218,55 @@ def _build_parser() -> argparse.ArgumentParser:
         help="Warn for cookies expiring in less than this many seconds",
     )
     check.set_defaults(func=_cmd_check)
+
+    export_browser = subparsers.add_parser(
+        "export-browser",
+        help="Load cookies directly from a logged-in browser profile and write cookies.txt.",
+    )
+    export_input = export_browser.add_mutually_exclusive_group(required=True)
+    export_input.add_argument(
+        "--spec",
+        help="Full browser spec: BROWSER[/DOMAIN][+KEYRING][:PROFILE][::CONTAINER]",
+    )
+    export_input.add_argument(
+        "--browser",
+        choices=tuple(sorted(SUPPORTED_BROWSERS)),
+        help="Browser family when passing profile/domain/container as separate flags.",
+    )
+    export_browser.add_argument(
+        "--profile",
+        help="Browser profile name or path. Omit to auto-pick the most recently used profile.",
+    )
+    export_browser.add_argument(
+        "--domain",
+        help="Optional domain filter. Use .example.com to include subdomains.",
+    )
+    export_browser.add_argument(
+        "--keyring",
+        help="Optional Chromium keyring override: kwallet|gnomekeyring|basictext",
+    )
+    export_browser.add_argument(
+        "--container",
+        help="Optional Firefox container name. Use 'all' for all containers.",
+    )
+    export_browser.add_argument(
+        "-o",
+        "--output",
+        "--cookies-export",
+        required=True,
+        help="Output cookies.txt path",
+    )
+    export_browser.add_argument(
+        "--json",
+        action="store_true",
+        help="Print a machine-readable JSON summary instead of plain text.",
+    )
+    export_browser.add_argument(
+        "--no-atomic",
+        action="store_true",
+        help="Write directly to output file instead of temp-file replace.",
+    )
+    export_browser.set_defaults(func=_cmd_export_browser)
 
     sync = subparsers.add_parser(
         "sync",

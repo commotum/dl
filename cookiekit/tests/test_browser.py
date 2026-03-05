@@ -14,6 +14,7 @@ from cookiekit.browser import (
     MacChromiumCookieDecryptor,
     WindowsChromiumCookieDecryptor,
     _build_chromium_cookie_decryptor,
+    export_browser_cookies,
     _get_gnome_keyring_password,
     load_browser_cookies,
     load_chromium_cookies,
@@ -218,6 +219,24 @@ class BrowserTests(unittest.TestCase):
         self.assertEqual(len(cookies), 1)
         self.assertEqual(cookies[0].name, "sid")
         self.assertEqual(cookies[0].value, "abc")
+
+    def test_export_browser_cookies_helper(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            profile_dir = Path(temp_dir) / "default-release"
+            profile_dir.mkdir(parents=True)
+            db = profile_dir / "cookies.sqlite"
+            create_firefox_db(db)
+            output = Path(temp_dir) / "cookies.txt"
+
+            result = export_browser_cookies(
+                BrowserSpec(browser="firefox", profile=str(profile_dir), domain=".example.com"),
+                output,
+            )
+
+            self.assertEqual(result.cookie_count, 2)
+            self.assertEqual(result.output, output)
+            self.assertIsNone(result.chromium_decryption)
+            self.assertTrue(output.exists())
 
     def test_chromium_decryption_failure_accounting(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:

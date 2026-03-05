@@ -1,10 +1,12 @@
 # Cookie CLI + Library Build Plan (uv-first)
 
+For a condensed `uv`-only reference, see [`../building-clis-uv-summary.md`](../building-clis-uv-summary.md).
+
 ## Scope
 
 This plan is based on:
 
-- `/home/jake/Developer/dl/cookie-features.md` (gallery-dl cookie capability inventory)
+- `/home/jake/Developer/dl/V1/cookie-features.md` (gallery-dl cookie capability inventory)
 - A full review of all files in `/home/jake/Developer/dl/uv-docs` (21 files, including `Commands _ uv.md`)
 
 The goal is to build a standalone cookie package that is:

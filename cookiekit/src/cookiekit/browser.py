@@ -20,11 +20,13 @@ from pathlib import Path
 from typing import Iterable
 from urllib.parse import quote
 
+from .cookiestxt import save_cookies_txt
 from .spec import (
     BrowserSpec,
     SUPPORTED_BROWSERS_CHROMIUM,
     SUPPORTED_BROWSERS_FIREFOX,
     SUPPORTED_BROWSERS_WEBKIT,
+    parse_browser_spec,
 )
 
 SUPPORTED_KEYRINGS = {"kwallet", "gnomekeyring", "basictext"}
@@ -32,15 +34,49 @@ logger = logging.getLogger(__name__)
 _AES_BACKEND_UNAVAILABLE_LOGGED = False
 
 
+@dataclass(frozen=True)
+class BrowserExportResult:
+    spec: BrowserSpec
+    output: Path
+    cookie_count: int
+    chromium_decryption: dict[str, int] | None = None
+
+
 def load_browser_cookies(spec: BrowserSpec) -> list[Cookie]:
+    cookies, _diagnostics = _load_browser_cookies_with_diagnostics(spec)
+    return cookies
+
+
+def export_browser_cookies(
+    spec: BrowserSpec | str,
+    output: str | Path,
+    *,
+    atomic: bool = True,
+) -> BrowserExportResult:
+    parsed = parse_browser_spec(spec) if isinstance(spec, str) else spec
+    cookies, diagnostics = _load_browser_cookies_with_diagnostics(parsed)
+    output_path = Path(output).expanduser()
+    save_cookies_txt(output_path, cookies, atomic=atomic)
+    return BrowserExportResult(
+        spec=parsed,
+        output=output_path,
+        cookie_count=len(cookies),
+        chromium_decryption=diagnostics,
+    )
+
+
+def _load_browser_cookies_with_diagnostics(
+    spec: BrowserSpec,
+) -> tuple[list[Cookie], dict[str, int] | None]:
     _validate_keyring(spec)
 
     if spec.browser in SUPPORTED_BROWSERS_FIREFOX:
-        return load_firefox_cookies(spec)
+        return load_firefox_cookies(spec), None
     if spec.browser in SUPPORTED_BROWSERS_CHROMIUM:
-        return load_chromium_cookies(spec)
+        cookies, stats = load_chromium_cookies(spec, return_diagnostics=True)
+        return cookies, stats.as_dict()
     if spec.browser in SUPPORTED_BROWSERS_WEBKIT:
-        return load_webkit_cookies(spec)
+        return load_webkit_cookies(spec), None
 
     raise ValueError(f"unsupported browser {spec.browser!r}")
 

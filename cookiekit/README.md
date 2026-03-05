@@ -1,27 +1,29 @@
 # cookiekit
 
-Cookie extraction, validation, and sync toolkit for downloader workflows.
+`cookiekit` is a compact library and CLI for exporting cookies from browsers where you are already logged in.
 
-`cookiekit` ships as:
-- A Python library for loading, selecting, validating, and extracting cookies.
-- A CLI (`cookiekit`) for cookie-only workflows, including browser-source sync.
+Primary use case:
+
+- select a browser/profile/container that already has the session you want
+- optionally filter to a target domain
+- write a Netscape `cookies.txt` file
 
 ## Install
 
-From source workspace:
+From this workspace:
 
 ```bash
 uv sync --package cookiekit
 ```
 
-From built artifact:
+From a built artifact:
 
 ```bash
 uv build --package cookiekit --no-sources
 python -m pip install dist/cookiekit-*.whl
 ```
 
-## CLI
+## Fastest CLI Path
 
 Show help:
 
@@ -29,114 +31,122 @@ Show help:
 uv run --package cookiekit cookiekit --help
 ```
 
-Core commands:
+Export cookies from Chrome:
 
 ```bash
-uv run --package cookiekit cookiekit load path/to/cookies.txt
-uv run --package cookiekit cookiekit save --input in.txt --output out.txt
-uv run --package cookiekit cookiekit check path/to/cookies.txt --require sessionid
-uv run --package cookiekit cookiekit parse-spec "firefox/.example.com::Work"
-uv run --package cookiekit cookiekit sync --source a.txt --source b.txt --select rotate
-uv run --package cookiekit cookiekit noop --source cookies.txt --cookies-update auto
+uv run --package cookiekit cookiekit export-browser \
+  --browser chrome \
+  --domain .github.com \
+  --output github-cookies.txt
 ```
 
-### Source Selection
-
-Use multiple `--source` values and one selection mode:
-- `first` (default)
-- `random` (`--random-seed` for deterministic behavior)
-- `rotate` (persistent index via `--rotate-state-file`)
-
-Example:
+Export cookies from Firefox using a profile and container:
 
 ```bash
-uv run --package cookiekit cookiekit sync \
-  --source cookies-primary.txt \
-  --source browser:firefox/.example.com:default-release \
-  --select rotate \
-  --rotate-state-file .cookiekit.rotate-state.json \
-  --cookies-update auto
+uv run --package cookiekit cookiekit export-browser \
+  --browser firefox \
+  --profile default-release \
+  --container Work \
+  --domain .instagram.com \
+  --output instagram-cookies.txt
 ```
 
-### Browser Source Spec
+Use a full browser spec if you already have one:
 
-Browser sources use:
-
-```text
-browser:<BROWSER[/DOMAIN][+KEYRING][:PROFILE][::CONTAINER]>
+```bash
+uv run --package cookiekit cookiekit export-browser \
+  --spec "chrome/.github.com:Default" \
+  --output github-cookies.txt
 ```
 
-Examples:
+Machine-readable summary:
 
-```text
-browser:firefox/.example.com:default-release::Work
-browser:chrome/.example.com+gnomekeyring:Default
-browser:chrome/.example.com+kwallet:Default
-browser:safari/.example.com
+```bash
+uv run --package cookiekit cookiekit export-browser \
+  --browser chrome \
+  --domain .github.com \
+  --output github-cookies.txt \
+  --json
 ```
 
-### Update Behavior
+## Browser Arguments
 
-`--cookies-update` controls persistence after loading selected source:
-- `auto`: update selected file source only (browser source does not auto-write)
-- `off`: do not persist
-- `<path>`: always write to explicit path
+Supported browsers:
 
-## Stable Library API (V1)
+- Chromium family: `brave`, `chrome`, `chromium`, `edge`, `opera`, `thorium`, `vivaldi`
+- Firefox family: `firefox`, `librewolf`, `zen`, `floorp`
+- WebKit family: `safari`, `orion`
 
-Public imports are re-exported from `cookiekit`:
+Important flags:
+
+- `--profile`: browser profile name or path. Omit it to auto-pick the most recently used matching profile.
+- `--domain`: optional site filter. Use `.example.com` to include subdomains.
+- `--container`: Firefox-only container selection.
+- `--keyring`: Chromium-only Linux keyring override (`kwallet`, `gnomekeyring`, `basictext`).
+
+## Library
+
+One-shot export:
+
+```python
+from cookiekit import export_browser_cookies
+
+result = export_browser_cookies(
+    "chrome/.github.com:Default",
+    "github-cookies.txt",
+)
+print(result.cookie_count)
+```
+
+In-memory load:
+
+```python
+from cookiekit import load_browser_cookies, parse_browser_spec
+
+spec = parse_browser_spec("firefox/.instagram.com:default-release::Work")
+cookies = load_browser_cookies(spec)
+print(len(cookies))
+```
+
+Stable imports:
 
 ```python
 from cookiekit import (
+    BrowserExportResult,
     BrowserSpec,
     CheckResult,
     CookieSource,
     LoadedCookies,
     check_required_cookies,
     dumps_cookies_txt,
+    export_browser_cookies,
     load_browser_cookies,
     load_cookies_txt,
+    load_rotate_index,
+    load_source,
     parse_browser_spec,
     parse_source,
-    load_source,
-    select_source,
-    resolve_update_target,
-    save_cookies_txt,
-    load_rotate_index,
-    save_rotate_index,
     redact_header_value,
     redact_headers,
     redact_http_header_lines,
+    resolve_update_target,
+    save_cookies_txt,
+    save_rotate_index,
+    select_source,
 )
 ```
 
-### Minimal Library Example
+## Other CLI Commands
 
-```python
-from cookiekit import parse_source, load_source, check_required_cookies
+- `parse-spec`: parse a browser spec and print JSON
+- `load`: load a `cookies.txt` file and print a summary
+- `save`: copy/normalize a `cookies.txt` file
+- `check`: verify required cookies by name/domain/expiration
+- `sync` / `noop`: advanced multi-source flows with file sources, browser sources, and source selection
 
-source = parse_source("browser:firefox/.example.com:default-release")
-loaded = load_source(source)
-result = check_required_cookies(loaded.cookies, ["sessionid"], domain=".example.com")
-print(result.ok, result.missing, result.expired)
-```
+## Notes
 
-## Browser Decryption Notes
-
+- `cookiekit` does not log in to sites. It only reads existing browser sessions.
+- If you maintain multiple accounts, keep them in separate browser profiles or Firefox containers and select the right one at export time.
 - Chromium encrypted-cookie decryption uses `pycryptodome`.
-- Linux keyring extraction uses `secretstorage` for GNOME keyring and `kwallet-query` for KWallet.
-- If AES/keyring access is unavailable, decryption failures are counted and surfaced by diagnostics instead of crashing.
-
-## Development
-
-Run tests:
-
-```bash
-uv run --package cookiekit --group dev pytest -q
-```
-
-Build:
-
-```bash
-uv build --package cookiekit --no-sources
-```
+- Linux keyring access uses `secretstorage` for GNOME keyring and `kwallet-query` for KWallet.

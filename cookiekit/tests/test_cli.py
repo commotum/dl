@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 import io
+import json
+import sqlite3
 import tempfile
 import unittest
 from contextlib import redirect_stdout
@@ -31,6 +33,31 @@ def make_cookie(name: str, value: str, domain: str) -> Cookie:
         rest={},
         rfc2109=False,
     )
+
+
+def create_firefox_db(path: Path) -> None:
+    conn = sqlite3.connect(path)
+    try:
+        conn.execute(
+            """
+            CREATE TABLE moz_cookies (
+                name TEXT,
+                value TEXT,
+                host TEXT,
+                path TEXT,
+                isSecure INTEGER,
+                expiry INTEGER,
+                originAttributes TEXT
+            )
+            """
+        )
+        conn.execute(
+            "INSERT INTO moz_cookies VALUES (?, ?, ?, ?, ?, ?, ?)",
+            ("sid", "browser-value", ".example.com", "/", 0, 2000000000, ""),
+        )
+        conn.commit()
+    finally:
+        conn.close()
 
 
 class CliTests(unittest.TestCase):
@@ -150,6 +177,80 @@ class CliTests(unittest.TestCase):
             )
         self.assertEqual(rc, 2)
         self.assertIn("Source error:", stdout.getvalue())
+
+    def test_export_browser_command_with_separate_flags(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            profile_dir = Path(temp_dir) / "default-release"
+            profile_dir.mkdir(parents=True)
+            create_firefox_db(profile_dir / "cookies.sqlite")
+            output = Path(temp_dir) / "exported.txt"
+
+            stdout = io.StringIO()
+            with redirect_stdout(stdout):
+                rc = main(
+                    [
+                        "export-browser",
+                        "--browser",
+                        "firefox",
+                        "--profile",
+                        str(profile_dir),
+                        "--domain",
+                        ".example.com",
+                        "--output",
+                        str(output),
+                    ]
+                )
+
+            self.assertEqual(rc, 0)
+            self.assertIn(f"Exported 1 cookies to {output}", stdout.getvalue())
+            cookies = load_cookies_txt(output)
+            self.assertEqual(len(cookies), 1)
+            self.assertEqual(cookies[0].value, "browser-value")
+
+    def test_export_browser_command_json_output(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            profile_dir = Path(temp_dir) / "default-release"
+            profile_dir.mkdir(parents=True)
+            create_firefox_db(profile_dir / "cookies.sqlite")
+            output = Path(temp_dir) / "exported.json.txt"
+
+            stdout = io.StringIO()
+            with redirect_stdout(stdout):
+                rc = main(
+                    [
+                        "export-browser",
+                        "--spec",
+                        f"firefox/.example.com:{profile_dir}",
+                        "--output",
+                        str(output),
+                        "--json",
+                    ]
+                )
+
+            self.assertEqual(rc, 0)
+            payload = json.loads(stdout.getvalue())
+            self.assertEqual(payload["browser"], "firefox")
+            self.assertEqual(payload["domain"], ".example.com")
+            self.assertEqual(payload["cookie_count"], 1)
+            self.assertEqual(payload["output"], str(output))
+
+    def test_export_browser_rejects_spec_with_extra_flags(self) -> None:
+        stdout = io.StringIO()
+        with redirect_stdout(stdout):
+            rc = main(
+                [
+                    "export-browser",
+                    "--spec",
+                    "firefox",
+                    "--profile",
+                    "default-release",
+                    "--output",
+                    "out.txt",
+                ]
+            )
+
+        self.assertEqual(rc, 2)
+        self.assertIn("--spec cannot be combined with --profile", stdout.getvalue())
 
 
 if __name__ == "__main__":
