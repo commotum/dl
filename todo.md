@@ -33,14 +33,20 @@ Implementation target:
 
 ## Phase 3: Browser extraction (Firefox + Chromium + WebKit)
 
-Status: pending
+Status: complete (Phase 4 decryption deferred)
 
-- [ ] Profile discovery
-- [ ] Domain filtering
-- [ ] Firefox container filtering
-- [ ] SQLite lock-safe read strategy (ro/immutable then copy fallback)
-- [ ] Cross-platform SQL behavior fixtures/tests
-- [ ] Clear unsupported browser/keyring errors
+- [x] Profile discovery
+- [x] Domain filtering
+- [x] Firefox container filtering
+- [x] SQLite lock-safe read strategy (ro/immutable then copy fallback)
+- [x] Cross-platform SQL behavior fixtures/tests
+- [x] Clear unsupported browser/keyring errors
+
+Notes:
+- Implemented in `cookiekit/src/cookiekit/browser.py`
+- Browser sources now wired through `cookiekit/src/cookiekit/sources.py`
+- Added tests in `cookiekit/tests/test_browser.py`
+- Chromium encrypted-cookie decryption is intentionally deferred to Phase 4
 
 ## Phase 4: Decryption hardening + diagnostics
 
@@ -66,7 +72,6 @@ Status: partially started
 
 ## Immediate next tasks
 
-- [ ] Start Phase 3 browser extraction implementation
-- [ ] Implement Firefox profile/container/domain filtering
-- [ ] Implement Chromium profile/domain extraction scaffolding
-- [ ] Add SQLite read-only/immutable + copy fallback path
+- [ ] Start Phase 4 decryption implementation (Linux/macOS/Windows)
+- [ ] Add decrypt failure accounting and diagnostics
+- [ ] Add log redaction behavior and tests

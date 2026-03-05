@@ -75,7 +75,7 @@ def _cmd_sync(args: argparse.Namespace) -> int:
 
     try:
         loaded = load_source(selected)
-    except NotImplementedError as exc:
+    except Exception as exc:
         print(f"Source error: {exc}")
         return 2
 

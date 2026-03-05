@@ -138,12 +138,18 @@ class CliTests(unittest.TestCase):
             self.assertIn(f"Updated cookies at: {output}", stdout.getvalue())
             self.assertEqual(len(load_cookies_txt(output)), 1)
 
-    def test_sync_browser_source_not_implemented(self) -> None:
+    def test_sync_browser_source_failure_message(self) -> None:
         stdout = io.StringIO()
         with redirect_stdout(stdout):
-            rc = main(["sync", "--source", "browser:firefox"])
+            rc = main(
+                [
+                    "sync",
+                    "--source",
+                    "browser:firefox:/definitely/not/a/real/profile/path",
+                ]
+            )
         self.assertEqual(rc, 2)
-        self.assertIn("not implemented yet", stdout.getvalue())
+        self.assertIn("Source error:", stdout.getvalue())
 
 
 if __name__ == "__main__":

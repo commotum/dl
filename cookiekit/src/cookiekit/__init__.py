@@ -1,6 +1,7 @@
 """Standalone cookie management toolkit."""
 
 from .checks import CheckResult, check_required_cookies
+from .browser import load_browser_cookies
 from .cookiestxt import dumps_cookies_txt, load_cookies_txt, save_cookies_txt
 from .selectors import load_rotate_index, save_rotate_index, select_source
 from .spec import BrowserSpec, parse_browser_spec
@@ -13,6 +14,7 @@ __all__ = [
     "LoadedCookies",
     "check_required_cookies",
     "dumps_cookies_txt",
+    "load_browser_cookies",
     "load_rotate_index",
     "load_source",
     "load_cookies_txt",

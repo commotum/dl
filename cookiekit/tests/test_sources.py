@@ -54,6 +54,12 @@ class SourceTests(unittest.TestCase):
             output_path = str(Path(temp_dir) / "out.txt")
             self.assertEqual(resolve_update_target(output_path, loaded), output_path)
 
+    def test_browser_source_parse_and_not_found(self) -> None:
+        source = parse_source("browser:firefox:/definitely/not/a/real/profile/path")
+        self.assertEqual(source.kind, "browser")
+        with self.assertRaises(FileNotFoundError):
+            load_source(source)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -5,6 +5,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from http.cookiejar import Cookie
 
+from .browser import load_browser_cookies
 from .cookiestxt import load_cookies_txt
 from .spec import parse_browser_spec
 
@@ -46,8 +47,12 @@ def load_source(source: CookieSource) -> LoadedCookies:
         )
 
     if source.kind == "browser":
-        raise NotImplementedError(
-            f"browser source extraction is not implemented yet (Phase 3): {source.value}"
+        spec = parse_browser_spec(source.value)
+        cookies = tuple(load_browser_cookies(spec))
+        return LoadedCookies(
+            source=source,
+            cookies=cookies,
+            update_candidate=None,
         )
 
     raise ValueError(f"unsupported source type: {source.kind!r}")
