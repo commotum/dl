@@ -50,13 +50,18 @@ Notes:
 
 ## Phase 4: Decryption hardening + diagnostics
 
-Status: pending
+Status: complete (core implementation)
 
-- [ ] OS-specific decrypt paths (Linux/macOS/Windows)
-- [ ] Per-mode decryption failure accounting
-- [ ] Redacted logging for sensitive values
-- [ ] Decrypt failure-mode tests
-- [ ] Log redaction tests
+- [x] OS-specific decrypt paths (Linux/macOS/Windows)
+- [x] Per-mode decryption failure accounting
+- [x] Redacted logging for sensitive values
+- [x] Decrypt failure-mode tests
+- [x] Log redaction tests
+
+Notes:
+- Implemented in `cookiekit/src/cookiekit/browser.py` and `cookiekit/src/cookiekit/diagnostics.py`
+- Added tests in `cookiekit/tests/test_browser.py` and `cookiekit/tests/test_diagnostics.py`
+- Chromium AES decryption requires an AES backend (`pycryptodome`); failure is counted/diagnosed when unavailable
 
 ## Phase 5: Packaging + external consumption
 
@@ -72,6 +77,7 @@ Status: partially started
 
 ## Immediate next tasks
 
-- [ ] Start Phase 4 decryption implementation (Linux/macOS/Windows)
-- [ ] Add decrypt failure accounting and diagnostics
-- [ ] Add log redaction behavior and tests
+- [ ] Start Phase 5 packaging and external-consumption hardening
+- [ ] Add stable library API docs and richer CLI examples
+- [ ] Add changelog/versioning workflow
+- [ ] Run `uv build --no-sources` and add publish smoke checks

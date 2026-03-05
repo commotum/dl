@@ -2,13 +2,19 @@
 
 from __future__ import annotations
 
+import base64
+import ctypes
 import json
+import logging
 import os
 import shutil
 import sqlite3
 import struct
+import subprocess
 import tempfile
 from contextlib import contextmanager
+from dataclasses import dataclass
+from hashlib import pbkdf2_hmac
 from http.cookiejar import Cookie
 from pathlib import Path
 from typing import Iterable
@@ -22,6 +28,8 @@ from .spec import (
 )
 
 SUPPORTED_KEYRINGS = {"kwallet", "gnomekeyring", "basictext"}
+logger = logging.getLogger(__name__)
+_AES_BACKEND_UNAVAILABLE_LOGGED = False
 
 
 def load_browser_cookies(spec: BrowserSpec) -> list[Cookie]:
@@ -294,7 +302,135 @@ def firefox_profile_roots(browser: str) -> tuple[str, ...]:
     return mapping[browser]
 
 
-def load_chromium_cookies(spec: BrowserSpec) -> list[Cookie]:
+@dataclass
+class ChromiumDecryptionStats:
+    v10: int = 0
+    v11: int = 0
+    other: int = 0
+    unencrypted: int = 0
+    decrypted: int = 0
+    failed: int = 0
+
+    def as_dict(self) -> dict[str, int]:
+        return {
+            "v10": self.v10,
+            "v11": self.v11,
+            "other": self.other,
+            "unencrypted": self.unencrypted,
+            "decrypted": self.decrypted,
+            "failed": self.failed,
+        }
+
+
+class ChromiumCookieDecryptor:
+    def __init__(self, meta_version: int = 0) -> None:
+        self.stats = ChromiumDecryptionStats()
+        self.offset = 32 if meta_version >= 24 else 0
+
+    def decrypt(self, encrypted_value: bytes) -> str | None:
+        raise NotImplementedError
+
+    def _count_version(self, version: bytes) -> None:
+        if version == b"v10":
+            self.stats.v10 += 1
+        elif version == b"v11":
+            self.stats.v11 += 1
+        else:
+            self.stats.other += 1
+
+
+class LinuxChromiumCookieDecryptor(ChromiumCookieDecryptor):
+    def __init__(
+        self,
+        browser_keyring_name: str,
+        keyring: str | None,
+        meta_version: int = 0,
+    ) -> None:
+        super().__init__(meta_version=meta_version)
+        password = _get_linux_keyring_password(browser_keyring_name, keyring)
+        self.empty_key = _pbkdf2_sha1(b"", b"saltysalt", 1, 16)
+        self.v10_key = _pbkdf2_sha1(b"peanuts", b"saltysalt", 1, 16)
+        self.v11_key = None if password is None else _pbkdf2_sha1(password, b"saltysalt", 1, 16)
+
+    def decrypt(self, encrypted_value: bytes) -> str | None:
+        version = encrypted_value[:3]
+        ciphertext = encrypted_value[3:]
+        self._count_version(version)
+
+        if version == b"v10":
+            value = _decrypt_aes_cbc(ciphertext, self.v10_key, offset=self.offset)
+        elif version == b"v11":
+            if self.v11_key is None:
+                logger.debug("linux v11 cookie present but no keyring key available")
+                value = None
+            else:
+                value = _decrypt_aes_cbc(ciphertext, self.v11_key, offset=self.offset)
+        else:
+            return None
+
+        if value is None:
+            # Match gallery-dl/yt-dlp behavior: retry with empty-key fallback.
+            value = _decrypt_aes_cbc(ciphertext, self.empty_key, offset=self.offset)
+        return value
+
+
+class MacChromiumCookieDecryptor(ChromiumCookieDecryptor):
+    def __init__(self, browser_keyring_name: str, meta_version: int = 0) -> None:
+        super().__init__(meta_version=meta_version)
+        password = _get_mac_keyring_password(browser_keyring_name)
+        self.v10_key = None if password is None else _pbkdf2_sha1(password, b"saltysalt", 1003, 16)
+
+    def decrypt(self, encrypted_value: bytes) -> str | None:
+        version = encrypted_value[:3]
+        ciphertext = encrypted_value[3:]
+        self._count_version(version)
+
+        if version == b"v10":
+            if self.v10_key is None:
+                return None
+            return _decrypt_aes_cbc(ciphertext, self.v10_key, offset=self.offset)
+
+        # Older Mac formats can be plaintext bytes.
+        try:
+            return encrypted_value.decode("utf-8", errors="replace")
+        except Exception:
+            return None
+
+
+class WindowsChromiumCookieDecryptor(ChromiumCookieDecryptor):
+    def __init__(self, browser_root: Path, meta_version: int = 0) -> None:
+        super().__init__(meta_version=meta_version)
+        self.v10_key = _get_windows_v10_key(browser_root)
+
+    def decrypt(self, encrypted_value: bytes) -> str | None:
+        version = encrypted_value[:3]
+        ciphertext = encrypted_value[3:]
+        self._count_version(version)
+
+        if version == b"v10":
+            if self.v10_key is None:
+                return None
+            nonce_length = 12
+            tag_length = 16
+            raw = ciphertext
+            if len(raw) <= nonce_length + tag_length:
+                return None
+            nonce = raw[:nonce_length]
+            body = raw[nonce_length:-tag_length]
+            tag = raw[-tag_length:]
+            return _decrypt_aes_gcm(body, self.v10_key, nonce, tag, offset=self.offset)
+
+        value = _decrypt_windows_dpapi(encrypted_value)
+        if value is None:
+            return None
+        return value.decode("utf-8", errors="replace")
+
+
+def load_chromium_cookies(
+    spec: BrowserSpec,
+    *,
+    return_diagnostics: bool = False,
+) -> list[Cookie] | tuple[list[Cookie], ChromiumDecryptionStats]:
     db_path = resolve_chromium_cookie_db(spec.browser, spec.profile)
     domain_filter, domain_params = _domain_condition("host_key", spec.domain)
 
@@ -302,24 +438,38 @@ def load_chromium_cookies(spec: BrowserSpec) -> list[Cookie]:
     if domain_filter:
         sql += " WHERE (" + domain_filter + ")"
 
-    cookies: list[Cookie] = []
     with sqlite_cookie_db(db_path) as conn:
         conn.text_factory = bytes
+        meta_version = _read_chromium_meta_version(conn)
         try:
             rows = conn.execute(sql, domain_params).fetchall()
         except sqlite3.OperationalError:
             sql = sql.replace("is_secure", "secure")
             rows = conn.execute(sql, domain_params).fetchall()
 
+    decryptor = _build_chromium_cookie_decryptor(
+        browser=spec.browser,
+        db_path=db_path,
+        keyring=spec.keyring,
+        meta_version=meta_version,
+    )
+    cookies: list[Cookie] = []
+
     for host_key, name, value, encrypted_value, path, expires_utc, is_secure in rows:
         host = _decode_sql_value(host_key)
         cookie_name = _decode_sql_value(name)
         plain_value = _decode_sql_value(value)
-        encrypted_blob = encrypted_value or b""
+        encrypted_blob = bytes(encrypted_value or b"")
 
         if not plain_value and encrypted_blob:
-            # Phase 4 adds decryption support.
-            continue
+            decrypted = decryptor.decrypt(encrypted_blob)
+            if decrypted is None:
+                decryptor.stats.failed += 1
+                continue
+            plain_value = decrypted
+            decryptor.stats.decrypted += 1
+        else:
+            decryptor.stats.unencrypted += 1
 
         expires = _chromium_epoch_to_unix(expires_utc)
         cookies.append(
@@ -333,6 +483,9 @@ def load_chromium_cookies(spec: BrowserSpec) -> list[Cookie]:
             )
         )
 
+    logger.debug("chromium decryption stats (%s): %s", spec.browser, decryptor.stats.as_dict())
+    if return_diagnostics:
+        return cookies, decryptor.stats
     return cookies
 
 
@@ -355,6 +508,266 @@ def _chromium_epoch_to_unix(expires_utc: object) -> int | None:
         return None
     # microseconds since 1601-01-01 -> seconds since 1970-01-01
     return value // 1_000_000 - 11_644_473_600
+
+
+def _read_chromium_meta_version(conn: sqlite3.Connection) -> int:
+    try:
+        value = conn.execute("SELECT value FROM meta WHERE key = 'version'").fetchone()
+    except Exception:
+        return 0
+    if not value:
+        return 0
+    raw = value[0]
+    if isinstance(raw, bytes):
+        raw = raw.decode("utf-8", errors="ignore")
+    try:
+        return int(raw)
+    except (TypeError, ValueError):
+        return 0
+
+
+def _chromium_keyring_name(browser: str) -> str:
+    if sys_platform() == "darwin":
+        mapping = {
+            "brave": "Brave",
+            "chrome": "Chrome",
+            "chromium": "Chromium",
+            "edge": "Microsoft Edge",
+            "opera": "Opera",
+            "thorium": "Thorium",
+            "vivaldi": "Vivaldi",
+        }
+    else:
+        mapping = {
+            "brave": "Brave",
+            "chrome": "Chrome",
+            "chromium": "Chromium",
+            "edge": "Chromium",
+            "opera": "Chromium",
+            "thorium": "Thorium",
+            "vivaldi": "Chrome",
+        }
+    return mapping[browser]
+
+
+def _build_chromium_cookie_decryptor(
+    *,
+    browser: str,
+    db_path: Path,
+    keyring: str | None,
+    meta_version: int,
+) -> ChromiumCookieDecryptor:
+    platform = sys_platform()
+    if platform in {"win32", "cygwin"}:
+        return WindowsChromiumCookieDecryptor(
+            browser_root=_infer_chromium_browser_root(db_path),
+            meta_version=meta_version,
+        )
+    if platform == "darwin":
+        return MacChromiumCookieDecryptor(
+            browser_keyring_name=_chromium_keyring_name(browser),
+            meta_version=meta_version,
+        )
+    return LinuxChromiumCookieDecryptor(
+        browser_keyring_name=_chromium_keyring_name(browser),
+        keyring=keyring,
+        meta_version=meta_version,
+    )
+
+
+def _infer_chromium_browser_root(db_path: Path) -> Path:
+    for parent in [db_path.parent] + list(db_path.parents):
+        if (parent / "Local State").is_file():
+            return parent
+    return db_path.parent
+
+
+def _pbkdf2_sha1(password: bytes, salt: bytes, iterations: int, key_length: int) -> bytes:
+    return pbkdf2_hmac("sha1", password, salt, iterations, dklen=key_length)
+
+
+def _decrypt_aes_cbc(ciphertext: bytes, key: bytes, *, offset: int = 0) -> str | None:
+    aes = _load_aes_module()
+    if aes is None:
+        return None
+    iv = b" " * 16
+    try:
+        cipher = aes.new(key, aes.MODE_CBC, iv=iv)
+        plaintext = cipher.decrypt(ciphertext)
+        pad = plaintext[-1]
+        if pad <= 0 or pad > 16:
+            return None
+        plaintext = plaintext[:-pad]
+        if offset:
+            plaintext = plaintext[offset:]
+        return plaintext.decode("utf-8", errors="replace")
+    except Exception:
+        return None
+
+
+def _decrypt_aes_gcm(
+    ciphertext: bytes,
+    key: bytes,
+    nonce: bytes,
+    tag: bytes,
+    *,
+    offset: int = 0,
+) -> str | None:
+    aes = _load_aes_module()
+    if aes is None:
+        return None
+    try:
+        cipher = aes.new(key, aes.MODE_GCM, nonce=nonce)
+        plaintext = cipher.decrypt_and_verify(ciphertext, tag)
+        if offset:
+            plaintext = plaintext[offset:]
+        return plaintext.decode("utf-8", errors="replace")
+    except Exception:
+        return None
+
+
+def _load_aes_module():
+    global _AES_BACKEND_UNAVAILABLE_LOGGED
+    try:
+        from Crypto.Cipher import AES  # type: ignore
+    except Exception:
+        try:
+            from Cryptodome.Cipher import AES  # type: ignore
+        except Exception:
+            if not _AES_BACKEND_UNAVAILABLE_LOGGED:
+                logger.debug(
+                    "AES backend unavailable; install 'pycryptodome' to enable Chromium v10/v11 decryption"
+                )
+                _AES_BACKEND_UNAVAILABLE_LOGGED = True
+            return None
+    return AES
+
+
+def _choose_linux_keyring() -> str:
+    desktop = (os.environ.get("XDG_CURRENT_DESKTOP") or os.environ.get("DESKTOP_SESSION") or "").lower()
+    if "kde" in desktop:
+        return "kwallet"
+    if desktop and all(name not in desktop for name in ("gnome", "unity", "xfce")):
+        return "basictext"
+    return "gnomekeyring"
+
+
+def _get_linux_keyring_password(browser_keyring_name: str, keyring: str | None) -> bytes | None:
+    chosen = (keyring or _choose_linux_keyring()).lower()
+    if chosen == "basictext":
+        return None
+    if chosen == "kwallet":
+        return _get_kwallet_password(browser_keyring_name)
+    if chosen == "gnomekeyring":
+        return _get_gnome_keyring_password(browser_keyring_name)
+    return b""
+
+
+def _get_kwallet_password(browser_keyring_name: str) -> bytes:
+    if shutil.which("kwallet-query") is None:
+        return b""
+    cmd = [
+        "kwallet-query",
+        "--read-password",
+        f"{browser_keyring_name} Safe Storage",
+        "--folder",
+        f"{browser_keyring_name} Keys",
+        "kdewallet",
+    ]
+    try:
+        proc = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.DEVNULL, check=False)
+    except Exception:
+        return b""
+    if proc.returncode != 0:
+        return b""
+    return proc.stdout.rstrip(b"\n")
+
+
+def _get_gnome_keyring_password(browser_keyring_name: str) -> bytes:
+    try:
+        import secretstorage  # type: ignore
+    except Exception:
+        return b""
+    con = secretstorage.dbus_init()
+    try:
+        collection = secretstorage.get_default_collection(con)
+        label = f"{browser_keyring_name} Safe Storage"
+        for item in collection.get_all_items():
+            if item.get_label() == label:
+                return item.get_secret()
+    except Exception:
+        return b""
+    finally:
+        try:
+            con.close()
+        except Exception:
+            pass
+    return b""
+
+
+def _get_mac_keyring_password(browser_keyring_name: str) -> bytes | None:
+    cmd = [
+        "security",
+        "find-generic-password",
+        "-w",
+        "-a",
+        browser_keyring_name,
+        "-s",
+        f"{browser_keyring_name} Safe Storage",
+    ]
+    try:
+        proc = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.DEVNULL, check=False)
+    except Exception:
+        return None
+    if proc.returncode != 0:
+        return None
+    return proc.stdout.rstrip(b"\n")
+
+
+def _get_windows_v10_key(browser_root: Path) -> bytes | None:
+    local_state = _find_latest_file([browser_root], "Local State")
+    if local_state is None:
+        return None
+    try:
+        data = json.loads(local_state.read_text(encoding="utf-8"))
+        encrypted_key_b64 = data["os_crypt"]["encrypted_key"]
+        encrypted_key = base64.b64decode(encrypted_key_b64)
+    except Exception:
+        return None
+    prefix = b"DPAPI"
+    if not encrypted_key.startswith(prefix):
+        return None
+    return _decrypt_windows_dpapi(encrypted_key[len(prefix) :])
+
+
+def _decrypt_windows_dpapi(ciphertext: bytes) -> bytes | None:
+    if sys_platform() not in {"win32", "cygwin"}:
+        return None
+
+    class DATA_BLOB(ctypes.Structure):
+        _fields_ = [("cbData", ctypes.c_uint32), ("pbData", ctypes.POINTER(ctypes.c_char))]
+
+    in_blob = DATA_BLOB(len(ciphertext), ctypes.cast(ctypes.create_string_buffer(ciphertext), ctypes.POINTER(ctypes.c_char)))
+    out_blob = DATA_BLOB()
+    try:
+        crypt32 = ctypes.windll.crypt32
+        kernel32 = ctypes.windll.kernel32
+        if not crypt32.CryptUnprotectData(
+            ctypes.byref(in_blob),
+            None,
+            None,
+            None,
+            None,
+            0,
+            ctypes.byref(out_blob),
+        ):
+            return None
+        try:
+            return ctypes.string_at(out_blob.pbData, out_blob.cbData)
+        finally:
+            kernel32.LocalFree(out_blob.pbData)
+    except Exception:
+        return None
 
 
 def resolve_chromium_cookie_db(browser: str, profile: str | None) -> Path:

@@ -8,7 +8,15 @@ import unittest
 from pathlib import Path
 from unittest import mock
 
-from cookiekit.browser import load_browser_cookies, parse_webkit_binarycookies
+from cookiekit.browser import (
+    LinuxChromiumCookieDecryptor,
+    MacChromiumCookieDecryptor,
+    WindowsChromiumCookieDecryptor,
+    _build_chromium_cookie_decryptor,
+    load_browser_cookies,
+    load_chromium_cookies,
+    parse_webkit_binarycookies,
+)
 from cookiekit.spec import BrowserSpec
 
 
@@ -208,6 +216,61 @@ class BrowserTests(unittest.TestCase):
         self.assertEqual(len(cookies), 1)
         self.assertEqual(cookies[0].name, "sid")
         self.assertEqual(cookies[0].value, "abc")
+
+    def test_chromium_decryption_failure_accounting(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            profile_dir = Path(temp_dir) / "Default"
+            profile_dir.mkdir(parents=True)
+            db = profile_dir / "Cookies"
+            create_chromium_db(db)
+
+            spec = BrowserSpec(browser="chrome", profile=str(profile_dir), domain="example.com")
+            cookies, stats = load_chromium_cookies(spec, return_diagnostics=True)
+            self.assertEqual(len(cookies), 1)
+            self.assertEqual(stats.unencrypted, 1)
+            self.assertEqual(stats.v10, 1)
+            self.assertEqual(stats.decrypted, 0)
+            self.assertEqual(stats.failed, 1)
+
+    def test_chromium_decryption_success_with_mock(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            profile_dir = Path(temp_dir) / "Default"
+            profile_dir.mkdir(parents=True)
+            db = profile_dir / "Cookies"
+            create_chromium_db(db)
+
+            spec = BrowserSpec(browser="chrome", profile=str(profile_dir), domain="example.com")
+            with mock.patch("cookiekit.browser._decrypt_aes_cbc", return_value="decrypted-value"):
+                cookies, stats = load_chromium_cookies(spec, return_diagnostics=True)
+
+            self.assertEqual(len(cookies), 2)
+            names = {cookie.name for cookie in cookies}
+            self.assertEqual(names, {"plain", "enc"})
+            decrypted_cookie = [cookie for cookie in cookies if cookie.name == "enc"][0]
+            self.assertEqual(decrypted_cookie.value, "decrypted-value")
+            self.assertEqual(stats.decrypted, 1)
+            self.assertEqual(stats.failed, 0)
+
+    def test_os_specific_decryptor_selection(self) -> None:
+        db_path = Path("/tmp/non-existent-cookies-db")
+
+        with mock.patch("cookiekit.browser.sys_platform", return_value="linux"):
+            dec = _build_chromium_cookie_decryptor(
+                browser="chrome", db_path=db_path, keyring="basictext", meta_version=0
+            )
+            self.assertIsInstance(dec, LinuxChromiumCookieDecryptor)
+
+        with mock.patch("cookiekit.browser.sys_platform", return_value="darwin"):
+            dec = _build_chromium_cookie_decryptor(
+                browser="chrome", db_path=db_path, keyring=None, meta_version=0
+            )
+            self.assertIsInstance(dec, MacChromiumCookieDecryptor)
+
+        with mock.patch("cookiekit.browser.sys_platform", return_value="win32"):
+            dec = _build_chromium_cookie_decryptor(
+                browser="chrome", db_path=db_path, keyring=None, meta_version=0
+            )
+            self.assertIsInstance(dec, WindowsChromiumCookieDecryptor)
 
 
 if __name__ == "__main__":

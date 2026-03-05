@@ -3,6 +3,7 @@
 from .checks import CheckResult, check_required_cookies
 from .browser import load_browser_cookies
 from .cookiestxt import dumps_cookies_txt, load_cookies_txt, save_cookies_txt
+from .diagnostics import redact_header_value, redact_headers, redact_http_header_lines
 from .selectors import load_rotate_index, save_rotate_index, select_source
 from .spec import BrowserSpec, parse_browser_spec
 from .sources import CookieSource, LoadedCookies, load_source, parse_source, resolve_update_target
@@ -24,6 +25,9 @@ __all__ = [
     "save_rotate_index",
     "save_cookies_txt",
     "select_source",
+    "redact_header_value",
+    "redact_headers",
+    "redact_http_header_lines",
 ]
 
 __version__ = "0.1.0"
