@@ -4,7 +4,10 @@ version = "0.1.0"
 description = "Personal request/session toolkit for practical downloader workflows."
 readme = "README.md"
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "cookiekit",
+    "requests>=2.32.0",
+]
 
 [project.scripts]
 requestkit = "requestkit.cli:main"
@@ -13,6 +16,9 @@ requestkit = "requestkit.cli:main"
 dev = [
     "pytest>=8.4.2",
 ]
+
+[tool.uv.sources]
+cookiekit = { workspace = true }
 
 [build-system]
 requires = ["uv_build>=0.8.0,<0.9"]

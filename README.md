@@ -132,7 +132,7 @@ If a feature is not helping real workflows, it should probably not exist.
 ## Current status
 
 - `cookiekit` is already usable
-- `requestkit` is scaffolded but not implemented
+- `requestkit` has a working v1 core with `get` and `dump`, browser-like session setup, retries, pacing, challenge detection, cookies.txt loading, and redacted diagnostics
 - `downloadkit` is scaffolded but not implemented
 
 Package-specific usage and implementation details belong in each package README, not in this root document.

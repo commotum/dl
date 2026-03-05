@@ -1,8 +1,8 @@
 # requestkit
 
-`requestkit` is the planned request/session layer for this workspace.
+`requestkit` is the request/session layer for this workspace.
 
-Intended scope:
+Current scope:
 
 - browser-like session setup
 - retries and backoff
@@ -12,7 +12,26 @@ Intended scope:
 - redacted diagnostics
 - `cookies.txt` interoperability
 
+Current CLI:
+
+- `requestkit get URL`
+- `requestkit dump URL`
+
+Supported flags today:
+
+- `--browser`
+- `--user-agent`
+- `--referer`
+- `--proxy`
+- `--cookies`
+- `--timeout`
+- `--retries`
+- `--sleep-request`
+- `--sleep-429`
+- `--json`
+
 Status:
 
-- package scaffold exists
-- implementation has not started yet
+- v1 core is implemented
+- the root-level parent `dl` wrapper is still pending
+- more tests and polish can still be added
