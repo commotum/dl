@@ -1,0 +1,336 @@
+{
+  "schema_version": 1,
+  "topic_id": "1970",
+  "topic_title": "Diagonalizing a 3x3 Matrix With Distinct Eigenvalues",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1970.html",
+  "source_url": "https://mathacademy.com/topics/1970",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "20125",
+        "dom_id": "sectionLink-20125",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-20125"
+      },
+      {
+        "index": 2,
+        "step_id": "20126",
+        "dom_id": "sectionLink-20126",
+        "name": "",
+        "title": "Diagonalizing a Matrix Given Its Eigenvalues and Corresponding Eigenvectors",
+        "selector": "#sectionLink-20126"
+      },
+      {
+        "index": 3,
+        "step_id": "20127",
+        "dom_id": "sectionLink-20127",
+        "name": "",
+        "title": "Identifying Whether a Given Matrix Is Diagonalizable Over the Real Numbers",
+        "selector": "#sectionLink-20127"
+      },
+      {
+        "index": 4,
+        "step_id": "20128",
+        "dom_id": "sectionLink-20128",
+        "name": "",
+        "title": "Diagonalizing a Matrix Given Part of the Diagonalization",
+        "selector": "#sectionLink-20128"
+      },
+      {
+        "index": 5,
+        "step_id": "27129",
+        "dom_id": "sectionLink-27129",
+        "name": "",
+        "title": "Diagonalizing a Matrix",
+        "selector": "#sectionLink-27129"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1968",
+        "name": "Diagonalizing a 2x2 Matrix",
+        "href": "/topics/diagonalizing-a-2x2-matrix-1968"
+      },
+      {
+        "topic_id": "1977",
+        "name": "Calculating the Eigenvectors of a 3x3 Matrix With Distinct Eigenvalues",
+        "href": "/topics/calculating-the-eigenvectors-of-a-3x3-matrix-with-distinct-eigenvalues-1977"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20125",
+        "content_id": "3578",
+        "dom_id": "step-20125",
+        "selector": "#step-20125",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20126",
+        "content_id": "5504",
+        "dom_id": "step-20126",
+        "selector": "#step-20126",
+        "step_anchor": "step-2",
+        "title": "Diagonalizing a Matrix Given Its Eigenvalues and Corresponding Eigenvectors",
+        "key_prerequisites": [
+          {
+            "topic_id": "1968",
+            "name": "Diagonalizing a 2x2 Matrix",
+            "href": "/topics/1968"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "37251",
+        "dom_id": "question-37251",
+        "selector": "#question-37251",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "37806",
+        "dom_id": "question-37806",
+        "selector": "#question-37806",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20127",
+        "content_id": "5505",
+        "dom_id": "step-20127",
+        "selector": "#step-20127",
+        "step_anchor": "step-5",
+        "title": "Identifying Whether a Given Matrix Is Diagonalizable Over the Real Numbers",
+        "key_prerequisites": [
+          {
+            "topic_id": "1964",
+            "name": "The Characteristic Equation of a Matrix",
+            "href": "/topics/1964"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "37843",
+        "dom_id": "question-37843",
+        "selector": "#question-37843",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "37807",
+        "dom_id": "question-37807",
+        "selector": "#question-37807",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20128",
+        "content_id": "5506",
+        "dom_id": "step-20128",
+        "selector": "#step-20128",
+        "step_anchor": "step-8",
+        "title": "Diagonalizing a Matrix Given Part of the Diagonalization",
+        "key_prerequisites": [
+          {
+            "topic_id": "1977",
+            "name": "Calculating the Eigenvectors of a 3x3 Matrix With Distinct Eigenvalues",
+            "href": "/topics/1977"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "37273",
+        "dom_id": "question-37273",
+        "selector": "#question-37273",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "37250",
+        "dom_id": "question-37250",
+        "selector": "#question-37250",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "27129",
+        "content_id": "7330",
+        "dom_id": "step-27129",
+        "selector": "#step-27129",
+        "step_anchor": "step-11",
+        "title": "Diagonalizing a Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "37239",
+        "dom_id": "question-37239",
+        "selector": "#question-37239",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "37275",
+        "dom_id": "question-37275",
+        "selector": "#question-37275",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-20125",
+        "filename": "01-step-20125.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-20126",
+        "filename": "02-step-20126.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-37251",
+        "filename": "03-question-37251.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-37806",
+        "filename": "04-question-37806.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-20127",
+        "filename": "05-step-20127.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-37843",
+        "filename": "06-question-37843.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-37807",
+        "filename": "07-question-37807.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-20128",
+        "filename": "08-step-20128.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-37273",
+        "filename": "09-question-37273.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-37250",
+        "filename": "10-question-37250.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-27129",
+        "filename": "11-step-27129.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-37239",
+        "filename": "12-question-37239.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-37275",
+        "filename": "13-question-37275.png"
+      }
+    ]
+  }
+}

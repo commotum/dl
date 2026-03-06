@@ -1,0 +1,361 @@
+{
+  "schema_version": 1,
+  "topic_id": "1948",
+  "topic_title": "Lagrange Multipliers With One Constraint",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1948.html",
+  "source_url": "https://mathacademy.com/topics/1948",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "32055",
+        "dom_id": "sectionLink-32055",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-32055"
+      },
+      {
+        "index": 2,
+        "step_id": "44868",
+        "dom_id": "sectionLink-44868",
+        "name": "",
+        "title": "The Method of Lagrange Multipliers",
+        "selector": "#sectionLink-44868"
+      },
+      {
+        "index": 3,
+        "step_id": "45437",
+        "dom_id": "sectionLink-45437",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-45437"
+      },
+      {
+        "index": 4,
+        "step_id": "32291",
+        "dom_id": "sectionLink-32291",
+        "name": "",
+        "title": "Finding the Extreme Values of a Constrained Linear Function",
+        "selector": "#sectionLink-32291"
+      },
+      {
+        "index": 5,
+        "step_id": "44830",
+        "dom_id": "sectionLink-44830",
+        "name": "",
+        "title": "Finding the Extreme Values of a Constrained Quadratic Function",
+        "selector": "#sectionLink-44830"
+      },
+      {
+        "index": 6,
+        "step_id": "32494",
+        "dom_id": "sectionLink-32494",
+        "name": "",
+        "title": "Finding the Extreme Values of a Constrained Three-Variable Function",
+        "selector": "#sectionLink-32494"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1896",
+        "name": "Ellipsoids",
+        "href": "/topics/ellipsoids-1896"
+      },
+      {
+        "topic_id": "1939",
+        "name": "The Gradient as a Normal Vector",
+        "href": "/topics/the-gradient-as-a-normal-vector-1939"
+      },
+      {
+        "topic_id": "1945",
+        "name": "Global vs. Local Extrema and Critical Points of Multivariable Functions",
+        "href": "/topics/global-vs-local-extrema-and-critical-points-of-multivariable-functions-1945"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "32055",
+        "content_id": "5109",
+        "dom_id": "step-32055",
+        "selector": "#step-32055",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44868",
+        "content_id": "7750",
+        "dom_id": "step-44868",
+        "selector": "#step-44868",
+        "step_anchor": "step-2",
+        "title": "The Method of Lagrange Multipliers",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "45437",
+        "content_id": "7881",
+        "dom_id": "step-45437",
+        "selector": "#step-45437",
+        "step_anchor": "step-3",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "32291",
+        "content_id": "8689",
+        "dom_id": "step-32291",
+        "selector": "#step-32291",
+        "step_anchor": "step-4",
+        "title": "Finding the Extreme Values of a Constrained Linear Function",
+        "key_prerequisites": [
+          {
+            "topic_id": "1103",
+            "name": "Parallel Vectors",
+            "href": "/topics/1103"
+          },
+          {
+            "topic_id": "1939",
+            "name": "The Gradient as a Normal Vector",
+            "href": "/topics/1939"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "37869",
+        "dom_id": "question-37869",
+        "selector": "#question-37869",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "162755",
+        "dom_id": "question-162755",
+        "selector": "#question-162755",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "162795",
+        "dom_id": "question-162795",
+        "selector": "#question-162795",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44830",
+        "content_id": "12456",
+        "dom_id": "step-44830",
+        "selector": "#step-44830",
+        "step_anchor": "step-8",
+        "title": "Finding the Extreme Values of a Constrained Quadratic Function",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "99040",
+        "dom_id": "question-99040",
+        "selector": "#question-99040",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "162762",
+        "dom_id": "question-162762",
+        "selector": "#question-162762",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "162761",
+        "dom_id": "question-162761",
+        "selector": "#question-162761",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "32494",
+        "content_id": "8736",
+        "dom_id": "step-32494",
+        "selector": "#step-32494",
+        "step_anchor": "step-12",
+        "title": "Finding the Extreme Values of a Constrained Three-Variable Function",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "99113",
+        "dom_id": "question-99113",
+        "selector": "#question-99113",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "162783",
+        "dom_id": "question-162783",
+        "selector": "#question-162783",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-32055",
+        "filename": "01-step-32055.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-44868",
+        "filename": "02-step-44868.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-45437",
+        "filename": "03-step-45437.png"
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "selector": "#step-32291",
+        "filename": "04-step-32291.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-37869",
+        "filename": "05-question-37869.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-162755",
+        "filename": "06-question-162755.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-162795",
+        "filename": "07-question-162795.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-44830",
+        "filename": "08-step-44830.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-99040",
+        "filename": "09-question-99040.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-162762",
+        "filename": "10-question-162762.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-162761",
+        "filename": "11-question-162761.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-32494",
+        "filename": "12-step-32494.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-99113",
+        "filename": "13-question-99113.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-162783",
+        "filename": "14-question-162783.png"
+      }
+    ]
+  }
+}

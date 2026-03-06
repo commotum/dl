@@ -1,0 +1,319 @@
+{
+  "schema_version": 1,
+  "topic_id": "1342",
+  "topic_title": "K Permutations of N With Repetition",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1342.html",
+  "source_url": "https://mathacademy.com/topics/1342",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "22356",
+        "dom_id": "sectionLink-22356",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-22356"
+      },
+      {
+        "index": 2,
+        "step_id": "22357",
+        "dom_id": "sectionLink-22357",
+        "name": "",
+        "title": "Counting How Many Numbers Can be Formed Given Some Digits",
+        "selector": "#sectionLink-22357"
+      },
+      {
+        "index": 3,
+        "step_id": "22358",
+        "dom_id": "sectionLink-22358",
+        "name": "",
+        "title": "Counting How Many Numbers Can Be Formed Given Some Digits When One Digit Is Zero",
+        "selector": "#sectionLink-22358"
+      },
+      {
+        "index": 4,
+        "step_id": "22359",
+        "dom_id": "sectionLink-22359",
+        "name": "",
+        "title": "Counting How Many Permutations Can be Formed Using Numbers, Letters, and Colors",
+        "selector": "#sectionLink-22359"
+      },
+      {
+        "index": 5,
+        "step_id": "22360",
+        "dom_id": "sectionLink-22360",
+        "name": "",
+        "title": "Counting How Many Numbers Can be Formed Using Digits Containing a Duplicate",
+        "selector": "#sectionLink-22360"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "703",
+        "name": "Permutations",
+        "href": "/topics/permutations-703"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "22356",
+        "content_id": "3846",
+        "dom_id": "step-22356",
+        "selector": "#step-22356",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "22357",
+        "content_id": "6058",
+        "dom_id": "step-22357",
+        "selector": "#step-22357",
+        "step_anchor": "step-2",
+        "title": "Counting How Many Numbers Can be Formed Given Some Digits",
+        "key_prerequisites": [
+          {
+            "topic_id": "2321",
+            "name": "Evaluating Exponents",
+            "href": "/topics/2321"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "42698",
+        "dom_id": "question-42698",
+        "selector": "#question-42698",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "42654",
+        "dom_id": "question-42654",
+        "selector": "#question-42654",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "22358",
+        "content_id": "6059",
+        "dom_id": "step-22358",
+        "selector": "#step-22358",
+        "step_anchor": "step-5",
+        "title": "Counting How Many Numbers Can Be Formed Given Some Digits When One Digit Is Zero",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "42655",
+        "dom_id": "question-42655",
+        "selector": "#question-42655",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "42656",
+        "dom_id": "question-42656",
+        "selector": "#question-42656",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "22359",
+        "content_id": "6060",
+        "dom_id": "step-22359",
+        "selector": "#step-22359",
+        "step_anchor": "step-8",
+        "title": "Counting How Many Permutations Can be Formed Using Numbers, Letters, and Colors",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "43038",
+        "dom_id": "question-43038",
+        "selector": "#question-43038",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "42689",
+        "dom_id": "question-42689",
+        "selector": "#question-42689",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "22360",
+        "content_id": "6061",
+        "dom_id": "step-22360",
+        "selector": "#step-22360",
+        "step_anchor": "step-11",
+        "title": "Counting How Many Numbers Can be Formed Using Digits Containing a Duplicate",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "42701",
+        "dom_id": "question-42701",
+        "selector": "#question-42701",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "42700",
+        "dom_id": "question-42700",
+        "selector": "#question-42700",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-22356",
+        "filename": "01-step-22356.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-22357",
+        "filename": "02-step-22357.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-42698",
+        "filename": "03-question-42698.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-42654",
+        "filename": "04-question-42654.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-22358",
+        "filename": "05-step-22358.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-42655",
+        "filename": "06-question-42655.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-42656",
+        "filename": "07-question-42656.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-22359",
+        "filename": "08-step-22359.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-43038",
+        "filename": "09-question-43038.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-42689",
+        "filename": "10-question-42689.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-22360",
+        "filename": "11-step-22360.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-42701",
+        "filename": "12-question-42701.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-42700",
+        "filename": "13-question-42700.png"
+      }
+    ]
+  }
+}

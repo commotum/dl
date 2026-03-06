@@ -1,0 +1,352 @@
+{
+  "schema_version": 1,
+  "topic_id": "876",
+  "topic_title": "Exponential Growth and Decay Models With First-Order ODEs",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/876.html",
+  "source_url": "https://mathacademy.com/topics/876",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "613702",
+        "dom_id": "sectionLink-613702",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-613702"
+      },
+      {
+        "index": 2,
+        "step_id": "613703",
+        "dom_id": "sectionLink-613703",
+        "name": "",
+        "title": "Solving an Exponential Growth Problem",
+        "selector": "#sectionLink-613703"
+      },
+      {
+        "index": 3,
+        "step_id": "613706",
+        "dom_id": "sectionLink-613706",
+        "name": "",
+        "title": "The Exponential Decay Problem",
+        "selector": "#sectionLink-613706"
+      },
+      {
+        "index": 4,
+        "step_id": "613707",
+        "dom_id": "sectionLink-613707",
+        "name": "",
+        "title": "Solving an Exponential Decay Problem",
+        "selector": "#sectionLink-613707"
+      },
+      {
+        "index": 5,
+        "step_id": "613710",
+        "dom_id": "sectionLink-613710",
+        "name": "",
+        "title": "Computing an Unknown Rate",
+        "selector": "#sectionLink-613710"
+      },
+      {
+        "index": 6,
+        "step_id": "613713",
+        "dom_id": "sectionLink-613713",
+        "name": "",
+        "title": "Deriving the General Solution",
+        "selector": "#sectionLink-613713"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "237",
+        "name": "Continuously Compounded Interest",
+        "href": "/topics/continuously-compounded-interest-237"
+      },
+      {
+        "topic_id": "1179",
+        "name": "Solving First-Order IVPs Using Separation of Variables",
+        "href": "/topics/solving-first-order-ivps-using-separation-of-variables-1179"
+      },
+      {
+        "topic_id": "2023",
+        "name": "Modeling With First-Order ODEs",
+        "href": "/topics/modeling-with-first-order-odes-2023"
+      },
+      {
+        "topic_id": "2466",
+        "name": "Solving Exponential Decay Problems",
+        "href": "/topics/solving-exponential-decay-problems-2466"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "613702",
+        "content_id": "977",
+        "dom_id": "step-613702",
+        "selector": "#step-613702",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "613703",
+        "content_id": "542",
+        "dom_id": "step-613703",
+        "selector": "#step-613703",
+        "step_anchor": "step-2",
+        "title": "Solving an Exponential Growth Problem",
+        "key_prerequisites": [
+          {
+            "topic_id": "237",
+            "name": "Continuously Compounded Interest",
+            "href": "/topics/237"
+          },
+          {
+            "topic_id": "1179",
+            "name": "Solving First-Order IVPs Using Separation of Variables",
+            "href": "/topics/1179"
+          },
+          {
+            "topic_id": "2274",
+            "name": "Modeling with Direct Variation",
+            "href": "/topics/2274"
+          },
+          {
+            "topic_id": "2464",
+            "name": "Solving Exponential Growth Problems",
+            "href": "/topics/2464"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "83143",
+        "dom_id": "question-83143",
+        "selector": "#question-83143",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "8363",
+        "dom_id": "question-8363",
+        "selector": "#question-8363",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "613706",
+        "content_id": "5725",
+        "dom_id": "step-613706",
+        "selector": "#step-613706",
+        "step_anchor": "step-5",
+        "title": "The Exponential Decay Problem",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "613707",
+        "content_id": "7312",
+        "dom_id": "step-613707",
+        "selector": "#step-613707",
+        "step_anchor": "step-6",
+        "title": "Solving an Exponential Decay Problem",
+        "key_prerequisites": [
+          {
+            "topic_id": "2466",
+            "name": "Solving Exponential Decay Problems",
+            "href": "/topics/2466"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "15208",
+        "dom_id": "question-15208",
+        "selector": "#question-15208",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "83140",
+        "dom_id": "question-83140",
+        "selector": "#question-83140",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "613710",
+        "content_id": "7273",
+        "dom_id": "step-613710",
+        "selector": "#step-613710",
+        "step_anchor": "step-9",
+        "title": "Computing an Unknown Rate",
+        "key_prerequisites": [
+          {
+            "topic_id": "870",
+            "name": "Solving Equations Containing the Exponential Function",
+            "href": "/topics/870"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "83151",
+        "dom_id": "question-83151",
+        "selector": "#question-83151",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "15219",
+        "dom_id": "question-15219",
+        "selector": "#question-15219",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "613713",
+        "content_id": "4510",
+        "dom_id": "step-613713",
+        "selector": "#step-613713",
+        "step_anchor": "step-12",
+        "title": "Deriving the General Solution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-613702",
+        "filename": "01-step-613702.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-613703",
+        "filename": "02-step-613703.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-83143",
+        "filename": "03-question-83143.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-8363",
+        "filename": "04-question-8363.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-613706",
+        "filename": "05-step-613706.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-613707",
+        "filename": "06-step-613707.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-15208",
+        "filename": "07-question-15208.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-83140",
+        "filename": "08-question-83140.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-613710",
+        "filename": "09-step-613710.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-83151",
+        "filename": "10-question-83151.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-15219",
+        "filename": "11-question-15219.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-613713",
+        "filename": "12-step-613713.png"
+      }
+    ]
+  }
+}

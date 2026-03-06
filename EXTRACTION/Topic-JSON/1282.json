@@ -1,0 +1,402 @@
+{
+  "schema_version": 1,
+  "topic_id": "1282",
+  "topic_title": "Calculating Derivatives From Data Using the Chain Rule",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1282.html",
+  "source_url": "https://mathacademy.com/topics/1282",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "41304",
+        "dom_id": "sectionLink-41304",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-41304"
+      },
+      {
+        "index": 2,
+        "step_id": "41308",
+        "dom_id": "sectionLink-41308",
+        "name": "",
+        "title": "Applying the Chain Rule Given Data For Two Functions",
+        "selector": "#sectionLink-41308"
+      },
+      {
+        "index": 3,
+        "step_id": "41419",
+        "dom_id": "sectionLink-41419",
+        "name": "",
+        "title": "Using the Chain Rule With the Power Rule",
+        "selector": "#sectionLink-41419"
+      },
+      {
+        "index": 4,
+        "step_id": "41305",
+        "dom_id": "sectionLink-41305",
+        "name": "",
+        "title": "Applying the Chain Rule With the Power Rule",
+        "selector": "#sectionLink-41305"
+      },
+      {
+        "index": 5,
+        "step_id": "41413",
+        "dom_id": "sectionLink-41413",
+        "name": "",
+        "title": "Applying the Chain Rule With Trigonometric Functions",
+        "selector": "#sectionLink-41413"
+      },
+      {
+        "index": 6,
+        "step_id": "41416",
+        "dom_id": "sectionLink-41416",
+        "name": "",
+        "title": "Applying the Chain Rule With Exponential and Logarithmic Functions",
+        "selector": "#sectionLink-41416"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "305",
+        "name": "The Chain Rule With Trigonometric Functions",
+        "href": "/topics/the-chain-rule-with-trigonometric-functions-305"
+      },
+      {
+        "topic_id": "1007",
+        "name": "The Chain Rule With Exponential Functions",
+        "href": "/topics/the-chain-rule-with-exponential-functions-1007"
+      },
+      {
+        "topic_id": "1036",
+        "name": "The Chain Rule With Logarithmic Functions",
+        "href": "/topics/the-chain-rule-with-logarithmic-functions-1036"
+      },
+      {
+        "topic_id": "1249",
+        "name": "Calculating Derivatives From Data and Tables",
+        "href": "/topics/calculating-derivatives-from-data-and-tables-1249"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "41304",
+        "content_id": "6804",
+        "dom_id": "step-41304",
+        "selector": "#step-41304",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "41308",
+        "content_id": "10894",
+        "dom_id": "step-41308",
+        "selector": "#step-41308",
+        "step_anchor": "step-2",
+        "title": "Applying the Chain Rule Given Data For Two Functions",
+        "key_prerequisites": [
+          {
+            "topic_id": "1108",
+            "name": "The Chain Rule for Differentiation",
+            "href": "/topics/1108"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "16094",
+        "dom_id": "question-16094",
+        "selector": "#question-16094",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "16092",
+        "dom_id": "question-16092",
+        "selector": "#question-16092",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "41419",
+        "content_id": "6823",
+        "dom_id": "step-41419",
+        "selector": "#step-41419",
+        "step_anchor": "step-5",
+        "title": "Using the Chain Rule With the Power Rule",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "41305",
+        "content_id": "10893",
+        "dom_id": "step-41305",
+        "selector": "#step-41305",
+        "step_anchor": "step-6",
+        "title": "Applying the Chain Rule With the Power Rule",
+        "key_prerequisites": [
+          {
+            "topic_id": "35",
+            "name": "The Power Rule for Differentiation",
+            "href": "/topics/35"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "72542",
+        "dom_id": "question-72542",
+        "selector": "#question-72542",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "72538",
+        "dom_id": "question-72538",
+        "selector": "#question-72538",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "48727",
+        "dom_id": "question-48727",
+        "selector": "#question-48727",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "41413",
+        "content_id": "10918",
+        "dom_id": "step-41413",
+        "selector": "#step-41413",
+        "step_anchor": "step-10",
+        "title": "Applying the Chain Rule With Trigonometric Functions",
+        "key_prerequisites": [
+          {
+            "topic_id": "305",
+            "name": "The Chain Rule With Trigonometric Functions",
+            "href": "/topics/305"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "98943",
+        "dom_id": "question-98943",
+        "selector": "#question-98943",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "48880",
+        "dom_id": "question-48880",
+        "selector": "#question-48880",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "41416",
+        "content_id": "10919",
+        "dom_id": "step-41416",
+        "selector": "#step-41416",
+        "step_anchor": "step-13",
+        "title": "Applying the Chain Rule With Exponential and Logarithmic Functions",
+        "key_prerequisites": [
+          {
+            "topic_id": "1007",
+            "name": "The Chain Rule With Exponential Functions",
+            "href": "/topics/1007"
+          },
+          {
+            "topic_id": "1036",
+            "name": "The Chain Rule With Logarithmic Functions",
+            "href": "/topics/1036"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "48998",
+        "dom_id": "question-48998",
+        "selector": "#question-48998",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "72255",
+        "dom_id": "question-72255",
+        "selector": "#question-72255",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-41304",
+        "filename": "01-step-41304.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-41308",
+        "filename": "02-step-41308.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-16094",
+        "filename": "03-question-16094.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-16092",
+        "filename": "04-question-16092.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-41419",
+        "filename": "05-step-41419.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-41305",
+        "filename": "06-step-41305.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-72542",
+        "filename": "07-question-72542.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-72538",
+        "filename": "08-question-72538.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-48727",
+        "filename": "09-question-48727.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-41413",
+        "filename": "10-step-41413.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-98943",
+        "filename": "11-question-98943.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-48880",
+        "filename": "12-question-48880.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-41416",
+        "filename": "13-step-41416.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-48998",
+        "filename": "14-question-48998.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-72255",
+        "filename": "15-question-72255.png"
+      }
+    ]
+  }
+}

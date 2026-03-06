@@ -1,0 +1,298 @@
+{
+  "schema_version": 1,
+  "topic_id": "3526",
+  "topic_title": "Proving Divisibility by Contradiction",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3526.html",
+  "source_url": "https://mathacademy.com/topics/3526",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "179500",
+        "dom_id": "sectionLink-179500",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-179500"
+      },
+      {
+        "index": 2,
+        "step_id": "179501",
+        "dom_id": "sectionLink-179501",
+        "name": "",
+        "title": "Stating the Full Proof",
+        "selector": "#sectionLink-179501"
+      },
+      {
+        "index": 3,
+        "step_id": "179502",
+        "dom_id": "sectionLink-179502",
+        "name": "",
+        "title": "Proving Non-Divisibility of Linear Expressions",
+        "selector": "#sectionLink-179502"
+      },
+      {
+        "index": 4,
+        "step_id": "179505",
+        "dom_id": "sectionLink-179505",
+        "name": "",
+        "title": "Proving Non-Divisibility of Linear Expressions: Residues Not Given",
+        "selector": "#sectionLink-179505"
+      },
+      {
+        "index": 5,
+        "step_id": "179508",
+        "dom_id": "sectionLink-179508",
+        "name": "",
+        "title": "Proving Non-Divisibility of Nonlinear Expressions",
+        "selector": "#sectionLink-179508"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3414",
+        "name": "Proof by Contradiction",
+        "href": "/topics/proof-by-contradiction-3414"
+      },
+      {
+        "topic_id": "4435",
+        "name": "Proving Divisibility Using Congruence",
+        "href": "/topics/proving-divisibility-using-congruence-4435"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "179500",
+        "content_id": "9335",
+        "dom_id": "step-179500",
+        "selector": "#step-179500",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "179501",
+        "content_id": "9354",
+        "dom_id": "step-179501",
+        "selector": "#step-179501",
+        "step_anchor": "step-2",
+        "title": "Stating the Full Proof",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "179502",
+        "content_id": "14971",
+        "dom_id": "step-179502",
+        "selector": "#step-179502",
+        "step_anchor": "step-3",
+        "title": "Proving Non-Divisibility of Linear Expressions",
+        "key_prerequisites": [
+          {
+            "topic_id": "2786",
+            "name": "Modular Residues",
+            "href": "/topics/2786"
+          },
+          {
+            "topic_id": "3414",
+            "name": "Proof by Contradiction",
+            "href": "/topics/3414"
+          },
+          {
+            "topic_id": "4435",
+            "name": "Proving Divisibility Using Congruence",
+            "href": "/topics/4435"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "221562",
+        "dom_id": "question-221562",
+        "selector": "#question-221562",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "221668",
+        "dom_id": "question-221668",
+        "selector": "#question-221668",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "179505",
+        "content_id": "14972",
+        "dom_id": "step-179505",
+        "selector": "#step-179505",
+        "step_anchor": "step-6",
+        "title": "Proving Non-Divisibility of Linear Expressions: Residues Not Given",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "221532",
+        "dom_id": "question-221532",
+        "selector": "#question-221532",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "221628",
+        "dom_id": "question-221628",
+        "selector": "#question-221628",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "179508",
+        "content_id": "14970",
+        "dom_id": "step-179508",
+        "selector": "#step-179508",
+        "step_anchor": "step-9",
+        "title": "Proving Non-Divisibility of Nonlinear Expressions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "221534",
+        "dom_id": "question-221534",
+        "selector": "#question-221534",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "221648",
+        "dom_id": "question-221648",
+        "selector": "#question-221648",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-179500",
+        "filename": "01-step-179500.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-179501",
+        "filename": "02-step-179501.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-179502",
+        "filename": "03-step-179502.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-221562",
+        "filename": "04-question-221562.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-221668",
+        "filename": "05-question-221668.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-179505",
+        "filename": "06-step-179505.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-221532",
+        "filename": "07-question-221532.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-221628",
+        "filename": "08-question-221628.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-179508",
+        "filename": "09-step-179508.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-221534",
+        "filename": "10-question-221534.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-221648",
+        "filename": "11-question-221648.png"
+      }
+    ]
+  }
+}

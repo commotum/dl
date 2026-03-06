@@ -1,0 +1,284 @@
+{
+  "schema_version": 1,
+  "topic_id": "3321",
+  "topic_title": "Estimating Sample Sizes for Proportions: Finite Population Correction",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3321.html",
+  "source_url": "https://mathacademy.com/topics/3321",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "223654",
+        "dom_id": "sectionLink-223654",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-223654"
+      },
+      {
+        "index": 2,
+        "step_id": "223655",
+        "dom_id": "sectionLink-223655",
+        "name": "",
+        "title": "Finding the Minimum Sample Size When a Point Estimate Is Given",
+        "selector": "#sectionLink-223655"
+      },
+      {
+        "index": 3,
+        "step_id": "223658",
+        "dom_id": "sectionLink-223658",
+        "name": "",
+        "title": "Finding the Minimum Sample Size When a Point Estimate Is Not Given",
+        "selector": "#sectionLink-223658"
+      },
+      {
+        "index": 4,
+        "step_id": "223661",
+        "dom_id": "sectionLink-223661",
+        "name": "",
+        "title": "Finding the Minimum Sample Size When an Interval Estimate Is Given",
+        "selector": "#sectionLink-223661"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3320",
+        "name": "Estimating Sample Sizes for Proportions",
+        "href": "/topics/estimating-sample-sizes-for-proportions-3320"
+      },
+      {
+        "topic_id": "3931",
+        "name": "Confidence Intervals for One Proportion: Finite Population Corrections",
+        "href": "/topics/confidence-intervals-for-one-proportion-finite-population-corrections-3931"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "223654",
+        "content_id": "9434",
+        "dom_id": "step-223654",
+        "selector": "#step-223654",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "223655",
+        "content_id": "15225",
+        "dom_id": "step-223655",
+        "selector": "#step-223655",
+        "step_anchor": "step-2",
+        "title": "Finding the Minimum Sample Size When a Point Estimate Is Given",
+        "key_prerequisites": [
+          {
+            "topic_id": "3320",
+            "name": "Estimating Sample Sizes for Proportions",
+            "href": "/topics/3320"
+          },
+          {
+            "topic_id": "3931",
+            "name": "Confidence Intervals for One Proportion: Finite Population Corrections",
+            "href": "/topics/3931"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "226147",
+        "dom_id": "question-226147",
+        "selector": "#question-226147",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "251278",
+        "dom_id": "question-251278",
+        "selector": "#question-251278",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "223658",
+        "content_id": "15226",
+        "dom_id": "step-223658",
+        "selector": "#step-223658",
+        "step_anchor": "step-5",
+        "title": "Finding the Minimum Sample Size When a Point Estimate Is Not Given",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "251304",
+        "dom_id": "question-251304",
+        "selector": "#question-251304",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "226164",
+        "dom_id": "question-226164",
+        "selector": "#question-226164",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "223661",
+        "content_id": "15227",
+        "dom_id": "step-223661",
+        "selector": "#step-223661",
+        "step_anchor": "step-8",
+        "title": "Finding the Minimum Sample Size When an Interval Estimate Is Given",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "226185",
+        "dom_id": "question-226185",
+        "selector": "#question-226185",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "251339",
+        "dom_id": "question-251339",
+        "selector": "#question-251339",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "251280",
+        "dom_id": "question-251280",
+        "selector": "#question-251280",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-223654",
+        "filename": "01-step-223654.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-223655",
+        "filename": "02-step-223655.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-226147",
+        "filename": "03-question-226147.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-251278",
+        "filename": "04-question-251278.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-223658",
+        "filename": "05-step-223658.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-251304",
+        "filename": "06-question-251304.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-226164",
+        "filename": "07-question-226164.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-223661",
+        "filename": "08-step-223661.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-226185",
+        "filename": "09-question-226185.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-251339",
+        "filename": "10-question-251339.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-251280",
+        "filename": "11-question-251280.png"
+      }
+    ]
+  }
+}

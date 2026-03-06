@@ -1,0 +1,326 @@
+{
+  "schema_version": 1,
+  "topic_id": "3277",
+  "topic_title": "Mean and Variance of the Continuous Uniform Distribution",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3277.html",
+  "source_url": "https://mathacademy.com/topics/3277",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "32475",
+        "dom_id": "sectionLink-32475",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-32475"
+      },
+      {
+        "index": 2,
+        "step_id": "29664",
+        "dom_id": "sectionLink-29664",
+        "name": "",
+        "title": "Computing the Expected Value of a Uniformly Distributed Random Variable",
+        "selector": "#sectionLink-29664"
+      },
+      {
+        "index": 3,
+        "step_id": "29665",
+        "dom_id": "sectionLink-29665",
+        "name": "",
+        "title": "Computing the Variance of a Uniformly Distributed Random Variable",
+        "selector": "#sectionLink-29665"
+      },
+      {
+        "index": 4,
+        "step_id": "31405",
+        "dom_id": "sectionLink-31405",
+        "name": "",
+        "title": "Computing the Standard Deviation of a Uniformly Distributed Random Variable",
+        "selector": "#sectionLink-31405"
+      },
+      {
+        "index": 5,
+        "step_id": "33541",
+        "dom_id": "sectionLink-33541",
+        "name": "",
+        "title": "Deriving the Formula for the Mean",
+        "selector": "#sectionLink-33541"
+      },
+      {
+        "index": 6,
+        "step_id": "33542",
+        "dom_id": "sectionLink-33542",
+        "name": "",
+        "title": "Deriving the Formula for the Variance",
+        "selector": "#sectionLink-33542"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "791",
+        "name": "The Continuous Uniform Distribution",
+        "href": "/topics/the-continuous-uniform-distribution-791"
+      },
+      {
+        "topic_id": "2988",
+        "name": "Variance of Continuous Random Variables",
+        "href": "/topics/variance-of-continuous-random-variables-2988"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "32475",
+        "content_id": "5171",
+        "dom_id": "step-32475",
+        "selector": "#step-32475",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "29664",
+        "content_id": "7956",
+        "dom_id": "step-29664",
+        "selector": "#step-29664",
+        "step_anchor": "step-2",
+        "title": "Computing the Expected Value of a Uniformly Distributed Random Variable",
+        "key_prerequisites": [
+          {
+            "topic_id": "791",
+            "name": "The Continuous Uniform Distribution",
+            "href": "/topics/791"
+          },
+          {
+            "topic_id": "4012",
+            "name": "Expected Values of Continuous Random Variables",
+            "href": "/topics/4012"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "90647",
+        "dom_id": "question-90647",
+        "selector": "#question-90647",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "90316",
+        "dom_id": "question-90316",
+        "selector": "#question-90316",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "29665",
+        "content_id": "7957",
+        "dom_id": "step-29665",
+        "selector": "#step-29665",
+        "step_anchor": "step-5",
+        "title": "Computing the Variance of a Uniformly Distributed Random Variable",
+        "key_prerequisites": [
+          {
+            "topic_id": "2988",
+            "name": "Variance of Continuous Random Variables",
+            "href": "/topics/2988"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "90317",
+        "dom_id": "question-90317",
+        "selector": "#question-90317",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "90664",
+        "dom_id": "question-90664",
+        "selector": "#question-90664",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "31405",
+        "content_id": "8431",
+        "dom_id": "step-31405",
+        "selector": "#step-31405",
+        "step_anchor": "step-8",
+        "title": "Computing the Standard Deviation of a Uniformly Distributed Random Variable",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "90669",
+        "dom_id": "question-90669",
+        "selector": "#question-90669",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "96564",
+        "dom_id": "question-96564",
+        "selector": "#question-96564",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "33541",
+        "content_id": "5374",
+        "dom_id": "step-33541",
+        "selector": "#step-33541",
+        "step_anchor": "step-11",
+        "title": "Deriving the Formula for the Mean",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "33542",
+        "content_id": "5375",
+        "dom_id": "step-33542",
+        "selector": "#step-33542",
+        "step_anchor": "step-12",
+        "title": "Deriving the Formula for the Variance",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-32475",
+        "filename": "01-step-32475.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-29664",
+        "filename": "02-step-29664.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-90647",
+        "filename": "03-question-90647.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-90316",
+        "filename": "04-question-90316.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-29665",
+        "filename": "05-step-29665.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-90317",
+        "filename": "06-question-90317.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-90664",
+        "filename": "07-question-90664.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-31405",
+        "filename": "08-step-31405.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-90669",
+        "filename": "09-question-90669.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-96564",
+        "filename": "10-question-96564.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-33541",
+        "filename": "11-step-33541.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-33542",
+        "filename": "12-step-33542.png"
+      }
+    ]
+  }
+}

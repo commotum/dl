@@ -1,0 +1,325 @@
+{
+  "schema_version": 1,
+  "topic_id": "997",
+  "topic_title": "The Arc Length of a Parametric Curve",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/997.html",
+  "source_url": "https://mathacademy.com/topics/997",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "2126",
+        "dom_id": "sectionLink-2126",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-2126"
+      },
+      {
+        "index": 2,
+        "step_id": "2128",
+        "dom_id": "sectionLink-2128",
+        "name": "",
+        "title": "Finding an Integral Expression For the Arc Length of a Parametric Curve",
+        "selector": "#sectionLink-2128"
+      },
+      {
+        "index": 3,
+        "step_id": "26226",
+        "dom_id": "sectionLink-26226",
+        "name": "",
+        "title": "Finding an Integral Expression For the Arc Length of a Parametric Curve Containing Special Functions",
+        "selector": "#sectionLink-26226"
+      },
+      {
+        "index": 4,
+        "step_id": "2132",
+        "dom_id": "sectionLink-2132",
+        "name": "",
+        "title": "Finding the Arc Length of a Parametric Curve",
+        "selector": "#sectionLink-2132"
+      },
+      {
+        "index": 5,
+        "step_id": "2135",
+        "dom_id": "sectionLink-2135",
+        "name": "",
+        "title": "The Intuition Behind the Main Formula",
+        "selector": "#sectionLink-2135"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "760",
+        "name": "The Arc Length of a Planar Curve",
+        "href": "/topics/the-arc-length-of-a-planar-curve-760"
+      },
+      {
+        "topic_id": "798",
+        "name": "Differentiating Parametric Curves",
+        "href": "/topics/differentiating-parametric-curves-798"
+      },
+      {
+        "topic_id": "1038",
+        "name": "Integration Using the Double-Angle Formulas",
+        "href": "/topics/integration-using-the-double-angle-formulas-1038"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "2126",
+        "content_id": "1078",
+        "dom_id": "step-2126",
+        "selector": "#step-2126",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "2128",
+        "content_id": "602",
+        "dom_id": "step-2128",
+        "selector": "#step-2128",
+        "step_anchor": "step-2",
+        "title": "Finding an Integral Expression For the Arc Length of a Parametric Curve",
+        "key_prerequisites": [
+          {
+            "topic_id": "760",
+            "name": "The Arc Length of a Planar Curve",
+            "href": "/topics/760"
+          },
+          {
+            "topic_id": "798",
+            "name": "Differentiating Parametric Curves",
+            "href": "/topics/798"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "81437",
+        "dom_id": "question-81437",
+        "selector": "#question-81437",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "15172",
+        "dom_id": "question-15172",
+        "selector": "#question-15172",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "26226",
+        "content_id": "7130",
+        "dom_id": "step-26226",
+        "selector": "#step-26226",
+        "step_anchor": "step-5",
+        "title": "Finding an Integral Expression For the Arc Length of a Parametric Curve Containing Special Functions",
+        "key_prerequisites": [
+          {
+            "topic_id": "207",
+            "name": "Simplifying Expressions Using the Pythagorean Identity",
+            "href": "/topics/207"
+          },
+          {
+            "topic_id": "1115",
+            "name": "Selecting Procedures for Calculating Derivatives",
+            "href": "/topics/1115"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "15185",
+        "dom_id": "question-15185",
+        "selector": "#question-15185",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "15155",
+        "dom_id": "question-15155",
+        "selector": "#question-15155",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "2132",
+        "content_id": "603",
+        "dom_id": "step-2132",
+        "selector": "#step-2132",
+        "step_anchor": "step-8",
+        "title": "Finding the Arc Length of a Parametric Curve",
+        "key_prerequisites": [
+          {
+            "topic_id": "478",
+            "name": "Integrating Trigonometric Functions Using Substitution",
+            "href": "/topics/478"
+          },
+          {
+            "topic_id": "1037",
+            "name": "Integration Using the Pythagorean Identities",
+            "href": "/topics/1037"
+          },
+          {
+            "topic_id": "1038",
+            "name": "Integration Using the Double-Angle Formulas",
+            "href": "/topics/1038"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "10255",
+        "dom_id": "question-10255",
+        "selector": "#question-10255",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "10260",
+        "dom_id": "question-10260",
+        "selector": "#question-10260",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "2135",
+        "content_id": "1082",
+        "dom_id": "step-2135",
+        "selector": "#step-2135",
+        "step_anchor": "step-11",
+        "title": "The Intuition Behind the Main Formula",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-2126",
+        "filename": "01-step-2126.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-2128",
+        "filename": "02-step-2128.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-81437",
+        "filename": "03-question-81437.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-15172",
+        "filename": "04-question-15172.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-26226",
+        "filename": "05-step-26226.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-15185",
+        "filename": "06-question-15185.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-15155",
+        "filename": "07-question-15155.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-2132",
+        "filename": "08-step-2132.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-10255",
+        "filename": "09-question-10255.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-10260",
+        "filename": "10-question-10260.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-2135",
+        "filename": "11-step-2135.png"
+      }
+    ]
+  }
+}

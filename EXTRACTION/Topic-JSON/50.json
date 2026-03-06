@@ -1,0 +1,488 @@
+{
+  "schema_version": 1,
+  "topic_id": "50",
+  "topic_title": "Subsets",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/50.html",
+  "source_url": "https://mathacademy.com/topics/50",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "152757",
+        "dom_id": "sectionLink-152757",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-152757"
+      },
+      {
+        "index": 2,
+        "step_id": "152758",
+        "dom_id": "sectionLink-152758",
+        "name": "",
+        "title": "Some Remarks",
+        "selector": "#sectionLink-152758"
+      },
+      {
+        "index": 3,
+        "step_id": "152759",
+        "dom_id": "sectionLink-152759",
+        "name": "",
+        "title": "Identifying Subsets of a Given Set",
+        "selector": "#sectionLink-152759"
+      },
+      {
+        "index": 4,
+        "step_id": "152763",
+        "dom_id": "sectionLink-152763",
+        "name": "",
+        "title": "Listing All the Subsets of a Set",
+        "selector": "#sectionLink-152763"
+      },
+      {
+        "index": 5,
+        "step_id": "152764",
+        "dom_id": "sectionLink-152764",
+        "name": "",
+        "title": "Finding All Subsets of a Given Set",
+        "selector": "#sectionLink-152764"
+      },
+      {
+        "index": 6,
+        "step_id": "152767",
+        "dom_id": "sectionLink-152767",
+        "name": "",
+        "title": "Subsets of Special Sets",
+        "selector": "#sectionLink-152767"
+      },
+      {
+        "index": 7,
+        "step_id": "152768",
+        "dom_id": "sectionLink-152768",
+        "name": "",
+        "title": "Identifying Subsets of Special Sets",
+        "selector": "#sectionLink-152768"
+      },
+      {
+        "index": 8,
+        "step_id": "152771",
+        "dom_id": "sectionLink-152771",
+        "name": "",
+        "title": "Superset Notation",
+        "selector": "#sectionLink-152771"
+      },
+      {
+        "index": 9,
+        "step_id": "152772",
+        "dom_id": "sectionLink-152772",
+        "name": "",
+        "title": "Identifying True Statements About Subsets",
+        "selector": "#sectionLink-152772"
+      },
+      {
+        "index": 10,
+        "step_id": "164820",
+        "dom_id": "sectionLink-164820",
+        "name": "",
+        "title": "Russell's Paradox: Why We Need a Universal Set",
+        "selector": "#sectionLink-164820"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2829",
+        "name": "Set Complements",
+        "href": "/topics/set-complements-2829"
+      },
+      {
+        "topic_id": "4425",
+        "name": "The Conditional Definition of a Set",
+        "href": "/topics/the-conditional-definition-of-a-set-4425"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 19,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "152757",
+        "content_id": "8240",
+        "dom_id": "step-152757",
+        "selector": "#step-152757",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "152758",
+        "content_id": "8316",
+        "dom_id": "step-152758",
+        "selector": "#step-152758",
+        "step_anchor": "step-2",
+        "title": "Some Remarks",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "152759",
+        "content_id": "13195",
+        "dom_id": "step-152759",
+        "selector": "#step-152759",
+        "step_anchor": "step-3",
+        "title": "Identifying Subsets of a Given Set",
+        "key_prerequisites": [
+          {
+            "topic_id": "46",
+            "name": "The Constructive Definition of a Set",
+            "href": "/topics/46"
+          },
+          {
+            "topic_id": "4425",
+            "name": "The Conditional Definition of a Set",
+            "href": "/topics/4425"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "228",
+        "dom_id": "question-228",
+        "selector": "#question-228",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "37263",
+        "dom_id": "question-37263",
+        "selector": "#question-37263",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "37255",
+        "dom_id": "question-37255",
+        "selector": "#question-37255",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "152763",
+        "content_id": "8244",
+        "dom_id": "step-152763",
+        "selector": "#step-152763",
+        "step_anchor": "step-7",
+        "title": "Listing All the Subsets of a Set",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "152764",
+        "content_id": "13196",
+        "dom_id": "step-152764",
+        "selector": "#step-152764",
+        "step_anchor": "step-8",
+        "title": "Finding All Subsets of a Given Set",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "1190",
+        "dom_id": "question-1190",
+        "selector": "#question-1190",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "1192",
+        "dom_id": "question-1192",
+        "selector": "#question-1192",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "152767",
+        "content_id": "8317",
+        "dom_id": "step-152767",
+        "selector": "#step-152767",
+        "step_anchor": "step-11",
+        "title": "Subsets of Special Sets",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "152768",
+        "content_id": "13197",
+        "dom_id": "step-152768",
+        "selector": "#step-152768",
+        "step_anchor": "step-12",
+        "title": "Identifying Subsets of Special Sets",
+        "key_prerequisites": [
+          {
+            "topic_id": "47",
+            "name": "Special Sets",
+            "href": "/topics/47"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "229",
+        "dom_id": "question-229",
+        "selector": "#question-229",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "498",
+        "dom_id": "question-498",
+        "selector": "#question-498",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "152771",
+        "content_id": "9065",
+        "dom_id": "step-152771",
+        "selector": "#step-152771",
+        "step_anchor": "step-15",
+        "title": "Superset Notation",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 16,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "152772",
+        "content_id": "13198",
+        "dom_id": "step-152772",
+        "selector": "#step-152772",
+        "step_anchor": "step-16",
+        "title": "Identifying True Statements About Subsets",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "question_id": "1210",
+        "dom_id": "question-1210",
+        "selector": "#question-1210",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 18,
+        "item_type": "question",
+        "question_id": "1211",
+        "dom_id": "question-1211",
+        "selector": "#question-1211",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 19,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "164820",
+        "content_id": "9388",
+        "dom_id": "step-164820",
+        "selector": "#step-164820",
+        "step_anchor": "step-19",
+        "title": "Russell's Paradox: Why We Need a Universal Set",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-152757",
+        "filename": "01-step-152757.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-152758",
+        "filename": "02-step-152758.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-152759",
+        "filename": "03-step-152759.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-228",
+        "filename": "04-question-228.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-37263",
+        "filename": "05-question-37263.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-37255",
+        "filename": "06-question-37255.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-152763",
+        "filename": "07-step-152763.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-152764",
+        "filename": "08-step-152764.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-1190",
+        "filename": "09-question-1190.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-1192",
+        "filename": "10-question-1192.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-152767",
+        "filename": "11-step-152767.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-152768",
+        "filename": "12-step-152768.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-229",
+        "filename": "13-question-229.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-498",
+        "filename": "14-question-498.png"
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "selector": "#step-152771",
+        "filename": "15-step-152771.png"
+      },
+      {
+        "index": 16,
+        "item_type": "step",
+        "selector": "#step-152772",
+        "filename": "16-step-152772.png"
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "selector": "#question-1210",
+        "filename": "17-question-1210.png"
+      },
+      {
+        "index": 18,
+        "item_type": "question",
+        "selector": "#question-1211",
+        "filename": "18-question-1211.png"
+      },
+      {
+        "index": 19,
+        "item_type": "step",
+        "selector": "#step-164820",
+        "filename": "19-step-164820.png"
+      }
+    ]
+  }
+}

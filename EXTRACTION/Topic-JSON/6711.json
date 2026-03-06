@@ -1,0 +1,317 @@
+{
+  "schema_version": 1,
+  "topic_id": "6711",
+  "topic_title": "Second-Order Homogeneous Boundary Value Problems",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/6711.html",
+  "source_url": "https://mathacademy.com/topics/6711",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "594330",
+        "dom_id": "sectionLink-594330",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-594330"
+      },
+      {
+        "index": 2,
+        "step_id": "594331",
+        "dom_id": "sectionLink-594331",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-594331"
+      },
+      {
+        "index": 3,
+        "step_id": "594332",
+        "dom_id": "sectionLink-594332",
+        "name": "",
+        "title": "Classifying Solutions of Homogeneous BVPs",
+        "selector": "#sectionLink-594332"
+      },
+      {
+        "index": 4,
+        "step_id": "594335",
+        "dom_id": "sectionLink-594335",
+        "name": "",
+        "title": "Solving BVPs with Non-Trivial Solutions",
+        "selector": "#sectionLink-594335"
+      },
+      {
+        "index": 5,
+        "step_id": "594336",
+        "dom_id": "sectionLink-594336",
+        "name": "",
+        "title": "Solving Homogeneous BVPs With Nontrivial Solutions",
+        "selector": "#sectionLink-594336"
+      },
+      {
+        "index": 6,
+        "step_id": "594340",
+        "dom_id": "sectionLink-594340",
+        "name": "",
+        "title": "Proof of the Theorem",
+        "selector": "#sectionLink-594340"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "880",
+        "name": "Second-Order Homogeneous ODEs: Characteristic Equations With Complex Roots",
+        "href": "/topics/second-order-homogeneous-odes-characteristic-equations-with-complex-roots-880"
+      },
+      {
+        "topic_id": "1730",
+        "name": "The Invertible Matrix Theorem in Terms of 2x2 Systems of Equations",
+        "href": "/topics/the-invertible-matrix-theorem-in-terms-of-2x2-systems-of-equations-1730"
+      },
+      {
+        "topic_id": "2742",
+        "name": "Introduction to Boundary Value Problems",
+        "href": "/topics/introduction-to-boundary-value-problems-2742"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "594330",
+        "content_id": "14636",
+        "dom_id": "step-594330",
+        "selector": "#step-594330",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "594331",
+        "content_id": "14642",
+        "dom_id": "step-594331",
+        "selector": "#step-594331",
+        "step_anchor": "step-2",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "594332",
+        "content_id": "21797",
+        "dom_id": "step-594332",
+        "selector": "#step-594332",
+        "step_anchor": "step-3",
+        "title": "Classifying Solutions of Homogeneous BVPs",
+        "key_prerequisites": [
+          {
+            "topic_id": "614",
+            "name": "Second-Order Homogeneous ODEs: Characteristic Equations With Distinct Real Roots",
+            "href": "/topics/614"
+          },
+          {
+            "topic_id": "880",
+            "name": "Second-Order Homogeneous ODEs: Characteristic Equations With Complex Roots",
+            "href": "/topics/880"
+          },
+          {
+            "topic_id": "1730",
+            "name": "The Invertible Matrix Theorem in Terms of 2x2 Systems of Equations",
+            "href": "/topics/1730"
+          },
+          {
+            "topic_id": "2742",
+            "name": "Introduction to Boundary Value Problems",
+            "href": "/topics/2742"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "338525",
+        "dom_id": "question-338525",
+        "selector": "#question-338525",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "338534",
+        "dom_id": "question-338534",
+        "selector": "#question-338534",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "594335",
+        "content_id": "14643",
+        "dom_id": "step-594335",
+        "selector": "#step-594335",
+        "step_anchor": "step-6",
+        "title": "Solving BVPs with Non-Trivial Solutions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "594336",
+        "content_id": "21799",
+        "dom_id": "step-594336",
+        "selector": "#step-594336",
+        "step_anchor": "step-7",
+        "title": "Solving Homogeneous BVPs With Nontrivial Solutions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "338544",
+        "dom_id": "question-338544",
+        "selector": "#question-338544",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "338540",
+        "dom_id": "question-338540",
+        "selector": "#question-338540",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "338545",
+        "dom_id": "question-338545",
+        "selector": "#question-338545",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "594340",
+        "content_id": "14664",
+        "dom_id": "step-594340",
+        "selector": "#step-594340",
+        "step_anchor": "step-11",
+        "title": "Proof of the Theorem",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-594330",
+        "filename": "01-step-594330.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-594331",
+        "filename": "02-step-594331.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-594332",
+        "filename": "03-step-594332.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-338525",
+        "filename": "04-question-338525.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-338534",
+        "filename": "05-question-338534.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-594335",
+        "filename": "06-step-594335.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-594336",
+        "filename": "07-step-594336.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-338544",
+        "filename": "08-question-338544.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-338540",
+        "filename": "09-question-338540.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-338545",
+        "filename": "10-question-338545.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-594340",
+        "filename": "11-step-594340.png"
+      }
+    ]
+  }
+}

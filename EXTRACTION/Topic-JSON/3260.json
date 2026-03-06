@@ -1,0 +1,410 @@
+{
+  "schema_version": 1,
+  "topic_id": "3260",
+  "topic_title": "Integration Using Basic Hyperbolic Identities",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3260.html",
+  "source_url": "https://mathacademy.com/topics/3260",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "34425",
+        "dom_id": "sectionLink-34425",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-34425"
+      },
+      {
+        "index": 2,
+        "step_id": "45596",
+        "dom_id": "sectionLink-45596",
+        "name": "",
+        "title": "Osborn\u2019s Rule in Cases Where a Product of Sines Is Hidden",
+        "selector": "#sectionLink-45596"
+      },
+      {
+        "index": 3,
+        "step_id": "37165",
+        "dom_id": "sectionLink-37165",
+        "name": "",
+        "title": "Deriving a Hyperbolic Identity Using Osborn's Rule",
+        "selector": "#sectionLink-37165"
+      },
+      {
+        "index": 4,
+        "step_id": "45595",
+        "dom_id": "sectionLink-45595",
+        "name": "",
+        "title": "Integration Using Hyperbolic Identities",
+        "selector": "#sectionLink-45595"
+      },
+      {
+        "index": 5,
+        "step_id": "31368",
+        "dom_id": "sectionLink-31368",
+        "name": "",
+        "title": "Integrating a Product of Hyperbolic Functions",
+        "selector": "#sectionLink-31368"
+      },
+      {
+        "index": 6,
+        "step_id": "31369",
+        "dom_id": "sectionLink-31369",
+        "name": "",
+        "title": "Integrating a Quotient of Hyperbolic Functions",
+        "selector": "#sectionLink-31369"
+      },
+      {
+        "index": 7,
+        "step_id": "31370",
+        "dom_id": "sectionLink-31370",
+        "name": "",
+        "title": "Computing a Hyperbolic Integral Using a Substitution",
+        "selector": "#sectionLink-31370"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "304",
+        "name": "Integrating Hyperbolic Functions",
+        "href": "/topics/integrating-hyperbolic-functions-304"
+      },
+      {
+        "topic_id": "478",
+        "name": "Integrating Trigonometric Functions Using Substitution",
+        "href": "/topics/integrating-trigonometric-functions-using-substitution-478"
+      },
+      {
+        "topic_id": "1454",
+        "name": "Simplifying Expressions Using the Secant-Tangent Identity",
+        "href": "/topics/simplifying-expressions-using-the-secant-tangent-identity-1454"
+      },
+      {
+        "topic_id": "1455",
+        "name": "Simplifying Trigonometric Expressions Using the Cotangent-Cosecant Identity",
+        "href": "/topics/simplifying-trigonometric-expressions-using-the-cotangent-cosecant-identity-1455"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "34425",
+        "content_id": "5552",
+        "dom_id": "step-34425",
+        "selector": "#step-34425",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "45596",
+        "content_id": "7914",
+        "dom_id": "step-45596",
+        "selector": "#step-45596",
+        "step_anchor": "step-2",
+        "title": "Osborn\u2019s Rule in Cases Where a Product of Sines Is Hidden",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "37165",
+        "content_id": "9881",
+        "dom_id": "step-37165",
+        "selector": "#step-37165",
+        "step_anchor": "step-3",
+        "title": "Deriving a Hyperbolic Identity Using Osborn's Rule",
+        "key_prerequisites": [
+          {
+            "topic_id": "203",
+            "name": "Simplifying Expressions Using Basic Trigonometric Identities",
+            "href": "/topics/203"
+          },
+          {
+            "topic_id": "967",
+            "name": "The Hyperbolic Functions",
+            "href": "/topics/967"
+          },
+          {
+            "topic_id": "3265",
+            "name": "The Reciprocal Hyperbolic Functions",
+            "href": "/topics/3265"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "9631",
+        "dom_id": "question-9631",
+        "selector": "#question-9631",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "9628",
+        "dom_id": "question-9628",
+        "selector": "#question-9628",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "45595",
+        "content_id": "7913",
+        "dom_id": "step-45595",
+        "selector": "#step-45595",
+        "step_anchor": "step-6",
+        "title": "Integration Using Hyperbolic Identities",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "31368",
+        "content_id": "8420",
+        "dom_id": "step-31368",
+        "selector": "#step-31368",
+        "step_anchor": "step-7",
+        "title": "Integrating a Product of Hyperbolic Functions",
+        "key_prerequisites": [
+          {
+            "topic_id": "304",
+            "name": "Integrating Hyperbolic Functions",
+            "href": "/topics/304"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "165866",
+        "dom_id": "question-165866",
+        "selector": "#question-165866",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "95742",
+        "dom_id": "question-95742",
+        "selector": "#question-95742",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "31369",
+        "content_id": "8421",
+        "dom_id": "step-31369",
+        "selector": "#step-31369",
+        "step_anchor": "step-10",
+        "title": "Integrating a Quotient of Hyperbolic Functions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "95744",
+        "dom_id": "question-95744",
+        "selector": "#question-95744",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "95748",
+        "dom_id": "question-95748",
+        "selector": "#question-95748",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "31370",
+        "content_id": "8422",
+        "dom_id": "step-31370",
+        "selector": "#step-31370",
+        "step_anchor": "step-13",
+        "title": "Computing a Hyperbolic Integral Using a Substitution",
+        "key_prerequisites": [
+          {
+            "topic_id": "478",
+            "name": "Integrating Trigonometric Functions Using Substitution",
+            "href": "/topics/478"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "95754",
+        "dom_id": "question-95754",
+        "selector": "#question-95754",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "95755",
+        "dom_id": "question-95755",
+        "selector": "#question-95755",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-34425",
+        "filename": "01-step-34425.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-45596",
+        "filename": "02-step-45596.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-37165",
+        "filename": "03-step-37165.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-9631",
+        "filename": "04-question-9631.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-9628",
+        "filename": "05-question-9628.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-45595",
+        "filename": "06-step-45595.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-31368",
+        "filename": "07-step-31368.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-165866",
+        "filename": "08-question-165866.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-95742",
+        "filename": "09-question-95742.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-31369",
+        "filename": "10-step-31369.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-95744",
+        "filename": "11-question-95744.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-95748",
+        "filename": "12-question-95748.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-31370",
+        "filename": "13-step-31370.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-95754",
+        "filename": "14-question-95754.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-95755",
+        "filename": "15-question-95755.png"
+      }
+    ]
+  }
+}

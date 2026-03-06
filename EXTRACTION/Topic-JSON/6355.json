@@ -1,0 +1,390 @@
+{
+  "schema_version": 1,
+  "topic_id": "6355",
+  "topic_title": "Clairaut Differential Equations",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/6355.html",
+  "source_url": "https://mathacademy.com/topics/6355",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "590002",
+        "dom_id": "sectionLink-590002",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-590002"
+      },
+      {
+        "index": 2,
+        "step_id": "590003",
+        "dom_id": "sectionLink-590003",
+        "name": "",
+        "title": "Identifying Clairaut Differential Equations",
+        "selector": "#sectionLink-590003"
+      },
+      {
+        "index": 3,
+        "step_id": "590006",
+        "dom_id": "sectionLink-590006",
+        "name": "",
+        "title": "Solving a Clairaut Differential Equation",
+        "selector": "#sectionLink-590006"
+      },
+      {
+        "index": 4,
+        "step_id": "590007",
+        "dom_id": "sectionLink-590007",
+        "name": "",
+        "title": "Finding the General Solution",
+        "selector": "#sectionLink-590007"
+      },
+      {
+        "index": 5,
+        "step_id": "590008",
+        "dom_id": "sectionLink-590008",
+        "name": "",
+        "title": "Finding the General Solution",
+        "selector": "#sectionLink-590008"
+      },
+      {
+        "index": 6,
+        "step_id": "606931",
+        "dom_id": "sectionLink-606931",
+        "name": "",
+        "title": "The Singular Solution",
+        "selector": "#sectionLink-606931"
+      },
+      {
+        "index": 7,
+        "step_id": "607541",
+        "dom_id": "sectionLink-607541",
+        "name": "",
+        "title": "Finding the Singular Solution",
+        "selector": "#sectionLink-607541"
+      },
+      {
+        "index": 8,
+        "step_id": "590011",
+        "dom_id": "sectionLink-590011",
+        "name": "",
+        "title": "Finding the Singular Solution",
+        "selector": "#sectionLink-590011"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1255",
+        "name": "Cartesian Equations of Parametric Curves",
+        "href": "/topics/cartesian-equations-of-parametric-curves-1255"
+      },
+      {
+        "topic_id": "1691",
+        "name": "Continuity and Differentiability of Functions",
+        "href": "/topics/continuity-and-differentiability-of-functions-1691"
+      },
+      {
+        "topic_id": "3179",
+        "name": "Solving First-Order ODEs by Substitution",
+        "href": "/topics/solving-first-order-odes-by-substitution-3179"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "590002",
+        "content_id": "14168",
+        "dom_id": "step-590002",
+        "selector": "#step-590002",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "590003",
+        "content_id": "21082",
+        "dom_id": "step-590003",
+        "selector": "#step-590003",
+        "step_anchor": "step-2",
+        "title": "Identifying Clairaut Differential Equations",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "333996",
+        "dom_id": "question-333996",
+        "selector": "#question-333996",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "321228",
+        "dom_id": "question-321228",
+        "selector": "#question-321228",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "590006",
+        "content_id": "14169",
+        "dom_id": "step-590006",
+        "selector": "#step-590006",
+        "step_anchor": "step-5",
+        "title": "Solving a Clairaut Differential Equation",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "590007",
+        "content_id": "14559",
+        "dom_id": "step-590007",
+        "selector": "#step-590007",
+        "step_anchor": "step-6",
+        "title": "Finding the General Solution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "590008",
+        "content_id": "21413",
+        "dom_id": "step-590008",
+        "selector": "#step-590008",
+        "step_anchor": "step-7",
+        "title": "Finding the General Solution",
+        "key_prerequisites": [
+          {
+            "topic_id": "1108",
+            "name": "The Chain Rule for Differentiation",
+            "href": "/topics/1108"
+          },
+          {
+            "topic_id": "1109",
+            "name": "The Product Rule for Differentiation",
+            "href": "/topics/1109"
+          },
+          {
+            "topic_id": "3179",
+            "name": "Solving First-Order ODEs by Substitution",
+            "href": "/topics/3179"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "325651",
+        "dom_id": "question-325651",
+        "selector": "#question-325651",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "334202",
+        "dom_id": "question-334202",
+        "selector": "#question-334202",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "606931",
+        "content_id": "14859",
+        "dom_id": "step-606931",
+        "selector": "#step-606931",
+        "step_anchor": "step-10",
+        "title": "The Singular Solution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "607541",
+        "content_id": "14868",
+        "dom_id": "step-607541",
+        "selector": "#step-607541",
+        "step_anchor": "step-11",
+        "title": "Finding the Singular Solution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "590011",
+        "content_id": "21083",
+        "dom_id": "step-590011",
+        "selector": "#step-590011",
+        "step_anchor": "step-12",
+        "title": "Finding the Singular Solution",
+        "key_prerequisites": [
+          {
+            "topic_id": "1255",
+            "name": "Cartesian Equations of Parametric Curves",
+            "href": "/topics/1255"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "334398",
+        "dom_id": "question-334398",
+        "selector": "#question-334398",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "321239",
+        "dom_id": "question-321239",
+        "selector": "#question-321239",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-590002",
+        "filename": "01-step-590002.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-590003",
+        "filename": "02-step-590003.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-333996",
+        "filename": "03-question-333996.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-321228",
+        "filename": "04-question-321228.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-590006",
+        "filename": "05-step-590006.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-590007",
+        "filename": "06-step-590007.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-590008",
+        "filename": "07-step-590008.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-325651",
+        "filename": "08-question-325651.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-334202",
+        "filename": "09-question-334202.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-606931",
+        "filename": "10-step-606931.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-607541",
+        "filename": "11-step-607541.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-590011",
+        "filename": "12-step-590011.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-334398",
+        "filename": "13-question-334398.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-321239",
+        "filename": "14-question-321239.png"
+      }
+    ]
+  }
+}

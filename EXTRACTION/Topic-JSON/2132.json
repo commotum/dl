@@ -1,0 +1,412 @@
+{
+  "schema_version": 1,
+  "topic_id": "2132",
+  "topic_title": "The Curl of a Vector Field",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2132.html",
+  "source_url": "https://mathacademy.com/topics/2132",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "32355",
+        "dom_id": "sectionLink-32355",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-32355"
+      },
+      {
+        "index": 2,
+        "step_id": "35528",
+        "dom_id": "sectionLink-35528",
+        "name": "",
+        "title": "Some Notes About the Curl of a Vector Field",
+        "selector": "#sectionLink-35528"
+      },
+      {
+        "index": 3,
+        "step_id": "32563",
+        "dom_id": "sectionLink-32563",
+        "name": "",
+        "title": "Calculating the Curl of a Vector Field",
+        "selector": "#sectionLink-32563"
+      },
+      {
+        "index": 4,
+        "step_id": "35822",
+        "dom_id": "sectionLink-35822",
+        "name": "",
+        "title": "The Curl of a Two-Dimensional Vector Field",
+        "selector": "#sectionLink-35822"
+      },
+      {
+        "index": 5,
+        "step_id": "35806",
+        "dom_id": "sectionLink-35806",
+        "name": "",
+        "title": "Calculating the Scalar Curl of a Vector Field",
+        "selector": "#sectionLink-35806"
+      },
+      {
+        "index": 6,
+        "step_id": "34360",
+        "dom_id": "sectionLink-34360",
+        "name": "",
+        "title": "Physical Interpretation of the Curl",
+        "selector": "#sectionLink-34360"
+      },
+      {
+        "index": 7,
+        "step_id": "35529",
+        "dom_id": "sectionLink-35529",
+        "name": "",
+        "title": "The Right-Hand Rule",
+        "selector": "#sectionLink-35529"
+      },
+      {
+        "index": 8,
+        "step_id": "35534",
+        "dom_id": "sectionLink-35534",
+        "name": "",
+        "title": "Examples of Vector Fields With Curl and Irrotational Vector Fields",
+        "selector": "#sectionLink-35534"
+      },
+      {
+        "index": 9,
+        "step_id": "33327",
+        "dom_id": "sectionLink-33327",
+        "name": "",
+        "title": "Interpreting the Curl of a Vector Field",
+        "selector": "#sectionLink-33327"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "245",
+        "name": "Calculating the Cross Product Using Determinants",
+        "href": "/topics/calculating-the-cross-product-using-determinants-245"
+      },
+      {
+        "topic_id": "1932",
+        "name": "Partial Differentiability of Multivariable Functions",
+        "href": "/topics/partial-differentiability-of-multivariable-functions-1932"
+      },
+      {
+        "topic_id": "3344",
+        "name": "Visualizing Vector Fields",
+        "href": "/topics/visualizing-vector-fields-3344"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "32355",
+        "content_id": "5141",
+        "dom_id": "step-32355",
+        "selector": "#step-32355",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "35528",
+        "content_id": "5789",
+        "dom_id": "step-35528",
+        "selector": "#step-35528",
+        "step_anchor": "step-2",
+        "title": "Some Notes About the Curl of a Vector Field",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "32563",
+        "content_id": "8743",
+        "dom_id": "step-32563",
+        "selector": "#step-32563",
+        "step_anchor": "step-3",
+        "title": "Calculating the Curl of a Vector Field",
+        "key_prerequisites": [
+          {
+            "topic_id": "245",
+            "name": "Calculating the Cross Product Using Determinants",
+            "href": "/topics/245"
+          },
+          {
+            "topic_id": "1929",
+            "name": "Introduction to Partial Derivatives",
+            "href": "/topics/1929"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "41883",
+        "dom_id": "question-41883",
+        "selector": "#question-41883",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "41899",
+        "dom_id": "question-41899",
+        "selector": "#question-41899",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "35822",
+        "content_id": "5848",
+        "dom_id": "step-35822",
+        "selector": "#step-35822",
+        "step_anchor": "step-6",
+        "title": "The Curl of a Two-Dimensional Vector Field",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "35806",
+        "content_id": "9556",
+        "dom_id": "step-35806",
+        "selector": "#step-35806",
+        "step_anchor": "step-7",
+        "title": "Calculating the Scalar Curl of a Vector Field",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "126427",
+        "dom_id": "question-126427",
+        "selector": "#question-126427",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "126428",
+        "dom_id": "question-126428",
+        "selector": "#question-126428",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "34360",
+        "content_id": "5519",
+        "dom_id": "step-34360",
+        "selector": "#step-34360",
+        "step_anchor": "step-10",
+        "title": "Physical Interpretation of the Curl",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "35529",
+        "content_id": "5790",
+        "dom_id": "step-35529",
+        "selector": "#step-35529",
+        "step_anchor": "step-11",
+        "title": "The Right-Hand Rule",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "35534",
+        "content_id": "5792",
+        "dom_id": "step-35534",
+        "selector": "#step-35534",
+        "step_anchor": "step-12",
+        "title": "Examples of Vector Fields With Curl and Irrotational Vector Fields",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33327",
+        "content_id": "8929",
+        "dom_id": "step-33327",
+        "selector": "#step-33327",
+        "step_anchor": "step-13",
+        "title": "Interpreting the Curl of a Vector Field",
+        "key_prerequisites": [
+          {
+            "topic_id": "3344",
+            "name": "Visualizing Vector Fields",
+            "href": "/topics/3344"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "105103",
+        "dom_id": "question-105103",
+        "selector": "#question-105103",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "105092",
+        "dom_id": "question-105092",
+        "selector": "#question-105092",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-32355",
+        "filename": "01-step-32355.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-35528",
+        "filename": "02-step-35528.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-32563",
+        "filename": "03-step-32563.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-41883",
+        "filename": "04-question-41883.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-41899",
+        "filename": "05-question-41899.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-35822",
+        "filename": "06-step-35822.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-35806",
+        "filename": "07-step-35806.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-126427",
+        "filename": "08-question-126427.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-126428",
+        "filename": "09-question-126428.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-34360",
+        "filename": "10-step-34360.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-35529",
+        "filename": "11-step-35529.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-35534",
+        "filename": "12-step-35534.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-33327",
+        "filename": "13-step-33327.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-105103",
+        "filename": "14-question-105103.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-105092",
+        "filename": "15-question-105092.png"
+      }
+    ]
+  }
+}

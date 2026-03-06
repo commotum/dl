@@ -1,0 +1,329 @@
+{
+  "schema_version": 1,
+  "topic_id": "1959",
+  "topic_title": "The Standard Matrix of a Linear Transformation",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1959.html",
+  "source_url": "https://mathacademy.com/topics/1959",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "20001",
+        "dom_id": "sectionLink-20001",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-20001"
+      },
+      {
+        "index": 2,
+        "step_id": "20002",
+        "dom_id": "sectionLink-20002",
+        "name": "",
+        "title": "Identifying the Standard Matrix of a Linear Transformation",
+        "selector": "#sectionLink-20002"
+      },
+      {
+        "index": 3,
+        "step_id": "20004",
+        "dom_id": "sectionLink-20004",
+        "name": "",
+        "title": "Determining a Linear Transformation Given its Standard Matrix",
+        "selector": "#sectionLink-20004"
+      },
+      {
+        "index": 4,
+        "step_id": "20005",
+        "dom_id": "sectionLink-20005",
+        "name": "",
+        "title": "Finding the Image of a Vector Under a Linear Transformation Given its Standard Matrix",
+        "selector": "#sectionLink-20005"
+      },
+      {
+        "index": 5,
+        "step_id": "20003",
+        "dom_id": "sectionLink-20003",
+        "name": "",
+        "title": "Identifying the Standard Matrix of a Linear Transformation With Rearranging",
+        "selector": "#sectionLink-20003"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "865",
+        "name": "Introduction to Linear Transformations",
+        "href": "/topics/introduction-to-linear-transformations-865"
+      },
+      {
+        "topic_id": "1195",
+        "name": "Multiplying a Matrix by a Column Vector",
+        "href": "/topics/multiplying-a-matrix-by-a-column-vector-1195"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20001",
+        "content_id": "3527",
+        "dom_id": "step-20001",
+        "selector": "#step-20001",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20002",
+        "content_id": "5431",
+        "dom_id": "step-20002",
+        "selector": "#step-20002",
+        "step_anchor": "step-2",
+        "title": "Identifying the Standard Matrix of a Linear Transformation",
+        "key_prerequisites": [
+          {
+            "topic_id": "865",
+            "name": "Introduction to Linear Transformations",
+            "href": "/topics/865"
+          },
+          {
+            "topic_id": "1195",
+            "name": "Multiplying a Matrix by a Column Vector",
+            "href": "/topics/1195"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "12009",
+        "dom_id": "question-12009",
+        "selector": "#question-12009",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "12007",
+        "dom_id": "question-12007",
+        "selector": "#question-12007",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20004",
+        "content_id": "5433",
+        "dom_id": "step-20004",
+        "selector": "#step-20004",
+        "step_anchor": "step-5",
+        "title": "Determining a Linear Transformation Given its Standard Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "37918",
+        "dom_id": "question-37918",
+        "selector": "#question-37918",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "37921",
+        "dom_id": "question-37921",
+        "selector": "#question-37921",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20005",
+        "content_id": "5434",
+        "dom_id": "step-20005",
+        "selector": "#step-20005",
+        "step_anchor": "step-8",
+        "title": "Finding the Image of a Vector Under a Linear Transformation Given its Standard Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "37881",
+        "dom_id": "question-37881",
+        "selector": "#question-37881",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "37879",
+        "dom_id": "question-37879",
+        "selector": "#question-37879",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20003",
+        "content_id": "5432",
+        "dom_id": "step-20003",
+        "selector": "#step-20003",
+        "step_anchor": "step-11",
+        "title": "Identifying the Standard Matrix of a Linear Transformation With Rearranging",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "37882",
+        "dom_id": "question-37882",
+        "selector": "#question-37882",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "8302",
+        "dom_id": "question-8302",
+        "selector": "#question-8302",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-20001",
+        "filename": "01-step-20001.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-20002",
+        "filename": "02-step-20002.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-12009",
+        "filename": "03-question-12009.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-12007",
+        "filename": "04-question-12007.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-20004",
+        "filename": "05-step-20004.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-37918",
+        "filename": "06-question-37918.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-37921",
+        "filename": "07-question-37921.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-20005",
+        "filename": "08-step-20005.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-37881",
+        "filename": "09-question-37881.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-37879",
+        "filename": "10-question-37879.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-20003",
+        "filename": "11-step-20003.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-37882",
+        "filename": "12-question-37882.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-8302",
+        "filename": "13-question-8302.png"
+      }
+    ]
+  }
+}

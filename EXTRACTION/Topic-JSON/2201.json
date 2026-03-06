@@ -1,0 +1,374 @@
+{
+  "schema_version": 1,
+  "topic_id": "2201",
+  "topic_title": "Conditions When a Determinant Equals Zero",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2201.html",
+  "source_url": "https://mathacademy.com/topics/2201",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "41745",
+        "dom_id": "sectionLink-41745",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-41745"
+      },
+      {
+        "index": 2,
+        "step_id": "41746",
+        "dom_id": "sectionLink-41746",
+        "name": "",
+        "title": "Determinants with Identical Rows or Identical Columns",
+        "selector": "#sectionLink-41746"
+      },
+      {
+        "index": 3,
+        "step_id": "41747",
+        "dom_id": "sectionLink-41747",
+        "name": "",
+        "title": "Calculating the Determinant of a Matrix With A Zero Row/Column or Two Identical Rows/Columns",
+        "selector": "#sectionLink-41747"
+      },
+      {
+        "index": 4,
+        "step_id": "41750",
+        "dom_id": "sectionLink-41750",
+        "name": "",
+        "title": "Determinants with Proportional Rows/Columns",
+        "selector": "#sectionLink-41750"
+      },
+      {
+        "index": 5,
+        "step_id": "41751",
+        "dom_id": "sectionLink-41751",
+        "name": "",
+        "title": "Calculating the Determinant of a Matrix With Two Proportional Rows/Columns",
+        "selector": "#sectionLink-41751"
+      },
+      {
+        "index": 6,
+        "step_id": "41754",
+        "dom_id": "sectionLink-41754",
+        "name": "",
+        "title": "Conditions When a Determinant Equals Zero",
+        "selector": "#sectionLink-41754"
+      },
+      {
+        "index": 7,
+        "step_id": "41766",
+        "dom_id": "sectionLink-41766",
+        "name": "",
+        "title": "Geometric Interpretation of a Zero Determinant",
+        "selector": "#sectionLink-41766"
+      },
+      {
+        "index": 8,
+        "step_id": "41755",
+        "dom_id": "sectionLink-41755",
+        "name": "",
+        "title": "Identifying the Reasons Why a Determinant Equals Zero",
+        "selector": "#sectionLink-41755"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1287",
+        "name": "Volumes of Parallelepipeds",
+        "href": "/topics/volumes-of-parallelepipeds-1287"
+      },
+      {
+        "topic_id": "1772",
+        "name": "Row and Column Operations on Determinants",
+        "href": "/topics/row-and-column-operations-on-determinants-1772"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "41745",
+        "content_id": "6888",
+        "dom_id": "step-41745",
+        "selector": "#step-41745",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "41746",
+        "content_id": "6889",
+        "dom_id": "step-41746",
+        "selector": "#step-41746",
+        "step_anchor": "step-2",
+        "title": "Determinants with Identical Rows or Identical Columns",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "41747",
+        "content_id": "10994",
+        "dom_id": "step-41747",
+        "selector": "#step-41747",
+        "step_anchor": "step-3",
+        "title": "Calculating the Determinant of a Matrix With A Zero Row/Column or Two Identical Rows/Columns",
+        "key_prerequisites": [
+          {
+            "topic_id": "1771",
+            "name": "Basic Properties of Determinants",
+            "href": "/topics/1771"
+          },
+          {
+            "topic_id": "1772",
+            "name": "Row and Column Operations on Determinants",
+            "href": "/topics/1772"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "42461",
+        "dom_id": "question-42461",
+        "selector": "#question-42461",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "42959",
+        "dom_id": "question-42959",
+        "selector": "#question-42959",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "41750",
+        "content_id": "6890",
+        "dom_id": "step-41750",
+        "selector": "#step-41750",
+        "step_anchor": "step-6",
+        "title": "Determinants with Proportional Rows/Columns",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "41751",
+        "content_id": "10995",
+        "dom_id": "step-41751",
+        "selector": "#step-41751",
+        "step_anchor": "step-7",
+        "title": "Calculating the Determinant of a Matrix With Two Proportional Rows/Columns",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "42459",
+        "dom_id": "question-42459",
+        "selector": "#question-42459",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "42882",
+        "dom_id": "question-42882",
+        "selector": "#question-42882",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "41754",
+        "content_id": "6891",
+        "dom_id": "step-41754",
+        "selector": "#step-41754",
+        "step_anchor": "step-10",
+        "title": "Conditions When a Determinant Equals Zero",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "41766",
+        "content_id": "6893",
+        "dom_id": "step-41766",
+        "selector": "#step-41766",
+        "step_anchor": "step-11",
+        "title": "Geometric Interpretation of a Zero Determinant",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "41755",
+        "content_id": "10996",
+        "dom_id": "step-41755",
+        "selector": "#step-41755",
+        "step_anchor": "step-12",
+        "title": "Identifying the Reasons Why a Determinant Equals Zero",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "42458",
+        "dom_id": "question-42458",
+        "selector": "#question-42458",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "43306",
+        "dom_id": "question-43306",
+        "selector": "#question-43306",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-41745",
+        "filename": "01-step-41745.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-41746",
+        "filename": "02-step-41746.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-41747",
+        "filename": "03-step-41747.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-42461",
+        "filename": "04-question-42461.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-42959",
+        "filename": "05-question-42959.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-41750",
+        "filename": "06-step-41750.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-41751",
+        "filename": "07-step-41751.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-42459",
+        "filename": "08-question-42459.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-42882",
+        "filename": "09-question-42882.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-41754",
+        "filename": "10-step-41754.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-41766",
+        "filename": "11-step-41766.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-41755",
+        "filename": "12-step-41755.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-42458",
+        "filename": "13-question-42458.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-43306",
+        "filename": "14-question-43306.png"
+      }
+    ]
+  }
+}

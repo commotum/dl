@@ -1,0 +1,449 @@
+{
+  "schema_version": 1,
+  "topic_id": "2757",
+  "topic_title": "Adjacency Matrices",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2757.html",
+  "source_url": "https://mathacademy.com/topics/2757",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "415974",
+        "dom_id": "sectionLink-415974",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-415974"
+      },
+      {
+        "index": 2,
+        "step_id": "415975",
+        "dom_id": "sectionLink-415975",
+        "name": "",
+        "title": "Building the Adjacency Matrix of a Graph",
+        "selector": "#sectionLink-415975"
+      },
+      {
+        "index": 3,
+        "step_id": "415979",
+        "dom_id": "sectionLink-415979",
+        "name": "",
+        "title": "Identifying a Graph Given Its Adjacency Matrix",
+        "selector": "#sectionLink-415979"
+      },
+      {
+        "index": 4,
+        "step_id": "415982",
+        "dom_id": "sectionLink-415982",
+        "name": "",
+        "title": "Powers of Adjacency Matrices of Simple Graphs",
+        "selector": "#sectionLink-415982"
+      },
+      {
+        "index": 5,
+        "step_id": "415983",
+        "dom_id": "sectionLink-415983",
+        "name": "",
+        "title": "Intuition Behind the Result",
+        "selector": "#sectionLink-415983"
+      },
+      {
+        "index": 6,
+        "step_id": "415984",
+        "dom_id": "sectionLink-415984",
+        "name": "",
+        "title": "Finding the Number of Distinct Walks Between Two Vertices",
+        "selector": "#sectionLink-415984"
+      },
+      {
+        "index": 7,
+        "step_id": "415987",
+        "dom_id": "sectionLink-415987",
+        "name": "",
+        "title": "Adjacency Matrices of Weighted Graphs",
+        "selector": "#sectionLink-415987"
+      },
+      {
+        "index": 8,
+        "step_id": "415988",
+        "dom_id": "sectionLink-415988",
+        "name": "",
+        "title": "Building the Adjacency Matrix of a Simple Weighted Graph",
+        "selector": "#sectionLink-415988"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "951",
+        "name": "Walks, Trails, Paths, and Distances",
+        "href": "/topics/walks-trails-paths-and-distances-951"
+      },
+      {
+        "topic_id": "954",
+        "name": "The Degree of a Vertex",
+        "href": "/topics/the-degree-of-a-vertex-954"
+      },
+      {
+        "topic_id": "1725",
+        "name": "Powers of Matrices",
+        "href": "/topics/powers-of-matrices-1725"
+      },
+      {
+        "topic_id": "3118",
+        "name": "Symmetric Matrices",
+        "href": "/topics/symmetric-matrices-3118"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 17,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "415974",
+        "content_id": "10210",
+        "dom_id": "step-415974",
+        "selector": "#step-415974",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "415975",
+        "content_id": "15993",
+        "dom_id": "step-415975",
+        "selector": "#step-415975",
+        "step_anchor": "step-2",
+        "title": "Building the Adjacency Matrix of a Graph",
+        "key_prerequisites": [
+          {
+            "topic_id": "954",
+            "name": "The Degree of a Vertex",
+            "href": "/topics/954"
+          },
+          {
+            "topic_id": "3118",
+            "name": "Symmetric Matrices",
+            "href": "/topics/3118"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "258034",
+        "dom_id": "question-258034",
+        "selector": "#question-258034",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "257984",
+        "dom_id": "question-257984",
+        "selector": "#question-257984",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "243162",
+        "dom_id": "question-243162",
+        "selector": "#question-243162",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "415979",
+        "content_id": "15994",
+        "dom_id": "step-415979",
+        "selector": "#step-415979",
+        "step_anchor": "step-6",
+        "title": "Identifying a Graph Given Its Adjacency Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "243163",
+        "dom_id": "question-243163",
+        "selector": "#question-243163",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "257925",
+        "dom_id": "question-257925",
+        "selector": "#question-257925",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "415982",
+        "content_id": "10211",
+        "dom_id": "step-415982",
+        "selector": "#step-415982",
+        "step_anchor": "step-9",
+        "title": "Powers of Adjacency Matrices of Simple Graphs",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "415983",
+        "content_id": "11620",
+        "dom_id": "step-415983",
+        "selector": "#step-415983",
+        "step_anchor": "step-10",
+        "title": "Intuition Behind the Result",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "415984",
+        "content_id": "15995",
+        "dom_id": "step-415984",
+        "selector": "#step-415984",
+        "step_anchor": "step-11",
+        "title": "Finding the Number of Distinct Walks Between Two Vertices",
+        "key_prerequisites": [
+          {
+            "topic_id": "951",
+            "name": "Walks, Trails, Paths, and Distances",
+            "href": "/topics/951"
+          },
+          {
+            "topic_id": "1725",
+            "name": "Powers of Matrices",
+            "href": "/topics/1725"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "243164",
+        "dom_id": "question-243164",
+        "selector": "#question-243164",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "258292",
+        "dom_id": "question-258292",
+        "selector": "#question-258292",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "415987",
+        "content_id": "11588",
+        "dom_id": "step-415987",
+        "selector": "#step-415987",
+        "step_anchor": "step-14",
+        "title": "Adjacency Matrices of Weighted Graphs",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "415988",
+        "content_id": "17276",
+        "dom_id": "step-415988",
+        "selector": "#step-415988",
+        "step_anchor": "step-15",
+        "title": "Building the Adjacency Matrix of a Simple Weighted Graph",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "243166",
+        "dom_id": "question-243166",
+        "selector": "#question-243166",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "question_id": "258225",
+        "dom_id": "question-258225",
+        "selector": "#question-258225",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-415974",
+        "filename": "01-step-415974.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-415975",
+        "filename": "02-step-415975.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-258034",
+        "filename": "03-question-258034.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-257984",
+        "filename": "04-question-257984.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-243162",
+        "filename": "05-question-243162.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-415979",
+        "filename": "06-step-415979.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-243163",
+        "filename": "07-question-243163.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-257925",
+        "filename": "08-question-257925.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-415982",
+        "filename": "09-step-415982.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-415983",
+        "filename": "10-step-415983.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-415984",
+        "filename": "11-step-415984.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-243164",
+        "filename": "12-question-243164.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-258292",
+        "filename": "13-question-258292.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-415987",
+        "filename": "14-step-415987.png"
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "selector": "#step-415988",
+        "filename": "15-step-415988.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-243166",
+        "filename": "16-question-243166.png"
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "selector": "#question-258225",
+        "filename": "17-question-258225.png"
+      }
+    ]
+  }
+}

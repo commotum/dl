@@ -1,0 +1,385 @@
+{
+  "schema_version": 1,
+  "topic_id": "2123",
+  "topic_title": "Projecting Vectors Onto Subspaces in Euclidean Spaces (Orthogonal Bases)",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2123.html",
+  "source_url": "https://mathacademy.com/topics/2123",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "20244",
+        "dom_id": "sectionLink-20244",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-20244"
+      },
+      {
+        "index": 2,
+        "step_id": "20243",
+        "dom_id": "sectionLink-20243",
+        "name": "",
+        "title": "Finding the Orthogonal Projection of a Vector Onto a Subspace Spanned by Orthogonal Vectors",
+        "selector": "#sectionLink-20243"
+      },
+      {
+        "index": 3,
+        "step_id": "26414",
+        "dom_id": "sectionLink-26414",
+        "name": "",
+        "title": "Finding the Orthogonal Projection of a Vector Onto a Plane",
+        "selector": "#sectionLink-26414"
+      },
+      {
+        "index": 4,
+        "step_id": "26428",
+        "dom_id": "sectionLink-26428",
+        "name": "",
+        "title": "The Distance Between a Vector and a Subspace",
+        "selector": "#sectionLink-26428"
+      },
+      {
+        "index": 5,
+        "step_id": "20245",
+        "dom_id": "sectionLink-20245",
+        "name": "",
+        "title": "Calculating the Distance Between a Vector and a Subspace Spanned by Orthogonal Vectors",
+        "selector": "#sectionLink-20245"
+      },
+      {
+        "index": 6,
+        "step_id": "27054",
+        "dom_id": "sectionLink-27054",
+        "name": "",
+        "title": "Calculating the Acute Angle Between a Vector and a Subspace Spanned by Orthogonal Vectors",
+        "selector": "#sectionLink-27054"
+      },
+      {
+        "index": 7,
+        "step_id": "26425",
+        "dom_id": "sectionLink-26425",
+        "name": "",
+        "title": "Justification of the Formula",
+        "selector": "#sectionLink-26425"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2825",
+        "name": "The Components of a Vector with Respect to an Orthogonal or Orthonormal Basis",
+        "href": "/topics/the-components-of-a-vector-with-respect-to-an-orthogonal-or-orthonormal-basis-2825"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20244",
+        "content_id": "3625",
+        "dom_id": "step-20244",
+        "selector": "#step-20244",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20243",
+        "content_id": "5573",
+        "dom_id": "step-20243",
+        "selector": "#step-20243",
+        "step_anchor": "step-2",
+        "title": "Finding the Orthogonal Projection of a Vector Onto a Subspace Spanned by Orthogonal Vectors",
+        "key_prerequisites": [
+          {
+            "topic_id": "2825",
+            "name": "The Components of a Vector with Respect to an Orthogonal or Orthonormal Basis",
+            "href": "/topics/2825"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "39990",
+        "dom_id": "question-39990",
+        "selector": "#question-39990",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "40194",
+        "dom_id": "question-40194",
+        "selector": "#question-40194",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "26414",
+        "content_id": "7173",
+        "dom_id": "step-26414",
+        "selector": "#step-26414",
+        "step_anchor": "step-5",
+        "title": "Finding the Orthogonal Projection of a Vector Onto a Plane",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "81511",
+        "dom_id": "question-81511",
+        "selector": "#question-81511",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "40666",
+        "dom_id": "question-40666",
+        "selector": "#question-40666",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "26428",
+        "content_id": "4346",
+        "dom_id": "step-26428",
+        "selector": "#step-26428",
+        "step_anchor": "step-8",
+        "title": "The Distance Between a Vector and a Subspace",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20245",
+        "content_id": "5574",
+        "dom_id": "step-20245",
+        "selector": "#step-20245",
+        "step_anchor": "step-9",
+        "title": "Calculating the Distance Between a Vector and a Subspace Spanned by Orthogonal Vectors",
+        "key_prerequisites": [
+          {
+            "topic_id": "2122",
+            "name": "Projecting Vectors Onto One-Dimensional Subspaces",
+            "href": "/topics/2122"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "40215",
+        "dom_id": "question-40215",
+        "selector": "#question-40215",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "40187",
+        "dom_id": "question-40187",
+        "selector": "#question-40187",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "27054",
+        "content_id": "7309",
+        "dom_id": "step-27054",
+        "selector": "#step-27054",
+        "step_anchor": "step-12",
+        "title": "Calculating the Acute Angle Between a Vector and a Subspace Spanned by Orthogonal Vectors",
+        "key_prerequisites": [
+          {
+            "topic_id": "1278",
+            "name": "The Angle Between Two Vectors",
+            "href": "/topics/1278"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "40604",
+        "dom_id": "question-40604",
+        "selector": "#question-40604",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "40223",
+        "dom_id": "question-40223",
+        "selector": "#question-40223",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "26425",
+        "content_id": "4345",
+        "dom_id": "step-26425",
+        "selector": "#step-26425",
+        "step_anchor": "step-15",
+        "title": "Justification of the Formula",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-20244",
+        "filename": "01-step-20244.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-20243",
+        "filename": "02-step-20243.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-39990",
+        "filename": "03-question-39990.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-40194",
+        "filename": "04-question-40194.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-26414",
+        "filename": "05-step-26414.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-81511",
+        "filename": "06-question-81511.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-40666",
+        "filename": "07-question-40666.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-26428",
+        "filename": "08-step-26428.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-20245",
+        "filename": "09-step-20245.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-40215",
+        "filename": "10-question-40215.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-40187",
+        "filename": "11-question-40187.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-27054",
+        "filename": "12-step-27054.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-40604",
+        "filename": "13-question-40604.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-40223",
+        "filename": "14-question-40223.png"
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "selector": "#step-26425",
+        "filename": "15-step-26425.png"
+      }
+    ]
+  }
+}

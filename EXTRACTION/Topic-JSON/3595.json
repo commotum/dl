@@ -1,0 +1,316 @@
+{
+  "schema_version": 1,
+  "topic_id": "3595",
+  "topic_title": "Residuals and Residual Plots",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3595.html",
+  "source_url": "https://mathacademy.com/topics/3595",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "36423",
+        "dom_id": "sectionLink-36423",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-36423"
+      },
+      {
+        "index": 2,
+        "step_id": "36425",
+        "dom_id": "sectionLink-36425",
+        "name": "",
+        "title": "Computing Residuals Using the Regression Line Equation",
+        "selector": "#sectionLink-36425"
+      },
+      {
+        "index": 3,
+        "step_id": "36424",
+        "dom_id": "sectionLink-36424",
+        "name": "",
+        "title": "Determining Residuals From a Graph",
+        "selector": "#sectionLink-36424"
+      },
+      {
+        "index": 4,
+        "step_id": "36426",
+        "dom_id": "sectionLink-36426",
+        "name": "",
+        "title": "Residual Plots",
+        "selector": "#sectionLink-36426"
+      },
+      {
+        "index": 5,
+        "step_id": "36805",
+        "dom_id": "sectionLink-36805",
+        "name": "",
+        "title": "Properties of Residual Plots",
+        "selector": "#sectionLink-36805"
+      },
+      {
+        "index": 6,
+        "step_id": "36427",
+        "dom_id": "sectionLink-36427",
+        "name": "",
+        "title": "Interpreting Residual Plots",
+        "selector": "#sectionLink-36427"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3753",
+        "name": "Making Predictions Using Trend Lines",
+        "href": "/topics/making-predictions-using-trend-lines-3753"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "36423",
+        "content_id": "5968",
+        "dom_id": "step-36423",
+        "selector": "#step-36423",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "36425",
+        "content_id": "9718",
+        "dom_id": "step-36425",
+        "selector": "#step-36425",
+        "step_anchor": "step-2",
+        "title": "Computing Residuals Using the Regression Line Equation",
+        "key_prerequisites": [
+          {
+            "topic_id": "3753",
+            "name": "Making Predictions Using Trend Lines",
+            "href": "/topics/3753"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "134256",
+        "dom_id": "question-134256",
+        "selector": "#question-134256",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "134266",
+        "dom_id": "question-134266",
+        "selector": "#question-134266",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "36424",
+        "content_id": "9717",
+        "dom_id": "step-36424",
+        "selector": "#step-36424",
+        "step_anchor": "step-5",
+        "title": "Determining Residuals From a Graph",
+        "key_prerequisites": [
+          {
+            "topic_id": "573",
+            "name": "Distances Between Points in the Coordinate Plane",
+            "href": "/topics/573"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "134267",
+        "dom_id": "question-134267",
+        "selector": "#question-134267",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "134276",
+        "dom_id": "question-134276",
+        "selector": "#question-134276",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "36426",
+        "content_id": "5969",
+        "dom_id": "step-36426",
+        "selector": "#step-36426",
+        "step_anchor": "step-8",
+        "title": "Residual Plots",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "36805",
+        "content_id": "6034",
+        "dom_id": "step-36805",
+        "selector": "#step-36805",
+        "step_anchor": "step-9",
+        "title": "Properties of Residual Plots",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "36427",
+        "content_id": "9719",
+        "dom_id": "step-36427",
+        "selector": "#step-36427",
+        "step_anchor": "step-10",
+        "title": "Interpreting Residual Plots",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "134284",
+        "dom_id": "question-134284",
+        "selector": "#question-134284",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "134285",
+        "dom_id": "question-134285",
+        "selector": "#question-134285",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-36423",
+        "filename": "01-step-36423.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-36425",
+        "filename": "02-step-36425.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-134256",
+        "filename": "03-question-134256.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-134266",
+        "filename": "04-question-134266.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-36424",
+        "filename": "05-step-36424.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-134267",
+        "filename": "06-question-134267.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-134276",
+        "filename": "07-question-134276.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-36426",
+        "filename": "08-step-36426.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-36805",
+        "filename": "09-step-36805.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-36427",
+        "filename": "10-step-36427.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-134284",
+        "filename": "11-question-134284.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-134285",
+        "filename": "12-question-134285.png"
+      }
+    ]
+  }
+}

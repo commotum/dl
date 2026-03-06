@@ -1,0 +1,417 @@
+{
+  "schema_version": 1,
+  "topic_id": "3319",
+  "topic_title": "Estimating Sample Sizes for Means",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3319.html",
+  "source_url": "https://mathacademy.com/topics/3319",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "222557",
+        "dom_id": "sectionLink-222557",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-222557"
+      },
+      {
+        "index": 2,
+        "step_id": "222559",
+        "dom_id": "sectionLink-222559",
+        "name": "",
+        "title": "Finding a Minimum Sample Size: Population Variance Is Known",
+        "selector": "#sectionLink-222559"
+      },
+      {
+        "index": 3,
+        "step_id": "222562",
+        "dom_id": "sectionLink-222562",
+        "name": "",
+        "title": "Cases Where the Population Variance is Unknown",
+        "selector": "#sectionLink-222562"
+      },
+      {
+        "index": 4,
+        "step_id": "222563",
+        "dom_id": "sectionLink-222563",
+        "name": "",
+        "title": "Finding a Minimum Sample Size Using a Point Estimate for the Variance",
+        "selector": "#sectionLink-222563"
+      },
+      {
+        "index": 5,
+        "step_id": "222566",
+        "dom_id": "sectionLink-222566",
+        "name": "",
+        "title": "The Empirical Rule for the Normal Distribution",
+        "selector": "#sectionLink-222566"
+      },
+      {
+        "index": 6,
+        "step_id": "222567",
+        "dom_id": "sectionLink-222567",
+        "name": "",
+        "title": "Finding a Minimum Sample Size Using the Empirical Rule",
+        "selector": "#sectionLink-222567"
+      },
+      {
+        "index": 7,
+        "step_id": "222570",
+        "dom_id": "sectionLink-222570",
+        "name": "",
+        "title": "Factors Affecting Sample Size",
+        "selector": "#sectionLink-222570"
+      },
+      {
+        "index": 8,
+        "step_id": "222571",
+        "dom_id": "sectionLink-222571",
+        "name": "",
+        "title": "Understanding the Minimum Sample Size Formula",
+        "selector": "#sectionLink-222571"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3594",
+        "name": "The Empirical Rule for the Normal Distribution",
+        "href": "/topics/the-empirical-rule-for-the-normal-distribution-3594"
+      },
+      {
+        "topic_id": "3855",
+        "name": "Confidence Intervals for One Mean: Unknown Population Variance",
+        "href": "/topics/confidence-intervals-for-one-mean-unknown-population-variance-3855"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 16,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "222557",
+        "content_id": "9432",
+        "dom_id": "step-222557",
+        "selector": "#step-222557",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "222559",
+        "content_id": "15119",
+        "dom_id": "step-222559",
+        "selector": "#step-222559",
+        "step_anchor": "step-2",
+        "title": "Finding a Minimum Sample Size: Population Variance Is Known",
+        "key_prerequisites": [
+          {
+            "topic_id": "260",
+            "name": "Confidence Intervals for One Mean: Known Population Variance",
+            "href": "/topics/260"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "226013",
+        "dom_id": "question-226013",
+        "selector": "#question-226013",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "251191",
+        "dom_id": "question-251191",
+        "selector": "#question-251191",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "222562",
+        "content_id": "10557",
+        "dom_id": "step-222562",
+        "selector": "#step-222562",
+        "step_anchor": "step-5",
+        "title": "Cases Where the Population Variance is Unknown",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "222563",
+        "content_id": "15120",
+        "dom_id": "step-222563",
+        "selector": "#step-222563",
+        "step_anchor": "step-6",
+        "title": "Finding a Minimum Sample Size Using a Point Estimate for the Variance",
+        "key_prerequisites": [
+          {
+            "topic_id": "3855",
+            "name": "Confidence Intervals for One Mean: Unknown Population Variance",
+            "href": "/topics/3855"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "251206",
+        "dom_id": "question-251206",
+        "selector": "#question-251206",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "251210",
+        "dom_id": "question-251210",
+        "selector": "#question-251210",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "222566",
+        "content_id": "10558",
+        "dom_id": "step-222566",
+        "selector": "#step-222566",
+        "step_anchor": "step-9",
+        "title": "The Empirical Rule for the Normal Distribution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "222567",
+        "content_id": "15121",
+        "dom_id": "step-222567",
+        "selector": "#step-222567",
+        "step_anchor": "step-10",
+        "title": "Finding a Minimum Sample Size Using the Empirical Rule",
+        "key_prerequisites": [
+          {
+            "topic_id": "3594",
+            "name": "The Empirical Rule for the Normal Distribution",
+            "href": "/topics/3594"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "251207",
+        "dom_id": "question-251207",
+        "selector": "#question-251207",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "251197",
+        "dom_id": "question-251197",
+        "selector": "#question-251197",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "222570",
+        "content_id": "10559",
+        "dom_id": "step-222570",
+        "selector": "#step-222570",
+        "step_anchor": "step-13",
+        "title": "Factors Affecting Sample Size",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "222571",
+        "content_id": "15122",
+        "dom_id": "step-222571",
+        "selector": "#step-222571",
+        "step_anchor": "step-14",
+        "title": "Understanding the Minimum Sample Size Formula",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "226120",
+        "dom_id": "question-226120",
+        "selector": "#question-226120",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "226121",
+        "dom_id": "question-226121",
+        "selector": "#question-226121",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-222557",
+        "filename": "01-step-222557.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-222559",
+        "filename": "02-step-222559.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-226013",
+        "filename": "03-question-226013.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-251191",
+        "filename": "04-question-251191.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-222562",
+        "filename": "05-step-222562.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-222563",
+        "filename": "06-step-222563.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-251206",
+        "filename": "07-question-251206.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-251210",
+        "filename": "08-question-251210.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-222566",
+        "filename": "09-step-222566.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-222567",
+        "filename": "10-step-222567.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-251207",
+        "filename": "11-question-251207.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-251197",
+        "filename": "12-question-251197.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-222570",
+        "filename": "13-step-222570.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-222571",
+        "filename": "14-step-222571.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-226120",
+        "filename": "15-question-226120.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-226121",
+        "filename": "16-question-226121.png"
+      }
+    ]
+  }
+}

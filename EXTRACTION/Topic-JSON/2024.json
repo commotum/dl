@@ -1,0 +1,351 @@
+{
+  "schema_version": 1,
+  "topic_id": "2024",
+  "topic_title": "Cumulative Distribution Functions for Discrete Random Variables",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2024.html",
+  "source_url": "https://mathacademy.com/topics/2024",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "27375",
+        "dom_id": "sectionLink-27375",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-27375"
+      },
+      {
+        "index": 2,
+        "step_id": "27371",
+        "dom_id": "sectionLink-27371",
+        "name": "",
+        "title": "Computing a CDF Given the PMF",
+        "selector": "#sectionLink-27371"
+      },
+      {
+        "index": 3,
+        "step_id": "27374",
+        "dom_id": "sectionLink-27374",
+        "name": "",
+        "title": "Computing the Probability of an Event Given the CDF",
+        "selector": "#sectionLink-27374"
+      },
+      {
+        "index": 4,
+        "step_id": "27373",
+        "dom_id": "sectionLink-27373",
+        "name": "",
+        "title": "Computing a Probability Over an Interval Given the CDF",
+        "selector": "#sectionLink-27373"
+      },
+      {
+        "index": 5,
+        "step_id": "27701",
+        "dom_id": "sectionLink-27701",
+        "name": "",
+        "title": "Computing Probabilities Involving Greater Than Symbols",
+        "selector": "#sectionLink-27701"
+      },
+      {
+        "index": 6,
+        "step_id": "27499",
+        "dom_id": "sectionLink-27499",
+        "name": "",
+        "title": "Computing a Probability Over an Interval Containing a Greater Than Symbol",
+        "selector": "#sectionLink-27499"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1290",
+        "name": "Probability Mass Functions of Discrete Random Variables",
+        "href": "/topics/probability-mass-functions-of-discrete-random-variables-1290"
+      },
+      {
+        "topic_id": "1628",
+        "name": "Increasing and Decreasing Functions",
+        "href": "/topics/increasing-and-decreasing-functions-1628"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "27375",
+        "content_id": "4449",
+        "dom_id": "step-27375",
+        "selector": "#step-27375",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "27371",
+        "content_id": "7379",
+        "dom_id": "step-27371",
+        "selector": "#step-27371",
+        "step_anchor": "step-2",
+        "title": "Computing a CDF Given the PMF",
+        "key_prerequisites": [
+          {
+            "topic_id": "1290",
+            "name": "Probability Mass Functions of Discrete Random Variables",
+            "href": "/topics/1290"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "83618",
+        "dom_id": "question-83618",
+        "selector": "#question-83618",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "83619",
+        "dom_id": "question-83619",
+        "selector": "#question-83619",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "27374",
+        "content_id": "7382",
+        "dom_id": "step-27374",
+        "selector": "#step-27374",
+        "step_anchor": "step-5",
+        "title": "Computing the Probability of an Event Given the CDF",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "83621",
+        "dom_id": "question-83621",
+        "selector": "#question-83621",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "83620",
+        "dom_id": "question-83620",
+        "selector": "#question-83620",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "27373",
+        "content_id": "7381",
+        "dom_id": "step-27373",
+        "selector": "#step-27373",
+        "step_anchor": "step-8",
+        "title": "Computing a Probability Over an Interval Given the CDF",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "83623",
+        "dom_id": "question-83623",
+        "selector": "#question-83623",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "83622",
+        "dom_id": "question-83622",
+        "selector": "#question-83622",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "27701",
+        "content_id": "4498",
+        "dom_id": "step-27701",
+        "selector": "#step-27701",
+        "step_anchor": "step-11",
+        "title": "Computing Probabilities Involving Greater Than Symbols",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "27499",
+        "content_id": "7414",
+        "dom_id": "step-27499",
+        "selector": "#step-27499",
+        "step_anchor": "step-12",
+        "title": "Computing a Probability Over an Interval Containing a Greater Than Symbol",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "83804",
+        "dom_id": "question-83804",
+        "selector": "#question-83804",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "83803",
+        "dom_id": "question-83803",
+        "selector": "#question-83803",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-27375",
+        "filename": "01-step-27375.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-27371",
+        "filename": "02-step-27371.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-83618",
+        "filename": "03-question-83618.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-83619",
+        "filename": "04-question-83619.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-27374",
+        "filename": "05-step-27374.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-83621",
+        "filename": "06-question-83621.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-83620",
+        "filename": "07-question-83620.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-27373",
+        "filename": "08-step-27373.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-83623",
+        "filename": "09-question-83623.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-83622",
+        "filename": "10-question-83622.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-27701",
+        "filename": "11-step-27701.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-27499",
+        "filename": "12-step-27499.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-83804",
+        "filename": "13-question-83804.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-83803",
+        "filename": "14-question-83803.png"
+      }
+    ]
+  }
+}

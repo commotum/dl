@@ -1,0 +1,310 @@
+{
+  "schema_version": 1,
+  "topic_id": "3190",
+  "topic_title": "Solving Inhomogeneous Systems of ODEs Using Laplace Transforms",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3190.html",
+  "source_url": "https://mathacademy.com/topics/3190",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "590715",
+        "dom_id": "sectionLink-590715",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-590715"
+      },
+      {
+        "index": 2,
+        "step_id": "590705",
+        "dom_id": "sectionLink-590705",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-590705"
+      },
+      {
+        "index": 3,
+        "step_id": "590706",
+        "dom_id": "sectionLink-590706",
+        "name": "",
+        "title": "Applying the Laplace Transform to a System of Linear ODEs",
+        "selector": "#sectionLink-590706"
+      },
+      {
+        "index": 4,
+        "step_id": "590709",
+        "dom_id": "sectionLink-590709",
+        "name": "",
+        "title": "Finding the Solution of a Laplace Transformed Initial Value Problem",
+        "selector": "#sectionLink-590709"
+      },
+      {
+        "index": 5,
+        "step_id": "590712",
+        "dom_id": "sectionLink-590712",
+        "name": "",
+        "title": "Solving an Initial Value Problem Given the Laplace Transformed Solution",
+        "selector": "#sectionLink-590712"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3189",
+        "name": "Solving Inhomogeneous Systems of ODEs",
+        "href": "/topics/solving-inhomogeneous-systems-of-odes-3189"
+      },
+      {
+        "topic_id": "3232",
+        "name": "Solving Homogeneous Systems of ODEs Using Laplace Transforms",
+        "href": "/topics/solving-homogeneous-systems-of-odes-using-laplace-transforms-3232"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "590715",
+        "content_id": "14611",
+        "dom_id": "step-590715",
+        "selector": "#step-590715",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "590705",
+        "content_id": "14420",
+        "dom_id": "step-590705",
+        "selector": "#step-590705",
+        "step_anchor": "step-2",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "590706",
+        "content_id": "21575",
+        "dom_id": "step-590706",
+        "selector": "#step-590706",
+        "step_anchor": "step-3",
+        "title": "Applying the Laplace Transform to a System of Linear ODEs",
+        "key_prerequisites": [
+          {
+            "topic_id": "3189",
+            "name": "Solving Inhomogeneous Systems of ODEs",
+            "href": "/topics/3189"
+          },
+          {
+            "topic_id": "3232",
+            "name": "Solving Homogeneous Systems of ODEs Using Laplace Transforms",
+            "href": "/topics/3232"
+          },
+          {
+            "topic_id": "6402",
+            "name": "The Smoothness Property of Laplace Transforms",
+            "href": "/topics/6402"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "330947",
+        "dom_id": "question-330947",
+        "selector": "#question-330947",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "332821",
+        "dom_id": "question-332821",
+        "selector": "#question-332821",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "590709",
+        "content_id": "21576",
+        "dom_id": "step-590709",
+        "selector": "#step-590709",
+        "step_anchor": "step-6",
+        "title": "Finding the Solution of a Laplace Transformed Initial Value Problem",
+        "key_prerequisites": [
+          {
+            "topic_id": "487",
+            "name": "Solving Systems of Equations by Substitution",
+            "href": "/topics/487"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "330955",
+        "dom_id": "question-330955",
+        "selector": "#question-330955",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "333064",
+        "dom_id": "question-333064",
+        "selector": "#question-333064",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "590712",
+        "content_id": "21577",
+        "dom_id": "step-590712",
+        "selector": "#step-590712",
+        "step_anchor": "step-9",
+        "title": "Solving an Initial Value Problem Given the Laplace Transformed Solution",
+        "key_prerequisites": [
+          {
+            "topic_id": "2530",
+            "name": "Inverse Laplace Transforms",
+            "href": "/topics/2530"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "330958",
+        "dom_id": "question-330958",
+        "selector": "#question-330958",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "333131",
+        "dom_id": "question-333131",
+        "selector": "#question-333131",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-590715",
+        "filename": "01-step-590715.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-590705",
+        "filename": "02-step-590705.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-590706",
+        "filename": "03-step-590706.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-330947",
+        "filename": "04-question-330947.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-332821",
+        "filename": "05-question-332821.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-590709",
+        "filename": "06-step-590709.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-330955",
+        "filename": "07-question-330955.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-333064",
+        "filename": "08-question-333064.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-590712",
+        "filename": "09-step-590712.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-330958",
+        "filename": "10-question-330958.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-333131",
+        "filename": "11-question-333131.png"
+      }
+    ]
+  }
+}

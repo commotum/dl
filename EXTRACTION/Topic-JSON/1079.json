@@ -1,0 +1,395 @@
+{
+  "schema_version": 1,
+  "topic_id": "1079",
+  "topic_title": "Average Position, Velocity, and Acceleration",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1079.html",
+  "source_url": "https://mathacademy.com/topics/1079",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "2011",
+        "dom_id": "sectionLink-2011",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-2011"
+      },
+      {
+        "index": 2,
+        "step_id": "2012",
+        "dom_id": "sectionLink-2012",
+        "name": "",
+        "title": "Calculating the Average Velocity of a Particle Given Its Position Function",
+        "selector": "#sectionLink-2012"
+      },
+      {
+        "index": 3,
+        "step_id": "2014",
+        "dom_id": "sectionLink-2014",
+        "name": "",
+        "title": "Calculating the Average Acceleration of a Particle Given Its Velocity Function",
+        "selector": "#sectionLink-2014"
+      },
+      {
+        "index": 4,
+        "step_id": "2016",
+        "dom_id": "sectionLink-2016",
+        "name": "",
+        "title": "Calculating Average Velocity Using Integration",
+        "selector": "#sectionLink-2016"
+      },
+      {
+        "index": 5,
+        "step_id": "2017",
+        "dom_id": "sectionLink-2017",
+        "name": "",
+        "title": "Calculating the Average Velocity of a Particle Using Integration",
+        "selector": "#sectionLink-2017"
+      },
+      {
+        "index": 6,
+        "step_id": "32551",
+        "dom_id": "sectionLink-32551",
+        "name": "",
+        "title": "Calculating Average Position and Acceleration Using Integration",
+        "selector": "#sectionLink-32551"
+      },
+      {
+        "index": 7,
+        "step_id": "2019",
+        "dom_id": "sectionLink-2019",
+        "name": "",
+        "title": "Calculating the Average Position or Acceleration of a Particle Using Integration",
+        "selector": "#sectionLink-2019"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "824",
+        "name": "Calculating Acceleration for Straight-Line Motion Using Differentiation",
+        "href": "/topics/calculating-acceleration-for-straight-line-motion-using-differentiation-824"
+      },
+      {
+        "topic_id": "1203",
+        "name": "The Average Value of a Function",
+        "href": "/topics/the-average-value-of-a-function-1203"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "2011",
+        "content_id": "1023",
+        "dom_id": "step-2011",
+        "selector": "#step-2011",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "2012",
+        "content_id": "571",
+        "dom_id": "step-2012",
+        "selector": "#step-2012",
+        "step_anchor": "step-2",
+        "title": "Calculating the Average Velocity of a Particle Given Its Position Function",
+        "key_prerequisites": [
+          {
+            "topic_id": "284",
+            "name": "Calculating Velocity for Straight-Line Motion Using Differentiation",
+            "href": "/topics/284"
+          },
+          {
+            "topic_id": "336",
+            "name": "The Average Rate of Change of a Function",
+            "href": "/topics/336"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "2449",
+        "dom_id": "question-2449",
+        "selector": "#question-2449",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "49876",
+        "dom_id": "question-49876",
+        "selector": "#question-49876",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "2014",
+        "content_id": "572",
+        "dom_id": "step-2014",
+        "selector": "#step-2014",
+        "step_anchor": "step-5",
+        "title": "Calculating the Average Acceleration of a Particle Given Its Velocity Function",
+        "key_prerequisites": [
+          {
+            "topic_id": "824",
+            "name": "Calculating Acceleration for Straight-Line Motion Using Differentiation",
+            "href": "/topics/824"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "50024",
+        "dom_id": "question-50024",
+        "selector": "#question-50024",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "49874",
+        "dom_id": "question-49874",
+        "selector": "#question-49874",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "2016",
+        "content_id": "1026",
+        "dom_id": "step-2016",
+        "selector": "#step-2016",
+        "step_anchor": "step-8",
+        "title": "Calculating Average Velocity Using Integration",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "2017",
+        "content_id": "573",
+        "dom_id": "step-2017",
+        "selector": "#step-2017",
+        "step_anchor": "step-9",
+        "title": "Calculating the Average Velocity of a Particle Using Integration",
+        "key_prerequisites": [
+          {
+            "topic_id": "1203",
+            "name": "The Average Value of a Function",
+            "href": "/topics/1203"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "50034",
+        "dom_id": "question-50034",
+        "selector": "#question-50034",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "50036",
+        "dom_id": "question-50036",
+        "selector": "#question-50036",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "32551",
+        "content_id": "5192",
+        "dom_id": "step-32551",
+        "selector": "#step-32551",
+        "step_anchor": "step-12",
+        "title": "Calculating Average Position and Acceleration Using Integration",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "2019",
+        "content_id": "574",
+        "dom_id": "step-2019",
+        "selector": "#step-2019",
+        "step_anchor": "step-13",
+        "title": "Calculating the Average Position or Acceleration of a Particle Using Integration",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "49878",
+        "dom_id": "question-49878",
+        "selector": "#question-49878",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "50029",
+        "dom_id": "question-50029",
+        "selector": "#question-50029",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-2011",
+        "filename": "01-step-2011.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-2012",
+        "filename": "02-step-2012.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-2449",
+        "filename": "03-question-2449.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-49876",
+        "filename": "04-question-49876.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-2014",
+        "filename": "05-step-2014.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-50024",
+        "filename": "06-question-50024.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-49874",
+        "filename": "07-question-49874.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-2016",
+        "filename": "08-step-2016.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-2017",
+        "filename": "09-step-2017.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-50034",
+        "filename": "10-question-50034.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-50036",
+        "filename": "11-question-50036.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-32551",
+        "filename": "12-step-32551.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-2019",
+        "filename": "13-step-2019.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-49878",
+        "filename": "14-question-49878.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-50029",
+        "filename": "15-question-50029.png"
+      }
+    ]
+  }
+}

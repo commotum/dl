@@ -1,0 +1,317 @@
+{
+  "schema_version": 1,
+  "topic_id": "6717",
+  "topic_title": "Laplace Transforms of Piecewise Continuous Functions",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/6717.html",
+  "source_url": "https://mathacademy.com/topics/6717",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "599195",
+        "dom_id": "sectionLink-599195",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-599195"
+      },
+      {
+        "index": 2,
+        "step_id": "599196",
+        "dom_id": "sectionLink-599196",
+        "name": "",
+        "title": "Taking Laplace Transforms of Piecewise Functions",
+        "selector": "#sectionLink-599196"
+      },
+      {
+        "index": 3,
+        "step_id": "599197",
+        "dom_id": "sectionLink-599197",
+        "name": "",
+        "title": "Finding Laplace Transforms of Step Functions",
+        "selector": "#sectionLink-599197"
+      },
+      {
+        "index": 4,
+        "step_id": "599204",
+        "dom_id": "sectionLink-599204",
+        "name": "",
+        "title": "The General Result for the Shifted Unit Step Function",
+        "selector": "#sectionLink-599204"
+      },
+      {
+        "index": 5,
+        "step_id": "599201",
+        "dom_id": "sectionLink-599201",
+        "name": "",
+        "title": "Finding Laplace Transforms of Other Piecewise Continuous Functions",
+        "selector": "#sectionLink-599201"
+      },
+      {
+        "index": 6,
+        "step_id": "599205",
+        "dom_id": "sectionLink-599205",
+        "name": "",
+        "title": "Uniqueness of Laplace Transforms",
+        "selector": "#sectionLink-599205"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "626",
+        "name": "Definite Integrals of Piecewise Functions",
+        "href": "/topics/definite-integrals-of-piecewise-functions-626"
+      },
+      {
+        "topic_id": "2529",
+        "name": "Introduction to Laplace Transforms",
+        "href": "/topics/introduction-to-laplace-transforms-2529"
+      },
+      {
+        "topic_id": "6669",
+        "name": "Piecewise Continuity",
+        "href": "/topics/piecewise-continuity-6669"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "599195",
+        "content_id": "14687",
+        "dom_id": "step-599195",
+        "selector": "#step-599195",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "599196",
+        "content_id": "14725",
+        "dom_id": "step-599196",
+        "selector": "#step-599196",
+        "step_anchor": "step-2",
+        "title": "Taking Laplace Transforms of Piecewise Functions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "599197",
+        "content_id": "6641",
+        "dom_id": "step-599197",
+        "selector": "#step-599197",
+        "step_anchor": "step-3",
+        "title": "Finding Laplace Transforms of Step Functions",
+        "key_prerequisites": [
+          {
+            "topic_id": "626",
+            "name": "Definite Integrals of Piecewise Functions",
+            "href": "/topics/626"
+          },
+          {
+            "topic_id": "2529",
+            "name": "Introduction to Laplace Transforms",
+            "href": "/topics/2529"
+          },
+          {
+            "topic_id": "2760",
+            "name": "The Unit Step Function",
+            "href": "/topics/2760"
+          },
+          {
+            "topic_id": "6669",
+            "name": "Piecewise Continuity",
+            "href": "/topics/6669"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "340878",
+        "dom_id": "question-340878",
+        "selector": "#question-340878",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "64241",
+        "dom_id": "question-64241",
+        "selector": "#question-64241",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "340883",
+        "dom_id": "question-340883",
+        "selector": "#question-340883",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "599204",
+        "content_id": "14689",
+        "dom_id": "step-599204",
+        "selector": "#step-599204",
+        "step_anchor": "step-7",
+        "title": "The General Result for the Shifted Unit Step Function",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "599201",
+        "content_id": "21842",
+        "dom_id": "step-599201",
+        "selector": "#step-599201",
+        "step_anchor": "step-8",
+        "title": "Finding Laplace Transforms of Other Piecewise Continuous Functions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "341453",
+        "dom_id": "question-341453",
+        "selector": "#question-341453",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "341480",
+        "dom_id": "question-341480",
+        "selector": "#question-341480",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "599205",
+        "content_id": "14696",
+        "dom_id": "step-599205",
+        "selector": "#step-599205",
+        "step_anchor": "step-11",
+        "title": "Uniqueness of Laplace Transforms",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-599195",
+        "filename": "01-step-599195.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-599196",
+        "filename": "02-step-599196.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-599197",
+        "filename": "03-step-599197.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-340878",
+        "filename": "04-question-340878.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-64241",
+        "filename": "05-question-64241.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-340883",
+        "filename": "06-question-340883.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-599204",
+        "filename": "07-step-599204.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-599201",
+        "filename": "08-step-599201.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-341453",
+        "filename": "09-question-341453.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-341480",
+        "filename": "10-question-341480.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-599205",
+        "filename": "11-step-599205.png"
+      }
+    ]
+  }
+}

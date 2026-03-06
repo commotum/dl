@@ -1,0 +1,351 @@
+{
+  "schema_version": 1,
+  "topic_id": "1789",
+  "topic_title": "Parametric Surfaces",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1789.html",
+  "source_url": "https://mathacademy.com/topics/1789",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "33143",
+        "dom_id": "sectionLink-33143",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-33143"
+      },
+      {
+        "index": 2,
+        "step_id": "33144",
+        "dom_id": "sectionLink-33144",
+        "name": "",
+        "title": "Finding a Parametrization of a Surface Defined by an Explicit Cartesian Equation",
+        "selector": "#sectionLink-33144"
+      },
+      {
+        "index": 3,
+        "step_id": "33145",
+        "dom_id": "sectionLink-33145",
+        "name": "",
+        "title": "Finding a Parametrization of a Surface Defined by an Implicit Cartesian Equation",
+        "selector": "#sectionLink-33145"
+      },
+      {
+        "index": 4,
+        "step_id": "33146",
+        "dom_id": "sectionLink-33146",
+        "name": "",
+        "title": "Finding a Parametrization of a Surface Defined in Cylindrical Polar Coordinates",
+        "selector": "#sectionLink-33146"
+      },
+      {
+        "index": 5,
+        "step_id": "33147",
+        "dom_id": "sectionLink-33147",
+        "name": "",
+        "title": "Finding a Parametrization of a Surface Defined in Spherical Polar Coordinates",
+        "selector": "#sectionLink-33147"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "803",
+        "name": "Graphing Curves Defined Parametrically",
+        "href": "/topics/graphing-curves-defined-parametrically-803"
+      },
+      {
+        "topic_id": "1899",
+        "name": "The Domain of a Multivariable Function",
+        "href": "/topics/the-domain-of-a-multivariable-function-1899"
+      },
+      {
+        "topic_id": "1981",
+        "name": "Cylindrical Polar Coordinates",
+        "href": "/topics/cylindrical-polar-coordinates-1981"
+      },
+      {
+        "topic_id": "1982",
+        "name": "Spherical Polar Coordinates",
+        "href": "/topics/spherical-polar-coordinates-1982"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "33143",
+        "content_id": "5304",
+        "dom_id": "step-33143",
+        "selector": "#step-33143",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33144",
+        "content_id": "8875",
+        "dom_id": "step-33144",
+        "selector": "#step-33144",
+        "step_anchor": "step-2",
+        "title": "Finding a Parametrization of a Surface Defined by an Explicit Cartesian Equation",
+        "key_prerequisites": [
+          {
+            "topic_id": "803",
+            "name": "Graphing Curves Defined Parametrically",
+            "href": "/topics/803"
+          },
+          {
+            "topic_id": "1899",
+            "name": "The Domain of a Multivariable Function",
+            "href": "/topics/1899"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "103784",
+        "dom_id": "question-103784",
+        "selector": "#question-103784",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "103785",
+        "dom_id": "question-103785",
+        "selector": "#question-103785",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33145",
+        "content_id": "8876",
+        "dom_id": "step-33145",
+        "selector": "#step-33145",
+        "step_anchor": "step-5",
+        "title": "Finding a Parametrization of a Surface Defined by an Implicit Cartesian Equation",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "104174",
+        "dom_id": "question-104174",
+        "selector": "#question-104174",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "103787",
+        "dom_id": "question-103787",
+        "selector": "#question-103787",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33146",
+        "content_id": "8877",
+        "dom_id": "step-33146",
+        "selector": "#step-33146",
+        "step_anchor": "step-8",
+        "title": "Finding a Parametrization of a Surface Defined in Cylindrical Polar Coordinates",
+        "key_prerequisites": [
+          {
+            "topic_id": "1981",
+            "name": "Cylindrical Polar Coordinates",
+            "href": "/topics/1981"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "103789",
+        "dom_id": "question-103789",
+        "selector": "#question-103789",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "103793",
+        "dom_id": "question-103793",
+        "selector": "#question-103793",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33147",
+        "content_id": "8878",
+        "dom_id": "step-33147",
+        "selector": "#step-33147",
+        "step_anchor": "step-11",
+        "title": "Finding a Parametrization of a Surface Defined in Spherical Polar Coordinates",
+        "key_prerequisites": [
+          {
+            "topic_id": "1982",
+            "name": "Spherical Polar Coordinates",
+            "href": "/topics/1982"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "103795",
+        "dom_id": "question-103795",
+        "selector": "#question-103795",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "103796",
+        "dom_id": "question-103796",
+        "selector": "#question-103796",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-33143",
+        "filename": "01-step-33143.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-33144",
+        "filename": "02-step-33144.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-103784",
+        "filename": "03-question-103784.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-103785",
+        "filename": "04-question-103785.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-33145",
+        "filename": "05-step-33145.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-104174",
+        "filename": "06-question-104174.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-103787",
+        "filename": "07-question-103787.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-33146",
+        "filename": "08-step-33146.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-103789",
+        "filename": "09-question-103789.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-103793",
+        "filename": "10-question-103793.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-33147",
+        "filename": "11-step-33147.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-103795",
+        "filename": "12-question-103795.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-103796",
+        "filename": "13-question-103796.png"
+      }
+    ]
+  }
+}

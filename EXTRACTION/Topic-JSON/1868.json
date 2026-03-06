@@ -1,0 +1,293 @@
+{
+  "schema_version": 1,
+  "topic_id": "1868",
+  "topic_title": "The Dimension of the Null Space of a Matrix",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1868.html",
+  "source_url": "https://mathacademy.com/topics/1868",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "19982",
+        "dom_id": "sectionLink-19982",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-19982"
+      },
+      {
+        "index": 2,
+        "step_id": "19983",
+        "dom_id": "sectionLink-19983",
+        "name": "",
+        "title": "Determining the Dimension of the Null Space of a Matrix Given the Number of Non-Pivot Columns",
+        "selector": "#sectionLink-19983"
+      },
+      {
+        "index": 3,
+        "step_id": "19985",
+        "dom_id": "sectionLink-19985",
+        "name": "",
+        "title": "Identifying the Dimension of the Null Space of Matrices Using Inspection",
+        "selector": "#sectionLink-19985"
+      },
+      {
+        "index": 4,
+        "step_id": "19986",
+        "dom_id": "sectionLink-19986",
+        "name": "",
+        "title": "The Nullity of a Matrix",
+        "selector": "#sectionLink-19986"
+      },
+      {
+        "index": 5,
+        "step_id": "19987",
+        "dom_id": "sectionLink-19987",
+        "name": "",
+        "title": "Finding the Nullity of a Matrix Using Row Reduction",
+        "selector": "#sectionLink-19987"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1856",
+        "name": "Finding a Basis of the Null Space of a Matrix",
+        "href": "/topics/finding-a-basis-of-the-null-space-of-a-matrix-1856"
+      },
+      {
+        "topic_id": "1867",
+        "name": "The Rank of a Matrix",
+        "href": "/topics/the-rank-of-a-matrix-1867"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "19982",
+        "content_id": "3520",
+        "dom_id": "step-19982",
+        "selector": "#step-19982",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "19983",
+        "content_id": "5419",
+        "dom_id": "step-19983",
+        "selector": "#step-19983",
+        "step_anchor": "step-2",
+        "title": "Determining the Dimension of the Null Space of a Matrix Given the Number of Non-Pivot Columns",
+        "key_prerequisites": [
+          {
+            "topic_id": "1856",
+            "name": "Finding a Basis of the Null Space of a Matrix",
+            "href": "/topics/1856"
+          },
+          {
+            "topic_id": "1904",
+            "name": "Identifying the Pivot Columns of a Matrix",
+            "href": "/topics/1904"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "34900",
+        "dom_id": "question-34900",
+        "selector": "#question-34900",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "79196",
+        "dom_id": "question-79196",
+        "selector": "#question-79196",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "19985",
+        "content_id": "5421",
+        "dom_id": "step-19985",
+        "selector": "#step-19985",
+        "step_anchor": "step-5",
+        "title": "Identifying the Dimension of the Null Space of Matrices Using Inspection",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "35349",
+        "dom_id": "question-35349",
+        "selector": "#question-35349",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "34904",
+        "dom_id": "question-34904",
+        "selector": "#question-34904",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "19986",
+        "content_id": "3521",
+        "dom_id": "step-19986",
+        "selector": "#step-19986",
+        "step_anchor": "step-8",
+        "title": "The Nullity of a Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "19987",
+        "content_id": "5422",
+        "dom_id": "step-19987",
+        "selector": "#step-19987",
+        "step_anchor": "step-9",
+        "title": "Finding the Nullity of a Matrix Using Row Reduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "34974",
+        "dom_id": "question-34974",
+        "selector": "#question-34974",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "35345",
+        "dom_id": "question-35345",
+        "selector": "#question-35345",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-19982",
+        "filename": "01-step-19982.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-19983",
+        "filename": "02-step-19983.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-34900",
+        "filename": "03-question-34900.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-79196",
+        "filename": "04-question-79196.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-19985",
+        "filename": "05-step-19985.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-35349",
+        "filename": "06-question-35349.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-34904",
+        "filename": "07-question-34904.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-19986",
+        "filename": "08-step-19986.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-19987",
+        "filename": "09-step-19987.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-34974",
+        "filename": "10-question-34974.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-35345",
+        "filename": "11-question-35345.png"
+      }
+    ]
+  }
+}

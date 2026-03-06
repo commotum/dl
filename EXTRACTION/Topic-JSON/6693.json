@@ -1,0 +1,412 @@
+{
+  "schema_version": 1,
+  "topic_id": "6693",
+  "topic_title": "Falling Body Problems With Quadratic Drag",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/6693.html",
+  "source_url": "https://mathacademy.com/topics/6693",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "587163",
+        "dom_id": "sectionLink-587163",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-587163"
+      },
+      {
+        "index": 2,
+        "step_id": "587164",
+        "dom_id": "sectionLink-587164",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-587164"
+      },
+      {
+        "index": 3,
+        "step_id": "587165",
+        "dom_id": "sectionLink-587165",
+        "name": "",
+        "title": "Constructing a Falling Body Model With Quadratic Drag",
+        "selector": "#sectionLink-587165"
+      },
+      {
+        "index": 4,
+        "step_id": "587169",
+        "dom_id": "sectionLink-587169",
+        "name": "",
+        "title": "Constructing and Solving a Falling Body Model Given the Constant of Proportionality of Quadratic Drag",
+        "selector": "#sectionLink-587169"
+      },
+      {
+        "index": 5,
+        "step_id": "587172",
+        "dom_id": "sectionLink-587172",
+        "name": "",
+        "title": "Constructing and Solving a Falling Body Model With Quadratic Drag",
+        "selector": "#sectionLink-587172"
+      },
+      {
+        "index": 6,
+        "step_id": "587175",
+        "dom_id": "sectionLink-587175",
+        "name": "",
+        "title": "Terminal Velocity",
+        "selector": "#sectionLink-587175"
+      },
+      {
+        "index": 7,
+        "step_id": "587176",
+        "dom_id": "sectionLink-587176",
+        "name": "",
+        "title": "Finding a Terminal Velocity",
+        "selector": "#sectionLink-587176"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1712",
+        "name": "Falling Body Problems With Linear Drag",
+        "href": "/topics/falling-body-problems-with-linear-drag-1712"
+      },
+      {
+        "topic_id": "3258",
+        "name": "Integration by Substitution With Inverse Hyperbolic Functions",
+        "href": "/topics/integration-by-substitution-with-inverse-hyperbolic-functions-3258"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 16,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "587163",
+        "content_id": "14513",
+        "dom_id": "step-587163",
+        "selector": "#step-587163",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "587164",
+        "content_id": "14535",
+        "dom_id": "step-587164",
+        "selector": "#step-587164",
+        "step_anchor": "step-2",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "587165",
+        "content_id": "21729",
+        "dom_id": "step-587165",
+        "selector": "#step-587165",
+        "step_anchor": "step-3",
+        "title": "Constructing a Falling Body Model With Quadratic Drag",
+        "key_prerequisites": [
+          {
+            "topic_id": "1712",
+            "name": "Falling Body Problems With Linear Drag",
+            "href": "/topics/1712"
+          },
+          {
+            "topic_id": "2722",
+            "name": "Newton's Second Law",
+            "href": "/topics/2722"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "334660",
+        "dom_id": "question-334660",
+        "selector": "#question-334660",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "334661",
+        "dom_id": "question-334661",
+        "selector": "#question-334661",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "334662",
+        "dom_id": "question-334662",
+        "selector": "#question-334662",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "587169",
+        "content_id": "21730",
+        "dom_id": "step-587169",
+        "selector": "#step-587169",
+        "step_anchor": "step-7",
+        "title": "Constructing and Solving a Falling Body Model Given the Constant of Proportionality of Quadratic Drag",
+        "key_prerequisites": [
+          {
+            "topic_id": "1179",
+            "name": "Solving First-Order IVPs Using Separation of Variables",
+            "href": "/topics/1179"
+          },
+          {
+            "topic_id": "3258",
+            "name": "Integration by Substitution With Inverse Hyperbolic Functions",
+            "href": "/topics/3258"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "334818",
+        "dom_id": "question-334818",
+        "selector": "#question-334818",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "334821",
+        "dom_id": "question-334821",
+        "selector": "#question-334821",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "587172",
+        "content_id": "21740",
+        "dom_id": "step-587172",
+        "selector": "#step-587172",
+        "step_anchor": "step-10",
+        "title": "Constructing and Solving a Falling Body Model With Quadratic Drag",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "334686",
+        "dom_id": "question-334686",
+        "selector": "#question-334686",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "334807",
+        "dom_id": "question-334807",
+        "selector": "#question-334807",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "587175",
+        "content_id": "14534",
+        "dom_id": "step-587175",
+        "selector": "#step-587175",
+        "step_anchor": "step-13",
+        "title": "Terminal Velocity",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "587176",
+        "content_id": "21731",
+        "dom_id": "step-587176",
+        "selector": "#step-587176",
+        "step_anchor": "step-14",
+        "title": "Finding a Terminal Velocity",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "334833",
+        "dom_id": "question-334833",
+        "selector": "#question-334833",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "334921",
+        "dom_id": "question-334921",
+        "selector": "#question-334921",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-587163",
+        "filename": "01-step-587163.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-587164",
+        "filename": "02-step-587164.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-587165",
+        "filename": "03-step-587165.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-334660",
+        "filename": "04-question-334660.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-334661",
+        "filename": "05-question-334661.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-334662",
+        "filename": "06-question-334662.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-587169",
+        "filename": "07-step-587169.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-334818",
+        "filename": "08-question-334818.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-334821",
+        "filename": "09-question-334821.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-587172",
+        "filename": "10-step-587172.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-334686",
+        "filename": "11-question-334686.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-334807",
+        "filename": "12-question-334807.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-587175",
+        "filename": "13-step-587175.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-587176",
+        "filename": "14-step-587176.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-334833",
+        "filename": "15-question-334833.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-334921",
+        "filename": "16-question-334921.png"
+      }
+    ]
+  }
+}

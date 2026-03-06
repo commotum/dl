@@ -1,0 +1,379 @@
+{
+  "schema_version": 1,
+  "topic_id": "3074",
+  "topic_title": "The Exponential Distribution",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3074.html",
+  "source_url": "https://mathacademy.com/topics/3074",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "224790",
+        "dom_id": "sectionLink-224790",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-224790"
+      },
+      {
+        "index": 2,
+        "step_id": "224791",
+        "dom_id": "sectionLink-224791",
+        "name": "",
+        "title": "Computing a \"Less Than\" Probability With the Exponential Distribution",
+        "selector": "#sectionLink-224791"
+      },
+      {
+        "index": 3,
+        "step_id": "224794",
+        "dom_id": "sectionLink-224794",
+        "name": "",
+        "title": "Computing a \"Greater Than\" Probability With the Exponential Distribution",
+        "selector": "#sectionLink-224794"
+      },
+      {
+        "index": 4,
+        "step_id": "224797",
+        "dom_id": "sectionLink-224797",
+        "name": "",
+        "title": "Computing a Probability on a Bounded Interval Using the Exponential Distribution",
+        "selector": "#sectionLink-224797"
+      },
+      {
+        "index": 5,
+        "step_id": "224800",
+        "dom_id": "sectionLink-224800",
+        "name": "",
+        "title": "The Memoryless Property",
+        "selector": "#sectionLink-224800"
+      },
+      {
+        "index": 6,
+        "step_id": "224801",
+        "dom_id": "sectionLink-224801",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-224801"
+      },
+      {
+        "index": 7,
+        "step_id": "224802",
+        "dom_id": "sectionLink-224802",
+        "name": "",
+        "title": "Calculating Probabilities Using the Memoryless Property",
+        "selector": "#sectionLink-224802"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "4100",
+        "name": "Continuous Random Variables Over Infinite Domains",
+        "href": "/topics/continuous-random-variables-over-infinite-domains-4100"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "224790",
+        "content_id": "10784",
+        "dom_id": "step-224790",
+        "selector": "#step-224790",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "224791",
+        "content_id": "16584",
+        "dom_id": "step-224791",
+        "selector": "#step-224791",
+        "step_anchor": "step-2",
+        "title": "Computing a \"Less Than\" Probability With the Exponential Distribution",
+        "key_prerequisites": [
+          {
+            "topic_id": "1347",
+            "name": "Probability Density Functions of Continuous Random Variables",
+            "href": "/topics/1347"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "96342",
+        "dom_id": "question-96342",
+        "selector": "#question-96342",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "96344",
+        "dom_id": "question-96344",
+        "selector": "#question-96344",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "224794",
+        "content_id": "16585",
+        "dom_id": "step-224794",
+        "selector": "#step-224794",
+        "step_anchor": "step-5",
+        "title": "Computing a \"Greater Than\" Probability With the Exponential Distribution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "96341",
+        "dom_id": "question-96341",
+        "selector": "#question-96341",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "95153",
+        "dom_id": "question-95153",
+        "selector": "#question-95153",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "224797",
+        "content_id": "16586",
+        "dom_id": "step-224797",
+        "selector": "#step-224797",
+        "step_anchor": "step-8",
+        "title": "Computing a Probability on a Bounded Interval Using the Exponential Distribution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "96348",
+        "dom_id": "question-96348",
+        "selector": "#question-96348",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "96346",
+        "dom_id": "question-96346",
+        "selector": "#question-96346",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "224800",
+        "content_id": "10785",
+        "dom_id": "step-224800",
+        "selector": "#step-224800",
+        "step_anchor": "step-11",
+        "title": "The Memoryless Property",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "224801",
+        "content_id": "10800",
+        "dom_id": "step-224801",
+        "selector": "#step-224801",
+        "step_anchor": "step-12",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "224802",
+        "content_id": "16587",
+        "dom_id": "step-224802",
+        "selector": "#step-224802",
+        "step_anchor": "step-13",
+        "title": "Calculating Probabilities Using the Memoryless Property",
+        "key_prerequisites": [
+          {
+            "topic_id": "715",
+            "name": "The Multiplication Law for Conditional Probability",
+            "href": "/topics/715"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "253887",
+        "dom_id": "question-253887",
+        "selector": "#question-253887",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "253889",
+        "dom_id": "question-253889",
+        "selector": "#question-253889",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-224790",
+        "filename": "01-step-224790.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-224791",
+        "filename": "02-step-224791.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-96342",
+        "filename": "03-question-96342.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-96344",
+        "filename": "04-question-96344.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-224794",
+        "filename": "05-step-224794.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-96341",
+        "filename": "06-question-96341.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-95153",
+        "filename": "07-question-95153.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-224797",
+        "filename": "08-step-224797.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-96348",
+        "filename": "09-question-96348.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-96346",
+        "filename": "10-question-96346.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-224800",
+        "filename": "11-step-224800.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-224801",
+        "filename": "12-step-224801.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-224802",
+        "filename": "13-step-224802.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-253887",
+        "filename": "14-question-253887.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-253889",
+        "filename": "15-question-253889.png"
+      }
+    ]
+  }
+}

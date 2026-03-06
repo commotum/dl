@@ -1,0 +1,298 @@
+{
+  "schema_version": 1,
+  "topic_id": "152",
+  "topic_title": "The Determinant of a 2x2 Matrix",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/152.html",
+  "source_url": "https://mathacademy.com/topics/152",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "16233",
+        "dom_id": "sectionLink-16233",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-16233"
+      },
+      {
+        "index": 2,
+        "step_id": "16234",
+        "dom_id": "sectionLink-16234",
+        "name": "",
+        "title": "Calculating the Determinant of a 2x2 Matrix With Integer Entries",
+        "selector": "#sectionLink-16234"
+      },
+      {
+        "index": 3,
+        "step_id": "16235",
+        "dom_id": "sectionLink-16235",
+        "name": "",
+        "title": "Calculating the Determinant of a 2x2 Matrix With Non-Integer Entries",
+        "selector": "#sectionLink-16235"
+      },
+      {
+        "index": 4,
+        "step_id": "16237",
+        "dom_id": "sectionLink-16237",
+        "name": "",
+        "title": "Solving for an Unknown in an Expression Involving the Determinant of a 2x2 Matrix",
+        "selector": "#sectionLink-16237"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "66",
+        "name": "Solving Two-Step Equations",
+        "href": "/topics/solving-two-step-equations-66"
+      },
+      {
+        "topic_id": "352",
+        "name": "Factoring Perfect Square Trinomials",
+        "href": "/topics/factoring-perfect-square-trinomials-352"
+      },
+      {
+        "topic_id": "353",
+        "name": "Factoring Polynomials Using GCFs",
+        "href": "/topics/factoring-polynomials-using-gcfs-353"
+      },
+      {
+        "topic_id": "362",
+        "name": "The Power Rule for Exponents With Algebraic Expressions",
+        "href": "/topics/the-power-rule-for-exponents-with-algebraic-expressions-362"
+      },
+      {
+        "topic_id": "861",
+        "name": "Introduction to Matrices",
+        "href": "/topics/introduction-to-matrices-861"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 10,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "16233",
+        "content_id": "3012",
+        "dom_id": "step-16233",
+        "selector": "#step-16233",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "16234",
+        "content_id": "4434",
+        "dom_id": "step-16234",
+        "selector": "#step-16234",
+        "step_anchor": "step-2",
+        "title": "Calculating the Determinant of a 2x2 Matrix With Integer Entries",
+        "key_prerequisites": [
+          {
+            "topic_id": "861",
+            "name": "Introduction to Matrices",
+            "href": "/topics/861"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "11648",
+        "dom_id": "question-11648",
+        "selector": "#question-11648",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "1079",
+        "dom_id": "question-1079",
+        "selector": "#question-1079",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "16235",
+        "content_id": "4435",
+        "dom_id": "step-16235",
+        "selector": "#step-16235",
+        "step_anchor": "step-5",
+        "title": "Calculating the Determinant of a 2x2 Matrix With Non-Integer Entries",
+        "key_prerequisites": [
+          {
+            "topic_id": "353",
+            "name": "Factoring Polynomials Using GCFs",
+            "href": "/topics/353"
+          },
+          {
+            "topic_id": "362",
+            "name": "The Power Rule for Exponents With Algebraic Expressions",
+            "href": "/topics/362"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "1089",
+        "dom_id": "question-1089",
+        "selector": "#question-1089",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "1088",
+        "dom_id": "question-1088",
+        "selector": "#question-1088",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "16237",
+        "content_id": "4436",
+        "dom_id": "step-16237",
+        "selector": "#step-16237",
+        "step_anchor": "step-8",
+        "title": "Solving for an Unknown in an Expression Involving the Determinant of a 2x2 Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "66",
+            "name": "Solving Two-Step Equations",
+            "href": "/topics/66"
+          },
+          {
+            "topic_id": "352",
+            "name": "Factoring Perfect Square Trinomials",
+            "href": "/topics/352"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "19801",
+        "dom_id": "question-19801",
+        "selector": "#question-19801",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "11651",
+        "dom_id": "question-11651",
+        "selector": "#question-11651",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-16233",
+        "filename": "01-step-16233.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-16234",
+        "filename": "02-step-16234.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-11648",
+        "filename": "03-question-11648.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-1079",
+        "filename": "04-question-1079.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-16235",
+        "filename": "05-step-16235.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-1089",
+        "filename": "06-question-1089.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-1088",
+        "filename": "07-question-1088.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-16237",
+        "filename": "08-step-16237.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-19801",
+        "filename": "09-question-19801.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-11651",
+        "filename": "10-question-11651.png"
+      }
+    ]
+  }
+}

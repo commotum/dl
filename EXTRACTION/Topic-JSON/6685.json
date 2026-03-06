@@ -1,0 +1,510 @@
+{
+  "schema_version": 1,
+  "topic_id": "6685",
+  "topic_title": "Stability of Numerical Methods",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/6685.html",
+  "source_url": "https://mathacademy.com/topics/6685",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "594522",
+        "dom_id": "sectionLink-594522",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-594522"
+      },
+      {
+        "index": 2,
+        "step_id": "594523",
+        "dom_id": "sectionLink-594523",
+        "name": "",
+        "title": "Stability of Euler's Method",
+        "selector": "#sectionLink-594523"
+      },
+      {
+        "index": 3,
+        "step_id": "594524",
+        "dom_id": "sectionLink-594524",
+        "name": "",
+        "title": "Identifying True Statements About the Stability of Euler's Method",
+        "selector": "#sectionLink-594524"
+      },
+      {
+        "index": 4,
+        "step_id": "594527",
+        "dom_id": "sectionLink-594527",
+        "name": "",
+        "title": "Determining Stability in Euler's Method",
+        "selector": "#sectionLink-594527"
+      },
+      {
+        "index": 5,
+        "step_id": "594531",
+        "dom_id": "sectionLink-594531",
+        "name": "",
+        "title": "Stability Functions, Stability Regions, and Absolute Stability",
+        "selector": "#sectionLink-594531"
+      },
+      {
+        "index": 6,
+        "step_id": "594532",
+        "dom_id": "sectionLink-594532",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-594532"
+      },
+      {
+        "index": 7,
+        "step_id": "594533",
+        "dom_id": "sectionLink-594533",
+        "name": "",
+        "title": "Identifying True Statements About the Stability of Other Methods",
+        "selector": "#sectionLink-594533"
+      },
+      {
+        "index": 8,
+        "step_id": "594537",
+        "dom_id": "sectionLink-594537",
+        "name": "",
+        "title": "Table of Results",
+        "selector": "#sectionLink-594537"
+      },
+      {
+        "index": 9,
+        "step_id": "594538",
+        "dom_id": "sectionLink-594538",
+        "name": "",
+        "title": "Determining Stability in Other Methods",
+        "selector": "#sectionLink-594538"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1088",
+        "name": "Convergence of Geometric Sequences",
+        "href": "/topics/convergence-of-geometric-sequences-1088"
+      },
+      {
+        "topic_id": "3246",
+        "name": "Error in Numerical Methods",
+        "href": "/topics/error-in-numerical-methods-3246"
+      },
+      {
+        "topic_id": "3247",
+        "name": "The Modified Euler Method",
+        "href": "/topics/the-modified-euler-method-3247"
+      },
+      {
+        "topic_id": "3248",
+        "name": "The RK4 Method",
+        "href": "/topics/the-rk4-method-3248"
+      },
+      {
+        "topic_id": "6373",
+        "name": "The Trapezoidal Method",
+        "href": "/topics/the-trapezoidal-method-6373"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 19,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "594522",
+        "content_id": "14217",
+        "dom_id": "step-594522",
+        "selector": "#step-594522",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "594523",
+        "content_id": "14463",
+        "dom_id": "step-594523",
+        "selector": "#step-594523",
+        "step_anchor": "step-2",
+        "title": "Stability of Euler's Method",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "594524",
+        "content_id": "21636",
+        "dom_id": "step-594524",
+        "selector": "#step-594524",
+        "step_anchor": "step-3",
+        "title": "Identifying True Statements About the Stability of Euler's Method",
+        "key_prerequisites": [
+          {
+            "topic_id": "602",
+            "name": "Euler's Method: Calculating One Step",
+            "href": "/topics/602"
+          },
+          {
+            "topic_id": "1088",
+            "name": "Convergence of Geometric Sequences",
+            "href": "/topics/1088"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "333079",
+        "dom_id": "question-333079",
+        "selector": "#question-333079",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "332530",
+        "dom_id": "question-332530",
+        "selector": "#question-332530",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "594527",
+        "content_id": "21638",
+        "dom_id": "step-594527",
+        "selector": "#step-594527",
+        "step_anchor": "step-6",
+        "title": "Determining Stability in Euler's Method",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "332533",
+        "dom_id": "question-332533",
+        "selector": "#question-332533",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "332461",
+        "dom_id": "question-332461",
+        "selector": "#question-332461",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "332327",
+        "dom_id": "question-332327",
+        "selector": "#question-332327",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "594531",
+        "content_id": "14464",
+        "dom_id": "step-594531",
+        "selector": "#step-594531",
+        "step_anchor": "step-10",
+        "title": "Stability Functions, Stability Regions, and Absolute Stability",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "594532",
+        "content_id": "14484",
+        "dom_id": "step-594532",
+        "selector": "#step-594532",
+        "step_anchor": "step-11",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "594533",
+        "content_id": "21637",
+        "dom_id": "step-594533",
+        "selector": "#step-594533",
+        "step_anchor": "step-12",
+        "title": "Identifying True Statements About the Stability of Other Methods",
+        "key_prerequisites": [
+          {
+            "topic_id": "3247",
+            "name": "The Modified Euler Method",
+            "href": "/topics/3247"
+          },
+          {
+            "topic_id": "6373",
+            "name": "The Trapezoidal Method",
+            "href": "/topics/6373"
+          },
+          {
+            "topic_id": "6396",
+            "name": "The Implicit Euler Method",
+            "href": "/topics/6396"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "332535",
+        "dom_id": "question-332535",
+        "selector": "#question-332535",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "332571",
+        "dom_id": "question-332571",
+        "selector": "#question-332571",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "332551",
+        "dom_id": "question-332551",
+        "selector": "#question-332551",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "594537",
+        "content_id": "14470",
+        "dom_id": "step-594537",
+        "selector": "#step-594537",
+        "step_anchor": "step-16",
+        "title": "Table of Results",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 17,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "594538",
+        "content_id": "21639",
+        "dom_id": "step-594538",
+        "selector": "#step-594538",
+        "step_anchor": "step-17",
+        "title": "Determining Stability in Other Methods",
+        "key_prerequisites": [
+          {
+            "topic_id": "3248",
+            "name": "The RK4 Method",
+            "href": "/topics/3248"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 18,
+        "item_type": "question",
+        "question_id": "332737",
+        "dom_id": "question-332737",
+        "selector": "#question-332737",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 19,
+        "item_type": "question",
+        "question_id": "332744",
+        "dom_id": "question-332744",
+        "selector": "#question-332744",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-594522",
+        "filename": "01-step-594522.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-594523",
+        "filename": "02-step-594523.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-594524",
+        "filename": "03-step-594524.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-333079",
+        "filename": "04-question-333079.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-332530",
+        "filename": "05-question-332530.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-594527",
+        "filename": "06-step-594527.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-332533",
+        "filename": "07-question-332533.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-332461",
+        "filename": "08-question-332461.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-332327",
+        "filename": "09-question-332327.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-594531",
+        "filename": "10-step-594531.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-594532",
+        "filename": "11-step-594532.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-594533",
+        "filename": "12-step-594533.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-332535",
+        "filename": "13-question-332535.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-332571",
+        "filename": "14-question-332571.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-332551",
+        "filename": "15-question-332551.png"
+      },
+      {
+        "index": 16,
+        "item_type": "step",
+        "selector": "#step-594537",
+        "filename": "16-step-594537.png"
+      },
+      {
+        "index": 17,
+        "item_type": "step",
+        "selector": "#step-594538",
+        "filename": "17-step-594538.png"
+      },
+      {
+        "index": 18,
+        "item_type": "question",
+        "selector": "#question-332737",
+        "filename": "18-question-332737.png"
+      },
+      {
+        "index": 19,
+        "item_type": "question",
+        "selector": "#question-332744",
+        "filename": "19-question-332744.png"
+      }
+    ]
+  }
+}

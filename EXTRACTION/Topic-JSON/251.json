@@ -1,0 +1,422 @@
+{
+  "schema_version": 1,
+  "topic_id": "251",
+  "topic_title": "Translating Between Logical and Set Operations",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/251.html",
+  "source_url": "https://mathacademy.com/topics/251",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "154121",
+        "dom_id": "sectionLink-154121",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-154121"
+      },
+      {
+        "index": 2,
+        "step_id": "154122",
+        "dom_id": "sectionLink-154122",
+        "name": "",
+        "title": "Translating Between Set and Logical Operations",
+        "selector": "#sectionLink-154122"
+      },
+      {
+        "index": 3,
+        "step_id": "154126",
+        "dom_id": "sectionLink-154126",
+        "name": "",
+        "title": "Translating Between Set and Logical Operations Using De Morgan's Laws",
+        "selector": "#sectionLink-154126"
+      },
+      {
+        "index": 4,
+        "step_id": "154130",
+        "dom_id": "sectionLink-154130",
+        "name": "",
+        "title": "Translating Between Set and Logical Operations in More Advanced Cases",
+        "selector": "#sectionLink-154130"
+      },
+      {
+        "index": 5,
+        "step_id": "154134",
+        "dom_id": "sectionLink-154134",
+        "name": "",
+        "title": "Subsets",
+        "selector": "#sectionLink-154134"
+      },
+      {
+        "index": 6,
+        "step_id": "154135",
+        "dom_id": "sectionLink-154135",
+        "name": "",
+        "title": "Writing Subset Inclusion or Exclusion Using Logic Notation",
+        "selector": "#sectionLink-154135"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2828",
+        "name": "The Difference of Sets",
+        "href": "/topics/the-difference-of-sets-2828"
+      },
+      {
+        "topic_id": "4258",
+        "name": "Negating Statements With Nested Quantifiers",
+        "href": "/topics/negating-statements-with-nested-quantifiers-4258"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 17,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "154121",
+        "content_id": "4308",
+        "dom_id": "step-154121",
+        "selector": "#step-154121",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "154122",
+        "content_id": "13290",
+        "dom_id": "step-154122",
+        "selector": "#step-154122",
+        "step_anchor": "step-2",
+        "title": "Translating Between Set and Logical Operations",
+        "key_prerequisites": [
+          {
+            "topic_id": "2828",
+            "name": "The Difference of Sets",
+            "href": "/topics/2828"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "183851",
+        "dom_id": "question-183851",
+        "selector": "#question-183851",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "183927",
+        "dom_id": "question-183927",
+        "selector": "#question-183927",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "183837",
+        "dom_id": "question-183837",
+        "selector": "#question-183837",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "154126",
+        "content_id": "13291",
+        "dom_id": "step-154126",
+        "selector": "#step-154126",
+        "step_anchor": "step-6",
+        "title": "Translating Between Set and Logical Operations Using De Morgan's Laws",
+        "key_prerequisites": [
+          {
+            "topic_id": "4302",
+            "name": "Simplifying Predicate Expressions Using De Morgan's Laws",
+            "href": "/topics/4302"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "183978",
+        "dom_id": "question-183978",
+        "selector": "#question-183978",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "183844",
+        "dom_id": "question-183844",
+        "selector": "#question-183844",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "183982",
+        "dom_id": "question-183982",
+        "selector": "#question-183982",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "154130",
+        "content_id": "7122",
+        "dom_id": "step-154130",
+        "selector": "#step-154130",
+        "step_anchor": "step-10",
+        "title": "Translating Between Set and Logical Operations in More Advanced Cases",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "1496",
+        "dom_id": "question-1496",
+        "selector": "#question-1496",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "1499",
+        "dom_id": "question-1499",
+        "selector": "#question-1499",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "1518",
+        "dom_id": "question-1518",
+        "selector": "#question-1518",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "154134",
+        "content_id": "9152",
+        "dom_id": "step-154134",
+        "selector": "#step-154134",
+        "step_anchor": "step-14",
+        "title": "Subsets",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "154135",
+        "content_id": "13292",
+        "dom_id": "step-154135",
+        "selector": "#step-154135",
+        "step_anchor": "step-15",
+        "title": "Writing Subset Inclusion or Exclusion Using Logic Notation",
+        "key_prerequisites": [
+          {
+            "topic_id": "50",
+            "name": "Subsets",
+            "href": "/topics/50"
+          },
+          {
+            "topic_id": "4258",
+            "name": "Negating Statements With Nested Quantifiers",
+            "href": "/topics/4258"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "183969",
+        "dom_id": "question-183969",
+        "selector": "#question-183969",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "question_id": "183856",
+        "dom_id": "question-183856",
+        "selector": "#question-183856",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-154121",
+        "filename": "01-step-154121.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-154122",
+        "filename": "02-step-154122.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-183851",
+        "filename": "03-question-183851.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-183927",
+        "filename": "04-question-183927.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-183837",
+        "filename": "05-question-183837.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-154126",
+        "filename": "06-step-154126.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-183978",
+        "filename": "07-question-183978.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-183844",
+        "filename": "08-question-183844.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-183982",
+        "filename": "09-question-183982.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-154130",
+        "filename": "10-step-154130.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-1496",
+        "filename": "11-question-1496.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-1499",
+        "filename": "12-question-1499.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-1518",
+        "filename": "13-question-1518.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-154134",
+        "filename": "14-step-154134.png"
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "selector": "#step-154135",
+        "filename": "15-step-154135.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-183969",
+        "filename": "16-question-183969.png"
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "selector": "#question-183856",
+        "filename": "17-question-183856.png"
+      }
+    ]
+  }
+}

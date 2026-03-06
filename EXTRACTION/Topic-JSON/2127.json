@@ -1,0 +1,331 @@
+{
+  "schema_version": 1,
+  "topic_id": "2127",
+  "topic_title": "The Gram-Schmidt Process for Two Vectors",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2127.html",
+  "source_url": "https://mathacademy.com/topics/2127",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "20257",
+        "dom_id": "sectionLink-20257",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-20257"
+      },
+      {
+        "index": 2,
+        "step_id": "20258",
+        "dom_id": "sectionLink-20258",
+        "name": "",
+        "title": "Finding an Orthogonal Basis For the Span of Two Vectors",
+        "selector": "#sectionLink-20258"
+      },
+      {
+        "index": 3,
+        "step_id": "26458",
+        "dom_id": "sectionLink-26458",
+        "name": "",
+        "title": "Scaling the Vectors After the Gram-Schmidt Process",
+        "selector": "#sectionLink-26458"
+      },
+      {
+        "index": 4,
+        "step_id": "20259",
+        "dom_id": "sectionLink-20259",
+        "name": "",
+        "title": "Finding an Orthogonal Basis For the Column Space of a Matrix",
+        "selector": "#sectionLink-20259"
+      },
+      {
+        "index": 5,
+        "step_id": "20260",
+        "dom_id": "sectionLink-20260",
+        "name": "",
+        "title": "Using the Gram-Schmidt Process to Find an Orthonormal Basis",
+        "selector": "#sectionLink-20260"
+      },
+      {
+        "index": 6,
+        "step_id": "20261",
+        "dom_id": "sectionLink-20261",
+        "name": "",
+        "title": "Finding an Orthonormal Basis of a Vector Space",
+        "selector": "#sectionLink-20261"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2103",
+        "name": "Orthogonal Sets in Euclidean Spaces",
+        "href": "/topics/orthogonal-sets-in-euclidean-spaces-2103"
+      },
+      {
+        "topic_id": "2122",
+        "name": "Projecting Vectors Onto One-Dimensional Subspaces",
+        "href": "/topics/projecting-vectors-onto-one-dimensional-subspaces-2122"
+      },
+      {
+        "topic_id": "2623",
+        "name": "Finding a Basis of the Column Space of a Matrix",
+        "href": "/topics/finding-a-basis-of-the-column-space-of-a-matrix-2623"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20257",
+        "content_id": "3631",
+        "dom_id": "step-20257",
+        "selector": "#step-20257",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20258",
+        "content_id": "5581",
+        "dom_id": "step-20258",
+        "selector": "#step-20258",
+        "step_anchor": "step-2",
+        "title": "Finding an Orthogonal Basis For the Span of Two Vectors",
+        "key_prerequisites": [
+          {
+            "topic_id": "2103",
+            "name": "Orthogonal Sets in Euclidean Spaces",
+            "href": "/topics/2103"
+          },
+          {
+            "topic_id": "2122",
+            "name": "Projecting Vectors Onto One-Dimensional Subspaces",
+            "href": "/topics/2122"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "40738",
+        "dom_id": "question-40738",
+        "selector": "#question-40738",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "41030",
+        "dom_id": "question-41030",
+        "selector": "#question-41030",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "26458",
+        "content_id": "4351",
+        "dom_id": "step-26458",
+        "selector": "#step-26458",
+        "step_anchor": "step-5",
+        "title": "Scaling the Vectors After the Gram-Schmidt Process",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20259",
+        "content_id": "5582",
+        "dom_id": "step-20259",
+        "selector": "#step-20259",
+        "step_anchor": "step-6",
+        "title": "Finding an Orthogonal Basis For the Column Space of a Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "1850",
+            "name": "The Column Space of a Matrix",
+            "href": "/topics/1850"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "40741",
+        "dom_id": "question-40741",
+        "selector": "#question-40741",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "41035",
+        "dom_id": "question-41035",
+        "selector": "#question-41035",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20260",
+        "content_id": "3632",
+        "dom_id": "step-20260",
+        "selector": "#step-20260",
+        "step_anchor": "step-9",
+        "title": "Using the Gram-Schmidt Process to Find an Orthonormal Basis",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20261",
+        "content_id": "5583",
+        "dom_id": "step-20261",
+        "selector": "#step-20261",
+        "step_anchor": "step-10",
+        "title": "Finding an Orthonormal Basis of a Vector Space",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "40739",
+        "dom_id": "question-40739",
+        "selector": "#question-40739",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "40740",
+        "dom_id": "question-40740",
+        "selector": "#question-40740",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-20257",
+        "filename": "01-step-20257.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-20258",
+        "filename": "02-step-20258.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-40738",
+        "filename": "03-question-40738.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-41030",
+        "filename": "04-question-41030.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-26458",
+        "filename": "05-step-26458.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-20259",
+        "filename": "06-step-20259.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-40741",
+        "filename": "07-question-40741.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-41035",
+        "filename": "08-question-41035.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-20260",
+        "filename": "09-step-20260.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-20261",
+        "filename": "10-step-20261.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-40739",
+        "filename": "11-question-40739.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-40740",
+        "filename": "12-question-40740.png"
+      }
+    ]
+  }
+}

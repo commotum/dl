@@ -1,0 +1,459 @@
+{
+  "schema_version": 1,
+  "topic_id": "1714",
+  "topic_title": "Counting Trees",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1714.html",
+  "source_url": "https://mathacademy.com/topics/1714",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "417372",
+        "dom_id": "sectionLink-417372",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-417372"
+      },
+      {
+        "index": 2,
+        "step_id": "417373",
+        "dom_id": "sectionLink-417373",
+        "name": "",
+        "title": "Identifying Isomorphic Trees",
+        "selector": "#sectionLink-417373"
+      },
+      {
+        "index": 3,
+        "step_id": "417376",
+        "dom_id": "sectionLink-417376",
+        "name": "",
+        "title": "Counting Unlabeled and Labeled Trees",
+        "selector": "#sectionLink-417376"
+      },
+      {
+        "index": 4,
+        "step_id": "417377",
+        "dom_id": "sectionLink-417377",
+        "name": "",
+        "title": "Cayley's Formula",
+        "selector": "#sectionLink-417377"
+      },
+      {
+        "index": 5,
+        "step_id": "417378",
+        "dom_id": "sectionLink-417378",
+        "name": "",
+        "title": "Counting the Number of Labeled Trees",
+        "selector": "#sectionLink-417378"
+      },
+      {
+        "index": 6,
+        "step_id": "417381",
+        "dom_id": "sectionLink-417381",
+        "name": "",
+        "title": "Using Cayley's Formula on Rooted Trees",
+        "selector": "#sectionLink-417381"
+      },
+      {
+        "index": 7,
+        "step_id": "417382",
+        "dom_id": "sectionLink-417382",
+        "name": "",
+        "title": "Counting the Number of Labeled Rooted Trees",
+        "selector": "#sectionLink-417382"
+      },
+      {
+        "index": 8,
+        "step_id": "417385",
+        "dom_id": "sectionLink-417385",
+        "name": "",
+        "title": "Using Cayley's Formula on Rooted Forests",
+        "selector": "#sectionLink-417385"
+      },
+      {
+        "index": 9,
+        "step_id": "417386",
+        "dom_id": "sectionLink-417386",
+        "name": "",
+        "title": "Counting the Number of Labeled Rooted Forests",
+        "selector": "#sectionLink-417386"
+      },
+      {
+        "index": 10,
+        "step_id": "420864",
+        "dom_id": "sectionLink-420864",
+        "name": "",
+        "title": "Proof of Cayley's Formula",
+        "selector": "#sectionLink-420864"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "775",
+        "name": "Ordering Objects",
+        "href": "/topics/ordering-objects-775"
+      },
+      {
+        "topic_id": "1284",
+        "name": "Trees and Forests",
+        "href": "/topics/trees-and-forests-1284"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 18,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "417372",
+        "content_id": "11199",
+        "dom_id": "step-417372",
+        "selector": "#step-417372",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "417373",
+        "content_id": "16897",
+        "dom_id": "step-417373",
+        "selector": "#step-417373",
+        "step_anchor": "step-2",
+        "title": "Identifying Isomorphic Trees",
+        "key_prerequisites": [
+          {
+            "topic_id": "1284",
+            "name": "Trees and Forests",
+            "href": "/topics/1284"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "259292",
+        "dom_id": "question-259292",
+        "selector": "#question-259292",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "259415",
+        "dom_id": "question-259415",
+        "selector": "#question-259415",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "417376",
+        "content_id": "11200",
+        "dom_id": "step-417376",
+        "selector": "#step-417376",
+        "step_anchor": "step-5",
+        "title": "Counting Unlabeled and Labeled Trees",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "417377",
+        "content_id": "11201",
+        "dom_id": "step-417377",
+        "selector": "#step-417377",
+        "step_anchor": "step-6",
+        "title": "Cayley's Formula",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "417378",
+        "content_id": "16898",
+        "dom_id": "step-417378",
+        "selector": "#step-417378",
+        "step_anchor": "step-7",
+        "title": "Counting the Number of Labeled Trees",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "259224",
+        "dom_id": "question-259224",
+        "selector": "#question-259224",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "259235",
+        "dom_id": "question-259235",
+        "selector": "#question-259235",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "417381",
+        "content_id": "11202",
+        "dom_id": "step-417381",
+        "selector": "#step-417381",
+        "step_anchor": "step-10",
+        "title": "Using Cayley's Formula on Rooted Trees",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "417382",
+        "content_id": "16899",
+        "dom_id": "step-417382",
+        "selector": "#step-417382",
+        "step_anchor": "step-11",
+        "title": "Counting the Number of Labeled Rooted Trees",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "259227",
+        "dom_id": "question-259227",
+        "selector": "#question-259227",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "259226",
+        "dom_id": "question-259226",
+        "selector": "#question-259226",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "417385",
+        "content_id": "11679",
+        "dom_id": "step-417385",
+        "selector": "#step-417385",
+        "step_anchor": "step-14",
+        "title": "Using Cayley's Formula on Rooted Forests",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "417386",
+        "content_id": "16900",
+        "dom_id": "step-417386",
+        "selector": "#step-417386",
+        "step_anchor": "step-15",
+        "title": "Counting the Number of Labeled Rooted Forests",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "259231",
+        "dom_id": "question-259231",
+        "selector": "#question-259231",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "question_id": "259230",
+        "dom_id": "question-259230",
+        "selector": "#question-259230",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 18,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "420864",
+        "content_id": "11974",
+        "dom_id": "step-420864",
+        "selector": "#step-420864",
+        "step_anchor": "step-18",
+        "title": "Proof of Cayley's Formula",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-417372",
+        "filename": "01-step-417372.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-417373",
+        "filename": "02-step-417373.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-259292",
+        "filename": "03-question-259292.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-259415",
+        "filename": "04-question-259415.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-417376",
+        "filename": "05-step-417376.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-417377",
+        "filename": "06-step-417377.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-417378",
+        "filename": "07-step-417378.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-259224",
+        "filename": "08-question-259224.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-259235",
+        "filename": "09-question-259235.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-417381",
+        "filename": "10-step-417381.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-417382",
+        "filename": "11-step-417382.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-259227",
+        "filename": "12-question-259227.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-259226",
+        "filename": "13-question-259226.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-417385",
+        "filename": "14-step-417385.png"
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "selector": "#step-417386",
+        "filename": "15-step-417386.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-259231",
+        "filename": "16-question-259231.png"
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "selector": "#question-259230",
+        "filename": "17-question-259230.png"
+      },
+      {
+        "index": 18,
+        "item_type": "step",
+        "selector": "#step-420864",
+        "filename": "18-step-420864.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,342 @@
+{
+  "schema_version": 1,
+  "topic_id": "1058",
+  "topic_title": "Quadratic Regression",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1058.html",
+  "source_url": "https://mathacademy.com/topics/1058",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "577282",
+        "dom_id": "sectionLink-577282",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-577282"
+      },
+      {
+        "index": 2,
+        "step_id": "577283",
+        "dom_id": "sectionLink-577283",
+        "name": "",
+        "title": "Identifying a Possible Quadratic Curve of Best Fit",
+        "selector": "#sectionLink-577283"
+      },
+      {
+        "index": 3,
+        "step_id": "577286",
+        "dom_id": "sectionLink-577286",
+        "name": "",
+        "title": "Identifying a Possible Quadratic Curve of Best Fit Using the Vertex Formula",
+        "selector": "#sectionLink-577286"
+      },
+      {
+        "index": 4,
+        "step_id": "577289",
+        "dom_id": "sectionLink-577289",
+        "name": "",
+        "title": "Using Quadratic Regression To Predict the Output for a Given Observation",
+        "selector": "#sectionLink-577289"
+      },
+      {
+        "index": 5,
+        "step_id": "577292",
+        "dom_id": "sectionLink-577292",
+        "name": "",
+        "title": "Computing the Residual for a Data Point",
+        "selector": "#sectionLink-577292"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "704",
+        "name": "The Axis of Symmetry of a Parabola",
+        "href": "/topics/the-axis-of-symmetry-of-a-parabola-704"
+      },
+      {
+        "topic_id": "3595",
+        "name": "Residuals and Residual Plots",
+        "href": "/topics/residuals-and-residual-plots-3595"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "577282",
+        "content_id": "3702",
+        "dom_id": "step-577282",
+        "selector": "#step-577282",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "577283",
+        "content_id": "5715",
+        "dom_id": "step-577283",
+        "selector": "#step-577283",
+        "step_anchor": "step-2",
+        "title": "Identifying a Possible Quadratic Curve of Best Fit",
+        "key_prerequisites": [
+          {
+            "topic_id": "84",
+            "name": "Graphs of General Quadratic Functions",
+            "href": "/topics/84"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "135259",
+        "dom_id": "question-135259",
+        "selector": "#question-135259",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "135680",
+        "dom_id": "question-135680",
+        "selector": "#question-135680",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "577286",
+        "content_id": "21512",
+        "dom_id": "step-577286",
+        "selector": "#step-577286",
+        "step_anchor": "step-5",
+        "title": "Identifying a Possible Quadratic Curve of Best Fit Using the Vertex Formula",
+        "key_prerequisites": [
+          {
+            "topic_id": "704",
+            "name": "The Axis of Symmetry of a Parabola",
+            "href": "/topics/704"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "327418",
+        "dom_id": "question-327418",
+        "selector": "#question-327418",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "10965",
+        "dom_id": "question-10965",
+        "selector": "#question-10965",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "577289",
+        "content_id": "5714",
+        "dom_id": "step-577289",
+        "selector": "#step-577289",
+        "step_anchor": "step-8",
+        "title": "Using Quadratic Regression To Predict the Output for a Given Observation",
+        "key_prerequisites": [
+          {
+            "topic_id": "470",
+            "name": "Introduction to Functions",
+            "href": "/topics/470"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "10311",
+        "dom_id": "question-10311",
+        "selector": "#question-10311",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "10310",
+        "dom_id": "question-10310",
+        "selector": "#question-10310",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "577292",
+        "content_id": "5726",
+        "dom_id": "step-577292",
+        "selector": "#step-577292",
+        "step_anchor": "step-11",
+        "title": "Computing the Residual for a Data Point",
+        "key_prerequisites": [
+          {
+            "topic_id": "3595",
+            "name": "Residuals and Residual Plots",
+            "href": "/topics/3595"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "17730",
+        "dom_id": "question-17730",
+        "selector": "#question-17730",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "17732",
+        "dom_id": "question-17732",
+        "selector": "#question-17732",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-577282",
+        "filename": "01-step-577282.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-577283",
+        "filename": "02-step-577283.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-135259",
+        "filename": "03-question-135259.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-135680",
+        "filename": "04-question-135680.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-577286",
+        "filename": "05-step-577286.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-327418",
+        "filename": "06-question-327418.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-10965",
+        "filename": "07-question-10965.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-577289",
+        "filename": "08-step-577289.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-10311",
+        "filename": "09-question-10311.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-10310",
+        "filename": "10-question-10310.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-577292",
+        "filename": "11-step-577292.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-17730",
+        "filename": "12-question-17730.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-17732",
+        "filename": "13-question-17732.png"
+      }
+    ]
+  }
+}

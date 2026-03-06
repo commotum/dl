@@ -1,0 +1,348 @@
+{
+  "schema_version": 1,
+  "topic_id": "4171",
+  "topic_title": "Second-Degree Taylor Polynomials of Multivariable Functions",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/4171.html",
+  "source_url": "https://mathacademy.com/topics/4171",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "45308",
+        "dom_id": "sectionLink-45308",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-45308"
+      },
+      {
+        "index": 2,
+        "step_id": "45309",
+        "dom_id": "sectionLink-45309",
+        "name": "",
+        "title": "Finding a Quadratic Taylor Polynomial",
+        "selector": "#sectionLink-45309"
+      },
+      {
+        "index": 3,
+        "step_id": "45312",
+        "dom_id": "sectionLink-45312",
+        "name": "",
+        "title": "The Quadratic Taylor Polynomial in Matrix Form",
+        "selector": "#sectionLink-45312"
+      },
+      {
+        "index": 4,
+        "step_id": "45313",
+        "dom_id": "sectionLink-45313",
+        "name": "",
+        "title": "General Formula For the Quadratic Taylor Polynomial in Matrix Form",
+        "selector": "#sectionLink-45313"
+      },
+      {
+        "index": 5,
+        "step_id": "45314",
+        "dom_id": "sectionLink-45314",
+        "name": "",
+        "title": "Finding a Quadratic Taylor Polynomial in Matrix Form",
+        "selector": "#sectionLink-45314"
+      },
+      {
+        "index": 6,
+        "step_id": "45340",
+        "dom_id": "sectionLink-45340",
+        "name": "",
+        "title": "Approximating a Multivariable Function at a Point Using a Quadratic Taylor Polynomial",
+        "selector": "#sectionLink-45340"
+      },
+      {
+        "index": 7,
+        "step_id": "45339",
+        "dom_id": "sectionLink-45339",
+        "name": "",
+        "title": "Deriving the Quadratic Taylor Polynomial in Matrix Form",
+        "selector": "#sectionLink-45339"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1177",
+        "name": "Second-Degree Taylor Polynomials",
+        "href": "/topics/second-degree-taylor-polynomials-1177"
+      },
+      {
+        "topic_id": "2824",
+        "name": "The Second Derivative of a Multivariable Function",
+        "href": "/topics/the-second-derivative-of-a-multivariable-function-2824"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "45308",
+        "content_id": "7846",
+        "dom_id": "step-45308",
+        "selector": "#step-45308",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "45309",
+        "content_id": "12562",
+        "dom_id": "step-45309",
+        "selector": "#step-45309",
+        "step_anchor": "step-2",
+        "title": "Finding a Quadratic Taylor Polynomial",
+        "key_prerequisites": [
+          {
+            "topic_id": "1177",
+            "name": "Second-Degree Taylor Polynomials",
+            "href": "/topics/1177"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "162992",
+        "dom_id": "question-162992",
+        "selector": "#question-162992",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "163113",
+        "dom_id": "question-163113",
+        "selector": "#question-163113",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "45312",
+        "content_id": "7847",
+        "dom_id": "step-45312",
+        "selector": "#step-45312",
+        "step_anchor": "step-5",
+        "title": "The Quadratic Taylor Polynomial in Matrix Form",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "45313",
+        "content_id": "7848",
+        "dom_id": "step-45313",
+        "selector": "#step-45313",
+        "step_anchor": "step-6",
+        "title": "General Formula For the Quadratic Taylor Polynomial in Matrix Form",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "45314",
+        "content_id": "12563",
+        "dom_id": "step-45314",
+        "selector": "#step-45314",
+        "step_anchor": "step-7",
+        "title": "Finding a Quadratic Taylor Polynomial in Matrix Form",
+        "key_prerequisites": [
+          {
+            "topic_id": "2824",
+            "name": "The Second Derivative of a Multivariable Function",
+            "href": "/topics/2824"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "162947",
+        "dom_id": "question-162947",
+        "selector": "#question-162947",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "162989",
+        "dom_id": "question-162989",
+        "selector": "#question-162989",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "45340",
+        "content_id": "12564",
+        "dom_id": "step-45340",
+        "selector": "#step-45340",
+        "step_anchor": "step-10",
+        "title": "Approximating a Multivariable Function at a Point Using a Quadratic Taylor Polynomial",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "164611",
+        "dom_id": "question-164611",
+        "selector": "#question-164611",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "164809",
+        "dom_id": "question-164809",
+        "selector": "#question-164809",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "45339",
+        "content_id": "7862",
+        "dom_id": "step-45339",
+        "selector": "#step-45339",
+        "step_anchor": "step-13",
+        "title": "Deriving the Quadratic Taylor Polynomial in Matrix Form",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-45308",
+        "filename": "01-step-45308.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-45309",
+        "filename": "02-step-45309.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-162992",
+        "filename": "03-question-162992.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-163113",
+        "filename": "04-question-163113.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-45312",
+        "filename": "05-step-45312.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-45313",
+        "filename": "06-step-45313.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-45314",
+        "filename": "07-step-45314.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-162947",
+        "filename": "08-question-162947.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-162989",
+        "filename": "09-question-162989.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-45340",
+        "filename": "10-step-45340.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-164611",
+        "filename": "11-question-164611.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-164809",
+        "filename": "12-question-164809.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-45339",
+        "filename": "13-step-45339.png"
+      }
+    ]
+  }
+}

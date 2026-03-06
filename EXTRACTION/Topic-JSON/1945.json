@@ -1,0 +1,459 @@
+{
+  "schema_version": 1,
+  "topic_id": "1945",
+  "topic_title": "Global vs. Local Extrema and Critical Points of Multivariable Functions",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1945.html",
+  "source_url": "https://mathacademy.com/topics/1945",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "44876",
+        "dom_id": "sectionLink-44876",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-44876"
+      },
+      {
+        "index": 2,
+        "step_id": "44845",
+        "dom_id": "sectionLink-44845",
+        "name": "",
+        "title": "Identifying the Global Extrema of a Multivariable Function",
+        "selector": "#sectionLink-44845"
+      },
+      {
+        "index": 3,
+        "step_id": "44870",
+        "dom_id": "sectionLink-44870",
+        "name": "",
+        "title": "Local Extrema of a Multivariable Function",
+        "selector": "#sectionLink-44870"
+      },
+      {
+        "index": 4,
+        "step_id": "44846",
+        "dom_id": "sectionLink-44846",
+        "name": "",
+        "title": "Identifying the Local Extrema of a Multivariable Function",
+        "selector": "#sectionLink-44846"
+      },
+      {
+        "index": 5,
+        "step_id": "25917",
+        "dom_id": "sectionLink-25917",
+        "name": "",
+        "title": "Saddle Points",
+        "selector": "#sectionLink-25917"
+      },
+      {
+        "index": 6,
+        "step_id": "25915",
+        "dom_id": "sectionLink-25915",
+        "name": "",
+        "title": "Classifying Local Extrema Using Taylor Polynomials",
+        "selector": "#sectionLink-25915"
+      },
+      {
+        "index": 7,
+        "step_id": "45322",
+        "dom_id": "sectionLink-45322",
+        "name": "",
+        "title": "A Summary of Key Results",
+        "selector": "#sectionLink-45322"
+      },
+      {
+        "index": 8,
+        "step_id": "44871",
+        "dom_id": "sectionLink-44871",
+        "name": "",
+        "title": "Classifying Local Extrema Using Eigenvalues",
+        "selector": "#sectionLink-44871"
+      },
+      {
+        "index": 9,
+        "step_id": "25918",
+        "dom_id": "sectionLink-25918",
+        "name": "",
+        "title": "Classifying Local Extrema Using Sylvester's Criterion",
+        "selector": "#sectionLink-25918"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "339",
+        "name": "The Second Derivative Test",
+        "href": "/topics/the-second-derivative-test-339"
+      },
+      {
+        "topic_id": "3127",
+        "name": "Positive-Definite and Negative-Definite Quadratic Forms",
+        "href": "/topics/positive-definite-and-negative-definite-quadratic-forms-3127"
+      },
+      {
+        "topic_id": "4171",
+        "name": "Second-Degree Taylor Polynomials of Multivariable Functions",
+        "href": "/topics/second-degree-taylor-polynomials-of-multivariable-functions-4171"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 17,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44876",
+        "content_id": "7753",
+        "dom_id": "step-44876",
+        "selector": "#step-44876",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44845",
+        "content_id": "12460",
+        "dom_id": "step-44845",
+        "selector": "#step-44845",
+        "step_anchor": "step-2",
+        "title": "Identifying the Global Extrema of a Multivariable Function",
+        "key_prerequisites": [
+          {
+            "topic_id": "1888",
+            "name": "Global Extrema of Functions",
+            "href": "/topics/1888"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "162705",
+        "dom_id": "question-162705",
+        "selector": "#question-162705",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "162706",
+        "dom_id": "question-162706",
+        "selector": "#question-162706",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44870",
+        "content_id": "7752",
+        "dom_id": "step-44870",
+        "selector": "#step-44870",
+        "step_anchor": "step-5",
+        "title": "Local Extrema of a Multivariable Function",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44846",
+        "content_id": "12461",
+        "dom_id": "step-44846",
+        "selector": "#step-44846",
+        "step_anchor": "step-6",
+        "title": "Identifying the Local Extrema of a Multivariable Function",
+        "key_prerequisites": [
+          {
+            "topic_id": "2707",
+            "name": "Local Extrema of Functions",
+            "href": "/topics/2707"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "162743",
+        "dom_id": "question-162743",
+        "selector": "#question-162743",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "162747",
+        "dom_id": "question-162747",
+        "selector": "#question-162747",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "25917",
+        "content_id": "4264",
+        "dom_id": "step-25917",
+        "selector": "#step-25917",
+        "step_anchor": "step-9",
+        "title": "Saddle Points",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "25915",
+        "content_id": "4263",
+        "dom_id": "step-25915",
+        "selector": "#step-25915",
+        "step_anchor": "step-10",
+        "title": "Classifying Local Extrema Using Taylor Polynomials",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "45322",
+        "content_id": "7852",
+        "dom_id": "step-45322",
+        "selector": "#step-45322",
+        "step_anchor": "step-11",
+        "title": "A Summary of Key Results",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44871",
+        "content_id": "12465",
+        "dom_id": "step-44871",
+        "selector": "#step-44871",
+        "step_anchor": "step-12",
+        "title": "Classifying Local Extrema Using Eigenvalues",
+        "key_prerequisites": [
+          {
+            "topic_id": "339",
+            "name": "The Second Derivative Test",
+            "href": "/topics/339"
+          },
+          {
+            "topic_id": "3127",
+            "name": "Positive-Definite and Negative-Definite Quadratic Forms",
+            "href": "/topics/3127"
+          },
+          {
+            "topic_id": "4171",
+            "name": "Second-Degree Taylor Polynomials of Multivariable Functions",
+            "href": "/topics/4171"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "163721",
+        "dom_id": "question-163721",
+        "selector": "#question-163721",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "163787",
+        "dom_id": "question-163787",
+        "selector": "#question-163787",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "25918",
+        "content_id": "7030",
+        "dom_id": "step-25918",
+        "selector": "#step-25918",
+        "step_anchor": "step-15",
+        "title": "Classifying Local Extrema Using Sylvester's Criterion",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "163722",
+        "dom_id": "question-163722",
+        "selector": "#question-163722",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "question_id": "163723",
+        "dom_id": "question-163723",
+        "selector": "#question-163723",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-44876",
+        "filename": "01-step-44876.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-44845",
+        "filename": "02-step-44845.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-162705",
+        "filename": "03-question-162705.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-162706",
+        "filename": "04-question-162706.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-44870",
+        "filename": "05-step-44870.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-44846",
+        "filename": "06-step-44846.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-162743",
+        "filename": "07-question-162743.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-162747",
+        "filename": "08-question-162747.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-25917",
+        "filename": "09-step-25917.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-25915",
+        "filename": "10-step-25915.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-45322",
+        "filename": "11-step-45322.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-44871",
+        "filename": "12-step-44871.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-163721",
+        "filename": "13-question-163721.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-163787",
+        "filename": "14-question-163787.png"
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "selector": "#step-25918",
+        "filename": "15-step-25918.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-163722",
+        "filename": "16-question-163722.png"
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "selector": "#question-163723",
+        "filename": "17-question-163723.png"
+      }
+    ]
+  }
+}

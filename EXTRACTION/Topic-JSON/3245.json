@@ -1,0 +1,329 @@
+{
+  "schema_version": 1,
+  "topic_id": "3245",
+  "topic_title": "Euler's Method for Systems of ODEs",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3245.html",
+  "source_url": "https://mathacademy.com/topics/3245",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "587380",
+        "dom_id": "sectionLink-587380",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-587380"
+      },
+      {
+        "index": 2,
+        "step_id": "587381",
+        "dom_id": "sectionLink-587381",
+        "name": "",
+        "title": "Approximating the Solution to a System of ODEs Using Euler's Method With One Step",
+        "selector": "#sectionLink-587381"
+      },
+      {
+        "index": 3,
+        "step_id": "587385",
+        "dom_id": "sectionLink-587385",
+        "name": "",
+        "title": "Approximating the Solution to a System of ODEs Using Euler's Method With Multiple Steps",
+        "selector": "#sectionLink-587385"
+      },
+      {
+        "index": 4,
+        "step_id": "587388",
+        "dom_id": "sectionLink-587388",
+        "name": "",
+        "title": "Euler's Method for Larger Systems of ODEs",
+        "selector": "#sectionLink-587388"
+      },
+      {
+        "index": 5,
+        "step_id": "587389",
+        "dom_id": "sectionLink-587389",
+        "name": "",
+        "title": "Approximating the Solution to a System of Three ODEs Using Euler's Method",
+        "selector": "#sectionLink-587389"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2086",
+        "name": "Introduction to Systems of Linear ODEs",
+        "href": "/topics/introduction-to-systems-of-linear-odes-2086"
+      },
+      {
+        "topic_id": "3668",
+        "name": "Euler's Method: Calculating Multiple Steps",
+        "href": "/topics/eulers-method-calculating-multiple-steps-3668"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "587380",
+        "content_id": "14474",
+        "dom_id": "step-587380",
+        "selector": "#step-587380",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "587381",
+        "content_id": "21655",
+        "dom_id": "step-587381",
+        "selector": "#step-587381",
+        "step_anchor": "step-2",
+        "title": "Approximating the Solution to a System of ODEs Using Euler's Method With One Step",
+        "key_prerequisites": [
+          {
+            "topic_id": "2086",
+            "name": "Introduction to Systems of Linear ODEs",
+            "href": "/topics/2086"
+          },
+          {
+            "topic_id": "3668",
+            "name": "Euler's Method: Calculating Multiple Steps",
+            "href": "/topics/3668"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "333813",
+        "dom_id": "question-333813",
+        "selector": "#question-333813",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "332896",
+        "dom_id": "question-332896",
+        "selector": "#question-332896",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "333947",
+        "dom_id": "question-333947",
+        "selector": "#question-333947",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "587385",
+        "content_id": "21656",
+        "dom_id": "step-587385",
+        "selector": "#step-587385",
+        "step_anchor": "step-6",
+        "title": "Approximating the Solution to a System of ODEs Using Euler's Method With Multiple Steps",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "332892",
+        "dom_id": "question-332892",
+        "selector": "#question-332892",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "332891",
+        "dom_id": "question-332891",
+        "selector": "#question-332891",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "587388",
+        "content_id": "14486",
+        "dom_id": "step-587388",
+        "selector": "#step-587388",
+        "step_anchor": "step-9",
+        "title": "Euler's Method for Larger Systems of ODEs",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "587389",
+        "content_id": "21660",
+        "dom_id": "step-587389",
+        "selector": "#step-587389",
+        "step_anchor": "step-10",
+        "title": "Approximating the Solution to a System of Three ODEs Using Euler's Method",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "332965",
+        "dom_id": "question-332965",
+        "selector": "#question-332965",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "335346",
+        "dom_id": "question-335346",
+        "selector": "#question-335346",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "332967",
+        "dom_id": "question-332967",
+        "selector": "#question-332967",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-587380",
+        "filename": "01-step-587380.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-587381",
+        "filename": "02-step-587381.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-333813",
+        "filename": "03-question-333813.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-332896",
+        "filename": "04-question-332896.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-333947",
+        "filename": "05-question-333947.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-587385",
+        "filename": "06-step-587385.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-332892",
+        "filename": "07-question-332892.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-332891",
+        "filename": "08-question-332891.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-587388",
+        "filename": "09-step-587388.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-587389",
+        "filename": "10-step-587389.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-332965",
+        "filename": "11-question-332965.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-335346",
+        "filename": "12-question-335346.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-332967",
+        "filename": "13-question-332967.png"
+      }
+    ]
+  }
+}

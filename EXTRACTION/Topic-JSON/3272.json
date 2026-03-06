@@ -1,0 +1,379 @@
+{
+  "schema_version": 1,
+  "topic_id": "3272",
+  "topic_title": "Bayes' Theorem",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3272.html",
+  "source_url": "https://mathacademy.com/topics/3272",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "32380",
+        "dom_id": "sectionLink-32380",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-32380"
+      },
+      {
+        "index": 2,
+        "step_id": "33290",
+        "dom_id": "sectionLink-33290",
+        "name": "",
+        "title": "Computing a Conditional Probability Using Bayes' Theorem",
+        "selector": "#sectionLink-33290"
+      },
+      {
+        "index": 3,
+        "step_id": "39080",
+        "dom_id": "sectionLink-39080",
+        "name": "",
+        "title": "The Significance of Bayes' Theorem",
+        "selector": "#sectionLink-39080"
+      },
+      {
+        "index": 4,
+        "step_id": "33311",
+        "dom_id": "sectionLink-33311",
+        "name": "",
+        "title": "Applying Bayes\u2019 Theorem to a Situation in Context",
+        "selector": "#sectionLink-33311"
+      },
+      {
+        "index": 5,
+        "step_id": "39079",
+        "dom_id": "sectionLink-39079",
+        "name": "",
+        "title": "Formulating Bayes' Theorem From the Law of Total Probability",
+        "selector": "#sectionLink-39079"
+      },
+      {
+        "index": 6,
+        "step_id": "22340",
+        "dom_id": "sectionLink-22340",
+        "name": "",
+        "title": "Applying Bayes' Theorem With the Law of Total Probability",
+        "selector": "#sectionLink-22340"
+      },
+      {
+        "index": 7,
+        "step_id": "22341",
+        "dom_id": "sectionLink-22341",
+        "name": "",
+        "title": "Determining the Accuracy of Medical Tests",
+        "selector": "#sectionLink-22341"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "773",
+        "name": "The Law of Total Probability",
+        "href": "/topics/the-law-of-total-probability-773"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "32380",
+        "content_id": "5146",
+        "dom_id": "step-32380",
+        "selector": "#step-32380",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33290",
+        "content_id": "8914",
+        "dom_id": "step-33290",
+        "selector": "#step-33290",
+        "step_anchor": "step-2",
+        "title": "Computing a Conditional Probability Using Bayes' Theorem",
+        "key_prerequisites": [
+          {
+            "topic_id": "715",
+            "name": "The Multiplication Law for Conditional Probability",
+            "href": "/topics/715"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "104792",
+        "dom_id": "question-104792",
+        "selector": "#question-104792",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "105978",
+        "dom_id": "question-105978",
+        "selector": "#question-105978",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "39080",
+        "content_id": "6468",
+        "dom_id": "step-39080",
+        "selector": "#step-39080",
+        "step_anchor": "step-5",
+        "title": "The Significance of Bayes' Theorem",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33311",
+        "content_id": "8923",
+        "dom_id": "step-33311",
+        "selector": "#step-33311",
+        "step_anchor": "step-6",
+        "title": "Applying Bayes\u2019 Theorem to a Situation in Context",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "104793",
+        "dom_id": "question-104793",
+        "selector": "#question-104793",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "106160",
+        "dom_id": "question-106160",
+        "selector": "#question-106160",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "39079",
+        "content_id": "6467",
+        "dom_id": "step-39079",
+        "selector": "#step-39079",
+        "step_anchor": "step-9",
+        "title": "Formulating Bayes' Theorem From the Law of Total Probability",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "22340",
+        "content_id": "6046",
+        "dom_id": "step-22340",
+        "selector": "#step-22340",
+        "step_anchor": "step-10",
+        "title": "Applying Bayes' Theorem With the Law of Total Probability",
+        "key_prerequisites": [
+          {
+            "topic_id": "773",
+            "name": "The Law of Total Probability",
+            "href": "/topics/773"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "5477",
+        "dom_id": "question-5477",
+        "selector": "#question-5477",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "104863",
+        "dom_id": "question-104863",
+        "selector": "#question-104863",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "22341",
+        "content_id": "6047",
+        "dom_id": "step-22341",
+        "selector": "#step-22341",
+        "step_anchor": "step-13",
+        "title": "Determining the Accuracy of Medical Tests",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "5476",
+        "dom_id": "question-5476",
+        "selector": "#question-5476",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "106368",
+        "dom_id": "question-106368",
+        "selector": "#question-106368",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-32380",
+        "filename": "01-step-32380.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-33290",
+        "filename": "02-step-33290.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-104792",
+        "filename": "03-question-104792.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-105978",
+        "filename": "04-question-105978.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-39080",
+        "filename": "05-step-39080.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-33311",
+        "filename": "06-step-33311.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-104793",
+        "filename": "07-question-104793.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-106160",
+        "filename": "08-question-106160.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-39079",
+        "filename": "09-step-39079.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-22340",
+        "filename": "10-step-22340.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-5477",
+        "filename": "11-question-5477.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-104863",
+        "filename": "12-question-104863.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-22341",
+        "filename": "13-step-22341.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-5476",
+        "filename": "14-question-5476.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-106368",
+        "filename": "15-question-106368.png"
+      }
+    ]
+  }
+}

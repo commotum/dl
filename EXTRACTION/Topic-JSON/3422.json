@@ -1,0 +1,329 @@
+{
+  "schema_version": 1,
+  "topic_id": "3422",
+  "topic_title": "Proving Surjectivity",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3422.html",
+  "source_url": "https://mathacademy.com/topics/3422",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "182661",
+        "dom_id": "sectionLink-182661",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-182661"
+      },
+      {
+        "index": 2,
+        "step_id": "182662",
+        "dom_id": "sectionLink-182662",
+        "name": "",
+        "title": "Restating the Full Proof",
+        "selector": "#sectionLink-182662"
+      },
+      {
+        "index": 3,
+        "step_id": "182663",
+        "dom_id": "sectionLink-182663",
+        "name": "",
+        "title": "Understanding the Definition of Surjectivity",
+        "selector": "#sectionLink-182663"
+      },
+      {
+        "index": 4,
+        "step_id": "182666",
+        "dom_id": "sectionLink-182666",
+        "name": "",
+        "title": "Proving a Function is Surjective",
+        "selector": "#sectionLink-182666"
+      },
+      {
+        "index": 5,
+        "step_id": "182669",
+        "dom_id": "sectionLink-182669",
+        "name": "",
+        "title": "Proving a Function is Not Surjective",
+        "selector": "#sectionLink-182669"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2627",
+        "name": "Surjections",
+        "href": "/topics/surjections-2627"
+      },
+      {
+        "topic_id": "2801",
+        "name": "Direct Proof",
+        "href": "/topics/direct-proof-2801"
+      },
+      {
+        "topic_id": "3027",
+        "name": "Into Functions",
+        "href": "/topics/into-functions-3027"
+      },
+      {
+        "topic_id": "4258",
+        "name": "Negating Statements With Nested Quantifiers",
+        "href": "/topics/negating-statements-with-nested-quantifiers-4258"
+      },
+      {
+        "topic_id": "4638",
+        "name": "Consistency and Dependency in Linear Systems",
+        "href": "/topics/consistency-and-dependency-in-linear-systems-4638"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "182661",
+        "content_id": "9161",
+        "dom_id": "step-182661",
+        "selector": "#step-182661",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "182662",
+        "content_id": "9330",
+        "dom_id": "step-182662",
+        "selector": "#step-182662",
+        "step_anchor": "step-2",
+        "title": "Restating the Full Proof",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "182663",
+        "content_id": "14755",
+        "dom_id": "step-182663",
+        "selector": "#step-182663",
+        "step_anchor": "step-3",
+        "title": "Understanding the Definition of Surjectivity",
+        "key_prerequisites": [
+          {
+            "topic_id": "2627",
+            "name": "Surjections",
+            "href": "/topics/2627"
+          },
+          {
+            "topic_id": "3027",
+            "name": "Into Functions",
+            "href": "/topics/3027"
+          },
+          {
+            "topic_id": "4258",
+            "name": "Negating Statements With Nested Quantifiers",
+            "href": "/topics/4258"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "216795",
+        "dom_id": "question-216795",
+        "selector": "#question-216795",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "216799",
+        "dom_id": "question-216799",
+        "selector": "#question-216799",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "182666",
+        "content_id": "14756",
+        "dom_id": "step-182666",
+        "selector": "#step-182666",
+        "step_anchor": "step-6",
+        "title": "Proving a Function is Surjective",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "216809",
+        "dom_id": "question-216809",
+        "selector": "#question-216809",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "216813",
+        "dom_id": "question-216813",
+        "selector": "#question-216813",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "182669",
+        "content_id": "14757",
+        "dom_id": "step-182669",
+        "selector": "#step-182669",
+        "step_anchor": "step-9",
+        "title": "Proving a Function is Not Surjective",
+        "key_prerequisites": [
+          {
+            "topic_id": "493",
+            "name": "Systems of Equations With No Solutions and Infinitely Many Solutions",
+            "href": "/topics/493"
+          },
+          {
+            "topic_id": "3027",
+            "name": "Into Functions",
+            "href": "/topics/3027"
+          },
+          {
+            "topic_id": "3412",
+            "name": "Disproving Universal Statements",
+            "href": "/topics/3412"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "217011",
+        "dom_id": "question-217011",
+        "selector": "#question-217011",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "216814",
+        "dom_id": "question-216814",
+        "selector": "#question-216814",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-182661",
+        "filename": "01-step-182661.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-182662",
+        "filename": "02-step-182662.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-182663",
+        "filename": "03-step-182663.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-216795",
+        "filename": "04-question-216795.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-216799",
+        "filename": "05-question-216799.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-182666",
+        "filename": "06-step-182666.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-216809",
+        "filename": "07-question-216809.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-216813",
+        "filename": "08-question-216813.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-182669",
+        "filename": "09-step-182669.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-217011",
+        "filename": "10-question-217011.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-216814",
+        "filename": "11-question-216814.png"
+      }
+    ]
+  }
+}

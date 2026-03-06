@@ -1,0 +1,450 @@
+{
+  "schema_version": 1,
+  "topic_id": "1896",
+  "topic_title": "Ellipsoids",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1896.html",
+  "source_url": "https://mathacademy.com/topics/1896",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "19626",
+        "dom_id": "sectionLink-19626",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-19626"
+      },
+      {
+        "index": 2,
+        "step_id": "19631",
+        "dom_id": "sectionLink-19631",
+        "name": "",
+        "title": "Identifying the Center and Radius of a Sphere",
+        "selector": "#sectionLink-19631"
+      },
+      {
+        "index": 3,
+        "step_id": "19453",
+        "dom_id": "sectionLink-19453",
+        "name": "",
+        "title": "Ellipsoids as Quadric Surfaces",
+        "selector": "#sectionLink-19453"
+      },
+      {
+        "index": 4,
+        "step_id": "19455",
+        "dom_id": "sectionLink-19455",
+        "name": "",
+        "title": "Calculating Intercepts of Spheres and Ellipsoids",
+        "selector": "#sectionLink-19455"
+      },
+      {
+        "index": 5,
+        "step_id": "45268",
+        "dom_id": "sectionLink-45268",
+        "name": "",
+        "title": "The Domain of a Sphere or Ellipsoid",
+        "selector": "#sectionLink-45268"
+      },
+      {
+        "index": 6,
+        "step_id": "45273",
+        "dom_id": "sectionLink-45273",
+        "name": "",
+        "title": "The Traces of an Ellipsoid With the Coordinate Planes",
+        "selector": "#sectionLink-45273"
+      },
+      {
+        "index": 7,
+        "step_id": "45266",
+        "dom_id": "sectionLink-45266",
+        "name": "",
+        "title": "The Traces of an Ellipsoid With Other Planes",
+        "selector": "#sectionLink-45266"
+      },
+      {
+        "index": 8,
+        "step_id": "19632",
+        "dom_id": "sectionLink-19632",
+        "name": "",
+        "title": "Describing Traces of Ellipsoids",
+        "selector": "#sectionLink-19632"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "666",
+        "name": "Determining Circle Properties by Completing the Square",
+        "href": "/topics/determining-circle-properties-by-completing-the-square-666"
+      },
+      {
+        "topic_id": "844",
+        "name": "Calculating Circle Intercepts",
+        "href": "/topics/calculating-circle-intercepts-844"
+      },
+      {
+        "topic_id": "850",
+        "name": "Finding Intercepts of Ellipses",
+        "href": "/topics/finding-intercepts-of-ellipses-850"
+      },
+      {
+        "topic_id": "1807",
+        "name": "The Cartesian Equation of a Plane",
+        "href": "/topics/the-cartesian-equation-of-a-plane-1807"
+      },
+      {
+        "topic_id": "1899",
+        "name": "The Domain of a Multivariable Function",
+        "href": "/topics/the-domain-of-a-multivariable-function-1899"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 17,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "19626",
+        "content_id": "3470",
+        "dom_id": "step-19626",
+        "selector": "#step-19626",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "19631",
+        "content_id": "5311",
+        "dom_id": "step-19631",
+        "selector": "#step-19631",
+        "step_anchor": "step-2",
+        "title": "Identifying the Center and Radius of a Sphere",
+        "key_prerequisites": [
+          {
+            "topic_id": "666",
+            "name": "Determining Circle Properties by Completing the Square",
+            "href": "/topics/666"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "70560",
+        "dom_id": "question-70560",
+        "selector": "#question-70560",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "70563",
+        "dom_id": "question-70563",
+        "selector": "#question-70563",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "19453",
+        "content_id": "3437",
+        "dom_id": "step-19453",
+        "selector": "#step-19453",
+        "step_anchor": "step-5",
+        "title": "Ellipsoids as Quadric Surfaces",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "19455",
+        "content_id": "5263",
+        "dom_id": "step-19455",
+        "selector": "#step-19455",
+        "step_anchor": "step-6",
+        "title": "Calculating Intercepts of Spheres and Ellipsoids",
+        "key_prerequisites": [
+          {
+            "topic_id": "850",
+            "name": "Finding Intercepts of Ellipses",
+            "href": "/topics/850"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "35509",
+        "dom_id": "question-35509",
+        "selector": "#question-35509",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "73214",
+        "dom_id": "question-73214",
+        "selector": "#question-73214",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "45268",
+        "content_id": "12554",
+        "dom_id": "step-45268",
+        "selector": "#step-45268",
+        "step_anchor": "step-9",
+        "title": "The Domain of a Sphere or Ellipsoid",
+        "key_prerequisites": [
+          {
+            "topic_id": "1899",
+            "name": "The Domain of a Multivariable Function",
+            "href": "/topics/1899"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "164186",
+        "dom_id": "question-164186",
+        "selector": "#question-164186",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "35518",
+        "dom_id": "question-35518",
+        "selector": "#question-35518",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "45273",
+        "content_id": "7835",
+        "dom_id": "step-45273",
+        "selector": "#step-45273",
+        "step_anchor": "step-12",
+        "title": "The Traces of an Ellipsoid With the Coordinate Planes",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "45266",
+        "content_id": "7829",
+        "dom_id": "step-45266",
+        "selector": "#step-45266",
+        "step_anchor": "step-13",
+        "title": "The Traces of an Ellipsoid With Other Planes",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "19632",
+        "content_id": "5312",
+        "dom_id": "step-19632",
+        "selector": "#step-19632",
+        "step_anchor": "step-14",
+        "title": "Describing Traces of Ellipsoids",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "70927",
+        "dom_id": "question-70927",
+        "selector": "#question-70927",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "35526",
+        "dom_id": "question-35526",
+        "selector": "#question-35526",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "question_id": "70488",
+        "dom_id": "question-70488",
+        "selector": "#question-70488",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-19626",
+        "filename": "01-step-19626.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-19631",
+        "filename": "02-step-19631.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-70560",
+        "filename": "03-question-70560.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-70563",
+        "filename": "04-question-70563.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-19453",
+        "filename": "05-step-19453.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-19455",
+        "filename": "06-step-19455.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-35509",
+        "filename": "07-question-35509.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-73214",
+        "filename": "08-question-73214.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-45268",
+        "filename": "09-step-45268.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-164186",
+        "filename": "10-question-164186.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-35518",
+        "filename": "11-question-35518.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-45273",
+        "filename": "12-step-45273.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-45266",
+        "filename": "13-step-45266.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-19632",
+        "filename": "14-step-19632.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-70927",
+        "filename": "15-question-70927.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-35526",
+        "filename": "16-question-35526.png"
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "selector": "#question-70488",
+        "filename": "17-question-70488.png"
+      }
+    ]
+  }
+}

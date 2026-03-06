@@ -1,0 +1,415 @@
+{
+  "schema_version": 1,
+  "topic_id": "3779",
+  "topic_title": "Boolean Functions And Logical Operations",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3779.html",
+  "source_url": "https://mathacademy.com/topics/3779",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "413914",
+        "dom_id": "sectionLink-413914",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-413914"
+      },
+      {
+        "index": 2,
+        "step_id": "413915",
+        "dom_id": "sectionLink-413915",
+        "name": "",
+        "title": "Identifying Boolean Functions Given Logical Operations",
+        "selector": "#sectionLink-413915"
+      },
+      {
+        "index": 3,
+        "step_id": "413918",
+        "dom_id": "sectionLink-413918",
+        "name": "",
+        "title": "Peirce Arrow, Sheffer Stroke, and XOR",
+        "selector": "#sectionLink-413918"
+      },
+      {
+        "index": 4,
+        "step_id": "413919",
+        "dom_id": "sectionLink-413919",
+        "name": "",
+        "title": "Identifying Peirce Arrow, Sheffer Stroke, and XOR",
+        "selector": "#sectionLink-413919"
+      },
+      {
+        "index": 5,
+        "step_id": "413922",
+        "dom_id": "sectionLink-413922",
+        "name": "",
+        "title": "Classifying Unary Logical Operations",
+        "selector": "#sectionLink-413922"
+      },
+      {
+        "index": 6,
+        "step_id": "413923",
+        "dom_id": "sectionLink-413923",
+        "name": "",
+        "title": "Classifying Binary Logical Operations",
+        "selector": "#sectionLink-413923"
+      },
+      {
+        "index": 7,
+        "step_id": "413924",
+        "dom_id": "sectionLink-413924",
+        "name": "",
+        "title": "Identifying Logical Operations Given Boolean Functions",
+        "selector": "#sectionLink-413924"
+      },
+      {
+        "index": 8,
+        "step_id": "413927",
+        "dom_id": "sectionLink-413927",
+        "name": "",
+        "title": "Building Truth Tables for Boolean Functions With Three Variables",
+        "selector": "#sectionLink-413927"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "248",
+        "name": "Biconditional Statements",
+        "href": "/topics/biconditional-statements-248"
+      },
+      {
+        "topic_id": "3778",
+        "name": "Boolean Functions",
+        "href": "/topics/boolean-functions-3778"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 16,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "413914",
+        "content_id": "9466",
+        "dom_id": "step-413914",
+        "selector": "#step-413914",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "413915",
+        "content_id": "15094",
+        "dom_id": "step-413915",
+        "selector": "#step-413915",
+        "step_anchor": "step-2",
+        "title": "Identifying Boolean Functions Given Logical Operations",
+        "key_prerequisites": [
+          {
+            "topic_id": "248",
+            "name": "Biconditional Statements",
+            "href": "/topics/248"
+          },
+          {
+            "topic_id": "250",
+            "name": "Conditional Statements",
+            "href": "/topics/250"
+          },
+          {
+            "topic_id": "3778",
+            "name": "Boolean Functions",
+            "href": "/topics/3778"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "255013",
+        "dom_id": "question-255013",
+        "selector": "#question-255013",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "255048",
+        "dom_id": "question-255048",
+        "selector": "#question-255048",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "413918",
+        "content_id": "10952",
+        "dom_id": "step-413918",
+        "selector": "#step-413918",
+        "step_anchor": "step-5",
+        "title": "Peirce Arrow, Sheffer Stroke, and XOR",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "413919",
+        "content_id": "16643",
+        "dom_id": "step-413919",
+        "selector": "#step-413919",
+        "step_anchor": "step-6",
+        "title": "Identifying Peirce Arrow, Sheffer Stroke, and XOR",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "255059",
+        "dom_id": "question-255059",
+        "selector": "#question-255059",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "255066",
+        "dom_id": "question-255066",
+        "selector": "#question-255066",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "413922",
+        "content_id": "9467",
+        "dom_id": "step-413922",
+        "selector": "#step-413922",
+        "step_anchor": "step-9",
+        "title": "Classifying Unary Logical Operations",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "413923",
+        "content_id": "9468",
+        "dom_id": "step-413923",
+        "selector": "#step-413923",
+        "step_anchor": "step-10",
+        "title": "Classifying Binary Logical Operations",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "413924",
+        "content_id": "15096",
+        "dom_id": "step-413924",
+        "selector": "#step-413924",
+        "step_anchor": "step-11",
+        "title": "Identifying Logical Operations Given Boolean Functions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "225097",
+        "dom_id": "question-225097",
+        "selector": "#question-225097",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "225091",
+        "dom_id": "question-225091",
+        "selector": "#question-225091",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "413927",
+        "content_id": "15095",
+        "dom_id": "step-413927",
+        "selector": "#step-413927",
+        "step_anchor": "step-14",
+        "title": "Building Truth Tables for Boolean Functions With Three Variables",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "255779",
+        "dom_id": "question-255779",
+        "selector": "#question-255779",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "225098",
+        "dom_id": "question-225098",
+        "selector": "#question-225098",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-413914",
+        "filename": "01-step-413914.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-413915",
+        "filename": "02-step-413915.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-255013",
+        "filename": "03-question-255013.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-255048",
+        "filename": "04-question-255048.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-413918",
+        "filename": "05-step-413918.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-413919",
+        "filename": "06-step-413919.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-255059",
+        "filename": "07-question-255059.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-255066",
+        "filename": "08-question-255066.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-413922",
+        "filename": "09-step-413922.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-413923",
+        "filename": "10-step-413923.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-413924",
+        "filename": "11-step-413924.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-225097",
+        "filename": "12-question-225097.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-225091",
+        "filename": "13-question-225091.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-413927",
+        "filename": "14-step-413927.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-255779",
+        "filename": "15-question-255779.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-225098",
+        "filename": "16-question-225098.png"
+      }
+    ]
+  }
+}

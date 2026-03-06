@@ -1,0 +1,364 @@
+{
+  "schema_version": 1,
+  "topic_id": "3240",
+  "topic_title": "Phase Portraits for Linear Systems With Repeated Eigenvalues",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3240.html",
+  "source_url": "https://mathacademy.com/topics/3240",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "588332",
+        "dom_id": "sectionLink-588332",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-588332"
+      },
+      {
+        "index": 2,
+        "step_id": "588333",
+        "dom_id": "sectionLink-588333",
+        "name": "",
+        "title": "A Worked Example of a Star Node",
+        "selector": "#sectionLink-588333"
+      },
+      {
+        "index": 3,
+        "step_id": "588334",
+        "dom_id": "sectionLink-588334",
+        "name": "",
+        "title": "Identifying the Phase Portrait of a Decoupled System With Repeated Eigenvalues",
+        "selector": "#sectionLink-588334"
+      },
+      {
+        "index": 4,
+        "step_id": "588337",
+        "dom_id": "sectionLink-588337",
+        "name": "",
+        "title": "Systems With Repeated Eigenvalues",
+        "selector": "#sectionLink-588337"
+      },
+      {
+        "index": 5,
+        "step_id": "588338",
+        "dom_id": "sectionLink-588338",
+        "name": "",
+        "title": "A Worked Example for a System With Repeated Eigenvalues",
+        "selector": "#sectionLink-588338"
+      },
+      {
+        "index": 6,
+        "step_id": "588339",
+        "dom_id": "sectionLink-588339",
+        "name": "",
+        "title": "Identifying the Phase Portrait of a System With Repeated Eigenvalues",
+        "selector": "#sectionLink-588339"
+      },
+      {
+        "index": 7,
+        "step_id": "588342",
+        "dom_id": "sectionLink-588342",
+        "name": "",
+        "title": "Classifying Systems of Linear Differential Equations With Repeated Eigenvalues",
+        "selector": "#sectionLink-588342"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2818",
+        "name": "Solving Homogeneous Systems of ODEs With Repeated Eigenvalues",
+        "href": "/topics/solving-homogeneous-systems-of-odes-with-repeated-eigenvalues-2818"
+      },
+      {
+        "topic_id": "3239",
+        "name": "Phase Portraits for Linear Systems With Real Distinct Eigenvalues",
+        "href": "/topics/phase-portraits-for-linear-systems-with-real-distinct-eigenvalues-3239"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "588332",
+        "content_id": "14569",
+        "dom_id": "step-588332",
+        "selector": "#step-588332",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "588333",
+        "content_id": "14467",
+        "dom_id": "step-588333",
+        "selector": "#step-588333",
+        "step_anchor": "step-2",
+        "title": "A Worked Example of a Star Node",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "588334",
+        "content_id": "21642",
+        "dom_id": "step-588334",
+        "selector": "#step-588334",
+        "step_anchor": "step-3",
+        "title": "Identifying the Phase Portrait of a Decoupled System With Repeated Eigenvalues",
+        "key_prerequisites": [
+          {
+            "topic_id": "3242",
+            "name": "Phase Portraits for Decoupled Linear Systems",
+            "href": "/topics/3242"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "333267",
+        "dom_id": "question-333267",
+        "selector": "#question-333267",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "332570",
+        "dom_id": "question-332570",
+        "selector": "#question-332570",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "588337",
+        "content_id": "14570",
+        "dom_id": "step-588337",
+        "selector": "#step-588337",
+        "step_anchor": "step-6",
+        "title": "Systems With Repeated Eigenvalues",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "588338",
+        "content_id": "14468",
+        "dom_id": "step-588338",
+        "selector": "#step-588338",
+        "step_anchor": "step-7",
+        "title": "A Worked Example for a System With Repeated Eigenvalues",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "588339",
+        "content_id": "21643",
+        "dom_id": "step-588339",
+        "selector": "#step-588339",
+        "step_anchor": "step-8",
+        "title": "Identifying the Phase Portrait of a System With Repeated Eigenvalues",
+        "key_prerequisites": [
+          {
+            "topic_id": "803",
+            "name": "Graphing Curves Defined Parametrically",
+            "href": "/topics/803"
+          },
+          {
+            "topic_id": "2818",
+            "name": "Solving Homogeneous Systems of ODEs With Repeated Eigenvalues",
+            "href": "/topics/2818"
+          },
+          {
+            "topic_id": "3239",
+            "name": "Phase Portraits for Linear Systems With Real Distinct Eigenvalues",
+            "href": "/topics/3239"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "332755",
+        "dom_id": "question-332755",
+        "selector": "#question-332755",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "332743",
+        "dom_id": "question-332743",
+        "selector": "#question-332743",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "588342",
+        "content_id": "21645",
+        "dom_id": "step-588342",
+        "selector": "#step-588342",
+        "step_anchor": "step-11",
+        "title": "Classifying Systems of Linear Differential Equations With Repeated Eigenvalues",
+        "key_prerequisites": [
+          {
+            "topic_id": "6377",
+            "name": "Equilibrium Points and Stability for Systems of ODEs",
+            "href": "/topics/6377"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "333672",
+        "dom_id": "question-333672",
+        "selector": "#question-333672",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "332768",
+        "dom_id": "question-332768",
+        "selector": "#question-332768",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-588332",
+        "filename": "01-step-588332.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-588333",
+        "filename": "02-step-588333.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-588334",
+        "filename": "03-step-588334.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-333267",
+        "filename": "04-question-333267.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-332570",
+        "filename": "05-question-332570.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-588337",
+        "filename": "06-step-588337.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-588338",
+        "filename": "07-step-588338.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-588339",
+        "filename": "08-step-588339.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-332755",
+        "filename": "09-question-332755.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-332743",
+        "filename": "10-question-332743.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-588342",
+        "filename": "11-step-588342.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-333672",
+        "filename": "12-question-333672.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-332768",
+        "filename": "13-question-332768.png"
+      }
+    ]
+  }
+}

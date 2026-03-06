@@ -1,0 +1,356 @@
+{
+  "schema_version": 1,
+  "topic_id": "6372",
+  "topic_title": "Laplace Transforms of Integrals",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/6372.html",
+  "source_url": "https://mathacademy.com/topics/6372",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "599887",
+        "dom_id": "sectionLink-599887",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-599887"
+      },
+      {
+        "index": 2,
+        "step_id": "599888",
+        "dom_id": "sectionLink-599888",
+        "name": "",
+        "title": "The General Result",
+        "selector": "#sectionLink-599888"
+      },
+      {
+        "index": 3,
+        "step_id": "599889",
+        "dom_id": "sectionLink-599889",
+        "name": "",
+        "title": "Finding the Laplace Transform of an Integral",
+        "selector": "#sectionLink-599889"
+      },
+      {
+        "index": 4,
+        "step_id": "599893",
+        "dom_id": "sectionLink-599893",
+        "name": "",
+        "title": "Finding an Inverse Laplace Transform Using the Integral Rule",
+        "selector": "#sectionLink-599893"
+      },
+      {
+        "index": 5,
+        "step_id": "599897",
+        "dom_id": "sectionLink-599897",
+        "name": "",
+        "title": "Proving the Formula for Laplace Transforms of Integrals",
+        "selector": "#sectionLink-599897"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "317",
+        "name": "Introduction to Integration by Parts",
+        "href": "/topics/introduction-to-integration-by-parts-317"
+      },
+      {
+        "topic_id": "333",
+        "name": "The Integral as an Accumulation Function",
+        "href": "/topics/the-integral-as-an-accumulation-function-333"
+      },
+      {
+        "topic_id": "2530",
+        "name": "Inverse Laplace Transforms",
+        "href": "/topics/inverse-laplace-transforms-2530"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "599887",
+        "content_id": "14359",
+        "dom_id": "step-599887",
+        "selector": "#step-599887",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "599888",
+        "content_id": "14729",
+        "dom_id": "step-599888",
+        "selector": "#step-599888",
+        "step_anchor": "step-2",
+        "title": "The General Result",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "599889",
+        "content_id": "21503",
+        "dom_id": "step-599889",
+        "selector": "#step-599889",
+        "step_anchor": "step-3",
+        "title": "Finding the Laplace Transform of an Integral",
+        "key_prerequisites": [
+          {
+            "topic_id": "333",
+            "name": "The Integral as an Accumulation Function",
+            "href": "/topics/333"
+          },
+          {
+            "topic_id": "2537",
+            "name": "Linearity of Laplace Transforms",
+            "href": "/topics/2537"
+          },
+          {
+            "topic_id": "6402",
+            "name": "The Smoothness Property of Laplace Transforms",
+            "href": "/topics/6402"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "330822",
+        "dom_id": "question-330822",
+        "selector": "#question-330822",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "327234",
+        "dom_id": "question-327234",
+        "selector": "#question-327234",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "330824",
+        "dom_id": "question-330824",
+        "selector": "#question-330824",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "599893",
+        "content_id": "21527",
+        "dom_id": "step-599893",
+        "selector": "#step-599893",
+        "step_anchor": "step-7",
+        "title": "Finding an Inverse Laplace Transform Using the Integral Rule",
+        "key_prerequisites": [
+          {
+            "topic_id": "2530",
+            "name": "Inverse Laplace Transforms",
+            "href": "/topics/2530"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "330840",
+        "dom_id": "question-330840",
+        "selector": "#question-330840",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "330839",
+        "dom_id": "question-330839",
+        "selector": "#question-330839",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "330853",
+        "dom_id": "question-330853",
+        "selector": "#question-330853",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "599897",
+        "content_id": "21551",
+        "dom_id": "step-599897",
+        "selector": "#step-599897",
+        "step_anchor": "step-11",
+        "title": "Proving the Formula for Laplace Transforms of Integrals",
+        "key_prerequisites": [
+          {
+            "topic_id": "317",
+            "name": "Introduction to Integration by Parts",
+            "href": "/topics/317"
+          },
+          {
+            "topic_id": "1717",
+            "name": "Limits of Exponential Functions",
+            "href": "/topics/1717"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "331052",
+        "dom_id": "question-331052",
+        "selector": "#question-331052",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "329472",
+        "dom_id": "question-329472",
+        "selector": "#question-329472",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-599887",
+        "filename": "01-step-599887.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-599888",
+        "filename": "02-step-599888.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-599889",
+        "filename": "03-step-599889.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-330822",
+        "filename": "04-question-330822.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-327234",
+        "filename": "05-question-327234.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-330824",
+        "filename": "06-question-330824.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-599893",
+        "filename": "07-step-599893.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-330840",
+        "filename": "08-question-330840.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-330839",
+        "filename": "09-question-330839.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-330853",
+        "filename": "10-question-330853.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-599897",
+        "filename": "11-step-599897.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-331052",
+        "filename": "12-question-331052.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-329472",
+        "filename": "13-question-329472.png"
+      }
+    ]
+  }
+}

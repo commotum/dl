@@ -1,0 +1,299 @@
+{
+  "schema_version": 1,
+  "topic_id": "3726",
+  "topic_title": "Solving Homogeneous Recurrence Relations Using Generating Functions",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3726.html",
+  "source_url": "https://mathacademy.com/topics/3726",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "418209",
+        "dom_id": "sectionLink-418209",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-418209"
+      },
+      {
+        "index": 2,
+        "step_id": "418210",
+        "dom_id": "sectionLink-418210",
+        "name": "",
+        "title": "Homogeneous Recurrence Relations Using Generating Functions",
+        "selector": "#sectionLink-418210"
+      },
+      {
+        "index": 3,
+        "step_id": "418211",
+        "dom_id": "sectionLink-418211",
+        "name": "",
+        "title": "Completing a Solution Template",
+        "selector": "#sectionLink-418211"
+      },
+      {
+        "index": 4,
+        "step_id": "418214",
+        "dom_id": "sectionLink-418214",
+        "name": "",
+        "title": "Second-Order Homogeneous Recurrence Relations: Finding Partial Solutions Using Generating Functions",
+        "selector": "#sectionLink-418214"
+      },
+      {
+        "index": 5,
+        "step_id": "418217",
+        "dom_id": "sectionLink-418217",
+        "name": "",
+        "title": "Solving Second-Order Homogeneous Recurrence Relation Using Generating Functions",
+        "selector": "#sectionLink-418217"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3140",
+        "name": "Generating Functions of Homogeneous Recurrence Relations",
+        "href": "/topics/generating-functions-of-homogeneous-recurrence-relations-3140"
+      },
+      {
+        "topic_id": "3722",
+        "name": "Determining the General Term of a Sequence Given Its Generating Function",
+        "href": "/topics/determining-the-general-term-of-a-sequence-given-its-generating-function-3722"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "418209",
+        "content_id": "5889",
+        "dom_id": "step-418209",
+        "selector": "#step-418209",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "418210",
+        "content_id": "11435",
+        "dom_id": "step-418210",
+        "selector": "#step-418210",
+        "step_anchor": "step-2",
+        "title": "Homogeneous Recurrence Relations Using Generating Functions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "418211",
+        "content_id": "16568",
+        "dom_id": "step-418211",
+        "selector": "#step-418211",
+        "step_anchor": "step-3",
+        "title": "Completing a Solution Template",
+        "key_prerequisites": [
+          {
+            "topic_id": "3140",
+            "name": "Generating Functions of Homogeneous Recurrence Relations",
+            "href": "/topics/3140"
+          },
+          {
+            "topic_id": "3722",
+            "name": "Determining the General Term of a Sequence Given Its Generating Function",
+            "href": "/topics/3722"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "253570",
+        "dom_id": "question-253570",
+        "selector": "#question-253570",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "253977",
+        "dom_id": "question-253977",
+        "selector": "#question-253977",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "418214",
+        "content_id": "16552",
+        "dom_id": "step-418214",
+        "selector": "#step-418214",
+        "step_anchor": "step-6",
+        "title": "Second-Order Homogeneous Recurrence Relations: Finding Partial Solutions Using Generating Functions",
+        "key_prerequisites": [
+          {
+            "topic_id": "1060",
+            "name": "Expressing Rational Functions as Sums of Partial Fractions",
+            "href": "/topics/1060"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "253264",
+        "dom_id": "question-253264",
+        "selector": "#question-253264",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "253220",
+        "dom_id": "question-253220",
+        "selector": "#question-253220",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "418217",
+        "content_id": "9625",
+        "dom_id": "step-418217",
+        "selector": "#step-418217",
+        "step_anchor": "step-9",
+        "title": "Solving Second-Order Homogeneous Recurrence Relation Using Generating Functions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "254522",
+        "dom_id": "question-254522",
+        "selector": "#question-254522",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "253322",
+        "dom_id": "question-253322",
+        "selector": "#question-253322",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-418209",
+        "filename": "01-step-418209.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-418210",
+        "filename": "02-step-418210.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-418211",
+        "filename": "03-step-418211.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-253570",
+        "filename": "04-question-253570.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-253977",
+        "filename": "05-question-253977.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-418214",
+        "filename": "06-step-418214.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-253264",
+        "filename": "07-question-253264.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-253220",
+        "filename": "08-question-253220.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-418217",
+        "filename": "09-step-418217.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-254522",
+        "filename": "10-question-254522.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-253322",
+        "filename": "11-question-253322.png"
+      }
+    ]
+  }
+}

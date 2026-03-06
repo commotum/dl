@@ -1,0 +1,316 @@
+{
+  "schema_version": 1,
+  "topic_id": "3795",
+  "topic_title": "Mealy Machines",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3795.html",
+  "source_url": "https://mathacademy.com/topics/3795",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "418782",
+        "dom_id": "sectionLink-418782",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-418782"
+      },
+      {
+        "index": 2,
+        "step_id": "418783",
+        "dom_id": "sectionLink-418783",
+        "name": "",
+        "title": "Transition and Output Tables of Mealy Machines",
+        "selector": "#sectionLink-418783"
+      },
+      {
+        "index": 3,
+        "step_id": "418784",
+        "dom_id": "sectionLink-418784",
+        "name": "",
+        "title": "Constructing Transition and Output Tables Given a Diagram",
+        "selector": "#sectionLink-418784"
+      },
+      {
+        "index": 4,
+        "step_id": "418787",
+        "dom_id": "sectionLink-418787",
+        "name": "",
+        "title": "Drawing a Diagram Given Transition and Output Tables",
+        "selector": "#sectionLink-418787"
+      },
+      {
+        "index": 5,
+        "step_id": "418790",
+        "dom_id": "sectionLink-418790",
+        "name": "",
+        "title": "Using Mealy Machines to Process Strings",
+        "selector": "#sectionLink-418790"
+      },
+      {
+        "index": 6,
+        "step_id": "418791",
+        "dom_id": "sectionLink-418791",
+        "name": "",
+        "title": "Applying a Mealy Machine to a String",
+        "selector": "#sectionLink-418791"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "5414",
+        "name": "Processing Strings Using Deterministic Finite Automata",
+        "href": "/topics/processing-strings-using-deterministic-finite-automata-5414"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "418782",
+        "content_id": "10057",
+        "dom_id": "step-418782",
+        "selector": "#step-418782",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "418783",
+        "content_id": "11585",
+        "dom_id": "step-418783",
+        "selector": "#step-418783",
+        "step_anchor": "step-2",
+        "title": "Transition and Output Tables of Mealy Machines",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "418784",
+        "content_id": "15709",
+        "dom_id": "step-418784",
+        "selector": "#step-418784",
+        "step_anchor": "step-3",
+        "title": "Constructing Transition and Output Tables Given a Diagram",
+        "key_prerequisites": [
+          {
+            "topic_id": "3797",
+            "name": "Deterministic Finite Automata",
+            "href": "/topics/3797"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "238343",
+        "dom_id": "question-238343",
+        "selector": "#question-238343",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "258803",
+        "dom_id": "question-258803",
+        "selector": "#question-258803",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "418787",
+        "content_id": "15710",
+        "dom_id": "step-418787",
+        "selector": "#step-418787",
+        "step_anchor": "step-6",
+        "title": "Drawing a Diagram Given Transition and Output Tables",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "238346",
+        "dom_id": "question-238346",
+        "selector": "#question-238346",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "258902",
+        "dom_id": "question-258902",
+        "selector": "#question-258902",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "418790",
+        "content_id": "11586",
+        "dom_id": "step-418790",
+        "selector": "#step-418790",
+        "step_anchor": "step-9",
+        "title": "Using Mealy Machines to Process Strings",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "418791",
+        "content_id": "15711",
+        "dom_id": "step-418791",
+        "selector": "#step-418791",
+        "step_anchor": "step-10",
+        "title": "Applying a Mealy Machine to a String",
+        "key_prerequisites": [
+          {
+            "topic_id": "5414",
+            "name": "Processing Strings Using Deterministic Finite Automata",
+            "href": "/topics/5414"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "238352",
+        "dom_id": "question-238352",
+        "selector": "#question-238352",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "258968",
+        "dom_id": "question-258968",
+        "selector": "#question-258968",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-418782",
+        "filename": "01-step-418782.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-418783",
+        "filename": "02-step-418783.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-418784",
+        "filename": "03-step-418784.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-238343",
+        "filename": "04-question-238343.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-258803",
+        "filename": "05-question-258803.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-418787",
+        "filename": "06-step-418787.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-238346",
+        "filename": "07-question-238346.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-258902",
+        "filename": "08-question-258902.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-418790",
+        "filename": "09-step-418790.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-418791",
+        "filename": "10-step-418791.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-238352",
+        "filename": "11-question-238352.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-258968",
+        "filename": "12-question-258968.png"
+      }
+    ]
+  }
+}

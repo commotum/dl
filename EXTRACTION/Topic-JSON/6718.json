@@ -1,0 +1,331 @@
+{
+  "schema_version": 1,
+  "topic_id": "6718",
+  "topic_title": "Solving First-Order ODEs With Time-Delayed Forcing Using Laplace Transforms",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/6718.html",
+  "source_url": "https://mathacademy.com/topics/6718",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "600519",
+        "dom_id": "sectionLink-600519",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-600519"
+      },
+      {
+        "index": 2,
+        "step_id": "600520",
+        "dom_id": "sectionLink-600520",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-600520"
+      },
+      {
+        "index": 3,
+        "step_id": "600521",
+        "dom_id": "sectionLink-600521",
+        "name": "",
+        "title": "Laplace Transforms of First-Order Linear ODEs With Time-Delayed (Discontinuous) Forcing",
+        "selector": "#sectionLink-600521"
+      },
+      {
+        "index": 4,
+        "step_id": "600529",
+        "dom_id": "sectionLink-600529",
+        "name": "",
+        "title": "Taking the Inverse Transform and Applying the Second Shifting Theorem",
+        "selector": "#sectionLink-600529"
+      },
+      {
+        "index": 5,
+        "step_id": "607925",
+        "dom_id": "sectionLink-607925",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-607925"
+      },
+      {
+        "index": 6,
+        "step_id": "600525",
+        "dom_id": "sectionLink-600525",
+        "name": "",
+        "title": "Solving a First-Order Initial Value Problem Using a Laplace Transform",
+        "selector": "#sectionLink-600525"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2531",
+        "name": "Solving First-Order ODEs Using Laplace Transforms",
+        "href": "/topics/solving-first-order-odes-using-laplace-transforms-2531"
+      },
+      {
+        "topic_id": "6370",
+        "name": "The Second Shifting Theorem of Laplace Transforms",
+        "href": "/topics/the-second-shifting-theorem-of-laplace-transforms-6370"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "600519",
+        "content_id": "14744",
+        "dom_id": "step-600519",
+        "selector": "#step-600519",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "600520",
+        "content_id": "14715",
+        "dom_id": "step-600520",
+        "selector": "#step-600520",
+        "step_anchor": "step-2",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "600521",
+        "content_id": "21860",
+        "dom_id": "step-600521",
+        "selector": "#step-600521",
+        "step_anchor": "step-3",
+        "title": "Laplace Transforms of First-Order Linear ODEs With Time-Delayed (Discontinuous) Forcing",
+        "key_prerequisites": [
+          {
+            "topic_id": "2531",
+            "name": "Solving First-Order ODEs Using Laplace Transforms",
+            "href": "/topics/2531"
+          },
+          {
+            "topic_id": "6370",
+            "name": "The Second Shifting Theorem of Laplace Transforms",
+            "href": "/topics/6370"
+          },
+          {
+            "topic_id": "6717",
+            "name": "Laplace Transforms of Piecewise Continuous Functions",
+            "href": "/topics/6717"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "342263",
+        "dom_id": "question-342263",
+        "selector": "#question-342263",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "342283",
+        "dom_id": "question-342283",
+        "selector": "#question-342283",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "342267",
+        "dom_id": "question-342267",
+        "selector": "#question-342267",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "600529",
+        "content_id": "14745",
+        "dom_id": "step-600529",
+        "selector": "#step-600529",
+        "step_anchor": "step-7",
+        "title": "Taking the Inverse Transform and Applying the Second Shifting Theorem",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "607925",
+        "content_id": "14882",
+        "dom_id": "step-607925",
+        "selector": "#step-607925",
+        "step_anchor": "step-8",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "600525",
+        "content_id": "21861",
+        "dom_id": "step-600525",
+        "selector": "#step-600525",
+        "step_anchor": "step-9",
+        "title": "Solving a First-Order Initial Value Problem Using a Laplace Transform",
+        "key_prerequisites": [
+          {
+            "topic_id": "2530",
+            "name": "Inverse Laplace Transforms",
+            "href": "/topics/2530"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "342314",
+        "dom_id": "question-342314",
+        "selector": "#question-342314",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "342315",
+        "dom_id": "question-342315",
+        "selector": "#question-342315",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "342269",
+        "dom_id": "question-342269",
+        "selector": "#question-342269",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-600519",
+        "filename": "01-step-600519.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-600520",
+        "filename": "02-step-600520.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-600521",
+        "filename": "03-step-600521.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-342263",
+        "filename": "04-question-342263.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-342283",
+        "filename": "05-question-342283.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-342267",
+        "filename": "06-question-342267.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-600529",
+        "filename": "07-step-600529.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-607925",
+        "filename": "08-step-607925.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-600525",
+        "filename": "09-step-600525.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-342314",
+        "filename": "10-question-342314.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-342315",
+        "filename": "11-question-342315.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-342269",
+        "filename": "12-question-342269.png"
+      }
+    ]
+  }
+}

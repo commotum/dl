@@ -1,0 +1,335 @@
+{
+  "schema_version": 1,
+  "topic_id": "3056",
+  "topic_title": "The Change-of-Variables Method for Continuous Random Variables",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3056.html",
+  "source_url": "https://mathacademy.com/topics/3056",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "33486",
+        "dom_id": "sectionLink-33486",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-33486"
+      },
+      {
+        "index": 2,
+        "step_id": "33924",
+        "dom_id": "sectionLink-33924",
+        "name": "",
+        "title": "Identifying Transformations Where the Change-of-Variables Method Is Applicable",
+        "selector": "#sectionLink-33924"
+      },
+      {
+        "index": 3,
+        "step_id": "33925",
+        "dom_id": "sectionLink-33925",
+        "name": "",
+        "title": "Computing the PDF of a Random Variable Under an Affine Transformation",
+        "selector": "#sectionLink-33925"
+      },
+      {
+        "index": 4,
+        "step_id": "33926",
+        "dom_id": "sectionLink-33926",
+        "name": "",
+        "title": "Computing the PDF of a Random Variable Under a Nonlinear Transformation",
+        "selector": "#sectionLink-33926"
+      },
+      {
+        "index": 5,
+        "step_id": "33927",
+        "dom_id": "sectionLink-33927",
+        "name": "",
+        "title": "Proof of the Change-of-Variables Formula",
+        "selector": "#sectionLink-33927"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1472",
+        "name": "Inverses of Exponential and Logarithmic Functions",
+        "href": "/topics/inverses-of-exponential-and-logarithmic-functions-1472"
+      },
+      {
+        "topic_id": "3055",
+        "name": "The Distribution Function Method",
+        "href": "/topics/the-distribution-function-method-3055"
+      },
+      {
+        "topic_id": "3830",
+        "name": "Inverses of Quadratic Functions",
+        "href": "/topics/inverses-of-quadratic-functions-3830"
+      },
+      {
+        "topic_id": "3943",
+        "name": "Inverses of Radical Functions",
+        "href": "/topics/inverses-of-radical-functions-3943"
+      },
+      {
+        "topic_id": "3944",
+        "name": "Inverses of Reciprocal Functions",
+        "href": "/topics/inverses-of-reciprocal-functions-3944"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "33486",
+        "content_id": "5356",
+        "dom_id": "step-33486",
+        "selector": "#step-33486",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33924",
+        "content_id": "9100",
+        "dom_id": "step-33924",
+        "selector": "#step-33924",
+        "step_anchor": "step-2",
+        "title": "Identifying Transformations Where the Change-of-Variables Method Is Applicable",
+        "key_prerequisites": [
+          {
+            "topic_id": "1628",
+            "name": "Increasing and Decreasing Functions",
+            "href": "/topics/1628"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "108883",
+        "dom_id": "question-108883",
+        "selector": "#question-108883",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "109175",
+        "dom_id": "question-109175",
+        "selector": "#question-109175",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33925",
+        "content_id": "9101",
+        "dom_id": "step-33925",
+        "selector": "#step-33925",
+        "step_anchor": "step-5",
+        "title": "Computing the PDF of a Random Variable Under an Affine Transformation",
+        "key_prerequisites": [
+          {
+            "topic_id": "627",
+            "name": "Calculating the Inverse of a Function",
+            "href": "/topics/627"
+          },
+          {
+            "topic_id": "3055",
+            "name": "The Distribution Function Method",
+            "href": "/topics/3055"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "108884",
+        "dom_id": "question-108884",
+        "selector": "#question-108884",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "143762",
+        "dom_id": "question-143762",
+        "selector": "#question-143762",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33926",
+        "content_id": "9102",
+        "dom_id": "step-33926",
+        "selector": "#step-33926",
+        "step_anchor": "step-8",
+        "title": "Computing the PDF of a Random Variable Under a Nonlinear Transformation",
+        "key_prerequisites": [
+          {
+            "topic_id": "1472",
+            "name": "Inverses of Exponential and Logarithmic Functions",
+            "href": "/topics/1472"
+          },
+          {
+            "topic_id": "3830",
+            "name": "Inverses of Quadratic Functions",
+            "href": "/topics/3830"
+          },
+          {
+            "topic_id": "3943",
+            "name": "Inverses of Radical Functions",
+            "href": "/topics/3943"
+          },
+          {
+            "topic_id": "3944",
+            "name": "Inverses of Reciprocal Functions",
+            "href": "/topics/3944"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "109183",
+        "dom_id": "question-109183",
+        "selector": "#question-109183",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "143899",
+        "dom_id": "question-143899",
+        "selector": "#question-143899",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "33927",
+        "content_id": "5449",
+        "dom_id": "step-33927",
+        "selector": "#step-33927",
+        "step_anchor": "step-11",
+        "title": "Proof of the Change-of-Variables Formula",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-33486",
+        "filename": "01-step-33486.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-33924",
+        "filename": "02-step-33924.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-108883",
+        "filename": "03-question-108883.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-109175",
+        "filename": "04-question-109175.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-33925",
+        "filename": "05-step-33925.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-108884",
+        "filename": "06-question-108884.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-143762",
+        "filename": "07-question-143762.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-33926",
+        "filename": "08-step-33926.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-109183",
+        "filename": "09-question-109183.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-143899",
+        "filename": "10-question-143899.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-33927",
+        "filename": "11-step-33927.png"
+      }
+    ]
+  }
+}

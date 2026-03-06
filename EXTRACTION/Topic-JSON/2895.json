@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "topic_id": "2895",
+  "topic_title": "Shortest Paths in Unweighted Graphs",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2895.html",
+  "source_url": "https://mathacademy.com/topics/2895",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "416118",
+        "dom_id": "sectionLink-416118",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-416118"
+      },
+      {
+        "index": 2,
+        "step_id": "416119",
+        "dom_id": "sectionLink-416119",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-416119"
+      },
+      {
+        "index": 3,
+        "step_id": "416120",
+        "dom_id": "sectionLink-416120",
+        "name": "",
+        "title": "Applying One Iteration of BFS for Finding Shortest Paths",
+        "selector": "#sectionLink-416120"
+      },
+      {
+        "index": 4,
+        "step_id": "416123",
+        "dom_id": "sectionLink-416123",
+        "name": "",
+        "title": "Finding Shortest Paths Using BFS",
+        "selector": "#sectionLink-416123"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2893",
+        "name": "Breadth-First Search",
+        "href": "/topics/breadth-first-search-2893"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 8,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "416118",
+        "content_id": "10552",
+        "dom_id": "step-416118",
+        "selector": "#step-416118",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "416119",
+        "content_id": "11625",
+        "dom_id": "step-416119",
+        "selector": "#step-416119",
+        "step_anchor": "step-2",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "416120",
+        "content_id": "16373",
+        "dom_id": "step-416120",
+        "selector": "#step-416120",
+        "step_anchor": "step-3",
+        "title": "Applying One Iteration of BFS for Finding Shortest Paths",
+        "key_prerequisites": [
+          {
+            "topic_id": "951",
+            "name": "Walks, Trails, Paths, and Distances",
+            "href": "/topics/951"
+          },
+          {
+            "topic_id": "2893",
+            "name": "Breadth-First Search",
+            "href": "/topics/2893"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "251060",
+        "dom_id": "question-251060",
+        "selector": "#question-251060",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "262345",
+        "dom_id": "question-262345",
+        "selector": "#question-262345",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "416123",
+        "content_id": "16372",
+        "dom_id": "step-416123",
+        "selector": "#step-416123",
+        "step_anchor": "step-6",
+        "title": "Finding Shortest Paths Using BFS",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "259648",
+        "dom_id": "question-259648",
+        "selector": "#question-259648",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "259665",
+        "dom_id": "question-259665",
+        "selector": "#question-259665",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-416118",
+        "filename": "01-step-416118.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-416119",
+        "filename": "02-step-416119.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-416120",
+        "filename": "03-step-416120.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-251060",
+        "filename": "04-question-251060.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-262345",
+        "filename": "05-question-262345.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-416123",
+        "filename": "06-step-416123.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-259648",
+        "filename": "07-question-259648.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-259665",
+        "filename": "08-question-259665.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,299 @@
+{
+  "schema_version": 1,
+  "topic_id": "3119",
+  "topic_title": "Diagonalization of 3x3 Symmetric Matrices",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3119.html",
+  "source_url": "https://mathacademy.com/topics/3119",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "30532",
+        "dom_id": "sectionLink-30532",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-30532"
+      },
+      {
+        "index": 2,
+        "step_id": "30597",
+        "dom_id": "sectionLink-30597",
+        "name": "",
+        "title": "Identifying Parts of an Orthogonal Diagonalization",
+        "selector": "#sectionLink-30597"
+      },
+      {
+        "index": 3,
+        "step_id": "30594",
+        "dom_id": "sectionLink-30594",
+        "name": "",
+        "title": "Orthogonally Diagonalizing a 3x3 Matrix With Distinct Eigenvalues",
+        "selector": "#sectionLink-30594"
+      },
+      {
+        "index": 4,
+        "step_id": "31356",
+        "dom_id": "sectionLink-31356",
+        "name": "",
+        "title": "Symmetric Matrices With Repeated Eigenvalues",
+        "selector": "#sectionLink-31356"
+      },
+      {
+        "index": 5,
+        "step_id": "30595",
+        "dom_id": "sectionLink-30595",
+        "name": "",
+        "title": "Orthogonally Diagonalizing a 3x3 Matrix With Repeated Eigenvalues",
+        "selector": "#sectionLink-30595"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1971",
+        "name": "Diagonalizing a 3x3 Matrix in the General Case",
+        "href": "/topics/diagonalizing-a-3x3-matrix-in-the-general-case-1971"
+      },
+      {
+        "topic_id": "2127",
+        "name": "The Gram-Schmidt Process for Two Vectors",
+        "href": "/topics/the-gram-schmidt-process-for-two-vectors-2127"
+      },
+      {
+        "topic_id": "3335",
+        "name": "Diagonalization of 2x2 Symmetric Matrices",
+        "href": "/topics/diagonalization-of-2x2-symmetric-matrices-3335"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "30532",
+        "content_id": "4881",
+        "dom_id": "step-30532",
+        "selector": "#step-30532",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30597",
+        "content_id": "8175",
+        "dom_id": "step-30597",
+        "selector": "#step-30597",
+        "step_anchor": "step-2",
+        "title": "Identifying Parts of an Orthogonal Diagonalization",
+        "key_prerequisites": [
+          {
+            "topic_id": "3335",
+            "name": "Diagonalization of 2x2 Symmetric Matrices",
+            "href": "/topics/3335"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "94254",
+        "dom_id": "question-94254",
+        "selector": "#question-94254",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "93726",
+        "dom_id": "question-93726",
+        "selector": "#question-93726",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30594",
+        "content_id": "8172",
+        "dom_id": "step-30594",
+        "selector": "#step-30594",
+        "step_anchor": "step-5",
+        "title": "Orthogonally Diagonalizing a 3x3 Matrix With Distinct Eigenvalues",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "94260",
+        "dom_id": "question-94260",
+        "selector": "#question-94260",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "93727",
+        "dom_id": "question-93727",
+        "selector": "#question-93727",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "31356",
+        "content_id": "5013",
+        "dom_id": "step-31356",
+        "selector": "#step-31356",
+        "step_anchor": "step-8",
+        "title": "Symmetric Matrices With Repeated Eigenvalues",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30595",
+        "content_id": "8173",
+        "dom_id": "step-30595",
+        "selector": "#step-30595",
+        "step_anchor": "step-9",
+        "title": "Orthogonally Diagonalizing a 3x3 Matrix With Repeated Eigenvalues",
+        "key_prerequisites": [
+          {
+            "topic_id": "2127",
+            "name": "The Gram-Schmidt Process for Two Vectors",
+            "href": "/topics/2127"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "94332",
+        "dom_id": "question-94332",
+        "selector": "#question-94332",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "93728",
+        "dom_id": "question-93728",
+        "selector": "#question-93728",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-30532",
+        "filename": "01-step-30532.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-30597",
+        "filename": "02-step-30597.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-94254",
+        "filename": "03-question-94254.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-93726",
+        "filename": "04-question-93726.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-30594",
+        "filename": "05-step-30594.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-94260",
+        "filename": "06-question-94260.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-93727",
+        "filename": "07-question-93727.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-31356",
+        "filename": "08-step-31356.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-30595",
+        "filename": "09-step-30595.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-94332",
+        "filename": "10-question-94332.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-93728",
+        "filename": "11-question-93728.png"
+      }
+    ]
+  }
+}

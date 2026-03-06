@@ -1,0 +1,326 @@
+{
+  "schema_version": 1,
+  "topic_id": "3238",
+  "topic_title": "Solving Decoupled Homogeneous Systems of ODEs",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3238.html",
+  "source_url": "https://mathacademy.com/topics/3238",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "577532",
+        "dom_id": "sectionLink-577532",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-577532"
+      },
+      {
+        "index": 2,
+        "step_id": "577533",
+        "dom_id": "sectionLink-577533",
+        "name": "",
+        "title": "Identifying a Decoupled System of Linear ODEs",
+        "selector": "#sectionLink-577533"
+      },
+      {
+        "index": 3,
+        "step_id": "577536",
+        "dom_id": "sectionLink-577536",
+        "name": "",
+        "title": "Solving a Decoupled System: General Solution",
+        "selector": "#sectionLink-577536"
+      },
+      {
+        "index": 4,
+        "step_id": "577537",
+        "dom_id": "sectionLink-577537",
+        "name": "",
+        "title": "Finding the General Solution to a Decoupled Linear System of Differential Equations",
+        "selector": "#sectionLink-577537"
+      },
+      {
+        "index": 5,
+        "step_id": "577540",
+        "dom_id": "sectionLink-577540",
+        "name": "",
+        "title": "Solving an Initial Value Problem: Particular Solution",
+        "selector": "#sectionLink-577540"
+      },
+      {
+        "index": 6,
+        "step_id": "577541",
+        "dom_id": "sectionLink-577541",
+        "name": "",
+        "title": "Solving an Initial Value Problem for a Decoupled Linear System of First-Order ODEs",
+        "selector": "#sectionLink-577541"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "876",
+        "name": "Exponential Growth and Decay Models With First-Order ODEs",
+        "href": "/topics/exponential-growth-and-decay-models-with-first-order-odes-876"
+      },
+      {
+        "topic_id": "3237",
+        "name": "General Solutions of First-Order Linear Systems of ODEs",
+        "href": "/topics/general-solutions-of-first-order-linear-systems-of-odes-3237"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "577532",
+        "content_id": "14185",
+        "dom_id": "step-577532",
+        "selector": "#step-577532",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "577533",
+        "content_id": "21120",
+        "dom_id": "step-577533",
+        "selector": "#step-577533",
+        "step_anchor": "step-2",
+        "title": "Identifying a Decoupled System of Linear ODEs",
+        "key_prerequisites": [
+          {
+            "topic_id": "2086",
+            "name": "Introduction to Systems of Linear ODEs",
+            "href": "/topics/2086"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "321897",
+        "dom_id": "question-321897",
+        "selector": "#question-321897",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "321901",
+        "dom_id": "question-321901",
+        "selector": "#question-321901",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "577536",
+        "content_id": "14186",
+        "dom_id": "step-577536",
+        "selector": "#step-577536",
+        "step_anchor": "step-5",
+        "title": "Solving a Decoupled System: General Solution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "577537",
+        "content_id": "21123",
+        "dom_id": "step-577537",
+        "selector": "#step-577537",
+        "step_anchor": "step-6",
+        "title": "Finding the General Solution to a Decoupled Linear System of Differential Equations",
+        "key_prerequisites": [
+          {
+            "topic_id": "876",
+            "name": "Exponential Growth and Decay Models With First-Order ODEs",
+            "href": "/topics/876"
+          },
+          {
+            "topic_id": "3237",
+            "name": "General Solutions of First-Order Linear Systems of ODEs",
+            "href": "/topics/3237"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "39025",
+        "dom_id": "question-39025",
+        "selector": "#question-39025",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "39026",
+        "dom_id": "question-39026",
+        "selector": "#question-39026",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "577540",
+        "content_id": "14187",
+        "dom_id": "step-577540",
+        "selector": "#step-577540",
+        "step_anchor": "step-9",
+        "title": "Solving an Initial Value Problem: Particular Solution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "577541",
+        "content_id": "21124",
+        "dom_id": "step-577541",
+        "selector": "#step-577541",
+        "step_anchor": "step-10",
+        "title": "Solving an Initial Value Problem for a Decoupled Linear System of First-Order ODEs",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "39239",
+        "dom_id": "question-39239",
+        "selector": "#question-39239",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "39268",
+        "dom_id": "question-39268",
+        "selector": "#question-39268",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-577532",
+        "filename": "01-step-577532.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-577533",
+        "filename": "02-step-577533.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-321897",
+        "filename": "03-question-321897.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-321901",
+        "filename": "04-question-321901.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-577536",
+        "filename": "05-step-577536.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-577537",
+        "filename": "06-step-577537.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-39025",
+        "filename": "07-question-39025.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-39026",
+        "filename": "08-question-39026.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-577540",
+        "filename": "09-step-577540.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-577541",
+        "filename": "10-step-577541.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-39239",
+        "filename": "11-question-39239.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-39268",
+        "filename": "12-question-39268.png"
+      }
+    ]
+  }
+}

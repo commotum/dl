@@ -1,0 +1,395 @@
+{
+  "schema_version": 1,
+  "topic_id": "3018",
+  "topic_title": "Testing Normal Models Using Chi-Square Goodness-of-Fit",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3018.html",
+  "source_url": "https://mathacademy.com/topics/3018",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "226338",
+        "dom_id": "sectionLink-226338",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-226338"
+      },
+      {
+        "index": 2,
+        "step_id": "226339",
+        "dom_id": "sectionLink-226339",
+        "name": "",
+        "title": "Calculating Expected Frequencies",
+        "selector": "#sectionLink-226339"
+      },
+      {
+        "index": 3,
+        "step_id": "226342",
+        "dom_id": "sectionLink-226342",
+        "name": "",
+        "title": "The Chi-Square Test",
+        "selector": "#sectionLink-226342"
+      },
+      {
+        "index": 4,
+        "step_id": "226343",
+        "dom_id": "sectionLink-226343",
+        "name": "",
+        "title": "Calculating a Test Statistic",
+        "selector": "#sectionLink-226343"
+      },
+      {
+        "index": 5,
+        "step_id": "226346",
+        "dom_id": "sectionLink-226346",
+        "name": "",
+        "title": "Carrying Out a Chi-Square Test",
+        "selector": "#sectionLink-226346"
+      },
+      {
+        "index": 6,
+        "step_id": "226349",
+        "dom_id": "sectionLink-226349",
+        "name": "",
+        "title": "Estimating the Mean and Variance",
+        "selector": "#sectionLink-226349"
+      },
+      {
+        "index": 7,
+        "step_id": "226350",
+        "dom_id": "sectionLink-226350",
+        "name": "",
+        "title": "Carrying Out a Chi-Square Test (Parameter Estimation Needed)",
+        "selector": "#sectionLink-226350"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "126",
+        "name": "Estimating Means and Variances For Grouped Data",
+        "href": "/topics/estimating-means-and-variances-for-grouped-data-126"
+      },
+      {
+        "topic_id": "788",
+        "name": "Modeling With the Normal Distribution",
+        "href": "/topics/modeling-with-the-normal-distribution-788"
+      },
+      {
+        "topic_id": "3014",
+        "name": "Introduction to Chi-Square Goodness-of-Fit",
+        "href": "/topics/introduction-to-chi-square-goodness-of-fit-3014"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "226338",
+        "content_id": "5683",
+        "dom_id": "step-226338",
+        "selector": "#step-226338",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "226339",
+        "content_id": "16506",
+        "dom_id": "step-226339",
+        "selector": "#step-226339",
+        "step_anchor": "step-2",
+        "title": "Calculating Expected Frequencies",
+        "key_prerequisites": [
+          {
+            "topic_id": "788",
+            "name": "Modeling With the Normal Distribution",
+            "href": "/topics/788"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "252827",
+        "dom_id": "question-252827",
+        "selector": "#question-252827",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "252793",
+        "dom_id": "question-252793",
+        "selector": "#question-252793",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "226342",
+        "content_id": "10840",
+        "dom_id": "step-226342",
+        "selector": "#step-226342",
+        "step_anchor": "step-5",
+        "title": "The Chi-Square Test",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "226343",
+        "content_id": "16507",
+        "dom_id": "step-226343",
+        "selector": "#step-226343",
+        "step_anchor": "step-6",
+        "title": "Calculating a Test Statistic",
+        "key_prerequisites": [
+          {
+            "topic_id": "3014",
+            "name": "Introduction to Chi-Square Goodness-of-Fit",
+            "href": "/topics/3014"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "252862",
+        "dom_id": "question-252862",
+        "selector": "#question-252862",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "252794",
+        "dom_id": "question-252794",
+        "selector": "#question-252794",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "226346",
+        "content_id": "9332",
+        "dom_id": "step-226346",
+        "selector": "#step-226346",
+        "step_anchor": "step-9",
+        "title": "Carrying Out a Chi-Square Test",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "252749",
+        "dom_id": "question-252749",
+        "selector": "#question-252749",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "252863",
+        "dom_id": "question-252863",
+        "selector": "#question-252863",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "226349",
+        "content_id": "10675",
+        "dom_id": "step-226349",
+        "selector": "#step-226349",
+        "step_anchor": "step-12",
+        "title": "Estimating the Mean and Variance",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "226350",
+        "content_id": "16502",
+        "dom_id": "step-226350",
+        "selector": "#step-226350",
+        "step_anchor": "step-13",
+        "title": "Carrying Out a Chi-Square Test (Parameter Estimation Needed)",
+        "key_prerequisites": [
+          {
+            "topic_id": "126",
+            "name": "Estimating Means and Variances For Grouped Data",
+            "href": "/topics/126"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "252896",
+        "dom_id": "question-252896",
+        "selector": "#question-252896",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "252895",
+        "dom_id": "question-252895",
+        "selector": "#question-252895",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-226338",
+        "filename": "01-step-226338.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-226339",
+        "filename": "02-step-226339.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-252827",
+        "filename": "03-question-252827.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-252793",
+        "filename": "04-question-252793.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-226342",
+        "filename": "05-step-226342.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-226343",
+        "filename": "06-step-226343.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-252862",
+        "filename": "07-question-252862.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-252794",
+        "filename": "08-question-252794.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-226346",
+        "filename": "09-step-226346.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-252749",
+        "filename": "10-question-252749.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-252863",
+        "filename": "11-question-252863.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-226349",
+        "filename": "12-step-226349.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-226350",
+        "filename": "13-step-226350.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-252896",
+        "filename": "14-question-252896.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-252895",
+        "filename": "15-question-252895.png"
+      }
+    ]
+  }
+}

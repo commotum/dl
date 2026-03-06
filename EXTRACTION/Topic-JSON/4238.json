@@ -1,0 +1,347 @@
+{
+  "schema_version": 1,
+  "topic_id": "4238",
+  "topic_title": "Constrained Optimization of Quadratic Forms: Determining Where Extrema are Attained",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/4238.html",
+  "source_url": "https://mathacademy.com/topics/4238",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "45755",
+        "dom_id": "sectionLink-45755",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-45755"
+      },
+      {
+        "index": 2,
+        "step_id": "45756",
+        "dom_id": "sectionLink-45756",
+        "name": "",
+        "title": "Finding Where the Extrema of a Quadratic Form Is Attained on the Unit Circle",
+        "selector": "#sectionLink-45756"
+      },
+      {
+        "index": 3,
+        "step_id": "45752",
+        "dom_id": "sectionLink-45752",
+        "name": "",
+        "title": "Finding Where the Extrema of a Quadratic Form Are Attained on the Unit Sphere",
+        "selector": "#sectionLink-45752"
+      },
+      {
+        "index": 4,
+        "step_id": "45758",
+        "dom_id": "sectionLink-45758",
+        "name": "",
+        "title": "Constrained Optimization of Quadratic Forms Over Ellipses",
+        "selector": "#sectionLink-45758"
+      },
+      {
+        "index": 5,
+        "step_id": "45757",
+        "dom_id": "sectionLink-45757",
+        "name": "",
+        "title": "Finding Where the Extrema of a Quadratic Form Is Attained Over an Ellipse",
+        "selector": "#sectionLink-45757"
+      },
+      {
+        "index": 6,
+        "step_id": "54038",
+        "dom_id": "sectionLink-54038",
+        "name": "",
+        "title": "Proof of the Main Theorem",
+        "selector": "#sectionLink-54038"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1977",
+        "name": "Calculating the Eigenvectors of a 3x3 Matrix With Distinct Eigenvalues",
+        "href": "/topics/calculating-the-eigenvectors-of-a-3x3-matrix-with-distinct-eigenvalues-1977"
+      },
+      {
+        "topic_id": "3119",
+        "name": "Diagonalization of 3x3 Symmetric Matrices",
+        "href": "/topics/diagonalization-of-3x3-symmetric-matrices-3119"
+      },
+      {
+        "topic_id": "3122",
+        "name": "Change of Variables in Quadratic Forms",
+        "href": "/topics/change-of-variables-in-quadratic-forms-3122"
+      },
+      {
+        "topic_id": "3171",
+        "name": "Constrained Optimization of Quadratic Forms",
+        "href": "/topics/constrained-optimization-of-quadratic-forms-3171"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "45755",
+        "content_id": "7954",
+        "dom_id": "step-45755",
+        "selector": "#step-45755",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "45756",
+        "content_id": "12663",
+        "dom_id": "step-45756",
+        "selector": "#step-45756",
+        "step_anchor": "step-2",
+        "title": "Finding Where the Extrema of a Quadratic Form Is Attained on the Unit Circle",
+        "key_prerequisites": [
+          {
+            "topic_id": "991",
+            "name": "Calculating the Eigenvectors of a 2x2 Matrix",
+            "href": "/topics/991"
+          },
+          {
+            "topic_id": "3171",
+            "name": "Constrained Optimization of Quadratic Forms",
+            "href": "/topics/3171"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "136827",
+        "dom_id": "question-136827",
+        "selector": "#question-136827",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "138085",
+        "dom_id": "question-138085",
+        "selector": "#question-138085",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "45752",
+        "content_id": "12662",
+        "dom_id": "step-45752",
+        "selector": "#step-45752",
+        "step_anchor": "step-5",
+        "title": "Finding Where the Extrema of a Quadratic Form Are Attained on the Unit Sphere",
+        "key_prerequisites": [
+          {
+            "topic_id": "1977",
+            "name": "Calculating the Eigenvectors of a 3x3 Matrix With Distinct Eigenvalues",
+            "href": "/topics/1977"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "138095",
+        "dom_id": "question-138095",
+        "selector": "#question-138095",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "136828",
+        "dom_id": "question-136828",
+        "selector": "#question-136828",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "45758",
+        "content_id": "7955",
+        "dom_id": "step-45758",
+        "selector": "#step-45758",
+        "step_anchor": "step-8",
+        "title": "Constrained Optimization of Quadratic Forms Over Ellipses",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "45757",
+        "content_id": "12664",
+        "dom_id": "step-45757",
+        "selector": "#step-45757",
+        "step_anchor": "step-9",
+        "title": "Finding Where the Extrema of a Quadratic Form Is Attained Over an Ellipse",
+        "key_prerequisites": [
+          {
+            "topic_id": "848",
+            "name": "Equations of Ellipses Centered at the Origin",
+            "href": "/topics/848"
+          },
+          {
+            "topic_id": "3122",
+            "name": "Change of Variables in Quadratic Forms",
+            "href": "/topics/3122"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "170160",
+        "dom_id": "question-170160",
+        "selector": "#question-170160",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "170138",
+        "dom_id": "question-170138",
+        "selector": "#question-170138",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "54038",
+        "content_id": "8176",
+        "dom_id": "step-54038",
+        "selector": "#step-54038",
+        "step_anchor": "step-12",
+        "title": "Proof of the Main Theorem",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-45755",
+        "filename": "01-step-45755.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-45756",
+        "filename": "02-step-45756.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-136827",
+        "filename": "03-question-136827.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-138085",
+        "filename": "04-question-138085.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-45752",
+        "filename": "05-step-45752.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-138095",
+        "filename": "06-question-138095.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-136828",
+        "filename": "07-question-136828.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-45758",
+        "filename": "08-step-45758.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-45757",
+        "filename": "09-step-45757.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-170160",
+        "filename": "10-question-170160.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-170138",
+        "filename": "11-question-170138.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-54038",
+        "filename": "12-step-54038.png"
+      }
+    ]
+  }
+}

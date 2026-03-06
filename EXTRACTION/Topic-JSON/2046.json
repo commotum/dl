@@ -1,0 +1,379 @@
+{
+  "schema_version": 1,
+  "topic_id": "2046",
+  "topic_title": "Unbounded Behavior of Functions Near a Point",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2046.html",
+  "source_url": "https://mathacademy.com/topics/2046",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "14196",
+        "dom_id": "sectionLink-14196",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-14196"
+      },
+      {
+        "index": 2,
+        "step_id": "14434",
+        "dom_id": "sectionLink-14434",
+        "name": "",
+        "title": "Identifying Points Where a Function Approaches Infinity",
+        "selector": "#sectionLink-14434"
+      },
+      {
+        "index": 3,
+        "step_id": "14204",
+        "dom_id": "sectionLink-14204",
+        "name": "",
+        "title": "Classifying Infinite Behavior of a Function",
+        "selector": "#sectionLink-14204"
+      },
+      {
+        "index": 4,
+        "step_id": "14367",
+        "dom_id": "sectionLink-14367",
+        "name": "",
+        "title": "One-Sided Infinite Behavior of Functions",
+        "selector": "#sectionLink-14367"
+      },
+      {
+        "index": 5,
+        "step_id": "14365",
+        "dom_id": "sectionLink-14365",
+        "name": "",
+        "title": "Recognizing One-Sided Infinite Behavior of a Function",
+        "selector": "#sectionLink-14365"
+      },
+      {
+        "index": 6,
+        "step_id": "15203",
+        "dom_id": "sectionLink-15203",
+        "name": "",
+        "title": "Vertical Asymptotes of Functions",
+        "selector": "#sectionLink-15203"
+      },
+      {
+        "index": 7,
+        "step_id": "14366",
+        "dom_id": "sectionLink-14366",
+        "name": "",
+        "title": "Identifying Vertical Asymptotes",
+        "selector": "#sectionLink-14366"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1628",
+        "name": "Increasing and Decreasing Functions",
+        "href": "/topics/increasing-and-decreasing-functions-1628"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "14196",
+        "content_id": "2781",
+        "dom_id": "step-14196",
+        "selector": "#step-14196",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "14434",
+        "content_id": "4062",
+        "dom_id": "step-14434",
+        "selector": "#step-14434",
+        "step_anchor": "step-2",
+        "title": "Identifying Points Where a Function Approaches Infinity",
+        "key_prerequisites": [
+          {
+            "topic_id": "1628",
+            "name": "Increasing and Decreasing Functions",
+            "href": "/topics/1628"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "39303",
+        "dom_id": "question-39303",
+        "selector": "#question-39303",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "39347",
+        "dom_id": "question-39347",
+        "selector": "#question-39347",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "14204",
+        "content_id": "4012",
+        "dom_id": "step-14204",
+        "selector": "#step-14204",
+        "step_anchor": "step-5",
+        "title": "Classifying Infinite Behavior of a Function",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "39304",
+        "dom_id": "question-39304",
+        "selector": "#question-39304",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "39366",
+        "dom_id": "question-39366",
+        "selector": "#question-39366",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "14367",
+        "content_id": "2790",
+        "dom_id": "step-14367",
+        "selector": "#step-14367",
+        "step_anchor": "step-8",
+        "title": "One-Sided Infinite Behavior of Functions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "14365",
+        "content_id": "4053",
+        "dom_id": "step-14365",
+        "selector": "#step-14365",
+        "step_anchor": "step-9",
+        "title": "Recognizing One-Sided Infinite Behavior of a Function",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "39434",
+        "dom_id": "question-39434",
+        "selector": "#question-39434",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "39492",
+        "dom_id": "question-39492",
+        "selector": "#question-39492",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "15203",
+        "content_id": "2855",
+        "dom_id": "step-15203",
+        "selector": "#step-15203",
+        "step_anchor": "step-12",
+        "title": "Vertical Asymptotes of Functions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "14366",
+        "content_id": "4054",
+        "dom_id": "step-14366",
+        "selector": "#step-14366",
+        "step_anchor": "step-13",
+        "title": "Identifying Vertical Asymptotes",
+        "key_prerequisites": [
+          {
+            "topic_id": "97",
+            "name": "Horizontal and Vertical Lines",
+            "href": "/topics/97"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "73389",
+        "dom_id": "question-73389",
+        "selector": "#question-73389",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "39447",
+        "dom_id": "question-39447",
+        "selector": "#question-39447",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-14196",
+        "filename": "01-step-14196.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-14434",
+        "filename": "02-step-14434.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-39303",
+        "filename": "03-question-39303.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-39347",
+        "filename": "04-question-39347.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-14204",
+        "filename": "05-step-14204.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-39304",
+        "filename": "06-question-39304.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-39366",
+        "filename": "07-question-39366.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-14367",
+        "filename": "08-step-14367.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-14365",
+        "filename": "09-step-14365.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-39434",
+        "filename": "10-question-39434.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-39492",
+        "filename": "11-question-39492.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-15203",
+        "filename": "12-step-15203.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-14366",
+        "filename": "13-step-14366.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-73389",
+        "filename": "14-question-73389.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-39447",
+        "filename": "15-question-39447.png"
+      }
+    ]
+  }
+}

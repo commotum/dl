@@ -1,0 +1,400 @@
+{
+  "schema_version": 1,
+  "topic_id": "1928",
+  "topic_title": "The Change-of-Coordinates Matrix",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1928.html",
+  "source_url": "https://mathacademy.com/topics/1928",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "17526",
+        "dom_id": "sectionLink-17526",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-17526"
+      },
+      {
+        "index": 2,
+        "step_id": "17528",
+        "dom_id": "sectionLink-17528",
+        "name": "",
+        "title": "Finding the Change-of-Coordinates Matrix Given a Linear Connection Between Two Bases",
+        "selector": "#sectionLink-17528"
+      },
+      {
+        "index": 3,
+        "step_id": "17530",
+        "dom_id": "sectionLink-17530",
+        "name": "",
+        "title": "Finding the Change-of-Coordinates Matrix When One of the Bases is the Standard Basis",
+        "selector": "#sectionLink-17530"
+      },
+      {
+        "index": 4,
+        "step_id": "17531",
+        "dom_id": "sectionLink-17531",
+        "name": "",
+        "title": "The Inverse of a Change-of-Coordinates Matrix",
+        "selector": "#sectionLink-17531"
+      },
+      {
+        "index": 5,
+        "step_id": "17533",
+        "dom_id": "sectionLink-17533",
+        "name": "",
+        "title": "Using the Invertibility Property of the Change-of-Coordinates Matrix",
+        "selector": "#sectionLink-17533"
+      },
+      {
+        "index": 6,
+        "step_id": "27297",
+        "dom_id": "sectionLink-27297",
+        "name": "",
+        "title": "Computing the Change-of-Coordinates Matrix Using Row-Reduction",
+        "selector": "#sectionLink-27297"
+      },
+      {
+        "index": 7,
+        "step_id": "17535",
+        "dom_id": "sectionLink-17535",
+        "name": "",
+        "title": "Finding the Change-of-Coordinates Matrix Between Two Bases",
+        "selector": "#sectionLink-17535"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "864",
+        "name": "Inverses of 2x2 Matrices",
+        "href": "/topics/inverses-of-2x2-matrices-864"
+      },
+      {
+        "topic_id": "1195",
+        "name": "Multiplying a Matrix by a Column Vector",
+        "href": "/topics/multiplying-a-matrix-by-a-column-vector-1195"
+      },
+      {
+        "topic_id": "1728",
+        "name": "Finding the Inverse of a 2x2 Matrix Using Row Operations",
+        "href": "/topics/finding-the-inverse-of-a-2x2-matrix-using-row-operations-1728"
+      },
+      {
+        "topic_id": "1865",
+        "name": "Writing Vectors in Different Bases",
+        "href": "/topics/writing-vectors-in-different-bases-1865"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "17526",
+        "content_id": "3213",
+        "dom_id": "step-17526",
+        "selector": "#step-17526",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17528",
+        "content_id": "4832",
+        "dom_id": "step-17528",
+        "selector": "#step-17528",
+        "step_anchor": "step-2",
+        "title": "Finding the Change-of-Coordinates Matrix Given a Linear Connection Between Two Bases",
+        "key_prerequisites": [
+          {
+            "topic_id": "1865",
+            "name": "Writing Vectors in Different Bases",
+            "href": "/topics/1865"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "81394",
+        "dom_id": "question-81394",
+        "selector": "#question-81394",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "35685",
+        "dom_id": "question-35685",
+        "selector": "#question-35685",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17530",
+        "content_id": "4833",
+        "dom_id": "step-17530",
+        "selector": "#step-17530",
+        "step_anchor": "step-5",
+        "title": "Finding the Change-of-Coordinates Matrix When One of the Bases is the Standard Basis",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "36400",
+        "dom_id": "question-36400",
+        "selector": "#question-36400",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "36366",
+        "dom_id": "question-36366",
+        "selector": "#question-36366",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "17531",
+        "content_id": "3215",
+        "dom_id": "step-17531",
+        "selector": "#step-17531",
+        "step_anchor": "step-8",
+        "title": "The Inverse of a Change-of-Coordinates Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17533",
+        "content_id": "4835",
+        "dom_id": "step-17533",
+        "selector": "#step-17533",
+        "step_anchor": "step-9",
+        "title": "Using the Invertibility Property of the Change-of-Coordinates Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "864",
+            "name": "Inverses of 2x2 Matrices",
+            "href": "/topics/864"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "35793",
+        "dom_id": "question-35793",
+        "selector": "#question-35793",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "35799",
+        "dom_id": "question-35799",
+        "selector": "#question-35799",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "27297",
+        "content_id": "4439",
+        "dom_id": "step-27297",
+        "selector": "#step-27297",
+        "step_anchor": "step-12",
+        "title": "Computing the Change-of-Coordinates Matrix Using Row-Reduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17535",
+        "content_id": "4837",
+        "dom_id": "step-17535",
+        "selector": "#step-17535",
+        "step_anchor": "step-13",
+        "title": "Finding the Change-of-Coordinates Matrix Between Two Bases",
+        "key_prerequisites": [
+          {
+            "topic_id": "1728",
+            "name": "Finding the Inverse of a 2x2 Matrix Using Row Operations",
+            "href": "/topics/1728"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "35805",
+        "dom_id": "question-35805",
+        "selector": "#question-35805",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "36357",
+        "dom_id": "question-36357",
+        "selector": "#question-36357",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-17526",
+        "filename": "01-step-17526.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-17528",
+        "filename": "02-step-17528.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-81394",
+        "filename": "03-question-81394.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-35685",
+        "filename": "04-question-35685.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-17530",
+        "filename": "05-step-17530.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-36400",
+        "filename": "06-question-36400.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-36366",
+        "filename": "07-question-36366.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-17531",
+        "filename": "08-step-17531.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-17533",
+        "filename": "09-step-17533.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-35793",
+        "filename": "10-question-35793.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-35799",
+        "filename": "11-question-35799.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-27297",
+        "filename": "12-step-27297.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-17535",
+        "filename": "13-step-17535.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-35805",
+        "filename": "14-question-35805.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-36357",
+        "filename": "15-question-36357.png"
+      }
+    ]
+  }
+}

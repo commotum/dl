@@ -1,0 +1,214 @@
+{
+  "schema_version": 1,
+  "topic_id": "1057",
+  "topic_title": "Linear Regression",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1057.html",
+  "source_url": "https://mathacademy.com/topics/1057",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "511836",
+        "dom_id": "sectionLink-511836",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-511836"
+      },
+      {
+        "index": 2,
+        "step_id": "511837",
+        "dom_id": "sectionLink-511837",
+        "name": "",
+        "title": "Calculating a Regression Line Equation",
+        "selector": "#sectionLink-511837"
+      },
+      {
+        "index": 3,
+        "step_id": "511840",
+        "dom_id": "sectionLink-511840",
+        "name": "",
+        "title": "Making Predictions by Calculating a Regression Line",
+        "selector": "#sectionLink-511840"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3753",
+        "name": "Making Predictions Using Trend Lines",
+        "href": "/topics/making-predictions-using-trend-lines-3753"
+      },
+      {
+        "topic_id": "5204",
+        "name": "Sums of Squares",
+        "href": "/topics/sums-of-squares-5204"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 7,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "511836",
+        "content_id": "5967",
+        "dom_id": "step-511836",
+        "selector": "#step-511836",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "511837",
+        "content_id": "9715",
+        "dom_id": "step-511837",
+        "selector": "#step-511837",
+        "step_anchor": "step-2",
+        "title": "Calculating a Regression Line Equation",
+        "key_prerequisites": [
+          {
+            "topic_id": "1632",
+            "name": "Variance and Standard Deviation",
+            "href": "/topics/1632"
+          },
+          {
+            "topic_id": "2609",
+            "name": "Trend Lines",
+            "href": "/topics/2609"
+          },
+          {
+            "topic_id": "3591",
+            "name": "Covariance",
+            "href": "/topics/3591"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "134205",
+        "dom_id": "question-134205",
+        "selector": "#question-134205",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "134556",
+        "dom_id": "question-134556",
+        "selector": "#question-134556",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "511840",
+        "content_id": "9716",
+        "dom_id": "step-511840",
+        "selector": "#step-511840",
+        "step_anchor": "step-5",
+        "title": "Making Predictions by Calculating a Regression Line",
+        "key_prerequisites": [
+          {
+            "topic_id": "3753",
+            "name": "Making Predictions Using Trend Lines",
+            "href": "/topics/3753"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "134208",
+        "dom_id": "question-134208",
+        "selector": "#question-134208",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "134618",
+        "dom_id": "question-134618",
+        "selector": "#question-134618",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-511836",
+        "filename": "01-step-511836.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-511837",
+        "filename": "02-step-511837.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-134205",
+        "filename": "03-question-134205.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-134556",
+        "filename": "04-question-134556.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-511840",
+        "filename": "05-step-511840.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-134208",
+        "filename": "06-question-134208.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-134618",
+        "filename": "07-question-134618.png"
+      }
+    ]
+  }
+}

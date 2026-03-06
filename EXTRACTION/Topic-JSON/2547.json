@@ -1,0 +1,423 @@
+{
+  "schema_version": 1,
+  "topic_id": "2547",
+  "topic_title": "Linear Independence of Solutions to Homogeneous ODEs",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2547.html",
+  "source_url": "https://mathacademy.com/topics/2547",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "593388",
+        "dom_id": "sectionLink-593388",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-593388"
+      },
+      {
+        "index": 2,
+        "step_id": "593389",
+        "dom_id": "sectionLink-593389",
+        "name": "",
+        "title": "Identifying Pairs of Linearly Dependent and Linearly Independent Functions",
+        "selector": "#sectionLink-593389"
+      },
+      {
+        "index": 3,
+        "step_id": "593392",
+        "dom_id": "sectionLink-593392",
+        "name": "",
+        "title": "The Wronskian",
+        "selector": "#sectionLink-593392"
+      },
+      {
+        "index": 4,
+        "step_id": "593393",
+        "dom_id": "sectionLink-593393",
+        "name": "",
+        "title": "Calculating the Wronskian of Two Functions",
+        "selector": "#sectionLink-593393"
+      },
+      {
+        "index": 5,
+        "step_id": "593397",
+        "dom_id": "sectionLink-593397",
+        "name": "",
+        "title": "Identifying Pairs of Linearly Independent Functions Using the Wronskian",
+        "selector": "#sectionLink-593397"
+      },
+      {
+        "index": 6,
+        "step_id": "593400",
+        "dom_id": "sectionLink-593400",
+        "name": "",
+        "title": "Sets of Fundamental Solutions",
+        "selector": "#sectionLink-593400"
+      },
+      {
+        "index": 7,
+        "step_id": "593401",
+        "dom_id": "sectionLink-593401",
+        "name": "",
+        "title": "Identifying Fundamental Sets of Solutions",
+        "selector": "#sectionLink-593401"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "152",
+        "name": "The Determinant of a 2x2 Matrix",
+        "href": "/topics/the-determinant-of-a-2x2-matrix-152"
+      },
+      {
+        "topic_id": "1181",
+        "name": "Verifying Solutions of Differential Equations",
+        "href": "/topics/verifying-solutions-of-differential-equations-1181"
+      },
+      {
+        "topic_id": "1908",
+        "name": "Linear Independence in Abstract Vector Spaces",
+        "href": "/topics/linear-independence-in-abstract-vector-spaces-1908"
+      },
+      {
+        "topic_id": "2548",
+        "name": "Introduction to Second-Order Linear ODEs",
+        "href": "/topics/introduction-to-second-order-linear-odes-2548"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 16,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "593388",
+        "content_id": "14499",
+        "dom_id": "step-593388",
+        "selector": "#step-593388",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "593389",
+        "content_id": "21683",
+        "dom_id": "step-593389",
+        "selector": "#step-593389",
+        "step_anchor": "step-2",
+        "title": "Identifying Pairs of Linearly Dependent and Linearly Independent Functions",
+        "key_prerequisites": [
+          {
+            "topic_id": "1908",
+            "name": "Linear Independence in Abstract Vector Spaces",
+            "href": "/topics/1908"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "333508",
+        "dom_id": "question-333508",
+        "selector": "#question-333508",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "333512",
+        "dom_id": "question-333512",
+        "selector": "#question-333512",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "593392",
+        "content_id": "14497",
+        "dom_id": "step-593392",
+        "selector": "#step-593392",
+        "step_anchor": "step-5",
+        "title": "The Wronskian",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "593393",
+        "content_id": "21680",
+        "dom_id": "step-593393",
+        "selector": "#step-593393",
+        "step_anchor": "step-6",
+        "title": "Calculating the Wronskian of Two Functions",
+        "key_prerequisites": [
+          {
+            "topic_id": "152",
+            "name": "The Determinant of a 2x2 Matrix",
+            "href": "/topics/152"
+          },
+          {
+            "topic_id": "2548",
+            "name": "Introduction to Second-Order Linear ODEs",
+            "href": "/topics/2548"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "64745",
+        "dom_id": "question-64745",
+        "selector": "#question-64745",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "64710",
+        "dom_id": "question-64710",
+        "selector": "#question-64710",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "64746",
+        "dom_id": "question-64746",
+        "selector": "#question-64746",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "593397",
+        "content_id": "21681",
+        "dom_id": "step-593397",
+        "selector": "#step-593397",
+        "step_anchor": "step-10",
+        "title": "Identifying Pairs of Linearly Independent Functions Using the Wronskian",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "333517",
+        "dom_id": "question-333517",
+        "selector": "#question-333517",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "333518",
+        "dom_id": "question-333518",
+        "selector": "#question-333518",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "593400",
+        "content_id": "14498",
+        "dom_id": "step-593400",
+        "selector": "#step-593400",
+        "step_anchor": "step-13",
+        "title": "Sets of Fundamental Solutions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "593401",
+        "content_id": "21682",
+        "dom_id": "step-593401",
+        "selector": "#step-593401",
+        "step_anchor": "step-14",
+        "title": "Identifying Fundamental Sets of Solutions",
+        "key_prerequisites": [
+          {
+            "topic_id": "1181",
+            "name": "Verifying Solutions of Differential Equations",
+            "href": "/topics/1181"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "333522",
+        "dom_id": "question-333522",
+        "selector": "#question-333522",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "333520",
+        "dom_id": "question-333520",
+        "selector": "#question-333520",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-593388",
+        "filename": "01-step-593388.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-593389",
+        "filename": "02-step-593389.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-333508",
+        "filename": "03-question-333508.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-333512",
+        "filename": "04-question-333512.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-593392",
+        "filename": "05-step-593392.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-593393",
+        "filename": "06-step-593393.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-64745",
+        "filename": "07-question-64745.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-64710",
+        "filename": "08-question-64710.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-64746",
+        "filename": "09-question-64746.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-593397",
+        "filename": "10-step-593397.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-333517",
+        "filename": "11-question-333517.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-333518",
+        "filename": "12-question-333518.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-593400",
+        "filename": "13-step-593400.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-593401",
+        "filename": "14-step-593401.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-333522",
+        "filename": "15-question-333522.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-333520",
+        "filename": "16-question-333520.png"
+      }
+    ]
+  }
+}

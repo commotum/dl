@@ -1,0 +1,332 @@
+{
+  "schema_version": 1,
+  "topic_id": "6379",
+  "topic_title": "Phase Portraits for Linear Systems With Zero Eigenvalues",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/6379.html",
+  "source_url": "https://mathacademy.com/topics/6379",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "588356",
+        "dom_id": "sectionLink-588356",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-588356"
+      },
+      {
+        "index": 2,
+        "step_id": "588357",
+        "dom_id": "sectionLink-588357",
+        "name": "",
+        "title": "Finding Equilibrium Points of a System",
+        "selector": "#sectionLink-588357"
+      },
+      {
+        "index": 3,
+        "step_id": "588360",
+        "dom_id": "sectionLink-588360",
+        "name": "",
+        "title": "Systems With One Zero Eigenvalue",
+        "selector": "#sectionLink-588360"
+      },
+      {
+        "index": 4,
+        "step_id": "588361",
+        "dom_id": "sectionLink-588361",
+        "name": "",
+        "title": "Identifying the Phase Portrait of a System With One Zero Eigenvalue",
+        "selector": "#sectionLink-588361"
+      },
+      {
+        "index": 5,
+        "step_id": "588364",
+        "dom_id": "sectionLink-588364",
+        "name": "",
+        "title": "Systems With Repeated Zero Eigenvalue",
+        "selector": "#sectionLink-588364"
+      },
+      {
+        "index": 6,
+        "step_id": "588365",
+        "dom_id": "sectionLink-588365",
+        "name": "",
+        "title": "Identifying the Phase Portrait of a System With Repeated Zero Eigenvalue",
+        "selector": "#sectionLink-588365"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3240",
+        "name": "Phase Portraits for Linear Systems With Repeated Eigenvalues",
+        "href": "/topics/phase-portraits-for-linear-systems-with-repeated-eigenvalues-3240"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "588356",
+        "content_id": "14475",
+        "dom_id": "step-588356",
+        "selector": "#step-588356",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "588357",
+        "content_id": "21654",
+        "dom_id": "step-588357",
+        "selector": "#step-588357",
+        "step_anchor": "step-2",
+        "title": "Finding Equilibrium Points of a System",
+        "key_prerequisites": [
+          {
+            "topic_id": "1373",
+            "name": "Solving 2x2 Singular Systems of Equations Using Gaussian Elimination",
+            "href": "/topics/1373"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "332876",
+        "dom_id": "question-332876",
+        "selector": "#question-332876",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "332877",
+        "dom_id": "question-332877",
+        "selector": "#question-332877",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "588360",
+        "content_id": "14481",
+        "dom_id": "step-588360",
+        "selector": "#step-588360",
+        "step_anchor": "step-5",
+        "title": "Systems With One Zero Eigenvalue",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "588361",
+        "content_id": "21650",
+        "dom_id": "step-588361",
+        "selector": "#step-588361",
+        "step_anchor": "step-6",
+        "title": "Identifying the Phase Portrait of a System With One Zero Eigenvalue",
+        "key_prerequisites": [
+          {
+            "topic_id": "2087",
+            "name": "Solving Homogeneous Systems of ODEs With Distinct Eigenvalues",
+            "href": "/topics/2087"
+          },
+          {
+            "topic_id": "3239",
+            "name": "Phase Portraits for Linear Systems With Real Distinct Eigenvalues",
+            "href": "/topics/3239"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "332864",
+        "dom_id": "question-332864",
+        "selector": "#question-332864",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "333937",
+        "dom_id": "question-333937",
+        "selector": "#question-333937",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "588364",
+        "content_id": "14480",
+        "dom_id": "step-588364",
+        "selector": "#step-588364",
+        "step_anchor": "step-9",
+        "title": "Systems With Repeated Zero Eigenvalue",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "588365",
+        "content_id": "21651",
+        "dom_id": "step-588365",
+        "selector": "#step-588365",
+        "step_anchor": "step-10",
+        "title": "Identifying the Phase Portrait of a System With Repeated Zero Eigenvalue",
+        "key_prerequisites": [
+          {
+            "topic_id": "2818",
+            "name": "Solving Homogeneous Systems of ODEs With Repeated Eigenvalues",
+            "href": "/topics/2818"
+          },
+          {
+            "topic_id": "3240",
+            "name": "Phase Portraits for Linear Systems With Repeated Eigenvalues",
+            "href": "/topics/3240"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "334385",
+        "dom_id": "question-334385",
+        "selector": "#question-334385",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "332874",
+        "dom_id": "question-332874",
+        "selector": "#question-332874",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-588356",
+        "filename": "01-step-588356.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-588357",
+        "filename": "02-step-588357.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-332876",
+        "filename": "03-question-332876.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-332877",
+        "filename": "04-question-332877.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-588360",
+        "filename": "05-step-588360.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-588361",
+        "filename": "06-step-588361.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-332864",
+        "filename": "07-question-332864.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-333937",
+        "filename": "08-question-333937.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-588364",
+        "filename": "09-step-588364.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-588365",
+        "filename": "10-step-588365.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-334385",
+        "filename": "11-question-334385.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-332874",
+        "filename": "12-question-332874.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,390 @@
+{
+  "schema_version": 1,
+  "topic_id": "1910",
+  "topic_title": "Changing a Basis Using the Change-of-Coordinates Matrix",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1910.html",
+  "source_url": "https://mathacademy.com/topics/1910",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "17537",
+        "dom_id": "sectionLink-17537",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-17537"
+      },
+      {
+        "index": 2,
+        "step_id": "27272",
+        "dom_id": "sectionLink-27272",
+        "name": "",
+        "title": "The Change-of-Basis Formula in Expanded Form",
+        "selector": "#sectionLink-27272"
+      },
+      {
+        "index": 3,
+        "step_id": "17538",
+        "dom_id": "sectionLink-17538",
+        "name": "",
+        "title": "Finding the Coordinates of a Vector in a New Basis Given the Change-of-Coordinates Matrix",
+        "selector": "#sectionLink-17538"
+      },
+      {
+        "index": 4,
+        "step_id": "17541",
+        "dom_id": "sectionLink-17541",
+        "name": "",
+        "title": "Finding the Coordinates of a Vector in a New Basis Given the Inverse Change-of-Coordinates Matrix",
+        "selector": "#sectionLink-17541"
+      },
+      {
+        "index": 5,
+        "step_id": "17542",
+        "dom_id": "sectionLink-17542",
+        "name": "",
+        "title": "Finding the Coordinates of a Vector in a New Basis Given Its Coordinates in the Standard Basis",
+        "selector": "#sectionLink-17542"
+      },
+      {
+        "index": 6,
+        "step_id": "462199",
+        "dom_id": "sectionLink-462199",
+        "name": "",
+        "title": "Using Gaussian Elimination to Find the Coordinates of a Vector in a New Basis",
+        "selector": "#sectionLink-462199"
+      },
+      {
+        "index": 7,
+        "step_id": "26946",
+        "dom_id": "sectionLink-26946",
+        "name": "",
+        "title": "Finding the Coordinates of a Vector in a New Basis Given Its Coordinates in Another Basis",
+        "selector": "#sectionLink-26946"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1928",
+        "name": "The Change-of-Coordinates Matrix",
+        "href": "/topics/the-change-of-coordinates-matrix-1928"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "17537",
+        "content_id": "3217",
+        "dom_id": "step-17537",
+        "selector": "#step-17537",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "27272",
+        "content_id": "4435",
+        "dom_id": "step-27272",
+        "selector": "#step-27272",
+        "step_anchor": "step-2",
+        "title": "The Change-of-Basis Formula in Expanded Form",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17538",
+        "content_id": "4838",
+        "dom_id": "step-17538",
+        "selector": "#step-17538",
+        "step_anchor": "step-3",
+        "title": "Finding the Coordinates of a Vector in a New Basis Given the Change-of-Coordinates Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "1195",
+            "name": "Multiplying a Matrix by a Column Vector",
+            "href": "/topics/1195"
+          },
+          {
+            "topic_id": "1928",
+            "name": "The Change-of-Coordinates Matrix",
+            "href": "/topics/1928"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "36310",
+        "dom_id": "question-36310",
+        "selector": "#question-36310",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "36484",
+        "dom_id": "question-36484",
+        "selector": "#question-36484",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17541",
+        "content_id": "4840",
+        "dom_id": "step-17541",
+        "selector": "#step-17541",
+        "step_anchor": "step-6",
+        "title": "Finding the Coordinates of a Vector in a New Basis Given the Inverse Change-of-Coordinates Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "864",
+            "name": "Inverses of 2x2 Matrices",
+            "href": "/topics/864"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "36503",
+        "dom_id": "question-36503",
+        "selector": "#question-36503",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "37154",
+        "dom_id": "question-37154",
+        "selector": "#question-37154",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17542",
+        "content_id": "4841",
+        "dom_id": "step-17542",
+        "selector": "#step-17542",
+        "step_anchor": "step-9",
+        "title": "Finding the Coordinates of a Vector in a New Basis Given Its Coordinates in the Standard Basis",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "36488",
+        "dom_id": "question-36488",
+        "selector": "#question-36488",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "37160",
+        "dom_id": "question-37160",
+        "selector": "#question-37160",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "462199",
+        "content_id": "13287",
+        "dom_id": "step-462199",
+        "selector": "#step-462199",
+        "step_anchor": "step-12",
+        "title": "Using Gaussian Elimination to Find the Coordinates of a Vector in a New Basis",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "26946",
+        "content_id": "7276",
+        "dom_id": "step-26946",
+        "selector": "#step-26946",
+        "step_anchor": "step-13",
+        "title": "Finding the Coordinates of a Vector in a New Basis Given Its Coordinates in Another Basis",
+        "key_prerequisites": [
+          {
+            "topic_id": "1728",
+            "name": "Finding the Inverse of a 2x2 Matrix Using Row Operations",
+            "href": "/topics/1728"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "36487",
+        "dom_id": "question-36487",
+        "selector": "#question-36487",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "37224",
+        "dom_id": "question-37224",
+        "selector": "#question-37224",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-17537",
+        "filename": "01-step-17537.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-27272",
+        "filename": "02-step-27272.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-17538",
+        "filename": "03-step-17538.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-36310",
+        "filename": "04-question-36310.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-36484",
+        "filename": "05-question-36484.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-17541",
+        "filename": "06-step-17541.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-36503",
+        "filename": "07-question-36503.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-37154",
+        "filename": "08-question-37154.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-17542",
+        "filename": "09-step-17542.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-36488",
+        "filename": "10-question-36488.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-37160",
+        "filename": "11-question-37160.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-462199",
+        "filename": "12-step-462199.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-26946",
+        "filename": "13-step-26946.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-36487",
+        "filename": "14-question-36487.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-37224",
+        "filename": "15-question-37224.png"
+      }
+    ]
+  }
+}

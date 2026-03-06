@@ -1,0 +1,416 @@
+{
+  "schema_version": 1,
+  "topic_id": "3284",
+  "topic_title": "The Geometric Distribution",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3284.html",
+  "source_url": "https://mathacademy.com/topics/3284",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "37401",
+        "dom_id": "sectionLink-37401",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-37401"
+      },
+      {
+        "index": 2,
+        "step_id": "31642",
+        "dom_id": "sectionLink-31642",
+        "name": "",
+        "title": "The Probability Mass Function of a Geometric Distribution",
+        "selector": "#sectionLink-31642"
+      },
+      {
+        "index": 3,
+        "step_id": "37402",
+        "dom_id": "sectionLink-37402",
+        "name": "",
+        "title": "Applying the Probability Mass Function of a Geometric Distribution",
+        "selector": "#sectionLink-37402"
+      },
+      {
+        "index": 4,
+        "step_id": "31788",
+        "dom_id": "sectionLink-31788",
+        "name": "",
+        "title": "Computing a Probability at a Point",
+        "selector": "#sectionLink-31788"
+      },
+      {
+        "index": 5,
+        "step_id": "31789",
+        "dom_id": "sectionLink-31789",
+        "name": "",
+        "title": "Computing a Probability Over a Bounded Interval: Lower Bound is Zero",
+        "selector": "#sectionLink-31789"
+      },
+      {
+        "index": 6,
+        "step_id": "31790",
+        "dom_id": "sectionLink-31790",
+        "name": "",
+        "title": "Computing a Probability Over a Bounded Interval: Lower Bound is Not Zero",
+        "selector": "#sectionLink-31790"
+      },
+      {
+        "index": 7,
+        "step_id": "31791",
+        "dom_id": "sectionLink-31791",
+        "name": "",
+        "title": "Computing a Probability Over a Bounded Interval Using the Complement",
+        "selector": "#sectionLink-31791"
+      },
+      {
+        "index": 8,
+        "step_id": "33495",
+        "dom_id": "sectionLink-33495",
+        "name": "",
+        "title": "Showing That a Geometric Distribution Is a Probability Distribution",
+        "selector": "#sectionLink-33495"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "183",
+        "name": "Independent Events",
+        "href": "/topics/independent-events-183"
+      },
+      {
+        "topic_id": "1153",
+        "name": "Exponential Functions",
+        "href": "/topics/exponential-functions-1153"
+      },
+      {
+        "topic_id": "1290",
+        "name": "Probability Mass Functions of Discrete Random Variables",
+        "href": "/topics/probability-mass-functions-of-discrete-random-variables-1290"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 16,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "37401",
+        "content_id": "6168",
+        "dom_id": "step-37401",
+        "selector": "#step-37401",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "31642",
+        "content_id": "5055",
+        "dom_id": "step-31642",
+        "selector": "#step-31642",
+        "step_anchor": "step-2",
+        "title": "The Probability Mass Function of a Geometric Distribution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "37402",
+        "content_id": "6169",
+        "dom_id": "step-37402",
+        "selector": "#step-37402",
+        "step_anchor": "step-3",
+        "title": "Applying the Probability Mass Function of a Geometric Distribution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "31788",
+        "content_id": "8553",
+        "dom_id": "step-31788",
+        "selector": "#step-31788",
+        "step_anchor": "step-4",
+        "title": "Computing a Probability at a Point",
+        "key_prerequisites": [
+          {
+            "topic_id": "1290",
+            "name": "Probability Mass Functions of Discrete Random Variables",
+            "href": "/topics/1290"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "96696",
+        "dom_id": "question-96696",
+        "selector": "#question-96696",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "97124",
+        "dom_id": "question-97124",
+        "selector": "#question-97124",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "31789",
+        "content_id": "8554",
+        "dom_id": "step-31789",
+        "selector": "#step-31789",
+        "step_anchor": "step-7",
+        "title": "Computing a Probability Over a Bounded Interval: Lower Bound is Zero",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "96697",
+        "dom_id": "question-96697",
+        "selector": "#question-96697",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "97145",
+        "dom_id": "question-97145",
+        "selector": "#question-97145",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "31790",
+        "content_id": "8555",
+        "dom_id": "step-31790",
+        "selector": "#step-31790",
+        "step_anchor": "step-10",
+        "title": "Computing a Probability Over a Bounded Interval: Lower Bound is Not Zero",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "96698",
+        "dom_id": "question-96698",
+        "selector": "#question-96698",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "97156",
+        "dom_id": "question-97156",
+        "selector": "#question-97156",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "31791",
+        "content_id": "8556",
+        "dom_id": "step-31791",
+        "selector": "#step-31791",
+        "step_anchor": "step-13",
+        "title": "Computing a Probability Over a Bounded Interval Using the Complement",
+        "key_prerequisites": [
+          {
+            "topic_id": "1120",
+            "name": "The Complement of an Event",
+            "href": "/topics/1120"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "97181",
+        "dom_id": "question-97181",
+        "selector": "#question-97181",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "96699",
+        "dom_id": "question-96699",
+        "selector": "#question-96699",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "33495",
+        "content_id": "5365",
+        "dom_id": "step-33495",
+        "selector": "#step-33495",
+        "step_anchor": "step-16",
+        "title": "Showing That a Geometric Distribution Is a Probability Distribution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-37401",
+        "filename": "01-step-37401.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-31642",
+        "filename": "02-step-31642.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-37402",
+        "filename": "03-step-37402.png"
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "selector": "#step-31788",
+        "filename": "04-step-31788.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-96696",
+        "filename": "05-question-96696.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-97124",
+        "filename": "06-question-97124.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-31789",
+        "filename": "07-step-31789.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-96697",
+        "filename": "08-question-96697.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-97145",
+        "filename": "09-question-97145.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-31790",
+        "filename": "10-step-31790.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-96698",
+        "filename": "11-question-96698.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-97156",
+        "filename": "12-question-97156.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-31791",
+        "filename": "13-step-31791.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-97181",
+        "filename": "14-question-97181.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-96699",
+        "filename": "15-question-96699.png"
+      },
+      {
+        "index": 16,
+        "item_type": "step",
+        "selector": "#step-33495",
+        "filename": "16-step-33495.png"
+      }
+    ]
+  }
+}

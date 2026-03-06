@@ -1,0 +1,356 @@
+{
+  "schema_version": 1,
+  "topic_id": "3220",
+  "topic_title": "Analyzing Slope Fields for Autonomous Differential Equations",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3220.html",
+  "source_url": "https://mathacademy.com/topics/3220",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "31631",
+        "dom_id": "sectionLink-31631",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-31631"
+      },
+      {
+        "index": 2,
+        "step_id": "34804",
+        "dom_id": "sectionLink-34804",
+        "name": "",
+        "title": "Identifying an Equation That Generates a Slope Field Using Equilibrium Solutions",
+        "selector": "#sectionLink-34804"
+      },
+      {
+        "index": 3,
+        "step_id": "34805",
+        "dom_id": "sectionLink-34805",
+        "name": "",
+        "title": "Identifying an Equation That Generates a Slope Field Using the Sign of the Slopes",
+        "selector": "#sectionLink-34805"
+      },
+      {
+        "index": 4,
+        "step_id": "34844",
+        "dom_id": "sectionLink-34844",
+        "name": "",
+        "title": "Identifying an Equation That Generates a Slope Field Using the Sign of the Slopes and Factoring",
+        "selector": "#sectionLink-34844"
+      },
+      {
+        "index": 5,
+        "step_id": "34806",
+        "dom_id": "sectionLink-34806",
+        "name": "",
+        "title": "Identifying an Equation That Generates a Slope Field by Identifying Asymptotic Behavior",
+        "selector": "#sectionLink-34806"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1903",
+        "name": "Limits at Infinity and Horizontal Asymptotes of Rational Functions",
+        "href": "/topics/limits-at-infinity-and-horizontal-asymptotes-of-rational-functions-1903"
+      },
+      {
+        "topic_id": "3184",
+        "name": "Equilibrium Solutions of First-Order ODEs",
+        "href": "/topics/equilibrium-solutions-of-first-order-odes-3184"
+      },
+      {
+        "topic_id": "3351",
+        "name": "Slope Fields for Autonomous Differential Equations",
+        "href": "/topics/slope-fields-for-autonomous-differential-equations-3351"
+      },
+      {
+        "topic_id": "3355",
+        "name": "Solving Rational Inequalities",
+        "href": "/topics/solving-rational-inequalities-3355"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "31631",
+        "content_id": "5052",
+        "dom_id": "step-31631",
+        "selector": "#step-31631",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "34804",
+        "content_id": "9306",
+        "dom_id": "step-34804",
+        "selector": "#step-34804",
+        "step_anchor": "step-2",
+        "title": "Identifying an Equation That Generates a Slope Field Using Equilibrium Solutions",
+        "key_prerequisites": [
+          {
+            "topic_id": "3184",
+            "name": "Equilibrium Solutions of First-Order ODEs",
+            "href": "/topics/3184"
+          },
+          {
+            "topic_id": "3351",
+            "name": "Slope Fields for Autonomous Differential Equations",
+            "href": "/topics/3351"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "115464",
+        "dom_id": "question-115464",
+        "selector": "#question-115464",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "115463",
+        "dom_id": "question-115463",
+        "selector": "#question-115463",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "34805",
+        "content_id": "9307",
+        "dom_id": "step-34805",
+        "selector": "#step-34805",
+        "step_anchor": "step-5",
+        "title": "Identifying an Equation That Generates a Slope Field Using the Sign of the Slopes",
+        "key_prerequisites": [
+          {
+            "topic_id": "2162",
+            "name": "Solving Polynomial Inequalities Using the Sign Table Method",
+            "href": "/topics/2162"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "115465",
+        "dom_id": "question-115465",
+        "selector": "#question-115465",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "115466",
+        "dom_id": "question-115466",
+        "selector": "#question-115466",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "34844",
+        "content_id": "9314",
+        "dom_id": "step-34844",
+        "selector": "#step-34844",
+        "step_anchor": "step-8",
+        "title": "Identifying an Equation That Generates a Slope Field Using the Sign of the Slopes and Factoring",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "115856",
+        "dom_id": "question-115856",
+        "selector": "#question-115856",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "115467",
+        "dom_id": "question-115467",
+        "selector": "#question-115467",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "34806",
+        "content_id": "9308",
+        "dom_id": "step-34806",
+        "selector": "#step-34806",
+        "step_anchor": "step-11",
+        "title": "Identifying an Equation That Generates a Slope Field by Identifying Asymptotic Behavior",
+        "key_prerequisites": [
+          {
+            "topic_id": "1903",
+            "name": "Limits at Infinity and Horizontal Asymptotes of Rational Functions",
+            "href": "/topics/1903"
+          },
+          {
+            "topic_id": "3355",
+            "name": "Solving Rational Inequalities",
+            "href": "/topics/3355"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "115479",
+        "dom_id": "question-115479",
+        "selector": "#question-115479",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "116024",
+        "dom_id": "question-116024",
+        "selector": "#question-116024",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-31631",
+        "filename": "01-step-31631.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-34804",
+        "filename": "02-step-34804.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-115464",
+        "filename": "03-question-115464.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-115463",
+        "filename": "04-question-115463.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-34805",
+        "filename": "05-step-34805.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-115465",
+        "filename": "06-question-115465.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-115466",
+        "filename": "07-question-115466.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-34844",
+        "filename": "08-step-34844.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-115856",
+        "filename": "09-question-115856.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-115467",
+        "filename": "10-question-115467.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-34806",
+        "filename": "11-step-34806.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-115479",
+        "filename": "12-question-115479.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-116024",
+        "filename": "13-question-116024.png"
+      }
+    ]
+  }
+}

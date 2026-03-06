@@ -1,0 +1,361 @@
+{
+  "schema_version": 1,
+  "topic_id": "711",
+  "topic_title": "The Z-Score",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/711.html",
+  "source_url": "https://mathacademy.com/topics/711",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "20613",
+        "dom_id": "sectionLink-20613",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-20613"
+      },
+      {
+        "index": 2,
+        "step_id": "20614",
+        "dom_id": "sectionLink-20614",
+        "name": "",
+        "title": "Calculating the Z-Score of a Given Observation",
+        "selector": "#sectionLink-20614"
+      },
+      {
+        "index": 3,
+        "step_id": "20707",
+        "dom_id": "sectionLink-20707",
+        "name": "",
+        "title": "Finding an Observation Corresponding to a Given Z-Score",
+        "selector": "#sectionLink-20707"
+      },
+      {
+        "index": 4,
+        "step_id": "20616",
+        "dom_id": "sectionLink-20616",
+        "name": "",
+        "title": "Finding the Value of an Observation, Standard Deviation, or Mean Given a Z-Score",
+        "selector": "#sectionLink-20616"
+      },
+      {
+        "index": 5,
+        "step_id": "30812",
+        "dom_id": "sectionLink-30812",
+        "name": "",
+        "title": "Solving a System of Equations to Compute an Unknown Mean or Standard Deviation",
+        "selector": "#sectionLink-30812"
+      },
+      {
+        "index": 6,
+        "step_id": "30811",
+        "dom_id": "sectionLink-30811",
+        "name": "",
+        "title": "Z-Score: Word Problems",
+        "selector": "#sectionLink-30811"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1045",
+        "name": "Systems of Linear Equations With Fractional Coefficients",
+        "href": "/topics/systems-of-linear-equations-with-fractional-coefficients-1045"
+      },
+      {
+        "topic_id": "1081",
+        "name": "Systems of Linear Equations With Decimal Coefficients",
+        "href": "/topics/systems-of-linear-equations-with-decimal-coefficients-1081"
+      },
+      {
+        "topic_id": "1632",
+        "name": "Variance and Standard Deviation",
+        "href": "/topics/variance-and-standard-deviation-1632"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20613",
+        "content_id": "3697",
+        "dom_id": "step-20613",
+        "selector": "#step-20613",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20614",
+        "content_id": "5703",
+        "dom_id": "step-20614",
+        "selector": "#step-20614",
+        "step_anchor": "step-2",
+        "title": "Calculating the Z-Score of a Given Observation",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "94452",
+        "dom_id": "question-94452",
+        "selector": "#question-94452",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "94450",
+        "dom_id": "question-94450",
+        "selector": "#question-94450",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20707",
+        "content_id": "3705",
+        "dom_id": "step-20707",
+        "selector": "#step-20707",
+        "step_anchor": "step-5",
+        "title": "Finding an Observation Corresponding to a Given Z-Score",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20616",
+        "content_id": "5705",
+        "dom_id": "step-20616",
+        "selector": "#step-20616",
+        "step_anchor": "step-6",
+        "title": "Finding the Value of an Observation, Standard Deviation, or Mean Given a Z-Score",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "9849",
+        "dom_id": "question-9849",
+        "selector": "#question-9849",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "94470",
+        "dom_id": "question-94470",
+        "selector": "#question-94470",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30812",
+        "content_id": "8236",
+        "dom_id": "step-30812",
+        "selector": "#step-30812",
+        "step_anchor": "step-9",
+        "title": "Solving a System of Equations to Compute an Unknown Mean or Standard Deviation",
+        "key_prerequisites": [
+          {
+            "topic_id": "1045",
+            "name": "Systems of Linear Equations With Fractional Coefficients",
+            "href": "/topics/1045"
+          },
+          {
+            "topic_id": "1081",
+            "name": "Systems of Linear Equations With Decimal Coefficients",
+            "href": "/topics/1081"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "94396",
+        "dom_id": "question-94396",
+        "selector": "#question-94396",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "17236",
+        "dom_id": "question-17236",
+        "selector": "#question-17236",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30811",
+        "content_id": "8235",
+        "dom_id": "step-30811",
+        "selector": "#step-30811",
+        "step_anchor": "step-12",
+        "title": "Z-Score: Word Problems",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "9786",
+        "dom_id": "question-9786",
+        "selector": "#question-9786",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "9784",
+        "dom_id": "question-9784",
+        "selector": "#question-9784",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-20613",
+        "filename": "01-step-20613.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-20614",
+        "filename": "02-step-20614.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-94452",
+        "filename": "03-question-94452.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-94450",
+        "filename": "04-question-94450.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-20707",
+        "filename": "05-step-20707.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-20616",
+        "filename": "06-step-20616.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-9849",
+        "filename": "07-question-9849.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-94470",
+        "filename": "08-question-94470.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-30812",
+        "filename": "09-step-30812.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-94396",
+        "filename": "10-question-94396.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-17236",
+        "filename": "11-question-17236.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-30811",
+        "filename": "12-step-30811.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-9786",
+        "filename": "13-question-9786.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-9784",
+        "filename": "14-question-9784.png"
+      }
+    ]
+  }
+}

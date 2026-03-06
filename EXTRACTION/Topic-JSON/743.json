@@ -1,0 +1,314 @@
+{
+  "schema_version": 1,
+  "topic_id": "743",
+  "topic_title": "The Nth Term Test for Divergence",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/743.html",
+  "source_url": "https://mathacademy.com/topics/743",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "216662",
+        "dom_id": "sectionLink-216662",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-216662"
+      },
+      {
+        "index": 2,
+        "step_id": "216663",
+        "dom_id": "sectionLink-216663",
+        "name": "",
+        "title": "Applying the Nth Term Test to Show that a Series Diverges",
+        "selector": "#sectionLink-216663"
+      },
+      {
+        "index": 3,
+        "step_id": "216666",
+        "dom_id": "sectionLink-216666",
+        "name": "",
+        "title": "Applying the Nth Term Test When No Conclusion Can be Made",
+        "selector": "#sectionLink-216666"
+      },
+      {
+        "index": 4,
+        "step_id": "216669",
+        "dom_id": "sectionLink-216669",
+        "name": "",
+        "title": "Identifying Divergent Series by Applying the Nth Term Test",
+        "selector": "#sectionLink-216669"
+      },
+      {
+        "index": 5,
+        "step_id": "216672",
+        "dom_id": "sectionLink-216672",
+        "name": "",
+        "title": "The Harmonic Series",
+        "selector": "#sectionLink-216672"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "982",
+        "name": "Convergent and Divergent Infinite Series",
+        "href": "/topics/convergent-and-divergent-infinite-series-982"
+      },
+      {
+        "topic_id": "1089",
+        "name": "Limits of Sequences With Factorials",
+        "href": "/topics/limits-of-sequences-with-factorials-1089"
+      },
+      {
+        "topic_id": "3539",
+        "name": "Further Determining Limits of Sequences Using Relative Magnitudes",
+        "href": "/topics/further-determining-limits-of-sequences-using-relative-magnitudes-3539"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "216662",
+        "content_id": "1215",
+        "dom_id": "step-216662",
+        "selector": "#step-216662",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "216663",
+        "content_id": "696",
+        "dom_id": "step-216663",
+        "selector": "#step-216663",
+        "step_anchor": "step-2",
+        "title": "Applying the Nth Term Test to Show that a Series Diverges",
+        "key_prerequisites": [
+          {
+            "topic_id": "982",
+            "name": "Convergent and Divergent Infinite Series",
+            "href": "/topics/982"
+          },
+          {
+            "topic_id": "1087",
+            "name": "Limits of Sequences",
+            "href": "/topics/1087"
+          },
+          {
+            "topic_id": "3539",
+            "name": "Further Determining Limits of Sequences Using Relative Magnitudes",
+            "href": "/topics/3539"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "50886",
+        "dom_id": "question-50886",
+        "selector": "#question-50886",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "50646",
+        "dom_id": "question-50646",
+        "selector": "#question-50646",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "216666",
+        "content_id": "698",
+        "dom_id": "step-216666",
+        "selector": "#step-216666",
+        "step_anchor": "step-5",
+        "title": "Applying the Nth Term Test When No Conclusion Can be Made",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "50642",
+        "dom_id": "question-50642",
+        "selector": "#question-50642",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "50645",
+        "dom_id": "question-50645",
+        "selector": "#question-50645",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "216669",
+        "content_id": "697",
+        "dom_id": "step-216669",
+        "selector": "#step-216669",
+        "step_anchor": "step-8",
+        "title": "Identifying Divergent Series by Applying the Nth Term Test",
+        "key_prerequisites": [
+          {
+            "topic_id": "1088",
+            "name": "Convergence of Geometric Sequences",
+            "href": "/topics/1088"
+          },
+          {
+            "topic_id": "1089",
+            "name": "Limits of Sequences With Factorials",
+            "href": "/topics/1089"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "50901",
+        "dom_id": "question-50901",
+        "selector": "#question-50901",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "50446",
+        "dom_id": "question-50446",
+        "selector": "#question-50446",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "216672",
+        "content_id": "1219",
+        "dom_id": "step-216672",
+        "selector": "#step-216672",
+        "step_anchor": "step-11",
+        "title": "The Harmonic Series",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-216662",
+        "filename": "01-step-216662.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-216663",
+        "filename": "02-step-216663.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-50886",
+        "filename": "03-question-50886.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-50646",
+        "filename": "04-question-50646.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-216666",
+        "filename": "05-step-216666.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-50642",
+        "filename": "06-question-50642.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-50645",
+        "filename": "07-question-50645.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-216669",
+        "filename": "08-step-216669.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-50901",
+        "filename": "09-question-50901.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-50446",
+        "filename": "10-question-50446.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-216672",
+        "filename": "11-step-216672.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,382 @@
+{
+  "schema_version": 1,
+  "topic_id": "410",
+  "topic_title": "Solving Systems of Nonlinear Equations",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/410.html",
+  "source_url": "https://mathacademy.com/topics/410",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "511593",
+        "dom_id": "sectionLink-511593",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-511593"
+      },
+      {
+        "index": 2,
+        "step_id": "511594",
+        "dom_id": "sectionLink-511594",
+        "name": "",
+        "title": "The Number of Solutions of a Linear-Quadratic System",
+        "selector": "#sectionLink-511594"
+      },
+      {
+        "index": 3,
+        "step_id": "511595",
+        "dom_id": "sectionLink-511595",
+        "name": "",
+        "title": "Solving Systems of Equations When One Value Is Given",
+        "selector": "#sectionLink-511595"
+      },
+      {
+        "index": 4,
+        "step_id": "511599",
+        "dom_id": "sectionLink-511599",
+        "name": "",
+        "title": "Solving Linear-Quadratic Systems of Equations",
+        "selector": "#sectionLink-511599"
+      },
+      {
+        "index": 5,
+        "step_id": "511603",
+        "dom_id": "sectionLink-511603",
+        "name": "",
+        "title": "Systems Containing Two Quadratic Equations",
+        "selector": "#sectionLink-511603"
+      },
+      {
+        "index": 6,
+        "step_id": "511604",
+        "dom_id": "sectionLink-511604",
+        "name": "",
+        "title": "Solving Systems With Two Quadratic Equations",
+        "selector": "#sectionLink-511604"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "393",
+        "name": "Solving Quadratic Equations with No Constant Term",
+        "href": "/topics/solving-quadratic-equations-with-no-constant-term-393"
+      },
+      {
+        "topic_id": "425",
+        "name": "The Discriminant of a Quadratic Equation",
+        "href": "/topics/the-discriminant-of-a-quadratic-equation-425"
+      },
+      {
+        "topic_id": "487",
+        "name": "Solving Systems of Equations by Substitution",
+        "href": "/topics/solving-systems-of-equations-by-substitution-487"
+      },
+      {
+        "topic_id": "1422",
+        "name": "Solving Quadratic Equations with Leading Coefficients by Factoring",
+        "href": "/topics/solving-quadratic-equations-with-leading-coefficients-by-factoring-1422"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "511593",
+        "content_id": "13865",
+        "dom_id": "step-511593",
+        "selector": "#step-511593",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "511594",
+        "content_id": "13893",
+        "dom_id": "step-511594",
+        "selector": "#step-511594",
+        "step_anchor": "step-2",
+        "title": "The Number of Solutions of a Linear-Quadratic System",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "511595",
+        "content_id": "19825",
+        "dom_id": "step-511595",
+        "selector": "#step-511595",
+        "step_anchor": "step-3",
+        "title": "Solving Systems of Equations When One Value Is Given",
+        "key_prerequisites": [
+          {
+            "topic_id": "375",
+            "name": "Solving Quadratic Equations by Factoring",
+            "href": "/topics/375"
+          },
+          {
+            "topic_id": "425",
+            "name": "The Discriminant of a Quadratic Equation",
+            "href": "/topics/425"
+          },
+          {
+            "topic_id": "487",
+            "name": "Solving Systems of Equations by Substitution",
+            "href": "/topics/487"
+          },
+          {
+            "topic_id": "1423",
+            "name": "Solving Perfect Square Quadratic Equations",
+            "href": "/topics/1423"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "315140",
+        "dom_id": "question-315140",
+        "selector": "#question-315140",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "315137",
+        "dom_id": "question-315137",
+        "selector": "#question-315137",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "315143",
+        "dom_id": "question-315143",
+        "selector": "#question-315143",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "511599",
+        "content_id": "19826",
+        "dom_id": "step-511599",
+        "selector": "#step-511599",
+        "step_anchor": "step-7",
+        "title": "Solving Linear-Quadratic Systems of Equations",
+        "key_prerequisites": [
+          {
+            "topic_id": "813",
+            "name": "Introduction to Quadratic Equations",
+            "href": "/topics/813"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "315144",
+        "dom_id": "question-315144",
+        "selector": "#question-315144",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "315145",
+        "dom_id": "question-315145",
+        "selector": "#question-315145",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "315146",
+        "dom_id": "question-315146",
+        "selector": "#question-315146",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "511603",
+        "content_id": "13898",
+        "dom_id": "step-511603",
+        "selector": "#step-511603",
+        "step_anchor": "step-11",
+        "title": "Systems Containing Two Quadratic Equations",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "511604",
+        "content_id": "19827",
+        "dom_id": "step-511604",
+        "selector": "#step-511604",
+        "step_anchor": "step-12",
+        "title": "Solving Systems With Two Quadratic Equations",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "315337",
+        "dom_id": "question-315337",
+        "selector": "#question-315337",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "315181",
+        "dom_id": "question-315181",
+        "selector": "#question-315181",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-511593",
+        "filename": "01-step-511593.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-511594",
+        "filename": "02-step-511594.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-511595",
+        "filename": "03-step-511595.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-315140",
+        "filename": "04-question-315140.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-315137",
+        "filename": "05-question-315137.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-315143",
+        "filename": "06-question-315143.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-511599",
+        "filename": "07-step-511599.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-315144",
+        "filename": "08-question-315144.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-315145",
+        "filename": "09-question-315145.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-315146",
+        "filename": "10-question-315146.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-511603",
+        "filename": "11-step-511603.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-511604",
+        "filename": "12-step-511604.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-315337",
+        "filename": "13-question-315337.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-315181",
+        "filename": "14-question-315181.png"
+      }
+    ]
+  }
+}

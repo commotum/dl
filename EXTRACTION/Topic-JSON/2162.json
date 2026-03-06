@@ -1,0 +1,340 @@
+{
+  "schema_version": 1,
+  "topic_id": "2162",
+  "topic_title": "Solving Polynomial Inequalities Using the Sign Table Method",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2162.html",
+  "source_url": "https://mathacademy.com/topics/2162",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "463954",
+        "dom_id": "sectionLink-463954",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-463954"
+      },
+      {
+        "index": 2,
+        "step_id": "463955",
+        "dom_id": "sectionLink-463955",
+        "name": "",
+        "title": "Solving a Factored Cubic Polynomial Inequality",
+        "selector": "#sectionLink-463955"
+      },
+      {
+        "index": 3,
+        "step_id": "463958",
+        "dom_id": "sectionLink-463958",
+        "name": "",
+        "title": "Solving a Factored Higher-Order Polynomial Inequality",
+        "selector": "#sectionLink-463958"
+      },
+      {
+        "index": 4,
+        "step_id": "463961",
+        "dom_id": "sectionLink-463961",
+        "name": "",
+        "title": "Solving an Expanded Polynomial Inequality",
+        "selector": "#sectionLink-463961"
+      },
+      {
+        "index": 5,
+        "step_id": "463964",
+        "dom_id": "sectionLink-463964",
+        "name": "",
+        "title": "Solving a Polynomial Inequality when the Right-Hand Side is Nonzero",
+        "selector": "#sectionLink-463964"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "118",
+        "name": "Solving Quadratic Inequalities Using the Sign Table Method",
+        "href": "/topics/solving-quadratic-inequalities-using-the-sign-table-method-118"
+      },
+      {
+        "topic_id": "660",
+        "name": "Factoring Higher-Order Polynomials as a Difference of Squares",
+        "href": "/topics/factoring-higher-order-polynomials-as-a-difference-of-squares-660"
+      },
+      {
+        "topic_id": "727",
+        "name": "Solving Cubic Equations by Grouping",
+        "href": "/topics/solving-cubic-equations-by-grouping-727"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "463954",
+        "content_id": "3761",
+        "dom_id": "step-463954",
+        "selector": "#step-463954",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "463955",
+        "content_id": "5827",
+        "dom_id": "step-463955",
+        "selector": "#step-463955",
+        "step_anchor": "step-2",
+        "title": "Solving a Factored Cubic Polynomial Inequality",
+        "key_prerequisites": [
+          {
+            "topic_id": "118",
+            "name": "Solving Quadratic Inequalities Using the Sign Table Method",
+            "href": "/topics/118"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "40216",
+        "dom_id": "question-40216",
+        "selector": "#question-40216",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "40343",
+        "dom_id": "question-40343",
+        "selector": "#question-40343",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "463958",
+        "content_id": "7755",
+        "dom_id": "step-463958",
+        "selector": "#step-463958",
+        "step_anchor": "step-5",
+        "title": "Solving a Factored Higher-Order Polynomial Inequality",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "88492",
+        "dom_id": "question-88492",
+        "selector": "#question-88492",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "40222",
+        "dom_id": "question-40222",
+        "selector": "#question-40222",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "463961",
+        "content_id": "5828",
+        "dom_id": "step-463961",
+        "selector": "#step-463961",
+        "step_anchor": "step-8",
+        "title": "Solving an Expanded Polynomial Inequality",
+        "key_prerequisites": [
+          {
+            "topic_id": "727",
+            "name": "Solving Cubic Equations by Grouping",
+            "href": "/topics/727"
+          },
+          {
+            "topic_id": "2337",
+            "name": "Further Factoring of Polynomials Using GCFs",
+            "href": "/topics/2337"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "40367",
+        "dom_id": "question-40367",
+        "selector": "#question-40367",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "40348",
+        "dom_id": "question-40348",
+        "selector": "#question-40348",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "463964",
+        "content_id": "5835",
+        "dom_id": "step-463964",
+        "selector": "#step-463964",
+        "step_anchor": "step-11",
+        "title": "Solving a Polynomial Inequality when the Right-Hand Side is Nonzero",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "71132",
+        "dom_id": "question-71132",
+        "selector": "#question-71132",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "40290",
+        "dom_id": "question-40290",
+        "selector": "#question-40290",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-463954",
+        "filename": "01-step-463954.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-463955",
+        "filename": "02-step-463955.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-40216",
+        "filename": "03-question-40216.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-40343",
+        "filename": "04-question-40343.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-463958",
+        "filename": "05-step-463958.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-88492",
+        "filename": "06-question-88492.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-40222",
+        "filename": "07-question-40222.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-463961",
+        "filename": "08-step-463961.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-40367",
+        "filename": "09-question-40367.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-40348",
+        "filename": "10-question-40348.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-463964",
+        "filename": "11-step-463964.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-71132",
+        "filename": "12-question-71132.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-40290",
+        "filename": "13-question-40290.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,434 @@
+{
+  "schema_version": 1,
+  "topic_id": "6188",
+  "topic_title": "Comparing Data Set Visualizations Using Standard Deviation and MAD",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/6188.html",
+  "source_url": "https://mathacademy.com/topics/6188",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "531956",
+        "dom_id": "sectionLink-531956",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-531956"
+      },
+      {
+        "index": 2,
+        "step_id": "531957",
+        "dom_id": "sectionLink-531957",
+        "name": "",
+        "title": "Comparing Visual Data Using MAD and Standard Deviation",
+        "selector": "#sectionLink-531957"
+      },
+      {
+        "index": 3,
+        "step_id": "531961",
+        "dom_id": "sectionLink-531961",
+        "name": "",
+        "title": "Data Sets With Identical Shapes",
+        "selector": "#sectionLink-531961"
+      },
+      {
+        "index": 4,
+        "step_id": "531962",
+        "dom_id": "sectionLink-531962",
+        "name": "",
+        "title": "Data Sets With Identical Ranges",
+        "selector": "#sectionLink-531962"
+      },
+      {
+        "index": 5,
+        "step_id": "531963",
+        "dom_id": "sectionLink-531963",
+        "name": "",
+        "title": "Comparing Dot Plots With Identical Ranges Using MAD",
+        "selector": "#sectionLink-531963"
+      },
+      {
+        "index": 6,
+        "step_id": "531966",
+        "dom_id": "sectionLink-531966",
+        "name": "",
+        "title": "Comparing Dot Plots With Identical Ranges Using Standard Deviation",
+        "selector": "#sectionLink-531966"
+      },
+      {
+        "index": 7,
+        "step_id": "531969",
+        "dom_id": "sectionLink-531969",
+        "name": "",
+        "title": "Comparing Histograms With Identical Ranges Using MAD and Standard Deviation",
+        "selector": "#sectionLink-531969"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2481",
+        "name": "Mean Absolute Deviation",
+        "href": "/topics/mean-absolute-deviation-2481"
+      },
+      {
+        "topic_id": "2499",
+        "name": "Dot Plots",
+        "href": "/topics/dot-plots-2499"
+      },
+      {
+        "topic_id": "2502",
+        "name": "Symmetry, Skew, and Outliers",
+        "href": "/topics/symmetry-skew-and-outliers-2502"
+      },
+      {
+        "topic_id": "2510",
+        "name": "Histograms",
+        "href": "/topics/histograms-2510"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 17,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "531956",
+        "content_id": "14082",
+        "dom_id": "step-531956",
+        "selector": "#step-531956",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "531957",
+        "content_id": "20936",
+        "dom_id": "step-531957",
+        "selector": "#step-531957",
+        "step_anchor": "step-2",
+        "title": "Comparing Visual Data Using MAD and Standard Deviation",
+        "key_prerequisites": [
+          {
+            "topic_id": "2499",
+            "name": "Dot Plots",
+            "href": "/topics/2499"
+          },
+          {
+            "topic_id": "2502",
+            "name": "Symmetry, Skew, and Outliers",
+            "href": "/topics/2502"
+          },
+          {
+            "topic_id": "2510",
+            "name": "Histograms",
+            "href": "/topics/2510"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "296680",
+        "dom_id": "question-296680",
+        "selector": "#question-296680",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "301384",
+        "dom_id": "question-301384",
+        "selector": "#question-301384",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "301328",
+        "dom_id": "question-301328",
+        "selector": "#question-301328",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "531961",
+        "content_id": "14146",
+        "dom_id": "step-531961",
+        "selector": "#step-531961",
+        "step_anchor": "step-6",
+        "title": "Data Sets With Identical Shapes",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "531962",
+        "content_id": "14147",
+        "dom_id": "step-531962",
+        "selector": "#step-531962",
+        "step_anchor": "step-7",
+        "title": "Data Sets With Identical Ranges",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "531963",
+        "content_id": "20941",
+        "dom_id": "step-531963",
+        "selector": "#step-531963",
+        "step_anchor": "step-8",
+        "title": "Comparing Dot Plots With Identical Ranges Using MAD",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "316116",
+        "dom_id": "question-316116",
+        "selector": "#question-316116",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "316159",
+        "dom_id": "question-316159",
+        "selector": "#question-316159",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "531966",
+        "content_id": "20942",
+        "dom_id": "step-531966",
+        "selector": "#step-531966",
+        "step_anchor": "step-11",
+        "title": "Comparing Dot Plots With Identical Ranges Using Standard Deviation",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "316134",
+        "dom_id": "question-316134",
+        "selector": "#question-316134",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "316173",
+        "dom_id": "question-316173",
+        "selector": "#question-316173",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "531969",
+        "content_id": "20937",
+        "dom_id": "step-531969",
+        "selector": "#step-531969",
+        "step_anchor": "step-14",
+        "title": "Comparing Histograms With Identical Ranges Using MAD and Standard Deviation",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "316131",
+        "dom_id": "question-316131",
+        "selector": "#question-316131",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "315982",
+        "dom_id": "question-315982",
+        "selector": "#question-315982",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "question_id": "316164",
+        "dom_id": "question-316164",
+        "selector": "#question-316164",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-531956",
+        "filename": "01-step-531956.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-531957",
+        "filename": "02-step-531957.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-296680",
+        "filename": "03-question-296680.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-301384",
+        "filename": "04-question-301384.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-301328",
+        "filename": "05-question-301328.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-531961",
+        "filename": "06-step-531961.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-531962",
+        "filename": "07-step-531962.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-531963",
+        "filename": "08-step-531963.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-316116",
+        "filename": "09-question-316116.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-316159",
+        "filename": "10-question-316159.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-531966",
+        "filename": "11-step-531966.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-316134",
+        "filename": "12-question-316134.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-316173",
+        "filename": "13-question-316173.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-531969",
+        "filename": "14-step-531969.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-316131",
+        "filename": "15-question-316131.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-315982",
+        "filename": "16-question-315982.png"
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "selector": "#question-316164",
+        "filename": "17-question-316164.png"
+      }
+    ]
+  }
+}

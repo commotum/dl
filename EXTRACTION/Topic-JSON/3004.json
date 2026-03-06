@@ -1,0 +1,372 @@
+{
+  "schema_version": 1,
+  "topic_id": "3004",
+  "topic_title": "The Joint CDF of Two Discrete Random Variables",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3004.html",
+  "source_url": "https://mathacademy.com/topics/3004",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "38838",
+        "dom_id": "sectionLink-38838",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-38838"
+      },
+      {
+        "index": 2,
+        "step_id": "38839",
+        "dom_id": "sectionLink-38839",
+        "name": "",
+        "title": "Evaluating a Joint CDF",
+        "selector": "#sectionLink-38839"
+      },
+      {
+        "index": 3,
+        "step_id": "42192",
+        "dom_id": "sectionLink-42192",
+        "name": "",
+        "title": "Geometric Interpretation of the Joint CDF",
+        "selector": "#sectionLink-42192"
+      },
+      {
+        "index": 4,
+        "step_id": "38938",
+        "dom_id": "sectionLink-38938",
+        "name": "",
+        "title": "Interpreting the Joint CDF Geometrically",
+        "selector": "#sectionLink-38938"
+      },
+      {
+        "index": 5,
+        "step_id": "38840",
+        "dom_id": "sectionLink-38840",
+        "name": "",
+        "title": "Finding Cumulative Probabilities Given Values From the Joint CDF",
+        "selector": "#sectionLink-38840"
+      },
+      {
+        "index": 6,
+        "step_id": "38939",
+        "dom_id": "sectionLink-38939",
+        "name": "",
+        "title": "Further Finding Cumulative Probabilities Given Values From the Joint CDF",
+        "selector": "#sectionLink-38939"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1983",
+        "name": "Double Summations",
+        "href": "/topics/double-summations-1983"
+      },
+      {
+        "topic_id": "2024",
+        "name": "Cumulative Distribution Functions for Discrete Random Variables",
+        "href": "/topics/cumulative-distribution-functions-for-discrete-random-variables-2024"
+      },
+      {
+        "topic_id": "3001",
+        "name": "Joint Distributions for Discrete Random Variables",
+        "href": "/topics/joint-distributions-for-discrete-random-variables-3001"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "38838",
+        "content_id": "6430",
+        "dom_id": "step-38838",
+        "selector": "#step-38838",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "38839",
+        "content_id": "10303",
+        "dom_id": "step-38839",
+        "selector": "#step-38839",
+        "step_anchor": "step-2",
+        "title": "Evaluating a Joint CDF",
+        "key_prerequisites": [
+          {
+            "topic_id": "1983",
+            "name": "Double Summations",
+            "href": "/topics/1983"
+          },
+          {
+            "topic_id": "2024",
+            "name": "Cumulative Distribution Functions for Discrete Random Variables",
+            "href": "/topics/2024"
+          },
+          {
+            "topic_id": "3001",
+            "name": "Joint Distributions for Discrete Random Variables",
+            "href": "/topics/3001"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "145559",
+        "dom_id": "question-145559",
+        "selector": "#question-145559",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "145616",
+        "dom_id": "question-145616",
+        "selector": "#question-145616",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "42192",
+        "content_id": "6977",
+        "dom_id": "step-42192",
+        "selector": "#step-42192",
+        "step_anchor": "step-5",
+        "title": "Geometric Interpretation of the Joint CDF",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "38938",
+        "content_id": "10336",
+        "dom_id": "step-38938",
+        "selector": "#step-38938",
+        "step_anchor": "step-6",
+        "title": "Interpreting the Joint CDF Geometrically",
+        "key_prerequisites": [
+          {
+            "topic_id": "2827",
+            "name": "The Intersection of Sets",
+            "href": "/topics/2827"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "145892",
+        "dom_id": "question-145892",
+        "selector": "#question-145892",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "145888",
+        "dom_id": "question-145888",
+        "selector": "#question-145888",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "38840",
+        "content_id": "10304",
+        "dom_id": "step-38840",
+        "selector": "#step-38840",
+        "step_anchor": "step-9",
+        "title": "Finding Cumulative Probabilities Given Values From the Joint CDF",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "145626",
+        "dom_id": "question-145626",
+        "selector": "#question-145626",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "145619",
+        "dom_id": "question-145619",
+        "selector": "#question-145619",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "38939",
+        "content_id": "10337",
+        "dom_id": "step-38939",
+        "selector": "#step-38939",
+        "step_anchor": "step-12",
+        "title": "Further Finding Cumulative Probabilities Given Values From the Joint CDF",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "145894",
+        "dom_id": "question-145894",
+        "selector": "#question-145894",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "145909",
+        "dom_id": "question-145909",
+        "selector": "#question-145909",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-38838",
+        "filename": "01-step-38838.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-38839",
+        "filename": "02-step-38839.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-145559",
+        "filename": "03-question-145559.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-145616",
+        "filename": "04-question-145616.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-42192",
+        "filename": "05-step-42192.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-38938",
+        "filename": "06-step-38938.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-145892",
+        "filename": "07-question-145892.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-145888",
+        "filename": "08-question-145888.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-38840",
+        "filename": "09-step-38840.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-145626",
+        "filename": "10-question-145626.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-145619",
+        "filename": "11-question-145619.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-38939",
+        "filename": "12-step-38939.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-145894",
+        "filename": "13-question-145894.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-145909",
+        "filename": "14-question-145909.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,315 @@
+{
+  "schema_version": 1,
+  "topic_id": "3020",
+  "topic_title": "Spearman's Rank Correlation Coefficient",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3020.html",
+  "source_url": "https://mathacademy.com/topics/3020",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "224675",
+        "dom_id": "sectionLink-224675",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-224675"
+      },
+      {
+        "index": 2,
+        "step_id": "224676",
+        "dom_id": "sectionLink-224676",
+        "name": "",
+        "title": "Calculating Spearman\u2019s Rank Correlation Coefficient",
+        "selector": "#sectionLink-224676"
+      },
+      {
+        "index": 3,
+        "step_id": "224679",
+        "dom_id": "sectionLink-224679",
+        "name": "",
+        "title": "Interpreting the Correlation Coefficient",
+        "selector": "#sectionLink-224679"
+      },
+      {
+        "index": 4,
+        "step_id": "224680",
+        "dom_id": "sectionLink-224680",
+        "name": "",
+        "title": "Calculating Spearman\u2019s Rank Coefficient in Contextual Situations: Ranked Data",
+        "selector": "#sectionLink-224680"
+      },
+      {
+        "index": 5,
+        "step_id": "224716",
+        "dom_id": "sectionLink-224716",
+        "name": "",
+        "title": "Spearman's Rank Correlation Coefficient For Non-Ranked Data",
+        "selector": "#sectionLink-224716"
+      },
+      {
+        "index": 6,
+        "step_id": "224683",
+        "dom_id": "sectionLink-224683",
+        "name": "",
+        "title": "Calculating Spearman\u2019s Rank Coefficient in Contextual Situations: Non-Ranked Data",
+        "selector": "#sectionLink-224683"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "734",
+        "name": "Linear Correlation",
+        "href": "/topics/linear-correlation-734"
+      },
+      {
+        "topic_id": "1056",
+        "name": "The Linear Correlation Coefficient",
+        "href": "/topics/the-linear-correlation-coefficient-1056"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "224675",
+        "content_id": "10568",
+        "dom_id": "step-224675",
+        "selector": "#step-224675",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "224676",
+        "content_id": "16391",
+        "dom_id": "step-224676",
+        "selector": "#step-224676",
+        "step_anchor": "step-2",
+        "title": "Calculating Spearman\u2019s Rank Correlation Coefficient",
+        "key_prerequisites": [
+          {
+            "topic_id": "1056",
+            "name": "The Linear Correlation Coefficient",
+            "href": "/topics/1056"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "251414",
+        "dom_id": "question-251414",
+        "selector": "#question-251414",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "251423",
+        "dom_id": "question-251423",
+        "selector": "#question-251423",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "224679",
+        "content_id": "10578",
+        "dom_id": "step-224679",
+        "selector": "#step-224679",
+        "step_anchor": "step-5",
+        "title": "Interpreting the Correlation Coefficient",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "224680",
+        "content_id": "16397",
+        "dom_id": "step-224680",
+        "selector": "#step-224680",
+        "step_anchor": "step-6",
+        "title": "Calculating Spearman\u2019s Rank Coefficient in Contextual Situations: Ranked Data",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "251416",
+        "dom_id": "question-251416",
+        "selector": "#question-251416",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "251408",
+        "dom_id": "question-251408",
+        "selector": "#question-251408",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "224716",
+        "content_id": "10797",
+        "dom_id": "step-224716",
+        "selector": "#step-224716",
+        "step_anchor": "step-9",
+        "title": "Spearman's Rank Correlation Coefficient For Non-Ranked Data",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "224683",
+        "content_id": "16396",
+        "dom_id": "step-224683",
+        "selector": "#step-224683",
+        "step_anchor": "step-10",
+        "title": "Calculating Spearman\u2019s Rank Coefficient in Contextual Situations: Non-Ranked Data",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "251497",
+        "dom_id": "question-251497",
+        "selector": "#question-251497",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "251424",
+        "dom_id": "question-251424",
+        "selector": "#question-251424",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-224675",
+        "filename": "01-step-224675.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-224676",
+        "filename": "02-step-224676.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-251414",
+        "filename": "03-question-251414.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-251423",
+        "filename": "04-question-251423.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-224679",
+        "filename": "05-step-224679.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-224680",
+        "filename": "06-step-224680.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-251416",
+        "filename": "07-question-251416.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-251408",
+        "filename": "08-question-251408.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-224716",
+        "filename": "09-step-224716.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-224683",
+        "filename": "10-step-224683.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-251497",
+        "filename": "11-question-251497.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-251424",
+        "filename": "12-question-251424.png"
+      }
+    ]
+  }
+}

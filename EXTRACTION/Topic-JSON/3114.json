@@ -1,0 +1,378 @@
+{
+  "schema_version": 1,
+  "topic_id": "3114",
+  "topic_title": "Jordan Blocks and Jordan Matrices",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3114.html",
+  "source_url": "https://mathacademy.com/topics/3114",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "33849",
+        "dom_id": "sectionLink-33849",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-33849"
+      },
+      {
+        "index": 2,
+        "step_id": "33850",
+        "dom_id": "sectionLink-33850",
+        "name": "",
+        "title": "Identifying Jordan Blocks",
+        "selector": "#sectionLink-33850"
+      },
+      {
+        "index": 3,
+        "step_id": "34239",
+        "dom_id": "sectionLink-34239",
+        "name": "",
+        "title": "Notation for Jordan Blocks",
+        "selector": "#sectionLink-34239"
+      },
+      {
+        "index": 4,
+        "step_id": "33906",
+        "dom_id": "sectionLink-33906",
+        "name": "",
+        "title": "Constructing Jordan Blocks",
+        "selector": "#sectionLink-33906"
+      },
+      {
+        "index": 5,
+        "step_id": "33853",
+        "dom_id": "sectionLink-33853",
+        "name": "",
+        "title": "Compositions of Jordan Blocks",
+        "selector": "#sectionLink-33853"
+      },
+      {
+        "index": 6,
+        "step_id": "33852",
+        "dom_id": "sectionLink-33852",
+        "name": "",
+        "title": "Identifying Matrices Corresponding to a Composition of Jordan Blocks",
+        "selector": "#sectionLink-33852"
+      },
+      {
+        "index": 7,
+        "step_id": "33851",
+        "dom_id": "sectionLink-33851",
+        "name": "",
+        "title": "Writing a Matrix as a Composition of Jordan Blocks",
+        "selector": "#sectionLink-33851"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1735",
+        "name": "Partitioned and Block Matrices",
+        "href": "/topics/partitioned-and-block-matrices-1735"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "33849",
+        "content_id": "5436",
+        "dom_id": "step-33849",
+        "selector": "#step-33849",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33850",
+        "content_id": "9077",
+        "dom_id": "step-33850",
+        "selector": "#step-33850",
+        "step_anchor": "step-2",
+        "title": "Identifying Jordan Blocks",
+        "key_prerequisites": [
+          {
+            "topic_id": "862",
+            "name": "Zero, Square, Diagonal and Identity Matrices",
+            "href": "/topics/862"
+          },
+          {
+            "topic_id": "1735",
+            "name": "Partitioned and Block Matrices",
+            "href": "/topics/1735"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "108953",
+        "dom_id": "question-108953",
+        "selector": "#question-108953",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "108539",
+        "dom_id": "question-108539",
+        "selector": "#question-108539",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "34239",
+        "content_id": "5504",
+        "dom_id": "step-34239",
+        "selector": "#step-34239",
+        "step_anchor": "step-5",
+        "title": "Notation for Jordan Blocks",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33906",
+        "content_id": "9092",
+        "dom_id": "step-33906",
+        "selector": "#step-33906",
+        "step_anchor": "step-6",
+        "title": "Constructing Jordan Blocks",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "108961",
+        "dom_id": "question-108961",
+        "selector": "#question-108961",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "108570",
+        "dom_id": "question-108570",
+        "selector": "#question-108570",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "33853",
+        "content_id": "5437",
+        "dom_id": "step-33853",
+        "selector": "#step-33853",
+        "step_anchor": "step-9",
+        "title": "Compositions of Jordan Blocks",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33852",
+        "content_id": "9079",
+        "dom_id": "step-33852",
+        "selector": "#step-33852",
+        "step_anchor": "step-10",
+        "title": "Identifying Matrices Corresponding to a Composition of Jordan Blocks",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "108980",
+        "dom_id": "question-108980",
+        "selector": "#question-108980",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "108569",
+        "dom_id": "question-108569",
+        "selector": "#question-108569",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33851",
+        "content_id": "9078",
+        "dom_id": "step-33851",
+        "selector": "#step-33851",
+        "step_anchor": "step-13",
+        "title": "Writing a Matrix as a Composition of Jordan Blocks",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "108565",
+        "dom_id": "question-108565",
+        "selector": "#question-108565",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "108558",
+        "dom_id": "question-108558",
+        "selector": "#question-108558",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-33849",
+        "filename": "01-step-33849.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-33850",
+        "filename": "02-step-33850.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-108953",
+        "filename": "03-question-108953.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-108539",
+        "filename": "04-question-108539.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-34239",
+        "filename": "05-step-34239.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-33906",
+        "filename": "06-step-33906.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-108961",
+        "filename": "07-question-108961.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-108570",
+        "filename": "08-question-108570.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-33853",
+        "filename": "09-step-33853.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-33852",
+        "filename": "10-step-33852.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-108980",
+        "filename": "11-question-108980.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-108569",
+        "filename": "12-question-108569.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-33851",
+        "filename": "13-step-33851.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-108565",
+        "filename": "14-question-108565.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-108558",
+        "filename": "15-question-108558.png"
+      }
+    ]
+  }
+}

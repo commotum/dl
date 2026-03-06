@@ -1,0 +1,310 @@
+{
+  "schema_version": 1,
+  "topic_id": "2818",
+  "topic_title": "Solving Homogeneous Systems of ODEs With Repeated Eigenvalues",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2818.html",
+  "source_url": "https://mathacademy.com/topics/2818",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "550835",
+        "dom_id": "sectionLink-550835",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-550835"
+      },
+      {
+        "index": 2,
+        "step_id": "550836",
+        "dom_id": "sectionLink-550836",
+        "name": "",
+        "title": "Finding the General Solution to a System of Linear Equations in a Complete Case",
+        "selector": "#sectionLink-550836"
+      },
+      {
+        "index": 3,
+        "step_id": "550839",
+        "dom_id": "sectionLink-550839",
+        "name": "",
+        "title": "Finding the General Solution to a System of Linear Equations in a Defective Case",
+        "selector": "#sectionLink-550839"
+      },
+      {
+        "index": 4,
+        "step_id": "550842",
+        "dom_id": "sectionLink-550842",
+        "name": "",
+        "title": "Solving an Initial Value Problem in a Defective Case",
+        "selector": "#sectionLink-550842"
+      },
+      {
+        "index": 5,
+        "step_id": "550845",
+        "dom_id": "sectionLink-550845",
+        "name": "",
+        "title": "Justification for the Solution Formula in the Defective Case",
+        "selector": "#sectionLink-550845"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1738",
+        "name": "Differentiation Rules for Vector-Valued Functions",
+        "href": "/topics/differentiation-rules-for-vector-valued-functions-1738"
+      },
+      {
+        "topic_id": "2088",
+        "name": "Solving Homogeneous Systems of ODEs With Distinct Eigenvalues and Initial Conditions",
+        "href": "/topics/solving-homogeneous-systems-of-odes-with-distinct-eigenvalues-and-initial-conditions-2088"
+      },
+      {
+        "topic_id": "2738",
+        "name": "Generalized Eigenvectors",
+        "href": "/topics/generalized-eigenvectors-2738"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "550835",
+        "content_id": "4281",
+        "dom_id": "step-550835",
+        "selector": "#step-550835",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "550836",
+        "content_id": "7048",
+        "dom_id": "step-550836",
+        "selector": "#step-550836",
+        "step_anchor": "step-2",
+        "title": "Finding the General Solution to a System of Linear Equations in a Complete Case",
+        "key_prerequisites": [
+          {
+            "topic_id": "3238",
+            "name": "Solving Decoupled Homogeneous Systems of ODEs",
+            "href": "/topics/3238"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "80600",
+        "dom_id": "question-80600",
+        "selector": "#question-80600",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "80548",
+        "dom_id": "question-80548",
+        "selector": "#question-80548",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "550839",
+        "content_id": "7049",
+        "dom_id": "step-550839",
+        "selector": "#step-550839",
+        "step_anchor": "step-5",
+        "title": "Finding the General Solution to a System of Linear Equations in a Defective Case",
+        "key_prerequisites": [
+          {
+            "topic_id": "2087",
+            "name": "Solving Homogeneous Systems of ODEs With Distinct Eigenvalues",
+            "href": "/topics/2087"
+          },
+          {
+            "topic_id": "2738",
+            "name": "Generalized Eigenvectors",
+            "href": "/topics/2738"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "325120",
+        "dom_id": "question-325120",
+        "selector": "#question-325120",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "325134",
+        "dom_id": "question-325134",
+        "selector": "#question-325134",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "550842",
+        "content_id": "7050",
+        "dom_id": "step-550842",
+        "selector": "#step-550842",
+        "step_anchor": "step-8",
+        "title": "Solving an Initial Value Problem in a Defective Case",
+        "key_prerequisites": [
+          {
+            "topic_id": "2088",
+            "name": "Solving Homogeneous Systems of ODEs With Distinct Eigenvalues and Initial Conditions",
+            "href": "/topics/2088"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "325135",
+        "dom_id": "question-325135",
+        "selector": "#question-325135",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "325136",
+        "dom_id": "question-325136",
+        "selector": "#question-325136",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "550845",
+        "content_id": "4282",
+        "dom_id": "step-550845",
+        "selector": "#step-550845",
+        "step_anchor": "step-11",
+        "title": "Justification for the Solution Formula in the Defective Case",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-550835",
+        "filename": "01-step-550835.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-550836",
+        "filename": "02-step-550836.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-80600",
+        "filename": "03-question-80600.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-80548",
+        "filename": "04-question-80548.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-550839",
+        "filename": "05-step-550839.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-325120",
+        "filename": "06-question-325120.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-325134",
+        "filename": "07-question-325134.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-550842",
+        "filename": "08-step-550842.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-325135",
+        "filename": "09-question-325135.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-325136",
+        "filename": "10-question-325136.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-550845",
+        "filename": "11-step-550845.png"
+      }
+    ]
+  }
+}

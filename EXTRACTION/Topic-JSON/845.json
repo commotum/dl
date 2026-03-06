@@ -1,0 +1,355 @@
+{
+  "schema_version": 1,
+  "topic_id": "845",
+  "topic_title": "Intersections of Circles with Lines",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/845.html",
+  "source_url": "https://mathacademy.com/topics/845",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "10951",
+        "dom_id": "sectionLink-10951",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-10951"
+      },
+      {
+        "index": 2,
+        "step_id": "24974",
+        "dom_id": "sectionLink-24974",
+        "name": "",
+        "title": "Finding the Points of Intersection of a Circle with a Line",
+        "selector": "#sectionLink-24974"
+      },
+      {
+        "index": 3,
+        "step_id": "10953",
+        "dom_id": "sectionLink-10953",
+        "name": "",
+        "title": "Finding a Single Point of Intersection of a Circle with a Line",
+        "selector": "#sectionLink-10953"
+      },
+      {
+        "index": 4,
+        "step_id": "10954",
+        "dom_id": "sectionLink-10954",
+        "name": "",
+        "title": "Identifying When a Circle Does Not Intersect with a Line",
+        "selector": "#sectionLink-10954"
+      },
+      {
+        "index": 5,
+        "step_id": "10955",
+        "dom_id": "sectionLink-10955",
+        "name": "",
+        "title": "Finding the Equation of a Circle Given a Line Covering a Diameter",
+        "selector": "#sectionLink-10955"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "398",
+        "name": "Properties of Lines Given in Slope-Intercept Form",
+        "href": "/topics/properties-of-lines-given-in-slope-intercept-form-398"
+      },
+      {
+        "topic_id": "843",
+        "name": "Equations of Circles",
+        "href": "/topics/equations-of-circles-843"
+      },
+      {
+        "topic_id": "6341",
+        "name": "Finding Intersections of Lines and Quadratic Functions",
+        "href": "/topics/finding-intersections-of-lines-and-quadratic-functions-6341"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "10951",
+        "content_id": "2443",
+        "dom_id": "step-10951",
+        "selector": "#step-10951",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "24974",
+        "content_id": "6761",
+        "dom_id": "step-24974",
+        "selector": "#step-24974",
+        "step_anchor": "step-2",
+        "title": "Finding the Points of Intersection of a Circle with a Line",
+        "key_prerequisites": [
+          {
+            "topic_id": "375",
+            "name": "Solving Quadratic Equations by Factoring",
+            "href": "/topics/375"
+          },
+          {
+            "topic_id": "393",
+            "name": "Solving Quadratic Equations with No Constant Term",
+            "href": "/topics/393"
+          },
+          {
+            "topic_id": "410",
+            "name": "Solving Systems of Nonlinear Equations",
+            "href": "/topics/410"
+          },
+          {
+            "topic_id": "430",
+            "name": "Solving Equations Using the Square Root Method",
+            "href": "/topics/430"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "7580",
+        "dom_id": "question-7580",
+        "selector": "#question-7580",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "7575",
+        "dom_id": "question-7575",
+        "selector": "#question-7575",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "10953",
+        "content_id": "3234",
+        "dom_id": "step-10953",
+        "selector": "#step-10953",
+        "step_anchor": "step-5",
+        "title": "Finding a Single Point of Intersection of a Circle with a Line",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "7584",
+        "dom_id": "question-7584",
+        "selector": "#question-7584",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "7585",
+        "dom_id": "question-7585",
+        "selector": "#question-7585",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "10954",
+        "content_id": "3235",
+        "dom_id": "step-10954",
+        "selector": "#step-10954",
+        "step_anchor": "step-8",
+        "title": "Identifying When a Circle Does Not Intersect with a Line",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "54239",
+        "dom_id": "question-54239",
+        "selector": "#question-54239",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "54240",
+        "dom_id": "question-54240",
+        "selector": "#question-54240",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "10955",
+        "content_id": "3236",
+        "dom_id": "step-10955",
+        "selector": "#step-10955",
+        "step_anchor": "step-11",
+        "title": "Finding the Equation of a Circle Given a Line Covering a Diameter",
+        "key_prerequisites": [
+          {
+            "topic_id": "398",
+            "name": "Properties of Lines Given in Slope-Intercept Form",
+            "href": "/topics/398"
+          },
+          {
+            "topic_id": "843",
+            "name": "Equations of Circles",
+            "href": "/topics/843"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "54222",
+        "dom_id": "question-54222",
+        "selector": "#question-54222",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "54226",
+        "dom_id": "question-54226",
+        "selector": "#question-54226",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-10951",
+        "filename": "01-step-10951.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-24974",
+        "filename": "02-step-24974.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-7580",
+        "filename": "03-question-7580.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-7575",
+        "filename": "04-question-7575.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-10953",
+        "filename": "05-step-10953.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-7584",
+        "filename": "06-question-7584.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-7585",
+        "filename": "07-question-7585.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-10954",
+        "filename": "08-step-10954.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-54239",
+        "filename": "09-question-54239.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-54240",
+        "filename": "10-question-54240.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-10955",
+        "filename": "11-step-10955.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-54222",
+        "filename": "12-question-54222.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-54226",
+        "filename": "13-question-54226.png"
+      }
+    ]
+  }
+}

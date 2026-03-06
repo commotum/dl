@@ -1,0 +1,384 @@
+{
+  "schema_version": 1,
+  "topic_id": "1121",
+  "topic_title": "Sample Spaces and Events in Probability",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1121.html",
+  "source_url": "https://mathacademy.com/topics/1121",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "22322",
+        "dom_id": "sectionLink-22322",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-22322"
+      },
+      {
+        "index": 2,
+        "step_id": "22323",
+        "dom_id": "sectionLink-22323",
+        "name": "",
+        "title": "Identifying Probability Experiments",
+        "selector": "#sectionLink-22323"
+      },
+      {
+        "index": 3,
+        "step_id": "22324",
+        "dom_id": "sectionLink-22324",
+        "name": "",
+        "title": "Identifying the Sample Space of a Probability Experiment",
+        "selector": "#sectionLink-22324"
+      },
+      {
+        "index": 4,
+        "step_id": "23606",
+        "dom_id": "sectionLink-23606",
+        "name": "",
+        "title": "Using Probability for Prediction",
+        "selector": "#sectionLink-23606"
+      },
+      {
+        "index": 5,
+        "step_id": "22325",
+        "dom_id": "sectionLink-22325",
+        "name": "",
+        "title": "Computing the Expected Outcome of a Probability Experiment",
+        "selector": "#sectionLink-22325"
+      },
+      {
+        "index": 6,
+        "step_id": "22773",
+        "dom_id": "sectionLink-22773",
+        "name": "",
+        "title": "Describing the Likelihood of an Event",
+        "selector": "#sectionLink-22773"
+      },
+      {
+        "index": 7,
+        "step_id": "22429",
+        "dom_id": "sectionLink-22429",
+        "name": "",
+        "title": "Describing the Likelihood of an Event Given Its Probability",
+        "selector": "#sectionLink-22429"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "130",
+        "name": "Probability From Experimental Data",
+        "href": "/topics/probability-from-experimental-data-130"
+      },
+      {
+        "topic_id": "470",
+        "name": "Introduction to Functions",
+        "href": "/topics/introduction-to-functions-470"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "22322",
+        "content_id": "3838",
+        "dom_id": "step-22322",
+        "selector": "#step-22322",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "22323",
+        "content_id": "6032",
+        "dom_id": "step-22323",
+        "selector": "#step-22323",
+        "step_anchor": "step-2",
+        "title": "Identifying Probability Experiments",
+        "key_prerequisites": [
+          {
+            "topic_id": "470",
+            "name": "Introduction to Functions",
+            "href": "/topics/470"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "11228",
+        "dom_id": "question-11228",
+        "selector": "#question-11228",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "11578",
+        "dom_id": "question-11578",
+        "selector": "#question-11578",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "22324",
+        "content_id": "6033",
+        "dom_id": "step-22324",
+        "selector": "#step-22324",
+        "step_anchor": "step-5",
+        "title": "Identifying the Sample Space of a Probability Experiment",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "11580",
+        "dom_id": "question-11580",
+        "selector": "#question-11580",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "11587",
+        "dom_id": "question-11587",
+        "selector": "#question-11587",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "23606",
+        "content_id": "3971",
+        "dom_id": "step-23606",
+        "selector": "#step-23606",
+        "step_anchor": "step-8",
+        "title": "Using Probability for Prediction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "22325",
+        "content_id": "6034",
+        "dom_id": "step-22325",
+        "selector": "#step-22325",
+        "step_anchor": "step-9",
+        "title": "Computing the Expected Outcome of a Probability Experiment",
+        "key_prerequisites": [
+          {
+            "topic_id": "130",
+            "name": "Probability From Experimental Data",
+            "href": "/topics/130"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "41881",
+        "dom_id": "question-41881",
+        "selector": "#question-41881",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "11575",
+        "dom_id": "question-11575",
+        "selector": "#question-11575",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "22773",
+        "content_id": "3872",
+        "dom_id": "step-22773",
+        "selector": "#step-22773",
+        "step_anchor": "step-12",
+        "title": "Describing the Likelihood of an Event",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "22429",
+        "content_id": "6090",
+        "dom_id": "step-22429",
+        "selector": "#step-22429",
+        "step_anchor": "step-13",
+        "title": "Describing the Likelihood of an Event Given Its Probability",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "11566",
+        "dom_id": "question-11566",
+        "selector": "#question-11566",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "11230",
+        "dom_id": "question-11230",
+        "selector": "#question-11230",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-22322",
+        "filename": "01-step-22322.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-22323",
+        "filename": "02-step-22323.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-11228",
+        "filename": "03-question-11228.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-11578",
+        "filename": "04-question-11578.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-22324",
+        "filename": "05-step-22324.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-11580",
+        "filename": "06-question-11580.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-11587",
+        "filename": "07-question-11587.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-23606",
+        "filename": "08-step-23606.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-22325",
+        "filename": "09-step-22325.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-41881",
+        "filename": "10-question-41881.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-11575",
+        "filename": "11-question-11575.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-22773",
+        "filename": "12-step-22773.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-22429",
+        "filename": "13-step-22429.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-11566",
+        "filename": "14-question-11566.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-11230",
+        "filename": "15-question-11230.png"
+      }
+    ]
+  }
+}

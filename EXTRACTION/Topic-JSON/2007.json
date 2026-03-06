@@ -1,0 +1,373 @@
+{
+  "schema_version": 1,
+  "topic_id": "2007",
+  "topic_title": "Second-Order Homogeneous Recurrence Relations: Characteristic Equations with Distinct Real Roots",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2007.html",
+  "source_url": "https://mathacademy.com/topics/2007",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "36077",
+        "dom_id": "sectionLink-36077",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-36077"
+      },
+      {
+        "index": 2,
+        "step_id": "35966",
+        "dom_id": "sectionLink-35966",
+        "name": "",
+        "title": "Solving Second-Order Recurrence Relations",
+        "selector": "#sectionLink-35966"
+      },
+      {
+        "index": 3,
+        "step_id": "35967",
+        "dom_id": "sectionLink-35967",
+        "name": "",
+        "title": "Finding and Solving a Characteristic Equation",
+        "selector": "#sectionLink-35967"
+      },
+      {
+        "index": 4,
+        "step_id": "35969",
+        "dom_id": "sectionLink-35969",
+        "name": "",
+        "title": "Finding the General Solution to a Second-Order Recurrence Relation",
+        "selector": "#sectionLink-35969"
+      },
+      {
+        "index": 5,
+        "step_id": "35968",
+        "dom_id": "sectionLink-35968",
+        "name": "",
+        "title": "Solving Second-Order Recurrence Relations With Initial Conditions",
+        "selector": "#sectionLink-35968"
+      },
+      {
+        "index": 6,
+        "step_id": "36073",
+        "dom_id": "sectionLink-36073",
+        "name": "",
+        "title": "The Fibonacci Sequence",
+        "selector": "#sectionLink-36073"
+      },
+      {
+        "index": 7,
+        "step_id": "36078",
+        "dom_id": "sectionLink-36078",
+        "name": "",
+        "title": "The Golden Ratio",
+        "selector": "#sectionLink-36078"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "73",
+        "name": "Fibonacci Sequences",
+        "href": "/topics/fibonacci-sequences-73"
+      },
+      {
+        "topic_id": "375",
+        "name": "Solving Quadratic Equations by Factoring",
+        "href": "/topics/solving-quadratic-equations-by-factoring-375"
+      },
+      {
+        "topic_id": "1153",
+        "name": "Exponential Functions",
+        "href": "/topics/exponential-functions-1153"
+      },
+      {
+        "topic_id": "1989",
+        "name": "Introduction to Recurrence Relations",
+        "href": "/topics/introduction-to-recurrence-relations-1989"
+      },
+      {
+        "topic_id": "4026",
+        "name": "Solving Systems of Linear Equations Using Elimination: One Transformation",
+        "href": "/topics/solving-systems-of-linear-equations-using-elimination-one-transformation-4026"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "36077",
+        "content_id": "5895",
+        "dom_id": "step-36077",
+        "selector": "#step-36077",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "35966",
+        "content_id": "5882",
+        "dom_id": "step-35966",
+        "selector": "#step-35966",
+        "step_anchor": "step-2",
+        "title": "Solving Second-Order Recurrence Relations",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "35967",
+        "content_id": "9593",
+        "dom_id": "step-35967",
+        "selector": "#step-35967",
+        "step_anchor": "step-3",
+        "title": "Finding and Solving a Characteristic Equation",
+        "key_prerequisites": [
+          {
+            "topic_id": "73",
+            "name": "Fibonacci Sequences",
+            "href": "/topics/73"
+          },
+          {
+            "topic_id": "375",
+            "name": "Solving Quadratic Equations by Factoring",
+            "href": "/topics/375"
+          },
+          {
+            "topic_id": "1153",
+            "name": "Exponential Functions",
+            "href": "/topics/1153"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "128539",
+        "dom_id": "question-128539",
+        "selector": "#question-128539",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "128707",
+        "dom_id": "question-128707",
+        "selector": "#question-128707",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "35969",
+        "content_id": "9595",
+        "dom_id": "step-35969",
+        "selector": "#step-35969",
+        "step_anchor": "step-6",
+        "title": "Finding the General Solution to a Second-Order Recurrence Relation",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "128541",
+        "dom_id": "question-128541",
+        "selector": "#question-128541",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "128712",
+        "dom_id": "question-128712",
+        "selector": "#question-128712",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "35968",
+        "content_id": "9594",
+        "dom_id": "step-35968",
+        "selector": "#step-35968",
+        "step_anchor": "step-9",
+        "title": "Solving Second-Order Recurrence Relations With Initial Conditions",
+        "key_prerequisites": [
+          {
+            "topic_id": "742",
+            "name": "Introduction to the Elimination Method",
+            "href": "/topics/742"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "128545",
+        "dom_id": "question-128545",
+        "selector": "#question-128545",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "128546",
+        "dom_id": "question-128546",
+        "selector": "#question-128546",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "36073",
+        "content_id": "5894",
+        "dom_id": "step-36073",
+        "selector": "#step-36073",
+        "step_anchor": "step-12",
+        "title": "The Fibonacci Sequence",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "36078",
+        "content_id": "5896",
+        "dom_id": "step-36078",
+        "selector": "#step-36078",
+        "step_anchor": "step-13",
+        "title": "The Golden Ratio",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-36077",
+        "filename": "01-step-36077.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-35966",
+        "filename": "02-step-35966.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-35967",
+        "filename": "03-step-35967.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-128539",
+        "filename": "04-question-128539.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-128707",
+        "filename": "05-question-128707.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-35969",
+        "filename": "06-step-35969.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-128541",
+        "filename": "07-question-128541.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-128712",
+        "filename": "08-question-128712.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-35968",
+        "filename": "09-step-35968.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-128545",
+        "filename": "10-question-128545.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-128546",
+        "filename": "11-question-128546.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-36073",
+        "filename": "12-step-36073.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-36078",
+        "filename": "13-step-36078.png"
+      }
+    ]
+  }
+}

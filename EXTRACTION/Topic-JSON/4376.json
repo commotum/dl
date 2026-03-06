@@ -1,0 +1,337 @@
+{
+  "schema_version": 1,
+  "topic_id": "4376",
+  "topic_title": "Proving the Limit of a Null Sequence",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/4376.html",
+  "source_url": "https://mathacademy.com/topics/4376",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "179549",
+        "dom_id": "sectionLink-179549",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-179549"
+      },
+      {
+        "index": 2,
+        "step_id": "179550",
+        "dom_id": "sectionLink-179550",
+        "name": "",
+        "title": "Finding a Suitable Value of N",
+        "selector": "#sectionLink-179550"
+      },
+      {
+        "index": 3,
+        "step_id": "179551",
+        "dom_id": "sectionLink-179551",
+        "name": "",
+        "title": "Finding a Suitable Value of N for Positive Sequences",
+        "selector": "#sectionLink-179551"
+      },
+      {
+        "index": 4,
+        "step_id": "179554",
+        "dom_id": "sectionLink-179554",
+        "name": "",
+        "title": "Finding a Suitable Value of N for Sequences Containing Negative Terms",
+        "selector": "#sectionLink-179554"
+      },
+      {
+        "index": 5,
+        "step_id": "179557",
+        "dom_id": "sectionLink-179557",
+        "name": "",
+        "title": "Constructing a Proof",
+        "selector": "#sectionLink-179557"
+      },
+      {
+        "index": 6,
+        "step_id": "179558",
+        "dom_id": "sectionLink-179558",
+        "name": "",
+        "title": "Stating the Full Proof",
+        "selector": "#sectionLink-179558"
+      },
+      {
+        "index": 7,
+        "step_id": "179559",
+        "dom_id": "sectionLink-179559",
+        "name": "",
+        "title": "Proving a Sequence Converges to Zero",
+        "selector": "#sectionLink-179559"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "4342",
+        "name": "The Limit of a Null Sequence",
+        "href": "/topics/the-limit-of-a-null-sequence-4342"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "179549",
+        "content_id": "8181",
+        "dom_id": "step-179549",
+        "selector": "#step-179549",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "179550",
+        "content_id": "9217",
+        "dom_id": "step-179550",
+        "selector": "#step-179550",
+        "step_anchor": "step-2",
+        "title": "Finding a Suitable Value of N",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "179551",
+        "content_id": "13116",
+        "dom_id": "step-179551",
+        "selector": "#step-179551",
+        "step_anchor": "step-3",
+        "title": "Finding a Suitable Value of N for Positive Sequences",
+        "key_prerequisites": [
+          {
+            "topic_id": "4342",
+            "name": "The Limit of a Null Sequence",
+            "href": "/topics/4342"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "178527",
+        "dom_id": "question-178527",
+        "selector": "#question-178527",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "182067",
+        "dom_id": "question-182067",
+        "selector": "#question-182067",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "179554",
+        "content_id": "13118",
+        "dom_id": "step-179554",
+        "selector": "#step-179554",
+        "step_anchor": "step-6",
+        "title": "Finding a Suitable Value of N for Sequences Containing Negative Terms",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "181952",
+        "dom_id": "question-181952",
+        "selector": "#question-181952",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "182343",
+        "dom_id": "question-182343",
+        "selector": "#question-182343",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "179557",
+        "content_id": "9218",
+        "dom_id": "step-179557",
+        "selector": "#step-179557",
+        "step_anchor": "step-9",
+        "title": "Constructing a Proof",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "179558",
+        "content_id": "9219",
+        "dom_id": "step-179558",
+        "selector": "#step-179558",
+        "step_anchor": "step-10",
+        "title": "Stating the Full Proof",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "179559",
+        "content_id": "13117",
+        "dom_id": "step-179559",
+        "selector": "#step-179559",
+        "step_anchor": "step-11",
+        "title": "Proving a Sequence Converges to Zero",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "181964",
+        "dom_id": "question-181964",
+        "selector": "#question-181964",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "182157",
+        "dom_id": "question-182157",
+        "selector": "#question-182157",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-179549",
+        "filename": "01-step-179549.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-179550",
+        "filename": "02-step-179550.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-179551",
+        "filename": "03-step-179551.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-178527",
+        "filename": "04-question-178527.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-182067",
+        "filename": "05-question-182067.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-179554",
+        "filename": "06-step-179554.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-181952",
+        "filename": "07-question-181952.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-182343",
+        "filename": "08-question-182343.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-179557",
+        "filename": "09-step-179557.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-179558",
+        "filename": "10-step-179558.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-179559",
+        "filename": "11-step-179559.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-181964",
+        "filename": "12-question-181964.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-182157",
+        "filename": "13-question-182157.png"
+      }
+    ]
+  }
+}

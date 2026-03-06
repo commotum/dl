@@ -1,0 +1,337 @@
+{
+  "schema_version": 1,
+  "topic_id": "42",
+  "topic_title": "Matrices With Easy-to-Find Inverses",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/42.html",
+  "source_url": "https://mathacademy.com/topics/42",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "33343",
+        "dom_id": "sectionLink-33343",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-33343"
+      },
+      {
+        "index": 2,
+        "step_id": "33344",
+        "dom_id": "sectionLink-33344",
+        "name": "",
+        "title": "Inverting a Diagonal Matrix",
+        "selector": "#sectionLink-33344"
+      },
+      {
+        "index": 3,
+        "step_id": "33349",
+        "dom_id": "sectionLink-33349",
+        "name": "",
+        "title": "Permutation Matrices",
+        "selector": "#sectionLink-33349"
+      },
+      {
+        "index": 4,
+        "step_id": "33345",
+        "dom_id": "sectionLink-33345",
+        "name": "",
+        "title": "Inverting a Permutation Matrix",
+        "selector": "#sectionLink-33345"
+      },
+      {
+        "index": 5,
+        "step_id": "33350",
+        "dom_id": "sectionLink-33350",
+        "name": "",
+        "title": "Frobenius Matrices",
+        "selector": "#sectionLink-33350"
+      },
+      {
+        "index": 6,
+        "step_id": "33346",
+        "dom_id": "sectionLink-33346",
+        "name": "",
+        "title": "Inverting a Frobenius Matrix",
+        "selector": "#sectionLink-33346"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "863",
+        "name": "Introduction to the Inverse of a Matrix",
+        "href": "/topics/introduction-to-the-inverse-of-a-matrix-863"
+      },
+      {
+        "topic_id": "1777",
+        "name": "Triangular Matrices",
+        "href": "/topics/triangular-matrices-1777"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "33343",
+        "content_id": "5324",
+        "dom_id": "step-33343",
+        "selector": "#step-33343",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33344",
+        "content_id": "8934",
+        "dom_id": "step-33344",
+        "selector": "#step-33344",
+        "step_anchor": "step-2",
+        "title": "Inverting a Diagonal Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "862",
+            "name": "Zero, Square, Diagonal and Identity Matrices",
+            "href": "/topics/862"
+          },
+          {
+            "topic_id": "863",
+            "name": "Introduction to the Inverse of a Matrix",
+            "href": "/topics/863"
+          },
+          {
+            "topic_id": "2202",
+            "name": "Reciprocals of Rational Numbers",
+            "href": "/topics/2202"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "105392",
+        "dom_id": "question-105392",
+        "selector": "#question-105392",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "135354",
+        "dom_id": "question-135354",
+        "selector": "#question-135354",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "33349",
+        "content_id": "5325",
+        "dom_id": "step-33349",
+        "selector": "#step-33349",
+        "step_anchor": "step-5",
+        "title": "Permutation Matrices",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33345",
+        "content_id": "8935",
+        "dom_id": "step-33345",
+        "selector": "#step-33345",
+        "step_anchor": "step-6",
+        "title": "Inverting a Permutation Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "232",
+            "name": "The Transpose of a Matrix",
+            "href": "/topics/232"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "135371",
+        "dom_id": "question-135371",
+        "selector": "#question-135371",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "105393",
+        "dom_id": "question-105393",
+        "selector": "#question-105393",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "33350",
+        "content_id": "5326",
+        "dom_id": "step-33350",
+        "selector": "#step-33350",
+        "step_anchor": "step-9",
+        "title": "Frobenius Matrices",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33346",
+        "content_id": "8936",
+        "dom_id": "step-33346",
+        "selector": "#step-33346",
+        "step_anchor": "step-10",
+        "title": "Inverting a Frobenius Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "1777",
+            "name": "Triangular Matrices",
+            "href": "/topics/1777"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "135387",
+        "dom_id": "question-135387",
+        "selector": "#question-135387",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "105398",
+        "dom_id": "question-105398",
+        "selector": "#question-105398",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-33343",
+        "filename": "01-step-33343.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-33344",
+        "filename": "02-step-33344.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-105392",
+        "filename": "03-question-105392.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-135354",
+        "filename": "04-question-135354.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-33349",
+        "filename": "05-step-33349.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-33345",
+        "filename": "06-step-33345.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-135371",
+        "filename": "07-question-135371.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-105393",
+        "filename": "08-question-105393.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-33350",
+        "filename": "09-step-33350.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-33346",
+        "filename": "10-step-33346.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-135387",
+        "filename": "11-question-135387.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-105398",
+        "filename": "12-question-105398.png"
+      }
+    ]
+  }
+}

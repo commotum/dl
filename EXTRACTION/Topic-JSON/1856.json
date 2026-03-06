@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "topic_id": "1856",
+  "topic_title": "Finding a Basis of the Null Space of a Matrix",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1856.html",
+  "source_url": "https://mathacademy.com/topics/1856",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "17508",
+        "dom_id": "sectionLink-17508",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-17508"
+      },
+      {
+        "index": 2,
+        "step_id": "17510",
+        "dom_id": "sectionLink-17510",
+        "name": "",
+        "title": "Finding a Basis for a Given Null Space",
+        "selector": "#sectionLink-17510"
+      },
+      {
+        "index": 3,
+        "step_id": "17511",
+        "dom_id": "sectionLink-17511",
+        "name": "",
+        "title": "Finding a Basis for the Null Space of a Matrix Given in Reduced Row Echelon Form",
+        "selector": "#sectionLink-17511"
+      },
+      {
+        "index": 4,
+        "step_id": "17509",
+        "dom_id": "sectionLink-17509",
+        "name": "",
+        "title": "Finding a Basis of the Null Space of a Matrix Given a Row Equivalent Matrix",
+        "selector": "#sectionLink-17509"
+      },
+      {
+        "index": 5,
+        "step_id": "17512",
+        "dom_id": "sectionLink-17512",
+        "name": "",
+        "title": "Finding a Basis for the Null Space of a Matrix That Is Not in Reduced Row Echelon Form",
+        "selector": "#sectionLink-17512"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1854",
+        "name": "The Null Space of a Matrix",
+        "href": "/topics/the-null-space-of-a-matrix-1854"
+      },
+      {
+        "topic_id": "1855",
+        "name": "Finding a Basis of a Span",
+        "href": "/topics/finding-a-basis-of-a-span-1855"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "17508",
+        "content_id": "3207",
+        "dom_id": "step-17508",
+        "selector": "#step-17508",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17510",
+        "content_id": "4820",
+        "dom_id": "step-17510",
+        "selector": "#step-17510",
+        "step_anchor": "step-2",
+        "title": "Finding a Basis for a Given Null Space",
+        "key_prerequisites": [
+          {
+            "topic_id": "1851",
+            "name": "Linear Combinations of Vectors in N-Dimensional Euclidean Space",
+            "href": "/topics/1851"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "35529",
+        "dom_id": "question-35529",
+        "selector": "#question-35529",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "35460",
+        "dom_id": "question-35460",
+        "selector": "#question-35460",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17511",
+        "content_id": "4821",
+        "dom_id": "step-17511",
+        "selector": "#step-17511",
+        "step_anchor": "step-5",
+        "title": "Finding a Basis for the Null Space of a Matrix Given in Reduced Row Echelon Form",
+        "key_prerequisites": [
+          {
+            "topic_id": "1733",
+            "name": "Gaussian Elimination For NxM Systems of Equations",
+            "href": "/topics/1733"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "35503",
+        "dom_id": "question-35503",
+        "selector": "#question-35503",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "35450",
+        "dom_id": "question-35450",
+        "selector": "#question-35450",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17509",
+        "content_id": "4819",
+        "dom_id": "step-17509",
+        "selector": "#step-17509",
+        "step_anchor": "step-8",
+        "title": "Finding a Basis of the Null Space of a Matrix Given a Row Equivalent Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "34423",
+        "dom_id": "question-34423",
+        "selector": "#question-34423",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "34522",
+        "dom_id": "question-34522",
+        "selector": "#question-34522",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17512",
+        "content_id": "4822",
+        "dom_id": "step-17512",
+        "selector": "#step-17512",
+        "step_anchor": "step-11",
+        "title": "Finding a Basis for the Null Space of a Matrix That Is Not in Reduced Row Echelon Form",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "35532",
+        "dom_id": "question-35532",
+        "selector": "#question-35532",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "35533",
+        "dom_id": "question-35533",
+        "selector": "#question-35533",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-17508",
+        "filename": "01-step-17508.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-17510",
+        "filename": "02-step-17510.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-35529",
+        "filename": "03-question-35529.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-35460",
+        "filename": "04-question-35460.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-17511",
+        "filename": "05-step-17511.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-35503",
+        "filename": "06-question-35503.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-35450",
+        "filename": "07-question-35450.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-17509",
+        "filename": "08-step-17509.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-34423",
+        "filename": "09-question-34423.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-34522",
+        "filename": "10-question-34522.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-17512",
+        "filename": "11-step-17512.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-35532",
+        "filename": "12-question-35532.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-35533",
+        "filename": "13-question-35533.png"
+      }
+    ]
+  }
+}

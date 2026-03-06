@@ -1,0 +1,348 @@
+{
+  "schema_version": 1,
+  "topic_id": "1285",
+  "topic_title": "Calculating a Scalar Projection",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1285.html",
+  "source_url": "https://mathacademy.com/topics/1285",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "517262",
+        "dom_id": "sectionLink-517262",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-517262"
+      },
+      {
+        "index": 2,
+        "step_id": "517263",
+        "dom_id": "sectionLink-517263",
+        "name": "",
+        "title": "Negative Scalar Projections",
+        "selector": "#sectionLink-517263"
+      },
+      {
+        "index": 3,
+        "step_id": "517264",
+        "dom_id": "sectionLink-517264",
+        "name": "",
+        "title": "Calculating a Scalar Projection Using Angles and Magnitudes",
+        "selector": "#sectionLink-517264"
+      },
+      {
+        "index": 4,
+        "step_id": "517267",
+        "dom_id": "sectionLink-517267",
+        "name": "",
+        "title": "Deriving a General Formula",
+        "selector": "#sectionLink-517267"
+      },
+      {
+        "index": 5,
+        "step_id": "517268",
+        "dom_id": "sectionLink-517268",
+        "name": "",
+        "title": "Calculating a Scalar Projection Using Components",
+        "selector": "#sectionLink-517268"
+      },
+      {
+        "index": 6,
+        "step_id": "517271",
+        "dom_id": "sectionLink-517271",
+        "name": "",
+        "title": "Projecting Perpendicular Vectors",
+        "selector": "#sectionLink-517271"
+      },
+      {
+        "index": 7,
+        "step_id": "517272",
+        "dom_id": "sectionLink-517272",
+        "name": "",
+        "title": "Projecting a Vector Onto a Perpendicular Vector",
+        "selector": "#sectionLink-517272"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1278",
+        "name": "The Angle Between Two Vectors",
+        "href": "/topics/the-angle-between-two-vectors-1278"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "517262",
+        "content_id": "9666",
+        "dom_id": "step-517262",
+        "selector": "#step-517262",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "517263",
+        "content_id": "9672",
+        "dom_id": "step-517263",
+        "selector": "#step-517263",
+        "step_anchor": "step-2",
+        "title": "Negative Scalar Projections",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "517264",
+        "content_id": "15606",
+        "dom_id": "step-517264",
+        "selector": "#step-517264",
+        "step_anchor": "step-3",
+        "title": "Calculating a Scalar Projection Using Angles and Magnitudes",
+        "key_prerequisites": [
+          {
+            "topic_id": "629",
+            "name": "Calculating Side Lengths of Right Triangles Using Trigonometry",
+            "href": "/topics/629"
+          },
+          {
+            "topic_id": "1101",
+            "name": "The Magnitude of a Vector",
+            "href": "/topics/1101"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "19136",
+        "dom_id": "question-19136",
+        "selector": "#question-19136",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "71532",
+        "dom_id": "question-71532",
+        "selector": "#question-71532",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "517267",
+        "content_id": "9667",
+        "dom_id": "step-517267",
+        "selector": "#step-517267",
+        "step_anchor": "step-6",
+        "title": "Deriving a General Formula",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "517268",
+        "content_id": "15607",
+        "dom_id": "step-517268",
+        "selector": "#step-517268",
+        "step_anchor": "step-7",
+        "title": "Calculating a Scalar Projection Using Components",
+        "key_prerequisites": [
+          {
+            "topic_id": "1278",
+            "name": "The Angle Between Two Vectors",
+            "href": "/topics/1278"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "18374",
+        "dom_id": "question-18374",
+        "selector": "#question-18374",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "126501",
+        "dom_id": "question-126501",
+        "selector": "#question-126501",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "517271",
+        "content_id": "9671",
+        "dom_id": "step-517271",
+        "selector": "#step-517271",
+        "step_anchor": "step-10",
+        "title": "Projecting Perpendicular Vectors",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "517272",
+        "content_id": "15608",
+        "dom_id": "step-517272",
+        "selector": "#step-517272",
+        "step_anchor": "step-11",
+        "title": "Projecting a Vector Onto a Perpendicular Vector",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "236734",
+        "dom_id": "question-236734",
+        "selector": "#question-236734",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "236735",
+        "dom_id": "question-236735",
+        "selector": "#question-236735",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-517262",
+        "filename": "01-step-517262.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-517263",
+        "filename": "02-step-517263.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-517264",
+        "filename": "03-step-517264.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-19136",
+        "filename": "04-question-19136.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-71532",
+        "filename": "05-question-71532.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-517267",
+        "filename": "06-step-517267.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-517268",
+        "filename": "07-step-517268.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-18374",
+        "filename": "08-question-18374.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-126501",
+        "filename": "09-question-126501.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-517271",
+        "filename": "10-step-517271.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-517272",
+        "filename": "11-step-517272.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-236734",
+        "filename": "12-question-236734.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-236735",
+        "filename": "13-question-236735.png"
+      }
+    ]
+  }
+}

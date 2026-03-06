@@ -1,0 +1,341 @@
+{
+  "schema_version": 1,
+  "topic_id": "3939",
+  "topic_title": "The Covariance Matrix",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3939.html",
+  "source_url": "https://mathacademy.com/topics/3939",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "39313",
+        "dom_id": "sectionLink-39313",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-39313"
+      },
+      {
+        "index": 2,
+        "step_id": "39314",
+        "dom_id": "sectionLink-39314",
+        "name": "",
+        "title": "Determining Elements of a Covariance Matrix",
+        "selector": "#sectionLink-39314"
+      },
+      {
+        "index": 3,
+        "step_id": "39412",
+        "dom_id": "sectionLink-39412",
+        "name": "",
+        "title": "Finding a Covariance Matrix Given Some Moments",
+        "selector": "#sectionLink-39412"
+      },
+      {
+        "index": 4,
+        "step_id": "39410",
+        "dom_id": "sectionLink-39410",
+        "name": "",
+        "title": "Finding a Covariance Matrix Given a Discrete Bivariate Distribution",
+        "selector": "#sectionLink-39410"
+      },
+      {
+        "index": 5,
+        "step_id": "39414",
+        "dom_id": "sectionLink-39414",
+        "name": "",
+        "title": "Finding a Covariance Matrix Given a Continuous Bivariate Distribution",
+        "selector": "#sectionLink-39414"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3050",
+        "name": "The Correlation Coefficient for Two Random Variables",
+        "href": "/topics/the-correlation-coefficient-for-two-random-variables-3050"
+      },
+      {
+        "topic_id": "3127",
+        "name": "Positive-Definite and Negative-Definite Quadratic Forms",
+        "href": "/topics/positive-definite-and-negative-definite-quadratic-forms-3127"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "39313",
+        "content_id": "6488",
+        "dom_id": "step-39313",
+        "selector": "#step-39313",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "39314",
+        "content_id": "10433",
+        "dom_id": "step-39314",
+        "selector": "#step-39314",
+        "step_anchor": "step-2",
+        "title": "Determining Elements of a Covariance Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "3118",
+            "name": "Symmetric Matrices",
+            "href": "/topics/3118"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "159310",
+        "dom_id": "question-159310",
+        "selector": "#question-159310",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "148172",
+        "dom_id": "question-148172",
+        "selector": "#question-148172",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "39412",
+        "content_id": "10453",
+        "dom_id": "step-39412",
+        "selector": "#step-39412",
+        "step_anchor": "step-5",
+        "title": "Finding a Covariance Matrix Given Some Moments",
+        "key_prerequisites": [
+          {
+            "topic_id": "1388",
+            "name": "Variance of Discrete Random Variables",
+            "href": "/topics/1388"
+          },
+          {
+            "topic_id": "3049",
+            "name": "The Covariance of Two Random Variables",
+            "href": "/topics/3049"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "148182",
+        "dom_id": "question-148182",
+        "selector": "#question-148182",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "148179",
+        "dom_id": "question-148179",
+        "selector": "#question-148179",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "39410",
+        "content_id": "10452",
+        "dom_id": "step-39410",
+        "selector": "#step-39410",
+        "step_anchor": "step-8",
+        "title": "Finding a Covariance Matrix Given a Discrete Bivariate Distribution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "148173",
+        "dom_id": "question-148173",
+        "selector": "#question-148173",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "159403",
+        "dom_id": "question-159403",
+        "selector": "#question-159403",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "39414",
+        "content_id": "10454",
+        "dom_id": "step-39414",
+        "selector": "#step-39414",
+        "step_anchor": "step-11",
+        "title": "Finding a Covariance Matrix Given a Continuous Bivariate Distribution",
+        "key_prerequisites": [
+          {
+            "topic_id": "2988",
+            "name": "Variance of Continuous Random Variables",
+            "href": "/topics/2988"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "148186",
+        "dom_id": "question-148186",
+        "selector": "#question-148186",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "148189",
+        "dom_id": "question-148189",
+        "selector": "#question-148189",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-39313",
+        "filename": "01-step-39313.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-39314",
+        "filename": "02-step-39314.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-159310",
+        "filename": "03-question-159310.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-148172",
+        "filename": "04-question-148172.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-39412",
+        "filename": "05-step-39412.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-148182",
+        "filename": "06-question-148182.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-148179",
+        "filename": "07-question-148179.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-39410",
+        "filename": "08-step-39410.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-148173",
+        "filename": "09-question-148173.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-159403",
+        "filename": "10-question-159403.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-39414",
+        "filename": "11-step-39414.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-148186",
+        "filename": "12-question-148186.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-148189",
+        "filename": "13-question-148189.png"
+      }
+    ]
+  }
+}

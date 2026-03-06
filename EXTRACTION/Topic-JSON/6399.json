@@ -1,0 +1,406 @@
+{
+  "schema_version": 1,
+  "topic_id": "6399",
+  "topic_title": "Order of Numerical Methods",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/6399.html",
+  "source_url": "https://mathacademy.com/topics/6399",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "585132",
+        "dom_id": "sectionLink-585132",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-585132"
+      },
+      {
+        "index": 2,
+        "step_id": "585133",
+        "dom_id": "sectionLink-585133",
+        "name": "",
+        "title": "Determining the Order of a Numerical Method By Comparing GTE for Different Step Sizes",
+        "selector": "#sectionLink-585133"
+      },
+      {
+        "index": 3,
+        "step_id": "585136",
+        "dom_id": "sectionLink-585136",
+        "name": "",
+        "title": "Order From Local Truncation Error",
+        "selector": "#sectionLink-585136"
+      },
+      {
+        "index": 4,
+        "step_id": "585137",
+        "dom_id": "sectionLink-585137",
+        "name": "",
+        "title": "Determining the Order of a Numerical Method By Comparing LTE for Different Step Sizes",
+        "selector": "#sectionLink-585137"
+      },
+      {
+        "index": 5,
+        "step_id": "585140",
+        "dom_id": "sectionLink-585140",
+        "name": "",
+        "title": "Determining the Order of a Numerical Method Given the GTE or LTE",
+        "selector": "#sectionLink-585140"
+      },
+      {
+        "index": 6,
+        "step_id": "585144",
+        "dom_id": "sectionLink-585144",
+        "name": "",
+        "title": "Making Inferences Given the Order of a Numerical Method",
+        "selector": "#sectionLink-585144"
+      },
+      {
+        "index": 7,
+        "step_id": "593404",
+        "dom_id": "sectionLink-593404",
+        "name": "",
+        "title": "Connecting the Definitions of the Order of Numerical Methods",
+        "selector": "#sectionLink-593404"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2854",
+        "name": "Big-O Notation",
+        "href": "/topics/big-o-notation-2854"
+      },
+      {
+        "topic_id": "3246",
+        "name": "Error in Numerical Methods",
+        "href": "/topics/error-in-numerical-methods-3246"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 16,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "585132",
+        "content_id": "14500",
+        "dom_id": "step-585132",
+        "selector": "#step-585132",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "585133",
+        "content_id": "21684",
+        "dom_id": "step-585133",
+        "selector": "#step-585133",
+        "step_anchor": "step-2",
+        "title": "Determining the Order of a Numerical Method By Comparing GTE for Different Step Sizes",
+        "key_prerequisites": [
+          {
+            "topic_id": "1482",
+            "name": "Solving Exponential Equations Using Logarithms",
+            "href": "/topics/1482"
+          },
+          {
+            "topic_id": "2854",
+            "name": "Big-O Notation",
+            "href": "/topics/2854"
+          },
+          {
+            "topic_id": "3246",
+            "name": "Error in Numerical Methods",
+            "href": "/topics/3246"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "333542",
+        "dom_id": "question-333542",
+        "selector": "#question-333542",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "333568",
+        "dom_id": "question-333568",
+        "selector": "#question-333568",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "585136",
+        "content_id": "14501",
+        "dom_id": "step-585136",
+        "selector": "#step-585136",
+        "step_anchor": "step-5",
+        "title": "Order From Local Truncation Error",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "585137",
+        "content_id": "21685",
+        "dom_id": "step-585137",
+        "selector": "#step-585137",
+        "step_anchor": "step-6",
+        "title": "Determining the Order of a Numerical Method By Comparing LTE for Different Step Sizes",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "333702",
+        "dom_id": "question-333702",
+        "selector": "#question-333702",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "333706",
+        "dom_id": "question-333706",
+        "selector": "#question-333706",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "585140",
+        "content_id": "21686",
+        "dom_id": "step-585140",
+        "selector": "#step-585140",
+        "step_anchor": "step-9",
+        "title": "Determining the Order of a Numerical Method Given the GTE or LTE",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "333692",
+        "dom_id": "question-333692",
+        "selector": "#question-333692",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "333576",
+        "dom_id": "question-333576",
+        "selector": "#question-333576",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "333693",
+        "dom_id": "question-333693",
+        "selector": "#question-333693",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "585144",
+        "content_id": "21687",
+        "dom_id": "step-585144",
+        "selector": "#step-585144",
+        "step_anchor": "step-13",
+        "title": "Making Inferences Given the Order of a Numerical Method",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "333530",
+        "dom_id": "question-333530",
+        "selector": "#question-333530",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "333694",
+        "dom_id": "question-333694",
+        "selector": "#question-333694",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "593404",
+        "content_id": "14656",
+        "dom_id": "step-593404",
+        "selector": "#step-593404",
+        "step_anchor": "step-16",
+        "title": "Connecting the Definitions of the Order of Numerical Methods",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-585132",
+        "filename": "01-step-585132.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-585133",
+        "filename": "02-step-585133.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-333542",
+        "filename": "03-question-333542.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-333568",
+        "filename": "04-question-333568.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-585136",
+        "filename": "05-step-585136.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-585137",
+        "filename": "06-step-585137.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-333702",
+        "filename": "07-question-333702.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-333706",
+        "filename": "08-question-333706.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-585140",
+        "filename": "09-step-585140.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-333692",
+        "filename": "10-question-333692.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-333576",
+        "filename": "11-question-333576.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-333693",
+        "filename": "12-question-333693.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-585144",
+        "filename": "13-step-585144.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-333530",
+        "filename": "14-question-333530.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-333694",
+        "filename": "15-question-333694.png"
+      },
+      {
+        "index": 16,
+        "item_type": "step",
+        "selector": "#step-593404",
+        "filename": "16-step-593404.png"
+      }
+    ]
+  }
+}

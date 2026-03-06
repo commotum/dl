@@ -1,0 +1,369 @@
+{
+  "schema_version": 1,
+  "topic_id": "3326",
+  "topic_title": "Introduction to Order Statistics",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3326.html",
+  "source_url": "https://mathacademy.com/topics/3326",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "230715",
+        "dom_id": "sectionLink-230715",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-230715"
+      },
+      {
+        "index": 2,
+        "step_id": "230716",
+        "dom_id": "sectionLink-230716",
+        "name": "",
+        "title": "Finding an Order Statistic",
+        "selector": "#sectionLink-230716"
+      },
+      {
+        "index": 3,
+        "step_id": "230719",
+        "dom_id": "sectionLink-230719",
+        "name": "",
+        "title": "Calculating Probabilities Associated With Maximums",
+        "selector": "#sectionLink-230719"
+      },
+      {
+        "index": 4,
+        "step_id": "230720",
+        "dom_id": "sectionLink-230720",
+        "name": "",
+        "title": "Calculating the Probability That the Maximum Is Smaller Than Some Value",
+        "selector": "#sectionLink-230720"
+      },
+      {
+        "index": 5,
+        "step_id": "230724",
+        "dom_id": "sectionLink-230724",
+        "name": "",
+        "title": "Calculating Probabilities Associated With Minimums",
+        "selector": "#sectionLink-230724"
+      },
+      {
+        "index": 6,
+        "step_id": "230725",
+        "dom_id": "sectionLink-230725",
+        "name": "",
+        "title": "Calculating the Probability That the Minimum Is Smaller Than Some Value",
+        "selector": "#sectionLink-230725"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "791",
+        "name": "The Continuous Uniform Distribution",
+        "href": "/topics/the-continuous-uniform-distribution-791"
+      },
+      {
+        "topic_id": "1843",
+        "name": "The Normal Distribution",
+        "href": "/topics/the-normal-distribution-1843"
+      },
+      {
+        "topic_id": "3074",
+        "name": "The Exponential Distribution",
+        "href": "/topics/the-exponential-distribution-3074"
+      },
+      {
+        "topic_id": "3863",
+        "name": "Independence of Continuous Random Variables",
+        "href": "/topics/independence-of-continuous-random-variables-3863"
+      },
+      {
+        "topic_id": "3864",
+        "name": "Sampling Distributions",
+        "href": "/topics/sampling-distributions-3864"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "230715",
+        "content_id": "10664",
+        "dom_id": "step-230715",
+        "selector": "#step-230715",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "230716",
+        "content_id": "16485",
+        "dom_id": "step-230716",
+        "selector": "#step-230716",
+        "step_anchor": "step-2",
+        "title": "Finding an Order Statistic",
+        "key_prerequisites": [
+          {
+            "topic_id": "3864",
+            "name": "Sampling Distributions",
+            "href": "/topics/3864"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "252727",
+        "dom_id": "question-252727",
+        "selector": "#question-252727",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "253037",
+        "dom_id": "question-253037",
+        "selector": "#question-253037",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "230719",
+        "content_id": "10702",
+        "dom_id": "step-230719",
+        "selector": "#step-230719",
+        "step_anchor": "step-5",
+        "title": "Calculating Probabilities Associated With Maximums",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "230720",
+        "content_id": "16490",
+        "dom_id": "step-230720",
+        "selector": "#step-230720",
+        "step_anchor": "step-6",
+        "title": "Calculating the Probability That the Maximum Is Smaller Than Some Value",
+        "key_prerequisites": [
+          {
+            "topic_id": "791",
+            "name": "The Continuous Uniform Distribution",
+            "href": "/topics/791"
+          },
+          {
+            "topic_id": "1347",
+            "name": "Probability Density Functions of Continuous Random Variables",
+            "href": "/topics/1347"
+          },
+          {
+            "topic_id": "1843",
+            "name": "The Normal Distribution",
+            "href": "/topics/1843"
+          },
+          {
+            "topic_id": "3074",
+            "name": "The Exponential Distribution",
+            "href": "/topics/3074"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "252745",
+        "dom_id": "question-252745",
+        "selector": "#question-252745",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "252933",
+        "dom_id": "question-252933",
+        "selector": "#question-252933",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "252755",
+        "dom_id": "question-252755",
+        "selector": "#question-252755",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "230724",
+        "content_id": "10703",
+        "dom_id": "step-230724",
+        "selector": "#step-230724",
+        "step_anchor": "step-10",
+        "title": "Calculating Probabilities Associated With Minimums",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "230725",
+        "content_id": "16527",
+        "dom_id": "step-230725",
+        "selector": "#step-230725",
+        "step_anchor": "step-11",
+        "title": "Calculating the Probability That the Minimum Is Smaller Than Some Value",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "252753",
+        "dom_id": "question-252753",
+        "selector": "#question-252753",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "252754",
+        "dom_id": "question-252754",
+        "selector": "#question-252754",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-230715",
+        "filename": "01-step-230715.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-230716",
+        "filename": "02-step-230716.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-252727",
+        "filename": "03-question-252727.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-253037",
+        "filename": "04-question-253037.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-230719",
+        "filename": "05-step-230719.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-230720",
+        "filename": "06-step-230720.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-252745",
+        "filename": "07-question-252745.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-252933",
+        "filename": "08-question-252933.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-252755",
+        "filename": "09-question-252755.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-230724",
+        "filename": "10-step-230724.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-230725",
+        "filename": "11-step-230725.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-252753",
+        "filename": "12-question-252753.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-252754",
+        "filename": "13-question-252754.png"
+      }
+    ]
+  }
+}

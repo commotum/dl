@@ -1,0 +1,299 @@
+{
+  "schema_version": 1,
+  "topic_id": "3863",
+  "topic_title": "Independence of Continuous Random Variables",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3863.html",
+  "source_url": "https://mathacademy.com/topics/3863",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "38083",
+        "dom_id": "sectionLink-38083",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-38083"
+      },
+      {
+        "index": 2,
+        "step_id": "34269",
+        "dom_id": "sectionLink-34269",
+        "name": "",
+        "title": "Finding the Joint PDF of Two Independent Random Variables Using Marginal PDFs",
+        "selector": "#sectionLink-34269"
+      },
+      {
+        "index": 3,
+        "step_id": "34272",
+        "dom_id": "sectionLink-34272",
+        "name": "",
+        "title": "Finding a Joint Probability for Some Independent Random Variables Using Marginal PDFs",
+        "selector": "#sectionLink-34272"
+      },
+      {
+        "index": 4,
+        "step_id": "38081",
+        "dom_id": "sectionLink-38081",
+        "name": "",
+        "title": "Determining Whether Two Continuous Random Variables are Independent",
+        "selector": "#sectionLink-38081"
+      },
+      {
+        "index": 5,
+        "step_id": "39479",
+        "dom_id": "sectionLink-39479",
+        "name": "",
+        "title": "Independence When the Joint Support Is Rectangular",
+        "selector": "#sectionLink-39479"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3048",
+        "name": "Independence of Discrete Random Variables",
+        "href": "/topics/independence-of-discrete-random-variables-3048"
+      },
+      {
+        "topic_id": "3636",
+        "name": "Marginal Distributions for Continuous Random Variables",
+        "href": "/topics/marginal-distributions-for-continuous-random-variables-3636"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "38083",
+        "content_id": "6283",
+        "dom_id": "step-38083",
+        "selector": "#step-38083",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "34269",
+        "content_id": "9187",
+        "dom_id": "step-34269",
+        "selector": "#step-34269",
+        "step_anchor": "step-2",
+        "title": "Finding the Joint PDF of Two Independent Random Variables Using Marginal PDFs",
+        "key_prerequisites": [
+          {
+            "topic_id": "3048",
+            "name": "Independence of Discrete Random Variables",
+            "href": "/topics/3048"
+          },
+          {
+            "topic_id": "3636",
+            "name": "Marginal Distributions for Continuous Random Variables",
+            "href": "/topics/3636"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "110388",
+        "dom_id": "question-110388",
+        "selector": "#question-110388",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "136861",
+        "dom_id": "question-136861",
+        "selector": "#question-136861",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "34272",
+        "content_id": "9188",
+        "dom_id": "step-34272",
+        "selector": "#step-34272",
+        "step_anchor": "step-5",
+        "title": "Finding a Joint Probability for Some Independent Random Variables Using Marginal PDFs",
+        "key_prerequisites": [
+          {
+            "topic_id": "3052",
+            "name": "Joint Distributions for Continuous Random Variables",
+            "href": "/topics/3052"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "110390",
+        "dom_id": "question-110390",
+        "selector": "#question-110390",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "143352",
+        "dom_id": "question-143352",
+        "selector": "#question-143352",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "38081",
+        "content_id": "10097",
+        "dom_id": "step-38081",
+        "selector": "#step-38081",
+        "step_anchor": "step-8",
+        "title": "Determining Whether Two Continuous Random Variables are Independent",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "143384",
+        "dom_id": "question-143384",
+        "selector": "#question-143384",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "136864",
+        "dom_id": "question-136864",
+        "selector": "#question-136864",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "39479",
+        "content_id": "6534",
+        "dom_id": "step-39479",
+        "selector": "#step-39479",
+        "step_anchor": "step-11",
+        "title": "Independence When the Joint Support Is Rectangular",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-38083",
+        "filename": "01-step-38083.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-34269",
+        "filename": "02-step-34269.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-110388",
+        "filename": "03-question-110388.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-136861",
+        "filename": "04-question-136861.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-34272",
+        "filename": "05-step-34272.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-110390",
+        "filename": "06-question-110390.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-143352",
+        "filename": "07-question-143352.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-38081",
+        "filename": "08-step-38081.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-143384",
+        "filename": "09-question-143384.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-136864",
+        "filename": "10-question-136864.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-39479",
+        "filename": "11-step-39479.png"
+      }
+    ]
+  }
+}

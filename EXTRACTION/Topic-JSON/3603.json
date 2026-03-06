@@ -1,0 +1,340 @@
+{
+  "schema_version": 1,
+  "topic_id": "3603",
+  "topic_title": "Likelihood Functions for Discrete Probability Distributions",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3603.html",
+  "source_url": "https://mathacademy.com/topics/3603",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "33494",
+        "dom_id": "sectionLink-33494",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-33494"
+      },
+      {
+        "index": 2,
+        "step_id": "42315",
+        "dom_id": "sectionLink-42315",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-42315"
+      },
+      {
+        "index": 3,
+        "step_id": "38120",
+        "dom_id": "sectionLink-38120",
+        "name": "",
+        "title": "Likelihood Functions for Bernoulli Random Variables",
+        "selector": "#sectionLink-38120"
+      },
+      {
+        "index": 4,
+        "step_id": "42270",
+        "dom_id": "sectionLink-42270",
+        "name": "",
+        "title": "Likelihood Functions for Binomial Random Variables",
+        "selector": "#sectionLink-42270"
+      },
+      {
+        "index": 5,
+        "step_id": "42271",
+        "dom_id": "sectionLink-42271",
+        "name": "",
+        "title": "Likelihood Functions for Poisson Random Variables",
+        "selector": "#sectionLink-42271"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3071",
+        "name": "The Bernoulli Distribution",
+        "href": "/topics/the-bernoulli-distribution-3071"
+      },
+      {
+        "topic_id": "3081",
+        "name": "Product Notation",
+        "href": "/topics/product-notation-3081"
+      },
+      {
+        "topic_id": "3281",
+        "name": "The Binomial Distribution",
+        "href": "/topics/the-binomial-distribution-3281"
+      },
+      {
+        "topic_id": "3282",
+        "name": "The Poisson Distribution",
+        "href": "/topics/the-poisson-distribution-3282"
+      },
+      {
+        "topic_id": "3864",
+        "name": "Sampling Distributions",
+        "href": "/topics/sampling-distributions-3864"
+      },
+      {
+        "topic_id": "3958",
+        "name": "Properties of Finite Series",
+        "href": "/topics/properties-of-finite-series-3958"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "33494",
+        "content_id": "5364",
+        "dom_id": "step-33494",
+        "selector": "#step-33494",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "42315",
+        "content_id": "7013",
+        "dom_id": "step-42315",
+        "selector": "#step-42315",
+        "step_anchor": "step-2",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "38120",
+        "content_id": "10105",
+        "dom_id": "step-38120",
+        "selector": "#step-38120",
+        "step_anchor": "step-3",
+        "title": "Likelihood Functions for Bernoulli Random Variables",
+        "key_prerequisites": [
+          {
+            "topic_id": "71",
+            "name": "The Product Rule for Exponents With Algebraic Expressions",
+            "href": "/topics/71"
+          },
+          {
+            "topic_id": "3071",
+            "name": "The Bernoulli Distribution",
+            "href": "/topics/3071"
+          },
+          {
+            "topic_id": "3081",
+            "name": "Product Notation",
+            "href": "/topics/3081"
+          },
+          {
+            "topic_id": "3864",
+            "name": "Sampling Distributions",
+            "href": "/topics/3864"
+          },
+          {
+            "topic_id": "3958",
+            "name": "Properties of Finite Series",
+            "href": "/topics/3958"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "143467",
+        "dom_id": "question-143467",
+        "selector": "#question-143467",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "159763",
+        "dom_id": "question-159763",
+        "selector": "#question-159763",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "42270",
+        "content_id": "11117",
+        "dom_id": "step-42270",
+        "selector": "#step-42270",
+        "step_anchor": "step-6",
+        "title": "Likelihood Functions for Binomial Random Variables",
+        "key_prerequisites": [
+          {
+            "topic_id": "3281",
+            "name": "The Binomial Distribution",
+            "href": "/topics/3281"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "143470",
+        "dom_id": "question-143470",
+        "selector": "#question-143470",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "159765",
+        "dom_id": "question-159765",
+        "selector": "#question-159765",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "42271",
+        "content_id": "11118",
+        "dom_id": "step-42271",
+        "selector": "#step-42271",
+        "step_anchor": "step-9",
+        "title": "Likelihood Functions for Poisson Random Variables",
+        "key_prerequisites": [
+          {
+            "topic_id": "3282",
+            "name": "The Poisson Distribution",
+            "href": "/topics/3282"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "143472",
+        "dom_id": "question-143472",
+        "selector": "#question-143472",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "159767",
+        "dom_id": "question-159767",
+        "selector": "#question-159767",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-33494",
+        "filename": "01-step-33494.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-42315",
+        "filename": "02-step-42315.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-38120",
+        "filename": "03-step-38120.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-143467",
+        "filename": "04-question-143467.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-159763",
+        "filename": "05-question-159763.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-42270",
+        "filename": "06-step-42270.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-143470",
+        "filename": "07-question-143470.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-159765",
+        "filename": "08-question-159765.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-42271",
+        "filename": "09-step-42271.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-143472",
+        "filename": "10-question-143472.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-159767",
+        "filename": "11-question-159767.png"
+      }
+    ]
+  }
+}

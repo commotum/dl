@@ -1,0 +1,427 @@
+{
+  "schema_version": 1,
+  "topic_id": "1999",
+  "topic_title": "The Jacobian",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1999.html",
+  "source_url": "https://mathacademy.com/topics/1999",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "25202",
+        "dom_id": "sectionLink-25202",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-25202"
+      },
+      {
+        "index": 2,
+        "step_id": "44550",
+        "dom_id": "sectionLink-44550",
+        "name": "",
+        "title": "The Jacobian Determinant",
+        "selector": "#sectionLink-44550"
+      },
+      {
+        "index": 3,
+        "step_id": "25204",
+        "dom_id": "sectionLink-25204",
+        "name": "",
+        "title": "Finding the Jacobian Determinant of a Transformation",
+        "selector": "#sectionLink-25204"
+      },
+      {
+        "index": 4,
+        "step_id": "42421",
+        "dom_id": "sectionLink-42421",
+        "name": "",
+        "title": "Evaluating a Jacobian Determinant",
+        "selector": "#sectionLink-42421"
+      },
+      {
+        "index": 5,
+        "step_id": "44557",
+        "dom_id": "sectionLink-44557",
+        "name": "",
+        "title": "A Review of Affine Transformations",
+        "selector": "#sectionLink-44557"
+      },
+      {
+        "index": 6,
+        "step_id": "44558",
+        "dom_id": "sectionLink-44558",
+        "name": "",
+        "title": "Intuition Behind the Jacobian",
+        "selector": "#sectionLink-44558"
+      },
+      {
+        "index": 7,
+        "step_id": "44604",
+        "dom_id": "sectionLink-44604",
+        "name": "",
+        "title": "Identifying the Local Area Scale Factor of a Transformation",
+        "selector": "#sectionLink-44604"
+      },
+      {
+        "index": 8,
+        "step_id": "44605",
+        "dom_id": "sectionLink-44605",
+        "name": "",
+        "title": "Finding Regions Where a Transformation is Orientation-Preserving or Reversing",
+        "selector": "#sectionLink-44605"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3706",
+        "name": "The Image of an Affine Transformation",
+        "href": "/topics/the-image-of-an-affine-transformation-3706"
+      },
+      {
+        "topic_id": "3707",
+        "name": "The Inverse of an Affine Transformation",
+        "href": "/topics/the-inverse-of-an-affine-transformation-3707"
+      },
+      {
+        "topic_id": "4096",
+        "name": "Computing Partial Derivatives Using the Rules of Differentiation",
+        "href": "/topics/computing-partial-derivatives-using-the-rules-of-differentiation-4096"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 16,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "25202",
+        "content_id": "4147",
+        "dom_id": "step-25202",
+        "selector": "#step-25202",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44550",
+        "content_id": "7668",
+        "dom_id": "step-44550",
+        "selector": "#step-44550",
+        "step_anchor": "step-2",
+        "title": "The Jacobian Determinant",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "25204",
+        "content_id": "6810",
+        "dom_id": "step-25204",
+        "selector": "#step-25204",
+        "step_anchor": "step-3",
+        "title": "Finding the Jacobian Determinant of a Transformation",
+        "key_prerequisites": [
+          {
+            "topic_id": "152",
+            "name": "The Determinant of a 2x2 Matrix",
+            "href": "/topics/152"
+          },
+          {
+            "topic_id": "1929",
+            "name": "Introduction to Partial Derivatives",
+            "href": "/topics/1929"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "38078",
+        "dom_id": "question-38078",
+        "selector": "#question-38078",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "38244",
+        "dom_id": "question-38244",
+        "selector": "#question-38244",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "42421",
+        "content_id": "11156",
+        "dom_id": "step-42421",
+        "selector": "#step-42421",
+        "step_anchor": "step-6",
+        "title": "Evaluating a Jacobian Determinant",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "160380",
+        "dom_id": "question-160380",
+        "selector": "#question-160380",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "160394",
+        "dom_id": "question-160394",
+        "selector": "#question-160394",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44557",
+        "content_id": "7672",
+        "dom_id": "step-44557",
+        "selector": "#step-44557",
+        "step_anchor": "step-9",
+        "title": "A Review of Affine Transformations",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44558",
+        "content_id": "7673",
+        "dom_id": "step-44558",
+        "selector": "#step-44558",
+        "step_anchor": "step-10",
+        "title": "Intuition Behind the Jacobian",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44604",
+        "content_id": "12417",
+        "dom_id": "step-44604",
+        "selector": "#step-44604",
+        "step_anchor": "step-11",
+        "title": "Identifying the Local Area Scale Factor of a Transformation",
+        "key_prerequisites": [
+          {
+            "topic_id": "3706",
+            "name": "The Image of an Affine Transformation",
+            "href": "/topics/3706"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "161788",
+        "dom_id": "question-161788",
+        "selector": "#question-161788",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "161832",
+        "dom_id": "question-161832",
+        "selector": "#question-161832",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44605",
+        "content_id": "12418",
+        "dom_id": "step-44605",
+        "selector": "#step-44605",
+        "step_anchor": "step-14",
+        "title": "Finding Regions Where a Transformation is Orientation-Preserving or Reversing",
+        "key_prerequisites": [
+          {
+            "topic_id": "1899",
+            "name": "The Domain of a Multivariable Function",
+            "href": "/topics/1899"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "160601",
+        "dom_id": "question-160601",
+        "selector": "#question-160601",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "160341",
+        "dom_id": "question-160341",
+        "selector": "#question-160341",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-25202",
+        "filename": "01-step-25202.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-44550",
+        "filename": "02-step-44550.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-25204",
+        "filename": "03-step-25204.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-38078",
+        "filename": "04-question-38078.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-38244",
+        "filename": "05-question-38244.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-42421",
+        "filename": "06-step-42421.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-160380",
+        "filename": "07-question-160380.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-160394",
+        "filename": "08-question-160394.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-44557",
+        "filename": "09-step-44557.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-44558",
+        "filename": "10-step-44558.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-44604",
+        "filename": "11-step-44604.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-161788",
+        "filename": "12-question-161788.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-161832",
+        "filename": "13-question-161832.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-44605",
+        "filename": "14-step-44605.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-160601",
+        "filename": "15-question-160601.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-160341",
+        "filename": "16-question-160341.png"
+      }
+    ]
+  }
+}

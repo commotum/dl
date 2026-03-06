@@ -1,0 +1,336 @@
+{
+  "schema_version": 1,
+  "topic_id": "2789",
+  "topic_title": "Disjoint Sets",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2789.html",
+  "source_url": "https://mathacademy.com/topics/2789",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "157019",
+        "dom_id": "sectionLink-157019",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-157019"
+      },
+      {
+        "index": 2,
+        "step_id": "157020",
+        "dom_id": "sectionLink-157020",
+        "name": "",
+        "title": "Identifying Disjoint Sets",
+        "selector": "#sectionLink-157020"
+      },
+      {
+        "index": 3,
+        "step_id": "157023",
+        "dom_id": "sectionLink-157023",
+        "name": "",
+        "title": "The Disjoint Union of Non-Overlapping Sets",
+        "selector": "#sectionLink-157023"
+      },
+      {
+        "index": 4,
+        "step_id": "157024",
+        "dom_id": "sectionLink-157024",
+        "name": "",
+        "title": "Finding the Disjoint Union of Non-Overlapping Sets",
+        "selector": "#sectionLink-157024"
+      },
+      {
+        "index": 5,
+        "step_id": "157027",
+        "dom_id": "sectionLink-157027",
+        "name": "",
+        "title": "The Disjoint Union of Overlapping Sets",
+        "selector": "#sectionLink-157027"
+      },
+      {
+        "index": 6,
+        "step_id": "157028",
+        "dom_id": "sectionLink-157028",
+        "name": "",
+        "title": "Finding the Disjoint Union of Overlapping Sets",
+        "selector": "#sectionLink-157028"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "46",
+        "name": "The Constructive Definition of a Set",
+        "href": "/topics/the-constructive-definition-of-a-set-46"
+      },
+      {
+        "topic_id": "2827",
+        "name": "The Intersection of Sets",
+        "href": "/topics/the-intersection-of-sets-2827"
+      },
+      {
+        "topic_id": "4392",
+        "name": "Describing Planar Regions Using Set-Builder Notation",
+        "href": "/topics/describing-planar-regions-using-set-builder-notation-4392"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "157019",
+        "content_id": "8004",
+        "dom_id": "step-157019",
+        "selector": "#step-157019",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "157020",
+        "content_id": "12760",
+        "dom_id": "step-157020",
+        "selector": "#step-157020",
+        "step_anchor": "step-2",
+        "title": "Identifying Disjoint Sets",
+        "key_prerequisites": [
+          {
+            "topic_id": "46",
+            "name": "The Constructive Definition of a Set",
+            "href": "/topics/46"
+          },
+          {
+            "topic_id": "2827",
+            "name": "The Intersection of Sets",
+            "href": "/topics/2827"
+          },
+          {
+            "topic_id": "4425",
+            "name": "The Conditional Definition of a Set",
+            "href": "/topics/4425"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "172541",
+        "dom_id": "question-172541",
+        "selector": "#question-172541",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "172542",
+        "dom_id": "question-172542",
+        "selector": "#question-172542",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "157023",
+        "content_id": "8005",
+        "dom_id": "step-157023",
+        "selector": "#step-157023",
+        "step_anchor": "step-5",
+        "title": "The Disjoint Union of Non-Overlapping Sets",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "157024",
+        "content_id": "12761",
+        "dom_id": "step-157024",
+        "selector": "#step-157024",
+        "step_anchor": "step-6",
+        "title": "Finding the Disjoint Union of Non-Overlapping Sets",
+        "key_prerequisites": [
+          {
+            "topic_id": "2826",
+            "name": "The Union of Sets",
+            "href": "/topics/2826"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "172558",
+        "dom_id": "question-172558",
+        "selector": "#question-172558",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "172559",
+        "dom_id": "question-172559",
+        "selector": "#question-172559",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "157027",
+        "content_id": "8137",
+        "dom_id": "step-157027",
+        "selector": "#step-157027",
+        "step_anchor": "step-9",
+        "title": "The Disjoint Union of Overlapping Sets",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "157028",
+        "content_id": "12762",
+        "dom_id": "step-157028",
+        "selector": "#step-157028",
+        "step_anchor": "step-10",
+        "title": "Finding the Disjoint Union of Overlapping Sets",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "172649",
+        "dom_id": "question-172649",
+        "selector": "#question-172649",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "174441",
+        "dom_id": "question-174441",
+        "selector": "#question-174441",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-157019",
+        "filename": "01-step-157019.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-157020",
+        "filename": "02-step-157020.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-172541",
+        "filename": "03-question-172541.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-172542",
+        "filename": "04-question-172542.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-157023",
+        "filename": "05-step-157023.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-157024",
+        "filename": "06-step-157024.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-172558",
+        "filename": "07-question-172558.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-172559",
+        "filename": "08-question-172559.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-157027",
+        "filename": "09-step-157027.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-157028",
+        "filename": "10-step-157028.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-172649",
+        "filename": "11-question-172649.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-174441",
+        "filename": "12-question-174441.png"
+      }
+    ]
+  }
+}

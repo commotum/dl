@@ -1,0 +1,384 @@
+{
+  "schema_version": 1,
+  "topic_id": "2096",
+  "topic_title": "Inner Product Spaces",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2096.html",
+  "source_url": "https://mathacademy.com/topics/2096",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "20189",
+        "dom_id": "sectionLink-20189",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-20189"
+      },
+      {
+        "index": 2,
+        "step_id": "23793",
+        "dom_id": "sectionLink-23793",
+        "name": "",
+        "title": "The Weighted Dot Product",
+        "selector": "#sectionLink-23793"
+      },
+      {
+        "index": 3,
+        "step_id": "20190",
+        "dom_id": "sectionLink-20190",
+        "name": "",
+        "title": "Calculating the Inner Product of Two Vectors",
+        "selector": "#sectionLink-20190"
+      },
+      {
+        "index": 4,
+        "step_id": "23794",
+        "dom_id": "sectionLink-23794",
+        "name": "",
+        "title": "An Inner Product of Polynomials in One Variable",
+        "selector": "#sectionLink-23794"
+      },
+      {
+        "index": 5,
+        "step_id": "20191",
+        "dom_id": "sectionLink-20191",
+        "name": "",
+        "title": "Calculating the Inner Product of Two Vectors in a Vector Space of Polynomials",
+        "selector": "#sectionLink-20191"
+      },
+      {
+        "index": 6,
+        "step_id": "23795",
+        "dom_id": "sectionLink-23795",
+        "name": "",
+        "title": "An Inner Product of Functions in One Variable",
+        "selector": "#sectionLink-23795"
+      },
+      {
+        "index": 7,
+        "step_id": "20192",
+        "dom_id": "sectionLink-20192",
+        "name": "",
+        "title": "Calculating the Inner Product of Two Vectors in a Vector Space of Continuous Functions",
+        "selector": "#sectionLink-20192"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "317",
+        "name": "Introduction to Integration by Parts",
+        "href": "/topics/introduction-to-integration-by-parts-317"
+      },
+      {
+        "topic_id": "1038",
+        "name": "Integration Using the Double-Angle Formulas",
+        "href": "/topics/integration-using-the-double-angle-formulas-1038"
+      },
+      {
+        "topic_id": "2094",
+        "name": "The Dot Product in N-Dimensional Euclidean Space",
+        "href": "/topics/the-dot-product-in-n-dimensional-euclidean-space-2094"
+      },
+      {
+        "topic_id": "3835",
+        "name": "Defining Abstract Vector Spaces",
+        "href": "/topics/defining-abstract-vector-spaces-3835"
+      },
+      {
+        "topic_id": "4387",
+        "name": "Visualizing Cartesian Products",
+        "href": "/topics/visualizing-cartesian-products-4387"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20189",
+        "content_id": "3604",
+        "dom_id": "step-20189",
+        "selector": "#step-20189",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "23793",
+        "content_id": "3992",
+        "dom_id": "step-23793",
+        "selector": "#step-23793",
+        "step_anchor": "step-2",
+        "title": "The Weighted Dot Product",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20190",
+        "content_id": "5542",
+        "dom_id": "step-20190",
+        "selector": "#step-20190",
+        "step_anchor": "step-3",
+        "title": "Calculating the Inner Product of Two Vectors",
+        "key_prerequisites": [
+          {
+            "topic_id": "177",
+            "name": "Calculating the Dot Product Using Components",
+            "href": "/topics/177"
+          },
+          {
+            "topic_id": "1849",
+            "name": "Vectors in N-Dimensional Euclidean Space",
+            "href": "/topics/1849"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "42248",
+        "dom_id": "question-42248",
+        "selector": "#question-42248",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "42246",
+        "dom_id": "question-42246",
+        "selector": "#question-42246",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "23794",
+        "content_id": "3993",
+        "dom_id": "step-23794",
+        "selector": "#step-23794",
+        "step_anchor": "step-6",
+        "title": "An Inner Product of Polynomials in One Variable",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20191",
+        "content_id": "5543",
+        "dom_id": "step-20191",
+        "selector": "#step-20191",
+        "step_anchor": "step-7",
+        "title": "Calculating the Inner Product of Two Vectors in a Vector Space of Polynomials",
+        "key_prerequisites": [
+          {
+            "topic_id": "655",
+            "name": "Introduction to Polynomials",
+            "href": "/topics/655"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "42241",
+        "dom_id": "question-42241",
+        "selector": "#question-42241",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "42250",
+        "dom_id": "question-42250",
+        "selector": "#question-42250",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "23795",
+        "content_id": "3994",
+        "dom_id": "step-23795",
+        "selector": "#step-23795",
+        "step_anchor": "step-10",
+        "title": "An Inner Product of Functions in One Variable",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20192",
+        "content_id": "5544",
+        "dom_id": "step-20192",
+        "selector": "#step-20192",
+        "step_anchor": "step-11",
+        "title": "Calculating the Inner Product of Two Vectors in a Vector Space of Continuous Functions",
+        "key_prerequisites": [
+          {
+            "topic_id": "317",
+            "name": "Introduction to Integration by Parts",
+            "href": "/topics/317"
+          },
+          {
+            "topic_id": "478",
+            "name": "Integrating Trigonometric Functions Using Substitution",
+            "href": "/topics/478"
+          },
+          {
+            "topic_id": "1038",
+            "name": "Integration Using the Double-Angle Formulas",
+            "href": "/topics/1038"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "42256",
+        "dom_id": "question-42256",
+        "selector": "#question-42256",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "42254",
+        "dom_id": "question-42254",
+        "selector": "#question-42254",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-20189",
+        "filename": "01-step-20189.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-23793",
+        "filename": "02-step-23793.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-20190",
+        "filename": "03-step-20190.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-42248",
+        "filename": "04-question-42248.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-42246",
+        "filename": "05-question-42246.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-23794",
+        "filename": "06-step-23794.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-20191",
+        "filename": "07-step-20191.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-42241",
+        "filename": "08-question-42241.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-42250",
+        "filename": "09-question-42250.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-23795",
+        "filename": "10-step-23795.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-20192",
+        "filename": "11-step-20192.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-42256",
+        "filename": "12-question-42256.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-42254",
+        "filename": "13-question-42254.png"
+      }
+    ]
+  }
+}

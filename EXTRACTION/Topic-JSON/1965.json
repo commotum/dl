@@ -1,0 +1,362 @@
+{
+  "schema_version": 1,
+  "topic_id": "1965",
+  "topic_title": "Calculating the Eigenvectors of a 3x3 Matrix in the General Case",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1965.html",
+  "source_url": "https://mathacademy.com/topics/1965",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "20103",
+        "dom_id": "sectionLink-20103",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-20103"
+      },
+      {
+        "index": 2,
+        "step_id": "20104",
+        "dom_id": "sectionLink-20104",
+        "name": "",
+        "title": "Finding a Basis of a One-Dimensional Eigenspace",
+        "selector": "#sectionLink-20104"
+      },
+      {
+        "index": 3,
+        "step_id": "20105",
+        "dom_id": "sectionLink-20105",
+        "name": "",
+        "title": "Finding a Basis of a Two-Dimensional Eigenspace",
+        "selector": "#sectionLink-20105"
+      },
+      {
+        "index": 4,
+        "step_id": "20108",
+        "dom_id": "sectionLink-20108",
+        "name": "",
+        "title": "Finding Linearly Independent Eigenvectors of a 3x3 Matrix",
+        "selector": "#sectionLink-20108"
+      },
+      {
+        "index": 5,
+        "step_id": "20106",
+        "dom_id": "sectionLink-20106",
+        "name": "",
+        "title": "Dimensions of Eigenspaces",
+        "selector": "#sectionLink-20106"
+      },
+      {
+        "index": 6,
+        "step_id": "20107",
+        "dom_id": "sectionLink-20107",
+        "name": "",
+        "title": "Calculating the Dimension of an Eigenspace",
+        "selector": "#sectionLink-20107"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1977",
+        "name": "Calculating the Eigenvectors of a 3x3 Matrix With Distinct Eigenvalues",
+        "href": "/topics/calculating-the-eigenvectors-of-a-3x3-matrix-with-distinct-eigenvalues-1977"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20103",
+        "content_id": "3567",
+        "dom_id": "step-20103",
+        "selector": "#step-20103",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20104",
+        "content_id": "5493",
+        "dom_id": "step-20104",
+        "selector": "#step-20104",
+        "step_anchor": "step-2",
+        "title": "Finding a Basis of a One-Dimensional Eigenspace",
+        "key_prerequisites": [
+          {
+            "topic_id": "1977",
+            "name": "Calculating the Eigenvectors of a 3x3 Matrix With Distinct Eigenvalues",
+            "href": "/topics/1977"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "37580",
+        "dom_id": "question-37580",
+        "selector": "#question-37580",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "37581",
+        "dom_id": "question-37581",
+        "selector": "#question-37581",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20105",
+        "content_id": "5494",
+        "dom_id": "step-20105",
+        "selector": "#step-20105",
+        "step_anchor": "step-5",
+        "title": "Finding a Basis of a Two-Dimensional Eigenspace",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "36983",
+        "dom_id": "question-36983",
+        "selector": "#question-36983",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "37622",
+        "dom_id": "question-37622",
+        "selector": "#question-37622",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20108",
+        "content_id": "5496",
+        "dom_id": "step-20108",
+        "selector": "#step-20108",
+        "step_anchor": "step-8",
+        "title": "Finding Linearly Independent Eigenvectors of a 3x3 Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "36760",
+        "dom_id": "question-36760",
+        "selector": "#question-36760",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "96708",
+        "dom_id": "question-96708",
+        "selector": "#question-96708",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20106",
+        "content_id": "3568",
+        "dom_id": "step-20106",
+        "selector": "#step-20106",
+        "step_anchor": "step-11",
+        "title": "Dimensions of Eigenspaces",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20107",
+        "content_id": "5495",
+        "dom_id": "step-20107",
+        "selector": "#step-20107",
+        "step_anchor": "step-12",
+        "title": "Calculating the Dimension of an Eigenspace",
+        "key_prerequisites": [
+          {
+            "topic_id": "88",
+            "name": "Multiplicities of the Roots of Polynomials",
+            "href": "/topics/88"
+          },
+          {
+            "topic_id": "1866",
+            "name": "The Dimension of a Span",
+            "href": "/topics/1866"
+          },
+          {
+            "topic_id": "1964",
+            "name": "The Characteristic Equation of a Matrix",
+            "href": "/topics/1964"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "36981",
+        "dom_id": "question-36981",
+        "selector": "#question-36981",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "37407",
+        "dom_id": "question-37407",
+        "selector": "#question-37407",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-20103",
+        "filename": "01-step-20103.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-20104",
+        "filename": "02-step-20104.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-37580",
+        "filename": "03-question-37580.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-37581",
+        "filename": "04-question-37581.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-20105",
+        "filename": "05-step-20105.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-36983",
+        "filename": "06-question-36983.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-37622",
+        "filename": "07-question-37622.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-20108",
+        "filename": "08-step-20108.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-36760",
+        "filename": "09-question-36760.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-96708",
+        "filename": "10-question-96708.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-20106",
+        "filename": "11-step-20106.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-20107",
+        "filename": "12-step-20107.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-36981",
+        "filename": "13-question-36981.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-37407",
+        "filename": "14-question-37407.png"
+      }
+    ]
+  }
+}

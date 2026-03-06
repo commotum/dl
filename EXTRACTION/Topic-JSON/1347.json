@@ -1,0 +1,326 @@
+{
+  "schema_version": 1,
+  "topic_id": "1347",
+  "topic_title": "Probability Density Functions of Continuous Random Variables",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1347.html",
+  "source_url": "https://mathacademy.com/topics/1347",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "41069",
+        "dom_id": "sectionLink-41069",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-41069"
+      },
+      {
+        "index": 2,
+        "step_id": "41070",
+        "dom_id": "sectionLink-41070",
+        "name": "",
+        "title": "Identifying Continuous Random Variables Given in Context",
+        "selector": "#sectionLink-41070"
+      },
+      {
+        "index": 3,
+        "step_id": "41073",
+        "dom_id": "sectionLink-41073",
+        "name": "",
+        "title": "Probability Density Functions",
+        "selector": "#sectionLink-41073"
+      },
+      {
+        "index": 4,
+        "step_id": "41074",
+        "dom_id": "sectionLink-41074",
+        "name": "",
+        "title": "Interpreting Probability Density Functions",
+        "selector": "#sectionLink-41074"
+      },
+      {
+        "index": 5,
+        "step_id": "41075",
+        "dom_id": "sectionLink-41075",
+        "name": "",
+        "title": "Determining Whether a Function Is a Valid PDF",
+        "selector": "#sectionLink-41075"
+      },
+      {
+        "index": 6,
+        "step_id": "41931",
+        "dom_id": "sectionLink-41931",
+        "name": "",
+        "title": "Determining the Value of an Unknown Constant Given a PDF",
+        "selector": "#sectionLink-41931"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1040",
+        "name": "The Area Bounded by a Curve and the X-Axis",
+        "href": "/topics/the-area-bounded-by-a-curve-and-the-x-axis-1040"
+      },
+      {
+        "topic_id": "1290",
+        "name": "Probability Mass Functions of Discrete Random Variables",
+        "href": "/topics/probability-mass-functions-of-discrete-random-variables-1290"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "41069",
+        "content_id": "6769",
+        "dom_id": "step-41069",
+        "selector": "#step-41069",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "41070",
+        "content_id": "10837",
+        "dom_id": "step-41070",
+        "selector": "#step-41070",
+        "step_anchor": "step-2",
+        "title": "Identifying Continuous Random Variables Given in Context",
+        "key_prerequisites": [
+          {
+            "topic_id": "1290",
+            "name": "Probability Mass Functions of Discrete Random Variables",
+            "href": "/topics/1290"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "86911",
+        "dom_id": "question-86911",
+        "selector": "#question-86911",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "87154",
+        "dom_id": "question-87154",
+        "selector": "#question-87154",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "41073",
+        "content_id": "6770",
+        "dom_id": "step-41073",
+        "selector": "#step-41073",
+        "step_anchor": "step-5",
+        "title": "Probability Density Functions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "41074",
+        "content_id": "6771",
+        "dom_id": "step-41074",
+        "selector": "#step-41074",
+        "step_anchor": "step-6",
+        "title": "Interpreting Probability Density Functions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "41075",
+        "content_id": "10838",
+        "dom_id": "step-41075",
+        "selector": "#step-41075",
+        "step_anchor": "step-7",
+        "title": "Determining Whether a Function Is a Valid PDF",
+        "key_prerequisites": [
+          {
+            "topic_id": "165",
+            "name": "Piecewise Functions",
+            "href": "/topics/165"
+          },
+          {
+            "topic_id": "283",
+            "name": "The Fundamental Theorem of Calculus",
+            "href": "/topics/283"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "158315",
+        "dom_id": "question-158315",
+        "selector": "#question-158315",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "154690",
+        "dom_id": "question-154690",
+        "selector": "#question-154690",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "41931",
+        "content_id": "11037",
+        "dom_id": "step-41931",
+        "selector": "#step-41931",
+        "step_anchor": "step-10",
+        "title": "Determining the Value of an Unknown Constant Given a PDF",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "98912",
+        "dom_id": "question-98912",
+        "selector": "#question-98912",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "158437",
+        "dom_id": "question-158437",
+        "selector": "#question-158437",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-41069",
+        "filename": "01-step-41069.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-41070",
+        "filename": "02-step-41070.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-86911",
+        "filename": "03-question-86911.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-87154",
+        "filename": "04-question-87154.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-41073",
+        "filename": "05-step-41073.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-41074",
+        "filename": "06-step-41074.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-41075",
+        "filename": "07-step-41075.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-158315",
+        "filename": "08-question-158315.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-154690",
+        "filename": "09-question-154690.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-41931",
+        "filename": "10-step-41931.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-98912",
+        "filename": "11-question-98912.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-158437",
+        "filename": "12-question-158437.png"
+      }
+    ]
+  }
+}

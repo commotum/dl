@@ -1,0 +1,393 @@
+{
+  "schema_version": 1,
+  "topic_id": "1936",
+  "topic_title": "The Multivariable Chain Rule in Vector Form",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1936.html",
+  "source_url": "https://mathacademy.com/topics/1936",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "30935",
+        "dom_id": "sectionLink-30935",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-30935"
+      },
+      {
+        "index": 2,
+        "step_id": "12678",
+        "dom_id": "sectionLink-12678",
+        "name": "",
+        "title": "Applying the Vector Form of the Chain Rule to a Function of Two Variables",
+        "selector": "#sectionLink-12678"
+      },
+      {
+        "index": 3,
+        "step_id": "12682",
+        "dom_id": "sectionLink-12682",
+        "name": "",
+        "title": "Applying the Vector Form of the Chain Rule to a Function of Three Variables",
+        "selector": "#sectionLink-12682"
+      },
+      {
+        "index": 4,
+        "step_id": "30936",
+        "dom_id": "sectionLink-30936",
+        "name": "",
+        "title": "Evaluating the Derivative at a Point Using the Chain Rule",
+        "selector": "#sectionLink-30936"
+      },
+      {
+        "index": 5,
+        "step_id": "12681",
+        "dom_id": "sectionLink-12681",
+        "name": "",
+        "title": "The Derivative as a Rate of Change",
+        "selector": "#sectionLink-12681"
+      },
+      {
+        "index": 6,
+        "step_id": "12684",
+        "dom_id": "sectionLink-12684",
+        "name": "",
+        "title": "Computing the Rate of Change of a Multivariable Function at a Point Using the Chain Rule",
+        "selector": "#sectionLink-12684"
+      },
+      {
+        "index": 7,
+        "step_id": "30937",
+        "dom_id": "sectionLink-30937",
+        "name": "",
+        "title": "Intuition Behind the Vector Form of the Multivariable Chain Rule",
+        "selector": "#sectionLink-30937"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1934",
+        "name": "The Gradient Vector",
+        "href": "/topics/the-gradient-vector-1934"
+      },
+      {
+        "topic_id": "3173",
+        "name": "The Multivariable Chain Rule",
+        "href": "/topics/the-multivariable-chain-rule-3173"
+      },
+      {
+        "topic_id": "4139",
+        "name": "Differentiating Vector-Valued Functions",
+        "href": "/topics/differentiating-vector-valued-functions-4139"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "30935",
+        "content_id": "4967",
+        "dom_id": "step-30935",
+        "selector": "#step-30935",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "12678",
+        "content_id": "3694",
+        "dom_id": "step-12678",
+        "selector": "#step-12678",
+        "step_anchor": "step-2",
+        "title": "Applying the Vector Form of the Chain Rule to a Function of Two Variables",
+        "key_prerequisites": [
+          {
+            "topic_id": "177",
+            "name": "Calculating the Dot Product Using Components",
+            "href": "/topics/177"
+          },
+          {
+            "topic_id": "3173",
+            "name": "The Multivariable Chain Rule",
+            "href": "/topics/3173"
+          },
+          {
+            "topic_id": "4139",
+            "name": "Differentiating Vector-Valued Functions",
+            "href": "/topics/4139"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "95056",
+        "dom_id": "question-95056",
+        "selector": "#question-95056",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "36211",
+        "dom_id": "question-36211",
+        "selector": "#question-36211",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "12682",
+        "content_id": "3695",
+        "dom_id": "step-12682",
+        "selector": "#step-12682",
+        "step_anchor": "step-5",
+        "title": "Applying the Vector Form of the Chain Rule to a Function of Three Variables",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "95075",
+        "dom_id": "question-95075",
+        "selector": "#question-95075",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "36238",
+        "dom_id": "question-36238",
+        "selector": "#question-36238",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30936",
+        "content_id": "8282",
+        "dom_id": "step-30936",
+        "selector": "#step-30936",
+        "step_anchor": "step-8",
+        "title": "Evaluating the Derivative at a Point Using the Chain Rule",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "94872",
+        "dom_id": "question-94872",
+        "selector": "#question-94872",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "36215",
+        "dom_id": "question-36215",
+        "selector": "#question-36215",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "12681",
+        "content_id": "2652",
+        "dom_id": "step-12681",
+        "selector": "#step-12681",
+        "step_anchor": "step-11",
+        "title": "The Derivative as a Rate of Change",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "12684",
+        "content_id": "3696",
+        "dom_id": "step-12684",
+        "selector": "#step-12684",
+        "step_anchor": "step-12",
+        "title": "Computing the Rate of Change of a Multivariable Function at a Point Using the Chain Rule",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "36247",
+        "dom_id": "question-36247",
+        "selector": "#question-36247",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "36253",
+        "dom_id": "question-36253",
+        "selector": "#question-36253",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "30937",
+        "content_id": "4968",
+        "dom_id": "step-30937",
+        "selector": "#step-30937",
+        "step_anchor": "step-15",
+        "title": "Intuition Behind the Vector Form of the Multivariable Chain Rule",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-30935",
+        "filename": "01-step-30935.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-12678",
+        "filename": "02-step-12678.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-95056",
+        "filename": "03-question-95056.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-36211",
+        "filename": "04-question-36211.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-12682",
+        "filename": "05-step-12682.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-95075",
+        "filename": "06-question-95075.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-36238",
+        "filename": "07-question-36238.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-30936",
+        "filename": "08-step-30936.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-94872",
+        "filename": "09-question-94872.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-36215",
+        "filename": "10-question-36215.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-12681",
+        "filename": "11-step-12681.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-12684",
+        "filename": "12-step-12684.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-36247",
+        "filename": "13-question-36247.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-36253",
+        "filename": "14-question-36253.png"
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "selector": "#step-30937",
+        "filename": "15-step-30937.png"
+      }
+    ]
+  }
+}

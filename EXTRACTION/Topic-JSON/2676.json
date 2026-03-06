@@ -1,0 +1,288 @@
+{
+  "schema_version": 1,
+  "topic_id": "2676",
+  "topic_title": "The Euclidean Algorithm",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2676.html",
+  "source_url": "https://mathacademy.com/topics/2676",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "23999",
+        "dom_id": "sectionLink-23999",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-23999"
+      },
+      {
+        "index": 2,
+        "step_id": "25398",
+        "dom_id": "sectionLink-25398",
+        "name": "",
+        "title": "Computing the Greatest Common Divisor of Two Three-Digit Numbers",
+        "selector": "#sectionLink-25398"
+      },
+      {
+        "index": 3,
+        "step_id": "25439",
+        "dom_id": "sectionLink-25439",
+        "name": "",
+        "title": "Why Does the Euclidean Algorithm Work?",
+        "selector": "#sectionLink-25439"
+      },
+      {
+        "index": 4,
+        "step_id": "23986",
+        "dom_id": "sectionLink-23986",
+        "name": "",
+        "title": "Computing the Greatest Common Divisor of Larger Numbers",
+        "selector": "#sectionLink-23986"
+      },
+      {
+        "index": 5,
+        "step_id": "32667",
+        "dom_id": "sectionLink-32667",
+        "name": "",
+        "title": "Determining Whether Two Integers are Coprime",
+        "selector": "#sectionLink-32667"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2689",
+        "name": "The Division Algorithm",
+        "href": "/topics/the-division-algorithm-2689"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "23999",
+        "content_id": "4002",
+        "dom_id": "step-23999",
+        "selector": "#step-23999",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "25398",
+        "content_id": "6858",
+        "dom_id": "step-25398",
+        "selector": "#step-25398",
+        "step_anchor": "step-2",
+        "title": "Computing the Greatest Common Divisor of Two Three-Digit Numbers",
+        "key_prerequisites": [
+          {
+            "topic_id": "811",
+            "name": "Finding Greatest Common Factors Using Prime Factorization",
+            "href": "/topics/811"
+          },
+          {
+            "topic_id": "2689",
+            "name": "The Division Algorithm",
+            "href": "/topics/2689"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "77116",
+        "dom_id": "question-77116",
+        "selector": "#question-77116",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "77108",
+        "dom_id": "question-77108",
+        "selector": "#question-77108",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "25439",
+        "content_id": "4192",
+        "dom_id": "step-25439",
+        "selector": "#step-25439",
+        "step_anchor": "step-5",
+        "title": "Why Does the Euclidean Algorithm Work?",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "23986",
+        "content_id": "6517",
+        "dom_id": "step-23986",
+        "selector": "#step-23986",
+        "step_anchor": "step-6",
+        "title": "Computing the Greatest Common Divisor of Larger Numbers",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "79642",
+        "dom_id": "question-79642",
+        "selector": "#question-79642",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "79627",
+        "dom_id": "question-79627",
+        "selector": "#question-79627",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "32667",
+        "content_id": "8767",
+        "dom_id": "step-32667",
+        "selector": "#step-32667",
+        "step_anchor": "step-9",
+        "title": "Determining Whether Two Integers are Coprime",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "98404",
+        "dom_id": "question-98404",
+        "selector": "#question-98404",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "98471",
+        "dom_id": "question-98471",
+        "selector": "#question-98471",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-23999",
+        "filename": "01-step-23999.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-25398",
+        "filename": "02-step-25398.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-77116",
+        "filename": "03-question-77116.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-77108",
+        "filename": "04-question-77108.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-25439",
+        "filename": "05-step-25439.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-23986",
+        "filename": "06-step-23986.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-79642",
+        "filename": "07-question-79642.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-79627",
+        "filename": "08-question-79627.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-32667",
+        "filename": "09-step-32667.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-98404",
+        "filename": "10-question-98404.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-98471",
+        "filename": "11-question-98471.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,382 @@
+{
+  "schema_version": 1,
+  "topic_id": "6701",
+  "topic_title": "Modeling RC Circuits With First-Order ODEs",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/6701.html",
+  "source_url": "https://mathacademy.com/topics/6701",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "590193",
+        "dom_id": "sectionLink-590193",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-590193"
+      },
+      {
+        "index": 2,
+        "step_id": "590194",
+        "dom_id": "sectionLink-590194",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-590194"
+      },
+      {
+        "index": 3,
+        "step_id": "590195",
+        "dom_id": "sectionLink-590195",
+        "name": "",
+        "title": "Constructing an Equation Governing the Charge in an RC Circuit",
+        "selector": "#sectionLink-590195"
+      },
+      {
+        "index": 4,
+        "step_id": "590198",
+        "dom_id": "sectionLink-590198",
+        "name": "",
+        "title": "Steady-State Charges for Constant Voltage RC Circuits",
+        "selector": "#sectionLink-590198"
+      },
+      {
+        "index": 5,
+        "step_id": "590199",
+        "dom_id": "sectionLink-590199",
+        "name": "",
+        "title": "Solving an Equation Governing the Charge in an RC Circuit: Constant EMF",
+        "selector": "#sectionLink-590199"
+      },
+      {
+        "index": 6,
+        "step_id": "590203",
+        "dom_id": "sectionLink-590203",
+        "name": "",
+        "title": "Steady-State Charges for Sinusoidal Voltage RC Circuits",
+        "selector": "#sectionLink-590203"
+      },
+      {
+        "index": 7,
+        "step_id": "590204",
+        "dom_id": "sectionLink-590204",
+        "name": "",
+        "title": "Solving an Equation Governing the Charge in an RC Circuit: Sinusoidal EMF",
+        "selector": "#sectionLink-590204"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1788",
+        "name": "Modeling RL Circuits With First-Order ODEs",
+        "href": "/topics/modeling-rl-circuits-with-first-order-odes-1788"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "590193",
+        "content_id": "14571",
+        "dom_id": "step-590193",
+        "selector": "#step-590193",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "590194",
+        "content_id": "14573",
+        "dom_id": "step-590194",
+        "selector": "#step-590194",
+        "step_anchor": "step-2",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "590195",
+        "content_id": "21759",
+        "dom_id": "step-590195",
+        "selector": "#step-590195",
+        "step_anchor": "step-3",
+        "title": "Constructing an Equation Governing the Charge in an RC Circuit",
+        "key_prerequisites": [
+          {
+            "topic_id": "1788",
+            "name": "Modeling RL Circuits With First-Order ODEs",
+            "href": "/topics/1788"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "336217",
+        "dom_id": "question-336217",
+        "selector": "#question-336217",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "336224",
+        "dom_id": "question-336224",
+        "selector": "#question-336224",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "590198",
+        "content_id": "14587",
+        "dom_id": "step-590198",
+        "selector": "#step-590198",
+        "step_anchor": "step-6",
+        "title": "Steady-State Charges for Constant Voltage RC Circuits",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "590199",
+        "content_id": "21762",
+        "dom_id": "step-590199",
+        "selector": "#step-590199",
+        "step_anchor": "step-7",
+        "title": "Solving an Equation Governing the Charge in an RC Circuit: Constant EMF",
+        "key_prerequisites": [
+          {
+            "topic_id": "1717",
+            "name": "Limits of Exponential Functions",
+            "href": "/topics/1717"
+          },
+          {
+            "topic_id": "6678",
+            "name": "General Solutions of First-Order Linear ODEs",
+            "href": "/topics/6678"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "336594",
+        "dom_id": "question-336594",
+        "selector": "#question-336594",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "336222",
+        "dom_id": "question-336222",
+        "selector": "#question-336222",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "336590",
+        "dom_id": "question-336590",
+        "selector": "#question-336590",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "590203",
+        "content_id": "14588",
+        "dom_id": "step-590203",
+        "selector": "#step-590203",
+        "step_anchor": "step-11",
+        "title": "Steady-State Charges for Sinusoidal Voltage RC Circuits",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "590204",
+        "content_id": "21763",
+        "dom_id": "step-590204",
+        "selector": "#step-590204",
+        "step_anchor": "step-12",
+        "title": "Solving an Equation Governing the Charge in an RC Circuit: Sinusoidal EMF",
+        "key_prerequisites": [
+          {
+            "topic_id": "1076",
+            "name": "Writing Sums of Trigonometric Functions in Amplitude-Phase Form",
+            "href": "/topics/1076"
+          },
+          {
+            "topic_id": "1719",
+            "name": "Limits of Trigonometric Functions",
+            "href": "/topics/1719"
+          },
+          {
+            "topic_id": "6680",
+            "name": "Solving First-Order Linear ODEs With Sinusoidal Forcing",
+            "href": "/topics/6680"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "336636",
+        "dom_id": "question-336636",
+        "selector": "#question-336636",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "337169",
+        "dom_id": "question-337169",
+        "selector": "#question-337169",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-590193",
+        "filename": "01-step-590193.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-590194",
+        "filename": "02-step-590194.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-590195",
+        "filename": "03-step-590195.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-336217",
+        "filename": "04-question-336217.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-336224",
+        "filename": "05-question-336224.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-590198",
+        "filename": "06-step-590198.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-590199",
+        "filename": "07-step-590199.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-336594",
+        "filename": "08-question-336594.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-336222",
+        "filename": "09-question-336222.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-336590",
+        "filename": "10-question-336590.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-590203",
+        "filename": "11-step-590203.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-590204",
+        "filename": "12-step-590204.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-336636",
+        "filename": "13-question-336636.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-337169",
+        "filename": "14-question-337169.png"
+      }
+    ]
+  }
+}

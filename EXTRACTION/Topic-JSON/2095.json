@@ -1,0 +1,400 @@
+{
+  "schema_version": 1,
+  "topic_id": "2095",
+  "topic_title": "The Norm of a Vector in N-Dimensional Euclidean Space",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2095.html",
+  "source_url": "https://mathacademy.com/topics/2095",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "20183",
+        "dom_id": "sectionLink-20183",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-20183"
+      },
+      {
+        "index": 2,
+        "step_id": "20184",
+        "dom_id": "sectionLink-20184",
+        "name": "",
+        "title": "Calculating the Norm of a Vector",
+        "selector": "#sectionLink-20184"
+      },
+      {
+        "index": 3,
+        "step_id": "23165",
+        "dom_id": "sectionLink-23165",
+        "name": "",
+        "title": "The Distance Between Two Vectors",
+        "selector": "#sectionLink-23165"
+      },
+      {
+        "index": 4,
+        "step_id": "20185",
+        "dom_id": "sectionLink-20185",
+        "name": "",
+        "title": "Finding the Distance Between Two Vectors",
+        "selector": "#sectionLink-20185"
+      },
+      {
+        "index": 5,
+        "step_id": "23172",
+        "dom_id": "sectionLink-23172",
+        "name": "",
+        "title": "Factoring a Constant Out of the Norm",
+        "selector": "#sectionLink-23172"
+      },
+      {
+        "index": 6,
+        "step_id": "23169",
+        "dom_id": "sectionLink-23169",
+        "name": "",
+        "title": "Factoring a Constant Out of the Norm",
+        "selector": "#sectionLink-23169"
+      },
+      {
+        "index": 7,
+        "step_id": "20186",
+        "dom_id": "sectionLink-20186",
+        "name": "",
+        "title": "Normalizing a Vector",
+        "selector": "#sectionLink-20186"
+      },
+      {
+        "index": 8,
+        "step_id": "20187",
+        "dom_id": "sectionLink-20187",
+        "name": "",
+        "title": "Normalizing a Vector",
+        "selector": "#sectionLink-20187"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2094",
+        "name": "The Dot Product in N-Dimensional Euclidean Space",
+        "href": "/topics/the-dot-product-in-n-dimensional-euclidean-space-2094"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 16,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20183",
+        "content_id": "3602",
+        "dom_id": "step-20183",
+        "selector": "#step-20183",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20184",
+        "content_id": "5538",
+        "dom_id": "step-20184",
+        "selector": "#step-20184",
+        "step_anchor": "step-2",
+        "title": "Calculating the Norm of a Vector",
+        "key_prerequisites": [
+          {
+            "topic_id": "2094",
+            "name": "The Dot Product in N-Dimensional Euclidean Space",
+            "href": "/topics/2094"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "39238",
+        "dom_id": "question-39238",
+        "selector": "#question-39238",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "39212",
+        "dom_id": "question-39212",
+        "selector": "#question-39212",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "23165",
+        "content_id": "3923",
+        "dom_id": "step-23165",
+        "selector": "#step-23165",
+        "step_anchor": "step-5",
+        "title": "The Distance Between Two Vectors",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20185",
+        "content_id": "5539",
+        "dom_id": "step-20185",
+        "selector": "#step-20185",
+        "step_anchor": "step-6",
+        "title": "Finding the Distance Between Two Vectors",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "39759",
+        "dom_id": "question-39759",
+        "selector": "#question-39759",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "39213",
+        "dom_id": "question-39213",
+        "selector": "#question-39213",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "23172",
+        "content_id": "3924",
+        "dom_id": "step-23172",
+        "selector": "#step-23172",
+        "step_anchor": "step-9",
+        "title": "Factoring a Constant Out of the Norm",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "23169",
+        "content_id": "6190",
+        "dom_id": "step-23169",
+        "selector": "#step-23169",
+        "step_anchor": "step-10",
+        "title": "Factoring a Constant Out of the Norm",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "39767",
+        "dom_id": "question-39767",
+        "selector": "#question-39767",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "39773",
+        "dom_id": "question-39773",
+        "selector": "#question-39773",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20186",
+        "content_id": "3603",
+        "dom_id": "step-20186",
+        "selector": "#step-20186",
+        "step_anchor": "step-13",
+        "title": "Normalizing a Vector",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20187",
+        "content_id": "5540",
+        "dom_id": "step-20187",
+        "selector": "#step-20187",
+        "step_anchor": "step-14",
+        "title": "Normalizing a Vector",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "39244",
+        "dom_id": "question-39244",
+        "selector": "#question-39244",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "39237",
+        "dom_id": "question-39237",
+        "selector": "#question-39237",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-20183",
+        "filename": "01-step-20183.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-20184",
+        "filename": "02-step-20184.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-39238",
+        "filename": "03-question-39238.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-39212",
+        "filename": "04-question-39212.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-23165",
+        "filename": "05-step-23165.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-20185",
+        "filename": "06-step-20185.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-39759",
+        "filename": "07-question-39759.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-39213",
+        "filename": "08-question-39213.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-23172",
+        "filename": "09-step-23172.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-23169",
+        "filename": "10-step-23169.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-39767",
+        "filename": "11-question-39767.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-39773",
+        "filename": "12-question-39773.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-20186",
+        "filename": "13-step-20186.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-20187",
+        "filename": "14-step-20187.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-39244",
+        "filename": "15-question-39244.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-39237",
+        "filename": "16-question-39237.png"
+      }
+    ]
+  }
+}

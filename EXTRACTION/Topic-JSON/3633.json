@@ -1,0 +1,364 @@
+{
+  "schema_version": 1,
+  "topic_id": "3633",
+  "topic_title": "Ranks of Generalized Eigenvectors",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3633.html",
+  "source_url": "https://mathacademy.com/topics/3633",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "33796",
+        "dom_id": "sectionLink-33796",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-33796"
+      },
+      {
+        "index": 2,
+        "step_id": "37213",
+        "dom_id": "sectionLink-37213",
+        "name": "",
+        "title": "Forming a Basis Using Generalized Eigenvectors",
+        "selector": "#sectionLink-37213"
+      },
+      {
+        "index": 3,
+        "step_id": "37212",
+        "dom_id": "sectionLink-37212",
+        "name": "",
+        "title": "A Second Example",
+        "selector": "#sectionLink-37212"
+      },
+      {
+        "index": 4,
+        "step_id": "33797",
+        "dom_id": "sectionLink-33797",
+        "name": "",
+        "title": "Finding the Number of Generalized Eigenvectors of Rank Greater Than One",
+        "selector": "#sectionLink-33797"
+      },
+      {
+        "index": 5,
+        "step_id": "33798",
+        "dom_id": "sectionLink-33798",
+        "name": "",
+        "title": "The Number of Generalized Eigenvectors of a Given Rank for a Given Eigenvalue",
+        "selector": "#sectionLink-33798"
+      },
+      {
+        "index": 6,
+        "step_id": "34012",
+        "dom_id": "sectionLink-34012",
+        "name": "",
+        "title": "Finding the Number of Generalized Eigenvectors of a Given Rank Using Nullity",
+        "selector": "#sectionLink-34012"
+      },
+      {
+        "index": 7,
+        "step_id": "24945",
+        "dom_id": "sectionLink-24945",
+        "name": "",
+        "title": "Finding the Number of Generalized Eigenvectors of a Given Rank",
+        "selector": "#sectionLink-24945"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2738",
+        "name": "Generalized Eigenvectors",
+        "href": "/topics/generalized-eigenvectors-2738"
+      },
+      {
+        "topic_id": "3836",
+        "name": "The Rank-Nullity Theorem",
+        "href": "/topics/the-rank-nullity-theorem-3836"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "33796",
+        "content_id": "5420",
+        "dom_id": "step-33796",
+        "selector": "#step-33796",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "37213",
+        "content_id": "6127",
+        "dom_id": "step-37213",
+        "selector": "#step-37213",
+        "step_anchor": "step-2",
+        "title": "Forming a Basis Using Generalized Eigenvectors",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "37212",
+        "content_id": "6126",
+        "dom_id": "step-37212",
+        "selector": "#step-37212",
+        "step_anchor": "step-3",
+        "title": "A Second Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33797",
+        "content_id": "9055",
+        "dom_id": "step-33797",
+        "selector": "#step-33797",
+        "step_anchor": "step-4",
+        "title": "Finding the Number of Generalized Eigenvectors of Rank Greater Than One",
+        "key_prerequisites": [
+          {
+            "topic_id": "1964",
+            "name": "The Characteristic Equation of a Matrix",
+            "href": "/topics/1964"
+          },
+          {
+            "topic_id": "1965",
+            "name": "Calculating the Eigenvectors of a 3x3 Matrix in the General Case",
+            "href": "/topics/1965"
+          },
+          {
+            "topic_id": "2738",
+            "name": "Generalized Eigenvectors",
+            "href": "/topics/2738"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "109740",
+        "dom_id": "question-109740",
+        "selector": "#question-109740",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "78129",
+        "dom_id": "question-78129",
+        "selector": "#question-78129",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "33798",
+        "content_id": "5421",
+        "dom_id": "step-33798",
+        "selector": "#step-33798",
+        "step_anchor": "step-7",
+        "title": "The Number of Generalized Eigenvectors of a Given Rank for a Given Eigenvalue",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "34012",
+        "content_id": "9125",
+        "dom_id": "step-34012",
+        "selector": "#step-34012",
+        "step_anchor": "step-8",
+        "title": "Finding the Number of Generalized Eigenvectors of a Given Rank Using Nullity",
+        "key_prerequisites": [
+          {
+            "topic_id": "1868",
+            "name": "The Dimension of the Null Space of a Matrix",
+            "href": "/topics/1868"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "109843",
+        "dom_id": "question-109843",
+        "selector": "#question-109843",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "109121",
+        "dom_id": "question-109121",
+        "selector": "#question-109121",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "24945",
+        "content_id": "6744",
+        "dom_id": "step-24945",
+        "selector": "#step-24945",
+        "step_anchor": "step-11",
+        "title": "Finding the Number of Generalized Eigenvectors of a Given Rank",
+        "key_prerequisites": [
+          {
+            "topic_id": "3836",
+            "name": "The Rank-Nullity Theorem",
+            "href": "/topics/3836"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "109922",
+        "dom_id": "question-109922",
+        "selector": "#question-109922",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "78160",
+        "dom_id": "question-78160",
+        "selector": "#question-78160",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-33796",
+        "filename": "01-step-33796.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-37213",
+        "filename": "02-step-37213.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-37212",
+        "filename": "03-step-37212.png"
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "selector": "#step-33797",
+        "filename": "04-step-33797.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-109740",
+        "filename": "05-question-109740.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-78129",
+        "filename": "06-question-78129.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-33798",
+        "filename": "07-step-33798.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-34012",
+        "filename": "08-step-34012.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-109843",
+        "filename": "09-question-109843.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-109121",
+        "filename": "10-question-109121.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-24945",
+        "filename": "11-step-24945.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-109922",
+        "filename": "12-question-109922.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-78160",
+        "filename": "13-question-78160.png"
+      }
+    ]
+  }
+}

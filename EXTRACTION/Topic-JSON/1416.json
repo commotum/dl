@@ -1,0 +1,230 @@
+{
+  "schema_version": 1,
+  "topic_id": "1416",
+  "topic_title": "Applying Prim's Algorithm to a Distance Matrix",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1416.html",
+  "source_url": "https://mathacademy.com/topics/1416",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "416041",
+        "dom_id": "sectionLink-416041",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-416041"
+      },
+      {
+        "index": 2,
+        "step_id": "416042",
+        "dom_id": "sectionLink-416042",
+        "name": "",
+        "title": "A Concrete Example",
+        "selector": "#sectionLink-416042"
+      },
+      {
+        "index": 3,
+        "step_id": "416043",
+        "dom_id": "sectionLink-416043",
+        "name": "",
+        "title": "Applying One Iteration of Prim's Algorithm Using a Distance Matrix",
+        "selector": "#sectionLink-416043"
+      },
+      {
+        "index": 4,
+        "step_id": "416046",
+        "dom_id": "sectionLink-416046",
+        "name": "",
+        "title": "Applying Prim's Algorithm to a Distance Matrix",
+        "selector": "#sectionLink-416046"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1392",
+        "name": "Distance Matrices",
+        "href": "/topics/distance-matrices-1392"
+      },
+      {
+        "topic_id": "1402",
+        "name": "Prim's Algorithm",
+        "href": "/topics/prims-algorithm-1402"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 8,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "416041",
+        "content_id": "10551",
+        "dom_id": "step-416041",
+        "selector": "#step-416041",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "416042",
+        "content_id": "11617",
+        "dom_id": "step-416042",
+        "selector": "#step-416042",
+        "step_anchor": "step-2",
+        "title": "A Concrete Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "416043",
+        "content_id": "16370",
+        "dom_id": "step-416043",
+        "selector": "#step-416043",
+        "step_anchor": "step-3",
+        "title": "Applying One Iteration of Prim's Algorithm Using a Distance Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "1392",
+            "name": "Distance Matrices",
+            "href": "/topics/1392"
+          },
+          {
+            "topic_id": "1402",
+            "name": "Prim's Algorithm",
+            "href": "/topics/1402"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "250800",
+        "dom_id": "question-250800",
+        "selector": "#question-250800",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "259583",
+        "dom_id": "question-259583",
+        "selector": "#question-259583",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "416046",
+        "content_id": "16371",
+        "dom_id": "step-416046",
+        "selector": "#step-416046",
+        "step_anchor": "step-6",
+        "title": "Applying Prim's Algorithm to a Distance Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "259388",
+        "dom_id": "question-259388",
+        "selector": "#question-259388",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "250851",
+        "dom_id": "question-250851",
+        "selector": "#question-250851",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-416041",
+        "filename": "01-step-416041.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-416042",
+        "filename": "02-step-416042.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-416043",
+        "filename": "03-step-416043.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-250800",
+        "filename": "04-question-250800.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-259583",
+        "filename": "05-question-259583.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-416046",
+        "filename": "06-step-416046.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-259388",
+        "filename": "07-question-259388.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-250851",
+        "filename": "08-question-250851.png"
+      }
+    ]
+  }
+}

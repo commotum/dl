@@ -1,0 +1,321 @@
+{
+  "schema_version": 1,
+  "topic_id": "6367",
+  "topic_title": "Abel's Identity",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/6367.html",
+  "source_url": "https://mathacademy.com/topics/6367",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "600667",
+        "dom_id": "sectionLink-600667",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-600667"
+      },
+      {
+        "index": 2,
+        "step_id": "600668",
+        "dom_id": "sectionLink-600668",
+        "name": "",
+        "title": "Identifying Wronskian Differential Equation",
+        "selector": "#sectionLink-600668"
+      },
+      {
+        "index": 3,
+        "step_id": "600671",
+        "dom_id": "sectionLink-600671",
+        "name": "",
+        "title": "Computing the Wronskian Using Abel's Identity",
+        "selector": "#sectionLink-600671"
+      },
+      {
+        "index": 4,
+        "step_id": "600679",
+        "dom_id": "sectionLink-600679",
+        "name": "",
+        "title": "Applications of Abel's Identity",
+        "selector": "#sectionLink-600679"
+      },
+      {
+        "index": 5,
+        "step_id": "600674",
+        "dom_id": "sectionLink-600674",
+        "name": "",
+        "title": "Using Abel's Identity to Conclude Independence/Dependence",
+        "selector": "#sectionLink-600674"
+      },
+      {
+        "index": 6,
+        "step_id": "600678",
+        "dom_id": "sectionLink-600678",
+        "name": "",
+        "title": "The Proof of Abel's Identity",
+        "selector": "#sectionLink-600678"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1179",
+        "name": "Solving First-Order IVPs Using Separation of Variables",
+        "href": "/topics/solving-first-order-ivps-using-separation-of-variables-1179"
+      },
+      {
+        "topic_id": "2547",
+        "name": "Linear Independence of Solutions to Homogeneous ODEs",
+        "href": "/topics/linear-independence-of-solutions-to-homogeneous-odes-2547"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "600667",
+        "content_id": "14746",
+        "dom_id": "step-600667",
+        "selector": "#step-600667",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "600668",
+        "content_id": "21868",
+        "dom_id": "step-600668",
+        "selector": "#step-600668",
+        "step_anchor": "step-2",
+        "title": "Identifying Wronskian Differential Equation",
+        "key_prerequisites": [
+          {
+            "topic_id": "2547",
+            "name": "Linear Independence of Solutions to Homogeneous ODEs",
+            "href": "/topics/2547"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "342709",
+        "dom_id": "question-342709",
+        "selector": "#question-342709",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "342710",
+        "dom_id": "question-342710",
+        "selector": "#question-342710",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "600671",
+        "content_id": "21869",
+        "dom_id": "step-600671",
+        "selector": "#step-600671",
+        "step_anchor": "step-5",
+        "title": "Computing the Wronskian Using Abel's Identity",
+        "key_prerequisites": [
+          {
+            "topic_id": "1179",
+            "name": "Solving First-Order IVPs Using Separation of Variables",
+            "href": "/topics/1179"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "342712",
+        "dom_id": "question-342712",
+        "selector": "#question-342712",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "342744",
+        "dom_id": "question-342744",
+        "selector": "#question-342744",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "600679",
+        "content_id": "14754",
+        "dom_id": "step-600679",
+        "selector": "#step-600679",
+        "step_anchor": "step-8",
+        "title": "Applications of Abel's Identity",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "600674",
+        "content_id": "21870",
+        "dom_id": "step-600674",
+        "selector": "#step-600674",
+        "step_anchor": "step-9",
+        "title": "Using Abel's Identity to Conclude Independence/Dependence",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "342724",
+        "dom_id": "question-342724",
+        "selector": "#question-342724",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "342713",
+        "dom_id": "question-342713",
+        "selector": "#question-342713",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "600678",
+        "content_id": "14753",
+        "dom_id": "step-600678",
+        "selector": "#step-600678",
+        "step_anchor": "step-12",
+        "title": "The Proof of Abel's Identity",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-600667",
+        "filename": "01-step-600667.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-600668",
+        "filename": "02-step-600668.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-342709",
+        "filename": "03-question-342709.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-342710",
+        "filename": "04-question-342710.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-600671",
+        "filename": "05-step-600671.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-342712",
+        "filename": "06-question-342712.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-342744",
+        "filename": "07-question-342744.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-600679",
+        "filename": "08-step-600679.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-600674",
+        "filename": "09-step-600674.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-342724",
+        "filename": "10-question-342724.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-342713",
+        "filename": "11-question-342713.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-600678",
+        "filename": "12-step-600678.png"
+      }
+    ]
+  }
+}

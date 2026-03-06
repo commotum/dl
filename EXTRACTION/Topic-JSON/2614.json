@@ -1,0 +1,346 @@
+{
+  "schema_version": 1,
+  "topic_id": "2614",
+  "topic_title": "Approximating Volumes Using Upper Riemann Sums",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2614.html",
+  "source_url": "https://mathacademy.com/topics/2614",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "35488",
+        "dom_id": "sectionLink-35488",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-35488"
+      },
+      {
+        "index": 2,
+        "step_id": "23451",
+        "dom_id": "sectionLink-23451",
+        "name": "",
+        "title": "Calculating an Expression for the Upper Bound in Terms of Maximum Values",
+        "selector": "#sectionLink-23451"
+      },
+      {
+        "index": 3,
+        "step_id": "23472",
+        "dom_id": "sectionLink-23472",
+        "name": "",
+        "title": "Calculating the Maximum Value of the Function in Each Partition",
+        "selector": "#sectionLink-23472"
+      },
+      {
+        "index": 4,
+        "step_id": "35509",
+        "dom_id": "sectionLink-35509",
+        "name": "",
+        "title": "Updating Our Notation",
+        "selector": "#sectionLink-35509"
+      },
+      {
+        "index": 5,
+        "step_id": "23450",
+        "dom_id": "sectionLink-23450",
+        "name": "",
+        "title": "Calculating an Upper Riemann Sum in the Case of a Strictly Decreasing Function",
+        "selector": "#sectionLink-23450"
+      },
+      {
+        "index": 6,
+        "step_id": "23449",
+        "dom_id": "sectionLink-23449",
+        "name": "",
+        "title": "Calculating an Upper Riemann Sum in the Case of a Strictly Increasing Function",
+        "selector": "#sectionLink-23449"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "477",
+        "name": "Approximating Areas With the Left Riemann Sum",
+        "href": "/topics/approximating-areas-with-the-left-riemann-sum-477"
+      },
+      {
+        "topic_id": "1753",
+        "name": "Volumes of Rectangular Solids",
+        "href": "/topics/volumes-of-rectangular-solids-1753"
+      },
+      {
+        "topic_id": "1899",
+        "name": "The Domain of a Multivariable Function",
+        "href": "/topics/the-domain-of-a-multivariable-function-1899"
+      },
+      {
+        "topic_id": "3697",
+        "name": "Partitions of Intervals",
+        "href": "/topics/partitions-of-intervals-3697"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "35488",
+        "content_id": "5777",
+        "dom_id": "step-35488",
+        "selector": "#step-35488",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "23451",
+        "content_id": "6246",
+        "dom_id": "step-23451",
+        "selector": "#step-23451",
+        "step_anchor": "step-2",
+        "title": "Calculating an Expression for the Upper Bound in Terms of Maximum Values",
+        "key_prerequisites": [
+          {
+            "topic_id": "477",
+            "name": "Approximating Areas With the Left Riemann Sum",
+            "href": "/topics/477"
+          },
+          {
+            "topic_id": "1753",
+            "name": "Volumes of Rectangular Solids",
+            "href": "/topics/1753"
+          },
+          {
+            "topic_id": "3697",
+            "name": "Partitions of Intervals",
+            "href": "/topics/3697"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "122846",
+        "dom_id": "question-122846",
+        "selector": "#question-122846",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "122847",
+        "dom_id": "question-122847",
+        "selector": "#question-122847",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "23472",
+        "content_id": "3957",
+        "dom_id": "step-23472",
+        "selector": "#step-23472",
+        "step_anchor": "step-5",
+        "title": "Calculating the Maximum Value of the Function in Each Partition",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "35509",
+        "content_id": "5783",
+        "dom_id": "step-35509",
+        "selector": "#step-35509",
+        "step_anchor": "step-6",
+        "title": "Updating Our Notation",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "23450",
+        "content_id": "6245",
+        "dom_id": "step-23450",
+        "selector": "#step-23450",
+        "step_anchor": "step-7",
+        "title": "Calculating an Upper Riemann Sum in the Case of a Strictly Decreasing Function",
+        "key_prerequisites": [
+          {
+            "topic_id": "1628",
+            "name": "Increasing and Decreasing Functions",
+            "href": "/topics/1628"
+          },
+          {
+            "topic_id": "4387",
+            "name": "Visualizing Cartesian Products",
+            "href": "/topics/4387"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "75048",
+        "dom_id": "question-75048",
+        "selector": "#question-75048",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "75229",
+        "dom_id": "question-75229",
+        "selector": "#question-75229",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "23449",
+        "content_id": "6244",
+        "dom_id": "step-23449",
+        "selector": "#step-23449",
+        "step_anchor": "step-10",
+        "title": "Calculating an Upper Riemann Sum in the Case of a Strictly Increasing Function",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "75047",
+        "dom_id": "question-75047",
+        "selector": "#question-75047",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "123133",
+        "dom_id": "question-123133",
+        "selector": "#question-123133",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-35488",
+        "filename": "01-step-35488.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-23451",
+        "filename": "02-step-23451.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-122846",
+        "filename": "03-question-122846.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-122847",
+        "filename": "04-question-122847.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-23472",
+        "filename": "05-step-23472.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-35509",
+        "filename": "06-step-35509.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-23450",
+        "filename": "07-step-23450.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-75048",
+        "filename": "08-question-75048.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-75229",
+        "filename": "09-question-75229.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-23449",
+        "filename": "10-step-23449.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-75047",
+        "filename": "11-question-75047.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-123133",
+        "filename": "12-question-123133.png"
+      }
+    ]
+  }
+}

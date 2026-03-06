@@ -1,0 +1,324 @@
+{
+  "schema_version": 1,
+  "topic_id": "825",
+  "topic_title": "Calculating Acceleration for Plane Motion Using Differentiation",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/825.html",
+  "source_url": "https://mathacademy.com/topics/825",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "2176",
+        "dom_id": "sectionLink-2176",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-2176"
+      },
+      {
+        "index": 2,
+        "step_id": "2177",
+        "dom_id": "sectionLink-2177",
+        "name": "",
+        "title": "Finding the Acceleration Vector of a Particle Given Its Velocity Vector",
+        "selector": "#sectionLink-2177"
+      },
+      {
+        "index": 3,
+        "step_id": "26726",
+        "dom_id": "sectionLink-26726",
+        "name": "",
+        "title": "Computing the Acceleration of a Particle at a Given Moment Given Its Velocity Vector",
+        "selector": "#sectionLink-26726"
+      },
+      {
+        "index": 4,
+        "step_id": "2181",
+        "dom_id": "sectionLink-2181",
+        "name": "",
+        "title": "Finding the Acceleration Vector of a Particle Given Its Position Vector",
+        "selector": "#sectionLink-2181"
+      },
+      {
+        "index": 5,
+        "step_id": "26727",
+        "dom_id": "sectionLink-26727",
+        "name": "",
+        "title": "Computing the Acceleration of a Particle at a Given Moment Given Its Position Vector",
+        "selector": "#sectionLink-26727"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "763",
+        "name": "Calculating Velocity for Plane Motion Using Differentiation",
+        "href": "/topics/calculating-velocity-for-plane-motion-using-differentiation-763"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "2176",
+        "content_id": "1108",
+        "dom_id": "step-2176",
+        "selector": "#step-2176",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "2177",
+        "content_id": "620",
+        "dom_id": "step-2177",
+        "selector": "#step-2177",
+        "step_anchor": "step-2",
+        "title": "Finding the Acceleration Vector of a Particle Given Its Velocity Vector",
+        "key_prerequisites": [
+          {
+            "topic_id": "763",
+            "name": "Calculating Velocity for Plane Motion Using Differentiation",
+            "href": "/topics/763"
+          },
+          {
+            "topic_id": "824",
+            "name": "Calculating Acceleration for Straight-Line Motion Using Differentiation",
+            "href": "/topics/824"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "7157",
+        "dom_id": "question-7157",
+        "selector": "#question-7157",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "7156",
+        "dom_id": "question-7156",
+        "selector": "#question-7156",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "26726",
+        "content_id": "7224",
+        "dom_id": "step-26726",
+        "selector": "#step-26726",
+        "step_anchor": "step-5",
+        "title": "Computing the Acceleration of a Particle at a Given Moment Given Its Velocity Vector",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "31675",
+        "dom_id": "question-31675",
+        "selector": "#question-31675",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "6392",
+        "dom_id": "question-6392",
+        "selector": "#question-6392",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "2181",
+        "content_id": "621",
+        "dom_id": "step-2181",
+        "selector": "#step-2181",
+        "step_anchor": "step-8",
+        "title": "Finding the Acceleration Vector of a Particle Given Its Position Vector",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "31678",
+        "dom_id": "question-31678",
+        "selector": "#question-31678",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "31679",
+        "dom_id": "question-31679",
+        "selector": "#question-31679",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "26727",
+        "content_id": "7225",
+        "dom_id": "step-26727",
+        "selector": "#step-26727",
+        "step_anchor": "step-11",
+        "title": "Computing the Acceleration of a Particle at a Given Moment Given Its Position Vector",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "31683",
+        "dom_id": "question-31683",
+        "selector": "#question-31683",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "31685",
+        "dom_id": "question-31685",
+        "selector": "#question-31685",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-2176",
+        "filename": "01-step-2176.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-2177",
+        "filename": "02-step-2177.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-7157",
+        "filename": "03-question-7157.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-7156",
+        "filename": "04-question-7156.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-26726",
+        "filename": "05-step-26726.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-31675",
+        "filename": "06-question-31675.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-6392",
+        "filename": "07-question-6392.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-2181",
+        "filename": "08-step-2181.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-31678",
+        "filename": "09-question-31678.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-31679",
+        "filename": "10-question-31679.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-26727",
+        "filename": "11-step-26727.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-31683",
+        "filename": "12-question-31683.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-31685",
+        "filename": "13-question-31685.png"
+      }
+    ]
+  }
+}

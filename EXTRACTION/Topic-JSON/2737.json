@@ -1,0 +1,384 @@
+{
+  "schema_version": 1,
+  "topic_id": "2737",
+  "topic_title": "Solving Advanced Linear Congruences",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2737.html",
+  "source_url": "https://mathacademy.com/topics/2737",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "137326",
+        "dom_id": "sectionLink-137326",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-137326"
+      },
+      {
+        "index": 2,
+        "step_id": "137327",
+        "dom_id": "sectionLink-137327",
+        "name": "",
+        "title": "Solving by Trial and Error",
+        "selector": "#sectionLink-137327"
+      },
+      {
+        "index": 3,
+        "step_id": "137330",
+        "dom_id": "sectionLink-137330",
+        "name": "",
+        "title": "Determining the Number of Solutions of a Linear Congruence",
+        "selector": "#sectionLink-137330"
+      },
+      {
+        "index": 4,
+        "step_id": "137331",
+        "dom_id": "sectionLink-137331",
+        "name": "",
+        "title": "Identifying Linear Congruences With No Solutions and Many Solutions",
+        "selector": "#sectionLink-137331"
+      },
+      {
+        "index": 5,
+        "step_id": "137334",
+        "dom_id": "sectionLink-137334",
+        "name": "",
+        "title": "Solving Linear Congruences Using the Division Property",
+        "selector": "#sectionLink-137334"
+      },
+      {
+        "index": 6,
+        "step_id": "137335",
+        "dom_id": "sectionLink-137335",
+        "name": "",
+        "title": "Solving Linear Congruences With Many Solutions",
+        "selector": "#sectionLink-137335"
+      },
+      {
+        "index": 7,
+        "step_id": "137338",
+        "dom_id": "sectionLink-137338",
+        "name": "",
+        "title": "Using the Extended Euclidean Algorithm",
+        "selector": "#sectionLink-137338"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2675",
+        "name": "The Division Properties of Modular Arithmetic",
+        "href": "/topics/the-division-properties-of-modular-arithmetic-2675"
+      },
+      {
+        "topic_id": "4839",
+        "name": "Solving Linear Congruences",
+        "href": "/topics/solving-linear-congruences-4839"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "137326",
+        "content_id": "9032",
+        "dom_id": "step-137326",
+        "selector": "#step-137326",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "137327",
+        "content_id": "14607",
+        "dom_id": "step-137327",
+        "selector": "#step-137327",
+        "step_anchor": "step-2",
+        "title": "Solving by Trial and Error",
+        "key_prerequisites": [
+          {
+            "topic_id": "2735",
+            "name": "Additive Inverses Modulo N",
+            "href": "/topics/2735"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "78147",
+        "dom_id": "question-78147",
+        "selector": "#question-78147",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "78148",
+        "dom_id": "question-78148",
+        "selector": "#question-78148",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "137330",
+        "content_id": "9033",
+        "dom_id": "step-137330",
+        "selector": "#step-137330",
+        "step_anchor": "step-5",
+        "title": "Determining the Number of Solutions of a Linear Congruence",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "137331",
+        "content_id": "14608",
+        "dom_id": "step-137331",
+        "selector": "#step-137331",
+        "step_anchor": "step-6",
+        "title": "Identifying Linear Congruences With No Solutions and Many Solutions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "78152",
+        "dom_id": "question-78152",
+        "selector": "#question-78152",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "132398",
+        "dom_id": "question-132398",
+        "selector": "#question-132398",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "137334",
+        "content_id": "9034",
+        "dom_id": "step-137334",
+        "selector": "#step-137334",
+        "step_anchor": "step-9",
+        "title": "Solving Linear Congruences Using the Division Property",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "137335",
+        "content_id": "14609",
+        "dom_id": "step-137335",
+        "selector": "#step-137335",
+        "step_anchor": "step-10",
+        "title": "Solving Linear Congruences With Many Solutions",
+        "key_prerequisites": [
+          {
+            "topic_id": "2675",
+            "name": "The Division Properties of Modular Arithmetic",
+            "href": "/topics/2675"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "132422",
+        "dom_id": "question-132422",
+        "selector": "#question-132422",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "78154",
+        "dom_id": "question-78154",
+        "selector": "#question-78154",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "137338",
+        "content_id": "14663",
+        "dom_id": "step-137338",
+        "selector": "#step-137338",
+        "step_anchor": "step-13",
+        "title": "Using the Extended Euclidean Algorithm",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "213326",
+        "dom_id": "question-213326",
+        "selector": "#question-213326",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "214208",
+        "dom_id": "question-214208",
+        "selector": "#question-214208",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-137326",
+        "filename": "01-step-137326.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-137327",
+        "filename": "02-step-137327.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-78147",
+        "filename": "03-question-78147.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-78148",
+        "filename": "04-question-78148.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-137330",
+        "filename": "05-step-137330.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-137331",
+        "filename": "06-step-137331.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-78152",
+        "filename": "07-question-78152.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-132398",
+        "filename": "08-question-132398.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-137334",
+        "filename": "09-step-137334.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-137335",
+        "filename": "10-step-137335.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-132422",
+        "filename": "11-question-132422.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-78154",
+        "filename": "12-question-78154.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-137338",
+        "filename": "13-step-137338.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-213326",
+        "filename": "14-question-213326.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-214208",
+        "filename": "15-question-214208.png"
+      }
+    ]
+  }
+}

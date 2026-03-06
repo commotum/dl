@@ -1,0 +1,214 @@
+{
+  "schema_version": 1,
+  "topic_id": "3945",
+  "topic_title": "Computing Principal Components",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3945.html",
+  "source_url": "https://mathacademy.com/topics/3945",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "39395",
+        "dom_id": "sectionLink-39395",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-39395"
+      },
+      {
+        "index": 2,
+        "step_id": "39400",
+        "dom_id": "sectionLink-39400",
+        "name": "",
+        "title": "Finding a Principal Component Given a 2x2 Covariance Matrix",
+        "selector": "#sectionLink-39400"
+      },
+      {
+        "index": 3,
+        "step_id": "36991",
+        "dom_id": "sectionLink-36991",
+        "name": "",
+        "title": "Finding a Principal Component Given a 3x3 Covariance Matrix",
+        "selector": "#sectionLink-36991"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1977",
+        "name": "Calculating the Eigenvectors of a 3x3 Matrix With Distinct Eigenvalues",
+        "href": "/topics/calculating-the-eigenvectors-of-a-3x3-matrix-with-distinct-eigenvalues-1977"
+      },
+      {
+        "topic_id": "3775",
+        "name": "Introduction to Principal Component Analysis",
+        "href": "/topics/introduction-to-principal-component-analysis-3775"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 7,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "39395",
+        "content_id": "6507",
+        "dom_id": "step-39395",
+        "selector": "#step-39395",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "39400",
+        "content_id": "10450",
+        "dom_id": "step-39400",
+        "selector": "#step-39400",
+        "step_anchor": "step-2",
+        "title": "Finding a Principal Component Given a 2x2 Covariance Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "991",
+            "name": "Calculating the Eigenvectors of a 2x2 Matrix",
+            "href": "/topics/991"
+          },
+          {
+            "topic_id": "3138",
+            "name": "The Sample Covariance Matrix",
+            "href": "/topics/3138"
+          },
+          {
+            "topic_id": "3775",
+            "name": "Introduction to Principal Component Analysis",
+            "href": "/topics/3775"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "137739",
+        "dom_id": "question-137739",
+        "selector": "#question-137739",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "138512",
+        "dom_id": "question-138512",
+        "selector": "#question-138512",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "36991",
+        "content_id": "9836",
+        "dom_id": "step-36991",
+        "selector": "#step-36991",
+        "step_anchor": "step-5",
+        "title": "Finding a Principal Component Given a 3x3 Covariance Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "1977",
+            "name": "Calculating the Eigenvectors of a 3x3 Matrix With Distinct Eigenvalues",
+            "href": "/topics/1977"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "138519",
+        "dom_id": "question-138519",
+        "selector": "#question-138519",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "137740",
+        "dom_id": "question-137740",
+        "selector": "#question-137740",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-39395",
+        "filename": "01-step-39395.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-39400",
+        "filename": "02-step-39400.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-137739",
+        "filename": "03-question-137739.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-138512",
+        "filename": "04-question-138512.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-36991",
+        "filename": "05-step-36991.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-138519",
+        "filename": "06-question-138519.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-137740",
+        "filename": "07-question-137740.png"
+      }
+    ]
+  }
+}

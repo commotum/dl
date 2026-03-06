@@ -1,0 +1,298 @@
+{
+  "schema_version": 1,
+  "topic_id": "1044",
+  "topic_title": "Introduction to Related Rates",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1044.html",
+  "source_url": "https://mathacademy.com/topics/1044",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "41327",
+        "dom_id": "sectionLink-41327",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-41327"
+      },
+      {
+        "index": 2,
+        "step_id": "41328",
+        "dom_id": "sectionLink-41328",
+        "name": "",
+        "title": "Determining a Rate of Change Given a Related Rate and an Explicit Function",
+        "selector": "#sectionLink-41328"
+      },
+      {
+        "index": 3,
+        "step_id": "41334",
+        "dom_id": "sectionLink-41334",
+        "name": "",
+        "title": "Determining an Angular Rate Given a Related Rate",
+        "selector": "#sectionLink-41334"
+      },
+      {
+        "index": 4,
+        "step_id": "41337",
+        "dom_id": "sectionLink-41337",
+        "name": "",
+        "title": "Determining the Rate of Change of an XY-Coordinate",
+        "selector": "#sectionLink-41337"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "57",
+        "name": "Implicit Differentiation",
+        "href": "/topics/implicit-differentiation-57"
+      },
+      {
+        "topic_id": "284",
+        "name": "Calculating Velocity for Straight-Line Motion Using Differentiation",
+        "href": "/topics/calculating-velocity-for-straight-line-motion-using-differentiation-284"
+      },
+      {
+        "topic_id": "620",
+        "name": "Rates of Change in Applied Contexts",
+        "href": "/topics/rates-of-change-in-applied-contexts-620"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 10,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "41327",
+        "content_id": "6808",
+        "dom_id": "step-41327",
+        "selector": "#step-41327",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "41328",
+        "content_id": "10899",
+        "dom_id": "step-41328",
+        "selector": "#step-41328",
+        "step_anchor": "step-2",
+        "title": "Determining a Rate of Change Given a Related Rate and an Explicit Function",
+        "key_prerequisites": [
+          {
+            "topic_id": "57",
+            "name": "Implicit Differentiation",
+            "href": "/topics/57"
+          },
+          {
+            "topic_id": "1114",
+            "name": "Differentiating Exponential Functions",
+            "href": "/topics/1114"
+          },
+          {
+            "topic_id": "1116",
+            "name": "Differentiating Logarithmic Functions",
+            "href": "/topics/1116"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "48771",
+        "dom_id": "question-48771",
+        "selector": "#question-48771",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "48765",
+        "dom_id": "question-48765",
+        "selector": "#question-48765",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "41334",
+        "content_id": "10901",
+        "dom_id": "step-41334",
+        "selector": "#step-41334",
+        "step_anchor": "step-5",
+        "title": "Determining an Angular Rate Given a Related Rate",
+        "key_prerequisites": [
+          {
+            "topic_id": "268",
+            "name": "Finding Trigonometric Ratios of Special Angles Using the Unit Circle",
+            "href": "/topics/268"
+          },
+          {
+            "topic_id": "280",
+            "name": "Differentiating Trigonometric Functions",
+            "href": "/topics/280"
+          },
+          {
+            "topic_id": "1686",
+            "name": "Differentiating Reciprocal Trigonometric Functions",
+            "href": "/topics/1686"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "48802",
+        "dom_id": "question-48802",
+        "selector": "#question-48802",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "48806",
+        "dom_id": "question-48806",
+        "selector": "#question-48806",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "41337",
+        "content_id": "10902",
+        "dom_id": "step-41337",
+        "selector": "#step-41337",
+        "step_anchor": "step-8",
+        "title": "Determining the Rate of Change of an XY-Coordinate",
+        "key_prerequisites": [
+          {
+            "topic_id": "284",
+            "name": "Calculating Velocity for Straight-Line Motion Using Differentiation",
+            "href": "/topics/284"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "48811",
+        "dom_id": "question-48811",
+        "selector": "#question-48811",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "48814",
+        "dom_id": "question-48814",
+        "selector": "#question-48814",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-41327",
+        "filename": "01-step-41327.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-41328",
+        "filename": "02-step-41328.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-48771",
+        "filename": "03-question-48771.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-48765",
+        "filename": "04-question-48765.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-41334",
+        "filename": "05-step-41334.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-48802",
+        "filename": "06-question-48802.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-48806",
+        "filename": "07-question-48806.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-41337",
+        "filename": "08-step-41337.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-48811",
+        "filename": "09-question-48811.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-48814",
+        "filename": "10-question-48814.png"
+      }
+    ]
+  }
+}

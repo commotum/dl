@@ -1,0 +1,448 @@
+{
+  "schema_version": 1,
+  "topic_id": "2654",
+  "topic_title": "Euler's Totient Function",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2654.html",
+  "source_url": "https://mathacademy.com/topics/2654",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "27779",
+        "dom_id": "sectionLink-27779",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-27779"
+      },
+      {
+        "index": 2,
+        "step_id": "27775",
+        "dom_id": "sectionLink-27775",
+        "name": "",
+        "title": "Evaluating Euler's Totient Function in the Simplest Cases",
+        "selector": "#sectionLink-27775"
+      },
+      {
+        "index": 3,
+        "step_id": "27854",
+        "dom_id": "sectionLink-27854",
+        "name": "",
+        "title": "Euler's Totient Function When the Argument is a Power of a Prime",
+        "selector": "#sectionLink-27854"
+      },
+      {
+        "index": 4,
+        "step_id": "27853",
+        "dom_id": "sectionLink-27853",
+        "name": "",
+        "title": "Evaluating Euler's Totient Function When the Argument is a Prime Raised to a Power",
+        "selector": "#sectionLink-27853"
+      },
+      {
+        "index": 5,
+        "step_id": "27780",
+        "dom_id": "sectionLink-27780",
+        "name": "",
+        "title": "The Multiplicativity of Euler's Totient Function",
+        "selector": "#sectionLink-27780"
+      },
+      {
+        "index": 6,
+        "step_id": "27777",
+        "dom_id": "sectionLink-27777",
+        "name": "",
+        "title": "Evaluating Euler's Totient Function Using the Multiplicative Property",
+        "selector": "#sectionLink-27777"
+      },
+      {
+        "index": 7,
+        "step_id": "27781",
+        "dom_id": "sectionLink-27781",
+        "name": "",
+        "title": "The General Formula for Euler's Totient Function",
+        "selector": "#sectionLink-27781"
+      },
+      {
+        "index": 8,
+        "step_id": "27776",
+        "dom_id": "sectionLink-27776",
+        "name": "",
+        "title": "Evaluating Euler's Totient Function Using the Fundamental Theorem of Arithmetic",
+        "selector": "#sectionLink-27776"
+      },
+      {
+        "index": 9,
+        "step_id": "27797",
+        "dom_id": "sectionLink-27797",
+        "name": "",
+        "title": "Proof of the General Formula",
+        "selector": "#sectionLink-27797"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "470",
+        "name": "Introduction to Functions",
+        "href": "/topics/introduction-to-functions-470"
+      },
+      {
+        "topic_id": "2676",
+        "name": "The Euclidean Algorithm",
+        "href": "/topics/the-euclidean-algorithm-2676"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 17,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "27779",
+        "content_id": "4514",
+        "dom_id": "step-27779",
+        "selector": "#step-27779",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "27775",
+        "content_id": "7481",
+        "dom_id": "step-27775",
+        "selector": "#step-27775",
+        "step_anchor": "step-2",
+        "title": "Evaluating Euler's Totient Function in the Simplest Cases",
+        "key_prerequisites": [
+          {
+            "topic_id": "470",
+            "name": "Introduction to Functions",
+            "href": "/topics/470"
+          },
+          {
+            "topic_id": "840",
+            "name": "Prime and Composite Numbers",
+            "href": "/topics/840"
+          },
+          {
+            "topic_id": "2676",
+            "name": "The Euclidean Algorithm",
+            "href": "/topics/2676"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "84705",
+        "dom_id": "question-84705",
+        "selector": "#question-84705",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "84704",
+        "dom_id": "question-84704",
+        "selector": "#question-84704",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "27854",
+        "content_id": "4528",
+        "dom_id": "step-27854",
+        "selector": "#step-27854",
+        "step_anchor": "step-5",
+        "title": "Euler's Totient Function When the Argument is a Power of a Prime",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "27853",
+        "content_id": "7505",
+        "dom_id": "step-27853",
+        "selector": "#step-27853",
+        "step_anchor": "step-6",
+        "title": "Evaluating Euler's Totient Function When the Argument is a Prime Raised to a Power",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "85169",
+        "dom_id": "question-85169",
+        "selector": "#question-85169",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "85168",
+        "dom_id": "question-85168",
+        "selector": "#question-85168",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "27780",
+        "content_id": "4515",
+        "dom_id": "step-27780",
+        "selector": "#step-27780",
+        "step_anchor": "step-9",
+        "title": "The Multiplicativity of Euler's Totient Function",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "27777",
+        "content_id": "7483",
+        "dom_id": "step-27777",
+        "selector": "#step-27777",
+        "step_anchor": "step-10",
+        "title": "Evaluating Euler's Totient Function Using the Multiplicative Property",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "84707",
+        "dom_id": "question-84707",
+        "selector": "#question-84707",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "84708",
+        "dom_id": "question-84708",
+        "selector": "#question-84708",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "27781",
+        "content_id": "4516",
+        "dom_id": "step-27781",
+        "selector": "#step-27781",
+        "step_anchor": "step-13",
+        "title": "The General Formula for Euler's Totient Function",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "27776",
+        "content_id": "7482",
+        "dom_id": "step-27776",
+        "selector": "#step-27776",
+        "step_anchor": "step-14",
+        "title": "Evaluating Euler's Totient Function Using the Fundamental Theorem of Arithmetic",
+        "key_prerequisites": [
+          {
+            "topic_id": "829",
+            "name": "Prime Factors",
+            "href": "/topics/829"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "84709",
+        "dom_id": "question-84709",
+        "selector": "#question-84709",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "84706",
+        "dom_id": "question-84706",
+        "selector": "#question-84706",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 17,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "27797",
+        "content_id": "4520",
+        "dom_id": "step-27797",
+        "selector": "#step-27797",
+        "step_anchor": "step-17",
+        "title": "Proof of the General Formula",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-27779",
+        "filename": "01-step-27779.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-27775",
+        "filename": "02-step-27775.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-84705",
+        "filename": "03-question-84705.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-84704",
+        "filename": "04-question-84704.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-27854",
+        "filename": "05-step-27854.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-27853",
+        "filename": "06-step-27853.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-85169",
+        "filename": "07-question-85169.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-85168",
+        "filename": "08-question-85168.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-27780",
+        "filename": "09-step-27780.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-27777",
+        "filename": "10-step-27777.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-84707",
+        "filename": "11-question-84707.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-84708",
+        "filename": "12-question-84708.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-27781",
+        "filename": "13-step-27781.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-27776",
+        "filename": "14-step-27776.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-84709",
+        "filename": "15-question-84709.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-84706",
+        "filename": "16-question-84706.png"
+      },
+      {
+        "index": 17,
+        "item_type": "step",
+        "selector": "#step-27797",
+        "filename": "17-step-27797.png"
+      }
+    ]
+  }
+}

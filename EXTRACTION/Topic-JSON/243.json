@@ -1,0 +1,383 @@
+{
+  "schema_version": 1,
+  "topic_id": "243",
+  "topic_title": "Calculating the Dot Product Using Angle and Magnitude",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/243.html",
+  "source_url": "https://mathacademy.com/topics/243",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "15806",
+        "dom_id": "sectionLink-15806",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-15806"
+      },
+      {
+        "index": 2,
+        "step_id": "15807",
+        "dom_id": "sectionLink-15807",
+        "name": "",
+        "title": "Calculating the Dot Product of Two Vectors Given Their Magnitudes and Angle",
+        "selector": "#sectionLink-15807"
+      },
+      {
+        "index": 3,
+        "step_id": "15808",
+        "dom_id": "sectionLink-15808",
+        "name": "",
+        "title": "Calculating the Dot Product of Two Vectors Given Their Magnitudes and Directions",
+        "selector": "#sectionLink-15808"
+      },
+      {
+        "index": 4,
+        "step_id": "15809",
+        "dom_id": "sectionLink-15809",
+        "name": "",
+        "title": "Important Properties",
+        "selector": "#sectionLink-15809"
+      },
+      {
+        "index": 5,
+        "step_id": "15810",
+        "dom_id": "sectionLink-15810",
+        "name": "",
+        "title": "Calculating Dot Product Expressions Using the Properties of the Dot Product",
+        "selector": "#sectionLink-15810"
+      },
+      {
+        "index": 6,
+        "step_id": "15812",
+        "dom_id": "sectionLink-15812",
+        "name": "",
+        "title": "The Dot Product of Perpendicular Vectors",
+        "selector": "#sectionLink-15812"
+      },
+      {
+        "index": 7,
+        "step_id": "15811",
+        "dom_id": "sectionLink-15811",
+        "name": "",
+        "title": "Calculating the Dot Product of Perpendicular Vectors",
+        "selector": "#sectionLink-15811"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "176",
+        "name": "Calculating the Magnitude of Cartesian Vectors in 2D",
+        "href": "/topics/calculating-the-magnitude-of-cartesian-vectors-in-2d-176"
+      },
+      {
+        "topic_id": "3766",
+        "name": "Evaluating Trigonometric Expressions",
+        "href": "/topics/evaluating-trigonometric-expressions-3766"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "15806",
+        "content_id": "2930",
+        "dom_id": "step-15806",
+        "selector": "#step-15806",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "15807",
+        "content_id": "4318",
+        "dom_id": "step-15807",
+        "selector": "#step-15807",
+        "step_anchor": "step-2",
+        "title": "Calculating the Dot Product of Two Vectors Given Their Magnitudes and Angle",
+        "key_prerequisites": [
+          {
+            "topic_id": "176",
+            "name": "Calculating the Magnitude of Cartesian Vectors in 2D",
+            "href": "/topics/176"
+          },
+          {
+            "topic_id": "268",
+            "name": "Finding Trigonometric Ratios of Special Angles Using the Unit Circle",
+            "href": "/topics/268"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "18996",
+        "dom_id": "question-18996",
+        "selector": "#question-18996",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "18994",
+        "dom_id": "question-18994",
+        "selector": "#question-18994",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "15808",
+        "content_id": "4319",
+        "dom_id": "step-15808",
+        "selector": "#step-15808",
+        "step_anchor": "step-5",
+        "title": "Calculating the Dot Product of Two Vectors Given Their Magnitudes and Directions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "1365",
+        "dom_id": "question-1365",
+        "selector": "#question-1365",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "1362",
+        "dom_id": "question-1362",
+        "selector": "#question-1362",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "15809",
+        "content_id": "2931",
+        "dom_id": "step-15809",
+        "selector": "#step-15809",
+        "step_anchor": "step-8",
+        "title": "Important Properties",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "15810",
+        "content_id": "4320",
+        "dom_id": "step-15810",
+        "selector": "#step-15810",
+        "step_anchor": "step-9",
+        "title": "Calculating Dot Product Expressions Using the Properties of the Dot Product",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "18312",
+        "dom_id": "question-18312",
+        "selector": "#question-18312",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "18989",
+        "dom_id": "question-18989",
+        "selector": "#question-18989",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "15812",
+        "content_id": "2932",
+        "dom_id": "step-15812",
+        "selector": "#step-15812",
+        "step_anchor": "step-12",
+        "title": "The Dot Product of Perpendicular Vectors",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "15811",
+        "content_id": "4321",
+        "dom_id": "step-15811",
+        "selector": "#step-15811",
+        "step_anchor": "step-13",
+        "title": "Calculating the Dot Product of Perpendicular Vectors",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "1359",
+        "dom_id": "question-1359",
+        "selector": "#question-1359",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "18991",
+        "dom_id": "question-18991",
+        "selector": "#question-18991",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-15806",
+        "filename": "01-step-15806.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-15807",
+        "filename": "02-step-15807.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-18996",
+        "filename": "03-question-18996.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-18994",
+        "filename": "04-question-18994.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-15808",
+        "filename": "05-step-15808.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-1365",
+        "filename": "06-question-1365.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-1362",
+        "filename": "07-question-1362.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-15809",
+        "filename": "08-step-15809.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-15810",
+        "filename": "09-step-15810.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-18312",
+        "filename": "10-question-18312.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-18989",
+        "filename": "11-question-18989.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-15812",
+        "filename": "12-step-15812.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-15811",
+        "filename": "13-step-15811.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-1359",
+        "filename": "14-question-1359.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-18991",
+        "filename": "15-question-18991.png"
+      }
+    ]
+  }
+}

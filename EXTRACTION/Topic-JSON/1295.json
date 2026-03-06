@@ -1,0 +1,342 @@
+{
+  "schema_version": 1,
+  "topic_id": "1295",
+  "topic_title": "Calculating a Vector Projection",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1295.html",
+  "source_url": "https://mathacademy.com/topics/1295",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "121755",
+        "dom_id": "sectionLink-121755",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-121755"
+      },
+      {
+        "index": 2,
+        "step_id": "187844",
+        "dom_id": "sectionLink-187844",
+        "name": "",
+        "title": "The Direction of the Projection Vector",
+        "selector": "#sectionLink-187844"
+      },
+      {
+        "index": 3,
+        "step_id": "121756",
+        "dom_id": "sectionLink-121756",
+        "name": "",
+        "title": "Calculating a Vector Projection Using Angle and Magnitude",
+        "selector": "#sectionLink-121756"
+      },
+      {
+        "index": 4,
+        "step_id": "121759",
+        "dom_id": "sectionLink-121759",
+        "name": "",
+        "title": "A General Formula",
+        "selector": "#sectionLink-121759"
+      },
+      {
+        "index": 5,
+        "step_id": "121760",
+        "dom_id": "sectionLink-121760",
+        "name": "",
+        "title": "Calculating a Vector Projection Using Components",
+        "selector": "#sectionLink-121760"
+      },
+      {
+        "index": 6,
+        "step_id": "121766",
+        "dom_id": "sectionLink-121766",
+        "name": "",
+        "title": "Projecting Perpendicular Vectors",
+        "selector": "#sectionLink-121766"
+      },
+      {
+        "index": 7,
+        "step_id": "121763",
+        "dom_id": "sectionLink-121763",
+        "name": "",
+        "title": "Perpendicular Vectors",
+        "selector": "#sectionLink-121763"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1285",
+        "name": "Calculating a Scalar Projection",
+        "href": "/topics/calculating-a-scalar-projection-1285"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "121755",
+        "content_id": "9051",
+        "dom_id": "step-121755",
+        "selector": "#step-121755",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "187844",
+        "content_id": "9677",
+        "dom_id": "step-187844",
+        "selector": "#step-187844",
+        "step_anchor": "step-2",
+        "title": "The Direction of the Projection Vector",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "121756",
+        "content_id": "14617",
+        "dom_id": "step-121756",
+        "selector": "#step-121756",
+        "step_anchor": "step-3",
+        "title": "Calculating a Vector Projection Using Angle and Magnitude",
+        "key_prerequisites": [
+          {
+            "topic_id": "1104",
+            "name": "Unit Vectors",
+            "href": "/topics/1104"
+          },
+          {
+            "topic_id": "1285",
+            "name": "Calculating a Scalar Projection",
+            "href": "/topics/1285"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "19219",
+        "dom_id": "question-19219",
+        "selector": "#question-19219",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "71836",
+        "dom_id": "question-71836",
+        "selector": "#question-71836",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "121759",
+        "content_id": "9052",
+        "dom_id": "step-121759",
+        "selector": "#step-121759",
+        "step_anchor": "step-6",
+        "title": "A General Formula",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "121760",
+        "content_id": "14618",
+        "dom_id": "step-121760",
+        "selector": "#step-121760",
+        "step_anchor": "step-7",
+        "title": "Calculating a Vector Projection Using Components",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "126508",
+        "dom_id": "question-126508",
+        "selector": "#question-126508",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "101543",
+        "dom_id": "question-101543",
+        "selector": "#question-101543",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "121766",
+        "content_id": "9059",
+        "dom_id": "step-121766",
+        "selector": "#step-121766",
+        "step_anchor": "step-10",
+        "title": "Projecting Perpendicular Vectors",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "121763",
+        "content_id": "14619",
+        "dom_id": "step-121763",
+        "selector": "#step-121763",
+        "step_anchor": "step-11",
+        "title": "Perpendicular Vectors",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "71668",
+        "dom_id": "question-71668",
+        "selector": "#question-71668",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "212461",
+        "dom_id": "question-212461",
+        "selector": "#question-212461",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-121755",
+        "filename": "01-step-121755.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-187844",
+        "filename": "02-step-187844.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-121756",
+        "filename": "03-step-121756.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-19219",
+        "filename": "04-question-19219.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-71836",
+        "filename": "05-question-71836.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-121759",
+        "filename": "06-step-121759.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-121760",
+        "filename": "07-step-121760.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-126508",
+        "filename": "08-question-126508.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-101543",
+        "filename": "09-question-101543.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-121766",
+        "filename": "10-step-121766.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-121763",
+        "filename": "11-step-121763.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-71668",
+        "filename": "12-question-71668.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-212461",
+        "filename": "13-question-212461.png"
+      }
+    ]
+  }
+}

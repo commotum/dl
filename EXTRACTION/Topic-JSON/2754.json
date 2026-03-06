@@ -1,0 +1,502 @@
+{
+  "schema_version": 1,
+  "topic_id": "2754",
+  "topic_title": "Planar Graphs",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2754.html",
+  "source_url": "https://mathacademy.com/topics/2754",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "417401",
+        "dom_id": "sectionLink-417401",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-417401"
+      },
+      {
+        "index": 2,
+        "step_id": "417402",
+        "dom_id": "sectionLink-417402",
+        "name": "",
+        "title": "Euler's Formula for Planar Graphs",
+        "selector": "#sectionLink-417402"
+      },
+      {
+        "index": 3,
+        "step_id": "417403",
+        "dom_id": "sectionLink-417403",
+        "name": "",
+        "title": "Determining the Number of Faces of a Planar Graph",
+        "selector": "#sectionLink-417403"
+      },
+      {
+        "index": 4,
+        "step_id": "417406",
+        "dom_id": "sectionLink-417406",
+        "name": "",
+        "title": "Using Euler's Formula for Planar Graphs",
+        "selector": "#sectionLink-417406"
+      },
+      {
+        "index": 5,
+        "step_id": "417409",
+        "dom_id": "sectionLink-417409",
+        "name": "",
+        "title": "The Complete Graph K(5) is not Planar",
+        "selector": "#sectionLink-417409"
+      },
+      {
+        "index": 6,
+        "step_id": "417410",
+        "dom_id": "sectionLink-417410",
+        "name": "",
+        "title": "The Complete Bipartite Graph K(3,3) is not Planar",
+        "selector": "#sectionLink-417410"
+      },
+      {
+        "index": 7,
+        "step_id": "417411",
+        "dom_id": "sectionLink-417411",
+        "name": "",
+        "title": "Proving a Graph is Not Planar",
+        "selector": "#sectionLink-417411"
+      },
+      {
+        "index": 8,
+        "step_id": "417414",
+        "dom_id": "sectionLink-417414",
+        "name": "",
+        "title": "Elementary Subdivisions",
+        "selector": "#sectionLink-417414"
+      },
+      {
+        "index": 9,
+        "step_id": "417415",
+        "dom_id": "sectionLink-417415",
+        "name": "",
+        "title": "Homeomorphic Graphs",
+        "selector": "#sectionLink-417415"
+      },
+      {
+        "index": 10,
+        "step_id": "417416",
+        "dom_id": "sectionLink-417416",
+        "name": "",
+        "title": "Applying Subdivisions to a Graph",
+        "selector": "#sectionLink-417416"
+      },
+      {
+        "index": 11,
+        "step_id": "417419",
+        "dom_id": "sectionLink-417419",
+        "name": "",
+        "title": "Kuratowski's Theorem",
+        "selector": "#sectionLink-417419"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2756",
+        "name": "Connected Graphs",
+        "href": "/topics/connected-graphs-2756"
+      },
+      {
+        "topic_id": "3414",
+        "name": "Proof by Contradiction",
+        "href": "/topics/proof-by-contradiction-3414"
+      },
+      {
+        "topic_id": "5639",
+        "name": "Complete and Bipartite Graphs",
+        "href": "/topics/complete-and-bipartite-graphs-5639"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 19,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "417401",
+        "content_id": "10270",
+        "dom_id": "step-417401",
+        "selector": "#step-417401",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "417402",
+        "content_id": "10271",
+        "dom_id": "step-417402",
+        "selector": "#step-417402",
+        "step_anchor": "step-2",
+        "title": "Euler's Formula for Planar Graphs",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "417403",
+        "content_id": "16087",
+        "dom_id": "step-417403",
+        "selector": "#step-417403",
+        "step_anchor": "step-3",
+        "title": "Determining the Number of Faces of a Planar Graph",
+        "key_prerequisites": [
+          {
+            "topic_id": "950",
+            "name": "Introduction to Graphs",
+            "href": "/topics/950"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "257643",
+        "dom_id": "question-257643",
+        "selector": "#question-257643",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "244604",
+        "dom_id": "question-244604",
+        "selector": "#question-244604",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "417406",
+        "content_id": "16083",
+        "dom_id": "step-417406",
+        "selector": "#step-417406",
+        "step_anchor": "step-6",
+        "title": "Using Euler's Formula for Planar Graphs",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "244574",
+        "dom_id": "question-244574",
+        "selector": "#question-244574",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "258321",
+        "dom_id": "question-258321",
+        "selector": "#question-258321",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "417409",
+        "content_id": "10272",
+        "dom_id": "step-417409",
+        "selector": "#step-417409",
+        "step_anchor": "step-9",
+        "title": "The Complete Graph K(5) is not Planar",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "417410",
+        "content_id": "10275",
+        "dom_id": "step-417410",
+        "selector": "#step-417410",
+        "step_anchor": "step-10",
+        "title": "The Complete Bipartite Graph K(3,3) is not Planar",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "417411",
+        "content_id": "16084",
+        "dom_id": "step-417411",
+        "selector": "#step-417411",
+        "step_anchor": "step-11",
+        "title": "Proving a Graph is Not Planar",
+        "key_prerequisites": [
+          {
+            "topic_id": "3414",
+            "name": "Proof by Contradiction",
+            "href": "/topics/3414"
+          },
+          {
+            "topic_id": "5639",
+            "name": "Complete and Bipartite Graphs",
+            "href": "/topics/5639"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "257669",
+        "dom_id": "question-257669",
+        "selector": "#question-257669",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "244615",
+        "dom_id": "question-244615",
+        "selector": "#question-244615",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "417414",
+        "content_id": "10393",
+        "dom_id": "step-417414",
+        "selector": "#step-417414",
+        "step_anchor": "step-14",
+        "title": "Elementary Subdivisions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "417415",
+        "content_id": "11629",
+        "dom_id": "step-417415",
+        "selector": "#step-417415",
+        "step_anchor": "step-15",
+        "title": "Homeomorphic Graphs",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 16,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "417416",
+        "content_id": "16089",
+        "dom_id": "step-417416",
+        "selector": "#step-417416",
+        "step_anchor": "step-16",
+        "title": "Applying Subdivisions to a Graph",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "question_id": "244619",
+        "dom_id": "question-244619",
+        "selector": "#question-244619",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 18,
+        "item_type": "question",
+        "question_id": "257649",
+        "dom_id": "question-257649",
+        "selector": "#question-257649",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 19,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "417419",
+        "content_id": "10392",
+        "dom_id": "step-417419",
+        "selector": "#step-417419",
+        "step_anchor": "step-19",
+        "title": "Kuratowski's Theorem",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-417401",
+        "filename": "01-step-417401.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-417402",
+        "filename": "02-step-417402.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-417403",
+        "filename": "03-step-417403.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-257643",
+        "filename": "04-question-257643.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-244604",
+        "filename": "05-question-244604.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-417406",
+        "filename": "06-step-417406.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-244574",
+        "filename": "07-question-244574.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-258321",
+        "filename": "08-question-258321.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-417409",
+        "filename": "09-step-417409.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-417410",
+        "filename": "10-step-417410.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-417411",
+        "filename": "11-step-417411.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-257669",
+        "filename": "12-question-257669.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-244615",
+        "filename": "13-question-244615.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-417414",
+        "filename": "14-step-417414.png"
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "selector": "#step-417415",
+        "filename": "15-step-417415.png"
+      },
+      {
+        "index": 16,
+        "item_type": "step",
+        "selector": "#step-417416",
+        "filename": "16-step-417416.png"
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "selector": "#question-244619",
+        "filename": "17-question-244619.png"
+      },
+      {
+        "index": 18,
+        "item_type": "question",
+        "selector": "#question-257649",
+        "filename": "18-question-257649.png"
+      },
+      {
+        "index": 19,
+        "item_type": "step",
+        "selector": "#step-417419",
+        "filename": "19-step-417419.png"
+      }
+    ]
+  }
+}

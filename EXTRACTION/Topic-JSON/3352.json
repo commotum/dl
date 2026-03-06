@@ -1,0 +1,369 @@
+{
+  "schema_version": 1,
+  "topic_id": "3352",
+  "topic_title": "Slope Fields for Nonautonomous Differential Equations",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3352.html",
+  "source_url": "https://mathacademy.com/topics/3352",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "31623",
+        "dom_id": "sectionLink-31623",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-31623"
+      },
+      {
+        "index": 2,
+        "step_id": "31618",
+        "dom_id": "sectionLink-31618",
+        "name": "",
+        "title": "Sketching the Slope Field of a Differential Equation at Some Isolated Points",
+        "selector": "#sectionLink-31618"
+      },
+      {
+        "index": 3,
+        "step_id": "31619",
+        "dom_id": "sectionLink-31619",
+        "name": "",
+        "title": "Identifying Quadrants Where a Slope Field Is Positive or Negative",
+        "selector": "#sectionLink-31619"
+      },
+      {
+        "index": 4,
+        "step_id": "31856",
+        "dom_id": "sectionLink-31856",
+        "name": "",
+        "title": "Identifying Rectangular Regions Where a Slope Field Is Positive or Negative",
+        "selector": "#sectionLink-31856"
+      },
+      {
+        "index": 5,
+        "step_id": "34795",
+        "dom_id": "sectionLink-34795",
+        "name": "",
+        "title": "Symmetry in Slope Fields",
+        "selector": "#sectionLink-34795"
+      },
+      {
+        "index": 6,
+        "step_id": "31620",
+        "dom_id": "sectionLink-31620",
+        "name": "",
+        "title": "Identifying a Possible Slope Field Based on the Type of Equation",
+        "selector": "#sectionLink-31620"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3351",
+        "name": "Slope Fields for Autonomous Differential Equations",
+        "href": "/topics/slope-fields-for-autonomous-differential-equations-3351"
+      },
+      {
+        "topic_id": "3684",
+        "name": "Further Solving of Two-Variable Nonlinear Inequalities",
+        "href": "/topics/further-solving-of-two-variable-nonlinear-inequalities-3684"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "31623",
+        "content_id": "5050",
+        "dom_id": "step-31623",
+        "selector": "#step-31623",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "31618",
+        "content_id": "8505",
+        "dom_id": "step-31618",
+        "selector": "#step-31618",
+        "step_anchor": "step-2",
+        "title": "Sketching the Slope Field of a Differential Equation at Some Isolated Points",
+        "key_prerequisites": [
+          {
+            "topic_id": "3276",
+            "name": "Slope Fields for Directly Integrable Differential Equations",
+            "href": "/topics/3276"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "80494",
+        "dom_id": "question-80494",
+        "selector": "#question-80494",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "50099",
+        "dom_id": "question-50099",
+        "selector": "#question-50099",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "31619",
+        "content_id": "8506",
+        "dom_id": "step-31619",
+        "selector": "#step-31619",
+        "step_anchor": "step-5",
+        "title": "Identifying Quadrants Where a Slope Field Is Positive or Negative",
+        "key_prerequisites": [
+          {
+            "topic_id": "2076",
+            "name": "Solving Two-Variable Nonlinear Inequalities",
+            "href": "/topics/2076"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "96767",
+        "dom_id": "question-96767",
+        "selector": "#question-96767",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "97483",
+        "dom_id": "question-97483",
+        "selector": "#question-97483",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "31856",
+        "content_id": "8576",
+        "dom_id": "step-31856",
+        "selector": "#step-31856",
+        "step_anchor": "step-8",
+        "title": "Identifying Rectangular Regions Where a Slope Field Is Positive or Negative",
+        "key_prerequisites": [
+          {
+            "topic_id": "3684",
+            "name": "Further Solving of Two-Variable Nonlinear Inequalities",
+            "href": "/topics/3684"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "96475",
+        "dom_id": "question-96475",
+        "selector": "#question-96475",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "97538",
+        "dom_id": "question-97538",
+        "selector": "#question-97538",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "34795",
+        "content_id": "5668",
+        "dom_id": "step-34795",
+        "selector": "#step-34795",
+        "step_anchor": "step-11",
+        "title": "Symmetry in Slope Fields",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "31620",
+        "content_id": "8507",
+        "dom_id": "step-31620",
+        "selector": "#step-31620",
+        "step_anchor": "step-12",
+        "title": "Identifying a Possible Slope Field Based on the Type of Equation",
+        "key_prerequisites": [
+          {
+            "topic_id": "3351",
+            "name": "Slope Fields for Autonomous Differential Equations",
+            "href": "/topics/3351"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "96476",
+        "dom_id": "question-96476",
+        "selector": "#question-96476",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "96477",
+        "dom_id": "question-96477",
+        "selector": "#question-96477",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-31623",
+        "filename": "01-step-31623.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-31618",
+        "filename": "02-step-31618.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-80494",
+        "filename": "03-question-80494.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-50099",
+        "filename": "04-question-50099.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-31619",
+        "filename": "05-step-31619.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-96767",
+        "filename": "06-question-96767.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-97483",
+        "filename": "07-question-97483.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-31856",
+        "filename": "08-step-31856.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-96475",
+        "filename": "09-question-96475.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-97538",
+        "filename": "10-question-97538.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-34795",
+        "filename": "11-step-34795.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-31620",
+        "filename": "12-step-31620.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-96476",
+        "filename": "13-question-96476.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-96477",
+        "filename": "14-question-96477.png"
+      }
+    ]
+  }
+}

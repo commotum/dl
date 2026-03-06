@@ -1,0 +1,326 @@
+{
+  "schema_version": 1,
+  "topic_id": "2756",
+  "topic_title": "Connected Graphs",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2756.html",
+  "source_url": "https://mathacademy.com/topics/2756",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "416650",
+        "dom_id": "sectionLink-416650",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-416650"
+      },
+      {
+        "index": 2,
+        "step_id": "416651",
+        "dom_id": "sectionLink-416651",
+        "name": "",
+        "title": "Identifying the Number of Connected Components in a Graph",
+        "selector": "#sectionLink-416651"
+      },
+      {
+        "index": 3,
+        "step_id": "416654",
+        "dom_id": "sectionLink-416654",
+        "name": "",
+        "title": "Weakly Connected Graphs",
+        "selector": "#sectionLink-416654"
+      },
+      {
+        "index": 4,
+        "step_id": "416655",
+        "dom_id": "sectionLink-416655",
+        "name": "",
+        "title": "Identifying Connectivity in Undirected and Directed Graphs Given Lists of Edges",
+        "selector": "#sectionLink-416655"
+      },
+      {
+        "index": 5,
+        "step_id": "416658",
+        "dom_id": "sectionLink-416658",
+        "name": "",
+        "title": "Strongly Connected and Unilaterally Connected Graphs",
+        "selector": "#sectionLink-416658"
+      },
+      {
+        "index": 6,
+        "step_id": "416659",
+        "dom_id": "sectionLink-416659",
+        "name": "",
+        "title": "Identifying Strongly Connected and Unilaterally Connected Graphs",
+        "selector": "#sectionLink-416659"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1260",
+        "name": "Subgraphs and Graph Complements",
+        "href": "/topics/subgraphs-and-graph-complements-1260"
+      },
+      {
+        "topic_id": "5431",
+        "name": "Walks, Paths, and Distances in Directed Graphs",
+        "href": "/topics/walks-paths-and-distances-in-directed-graphs-5431"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "416650",
+        "content_id": "11196",
+        "dom_id": "step-416650",
+        "selector": "#step-416650",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "416651",
+        "content_id": "17048",
+        "dom_id": "step-416651",
+        "selector": "#step-416651",
+        "step_anchor": "step-2",
+        "title": "Identifying the Number of Connected Components in a Graph",
+        "key_prerequisites": [
+          {
+            "topic_id": "1260",
+            "name": "Subgraphs and Graph Complements",
+            "href": "/topics/1260"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "258338",
+        "dom_id": "question-258338",
+        "selector": "#question-258338",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "258375",
+        "dom_id": "question-258375",
+        "selector": "#question-258375",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "416654",
+        "content_id": "11370",
+        "dom_id": "step-416654",
+        "selector": "#step-416654",
+        "step_anchor": "step-5",
+        "title": "Weakly Connected Graphs",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "416655",
+        "content_id": "16985",
+        "dom_id": "step-416655",
+        "selector": "#step-416655",
+        "step_anchor": "step-6",
+        "title": "Identifying Connectivity in Undirected and Directed Graphs Given Lists of Edges",
+        "key_prerequisites": [
+          {
+            "topic_id": "951",
+            "name": "Walks, Trails, Paths, and Distances",
+            "href": "/topics/951"
+          },
+          {
+            "topic_id": "5431",
+            "name": "Walks, Paths, and Distances in Directed Graphs",
+            "href": "/topics/5431"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "259438",
+        "dom_id": "question-259438",
+        "selector": "#question-259438",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "259627",
+        "dom_id": "question-259627",
+        "selector": "#question-259627",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "416658",
+        "content_id": "11366",
+        "dom_id": "step-416658",
+        "selector": "#step-416658",
+        "step_anchor": "step-9",
+        "title": "Strongly Connected and Unilaterally Connected Graphs",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "416659",
+        "content_id": "17030",
+        "dom_id": "step-416659",
+        "selector": "#step-416659",
+        "step_anchor": "step-10",
+        "title": "Identifying Strongly Connected and Unilaterally Connected Graphs",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "259441",
+        "dom_id": "question-259441",
+        "selector": "#question-259441",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "262062",
+        "dom_id": "question-262062",
+        "selector": "#question-262062",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-416650",
+        "filename": "01-step-416650.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-416651",
+        "filename": "02-step-416651.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-258338",
+        "filename": "03-question-258338.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-258375",
+        "filename": "04-question-258375.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-416654",
+        "filename": "05-step-416654.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-416655",
+        "filename": "06-step-416655.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-259438",
+        "filename": "07-question-259438.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-259627",
+        "filename": "08-question-259627.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-416658",
+        "filename": "09-step-416658.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-416659",
+        "filename": "10-step-416659.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-259441",
+        "filename": "11-question-259441.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-262062",
+        "filename": "12-question-262062.png"
+      }
+    ]
+  }
+}

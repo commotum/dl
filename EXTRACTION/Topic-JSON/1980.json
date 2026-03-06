@@ -1,0 +1,401 @@
+{
+  "schema_version": 1,
+  "topic_id": "1980",
+  "topic_title": "Tangent Planes to Surfaces",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1980.html",
+  "source_url": "https://mathacademy.com/topics/1980",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "23153",
+        "dom_id": "sectionLink-23153",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-23153"
+      },
+      {
+        "index": 2,
+        "step_id": "25668",
+        "dom_id": "sectionLink-25668",
+        "name": "",
+        "title": "A Note on Differentiability",
+        "selector": "#sectionLink-25668"
+      },
+      {
+        "index": 3,
+        "step_id": "23118",
+        "dom_id": "sectionLink-23118",
+        "name": "",
+        "title": "Calculating the Equation of a Tangent Plane",
+        "selector": "#sectionLink-23118"
+      },
+      {
+        "index": 4,
+        "step_id": "23134",
+        "dom_id": "sectionLink-23134",
+        "name": "",
+        "title": "The Equation of a Tangent Hyperplane",
+        "selector": "#sectionLink-23134"
+      },
+      {
+        "index": 5,
+        "step_id": "23135",
+        "dom_id": "sectionLink-23135",
+        "name": "",
+        "title": "Calculating the Equation of a Tangent Hyperplane",
+        "selector": "#sectionLink-23135"
+      },
+      {
+        "index": 6,
+        "step_id": "23133",
+        "dom_id": "sectionLink-23133",
+        "name": "",
+        "title": "Finding a Normal Vector to a Surface",
+        "selector": "#sectionLink-23133"
+      },
+      {
+        "index": 7,
+        "step_id": "23123",
+        "dom_id": "sectionLink-23123",
+        "name": "",
+        "title": "Finding Points at Which Tangent Planes Have Particular Properties",
+        "selector": "#sectionLink-23123"
+      },
+      {
+        "index": 8,
+        "step_id": "23115",
+        "dom_id": "sectionLink-23115",
+        "name": "",
+        "title": "Defining the Differentiability of Single Variable Functions in Terms of Tangent Lines",
+        "selector": "#sectionLink-23115"
+      },
+      {
+        "index": 9,
+        "step_id": "23116",
+        "dom_id": "sectionLink-23116",
+        "name": "",
+        "title": "Defining the Differentiability of Multivariable Functions in Terms of Tangent Planes",
+        "selector": "#sectionLink-23116"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1792",
+        "name": "Tangent Vectors and Tangent Lines to Curves",
+        "href": "/topics/tangent-vectors-and-tangent-lines-to-curves-1792"
+      },
+      {
+        "topic_id": "1807",
+        "name": "The Cartesian Equation of a Plane",
+        "href": "/topics/the-cartesian-equation-of-a-plane-1807"
+      },
+      {
+        "topic_id": "4096",
+        "name": "Computing Partial Derivatives Using the Rules of Differentiation",
+        "href": "/topics/computing-partial-derivatives-using-the-rules-of-differentiation-4096"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "23153",
+        "content_id": "3921",
+        "dom_id": "step-23153",
+        "selector": "#step-23153",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "25668",
+        "content_id": "4231",
+        "dom_id": "step-25668",
+        "selector": "#step-25668",
+        "step_anchor": "step-2",
+        "title": "A Note on Differentiability",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "23118",
+        "content_id": "6179",
+        "dom_id": "step-23118",
+        "selector": "#step-23118",
+        "step_anchor": "step-3",
+        "title": "Calculating the Equation of a Tangent Plane",
+        "key_prerequisites": [
+          {
+            "topic_id": "1929",
+            "name": "Introduction to Partial Derivatives",
+            "href": "/topics/1929"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "37721",
+        "dom_id": "question-37721",
+        "selector": "#question-37721",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "37595",
+        "dom_id": "question-37595",
+        "selector": "#question-37595",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "23134",
+        "content_id": "3920",
+        "dom_id": "step-23134",
+        "selector": "#step-23134",
+        "step_anchor": "step-6",
+        "title": "The Equation of a Tangent Hyperplane",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "23135",
+        "content_id": "6185",
+        "dom_id": "step-23135",
+        "selector": "#step-23135",
+        "step_anchor": "step-7",
+        "title": "Calculating the Equation of a Tangent Hyperplane",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "37604",
+        "dom_id": "question-37604",
+        "selector": "#question-37604",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "73729",
+        "dom_id": "question-73729",
+        "selector": "#question-73729",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "23133",
+        "content_id": "3919",
+        "dom_id": "step-23133",
+        "selector": "#step-23133",
+        "step_anchor": "step-10",
+        "title": "Finding a Normal Vector to a Surface",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "23123",
+        "content_id": "6182",
+        "dom_id": "step-23123",
+        "selector": "#step-23123",
+        "step_anchor": "step-11",
+        "title": "Finding Points at Which Tangent Planes Have Particular Properties",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "37982",
+        "dom_id": "question-37982",
+        "selector": "#question-37982",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "37993",
+        "dom_id": "question-37993",
+        "selector": "#question-37993",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "23115",
+        "content_id": "3914",
+        "dom_id": "step-23115",
+        "selector": "#step-23115",
+        "step_anchor": "step-14",
+        "title": "Defining the Differentiability of Single Variable Functions in Terms of Tangent Lines",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "23116",
+        "content_id": "3915",
+        "dom_id": "step-23116",
+        "selector": "#step-23116",
+        "step_anchor": "step-15",
+        "title": "Defining the Differentiability of Multivariable Functions in Terms of Tangent Planes",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-23153",
+        "filename": "01-step-23153.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-25668",
+        "filename": "02-step-25668.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-23118",
+        "filename": "03-step-23118.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-37721",
+        "filename": "04-question-37721.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-37595",
+        "filename": "05-question-37595.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-23134",
+        "filename": "06-step-23134.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-23135",
+        "filename": "07-step-23135.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-37604",
+        "filename": "08-question-37604.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-73729",
+        "filename": "09-question-73729.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-23133",
+        "filename": "10-step-23133.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-23123",
+        "filename": "11-step-23123.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-37982",
+        "filename": "12-question-37982.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-37993",
+        "filename": "13-question-37993.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-23115",
+        "filename": "14-step-23115.png"
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "selector": "#step-23116",
+        "filename": "15-step-23116.png"
+      }
+    ]
+  }
+}

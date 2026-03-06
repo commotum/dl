@@ -1,0 +1,369 @@
+{
+  "schema_version": 1,
+  "topic_id": "2126",
+  "topic_title": "Projecting Vectors Onto Subspaces in Inner Product Spaces",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2126.html",
+  "source_url": "https://mathacademy.com/topics/2126",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "32457",
+        "dom_id": "sectionLink-32457",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-32457"
+      },
+      {
+        "index": 2,
+        "step_id": "37245",
+        "dom_id": "sectionLink-37245",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-37245"
+      },
+      {
+        "index": 3,
+        "step_id": "32458",
+        "dom_id": "sectionLink-32458",
+        "name": "",
+        "title": "Finding the Orthogonal Projection of a Vector Onto a One-Dimensional Subspace",
+        "selector": "#sectionLink-32458"
+      },
+      {
+        "index": 4,
+        "step_id": "32459",
+        "dom_id": "sectionLink-32459",
+        "name": "",
+        "title": "Finding the Orthogonal Projection of a Vector Onto a Subspace Spanned by Orthogonal Vectors",
+        "selector": "#sectionLink-32459"
+      },
+      {
+        "index": 5,
+        "step_id": "32460",
+        "dom_id": "sectionLink-32460",
+        "name": "",
+        "title": "The Distance Between a Vector and a Subspace",
+        "selector": "#sectionLink-32460"
+      },
+      {
+        "index": 6,
+        "step_id": "32485",
+        "dom_id": "sectionLink-32485",
+        "name": "",
+        "title": "Calculating the Distance Between a Vector and a Subspace",
+        "selector": "#sectionLink-32485"
+      },
+      {
+        "index": 7,
+        "step_id": "33420",
+        "dom_id": "sectionLink-33420",
+        "name": "",
+        "title": "The Intuition Behind Orthogonal Projections in Inner Product Spaces",
+        "selector": "#sectionLink-33420"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2098",
+        "name": "The Norm of a Vector in Inner Product Spaces",
+        "href": "/topics/the-norm-of-a-vector-in-inner-product-spaces-2098"
+      },
+      {
+        "topic_id": "2123",
+        "name": "Projecting Vectors Onto Subspaces in Euclidean Spaces (Orthogonal Bases)",
+        "href": "/topics/projecting-vectors-onto-subspaces-in-euclidean-spaces-orthogonal-bases-2123"
+      },
+      {
+        "topic_id": "2975",
+        "name": "Evaluating Definite Integrals Using Symmetry",
+        "href": "/topics/evaluating-definite-integrals-using-symmetry-2975"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "32457",
+        "content_id": "5162",
+        "dom_id": "step-32457",
+        "selector": "#step-32457",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "37245",
+        "content_id": "6130",
+        "dom_id": "step-37245",
+        "selector": "#step-37245",
+        "step_anchor": "step-2",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "32458",
+        "content_id": "8729",
+        "dom_id": "step-32458",
+        "selector": "#step-32458",
+        "step_anchor": "step-3",
+        "title": "Finding the Orthogonal Projection of a Vector Onto a One-Dimensional Subspace",
+        "key_prerequisites": [
+          {
+            "topic_id": "2096",
+            "name": "Inner Product Spaces",
+            "href": "/topics/2096"
+          },
+          {
+            "topic_id": "2122",
+            "name": "Projecting Vectors Onto One-Dimensional Subspaces",
+            "href": "/topics/2122"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "104944",
+        "dom_id": "question-104944",
+        "selector": "#question-104944",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "98694",
+        "dom_id": "question-98694",
+        "selector": "#question-98694",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "32459",
+        "content_id": "8730",
+        "dom_id": "step-32459",
+        "selector": "#step-32459",
+        "step_anchor": "step-6",
+        "title": "Finding the Orthogonal Projection of a Vector Onto a Subspace Spanned by Orthogonal Vectors",
+        "key_prerequisites": [
+          {
+            "topic_id": "2123",
+            "name": "Projecting Vectors Onto Subspaces in Euclidean Spaces (Orthogonal Bases)",
+            "href": "/topics/2123"
+          },
+          {
+            "topic_id": "2975",
+            "name": "Evaluating Definite Integrals Using Symmetry",
+            "href": "/topics/2975"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "98689",
+        "dom_id": "question-98689",
+        "selector": "#question-98689",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "105416",
+        "dom_id": "question-105416",
+        "selector": "#question-105416",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "32460",
+        "content_id": "5163",
+        "dom_id": "step-32460",
+        "selector": "#step-32460",
+        "step_anchor": "step-9",
+        "title": "The Distance Between a Vector and a Subspace",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "32485",
+        "content_id": "8733",
+        "dom_id": "step-32485",
+        "selector": "#step-32485",
+        "step_anchor": "step-10",
+        "title": "Calculating the Distance Between a Vector and a Subspace",
+        "key_prerequisites": [
+          {
+            "topic_id": "2098",
+            "name": "The Norm of a Vector in Inner Product Spaces",
+            "href": "/topics/2098"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "98751",
+        "dom_id": "question-98751",
+        "selector": "#question-98751",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "98750",
+        "dom_id": "question-98750",
+        "selector": "#question-98750",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "33420",
+        "content_id": "5343",
+        "dom_id": "step-33420",
+        "selector": "#step-33420",
+        "step_anchor": "step-13",
+        "title": "The Intuition Behind Orthogonal Projections in Inner Product Spaces",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-32457",
+        "filename": "01-step-32457.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-37245",
+        "filename": "02-step-37245.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-32458",
+        "filename": "03-step-32458.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-104944",
+        "filename": "04-question-104944.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-98694",
+        "filename": "05-question-98694.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-32459",
+        "filename": "06-step-32459.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-98689",
+        "filename": "07-question-98689.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-105416",
+        "filename": "08-question-105416.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-32460",
+        "filename": "09-step-32460.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-32485",
+        "filename": "10-step-32485.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-98751",
+        "filename": "11-question-98751.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-98750",
+        "filename": "12-question-98750.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-33420",
+        "filename": "13-step-33420.png"
+      }
+    ]
+  }
+}

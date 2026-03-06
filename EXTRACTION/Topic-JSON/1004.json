@@ -1,0 +1,312 @@
+{
+  "schema_version": 1,
+  "topic_id": "1004",
+  "topic_title": "Solving Inequalities Involving Geometric Sequences",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1004.html",
+  "source_url": "https://mathacademy.com/topics/1004",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "466081",
+        "dom_id": "sectionLink-466081",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-466081"
+      },
+      {
+        "index": 2,
+        "step_id": "466082",
+        "dom_id": "sectionLink-466082",
+        "name": "",
+        "title": "Finding the First Term Exceeding a Given Value",
+        "selector": "#sectionLink-466082"
+      },
+      {
+        "index": 3,
+        "step_id": "466086",
+        "dom_id": "sectionLink-466086",
+        "name": "",
+        "title": "Finding the First Term Smaller Than a Given Value",
+        "selector": "#sectionLink-466086"
+      },
+      {
+        "index": 4,
+        "step_id": "466089",
+        "dom_id": "sectionLink-466089",
+        "name": "",
+        "title": "Cases Where the First Term Is Unknown",
+        "selector": "#sectionLink-466089"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "680",
+        "name": "The Nth Term of a Geometric Sequence",
+        "href": "/topics/the-nth-term-of-a-geometric-sequence-680"
+      },
+      {
+        "topic_id": "685",
+        "name": "Determining Indexes of Terms in Geometric Sequences",
+        "href": "/topics/determining-indexes-of-terms-in-geometric-sequences-685"
+      },
+      {
+        "topic_id": "2857",
+        "name": "Solving Inequalities Involving Exponential Functions",
+        "href": "/topics/solving-inequalities-involving-exponential-functions-2857"
+      },
+      {
+        "topic_id": "3832",
+        "name": "Solving Logarithmic Equations by Combining the Laws of Logarithms",
+        "href": "/topics/solving-logarithmic-equations-by-combining-the-laws-of-logarithms-3832"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "466081",
+        "content_id": "2886",
+        "dom_id": "step-466081",
+        "selector": "#step-466081",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "466082",
+        "content_id": "4243",
+        "dom_id": "step-466082",
+        "selector": "#step-466082",
+        "step_anchor": "step-2",
+        "title": "Finding the First Term Exceeding a Given Value",
+        "key_prerequisites": [
+          {
+            "topic_id": "680",
+            "name": "The Nth Term of a Geometric Sequence",
+            "href": "/topics/680"
+          },
+          {
+            "topic_id": "2857",
+            "name": "Solving Inequalities Involving Exponential Functions",
+            "href": "/topics/2857"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "9737",
+        "dom_id": "question-9737",
+        "selector": "#question-9737",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "9742",
+        "dom_id": "question-9742",
+        "selector": "#question-9742",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "9740",
+        "dom_id": "question-9740",
+        "selector": "#question-9740",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "466086",
+        "content_id": "4244",
+        "dom_id": "step-466086",
+        "selector": "#step-466086",
+        "step_anchor": "step-6",
+        "title": "Finding the First Term Smaller Than a Given Value",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "67493",
+        "dom_id": "question-67493",
+        "selector": "#question-67493",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "9745",
+        "dom_id": "question-9745",
+        "selector": "#question-9745",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "466089",
+        "content_id": "4245",
+        "dom_id": "step-466089",
+        "selector": "#step-466089",
+        "step_anchor": "step-9",
+        "title": "Cases Where the First Term Is Unknown",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "39651",
+        "dom_id": "question-39651",
+        "selector": "#question-39651",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "67515",
+        "dom_id": "question-67515",
+        "selector": "#question-67515",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "39655",
+        "dom_id": "question-39655",
+        "selector": "#question-39655",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-466081",
+        "filename": "01-step-466081.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-466082",
+        "filename": "02-step-466082.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-9737",
+        "filename": "03-question-9737.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-9742",
+        "filename": "04-question-9742.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-9740",
+        "filename": "05-question-9740.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-466086",
+        "filename": "06-step-466086.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-67493",
+        "filename": "07-question-67493.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-9745",
+        "filename": "08-question-9745.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-466089",
+        "filename": "09-step-466089.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-39651",
+        "filename": "10-question-39651.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-67515",
+        "filename": "11-question-67515.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-39655",
+        "filename": "12-question-39655.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,321 @@
+{
+  "schema_version": 1,
+  "topic_id": "680",
+  "topic_title": "The Nth Term of a Geometric Sequence",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/680.html",
+  "source_url": "https://mathacademy.com/topics/680",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "467473",
+        "dom_id": "sectionLink-467473",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-467473"
+      },
+      {
+        "index": 2,
+        "step_id": "467474",
+        "dom_id": "sectionLink-467474",
+        "name": "",
+        "title": "Finding a Particular Term of a Geometric Sequence Given the First Term and Common Ratio",
+        "selector": "#sectionLink-467474"
+      },
+      {
+        "index": 3,
+        "step_id": "467478",
+        "dom_id": "sectionLink-467478",
+        "name": "",
+        "title": "Finding a Formula for the Nth Term of a Geometric Sequence",
+        "selector": "#sectionLink-467478"
+      },
+      {
+        "index": 4,
+        "step_id": "467482",
+        "dom_id": "sectionLink-467482",
+        "name": "",
+        "title": "Finding a Particular Term of a Geometric Sequence Given a Term and the Common Ratio",
+        "selector": "#sectionLink-467482"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "267",
+        "name": "The Product Rule for Exponents",
+        "href": "/topics/the-product-rule-for-exponents-267"
+      },
+      {
+        "topic_id": "1818",
+        "name": "The Recursive Formula for a Geometric Sequence",
+        "href": "/topics/the-recursive-formula-for-a-geometric-sequence-1818"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "467473",
+        "content_id": "1669",
+        "dom_id": "step-467473",
+        "selector": "#step-467473",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "467474",
+        "content_id": "1509",
+        "dom_id": "step-467474",
+        "selector": "#step-467474",
+        "step_anchor": "step-2",
+        "title": "Finding a Particular Term of a Geometric Sequence Given the First Term and Common Ratio",
+        "key_prerequisites": [
+          {
+            "topic_id": "679",
+            "name": "Introduction to Geometric Sequences",
+            "href": "/topics/679"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "39439",
+        "dom_id": "question-39439",
+        "selector": "#question-39439",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "231754",
+        "dom_id": "question-231754",
+        "selector": "#question-231754",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "39440",
+        "dom_id": "question-39440",
+        "selector": "#question-39440",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "467478",
+        "content_id": "1511",
+        "dom_id": "step-467478",
+        "selector": "#step-467478",
+        "step_anchor": "step-6",
+        "title": "Finding a Formula for the Nth Term of a Geometric Sequence",
+        "key_prerequisites": [
+          {
+            "topic_id": "267",
+            "name": "The Product Rule for Exponents",
+            "href": "/topics/267"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "231755",
+        "dom_id": "question-231755",
+        "selector": "#question-231755",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "231756",
+        "dom_id": "question-231756",
+        "selector": "#question-231756",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "9469",
+        "dom_id": "question-9469",
+        "selector": "#question-9469",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "467482",
+        "content_id": "1510",
+        "dom_id": "step-467482",
+        "selector": "#step-467482",
+        "step_anchor": "step-10",
+        "title": "Finding a Particular Term of a Geometric Sequence Given a Term and the Common Ratio",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "231757",
+        "dom_id": "question-231757",
+        "selector": "#question-231757",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "5357",
+        "dom_id": "question-5357",
+        "selector": "#question-5357",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "231759",
+        "dom_id": "question-231759",
+        "selector": "#question-231759",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-467473",
+        "filename": "01-step-467473.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-467474",
+        "filename": "02-step-467474.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-39439",
+        "filename": "03-question-39439.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-231754",
+        "filename": "04-question-231754.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-39440",
+        "filename": "05-question-39440.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-467478",
+        "filename": "06-step-467478.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-231755",
+        "filename": "07-question-231755.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-231756",
+        "filename": "08-question-231756.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-9469",
+        "filename": "09-question-9469.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-467482",
+        "filename": "10-step-467482.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-231757",
+        "filename": "11-question-231757.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-5357",
+        "filename": "12-question-5357.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-231759",
+        "filename": "13-question-231759.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,341 @@
+{
+  "schema_version": 1,
+  "topic_id": "623",
+  "topic_title": "Approximating Trigonometric Functions Using Local Linearity",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/623.html",
+  "source_url": "https://mathacademy.com/topics/623",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "1116",
+        "dom_id": "sectionLink-1116",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-1116"
+      },
+      {
+        "index": 2,
+        "step_id": "1123",
+        "dom_id": "sectionLink-1123",
+        "name": "",
+        "title": "Determining a Coordinate Corresponding to the Tangent Line Approximation of a Function",
+        "selector": "#sectionLink-1123"
+      },
+      {
+        "index": 3,
+        "step_id": "1117",
+        "dom_id": "sectionLink-1117",
+        "name": "",
+        "title": "Computing the Tangent Line Approximation of a Trigonometric Function",
+        "selector": "#sectionLink-1117"
+      },
+      {
+        "index": 4,
+        "step_id": "27312",
+        "dom_id": "sectionLink-27312",
+        "name": "",
+        "title": "Estimating the Value of a Trigonometric Function Using a Tangent Line Approximation",
+        "selector": "#sectionLink-27312"
+      },
+      {
+        "index": 5,
+        "step_id": "1120",
+        "dom_id": "sectionLink-1120",
+        "name": "",
+        "title": "Estimating the Value of a Trigonometric Function Given in Degrees Using a Tangent Line Approximation",
+        "selector": "#sectionLink-1120"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "621",
+        "name": "Approximating Functions Using Local Linearity and Linearization",
+        "href": "/topics/approximating-functions-using-local-linearity-and-linearization-621"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "1116",
+        "content_id": "588",
+        "dom_id": "step-1116",
+        "selector": "#step-1116",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "1123",
+        "content_id": "299",
+        "dom_id": "step-1123",
+        "selector": "#step-1123",
+        "step_anchor": "step-2",
+        "title": "Determining a Coordinate Corresponding to the Tangent Line Approximation of a Function",
+        "key_prerequisites": [
+          {
+            "topic_id": "621",
+            "name": "Approximating Functions Using Local Linearity and Linearization",
+            "href": "/topics/621"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "48704",
+        "dom_id": "question-48704",
+        "selector": "#question-48704",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "48703",
+        "dom_id": "question-48703",
+        "selector": "#question-48703",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "1117",
+        "content_id": "297",
+        "dom_id": "step-1117",
+        "selector": "#step-1117",
+        "step_anchor": "step-5",
+        "title": "Computing the Tangent Line Approximation of a Trigonometric Function",
+        "key_prerequisites": [
+          {
+            "topic_id": "268",
+            "name": "Finding Trigonometric Ratios of Special Angles Using the Unit Circle",
+            "href": "/topics/268"
+          },
+          {
+            "topic_id": "280",
+            "name": "Differentiating Trigonometric Functions",
+            "href": "/topics/280"
+          },
+          {
+            "topic_id": "1686",
+            "name": "Differentiating Reciprocal Trigonometric Functions",
+            "href": "/topics/1686"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "48360",
+        "dom_id": "question-48360",
+        "selector": "#question-48360",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "48674",
+        "dom_id": "question-48674",
+        "selector": "#question-48674",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "27312",
+        "content_id": "7356",
+        "dom_id": "step-27312",
+        "selector": "#step-27312",
+        "step_anchor": "step-8",
+        "title": "Estimating the Value of a Trigonometric Function Using a Tangent Line Approximation",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "48359",
+        "dom_id": "question-48359",
+        "selector": "#question-48359",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "48411",
+        "dom_id": "question-48411",
+        "selector": "#question-48411",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "1120",
+        "content_id": "298",
+        "dom_id": "step-1120",
+        "selector": "#step-1120",
+        "step_anchor": "step-11",
+        "title": "Estimating the Value of a Trigonometric Function Given in Degrees Using a Tangent Line Approximation",
+        "key_prerequisites": [
+          {
+            "topic_id": "764",
+            "name": "Introduction to Radians",
+            "href": "/topics/764"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "48420",
+        "dom_id": "question-48420",
+        "selector": "#question-48420",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "48409",
+        "dom_id": "question-48409",
+        "selector": "#question-48409",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-1116",
+        "filename": "01-step-1116.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-1123",
+        "filename": "02-step-1123.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-48704",
+        "filename": "03-question-48704.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-48703",
+        "filename": "04-question-48703.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-1117",
+        "filename": "05-step-1117.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-48360",
+        "filename": "06-question-48360.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-48674",
+        "filename": "07-question-48674.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-27312",
+        "filename": "08-step-27312.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-48359",
+        "filename": "09-question-48359.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-48411",
+        "filename": "10-question-48411.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-1120",
+        "filename": "11-step-1120.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-48420",
+        "filename": "12-question-48420.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-48409",
+        "filename": "13-question-48409.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,336 @@
+{
+  "schema_version": 1,
+  "topic_id": "1837",
+  "topic_title": "The Arc Length of a Vector-Valued Function",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1837.html",
+  "source_url": "https://mathacademy.com/topics/1837",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "10286",
+        "dom_id": "sectionLink-10286",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-10286"
+      },
+      {
+        "index": 2,
+        "step_id": "45257",
+        "dom_id": "sectionLink-45257",
+        "name": "",
+        "title": "A Concrete Example",
+        "selector": "#sectionLink-45257"
+      },
+      {
+        "index": 3,
+        "step_id": "10287",
+        "dom_id": "sectionLink-10287",
+        "name": "",
+        "title": "Finding an Integral Expression For the Arc Length of a Curve",
+        "selector": "#sectionLink-10287"
+      },
+      {
+        "index": 4,
+        "step_id": "10290",
+        "dom_id": "sectionLink-10290",
+        "name": "",
+        "title": "Computing the Arc Length of a Planar Curve",
+        "selector": "#sectionLink-10290"
+      },
+      {
+        "index": 5,
+        "step_id": "23668",
+        "dom_id": "sectionLink-23668",
+        "name": "",
+        "title": "Computing the Arc Length of a Three-Dimensional Spatial Curve",
+        "selector": "#sectionLink-23668"
+      },
+      {
+        "index": 6,
+        "step_id": "10293",
+        "dom_id": "sectionLink-10293",
+        "name": "",
+        "title": "Deriving the Arc Length Formula",
+        "selector": "#sectionLink-10293"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "207",
+        "name": "Simplifying Expressions Using the Pythagorean Identity",
+        "href": "/topics/simplifying-expressions-using-the-pythagorean-identity-207"
+      },
+      {
+        "topic_id": "997",
+        "name": "The Arc Length of a Parametric Curve",
+        "href": "/topics/the-arc-length-of-a-parametric-curve-997"
+      },
+      {
+        "topic_id": "4139",
+        "name": "Differentiating Vector-Valued Functions",
+        "href": "/topics/differentiating-vector-valued-functions-4139"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "10286",
+        "content_id": "2373",
+        "dom_id": "step-10286",
+        "selector": "#step-10286",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "45257",
+        "content_id": "7824",
+        "dom_id": "step-45257",
+        "selector": "#step-45257",
+        "step_anchor": "step-2",
+        "title": "A Concrete Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "10287",
+        "content_id": "3063",
+        "dom_id": "step-10287",
+        "selector": "#step-10287",
+        "step_anchor": "step-3",
+        "title": "Finding an Integral Expression For the Arc Length of a Curve",
+        "key_prerequisites": [
+          {
+            "topic_id": "997",
+            "name": "The Arc Length of a Parametric Curve",
+            "href": "/topics/997"
+          },
+          {
+            "topic_id": "1277",
+            "name": "Calculating the Magnitude of Cartesian Vectors in 3D",
+            "href": "/topics/1277"
+          },
+          {
+            "topic_id": "4139",
+            "name": "Differentiating Vector-Valued Functions",
+            "href": "/topics/4139"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "33862",
+        "dom_id": "question-33862",
+        "selector": "#question-33862",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "33728",
+        "dom_id": "question-33728",
+        "selector": "#question-33728",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "10290",
+        "content_id": "3064",
+        "dom_id": "step-10290",
+        "selector": "#step-10290",
+        "step_anchor": "step-6",
+        "title": "Computing the Arc Length of a Planar Curve",
+        "key_prerequisites": [
+          {
+            "topic_id": "207",
+            "name": "Simplifying Expressions Using the Pythagorean Identity",
+            "href": "/topics/207"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "77065",
+        "dom_id": "question-77065",
+        "selector": "#question-77065",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "77066",
+        "dom_id": "question-77066",
+        "selector": "#question-77066",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "23668",
+        "content_id": "6303",
+        "dom_id": "step-23668",
+        "selector": "#step-23668",
+        "step_anchor": "step-9",
+        "title": "Computing the Arc Length of a Three-Dimensional Spatial Curve",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "33759",
+        "dom_id": "question-33759",
+        "selector": "#question-33759",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "33779",
+        "dom_id": "question-33779",
+        "selector": "#question-33779",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "10293",
+        "content_id": "2374",
+        "dom_id": "step-10293",
+        "selector": "#step-10293",
+        "step_anchor": "step-12",
+        "title": "Deriving the Arc Length Formula",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-10286",
+        "filename": "01-step-10286.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-45257",
+        "filename": "02-step-45257.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-10287",
+        "filename": "03-step-10287.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-33862",
+        "filename": "04-question-33862.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-33728",
+        "filename": "05-question-33728.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-10290",
+        "filename": "06-step-10290.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-77065",
+        "filename": "07-question-77065.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-77066",
+        "filename": "08-question-77066.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-23668",
+        "filename": "09-step-23668.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-33759",
+        "filename": "10-question-33759.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-33779",
+        "filename": "11-question-33779.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-10293",
+        "filename": "12-step-10293.png"
+      }
+    ]
+  }
+}

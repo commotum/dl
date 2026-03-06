@@ -1,0 +1,336 @@
+{
+  "schema_version": 1,
+  "topic_id": "4149",
+  "topic_title": "The Inverse Function Theorem",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/4149.html",
+  "source_url": "https://mathacademy.com/topics/4149",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "42404",
+        "dom_id": "sectionLink-42404",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-42404"
+      },
+      {
+        "index": 2,
+        "step_id": "44598",
+        "dom_id": "sectionLink-44598",
+        "name": "",
+        "title": "Identifying True Statements Regarding the Inverse Function Theorem",
+        "selector": "#sectionLink-44598"
+      },
+      {
+        "index": 3,
+        "step_id": "26206",
+        "dom_id": "sectionLink-26206",
+        "name": "",
+        "title": "Critical Points of Transformations",
+        "selector": "#sectionLink-26206"
+      },
+      {
+        "index": 4,
+        "step_id": "26205",
+        "dom_id": "sectionLink-26205",
+        "name": "",
+        "title": "Determining the Critical Points of a Transformation",
+        "selector": "#sectionLink-26205"
+      },
+      {
+        "index": 5,
+        "step_id": "44589",
+        "dom_id": "sectionLink-44589",
+        "name": "",
+        "title": "The Inverse Function Theorem for Transformations",
+        "selector": "#sectionLink-44589"
+      },
+      {
+        "index": 6,
+        "step_id": "42423",
+        "dom_id": "sectionLink-42423",
+        "name": "",
+        "title": "Jacobian Determinants of Inverse Transformations",
+        "selector": "#sectionLink-42423"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "291",
+        "name": "Differentiating an Inverse Function at a Point",
+        "href": "/topics/differentiating-an-inverse-function-at-a-point-291"
+      },
+      {
+        "topic_id": "1691",
+        "name": "Continuity and Differentiability of Functions",
+        "href": "/topics/continuity-and-differentiability-of-functions-1691"
+      },
+      {
+        "topic_id": "1999",
+        "name": "The Jacobian",
+        "href": "/topics/the-jacobian-1999"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "42404",
+        "content_id": "7036",
+        "dom_id": "step-42404",
+        "selector": "#step-42404",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44598",
+        "content_id": "12416",
+        "dom_id": "step-44598",
+        "selector": "#step-44598",
+        "step_anchor": "step-2",
+        "title": "Identifying True Statements Regarding the Inverse Function Theorem",
+        "key_prerequisites": [
+          {
+            "topic_id": "291",
+            "name": "Differentiating an Inverse Function at a Point",
+            "href": "/topics/291"
+          },
+          {
+            "topic_id": "1691",
+            "name": "Continuity and Differentiability of Functions",
+            "href": "/topics/1691"
+          },
+          {
+            "topic_id": "1889",
+            "name": "Invertible Functions",
+            "href": "/topics/1889"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "161829",
+        "dom_id": "question-161829",
+        "selector": "#question-161829",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "161828",
+        "dom_id": "question-161828",
+        "selector": "#question-161828",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "26206",
+        "content_id": "4312",
+        "dom_id": "step-26206",
+        "selector": "#step-26206",
+        "step_anchor": "step-5",
+        "title": "Critical Points of Transformations",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "26205",
+        "content_id": "7127",
+        "dom_id": "step-26205",
+        "selector": "#step-26205",
+        "step_anchor": "step-6",
+        "title": "Determining the Critical Points of a Transformation",
+        "key_prerequisites": [
+          {
+            "topic_id": "1999",
+            "name": "The Jacobian",
+            "href": "/topics/1999"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "38079",
+        "dom_id": "question-38079",
+        "selector": "#question-38079",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "81169",
+        "dom_id": "question-81169",
+        "selector": "#question-81169",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44589",
+        "content_id": "7678",
+        "dom_id": "step-44589",
+        "selector": "#step-44589",
+        "step_anchor": "step-9",
+        "title": "The Inverse Function Theorem for Transformations",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "42423",
+        "content_id": "11157",
+        "dom_id": "step-42423",
+        "selector": "#step-42423",
+        "step_anchor": "step-10",
+        "title": "Jacobian Determinants of Inverse Transformations",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "81319",
+        "dom_id": "question-81319",
+        "selector": "#question-81319",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "81305",
+        "dom_id": "question-81305",
+        "selector": "#question-81305",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-42404",
+        "filename": "01-step-42404.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-44598",
+        "filename": "02-step-44598.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-161829",
+        "filename": "03-question-161829.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-161828",
+        "filename": "04-question-161828.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-26206",
+        "filename": "05-step-26206.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-26205",
+        "filename": "06-step-26205.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-38079",
+        "filename": "07-question-38079.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-81169",
+        "filename": "08-question-81169.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-44589",
+        "filename": "09-step-44589.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-42423",
+        "filename": "10-step-42423.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-81319",
+        "filename": "11-question-81319.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-81305",
+        "filename": "12-question-81305.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,374 @@
+{
+  "schema_version": 1,
+  "topic_id": "2973",
+  "topic_title": "Variation of Parameters for First-Order Linear ODEs",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2973.html",
+  "source_url": "https://mathacademy.com/topics/2973",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "593160",
+        "dom_id": "sectionLink-593160",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-593160"
+      },
+      {
+        "index": 2,
+        "step_id": "593161",
+        "dom_id": "sectionLink-593161",
+        "name": "",
+        "title": "Finding a Suitable Variation of Parameters Ansatz",
+        "selector": "#sectionLink-593161"
+      },
+      {
+        "index": 3,
+        "step_id": "593164",
+        "dom_id": "sectionLink-593164",
+        "name": "",
+        "title": "Applying Variation of Parameters",
+        "selector": "#sectionLink-593164"
+      },
+      {
+        "index": 4,
+        "step_id": "593165",
+        "dom_id": "sectionLink-593165",
+        "name": "",
+        "title": "Solving First-Order Linear ODEs Using Variation of Parameters",
+        "selector": "#sectionLink-593165"
+      },
+      {
+        "index": 5,
+        "step_id": "593168",
+        "dom_id": "sectionLink-593168",
+        "name": "",
+        "title": "Cases When the Forcing Term is Part of the Complementary Solution",
+        "selector": "#sectionLink-593168"
+      },
+      {
+        "index": 6,
+        "step_id": "593169",
+        "dom_id": "sectionLink-593169",
+        "name": "",
+        "title": "Solving First-Order Linear ODEs Using VOP When the Forcing Term is Part of the Complementary Solution",
+        "selector": "#sectionLink-593169"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "967",
+        "name": "The Hyperbolic Functions",
+        "href": "/topics/the-hyperbolic-functions-967"
+      },
+      {
+        "topic_id": "6679",
+        "name": "Solving First-Order Linear ODEs With Exponential Forcing",
+        "href": "/topics/solving-first-order-linear-odes-with-exponential-forcing-6679"
+      },
+      {
+        "topic_id": "6680",
+        "name": "Solving First-Order Linear ODEs With Sinusoidal Forcing",
+        "href": "/topics/solving-first-order-linear-odes-with-sinusoidal-forcing-6680"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "593160",
+        "content_id": "4691",
+        "dom_id": "step-593160",
+        "selector": "#step-593160",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "593161",
+        "content_id": "21774",
+        "dom_id": "step-593161",
+        "selector": "#step-593161",
+        "step_anchor": "step-2",
+        "title": "Finding a Suitable Variation of Parameters Ansatz",
+        "key_prerequisites": [
+          {
+            "topic_id": "967",
+            "name": "The Hyperbolic Functions",
+            "href": "/topics/967"
+          },
+          {
+            "topic_id": "6678",
+            "name": "General Solutions of First-Order Linear ODEs",
+            "href": "/topics/6678"
+          },
+          {
+            "topic_id": "6679",
+            "name": "Solving First-Order Linear ODEs With Exponential Forcing",
+            "href": "/topics/6679"
+          },
+          {
+            "topic_id": "6680",
+            "name": "Solving First-Order Linear ODEs With Sinusoidal Forcing",
+            "href": "/topics/6680"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "337251",
+        "dom_id": "question-337251",
+        "selector": "#question-337251",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "337171",
+        "dom_id": "question-337171",
+        "selector": "#question-337171",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "593164",
+        "content_id": "14600",
+        "dom_id": "step-593164",
+        "selector": "#step-593164",
+        "step_anchor": "step-5",
+        "title": "Applying Variation of Parameters",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "593165",
+        "content_id": "21775",
+        "dom_id": "step-593165",
+        "selector": "#step-593165",
+        "step_anchor": "step-6",
+        "title": "Solving First-Order Linear ODEs Using Variation of Parameters",
+        "key_prerequisites": [
+          {
+            "topic_id": "1007",
+            "name": "The Chain Rule With Exponential Functions",
+            "href": "/topics/1007"
+          },
+          {
+            "topic_id": "1061",
+            "name": "Solving First-Order ODEs Using Direct Integration",
+            "href": "/topics/1061"
+          },
+          {
+            "topic_id": "1109",
+            "name": "The Product Rule for Differentiation",
+            "href": "/topics/1109"
+          },
+          {
+            "topic_id": "1112",
+            "name": "Integrating Exponential Functions Using Linear Substitution",
+            "href": "/topics/1112"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "337174",
+        "dom_id": "question-337174",
+        "selector": "#question-337174",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "337175",
+        "dom_id": "question-337175",
+        "selector": "#question-337175",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "593168",
+        "content_id": "14601",
+        "dom_id": "step-593168",
+        "selector": "#step-593168",
+        "step_anchor": "step-9",
+        "title": "Cases When the Forcing Term is Part of the Complementary Solution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "593169",
+        "content_id": "21777",
+        "dom_id": "step-593169",
+        "selector": "#step-593169",
+        "step_anchor": "step-10",
+        "title": "Solving First-Order Linear ODEs Using VOP When the Forcing Term is Part of the Complementary Solution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "337177",
+        "dom_id": "question-337177",
+        "selector": "#question-337177",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "337179",
+        "dom_id": "question-337179",
+        "selector": "#question-337179",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "337475",
+        "dom_id": "question-337475",
+        "selector": "#question-337475",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-593160",
+        "filename": "01-step-593160.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-593161",
+        "filename": "02-step-593161.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-337251",
+        "filename": "03-question-337251.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-337171",
+        "filename": "04-question-337171.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-593164",
+        "filename": "05-step-593164.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-593165",
+        "filename": "06-step-593165.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-337174",
+        "filename": "07-question-337174.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-337175",
+        "filename": "08-question-337175.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-593168",
+        "filename": "09-step-593168.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-593169",
+        "filename": "10-step-593169.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-337177",
+        "filename": "11-question-337177.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-337179",
+        "filename": "12-question-337179.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-337475",
+        "filename": "13-question-337475.png"
+      }
+    ]
+  }
+}

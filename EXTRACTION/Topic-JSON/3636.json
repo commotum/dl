@@ -1,0 +1,394 @@
+{
+  "schema_version": 1,
+  "topic_id": "3636",
+  "topic_title": "Marginal Distributions for Continuous Random Variables",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3636.html",
+  "source_url": "https://mathacademy.com/topics/3636",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "34136",
+        "dom_id": "sectionLink-34136",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-34136"
+      },
+      {
+        "index": 2,
+        "step_id": "38107",
+        "dom_id": "sectionLink-38107",
+        "name": "",
+        "title": "A Concrete Example",
+        "selector": "#sectionLink-38107"
+      },
+      {
+        "index": 3,
+        "step_id": "34284",
+        "dom_id": "sectionLink-34284",
+        "name": "",
+        "title": "Finding a Marginal Distribution From a Joint Distribution",
+        "selector": "#sectionLink-34284"
+      },
+      {
+        "index": 4,
+        "step_id": "34287",
+        "dom_id": "sectionLink-34287",
+        "name": "",
+        "title": "Finding a Marginal Probability From a Joint Distribution",
+        "selector": "#sectionLink-34287"
+      },
+      {
+        "index": 5,
+        "step_id": "37919",
+        "dom_id": "sectionLink-37919",
+        "name": "",
+        "title": "Finding a Marginal Distribution From a Joint Distribution: Non-Rectangular Domains",
+        "selector": "#sectionLink-37919"
+      },
+      {
+        "index": 6,
+        "step_id": "38110",
+        "dom_id": "sectionLink-38110",
+        "name": "",
+        "title": "Marginal Cumulative Distribution Functions",
+        "selector": "#sectionLink-38110"
+      },
+      {
+        "index": 7,
+        "step_id": "34294",
+        "dom_id": "sectionLink-34294",
+        "name": "",
+        "title": "Finding a Marginal CDF",
+        "selector": "#sectionLink-34294"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2163",
+        "name": "Cumulative Distribution Functions for Continuous Random Variables",
+        "href": "/topics/cumulative-distribution-functions-for-continuous-random-variables-2163"
+      },
+      {
+        "topic_id": "3002",
+        "name": "Marginal Distributions for Discrete Random Variables",
+        "href": "/topics/marginal-distributions-for-discrete-random-variables-3002"
+      },
+      {
+        "topic_id": "3052",
+        "name": "Joint Distributions for Continuous Random Variables",
+        "href": "/topics/joint-distributions-for-continuous-random-variables-3052"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "34136",
+        "content_id": "5478",
+        "dom_id": "step-34136",
+        "selector": "#step-34136",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "38107",
+        "content_id": "6292",
+        "dom_id": "step-38107",
+        "selector": "#step-38107",
+        "step_anchor": "step-2",
+        "title": "A Concrete Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "34284",
+        "content_id": "9192",
+        "dom_id": "step-34284",
+        "selector": "#step-34284",
+        "step_anchor": "step-3",
+        "title": "Finding a Marginal Distribution From a Joint Distribution",
+        "key_prerequisites": [
+          {
+            "topic_id": "3002",
+            "name": "Marginal Distributions for Discrete Random Variables",
+            "href": "/topics/3002"
+          },
+          {
+            "topic_id": "3052",
+            "name": "Joint Distributions for Continuous Random Variables",
+            "href": "/topics/3052"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "110408",
+        "dom_id": "question-110408",
+        "selector": "#question-110408",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "110409",
+        "dom_id": "question-110409",
+        "selector": "#question-110409",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "34287",
+        "content_id": "9193",
+        "dom_id": "step-34287",
+        "selector": "#step-34287",
+        "step_anchor": "step-6",
+        "title": "Finding a Marginal Probability From a Joint Distribution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "110417",
+        "dom_id": "question-110417",
+        "selector": "#question-110417",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "110416",
+        "dom_id": "question-110416",
+        "selector": "#question-110416",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "37919",
+        "content_id": "10048",
+        "dom_id": "step-37919",
+        "selector": "#step-37919",
+        "step_anchor": "step-9",
+        "title": "Finding a Marginal Distribution From a Joint Distribution: Non-Rectangular Domains",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "110410",
+        "dom_id": "question-110410",
+        "selector": "#question-110410",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "142856",
+        "dom_id": "question-142856",
+        "selector": "#question-142856",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "38110",
+        "content_id": "6293",
+        "dom_id": "step-38110",
+        "selector": "#step-38110",
+        "step_anchor": "step-12",
+        "title": "Marginal Cumulative Distribution Functions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "34294",
+        "content_id": "9195",
+        "dom_id": "step-34294",
+        "selector": "#step-34294",
+        "step_anchor": "step-13",
+        "title": "Finding a Marginal CDF",
+        "key_prerequisites": [
+          {
+            "topic_id": "2163",
+            "name": "Cumulative Distribution Functions for Continuous Random Variables",
+            "href": "/topics/2163"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "110422",
+        "dom_id": "question-110422",
+        "selector": "#question-110422",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "142925",
+        "dom_id": "question-142925",
+        "selector": "#question-142925",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-34136",
+        "filename": "01-step-34136.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-38107",
+        "filename": "02-step-38107.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-34284",
+        "filename": "03-step-34284.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-110408",
+        "filename": "04-question-110408.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-110409",
+        "filename": "05-question-110409.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-34287",
+        "filename": "06-step-34287.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-110417",
+        "filename": "07-question-110417.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-110416",
+        "filename": "08-question-110416.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-37919",
+        "filename": "09-step-37919.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-110410",
+        "filename": "10-question-110410.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-142856",
+        "filename": "11-question-142856.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-38110",
+        "filename": "12-step-38110.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-34294",
+        "filename": "13-step-34294.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-110422",
+        "filename": "14-question-110422.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-142925",
+        "filename": "15-question-142925.png"
+      }
+    ]
+  }
+}

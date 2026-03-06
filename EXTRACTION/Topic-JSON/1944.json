@@ -1,0 +1,358 @@
+{
+  "schema_version": 1,
+  "topic_id": "1944",
+  "topic_title": "The Second Partial Derivatives Test",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1944.html",
+  "source_url": "https://mathacademy.com/topics/1944",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "45414",
+        "dom_id": "sectionLink-45414",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-45414"
+      },
+      {
+        "index": 2,
+        "step_id": "45415",
+        "dom_id": "sectionLink-45415",
+        "name": "",
+        "title": "Finding the Critical Points of a Function",
+        "selector": "#sectionLink-45415"
+      },
+      {
+        "index": 3,
+        "step_id": "45418",
+        "dom_id": "sectionLink-45418",
+        "name": "",
+        "title": "Classifying Stationary Points",
+        "selector": "#sectionLink-45418"
+      },
+      {
+        "index": 4,
+        "step_id": "45419",
+        "dom_id": "sectionLink-45419",
+        "name": "",
+        "title": "The Second Partial Derivatives Test",
+        "selector": "#sectionLink-45419"
+      },
+      {
+        "index": 5,
+        "step_id": "45420",
+        "dom_id": "sectionLink-45420",
+        "name": "",
+        "title": "Classifying a Critical Point Using the Second Partial Derivatives Test",
+        "selector": "#sectionLink-45420"
+      },
+      {
+        "index": 6,
+        "step_id": "45423",
+        "dom_id": "sectionLink-45423",
+        "name": "",
+        "title": "Finding and Classifying All Critical Points Using the Second Partial Derivatives Test",
+        "selector": "#sectionLink-45423"
+      },
+      {
+        "index": 7,
+        "step_id": "45457",
+        "dom_id": "sectionLink-45457",
+        "name": "",
+        "title": "Relating the Second Partial Derivatives Test to the Taylor Polynomial Classification",
+        "selector": "#sectionLink-45457"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1945",
+        "name": "Global vs. Local Extrema and Critical Points of Multivariable Functions",
+        "href": "/topics/global-vs-local-extrema-and-critical-points-of-multivariable-functions-1945"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "45414",
+        "content_id": "7876",
+        "dom_id": "step-45414",
+        "selector": "#step-45414",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "45415",
+        "content_id": "12584",
+        "dom_id": "step-45415",
+        "selector": "#step-45415",
+        "step_anchor": "step-2",
+        "title": "Finding the Critical Points of a Function",
+        "key_prerequisites": [
+          {
+            "topic_id": "752",
+            "name": "Using Differentiation to Calculate Critical Points",
+            "href": "/topics/752"
+          },
+          {
+            "topic_id": "1945",
+            "name": "Global vs. Local Extrema and Critical Points of Multivariable Functions",
+            "href": "/topics/1945"
+          },
+          {
+            "topic_id": "4169",
+            "name": "The Derivative of a Multivariable Function",
+            "href": "/topics/4169"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "36622",
+        "dom_id": "question-36622",
+        "selector": "#question-36622",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "36635",
+        "dom_id": "question-36635",
+        "selector": "#question-36635",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "45418",
+        "content_id": "7877",
+        "dom_id": "step-45418",
+        "selector": "#step-45418",
+        "step_anchor": "step-5",
+        "title": "Classifying Stationary Points",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "45419",
+        "content_id": "7878",
+        "dom_id": "step-45419",
+        "selector": "#step-45419",
+        "step_anchor": "step-6",
+        "title": "The Second Partial Derivatives Test",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "45420",
+        "content_id": "12585",
+        "dom_id": "step-45420",
+        "selector": "#step-45420",
+        "step_anchor": "step-7",
+        "title": "Classifying a Critical Point Using the Second Partial Derivatives Test",
+        "key_prerequisites": [
+          {
+            "topic_id": "152",
+            "name": "The Determinant of a 2x2 Matrix",
+            "href": "/topics/152"
+          },
+          {
+            "topic_id": "2824",
+            "name": "The Second Derivative of a Multivariable Function",
+            "href": "/topics/2824"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "37378",
+        "dom_id": "question-37378",
+        "selector": "#question-37378",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "37588",
+        "dom_id": "question-37588",
+        "selector": "#question-37588",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "45423",
+        "content_id": "12586",
+        "dom_id": "step-45423",
+        "selector": "#step-45423",
+        "step_anchor": "step-10",
+        "title": "Finding and Classifying All Critical Points Using the Second Partial Derivatives Test",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "37592",
+        "dom_id": "question-37592",
+        "selector": "#question-37592",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "37590",
+        "dom_id": "question-37590",
+        "selector": "#question-37590",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "45457",
+        "content_id": "7886",
+        "dom_id": "step-45457",
+        "selector": "#step-45457",
+        "step_anchor": "step-13",
+        "title": "Relating the Second Partial Derivatives Test to the Taylor Polynomial Classification",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-45414",
+        "filename": "01-step-45414.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-45415",
+        "filename": "02-step-45415.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-36622",
+        "filename": "03-question-36622.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-36635",
+        "filename": "04-question-36635.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-45418",
+        "filename": "05-step-45418.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-45419",
+        "filename": "06-step-45419.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-45420",
+        "filename": "07-step-45420.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-37378",
+        "filename": "08-question-37378.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-37588",
+        "filename": "09-question-37588.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-45423",
+        "filename": "10-step-45423.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-37592",
+        "filename": "11-question-37592.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-37590",
+        "filename": "12-question-37590.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-45457",
+        "filename": "13-step-45457.png"
+      }
+    ]
+  }
+}

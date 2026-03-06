@@ -1,0 +1,360 @@
+{
+  "schema_version": 1,
+  "topic_id": "1989",
+  "topic_title": "Introduction to Recurrence Relations",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1989.html",
+  "source_url": "https://mathacademy.com/topics/1989",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "449955",
+        "dom_id": "sectionLink-449955",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-449955"
+      },
+      {
+        "index": 2,
+        "step_id": "449956",
+        "dom_id": "sectionLink-449956",
+        "name": "",
+        "title": "Finding Elements of a Relation Using a Recursive Formula",
+        "selector": "#sectionLink-449956"
+      },
+      {
+        "index": 3,
+        "step_id": "449959",
+        "dom_id": "sectionLink-449959",
+        "name": "",
+        "title": "Orders of Recurrence Relations",
+        "selector": "#sectionLink-449959"
+      },
+      {
+        "index": 4,
+        "step_id": "449960",
+        "dom_id": "sectionLink-449960",
+        "name": "",
+        "title": "Linear and Nonlinear Recurrence Relations",
+        "selector": "#sectionLink-449960"
+      },
+      {
+        "index": 5,
+        "step_id": "449961",
+        "dom_id": "sectionLink-449961",
+        "name": "",
+        "title": "Homogeneous and Inhomogeneous Recurrence Relations",
+        "selector": "#sectionLink-449961"
+      },
+      {
+        "index": 6,
+        "step_id": "449962",
+        "dom_id": "sectionLink-449962",
+        "name": "",
+        "title": "Classifying Recurrence Relations",
+        "selector": "#sectionLink-449962"
+      },
+      {
+        "index": 7,
+        "step_id": "449965",
+        "dom_id": "sectionLink-449965",
+        "name": "",
+        "title": "Fully Classifying Recurrence Relations",
+        "selector": "#sectionLink-449965"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "73",
+        "name": "Fibonacci Sequences",
+        "href": "/topics/fibonacci-sequences-73"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "449955",
+        "content_id": "10709",
+        "dom_id": "step-449955",
+        "selector": "#step-449955",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "449956",
+        "content_id": "16539",
+        "dom_id": "step-449956",
+        "selector": "#step-449956",
+        "step_anchor": "step-2",
+        "title": "Finding Elements of a Relation Using a Recursive Formula",
+        "key_prerequisites": [
+          {
+            "topic_id": "73",
+            "name": "Fibonacci Sequences",
+            "href": "/topics/73"
+          },
+          {
+            "topic_id": "1226",
+            "name": "Recursive Sequences",
+            "href": "/topics/1226"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "252990",
+        "dom_id": "question-252990",
+        "selector": "#question-252990",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "253351",
+        "dom_id": "question-253351",
+        "selector": "#question-253351",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "449959",
+        "content_id": "10711",
+        "dom_id": "step-449959",
+        "selector": "#step-449959",
+        "step_anchor": "step-5",
+        "title": "Orders of Recurrence Relations",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "449960",
+        "content_id": "11433",
+        "dom_id": "step-449960",
+        "selector": "#step-449960",
+        "step_anchor": "step-6",
+        "title": "Linear and Nonlinear Recurrence Relations",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "449961",
+        "content_id": "11434",
+        "dom_id": "step-449961",
+        "selector": "#step-449961",
+        "step_anchor": "step-7",
+        "title": "Homogeneous and Inhomogeneous Recurrence Relations",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "449962",
+        "content_id": "16541",
+        "dom_id": "step-449962",
+        "selector": "#step-449962",
+        "step_anchor": "step-8",
+        "title": "Classifying Recurrence Relations",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "253143",
+        "dom_id": "question-253143",
+        "selector": "#question-253143",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "253043",
+        "dom_id": "question-253043",
+        "selector": "#question-253043",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "449965",
+        "content_id": "16555",
+        "dom_id": "step-449965",
+        "selector": "#step-449965",
+        "step_anchor": "step-11",
+        "title": "Fully Classifying Recurrence Relations",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "253359",
+        "dom_id": "question-253359",
+        "selector": "#question-253359",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "253360",
+        "dom_id": "question-253360",
+        "selector": "#question-253360",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "265142",
+        "dom_id": "question-265142",
+        "selector": "#question-265142",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-449955",
+        "filename": "01-step-449955.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-449956",
+        "filename": "02-step-449956.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-252990",
+        "filename": "03-question-252990.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-253351",
+        "filename": "04-question-253351.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-449959",
+        "filename": "05-step-449959.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-449960",
+        "filename": "06-step-449960.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-449961",
+        "filename": "07-step-449961.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-449962",
+        "filename": "08-step-449962.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-253143",
+        "filename": "09-question-253143.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-253043",
+        "filename": "10-question-253043.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-449965",
+        "filename": "11-step-449965.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-253359",
+        "filename": "12-question-253359.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-253360",
+        "filename": "13-question-253360.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-265142",
+        "filename": "14-question-265142.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,335 @@
+{
+  "schema_version": 1,
+  "topic_id": "1947",
+  "topic_title": "Calculating Global Extrema of Multivariable Functions",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1947.html",
+  "source_url": "https://mathacademy.com/topics/1947",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "45426",
+        "dom_id": "sectionLink-45426",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-45426"
+      },
+      {
+        "index": 2,
+        "step_id": "45427",
+        "dom_id": "sectionLink-45427",
+        "name": "",
+        "title": "Finding Global Maxima and Minima Given the Critical Points Inside the Function's Domain",
+        "selector": "#sectionLink-45427"
+      },
+      {
+        "index": 3,
+        "step_id": "45430",
+        "dom_id": "sectionLink-45430",
+        "name": "",
+        "title": "Finding Global Maxima and Minima of a Function Whose Domain Is a Smooth Curve",
+        "selector": "#sectionLink-45430"
+      },
+      {
+        "index": 4,
+        "step_id": "45433",
+        "dom_id": "sectionLink-45433",
+        "name": "",
+        "title": "Determining the Candidates for Extrema on a Piecewise Smooth Boundary",
+        "selector": "#sectionLink-45433"
+      },
+      {
+        "index": 5,
+        "step_id": "45434",
+        "dom_id": "sectionLink-45434",
+        "name": "",
+        "title": "Finding Global Maxima and Minima of a Function Whose Domain Is Piecewise Smooth",
+        "selector": "#sectionLink-45434"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "364",
+        "name": "The Candidates Test",
+        "href": "/topics/the-candidates-test-364"
+      },
+      {
+        "topic_id": "806",
+        "name": "Parametric Equations of Circles",
+        "href": "/topics/parametric-equations-of-circles-806"
+      },
+      {
+        "topic_id": "1944",
+        "name": "The Second Partial Derivatives Test",
+        "href": "/topics/the-second-partial-derivatives-test-1944"
+      },
+      {
+        "topic_id": "2746",
+        "name": "Parametric Equations of Ellipses",
+        "href": "/topics/parametric-equations-of-ellipses-2746"
+      },
+      {
+        "topic_id": "2837",
+        "name": "Parametric Equations of Parabolas Centered at (h,k)",
+        "href": "/topics/parametric-equations-of-parabolas-centered-at-h-k-2837"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "45426",
+        "content_id": "7879",
+        "dom_id": "step-45426",
+        "selector": "#step-45426",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "45427",
+        "content_id": "12587",
+        "dom_id": "step-45427",
+        "selector": "#step-45427",
+        "step_anchor": "step-2",
+        "title": "Finding Global Maxima and Minima Given the Critical Points Inside the Function's Domain",
+        "key_prerequisites": [
+          {
+            "topic_id": "364",
+            "name": "The Candidates Test",
+            "href": "/topics/364"
+          },
+          {
+            "topic_id": "4063",
+            "name": "Interiors and Boundaries of Sets",
+            "href": "/topics/4063"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "37149",
+        "dom_id": "question-37149",
+        "selector": "#question-37149",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "37369",
+        "dom_id": "question-37369",
+        "selector": "#question-37369",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "45430",
+        "content_id": "12588",
+        "dom_id": "step-45430",
+        "selector": "#step-45430",
+        "step_anchor": "step-5",
+        "title": "Finding Global Maxima and Minima of a Function Whose Domain Is a Smooth Curve",
+        "key_prerequisites": [
+          {
+            "topic_id": "752",
+            "name": "Using Differentiation to Calculate Critical Points",
+            "href": "/topics/752"
+          },
+          {
+            "topic_id": "806",
+            "name": "Parametric Equations of Circles",
+            "href": "/topics/806"
+          },
+          {
+            "topic_id": "2746",
+            "name": "Parametric Equations of Ellipses",
+            "href": "/topics/2746"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "37155",
+        "dom_id": "question-37155",
+        "selector": "#question-37155",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "37372",
+        "dom_id": "question-37372",
+        "selector": "#question-37372",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "45433",
+        "content_id": "7880",
+        "dom_id": "step-45433",
+        "selector": "#step-45433",
+        "step_anchor": "step-8",
+        "title": "Determining the Candidates for Extrema on a Piecewise Smooth Boundary",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "45434",
+        "content_id": "12589",
+        "dom_id": "step-45434",
+        "selector": "#step-45434",
+        "step_anchor": "step-9",
+        "title": "Finding Global Maxima and Minima of a Function Whose Domain Is Piecewise Smooth",
+        "key_prerequisites": [
+          {
+            "topic_id": "1376",
+            "name": "The Vector Equation of a Line",
+            "href": "/topics/1376"
+          },
+          {
+            "topic_id": "2837",
+            "name": "Parametric Equations of Parabolas Centered at (h,k)",
+            "href": "/topics/2837"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "37374",
+        "dom_id": "question-37374",
+        "selector": "#question-37374",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "37162",
+        "dom_id": "question-37162",
+        "selector": "#question-37162",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-45426",
+        "filename": "01-step-45426.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-45427",
+        "filename": "02-step-45427.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-37149",
+        "filename": "03-question-37149.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-37369",
+        "filename": "04-question-37369.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-45430",
+        "filename": "05-step-45430.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-37155",
+        "filename": "06-question-37155.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-37372",
+        "filename": "07-question-37372.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-45433",
+        "filename": "08-step-45433.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-45434",
+        "filename": "09-step-45434.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-37374",
+        "filename": "10-question-37374.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-37162",
+        "filename": "11-question-37162.png"
+      }
+    ]
+  }
+}

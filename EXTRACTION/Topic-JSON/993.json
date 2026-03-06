@@ -1,0 +1,357 @@
+{
+  "schema_version": 1,
+  "topic_id": "993",
+  "topic_title": "Estimating Derivatives Using a Backward Difference Quotient",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/993.html",
+  "source_url": "https://mathacademy.com/topics/993",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "686",
+        "dom_id": "sectionLink-686",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-686"
+      },
+      {
+        "index": 2,
+        "step_id": "687",
+        "dom_id": "sectionLink-687",
+        "name": "",
+        "title": "Estimating a Derivative Given a Table Using a Backward Difference Approximation",
+        "selector": "#sectionLink-687"
+      },
+      {
+        "index": 3,
+        "step_id": "22597",
+        "dom_id": "sectionLink-22597",
+        "name": "",
+        "title": "Estimating a Derivative Given a Graph Using a Backward Difference Approximation",
+        "selector": "#sectionLink-22597"
+      },
+      {
+        "index": 4,
+        "step_id": "691",
+        "dom_id": "sectionLink-691",
+        "name": "",
+        "title": "Estimating a Derivative Given a Table Using a Backward Difference Approximation: Word Problem",
+        "selector": "#sectionLink-691"
+      },
+      {
+        "index": 5,
+        "step_id": "22598",
+        "dom_id": "sectionLink-22598",
+        "name": "",
+        "title": "Estimating a Derivative Given a Graph Using a Backward Difference Approximation: Word Problem",
+        "selector": "#sectionLink-22598"
+      },
+      {
+        "index": 6,
+        "step_id": "694",
+        "dom_id": "sectionLink-694",
+        "name": "",
+        "title": "Derivation of the Formula",
+        "selector": "#sectionLink-694"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "296",
+        "name": "Interpreting the Meaning of the Derivative in Context",
+        "href": "/topics/interpreting-the-meaning-of-the-derivative-in-context-296"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "686",
+        "content_id": "368",
+        "dom_id": "step-686",
+        "selector": "#step-686",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "687",
+        "content_id": "155",
+        "dom_id": "step-687",
+        "selector": "#step-687",
+        "step_anchor": "step-2",
+        "title": "Estimating a Derivative Given a Table Using a Backward Difference Approximation",
+        "key_prerequisites": [
+          {
+            "topic_id": "337",
+            "name": "The Instantaneous Rate of Change of a Function at a Point",
+            "href": "/topics/337"
+          },
+          {
+            "topic_id": "396",
+            "name": "Calculating Slopes of Straight Lines",
+            "href": "/topics/396"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "9517",
+        "dom_id": "question-9517",
+        "selector": "#question-9517",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "9522",
+        "dom_id": "question-9522",
+        "selector": "#question-9522",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "22597",
+        "content_id": "6104",
+        "dom_id": "step-22597",
+        "selector": "#step-22597",
+        "step_anchor": "step-5",
+        "title": "Estimating a Derivative Given a Graph Using a Backward Difference Approximation",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "47358",
+        "dom_id": "question-47358",
+        "selector": "#question-47358",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "47547",
+        "dom_id": "question-47547",
+        "selector": "#question-47547",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "691",
+        "content_id": "156",
+        "dom_id": "step-691",
+        "selector": "#step-691",
+        "step_anchor": "step-8",
+        "title": "Estimating a Derivative Given a Table Using a Backward Difference Approximation: Word Problem",
+        "key_prerequisites": [
+          {
+            "topic_id": "296",
+            "name": "Interpreting the Meaning of the Derivative in Context",
+            "href": "/topics/296"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "47486",
+        "dom_id": "question-47486",
+        "selector": "#question-47486",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "47490",
+        "dom_id": "question-47490",
+        "selector": "#question-47490",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "22598",
+        "content_id": "6105",
+        "dom_id": "step-22598",
+        "selector": "#step-22598",
+        "step_anchor": "step-11",
+        "title": "Estimating a Derivative Given a Graph Using a Backward Difference Approximation: Word Problem",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "47948",
+        "dom_id": "question-47948",
+        "selector": "#question-47948",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "47542",
+        "dom_id": "question-47542",
+        "selector": "#question-47542",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "694",
+        "content_id": "371",
+        "dom_id": "step-694",
+        "selector": "#step-694",
+        "step_anchor": "step-14",
+        "title": "Derivation of the Formula",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-686",
+        "filename": "01-step-686.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-687",
+        "filename": "02-step-687.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-9517",
+        "filename": "03-question-9517.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-9522",
+        "filename": "04-question-9522.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-22597",
+        "filename": "05-step-22597.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-47358",
+        "filename": "06-question-47358.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-47547",
+        "filename": "07-question-47547.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-691",
+        "filename": "08-step-691.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-47486",
+        "filename": "09-question-47486.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-47490",
+        "filename": "10-question-47490.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-22598",
+        "filename": "11-step-22598.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-47948",
+        "filename": "12-question-47948.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-47542",
+        "filename": "13-question-47542.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-694",
+        "filename": "14-step-694.png"
+      }
+    ]
+  }
+}

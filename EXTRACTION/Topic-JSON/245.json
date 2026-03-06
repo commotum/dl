@@ -1,0 +1,241 @@
+{
+  "schema_version": 1,
+  "topic_id": "245",
+  "topic_title": "Calculating the Cross Product Using Determinants",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/245.html",
+  "source_url": "https://mathacademy.com/topics/245",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "15847",
+        "dom_id": "sectionLink-15847",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-15847"
+      },
+      {
+        "index": 2,
+        "step_id": "15848",
+        "dom_id": "sectionLink-15848",
+        "name": "",
+        "title": "Calculating the Cross Product Using Determinants",
+        "selector": "#sectionLink-15848"
+      },
+      {
+        "index": 3,
+        "step_id": "15850",
+        "dom_id": "sectionLink-15850",
+        "name": "",
+        "title": "Solving for an Unknown in an Equation Involving the Cross Product",
+        "selector": "#sectionLink-15850"
+      },
+      {
+        "index": 4,
+        "step_id": "15852",
+        "dom_id": "sectionLink-15852",
+        "name": "",
+        "title": "Proof of the Formula for the Cross Product Using the Determinant",
+        "selector": "#sectionLink-15852"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "116",
+        "name": "Solving Radical Equations",
+        "href": "/topics/solving-radical-equations-116"
+      },
+      {
+        "topic_id": "153",
+        "name": "The Determinant of a 3x3 Matrix",
+        "href": "/topics/the-determinant-of-a-3x3-matrix-153"
+      },
+      {
+        "topic_id": "4858",
+        "name": "Properties of the Cross Product",
+        "href": "/topics/properties-of-the-cross-product-4858"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 8,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "15847",
+        "content_id": "2948",
+        "dom_id": "step-15847",
+        "selector": "#step-15847",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "15848",
+        "content_id": "4341",
+        "dom_id": "step-15848",
+        "selector": "#step-15848",
+        "step_anchor": "step-2",
+        "title": "Calculating the Cross Product Using Determinants",
+        "key_prerequisites": [
+          {
+            "topic_id": "153",
+            "name": "The Determinant of a 3x3 Matrix",
+            "href": "/topics/153"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "1408",
+        "dom_id": "question-1408",
+        "selector": "#question-1408",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "1405",
+        "dom_id": "question-1405",
+        "selector": "#question-1405",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "15850",
+        "content_id": "4343",
+        "dom_id": "step-15850",
+        "selector": "#step-15850",
+        "step_anchor": "step-5",
+        "title": "Solving for an Unknown in an Equation Involving the Cross Product",
+        "key_prerequisites": [
+          {
+            "topic_id": "116",
+            "name": "Solving Radical Equations",
+            "href": "/topics/116"
+          },
+          {
+            "topic_id": "1277",
+            "name": "Calculating the Magnitude of Cartesian Vectors in 3D",
+            "href": "/topics/1277"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "19786",
+        "dom_id": "question-19786",
+        "selector": "#question-19786",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "19783",
+        "dom_id": "question-19783",
+        "selector": "#question-19783",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "15852",
+        "content_id": "2950",
+        "dom_id": "step-15852",
+        "selector": "#step-15852",
+        "step_anchor": "step-8",
+        "title": "Proof of the Formula for the Cross Product Using the Determinant",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-15847",
+        "filename": "01-step-15847.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-15848",
+        "filename": "02-step-15848.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-1408",
+        "filename": "03-question-1408.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-1405",
+        "filename": "04-question-1405.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-15850",
+        "filename": "05-step-15850.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-19786",
+        "filename": "06-question-19786.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-19783",
+        "filename": "07-question-19783.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-15852",
+        "filename": "08-step-15852.png"
+      }
+    ]
+  }
+}

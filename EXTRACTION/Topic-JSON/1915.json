@@ -1,0 +1,325 @@
+{
+  "schema_version": 1,
+  "topic_id": "1915",
+  "topic_title": "First-Order Recurrence Relations",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1915.html",
+  "source_url": "https://mathacademy.com/topics/1915",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "238412",
+        "dom_id": "sectionLink-238412",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-238412"
+      },
+      {
+        "index": 2,
+        "step_id": "238413",
+        "dom_id": "sectionLink-238413",
+        "name": "",
+        "title": "Homogeneous First-Order Recurrence Relations",
+        "selector": "#sectionLink-238413"
+      },
+      {
+        "index": 3,
+        "step_id": "238416",
+        "dom_id": "sectionLink-238416",
+        "name": "",
+        "title": "Solutions to Inhomogeneous First-Order Recurrence Relations With Linear Coefficient 1",
+        "selector": "#sectionLink-238416"
+      },
+      {
+        "index": 4,
+        "step_id": "238417",
+        "dom_id": "sectionLink-238417",
+        "name": "",
+        "title": "Inhomogeneous First-Order Recurrence Relations with Linear Coefficient 1: Exponential Forcing",
+        "selector": "#sectionLink-238417"
+      },
+      {
+        "index": 5,
+        "step_id": "238420",
+        "dom_id": "sectionLink-238420",
+        "name": "",
+        "title": "Inhomogeneous First-Order Recurrence Relations with Linear Coefficient 1: Polynomial Forcing",
+        "selector": "#sectionLink-238420"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "690",
+        "name": "Sums of Finite Geometric Series Given in Sigma Notation",
+        "href": "/topics/sums-of-finite-geometric-series-given-in-sigma-notation-690"
+      },
+      {
+        "topic_id": "786",
+        "name": "Finite Linear Series",
+        "href": "/topics/finite-linear-series-786"
+      },
+      {
+        "topic_id": "787",
+        "name": "Finite Quadratic Series",
+        "href": "/topics/finite-quadratic-series-787"
+      },
+      {
+        "topic_id": "1989",
+        "name": "Introduction to Recurrence Relations",
+        "href": "/topics/introduction-to-recurrence-relations-1989"
+      },
+      {
+        "topic_id": "3803",
+        "name": "Big-O Notation",
+        "href": "/topics/big-o-notation-3803"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "238412",
+        "content_id": "10713",
+        "dom_id": "step-238412",
+        "selector": "#step-238412",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "238413",
+        "content_id": "16543",
+        "dom_id": "step-238413",
+        "selector": "#step-238413",
+        "step_anchor": "step-2",
+        "title": "Homogeneous First-Order Recurrence Relations",
+        "key_prerequisites": [
+          {
+            "topic_id": "1989",
+            "name": "Introduction to Recurrence Relations",
+            "href": "/topics/1989"
+          },
+          {
+            "topic_id": "4257",
+            "name": "Conditional Statements With Predicates",
+            "href": "/topics/4257"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "253048",
+        "dom_id": "question-253048",
+        "selector": "#question-253048",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "253265",
+        "dom_id": "question-253265",
+        "selector": "#question-253265",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "238416",
+        "content_id": "10721",
+        "dom_id": "step-238416",
+        "selector": "#step-238416",
+        "step_anchor": "step-5",
+        "title": "Solutions to Inhomogeneous First-Order Recurrence Relations With Linear Coefficient 1",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "238417",
+        "content_id": "16544",
+        "dom_id": "step-238417",
+        "selector": "#step-238417",
+        "step_anchor": "step-6",
+        "title": "Inhomogeneous First-Order Recurrence Relations with Linear Coefficient 1: Exponential Forcing",
+        "key_prerequisites": [
+          {
+            "topic_id": "690",
+            "name": "Sums of Finite Geometric Series Given in Sigma Notation",
+            "href": "/topics/690"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "253200",
+        "dom_id": "question-253200",
+        "selector": "#question-253200",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "253266",
+        "dom_id": "question-253266",
+        "selector": "#question-253266",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "238420",
+        "content_id": "16550",
+        "dom_id": "step-238420",
+        "selector": "#step-238420",
+        "step_anchor": "step-9",
+        "title": "Inhomogeneous First-Order Recurrence Relations with Linear Coefficient 1: Polynomial Forcing",
+        "key_prerequisites": [
+          {
+            "topic_id": "786",
+            "name": "Finite Linear Series",
+            "href": "/topics/786"
+          },
+          {
+            "topic_id": "787",
+            "name": "Finite Quadratic Series",
+            "href": "/topics/787"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "253201",
+        "dom_id": "question-253201",
+        "selector": "#question-253201",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "253148",
+        "dom_id": "question-253148",
+        "selector": "#question-253148",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-238412",
+        "filename": "01-step-238412.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-238413",
+        "filename": "02-step-238413.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-253048",
+        "filename": "03-question-253048.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-253265",
+        "filename": "04-question-253265.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-238416",
+        "filename": "05-step-238416.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-238417",
+        "filename": "06-step-238417.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-253200",
+        "filename": "07-question-253200.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-253266",
+        "filename": "08-question-253266.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-238420",
+        "filename": "09-step-238420.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-253201",
+        "filename": "10-question-253201.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-253148",
+        "filename": "11-question-253148.png"
+      }
+    ]
+  }
+}

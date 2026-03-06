@@ -1,0 +1,272 @@
+{
+  "schema_version": 1,
+  "topic_id": "640",
+  "topic_title": "Estimating Derivatives Using a Central Difference Quotient",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/640.html",
+  "source_url": "https://mathacademy.com/topics/640",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "695",
+        "dom_id": "sectionLink-695",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-695"
+      },
+      {
+        "index": 2,
+        "step_id": "699",
+        "dom_id": "sectionLink-699",
+        "name": "",
+        "title": "Estimating a Derivative Given Data or Tables Using a Central Difference Approximation",
+        "selector": "#sectionLink-699"
+      },
+      {
+        "index": 3,
+        "step_id": "701",
+        "dom_id": "sectionLink-701",
+        "name": "",
+        "title": "Estimating a Derivative Given a Graph Using a Central Difference Approximation",
+        "selector": "#sectionLink-701"
+      },
+      {
+        "index": 4,
+        "step_id": "703",
+        "dom_id": "sectionLink-703",
+        "name": "",
+        "title": "Estimating a Derivative Given a Graph Using a Central Difference Approximation: Word Problem",
+        "selector": "#sectionLink-703"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "992",
+        "name": "Estimating Derivatives Using a Forward Difference Quotient",
+        "href": "/topics/estimating-derivatives-using-a-forward-difference-quotient-992"
+      },
+      {
+        "topic_id": "993",
+        "name": "Estimating Derivatives Using a Backward Difference Quotient",
+        "href": "/topics/estimating-derivatives-using-a-backward-difference-quotient-993"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 10,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "695",
+        "content_id": "372",
+        "dom_id": "step-695",
+        "selector": "#step-695",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "699",
+        "content_id": "158",
+        "dom_id": "step-699",
+        "selector": "#step-699",
+        "step_anchor": "step-2",
+        "title": "Estimating a Derivative Given Data or Tables Using a Central Difference Approximation",
+        "key_prerequisites": [
+          {
+            "topic_id": "992",
+            "name": "Estimating Derivatives Using a Forward Difference Quotient",
+            "href": "/topics/992"
+          },
+          {
+            "topic_id": "993",
+            "name": "Estimating Derivatives Using a Backward Difference Quotient",
+            "href": "/topics/993"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "65677",
+        "dom_id": "question-65677",
+        "selector": "#question-65677",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "32535",
+        "dom_id": "question-32535",
+        "selector": "#question-32535",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "701",
+        "content_id": "159",
+        "dom_id": "step-701",
+        "selector": "#step-701",
+        "step_anchor": "step-5",
+        "title": "Estimating a Derivative Given a Graph Using a Central Difference Approximation",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "47362",
+        "dom_id": "question-47362",
+        "selector": "#question-47362",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "47534",
+        "dom_id": "question-47534",
+        "selector": "#question-47534",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "703",
+        "content_id": "160",
+        "dom_id": "step-703",
+        "selector": "#step-703",
+        "step_anchor": "step-8",
+        "title": "Estimating a Derivative Given a Graph Using a Central Difference Approximation: Word Problem",
+        "key_prerequisites": [
+          {
+            "topic_id": "296",
+            "name": "Interpreting the Meaning of the Derivative in Context",
+            "href": "/topics/296"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "47512",
+        "dom_id": "question-47512",
+        "selector": "#question-47512",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "47510",
+        "dom_id": "question-47510",
+        "selector": "#question-47510",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-695",
+        "filename": "01-step-695.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-699",
+        "filename": "02-step-699.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-65677",
+        "filename": "03-question-65677.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-32535",
+        "filename": "04-question-32535.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-701",
+        "filename": "05-step-701.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-47362",
+        "filename": "06-question-47362.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-47534",
+        "filename": "07-question-47534.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-703",
+        "filename": "08-step-703.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-47512",
+        "filename": "09-question-47512.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-47510",
+        "filename": "10-question-47510.png"
+      }
+    ]
+  }
+}

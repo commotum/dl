@@ -1,0 +1,423 @@
+{
+  "schema_version": 1,
+  "topic_id": "4169",
+  "topic_title": "The Derivative of a Multivariable Function",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/4169.html",
+  "source_url": "https://mathacademy.com/topics/4169",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "44919",
+        "dom_id": "sectionLink-44919",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-44919"
+      },
+      {
+        "index": 2,
+        "step_id": "45103",
+        "dom_id": "sectionLink-45103",
+        "name": "",
+        "title": "Defining the Total Derivative",
+        "selector": "#sectionLink-45103"
+      },
+      {
+        "index": 3,
+        "step_id": "44920",
+        "dom_id": "sectionLink-44920",
+        "name": "",
+        "title": "Finding the Derivative of a Scalar Function",
+        "selector": "#sectionLink-44920"
+      },
+      {
+        "index": 4,
+        "step_id": "44921",
+        "dom_id": "sectionLink-44921",
+        "name": "",
+        "title": "Finding the Derivative of a Vector Function",
+        "selector": "#sectionLink-44921"
+      },
+      {
+        "index": 5,
+        "step_id": "44948",
+        "dom_id": "sectionLink-44948",
+        "name": "",
+        "title": "The Tangent Plane to the Graph of a Scalar Function",
+        "selector": "#sectionLink-44948"
+      },
+      {
+        "index": 6,
+        "step_id": "44926",
+        "dom_id": "sectionLink-44926",
+        "name": "",
+        "title": "Finding the Tangent Plane to the Graph of a Scalar Function in Matrix Form",
+        "selector": "#sectionLink-44926"
+      },
+      {
+        "index": 7,
+        "step_id": "44949",
+        "dom_id": "sectionLink-44949",
+        "name": "",
+        "title": "Affine Approximations of Vector Functions",
+        "selector": "#sectionLink-44949"
+      },
+      {
+        "index": 8,
+        "step_id": "44947",
+        "dom_id": "sectionLink-44947",
+        "name": "",
+        "title": "Finding an Affine Approximation of a Vector Function",
+        "selector": "#sectionLink-44947"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1937",
+        "name": "Linearization of Multivariable Functions",
+        "href": "/topics/linearization-of-multivariable-functions-1937"
+      },
+      {
+        "topic_id": "2058",
+        "name": "The Jacobian of a Three-Dimensional Transformation",
+        "href": "/topics/the-jacobian-of-a-three-dimensional-transformation-2058"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 16,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44919",
+        "content_id": "7762",
+        "dom_id": "step-44919",
+        "selector": "#step-44919",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "45103",
+        "content_id": "7793",
+        "dom_id": "step-45103",
+        "selector": "#step-45103",
+        "step_anchor": "step-2",
+        "title": "Defining the Total Derivative",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44920",
+        "content_id": "12477",
+        "dom_id": "step-44920",
+        "selector": "#step-44920",
+        "step_anchor": "step-3",
+        "title": "Finding the Derivative of a Scalar Function",
+        "key_prerequisites": [
+          {
+            "topic_id": "1937",
+            "name": "Linearization of Multivariable Functions",
+            "href": "/topics/1937"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "162943",
+        "dom_id": "question-162943",
+        "selector": "#question-162943",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "162983",
+        "dom_id": "question-162983",
+        "selector": "#question-162983",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44921",
+        "content_id": "12478",
+        "dom_id": "step-44921",
+        "selector": "#step-44921",
+        "step_anchor": "step-6",
+        "title": "Finding the Derivative of a Vector Function",
+        "key_prerequisites": [
+          {
+            "topic_id": "1999",
+            "name": "The Jacobian",
+            "href": "/topics/1999"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "162941",
+        "dom_id": "question-162941",
+        "selector": "#question-162941",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "162942",
+        "dom_id": "question-162942",
+        "selector": "#question-162942",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44948",
+        "content_id": "7764",
+        "dom_id": "step-44948",
+        "selector": "#step-44948",
+        "step_anchor": "step-9",
+        "title": "The Tangent Plane to the Graph of a Scalar Function",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44926",
+        "content_id": "12479",
+        "dom_id": "step-44926",
+        "selector": "#step-44926",
+        "step_anchor": "step-10",
+        "title": "Finding the Tangent Plane to the Graph of a Scalar Function in Matrix Form",
+        "key_prerequisites": [
+          {
+            "topic_id": "1980",
+            "name": "Tangent Planes to Surfaces",
+            "href": "/topics/1980"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "162945",
+        "dom_id": "question-162945",
+        "selector": "#question-162945",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "163057",
+        "dom_id": "question-163057",
+        "selector": "#question-163057",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44949",
+        "content_id": "7765",
+        "dom_id": "step-44949",
+        "selector": "#step-44949",
+        "step_anchor": "step-13",
+        "title": "Affine Approximations of Vector Functions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44947",
+        "content_id": "12484",
+        "dom_id": "step-44947",
+        "selector": "#step-44947",
+        "step_anchor": "step-14",
+        "title": "Finding an Affine Approximation of a Vector Function",
+        "key_prerequisites": [
+          {
+            "topic_id": "3387",
+            "name": "Affine Transformations",
+            "href": "/topics/3387"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "162944",
+        "dom_id": "question-162944",
+        "selector": "#question-162944",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "163163",
+        "dom_id": "question-163163",
+        "selector": "#question-163163",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-44919",
+        "filename": "01-step-44919.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-45103",
+        "filename": "02-step-45103.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-44920",
+        "filename": "03-step-44920.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-162943",
+        "filename": "04-question-162943.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-162983",
+        "filename": "05-question-162983.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-44921",
+        "filename": "06-step-44921.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-162941",
+        "filename": "07-question-162941.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-162942",
+        "filename": "08-question-162942.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-44948",
+        "filename": "09-step-44948.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-44926",
+        "filename": "10-step-44926.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-162945",
+        "filename": "11-question-162945.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-163057",
+        "filename": "12-question-163057.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-44949",
+        "filename": "13-step-44949.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-44947",
+        "filename": "14-step-44947.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-162944",
+        "filename": "15-question-162944.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-163163",
+        "filename": "16-question-163163.png"
+      }
+    ]
+  }
+}

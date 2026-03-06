@@ -1,0 +1,392 @@
+{
+  "schema_version": 1,
+  "topic_id": "752",
+  "topic_title": "Using Differentiation to Calculate Critical Points",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/752.html",
+  "source_url": "https://mathacademy.com/topics/752",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "12773",
+        "dom_id": "sectionLink-12773",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-12773"
+      },
+      {
+        "index": 2,
+        "step_id": "24657",
+        "dom_id": "sectionLink-24657",
+        "name": "",
+        "title": "Finding Critical Points of Polynomials",
+        "selector": "#sectionLink-24657"
+      },
+      {
+        "index": 3,
+        "step_id": "24660",
+        "dom_id": "sectionLink-24660",
+        "name": "",
+        "title": "Finding Critical Points of Exponential Functions",
+        "selector": "#sectionLink-24660"
+      },
+      {
+        "index": 4,
+        "step_id": "32617",
+        "dom_id": "sectionLink-32617",
+        "name": "",
+        "title": "Finding Critical Points of Rational Functions",
+        "selector": "#sectionLink-32617"
+      },
+      {
+        "index": 5,
+        "step_id": "35882",
+        "dom_id": "sectionLink-35882",
+        "name": "",
+        "title": "Calculating Critical Points of Trigonometric Functions",
+        "selector": "#sectionLink-35882"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "133",
+        "name": "Roots of Rational Functions",
+        "href": "/topics/roots-of-rational-functions-133"
+      },
+      {
+        "topic_id": "313",
+        "name": "Global vs. Local Extrema and Critical Points",
+        "href": "/topics/global-vs-local-extrema-and-critical-points-313"
+      },
+      {
+        "topic_id": "419",
+        "name": "Solving Quadratic Equations by Completing the Square",
+        "href": "/topics/solving-quadratic-equations-by-completing-the-square-419"
+      },
+      {
+        "topic_id": "870",
+        "name": "Solving Equations Containing the Exponential Function",
+        "href": "/topics/solving-equations-containing-the-exponential-function-870"
+      },
+      {
+        "topic_id": "923",
+        "name": "Trigonometric Equations Containing Transformed Tangent Functions",
+        "href": "/topics/trigonometric-equations-containing-transformed-tangent-functions-923"
+      },
+      {
+        "topic_id": "1115",
+        "name": "Selecting Procedures for Calculating Derivatives",
+        "href": "/topics/selecting-procedures-for-calculating-derivatives-1115"
+      },
+      {
+        "topic_id": "3842",
+        "name": "Completing the Square With Odd Linear Terms",
+        "href": "/topics/completing-the-square-with-odd-linear-terms-3842"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "12773",
+        "content_id": "2662",
+        "dom_id": "step-12773",
+        "selector": "#step-12773",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "24657",
+        "content_id": "6722",
+        "dom_id": "step-24657",
+        "selector": "#step-24657",
+        "step_anchor": "step-2",
+        "title": "Finding Critical Points of Polynomials",
+        "key_prerequisites": [
+          {
+            "topic_id": "278",
+            "name": "The Sum and Constant Multiple Rules for Differentiation",
+            "href": "/topics/278"
+          },
+          {
+            "topic_id": "313",
+            "name": "Global vs. Local Extrema and Critical Points",
+            "href": "/topics/313"
+          },
+          {
+            "topic_id": "375",
+            "name": "Solving Quadratic Equations by Factoring",
+            "href": "/topics/375"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "99031",
+        "dom_id": "question-99031",
+        "selector": "#question-99031",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "21495",
+        "dom_id": "question-21495",
+        "selector": "#question-21495",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "24660",
+        "content_id": "6723",
+        "dom_id": "step-24660",
+        "selector": "#step-24660",
+        "step_anchor": "step-5",
+        "title": "Finding Critical Points of Exponential Functions",
+        "key_prerequisites": [
+          {
+            "topic_id": "870",
+            "name": "Solving Equations Containing the Exponential Function",
+            "href": "/topics/870"
+          },
+          {
+            "topic_id": "1115",
+            "name": "Selecting Procedures for Calculating Derivatives",
+            "href": "/topics/1115"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "48790",
+        "dom_id": "question-48790",
+        "selector": "#question-48790",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "48677",
+        "dom_id": "question-48677",
+        "selector": "#question-48677",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "32617",
+        "content_id": "8757",
+        "dom_id": "step-32617",
+        "selector": "#step-32617",
+        "step_anchor": "step-8",
+        "title": "Finding Critical Points of Rational Functions",
+        "key_prerequisites": [
+          {
+            "topic_id": "133",
+            "name": "Roots of Rational Functions",
+            "href": "/topics/133"
+          },
+          {
+            "topic_id": "419",
+            "name": "Solving Quadratic Equations by Completing the Square",
+            "href": "/topics/419"
+          },
+          {
+            "topic_id": "3842",
+            "name": "Completing the Square With Odd Linear Terms",
+            "href": "/topics/3842"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "48741",
+        "dom_id": "question-48741",
+        "selector": "#question-48741",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "98990",
+        "dom_id": "question-98990",
+        "selector": "#question-98990",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "35882",
+        "content_id": "9576",
+        "dom_id": "step-35882",
+        "selector": "#step-35882",
+        "step_anchor": "step-11",
+        "title": "Calculating Critical Points of Trigonometric Functions",
+        "key_prerequisites": [
+          {
+            "topic_id": "923",
+            "name": "Trigonometric Equations Containing Transformed Tangent Functions",
+            "href": "/topics/923"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "127349",
+        "dom_id": "question-127349",
+        "selector": "#question-127349",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "127353",
+        "dom_id": "question-127353",
+        "selector": "#question-127353",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-12773",
+        "filename": "01-step-12773.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-24657",
+        "filename": "02-step-24657.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-99031",
+        "filename": "03-question-99031.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-21495",
+        "filename": "04-question-21495.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-24660",
+        "filename": "05-step-24660.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-48790",
+        "filename": "06-question-48790.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-48677",
+        "filename": "07-question-48677.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-32617",
+        "filename": "08-step-32617.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-48741",
+        "filename": "09-question-48741.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-98990",
+        "filename": "10-question-98990.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-35882",
+        "filename": "11-step-35882.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-127349",
+        "filename": "12-question-127349.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-127353",
+        "filename": "13-question-127353.png"
+      }
+    ]
+  }
+}

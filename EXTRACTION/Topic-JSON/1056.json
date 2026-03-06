@@ -1,0 +1,358 @@
+{
+  "schema_version": 1,
+  "topic_id": "1056",
+  "topic_title": "The Linear Correlation Coefficient",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1056.html",
+  "source_url": "https://mathacademy.com/topics/1056",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "20623",
+        "dom_id": "sectionLink-20623",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-20623"
+      },
+      {
+        "index": 2,
+        "step_id": "39739",
+        "dom_id": "sectionLink-39739",
+        "name": "",
+        "title": "Calculating the Correlation Coefficient",
+        "selector": "#sectionLink-39739"
+      },
+      {
+        "index": 3,
+        "step_id": "20709",
+        "dom_id": "sectionLink-20709",
+        "name": "",
+        "title": "Computing the Correlation Coefficient Using Covariance and Standard Deviations",
+        "selector": "#sectionLink-20709"
+      },
+      {
+        "index": 4,
+        "step_id": "36415",
+        "dom_id": "sectionLink-36415",
+        "name": "",
+        "title": "The Linear Correlation Coefficient in Sigma Notation",
+        "selector": "#sectionLink-36415"
+      },
+      {
+        "index": 5,
+        "step_id": "36411",
+        "dom_id": "sectionLink-36411",
+        "name": "",
+        "title": "Computing the Linear Correlation Coefficient Using the Expanded Formula",
+        "selector": "#sectionLink-36411"
+      },
+      {
+        "index": 6,
+        "step_id": "20625",
+        "dom_id": "sectionLink-20625",
+        "name": "",
+        "title": "Interpreting Linear Correlation Coefficients in Context",
+        "selector": "#sectionLink-20625"
+      },
+      {
+        "index": 7,
+        "step_id": "39740",
+        "dom_id": "sectionLink-39740",
+        "name": "",
+        "title": "Proving the Formula for Rho in Terms of Squared Deviations",
+        "selector": "#sectionLink-39740"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "734",
+        "name": "Linear Correlation",
+        "href": "/topics/linear-correlation-734"
+      },
+      {
+        "topic_id": "5204",
+        "name": "Sums of Squares",
+        "href": "/topics/sums-of-squares-5204"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20623",
+        "content_id": "3699",
+        "dom_id": "step-20623",
+        "selector": "#step-20623",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "39739",
+        "content_id": "6586",
+        "dom_id": "step-39739",
+        "selector": "#step-39739",
+        "step_anchor": "step-2",
+        "title": "Calculating the Correlation Coefficient",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20709",
+        "content_id": "5725",
+        "dom_id": "step-20709",
+        "selector": "#step-20709",
+        "step_anchor": "step-3",
+        "title": "Computing the Correlation Coefficient Using Covariance and Standard Deviations",
+        "key_prerequisites": [
+          {
+            "topic_id": "734",
+            "name": "Linear Correlation",
+            "href": "/topics/734"
+          },
+          {
+            "topic_id": "1632",
+            "name": "Variance and Standard Deviation",
+            "href": "/topics/1632"
+          },
+          {
+            "topic_id": "3591",
+            "name": "Covariance",
+            "href": "/topics/3591"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "10271",
+        "dom_id": "question-10271",
+        "selector": "#question-10271",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "134084",
+        "dom_id": "question-134084",
+        "selector": "#question-134084",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "36415",
+        "content_id": "5966",
+        "dom_id": "step-36415",
+        "selector": "#step-36415",
+        "step_anchor": "step-6",
+        "title": "The Linear Correlation Coefficient in Sigma Notation",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "36411",
+        "content_id": "9710",
+        "dom_id": "step-36411",
+        "selector": "#step-36411",
+        "step_anchor": "step-7",
+        "title": "Computing the Linear Correlation Coefficient Using the Expanded Formula",
+        "key_prerequisites": [
+          {
+            "topic_id": "5204",
+            "name": "Sums of Squares",
+            "href": "/topics/5204"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "134206",
+        "dom_id": "question-134206",
+        "selector": "#question-134206",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "134189",
+        "dom_id": "question-134189",
+        "selector": "#question-134189",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20625",
+        "content_id": "5711",
+        "dom_id": "step-20625",
+        "selector": "#step-20625",
+        "step_anchor": "step-10",
+        "title": "Interpreting Linear Correlation Coefficients in Context",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "10847",
+        "dom_id": "question-10847",
+        "selector": "#question-10847",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "134191",
+        "dom_id": "question-134191",
+        "selector": "#question-134191",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "39740",
+        "content_id": "6587",
+        "dom_id": "step-39740",
+        "selector": "#step-39740",
+        "step_anchor": "step-13",
+        "title": "Proving the Formula for Rho in Terms of Squared Deviations",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-20623",
+        "filename": "01-step-20623.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-39739",
+        "filename": "02-step-39739.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-20709",
+        "filename": "03-step-20709.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-10271",
+        "filename": "04-question-10271.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-134084",
+        "filename": "05-question-134084.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-36415",
+        "filename": "06-step-36415.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-36411",
+        "filename": "07-step-36411.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-134206",
+        "filename": "08-question-134206.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-134189",
+        "filename": "09-question-134189.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-20625",
+        "filename": "10-step-20625.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-10847",
+        "filename": "11-question-10847.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-134191",
+        "filename": "12-question-134191.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-39740",
+        "filename": "13-step-39740.png"
+      }
+    ]
+  }
+}

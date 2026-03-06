@@ -1,0 +1,426 @@
+{
+  "schema_version": 1,
+  "topic_id": "1972",
+  "topic_title": "The Cayley-Hamilton Theorem",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1972.html",
+  "source_url": "https://mathacademy.com/topics/1972",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "20133",
+        "dom_id": "sectionLink-20133",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-20133"
+      },
+      {
+        "index": 2,
+        "step_id": "20137",
+        "dom_id": "sectionLink-20137",
+        "name": "",
+        "title": "The Characteristic Polynomial for 2x2 Matrices",
+        "selector": "#sectionLink-20137"
+      },
+      {
+        "index": 3,
+        "step_id": "21546",
+        "dom_id": "sectionLink-21546",
+        "name": "",
+        "title": "Calculating the Sum and Product of Eigenvalues of a 2x2 Matrix",
+        "selector": "#sectionLink-21546"
+      },
+      {
+        "index": 4,
+        "step_id": "20134",
+        "dom_id": "sectionLink-20134",
+        "name": "",
+        "title": "The Cayley-Hamilton Theorem",
+        "selector": "#sectionLink-20134"
+      },
+      {
+        "index": 5,
+        "step_id": "20136",
+        "dom_id": "sectionLink-20136",
+        "name": "",
+        "title": "Expressing a Power of a Matrix as a Linear Combination of Smaller Powers",
+        "selector": "#sectionLink-20136"
+      },
+      {
+        "index": 6,
+        "step_id": "20135",
+        "dom_id": "sectionLink-20135",
+        "name": "",
+        "title": "Expressing the Inverse of a Matrix as a Linear Combination of Its Powers",
+        "selector": "#sectionLink-20135"
+      },
+      {
+        "index": 7,
+        "step_id": "27370",
+        "dom_id": "sectionLink-27370",
+        "name": "",
+        "title": "Using the Cayley-Hamilton Theorem to Quickly Evaluate a Matrix Polynomial",
+        "selector": "#sectionLink-27370"
+      },
+      {
+        "index": 8,
+        "step_id": "20138",
+        "dom_id": "sectionLink-20138",
+        "name": "",
+        "title": "Evaluating a Matrix Polynomial Using the Cayley-Hamilton Theorem",
+        "selector": "#sectionLink-20138"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "427",
+        "name": "Dividing Polynomials Using Long Division",
+        "href": "/topics/dividing-polynomials-using-long-division-427"
+      },
+      {
+        "topic_id": "729",
+        "name": "Vieta's Formulas",
+        "href": "/topics/vietas-formulas-729"
+      },
+      {
+        "topic_id": "1725",
+        "name": "Powers of Matrices",
+        "href": "/topics/powers-of-matrices-1725"
+      },
+      {
+        "topic_id": "1964",
+        "name": "The Characteristic Equation of a Matrix",
+        "href": "/topics/the-characteristic-equation-of-a-matrix-1964"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 16,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20133",
+        "content_id": "3580",
+        "dom_id": "step-20133",
+        "selector": "#step-20133",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20137",
+        "content_id": "3582",
+        "dom_id": "step-20137",
+        "selector": "#step-20137",
+        "step_anchor": "step-2",
+        "title": "The Characteristic Polynomial for 2x2 Matrices",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "21546",
+        "content_id": "5894",
+        "dom_id": "step-21546",
+        "selector": "#step-21546",
+        "step_anchor": "step-3",
+        "title": "Calculating the Sum and Product of Eigenvalues of a 2x2 Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "729",
+            "name": "Vieta's Formulas",
+            "href": "/topics/729"
+          },
+          {
+            "topic_id": "1964",
+            "name": "The Characteristic Equation of a Matrix",
+            "href": "/topics/1964"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "38726",
+        "dom_id": "question-38726",
+        "selector": "#question-38726",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "38720",
+        "dom_id": "question-38720",
+        "selector": "#question-38720",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20134",
+        "content_id": "3581",
+        "dom_id": "step-20134",
+        "selector": "#step-20134",
+        "step_anchor": "step-6",
+        "title": "The Cayley-Hamilton Theorem",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20136",
+        "content_id": "5511",
+        "dom_id": "step-20136",
+        "selector": "#step-20136",
+        "step_anchor": "step-7",
+        "title": "Expressing a Power of a Matrix as a Linear Combination of Smaller Powers",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "38702",
+        "dom_id": "question-38702",
+        "selector": "#question-38702",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "38723",
+        "dom_id": "question-38723",
+        "selector": "#question-38723",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20135",
+        "content_id": "5510",
+        "dom_id": "step-20135",
+        "selector": "#step-20135",
+        "step_anchor": "step-10",
+        "title": "Expressing the Inverse of a Matrix as a Linear Combination of Its Powers",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "37780",
+        "dom_id": "question-37780",
+        "selector": "#question-37780",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "37779",
+        "dom_id": "question-37779",
+        "selector": "#question-37779",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "27370",
+        "content_id": "4448",
+        "dom_id": "step-27370",
+        "selector": "#step-27370",
+        "step_anchor": "step-13",
+        "title": "Using the Cayley-Hamilton Theorem to Quickly Evaluate a Matrix Polynomial",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20138",
+        "content_id": "5512",
+        "dom_id": "step-20138",
+        "selector": "#step-20138",
+        "step_anchor": "step-14",
+        "title": "Evaluating a Matrix Polynomial Using the Cayley-Hamilton Theorem",
+        "key_prerequisites": [
+          {
+            "topic_id": "427",
+            "name": "Dividing Polynomials Using Long Division",
+            "href": "/topics/427"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "37835",
+        "dom_id": "question-37835",
+        "selector": "#question-37835",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "37775",
+        "dom_id": "question-37775",
+        "selector": "#question-37775",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-20133",
+        "filename": "01-step-20133.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-20137",
+        "filename": "02-step-20137.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-21546",
+        "filename": "03-step-21546.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-38726",
+        "filename": "04-question-38726.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-38720",
+        "filename": "05-question-38720.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-20134",
+        "filename": "06-step-20134.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-20136",
+        "filename": "07-step-20136.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-38702",
+        "filename": "08-question-38702.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-38723",
+        "filename": "09-question-38723.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-20135",
+        "filename": "10-step-20135.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-37780",
+        "filename": "11-question-37780.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-37779",
+        "filename": "12-question-37779.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-27370",
+        "filename": "13-step-27370.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-20138",
+        "filename": "14-step-20138.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-37835",
+        "filename": "15-question-37835.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-37775",
+        "filename": "16-question-37775.png"
+      }
+    ]
+  }
+}

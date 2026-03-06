@@ -1,0 +1,295 @@
+{
+  "schema_version": 1,
+  "topic_id": "621",
+  "topic_title": "Approximating Functions Using Local Linearity and Linearization",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/621.html",
+  "source_url": "https://mathacademy.com/topics/621",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "4825",
+        "dom_id": "sectionLink-4825",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-4825"
+      },
+      {
+        "index": 2,
+        "step_id": "4826",
+        "dom_id": "sectionLink-4826",
+        "name": "",
+        "title": "Estimating the Value of a Function at a Point Using a Tangent Line Approximation",
+        "selector": "#sectionLink-4826"
+      },
+      {
+        "index": 3,
+        "step_id": "4829",
+        "dom_id": "sectionLink-4829",
+        "name": "",
+        "title": "Estimating the Value of a Function at a Point Given its Derivative",
+        "selector": "#sectionLink-4829"
+      },
+      {
+        "index": 4,
+        "step_id": "4832",
+        "dom_id": "sectionLink-4832",
+        "name": "",
+        "title": "Underestimate and Overestimate Approximations",
+        "selector": "#sectionLink-4832"
+      },
+      {
+        "index": 5,
+        "step_id": "4833",
+        "dom_id": "sectionLink-4833",
+        "name": "",
+        "title": "Computing a Tangent Line Approximation and Classifying it as an Underestimate or Overestimate",
+        "selector": "#sectionLink-4833"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "363",
+        "name": "Intervals of Concavity",
+        "href": "/topics/intervals-of-concavity-363"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "4825",
+        "content_id": "579",
+        "dom_id": "step-4825",
+        "selector": "#step-4825",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "4826",
+        "content_id": "291",
+        "dom_id": "step-4826",
+        "selector": "#step-4826",
+        "step_anchor": "step-2",
+        "title": "Estimating the Value of a Function at a Point Using a Tangent Line Approximation",
+        "key_prerequisites": [
+          {
+            "topic_id": "986",
+            "name": "Calculating the Equation of a Tangent Line Using Differentiation",
+            "href": "/topics/986"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "4808",
+        "dom_id": "question-4808",
+        "selector": "#question-4808",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "4805",
+        "dom_id": "question-4805",
+        "selector": "#question-4805",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "4829",
+        "content_id": "292",
+        "dom_id": "step-4829",
+        "selector": "#step-4829",
+        "step_anchor": "step-5",
+        "title": "Estimating the Value of a Function at a Point Given its Derivative",
+        "key_prerequisites": [
+          {
+            "topic_id": "1115",
+            "name": "Selecting Procedures for Calculating Derivatives",
+            "href": "/topics/1115"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "4804",
+        "dom_id": "question-4804",
+        "selector": "#question-4804",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "4802",
+        "dom_id": "question-4802",
+        "selector": "#question-4802",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "4832",
+        "content_id": "582",
+        "dom_id": "step-4832",
+        "selector": "#step-4832",
+        "step_anchor": "step-8",
+        "title": "Underestimate and Overestimate Approximations",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "4833",
+        "content_id": "293",
+        "dom_id": "step-4833",
+        "selector": "#step-4833",
+        "step_anchor": "step-9",
+        "title": "Computing a Tangent Line Approximation and Classifying it as an Underestimate or Overestimate",
+        "key_prerequisites": [
+          {
+            "topic_id": "363",
+            "name": "Intervals of Concavity",
+            "href": "/topics/363"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "48402",
+        "dom_id": "question-48402",
+        "selector": "#question-48402",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "47782",
+        "dom_id": "question-47782",
+        "selector": "#question-47782",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-4825",
+        "filename": "01-step-4825.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-4826",
+        "filename": "02-step-4826.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-4808",
+        "filename": "03-question-4808.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-4805",
+        "filename": "04-question-4805.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-4829",
+        "filename": "05-step-4829.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-4804",
+        "filename": "06-question-4804.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-4802",
+        "filename": "07-question-4802.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-4832",
+        "filename": "08-step-4832.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-4833",
+        "filename": "09-step-4833.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-48402",
+        "filename": "10-question-48402.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-47782",
+        "filename": "11-question-47782.png"
+      }
+    ]
+  }
+}

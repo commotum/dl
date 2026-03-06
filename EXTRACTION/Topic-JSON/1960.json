@@ -1,0 +1,406 @@
+{
+  "schema_version": 1,
+  "topic_id": "1960",
+  "topic_title": "The Kernel of a Linear Transformation",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1960.html",
+  "source_url": "https://mathacademy.com/topics/1960",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "20011",
+        "dom_id": "sectionLink-20011",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-20011"
+      },
+      {
+        "index": 2,
+        "step_id": "20406",
+        "dom_id": "sectionLink-20406",
+        "name": "",
+        "title": "Determining Whether Given Vectors Belong to the Kernel of a Linear Transformation",
+        "selector": "#sectionLink-20406"
+      },
+      {
+        "index": 3,
+        "step_id": "20014",
+        "dom_id": "sectionLink-20014",
+        "name": "",
+        "title": "Calculating a Component of a Vector in the Kernel of a Linear Transformation",
+        "selector": "#sectionLink-20014"
+      },
+      {
+        "index": 4,
+        "step_id": "25965",
+        "dom_id": "sectionLink-25965",
+        "name": "",
+        "title": "Finding the Kernel of a Linear Transformation",
+        "selector": "#sectionLink-25965"
+      },
+      {
+        "index": 5,
+        "step_id": "20012",
+        "dom_id": "sectionLink-20012",
+        "name": "",
+        "title": "Finding the Kernel of a Linear Transformation",
+        "selector": "#sectionLink-20012"
+      },
+      {
+        "index": 6,
+        "step_id": "26214",
+        "dom_id": "sectionLink-26214",
+        "name": "",
+        "title": "The Nullity of a Linear Transformation",
+        "selector": "#sectionLink-26214"
+      },
+      {
+        "index": 7,
+        "step_id": "20013",
+        "dom_id": "sectionLink-20013",
+        "name": "",
+        "title": "Finding the Nullity of a Linear Transformation",
+        "selector": "#sectionLink-20013"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1868",
+        "name": "The Dimension of the Null Space of a Matrix",
+        "href": "/topics/the-dimension-of-the-null-space-of-a-matrix-1868"
+      },
+      {
+        "topic_id": "1959",
+        "name": "The Standard Matrix of a Linear Transformation",
+        "href": "/topics/the-standard-matrix-of-a-linear-transformation-1959"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20011",
+        "content_id": "3529",
+        "dom_id": "step-20011",
+        "selector": "#step-20011",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20406",
+        "content_id": "5616",
+        "dom_id": "step-20406",
+        "selector": "#step-20406",
+        "step_anchor": "step-2",
+        "title": "Determining Whether Given Vectors Belong to the Kernel of a Linear Transformation",
+        "key_prerequisites": [
+          {
+            "topic_id": "470",
+            "name": "Introduction to Functions",
+            "href": "/topics/470"
+          },
+          {
+            "topic_id": "1166",
+            "name": "Three-Dimensional Vectors in Component Form",
+            "href": "/topics/1166"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "38684",
+        "dom_id": "question-38684",
+        "selector": "#question-38684",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "37824",
+        "dom_id": "question-37824",
+        "selector": "#question-37824",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20014",
+        "content_id": "5441",
+        "dom_id": "step-20014",
+        "selector": "#step-20014",
+        "step_anchor": "step-5",
+        "title": "Calculating a Component of a Vector in the Kernel of a Linear Transformation",
+        "key_prerequisites": [
+          {
+            "topic_id": "66",
+            "name": "Solving Two-Step Equations",
+            "href": "/topics/66"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "37842",
+        "dom_id": "question-37842",
+        "selector": "#question-37842",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "37825",
+        "dom_id": "question-37825",
+        "selector": "#question-37825",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "25965",
+        "content_id": "4275",
+        "dom_id": "step-25965",
+        "selector": "#step-25965",
+        "step_anchor": "step-8",
+        "title": "Finding the Kernel of a Linear Transformation",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20012",
+        "content_id": "5439",
+        "dom_id": "step-20012",
+        "selector": "#step-20012",
+        "step_anchor": "step-9",
+        "title": "Finding the Kernel of a Linear Transformation",
+        "key_prerequisites": [
+          {
+            "topic_id": "1854",
+            "name": "The Null Space of a Matrix",
+            "href": "/topics/1854"
+          },
+          {
+            "topic_id": "1959",
+            "name": "The Standard Matrix of a Linear Transformation",
+            "href": "/topics/1959"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "38719",
+        "dom_id": "question-38719",
+        "selector": "#question-38719",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "37826",
+        "dom_id": "question-37826",
+        "selector": "#question-37826",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "26214",
+        "content_id": "4313",
+        "dom_id": "step-26214",
+        "selector": "#step-26214",
+        "step_anchor": "step-12",
+        "title": "The Nullity of a Linear Transformation",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20013",
+        "content_id": "5440",
+        "dom_id": "step-20013",
+        "selector": "#step-20013",
+        "step_anchor": "step-13",
+        "title": "Finding the Nullity of a Linear Transformation",
+        "key_prerequisites": [
+          {
+            "topic_id": "1868",
+            "name": "The Dimension of the Null Space of a Matrix",
+            "href": "/topics/1868"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "38643",
+        "dom_id": "question-38643",
+        "selector": "#question-38643",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "38676",
+        "dom_id": "question-38676",
+        "selector": "#question-38676",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-20011",
+        "filename": "01-step-20011.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-20406",
+        "filename": "02-step-20406.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-38684",
+        "filename": "03-question-38684.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-37824",
+        "filename": "04-question-37824.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-20014",
+        "filename": "05-step-20014.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-37842",
+        "filename": "06-question-37842.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-37825",
+        "filename": "07-question-37825.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-25965",
+        "filename": "08-step-25965.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-20012",
+        "filename": "09-step-20012.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-38719",
+        "filename": "10-question-38719.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-37826",
+        "filename": "11-question-37826.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-26214",
+        "filename": "12-step-26214.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-20013",
+        "filename": "13-step-20013.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-38643",
+        "filename": "14-question-38643.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-38676",
+        "filename": "15-question-38676.png"
+      }
+    ]
+  }
+}

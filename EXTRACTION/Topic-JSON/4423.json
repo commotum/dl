@@ -1,0 +1,316 @@
+{
+  "schema_version": 1,
+  "topic_id": "4423",
+  "topic_title": "Prenex Normal Form",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/4423.html",
+  "source_url": "https://mathacademy.com/topics/4423",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "69341",
+        "dom_id": "sectionLink-69341",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-69341"
+      },
+      {
+        "index": 2,
+        "step_id": "69342",
+        "dom_id": "sectionLink-69342",
+        "name": "",
+        "title": "When Both Predicates Depend on the Same Variable",
+        "selector": "#sectionLink-69342"
+      },
+      {
+        "index": 3,
+        "step_id": "69343",
+        "dom_id": "sectionLink-69343",
+        "name": "",
+        "title": "Identifying Equivalent Formulas",
+        "selector": "#sectionLink-69343"
+      },
+      {
+        "index": 4,
+        "step_id": "69346",
+        "dom_id": "sectionLink-69346",
+        "name": "",
+        "title": "Finding a Prenex Normal Form When the Predicates Have No Common Variables",
+        "selector": "#sectionLink-69346"
+      },
+      {
+        "index": 5,
+        "step_id": "69349",
+        "dom_id": "sectionLink-69349",
+        "name": "",
+        "title": "Renaming of Bound Variables",
+        "selector": "#sectionLink-69349"
+      },
+      {
+        "index": 6,
+        "step_id": "69350",
+        "dom_id": "sectionLink-69350",
+        "name": "",
+        "title": "Finding a Prenex Normal Form When the Predicates Have Common Variables",
+        "selector": "#sectionLink-69350"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "4258",
+        "name": "Negating Statements With Nested Quantifiers",
+        "href": "/topics/negating-statements-with-nested-quantifiers-4258"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "69341",
+        "content_id": "8293",
+        "dom_id": "step-69341",
+        "selector": "#step-69341",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "69342",
+        "content_id": "8340",
+        "dom_id": "step-69342",
+        "selector": "#step-69342",
+        "step_anchor": "step-2",
+        "title": "When Both Predicates Depend on the Same Variable",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "69343",
+        "content_id": "13282",
+        "dom_id": "step-69343",
+        "selector": "#step-69343",
+        "step_anchor": "step-3",
+        "title": "Identifying Equivalent Formulas",
+        "key_prerequisites": [
+          {
+            "topic_id": "2792",
+            "name": "Nested Quantifiers",
+            "href": "/topics/2792"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "183797",
+        "dom_id": "question-183797",
+        "selector": "#question-183797",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "183474",
+        "dom_id": "question-183474",
+        "selector": "#question-183474",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "69346",
+        "content_id": "13280",
+        "dom_id": "step-69346",
+        "selector": "#step-69346",
+        "step_anchor": "step-6",
+        "title": "Finding a Prenex Normal Form When the Predicates Have No Common Variables",
+        "key_prerequisites": [
+          {
+            "topic_id": "4258",
+            "name": "Negating Statements With Nested Quantifiers",
+            "href": "/topics/4258"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "183475",
+        "dom_id": "question-183475",
+        "selector": "#question-183475",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "172805",
+        "dom_id": "question-172805",
+        "selector": "#question-172805",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "69349",
+        "content_id": "8294",
+        "dom_id": "step-69349",
+        "selector": "#step-69349",
+        "step_anchor": "step-9",
+        "title": "Renaming of Bound Variables",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "69350",
+        "content_id": "13281",
+        "dom_id": "step-69350",
+        "selector": "#step-69350",
+        "step_anchor": "step-10",
+        "title": "Finding a Prenex Normal Form When the Predicates Have Common Variables",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "183476",
+        "dom_id": "question-183476",
+        "selector": "#question-183476",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "183725",
+        "dom_id": "question-183725",
+        "selector": "#question-183725",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-69341",
+        "filename": "01-step-69341.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-69342",
+        "filename": "02-step-69342.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-69343",
+        "filename": "03-step-69343.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-183797",
+        "filename": "04-question-183797.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-183474",
+        "filename": "05-question-183474.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-69346",
+        "filename": "06-step-69346.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-183475",
+        "filename": "07-question-183475.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-172805",
+        "filename": "08-question-172805.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-69349",
+        "filename": "09-step-69349.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-69350",
+        "filename": "10-step-69350.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-183476",
+        "filename": "11-question-183476.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-183725",
+        "filename": "12-question-183725.png"
+      }
+    ]
+  }
+}

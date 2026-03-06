@@ -1,0 +1,334 @@
+{
+  "schema_version": 1,
+  "topic_id": "3640",
+  "topic_title": "The Joint CDF of Two Continuous Random Variables",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3640.html",
+  "source_url": "https://mathacademy.com/topics/3640",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "34404",
+        "dom_id": "sectionLink-34404",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-34404"
+      },
+      {
+        "index": 2,
+        "step_id": "34459",
+        "dom_id": "sectionLink-34459",
+        "name": "",
+        "title": "Computing the Value of the Joint CDF at a Point",
+        "selector": "#sectionLink-34459"
+      },
+      {
+        "index": 3,
+        "step_id": "34462",
+        "dom_id": "sectionLink-34462",
+        "name": "",
+        "title": "Finding a Probability Geometrically Using a CDF",
+        "selector": "#sectionLink-34462"
+      },
+      {
+        "index": 4,
+        "step_id": "36999",
+        "dom_id": "sectionLink-36999",
+        "name": "",
+        "title": "Finding Part of a Joint CDF from a Joint PDF: Simple Cases",
+        "selector": "#sectionLink-36999"
+      },
+      {
+        "index": 5,
+        "step_id": "38160",
+        "dom_id": "sectionLink-38160",
+        "name": "",
+        "title": "Finding Part of a Joint CDF from a Joint PDF",
+        "selector": "#sectionLink-38160"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3004",
+        "name": "The Joint CDF of Two Discrete Random Variables",
+        "href": "/topics/the-joint-cdf-of-two-discrete-random-variables-3004"
+      },
+      {
+        "topic_id": "3863",
+        "name": "Independence of Continuous Random Variables",
+        "href": "/topics/independence-of-continuous-random-variables-3863"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "34404",
+        "content_id": "5541",
+        "dom_id": "step-34404",
+        "selector": "#step-34404",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "34459",
+        "content_id": "9221",
+        "dom_id": "step-34459",
+        "selector": "#step-34459",
+        "step_anchor": "step-2",
+        "title": "Computing the Value of the Joint CDF at a Point",
+        "key_prerequisites": [
+          {
+            "topic_id": "2163",
+            "name": "Cumulative Distribution Functions for Continuous Random Variables",
+            "href": "/topics/2163"
+          },
+          {
+            "topic_id": "3004",
+            "name": "The Joint CDF of Two Discrete Random Variables",
+            "href": "/topics/3004"
+          },
+          {
+            "topic_id": "3052",
+            "name": "Joint Distributions for Continuous Random Variables",
+            "href": "/topics/3052"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "111909",
+        "dom_id": "question-111909",
+        "selector": "#question-111909",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "137894",
+        "dom_id": "question-137894",
+        "selector": "#question-137894",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "34462",
+        "content_id": "9222",
+        "dom_id": "step-34462",
+        "selector": "#step-34462",
+        "step_anchor": "step-5",
+        "title": "Finding a Probability Geometrically Using a CDF",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "137970",
+        "dom_id": "question-137970",
+        "selector": "#question-137970",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "111911",
+        "dom_id": "question-111911",
+        "selector": "#question-111911",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "36999",
+        "content_id": "9838",
+        "dom_id": "step-36999",
+        "selector": "#step-36999",
+        "step_anchor": "step-8",
+        "title": "Finding Part of a Joint CDF from a Joint PDF: Simple Cases",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "143568",
+        "dom_id": "question-143568",
+        "selector": "#question-143568",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "143569",
+        "dom_id": "question-143569",
+        "selector": "#question-143569",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "38160",
+        "content_id": "10118",
+        "dom_id": "step-38160",
+        "selector": "#step-38160",
+        "step_anchor": "step-11",
+        "title": "Finding Part of a Joint CDF from a Joint PDF",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "111907",
+        "dom_id": "question-111907",
+        "selector": "#question-111907",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "111908",
+        "dom_id": "question-111908",
+        "selector": "#question-111908",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-34404",
+        "filename": "01-step-34404.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-34459",
+        "filename": "02-step-34459.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-111909",
+        "filename": "03-question-111909.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-137894",
+        "filename": "04-question-137894.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-34462",
+        "filename": "05-step-34462.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-137970",
+        "filename": "06-question-137970.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-111911",
+        "filename": "07-question-111911.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-36999",
+        "filename": "08-step-36999.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-143568",
+        "filename": "09-question-143568.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-143569",
+        "filename": "10-question-143569.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-38160",
+        "filename": "11-step-38160.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-111907",
+        "filename": "12-question-111907.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-111908",
+        "filename": "13-question-111908.png"
+      }
+    ]
+  }
+}

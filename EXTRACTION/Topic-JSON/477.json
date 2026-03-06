@@ -1,0 +1,421 @@
+{
+  "schema_version": 1,
+  "topic_id": "477",
+  "topic_title": "Approximating Areas With the Left Riemann Sum",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/477.html",
+  "source_url": "https://mathacademy.com/topics/477",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "1400",
+        "dom_id": "sectionLink-1400",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-1400"
+      },
+      {
+        "index": 2,
+        "step_id": "1404",
+        "dom_id": "sectionLink-1404",
+        "name": "",
+        "title": "A General Formula for the Left Riemann Sum",
+        "selector": "#sectionLink-1404"
+      },
+      {
+        "index": 3,
+        "step_id": "1401",
+        "dom_id": "sectionLink-1401",
+        "name": "",
+        "title": "Calculating a Left Riemann Sum With Regular Step Size",
+        "selector": "#sectionLink-1401"
+      },
+      {
+        "index": 4,
+        "step_id": "26738",
+        "dom_id": "sectionLink-26738",
+        "name": "",
+        "title": "Solving for an Unknown Given the Value of a Left Riemann Sum With Regular Step Size",
+        "selector": "#sectionLink-26738"
+      },
+      {
+        "index": 5,
+        "step_id": "26748",
+        "dom_id": "sectionLink-26748",
+        "name": "",
+        "title": "Overestimates and Underestimates",
+        "selector": "#sectionLink-26748"
+      },
+      {
+        "index": 6,
+        "step_id": "26741",
+        "dom_id": "sectionLink-26741",
+        "name": "",
+        "title": "Determining Whether a Left Riemann Sum is an Overestimate or Underestimate",
+        "selector": "#sectionLink-26741"
+      },
+      {
+        "index": 7,
+        "step_id": "1405",
+        "dom_id": "sectionLink-1405",
+        "name": "",
+        "title": "Left Riemann Sums with Irregular Step Size",
+        "selector": "#sectionLink-1405"
+      },
+      {
+        "index": 8,
+        "step_id": "1406",
+        "dom_id": "sectionLink-1406",
+        "name": "",
+        "title": "Calculating a Left Riemann Sum With Irregular Step Size",
+        "selector": "#sectionLink-1406"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "84",
+        "name": "Graphs of General Quadratic Functions",
+        "href": "/topics/graphs-of-general-quadratic-functions-84"
+      },
+      {
+        "topic_id": "1352",
+        "name": "Areas of Rectangles and Squares",
+        "href": "/topics/areas-of-rectangles-and-squares-1352"
+      },
+      {
+        "topic_id": "1628",
+        "name": "Increasing and Decreasing Functions",
+        "href": "/topics/increasing-and-decreasing-functions-1628"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 16,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "1400",
+        "content_id": "727",
+        "dom_id": "step-1400",
+        "selector": "#step-1400",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "1404",
+        "content_id": "729",
+        "dom_id": "step-1404",
+        "selector": "#step-1404",
+        "step_anchor": "step-2",
+        "title": "A General Formula for the Left Riemann Sum",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "1401",
+        "content_id": "389",
+        "dom_id": "step-1401",
+        "selector": "#step-1401",
+        "step_anchor": "step-3",
+        "title": "Calculating a Left Riemann Sum With Regular Step Size",
+        "key_prerequisites": [
+          {
+            "topic_id": "470",
+            "name": "Introduction to Functions",
+            "href": "/topics/470"
+          },
+          {
+            "topic_id": "1352",
+            "name": "Areas of Rectangles and Squares",
+            "href": "/topics/1352"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "71860",
+        "dom_id": "question-71860",
+        "selector": "#question-71860",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "4412",
+        "dom_id": "question-4412",
+        "selector": "#question-4412",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "26738",
+        "content_id": "7228",
+        "dom_id": "step-26738",
+        "selector": "#step-26738",
+        "step_anchor": "step-6",
+        "title": "Solving for an Unknown Given the Value of a Left Riemann Sum With Regular Step Size",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "49079",
+        "dom_id": "question-49079",
+        "selector": "#question-49079",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "49074",
+        "dom_id": "question-49074",
+        "selector": "#question-49074",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "26748",
+        "content_id": "4372",
+        "dom_id": "step-26748",
+        "selector": "#step-26748",
+        "step_anchor": "step-9",
+        "title": "Overestimates and Underestimates",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "26741",
+        "content_id": "7230",
+        "dom_id": "step-26741",
+        "selector": "#step-26741",
+        "step_anchor": "step-10",
+        "title": "Determining Whether a Left Riemann Sum is an Overestimate or Underestimate",
+        "key_prerequisites": [
+          {
+            "topic_id": "1628",
+            "name": "Increasing and Decreasing Functions",
+            "href": "/topics/1628"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "49105",
+        "dom_id": "question-49105",
+        "selector": "#question-49105",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "49109",
+        "dom_id": "question-49109",
+        "selector": "#question-49109",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "1405",
+        "content_id": "730",
+        "dom_id": "step-1405",
+        "selector": "#step-1405",
+        "step_anchor": "step-13",
+        "title": "Left Riemann Sums with Irregular Step Size",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "1406",
+        "content_id": "390",
+        "dom_id": "step-1406",
+        "selector": "#step-1406",
+        "step_anchor": "step-14",
+        "title": "Calculating a Left Riemann Sum With Irregular Step Size",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "20754",
+        "dom_id": "question-20754",
+        "selector": "#question-20754",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "20333",
+        "dom_id": "question-20333",
+        "selector": "#question-20333",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-1400",
+        "filename": "01-step-1400.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-1404",
+        "filename": "02-step-1404.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-1401",
+        "filename": "03-step-1401.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-71860",
+        "filename": "04-question-71860.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-4412",
+        "filename": "05-question-4412.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-26738",
+        "filename": "06-step-26738.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-49079",
+        "filename": "07-question-49079.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-49074",
+        "filename": "08-question-49074.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-26748",
+        "filename": "09-step-26748.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-26741",
+        "filename": "10-step-26741.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-49105",
+        "filename": "11-question-49105.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-49109",
+        "filename": "12-question-49109.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-1405",
+        "filename": "13-step-1405.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-1406",
+        "filename": "14-step-1406.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-20754",
+        "filename": "15-question-20754.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-20333",
+        "filename": "16-question-20333.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,333 @@
+{
+  "schema_version": 1,
+  "topic_id": "932",
+  "topic_title": "Rotations as Linear Transformations",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/932.html",
+  "source_url": "https://mathacademy.com/topics/932",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "464465",
+        "dom_id": "sectionLink-464465",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-464465"
+      },
+      {
+        "index": 2,
+        "step_id": "464466",
+        "dom_id": "sectionLink-464466",
+        "name": "",
+        "title": "General Rotation Matrix",
+        "selector": "#sectionLink-464466"
+      },
+      {
+        "index": 3,
+        "step_id": "464467",
+        "dom_id": "sectionLink-464467",
+        "name": "",
+        "title": "Rotating a Vector About the Origin",
+        "selector": "#sectionLink-464467"
+      },
+      {
+        "index": 4,
+        "step_id": "464470",
+        "dom_id": "sectionLink-464470",
+        "name": "",
+        "title": "Interpreting a Given Matrix as a Rotation",
+        "selector": "#sectionLink-464470"
+      },
+      {
+        "index": 5,
+        "step_id": "464474",
+        "dom_id": "sectionLink-464474",
+        "name": "",
+        "title": "Rotating an Object About the Origin",
+        "selector": "#sectionLink-464474"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "915",
+        "name": "Elementary Trigonometric Equations Containing Tangent",
+        "href": "/topics/elementary-trigonometric-equations-containing-tangent-915"
+      },
+      {
+        "topic_id": "931",
+        "name": "Right-Angle Rotations as Linear Transformations",
+        "href": "/topics/right-angle-rotations-as-linear-transformations-931"
+      },
+      {
+        "topic_id": "3540",
+        "name": "Describing Properties of the Sine Function",
+        "href": "/topics/describing-properties-of-the-sine-function-3540"
+      },
+      {
+        "topic_id": "3557",
+        "name": "Describing Properties of the Cosine Function",
+        "href": "/topics/describing-properties-of-the-cosine-function-3557"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "464465",
+        "content_id": "3546",
+        "dom_id": "step-464465",
+        "selector": "#step-464465",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "464466",
+        "content_id": "3548",
+        "dom_id": "step-464466",
+        "selector": "#step-464466",
+        "step_anchor": "step-2",
+        "title": "General Rotation Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "464467",
+        "content_id": "5459",
+        "dom_id": "step-464467",
+        "selector": "#step-464467",
+        "step_anchor": "step-3",
+        "title": "Rotating a Vector About the Origin",
+        "key_prerequisites": [
+          {
+            "topic_id": "931",
+            "name": "Right-Angle Rotations as Linear Transformations",
+            "href": "/topics/931"
+          },
+          {
+            "topic_id": "1844",
+            "name": "Further Extensions of the Special Trigonometric Ratios",
+            "href": "/topics/1844"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "70639",
+        "dom_id": "question-70639",
+        "selector": "#question-70639",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "70640",
+        "dom_id": "question-70640",
+        "selector": "#question-70640",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "464470",
+        "content_id": "5460",
+        "dom_id": "step-464470",
+        "selector": "#step-464470",
+        "step_anchor": "step-6",
+        "title": "Interpreting a Given Matrix as a Rotation",
+        "key_prerequisites": [
+          {
+            "topic_id": "915",
+            "name": "Elementary Trigonometric Equations Containing Tangent",
+            "href": "/topics/915"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "8458",
+        "dom_id": "question-8458",
+        "selector": "#question-8458",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "8457",
+        "dom_id": "question-8457",
+        "selector": "#question-8457",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "82064",
+        "dom_id": "question-82064",
+        "selector": "#question-82064",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "464474",
+        "content_id": "5461",
+        "dom_id": "step-464474",
+        "selector": "#step-464474",
+        "step_anchor": "step-10",
+        "title": "Rotating an Object About the Origin",
+        "key_prerequisites": [
+          {
+            "topic_id": "866",
+            "name": "Linear Transformations of Objects in the Plane",
+            "href": "/topics/866"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "11965",
+        "dom_id": "question-11965",
+        "selector": "#question-11965",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "8490",
+        "dom_id": "question-8490",
+        "selector": "#question-8490",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-464465",
+        "filename": "01-step-464465.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-464466",
+        "filename": "02-step-464466.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-464467",
+        "filename": "03-step-464467.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-70639",
+        "filename": "04-question-70639.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-70640",
+        "filename": "05-question-70640.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-464470",
+        "filename": "06-step-464470.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-8458",
+        "filename": "07-question-8458.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-8457",
+        "filename": "08-question-8457.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-82064",
+        "filename": "09-question-82064.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-464474",
+        "filename": "10-step-464474.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-11965",
+        "filename": "11-question-11965.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-8490",
+        "filename": "12-question-8490.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,363 @@
+{
+  "schema_version": 1,
+  "topic_id": "3280",
+  "topic_title": "Mean and Variance of the Bernoulli Distribution",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3280.html",
+  "source_url": "https://mathacademy.com/topics/3280",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "221751",
+        "dom_id": "sectionLink-221751",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-221751"
+      },
+      {
+        "index": 2,
+        "step_id": "221752",
+        "dom_id": "sectionLink-221752",
+        "name": "",
+        "title": "Determining Situations That Can Be Modeled as a Bernoulli Distribution",
+        "selector": "#sectionLink-221752"
+      },
+      {
+        "index": 3,
+        "step_id": "221755",
+        "dom_id": "sectionLink-221755",
+        "name": "",
+        "title": "Modeling With the Bernoulli Distribution",
+        "selector": "#sectionLink-221755"
+      },
+      {
+        "index": 4,
+        "step_id": "221758",
+        "dom_id": "sectionLink-221758",
+        "name": "",
+        "title": "Mean and Variance of the Bernoulli Distribution",
+        "selector": "#sectionLink-221758"
+      },
+      {
+        "index": 5,
+        "step_id": "221759",
+        "dom_id": "sectionLink-221759",
+        "name": "",
+        "title": "Finding the Mean of a Bernoulli Random Variable",
+        "selector": "#sectionLink-221759"
+      },
+      {
+        "index": 6,
+        "step_id": "221762",
+        "dom_id": "sectionLink-221762",
+        "name": "",
+        "title": "Finding the Variance or Standard Deviation of a Bernoulli Random Variable",
+        "selector": "#sectionLink-221762"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1388",
+        "name": "Variance of Discrete Random Variables",
+        "href": "/topics/variance-of-discrete-random-variables-1388"
+      },
+      {
+        "topic_id": "3071",
+        "name": "The Bernoulli Distribution",
+        "href": "/topics/the-bernoulli-distribution-3071"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "221751",
+        "content_id": "5102",
+        "dom_id": "step-221751",
+        "selector": "#step-221751",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "221752",
+        "content_id": "8646",
+        "dom_id": "step-221752",
+        "selector": "#step-221752",
+        "step_anchor": "step-2",
+        "title": "Determining Situations That Can Be Modeled as a Bernoulli Distribution",
+        "key_prerequisites": [
+          {
+            "topic_id": "3071",
+            "name": "The Bernoulli Distribution",
+            "href": "/topics/3071"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "97747",
+        "dom_id": "question-97747",
+        "selector": "#question-97747",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "97567",
+        "dom_id": "question-97567",
+        "selector": "#question-97567",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "221755",
+        "content_id": "8619",
+        "dom_id": "step-221755",
+        "selector": "#step-221755",
+        "step_anchor": "step-5",
+        "title": "Modeling With the Bernoulli Distribution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "97984",
+        "dom_id": "question-97984",
+        "selector": "#question-97984",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "97237",
+        "dom_id": "question-97237",
+        "selector": "#question-97237",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "221758",
+        "content_id": "5370",
+        "dom_id": "step-221758",
+        "selector": "#step-221758",
+        "step_anchor": "step-8",
+        "title": "Mean and Variance of the Bernoulli Distribution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "221759",
+        "content_id": "8620",
+        "dom_id": "step-221759",
+        "selector": "#step-221759",
+        "step_anchor": "step-9",
+        "title": "Finding the Mean of a Bernoulli Random Variable",
+        "key_prerequisites": [
+          {
+            "topic_id": "730",
+            "name": "Expected Values of Discrete Random Variables",
+            "href": "/topics/730"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "98075",
+        "dom_id": "question-98075",
+        "selector": "#question-98075",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "97238",
+        "dom_id": "question-97238",
+        "selector": "#question-97238",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "221762",
+        "content_id": "8621",
+        "dom_id": "step-221762",
+        "selector": "#step-221762",
+        "step_anchor": "step-12",
+        "title": "Finding the Variance or Standard Deviation of a Bernoulli Random Variable",
+        "key_prerequisites": [
+          {
+            "topic_id": "1388",
+            "name": "Variance of Discrete Random Variables",
+            "href": "/topics/1388"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "97239",
+        "dom_id": "question-97239",
+        "selector": "#question-97239",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "98084",
+        "dom_id": "question-98084",
+        "selector": "#question-98084",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-221751",
+        "filename": "01-step-221751.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-221752",
+        "filename": "02-step-221752.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-97747",
+        "filename": "03-question-97747.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-97567",
+        "filename": "04-question-97567.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-221755",
+        "filename": "05-step-221755.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-97984",
+        "filename": "06-question-97984.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-97237",
+        "filename": "07-question-97237.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-221758",
+        "filename": "08-step-221758.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-221759",
+        "filename": "09-step-221759.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-98075",
+        "filename": "10-question-98075.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-97238",
+        "filename": "11-question-97238.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-221762",
+        "filename": "12-step-221762.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-97239",
+        "filename": "13-question-97239.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-98084",
+        "filename": "14-question-98084.png"
+      }
+    ]
+  }
+}

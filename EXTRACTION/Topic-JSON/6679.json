@@ -1,0 +1,447 @@
+{
+  "schema_version": 1,
+  "topic_id": "6679",
+  "topic_title": "Solving First-Order Linear ODEs With Exponential Forcing",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/6679.html",
+  "source_url": "https://mathacademy.com/topics/6679",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "597439",
+        "dom_id": "sectionLink-597439",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-597439"
+      },
+      {
+        "index": 2,
+        "step_id": "597440",
+        "dom_id": "sectionLink-597440",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-597440"
+      },
+      {
+        "index": 3,
+        "step_id": "597441",
+        "dom_id": "sectionLink-597441",
+        "name": "",
+        "title": "Finding a Particular Solution to a First-Order Inhomogeneous ODE With Exponential Forcing",
+        "selector": "#sectionLink-597441"
+      },
+      {
+        "index": 4,
+        "step_id": "597445",
+        "dom_id": "sectionLink-597445",
+        "name": "",
+        "title": "Cases When the Forcing Term is Part of the Complementary Solution",
+        "selector": "#sectionLink-597445"
+      },
+      {
+        "index": 5,
+        "step_id": "597446",
+        "dom_id": "sectionLink-597446",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-597446"
+      },
+      {
+        "index": 6,
+        "step_id": "597447",
+        "dom_id": "sectionLink-597447",
+        "name": "",
+        "title": "Finding a Particular Solution When the Forcing Term is Part of the Complementary Solution",
+        "selector": "#sectionLink-597447"
+      },
+      {
+        "index": 7,
+        "step_id": "597451",
+        "dom_id": "sectionLink-597451",
+        "name": "",
+        "title": "Finding the General Solution to a First-Order Inhomogeneous ODE With Exponential Forcing",
+        "selector": "#sectionLink-597451"
+      },
+      {
+        "index": 8,
+        "step_id": "597454",
+        "dom_id": "sectionLink-597454",
+        "name": "",
+        "title": "Solving an Initial Value Problem",
+        "selector": "#sectionLink-597454"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "6678",
+        "name": "General Solutions of First-Order Linear ODEs",
+        "href": "/topics/general-solutions-of-first-order-linear-odes-6678"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 18,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "597439",
+        "content_id": "14449",
+        "dom_id": "step-597439",
+        "selector": "#step-597439",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "597440",
+        "content_id": "14700",
+        "dom_id": "step-597440",
+        "selector": "#step-597440",
+        "step_anchor": "step-2",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "597441",
+        "content_id": "21615",
+        "dom_id": "step-597441",
+        "selector": "#step-597441",
+        "step_anchor": "step-3",
+        "title": "Finding a Particular Solution to a First-Order Inhomogeneous ODE With Exponential Forcing",
+        "key_prerequisites": [
+          {
+            "topic_id": "1007",
+            "name": "The Chain Rule With Exponential Functions",
+            "href": "/topics/1007"
+          },
+          {
+            "topic_id": "6678",
+            "name": "General Solutions of First-Order Linear ODEs",
+            "href": "/topics/6678"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "332393",
+        "dom_id": "question-332393",
+        "selector": "#question-332393",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "332645",
+        "dom_id": "question-332645",
+        "selector": "#question-332645",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "332667",
+        "dom_id": "question-332667",
+        "selector": "#question-332667",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "597445",
+        "content_id": "14450",
+        "dom_id": "step-597445",
+        "selector": "#step-597445",
+        "step_anchor": "step-7",
+        "title": "Cases When the Forcing Term is Part of the Complementary Solution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "597446",
+        "content_id": "14703",
+        "dom_id": "step-597446",
+        "selector": "#step-597446",
+        "step_anchor": "step-8",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "597447",
+        "content_id": "21621",
+        "dom_id": "step-597447",
+        "selector": "#step-597447",
+        "step_anchor": "step-9",
+        "title": "Finding a Particular Solution When the Forcing Term is Part of the Complementary Solution",
+        "key_prerequisites": [
+          {
+            "topic_id": "1109",
+            "name": "The Product Rule for Differentiation",
+            "href": "/topics/1109"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "332723",
+        "dom_id": "question-332723",
+        "selector": "#question-332723",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "332398",
+        "dom_id": "question-332398",
+        "selector": "#question-332398",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "332795",
+        "dom_id": "question-332795",
+        "selector": "#question-332795",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "597451",
+        "content_id": "21616",
+        "dom_id": "step-597451",
+        "selector": "#step-597451",
+        "step_anchor": "step-13",
+        "title": "Finding the General Solution to a First-Order Inhomogeneous ODE With Exponential Forcing",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "332531",
+        "dom_id": "question-332531",
+        "selector": "#question-332531",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "332532",
+        "dom_id": "question-332532",
+        "selector": "#question-332532",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "597454",
+        "content_id": "21617",
+        "dom_id": "step-597454",
+        "selector": "#step-597454",
+        "step_anchor": "step-16",
+        "title": "Solving an Initial Value Problem",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "question_id": "332426",
+        "dom_id": "question-332426",
+        "selector": "#question-332426",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 18,
+        "item_type": "question",
+        "question_id": "332797",
+        "dom_id": "question-332797",
+        "selector": "#question-332797",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-597439",
+        "filename": "01-step-597439.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-597440",
+        "filename": "02-step-597440.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-597441",
+        "filename": "03-step-597441.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-332393",
+        "filename": "04-question-332393.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-332645",
+        "filename": "05-question-332645.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-332667",
+        "filename": "06-question-332667.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-597445",
+        "filename": "07-step-597445.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-597446",
+        "filename": "08-step-597446.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-597447",
+        "filename": "09-step-597447.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-332723",
+        "filename": "10-question-332723.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-332398",
+        "filename": "11-question-332398.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-332795",
+        "filename": "12-question-332795.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-597451",
+        "filename": "13-step-597451.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-332531",
+        "filename": "14-question-332531.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-332532",
+        "filename": "15-question-332532.png"
+      },
+      {
+        "index": 16,
+        "item_type": "step",
+        "selector": "#step-597454",
+        "filename": "16-step-597454.png"
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "selector": "#question-332426",
+        "filename": "17-question-332426.png"
+      },
+      {
+        "index": 18,
+        "item_type": "question",
+        "selector": "#question-332797",
+        "filename": "18-question-332797.png"
+      }
+    ]
+  }
+}

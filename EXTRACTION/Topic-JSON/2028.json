@@ -1,0 +1,400 @@
+{
+  "schema_version": 1,
+  "topic_id": "2028",
+  "topic_title": "The Parallel Axis Theorem",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2028.html",
+  "source_url": "https://mathacademy.com/topics/2028",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "43340",
+        "dom_id": "sectionLink-43340",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-43340"
+      },
+      {
+        "index": 2,
+        "step_id": "43341",
+        "dom_id": "sectionLink-43341",
+        "name": "",
+        "title": "Calculating a Moment of Inertia About a Perpendicular Axis",
+        "selector": "#sectionLink-43341"
+      },
+      {
+        "index": 3,
+        "step_id": "45317",
+        "dom_id": "sectionLink-45317",
+        "name": "",
+        "title": "A Formula for the Moment of Inertia About the Line Through the Center of Mass",
+        "selector": "#sectionLink-45317"
+      },
+      {
+        "index": 4,
+        "step_id": "45003",
+        "dom_id": "sectionLink-45003",
+        "name": "",
+        "title": "Calculating a Moment of Inertia of a Rectangular Plate About a Perpendicular Axis",
+        "selector": "#sectionLink-45003"
+      },
+      {
+        "index": 5,
+        "step_id": "43342",
+        "dom_id": "sectionLink-43342",
+        "name": "",
+        "title": "Calculating a Moment of Inertia About a Perpendicular Axis Using Polar Coordinates",
+        "selector": "#sectionLink-43342"
+      },
+      {
+        "index": 6,
+        "step_id": "44997",
+        "dom_id": "sectionLink-44997",
+        "name": "",
+        "title": "Finding the Distance Between Two Parallel Axes",
+        "selector": "#sectionLink-44997"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "4173",
+        "name": "Moments of Inertia of Laminas About Other Axes",
+        "href": "/topics/moments-of-inertia-of-laminas-about-other-axes-4173"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 17,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "43340",
+        "content_id": "7332",
+        "dom_id": "step-43340",
+        "selector": "#step-43340",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "43341",
+        "content_id": "11778",
+        "dom_id": "step-43341",
+        "selector": "#step-43341",
+        "step_anchor": "step-2",
+        "title": "Calculating a Moment of Inertia About a Perpendicular Axis",
+        "key_prerequisites": [
+          {
+            "topic_id": "4173",
+            "name": "Moments of Inertia of Laminas About Other Axes",
+            "href": "/topics/4173"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "163168",
+        "dom_id": "question-163168",
+        "selector": "#question-163168",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "163169",
+        "dom_id": "question-163169",
+        "selector": "#question-163169",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "45317",
+        "content_id": "7849",
+        "dom_id": "step-45317",
+        "selector": "#step-45317",
+        "step_anchor": "step-5",
+        "title": "A Formula for the Moment of Inertia About the Line Through the Center of Mass",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "45003",
+        "content_id": "12494",
+        "dom_id": "step-45003",
+        "selector": "#step-45003",
+        "step_anchor": "step-6",
+        "title": "Calculating a Moment of Inertia of a Rectangular Plate About a Perpendicular Axis",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "163172",
+        "dom_id": "question-163172",
+        "selector": "#question-163172",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "163173",
+        "dom_id": "question-163173",
+        "selector": "#question-163173",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "163179",
+        "dom_id": "question-163179",
+        "selector": "#question-163179",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "43342",
+        "content_id": "11779",
+        "dom_id": "step-43342",
+        "selector": "#step-43342",
+        "step_anchor": "step-10",
+        "title": "Calculating a Moment of Inertia About a Perpendicular Axis Using Polar Coordinates",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "163213",
+        "dom_id": "question-163213",
+        "selector": "#question-163213",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "38698",
+        "dom_id": "question-38698",
+        "selector": "#question-38698",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "38696",
+        "dom_id": "question-38696",
+        "selector": "#question-38696",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44997",
+        "content_id": "12493",
+        "dom_id": "step-44997",
+        "selector": "#step-44997",
+        "step_anchor": "step-14",
+        "title": "Finding the Distance Between Two Parallel Axes",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "38584",
+        "dom_id": "question-38584",
+        "selector": "#question-38584",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "163220",
+        "dom_id": "question-163220",
+        "selector": "#question-163220",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "question_id": "163218",
+        "dom_id": "question-163218",
+        "selector": "#question-163218",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-43340",
+        "filename": "01-step-43340.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-43341",
+        "filename": "02-step-43341.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-163168",
+        "filename": "03-question-163168.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-163169",
+        "filename": "04-question-163169.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-45317",
+        "filename": "05-step-45317.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-45003",
+        "filename": "06-step-45003.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-163172",
+        "filename": "07-question-163172.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-163173",
+        "filename": "08-question-163173.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-163179",
+        "filename": "09-question-163179.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-43342",
+        "filename": "10-step-43342.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-163213",
+        "filename": "11-question-163213.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-38698",
+        "filename": "12-question-38698.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-38696",
+        "filename": "13-question-38696.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-44997",
+        "filename": "14-step-44997.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-38584",
+        "filename": "15-question-38584.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-163220",
+        "filename": "16-question-163220.png"
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "selector": "#question-163218",
+        "filename": "17-question-163218.png"
+      }
+    ]
+  }
+}

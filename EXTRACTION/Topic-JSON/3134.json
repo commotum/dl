@@ -1,0 +1,369 @@
+{
+  "schema_version": 1,
+  "topic_id": "3134",
+  "topic_title": "Singular Value Decomposition and the Pseudoinverse Matrix",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3134.html",
+  "source_url": "https://mathacademy.com/topics/3134",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "36962",
+        "dom_id": "sectionLink-36962",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-36962"
+      },
+      {
+        "index": 2,
+        "step_id": "37092",
+        "dom_id": "sectionLink-37092",
+        "name": "",
+        "title": "The Pseudoinverse of an Almost Diagonal Matrix",
+        "selector": "#sectionLink-37092"
+      },
+      {
+        "index": 3,
+        "step_id": "36966",
+        "dom_id": "sectionLink-36966",
+        "name": "",
+        "title": "Finding the Pseudoinverse of a Diagonal Matrix",
+        "selector": "#sectionLink-36966"
+      },
+      {
+        "index": 4,
+        "step_id": "37091",
+        "dom_id": "sectionLink-37091",
+        "name": "",
+        "title": "Finding the Pseudoinverse Using Singular Value Decomposition",
+        "selector": "#sectionLink-37091"
+      },
+      {
+        "index": 5,
+        "step_id": "36963",
+        "dom_id": "sectionLink-36963",
+        "name": "",
+        "title": "Finding the Pseudoinverse of a Matrix Given Its Singular Value Decomposition",
+        "selector": "#sectionLink-36963"
+      },
+      {
+        "index": 6,
+        "step_id": "36969",
+        "dom_id": "sectionLink-36969",
+        "name": "",
+        "title": "Reduced Singular Value Decomposition",
+        "selector": "#sectionLink-36969"
+      },
+      {
+        "index": 7,
+        "step_id": "36970",
+        "dom_id": "sectionLink-36970",
+        "name": "",
+        "title": "Finding the Pseudoinverse of a Matrix Given Its Reduced Singular Value Decomposition",
+        "selector": "#sectionLink-36970"
+      },
+      {
+        "index": 8,
+        "step_id": "36979",
+        "dom_id": "sectionLink-36979",
+        "name": "",
+        "title": "The Optimal Least-Squares Solution",
+        "selector": "#sectionLink-36979"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2167",
+        "name": "The Least-Squares Solution of a Linear System (With Collinearity)",
+        "href": "/topics/the-least-squares-solution-of-a-linear-system-with-collinearity-2167"
+      },
+      {
+        "topic_id": "3133",
+        "name": "Singular Value Decomposition of Larger Matrices",
+        "href": "/topics/singular-value-decomposition-of-larger-matrices-3133"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "36962",
+        "content_id": "6074",
+        "dom_id": "step-36962",
+        "selector": "#step-36962",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "37092",
+        "content_id": "6103",
+        "dom_id": "step-37092",
+        "selector": "#step-37092",
+        "step_anchor": "step-2",
+        "title": "The Pseudoinverse of an Almost Diagonal Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "36966",
+        "content_id": "9829",
+        "dom_id": "step-36966",
+        "selector": "#step-36966",
+        "step_anchor": "step-3",
+        "title": "Finding the Pseudoinverse of a Diagonal Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "136990",
+        "dom_id": "question-136990",
+        "selector": "#question-136990",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "136991",
+        "dom_id": "question-136991",
+        "selector": "#question-136991",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "37091",
+        "content_id": "6102",
+        "dom_id": "step-37091",
+        "selector": "#step-37091",
+        "step_anchor": "step-6",
+        "title": "Finding the Pseudoinverse Using Singular Value Decomposition",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "36963",
+        "content_id": "9828",
+        "dom_id": "step-36963",
+        "selector": "#step-36963",
+        "step_anchor": "step-7",
+        "title": "Finding the Pseudoinverse of a Matrix Given Its Singular Value Decomposition",
+        "key_prerequisites": [
+          {
+            "topic_id": "3133",
+            "name": "Singular Value Decomposition of Larger Matrices",
+            "href": "/topics/3133"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "136973",
+        "dom_id": "question-136973",
+        "selector": "#question-136973",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "136972",
+        "dom_id": "question-136972",
+        "selector": "#question-136972",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "36969",
+        "content_id": "6075",
+        "dom_id": "step-36969",
+        "selector": "#step-36969",
+        "step_anchor": "step-10",
+        "title": "Reduced Singular Value Decomposition",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "36970",
+        "content_id": "9830",
+        "dom_id": "step-36970",
+        "selector": "#step-36970",
+        "step_anchor": "step-11",
+        "title": "Finding the Pseudoinverse of a Matrix Given Its Reduced Singular Value Decomposition",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "138622",
+        "dom_id": "question-138622",
+        "selector": "#question-138622",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "136992",
+        "dom_id": "question-136992",
+        "selector": "#question-136992",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "36979",
+        "content_id": "6078",
+        "dom_id": "step-36979",
+        "selector": "#step-36979",
+        "step_anchor": "step-14",
+        "title": "The Optimal Least-Squares Solution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-36962",
+        "filename": "01-step-36962.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-37092",
+        "filename": "02-step-37092.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-36966",
+        "filename": "03-step-36966.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-136990",
+        "filename": "04-question-136990.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-136991",
+        "filename": "05-question-136991.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-37091",
+        "filename": "06-step-37091.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-36963",
+        "filename": "07-step-36963.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-136973",
+        "filename": "08-question-136973.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-136972",
+        "filename": "09-question-136972.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-36969",
+        "filename": "10-step-36969.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-36970",
+        "filename": "11-step-36970.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-138622",
+        "filename": "12-question-138622.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-136992",
+        "filename": "13-question-136992.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-36979",
+        "filename": "14-step-36979.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,363 @@
+{
+  "schema_version": 1,
+  "topic_id": "865",
+  "topic_title": "Introduction to Linear Transformations",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/865.html",
+  "source_url": "https://mathacademy.com/topics/865",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "19995",
+        "dom_id": "sectionLink-19995",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-19995"
+      },
+      {
+        "index": 2,
+        "step_id": "23253",
+        "dom_id": "sectionLink-23253",
+        "name": "",
+        "title": "Linear Transformations",
+        "selector": "#sectionLink-23253"
+      },
+      {
+        "index": 3,
+        "step_id": "19997",
+        "dom_id": "sectionLink-19997",
+        "name": "",
+        "title": "Determining the Image of a Vector Under a Map Using the Scalar Multiplication Property",
+        "selector": "#sectionLink-19997"
+      },
+      {
+        "index": 4,
+        "step_id": "19998",
+        "dom_id": "sectionLink-19998",
+        "name": "",
+        "title": "Determining the Image of a Vector Under a Map Using Vector Addition and Scalar Multiplication",
+        "selector": "#sectionLink-19998"
+      },
+      {
+        "index": 5,
+        "step_id": "19999",
+        "dom_id": "sectionLink-19999",
+        "name": "",
+        "title": "Determining the Image of a Vector Sum Under a Map Using Vector Addition and Scalar Multiplication",
+        "selector": "#sectionLink-19999"
+      },
+      {
+        "index": 6,
+        "step_id": "19996",
+        "dom_id": "sectionLink-19996",
+        "name": "",
+        "title": "Identifying Linear Transformations",
+        "selector": "#sectionLink-19996"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "175",
+        "name": "Addition and Scalar Multiplication of Cartesian Vectors in 3D",
+        "href": "/topics/addition-and-scalar-multiplication-of-cartesian-vectors-in-3d-175"
+      },
+      {
+        "topic_id": "1331",
+        "name": "The Power of Product Rule With Algebraic Expressions",
+        "href": "/topics/the-power-of-product-rule-with-algebraic-expressions-1331"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "19995",
+        "content_id": "3525",
+        "dom_id": "step-19995",
+        "selector": "#step-19995",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "23253",
+        "content_id": "3935",
+        "dom_id": "step-23253",
+        "selector": "#step-23253",
+        "step_anchor": "step-2",
+        "title": "Linear Transformations",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "19997",
+        "content_id": "5428",
+        "dom_id": "step-19997",
+        "selector": "#step-19997",
+        "step_anchor": "step-3",
+        "title": "Determining the Image of a Vector Under a Map Using the Scalar Multiplication Property",
+        "key_prerequisites": [
+          {
+            "topic_id": "244",
+            "name": "Addition and Scalar Multiplication of Cartesian Vectors in 2D",
+            "href": "/topics/244"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "37903",
+        "dom_id": "question-37903",
+        "selector": "#question-37903",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "37906",
+        "dom_id": "question-37906",
+        "selector": "#question-37906",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "19998",
+        "content_id": "5429",
+        "dom_id": "step-19998",
+        "selector": "#step-19998",
+        "step_anchor": "step-6",
+        "title": "Determining the Image of a Vector Under a Map Using Vector Addition and Scalar Multiplication",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "37871",
+        "dom_id": "question-37871",
+        "selector": "#question-37871",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "37898",
+        "dom_id": "question-37898",
+        "selector": "#question-37898",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "19999",
+        "content_id": "5430",
+        "dom_id": "step-19999",
+        "selector": "#step-19999",
+        "step_anchor": "step-9",
+        "title": "Determining the Image of a Vector Sum Under a Map Using Vector Addition and Scalar Multiplication",
+        "key_prerequisites": [
+          {
+            "topic_id": "175",
+            "name": "Addition and Scalar Multiplication of Cartesian Vectors in 3D",
+            "href": "/topics/175"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "37873",
+        "dom_id": "question-37873",
+        "selector": "#question-37873",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "37902",
+        "dom_id": "question-37902",
+        "selector": "#question-37902",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "19996",
+        "content_id": "5427",
+        "dom_id": "step-19996",
+        "selector": "#step-19996",
+        "step_anchor": "step-12",
+        "title": "Identifying Linear Transformations",
+        "key_prerequisites": [
+          {
+            "topic_id": "1331",
+            "name": "The Power of Product Rule With Algebraic Expressions",
+            "href": "/topics/1331"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "12010",
+        "dom_id": "question-12010",
+        "selector": "#question-12010",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "8331",
+        "dom_id": "question-8331",
+        "selector": "#question-8331",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-19995",
+        "filename": "01-step-19995.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-23253",
+        "filename": "02-step-23253.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-19997",
+        "filename": "03-step-19997.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-37903",
+        "filename": "04-question-37903.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-37906",
+        "filename": "05-question-37906.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-19998",
+        "filename": "06-step-19998.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-37871",
+        "filename": "07-question-37871.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-37898",
+        "filename": "08-question-37898.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-19999",
+        "filename": "09-step-19999.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-37873",
+        "filename": "10-question-37873.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-37902",
+        "filename": "11-question-37902.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-19996",
+        "filename": "12-step-19996.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-12010",
+        "filename": "13-question-12010.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-8331",
+        "filename": "14-question-8331.png"
+      }
+    ]
+  }
+}

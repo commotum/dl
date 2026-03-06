@@ -1,0 +1,436 @@
+{
+  "schema_version": 1,
+  "topic_id": "6276",
+  "topic_title": "Bounding Statistics for Grouped Data",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/6276.html",
+  "source_url": "https://mathacademy.com/topics/6276",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "514002",
+        "dom_id": "sectionLink-514002",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-514002"
+      },
+      {
+        "index": 2,
+        "step_id": "514003",
+        "dom_id": "sectionLink-514003",
+        "name": "",
+        "title": "Finding a Lower or Upper Bound for the Median",
+        "selector": "#sectionLink-514003"
+      },
+      {
+        "index": 3,
+        "step_id": "514006",
+        "dom_id": "sectionLink-514006",
+        "name": "",
+        "title": "Bounding the Mean",
+        "selector": "#sectionLink-514006"
+      },
+      {
+        "index": 4,
+        "step_id": "514007",
+        "dom_id": "sectionLink-514007",
+        "name": "",
+        "title": "Finding a Lower or Upper Bound for the Mean",
+        "selector": "#sectionLink-514007"
+      },
+      {
+        "index": 5,
+        "step_id": "514010",
+        "dom_id": "sectionLink-514010",
+        "name": "",
+        "title": "Finding a Lower or Upper Bound for the Range",
+        "selector": "#sectionLink-514010"
+      },
+      {
+        "index": 6,
+        "step_id": "514013",
+        "dom_id": "sectionLink-514013",
+        "name": "",
+        "title": "Bounding the Difference Between Two Statistics",
+        "selector": "#sectionLink-514013"
+      },
+      {
+        "index": 7,
+        "step_id": "514014",
+        "dom_id": "sectionLink-514014",
+        "name": "",
+        "title": "Finding the Largest or Smallest Possible Difference Between Two Statistics",
+        "selector": "#sectionLink-514014"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1985",
+        "name": "Function Composition",
+        "href": "/topics/function-composition-1985"
+      },
+      {
+        "topic_id": "2502",
+        "name": "Symmetry, Skew, and Outliers",
+        "href": "/topics/symmetry-skew-and-outliers-2502"
+      },
+      {
+        "topic_id": "6191",
+        "name": "Comparing Means",
+        "href": "/topics/comparing-means-6191"
+      },
+      {
+        "topic_id": "6192",
+        "name": "Comparing Medians",
+        "href": "/topics/comparing-medians-6192"
+      },
+      {
+        "topic_id": "6287",
+        "name": "Optimizing Sums, Differences, Products, and Quotients",
+        "href": "/topics/optimizing-sums-differences-products-and-quotients-6287"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "514002",
+        "content_id": "13745",
+        "dom_id": "step-514002",
+        "selector": "#step-514002",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "514003",
+        "content_id": "19652",
+        "dom_id": "step-514003",
+        "selector": "#step-514003",
+        "step_anchor": "step-2",
+        "title": "Finding a Lower or Upper Bound for the Median",
+        "key_prerequisites": [
+          {
+            "topic_id": "6177",
+            "name": "Calculating Medians From Frequency Tables",
+            "href": "/topics/6177"
+          },
+          {
+            "topic_id": "6190",
+            "name": "Calculating Modes and Medians From Histograms",
+            "href": "/topics/6190"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "310317",
+        "dom_id": "question-310317",
+        "selector": "#question-310317",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "310295",
+        "dom_id": "question-310295",
+        "selector": "#question-310295",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "514006",
+        "content_id": "13748",
+        "dom_id": "step-514006",
+        "selector": "#step-514006",
+        "step_anchor": "step-5",
+        "title": "Bounding the Mean",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "514007",
+        "content_id": "19653",
+        "dom_id": "step-514007",
+        "selector": "#step-514007",
+        "step_anchor": "step-6",
+        "title": "Finding a Lower or Upper Bound for the Mean",
+        "key_prerequisites": [
+          {
+            "topic_id": "6176",
+            "name": "Calculating Means From Frequency Tables",
+            "href": "/topics/6176"
+          },
+          {
+            "topic_id": "6287",
+            "name": "Optimizing Sums, Differences, Products, and Quotients",
+            "href": "/topics/6287"
+          },
+          {
+            "topic_id": "6313",
+            "name": "Calculating Means From Histograms",
+            "href": "/topics/6313"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "310315",
+        "dom_id": "question-310315",
+        "selector": "#question-310315",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "310297",
+        "dom_id": "question-310297",
+        "selector": "#question-310297",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "514010",
+        "content_id": "20517",
+        "dom_id": "step-514010",
+        "selector": "#step-514010",
+        "step_anchor": "step-9",
+        "title": "Finding a Lower or Upper Bound for the Range",
+        "key_prerequisites": [
+          {
+            "topic_id": "2480",
+            "name": "Range, Quartiles, and IQR",
+            "href": "/topics/2480"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "316087",
+        "dom_id": "question-316087",
+        "selector": "#question-316087",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "316088",
+        "dom_id": "question-316088",
+        "selector": "#question-316088",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "514013",
+        "content_id": "13749",
+        "dom_id": "step-514013",
+        "selector": "#step-514013",
+        "step_anchor": "step-12",
+        "title": "Bounding the Difference Between Two Statistics",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "514014",
+        "content_id": "19654",
+        "dom_id": "step-514014",
+        "selector": "#step-514014",
+        "step_anchor": "step-13",
+        "title": "Finding the Largest or Smallest Possible Difference Between Two Statistics",
+        "key_prerequisites": [
+          {
+            "topic_id": "1985",
+            "name": "Function Composition",
+            "href": "/topics/1985"
+          },
+          {
+            "topic_id": "6191",
+            "name": "Comparing Means",
+            "href": "/topics/6191"
+          },
+          {
+            "topic_id": "6192",
+            "name": "Comparing Medians",
+            "href": "/topics/6192"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "310363",
+        "dom_id": "question-310363",
+        "selector": "#question-310363",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "310318",
+        "dom_id": "question-310318",
+        "selector": "#question-310318",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-514002",
+        "filename": "01-step-514002.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-514003",
+        "filename": "02-step-514003.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-310317",
+        "filename": "03-question-310317.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-310295",
+        "filename": "04-question-310295.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-514006",
+        "filename": "05-step-514006.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-514007",
+        "filename": "06-step-514007.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-310315",
+        "filename": "07-question-310315.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-310297",
+        "filename": "08-question-310297.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-514010",
+        "filename": "09-step-514010.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-316087",
+        "filename": "10-question-316087.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-316088",
+        "filename": "11-question-316088.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-514013",
+        "filename": "12-step-514013.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-514014",
+        "filename": "13-step-514014.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-310363",
+        "filename": "14-question-310363.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-310318",
+        "filename": "15-question-310318.png"
+      }
+    ]
+  }
+}

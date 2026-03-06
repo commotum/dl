@@ -1,0 +1,387 @@
+{
+  "schema_version": 1,
+  "topic_id": "1061",
+  "topic_title": "Solving First-Order ODEs Using Direct Integration",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1061.html",
+  "source_url": "https://mathacademy.com/topics/1061",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "1865",
+        "dom_id": "sectionLink-1865",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-1865"
+      },
+      {
+        "index": 2,
+        "step_id": "1866",
+        "dom_id": "sectionLink-1866",
+        "name": "",
+        "title": "Finding the General Solution of a Differential Equation Using Integration",
+        "selector": "#sectionLink-1866"
+      },
+      {
+        "index": 3,
+        "step_id": "1869",
+        "dom_id": "sectionLink-1869",
+        "name": "",
+        "title": "Finding the General Solution of a Second Order Differential Equation by Integrating Twice",
+        "selector": "#sectionLink-1869"
+      },
+      {
+        "index": 4,
+        "step_id": "1872",
+        "dom_id": "sectionLink-1872",
+        "name": "",
+        "title": "Sketching the Solution Curves of a Differential Equation",
+        "selector": "#sectionLink-1872"
+      },
+      {
+        "index": 5,
+        "step_id": "1874",
+        "dom_id": "sectionLink-1874",
+        "name": "",
+        "title": "Particular Solutions of a Differential Equation",
+        "selector": "#sectionLink-1874"
+      },
+      {
+        "index": 6,
+        "step_id": "1875",
+        "dom_id": "sectionLink-1875",
+        "name": "",
+        "title": "Finding the Solution of a Differential Equation With a Given Condition",
+        "selector": "#sectionLink-1875"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "478",
+        "name": "Integrating Trigonometric Functions Using Substitution",
+        "href": "/topics/integrating-trigonometric-functions-using-substitution-478"
+      },
+      {
+        "topic_id": "1181",
+        "name": "Verifying Solutions of Differential Equations",
+        "href": "/topics/verifying-solutions-of-differential-equations-1181"
+      },
+      {
+        "topic_id": "3770",
+        "name": "Integrating Exponential Functions Using Substitution",
+        "href": "/topics/integrating-exponential-functions-using-substitution-3770"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "1865",
+        "content_id": "952",
+        "dom_id": "step-1865",
+        "selector": "#step-1865",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "1866",
+        "content_id": "528",
+        "dom_id": "step-1866",
+        "selector": "#step-1866",
+        "step_anchor": "step-2",
+        "title": "Finding the General Solution of a Differential Equation Using Integration",
+        "key_prerequisites": [
+          {
+            "topic_id": "443",
+            "name": "Integration Using Substitution",
+            "href": "/topics/443"
+          },
+          {
+            "topic_id": "478",
+            "name": "Integrating Trigonometric Functions Using Substitution",
+            "href": "/topics/478"
+          },
+          {
+            "topic_id": "1112",
+            "name": "Integrating Exponential Functions Using Linear Substitution",
+            "href": "/topics/1112"
+          },
+          {
+            "topic_id": "1181",
+            "name": "Verifying Solutions of Differential Equations",
+            "href": "/topics/1181"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "14245",
+        "dom_id": "question-14245",
+        "selector": "#question-14245",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "50136",
+        "dom_id": "question-50136",
+        "selector": "#question-50136",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "1869",
+        "content_id": "529",
+        "dom_id": "step-1869",
+        "selector": "#step-1869",
+        "step_anchor": "step-5",
+        "title": "Finding the General Solution of a Second Order Differential Equation by Integrating Twice",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "50139",
+        "dom_id": "question-50139",
+        "selector": "#question-50139",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "50148",
+        "dom_id": "question-50148",
+        "selector": "#question-50148",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "1872",
+        "content_id": "530",
+        "dom_id": "step-1872",
+        "selector": "#step-1872",
+        "step_anchor": "step-8",
+        "title": "Sketching the Solution Curves of a Differential Equation",
+        "key_prerequisites": [
+          {
+            "topic_id": "453",
+            "name": "Graphing Elementary Quadratic Functions",
+            "href": "/topics/453"
+          },
+          {
+            "topic_id": "1653",
+            "name": "Graphing Elementary Cubic Functions",
+            "href": "/topics/1653"
+          },
+          {
+            "topic_id": "1682",
+            "name": "Vertical Reflections of Exponential Functions",
+            "href": "/topics/1682"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "50195",
+        "dom_id": "question-50195",
+        "selector": "#question-50195",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "50196",
+        "dom_id": "question-50196",
+        "selector": "#question-50196",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "1874",
+        "content_id": "957",
+        "dom_id": "step-1874",
+        "selector": "#step-1874",
+        "step_anchor": "step-11",
+        "title": "Particular Solutions of a Differential Equation",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "1875",
+        "content_id": "531",
+        "dom_id": "step-1875",
+        "selector": "#step-1875",
+        "step_anchor": "step-12",
+        "title": "Finding the Solution of a Differential Equation With a Given Condition",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "49942",
+        "dom_id": "question-49942",
+        "selector": "#question-49942",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "119078",
+        "dom_id": "question-119078",
+        "selector": "#question-119078",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-1865",
+        "filename": "01-step-1865.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-1866",
+        "filename": "02-step-1866.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-14245",
+        "filename": "03-question-14245.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-50136",
+        "filename": "04-question-50136.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-1869",
+        "filename": "05-step-1869.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-50139",
+        "filename": "06-question-50139.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-50148",
+        "filename": "07-question-50148.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-1872",
+        "filename": "08-step-1872.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-50195",
+        "filename": "09-question-50195.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-50196",
+        "filename": "10-question-50196.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-1874",
+        "filename": "11-step-1874.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-1875",
+        "filename": "12-step-1875.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-49942",
+        "filename": "13-question-49942.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-119078",
+        "filename": "14-question-119078.png"
+      }
+    ]
+  }
+}

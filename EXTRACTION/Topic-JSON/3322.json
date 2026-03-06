@@ -1,0 +1,289 @@
+{
+  "schema_version": 1,
+  "topic_id": "3322",
+  "topic_title": "Confidence Intervals for Linear Regression Slope Parameters",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3322.html",
+  "source_url": "https://mathacademy.com/topics/3322",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "38065",
+        "dom_id": "sectionLink-38065",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-38065"
+      },
+      {
+        "index": 2,
+        "step_id": "42157",
+        "dom_id": "sectionLink-42157",
+        "name": "",
+        "title": "Summary of the Key Result",
+        "selector": "#sectionLink-42157"
+      },
+      {
+        "index": 3,
+        "step_id": "38066",
+        "dom_id": "sectionLink-38066",
+        "name": "",
+        "title": "Finding Confidence Intervals for Slope Parameters",
+        "selector": "#sectionLink-38066"
+      },
+      {
+        "index": 4,
+        "step_id": "42155",
+        "dom_id": "sectionLink-42155",
+        "name": "",
+        "title": "Finding Confidence Intervals in Context",
+        "selector": "#sectionLink-42155"
+      },
+      {
+        "index": 5,
+        "step_id": "42154",
+        "dom_id": "sectionLink-42154",
+        "name": "",
+        "title": "Deriving an Expression for the Confidence Interval",
+        "selector": "#sectionLink-42154"
+      },
+      {
+        "index": 6,
+        "step_id": "42308",
+        "dom_id": "sectionLink-42308",
+        "name": "",
+        "title": "Expectation and Variance of Slope Parameter Estimates",
+        "selector": "#sectionLink-42308"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1057",
+        "name": "Linear Regression",
+        "href": "/topics/linear-regression-1057"
+      },
+      {
+        "topic_id": "3595",
+        "name": "Residuals and Residual Plots",
+        "href": "/topics/residuals-and-residual-plots-3595"
+      },
+      {
+        "topic_id": "3855",
+        "name": "Confidence Intervals for One Mean: Unknown Population Variance",
+        "href": "/topics/confidence-intervals-for-one-mean-unknown-population-variance-3855"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 10,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "38065",
+        "content_id": "6279",
+        "dom_id": "step-38065",
+        "selector": "#step-38065",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "42157",
+        "content_id": "6966",
+        "dom_id": "step-42157",
+        "selector": "#step-42157",
+        "step_anchor": "step-2",
+        "title": "Summary of the Key Result",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "38066",
+        "content_id": "10094",
+        "dom_id": "step-38066",
+        "selector": "#step-38066",
+        "step_anchor": "step-3",
+        "title": "Finding Confidence Intervals for Slope Parameters",
+        "key_prerequisites": [
+          {
+            "topic_id": "1057",
+            "name": "Linear Regression",
+            "href": "/topics/1057"
+          },
+          {
+            "topic_id": "3855",
+            "name": "Confidence Intervals for One Mean: Unknown Population Variance",
+            "href": "/topics/3855"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "143249",
+        "dom_id": "question-143249",
+        "selector": "#question-143249",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "159411",
+        "dom_id": "question-159411",
+        "selector": "#question-159411",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "42155",
+        "content_id": "11098",
+        "dom_id": "step-42155",
+        "selector": "#step-42155",
+        "step_anchor": "step-6",
+        "title": "Finding Confidence Intervals in Context",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "143260",
+        "dom_id": "question-143260",
+        "selector": "#question-143260",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "159571",
+        "dom_id": "question-159571",
+        "selector": "#question-159571",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "42154",
+        "content_id": "6964",
+        "dom_id": "step-42154",
+        "selector": "#step-42154",
+        "step_anchor": "step-9",
+        "title": "Deriving an Expression for the Confidence Interval",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "42308",
+        "content_id": "7006",
+        "dom_id": "step-42308",
+        "selector": "#step-42308",
+        "step_anchor": "step-10",
+        "title": "Expectation and Variance of Slope Parameter Estimates",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-38065",
+        "filename": "01-step-38065.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-42157",
+        "filename": "02-step-42157.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-38066",
+        "filename": "03-step-38066.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-143249",
+        "filename": "04-question-143249.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-159411",
+        "filename": "05-question-159411.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-42155",
+        "filename": "06-step-42155.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-143260",
+        "filename": "07-question-143260.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-159571",
+        "filename": "08-question-159571.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-42154",
+        "filename": "09-step-42154.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-42308",
+        "filename": "10-step-42308.png"
+      }
+    ]
+  }
+}

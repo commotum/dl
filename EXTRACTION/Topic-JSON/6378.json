@@ -1,0 +1,389 @@
+{
+  "schema_version": 1,
+  "topic_id": "6378",
+  "topic_title": "Linear Approximations Near Equilibria",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/6378.html",
+  "source_url": "https://mathacademy.com/topics/6378",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "591480",
+        "dom_id": "sectionLink-591480",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-591480"
+      },
+      {
+        "index": 2,
+        "step_id": "591481",
+        "dom_id": "sectionLink-591481",
+        "name": "",
+        "title": "Identifying Almost Linear Systems",
+        "selector": "#sectionLink-591481"
+      },
+      {
+        "index": 3,
+        "step_id": "591484",
+        "dom_id": "sectionLink-591484",
+        "name": "",
+        "title": "Linear Approximations Near Equilibria",
+        "selector": "#sectionLink-591484"
+      },
+      {
+        "index": 4,
+        "step_id": "591485",
+        "dom_id": "sectionLink-591485",
+        "name": "",
+        "title": "Finding the Linear Approximations Near Equilibria",
+        "selector": "#sectionLink-591485"
+      },
+      {
+        "index": 5,
+        "step_id": "591488",
+        "dom_id": "sectionLink-591488",
+        "name": "",
+        "title": "Stability and Classification of Isolated Critical Points",
+        "selector": "#sectionLink-591488"
+      },
+      {
+        "index": 6,
+        "step_id": "591489",
+        "dom_id": "sectionLink-591489",
+        "name": "",
+        "title": "Classifying an Isolated Critical Point of a Nonlinear System",
+        "selector": "#sectionLink-591489"
+      },
+      {
+        "index": 7,
+        "step_id": "591492",
+        "dom_id": "sectionLink-591492",
+        "name": "",
+        "title": "A Note About Stable Centers",
+        "selector": "#sectionLink-591492"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3240",
+        "name": "Phase Portraits for Linear Systems With Repeated Eigenvalues",
+        "href": "/topics/phase-portraits-for-linear-systems-with-repeated-eigenvalues-3240"
+      },
+      {
+        "topic_id": "3241",
+        "name": "Phase Portraits for Linear Systems With Complex Eigenvalues",
+        "href": "/topics/phase-portraits-for-linear-systems-with-complex-eigenvalues-3241"
+      },
+      {
+        "topic_id": "4169",
+        "name": "The Derivative of a Multivariable Function",
+        "href": "/topics/the-derivative-of-a-multivariable-function-4169"
+      },
+      {
+        "topic_id": "6380",
+        "name": "Shifted Systems of ODEs",
+        "href": "/topics/shifted-systems-of-odes-6380"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "591480",
+        "content_id": "14492",
+        "dom_id": "step-591480",
+        "selector": "#step-591480",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "591481",
+        "content_id": "21675",
+        "dom_id": "step-591481",
+        "selector": "#step-591481",
+        "step_anchor": "step-2",
+        "title": "Identifying Almost Linear Systems",
+        "key_prerequisites": [
+          {
+            "topic_id": "1999",
+            "name": "The Jacobian",
+            "href": "/topics/1999"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "333529",
+        "dom_id": "question-333529",
+        "selector": "#question-333529",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "334954",
+        "dom_id": "question-334954",
+        "selector": "#question-334954",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "591484",
+        "content_id": "14494",
+        "dom_id": "step-591484",
+        "selector": "#step-591484",
+        "step_anchor": "step-5",
+        "title": "Linear Approximations Near Equilibria",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "591485",
+        "content_id": "21674",
+        "dom_id": "step-591485",
+        "selector": "#step-591485",
+        "step_anchor": "step-6",
+        "title": "Finding the Linear Approximations Near Equilibria",
+        "key_prerequisites": [
+          {
+            "topic_id": "4169",
+            "name": "The Derivative of a Multivariable Function",
+            "href": "/topics/4169"
+          },
+          {
+            "topic_id": "6380",
+            "name": "Shifted Systems of ODEs",
+            "href": "/topics/6380"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "333387",
+        "dom_id": "question-333387",
+        "selector": "#question-333387",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "333395",
+        "dom_id": "question-333395",
+        "selector": "#question-333395",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "591488",
+        "content_id": "14493",
+        "dom_id": "step-591488",
+        "selector": "#step-591488",
+        "step_anchor": "step-9",
+        "title": "Stability and Classification of Isolated Critical Points",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "591489",
+        "content_id": "21676",
+        "dom_id": "step-591489",
+        "selector": "#step-591489",
+        "step_anchor": "step-10",
+        "title": "Classifying an Isolated Critical Point of a Nonlinear System",
+        "key_prerequisites": [
+          {
+            "topic_id": "990",
+            "name": "Calculating the Eigenvalues of a 2x2 Matrix",
+            "href": "/topics/990"
+          },
+          {
+            "topic_id": "3239",
+            "name": "Phase Portraits for Linear Systems With Real Distinct Eigenvalues",
+            "href": "/topics/3239"
+          },
+          {
+            "topic_id": "3240",
+            "name": "Phase Portraits for Linear Systems With Repeated Eigenvalues",
+            "href": "/topics/3240"
+          },
+          {
+            "topic_id": "3241",
+            "name": "Phase Portraits for Linear Systems With Complex Eigenvalues",
+            "href": "/topics/3241"
+          },
+          {
+            "topic_id": "6377",
+            "name": "Equilibrium Points and Stability for Systems of ODEs",
+            "href": "/topics/6377"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "335535",
+        "dom_id": "question-335535",
+        "selector": "#question-335535",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "333532",
+        "dom_id": "question-333532",
+        "selector": "#question-333532",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "591492",
+        "content_id": "14496",
+        "dom_id": "step-591492",
+        "selector": "#step-591492",
+        "step_anchor": "step-13",
+        "title": "A Note About Stable Centers",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-591480",
+        "filename": "01-step-591480.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-591481",
+        "filename": "02-step-591481.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-333529",
+        "filename": "03-question-333529.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-334954",
+        "filename": "04-question-334954.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-591484",
+        "filename": "05-step-591484.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-591485",
+        "filename": "06-step-591485.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-333387",
+        "filename": "07-question-333387.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-333395",
+        "filename": "08-question-333395.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-591488",
+        "filename": "09-step-591488.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-591489",
+        "filename": "10-step-591489.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-335535",
+        "filename": "11-question-335535.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-333532",
+        "filename": "12-question-333532.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-591492",
+        "filename": "13-step-591492.png"
+      }
+    ]
+  }
+}

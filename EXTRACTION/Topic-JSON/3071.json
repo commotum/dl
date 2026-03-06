@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "topic_id": "3071",
+  "topic_title": "The Bernoulli Distribution",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3071.html",
+  "source_url": "https://mathacademy.com/topics/3071",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "31513",
+        "dom_id": "sectionLink-31513",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-31513"
+      },
+      {
+        "index": 2,
+        "step_id": "31937",
+        "dom_id": "sectionLink-31937",
+        "name": "",
+        "title": "Computing the Probability at X=1",
+        "selector": "#sectionLink-31937"
+      },
+      {
+        "index": 3,
+        "step_id": "31938",
+        "dom_id": "sectionLink-31938",
+        "name": "",
+        "title": "Computing the Probability at X=0",
+        "selector": "#sectionLink-31938"
+      },
+      {
+        "index": 4,
+        "step_id": "31939",
+        "dom_id": "sectionLink-31939",
+        "name": "",
+        "title": "Computing the Probability of an Intersection",
+        "selector": "#sectionLink-31939"
+      },
+      {
+        "index": 5,
+        "step_id": "31940",
+        "dom_id": "sectionLink-31940",
+        "name": "",
+        "title": "Computing the Probability of a Union",
+        "selector": "#sectionLink-31940"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "183",
+        "name": "Independent Events",
+        "href": "/topics/independent-events-183"
+      },
+      {
+        "topic_id": "1290",
+        "name": "Probability Mass Functions of Discrete Random Variables",
+        "href": "/topics/probability-mass-functions-of-discrete-random-variables-1290"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "31513",
+        "content_id": "5036",
+        "dom_id": "step-31513",
+        "selector": "#step-31513",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "31937",
+        "content_id": "8600",
+        "dom_id": "step-31937",
+        "selector": "#step-31937",
+        "step_anchor": "step-2",
+        "title": "Computing the Probability at X=1",
+        "key_prerequisites": [
+          {
+            "topic_id": "1290",
+            "name": "Probability Mass Functions of Discrete Random Variables",
+            "href": "/topics/1290"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "97045",
+        "dom_id": "question-97045",
+        "selector": "#question-97045",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "97204",
+        "dom_id": "question-97204",
+        "selector": "#question-97204",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "31938",
+        "content_id": "8601",
+        "dom_id": "step-31938",
+        "selector": "#step-31938",
+        "step_anchor": "step-5",
+        "title": "Computing the Probability at X=0",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "97046",
+        "dom_id": "question-97046",
+        "selector": "#question-97046",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "97194",
+        "dom_id": "question-97194",
+        "selector": "#question-97194",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "31939",
+        "content_id": "8602",
+        "dom_id": "step-31939",
+        "selector": "#step-31939",
+        "step_anchor": "step-8",
+        "title": "Computing the Probability of an Intersection",
+        "key_prerequisites": [
+          {
+            "topic_id": "183",
+            "name": "Independent Events",
+            "href": "/topics/183"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "97047",
+        "dom_id": "question-97047",
+        "selector": "#question-97047",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "97190",
+        "dom_id": "question-97190",
+        "selector": "#question-97190",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "31940",
+        "content_id": "8603",
+        "dom_id": "step-31940",
+        "selector": "#step-31940",
+        "step_anchor": "step-11",
+        "title": "Computing the Probability of a Union",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "97048",
+        "dom_id": "question-97048",
+        "selector": "#question-97048",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "97150",
+        "dom_id": "question-97150",
+        "selector": "#question-97150",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-31513",
+        "filename": "01-step-31513.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-31937",
+        "filename": "02-step-31937.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-97045",
+        "filename": "03-question-97045.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-97204",
+        "filename": "04-question-97204.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-31938",
+        "filename": "05-step-31938.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-97046",
+        "filename": "06-question-97046.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-97194",
+        "filename": "07-question-97194.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-31939",
+        "filename": "08-step-31939.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-97047",
+        "filename": "09-question-97047.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-97190",
+        "filename": "10-question-97190.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-31940",
+        "filename": "11-step-31940.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-97048",
+        "filename": "12-question-97048.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-97150",
+        "filename": "13-question-97150.png"
+      }
+    ]
+  }
+}

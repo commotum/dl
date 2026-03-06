@@ -1,0 +1,294 @@
+{
+  "schema_version": 1,
+  "topic_id": "1779",
+  "topic_title": "LU Factorization of 2x2 Matrices",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1779.html",
+  "source_url": "https://mathacademy.com/topics/1779",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "17355",
+        "dom_id": "sectionLink-17355",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-17355"
+      },
+      {
+        "index": 2,
+        "step_id": "23125",
+        "dom_id": "sectionLink-23125",
+        "name": "",
+        "title": "Identifying LU Factorizations",
+        "selector": "#sectionLink-23125"
+      },
+      {
+        "index": 3,
+        "step_id": "23628",
+        "dom_id": "sectionLink-23628",
+        "name": "",
+        "title": "An Algorithm for Finding the LU Factorization of a 2x2 Matrix",
+        "selector": "#sectionLink-23628"
+      },
+      {
+        "index": 4,
+        "step_id": "17356",
+        "dom_id": "sectionLink-17356",
+        "name": "",
+        "title": "Finding the LU Factorization of a 2x2 Matrix",
+        "selector": "#sectionLink-17356"
+      },
+      {
+        "index": 5,
+        "step_id": "17359",
+        "dom_id": "sectionLink-17359",
+        "name": "",
+        "title": "Finding the LU Factorization of a Singular 2x2 Matrix",
+        "selector": "#sectionLink-17359"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1727",
+        "name": "Row Operations on 2x2 Matrices as Products of Elementary Matrices",
+        "href": "/topics/row-operations-on-2x2-matrices-as-products-of-elementary-matrices-1727"
+      },
+      {
+        "topic_id": "1777",
+        "name": "Triangular Matrices",
+        "href": "/topics/triangular-matrices-1777"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "17355",
+        "content_id": "3176",
+        "dom_id": "step-17355",
+        "selector": "#step-17355",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "23125",
+        "content_id": "6184",
+        "dom_id": "step-23125",
+        "selector": "#step-23125",
+        "step_anchor": "step-2",
+        "title": "Identifying LU Factorizations",
+        "key_prerequisites": [
+          {
+            "topic_id": "1777",
+            "name": "Triangular Matrices",
+            "href": "/topics/1777"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "32607",
+        "dom_id": "question-32607",
+        "selector": "#question-32607",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "32551",
+        "dom_id": "question-32551",
+        "selector": "#question-32551",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "23628",
+        "content_id": "3977",
+        "dom_id": "step-23628",
+        "selector": "#step-23628",
+        "step_anchor": "step-5",
+        "title": "An Algorithm for Finding the LU Factorization of a 2x2 Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17356",
+        "content_id": "4765",
+        "dom_id": "step-17356",
+        "selector": "#step-17356",
+        "step_anchor": "step-6",
+        "title": "Finding the LU Factorization of a 2x2 Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "1727",
+            "name": "Row Operations on 2x2 Matrices as Products of Elementary Matrices",
+            "href": "/topics/1727"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "32549",
+        "dom_id": "question-32549",
+        "selector": "#question-32549",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "32529",
+        "dom_id": "question-32529",
+        "selector": "#question-32529",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17359",
+        "content_id": "4767",
+        "dom_id": "step-17359",
+        "selector": "#step-17359",
+        "step_anchor": "step-9",
+        "title": "Finding the LU Factorization of a Singular 2x2 Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "32545",
+        "dom_id": "question-32545",
+        "selector": "#question-32545",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "74799",
+        "dom_id": "question-74799",
+        "selector": "#question-74799",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-17355",
+        "filename": "01-step-17355.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-23125",
+        "filename": "02-step-23125.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-32607",
+        "filename": "03-question-32607.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-32551",
+        "filename": "04-question-32551.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-23628",
+        "filename": "05-step-23628.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-17356",
+        "filename": "06-step-17356.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-32549",
+        "filename": "07-question-32549.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-32529",
+        "filename": "08-question-32529.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-17359",
+        "filename": "09-step-17359.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-32545",
+        "filename": "10-question-32545.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-74799",
+        "filename": "11-question-74799.png"
+      }
+    ]
+  }
+}

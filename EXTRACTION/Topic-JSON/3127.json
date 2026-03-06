@@ -1,0 +1,386 @@
+{
+  "schema_version": 1,
+  "topic_id": "3127",
+  "topic_title": "Positive-Definite and Negative-Definite Quadratic Forms",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3127.html",
+  "source_url": "https://mathacademy.com/topics/3127",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "30543",
+        "dom_id": "sectionLink-30543",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-30543"
+      },
+      {
+        "index": 2,
+        "step_id": "30875",
+        "dom_id": "sectionLink-30875",
+        "name": "",
+        "title": "Identifying Possible Quadratic Form Types Using Substitution",
+        "selector": "#sectionLink-30875"
+      },
+      {
+        "index": 3,
+        "step_id": "37271",
+        "dom_id": "sectionLink-37271",
+        "name": "",
+        "title": "Positive and Negative Semi-Definite Quadratic Forms",
+        "selector": "#sectionLink-37271"
+      },
+      {
+        "index": 4,
+        "step_id": "30876",
+        "dom_id": "sectionLink-30876",
+        "name": "",
+        "title": "Using Eigenvalues to Classify Quadratic Forms",
+        "selector": "#sectionLink-30876"
+      },
+      {
+        "index": 5,
+        "step_id": "30877",
+        "dom_id": "sectionLink-30877",
+        "name": "",
+        "title": "Identifying a Quadratic Form Type by Calculating the Corresponding Eigenvalues",
+        "selector": "#sectionLink-30877"
+      },
+      {
+        "index": 6,
+        "step_id": "37272",
+        "dom_id": "sectionLink-37272",
+        "name": "",
+        "title": "The Principal Minors of a Square Matrix",
+        "selector": "#sectionLink-37272"
+      },
+      {
+        "index": 7,
+        "step_id": "30878",
+        "dom_id": "sectionLink-30878",
+        "name": "",
+        "title": "Sylvester's Criterion",
+        "selector": "#sectionLink-30878"
+      },
+      {
+        "index": 8,
+        "step_id": "30879",
+        "dom_id": "sectionLink-30879",
+        "name": "",
+        "title": "Identifying a Quadratic Form Type Using Sylvester's Criterion",
+        "selector": "#sectionLink-30879"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1964",
+        "name": "The Characteristic Equation of a Matrix",
+        "href": "/topics/the-characteristic-equation-of-a-matrix-1964"
+      },
+      {
+        "topic_id": "2828",
+        "name": "The Difference of Sets",
+        "href": "/topics/the-difference-of-sets-2828"
+      },
+      {
+        "topic_id": "3123",
+        "name": "Quadratic Forms",
+        "href": "/topics/quadratic-forms-3123"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "30543",
+        "content_id": "4889",
+        "dom_id": "step-30543",
+        "selector": "#step-30543",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30875",
+        "content_id": "8262",
+        "dom_id": "step-30875",
+        "selector": "#step-30875",
+        "step_anchor": "step-2",
+        "title": "Identifying Possible Quadratic Form Types Using Substitution",
+        "key_prerequisites": [
+          {
+            "topic_id": "3123",
+            "name": "Quadratic Forms",
+            "href": "/topics/3123"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "94462",
+        "dom_id": "question-94462",
+        "selector": "#question-94462",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "94463",
+        "dom_id": "question-94463",
+        "selector": "#question-94463",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "37271",
+        "content_id": "6137",
+        "dom_id": "step-37271",
+        "selector": "#step-37271",
+        "step_anchor": "step-5",
+        "title": "Positive and Negative Semi-Definite Quadratic Forms",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "30876",
+        "content_id": "4952",
+        "dom_id": "step-30876",
+        "selector": "#step-30876",
+        "step_anchor": "step-6",
+        "title": "Using Eigenvalues to Classify Quadratic Forms",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30877",
+        "content_id": "8263",
+        "dom_id": "step-30877",
+        "selector": "#step-30877",
+        "step_anchor": "step-7",
+        "title": "Identifying a Quadratic Form Type by Calculating the Corresponding Eigenvalues",
+        "key_prerequisites": [
+          {
+            "topic_id": "990",
+            "name": "Calculating the Eigenvalues of a 2x2 Matrix",
+            "href": "/topics/990"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "94464",
+        "dom_id": "question-94464",
+        "selector": "#question-94464",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "94465",
+        "dom_id": "question-94465",
+        "selector": "#question-94465",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "37272",
+        "content_id": "6138",
+        "dom_id": "step-37272",
+        "selector": "#step-37272",
+        "step_anchor": "step-10",
+        "title": "The Principal Minors of a Square Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "30878",
+        "content_id": "4953",
+        "dom_id": "step-30878",
+        "selector": "#step-30878",
+        "step_anchor": "step-11",
+        "title": "Sylvester's Criterion",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30879",
+        "content_id": "8264",
+        "dom_id": "step-30879",
+        "selector": "#step-30879",
+        "step_anchor": "step-12",
+        "title": "Identifying a Quadratic Form Type Using Sylvester's Criterion",
+        "key_prerequisites": [
+          {
+            "topic_id": "1770",
+            "name": "Finding Determinants Using Laplace Expansions",
+            "href": "/topics/1770"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "94466",
+        "dom_id": "question-94466",
+        "selector": "#question-94466",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "94467",
+        "dom_id": "question-94467",
+        "selector": "#question-94467",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-30543",
+        "filename": "01-step-30543.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-30875",
+        "filename": "02-step-30875.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-94462",
+        "filename": "03-question-94462.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-94463",
+        "filename": "04-question-94463.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-37271",
+        "filename": "05-step-37271.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-30876",
+        "filename": "06-step-30876.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-30877",
+        "filename": "07-step-30877.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-94464",
+        "filename": "08-question-94464.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-94465",
+        "filename": "09-question-94465.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-37272",
+        "filename": "10-step-37272.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-30878",
+        "filename": "11-step-30878.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-30879",
+        "filename": "12-step-30879.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-94466",
+        "filename": "13-question-94466.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-94467",
+        "filename": "14-question-94467.png"
+      }
+    ]
+  }
+}

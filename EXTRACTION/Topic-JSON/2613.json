@@ -1,0 +1,346 @@
+{
+  "schema_version": 1,
+  "topic_id": "2613",
+  "topic_title": "Approximating Volumes Using Lower Riemann Sums",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2613.html",
+  "source_url": "https://mathacademy.com/topics/2613",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "23456",
+        "dom_id": "sectionLink-23456",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-23456"
+      },
+      {
+        "index": 2,
+        "step_id": "35473",
+        "dom_id": "sectionLink-35473",
+        "name": "",
+        "title": "Calculating an Expression for the Lower Bounds",
+        "selector": "#sectionLink-35473"
+      },
+      {
+        "index": 3,
+        "step_id": "35472",
+        "dom_id": "sectionLink-35472",
+        "name": "",
+        "title": "Calculating the Minimum Value of the Function in Each Partition",
+        "selector": "#sectionLink-35472"
+      },
+      {
+        "index": 4,
+        "step_id": "35506",
+        "dom_id": "sectionLink-35506",
+        "name": "",
+        "title": "Updating Our Notation",
+        "selector": "#sectionLink-35506"
+      },
+      {
+        "index": 5,
+        "step_id": "23447",
+        "dom_id": "sectionLink-23447",
+        "name": "",
+        "title": "Calculating a Lower Riemann Sum for a Strictly Decreasing Function",
+        "selector": "#sectionLink-23447"
+      },
+      {
+        "index": 6,
+        "step_id": "23446",
+        "dom_id": "sectionLink-23446",
+        "name": "",
+        "title": "Calculating a Lower Riemann Sum for a Strictly Increasing Function",
+        "selector": "#sectionLink-23446"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "477",
+        "name": "Approximating Areas With the Left Riemann Sum",
+        "href": "/topics/approximating-areas-with-the-left-riemann-sum-477"
+      },
+      {
+        "topic_id": "1753",
+        "name": "Volumes of Rectangular Solids",
+        "href": "/topics/volumes-of-rectangular-solids-1753"
+      },
+      {
+        "topic_id": "1899",
+        "name": "The Domain of a Multivariable Function",
+        "href": "/topics/the-domain-of-a-multivariable-function-1899"
+      },
+      {
+        "topic_id": "3697",
+        "name": "Partitions of Intervals",
+        "href": "/topics/partitions-of-intervals-3697"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "23456",
+        "content_id": "3953",
+        "dom_id": "step-23456",
+        "selector": "#step-23456",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "35473",
+        "content_id": "9476",
+        "dom_id": "step-35473",
+        "selector": "#step-35473",
+        "step_anchor": "step-2",
+        "title": "Calculating an Expression for the Lower Bounds",
+        "key_prerequisites": [
+          {
+            "topic_id": "477",
+            "name": "Approximating Areas With the Left Riemann Sum",
+            "href": "/topics/477"
+          },
+          {
+            "topic_id": "1753",
+            "name": "Volumes of Rectangular Solids",
+            "href": "/topics/1753"
+          },
+          {
+            "topic_id": "3697",
+            "name": "Partitions of Intervals",
+            "href": "/topics/3697"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "122809",
+        "dom_id": "question-122809",
+        "selector": "#question-122809",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "122812",
+        "dom_id": "question-122812",
+        "selector": "#question-122812",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "35472",
+        "content_id": "5775",
+        "dom_id": "step-35472",
+        "selector": "#step-35472",
+        "step_anchor": "step-5",
+        "title": "Calculating the Minimum Value of the Function in Each Partition",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "35506",
+        "content_id": "5781",
+        "dom_id": "step-35506",
+        "selector": "#step-35506",
+        "step_anchor": "step-6",
+        "title": "Updating Our Notation",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "23447",
+        "content_id": "6242",
+        "dom_id": "step-23447",
+        "selector": "#step-23447",
+        "step_anchor": "step-7",
+        "title": "Calculating a Lower Riemann Sum for a Strictly Decreasing Function",
+        "key_prerequisites": [
+          {
+            "topic_id": "1628",
+            "name": "Increasing and Decreasing Functions",
+            "href": "/topics/1628"
+          },
+          {
+            "topic_id": "4387",
+            "name": "Visualizing Cartesian Products",
+            "href": "/topics/4387"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "75037",
+        "dom_id": "question-75037",
+        "selector": "#question-75037",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "122960",
+        "dom_id": "question-122960",
+        "selector": "#question-122960",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "23446",
+        "content_id": "6241",
+        "dom_id": "step-23446",
+        "selector": "#step-23446",
+        "step_anchor": "step-10",
+        "title": "Calculating a Lower Riemann Sum for a Strictly Increasing Function",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "75035",
+        "dom_id": "question-75035",
+        "selector": "#question-75035",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "122985",
+        "dom_id": "question-122985",
+        "selector": "#question-122985",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-23456",
+        "filename": "01-step-23456.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-35473",
+        "filename": "02-step-35473.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-122809",
+        "filename": "03-question-122809.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-122812",
+        "filename": "04-question-122812.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-35472",
+        "filename": "05-step-35472.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-35506",
+        "filename": "06-step-35506.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-23447",
+        "filename": "07-step-23447.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-75037",
+        "filename": "08-question-75037.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-122960",
+        "filename": "09-question-122960.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-23446",
+        "filename": "10-step-23446.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-75035",
+        "filename": "11-question-75035.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-122985",
+        "filename": "12-question-122985.png"
+      }
+    ]
+  }
+}

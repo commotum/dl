@@ -1,0 +1,300 @@
+{
+  "schema_version": 1,
+  "topic_id": "3755",
+  "topic_title": "Removing Outliers",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3755.html",
+  "source_url": "https://mathacademy.com/topics/3755",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "9091",
+        "dom_id": "sectionLink-9091",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-9091"
+      },
+      {
+        "index": 2,
+        "step_id": "9088",
+        "dom_id": "sectionLink-9088",
+        "name": "",
+        "title": "Predicting the Effect of Removing Outliers on the Mean",
+        "selector": "#sectionLink-9088"
+      },
+      {
+        "index": 3,
+        "step_id": "36460",
+        "dom_id": "sectionLink-36460",
+        "name": "",
+        "title": "The Effect of Outliers on the Range",
+        "selector": "#sectionLink-36460"
+      },
+      {
+        "index": 4,
+        "step_id": "36466",
+        "dom_id": "sectionLink-36466",
+        "name": "",
+        "title": "The Effect of Outliers on the Mean Absolute Deviation",
+        "selector": "#sectionLink-36466"
+      },
+      {
+        "index": 5,
+        "step_id": "9089",
+        "dom_id": "sectionLink-9089",
+        "name": "",
+        "title": "Predicting the Effect of Removing Outliers on the Range and MAD",
+        "selector": "#sectionLink-9089"
+      },
+      {
+        "index": 6,
+        "step_id": "36461",
+        "dom_id": "sectionLink-36461",
+        "name": "",
+        "title": "Final Remark",
+        "selector": "#sectionLink-36461"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2480",
+        "name": "Range, Quartiles, and IQR",
+        "href": "/topics/range-quartiles-and-iqr-2480"
+      },
+      {
+        "topic_id": "2481",
+        "name": "Mean Absolute Deviation",
+        "href": "/topics/mean-absolute-deviation-2481"
+      },
+      {
+        "topic_id": "2517",
+        "name": "Outliers",
+        "href": "/topics/outliers-2517"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 10,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "9091",
+        "content_id": "2221",
+        "dom_id": "step-9091",
+        "selector": "#step-9091",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "9088",
+        "content_id": "2703",
+        "dom_id": "step-9088",
+        "selector": "#step-9088",
+        "step_anchor": "step-2",
+        "title": "Predicting the Effect of Removing Outliers on the Mean",
+        "key_prerequisites": [
+          {
+            "topic_id": "2479",
+            "name": "The Mean of a Data Set",
+            "href": "/topics/2479"
+          },
+          {
+            "topic_id": "2517",
+            "name": "Outliers",
+            "href": "/topics/2517"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "63448",
+        "dom_id": "question-63448",
+        "selector": "#question-63448",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "134388",
+        "dom_id": "question-134388",
+        "selector": "#question-134388",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "36460",
+        "content_id": "5972",
+        "dom_id": "step-36460",
+        "selector": "#step-36460",
+        "step_anchor": "step-5",
+        "title": "The Effect of Outliers on the Range",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "36466",
+        "content_id": "5974",
+        "dom_id": "step-36466",
+        "selector": "#step-36466",
+        "step_anchor": "step-6",
+        "title": "The Effect of Outliers on the Mean Absolute Deviation",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "9089",
+        "content_id": "2704",
+        "dom_id": "step-9089",
+        "selector": "#step-9089",
+        "step_anchor": "step-7",
+        "title": "Predicting the Effect of Removing Outliers on the Range and MAD",
+        "key_prerequisites": [
+          {
+            "topic_id": "2480",
+            "name": "Range, Quartiles, and IQR",
+            "href": "/topics/2480"
+          },
+          {
+            "topic_id": "2481",
+            "name": "Mean Absolute Deviation",
+            "href": "/topics/2481"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "63655",
+        "dom_id": "question-63655",
+        "selector": "#question-63655",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "63595",
+        "dom_id": "question-63595",
+        "selector": "#question-63595",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "36461",
+        "content_id": "5973",
+        "dom_id": "step-36461",
+        "selector": "#step-36461",
+        "step_anchor": "step-10",
+        "title": "Final Remark",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-9091",
+        "filename": "01-step-9091.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-9088",
+        "filename": "02-step-9088.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-63448",
+        "filename": "03-question-63448.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-134388",
+        "filename": "04-question-134388.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-36460",
+        "filename": "05-step-36460.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-36466",
+        "filename": "06-step-36466.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-9089",
+        "filename": "07-step-9089.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-63655",
+        "filename": "08-question-63655.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-63595",
+        "filename": "09-question-63595.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-36461",
+        "filename": "10-step-36461.png"
+      }
+    ]
+  }
+}

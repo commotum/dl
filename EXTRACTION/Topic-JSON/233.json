@@ -1,0 +1,297 @@
+{
+  "schema_version": 1,
+  "topic_id": "233",
+  "topic_title": "The Minors of a 3x3 Matrix",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/233.html",
+  "source_url": "https://mathacademy.com/topics/233",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "16242",
+        "dom_id": "sectionLink-16242",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-16242"
+      },
+      {
+        "index": 2,
+        "step_id": "16243",
+        "dom_id": "sectionLink-16243",
+        "name": "",
+        "title": "Calculating a Minor in a 3x3 Matrix With Integer Entries",
+        "selector": "#sectionLink-16243"
+      },
+      {
+        "index": 3,
+        "step_id": "16244",
+        "dom_id": "sectionLink-16244",
+        "name": "",
+        "title": "Calculating a Minor in a 3x3 Matrix With Variable Entries",
+        "selector": "#sectionLink-16244"
+      },
+      {
+        "index": 4,
+        "step_id": "16245",
+        "dom_id": "sectionLink-16245",
+        "name": "",
+        "title": "Solving for an Unknown Given the Value of a Minor",
+        "selector": "#sectionLink-16245"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "152",
+        "name": "The Determinant of a 2x2 Matrix",
+        "href": "/topics/the-determinant-of-a-2x2-matrix-152"
+      },
+      {
+        "topic_id": "393",
+        "name": "Solving Quadratic Equations with No Constant Term",
+        "href": "/topics/solving-quadratic-equations-with-no-constant-term-393"
+      },
+      {
+        "topic_id": "394",
+        "name": "Solving Quadratic Equations Using a Difference of Squares",
+        "href": "/topics/solving-quadratic-equations-using-a-difference-of-squares-394"
+      },
+      {
+        "topic_id": "422",
+        "name": "The Quadratic Formula",
+        "href": "/topics/the-quadratic-formula-422"
+      },
+      {
+        "topic_id": "1167",
+        "name": "Index Notation for Matrices",
+        "href": "/topics/index-notation-for-matrices-1167"
+      },
+      {
+        "topic_id": "1422",
+        "name": "Solving Quadratic Equations with Leading Coefficients by Factoring",
+        "href": "/topics/solving-quadratic-equations-with-leading-coefficients-by-factoring-1422"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 10,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "16242",
+        "content_id": "3016",
+        "dom_id": "step-16242",
+        "selector": "#step-16242",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "16243",
+        "content_id": "4439",
+        "dom_id": "step-16243",
+        "selector": "#step-16243",
+        "step_anchor": "step-2",
+        "title": "Calculating a Minor in a 3x3 Matrix With Integer Entries",
+        "key_prerequisites": [
+          {
+            "topic_id": "152",
+            "name": "The Determinant of a 2x2 Matrix",
+            "href": "/topics/152"
+          },
+          {
+            "topic_id": "1167",
+            "name": "Index Notation for Matrices",
+            "href": "/topics/1167"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "1094",
+        "dom_id": "question-1094",
+        "selector": "#question-1094",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "1090",
+        "dom_id": "question-1090",
+        "selector": "#question-1090",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "16244",
+        "content_id": "4440",
+        "dom_id": "step-16244",
+        "selector": "#step-16244",
+        "step_anchor": "step-5",
+        "title": "Calculating a Minor in a 3x3 Matrix With Variable Entries",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "1098",
+        "dom_id": "question-1098",
+        "selector": "#question-1098",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "1099",
+        "dom_id": "question-1099",
+        "selector": "#question-1099",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "16245",
+        "content_id": "4441",
+        "dom_id": "step-16245",
+        "selector": "#step-16245",
+        "step_anchor": "step-8",
+        "title": "Solving for an Unknown Given the Value of a Minor",
+        "key_prerequisites": [
+          {
+            "topic_id": "375",
+            "name": "Solving Quadratic Equations by Factoring",
+            "href": "/topics/375"
+          },
+          {
+            "topic_id": "430",
+            "name": "Solving Equations Using the Square Root Method",
+            "href": "/topics/430"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "18245",
+        "dom_id": "question-18245",
+        "selector": "#question-18245",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "18246",
+        "dom_id": "question-18246",
+        "selector": "#question-18246",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-16242",
+        "filename": "01-step-16242.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-16243",
+        "filename": "02-step-16243.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-1094",
+        "filename": "03-question-1094.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-1090",
+        "filename": "04-question-1090.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-16244",
+        "filename": "05-step-16244.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-1098",
+        "filename": "06-question-1098.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-1099",
+        "filename": "07-question-1099.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-16245",
+        "filename": "08-step-16245.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-18245",
+        "filename": "09-question-18245.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-18246",
+        "filename": "10-question-18246.png"
+      }
+    ]
+  }
+}

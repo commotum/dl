@@ -1,0 +1,352 @@
+{
+  "schema_version": 1,
+  "topic_id": "1904",
+  "topic_title": "Identifying the Pivot Columns of a Matrix",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1904.html",
+  "source_url": "https://mathacademy.com/topics/1904",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "17200",
+        "dom_id": "sectionLink-17200",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-17200"
+      },
+      {
+        "index": 2,
+        "step_id": "17201",
+        "dom_id": "sectionLink-17201",
+        "name": "",
+        "title": "Finding the Pivot Columns of a Matrix in Row Echelon Form",
+        "selector": "#sectionLink-17201"
+      },
+      {
+        "index": 3,
+        "step_id": "17202",
+        "dom_id": "sectionLink-17202",
+        "name": "",
+        "title": "Finding the Non-Pivot Columns of a Matrix in Row Echelon Form",
+        "selector": "#sectionLink-17202"
+      },
+      {
+        "index": 4,
+        "step_id": "17203",
+        "dom_id": "sectionLink-17203",
+        "name": "",
+        "title": "Pivot Columns of a General Matrix",
+        "selector": "#sectionLink-17203"
+      },
+      {
+        "index": 5,
+        "step_id": "17204",
+        "dom_id": "sectionLink-17204",
+        "name": "",
+        "title": "Finding the Number of Pivot Columns of a Matrix",
+        "selector": "#sectionLink-17204"
+      },
+      {
+        "index": 6,
+        "step_id": "17205",
+        "dom_id": "sectionLink-17205",
+        "name": "",
+        "title": "Finding the Pivot Columns of a Matrix",
+        "selector": "#sectionLink-17205"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1048",
+        "name": "Solving 3x3 Systems of Equations Using Gaussian Elimination",
+        "href": "/topics/solving-3x3-systems-of-equations-using-gaussian-elimination-1048"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "17200",
+        "content_id": "3157",
+        "dom_id": "step-17200",
+        "selector": "#step-17200",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17201",
+        "content_id": "4703",
+        "dom_id": "step-17201",
+        "selector": "#step-17201",
+        "step_anchor": "step-2",
+        "title": "Finding the Pivot Columns of a Matrix in Row Echelon Form",
+        "key_prerequisites": [
+          {
+            "topic_id": "2083",
+            "name": "Row Echelon Form",
+            "href": "/topics/2083"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "35729",
+        "dom_id": "question-35729",
+        "selector": "#question-35729",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "35755",
+        "dom_id": "question-35755",
+        "selector": "#question-35755",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17202",
+        "content_id": "4704",
+        "dom_id": "step-17202",
+        "selector": "#step-17202",
+        "step_anchor": "step-5",
+        "title": "Finding the Non-Pivot Columns of a Matrix in Row Echelon Form",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "35391",
+        "dom_id": "question-35391",
+        "selector": "#question-35391",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "35730",
+        "dom_id": "question-35730",
+        "selector": "#question-35730",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "17203",
+        "content_id": "3158",
+        "dom_id": "step-17203",
+        "selector": "#step-17203",
+        "step_anchor": "step-8",
+        "title": "Pivot Columns of a General Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17204",
+        "content_id": "4705",
+        "dom_id": "step-17204",
+        "selector": "#step-17204",
+        "step_anchor": "step-9",
+        "title": "Finding the Number of Pivot Columns of a Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "149",
+            "name": "Elementary Row Operations",
+            "href": "/topics/149"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "35459",
+        "dom_id": "question-35459",
+        "selector": "#question-35459",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "35457",
+        "dom_id": "question-35457",
+        "selector": "#question-35457",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17205",
+        "content_id": "4706",
+        "dom_id": "step-17205",
+        "selector": "#step-17205",
+        "step_anchor": "step-12",
+        "title": "Finding the Pivot Columns of a Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "35734",
+        "dom_id": "question-35734",
+        "selector": "#question-35734",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "35732",
+        "dom_id": "question-35732",
+        "selector": "#question-35732",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-17200",
+        "filename": "01-step-17200.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-17201",
+        "filename": "02-step-17201.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-35729",
+        "filename": "03-question-35729.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-35755",
+        "filename": "04-question-35755.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-17202",
+        "filename": "05-step-17202.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-35391",
+        "filename": "06-question-35391.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-35730",
+        "filename": "07-question-35730.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-17203",
+        "filename": "08-step-17203.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-17204",
+        "filename": "09-step-17204.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-35459",
+        "filename": "10-question-35459.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-35457",
+        "filename": "11-question-35457.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-17205",
+        "filename": "12-step-17205.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-35734",
+        "filename": "13-question-35734.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-35732",
+        "filename": "14-question-35732.png"
+      }
+    ]
+  }
+}

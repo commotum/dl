@@ -1,0 +1,258 @@
+{
+  "schema_version": 1,
+  "topic_id": "1466",
+  "topic_title": "Face Diagonals of Cubes",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1466.html",
+  "source_url": "https://mathacademy.com/topics/1466",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "26432",
+        "dom_id": "sectionLink-26432",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-26432"
+      },
+      {
+        "index": 2,
+        "step_id": "33789",
+        "dom_id": "sectionLink-33789",
+        "name": "",
+        "title": "Counting the Face Diagonals of a Cube",
+        "selector": "#sectionLink-33789"
+      },
+      {
+        "index": 3,
+        "step_id": "33564",
+        "dom_id": "sectionLink-33564",
+        "name": "",
+        "title": "Finding the Length of the Face Diagonals of a Cube",
+        "selector": "#sectionLink-33564"
+      },
+      {
+        "index": 4,
+        "step_id": "33565",
+        "dom_id": "sectionLink-33565",
+        "name": "",
+        "title": "Finding the Side Length of a Cube Given the Length of Its Face Diagonal",
+        "selector": "#sectionLink-33565"
+      },
+      {
+        "index": 5,
+        "step_id": "33791",
+        "dom_id": "sectionLink-33791",
+        "name": "",
+        "title": "Deriving the Face Diagonal Length Formula",
+        "selector": "#sectionLink-33791"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2484",
+        "name": "Faces, Vertices, and Edges of Polyhedrons",
+        "href": "/topics/faces-vertices-and-edges-of-polyhedrons-2484"
+      },
+      {
+        "topic_id": "2887",
+        "name": "Diagonals of Squares",
+        "href": "/topics/diagonals-of-squares-2887"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 9,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "26432",
+        "content_id": "4347",
+        "dom_id": "step-26432",
+        "selector": "#step-26432",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "33789",
+        "content_id": "5414",
+        "dom_id": "step-33789",
+        "selector": "#step-33789",
+        "step_anchor": "step-2",
+        "title": "Counting the Face Diagonals of a Cube",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33564",
+        "content_id": "8979",
+        "dom_id": "step-33564",
+        "selector": "#step-33564",
+        "step_anchor": "step-3",
+        "title": "Finding the Length of the Face Diagonals of a Cube",
+        "key_prerequisites": [
+          {
+            "topic_id": "2887",
+            "name": "Diagonals of Squares",
+            "href": "/topics/2887"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "107189",
+        "dom_id": "question-107189",
+        "selector": "#question-107189",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "107188",
+        "dom_id": "question-107188",
+        "selector": "#question-107188",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33565",
+        "content_id": "8980",
+        "dom_id": "step-33565",
+        "selector": "#step-33565",
+        "step_anchor": "step-6",
+        "title": "Finding the Side Length of a Cube Given the Length of Its Face Diagonal",
+        "key_prerequisites": [
+          {
+            "topic_id": "1318",
+            "name": "Rationalizing Denominators",
+            "href": "/topics/1318"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "107191",
+        "dom_id": "question-107191",
+        "selector": "#question-107191",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "107190",
+        "dom_id": "question-107190",
+        "selector": "#question-107190",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "33791",
+        "content_id": "5416",
+        "dom_id": "step-33791",
+        "selector": "#step-33791",
+        "step_anchor": "step-9",
+        "title": "Deriving the Face Diagonal Length Formula",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-26432",
+        "filename": "01-step-26432.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-33789",
+        "filename": "02-step-33789.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-33564",
+        "filename": "03-step-33564.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-107189",
+        "filename": "04-question-107189.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-107188",
+        "filename": "05-question-107188.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-33565",
+        "filename": "06-step-33565.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-107191",
+        "filename": "07-question-107191.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-107190",
+        "filename": "08-question-107190.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-33791",
+        "filename": "09-step-33791.png"
+      }
+    ]
+  }
+}

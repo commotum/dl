@@ -1,0 +1,335 @@
+{
+  "schema_version": 1,
+  "topic_id": "648",
+  "topic_title": "Finding Displacement Vectors in Two Dimensions Using Integration",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/648.html",
+  "source_url": "https://mathacademy.com/topics/648",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "2193",
+        "dom_id": "sectionLink-2193",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-2193"
+      },
+      {
+        "index": 2,
+        "step_id": "2194",
+        "dom_id": "sectionLink-2194",
+        "name": "",
+        "title": "Finding a Position Vector Given a Velocity Vector",
+        "selector": "#sectionLink-2194"
+      },
+      {
+        "index": 3,
+        "step_id": "2197",
+        "dom_id": "sectionLink-2197",
+        "name": "",
+        "title": "Calculating a Position Vector Given a Velocity Vector and Time",
+        "selector": "#sectionLink-2197"
+      },
+      {
+        "index": 4,
+        "step_id": "2200",
+        "dom_id": "sectionLink-2200",
+        "name": "",
+        "title": "Finding the Times When a Particle Is at a Certain Location Given Its Velocity Vector",
+        "selector": "#sectionLink-2200"
+      },
+      {
+        "index": 5,
+        "step_id": "27228",
+        "dom_id": "sectionLink-27228",
+        "name": "",
+        "title": "Finding a Position Vector Given an Acceleration Vector",
+        "selector": "#sectionLink-27228"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "826",
+        "name": "Finding Velocity Vectors in Two Dimensions Using Integration",
+        "href": "/topics/finding-velocity-vectors-in-two-dimensions-using-integration-826"
+      },
+      {
+        "topic_id": "3576",
+        "name": "Calculating the Displacement of a Particle Using Integration",
+        "href": "/topics/calculating-the-displacement-of-a-particle-using-integration-3576"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "2193",
+        "content_id": "1115",
+        "dom_id": "step-2193",
+        "selector": "#step-2193",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "2194",
+        "content_id": "625",
+        "dom_id": "step-2194",
+        "selector": "#step-2194",
+        "step_anchor": "step-2",
+        "title": "Finding a Position Vector Given a Velocity Vector",
+        "key_prerequisites": [
+          {
+            "topic_id": "335",
+            "name": "Calculating the Position Function of a Particle Using Integration",
+            "href": "/topics/335"
+          },
+          {
+            "topic_id": "1085",
+            "name": "Integrating Vector-Valued Functions",
+            "href": "/topics/1085"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "6390",
+        "dom_id": "question-6390",
+        "selector": "#question-6390",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "7211",
+        "dom_id": "question-7211",
+        "selector": "#question-7211",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "2197",
+        "content_id": "626",
+        "dom_id": "step-2197",
+        "selector": "#step-2197",
+        "step_anchor": "step-5",
+        "title": "Calculating a Position Vector Given a Velocity Vector and Time",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "50420",
+        "dom_id": "question-50420",
+        "selector": "#question-50420",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "50512",
+        "dom_id": "question-50512",
+        "selector": "#question-50512",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "2200",
+        "content_id": "627",
+        "dom_id": "step-2200",
+        "selector": "#step-2200",
+        "step_anchor": "step-8",
+        "title": "Finding the Times When a Particle Is at a Certain Location Given Its Velocity Vector",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "83460",
+        "dom_id": "question-83460",
+        "selector": "#question-83460",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "50417",
+        "dom_id": "question-50417",
+        "selector": "#question-50417",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "27228",
+        "content_id": "7343",
+        "dom_id": "step-27228",
+        "selector": "#step-27228",
+        "step_anchor": "step-11",
+        "title": "Finding a Position Vector Given an Acceleration Vector",
+        "key_prerequisites": [
+          {
+            "topic_id": "826",
+            "name": "Finding Velocity Vectors in Two Dimensions Using Integration",
+            "href": "/topics/826"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "7221",
+        "dom_id": "question-7221",
+        "selector": "#question-7221",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "7224",
+        "dom_id": "question-7224",
+        "selector": "#question-7224",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-2193",
+        "filename": "01-step-2193.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-2194",
+        "filename": "02-step-2194.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-6390",
+        "filename": "03-question-6390.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-7211",
+        "filename": "04-question-7211.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-2197",
+        "filename": "05-step-2197.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-50420",
+        "filename": "06-question-50420.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-50512",
+        "filename": "07-question-50512.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-2200",
+        "filename": "08-step-2200.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-83460",
+        "filename": "09-question-83460.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-50417",
+        "filename": "10-question-50417.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-27228",
+        "filename": "11-step-27228.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-7221",
+        "filename": "12-question-7221.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-7224",
+        "filename": "13-question-7224.png"
+      }
+    ]
+  }
+}

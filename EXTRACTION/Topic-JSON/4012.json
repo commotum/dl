@@ -1,0 +1,283 @@
+{
+  "schema_version": 1,
+  "topic_id": "4012",
+  "topic_title": "Expected Values of Continuous Random Variables",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/4012.html",
+  "source_url": "https://mathacademy.com/topics/4012",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "29818",
+        "dom_id": "sectionLink-29818",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-29818"
+      },
+      {
+        "index": 2,
+        "step_id": "29819",
+        "dom_id": "sectionLink-29819",
+        "name": "",
+        "title": "Computing the Mean of a Continuous Random Variable",
+        "selector": "#sectionLink-29819"
+      },
+      {
+        "index": 3,
+        "step_id": "29821",
+        "dom_id": "sectionLink-29821",
+        "name": "",
+        "title": "Computing the Mean of a Continuous Random Variable With a Piecewise PDF",
+        "selector": "#sectionLink-29821"
+      },
+      {
+        "index": 4,
+        "step_id": "29820",
+        "dom_id": "sectionLink-29820",
+        "name": "",
+        "title": "Computing the Mean of a Transformed Continuous Random Variable",
+        "selector": "#sectionLink-29820"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "626",
+        "name": "Definite Integrals of Piecewise Functions",
+        "href": "/topics/definite-integrals-of-piecewise-functions-626"
+      },
+      {
+        "topic_id": "2836",
+        "name": "Properties of Expectation for Discrete Random Variables",
+        "href": "/topics/properties-of-expectation-for-discrete-random-variables-2836"
+      },
+      {
+        "topic_id": "4100",
+        "name": "Continuous Random Variables Over Infinite Domains",
+        "href": "/topics/continuous-random-variables-over-infinite-domains-4100"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 10,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "29818",
+        "content_id": "4804",
+        "dom_id": "step-29818",
+        "selector": "#step-29818",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "29819",
+        "content_id": "7985",
+        "dom_id": "step-29819",
+        "selector": "#step-29819",
+        "step_anchor": "step-2",
+        "title": "Computing the Mean of a Continuous Random Variable",
+        "key_prerequisites": [
+          {
+            "topic_id": "730",
+            "name": "Expected Values of Discrete Random Variables",
+            "href": "/topics/730"
+          },
+          {
+            "topic_id": "1347",
+            "name": "Probability Density Functions of Continuous Random Variables",
+            "href": "/topics/1347"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "90278",
+        "dom_id": "question-90278",
+        "selector": "#question-90278",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "90384",
+        "dom_id": "question-90384",
+        "selector": "#question-90384",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "29821",
+        "content_id": "7987",
+        "dom_id": "step-29821",
+        "selector": "#step-29821",
+        "step_anchor": "step-5",
+        "title": "Computing the Mean of a Continuous Random Variable With a Piecewise PDF",
+        "key_prerequisites": [
+          {
+            "topic_id": "626",
+            "name": "Definite Integrals of Piecewise Functions",
+            "href": "/topics/626"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "90280",
+        "dom_id": "question-90280",
+        "selector": "#question-90280",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "90388",
+        "dom_id": "question-90388",
+        "selector": "#question-90388",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "29820",
+        "content_id": "7986",
+        "dom_id": "step-29820",
+        "selector": "#step-29820",
+        "step_anchor": "step-8",
+        "title": "Computing the Mean of a Transformed Continuous Random Variable",
+        "key_prerequisites": [
+          {
+            "topic_id": "2836",
+            "name": "Properties of Expectation for Discrete Random Variables",
+            "href": "/topics/2836"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "90393",
+        "dom_id": "question-90393",
+        "selector": "#question-90393",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "149715",
+        "dom_id": "question-149715",
+        "selector": "#question-149715",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-29818",
+        "filename": "01-step-29818.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-29819",
+        "filename": "02-step-29819.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-90278",
+        "filename": "03-question-90278.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-90384",
+        "filename": "04-question-90384.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-29821",
+        "filename": "05-step-29821.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-90280",
+        "filename": "06-question-90280.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-90388",
+        "filename": "07-question-90388.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-29820",
+        "filename": "08-step-29820.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-90393",
+        "filename": "09-question-90393.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-149715",
+        "filename": "10-question-149715.png"
+      }
+    ]
+  }
+}

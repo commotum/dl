@@ -1,0 +1,303 @@
+{
+  "schema_version": 1,
+  "topic_id": "3314",
+  "topic_title": "Hypothesis Tests for One Variance",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3314.html",
+  "source_url": "https://mathacademy.com/topics/3314",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "224362",
+        "dom_id": "sectionLink-224362",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-224362"
+      },
+      {
+        "index": 2,
+        "step_id": "224363",
+        "dom_id": "sectionLink-224363",
+        "name": "",
+        "title": "A Concrete Example",
+        "selector": "#sectionLink-224363"
+      },
+      {
+        "index": 3,
+        "step_id": "224364",
+        "dom_id": "sectionLink-224364",
+        "name": "",
+        "title": "Conducting One-Tailed Hypothesis Tests for Variance",
+        "selector": "#sectionLink-224364"
+      },
+      {
+        "index": 4,
+        "step_id": "224367",
+        "dom_id": "sectionLink-224367",
+        "name": "",
+        "title": "Conducting Two-Tailed Hypothesis Tests for Variance",
+        "selector": "#sectionLink-224367"
+      },
+      {
+        "index": 5,
+        "step_id": "224370",
+        "dom_id": "sectionLink-224370",
+        "name": "",
+        "title": "Conducting Hypothesis Tests for Variance: Applications",
+        "selector": "#sectionLink-224370"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3023",
+        "name": "The Chi-Square Distribution",
+        "href": "/topics/the-chi-square-distribution-3023"
+      },
+      {
+        "topic_id": "3303",
+        "name": "Hypothesis Tests for One Mean: Known Population Variance",
+        "href": "/topics/hypothesis-tests-for-one-mean-known-population-variance-3303"
+      },
+      {
+        "topic_id": "3820",
+        "name": "The Sample Variance",
+        "href": "/topics/the-sample-variance-3820"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "224362",
+        "content_id": "10788",
+        "dom_id": "step-224362",
+        "selector": "#step-224362",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "224363",
+        "content_id": "10586",
+        "dom_id": "step-224363",
+        "selector": "#step-224363",
+        "step_anchor": "step-2",
+        "title": "A Concrete Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "224364",
+        "content_id": "15630",
+        "dom_id": "step-224364",
+        "selector": "#step-224364",
+        "step_anchor": "step-3",
+        "title": "Conducting One-Tailed Hypothesis Tests for Variance",
+        "key_prerequisites": [
+          {
+            "topic_id": "3023",
+            "name": "The Chi-Square Distribution",
+            "href": "/topics/3023"
+          },
+          {
+            "topic_id": "3303",
+            "name": "Hypothesis Tests for One Mean: Known Population Variance",
+            "href": "/topics/3303"
+          },
+          {
+            "topic_id": "3820",
+            "name": "The Sample Variance",
+            "href": "/topics/3820"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "251872",
+        "dom_id": "question-251872",
+        "selector": "#question-251872",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "237068",
+        "dom_id": "question-237068",
+        "selector": "#question-237068",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "224367",
+        "content_id": "15631",
+        "dom_id": "step-224367",
+        "selector": "#step-224367",
+        "step_anchor": "step-6",
+        "title": "Conducting Two-Tailed Hypothesis Tests for Variance",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "251922",
+        "dom_id": "question-251922",
+        "selector": "#question-251922",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "237074",
+        "dom_id": "question-237074",
+        "selector": "#question-237074",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "224370",
+        "content_id": "15632",
+        "dom_id": "step-224370",
+        "selector": "#step-224370",
+        "step_anchor": "step-9",
+        "title": "Conducting Hypothesis Tests for Variance: Applications",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "252047",
+        "dom_id": "question-252047",
+        "selector": "#question-252047",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "252056",
+        "dom_id": "question-252056",
+        "selector": "#question-252056",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-224362",
+        "filename": "01-step-224362.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-224363",
+        "filename": "02-step-224363.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-224364",
+        "filename": "03-step-224364.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-251872",
+        "filename": "04-question-251872.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-237068",
+        "filename": "05-question-237068.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-224367",
+        "filename": "06-step-224367.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-251922",
+        "filename": "07-question-251922.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-237074",
+        "filename": "08-question-237074.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-224370",
+        "filename": "09-step-224370.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-252047",
+        "filename": "10-question-252047.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-252056",
+        "filename": "11-question-252056.png"
+      }
+    ]
+  }
+}

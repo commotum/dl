@@ -1,0 +1,373 @@
+{
+  "schema_version": 1,
+  "topic_id": "2498",
+  "topic_title": "Comparing Data Sets Using Range and Quartiles",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2498.html",
+  "source_url": "https://mathacademy.com/topics/2498",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "498871",
+        "dom_id": "sectionLink-498871",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-498871"
+      },
+      {
+        "index": 2,
+        "step_id": "498872",
+        "dom_id": "sectionLink-498872",
+        "name": "",
+        "title": "Comparing Visual Data Sets Using the Range",
+        "selector": "#sectionLink-498872"
+      },
+      {
+        "index": 3,
+        "step_id": "498875",
+        "dom_id": "sectionLink-498875",
+        "name": "",
+        "title": "Comparing Data Sets Using the Range",
+        "selector": "#sectionLink-498875"
+      },
+      {
+        "index": 4,
+        "step_id": "498878",
+        "dom_id": "sectionLink-498878",
+        "name": "",
+        "title": "Interquartile Range",
+        "selector": "#sectionLink-498878"
+      },
+      {
+        "index": 5,
+        "step_id": "498879",
+        "dom_id": "sectionLink-498879",
+        "name": "",
+        "title": "Comparing Data Sets Using IQR",
+        "selector": "#sectionLink-498879"
+      },
+      {
+        "index": 6,
+        "step_id": "498882",
+        "dom_id": "sectionLink-498882",
+        "name": "",
+        "title": "Comparing Visual Data Sets Using IQR",
+        "selector": "#sectionLink-498882"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2482",
+        "name": "Box Plots",
+        "href": "/topics/box-plots-2482"
+      },
+      {
+        "topic_id": "2501",
+        "name": "Measuring Range and MAD From Dot Plots",
+        "href": "/topics/measuring-range-and-mad-from-dot-plots-2501"
+      },
+      {
+        "topic_id": "3757",
+        "name": "Measuring Quartiles and IQR From Dot Plots",
+        "href": "/topics/measuring-quartiles-and-iqr-from-dot-plots-3757"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "498871",
+        "content_id": "13467",
+        "dom_id": "step-498871",
+        "selector": "#step-498871",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "498872",
+        "content_id": "18940",
+        "dom_id": "step-498872",
+        "selector": "#step-498872",
+        "step_anchor": "step-2",
+        "title": "Comparing Visual Data Sets Using the Range",
+        "key_prerequisites": [
+          {
+            "topic_id": "2482",
+            "name": "Box Plots",
+            "href": "/topics/2482"
+          },
+          {
+            "topic_id": "2501",
+            "name": "Measuring Range and MAD From Dot Plots",
+            "href": "/topics/2501"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "296150",
+        "dom_id": "question-296150",
+        "selector": "#question-296150",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "296174",
+        "dom_id": "question-296174",
+        "selector": "#question-296174",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "498875",
+        "content_id": "18934",
+        "dom_id": "step-498875",
+        "selector": "#step-498875",
+        "step_anchor": "step-5",
+        "title": "Comparing Data Sets Using the Range",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "63068",
+        "dom_id": "question-63068",
+        "selector": "#question-63068",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "63214",
+        "dom_id": "question-63214",
+        "selector": "#question-63214",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "498878",
+        "content_id": "13469",
+        "dom_id": "step-498878",
+        "selector": "#step-498878",
+        "step_anchor": "step-8",
+        "title": "Interquartile Range",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "498879",
+        "content_id": "18935",
+        "dom_id": "step-498879",
+        "selector": "#step-498879",
+        "step_anchor": "step-9",
+        "title": "Comparing Data Sets Using IQR",
+        "key_prerequisites": [
+          {
+            "topic_id": "2480",
+            "name": "Range, Quartiles, and IQR",
+            "href": "/topics/2480"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "63069",
+        "dom_id": "question-63069",
+        "selector": "#question-63069",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "63316",
+        "dom_id": "question-63316",
+        "selector": "#question-63316",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "498882",
+        "content_id": "18941",
+        "dom_id": "step-498882",
+        "selector": "#step-498882",
+        "step_anchor": "step-12",
+        "title": "Comparing Visual Data Sets Using IQR",
+        "key_prerequisites": [
+          {
+            "topic_id": "3757",
+            "name": "Measuring Quartiles and IQR From Dot Plots",
+            "href": "/topics/3757"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "296230",
+        "dom_id": "question-296230",
+        "selector": "#question-296230",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "296243",
+        "dom_id": "question-296243",
+        "selector": "#question-296243",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-498871",
+        "filename": "01-step-498871.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-498872",
+        "filename": "02-step-498872.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-296150",
+        "filename": "03-question-296150.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-296174",
+        "filename": "04-question-296174.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-498875",
+        "filename": "05-step-498875.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-63068",
+        "filename": "06-question-63068.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-63214",
+        "filename": "07-question-63214.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-498878",
+        "filename": "08-step-498878.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-498879",
+        "filename": "09-step-498879.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-63069",
+        "filename": "10-question-63069.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-63316",
+        "filename": "11-question-63316.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-498882",
+        "filename": "12-step-498882.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-296230",
+        "filename": "13-question-296230.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-296243",
+        "filename": "14-question-296243.png"
+      }
+    ]
+  }
+}

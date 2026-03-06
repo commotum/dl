@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "topic_id": "3055",
+  "topic_title": "The Distribution Function Method",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3055.html",
+  "source_url": "https://mathacademy.com/topics/3055",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "33485",
+        "dom_id": "sectionLink-33485",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-33485"
+      },
+      {
+        "index": 2,
+        "step_id": "38639",
+        "dom_id": "sectionLink-38639",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-38639"
+      },
+      {
+        "index": 3,
+        "step_id": "33840",
+        "dom_id": "sectionLink-33840",
+        "name": "",
+        "title": "Computing the PDF of a Random Variable Under an Affine Transformation",
+        "selector": "#sectionLink-33840"
+      },
+      {
+        "index": 4,
+        "step_id": "33841",
+        "dom_id": "sectionLink-33841",
+        "name": "",
+        "title": "Computing the PDF of a Random Variable Under a Nonlinear Transformation",
+        "selector": "#sectionLink-33841"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1495",
+        "name": "Solving Elementary Quadratic Inequalities",
+        "href": "/topics/solving-elementary-quadratic-inequalities-1495"
+      },
+      {
+        "topic_id": "2163",
+        "name": "Cumulative Distribution Functions for Continuous Random Variables",
+        "href": "/topics/cumulative-distribution-functions-for-continuous-random-variables-2163"
+      },
+      {
+        "topic_id": "2856",
+        "name": "Solving Radical Inequalities",
+        "href": "/topics/solving-radical-inequalities-2856"
+      },
+      {
+        "topic_id": "2857",
+        "name": "Solving Inequalities Involving Exponential Functions",
+        "href": "/topics/solving-inequalities-involving-exponential-functions-2857"
+      },
+      {
+        "topic_id": "2858",
+        "name": "Solving Inequalities Involving Logarithmic Functions",
+        "href": "/topics/solving-inequalities-involving-logarithmic-functions-2858"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 8,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "33485",
+        "content_id": "5355",
+        "dom_id": "step-33485",
+        "selector": "#step-33485",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "38639",
+        "content_id": "6387",
+        "dom_id": "step-38639",
+        "selector": "#step-38639",
+        "step_anchor": "step-2",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33840",
+        "content_id": "9073",
+        "dom_id": "step-33840",
+        "selector": "#step-33840",
+        "step_anchor": "step-3",
+        "title": "Computing the PDF of a Random Variable Under an Affine Transformation",
+        "key_prerequisites": [
+          {
+            "topic_id": "38",
+            "name": "Solving One-Step Linear Inequalities",
+            "href": "/topics/38"
+          },
+          {
+            "topic_id": "1108",
+            "name": "The Chain Rule for Differentiation",
+            "href": "/topics/1108"
+          },
+          {
+            "topic_id": "1628",
+            "name": "Increasing and Decreasing Functions",
+            "href": "/topics/1628"
+          },
+          {
+            "topic_id": "2163",
+            "name": "Cumulative Distribution Functions for Continuous Random Variables",
+            "href": "/topics/2163"
+          },
+          {
+            "topic_id": "3728",
+            "name": "The Range of a Function: Advanced Cases",
+            "href": "/topics/3728"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "108501",
+        "dom_id": "question-108501",
+        "selector": "#question-108501",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "110069",
+        "dom_id": "question-110069",
+        "selector": "#question-110069",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33841",
+        "content_id": "9074",
+        "dom_id": "step-33841",
+        "selector": "#step-33841",
+        "step_anchor": "step-6",
+        "title": "Computing the PDF of a Random Variable Under a Nonlinear Transformation",
+        "key_prerequisites": [
+          {
+            "topic_id": "454",
+            "name": "Graphing the Cube Root Function",
+            "href": "/topics/454"
+          },
+          {
+            "topic_id": "1007",
+            "name": "The Chain Rule With Exponential Functions",
+            "href": "/topics/1007"
+          },
+          {
+            "topic_id": "1532",
+            "name": "Graphing Logarithmic Functions",
+            "href": "/topics/1532"
+          },
+          {
+            "topic_id": "2033",
+            "name": "Graphing Reciprocal Functions",
+            "href": "/topics/2033"
+          },
+          {
+            "topic_id": "2856",
+            "name": "Solving Radical Inequalities",
+            "href": "/topics/2856"
+          },
+          {
+            "topic_id": "2857",
+            "name": "Solving Inequalities Involving Exponential Functions",
+            "href": "/topics/2857"
+          },
+          {
+            "topic_id": "2858",
+            "name": "Solving Inequalities Involving Logarithmic Functions",
+            "href": "/topics/2858"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "108470",
+        "dom_id": "question-108470",
+        "selector": "#question-108470",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "108473",
+        "dom_id": "question-108473",
+        "selector": "#question-108473",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-33485",
+        "filename": "01-step-33485.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-38639",
+        "filename": "02-step-38639.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-33840",
+        "filename": "03-step-33840.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-108501",
+        "filename": "04-question-108501.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-110069",
+        "filename": "05-question-110069.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-33841",
+        "filename": "06-step-33841.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-108470",
+        "filename": "07-question-108470.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-108473",
+        "filename": "08-question-108473.png"
+      }
+    ]
+  }
+}

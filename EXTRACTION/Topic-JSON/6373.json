@@ -1,0 +1,310 @@
+{
+  "schema_version": 1,
+  "topic_id": "6373",
+  "topic_title": "The Trapezoidal Method",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/6373.html",
+  "source_url": "https://mathacademy.com/topics/6373",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "600181",
+        "dom_id": "sectionLink-600181",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-600181"
+      },
+      {
+        "index": 2,
+        "step_id": "600182",
+        "dom_id": "sectionLink-600182",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-600182"
+      },
+      {
+        "index": 3,
+        "step_id": "600183",
+        "dom_id": "sectionLink-600183",
+        "name": "",
+        "title": "Determining a General Update Formula for the Trapezoidal Method",
+        "selector": "#sectionLink-600183"
+      },
+      {
+        "index": 4,
+        "step_id": "600186",
+        "dom_id": "sectionLink-600186",
+        "name": "",
+        "title": "Computing One Step Using the Trapezoidal Method",
+        "selector": "#sectionLink-600186"
+      },
+      {
+        "index": 5,
+        "step_id": "608074",
+        "dom_id": "sectionLink-608074",
+        "name": "",
+        "title": "Multiple Iterations of the Trapezoidal Method",
+        "selector": "#sectionLink-608074"
+      },
+      {
+        "index": 6,
+        "step_id": "600189",
+        "dom_id": "sectionLink-600189",
+        "name": "",
+        "title": "Computing Two Steps Using the Trapezoidal Method",
+        "selector": "#sectionLink-600189"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "6396",
+        "name": "The Implicit Euler Method",
+        "href": "/topics/the-implicit-euler-method-6396"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "600181",
+        "content_id": "14490",
+        "dom_id": "step-600181",
+        "selector": "#step-600181",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "600182",
+        "content_id": "14491",
+        "dom_id": "step-600182",
+        "selector": "#step-600182",
+        "step_anchor": "step-2",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "600183",
+        "content_id": "21672",
+        "dom_id": "step-600183",
+        "selector": "#step-600183",
+        "step_anchor": "step-3",
+        "title": "Determining a General Update Formula for the Trapezoidal Method",
+        "key_prerequisites": [
+          {
+            "topic_id": "6396",
+            "name": "The Implicit Euler Method",
+            "href": "/topics/6396"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "333397",
+        "dom_id": "question-333397",
+        "selector": "#question-333397",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "333386",
+        "dom_id": "question-333386",
+        "selector": "#question-333386",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "600186",
+        "content_id": "21671",
+        "dom_id": "step-600186",
+        "selector": "#step-600186",
+        "step_anchor": "step-6",
+        "title": "Computing One Step Using the Trapezoidal Method",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "339627",
+        "dom_id": "question-339627",
+        "selector": "#question-339627",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "339628",
+        "dom_id": "question-339628",
+        "selector": "#question-339628",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "608074",
+        "content_id": "14898",
+        "dom_id": "step-608074",
+        "selector": "#step-608074",
+        "step_anchor": "step-9",
+        "title": "Multiple Iterations of the Trapezoidal Method",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "600189",
+        "content_id": "21673",
+        "dom_id": "step-600189",
+        "selector": "#step-600189",
+        "step_anchor": "step-10",
+        "title": "Computing Two Steps Using the Trapezoidal Method",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "339771",
+        "dom_id": "question-339771",
+        "selector": "#question-339771",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "339772",
+        "dom_id": "question-339772",
+        "selector": "#question-339772",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-600181",
+        "filename": "01-step-600181.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-600182",
+        "filename": "02-step-600182.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-600183",
+        "filename": "03-step-600183.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-333397",
+        "filename": "04-question-333397.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-333386",
+        "filename": "05-question-333386.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-600186",
+        "filename": "06-step-600186.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-339627",
+        "filename": "07-question-339627.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-339628",
+        "filename": "08-question-339628.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-608074",
+        "filename": "09-step-608074.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-600189",
+        "filename": "10-step-600189.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-339771",
+        "filename": "11-question-339771.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-339772",
+        "filename": "12-question-339772.png"
+      }
+    ]
+  }
+}

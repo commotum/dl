@@ -1,0 +1,337 @@
+{
+  "schema_version": 1,
+  "topic_id": "2087",
+  "topic_title": "Solving Homogeneous Systems of ODEs With Distinct Eigenvalues",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2087.html",
+  "source_url": "https://mathacademy.com/topics/2087",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "540572",
+        "dom_id": "sectionLink-540572",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-540572"
+      },
+      {
+        "index": 2,
+        "step_id": "540573",
+        "dom_id": "sectionLink-540573",
+        "name": "",
+        "title": "Finding the General Solution Given the Eigenvalues and Eigenvectors of the Corresponding Matrix",
+        "selector": "#sectionLink-540573"
+      },
+      {
+        "index": 3,
+        "step_id": "540576",
+        "dom_id": "sectionLink-540576",
+        "name": "",
+        "title": "Finding the General Solution to a Linear System of Differential Equations",
+        "selector": "#sectionLink-540576"
+      },
+      {
+        "index": 4,
+        "step_id": "540579",
+        "dom_id": "sectionLink-540579",
+        "name": "",
+        "title": "Decoupling a Linear System of Differential Equations",
+        "selector": "#sectionLink-540579"
+      },
+      {
+        "index": 5,
+        "step_id": "540580",
+        "dom_id": "sectionLink-540580",
+        "name": "",
+        "title": "Determining the Decoupling Substitution of a Linear System of Differential Equations",
+        "selector": "#sectionLink-540580"
+      },
+      {
+        "index": 6,
+        "step_id": "540583",
+        "dom_id": "sectionLink-540583",
+        "name": "",
+        "title": "The Proof of the Formula For a General System",
+        "selector": "#sectionLink-540583"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1171",
+        "name": "Multiplying a Matrix by the Identity Matrix",
+        "href": "/topics/multiplying-a-matrix-by-the-identity-matrix-1171"
+      },
+      {
+        "topic_id": "1969",
+        "name": "Properties of Diagonalization",
+        "href": "/topics/properties-of-diagonalization-1969"
+      },
+      {
+        "topic_id": "3238",
+        "name": "Solving Decoupled Homogeneous Systems of ODEs",
+        "href": "/topics/solving-decoupled-homogeneous-systems-of-odes-3238"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "540572",
+        "content_id": "4183",
+        "dom_id": "step-540572",
+        "selector": "#step-540572",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "540573",
+        "content_id": "5974",
+        "dom_id": "step-540573",
+        "selector": "#step-540573",
+        "step_anchor": "step-2",
+        "title": "Finding the General Solution Given the Eigenvalues and Eigenvectors of the Corresponding Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "3238",
+            "name": "Solving Decoupled Homogeneous Systems of ODEs",
+            "href": "/topics/3238"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "39702",
+        "dom_id": "question-39702",
+        "selector": "#question-39702",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "39700",
+        "dom_id": "question-39700",
+        "selector": "#question-39700",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "540576",
+        "content_id": "5606",
+        "dom_id": "step-540576",
+        "selector": "#step-540576",
+        "step_anchor": "step-5",
+        "title": "Finding the General Solution to a Linear System of Differential Equations",
+        "key_prerequisites": [
+          {
+            "topic_id": "991",
+            "name": "Calculating the Eigenvectors of a 2x2 Matrix",
+            "href": "/topics/991"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "324452",
+        "dom_id": "question-324452",
+        "selector": "#question-324452",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "324453",
+        "dom_id": "question-324453",
+        "selector": "#question-324453",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "540579",
+        "content_id": "3650",
+        "dom_id": "step-540579",
+        "selector": "#step-540579",
+        "step_anchor": "step-8",
+        "title": "Decoupling a Linear System of Differential Equations",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "540580",
+        "content_id": "5605",
+        "dom_id": "step-540580",
+        "selector": "#step-540580",
+        "step_anchor": "step-9",
+        "title": "Determining the Decoupling Substitution of a Linear System of Differential Equations",
+        "key_prerequisites": [
+          {
+            "topic_id": "864",
+            "name": "Inverses of 2x2 Matrices",
+            "href": "/topics/864"
+          },
+          {
+            "topic_id": "1969",
+            "name": "Properties of Diagonalization",
+            "href": "/topics/1969"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "39052",
+        "dom_id": "question-39052",
+        "selector": "#question-39052",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "324455",
+        "dom_id": "question-324455",
+        "selector": "#question-324455",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "540583",
+        "content_id": "4184",
+        "dom_id": "step-540583",
+        "selector": "#step-540583",
+        "step_anchor": "step-12",
+        "title": "The Proof of the Formula For a General System",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-540572",
+        "filename": "01-step-540572.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-540573",
+        "filename": "02-step-540573.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-39702",
+        "filename": "03-question-39702.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-39700",
+        "filename": "04-question-39700.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-540576",
+        "filename": "05-step-540576.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-324452",
+        "filename": "06-question-324452.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-324453",
+        "filename": "07-question-324453.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-540579",
+        "filename": "08-step-540579.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-540580",
+        "filename": "09-step-540580.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-39052",
+        "filename": "10-question-39052.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-324455",
+        "filename": "11-question-324455.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-540583",
+        "filename": "12-step-540583.png"
+      }
+    ]
+  }
+}

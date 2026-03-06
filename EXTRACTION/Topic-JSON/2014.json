@@ -1,0 +1,367 @@
+{
+  "schema_version": 1,
+  "topic_id": "2014",
+  "topic_title": "Connections Between Matrix Representations of a Linear Transformation",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2014.html",
+  "source_url": "https://mathacademy.com/topics/2014",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "20144",
+        "dom_id": "sectionLink-20144",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-20144"
+      },
+      {
+        "index": 2,
+        "step_id": "31802",
+        "dom_id": "sectionLink-31802",
+        "name": "",
+        "title": "Identifying Connections Between Matrices of a Linear Transformation Relative to Different Bases",
+        "selector": "#sectionLink-31802"
+      },
+      {
+        "index": 3,
+        "step_id": "20145",
+        "dom_id": "sectionLink-20145",
+        "name": "",
+        "title": "Finding the Matrix of a Linear Transformation Relative to a Basis Using a Change-of-Coordinates Matrix",
+        "selector": "#sectionLink-20145"
+      },
+      {
+        "index": 4,
+        "step_id": "20147",
+        "dom_id": "sectionLink-20147",
+        "name": "",
+        "title": "Finding the Matrix of a Linear Transformation Relative to the Standard Basis",
+        "selector": "#sectionLink-20147"
+      },
+      {
+        "index": 5,
+        "step_id": "20146",
+        "dom_id": "sectionLink-20146",
+        "name": "",
+        "title": "The Expanded Form of the Change of Basis",
+        "selector": "#sectionLink-20146"
+      },
+      {
+        "index": 6,
+        "step_id": "21621",
+        "dom_id": "sectionLink-21621",
+        "name": "",
+        "title": "Finding the Matrix of a Linear Transformation Relative to a Given Basis",
+        "selector": "#sectionLink-21621"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1196",
+        "name": "Multiplying Matrices",
+        "href": "/topics/multiplying-matrices-1196"
+      },
+      {
+        "topic_id": "1928",
+        "name": "The Change-of-Coordinates Matrix",
+        "href": "/topics/the-change-of-coordinates-matrix-1928"
+      },
+      {
+        "topic_id": "1961",
+        "name": "The Matrix of a Linear Transformation Relative to a Basis",
+        "href": "/topics/the-matrix-of-a-linear-transformation-relative-to-a-basis-1961"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20144",
+        "content_id": "3585",
+        "dom_id": "step-20144",
+        "selector": "#step-20144",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "31802",
+        "content_id": "8563",
+        "dom_id": "step-31802",
+        "selector": "#step-31802",
+        "step_anchor": "step-2",
+        "title": "Identifying Connections Between Matrices of a Linear Transformation Relative to Different Bases",
+        "key_prerequisites": [
+          {
+            "topic_id": "1928",
+            "name": "The Change-of-Coordinates Matrix",
+            "href": "/topics/1928"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "38479",
+        "dom_id": "question-38479",
+        "selector": "#question-38479",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "38360",
+        "dom_id": "question-38360",
+        "selector": "#question-38360",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20145",
+        "content_id": "5516",
+        "dom_id": "step-20145",
+        "selector": "#step-20145",
+        "step_anchor": "step-5",
+        "title": "Finding the Matrix of a Linear Transformation Relative to a Basis Using a Change-of-Coordinates Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "864",
+            "name": "Inverses of 2x2 Matrices",
+            "href": "/topics/864"
+          },
+          {
+            "topic_id": "1196",
+            "name": "Multiplying Matrices",
+            "href": "/topics/1196"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "38096",
+        "dom_id": "question-38096",
+        "selector": "#question-38096",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "38356",
+        "dom_id": "question-38356",
+        "selector": "#question-38356",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20147",
+        "content_id": "5517",
+        "dom_id": "step-20147",
+        "selector": "#step-20147",
+        "step_anchor": "step-8",
+        "title": "Finding the Matrix of a Linear Transformation Relative to the Standard Basis",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "38362",
+        "dom_id": "question-38362",
+        "selector": "#question-38362",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "38363",
+        "dom_id": "question-38363",
+        "selector": "#question-38363",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20146",
+        "content_id": "3586",
+        "dom_id": "step-20146",
+        "selector": "#step-20146",
+        "step_anchor": "step-11",
+        "title": "The Expanded Form of the Change of Basis",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "21621",
+        "content_id": "5897",
+        "dom_id": "step-21621",
+        "selector": "#step-21621",
+        "step_anchor": "step-12",
+        "title": "Finding the Matrix of a Linear Transformation Relative to a Given Basis",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "38804",
+        "dom_id": "question-38804",
+        "selector": "#question-38804",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "38761",
+        "dom_id": "question-38761",
+        "selector": "#question-38761",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-20144",
+        "filename": "01-step-20144.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-31802",
+        "filename": "02-step-31802.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-38479",
+        "filename": "03-question-38479.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-38360",
+        "filename": "04-question-38360.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-20145",
+        "filename": "05-step-20145.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-38096",
+        "filename": "06-question-38096.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-38356",
+        "filename": "07-question-38356.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-20147",
+        "filename": "08-step-20147.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-38362",
+        "filename": "09-question-38362.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-38363",
+        "filename": "10-question-38363.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-20146",
+        "filename": "11-step-20146.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-21621",
+        "filename": "12-step-21621.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-38804",
+        "filename": "13-question-38804.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-38761",
+        "filename": "14-question-38761.png"
+      }
+    ]
+  }
+}

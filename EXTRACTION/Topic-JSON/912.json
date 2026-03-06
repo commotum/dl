@@ -1,0 +1,370 @@
+{
+  "schema_version": 1,
+  "topic_id": "912",
+  "topic_title": "The Newton-Raphson Method",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/912.html",
+  "source_url": "https://mathacademy.com/topics/912",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "593950",
+        "dom_id": "sectionLink-593950",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-593950"
+      },
+      {
+        "index": 2,
+        "step_id": "593951",
+        "dom_id": "sectionLink-593951",
+        "name": "",
+        "title": "Newton's Method",
+        "selector": "#sectionLink-593951"
+      },
+      {
+        "index": 3,
+        "step_id": "593952",
+        "dom_id": "sectionLink-593952",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-593952"
+      },
+      {
+        "index": 4,
+        "step_id": "593953",
+        "dom_id": "sectionLink-593953",
+        "name": "",
+        "title": "Computing One Newton-Raphson Iteration",
+        "selector": "#sectionLink-593953"
+      },
+      {
+        "index": 5,
+        "step_id": "593957",
+        "dom_id": "sectionLink-593957",
+        "name": "",
+        "title": "Computing Two Newton-Raphson Iterations",
+        "selector": "#sectionLink-593957"
+      },
+      {
+        "index": 6,
+        "step_id": "593960",
+        "dom_id": "sectionLink-593960",
+        "name": "",
+        "title": "Finding a Function's Root Using the Newton-Raphson Method",
+        "selector": "#sectionLink-593960"
+      },
+      {
+        "index": 7,
+        "step_id": "593963",
+        "dom_id": "sectionLink-593963",
+        "name": "",
+        "title": "Limitations of Newton\u2019s Method",
+        "selector": "#sectionLink-593963"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "621",
+        "name": "Approximating Functions Using Local Linearity and Linearization",
+        "href": "/topics/approximating-functions-using-local-linearity-and-linearization-621"
+      },
+      {
+        "topic_id": "1226",
+        "name": "Recursive Sequences",
+        "href": "/topics/recursive-sequences-1226"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "593950",
+        "content_id": "7535",
+        "dom_id": "step-593950",
+        "selector": "#step-593950",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "593951",
+        "content_id": "13225",
+        "dom_id": "step-593951",
+        "selector": "#step-593951",
+        "step_anchor": "step-2",
+        "title": "Newton's Method",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "593952",
+        "content_id": "12764",
+        "dom_id": "step-593952",
+        "selector": "#step-593952",
+        "step_anchor": "step-3",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "593953",
+        "content_id": "12154",
+        "dom_id": "step-593953",
+        "selector": "#step-593953",
+        "step_anchor": "step-4",
+        "title": "Computing One Newton-Raphson Iteration",
+        "key_prerequisites": [
+          {
+            "topic_id": "621",
+            "name": "Approximating Functions Using Local Linearity and Linearization",
+            "href": "/topics/621"
+          },
+          {
+            "topic_id": "1115",
+            "name": "Selecting Procedures for Calculating Derivatives",
+            "href": "/topics/1115"
+          },
+          {
+            "topic_id": "1226",
+            "name": "Recursive Sequences",
+            "href": "/topics/1226"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "255853",
+        "dom_id": "question-255853",
+        "selector": "#question-255853",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "256518",
+        "dom_id": "question-256518",
+        "selector": "#question-256518",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "256514",
+        "dom_id": "question-256514",
+        "selector": "#question-256514",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "593957",
+        "content_id": "12155",
+        "dom_id": "step-593957",
+        "selector": "#step-593957",
+        "step_anchor": "step-8",
+        "title": "Computing Two Newton-Raphson Iterations",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "255771",
+        "dom_id": "question-255771",
+        "selector": "#question-255771",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "255772",
+        "dom_id": "question-255772",
+        "selector": "#question-255772",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "593960",
+        "content_id": "12156",
+        "dom_id": "step-593960",
+        "selector": "#step-593960",
+        "step_anchor": "step-11",
+        "title": "Finding a Function's Root Using the Newton-Raphson Method",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "255829",
+        "dom_id": "question-255829",
+        "selector": "#question-255829",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "256616",
+        "dom_id": "question-256616",
+        "selector": "#question-256616",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "593963",
+        "content_id": "13124",
+        "dom_id": "step-593963",
+        "selector": "#step-593963",
+        "step_anchor": "step-14",
+        "title": "Limitations of Newton\u2019s Method",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-593950",
+        "filename": "01-step-593950.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-593951",
+        "filename": "02-step-593951.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-593952",
+        "filename": "03-step-593952.png"
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "selector": "#step-593953",
+        "filename": "04-step-593953.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-255853",
+        "filename": "05-question-255853.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-256518",
+        "filename": "06-question-256518.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-256514",
+        "filename": "07-question-256514.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-593957",
+        "filename": "08-step-593957.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-255771",
+        "filename": "09-question-255771.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-255772",
+        "filename": "10-question-255772.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-593960",
+        "filename": "11-step-593960.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-255829",
+        "filename": "12-question-255829.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-256616",
+        "filename": "13-question-256616.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-593963",
+        "filename": "14-step-593963.png"
+      }
+    ]
+  }
+}

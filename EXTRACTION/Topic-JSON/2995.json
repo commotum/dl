@@ -1,0 +1,395 @@
+{
+  "schema_version": 1,
+  "topic_id": "2995",
+  "topic_title": "Introduction to Hypothesis Testing",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2995.html",
+  "source_url": "https://mathacademy.com/topics/2995",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "228178",
+        "dom_id": "sectionLink-228178",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-228178"
+      },
+      {
+        "index": 2,
+        "step_id": "228179",
+        "dom_id": "sectionLink-228179",
+        "name": "",
+        "title": "Understanding Hypothesis Tests",
+        "selector": "#sectionLink-228179"
+      },
+      {
+        "index": 3,
+        "step_id": "228180",
+        "dom_id": "sectionLink-228180",
+        "name": "",
+        "title": "Identifying Null and Alternative Hypothesis",
+        "selector": "#sectionLink-228180"
+      },
+      {
+        "index": 4,
+        "step_id": "228183",
+        "dom_id": "sectionLink-228183",
+        "name": "",
+        "title": "Carrying Out a Hypothesis Test",
+        "selector": "#sectionLink-228183"
+      },
+      {
+        "index": 5,
+        "step_id": "228184",
+        "dom_id": "sectionLink-228184",
+        "name": "",
+        "title": "Identifying the Significance Level and Test Statistic",
+        "selector": "#sectionLink-228184"
+      },
+      {
+        "index": 6,
+        "step_id": "228187",
+        "dom_id": "sectionLink-228187",
+        "name": "",
+        "title": "Conducting Left-Tailed Tests",
+        "selector": "#sectionLink-228187"
+      },
+      {
+        "index": 7,
+        "step_id": "228191",
+        "dom_id": "sectionLink-228191",
+        "name": "",
+        "title": "Conducting Right-Tailed Tests",
+        "selector": "#sectionLink-228191"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1395",
+        "name": "Modeling With the Binomial Distribution",
+        "href": "/topics/modeling-with-the-binomial-distribution-1395"
+      },
+      {
+        "topic_id": "3270",
+        "name": "The CDF of the Binomial Distribution",
+        "href": "/topics/the-cdf-of-the-binomial-distribution-3270"
+      },
+      {
+        "topic_id": "3864",
+        "name": "Sampling Distributions",
+        "href": "/topics/sampling-distributions-3864"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "228178",
+        "content_id": "7021",
+        "dom_id": "step-228178",
+        "selector": "#step-228178",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "228179",
+        "content_id": "10860",
+        "dom_id": "step-228179",
+        "selector": "#step-228179",
+        "step_anchor": "step-2",
+        "title": "Understanding Hypothesis Tests",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "228180",
+        "content_id": "11125",
+        "dom_id": "step-228180",
+        "selector": "#step-228180",
+        "step_anchor": "step-3",
+        "title": "Identifying Null and Alternative Hypothesis",
+        "key_prerequisites": [
+          {
+            "topic_id": "3864",
+            "name": "Sampling Distributions",
+            "href": "/topics/3864"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "224403",
+        "dom_id": "question-224403",
+        "selector": "#question-224403",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "224404",
+        "dom_id": "question-224404",
+        "selector": "#question-224404",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "228183",
+        "content_id": "9444",
+        "dom_id": "step-228183",
+        "selector": "#step-228183",
+        "step_anchor": "step-6",
+        "title": "Carrying Out a Hypothesis Test",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "228184",
+        "content_id": "15051",
+        "dom_id": "step-228184",
+        "selector": "#step-228184",
+        "step_anchor": "step-7",
+        "title": "Identifying the Significance Level and Test Statistic",
+        "key_prerequisites": [
+          {
+            "topic_id": "1395",
+            "name": "Modeling With the Binomial Distribution",
+            "href": "/topics/1395"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "224414",
+        "dom_id": "question-224414",
+        "selector": "#question-224414",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "224907",
+        "dom_id": "question-224907",
+        "selector": "#question-224907",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "228187",
+        "content_id": "15047",
+        "dom_id": "step-228187",
+        "selector": "#step-228187",
+        "step_anchor": "step-10",
+        "title": "Conducting Left-Tailed Tests",
+        "key_prerequisites": [
+          {
+            "topic_id": "3270",
+            "name": "The CDF of the Binomial Distribution",
+            "href": "/topics/3270"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "224417",
+        "dom_id": "question-224417",
+        "selector": "#question-224417",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "224441",
+        "dom_id": "question-224441",
+        "selector": "#question-224441",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "228191",
+        "content_id": "15048",
+        "dom_id": "step-228191",
+        "selector": "#step-228191",
+        "step_anchor": "step-13",
+        "title": "Conducting Right-Tailed Tests",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "224440",
+        "dom_id": "question-224440",
+        "selector": "#question-224440",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "224421",
+        "dom_id": "question-224421",
+        "selector": "#question-224421",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-228178",
+        "filename": "01-step-228178.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-228179",
+        "filename": "02-step-228179.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-228180",
+        "filename": "03-step-228180.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-224403",
+        "filename": "04-question-224403.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-224404",
+        "filename": "05-question-224404.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-228183",
+        "filename": "06-step-228183.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-228184",
+        "filename": "07-step-228184.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-224414",
+        "filename": "08-question-224414.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-224907",
+        "filename": "09-question-224907.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-228187",
+        "filename": "10-step-228187.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-224417",
+        "filename": "11-question-224417.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-224441",
+        "filename": "12-question-224441.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-228191",
+        "filename": "13-step-228191.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-224440",
+        "filename": "14-question-224440.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-224421",
+        "filename": "15-question-224421.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,325 @@
+{
+  "schema_version": 1,
+  "topic_id": "3844",
+  "topic_title": "Identifying Monotonic Sequences Using Differentiation",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3844.html",
+  "source_url": "https://mathacademy.com/topics/3844",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "15051",
+        "dom_id": "sectionLink-15051",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-15051"
+      },
+      {
+        "index": 2,
+        "step_id": "38069",
+        "dom_id": "sectionLink-38069",
+        "name": "",
+        "title": "Determining Whether a Sequence Is Monotonic Using Derivatives",
+        "selector": "#sectionLink-38069"
+      },
+      {
+        "index": 3,
+        "step_id": "37729",
+        "dom_id": "sectionLink-37729",
+        "name": "",
+        "title": "Determining Whether a Quadratic Sequence Is Increasing or Decreasing",
+        "selector": "#sectionLink-37729"
+      },
+      {
+        "index": 4,
+        "step_id": "2297",
+        "dom_id": "sectionLink-2297",
+        "name": "",
+        "title": "Determining Whether a Polynomial Sequence Is Increasing or Decreasing",
+        "selector": "#sectionLink-2297"
+      },
+      {
+        "index": 5,
+        "step_id": "37691",
+        "dom_id": "sectionLink-37691",
+        "name": "",
+        "title": "Determining Whether a Rational Sequence Is Increasing or Decreasing",
+        "selector": "#sectionLink-37691"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1096",
+        "name": "Monotonic Sequences",
+        "href": "/topics/monotonic-sequences-1096"
+      },
+      {
+        "topic_id": "1359",
+        "name": "Determining Intervals on Which a Function Is Increasing or Decreasing",
+        "href": "/topics/determining-intervals-on-which-a-function-is-increasing-or-decreasing-1359"
+      },
+      {
+        "topic_id": "2982",
+        "name": "Solving Inequalities Involving Positive and Negative Factors",
+        "href": "/topics/solving-inequalities-involving-positive-and-negative-factors-2982"
+      },
+      {
+        "topic_id": "3355",
+        "name": "Solving Rational Inequalities",
+        "href": "/topics/solving-rational-inequalities-3355"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "15051",
+        "content_id": "2831",
+        "dom_id": "step-15051",
+        "selector": "#step-15051",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "38069",
+        "content_id": "6280",
+        "dom_id": "step-38069",
+        "selector": "#step-38069",
+        "step_anchor": "step-2",
+        "title": "Determining Whether a Sequence Is Monotonic Using Derivatives",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "37729",
+        "content_id": "10015",
+        "dom_id": "step-37729",
+        "selector": "#step-37729",
+        "step_anchor": "step-3",
+        "title": "Determining Whether a Quadratic Sequence Is Increasing or Decreasing",
+        "key_prerequisites": [
+          {
+            "topic_id": "1096",
+            "name": "Monotonic Sequences",
+            "href": "/topics/1096"
+          },
+          {
+            "topic_id": "1359",
+            "name": "Determining Intervals on Which a Function Is Increasing or Decreasing",
+            "href": "/topics/1359"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "123820",
+        "dom_id": "question-123820",
+        "selector": "#question-123820",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "123813",
+        "dom_id": "question-123813",
+        "selector": "#question-123813",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "2297",
+        "content_id": "659",
+        "dom_id": "step-2297",
+        "selector": "#step-2297",
+        "step_anchor": "step-6",
+        "title": "Determining Whether a Polynomial Sequence Is Increasing or Decreasing",
+        "key_prerequisites": [
+          {
+            "topic_id": "2147",
+            "name": "Solving Polynomial Inequalities Using a Graphical Method",
+            "href": "/topics/2147"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "81057",
+        "dom_id": "question-81057",
+        "selector": "#question-81057",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "143175",
+        "dom_id": "question-143175",
+        "selector": "#question-143175",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "37691",
+        "content_id": "10005",
+        "dom_id": "step-37691",
+        "selector": "#step-37691",
+        "step_anchor": "step-9",
+        "title": "Determining Whether a Rational Sequence Is Increasing or Decreasing",
+        "key_prerequisites": [
+          {
+            "topic_id": "1110",
+            "name": "The Quotient Rule for Differentiation",
+            "href": "/topics/1110"
+          },
+          {
+            "topic_id": "2982",
+            "name": "Solving Inequalities Involving Positive and Negative Factors",
+            "href": "/topics/2982"
+          },
+          {
+            "topic_id": "3355",
+            "name": "Solving Rational Inequalities",
+            "href": "/topics/3355"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "80989",
+        "dom_id": "question-80989",
+        "selector": "#question-80989",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "143222",
+        "dom_id": "question-143222",
+        "selector": "#question-143222",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-15051",
+        "filename": "01-step-15051.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-38069",
+        "filename": "02-step-38069.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-37729",
+        "filename": "03-step-37729.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-123820",
+        "filename": "04-question-123820.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-123813",
+        "filename": "05-question-123813.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-2297",
+        "filename": "06-step-2297.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-81057",
+        "filename": "07-question-81057.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-143175",
+        "filename": "08-question-143175.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-37691",
+        "filename": "09-step-37691.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-80989",
+        "filename": "10-question-80989.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-143222",
+        "filename": "11-question-143222.png"
+      }
+    ]
+  }
+}

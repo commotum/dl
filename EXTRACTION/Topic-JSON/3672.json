@@ -1,0 +1,380 @@
+{
+  "schema_version": 1,
+  "topic_id": "3672",
+  "topic_title": "Exponential Growth and Decay Models With First-Order ODEs: Calculating Unknown Times and Initial Values",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3672.html",
+  "source_url": "https://mathacademy.com/topics/3672",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "614741",
+        "dom_id": "sectionLink-614741",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-614741"
+      },
+      {
+        "index": 2,
+        "step_id": "614742",
+        "dom_id": "sectionLink-614742",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-614742"
+      },
+      {
+        "index": 3,
+        "step_id": "614743",
+        "dom_id": "sectionLink-614743",
+        "name": "",
+        "title": "Computing an Unknown Time Given an Exponential Growth Model",
+        "selector": "#sectionLink-614743"
+      },
+      {
+        "index": 4,
+        "step_id": "614747",
+        "dom_id": "sectionLink-614747",
+        "name": "",
+        "title": "Computing an Unknown Time Given an Exponential Decay Model",
+        "selector": "#sectionLink-614747"
+      },
+      {
+        "index": 5,
+        "step_id": "614750",
+        "dom_id": "sectionLink-614750",
+        "name": "",
+        "title": "Computing an Unknown Time Given an Exponential Growth or Decay Model With an Unknown Rate",
+        "selector": "#sectionLink-614750"
+      },
+      {
+        "index": 6,
+        "step_id": "614753",
+        "dom_id": "sectionLink-614753",
+        "name": "",
+        "title": "Calculating an Unknown Initial Value",
+        "selector": "#sectionLink-614753"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "876",
+        "name": "Exponential Growth and Decay Models With First-Order ODEs",
+        "href": "/topics/exponential-growth-and-decay-models-with-first-order-odes-876"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "614741",
+        "content_id": "14658",
+        "dom_id": "step-614741",
+        "selector": "#step-614741",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "614742",
+        "content_id": "14907",
+        "dom_id": "step-614742",
+        "selector": "#step-614742",
+        "step_anchor": "step-2",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "614743",
+        "content_id": "21814",
+        "dom_id": "step-614743",
+        "selector": "#step-614743",
+        "step_anchor": "step-3",
+        "title": "Computing an Unknown Time Given an Exponential Growth Model",
+        "key_prerequisites": [
+          {
+            "topic_id": "876",
+            "name": "Exponential Growth and Decay Models With First-Order ODEs",
+            "href": "/topics/876"
+          },
+          {
+            "topic_id": "2464",
+            "name": "Solving Exponential Growth Problems",
+            "href": "/topics/2464"
+          },
+          {
+            "topic_id": "2560",
+            "name": "Applying Percentage Increases",
+            "href": "/topics/2560"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "339269",
+        "dom_id": "question-339269",
+        "selector": "#question-339269",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "339289",
+        "dom_id": "question-339289",
+        "selector": "#question-339289",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "339294",
+        "dom_id": "question-339294",
+        "selector": "#question-339294",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "614747",
+        "content_id": "21815",
+        "dom_id": "step-614747",
+        "selector": "#step-614747",
+        "step_anchor": "step-7",
+        "title": "Computing an Unknown Time Given an Exponential Decay Model",
+        "key_prerequisites": [
+          {
+            "topic_id": "2466",
+            "name": "Solving Exponential Decay Problems",
+            "href": "/topics/2466"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "339309",
+        "dom_id": "question-339309",
+        "selector": "#question-339309",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "339321",
+        "dom_id": "question-339321",
+        "selector": "#question-339321",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "614750",
+        "content_id": "21816",
+        "dom_id": "step-614750",
+        "selector": "#step-614750",
+        "step_anchor": "step-10",
+        "title": "Computing an Unknown Time Given an Exponential Growth or Decay Model With an Unknown Rate",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "339217",
+        "dom_id": "question-339217",
+        "selector": "#question-339217",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "339225",
+        "dom_id": "question-339225",
+        "selector": "#question-339225",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "614753",
+        "content_id": "21817",
+        "dom_id": "step-614753",
+        "selector": "#step-614753",
+        "step_anchor": "step-13",
+        "title": "Calculating an Unknown Initial Value",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "339244",
+        "dom_id": "question-339244",
+        "selector": "#question-339244",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "339241",
+        "dom_id": "question-339241",
+        "selector": "#question-339241",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-614741",
+        "filename": "01-step-614741.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-614742",
+        "filename": "02-step-614742.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-614743",
+        "filename": "03-step-614743.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-339269",
+        "filename": "04-question-339269.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-339289",
+        "filename": "05-question-339289.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-339294",
+        "filename": "06-question-339294.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-614747",
+        "filename": "07-step-614747.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-339309",
+        "filename": "08-question-339309.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-339321",
+        "filename": "09-question-339321.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-614750",
+        "filename": "10-step-614750.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-339217",
+        "filename": "11-question-339217.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-339225",
+        "filename": "12-question-339225.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-614753",
+        "filename": "13-step-614753.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-339244",
+        "filename": "14-question-339244.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-339241",
+        "filename": "15-question-339241.png"
+      }
+    ]
+  }
+}

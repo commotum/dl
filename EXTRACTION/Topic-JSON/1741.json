@@ -1,0 +1,441 @@
+{
+  "schema_version": 1,
+  "topic_id": "1741",
+  "topic_title": "Limits of Vector-Valued Functions",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1741.html",
+  "source_url": "https://mathacademy.com/topics/1741",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "8068",
+        "dom_id": "sectionLink-8068",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-8068"
+      },
+      {
+        "index": 2,
+        "step_id": "8180",
+        "dom_id": "sectionLink-8180",
+        "name": "",
+        "title": "Finding the Limit of a Vector Function",
+        "selector": "#sectionLink-8180"
+      },
+      {
+        "index": 3,
+        "step_id": "8069",
+        "dom_id": "sectionLink-8069",
+        "name": "",
+        "title": "Basic Properties of Limits of Vector Functions",
+        "selector": "#sectionLink-8069"
+      },
+      {
+        "index": 4,
+        "step_id": "8183",
+        "dom_id": "sectionLink-8183",
+        "name": "",
+        "title": "Finding the Limit of the Magnitude of a Vector Function",
+        "selector": "#sectionLink-8183"
+      },
+      {
+        "index": 5,
+        "step_id": "8184",
+        "dom_id": "sectionLink-8184",
+        "name": "",
+        "title": "Finding the Limit of a Sum of Vector Functions",
+        "selector": "#sectionLink-8184"
+      },
+      {
+        "index": 6,
+        "step_id": "8182",
+        "dom_id": "sectionLink-8182",
+        "name": "",
+        "title": "Limits of Vector Products",
+        "selector": "#sectionLink-8182"
+      },
+      {
+        "index": 7,
+        "step_id": "8187",
+        "dom_id": "sectionLink-8187",
+        "name": "",
+        "title": "Finding the Limit of a Product of Vector Functions",
+        "selector": "#sectionLink-8187"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "177",
+        "name": "Calculating the Dot Product Using Components",
+        "href": "/topics/calculating-the-dot-product-using-components-177"
+      },
+      {
+        "topic_id": "245",
+        "name": "Calculating the Cross Product Using Determinants",
+        "href": "/topics/calculating-the-cross-product-using-determinants-245"
+      },
+      {
+        "topic_id": "463",
+        "name": "L'Hopital's Rule",
+        "href": "/topics/lhopitals-rule-463"
+      },
+      {
+        "topic_id": "606",
+        "name": "Special Limits Involving Sine",
+        "href": "/topics/special-limits-involving-sine-606"
+      },
+      {
+        "topic_id": "1737",
+        "name": "The Domain of a Vector-Valued Function",
+        "href": "/topics/the-domain-of-a-vector-valued-function-1737"
+      },
+      {
+        "topic_id": "2610",
+        "name": "Limits Involving the Exponential Function",
+        "href": "/topics/limits-involving-the-exponential-function-2610"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "8068",
+        "content_id": "2104",
+        "dom_id": "step-8068",
+        "selector": "#step-8068",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "8180",
+        "content_id": "2394",
+        "dom_id": "step-8180",
+        "selector": "#step-8180",
+        "step_anchor": "step-2",
+        "title": "Finding the Limit of a Vector Function",
+        "key_prerequisites": [
+          {
+            "topic_id": "463",
+            "name": "L'Hopital's Rule",
+            "href": "/topics/463"
+          },
+          {
+            "topic_id": "606",
+            "name": "Special Limits Involving Sine",
+            "href": "/topics/606"
+          },
+          {
+            "topic_id": "1737",
+            "name": "The Domain of a Vector-Valued Function",
+            "href": "/topics/1737"
+          },
+          {
+            "topic_id": "1813",
+            "name": "Calculating Limits of Rational Functions by Factoring",
+            "href": "/topics/1813"
+          },
+          {
+            "topic_id": "2610",
+            "name": "Limits Involving the Exponential Function",
+            "href": "/topics/2610"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "32410",
+        "dom_id": "question-32410",
+        "selector": "#question-32410",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "32267",
+        "dom_id": "question-32267",
+        "selector": "#question-32267",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "8069",
+        "content_id": "2105",
+        "dom_id": "step-8069",
+        "selector": "#step-8069",
+        "step_anchor": "step-5",
+        "title": "Basic Properties of Limits of Vector Functions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "8183",
+        "content_id": "2395",
+        "dom_id": "step-8183",
+        "selector": "#step-8183",
+        "step_anchor": "step-6",
+        "title": "Finding the Limit of the Magnitude of a Vector Function",
+        "key_prerequisites": [
+          {
+            "topic_id": "1277",
+            "name": "Calculating the Magnitude of Cartesian Vectors in 3D",
+            "href": "/topics/1277"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "32268",
+        "dom_id": "question-32268",
+        "selector": "#question-32268",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "32411",
+        "dom_id": "question-32411",
+        "selector": "#question-32411",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "8184",
+        "content_id": "2396",
+        "dom_id": "step-8184",
+        "selector": "#step-8184",
+        "step_anchor": "step-9",
+        "title": "Finding the Limit of a Sum of Vector Functions",
+        "key_prerequisites": [
+          {
+            "topic_id": "175",
+            "name": "Addition and Scalar Multiplication of Cartesian Vectors in 3D",
+            "href": "/topics/175"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "32973",
+        "dom_id": "question-32973",
+        "selector": "#question-32973",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "32270",
+        "dom_id": "question-32270",
+        "selector": "#question-32270",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "8182",
+        "content_id": "2109",
+        "dom_id": "step-8182",
+        "selector": "#step-8182",
+        "step_anchor": "step-12",
+        "title": "Limits of Vector Products",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "8187",
+        "content_id": "2397",
+        "dom_id": "step-8187",
+        "selector": "#step-8187",
+        "step_anchor": "step-13",
+        "title": "Finding the Limit of a Product of Vector Functions",
+        "key_prerequisites": [
+          {
+            "topic_id": "177",
+            "name": "Calculating the Dot Product Using Components",
+            "href": "/topics/177"
+          },
+          {
+            "topic_id": "245",
+            "name": "Calculating the Cross Product Using Determinants",
+            "href": "/topics/245"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "32940",
+        "dom_id": "question-32940",
+        "selector": "#question-32940",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "32274",
+        "dom_id": "question-32274",
+        "selector": "#question-32274",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-8068",
+        "filename": "01-step-8068.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-8180",
+        "filename": "02-step-8180.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-32410",
+        "filename": "03-question-32410.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-32267",
+        "filename": "04-question-32267.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-8069",
+        "filename": "05-step-8069.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-8183",
+        "filename": "06-step-8183.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-32268",
+        "filename": "07-question-32268.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-32411",
+        "filename": "08-question-32411.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-8184",
+        "filename": "09-step-8184.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-32973",
+        "filename": "10-question-32973.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-32270",
+        "filename": "11-question-32270.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-8182",
+        "filename": "12-step-8182.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-8187",
+        "filename": "13-step-8187.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-32940",
+        "filename": "14-question-32940.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-32274",
+        "filename": "15-question-32274.png"
+      }
+    ]
+  }
+}

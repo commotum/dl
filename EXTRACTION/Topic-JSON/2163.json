@@ -1,0 +1,378 @@
+{
+  "schema_version": 1,
+  "topic_id": "2163",
+  "topic_title": "Cumulative Distribution Functions for Continuous Random Variables",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2163.html",
+  "source_url": "https://mathacademy.com/topics/2163",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "132590",
+        "dom_id": "sectionLink-132590",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-132590"
+      },
+      {
+        "index": 2,
+        "step_id": "132591",
+        "dom_id": "sectionLink-132591",
+        "name": "",
+        "title": "Finding a CDF Given a PDF With a Lower Bound",
+        "selector": "#sectionLink-132591"
+      },
+      {
+        "index": 3,
+        "step_id": "132594",
+        "dom_id": "sectionLink-132594",
+        "name": "",
+        "title": "Computing a CDF Given a PDF That\u2019s Nonzero Over All Real Numbers",
+        "selector": "#sectionLink-132594"
+      },
+      {
+        "index": 4,
+        "step_id": "132597",
+        "dom_id": "sectionLink-132597",
+        "name": "",
+        "title": "Finding a CDF Given a PDF With Lower and Upper Bounds",
+        "selector": "#sectionLink-132597"
+      },
+      {
+        "index": 5,
+        "step_id": "132598",
+        "dom_id": "sectionLink-132598",
+        "name": "",
+        "title": "Finding a CDF Given a PDF With Lower and Upper Bounds",
+        "selector": "#sectionLink-132598"
+      },
+      {
+        "index": 6,
+        "step_id": "132601",
+        "dom_id": "sectionLink-132601",
+        "name": "",
+        "title": "Using a CDF to Compute a Probability Over an Interval",
+        "selector": "#sectionLink-132601"
+      },
+      {
+        "index": 7,
+        "step_id": "132602",
+        "dom_id": "sectionLink-132602",
+        "name": "",
+        "title": "Computing a Probability Over an Interval Using a CDF",
+        "selector": "#sectionLink-132602"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2024",
+        "name": "Cumulative Distribution Functions for Discrete Random Variables",
+        "href": "/topics/cumulative-distribution-functions-for-discrete-random-variables-2024"
+      },
+      {
+        "topic_id": "4100",
+        "name": "Continuous Random Variables Over Infinite Domains",
+        "href": "/topics/continuous-random-variables-over-infinite-domains-4100"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "132590",
+        "content_id": "8364",
+        "dom_id": "step-132590",
+        "selector": "#step-132590",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "132591",
+        "content_id": "13362",
+        "dom_id": "step-132591",
+        "selector": "#step-132591",
+        "step_anchor": "step-2",
+        "title": "Finding a CDF Given a PDF With a Lower Bound",
+        "key_prerequisites": [
+          {
+            "topic_id": "1347",
+            "name": "Probability Density Functions of Continuous Random Variables",
+            "href": "/topics/1347"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "89137",
+        "dom_id": "question-89137",
+        "selector": "#question-89137",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "210758",
+        "dom_id": "question-210758",
+        "selector": "#question-210758",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "132594",
+        "content_id": "13363",
+        "dom_id": "step-132594",
+        "selector": "#step-132594",
+        "step_anchor": "step-5",
+        "title": "Computing a CDF Given a PDF That\u2019s Nonzero Over All Real Numbers",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "89726",
+        "dom_id": "question-89726",
+        "selector": "#question-89726",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "210766",
+        "dom_id": "question-210766",
+        "selector": "#question-210766",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "132597",
+        "content_id": "8365",
+        "dom_id": "step-132597",
+        "selector": "#step-132597",
+        "step_anchor": "step-8",
+        "title": "Finding a CDF Given a PDF With Lower and Upper Bounds",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "132598",
+        "content_id": "13364",
+        "dom_id": "step-132598",
+        "selector": "#step-132598",
+        "step_anchor": "step-9",
+        "title": "Finding a CDF Given a PDF With Lower and Upper Bounds",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "185532",
+        "dom_id": "question-185532",
+        "selector": "#question-185532",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "210782",
+        "dom_id": "question-210782",
+        "selector": "#question-210782",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "132601",
+        "content_id": "8366",
+        "dom_id": "step-132601",
+        "selector": "#step-132601",
+        "step_anchor": "step-12",
+        "title": "Using a CDF to Compute a Probability Over an Interval",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "132602",
+        "content_id": "13365",
+        "dom_id": "step-132602",
+        "selector": "#step-132602",
+        "step_anchor": "step-13",
+        "title": "Computing a Probability Over an Interval Using a CDF",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "89139",
+        "dom_id": "question-89139",
+        "selector": "#question-89139",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "89612",
+        "dom_id": "question-89612",
+        "selector": "#question-89612",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-132590",
+        "filename": "01-step-132590.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-132591",
+        "filename": "02-step-132591.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-89137",
+        "filename": "03-question-89137.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-210758",
+        "filename": "04-question-210758.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-132594",
+        "filename": "05-step-132594.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-89726",
+        "filename": "06-question-89726.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-210766",
+        "filename": "07-question-210766.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-132597",
+        "filename": "08-step-132597.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-132598",
+        "filename": "09-step-132598.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-185532",
+        "filename": "10-question-185532.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-210782",
+        "filename": "11-question-210782.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-132601",
+        "filename": "12-step-132601.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-132602",
+        "filename": "13-step-132602.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-89139",
+        "filename": "14-question-89139.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-89612",
+        "filename": "15-question-89612.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,357 @@
+{
+  "schema_version": 1,
+  "topic_id": "1375",
+  "topic_title": "The Eigenvalues and Eigenvectors of a 2x2 Matrix",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1375.html",
+  "source_url": "https://mathacademy.com/topics/1375",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "20075",
+        "dom_id": "sectionLink-20075",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-20075"
+      },
+      {
+        "index": 2,
+        "step_id": "20077",
+        "dom_id": "sectionLink-20077",
+        "name": "",
+        "title": "Finding the Eigenvalue that Corresponds to a Given Eigenvector",
+        "selector": "#sectionLink-20077"
+      },
+      {
+        "index": 3,
+        "step_id": "23514",
+        "dom_id": "sectionLink-23514",
+        "name": "",
+        "title": "The Geometric Interpretation of Eigenvalues and Eigenvectors",
+        "selector": "#sectionLink-23514"
+      },
+      {
+        "index": 4,
+        "step_id": "21410",
+        "dom_id": "sectionLink-21410",
+        "name": "",
+        "title": "Plotting the Product of a Matrix and an Eigenvector Given its Corresponding Eigenvalue",
+        "selector": "#sectionLink-21410"
+      },
+      {
+        "index": 5,
+        "step_id": "20081",
+        "dom_id": "sectionLink-20081",
+        "name": "",
+        "title": "Determining the Value of an Unknown Given an Eigenvalue and Eigenvector of a Matrix",
+        "selector": "#sectionLink-20081"
+      },
+      {
+        "index": 6,
+        "step_id": "20078",
+        "dom_id": "sectionLink-20078",
+        "name": "",
+        "title": "Identifying True Statements About Eigenvalues and Eigenvectors",
+        "selector": "#sectionLink-20078"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "866",
+        "name": "Linear Transformations of Objects in the Plane",
+        "href": "/topics/linear-transformations-of-objects-in-the-plane-866"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20075",
+        "content_id": "3557",
+        "dom_id": "step-20075",
+        "selector": "#step-20075",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20077",
+        "content_id": "5476",
+        "dom_id": "step-20077",
+        "selector": "#step-20077",
+        "step_anchor": "step-2",
+        "title": "Finding the Eigenvalue that Corresponds to a Given Eigenvector",
+        "key_prerequisites": [
+          {
+            "topic_id": "244",
+            "name": "Addition and Scalar Multiplication of Cartesian Vectors in 2D",
+            "href": "/topics/244"
+          },
+          {
+            "topic_id": "1195",
+            "name": "Multiplying a Matrix by a Column Vector",
+            "href": "/topics/1195"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "18237",
+        "dom_id": "question-18237",
+        "selector": "#question-18237",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "36791",
+        "dom_id": "question-36791",
+        "selector": "#question-36791",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "23514",
+        "content_id": "3963",
+        "dom_id": "step-23514",
+        "selector": "#step-23514",
+        "step_anchor": "step-5",
+        "title": "The Geometric Interpretation of Eigenvalues and Eigenvectors",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "21410",
+        "content_id": "5891",
+        "dom_id": "step-21410",
+        "selector": "#step-21410",
+        "step_anchor": "step-6",
+        "title": "Plotting the Product of a Matrix and an Eigenvector Given its Corresponding Eigenvalue",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "36679",
+        "dom_id": "question-36679",
+        "selector": "#question-36679",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "37091",
+        "dom_id": "question-37091",
+        "selector": "#question-37091",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20081",
+        "content_id": "5478",
+        "dom_id": "step-20081",
+        "selector": "#step-20081",
+        "step_anchor": "step-9",
+        "title": "Determining the Value of an Unknown Given an Eigenvalue and Eigenvector of a Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "343",
+            "name": "Solving Linear Equations With Variables on Both Sides",
+            "href": "/topics/343"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "18238",
+        "dom_id": "question-18238",
+        "selector": "#question-18238",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "18235",
+        "dom_id": "question-18235",
+        "selector": "#question-18235",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20078",
+        "content_id": "5477",
+        "dom_id": "step-20078",
+        "selector": "#step-20078",
+        "step_anchor": "step-12",
+        "title": "Identifying True Statements About Eigenvalues and Eigenvectors",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "37087",
+        "dom_id": "question-37087",
+        "selector": "#question-37087",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "36792",
+        "dom_id": "question-36792",
+        "selector": "#question-36792",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-20075",
+        "filename": "01-step-20075.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-20077",
+        "filename": "02-step-20077.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-18237",
+        "filename": "03-question-18237.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-36791",
+        "filename": "04-question-36791.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-23514",
+        "filename": "05-step-23514.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-21410",
+        "filename": "06-step-21410.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-36679",
+        "filename": "07-question-36679.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-37091",
+        "filename": "08-question-37091.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-20081",
+        "filename": "09-step-20081.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-18238",
+        "filename": "10-question-18238.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-18235",
+        "filename": "11-question-18235.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-20078",
+        "filename": "12-step-20078.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-37087",
+        "filename": "13-question-37087.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-36792",
+        "filename": "14-question-36792.png"
+      }
+    ]
+  }
+}

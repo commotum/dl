@@ -1,0 +1,392 @@
+{
+  "schema_version": 1,
+  "topic_id": "6386",
+  "topic_title": "Solving ODEs Using Fourier Series",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/6386.html",
+  "source_url": "https://mathacademy.com/topics/6386",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "607546",
+        "dom_id": "sectionLink-607546",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-607546"
+      },
+      {
+        "index": 2,
+        "step_id": "607547",
+        "dom_id": "sectionLink-607547",
+        "name": "",
+        "title": "Solving First Order ODEs Given the Fourier Series of the Forcing Function",
+        "selector": "#sectionLink-607547"
+      },
+      {
+        "index": 3,
+        "step_id": "607550",
+        "dom_id": "sectionLink-607550",
+        "name": "",
+        "title": "Second Order ODEs With Fourier Series",
+        "selector": "#sectionLink-607550"
+      },
+      {
+        "index": 4,
+        "step_id": "607559",
+        "dom_id": "sectionLink-607559",
+        "name": "",
+        "title": "A Worked Example of Solving a Second Order ODE",
+        "selector": "#sectionLink-607559"
+      },
+      {
+        "index": 5,
+        "step_id": "607551",
+        "dom_id": "sectionLink-607551",
+        "name": "",
+        "title": "Solving Second Order ODEs Given the Fourier Series of the Forcing Function",
+        "selector": "#sectionLink-607551"
+      },
+      {
+        "index": 6,
+        "step_id": "607555",
+        "dom_id": "sectionLink-607555",
+        "name": "",
+        "title": "Cases Where the Forcing Term Induces Resonance",
+        "selector": "#sectionLink-607555"
+      },
+      {
+        "index": 7,
+        "step_id": "607556",
+        "dom_id": "sectionLink-607556",
+        "name": "",
+        "title": "Identifying Resonant Harmonics",
+        "selector": "#sectionLink-607556"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "883",
+        "name": "Second-Order Inhomogeneous ODEs With Sinusoidal Forcing",
+        "href": "/topics/second-order-inhomogeneous-odes-with-sinusoidal-forcing-883"
+      },
+      {
+        "topic_id": "3196",
+        "name": "Fourier Sine Series",
+        "href": "/topics/fourier-sine-series-3196"
+      },
+      {
+        "topic_id": "3197",
+        "name": "Fourier Cosine Series",
+        "href": "/topics/fourier-cosine-series-3197"
+      },
+      {
+        "topic_id": "6383",
+        "name": "Differentiating and Integrating Fourier Series",
+        "href": "/topics/differentiating-and-integrating-fourier-series-6383"
+      },
+      {
+        "topic_id": "6720",
+        "name": "Resonance in Vibrating Systems",
+        "href": "/topics/resonance-in-vibrating-systems-6720"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "607546",
+        "content_id": "14711",
+        "dom_id": "step-607546",
+        "selector": "#step-607546",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "607547",
+        "content_id": "21857",
+        "dom_id": "step-607547",
+        "selector": "#step-607547",
+        "step_anchor": "step-2",
+        "title": "Solving First Order ODEs Given the Fourier Series of the Forcing Function",
+        "key_prerequisites": [
+          {
+            "topic_id": "6383",
+            "name": "Differentiating and Integrating Fourier Series",
+            "href": "/topics/6383"
+          },
+          {
+            "topic_id": "6678",
+            "name": "General Solutions of First-Order Linear ODEs",
+            "href": "/topics/6678"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "342203",
+        "dom_id": "question-342203",
+        "selector": "#question-342203",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "342229",
+        "dom_id": "question-342229",
+        "selector": "#question-342229",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "607550",
+        "content_id": "14712",
+        "dom_id": "step-607550",
+        "selector": "#step-607550",
+        "step_anchor": "step-5",
+        "title": "Second Order ODEs With Fourier Series",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "607559",
+        "content_id": "14873",
+        "dom_id": "step-607559",
+        "selector": "#step-607559",
+        "step_anchor": "step-6",
+        "title": "A Worked Example of Solving a Second Order ODE",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "607551",
+        "content_id": "21858",
+        "dom_id": "step-607551",
+        "selector": "#step-607551",
+        "step_anchor": "step-7",
+        "title": "Solving Second Order ODEs Given the Fourier Series of the Forcing Function",
+        "key_prerequisites": [
+          {
+            "topic_id": "883",
+            "name": "Second-Order Inhomogeneous ODEs With Sinusoidal Forcing",
+            "href": "/topics/883"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "342349",
+        "dom_id": "question-342349",
+        "selector": "#question-342349",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "343373",
+        "dom_id": "question-343373",
+        "selector": "#question-343373",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "342372",
+        "dom_id": "question-342372",
+        "selector": "#question-342372",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "607555",
+        "content_id": "14776",
+        "dom_id": "step-607555",
+        "selector": "#step-607555",
+        "step_anchor": "step-11",
+        "title": "Cases Where the Forcing Term Induces Resonance",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "607556",
+        "content_id": "21875",
+        "dom_id": "step-607556",
+        "selector": "#step-607556",
+        "step_anchor": "step-12",
+        "title": "Identifying Resonant Harmonics",
+        "key_prerequisites": [
+          {
+            "topic_id": "6720",
+            "name": "Resonance in Vibrating Systems",
+            "href": "/topics/6720"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "343382",
+        "dom_id": "question-343382",
+        "selector": "#question-343382",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "343903",
+        "dom_id": "question-343903",
+        "selector": "#question-343903",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-607546",
+        "filename": "01-step-607546.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-607547",
+        "filename": "02-step-607547.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-342203",
+        "filename": "03-question-342203.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-342229",
+        "filename": "04-question-342229.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-607550",
+        "filename": "05-step-607550.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-607559",
+        "filename": "06-step-607559.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-607551",
+        "filename": "07-step-607551.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-342349",
+        "filename": "08-question-342349.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-343373",
+        "filename": "09-question-343373.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-342372",
+        "filename": "10-question-342372.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-607555",
+        "filename": "11-step-607555.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-607556",
+        "filename": "12-step-607556.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-343382",
+        "filename": "13-question-343382.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-343903",
+        "filename": "14-question-343903.png"
+      }
+    ]
+  }
+}

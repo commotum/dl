@@ -1,0 +1,357 @@
+{
+  "schema_version": 1,
+  "topic_id": "703",
+  "topic_title": "Permutations",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/703.html",
+  "source_url": "https://mathacademy.com/topics/703",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "20569",
+        "dom_id": "sectionLink-20569",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-20569"
+      },
+      {
+        "index": 2,
+        "step_id": "27561",
+        "dom_id": "sectionLink-27561",
+        "name": "",
+        "title": "The General Formula for Permutations",
+        "selector": "#sectionLink-27561"
+      },
+      {
+        "index": 3,
+        "step_id": "27676",
+        "dom_id": "sectionLink-27676",
+        "name": "",
+        "title": "Calculating a Permutation",
+        "selector": "#sectionLink-27676"
+      },
+      {
+        "index": 4,
+        "step_id": "20573",
+        "dom_id": "sectionLink-20573",
+        "name": "",
+        "title": "Calculating a Permutation Given Using Alternate Notation",
+        "selector": "#sectionLink-20573"
+      },
+      {
+        "index": 5,
+        "step_id": "20570",
+        "dom_id": "sectionLink-20570",
+        "name": "",
+        "title": "Calculating the Number of Permutations of Objects Chosen From a Group Fewer Than Ten",
+        "selector": "#sectionLink-20570"
+      },
+      {
+        "index": 6,
+        "step_id": "20571",
+        "dom_id": "sectionLink-20571",
+        "name": "",
+        "title": "Calculating the Number of Permutations of Objects Chosen From a Group of at Least Ten",
+        "selector": "#sectionLink-20571"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "470",
+        "name": "Introduction to Functions",
+        "href": "/topics/introduction-to-functions-470"
+      },
+      {
+        "topic_id": "775",
+        "name": "Ordering Objects",
+        "href": "/topics/ordering-objects-775"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20569",
+        "content_id": "3682",
+        "dom_id": "step-20569",
+        "selector": "#step-20569",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "27561",
+        "content_id": "4477",
+        "dom_id": "step-27561",
+        "selector": "#step-27561",
+        "step_anchor": "step-2",
+        "title": "The General Formula for Permutations",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "27676",
+        "content_id": "7457",
+        "dom_id": "step-27676",
+        "selector": "#step-27676",
+        "step_anchor": "step-3",
+        "title": "Calculating a Permutation",
+        "key_prerequisites": [
+          {
+            "topic_id": "774",
+            "name": "Factorials",
+            "href": "/topics/774"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "5562",
+        "dom_id": "question-5562",
+        "selector": "#question-5562",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "1793",
+        "dom_id": "question-1793",
+        "selector": "#question-1793",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20573",
+        "content_id": "5675",
+        "dom_id": "step-20573",
+        "selector": "#step-20573",
+        "step_anchor": "step-6",
+        "title": "Calculating a Permutation Given Using Alternate Notation",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "1783",
+        "dom_id": "question-1783",
+        "selector": "#question-1783",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "5560",
+        "dom_id": "question-5560",
+        "selector": "#question-5560",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20570",
+        "content_id": "5673",
+        "dom_id": "step-20570",
+        "selector": "#step-20570",
+        "step_anchor": "step-9",
+        "title": "Calculating the Number of Permutations of Objects Chosen From a Group Fewer Than Ten",
+        "key_prerequisites": [
+          {
+            "topic_id": "775",
+            "name": "Ordering Objects",
+            "href": "/topics/775"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "1788",
+        "dom_id": "question-1788",
+        "selector": "#question-1788",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "1790",
+        "dom_id": "question-1790",
+        "selector": "#question-1790",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20571",
+        "content_id": "5674",
+        "dom_id": "step-20571",
+        "selector": "#step-20571",
+        "step_anchor": "step-12",
+        "title": "Calculating the Number of Permutations of Objects Chosen From a Group of at Least Ten",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "5691",
+        "dom_id": "question-5691",
+        "selector": "#question-5691",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "5558",
+        "dom_id": "question-5558",
+        "selector": "#question-5558",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-20569",
+        "filename": "01-step-20569.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-27561",
+        "filename": "02-step-27561.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-27676",
+        "filename": "03-step-27676.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-5562",
+        "filename": "04-question-5562.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-1793",
+        "filename": "05-question-1793.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-20573",
+        "filename": "06-step-20573.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-1783",
+        "filename": "07-question-1783.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-5560",
+        "filename": "08-question-5560.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-20570",
+        "filename": "09-step-20570.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-1788",
+        "filename": "10-question-1788.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-1790",
+        "filename": "11-question-1790.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-20571",
+        "filename": "12-step-20571.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-5691",
+        "filename": "13-question-5691.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-5558",
+        "filename": "14-question-5558.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,367 @@
+{
+  "schema_version": 1,
+  "topic_id": "3072",
+  "topic_title": "The Negative Binomial Distribution",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3072.html",
+  "source_url": "https://mathacademy.com/topics/3072",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "31641",
+        "dom_id": "sectionLink-31641",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-31641"
+      },
+      {
+        "index": 2,
+        "step_id": "33539",
+        "dom_id": "sectionLink-33539",
+        "name": "",
+        "title": "The Probability Mass Function of a Negative Binomial Random Variable",
+        "selector": "#sectionLink-33539"
+      },
+      {
+        "index": 3,
+        "step_id": "31784",
+        "dom_id": "sectionLink-31784",
+        "name": "",
+        "title": "Computing a Probability at a Point",
+        "selector": "#sectionLink-31784"
+      },
+      {
+        "index": 4,
+        "step_id": "31785",
+        "dom_id": "sectionLink-31785",
+        "name": "",
+        "title": "Computing a \"Less Than\" Probability",
+        "selector": "#sectionLink-31785"
+      },
+      {
+        "index": 5,
+        "step_id": "31786",
+        "dom_id": "sectionLink-31786",
+        "name": "",
+        "title": "Computing a Probability Over a Bounded Interval",
+        "selector": "#sectionLink-31786"
+      },
+      {
+        "index": 6,
+        "step_id": "31787",
+        "dom_id": "sectionLink-31787",
+        "name": "",
+        "title": "Computing a Probability Over a Bounded Interval Using the Complement",
+        "selector": "#sectionLink-31787"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "705",
+        "name": "Combinations",
+        "href": "/topics/combinations-705"
+      },
+      {
+        "topic_id": "3284",
+        "name": "The Geometric Distribution",
+        "href": "/topics/the-geometric-distribution-3284"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "31641",
+        "content_id": "5054",
+        "dom_id": "step-31641",
+        "selector": "#step-31641",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "33539",
+        "content_id": "5373",
+        "dom_id": "step-33539",
+        "selector": "#step-33539",
+        "step_anchor": "step-2",
+        "title": "The Probability Mass Function of a Negative Binomial Random Variable",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "31784",
+        "content_id": "8549",
+        "dom_id": "step-31784",
+        "selector": "#step-31784",
+        "step_anchor": "step-3",
+        "title": "Computing a Probability at a Point",
+        "key_prerequisites": [
+          {
+            "topic_id": "705",
+            "name": "Combinations",
+            "href": "/topics/705"
+          },
+          {
+            "topic_id": "1290",
+            "name": "Probability Mass Functions of Discrete Random Variables",
+            "href": "/topics/1290"
+          },
+          {
+            "topic_id": "3284",
+            "name": "The Geometric Distribution",
+            "href": "/topics/3284"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "96692",
+        "dom_id": "question-96692",
+        "selector": "#question-96692",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "97531",
+        "dom_id": "question-97531",
+        "selector": "#question-97531",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "31785",
+        "content_id": "8550",
+        "dom_id": "step-31785",
+        "selector": "#step-31785",
+        "step_anchor": "step-6",
+        "title": "Computing a \"Less Than\" Probability",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "97551",
+        "dom_id": "question-97551",
+        "selector": "#question-97551",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "96693",
+        "dom_id": "question-96693",
+        "selector": "#question-96693",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "31786",
+        "content_id": "8551",
+        "dom_id": "step-31786",
+        "selector": "#step-31786",
+        "step_anchor": "step-9",
+        "title": "Computing a Probability Over a Bounded Interval",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "96694",
+        "dom_id": "question-96694",
+        "selector": "#question-96694",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "97552",
+        "dom_id": "question-97552",
+        "selector": "#question-97552",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "31787",
+        "content_id": "8552",
+        "dom_id": "step-31787",
+        "selector": "#step-31787",
+        "step_anchor": "step-12",
+        "title": "Computing a Probability Over a Bounded Interval Using the Complement",
+        "key_prerequisites": [
+          {
+            "topic_id": "1120",
+            "name": "The Complement of an Event",
+            "href": "/topics/1120"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "96695",
+        "dom_id": "question-96695",
+        "selector": "#question-96695",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "97555",
+        "dom_id": "question-97555",
+        "selector": "#question-97555",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-31641",
+        "filename": "01-step-31641.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-33539",
+        "filename": "02-step-33539.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-31784",
+        "filename": "03-step-31784.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-96692",
+        "filename": "04-question-96692.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-97531",
+        "filename": "05-question-97531.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-31785",
+        "filename": "06-step-31785.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-97551",
+        "filename": "07-question-97551.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-96693",
+        "filename": "08-question-96693.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-31786",
+        "filename": "09-step-31786.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-96694",
+        "filename": "10-question-96694.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-97552",
+        "filename": "11-question-97552.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-31787",
+        "filename": "12-step-31787.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-96695",
+        "filename": "13-question-96695.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-97555",
+        "filename": "14-question-97555.png"
+      }
+    ]
+  }
+}

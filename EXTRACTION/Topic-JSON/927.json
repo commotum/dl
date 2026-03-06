@@ -1,0 +1,332 @@
+{
+  "schema_version": 1,
+  "topic_id": "927",
+  "topic_title": "Proving Inequalities Using Induction",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/927.html",
+  "source_url": "https://mathacademy.com/topics/927",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "182504",
+        "dom_id": "sectionLink-182504",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-182504"
+      },
+      {
+        "index": 2,
+        "step_id": "182505",
+        "dom_id": "sectionLink-182505",
+        "name": "",
+        "title": "Transitivity of Inequality",
+        "selector": "#sectionLink-182505"
+      },
+      {
+        "index": 3,
+        "step_id": "182506",
+        "dom_id": "sectionLink-182506",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-182506"
+      },
+      {
+        "index": 4,
+        "step_id": "182507",
+        "dom_id": "sectionLink-182507",
+        "name": "",
+        "title": "Completing a Proof Template",
+        "selector": "#sectionLink-182507"
+      },
+      {
+        "index": 5,
+        "step_id": "182510",
+        "dom_id": "sectionLink-182510",
+        "name": "",
+        "title": "Proving Polynomial Inequalities",
+        "selector": "#sectionLink-182510"
+      },
+      {
+        "index": 6,
+        "step_id": "182513",
+        "dom_id": "sectionLink-182513",
+        "name": "",
+        "title": "Proving Other Inequalities",
+        "selector": "#sectionLink-182513"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "642",
+        "name": "Mathematical Induction",
+        "href": "/topics/mathematical-induction-642"
+      },
+      {
+        "topic_id": "1157",
+        "name": "Expanding Binomials Using Pascal's Triangle",
+        "href": "/topics/expanding-binomials-using-pascals-triangle-1157"
+      },
+      {
+        "topic_id": "3710",
+        "name": "Factorials in Variable Expressions",
+        "href": "/topics/factorials-in-variable-expressions-3710"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "182504",
+        "content_id": "7933",
+        "dom_id": "step-182504",
+        "selector": "#step-182504",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "182505",
+        "content_id": "9170",
+        "dom_id": "step-182505",
+        "selector": "#step-182505",
+        "step_anchor": "step-2",
+        "title": "Transitivity of Inequality",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "182506",
+        "content_id": "9168",
+        "dom_id": "step-182506",
+        "selector": "#step-182506",
+        "step_anchor": "step-3",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "182507",
+        "content_id": "12674",
+        "dom_id": "step-182507",
+        "selector": "#step-182507",
+        "step_anchor": "step-4",
+        "title": "Completing a Proof Template",
+        "key_prerequisites": [
+          {
+            "topic_id": "642",
+            "name": "Mathematical Induction",
+            "href": "/topics/642"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "182339",
+        "dom_id": "question-182339",
+        "selector": "#question-182339",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "182340",
+        "dom_id": "question-182340",
+        "selector": "#question-182340",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "182510",
+        "content_id": "13225",
+        "dom_id": "step-182510",
+        "selector": "#step-182510",
+        "step_anchor": "step-7",
+        "title": "Proving Polynomial Inequalities",
+        "key_prerequisites": [
+          {
+            "topic_id": "1157",
+            "name": "Expanding Binomials Using Pascal's Triangle",
+            "href": "/topics/1157"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "183401",
+        "dom_id": "question-183401",
+        "selector": "#question-183401",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "183786",
+        "dom_id": "question-183786",
+        "selector": "#question-183786",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "182513",
+        "content_id": "13227",
+        "dom_id": "step-182513",
+        "selector": "#step-182513",
+        "step_anchor": "step-10",
+        "title": "Proving Other Inequalities",
+        "key_prerequisites": [
+          {
+            "topic_id": "3710",
+            "name": "Factorials in Variable Expressions",
+            "href": "/topics/3710"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "182348",
+        "dom_id": "question-182348",
+        "selector": "#question-182348",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "183407",
+        "dom_id": "question-183407",
+        "selector": "#question-183407",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-182504",
+        "filename": "01-step-182504.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-182505",
+        "filename": "02-step-182505.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-182506",
+        "filename": "03-step-182506.png"
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "selector": "#step-182507",
+        "filename": "04-step-182507.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-182339",
+        "filename": "05-question-182339.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-182340",
+        "filename": "06-question-182340.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-182510",
+        "filename": "07-step-182510.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-183401",
+        "filename": "08-question-183401.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-183786",
+        "filename": "09-question-183786.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-182513",
+        "filename": "10-step-182513.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-182348",
+        "filename": "11-question-182348.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-183407",
+        "filename": "12-question-183407.png"
+      }
+    ]
+  }
+}

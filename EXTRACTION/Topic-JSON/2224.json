@@ -1,0 +1,362 @@
+{
+  "schema_version": 1,
+  "topic_id": "2224",
+  "topic_title": "Approximating Solutions to Systems of Nonlinear Equations",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2224.html",
+  "source_url": "https://mathacademy.com/topics/2224",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "19139",
+        "dom_id": "sectionLink-19139",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-19139"
+      },
+      {
+        "index": 2,
+        "step_id": "19144",
+        "dom_id": "sectionLink-19144",
+        "name": "",
+        "title": "Approximating the Solution to a System of Nonlinear Equations Using a Graph",
+        "selector": "#sectionLink-19144"
+      },
+      {
+        "index": 3,
+        "step_id": "35347",
+        "dom_id": "sectionLink-35347",
+        "name": "",
+        "title": "Improving an Approximate Solution",
+        "selector": "#sectionLink-35347"
+      },
+      {
+        "index": 4,
+        "step_id": "19140",
+        "dom_id": "sectionLink-19140",
+        "name": "",
+        "title": "Approximating the Intersection of Two Functions Using a Table of Values",
+        "selector": "#sectionLink-19140"
+      },
+      {
+        "index": 5,
+        "step_id": "35348",
+        "dom_id": "sectionLink-35348",
+        "name": "",
+        "title": "Using Upper and Lower Bounds",
+        "selector": "#sectionLink-35348"
+      },
+      {
+        "index": 6,
+        "step_id": "19146",
+        "dom_id": "sectionLink-19146",
+        "name": "",
+        "title": "Approximating the Intersection of Two Functions to One Decimal Place",
+        "selector": "#sectionLink-19146"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "96",
+        "name": "Absolute Value Expressions",
+        "href": "/topics/absolute-value-expressions-96"
+      },
+      {
+        "topic_id": "101",
+        "name": "Solving Systems of Nonlinear Equations Using Graphs",
+        "href": "/topics/solving-systems-of-nonlinear-equations-using-graphs-101"
+      },
+      {
+        "topic_id": "136",
+        "name": "Approximating Solutions to Systems of Linear Equations",
+        "href": "/topics/approximating-solutions-to-systems-of-linear-equations-136"
+      },
+      {
+        "topic_id": "2184",
+        "name": "Evaluating Algebraic Radical Expressions",
+        "href": "/topics/evaluating-algebraic-radical-expressions-2184"
+      },
+      {
+        "topic_id": "2234",
+        "name": "Degrees of Accuracy",
+        "href": "/topics/degrees-of-accuracy-2234"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "19139",
+        "content_id": "3406",
+        "dom_id": "step-19139",
+        "selector": "#step-19139",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "19144",
+        "content_id": "5199",
+        "dom_id": "step-19144",
+        "selector": "#step-19144",
+        "step_anchor": "step-2",
+        "title": "Approximating the Solution to a System of Nonlinear Equations Using a Graph",
+        "key_prerequisites": [
+          {
+            "topic_id": "101",
+            "name": "Solving Systems of Nonlinear Equations Using Graphs",
+            "href": "/topics/101"
+          },
+          {
+            "topic_id": "136",
+            "name": "Approximating Solutions to Systems of Linear Equations",
+            "href": "/topics/136"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "45096",
+        "dom_id": "question-45096",
+        "selector": "#question-45096",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "45339",
+        "dom_id": "question-45339",
+        "selector": "#question-45339",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "35347",
+        "content_id": "5759",
+        "dom_id": "step-35347",
+        "selector": "#step-35347",
+        "step_anchor": "step-5",
+        "title": "Improving an Approximate Solution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "19140",
+        "content_id": "5198",
+        "dom_id": "step-19140",
+        "selector": "#step-19140",
+        "step_anchor": "step-6",
+        "title": "Approximating the Intersection of Two Functions Using a Table of Values",
+        "key_prerequisites": [
+          {
+            "topic_id": "96",
+            "name": "Absolute Value Expressions",
+            "href": "/topics/96"
+          },
+          {
+            "topic_id": "470",
+            "name": "Introduction to Functions",
+            "href": "/topics/470"
+          },
+          {
+            "topic_id": "2183",
+            "name": "Evaluating Rational Expressions",
+            "href": "/topics/2183"
+          },
+          {
+            "topic_id": "2184",
+            "name": "Evaluating Algebraic Radical Expressions",
+            "href": "/topics/2184"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "121473",
+        "dom_id": "question-121473",
+        "selector": "#question-121473",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "45350",
+        "dom_id": "question-45350",
+        "selector": "#question-45350",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "35348",
+        "content_id": "5760",
+        "dom_id": "step-35348",
+        "selector": "#step-35348",
+        "step_anchor": "step-9",
+        "title": "Using Upper and Lower Bounds",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "19146",
+        "content_id": "5202",
+        "dom_id": "step-19146",
+        "selector": "#step-19146",
+        "step_anchor": "step-10",
+        "title": "Approximating the Intersection of Two Functions to One Decimal Place",
+        "key_prerequisites": [
+          {
+            "topic_id": "2234",
+            "name": "Degrees of Accuracy",
+            "href": "/topics/2234"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "45134",
+        "dom_id": "question-45134",
+        "selector": "#question-45134",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "121471",
+        "dom_id": "question-121471",
+        "selector": "#question-121471",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-19139",
+        "filename": "01-step-19139.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-19144",
+        "filename": "02-step-19144.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-45096",
+        "filename": "03-question-45096.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-45339",
+        "filename": "04-question-45339.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-35347",
+        "filename": "05-step-35347.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-19140",
+        "filename": "06-step-19140.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-121473",
+        "filename": "07-question-121473.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-45350",
+        "filename": "08-question-45350.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-35348",
+        "filename": "09-step-35348.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-19146",
+        "filename": "10-step-19146.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-45134",
+        "filename": "11-question-45134.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-121471",
+        "filename": "12-question-121471.png"
+      }
+    ]
+  }
+}

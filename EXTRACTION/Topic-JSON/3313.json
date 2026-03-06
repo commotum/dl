@@ -1,0 +1,393 @@
+{
+  "schema_version": 1,
+  "topic_id": "3313",
+  "topic_title": "Hypothesis Tests for Two Means: Equal But Unknown Population Variances",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3313.html",
+  "source_url": "https://mathacademy.com/topics/3313",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "222782",
+        "dom_id": "sectionLink-222782",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-222782"
+      },
+      {
+        "index": 2,
+        "step_id": "222785",
+        "dom_id": "sectionLink-222785",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-222785"
+      },
+      {
+        "index": 3,
+        "step_id": "222786",
+        "dom_id": "sectionLink-222786",
+        "name": "",
+        "title": "Testing a Hypothesis Given Normal Populations: One-Tailed Tests",
+        "selector": "#sectionLink-222786"
+      },
+      {
+        "index": 4,
+        "step_id": "222789",
+        "dom_id": "sectionLink-222789",
+        "name": "",
+        "title": "Testing a Hypothesis Given Normal Populations: Two-Tailed Tests",
+        "selector": "#sectionLink-222789"
+      },
+      {
+        "index": 5,
+        "step_id": "222792",
+        "dom_id": "sectionLink-222792",
+        "name": "",
+        "title": "Large Samples",
+        "selector": "#sectionLink-222792"
+      },
+      {
+        "index": 6,
+        "step_id": "222793",
+        "dom_id": "sectionLink-222793",
+        "name": "",
+        "title": "Testing a Hypothesis Given Large Samples",
+        "selector": "#sectionLink-222793"
+      },
+      {
+        "index": 7,
+        "step_id": "222796",
+        "dom_id": "sectionLink-222796",
+        "name": "",
+        "title": "Testing a Hypothesis for the Mean: Applications",
+        "selector": "#sectionLink-222796"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3310",
+        "name": "Hypothesis Tests for Two Means: Known Population Variances",
+        "href": "/topics/hypothesis-tests-for-two-means-known-population-variances-3310"
+      },
+      {
+        "topic_id": "3311",
+        "name": "Hypothesis Tests for One Mean: Unknown Population Variance",
+        "href": "/topics/hypothesis-tests-for-one-mean-unknown-population-variance-3311"
+      },
+      {
+        "topic_id": "4117",
+        "name": "Pooled Variance",
+        "href": "/topics/pooled-variance-4117"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "222782",
+        "content_id": "6979",
+        "dom_id": "step-222782",
+        "selector": "#step-222782",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "222785",
+        "content_id": "10764",
+        "dom_id": "step-222785",
+        "selector": "#step-222785",
+        "step_anchor": "step-2",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "222786",
+        "content_id": "11107",
+        "dom_id": "step-222786",
+        "selector": "#step-222786",
+        "step_anchor": "step-3",
+        "title": "Testing a Hypothesis Given Normal Populations: One-Tailed Tests",
+        "key_prerequisites": [
+          {
+            "topic_id": "3310",
+            "name": "Hypothesis Tests for Two Means: Known Population Variances",
+            "href": "/topics/3310"
+          },
+          {
+            "topic_id": "3311",
+            "name": "Hypothesis Tests for One Mean: Unknown Population Variance",
+            "href": "/topics/3311"
+          },
+          {
+            "topic_id": "4117",
+            "name": "Pooled Variance",
+            "href": "/topics/4117"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "251543",
+        "dom_id": "question-251543",
+        "selector": "#question-251543",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "159432",
+        "dom_id": "question-159432",
+        "selector": "#question-159432",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "222789",
+        "content_id": "11108",
+        "dom_id": "step-222789",
+        "selector": "#step-222789",
+        "step_anchor": "step-6",
+        "title": "Testing a Hypothesis Given Normal Populations: Two-Tailed Tests",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "251546",
+        "dom_id": "question-251546",
+        "selector": "#question-251546",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "159434",
+        "dom_id": "question-159434",
+        "selector": "#question-159434",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "222792",
+        "content_id": "6980",
+        "dom_id": "step-222792",
+        "selector": "#step-222792",
+        "step_anchor": "step-9",
+        "title": "Large Samples",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "222793",
+        "content_id": "11109",
+        "dom_id": "step-222793",
+        "selector": "#step-222793",
+        "step_anchor": "step-10",
+        "title": "Testing a Hypothesis Given Large Samples",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "251613",
+        "dom_id": "question-251613",
+        "selector": "#question-251613",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "159438",
+        "dom_id": "question-159438",
+        "selector": "#question-159438",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "222796",
+        "content_id": "11110",
+        "dom_id": "step-222796",
+        "selector": "#step-222796",
+        "step_anchor": "step-13",
+        "title": "Testing a Hypothesis for the Mean: Applications",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "251630",
+        "dom_id": "question-251630",
+        "selector": "#question-251630",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "251667",
+        "dom_id": "question-251667",
+        "selector": "#question-251667",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-222782",
+        "filename": "01-step-222782.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-222785",
+        "filename": "02-step-222785.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-222786",
+        "filename": "03-step-222786.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-251543",
+        "filename": "04-question-251543.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-159432",
+        "filename": "05-question-159432.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-222789",
+        "filename": "06-step-222789.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-251546",
+        "filename": "07-question-251546.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-159434",
+        "filename": "08-question-159434.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-222792",
+        "filename": "09-step-222792.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-222793",
+        "filename": "10-step-222793.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-251613",
+        "filename": "11-question-251613.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-159438",
+        "filename": "12-question-159438.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-222796",
+        "filename": "13-step-222796.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-251630",
+        "filename": "14-question-251630.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-251667",
+        "filename": "15-question-251667.png"
+      }
+    ]
+  }
+}

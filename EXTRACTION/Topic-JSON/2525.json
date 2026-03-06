@@ -1,0 +1,390 @@
+{
+  "schema_version": 1,
+  "topic_id": "2525",
+  "topic_title": "Damped Oscillators",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2525.html",
+  "source_url": "https://mathacademy.com/topics/2525",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "24278",
+        "dom_id": "sectionLink-24278",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-24278"
+      },
+      {
+        "index": 2,
+        "step_id": "24686",
+        "dom_id": "sectionLink-24686",
+        "name": "",
+        "title": "Identifying Equations that Represent Damped Harmonic Motion",
+        "selector": "#sectionLink-24686"
+      },
+      {
+        "index": 3,
+        "step_id": "25337",
+        "dom_id": "sectionLink-25337",
+        "name": "",
+        "title": "Light, Critical, and Heavy Damping",
+        "selector": "#sectionLink-25337"
+      },
+      {
+        "index": 4,
+        "step_id": "24687",
+        "dom_id": "sectionLink-24687",
+        "name": "",
+        "title": "Identifying Types of Damped Oscillations",
+        "selector": "#sectionLink-24687"
+      },
+      {
+        "index": 5,
+        "step_id": "25338",
+        "dom_id": "sectionLink-25338",
+        "name": "",
+        "title": "The Equation of Motion for a Mass-Spring System with Damping",
+        "selector": "#sectionLink-25338"
+      },
+      {
+        "index": 6,
+        "step_id": "24688",
+        "dom_id": "sectionLink-24688",
+        "name": "",
+        "title": "Constructing a Differential Equation Governing a Damped Harmonic Motion",
+        "selector": "#sectionLink-24688"
+      },
+      {
+        "index": 7,
+        "step_id": "24692",
+        "dom_id": "sectionLink-24692",
+        "name": "",
+        "title": "Calculating the Period of a Damped Oscillation",
+        "selector": "#sectionLink-24692"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "879",
+        "name": "Second-Order Homogeneous ODEs: Characteristic Equations With Repeated Roots",
+        "href": "/topics/second-order-homogeneous-odes-characteristic-equations-with-repeated-roots-879"
+      },
+      {
+        "topic_id": "2524",
+        "name": "Simple Harmonic Oscillators",
+        "href": "/topics/simple-harmonic-oscillators-2524"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "24278",
+        "content_id": "4068",
+        "dom_id": "step-24278",
+        "selector": "#step-24278",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "24686",
+        "content_id": "6724",
+        "dom_id": "step-24686",
+        "selector": "#step-24686",
+        "step_anchor": "step-2",
+        "title": "Identifying Equations that Represent Damped Harmonic Motion",
+        "key_prerequisites": [
+          {
+            "topic_id": "2524",
+            "name": "Simple Harmonic Oscillators",
+            "href": "/topics/2524"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "64589",
+        "dom_id": "question-64589",
+        "selector": "#question-64589",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "64538",
+        "dom_id": "question-64538",
+        "selector": "#question-64538",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "25337",
+        "content_id": "4166",
+        "dom_id": "step-25337",
+        "selector": "#step-25337",
+        "step_anchor": "step-5",
+        "title": "Light, Critical, and Heavy Damping",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "24687",
+        "content_id": "6725",
+        "dom_id": "step-24687",
+        "selector": "#step-24687",
+        "step_anchor": "step-6",
+        "title": "Identifying Types of Damped Oscillations",
+        "key_prerequisites": [
+          {
+            "topic_id": "425",
+            "name": "The Discriminant of a Quadratic Equation",
+            "href": "/topics/425"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "64576",
+        "dom_id": "question-64576",
+        "selector": "#question-64576",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "64617",
+        "dom_id": "question-64617",
+        "selector": "#question-64617",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "25338",
+        "content_id": "4167",
+        "dom_id": "step-25338",
+        "selector": "#step-25338",
+        "step_anchor": "step-9",
+        "title": "The Equation of Motion for a Mass-Spring System with Damping",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "24688",
+        "content_id": "6726",
+        "dom_id": "step-24688",
+        "selector": "#step-24688",
+        "step_anchor": "step-10",
+        "title": "Constructing a Differential Equation Governing a Damped Harmonic Motion",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "64593",
+        "dom_id": "question-64593",
+        "selector": "#question-64593",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "64544",
+        "dom_id": "question-64544",
+        "selector": "#question-64544",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "24692",
+        "content_id": "6727",
+        "dom_id": "step-24692",
+        "selector": "#step-24692",
+        "step_anchor": "step-13",
+        "title": "Calculating the Period of a Damped Oscillation",
+        "key_prerequisites": [
+          {
+            "topic_id": "880",
+            "name": "Second-Order Homogeneous ODEs: Characteristic Equations With Complex Roots",
+            "href": "/topics/880"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "64547",
+        "dom_id": "question-64547",
+        "selector": "#question-64547",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "64624",
+        "dom_id": "question-64624",
+        "selector": "#question-64624",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-24278",
+        "filename": "01-step-24278.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-24686",
+        "filename": "02-step-24686.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-64589",
+        "filename": "03-question-64589.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-64538",
+        "filename": "04-question-64538.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-25337",
+        "filename": "05-step-25337.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-24687",
+        "filename": "06-step-24687.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-64576",
+        "filename": "07-question-64576.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-64617",
+        "filename": "08-question-64617.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-25338",
+        "filename": "09-step-25338.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-24688",
+        "filename": "10-step-24688.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-64593",
+        "filename": "11-question-64593.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-64544",
+        "filename": "12-question-64544.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-24692",
+        "filename": "13-step-24692.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-64547",
+        "filename": "14-question-64547.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-64624",
+        "filename": "15-question-64624.png"
+      }
+    ]
+  }
+}

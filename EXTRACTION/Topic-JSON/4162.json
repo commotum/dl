@@ -1,0 +1,327 @@
+{
+  "schema_version": 1,
+  "topic_id": "4162",
+  "topic_title": "Flux Through Closed Surfaces",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/4162.html",
+  "source_url": "https://mathacademy.com/topics/4162",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "44783",
+        "dom_id": "sectionLink-44783",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-44783"
+      },
+      {
+        "index": 2,
+        "step_id": "44438",
+        "dom_id": "sectionLink-44438",
+        "name": "",
+        "title": "Computing the Flux of a Vector Field Over a Rectangular Solid",
+        "selector": "#sectionLink-44438"
+      },
+      {
+        "index": 3,
+        "step_id": "44792",
+        "dom_id": "sectionLink-44792",
+        "name": "",
+        "title": "Computing the Flux of a Vector Field Over a Cylinder",
+        "selector": "#sectionLink-44792"
+      },
+      {
+        "index": 4,
+        "step_id": "44445",
+        "dom_id": "sectionLink-44445",
+        "name": "",
+        "title": "The Outward-Pointing Unit Vector to a Sphere",
+        "selector": "#sectionLink-44445"
+      },
+      {
+        "index": 5,
+        "step_id": "44442",
+        "dom_id": "sectionLink-44442",
+        "name": "",
+        "title": "Computing the Flux of a Vector Field Over a Sphere",
+        "selector": "#sectionLink-44442"
+      },
+      {
+        "index": 6,
+        "step_id": "44787",
+        "dom_id": "sectionLink-44787",
+        "name": "",
+        "title": "Deriving the Unit Normal Vector for a Sphere",
+        "selector": "#sectionLink-44787"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1765",
+        "name": "Surface Areas of Spheres",
+        "href": "/topics/surface-areas-of-spheres-1765"
+      },
+      {
+        "topic_id": "3178",
+        "name": "Flux in Three-Dimensional Vector Fields",
+        "href": "/topics/flux-in-three-dimensional-vector-fields-3178"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44783",
+        "content_id": "7726",
+        "dom_id": "step-44783",
+        "selector": "#step-44783",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44438",
+        "content_id": "12385",
+        "dom_id": "step-44438",
+        "selector": "#step-44438",
+        "step_anchor": "step-2",
+        "title": "Computing the Flux of a Vector Field Over a Rectangular Solid",
+        "key_prerequisites": [
+          {
+            "topic_id": "3178",
+            "name": "Flux in Three-Dimensional Vector Fields",
+            "href": "/topics/3178"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "161162",
+        "dom_id": "question-161162",
+        "selector": "#question-161162",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "162564",
+        "dom_id": "question-162564",
+        "selector": "#question-162564",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44792",
+        "content_id": "12453",
+        "dom_id": "step-44792",
+        "selector": "#step-44792",
+        "step_anchor": "step-5",
+        "title": "Computing the Flux of a Vector Field Over a Cylinder",
+        "key_prerequisites": [
+          {
+            "topic_id": "2030",
+            "name": "Double Integrals in Plane Polar Coordinates",
+            "href": "/topics/2030"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "161171",
+        "dom_id": "question-161171",
+        "selector": "#question-161171",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "162550",
+        "dom_id": "question-162550",
+        "selector": "#question-162550",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44445",
+        "content_id": "7652",
+        "dom_id": "step-44445",
+        "selector": "#step-44445",
+        "step_anchor": "step-8",
+        "title": "The Outward-Pointing Unit Vector to a Sphere",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44442",
+        "content_id": "12386",
+        "dom_id": "step-44442",
+        "selector": "#step-44442",
+        "step_anchor": "step-9",
+        "title": "Computing the Flux of a Vector Field Over a Sphere",
+        "key_prerequisites": [
+          {
+            "topic_id": "1765",
+            "name": "Surface Areas of Spheres",
+            "href": "/topics/1765"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "161168",
+        "dom_id": "question-161168",
+        "selector": "#question-161168",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "161232",
+        "dom_id": "question-161232",
+        "selector": "#question-161232",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44787",
+        "content_id": "7729",
+        "dom_id": "step-44787",
+        "selector": "#step-44787",
+        "step_anchor": "step-12",
+        "title": "Deriving the Unit Normal Vector for a Sphere",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-44783",
+        "filename": "01-step-44783.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-44438",
+        "filename": "02-step-44438.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-161162",
+        "filename": "03-question-161162.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-162564",
+        "filename": "04-question-162564.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-44792",
+        "filename": "05-step-44792.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-161171",
+        "filename": "06-question-161171.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-162550",
+        "filename": "07-question-162550.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-44445",
+        "filename": "08-step-44445.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-44442",
+        "filename": "09-step-44442.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-161168",
+        "filename": "10-question-161168.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-161232",
+        "filename": "11-question-161232.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-44787",
+        "filename": "12-step-44787.png"
+      }
+    ]
+  }
+}

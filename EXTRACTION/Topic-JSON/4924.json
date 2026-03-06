@@ -1,0 +1,506 @@
+{
+  "schema_version": 1,
+  "topic_id": "4924",
+  "topic_title": "Proving Subset Relations",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/4924.html",
+  "source_url": "https://mathacademy.com/topics/4924",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "181078",
+        "dom_id": "sectionLink-181078",
+        "name": "",
+        "title": "Intro",
+        "selector": "#sectionLink-181078"
+      },
+      {
+        "index": 2,
+        "step_id": "181079",
+        "dom_id": "sectionLink-181079",
+        "name": "",
+        "title": "Proving That a Given Set Is a Subset",
+        "selector": "#sectionLink-181079"
+      },
+      {
+        "index": 3,
+        "step_id": "181080",
+        "dom_id": "sectionLink-181080",
+        "name": "",
+        "title": "Stating the Full Proof",
+        "selector": "#sectionLink-181080"
+      },
+      {
+        "index": 4,
+        "step_id": "181081",
+        "dom_id": "sectionLink-181081",
+        "name": "",
+        "title": "Proving Subset Relations Using Constructive Definitions",
+        "selector": "#sectionLink-181081"
+      },
+      {
+        "index": 5,
+        "step_id": "181084",
+        "dom_id": "sectionLink-181084",
+        "name": "",
+        "title": "Proving Subset Relations Using Conditional Definitions",
+        "selector": "#sectionLink-181084"
+      },
+      {
+        "index": 6,
+        "step_id": "181087",
+        "dom_id": "sectionLink-181087",
+        "name": "",
+        "title": "Disproving a Subset Relation",
+        "selector": "#sectionLink-181087"
+      },
+      {
+        "index": 7,
+        "step_id": "181088",
+        "dom_id": "sectionLink-181088",
+        "name": "",
+        "title": "Proving X Is Not a Subset of Y",
+        "selector": "#sectionLink-181088"
+      },
+      {
+        "index": 8,
+        "step_id": "181091",
+        "dom_id": "sectionLink-181091",
+        "name": "",
+        "title": "Set Equality",
+        "selector": "#sectionLink-181091"
+      },
+      {
+        "index": 9,
+        "step_id": "181092",
+        "dom_id": "sectionLink-181092",
+        "name": "",
+        "title": "Proving Set Equality",
+        "selector": "#sectionLink-181092"
+      },
+      {
+        "index": 10,
+        "step_id": "181095",
+        "dom_id": "sectionLink-181095",
+        "name": "",
+        "title": "Proving Set Equality Using Subsets",
+        "selector": "#sectionLink-181095"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "251",
+        "name": "Translating Between Logical and Set Operations",
+        "href": "/topics/translating-between-logical-and-set-operations-251"
+      },
+      {
+        "topic_id": "1259",
+        "name": "General Solutions of Trigonometric Equations With Transformed Functions",
+        "href": "/topics/general-solutions-of-trigonometric-equations-with-transformed-functions-1259"
+      },
+      {
+        "topic_id": "2641",
+        "name": "Modular Congruence",
+        "href": "/topics/modular-congruence-2641"
+      },
+      {
+        "topic_id": "4925",
+        "name": "Proving Biconditional Statements",
+        "href": "/topics/proving-biconditional-statements-4925"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 18,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "181078",
+        "content_id": "9385",
+        "dom_id": "step-181078",
+        "selector": "#step-181078",
+        "step_anchor": "step-1",
+        "title": "Intro",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "181079",
+        "content_id": "9337",
+        "dom_id": "step-181079",
+        "selector": "#step-181079",
+        "step_anchor": "step-2",
+        "title": "Proving That a Given Set Is a Subset",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "181080",
+        "content_id": "9361",
+        "dom_id": "step-181080",
+        "selector": "#step-181080",
+        "step_anchor": "step-3",
+        "title": "Stating the Full Proof",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "181081",
+        "content_id": "14974",
+        "dom_id": "step-181081",
+        "selector": "#step-181081",
+        "step_anchor": "step-4",
+        "title": "Proving Subset Relations Using Constructive Definitions",
+        "key_prerequisites": [
+          {
+            "topic_id": "50",
+            "name": "Subsets",
+            "href": "/topics/50"
+          },
+          {
+            "topic_id": "267",
+            "name": "The Product Rule for Exponents",
+            "href": "/topics/267"
+          },
+          {
+            "topic_id": "1224",
+            "name": "The Power Rule for Exponents",
+            "href": "/topics/1224"
+          },
+          {
+            "topic_id": "2801",
+            "name": "Direct Proof",
+            "href": "/topics/2801"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "221633",
+        "dom_id": "question-221633",
+        "selector": "#question-221633",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "221680",
+        "dom_id": "question-221680",
+        "selector": "#question-221680",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "181084",
+        "content_id": "14979",
+        "dom_id": "step-181084",
+        "selector": "#step-181084",
+        "step_anchor": "step-7",
+        "title": "Proving Subset Relations Using Conditional Definitions",
+        "key_prerequisites": [
+          {
+            "topic_id": "1259",
+            "name": "General Solutions of Trigonometric Equations With Transformed Functions",
+            "href": "/topics/1259"
+          },
+          {
+            "topic_id": "2641",
+            "name": "Modular Congruence",
+            "href": "/topics/2641"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "221683",
+        "dom_id": "question-221683",
+        "selector": "#question-221683",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "222037",
+        "dom_id": "question-222037",
+        "selector": "#question-222037",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "181087",
+        "content_id": "9386",
+        "dom_id": "step-181087",
+        "selector": "#step-181087",
+        "step_anchor": "step-10",
+        "title": "Disproving a Subset Relation",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "181088",
+        "content_id": "14975",
+        "dom_id": "step-181088",
+        "selector": "#step-181088",
+        "step_anchor": "step-11",
+        "title": "Proving X Is Not a Subset of Y",
+        "key_prerequisites": [
+          {
+            "topic_id": "251",
+            "name": "Translating Between Logical and Set Operations",
+            "href": "/topics/251"
+          },
+          {
+            "topic_id": "4927",
+            "name": "Disproving Implications",
+            "href": "/topics/4927"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "221635",
+        "dom_id": "question-221635",
+        "selector": "#question-221635",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "221695",
+        "dom_id": "question-221695",
+        "selector": "#question-221695",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "181091",
+        "content_id": "9384",
+        "dom_id": "step-181091",
+        "selector": "#step-181091",
+        "step_anchor": "step-14",
+        "title": "Set Equality",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "181092",
+        "content_id": "14976",
+        "dom_id": "step-181092",
+        "selector": "#step-181092",
+        "step_anchor": "step-15",
+        "title": "Proving Set Equality",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "221936",
+        "dom_id": "question-221936",
+        "selector": "#question-221936",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "question_id": "221951",
+        "dom_id": "question-221951",
+        "selector": "#question-221951",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 18,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "181095",
+        "content_id": "9387",
+        "dom_id": "step-181095",
+        "selector": "#step-181095",
+        "step_anchor": "step-18",
+        "title": "Proving Set Equality Using Subsets",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-181078",
+        "filename": "01-step-181078.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-181079",
+        "filename": "02-step-181079.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-181080",
+        "filename": "03-step-181080.png"
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "selector": "#step-181081",
+        "filename": "04-step-181081.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-221633",
+        "filename": "05-question-221633.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-221680",
+        "filename": "06-question-221680.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-181084",
+        "filename": "07-step-181084.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-221683",
+        "filename": "08-question-221683.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-222037",
+        "filename": "09-question-222037.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-181087",
+        "filename": "10-step-181087.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-181088",
+        "filename": "11-step-181088.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-221635",
+        "filename": "12-question-221635.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-221695",
+        "filename": "13-question-221695.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-181091",
+        "filename": "14-step-181091.png"
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "selector": "#step-181092",
+        "filename": "15-step-181092.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-221936",
+        "filename": "16-question-221936.png"
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "selector": "#question-221951",
+        "filename": "17-question-221951.png"
+      },
+      {
+        "index": 18,
+        "item_type": "step",
+        "selector": "#step-181095",
+        "filename": "18-step-181095.png"
+      }
+    ]
+  }
+}

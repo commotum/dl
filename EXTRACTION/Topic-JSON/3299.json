@@ -1,0 +1,357 @@
+{
+  "schema_version": 1,
+  "topic_id": "3299",
+  "topic_title": "Confidence Intervals for One Variance",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3299.html",
+  "source_url": "https://mathacademy.com/topics/3299",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "37983",
+        "dom_id": "sectionLink-37983",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-37983"
+      },
+      {
+        "index": 2,
+        "step_id": "42216",
+        "dom_id": "sectionLink-42216",
+        "name": "",
+        "title": "Confidence Intervals for Variances",
+        "selector": "#sectionLink-42216"
+      },
+      {
+        "index": 3,
+        "step_id": "42217",
+        "dom_id": "sectionLink-42217",
+        "name": "",
+        "title": "Constructing a Confidence Interval",
+        "selector": "#sectionLink-42217"
+      },
+      {
+        "index": 4,
+        "step_id": "38148",
+        "dom_id": "sectionLink-38148",
+        "name": "",
+        "title": "The General Result",
+        "selector": "#sectionLink-38148"
+      },
+      {
+        "index": 5,
+        "step_id": "37985",
+        "dom_id": "sectionLink-37985",
+        "name": "",
+        "title": "Finding a Confidence Interval for the Population Variance",
+        "selector": "#sectionLink-37985"
+      },
+      {
+        "index": 6,
+        "step_id": "37986",
+        "dom_id": "sectionLink-37986",
+        "name": "",
+        "title": "Finding a Confidence Interval for the Population Standard Deviation",
+        "selector": "#sectionLink-37986"
+      },
+      {
+        "index": 7,
+        "step_id": "37987",
+        "dom_id": "sectionLink-37987",
+        "name": "",
+        "title": "Finding Confidence Intervals: Applications",
+        "selector": "#sectionLink-37987"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "260",
+        "name": "Confidence Intervals for One Mean: Known Population Variance",
+        "href": "/topics/confidence-intervals-for-one-mean-known-population-variance-260"
+      },
+      {
+        "topic_id": "3023",
+        "name": "The Chi-Square Distribution",
+        "href": "/topics/the-chi-square-distribution-3023"
+      },
+      {
+        "topic_id": "3820",
+        "name": "The Sample Variance",
+        "href": "/topics/the-sample-variance-3820"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "37983",
+        "content_id": "6266",
+        "dom_id": "step-37983",
+        "selector": "#step-37983",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "42216",
+        "content_id": "6983",
+        "dom_id": "step-42216",
+        "selector": "#step-42216",
+        "step_anchor": "step-2",
+        "title": "Confidence Intervals for Variances",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "42217",
+        "content_id": "6984",
+        "dom_id": "step-42217",
+        "selector": "#step-42217",
+        "step_anchor": "step-3",
+        "title": "Constructing a Confidence Interval",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "38148",
+        "content_id": "6299",
+        "dom_id": "step-38148",
+        "selector": "#step-38148",
+        "step_anchor": "step-4",
+        "title": "The General Result",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "37985",
+        "content_id": "10068",
+        "dom_id": "step-37985",
+        "selector": "#step-37985",
+        "step_anchor": "step-5",
+        "title": "Finding a Confidence Interval for the Population Variance",
+        "key_prerequisites": [
+          {
+            "topic_id": "260",
+            "name": "Confidence Intervals for One Mean: Known Population Variance",
+            "href": "/topics/260"
+          },
+          {
+            "topic_id": "3023",
+            "name": "The Chi-Square Distribution",
+            "href": "/topics/3023"
+          },
+          {
+            "topic_id": "3820",
+            "name": "The Sample Variance",
+            "href": "/topics/3820"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "142926",
+        "dom_id": "question-142926",
+        "selector": "#question-142926",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "143149",
+        "dom_id": "question-143149",
+        "selector": "#question-143149",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "37986",
+        "content_id": "10069",
+        "dom_id": "step-37986",
+        "selector": "#step-37986",
+        "step_anchor": "step-8",
+        "title": "Finding a Confidence Interval for the Population Standard Deviation",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "142932",
+        "dom_id": "question-142932",
+        "selector": "#question-142932",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "143366",
+        "dom_id": "question-143366",
+        "selector": "#question-143366",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "37987",
+        "content_id": "10070",
+        "dom_id": "step-37987",
+        "selector": "#step-37987",
+        "step_anchor": "step-11",
+        "title": "Finding Confidence Intervals: Applications",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "142934",
+        "dom_id": "question-142934",
+        "selector": "#question-142934",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "143432",
+        "dom_id": "question-143432",
+        "selector": "#question-143432",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-37983",
+        "filename": "01-step-37983.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-42216",
+        "filename": "02-step-42216.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-42217",
+        "filename": "03-step-42217.png"
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "selector": "#step-38148",
+        "filename": "04-step-38148.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-37985",
+        "filename": "05-step-37985.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-142926",
+        "filename": "06-question-142926.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-143149",
+        "filename": "07-question-143149.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-37986",
+        "filename": "08-step-37986.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-142932",
+        "filename": "09-question-142932.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-143366",
+        "filename": "10-question-143366.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-37987",
+        "filename": "11-step-37987.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-142934",
+        "filename": "12-question-142934.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-143432",
+        "filename": "13-question-143432.png"
+      }
+    ]
+  }
+}

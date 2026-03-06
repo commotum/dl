@@ -1,0 +1,235 @@
+{
+  "schema_version": 1,
+  "topic_id": "1393",
+  "topic_title": "Kruskal's Algorithm",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1393.html",
+  "source_url": "https://mathacademy.com/topics/1393",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "416889",
+        "dom_id": "sectionLink-416889",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-416889"
+      },
+      {
+        "index": 2,
+        "step_id": "416890",
+        "dom_id": "sectionLink-416890",
+        "name": "",
+        "title": "A Concrete Example of Kruskal's Algorithm",
+        "selector": "#sectionLink-416890"
+      },
+      {
+        "index": 3,
+        "step_id": "416891",
+        "dom_id": "sectionLink-416891",
+        "name": "",
+        "title": "Applying a Step of Kruskal's Algorithm",
+        "selector": "#sectionLink-416891"
+      },
+      {
+        "index": 4,
+        "step_id": "416894",
+        "dom_id": "sectionLink-416894",
+        "name": "",
+        "title": "Applying Kruskal's Algorithm",
+        "selector": "#sectionLink-416894"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1284",
+        "name": "Trees and Forests",
+        "href": "/topics/trees-and-forests-1284"
+      },
+      {
+        "topic_id": "2756",
+        "name": "Connected Graphs",
+        "href": "/topics/connected-graphs-2756"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 8,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "416889",
+        "content_id": "10549",
+        "dom_id": "step-416889",
+        "selector": "#step-416889",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "416890",
+        "content_id": "11614",
+        "dom_id": "step-416890",
+        "selector": "#step-416890",
+        "step_anchor": "step-2",
+        "title": "A Concrete Example of Kruskal's Algorithm",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "416891",
+        "content_id": "16366",
+        "dom_id": "step-416891",
+        "selector": "#step-416891",
+        "step_anchor": "step-3",
+        "title": "Applying a Step of Kruskal's Algorithm",
+        "key_prerequisites": [
+          {
+            "topic_id": "1284",
+            "name": "Trees and Forests",
+            "href": "/topics/1284"
+          },
+          {
+            "topic_id": "1702",
+            "name": "Cycles in Graphs",
+            "href": "/topics/1702"
+          },
+          {
+            "topic_id": "2756",
+            "name": "Connected Graphs",
+            "href": "/topics/2756"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "259460",
+        "dom_id": "question-259460",
+        "selector": "#question-259460",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "257946",
+        "dom_id": "question-257946",
+        "selector": "#question-257946",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "416894",
+        "content_id": "16367",
+        "dom_id": "step-416894",
+        "selector": "#step-416894",
+        "step_anchor": "step-6",
+        "title": "Applying Kruskal's Algorithm",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "258717",
+        "dom_id": "question-258717",
+        "selector": "#question-258717",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "257916",
+        "dom_id": "question-257916",
+        "selector": "#question-257916",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-416889",
+        "filename": "01-step-416889.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-416890",
+        "filename": "02-step-416890.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-416891",
+        "filename": "03-step-416891.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-259460",
+        "filename": "04-question-259460.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-257946",
+        "filename": "05-question-257946.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-416894",
+        "filename": "06-step-416894.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-258717",
+        "filename": "07-question-258717.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-257916",
+        "filename": "08-question-257916.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,427 @@
+{
+  "schema_version": 1,
+  "topic_id": "3706",
+  "topic_title": "The Image of an Affine Transformation",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3706.html",
+  "source_url": "https://mathacademy.com/topics/3706",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "44648",
+        "dom_id": "sectionLink-44648",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-44648"
+      },
+      {
+        "index": 2,
+        "step_id": "44649",
+        "dom_id": "sectionLink-44649",
+        "name": "",
+        "title": "Finding the Image of a Point or Segment",
+        "selector": "#sectionLink-44649"
+      },
+      {
+        "index": 3,
+        "step_id": "44652",
+        "dom_id": "sectionLink-44652",
+        "name": "",
+        "title": "Finding the Image of a Polygon",
+        "selector": "#sectionLink-44652"
+      },
+      {
+        "index": 4,
+        "step_id": "44653",
+        "dom_id": "sectionLink-44653",
+        "name": "",
+        "title": "Orientation-Preserving Transformations",
+        "selector": "#sectionLink-44653"
+      },
+      {
+        "index": 5,
+        "step_id": "44654",
+        "dom_id": "sectionLink-44654",
+        "name": "",
+        "title": "Finding the Image of a Polygon Under an Affine Transformation",
+        "selector": "#sectionLink-44654"
+      },
+      {
+        "index": 6,
+        "step_id": "44657",
+        "dom_id": "sectionLink-44657",
+        "name": "",
+        "title": "Determining Whether an Affine Transformation is Orientation-Preserving",
+        "selector": "#sectionLink-44657"
+      },
+      {
+        "index": 7,
+        "step_id": "44703",
+        "dom_id": "sectionLink-44703",
+        "name": "",
+        "title": "The Area Scale Factor of an Affine Transformation",
+        "selector": "#sectionLink-44703"
+      },
+      {
+        "index": 8,
+        "step_id": "44685",
+        "dom_id": "sectionLink-44685",
+        "name": "",
+        "title": "Determining the Area Scale Factor of an Affine Transformation",
+        "selector": "#sectionLink-44685"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "866",
+        "name": "Linear Transformations of Objects in the Plane",
+        "href": "/topics/linear-transformations-of-objects-in-the-plane-866"
+      },
+      {
+        "topic_id": "989",
+        "name": "Area Scale Factors of Linear Transformations",
+        "href": "/topics/area-scale-factors-of-linear-transformations-989"
+      },
+      {
+        "topic_id": "3387",
+        "name": "Affine Transformations",
+        "href": "/topics/affine-transformations-3387"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 16,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44648",
+        "content_id": "7694",
+        "dom_id": "step-44648",
+        "selector": "#step-44648",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44649",
+        "content_id": "12425",
+        "dom_id": "step-44649",
+        "selector": "#step-44649",
+        "step_anchor": "step-2",
+        "title": "Finding the Image of a Point or Segment",
+        "key_prerequisites": [
+          {
+            "topic_id": "866",
+            "name": "Linear Transformations of Objects in the Plane",
+            "href": "/topics/866"
+          },
+          {
+            "topic_id": "3387",
+            "name": "Affine Transformations",
+            "href": "/topics/3387"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "124101",
+        "dom_id": "question-124101",
+        "selector": "#question-124101",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "124105",
+        "dom_id": "question-124105",
+        "selector": "#question-124105",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44652",
+        "content_id": "7695",
+        "dom_id": "step-44652",
+        "selector": "#step-44652",
+        "step_anchor": "step-5",
+        "title": "Finding the Image of a Polygon",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44653",
+        "content_id": "7696",
+        "dom_id": "step-44653",
+        "selector": "#step-44653",
+        "step_anchor": "step-6",
+        "title": "Orientation-Preserving Transformations",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44654",
+        "content_id": "12426",
+        "dom_id": "step-44654",
+        "selector": "#step-44654",
+        "step_anchor": "step-7",
+        "title": "Finding the Image of a Polygon Under an Affine Transformation",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "124103",
+        "dom_id": "question-124103",
+        "selector": "#question-124103",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "123979",
+        "dom_id": "question-123979",
+        "selector": "#question-123979",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44657",
+        "content_id": "12427",
+        "dom_id": "step-44657",
+        "selector": "#step-44657",
+        "step_anchor": "step-10",
+        "title": "Determining Whether an Affine Transformation is Orientation-Preserving",
+        "key_prerequisites": [
+          {
+            "topic_id": "152",
+            "name": "The Determinant of a 2x2 Matrix",
+            "href": "/topics/152"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "124004",
+        "dom_id": "question-124004",
+        "selector": "#question-124004",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "124199",
+        "dom_id": "question-124199",
+        "selector": "#question-124199",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44703",
+        "content_id": "7705",
+        "dom_id": "step-44703",
+        "selector": "#step-44703",
+        "step_anchor": "step-13",
+        "title": "The Area Scale Factor of an Affine Transformation",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44685",
+        "content_id": "12436",
+        "dom_id": "step-44685",
+        "selector": "#step-44685",
+        "step_anchor": "step-14",
+        "title": "Determining the Area Scale Factor of an Affine Transformation",
+        "key_prerequisites": [
+          {
+            "topic_id": "989",
+            "name": "Area Scale Factors of Linear Transformations",
+            "href": "/topics/989"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "162142",
+        "dom_id": "question-162142",
+        "selector": "#question-162142",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "162141",
+        "dom_id": "question-162141",
+        "selector": "#question-162141",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-44648",
+        "filename": "01-step-44648.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-44649",
+        "filename": "02-step-44649.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-124101",
+        "filename": "03-question-124101.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-124105",
+        "filename": "04-question-124105.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-44652",
+        "filename": "05-step-44652.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-44653",
+        "filename": "06-step-44653.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-44654",
+        "filename": "07-step-44654.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-124103",
+        "filename": "08-question-124103.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-123979",
+        "filename": "09-question-123979.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-44657",
+        "filename": "10-step-44657.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-124004",
+        "filename": "11-question-124004.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-124199",
+        "filename": "12-question-124199.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-44703",
+        "filename": "13-step-44703.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-44685",
+        "filename": "14-step-44685.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-162142",
+        "filename": "15-question-162142.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-162141",
+        "filename": "16-question-162141.png"
+      }
+    ]
+  }
+}

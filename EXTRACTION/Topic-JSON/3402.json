@@ -1,0 +1,263 @@
+{
+  "schema_version": 1,
+  "topic_id": "3402",
+  "topic_title": "Mean and Variance of the Discrete Uniform Distribution",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3402.html",
+  "source_url": "https://mathacademy.com/topics/3402",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "39011",
+        "dom_id": "sectionLink-39011",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-39011"
+      },
+      {
+        "index": 2,
+        "step_id": "32015",
+        "dom_id": "sectionLink-32015",
+        "name": "",
+        "title": "Computing Mean Values in Context",
+        "selector": "#sectionLink-32015"
+      },
+      {
+        "index": 3,
+        "step_id": "32016",
+        "dom_id": "sectionLink-32016",
+        "name": "",
+        "title": "Computing Variances in Context",
+        "selector": "#sectionLink-32016"
+      },
+      {
+        "index": 4,
+        "step_id": "39013",
+        "dom_id": "sectionLink-39013",
+        "name": "",
+        "title": "Proving the Formula for the Mean",
+        "selector": "#sectionLink-39013"
+      },
+      {
+        "index": 5,
+        "step_id": "39014",
+        "dom_id": "sectionLink-39014",
+        "name": "",
+        "title": "Proving the Formula for the Variance",
+        "selector": "#sectionLink-39014"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1388",
+        "name": "Variance of Discrete Random Variables",
+        "href": "/topics/variance-of-discrete-random-variables-1388"
+      },
+      {
+        "topic_id": "3269",
+        "name": "Modeling With Discrete Uniform Distributions",
+        "href": "/topics/modeling-with-discrete-uniform-distributions-3269"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 9,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "39011",
+        "content_id": "6456",
+        "dom_id": "step-39011",
+        "selector": "#step-39011",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "32015",
+        "content_id": "8617",
+        "dom_id": "step-32015",
+        "selector": "#step-32015",
+        "step_anchor": "step-2",
+        "title": "Computing Mean Values in Context",
+        "key_prerequisites": [
+          {
+            "topic_id": "730",
+            "name": "Expected Values of Discrete Random Variables",
+            "href": "/topics/730"
+          },
+          {
+            "topic_id": "3269",
+            "name": "Modeling With Discrete Uniform Distributions",
+            "href": "/topics/3269"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "97232",
+        "dom_id": "question-97232",
+        "selector": "#question-97232",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "97649",
+        "dom_id": "question-97649",
+        "selector": "#question-97649",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "32016",
+        "content_id": "8618",
+        "dom_id": "step-32016",
+        "selector": "#step-32016",
+        "step_anchor": "step-5",
+        "title": "Computing Variances in Context",
+        "key_prerequisites": [
+          {
+            "topic_id": "1388",
+            "name": "Variance of Discrete Random Variables",
+            "href": "/topics/1388"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "97234",
+        "dom_id": "question-97234",
+        "selector": "#question-97234",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "97682",
+        "dom_id": "question-97682",
+        "selector": "#question-97682",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "39013",
+        "content_id": "6458",
+        "dom_id": "step-39013",
+        "selector": "#step-39013",
+        "step_anchor": "step-8",
+        "title": "Proving the Formula for the Mean",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "39014",
+        "content_id": "6459",
+        "dom_id": "step-39014",
+        "selector": "#step-39014",
+        "step_anchor": "step-9",
+        "title": "Proving the Formula for the Variance",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-39011",
+        "filename": "01-step-39011.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-32015",
+        "filename": "02-step-32015.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-97232",
+        "filename": "03-question-97232.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-97649",
+        "filename": "04-question-97649.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-32016",
+        "filename": "05-step-32016.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-97234",
+        "filename": "06-question-97234.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-97682",
+        "filename": "07-question-97682.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-39013",
+        "filename": "08-step-39013.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-39014",
+        "filename": "09-step-39014.png"
+      }
+    ]
+  }
+}

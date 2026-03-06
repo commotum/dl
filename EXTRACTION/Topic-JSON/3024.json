@@ -1,0 +1,341 @@
+{
+  "schema_version": 1,
+  "topic_id": "3024",
+  "topic_title": "Median, Quartiles and Percentiles of Continuous Random Variables",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3024.html",
+  "source_url": "https://mathacademy.com/topics/3024",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "30817",
+        "dom_id": "sectionLink-30817",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-30817"
+      },
+      {
+        "index": 2,
+        "step_id": "30818",
+        "dom_id": "sectionLink-30818",
+        "name": "",
+        "title": "Finding the Median Given the CDF a Continuous Random Variable",
+        "selector": "#sectionLink-30818"
+      },
+      {
+        "index": 3,
+        "step_id": "30819",
+        "dom_id": "sectionLink-30819",
+        "name": "",
+        "title": "Finding the Median Given the PDF a Continuous Random Variable",
+        "selector": "#sectionLink-30819"
+      },
+      {
+        "index": 4,
+        "step_id": "30820",
+        "dom_id": "sectionLink-30820",
+        "name": "",
+        "title": "Finding a Quartile of a Continuous Random Variable",
+        "selector": "#sectionLink-30820"
+      },
+      {
+        "index": 5,
+        "step_id": "30821",
+        "dom_id": "sectionLink-30821",
+        "name": "",
+        "title": "Finding a Percentile of a Continuous Random Variable",
+        "selector": "#sectionLink-30821"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2163",
+        "name": "Cumulative Distribution Functions for Continuous Random Variables",
+        "href": "/topics/cumulative-distribution-functions-for-continuous-random-variables-2163"
+      },
+      {
+        "topic_id": "2480",
+        "name": "Range, Quartiles, and IQR",
+        "href": "/topics/range-quartiles-and-iqr-2480"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "30817",
+        "content_id": "4942",
+        "dom_id": "step-30817",
+        "selector": "#step-30817",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30818",
+        "content_id": "8237",
+        "dom_id": "step-30818",
+        "selector": "#step-30818",
+        "step_anchor": "step-2",
+        "title": "Finding the Median Given the CDF a Continuous Random Variable",
+        "key_prerequisites": [
+          {
+            "topic_id": "2163",
+            "name": "Cumulative Distribution Functions for Continuous Random Variables",
+            "href": "/topics/2163"
+          },
+          {
+            "topic_id": "3749",
+            "name": "The Median of a Data Set",
+            "href": "/topics/3749"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "94432",
+        "dom_id": "question-94432",
+        "selector": "#question-94432",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "94564",
+        "dom_id": "question-94564",
+        "selector": "#question-94564",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30819",
+        "content_id": "8238",
+        "dom_id": "step-30819",
+        "selector": "#step-30819",
+        "step_anchor": "step-5",
+        "title": "Finding the Median Given the PDF a Continuous Random Variable",
+        "key_prerequisites": [
+          {
+            "topic_id": "1347",
+            "name": "Probability Density Functions of Continuous Random Variables",
+            "href": "/topics/1347"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "94433",
+        "dom_id": "question-94433",
+        "selector": "#question-94433",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "125775",
+        "dom_id": "question-125775",
+        "selector": "#question-125775",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30820",
+        "content_id": "8239",
+        "dom_id": "step-30820",
+        "selector": "#step-30820",
+        "step_anchor": "step-8",
+        "title": "Finding a Quartile of a Continuous Random Variable",
+        "key_prerequisites": [
+          {
+            "topic_id": "2480",
+            "name": "Range, Quartiles, and IQR",
+            "href": "/topics/2480"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "94434",
+        "dom_id": "question-94434",
+        "selector": "#question-94434",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "94576",
+        "dom_id": "question-94576",
+        "selector": "#question-94576",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30821",
+        "content_id": "8240",
+        "dom_id": "step-30821",
+        "selector": "#step-30821",
+        "step_anchor": "step-11",
+        "title": "Finding a Percentile of a Continuous Random Variable",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "94701",
+        "dom_id": "question-94701",
+        "selector": "#question-94701",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "94435",
+        "dom_id": "question-94435",
+        "selector": "#question-94435",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-30817",
+        "filename": "01-step-30817.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-30818",
+        "filename": "02-step-30818.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-94432",
+        "filename": "03-question-94432.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-94564",
+        "filename": "04-question-94564.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-30819",
+        "filename": "05-step-30819.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-94433",
+        "filename": "06-question-94433.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-125775",
+        "filename": "07-question-125775.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-30820",
+        "filename": "08-step-30820.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-94434",
+        "filename": "09-question-94434.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-94576",
+        "filename": "10-question-94576.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-30821",
+        "filename": "11-step-30821.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-94701",
+        "filename": "12-question-94701.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-94435",
+        "filename": "13-question-94435.png"
+      }
+    ]
+  }
+}

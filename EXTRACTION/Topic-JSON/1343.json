@@ -1,0 +1,346 @@
+{
+  "schema_version": 1,
+  "topic_id": "1343",
+  "topic_title": "Combinations With Repetition",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1343.html",
+  "source_url": "https://mathacademy.com/topics/1343",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "22361",
+        "dom_id": "sectionLink-22361",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-22361"
+      },
+      {
+        "index": 2,
+        "step_id": "22362",
+        "dom_id": "sectionLink-22362",
+        "name": "",
+        "title": "Counting the Number of Ways to Distribute Items into Bins",
+        "selector": "#sectionLink-22362"
+      },
+      {
+        "index": 3,
+        "step_id": "22363",
+        "dom_id": "sectionLink-22363",
+        "name": "",
+        "title": "Counting the Number of Ways to Choose Items from Different Categories",
+        "selector": "#sectionLink-22363"
+      },
+      {
+        "index": 4,
+        "step_id": "22364",
+        "dom_id": "sectionLink-22364",
+        "name": "",
+        "title": "Solving Two-Step Problems Involving Combinations With Repetitions",
+        "selector": "#sectionLink-22364"
+      },
+      {
+        "index": 5,
+        "step_id": "28355",
+        "dom_id": "sectionLink-28355",
+        "name": "",
+        "title": "Combining Combinations With and Without Repetition",
+        "selector": "#sectionLink-28355"
+      },
+      {
+        "index": 6,
+        "step_id": "28086",
+        "dom_id": "sectionLink-28086",
+        "name": "",
+        "title": "Derivation of the Formula",
+        "selector": "#sectionLink-28086"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "705",
+        "name": "Combinations",
+        "href": "/topics/combinations-705"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "22361",
+        "content_id": "3847",
+        "dom_id": "step-22361",
+        "selector": "#step-22361",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "22362",
+        "content_id": "6062",
+        "dom_id": "step-22362",
+        "selector": "#step-22362",
+        "step_anchor": "step-2",
+        "title": "Counting the Number of Ways to Distribute Items into Bins",
+        "key_prerequisites": [
+          {
+            "topic_id": "705",
+            "name": "Combinations",
+            "href": "/topics/705"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "42805",
+        "dom_id": "question-42805",
+        "selector": "#question-42805",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "42793",
+        "dom_id": "question-42793",
+        "selector": "#question-42793",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "22363",
+        "content_id": "6063",
+        "dom_id": "step-22363",
+        "selector": "#step-22363",
+        "step_anchor": "step-5",
+        "title": "Counting the Number of Ways to Choose Items from Different Categories",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "42738",
+        "dom_id": "question-42738",
+        "selector": "#question-42738",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "42795",
+        "dom_id": "question-42795",
+        "selector": "#question-42795",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "22364",
+        "content_id": "6064",
+        "dom_id": "step-22364",
+        "selector": "#step-22364",
+        "step_anchor": "step-8",
+        "title": "Solving Two-Step Problems Involving Combinations With Repetitions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "42804",
+        "dom_id": "question-42804",
+        "selector": "#question-42804",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "43024",
+        "dom_id": "question-43024",
+        "selector": "#question-43024",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "28355",
+        "content_id": "7604",
+        "dom_id": "step-28355",
+        "selector": "#step-28355",
+        "step_anchor": "step-11",
+        "title": "Combining Combinations With and Without Repetition",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "5589",
+        "dom_id": "question-5589",
+        "selector": "#question-5589",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "87152",
+        "dom_id": "question-87152",
+        "selector": "#question-87152",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "28086",
+        "content_id": "4572",
+        "dom_id": "step-28086",
+        "selector": "#step-28086",
+        "step_anchor": "step-14",
+        "title": "Derivation of the Formula",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-22361",
+        "filename": "01-step-22361.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-22362",
+        "filename": "02-step-22362.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-42805",
+        "filename": "03-question-42805.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-42793",
+        "filename": "04-question-42793.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-22363",
+        "filename": "05-step-22363.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-42738",
+        "filename": "06-question-42738.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-42795",
+        "filename": "07-question-42795.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-22364",
+        "filename": "08-step-22364.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-42804",
+        "filename": "09-question-42804.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-43024",
+        "filename": "10-question-43024.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-28355",
+        "filename": "11-step-28355.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-5589",
+        "filename": "12-question-5589.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-87152",
+        "filename": "13-question-87152.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-28086",
+        "filename": "14-step-28086.png"
+      }
+    ]
+  }
+}

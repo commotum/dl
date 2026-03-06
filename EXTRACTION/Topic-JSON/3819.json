@@ -1,0 +1,278 @@
+{
+  "schema_version": 1,
+  "topic_id": "3819",
+  "topic_title": "Computing the Singular Values of a Matrix",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3819.html",
+  "source_url": "https://mathacademy.com/topics/3819",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "30545",
+        "dom_id": "sectionLink-30545",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-30545"
+      },
+      {
+        "index": 2,
+        "step_id": "30988",
+        "dom_id": "sectionLink-30988",
+        "name": "",
+        "title": "Identifying True Statements Regarding the Singular Values of a Matrix",
+        "selector": "#sectionLink-30988"
+      },
+      {
+        "index": 3,
+        "step_id": "30989",
+        "dom_id": "sectionLink-30989",
+        "name": "",
+        "title": "Finding the Singular Values of a Square Matrix",
+        "selector": "#sectionLink-30989"
+      },
+      {
+        "index": 4,
+        "step_id": "30990",
+        "dom_id": "sectionLink-30990",
+        "name": "",
+        "title": "Finding the Singular Values of a Rectangular Matrix",
+        "selector": "#sectionLink-30990"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3131",
+        "name": "The Singular Values of a Matrix",
+        "href": "/topics/the-singular-values-of-a-matrix-3131"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 10,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "30545",
+        "content_id": "4891",
+        "dom_id": "step-30545",
+        "selector": "#step-30545",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30988",
+        "content_id": "8298",
+        "dom_id": "step-30988",
+        "selector": "#step-30988",
+        "step_anchor": "step-2",
+        "title": "Identifying True Statements Regarding the Singular Values of a Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "232",
+            "name": "The Transpose of a Matrix",
+            "href": "/topics/232"
+          },
+          {
+            "topic_id": "1196",
+            "name": "Multiplying Matrices",
+            "href": "/topics/1196"
+          },
+          {
+            "topic_id": "3131",
+            "name": "The Singular Values of a Matrix",
+            "href": "/topics/3131"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "95299",
+        "dom_id": "question-95299",
+        "selector": "#question-95299",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "94772",
+        "dom_id": "question-94772",
+        "selector": "#question-94772",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30989",
+        "content_id": "8299",
+        "dom_id": "step-30989",
+        "selector": "#step-30989",
+        "step_anchor": "step-5",
+        "title": "Finding the Singular Values of a Square Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "990",
+            "name": "Calculating the Eigenvalues of a 2x2 Matrix",
+            "href": "/topics/990"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "94773",
+        "dom_id": "question-94773",
+        "selector": "#question-94773",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "94981",
+        "dom_id": "question-94981",
+        "selector": "#question-94981",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30990",
+        "content_id": "8300",
+        "dom_id": "step-30990",
+        "selector": "#step-30990",
+        "step_anchor": "step-8",
+        "title": "Finding the Singular Values of a Rectangular Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "1964",
+            "name": "The Characteristic Equation of a Matrix",
+            "href": "/topics/1964"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "94982",
+        "dom_id": "question-94982",
+        "selector": "#question-94982",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "94983",
+        "dom_id": "question-94983",
+        "selector": "#question-94983",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-30545",
+        "filename": "01-step-30545.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-30988",
+        "filename": "02-step-30988.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-95299",
+        "filename": "03-question-95299.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-94772",
+        "filename": "04-question-94772.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-30989",
+        "filename": "05-step-30989.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-94773",
+        "filename": "06-question-94773.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-94981",
+        "filename": "07-question-94981.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-30990",
+        "filename": "08-step-30990.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-94982",
+        "filename": "09-question-94982.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-94983",
+        "filename": "10-question-94983.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,394 @@
+{
+  "schema_version": 1,
+  "topic_id": "3798",
+  "topic_title": "Nondeterministic Finite Automata",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3798.html",
+  "source_url": "https://mathacademy.com/topics/3798",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "415552",
+        "dom_id": "sectionLink-415552",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-415552"
+      },
+      {
+        "index": 2,
+        "step_id": "415553",
+        "dom_id": "sectionLink-415553",
+        "name": "",
+        "title": "Constructing a Transition Table Given a Diagram",
+        "selector": "#sectionLink-415553"
+      },
+      {
+        "index": 3,
+        "step_id": "415556",
+        "dom_id": "sectionLink-415556",
+        "name": "",
+        "title": "Drawing a Diagram Given a Transition Table",
+        "selector": "#sectionLink-415556"
+      },
+      {
+        "index": 4,
+        "step_id": "415559",
+        "dom_id": "sectionLink-415559",
+        "name": "",
+        "title": "Extending the Transition Function to Strings",
+        "selector": "#sectionLink-415559"
+      },
+      {
+        "index": 5,
+        "step_id": "415560",
+        "dom_id": "sectionLink-415560",
+        "name": "",
+        "title": "Applying a Transition Function to a String",
+        "selector": "#sectionLink-415560"
+      },
+      {
+        "index": 6,
+        "step_id": "415563",
+        "dom_id": "sectionLink-415563",
+        "name": "",
+        "title": "The Language of a NFA",
+        "selector": "#sectionLink-415563"
+      },
+      {
+        "index": 7,
+        "step_id": "415564",
+        "dom_id": "sectionLink-415564",
+        "name": "",
+        "title": "Identifying Strings Accepted by an NFA",
+        "selector": "#sectionLink-415564"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "51",
+        "name": "Power Sets",
+        "href": "/topics/power-sets-51"
+      },
+      {
+        "topic_id": "5414",
+        "name": "Processing Strings Using Deterministic Finite Automata",
+        "href": "/topics/processing-strings-using-deterministic-finite-automata-5414"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "415552",
+        "content_id": "9656",
+        "dom_id": "step-415552",
+        "selector": "#step-415552",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "415553",
+        "content_id": "15592",
+        "dom_id": "step-415553",
+        "selector": "#step-415553",
+        "step_anchor": "step-2",
+        "title": "Constructing a Transition Table Given a Diagram",
+        "key_prerequisites": [
+          {
+            "topic_id": "51",
+            "name": "Power Sets",
+            "href": "/topics/51"
+          },
+          {
+            "topic_id": "3797",
+            "name": "Deterministic Finite Automata",
+            "href": "/topics/3797"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "236003",
+        "dom_id": "question-236003",
+        "selector": "#question-236003",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "257902",
+        "dom_id": "question-257902",
+        "selector": "#question-257902",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "415556",
+        "content_id": "15596",
+        "dom_id": "step-415556",
+        "selector": "#step-415556",
+        "step_anchor": "step-5",
+        "title": "Drawing a Diagram Given a Transition Table",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "258044",
+        "dom_id": "question-258044",
+        "selector": "#question-258044",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "236065",
+        "dom_id": "question-236065",
+        "selector": "#question-236065",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "415559",
+        "content_id": "10968",
+        "dom_id": "step-415559",
+        "selector": "#step-415559",
+        "step_anchor": "step-8",
+        "title": "Extending the Transition Function to Strings",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "415560",
+        "content_id": "15597",
+        "dom_id": "step-415560",
+        "selector": "#step-415560",
+        "step_anchor": "step-9",
+        "title": "Applying a Transition Function to a String",
+        "key_prerequisites": [
+          {
+            "topic_id": "55",
+            "name": "Indexed Sets",
+            "href": "/topics/55"
+          },
+          {
+            "topic_id": "5414",
+            "name": "Processing Strings Using Deterministic Finite Automata",
+            "href": "/topics/5414"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "236067",
+        "dom_id": "question-236067",
+        "selector": "#question-236067",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "257276",
+        "dom_id": "question-257276",
+        "selector": "#question-257276",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "415563",
+        "content_id": "10969",
+        "dom_id": "step-415563",
+        "selector": "#step-415563",
+        "step_anchor": "step-12",
+        "title": "The Language of a NFA",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "415564",
+        "content_id": "15601",
+        "dom_id": "step-415564",
+        "selector": "#step-415564",
+        "step_anchor": "step-13",
+        "title": "Identifying Strings Accepted by an NFA",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "258667",
+        "dom_id": "question-258667",
+        "selector": "#question-258667",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "236129",
+        "dom_id": "question-236129",
+        "selector": "#question-236129",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-415552",
+        "filename": "01-step-415552.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-415553",
+        "filename": "02-step-415553.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-236003",
+        "filename": "03-question-236003.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-257902",
+        "filename": "04-question-257902.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-415556",
+        "filename": "05-step-415556.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-258044",
+        "filename": "06-question-258044.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-236065",
+        "filename": "07-question-236065.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-415559",
+        "filename": "08-step-415559.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-415560",
+        "filename": "09-step-415560.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-236067",
+        "filename": "10-question-236067.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-257276",
+        "filename": "11-question-257276.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-415563",
+        "filename": "12-step-415563.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-415564",
+        "filename": "13-step-415564.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-258667",
+        "filename": "14-question-258667.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-236129",
+        "filename": "15-question-236129.png"
+      }
+    ]
+  }
+}

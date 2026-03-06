@@ -1,0 +1,399 @@
+{
+  "schema_version": 1,
+  "topic_id": "3281",
+  "topic_title": "The Binomial Distribution",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3281.html",
+  "source_url": "https://mathacademy.com/topics/3281",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "451150",
+        "dom_id": "sectionLink-451150",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-451150"
+      },
+      {
+        "index": 2,
+        "step_id": "451151",
+        "dom_id": "sectionLink-451151",
+        "name": "",
+        "title": "The Probability Mass Function of a Binomial Distribution",
+        "selector": "#sectionLink-451151"
+      },
+      {
+        "index": 3,
+        "step_id": "451152",
+        "dom_id": "sectionLink-451152",
+        "name": "",
+        "title": "Applying the Probability Mass Function of a Binomial Distribution",
+        "selector": "#sectionLink-451152"
+      },
+      {
+        "index": 4,
+        "step_id": "451153",
+        "dom_id": "sectionLink-451153",
+        "name": "",
+        "title": "Computing a Probability at a Point",
+        "selector": "#sectionLink-451153"
+      },
+      {
+        "index": 5,
+        "step_id": "451156",
+        "dom_id": "sectionLink-451156",
+        "name": "",
+        "title": "Computing a Binomial Probability Over an Unbounded Interval",
+        "selector": "#sectionLink-451156"
+      },
+      {
+        "index": 6,
+        "step_id": "451159",
+        "dom_id": "sectionLink-451159",
+        "name": "",
+        "title": "Computing a Probability Over a Bounded Interval",
+        "selector": "#sectionLink-451159"
+      },
+      {
+        "index": 7,
+        "step_id": "451162",
+        "dom_id": "sectionLink-451162",
+        "name": "",
+        "title": "Computing a Probability Over an Interval Using the Complement",
+        "selector": "#sectionLink-451162"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "183",
+        "name": "Independent Events",
+        "href": "/topics/independent-events-183"
+      },
+      {
+        "topic_id": "705",
+        "name": "Combinations",
+        "href": "/topics/combinations-705"
+      },
+      {
+        "topic_id": "1153",
+        "name": "Exponential Functions",
+        "href": "/topics/exponential-functions-1153"
+      },
+      {
+        "topic_id": "1290",
+        "name": "Probability Mass Functions of Discrete Random Variables",
+        "href": "/topics/probability-mass-functions-of-discrete-random-variables-1290"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "451150",
+        "content_id": "5037",
+        "dom_id": "step-451150",
+        "selector": "#step-451150",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "451151",
+        "content_id": "6104",
+        "dom_id": "step-451151",
+        "selector": "#step-451151",
+        "step_anchor": "step-2",
+        "title": "The Probability Mass Function of a Binomial Distribution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "451152",
+        "content_id": "6105",
+        "dom_id": "step-451152",
+        "selector": "#step-451152",
+        "step_anchor": "step-3",
+        "title": "Applying the Probability Mass Function of a Binomial Distribution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "451153",
+        "content_id": "8557",
+        "dom_id": "step-451153",
+        "selector": "#step-451153",
+        "step_anchor": "step-4",
+        "title": "Computing a Probability at a Point",
+        "key_prerequisites": [
+          {
+            "topic_id": "705",
+            "name": "Combinations",
+            "href": "/topics/705"
+          },
+          {
+            "topic_id": "1290",
+            "name": "Probability Mass Functions of Discrete Random Variables",
+            "href": "/topics/1290"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "97463",
+        "dom_id": "question-97463",
+        "selector": "#question-97463",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "96728",
+        "dom_id": "question-96728",
+        "selector": "#question-96728",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "451156",
+        "content_id": "8564",
+        "dom_id": "step-451156",
+        "selector": "#step-451156",
+        "step_anchor": "step-7",
+        "title": "Computing a Binomial Probability Over an Unbounded Interval",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "96735",
+        "dom_id": "question-96735",
+        "selector": "#question-96735",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "96737",
+        "dom_id": "question-96737",
+        "selector": "#question-96737",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "451159",
+        "content_id": "8558",
+        "dom_id": "step-451159",
+        "selector": "#step-451159",
+        "step_anchor": "step-10",
+        "title": "Computing a Probability Over a Bounded Interval",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "97516",
+        "dom_id": "question-97516",
+        "selector": "#question-97516",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "96729",
+        "dom_id": "question-96729",
+        "selector": "#question-96729",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "451162",
+        "content_id": "8559",
+        "dom_id": "step-451162",
+        "selector": "#step-451162",
+        "step_anchor": "step-13",
+        "title": "Computing a Probability Over an Interval Using the Complement",
+        "key_prerequisites": [
+          {
+            "topic_id": "1120",
+            "name": "The Complement of an Event",
+            "href": "/topics/1120"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "96730",
+        "dom_id": "question-96730",
+        "selector": "#question-96730",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "97527",
+        "dom_id": "question-97527",
+        "selector": "#question-97527",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-451150",
+        "filename": "01-step-451150.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-451151",
+        "filename": "02-step-451151.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-451152",
+        "filename": "03-step-451152.png"
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "selector": "#step-451153",
+        "filename": "04-step-451153.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-97463",
+        "filename": "05-question-97463.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-96728",
+        "filename": "06-question-96728.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-451156",
+        "filename": "07-step-451156.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-96735",
+        "filename": "08-question-96735.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-96737",
+        "filename": "09-question-96737.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-451159",
+        "filename": "10-step-451159.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-97516",
+        "filename": "11-question-97516.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-96729",
+        "filename": "12-question-96729.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-451162",
+        "filename": "13-step-451162.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-96730",
+        "filename": "14-question-96730.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-97527",
+        "filename": "15-question-97527.png"
+      }
+    ]
+  }
+}

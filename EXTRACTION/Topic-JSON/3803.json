@@ -1,0 +1,417 @@
+{
+  "schema_version": 1,
+  "topic_id": "3803",
+  "topic_title": "Big-O Notation",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3803.html",
+  "source_url": "https://mathacademy.com/topics/3803",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "419874",
+        "dom_id": "sectionLink-419874",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-419874"
+      },
+      {
+        "index": 2,
+        "step_id": "419875",
+        "dom_id": "sectionLink-419875",
+        "name": "",
+        "title": "Defining the Set O(n)",
+        "selector": "#sectionLink-419875"
+      },
+      {
+        "index": 3,
+        "step_id": "419876",
+        "dom_id": "sectionLink-419876",
+        "name": "",
+        "title": "Defining the Set O(1)",
+        "selector": "#sectionLink-419876"
+      },
+      {
+        "index": 4,
+        "step_id": "419877",
+        "dom_id": "sectionLink-419877",
+        "name": "",
+        "title": "Defining the Set O(g(n))",
+        "selector": "#sectionLink-419877"
+      },
+      {
+        "index": 5,
+        "step_id": "419878",
+        "dom_id": "sectionLink-419878",
+        "name": "",
+        "title": "Understanding the Definition of Big-O",
+        "selector": "#sectionLink-419878"
+      },
+      {
+        "index": 6,
+        "step_id": "419881",
+        "dom_id": "sectionLink-419881",
+        "name": "",
+        "title": "Proving That a Function Belongs to a Big-O Set",
+        "selector": "#sectionLink-419881"
+      },
+      {
+        "index": 7,
+        "step_id": "419884",
+        "dom_id": "sectionLink-419884",
+        "name": "",
+        "title": "Properties of Big-O Notation",
+        "selector": "#sectionLink-419884"
+      },
+      {
+        "index": 8,
+        "step_id": "419885",
+        "dom_id": "sectionLink-419885",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-419885"
+      },
+      {
+        "index": 9,
+        "step_id": "419886",
+        "dom_id": "sectionLink-419886",
+        "name": "",
+        "title": "Using the Properties of Big-O Notation",
+        "selector": "#sectionLink-419886"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "787",
+        "name": "Finite Quadratic Series",
+        "href": "/topics/finite-quadratic-series-787"
+      },
+      {
+        "topic_id": "1245",
+        "name": "Determining Limits of Sequences Using Relative Magnitudes",
+        "href": "/topics/determining-limits-of-sequences-using-relative-magnitudes-1245"
+      },
+      {
+        "topic_id": "2792",
+        "name": "Nested Quantifiers",
+        "href": "/topics/nested-quantifiers-2792"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "419874",
+        "content_id": "10080",
+        "dom_id": "step-419874",
+        "selector": "#step-419874",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "419875",
+        "content_id": "11913",
+        "dom_id": "step-419875",
+        "selector": "#step-419875",
+        "step_anchor": "step-2",
+        "title": "Defining the Set O(n)",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "419876",
+        "content_id": "11916",
+        "dom_id": "step-419876",
+        "selector": "#step-419876",
+        "step_anchor": "step-3",
+        "title": "Defining the Set O(1)",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "419877",
+        "content_id": "11915",
+        "dom_id": "step-419877",
+        "selector": "#step-419877",
+        "step_anchor": "step-4",
+        "title": "Defining the Set O(g(n))",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "419878",
+        "content_id": "15758",
+        "dom_id": "step-419878",
+        "selector": "#step-419878",
+        "step_anchor": "step-5",
+        "title": "Understanding the Definition of Big-O",
+        "key_prerequisites": [
+          {
+            "topic_id": "2792",
+            "name": "Nested Quantifiers",
+            "href": "/topics/2792"
+          },
+          {
+            "topic_id": "4425",
+            "name": "The Conditional Definition of a Set",
+            "href": "/topics/4425"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "239247",
+        "dom_id": "question-239247",
+        "selector": "#question-239247",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "239245",
+        "dom_id": "question-239245",
+        "selector": "#question-239245",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "419881",
+        "content_id": "15759",
+        "dom_id": "step-419881",
+        "selector": "#step-419881",
+        "step_anchor": "step-8",
+        "title": "Proving That a Function Belongs to a Big-O Set",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "258871",
+        "dom_id": "question-258871",
+        "selector": "#question-258871",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "239294",
+        "dom_id": "question-239294",
+        "selector": "#question-239294",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "419884",
+        "content_id": "10096",
+        "dom_id": "step-419884",
+        "selector": "#step-419884",
+        "step_anchor": "step-11",
+        "title": "Properties of Big-O Notation",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "419885",
+        "content_id": "11928",
+        "dom_id": "step-419885",
+        "selector": "#step-419885",
+        "step_anchor": "step-12",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "419886",
+        "content_id": "15828",
+        "dom_id": "step-419886",
+        "selector": "#step-419886",
+        "step_anchor": "step-13",
+        "title": "Using the Properties of Big-O Notation",
+        "key_prerequisites": [
+          {
+            "topic_id": "50",
+            "name": "Subsets",
+            "href": "/topics/50"
+          },
+          {
+            "topic_id": "1245",
+            "name": "Determining Limits of Sequences Using Relative Magnitudes",
+            "href": "/topics/1245"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "258942",
+        "dom_id": "question-258942",
+        "selector": "#question-258942",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "240402",
+        "dom_id": "question-240402",
+        "selector": "#question-240402",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-419874",
+        "filename": "01-step-419874.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-419875",
+        "filename": "02-step-419875.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-419876",
+        "filename": "03-step-419876.png"
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "selector": "#step-419877",
+        "filename": "04-step-419877.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-419878",
+        "filename": "05-step-419878.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-239247",
+        "filename": "06-question-239247.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-239245",
+        "filename": "07-question-239245.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-419881",
+        "filename": "08-step-419881.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-258871",
+        "filename": "09-question-258871.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-239294",
+        "filename": "10-question-239294.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-419884",
+        "filename": "11-step-419884.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-419885",
+        "filename": "12-step-419885.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-419886",
+        "filename": "13-step-419886.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-258942",
+        "filename": "14-question-258942.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-240402",
+        "filename": "15-question-240402.png"
+      }
+    ]
+  }
+}

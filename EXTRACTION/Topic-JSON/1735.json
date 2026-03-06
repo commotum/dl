@@ -1,0 +1,353 @@
+{
+  "schema_version": 1,
+  "topic_id": "1735",
+  "topic_title": "Partitioned and Block Matrices",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1735.html",
+  "source_url": "https://mathacademy.com/topics/1735",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "33907",
+        "dom_id": "sectionLink-33907",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-33907"
+      },
+      {
+        "index": 2,
+        "step_id": "33908",
+        "dom_id": "sectionLink-33908",
+        "name": "",
+        "title": "Identifying Dimensions of Blocks in Partitioned Matrices",
+        "selector": "#sectionLink-33908"
+      },
+      {
+        "index": 3,
+        "step_id": "33909",
+        "dom_id": "sectionLink-33909",
+        "name": "",
+        "title": "Block Diagonal Matrices",
+        "selector": "#sectionLink-33909"
+      },
+      {
+        "index": 4,
+        "step_id": "33911",
+        "dom_id": "sectionLink-33911",
+        "name": "",
+        "title": "Block Triangular Matrices",
+        "selector": "#sectionLink-33911"
+      },
+      {
+        "index": 5,
+        "step_id": "33910",
+        "dom_id": "sectionLink-33910",
+        "name": "",
+        "title": "Identifying Block Diagonal and Block Triangular Matrices",
+        "selector": "#sectionLink-33910"
+      },
+      {
+        "index": 6,
+        "step_id": "33912",
+        "dom_id": "sectionLink-33912",
+        "name": "",
+        "title": "Determinants of Block Diagonal and Block Triangular Matrices",
+        "selector": "#sectionLink-33912"
+      },
+      {
+        "index": 7,
+        "step_id": "33915",
+        "dom_id": "sectionLink-33915",
+        "name": "",
+        "title": "Finding the Determinant of a Block Diagonal or Block Triangular Matrix",
+        "selector": "#sectionLink-33915"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "153",
+        "name": "The Determinant of a 3x3 Matrix",
+        "href": "/topics/the-determinant-of-a-3x3-matrix-153"
+      },
+      {
+        "topic_id": "1777",
+        "name": "Triangular Matrices",
+        "href": "/topics/triangular-matrices-1777"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "33907",
+        "content_id": "5444",
+        "dom_id": "step-33907",
+        "selector": "#step-33907",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33908",
+        "content_id": "9093",
+        "dom_id": "step-33908",
+        "selector": "#step-33908",
+        "step_anchor": "step-2",
+        "title": "Identifying Dimensions of Blocks in Partitioned Matrices",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "32130",
+        "dom_id": "question-32130",
+        "selector": "#question-32130",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "109220",
+        "dom_id": "question-109220",
+        "selector": "#question-109220",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "33909",
+        "content_id": "5445",
+        "dom_id": "step-33909",
+        "selector": "#step-33909",
+        "step_anchor": "step-5",
+        "title": "Block Diagonal Matrices",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "33911",
+        "content_id": "5446",
+        "dom_id": "step-33911",
+        "selector": "#step-33911",
+        "step_anchor": "step-6",
+        "title": "Block Triangular Matrices",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33910",
+        "content_id": "9094",
+        "dom_id": "step-33910",
+        "selector": "#step-33910",
+        "step_anchor": "step-7",
+        "title": "Identifying Block Diagonal and Block Triangular Matrices",
+        "key_prerequisites": [
+          {
+            "topic_id": "862",
+            "name": "Zero, Square, Diagonal and Identity Matrices",
+            "href": "/topics/862"
+          },
+          {
+            "topic_id": "1777",
+            "name": "Triangular Matrices",
+            "href": "/topics/1777"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "42134",
+        "dom_id": "question-42134",
+        "selector": "#question-42134",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "42132",
+        "dom_id": "question-42132",
+        "selector": "#question-42132",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "33912",
+        "content_id": "5447",
+        "dom_id": "step-33912",
+        "selector": "#step-33912",
+        "step_anchor": "step-10",
+        "title": "Determinants of Block Diagonal and Block Triangular Matrices",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33915",
+        "content_id": "9096",
+        "dom_id": "step-33915",
+        "selector": "#step-33915",
+        "step_anchor": "step-11",
+        "title": "Finding the Determinant of a Block Diagonal or Block Triangular Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "152",
+            "name": "The Determinant of a 2x2 Matrix",
+            "href": "/topics/152"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "108895",
+        "dom_id": "question-108895",
+        "selector": "#question-108895",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "32132",
+        "dom_id": "question-32132",
+        "selector": "#question-32132",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-33907",
+        "filename": "01-step-33907.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-33908",
+        "filename": "02-step-33908.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-32130",
+        "filename": "03-question-32130.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-109220",
+        "filename": "04-question-109220.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-33909",
+        "filename": "05-step-33909.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-33911",
+        "filename": "06-step-33911.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-33910",
+        "filename": "07-step-33910.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-42134",
+        "filename": "08-question-42134.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-42132",
+        "filename": "09-question-42132.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-33912",
+        "filename": "10-step-33912.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-33915",
+        "filename": "11-step-33915.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-108895",
+        "filename": "12-question-108895.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-32132",
+        "filename": "13-question-32132.png"
+      }
+    ]
+  }
+}

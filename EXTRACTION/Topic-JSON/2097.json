@@ -1,0 +1,298 @@
+{
+  "schema_version": 1,
+  "topic_id": "2097",
+  "topic_title": "The Inner Product in Vector Spaces Over the Complex Numbers",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2097.html",
+  "source_url": "https://mathacademy.com/topics/2097",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "20193",
+        "dom_id": "sectionLink-20193",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-20193"
+      },
+      {
+        "index": 2,
+        "step_id": "20194",
+        "dom_id": "sectionLink-20194",
+        "name": "",
+        "title": "Computing the Inner Product of Two Complex Vectors",
+        "selector": "#sectionLink-20194"
+      },
+      {
+        "index": 3,
+        "step_id": "31867",
+        "dom_id": "sectionLink-31867",
+        "name": "",
+        "title": "Properties of the Inner Product Over the Complex Numbers",
+        "selector": "#sectionLink-31867"
+      },
+      {
+        "index": 4,
+        "step_id": "20196",
+        "dom_id": "sectionLink-20196",
+        "name": "",
+        "title": "Identifying True Statements Regarding the Hermitian Inner Product",
+        "selector": "#sectionLink-20196"
+      },
+      {
+        "index": 5,
+        "step_id": "31868",
+        "dom_id": "sectionLink-31868",
+        "name": "",
+        "title": "Applying Properties of the Hermitian Inner Product",
+        "selector": "#sectionLink-31868"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2095",
+        "name": "The Norm of a Vector in N-Dimensional Euclidean Space",
+        "href": "/topics/the-norm-of-a-vector-in-n-dimensional-euclidean-space-2095"
+      },
+      {
+        "topic_id": "2096",
+        "name": "Inner Product Spaces",
+        "href": "/topics/inner-product-spaces-2096"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20193",
+        "content_id": "3605",
+        "dom_id": "step-20193",
+        "selector": "#step-20193",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20194",
+        "content_id": "5545",
+        "dom_id": "step-20194",
+        "selector": "#step-20194",
+        "step_anchor": "step-2",
+        "title": "Computing the Inner Product of Two Complex Vectors",
+        "key_prerequisites": [
+          {
+            "topic_id": "33",
+            "name": "Multiplying Complex Numbers",
+            "href": "/topics/33"
+          },
+          {
+            "topic_id": "892",
+            "name": "The Complex Conjugate",
+            "href": "/topics/892"
+          },
+          {
+            "topic_id": "2096",
+            "name": "Inner Product Spaces",
+            "href": "/topics/2096"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "43803",
+        "dom_id": "question-43803",
+        "selector": "#question-43803",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "43804",
+        "dom_id": "question-43804",
+        "selector": "#question-43804",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "31867",
+        "content_id": "5088",
+        "dom_id": "step-31867",
+        "selector": "#step-31867",
+        "step_anchor": "step-5",
+        "title": "Properties of the Inner Product Over the Complex Numbers",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20196",
+        "content_id": "5547",
+        "dom_id": "step-20196",
+        "selector": "#step-20196",
+        "step_anchor": "step-6",
+        "title": "Identifying True Statements Regarding the Hermitian Inner Product",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "97305",
+        "dom_id": "question-97305",
+        "selector": "#question-97305",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "96833",
+        "dom_id": "question-96833",
+        "selector": "#question-96833",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "31868",
+        "content_id": "8578",
+        "dom_id": "step-31868",
+        "selector": "#step-31868",
+        "step_anchor": "step-9",
+        "title": "Applying Properties of the Hermitian Inner Product",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "96814",
+        "dom_id": "question-96814",
+        "selector": "#question-96814",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "96821",
+        "dom_id": "question-96821",
+        "selector": "#question-96821",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-20193",
+        "filename": "01-step-20193.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-20194",
+        "filename": "02-step-20194.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-43803",
+        "filename": "03-question-43803.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-43804",
+        "filename": "04-question-43804.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-31867",
+        "filename": "05-step-31867.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-20196",
+        "filename": "06-step-20196.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-97305",
+        "filename": "07-question-97305.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-96833",
+        "filename": "08-question-96833.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-31868",
+        "filename": "09-step-31868.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-96814",
+        "filename": "10-question-96814.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-96821",
+        "filename": "11-question-96821.png"
+      }
+    ]
+  }
+}

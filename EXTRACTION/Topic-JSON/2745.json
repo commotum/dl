@@ -1,0 +1,236 @@
+{
+  "schema_version": 1,
+  "topic_id": "2745",
+  "topic_title": "The Linear Cipher",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2745.html",
+  "source_url": "https://mathacademy.com/topics/2745",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "25494",
+        "dom_id": "sectionLink-25494",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-25494"
+      },
+      {
+        "index": 2,
+        "step_id": "25229",
+        "dom_id": "sectionLink-25229",
+        "name": "",
+        "title": "Encrypting a Message Using the Linear Cipher",
+        "selector": "#sectionLink-25229"
+      },
+      {
+        "index": 3,
+        "step_id": "25499",
+        "dom_id": "sectionLink-25499",
+        "name": "",
+        "title": "Decrypting a Message Using the Linear Cipher",
+        "selector": "#sectionLink-25499"
+      },
+      {
+        "index": 4,
+        "step_id": "25230",
+        "dom_id": "sectionLink-25230",
+        "name": "",
+        "title": "Decrypting a Message Using the Linear Cipher",
+        "selector": "#sectionLink-25230"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2736",
+        "name": "Introduction to Cryptography",
+        "href": "/topics/introduction-to-cryptography-2736"
+      },
+      {
+        "topic_id": "4839",
+        "name": "Solving Linear Congruences",
+        "href": "/topics/solving-linear-congruences-4839"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 8,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "25494",
+        "content_id": "4206",
+        "dom_id": "step-25494",
+        "selector": "#step-25494",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "25229",
+        "content_id": "6812",
+        "dom_id": "step-25229",
+        "selector": "#step-25229",
+        "step_anchor": "step-2",
+        "title": "Encrypting a Message Using the Linear Cipher",
+        "key_prerequisites": [
+          {
+            "topic_id": "2736",
+            "name": "Introduction to Cryptography",
+            "href": "/topics/2736"
+          },
+          {
+            "topic_id": "2786",
+            "name": "Modular Residues",
+            "href": "/topics/2786"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "78815",
+        "dom_id": "question-78815",
+        "selector": "#question-78815",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "79245",
+        "dom_id": "question-79245",
+        "selector": "#question-79245",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "25499",
+        "content_id": "4209",
+        "dom_id": "step-25499",
+        "selector": "#step-25499",
+        "step_anchor": "step-5",
+        "title": "Decrypting a Message Using the Linear Cipher",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "25230",
+        "content_id": "6813",
+        "dom_id": "step-25230",
+        "selector": "#step-25230",
+        "step_anchor": "step-6",
+        "title": "Decrypting a Message Using the Linear Cipher",
+        "key_prerequisites": [
+          {
+            "topic_id": "2735",
+            "name": "Additive Inverses Modulo N",
+            "href": "/topics/2735"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "79251",
+        "dom_id": "question-79251",
+        "selector": "#question-79251",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "79255",
+        "dom_id": "question-79255",
+        "selector": "#question-79255",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-25494",
+        "filename": "01-step-25494.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-25229",
+        "filename": "02-step-25229.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-78815",
+        "filename": "03-question-78815.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-79245",
+        "filename": "04-question-79245.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-25499",
+        "filename": "05-step-25499.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-25230",
+        "filename": "06-step-25230.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-79251",
+        "filename": "07-question-79251.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-79255",
+        "filename": "08-question-79255.png"
+      }
+    ]
+  }
+}

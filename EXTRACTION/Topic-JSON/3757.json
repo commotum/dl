@@ -1,0 +1,293 @@
+{
+  "schema_version": 1,
+  "topic_id": "3757",
+  "topic_title": "Measuring Quartiles and IQR From Dot Plots",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3757.html",
+  "source_url": "https://mathacademy.com/topics/3757",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "9330",
+        "dom_id": "sectionLink-9330",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-9330"
+      },
+      {
+        "index": 2,
+        "step_id": "36484",
+        "dom_id": "sectionLink-36484",
+        "name": "",
+        "title": "Measuring Quartiles Using Dot Plots: Method II",
+        "selector": "#sectionLink-36484"
+      },
+      {
+        "index": 3,
+        "step_id": "36494",
+        "dom_id": "sectionLink-36494",
+        "name": "",
+        "title": "Finding a Quartile Given a Dot Plot: Odd Number of Data Points",
+        "selector": "#sectionLink-36494"
+      },
+      {
+        "index": 4,
+        "step_id": "9332",
+        "dom_id": "sectionLink-9332",
+        "name": "",
+        "title": "Finding a Quartile Given a Dot Plot: Even Number of Data Points",
+        "selector": "#sectionLink-9332"
+      },
+      {
+        "index": 5,
+        "step_id": "9336",
+        "dom_id": "sectionLink-9336",
+        "name": "",
+        "title": "Finding the Interquartile Range Given a Dot Plot",
+        "selector": "#sectionLink-9336"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2480",
+        "name": "Range, Quartiles, and IQR",
+        "href": "/topics/range-quartiles-and-iqr-2480"
+      },
+      {
+        "topic_id": "2500",
+        "name": "Measuring Centrality From Dot Plots",
+        "href": "/topics/measuring-centrality-from-dot-plots-2500"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "9330",
+        "content_id": "2259",
+        "dom_id": "step-9330",
+        "selector": "#step-9330",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "36484",
+        "content_id": "5978",
+        "dom_id": "step-36484",
+        "selector": "#step-36484",
+        "step_anchor": "step-2",
+        "title": "Measuring Quartiles Using Dot Plots: Method II",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "36494",
+        "content_id": "9730",
+        "dom_id": "step-36494",
+        "selector": "#step-36494",
+        "step_anchor": "step-3",
+        "title": "Finding a Quartile Given a Dot Plot: Odd Number of Data Points",
+        "key_prerequisites": [
+          {
+            "topic_id": "2480",
+            "name": "Range, Quartiles, and IQR",
+            "href": "/topics/2480"
+          },
+          {
+            "topic_id": "2500",
+            "name": "Measuring Centrality From Dot Plots",
+            "href": "/topics/2500"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "63061",
+        "dom_id": "question-63061",
+        "selector": "#question-63061",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "63060",
+        "dom_id": "question-63060",
+        "selector": "#question-63060",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "9332",
+        "content_id": "2811",
+        "dom_id": "step-9332",
+        "selector": "#step-9332",
+        "step_anchor": "step-6",
+        "title": "Finding a Quartile Given a Dot Plot: Even Number of Data Points",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "63058",
+        "dom_id": "question-63058",
+        "selector": "#question-63058",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "63062",
+        "dom_id": "question-63062",
+        "selector": "#question-63062",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "9336",
+        "content_id": "2813",
+        "dom_id": "step-9336",
+        "selector": "#step-9336",
+        "step_anchor": "step-9",
+        "title": "Finding the Interquartile Range Given a Dot Plot",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "63151",
+        "dom_id": "question-63151",
+        "selector": "#question-63151",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "63183",
+        "dom_id": "question-63183",
+        "selector": "#question-63183",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-9330",
+        "filename": "01-step-9330.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-36484",
+        "filename": "02-step-36484.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-36494",
+        "filename": "03-step-36494.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-63061",
+        "filename": "04-question-63061.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-63060",
+        "filename": "05-question-63060.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-9332",
+        "filename": "06-step-9332.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-63058",
+        "filename": "07-question-63058.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-63062",
+        "filename": "08-question-63062.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-9336",
+        "filename": "09-step-9336.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-63151",
+        "filename": "10-question-63151.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-63183",
+        "filename": "11-question-63183.png"
+      }
+    ]
+  }
+}

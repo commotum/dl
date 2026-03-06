@@ -1,0 +1,437 @@
+{
+  "schema_version": 1,
+  "topic_id": "2105",
+  "topic_title": "Orthogonal Matrices",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2105.html",
+  "source_url": "https://mathacademy.com/topics/2105",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "52300",
+        "dom_id": "sectionLink-52300",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-52300"
+      },
+      {
+        "index": 2,
+        "step_id": "53975",
+        "dom_id": "sectionLink-53975",
+        "name": "",
+        "title": "A Straightforward Test of Orthogonality",
+        "selector": "#sectionLink-53975"
+      },
+      {
+        "index": 3,
+        "step_id": "52301",
+        "dom_id": "sectionLink-52301",
+        "name": "",
+        "title": "Identifying Orthogonal Matrices",
+        "selector": "#sectionLink-52301"
+      },
+      {
+        "index": 4,
+        "step_id": "52308",
+        "dom_id": "sectionLink-52308",
+        "name": "",
+        "title": "The Inverse of an Orthogonal Matrix",
+        "selector": "#sectionLink-52308"
+      },
+      {
+        "index": 5,
+        "step_id": "52309",
+        "dom_id": "sectionLink-52309",
+        "name": "",
+        "title": "Calculating the Inverse of an Orthogonal Matrix",
+        "selector": "#sectionLink-52309"
+      },
+      {
+        "index": 6,
+        "step_id": "52304",
+        "dom_id": "sectionLink-52304",
+        "name": "",
+        "title": "Properties of Orthogonal Matrices",
+        "selector": "#sectionLink-52304"
+      },
+      {
+        "index": 7,
+        "step_id": "52305",
+        "dom_id": "sectionLink-52305",
+        "name": "",
+        "title": "Calculating the Determinant of a Product of Matrices",
+        "selector": "#sectionLink-52305"
+      },
+      {
+        "index": 8,
+        "step_id": "52312",
+        "dom_id": "sectionLink-52312",
+        "name": "",
+        "title": "Identifying True Statements About Orthogonal Matrices",
+        "selector": "#sectionLink-52312"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1023",
+        "name": "Solving Systems of Equations Using Inverse Matrices",
+        "href": "/topics/solving-systems-of-equations-using-inverse-matrices-1023"
+      },
+      {
+        "topic_id": "1774",
+        "name": "Further Properties of Determinants",
+        "href": "/topics/further-properties-of-determinants-1774"
+      },
+      {
+        "topic_id": "1964",
+        "name": "The Characteristic Equation of a Matrix",
+        "href": "/topics/the-characteristic-equation-of-a-matrix-1964"
+      },
+      {
+        "topic_id": "2103",
+        "name": "Orthogonal Sets in Euclidean Spaces",
+        "href": "/topics/orthogonal-sets-in-euclidean-spaces-2103"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 16,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "52300",
+        "content_id": "8095",
+        "dom_id": "step-52300",
+        "selector": "#step-52300",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "53975",
+        "content_id": "8173",
+        "dom_id": "step-53975",
+        "selector": "#step-53975",
+        "step_anchor": "step-2",
+        "title": "A Straightforward Test of Orthogonality",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "52301",
+        "content_id": "12947",
+        "dom_id": "step-52301",
+        "selector": "#step-52301",
+        "step_anchor": "step-3",
+        "title": "Identifying Orthogonal Matrices",
+        "key_prerequisites": [
+          {
+            "topic_id": "147",
+            "name": "Multiplying Square Matrices",
+            "href": "/topics/147"
+          },
+          {
+            "topic_id": "232",
+            "name": "The Transpose of a Matrix",
+            "href": "/topics/232"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "176873",
+        "dom_id": "question-176873",
+        "selector": "#question-176873",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "176874",
+        "dom_id": "question-176874",
+        "selector": "#question-176874",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "52308",
+        "content_id": "8097",
+        "dom_id": "step-52308",
+        "selector": "#step-52308",
+        "step_anchor": "step-6",
+        "title": "The Inverse of an Orthogonal Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "52309",
+        "content_id": "12949",
+        "dom_id": "step-52309",
+        "selector": "#step-52309",
+        "step_anchor": "step-7",
+        "title": "Calculating the Inverse of an Orthogonal Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "863",
+            "name": "Introduction to the Inverse of a Matrix",
+            "href": "/topics/863"
+          },
+          {
+            "topic_id": "1023",
+            "name": "Solving Systems of Equations Using Inverse Matrices",
+            "href": "/topics/1023"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "39865",
+        "dom_id": "question-39865",
+        "selector": "#question-39865",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "39867",
+        "dom_id": "question-39867",
+        "selector": "#question-39867",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "52304",
+        "content_id": "8096",
+        "dom_id": "step-52304",
+        "selector": "#step-52304",
+        "step_anchor": "step-10",
+        "title": "Properties of Orthogonal Matrices",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "52305",
+        "content_id": "12948",
+        "dom_id": "step-52305",
+        "selector": "#step-52305",
+        "step_anchor": "step-11",
+        "title": "Calculating the Determinant of a Product of Matrices",
+        "key_prerequisites": [
+          {
+            "topic_id": "1774",
+            "name": "Further Properties of Determinants",
+            "href": "/topics/1774"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "39873",
+        "dom_id": "question-39873",
+        "selector": "#question-39873",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "39872",
+        "dom_id": "question-39872",
+        "selector": "#question-39872",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "52312",
+        "content_id": "12950",
+        "dom_id": "step-52312",
+        "selector": "#step-52312",
+        "step_anchor": "step-14",
+        "title": "Identifying True Statements About Orthogonal Matrices",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "47458",
+        "dom_id": "question-47458",
+        "selector": "#question-47458",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "39618",
+        "dom_id": "question-39618",
+        "selector": "#question-39618",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-52300",
+        "filename": "01-step-52300.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-53975",
+        "filename": "02-step-53975.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-52301",
+        "filename": "03-step-52301.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-176873",
+        "filename": "04-question-176873.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-176874",
+        "filename": "05-question-176874.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-52308",
+        "filename": "06-step-52308.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-52309",
+        "filename": "07-step-52309.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-39865",
+        "filename": "08-question-39865.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-39867",
+        "filename": "09-question-39867.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-52304",
+        "filename": "10-step-52304.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-52305",
+        "filename": "11-step-52305.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-39873",
+        "filename": "12-question-39873.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-39872",
+        "filename": "13-question-39872.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-52312",
+        "filename": "14-step-52312.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-47458",
+        "filename": "15-question-47458.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-39618",
+        "filename": "16-question-39618.png"
+      }
+    ]
+  }
+}

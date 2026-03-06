@@ -1,0 +1,420 @@
+{
+  "schema_version": 1,
+  "topic_id": "885",
+  "topic_title": "Representing Functions as Power Series",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/885.html",
+  "source_url": "https://mathacademy.com/topics/885",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "2570",
+        "dom_id": "sectionLink-2570",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-2570"
+      },
+      {
+        "index": 2,
+        "step_id": "28401",
+        "dom_id": "sectionLink-28401",
+        "name": "",
+        "title": "The Basic Maclaurin Expansions",
+        "selector": "#sectionLink-28401"
+      },
+      {
+        "index": 3,
+        "step_id": "2571",
+        "dom_id": "sectionLink-2571",
+        "name": "",
+        "title": "Finding the Maclaurin Expansion of a Composite Function Using a Standard Maclaurin Expansion",
+        "selector": "#sectionLink-2571"
+      },
+      {
+        "index": 4,
+        "step_id": "28402",
+        "dom_id": "sectionLink-28402",
+        "name": "",
+        "title": "The Maclaurin Expansion of a Sum, Difference, or Product of Functions",
+        "selector": "#sectionLink-28402"
+      },
+      {
+        "index": 5,
+        "step_id": "2574",
+        "dom_id": "sectionLink-2574",
+        "name": "",
+        "title": "Finding the Maclaurin Expansion of a Sum of Functions Using Standard Maclaurin Expansions",
+        "selector": "#sectionLink-2574"
+      },
+      {
+        "index": 6,
+        "step_id": "2576",
+        "dom_id": "sectionLink-2576",
+        "name": "",
+        "title": "Finding the Maclaurin Expansion of a Logarithmic Function",
+        "selector": "#sectionLink-2576"
+      },
+      {
+        "index": 7,
+        "step_id": "2578",
+        "dom_id": "sectionLink-2578",
+        "name": "",
+        "title": "Finding the Maclaurin Expansion of a Product of Functions Using Standard Maclaurin Expansions",
+        "selector": "#sectionLink-2578"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "30",
+        "name": "Combining the Laws of Logarithms",
+        "href": "/topics/combining-the-laws-of-logarithms-30"
+      },
+      {
+        "topic_id": "347",
+        "name": "Intersections of Intervals",
+        "href": "/topics/intersections-of-intervals-347"
+      },
+      {
+        "topic_id": "684",
+        "name": "Convergence of Geometric Series",
+        "href": "/topics/convergence-of-geometric-series-684"
+      },
+      {
+        "topic_id": "691",
+        "name": "Finding the Sum of an Infinite Geometric Series",
+        "href": "/topics/finding-the-sum-of-an-infinite-geometric-series-691"
+      },
+      {
+        "topic_id": "3826",
+        "name": "Taylor Series",
+        "href": "/topics/taylor-series-3826"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "2570",
+        "content_id": "1307",
+        "dom_id": "step-2570",
+        "selector": "#step-2570",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "28401",
+        "content_id": "4612",
+        "dom_id": "step-28401",
+        "selector": "#step-28401",
+        "step_anchor": "step-2",
+        "title": "The Basic Maclaurin Expansions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "2571",
+        "content_id": "754",
+        "dom_id": "step-2571",
+        "selector": "#step-2571",
+        "step_anchor": "step-3",
+        "title": "Finding the Maclaurin Expansion of a Composite Function Using a Standard Maclaurin Expansion",
+        "key_prerequisites": [
+          {
+            "topic_id": "340",
+            "name": "Maclaurin Series",
+            "href": "/topics/340"
+          },
+          {
+            "topic_id": "2012",
+            "name": "The Power of Product Rule for Exponents",
+            "href": "/topics/2012"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "8276",
+        "dom_id": "question-8276",
+        "selector": "#question-8276",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "12303",
+        "dom_id": "question-12303",
+        "selector": "#question-12303",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "28402",
+        "content_id": "4613",
+        "dom_id": "step-28402",
+        "selector": "#step-28402",
+        "step_anchor": "step-6",
+        "title": "The Maclaurin Expansion of a Sum, Difference, or Product of Functions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "2574",
+        "content_id": "755",
+        "dom_id": "step-2574",
+        "selector": "#step-2574",
+        "step_anchor": "step-7",
+        "title": "Finding the Maclaurin Expansion of a Sum of Functions Using Standard Maclaurin Expansions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "12437",
+        "dom_id": "question-12437",
+        "selector": "#question-12437",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "18951",
+        "dom_id": "question-18951",
+        "selector": "#question-18951",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "2576",
+        "content_id": "756",
+        "dom_id": "step-2576",
+        "selector": "#step-2576",
+        "step_anchor": "step-10",
+        "title": "Finding the Maclaurin Expansion of a Logarithmic Function",
+        "key_prerequisites": [
+          {
+            "topic_id": "30",
+            "name": "Combining the Laws of Logarithms",
+            "href": "/topics/30"
+          },
+          {
+            "topic_id": "347",
+            "name": "Intersections of Intervals",
+            "href": "/topics/347"
+          },
+          {
+            "topic_id": "388",
+            "name": "Solving Compound Inequalities",
+            "href": "/topics/388"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "8157",
+        "dom_id": "question-8157",
+        "selector": "#question-8157",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "10072",
+        "dom_id": "question-10072",
+        "selector": "#question-10072",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "2578",
+        "content_id": "757",
+        "dom_id": "step-2578",
+        "selector": "#step-2578",
+        "step_anchor": "step-13",
+        "title": "Finding the Maclaurin Expansion of a Product of Functions Using Standard Maclaurin Expansions",
+        "key_prerequisites": [
+          {
+            "topic_id": "361",
+            "name": "Multiplying Polynomials",
+            "href": "/topics/361"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "8156",
+        "dom_id": "question-8156",
+        "selector": "#question-8156",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "11713",
+        "dom_id": "question-11713",
+        "selector": "#question-11713",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-2570",
+        "filename": "01-step-2570.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-28401",
+        "filename": "02-step-28401.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-2571",
+        "filename": "03-step-2571.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-8276",
+        "filename": "04-question-8276.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-12303",
+        "filename": "05-question-12303.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-28402",
+        "filename": "06-step-28402.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-2574",
+        "filename": "07-step-2574.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-12437",
+        "filename": "08-question-12437.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-18951",
+        "filename": "09-question-18951.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-2576",
+        "filename": "10-step-2576.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-8157",
+        "filename": "11-question-8157.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-10072",
+        "filename": "12-question-10072.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-2578",
+        "filename": "13-step-2578.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-8156",
+        "filename": "14-question-8156.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-11713",
+        "filename": "15-question-11713.png"
+      }
+    ]
+  }
+}

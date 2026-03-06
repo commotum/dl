@@ -1,0 +1,468 @@
+{
+  "schema_version": 1,
+  "topic_id": "1632",
+  "topic_title": "Variance and Standard Deviation",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1632.html",
+  "source_url": "https://mathacademy.com/topics/1632",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "467718",
+        "dom_id": "sectionLink-467718",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-467718"
+      },
+      {
+        "index": 2,
+        "step_id": "467719",
+        "dom_id": "sectionLink-467719",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-467719"
+      },
+      {
+        "index": 3,
+        "step_id": "467720",
+        "dom_id": "sectionLink-467720",
+        "name": "",
+        "title": "Computing the Variance of a Data Set Using the Definition",
+        "selector": "#sectionLink-467720"
+      },
+      {
+        "index": 4,
+        "step_id": "467724",
+        "dom_id": "sectionLink-467724",
+        "name": "",
+        "title": "A Formula for Quickly Computing the Variance",
+        "selector": "#sectionLink-467724"
+      },
+      {
+        "index": 5,
+        "step_id": "467725",
+        "dom_id": "sectionLink-467725",
+        "name": "",
+        "title": "Computing the Variance Given the Number, Sum, and Sum of Squares of the Data Points",
+        "selector": "#sectionLink-467725"
+      },
+      {
+        "index": 6,
+        "step_id": "467728",
+        "dom_id": "sectionLink-467728",
+        "name": "",
+        "title": "Computing the Variance of a Data Set Using the Formula",
+        "selector": "#sectionLink-467728"
+      },
+      {
+        "index": 7,
+        "step_id": "467732",
+        "dom_id": "sectionLink-467732",
+        "name": "",
+        "title": "Standard Deviation",
+        "selector": "#sectionLink-467732"
+      },
+      {
+        "index": 8,
+        "step_id": "467733",
+        "dom_id": "sectionLink-467733",
+        "name": "",
+        "title": "Computing the Standard Deviation of a Data Set",
+        "selector": "#sectionLink-467733"
+      },
+      {
+        "index": 9,
+        "step_id": "467736",
+        "dom_id": "sectionLink-467736",
+        "name": "",
+        "title": "Why We Use the Squared Difference",
+        "selector": "#sectionLink-467736"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "96",
+        "name": "Absolute Value Expressions",
+        "href": "/topics/absolute-value-expressions-96"
+      },
+      {
+        "topic_id": "1634",
+        "name": "The Mean of a Data Set",
+        "href": "/topics/the-mean-of-a-data-set-1634"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 19,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "467718",
+        "content_id": "4584",
+        "dom_id": "step-467718",
+        "selector": "#step-467718",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "467719",
+        "content_id": "6555",
+        "dom_id": "step-467719",
+        "selector": "#step-467719",
+        "step_anchor": "step-2",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "467720",
+        "content_id": "7638",
+        "dom_id": "step-467720",
+        "selector": "#step-467720",
+        "step_anchor": "step-3",
+        "title": "Computing the Variance of a Data Set Using the Definition",
+        "key_prerequisites": [
+          {
+            "topic_id": "1634",
+            "name": "The Mean of a Data Set",
+            "href": "/topics/1634"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "263259",
+        "dom_id": "question-263259",
+        "selector": "#question-263259",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "87252",
+        "dom_id": "question-87252",
+        "selector": "#question-87252",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "263293",
+        "dom_id": "question-263293",
+        "selector": "#question-263293",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "467724",
+        "content_id": "4605",
+        "dom_id": "step-467724",
+        "selector": "#step-467724",
+        "step_anchor": "step-7",
+        "title": "A Formula for Quickly Computing the Variance",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "467725",
+        "content_id": "7641",
+        "dom_id": "step-467725",
+        "selector": "#step-467725",
+        "step_anchor": "step-8",
+        "title": "Computing the Variance Given the Number, Sum, and Sum of Squares of the Data Points",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "87249",
+        "dom_id": "question-87249",
+        "selector": "#question-87249",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "246720",
+        "dom_id": "question-246720",
+        "selector": "#question-246720",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "467728",
+        "content_id": "7639",
+        "dom_id": "step-467728",
+        "selector": "#step-467728",
+        "step_anchor": "step-11",
+        "title": "Computing the Variance of a Data Set Using the Formula",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "263417",
+        "dom_id": "question-263417",
+        "selector": "#question-263417",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "87558",
+        "dom_id": "question-87558",
+        "selector": "#question-87558",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "263434",
+        "dom_id": "question-263434",
+        "selector": "#question-263434",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "467732",
+        "content_id": "4602",
+        "dom_id": "step-467732",
+        "selector": "#step-467732",
+        "step_anchor": "step-15",
+        "title": "Standard Deviation",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 16,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "467733",
+        "content_id": "7640",
+        "dom_id": "step-467733",
+        "selector": "#step-467733",
+        "step_anchor": "step-16",
+        "title": "Computing the Standard Deviation of a Data Set",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "question_id": "87251",
+        "dom_id": "question-87251",
+        "selector": "#question-87251",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 18,
+        "item_type": "question",
+        "question_id": "246726",
+        "dom_id": "question-246726",
+        "selector": "#question-246726",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 19,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "467736",
+        "content_id": "4617",
+        "dom_id": "step-467736",
+        "selector": "#step-467736",
+        "step_anchor": "step-19",
+        "title": "Why We Use the Squared Difference",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-467718",
+        "filename": "01-step-467718.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-467719",
+        "filename": "02-step-467719.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-467720",
+        "filename": "03-step-467720.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-263259",
+        "filename": "04-question-263259.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-87252",
+        "filename": "05-question-87252.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-263293",
+        "filename": "06-question-263293.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-467724",
+        "filename": "07-step-467724.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-467725",
+        "filename": "08-step-467725.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-87249",
+        "filename": "09-question-87249.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-246720",
+        "filename": "10-question-246720.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-467728",
+        "filename": "11-step-467728.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-263417",
+        "filename": "12-question-263417.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-87558",
+        "filename": "13-question-87558.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-263434",
+        "filename": "14-question-263434.png"
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "selector": "#step-467732",
+        "filename": "15-step-467732.png"
+      },
+      {
+        "index": 16,
+        "item_type": "step",
+        "selector": "#step-467733",
+        "filename": "16-step-467733.png"
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "selector": "#question-87251",
+        "filename": "17-question-87251.png"
+      },
+      {
+        "index": 18,
+        "item_type": "question",
+        "selector": "#question-246726",
+        "filename": "18-question-246726.png"
+      },
+      {
+        "index": 19,
+        "item_type": "step",
+        "selector": "#step-467736",
+        "filename": "19-step-467736.png"
+      }
+    ]
+  }
+}

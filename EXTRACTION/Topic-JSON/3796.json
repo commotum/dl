@@ -1,0 +1,342 @@
+{
+  "schema_version": 1,
+  "topic_id": "3796",
+  "topic_title": "Moore Machines",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3796.html",
+  "source_url": "https://mathacademy.com/topics/3796",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "418659",
+        "dom_id": "sectionLink-418659",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-418659"
+      },
+      {
+        "index": 2,
+        "step_id": "418661",
+        "dom_id": "sectionLink-418661",
+        "name": "",
+        "title": "Transition and Output Tables of Moore Machines",
+        "selector": "#sectionLink-418661"
+      },
+      {
+        "index": 3,
+        "step_id": "418662",
+        "dom_id": "sectionLink-418662",
+        "name": "",
+        "title": "Constructing Transition and Output Tables Given a Diagram",
+        "selector": "#sectionLink-418662"
+      },
+      {
+        "index": 4,
+        "step_id": "418665",
+        "dom_id": "sectionLink-418665",
+        "name": "",
+        "title": "Drawing a Diagram Given Transition and Output Tables",
+        "selector": "#sectionLink-418665"
+      },
+      {
+        "index": 5,
+        "step_id": "418668",
+        "dom_id": "sectionLink-418668",
+        "name": "",
+        "title": "Using Moore Machines to Process Strings",
+        "selector": "#sectionLink-418668"
+      },
+      {
+        "index": 6,
+        "step_id": "418669",
+        "dom_id": "sectionLink-418669",
+        "name": "",
+        "title": "Applying a Moore Machine to a String",
+        "selector": "#sectionLink-418669"
+      },
+      {
+        "index": 7,
+        "step_id": "418672",
+        "dom_id": "sectionLink-418672",
+        "name": "",
+        "title": "Moore Machines vs Mealy Machines",
+        "selector": "#sectionLink-418672"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "45",
+        "name": "Sets",
+        "href": "/topics/sets-45"
+      },
+      {
+        "topic_id": "3795",
+        "name": "Mealy Machines",
+        "href": "/topics/mealy-machines-3795"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "418659",
+        "content_id": "10058",
+        "dom_id": "step-418659",
+        "selector": "#step-418659",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "418661",
+        "content_id": "11589",
+        "dom_id": "step-418661",
+        "selector": "#step-418661",
+        "step_anchor": "step-2",
+        "title": "Transition and Output Tables of Moore Machines",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "418662",
+        "content_id": "15712",
+        "dom_id": "step-418662",
+        "selector": "#step-418662",
+        "step_anchor": "step-3",
+        "title": "Constructing Transition and Output Tables Given a Diagram",
+        "key_prerequisites": [
+          {
+            "topic_id": "3795",
+            "name": "Mealy Machines",
+            "href": "/topics/3795"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "238697",
+        "dom_id": "question-238697",
+        "selector": "#question-238697",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "238495",
+        "dom_id": "question-238495",
+        "selector": "#question-238495",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "418665",
+        "content_id": "15727",
+        "dom_id": "step-418665",
+        "selector": "#step-418665",
+        "step_anchor": "step-6",
+        "title": "Drawing a Diagram Given Transition and Output Tables",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "258891",
+        "dom_id": "question-258891",
+        "selector": "#question-258891",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "238745",
+        "dom_id": "question-238745",
+        "selector": "#question-238745",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "418668",
+        "content_id": "11590",
+        "dom_id": "step-418668",
+        "selector": "#step-418668",
+        "step_anchor": "step-9",
+        "title": "Using Moore Machines to Process Strings",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "418669",
+        "content_id": "15728",
+        "dom_id": "step-418669",
+        "selector": "#step-418669",
+        "step_anchor": "step-10",
+        "title": "Applying a Moore Machine to a String",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "258845",
+        "dom_id": "question-258845",
+        "selector": "#question-258845",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "259044",
+        "dom_id": "question-259044",
+        "selector": "#question-259044",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "418672",
+        "content_id": "11037",
+        "dom_id": "step-418672",
+        "selector": "#step-418672",
+        "step_anchor": "step-13",
+        "title": "Moore Machines vs Mealy Machines",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-418659",
+        "filename": "01-step-418659.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-418661",
+        "filename": "02-step-418661.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-418662",
+        "filename": "03-step-418662.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-238697",
+        "filename": "04-question-238697.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-238495",
+        "filename": "05-question-238495.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-418665",
+        "filename": "06-step-418665.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-258891",
+        "filename": "07-question-258891.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-238745",
+        "filename": "08-question-238745.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-418668",
+        "filename": "09-step-418668.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-418669",
+        "filename": "10-step-418669.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-258845",
+        "filename": "11-question-258845.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-259044",
+        "filename": "12-question-259044.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-418672",
+        "filename": "13-step-418672.png"
+      }
+    ]
+  }
+}

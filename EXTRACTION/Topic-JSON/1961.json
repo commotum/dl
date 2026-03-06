@@ -1,0 +1,368 @@
+{
+  "schema_version": 1,
+  "topic_id": "1961",
+  "topic_title": "The Matrix of a Linear Transformation Relative to a Basis",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1961.html",
+  "source_url": "https://mathacademy.com/topics/1961",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "20139",
+        "dom_id": "sectionLink-20139",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-20139"
+      },
+      {
+        "index": 2,
+        "step_id": "20141",
+        "dom_id": "sectionLink-20141",
+        "name": "",
+        "title": "Calculating the Image of a Vector Given the Matrix of a Linear Transformation Relative to a Basis",
+        "selector": "#sectionLink-20141"
+      },
+      {
+        "index": 3,
+        "step_id": "20142",
+        "dom_id": "sectionLink-20142",
+        "name": "",
+        "title": "The General Case",
+        "selector": "#sectionLink-20142"
+      },
+      {
+        "index": 4,
+        "step_id": "26810",
+        "dom_id": "sectionLink-26810",
+        "name": "",
+        "title": "Finding the Matrix of a Linear Transformation Given the Images of the Basis Vectors",
+        "selector": "#sectionLink-26810"
+      },
+      {
+        "index": 5,
+        "step_id": "20140",
+        "dom_id": "sectionLink-20140",
+        "name": "",
+        "title": "Finding the Matrix of a Linear Transformation Relative to a Basis in a Two-Dimensional Vector Space",
+        "selector": "#sectionLink-20140"
+      },
+      {
+        "index": 6,
+        "step_id": "20143",
+        "dom_id": "sectionLink-20143",
+        "name": "",
+        "title": "Finding the Matrix of a Linear Transformation Relative to a Basis in a Three-Dimensional Vector Space",
+        "selector": "#sectionLink-20143"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1864",
+        "name": "Expressing the Coordinates of a Vector in a Given Basis",
+        "href": "/topics/expressing-the-coordinates-of-a-vector-in-a-given-basis-1864"
+      },
+      {
+        "topic_id": "2211",
+        "name": "The Standard Matrix of a Linear Transformation in Terms of the Standard Basis",
+        "href": "/topics/the-standard-matrix-of-a-linear-transformation-in-terms-of-the-standard-basis-2211"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20139",
+        "content_id": "3583",
+        "dom_id": "step-20139",
+        "selector": "#step-20139",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20141",
+        "content_id": "5514",
+        "dom_id": "step-20141",
+        "selector": "#step-20141",
+        "step_anchor": "step-2",
+        "title": "Calculating the Image of a Vector Given the Matrix of a Linear Transformation Relative to a Basis",
+        "key_prerequisites": [
+          {
+            "topic_id": "1195",
+            "name": "Multiplying a Matrix by a Column Vector",
+            "href": "/topics/1195"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "82162",
+        "dom_id": "question-82162",
+        "selector": "#question-82162",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "38087",
+        "dom_id": "question-38087",
+        "selector": "#question-38087",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20142",
+        "content_id": "3584",
+        "dom_id": "step-20142",
+        "selector": "#step-20142",
+        "step_anchor": "step-5",
+        "title": "The General Case",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "26810",
+        "content_id": "7249",
+        "dom_id": "step-26810",
+        "selector": "#step-26810",
+        "step_anchor": "step-6",
+        "title": "Finding the Matrix of a Linear Transformation Given the Images of the Basis Vectors",
+        "key_prerequisites": [
+          {
+            "topic_id": "1864",
+            "name": "Expressing the Coordinates of a Vector in a Given Basis",
+            "href": "/topics/1864"
+          },
+          {
+            "topic_id": "2211",
+            "name": "The Standard Matrix of a Linear Transformation in Terms of the Standard Basis",
+            "href": "/topics/2211"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "82171",
+        "dom_id": "question-82171",
+        "selector": "#question-82171",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "38185",
+        "dom_id": "question-38185",
+        "selector": "#question-38185",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20140",
+        "content_id": "5513",
+        "dom_id": "step-20140",
+        "selector": "#step-20140",
+        "step_anchor": "step-9",
+        "title": "Finding the Matrix of a Linear Transformation Relative to a Basis in a Two-Dimensional Vector Space",
+        "key_prerequisites": [
+          {
+            "topic_id": "1049",
+            "name": "Reduced Row Echelon Form",
+            "href": "/topics/1049"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "38194",
+        "dom_id": "question-38194",
+        "selector": "#question-38194",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "38188",
+        "dom_id": "question-38188",
+        "selector": "#question-38188",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20143",
+        "content_id": "5515",
+        "dom_id": "step-20143",
+        "selector": "#step-20143",
+        "step_anchor": "step-12",
+        "title": "Finding the Matrix of a Linear Transformation Relative to a Basis in a Three-Dimensional Vector Space",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "38152",
+        "dom_id": "question-38152",
+        "selector": "#question-38152",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "38919",
+        "dom_id": "question-38919",
+        "selector": "#question-38919",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-20139",
+        "filename": "01-step-20139.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-20141",
+        "filename": "02-step-20141.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-82162",
+        "filename": "03-question-82162.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-38087",
+        "filename": "04-question-38087.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-20142",
+        "filename": "05-step-20142.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-26810",
+        "filename": "06-step-26810.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-82171",
+        "filename": "07-question-82171.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-38185",
+        "filename": "08-question-38185.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-20140",
+        "filename": "09-step-20140.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-38194",
+        "filename": "10-question-38194.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-38188",
+        "filename": "11-question-38188.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-20143",
+        "filename": "12-step-20143.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-38152",
+        "filename": "13-question-38152.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-38919",
+        "filename": "14-question-38919.png"
+      }
+    ]
+  }
+}

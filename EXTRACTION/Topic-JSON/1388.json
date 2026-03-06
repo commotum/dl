@@ -1,0 +1,417 @@
+{
+  "schema_version": 1,
+  "topic_id": "1388",
+  "topic_title": "Variance of Discrete Random Variables",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1388.html",
+  "source_url": "https://mathacademy.com/topics/1388",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "27399",
+        "dom_id": "sectionLink-27399",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-27399"
+      },
+      {
+        "index": 2,
+        "step_id": "27395",
+        "dom_id": "sectionLink-27395",
+        "name": "",
+        "title": "Computing Variance Using the Definition Given a Probability Mass Function",
+        "selector": "#sectionLink-27395"
+      },
+      {
+        "index": 3,
+        "step_id": "27500",
+        "dom_id": "sectionLink-27500",
+        "name": "",
+        "title": "A Formula for Quickly Computing the Variance",
+        "selector": "#sectionLink-27500"
+      },
+      {
+        "index": 4,
+        "step_id": "27502",
+        "dom_id": "sectionLink-27502",
+        "name": "",
+        "title": "Computing Variance Given the Expected Value of a Random Variable and Its Square",
+        "selector": "#sectionLink-27502"
+      },
+      {
+        "index": 5,
+        "step_id": "27501",
+        "dom_id": "sectionLink-27501",
+        "name": "",
+        "title": "Computing Variance Given a Probability Mass Function",
+        "selector": "#sectionLink-27501"
+      },
+      {
+        "index": 6,
+        "step_id": "27749",
+        "dom_id": "sectionLink-27749",
+        "name": "",
+        "title": "The Standard Deviation of a Random Variable",
+        "selector": "#sectionLink-27749"
+      },
+      {
+        "index": 7,
+        "step_id": "27397",
+        "dom_id": "sectionLink-27397",
+        "name": "",
+        "title": "Computing the Standard Deviation of a Random Variable",
+        "selector": "#sectionLink-27397"
+      },
+      {
+        "index": 8,
+        "step_id": "32921",
+        "dom_id": "sectionLink-32921",
+        "name": "",
+        "title": "Proving the Formula For the Variance in Terms of First and Second Raw Moments",
+        "selector": "#sectionLink-32921"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1632",
+        "name": "Variance and Standard Deviation",
+        "href": "/topics/variance-and-standard-deviation-1632"
+      },
+      {
+        "topic_id": "3642",
+        "name": "Moments of Discrete Random Variables",
+        "href": "/topics/moments-of-discrete-random-variables-3642"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 16,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "27399",
+        "content_id": "4450",
+        "dom_id": "step-27399",
+        "selector": "#step-27399",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "27395",
+        "content_id": "7388",
+        "dom_id": "step-27395",
+        "selector": "#step-27395",
+        "step_anchor": "step-2",
+        "title": "Computing Variance Using the Definition Given a Probability Mass Function",
+        "key_prerequisites": [
+          {
+            "topic_id": "730",
+            "name": "Expected Values of Discrete Random Variables",
+            "href": "/topics/730"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "83711",
+        "dom_id": "question-83711",
+        "selector": "#question-83711",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "83666",
+        "dom_id": "question-83666",
+        "selector": "#question-83666",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "27500",
+        "content_id": "4467",
+        "dom_id": "step-27500",
+        "selector": "#step-27500",
+        "step_anchor": "step-5",
+        "title": "A Formula for Quickly Computing the Variance",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "27502",
+        "content_id": "7416",
+        "dom_id": "step-27502",
+        "selector": "#step-27502",
+        "step_anchor": "step-6",
+        "title": "Computing Variance Given the Expected Value of a Random Variable and Its Square",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "83858",
+        "dom_id": "question-83858",
+        "selector": "#question-83858",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "83859",
+        "dom_id": "question-83859",
+        "selector": "#question-83859",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "27501",
+        "content_id": "7415",
+        "dom_id": "step-27501",
+        "selector": "#step-27501",
+        "step_anchor": "step-9",
+        "title": "Computing Variance Given a Probability Mass Function",
+        "key_prerequisites": [
+          {
+            "topic_id": "3642",
+            "name": "Moments of Discrete Random Variables",
+            "href": "/topics/3642"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "83821",
+        "dom_id": "question-83821",
+        "selector": "#question-83821",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "83820",
+        "dom_id": "question-83820",
+        "selector": "#question-83820",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "27749",
+        "content_id": "4508",
+        "dom_id": "step-27749",
+        "selector": "#step-27749",
+        "step_anchor": "step-12",
+        "title": "The Standard Deviation of a Random Variable",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "27397",
+        "content_id": "7390",
+        "dom_id": "step-27397",
+        "selector": "#step-27397",
+        "step_anchor": "step-13",
+        "title": "Computing the Standard Deviation of a Random Variable",
+        "key_prerequisites": [
+          {
+            "topic_id": "1632",
+            "name": "Variance and Standard Deviation",
+            "href": "/topics/1632"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "83713",
+        "dom_id": "question-83713",
+        "selector": "#question-83713",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "83714",
+        "dom_id": "question-83714",
+        "selector": "#question-83714",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "32921",
+        "content_id": "5259",
+        "dom_id": "step-32921",
+        "selector": "#step-32921",
+        "step_anchor": "step-16",
+        "title": "Proving the Formula For the Variance in Terms of First and Second Raw Moments",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-27399",
+        "filename": "01-step-27399.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-27395",
+        "filename": "02-step-27395.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-83711",
+        "filename": "03-question-83711.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-83666",
+        "filename": "04-question-83666.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-27500",
+        "filename": "05-step-27500.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-27502",
+        "filename": "06-step-27502.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-83858",
+        "filename": "07-question-83858.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-83859",
+        "filename": "08-question-83859.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-27501",
+        "filename": "09-step-27501.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-83821",
+        "filename": "10-question-83821.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-83820",
+        "filename": "11-question-83820.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-27749",
+        "filename": "12-step-27749.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-27397",
+        "filename": "13-step-27397.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-83713",
+        "filename": "14-question-83713.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-83714",
+        "filename": "15-question-83714.png"
+      },
+      {
+        "index": 16,
+        "item_type": "step",
+        "selector": "#step-32921",
+        "filename": "16-step-32921.png"
+      }
+    ]
+  }
+}

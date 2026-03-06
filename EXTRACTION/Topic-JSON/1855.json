@@ -1,0 +1,332 @@
+{
+  "schema_version": 1,
+  "topic_id": "1855",
+  "topic_title": "Finding a Basis of a Span",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1855.html",
+  "source_url": "https://mathacademy.com/topics/1855",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "17504",
+        "dom_id": "sectionLink-17504",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-17504"
+      },
+      {
+        "index": 2,
+        "step_id": "17505",
+        "dom_id": "sectionLink-17505",
+        "name": "",
+        "title": "Finding a Basis of the Space Spanned by a Set of Vectors Using Inspection",
+        "selector": "#sectionLink-17505"
+      },
+      {
+        "index": 3,
+        "step_id": "23378",
+        "dom_id": "sectionLink-23378",
+        "name": "",
+        "title": "Finding a Basis by Identifying Pivot Columns",
+        "selector": "#sectionLink-23378"
+      },
+      {
+        "index": 4,
+        "step_id": "23379",
+        "dom_id": "sectionLink-23379",
+        "name": "",
+        "title": "Finding a Basis of the Space Spanned by a Set of Vectors by Identifying Pivot Columns",
+        "selector": "#sectionLink-23379"
+      },
+      {
+        "index": 5,
+        "step_id": "23546",
+        "dom_id": "sectionLink-23546",
+        "name": "",
+        "title": "Finding a Particular Linear Combination of Vectors",
+        "selector": "#sectionLink-23546"
+      },
+      {
+        "index": 6,
+        "step_id": "23547",
+        "dom_id": "sectionLink-23547",
+        "name": "",
+        "title": "Determining Whether a Given Set Is a Basis of a Span",
+        "selector": "#sectionLink-23547"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1861",
+        "name": "Linear Dependence and Independence",
+        "href": "/topics/linear-dependence-and-independence-1861"
+      },
+      {
+        "topic_id": "4077",
+        "name": "Subspaces of N-Dimensional Space: Geometric Interpretation",
+        "href": "/topics/subspaces-of-n-dimensional-space-geometric-interpretation-4077"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "17504",
+        "content_id": "3206",
+        "dom_id": "step-17504",
+        "selector": "#step-17504",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17505",
+        "content_id": "4816",
+        "dom_id": "step-17505",
+        "selector": "#step-17505",
+        "step_anchor": "step-2",
+        "title": "Finding a Basis of the Space Spanned by a Set of Vectors Using Inspection",
+        "key_prerequisites": [
+          {
+            "topic_id": "1861",
+            "name": "Linear Dependence and Independence",
+            "href": "/topics/1861"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "74723",
+        "dom_id": "question-74723",
+        "selector": "#question-74723",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "74724",
+        "dom_id": "question-74724",
+        "selector": "#question-74724",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "23378",
+        "content_id": "3945",
+        "dom_id": "step-23378",
+        "selector": "#step-23378",
+        "step_anchor": "step-5",
+        "title": "Finding a Basis by Identifying Pivot Columns",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "23379",
+        "content_id": "6237",
+        "dom_id": "step-23379",
+        "selector": "#step-23379",
+        "step_anchor": "step-6",
+        "title": "Finding a Basis of the Space Spanned by a Set of Vectors by Identifying Pivot Columns",
+        "key_prerequisites": [
+          {
+            "topic_id": "1904",
+            "name": "Identifying the Pivot Columns of a Matrix",
+            "href": "/topics/1904"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "35694",
+        "dom_id": "question-35694",
+        "selector": "#question-35694",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "34464",
+        "dom_id": "question-34464",
+        "selector": "#question-34464",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "23546",
+        "content_id": "3968",
+        "dom_id": "step-23546",
+        "selector": "#step-23546",
+        "step_anchor": "step-9",
+        "title": "Finding a Particular Linear Combination of Vectors",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "23547",
+        "content_id": "6257",
+        "dom_id": "step-23547",
+        "selector": "#step-23547",
+        "step_anchor": "step-10",
+        "title": "Determining Whether a Given Set Is a Basis of a Span",
+        "key_prerequisites": [
+          {
+            "topic_id": "151",
+            "name": "Solving 2x2 Systems of Equations Using Gaussian Elimination",
+            "href": "/topics/151"
+          },
+          {
+            "topic_id": "1374",
+            "name": "Solving 3x3 Singular Systems of Equations Using Gaussian Elimination",
+            "href": "/topics/1374"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "75588",
+        "dom_id": "question-75588",
+        "selector": "#question-75588",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "75580",
+        "dom_id": "question-75580",
+        "selector": "#question-75580",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-17504",
+        "filename": "01-step-17504.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-17505",
+        "filename": "02-step-17505.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-74723",
+        "filename": "03-question-74723.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-74724",
+        "filename": "04-question-74724.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-23378",
+        "filename": "05-step-23378.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-23379",
+        "filename": "06-step-23379.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-35694",
+        "filename": "07-question-35694.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-34464",
+        "filename": "08-question-34464.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-23546",
+        "filename": "09-step-23546.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-23547",
+        "filename": "10-step-23547.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-75588",
+        "filename": "11-question-75588.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-75580",
+        "filename": "12-question-75580.png"
+      }
+    ]
+  }
+}

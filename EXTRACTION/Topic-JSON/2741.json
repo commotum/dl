@@ -1,0 +1,363 @@
+{
+  "schema_version": 1,
+  "topic_id": "2741",
+  "topic_title": "Second-Order Homogeneous Initial Value Problems",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2741.html",
+  "source_url": "https://mathacademy.com/topics/2741",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "593800",
+        "dom_id": "sectionLink-593800",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-593800"
+      },
+      {
+        "index": 2,
+        "step_id": "607933",
+        "dom_id": "sectionLink-607933",
+        "name": "",
+        "title": "Solving the Initial Value Problem",
+        "selector": "#sectionLink-607933"
+      },
+      {
+        "index": 3,
+        "step_id": "593801",
+        "dom_id": "sectionLink-593801",
+        "name": "",
+        "title": "Solving Second-Order IVPs When the Characteristic Equation Has Distinct Real Roots",
+        "selector": "#sectionLink-593801"
+      },
+      {
+        "index": 4,
+        "step_id": "593804",
+        "dom_id": "sectionLink-593804",
+        "name": "",
+        "title": "Solving Second-Order IVPs When the Characteristic Equation Has Repeated Roots",
+        "selector": "#sectionLink-593804"
+      },
+      {
+        "index": 5,
+        "step_id": "593807",
+        "dom_id": "sectionLink-593807",
+        "name": "",
+        "title": "Solving Second-Order IVPs When the Characteristic Equation Has Imaginary Roots",
+        "selector": "#sectionLink-593807"
+      },
+      {
+        "index": 6,
+        "step_id": "593810",
+        "dom_id": "sectionLink-593810",
+        "name": "",
+        "title": "Solving Second-Order IVPs When the Characteristic Equation Has Complex Roots",
+        "selector": "#sectionLink-593810"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "879",
+        "name": "Second-Order Homogeneous ODEs: Characteristic Equations With Repeated Roots",
+        "href": "/topics/second-order-homogeneous-odes-characteristic-equations-with-repeated-roots-879"
+      },
+      {
+        "topic_id": "880",
+        "name": "Second-Order Homogeneous ODEs: Characteristic Equations With Complex Roots",
+        "href": "/topics/second-order-homogeneous-odes-characteristic-equations-with-complex-roots-880"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "593800",
+        "content_id": "4189",
+        "dom_id": "step-593800",
+        "selector": "#step-593800",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "607933",
+        "content_id": "14883",
+        "dom_id": "step-607933",
+        "selector": "#step-607933",
+        "step_anchor": "step-2",
+        "title": "Solving the Initial Value Problem",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "593801",
+        "content_id": "6861",
+        "dom_id": "step-593801",
+        "selector": "#step-593801",
+        "step_anchor": "step-3",
+        "title": "Solving Second-Order IVPs When the Characteristic Equation Has Distinct Real Roots",
+        "key_prerequisites": [
+          {
+            "topic_id": "614",
+            "name": "Second-Order Homogeneous ODEs: Characteristic Equations With Distinct Real Roots",
+            "href": "/topics/614"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "7788",
+        "dom_id": "question-7788",
+        "selector": "#question-7788",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "130343",
+        "dom_id": "question-130343",
+        "selector": "#question-130343",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "593804",
+        "content_id": "6862",
+        "dom_id": "step-593804",
+        "selector": "#step-593804",
+        "step_anchor": "step-6",
+        "title": "Solving Second-Order IVPs When the Characteristic Equation Has Repeated Roots",
+        "key_prerequisites": [
+          {
+            "topic_id": "879",
+            "name": "Second-Order Homogeneous ODEs: Characteristic Equations With Repeated Roots",
+            "href": "/topics/879"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "7814",
+        "dom_id": "question-7814",
+        "selector": "#question-7814",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "130346",
+        "dom_id": "question-130346",
+        "selector": "#question-130346",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "593807",
+        "content_id": "6791",
+        "dom_id": "step-593807",
+        "selector": "#step-593807",
+        "step_anchor": "step-9",
+        "title": "Solving Second-Order IVPs When the Characteristic Equation Has Imaginary Roots",
+        "key_prerequisites": [
+          {
+            "topic_id": "880",
+            "name": "Second-Order Homogeneous ODEs: Characteristic Equations With Complex Roots",
+            "href": "/topics/880"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "65117",
+        "dom_id": "question-65117",
+        "selector": "#question-65117",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "130365",
+        "dom_id": "question-130365",
+        "selector": "#question-130365",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "593810",
+        "content_id": "7051",
+        "dom_id": "step-593810",
+        "selector": "#step-593810",
+        "step_anchor": "step-12",
+        "title": "Solving Second-Order IVPs When the Characteristic Equation Has Complex Roots",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "7895",
+        "dom_id": "question-7895",
+        "selector": "#question-7895",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "130534",
+        "dom_id": "question-130534",
+        "selector": "#question-130534",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-593800",
+        "filename": "01-step-593800.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-607933",
+        "filename": "02-step-607933.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-593801",
+        "filename": "03-step-593801.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-7788",
+        "filename": "04-question-7788.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-130343",
+        "filename": "05-question-130343.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-593804",
+        "filename": "06-step-593804.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-7814",
+        "filename": "07-question-7814.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-130346",
+        "filename": "08-question-130346.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-593807",
+        "filename": "09-step-593807.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-65117",
+        "filename": "10-question-65117.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-130365",
+        "filename": "11-question-130365.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-593810",
+        "filename": "12-step-593810.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-7895",
+        "filename": "13-question-7895.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-130534",
+        "filename": "14-question-130534.png"
+      }
+    ]
+  }
+}

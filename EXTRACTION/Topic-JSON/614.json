@@ -1,0 +1,299 @@
+{
+  "schema_version": 1,
+  "topic_id": "614",
+  "topic_title": "Second-Order Homogeneous ODEs: Characteristic Equations With Distinct Real Roots",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/614.html",
+  "source_url": "https://mathacademy.com/topics/614",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "24219",
+        "dom_id": "sectionLink-24219",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-24219"
+      },
+      {
+        "index": 2,
+        "step_id": "607934",
+        "dom_id": "sectionLink-607934",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-607934"
+      },
+      {
+        "index": 3,
+        "step_id": "24220",
+        "dom_id": "sectionLink-24220",
+        "name": "",
+        "title": "Constructing and Solving a Characteristic Equation",
+        "selector": "#sectionLink-24220"
+      },
+      {
+        "index": 4,
+        "step_id": "24221",
+        "dom_id": "sectionLink-24221",
+        "name": "",
+        "title": "Finding General Solutions of Second-Order Homogeneous ODEs",
+        "selector": "#sectionLink-24221"
+      },
+      {
+        "index": 5,
+        "step_id": "24222",
+        "dom_id": "sectionLink-24222",
+        "name": "",
+        "title": "Identifying Non-Solutions of Second-Order Homogeneous ODEs",
+        "selector": "#sectionLink-24222"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2740",
+        "name": "General Solutions of Linear ODEs",
+        "href": "/topics/general-solutions-of-linear-odes-2740"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "24219",
+        "content_id": "4046",
+        "dom_id": "step-24219",
+        "selector": "#step-24219",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "607934",
+        "content_id": "14884",
+        "dom_id": "step-607934",
+        "selector": "#step-607934",
+        "step_anchor": "step-2",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "24220",
+        "content_id": "6587",
+        "dom_id": "step-24220",
+        "selector": "#step-24220",
+        "step_anchor": "step-3",
+        "title": "Constructing and Solving a Characteristic Equation",
+        "key_prerequisites": [
+          {
+            "topic_id": "375",
+            "name": "Solving Quadratic Equations by Factoring",
+            "href": "/topics/375"
+          },
+          {
+            "topic_id": "1181",
+            "name": "Verifying Solutions of Differential Equations",
+            "href": "/topics/1181"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "64704",
+        "dom_id": "question-64704",
+        "selector": "#question-64704",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "64658",
+        "dom_id": "question-64658",
+        "selector": "#question-64658",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "24221",
+        "content_id": "6588",
+        "dom_id": "step-24221",
+        "selector": "#step-24221",
+        "step_anchor": "step-6",
+        "title": "Finding General Solutions of Second-Order Homogeneous ODEs",
+        "key_prerequisites": [
+          {
+            "topic_id": "1007",
+            "name": "The Chain Rule With Exponential Functions",
+            "href": "/topics/1007"
+          },
+          {
+            "topic_id": "2740",
+            "name": "General Solutions of Linear ODEs",
+            "href": "/topics/2740"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "7781",
+        "dom_id": "question-7781",
+        "selector": "#question-7781",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "7784",
+        "dom_id": "question-7784",
+        "selector": "#question-7784",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "24222",
+        "content_id": "6589",
+        "dom_id": "step-24222",
+        "selector": "#step-24222",
+        "step_anchor": "step-9",
+        "title": "Identifying Non-Solutions of Second-Order Homogeneous ODEs",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "64707",
+        "dom_id": "question-64707",
+        "selector": "#question-64707",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "64659",
+        "dom_id": "question-64659",
+        "selector": "#question-64659",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-24219",
+        "filename": "01-step-24219.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-607934",
+        "filename": "02-step-607934.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-24220",
+        "filename": "03-step-24220.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-64704",
+        "filename": "04-question-64704.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-64658",
+        "filename": "05-question-64658.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-24221",
+        "filename": "06-step-24221.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-7781",
+        "filename": "07-question-7781.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-7784",
+        "filename": "08-question-7784.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-24222",
+        "filename": "09-step-24222.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-64707",
+        "filename": "10-question-64707.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-64659",
+        "filename": "11-question-64659.png"
+      }
+    ]
+  }
+}

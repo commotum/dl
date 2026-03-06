@@ -1,0 +1,408 @@
+{
+  "schema_version": 1,
+  "topic_id": "2117",
+  "topic_title": "Extending Green's Theorem",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2117.html",
+  "source_url": "https://mathacademy.com/topics/2117",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "35870",
+        "dom_id": "sectionLink-35870",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-35870"
+      },
+      {
+        "index": 2,
+        "step_id": "33792",
+        "dom_id": "sectionLink-33792",
+        "name": "",
+        "title": "Calculating a Circulation Over a Region Containing Holes",
+        "selector": "#sectionLink-33792"
+      },
+      {
+        "index": 3,
+        "step_id": "35809",
+        "dom_id": "sectionLink-35809",
+        "name": "",
+        "title": "Calculating the Circulation of a Vector Field Over a Region Containing Holes",
+        "selector": "#sectionLink-35809"
+      },
+      {
+        "index": 4,
+        "step_id": "35820",
+        "dom_id": "sectionLink-35820",
+        "name": "",
+        "title": "Extending Green's Theorem to Regions With Holes",
+        "selector": "#sectionLink-35820"
+      },
+      {
+        "index": 5,
+        "step_id": "35871",
+        "dom_id": "sectionLink-35871",
+        "name": "",
+        "title": "Intuition Behind the Choice of Orentations",
+        "selector": "#sectionLink-35871"
+      },
+      {
+        "index": 6,
+        "step_id": "33916",
+        "dom_id": "sectionLink-33916",
+        "name": "",
+        "title": "Applying Green's Theorem to Regions With Holes",
+        "selector": "#sectionLink-33916"
+      },
+      {
+        "index": 7,
+        "step_id": "35821",
+        "dom_id": "sectionLink-35821",
+        "name": "",
+        "title": "A Note About Double Integrals Over Regions With Holes",
+        "selector": "#sectionLink-35821"
+      },
+      {
+        "index": 8,
+        "step_id": "35813",
+        "dom_id": "sectionLink-35813",
+        "name": "",
+        "title": "Applying Green's Theorem to Regions With Holes: Advanced Cases",
+        "selector": "#sectionLink-35813"
+      },
+      {
+        "index": 9,
+        "step_id": "35872",
+        "dom_id": "sectionLink-35872",
+        "name": "",
+        "title": "An Illustration of How To Extend Green\u2019s Theorem to Regions Containing Holes",
+        "selector": "#sectionLink-35872"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2198",
+        "name": "Using Green's Theorem to Calculate Area",
+        "href": "/topics/using-greens-theorem-to-calculate-area-2198"
+      },
+      {
+        "topic_id": "3627",
+        "name": "Green's Theorem in Polar Coordinates",
+        "href": "/topics/greens-theorem-in-polar-coordinates-3627"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "35870",
+        "content_id": "5858",
+        "dom_id": "step-35870",
+        "selector": "#step-35870",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "33792",
+        "content_id": "5417",
+        "dom_id": "step-33792",
+        "selector": "#step-33792",
+        "step_anchor": "step-2",
+        "title": "Calculating a Circulation Over a Region Containing Holes",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "35809",
+        "content_id": "9557",
+        "dom_id": "step-35809",
+        "selector": "#step-35809",
+        "step_anchor": "step-3",
+        "title": "Calculating the Circulation of a Vector Field Over a Region Containing Holes",
+        "key_prerequisites": [
+          {
+            "topic_id": "3713",
+            "name": "Circulation",
+            "href": "/topics/3713"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "126558",
+        "dom_id": "question-126558",
+        "selector": "#question-126558",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "126654",
+        "dom_id": "question-126654",
+        "selector": "#question-126654",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "35820",
+        "content_id": "5846",
+        "dom_id": "step-35820",
+        "selector": "#step-35820",
+        "step_anchor": "step-6",
+        "title": "Extending Green's Theorem to Regions With Holes",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "35871",
+        "content_id": "5859",
+        "dom_id": "step-35871",
+        "selector": "#step-35871",
+        "step_anchor": "step-7",
+        "title": "Intuition Behind the Choice of Orentations",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33916",
+        "content_id": "9097",
+        "dom_id": "step-33916",
+        "selector": "#step-33916",
+        "step_anchor": "step-8",
+        "title": "Applying Green's Theorem to Regions With Holes",
+        "key_prerequisites": [
+          {
+            "topic_id": "2198",
+            "name": "Using Green's Theorem to Calculate Area",
+            "href": "/topics/2198"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "126515",
+        "dom_id": "question-126515",
+        "selector": "#question-126515",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "126578",
+        "dom_id": "question-126578",
+        "selector": "#question-126578",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "35821",
+        "content_id": "5847",
+        "dom_id": "step-35821",
+        "selector": "#step-35821",
+        "step_anchor": "step-11",
+        "title": "A Note About Double Integrals Over Regions With Holes",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "35813",
+        "content_id": "9558",
+        "dom_id": "step-35813",
+        "selector": "#step-35813",
+        "step_anchor": "step-12",
+        "title": "Applying Green's Theorem to Regions With Holes: Advanced Cases",
+        "key_prerequisites": [
+          {
+            "topic_id": "3627",
+            "name": "Green's Theorem in Polar Coordinates",
+            "href": "/topics/3627"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "126566",
+        "dom_id": "question-126566",
+        "selector": "#question-126566",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "126645",
+        "dom_id": "question-126645",
+        "selector": "#question-126645",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "35872",
+        "content_id": "5860",
+        "dom_id": "step-35872",
+        "selector": "#step-35872",
+        "step_anchor": "step-15",
+        "title": "An Illustration of How To Extend Green\u2019s Theorem to Regions Containing Holes",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-35870",
+        "filename": "01-step-35870.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-33792",
+        "filename": "02-step-33792.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-35809",
+        "filename": "03-step-35809.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-126558",
+        "filename": "04-question-126558.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-126654",
+        "filename": "05-question-126654.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-35820",
+        "filename": "06-step-35820.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-35871",
+        "filename": "07-step-35871.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-33916",
+        "filename": "08-step-33916.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-126515",
+        "filename": "09-question-126515.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-126578",
+        "filename": "10-question-126578.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-35821",
+        "filename": "11-step-35821.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-35813",
+        "filename": "12-step-35813.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-126566",
+        "filename": "13-question-126566.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-126645",
+        "filename": "14-question-126645.png"
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "selector": "#step-35872",
+        "filename": "15-step-35872.png"
+      }
+    ]
+  }
+}

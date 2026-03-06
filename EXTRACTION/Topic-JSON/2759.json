@@ -1,0 +1,361 @@
+{
+  "schema_version": 1,
+  "topic_id": "2759",
+  "topic_title": "Dimension in Abstract Vector Spaces",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2759.html",
+  "source_url": "https://mathacademy.com/topics/2759",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "30958",
+        "dom_id": "sectionLink-30958",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-30958"
+      },
+      {
+        "index": 2,
+        "step_id": "30959",
+        "dom_id": "sectionLink-30959",
+        "name": "",
+        "title": "Determining the Dimension of a Polynomial Vector Space Given Its Standard Monomial Basis",
+        "selector": "#sectionLink-30959"
+      },
+      {
+        "index": 3,
+        "step_id": "31051",
+        "dom_id": "sectionLink-31051",
+        "name": "",
+        "title": "Determining the Dimension of a Matrix Vector Space Given Its Standard Basis",
+        "selector": "#sectionLink-31051"
+      },
+      {
+        "index": 4,
+        "step_id": "30960",
+        "dom_id": "sectionLink-30960",
+        "name": "",
+        "title": "Identifying True Statements About Dimensions of Vector Spaces",
+        "selector": "#sectionLink-30960"
+      },
+      {
+        "index": 5,
+        "step_id": "30961",
+        "dom_id": "sectionLink-30961",
+        "name": "",
+        "title": "Infinite-Dimensional Vector Spaces",
+        "selector": "#sectionLink-30961"
+      },
+      {
+        "index": 6,
+        "step_id": "30967",
+        "dom_id": "sectionLink-30967",
+        "name": "",
+        "title": "Identifying Finite and Infinite-Dimensional Vector Spaces",
+        "selector": "#sectionLink-30967"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "673",
+        "name": "Sigma Notation",
+        "href": "/topics/sigma-notation-673"
+      },
+      {
+        "topic_id": "1866",
+        "name": "The Dimension of a Span",
+        "href": "/topics/the-dimension-of-a-span-1866"
+      },
+      {
+        "topic_id": "3212",
+        "name": "The Coordinates of a Vector Relative to a Basis in Abstract Vector Spaces",
+        "href": "/topics/the-coordinates-of-a-vector-relative-to-a-basis-in-abstract-vector-spaces-3212"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "30958",
+        "content_id": "4971",
+        "dom_id": "step-30958",
+        "selector": "#step-30958",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30959",
+        "content_id": "8288",
+        "dom_id": "step-30959",
+        "selector": "#step-30959",
+        "step_anchor": "step-2",
+        "title": "Determining the Dimension of a Polynomial Vector Space Given Its Standard Monomial Basis",
+        "key_prerequisites": [
+          {
+            "topic_id": "1866",
+            "name": "The Dimension of a Span",
+            "href": "/topics/1866"
+          },
+          {
+            "topic_id": "1909",
+            "name": "Bases in Abstract Vector Spaces",
+            "href": "/topics/1909"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "95210",
+        "dom_id": "question-95210",
+        "selector": "#question-95210",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "36471",
+        "dom_id": "question-36471",
+        "selector": "#question-36471",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "31051",
+        "content_id": "8315",
+        "dom_id": "step-31051",
+        "selector": "#step-31051",
+        "step_anchor": "step-5",
+        "title": "Determining the Dimension of a Matrix Vector Space Given Its Standard Basis",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "95093",
+        "dom_id": "question-95093",
+        "selector": "#question-95093",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "36473",
+        "dom_id": "question-36473",
+        "selector": "#question-36473",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30960",
+        "content_id": "8289",
+        "dom_id": "step-30960",
+        "selector": "#step-30960",
+        "step_anchor": "step-8",
+        "title": "Identifying True Statements About Dimensions of Vector Spaces",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "36477",
+        "dom_id": "question-36477",
+        "selector": "#question-36477",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "36480",
+        "dom_id": "question-36480",
+        "selector": "#question-36480",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "30961",
+        "content_id": "4972",
+        "dom_id": "step-30961",
+        "selector": "#step-30961",
+        "step_anchor": "step-11",
+        "title": "Infinite-Dimensional Vector Spaces",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30967",
+        "content_id": "8290",
+        "dom_id": "step-30967",
+        "selector": "#step-30967",
+        "step_anchor": "step-12",
+        "title": "Identifying Finite and Infinite-Dimensional Vector Spaces",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "95236",
+        "dom_id": "question-95236",
+        "selector": "#question-95236",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "94765",
+        "dom_id": "question-94765",
+        "selector": "#question-94765",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-30958",
+        "filename": "01-step-30958.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-30959",
+        "filename": "02-step-30959.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-95210",
+        "filename": "03-question-95210.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-36471",
+        "filename": "04-question-36471.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-31051",
+        "filename": "05-step-31051.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-95093",
+        "filename": "06-question-95093.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-36473",
+        "filename": "07-question-36473.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-30960",
+        "filename": "08-step-30960.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-36477",
+        "filename": "09-question-36477.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-36480",
+        "filename": "10-question-36480.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-30961",
+        "filename": "11-step-30961.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-30967",
+        "filename": "12-step-30967.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-95236",
+        "filename": "13-question-95236.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-94765",
+        "filename": "14-question-94765.png"
+      }
+    ]
+  }
+}

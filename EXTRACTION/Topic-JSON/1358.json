@@ -1,0 +1,421 @@
+{
+  "schema_version": 1,
+  "topic_id": "1358",
+  "topic_title": "Shear and Stretch as Linear Transformations",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1358.html",
+  "source_url": "https://mathacademy.com/topics/1358",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "20030",
+        "dom_id": "sectionLink-20030",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-20030"
+      },
+      {
+        "index": 2,
+        "step_id": "27131",
+        "dom_id": "sectionLink-27131",
+        "name": "",
+        "title": "Vertical Stretch",
+        "selector": "#sectionLink-27131"
+      },
+      {
+        "index": 3,
+        "step_id": "20032",
+        "dom_id": "sectionLink-20032",
+        "name": "",
+        "title": "Finding the Standard Matrix of a Stretch Transformation Given a Vector and its Image",
+        "selector": "#sectionLink-20032"
+      },
+      {
+        "index": 4,
+        "step_id": "20039",
+        "dom_id": "sectionLink-20039",
+        "name": "",
+        "title": "Horizontal Shear",
+        "selector": "#sectionLink-20039"
+      },
+      {
+        "index": 5,
+        "step_id": "27140",
+        "dom_id": "sectionLink-27140",
+        "name": "",
+        "title": "Vertical Shear",
+        "selector": "#sectionLink-27140"
+      },
+      {
+        "index": 6,
+        "step_id": "20038",
+        "dom_id": "sectionLink-20038",
+        "name": "",
+        "title": "Identifying a Shear or Stretch Transformation Given the Images of the Standard Basis Vectors",
+        "selector": "#sectionLink-20038"
+      },
+      {
+        "index": 7,
+        "step_id": "20040",
+        "dom_id": "sectionLink-20040",
+        "name": "",
+        "title": "Identifying a Shear or Stretch Transformation Represented by a Matrix",
+        "selector": "#sectionLink-20040"
+      },
+      {
+        "index": 8,
+        "step_id": "20043",
+        "dom_id": "sectionLink-20043",
+        "name": "",
+        "title": "Finding the Image of a Square Under a Shear or Stretch Transformation",
+        "selector": "#sectionLink-20043"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "866",
+        "name": "Linear Transformations of Objects in the Plane",
+        "href": "/topics/linear-transformations-of-objects-in-the-plane-866"
+      },
+      {
+        "topic_id": "2217",
+        "name": "Stretches of Geometric Figures",
+        "href": "/topics/stretches-of-geometric-figures-2217"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 16,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20030",
+        "content_id": "3538",
+        "dom_id": "step-20030",
+        "selector": "#step-20030",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "27131",
+        "content_id": "4414",
+        "dom_id": "step-27131",
+        "selector": "#step-27131",
+        "step_anchor": "step-2",
+        "title": "Vertical Stretch",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20032",
+        "content_id": "5450",
+        "dom_id": "step-20032",
+        "selector": "#step-20032",
+        "step_anchor": "step-3",
+        "title": "Finding the Standard Matrix of a Stretch Transformation Given a Vector and its Image",
+        "key_prerequisites": [
+          {
+            "topic_id": "244",
+            "name": "Addition and Scalar Multiplication of Cartesian Vectors in 2D",
+            "href": "/topics/244"
+          },
+          {
+            "topic_id": "1959",
+            "name": "The Standard Matrix of a Linear Transformation",
+            "href": "/topics/1959"
+          },
+          {
+            "topic_id": "2217",
+            "name": "Stretches of Geometric Figures",
+            "href": "/topics/2217"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "80725",
+        "dom_id": "question-80725",
+        "selector": "#question-80725",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "80726",
+        "dom_id": "question-80726",
+        "selector": "#question-80726",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20039",
+        "content_id": "3541",
+        "dom_id": "step-20039",
+        "selector": "#step-20039",
+        "step_anchor": "step-6",
+        "title": "Horizontal Shear",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "27140",
+        "content_id": "4415",
+        "dom_id": "step-27140",
+        "selector": "#step-27140",
+        "step_anchor": "step-7",
+        "title": "Vertical Shear",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20038",
+        "content_id": "5454",
+        "dom_id": "step-20038",
+        "selector": "#step-20038",
+        "step_anchor": "step-8",
+        "title": "Identifying a Shear or Stretch Transformation Given the Images of the Standard Basis Vectors",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "38052",
+        "dom_id": "question-38052",
+        "selector": "#question-38052",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "38050",
+        "dom_id": "question-38050",
+        "selector": "#question-38050",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20040",
+        "content_id": "5455",
+        "dom_id": "step-20040",
+        "selector": "#step-20040",
+        "step_anchor": "step-11",
+        "title": "Identifying a Shear or Stretch Transformation Represented by a Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "12044",
+        "dom_id": "question-12044",
+        "selector": "#question-12044",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "8092",
+        "dom_id": "question-8092",
+        "selector": "#question-8092",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20043",
+        "content_id": "5456",
+        "dom_id": "step-20043",
+        "selector": "#step-20043",
+        "step_anchor": "step-14",
+        "title": "Finding the Image of a Square Under a Shear or Stretch Transformation",
+        "key_prerequisites": [
+          {
+            "topic_id": "866",
+            "name": "Linear Transformations of Objects in the Plane",
+            "href": "/topics/866"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "38066",
+        "dom_id": "question-38066",
+        "selector": "#question-38066",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "38021",
+        "dom_id": "question-38021",
+        "selector": "#question-38021",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-20030",
+        "filename": "01-step-20030.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-27131",
+        "filename": "02-step-27131.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-20032",
+        "filename": "03-step-20032.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-80725",
+        "filename": "04-question-80725.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-80726",
+        "filename": "05-question-80726.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-20039",
+        "filename": "06-step-20039.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-27140",
+        "filename": "07-step-27140.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-20038",
+        "filename": "08-step-20038.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-38052",
+        "filename": "09-question-38052.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-38050",
+        "filename": "10-question-38050.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-20040",
+        "filename": "11-step-20040.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-12044",
+        "filename": "12-question-12044.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-8092",
+        "filename": "13-question-8092.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-20043",
+        "filename": "14-step-20043.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-38066",
+        "filename": "15-question-38066.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-38021",
+        "filename": "16-question-38021.png"
+      }
+    ]
+  }
+}

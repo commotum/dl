@@ -1,0 +1,315 @@
+{
+  "schema_version": 1,
+  "topic_id": "2738",
+  "topic_title": "Generalized Eigenvectors",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2738.html",
+  "source_url": "https://mathacademy.com/topics/2738",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "33794",
+        "dom_id": "sectionLink-33794",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-33794"
+      },
+      {
+        "index": 2,
+        "step_id": "34485",
+        "dom_id": "sectionLink-34485",
+        "name": "",
+        "title": "An Example of a Generalized Eigenvector of Rank Two for a 2x2 Matrix",
+        "selector": "#sectionLink-34485"
+      },
+      {
+        "index": 3,
+        "step_id": "33795",
+        "dom_id": "sectionLink-33795",
+        "name": "",
+        "title": "Identifying Generalized Eigenvectors of a 2x2 Matrix",
+        "selector": "#sectionLink-33795"
+      },
+      {
+        "index": 4,
+        "step_id": "34486",
+        "dom_id": "sectionLink-34486",
+        "name": "",
+        "title": "Generalized Eigenvectors of Rank N",
+        "selector": "#sectionLink-34486"
+      },
+      {
+        "index": 5,
+        "step_id": "33799",
+        "dom_id": "sectionLink-33799",
+        "name": "",
+        "title": "Identifying Generalized Eigenvectors Using Definition",
+        "selector": "#sectionLink-33799"
+      },
+      {
+        "index": 6,
+        "step_id": "33800",
+        "dom_id": "sectionLink-33800",
+        "name": "",
+        "title": "Identifying Generalized Eigenvectors of a 3x3 Matrix",
+        "selector": "#sectionLink-33800"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1965",
+        "name": "Calculating the Eigenvectors of a 3x3 Matrix in the General Case",
+        "href": "/topics/calculating-the-eigenvectors-of-a-3x3-matrix-in-the-general-case-1965"
+      },
+      {
+        "topic_id": "3776",
+        "name": "Nilpotent and Idempotent Matrices",
+        "href": "/topics/nilpotent-and-idempotent-matrices-3776"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "33794",
+        "content_id": "5419",
+        "dom_id": "step-33794",
+        "selector": "#step-33794",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "34485",
+        "content_id": "5587",
+        "dom_id": "step-34485",
+        "selector": "#step-34485",
+        "step_anchor": "step-2",
+        "title": "An Example of a Generalized Eigenvector of Rank Two for a 2x2 Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33795",
+        "content_id": "9054",
+        "dom_id": "step-33795",
+        "selector": "#step-33795",
+        "step_anchor": "step-3",
+        "title": "Identifying Generalized Eigenvectors of a 2x2 Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "1965",
+            "name": "Calculating the Eigenvectors of a 3x3 Matrix in the General Case",
+            "href": "/topics/1965"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "109500",
+        "dom_id": "question-109500",
+        "selector": "#question-109500",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "109113",
+        "dom_id": "question-109113",
+        "selector": "#question-109113",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "34486",
+        "content_id": "5588",
+        "dom_id": "step-34486",
+        "selector": "#step-34486",
+        "step_anchor": "step-6",
+        "title": "Generalized Eigenvectors of Rank N",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33799",
+        "content_id": "9056",
+        "dom_id": "step-33799",
+        "selector": "#step-33799",
+        "step_anchor": "step-7",
+        "title": "Identifying Generalized Eigenvectors Using Definition",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "109243",
+        "dom_id": "question-109243",
+        "selector": "#question-109243",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "108979",
+        "dom_id": "question-108979",
+        "selector": "#question-108979",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33800",
+        "content_id": "9057",
+        "dom_id": "step-33800",
+        "selector": "#step-33800",
+        "step_anchor": "step-10",
+        "title": "Identifying Generalized Eigenvectors of a 3x3 Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "109117",
+        "dom_id": "question-109117",
+        "selector": "#question-109117",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "109587",
+        "dom_id": "question-109587",
+        "selector": "#question-109587",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-33794",
+        "filename": "01-step-33794.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-34485",
+        "filename": "02-step-34485.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-33795",
+        "filename": "03-step-33795.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-109500",
+        "filename": "04-question-109500.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-109113",
+        "filename": "05-question-109113.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-34486",
+        "filename": "06-step-34486.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-33799",
+        "filename": "07-step-33799.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-109243",
+        "filename": "08-question-109243.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-108979",
+        "filename": "09-question-108979.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-33800",
+        "filename": "10-step-33800.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-109117",
+        "filename": "11-question-109117.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-109587",
+        "filename": "12-question-109587.png"
+      }
+    ]
+  }
+}

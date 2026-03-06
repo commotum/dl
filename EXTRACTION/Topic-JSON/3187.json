@@ -1,0 +1,288 @@
+{
+  "schema_version": 1,
+  "topic_id": "3187",
+  "topic_title": "Solving Systems of ODEs Using Variation of Parameters",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3187.html",
+  "source_url": "https://mathacademy.com/topics/3187",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "592305",
+        "dom_id": "sectionLink-592305",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-592305"
+      },
+      {
+        "index": 2,
+        "step_id": "592306",
+        "dom_id": "sectionLink-592306",
+        "name": "",
+        "title": "Constructing the Formulas for Variation of Parameters",
+        "selector": "#sectionLink-592306"
+      },
+      {
+        "index": 3,
+        "step_id": "592309",
+        "dom_id": "sectionLink-592309",
+        "name": "",
+        "title": "Finding the Particular Solution of an Inhomogeneous System of Linear ODEs",
+        "selector": "#sectionLink-592309"
+      },
+      {
+        "index": 4,
+        "step_id": "592312",
+        "dom_id": "sectionLink-592312",
+        "name": "",
+        "title": "Solving an Inhomogeneous System of Linear ODEs Using Variation of Parameters",
+        "selector": "#sectionLink-592312"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "317",
+        "name": "Introduction to Integration by Parts",
+        "href": "/topics/introduction-to-integration-by-parts-317"
+      },
+      {
+        "topic_id": "2973",
+        "name": "Variation of Parameters for First-Order Linear ODEs",
+        "href": "/topics/variation-of-parameters-for-first-order-linear-odes-2973"
+      },
+      {
+        "topic_id": "6691",
+        "name": "Solving Inhomogeneous Systems of ODEs Using Matrix Methods",
+        "href": "/topics/solving-inhomogeneous-systems-of-odes-using-matrix-methods-6691"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 10,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "592305",
+        "content_id": "14396",
+        "dom_id": "step-592305",
+        "selector": "#step-592305",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "592306",
+        "content_id": "21546",
+        "dom_id": "step-592306",
+        "selector": "#step-592306",
+        "step_anchor": "step-2",
+        "title": "Constructing the Formulas for Variation of Parameters",
+        "key_prerequisites": [
+          {
+            "topic_id": "2973",
+            "name": "Variation of Parameters for First-Order Linear ODEs",
+            "href": "/topics/2973"
+          },
+          {
+            "topic_id": "6691",
+            "name": "Solving Inhomogeneous Systems of ODEs Using Matrix Methods",
+            "href": "/topics/6691"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "330877",
+        "dom_id": "question-330877",
+        "selector": "#question-330877",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "336711",
+        "dom_id": "question-336711",
+        "selector": "#question-336711",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "592309",
+        "content_id": "21547",
+        "dom_id": "step-592309",
+        "selector": "#step-592309",
+        "step_anchor": "step-5",
+        "title": "Finding the Particular Solution of an Inhomogeneous System of Linear ODEs",
+        "key_prerequisites": [
+          {
+            "topic_id": "864",
+            "name": "Inverses of 2x2 Matrices",
+            "href": "/topics/864"
+          },
+          {
+            "topic_id": "1112",
+            "name": "Integrating Exponential Functions Using Linear Substitution",
+            "href": "/topics/1112"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "330893",
+        "dom_id": "question-330893",
+        "selector": "#question-330893",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "330899",
+        "dom_id": "question-330899",
+        "selector": "#question-330899",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "592312",
+        "content_id": "21548",
+        "dom_id": "step-592312",
+        "selector": "#step-592312",
+        "step_anchor": "step-8",
+        "title": "Solving an Inhomogeneous System of Linear ODEs Using Variation of Parameters",
+        "key_prerequisites": [
+          {
+            "topic_id": "317",
+            "name": "Introduction to Integration by Parts",
+            "href": "/topics/317"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "337154",
+        "dom_id": "question-337154",
+        "selector": "#question-337154",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "329817",
+        "dom_id": "question-329817",
+        "selector": "#question-329817",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-592305",
+        "filename": "01-step-592305.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-592306",
+        "filename": "02-step-592306.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-330877",
+        "filename": "03-question-330877.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-336711",
+        "filename": "04-question-336711.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-592309",
+        "filename": "05-step-592309.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-330893",
+        "filename": "06-question-330893.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-330899",
+        "filename": "07-question-330899.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-592312",
+        "filename": "08-step-592312.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-337154",
+        "filename": "09-question-337154.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-329817",
+        "filename": "10-question-329817.png"
+      }
+    ]
+  }
+}

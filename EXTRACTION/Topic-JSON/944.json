@@ -1,0 +1,335 @@
+{
+  "schema_version": 1,
+  "topic_id": "944",
+  "topic_title": "Approximating Areas With the Midpoint Riemann Sum",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/944.html",
+  "source_url": "https://mathacademy.com/topics/944",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "1422",
+        "dom_id": "sectionLink-1422",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-1422"
+      },
+      {
+        "index": 2,
+        "step_id": "1426",
+        "dom_id": "sectionLink-1426",
+        "name": "",
+        "title": "A General Formula for the Midpoint Riemann Sum",
+        "selector": "#sectionLink-1426"
+      },
+      {
+        "index": 3,
+        "step_id": "1423",
+        "dom_id": "sectionLink-1423",
+        "name": "",
+        "title": "Using the Midpoint Riemann Sum With a Regular Step Size",
+        "selector": "#sectionLink-1423"
+      },
+      {
+        "index": 4,
+        "step_id": "1427",
+        "dom_id": "sectionLink-1427",
+        "name": "",
+        "title": "Midpoint Riemann Sum with Irregular Step Size",
+        "selector": "#sectionLink-1427"
+      },
+      {
+        "index": 5,
+        "step_id": "13296",
+        "dom_id": "sectionLink-13296",
+        "name": "",
+        "title": "Using the Midpoint Riemann Sum With an Irregular Step Size",
+        "selector": "#sectionLink-13296"
+      },
+      {
+        "index": 6,
+        "step_id": "1431",
+        "dom_id": "sectionLink-1431",
+        "name": "",
+        "title": "Using the Midpoint Riemann Sum: Word Problems",
+        "selector": "#sectionLink-1431"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "363",
+        "name": "Intervals of Concavity",
+        "href": "/topics/intervals-of-concavity-363"
+      },
+      {
+        "topic_id": "477",
+        "name": "Approximating Areas With the Left Riemann Sum",
+        "href": "/topics/approximating-areas-with-the-left-riemann-sum-477"
+      },
+      {
+        "topic_id": "1281",
+        "name": "Approximating Areas With the Right Riemann Sum",
+        "href": "/topics/approximating-areas-with-the-right-riemann-sum-1281"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "1422",
+        "content_id": "739",
+        "dom_id": "step-1422",
+        "selector": "#step-1422",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "1426",
+        "content_id": "741",
+        "dom_id": "step-1426",
+        "selector": "#step-1426",
+        "step_anchor": "step-2",
+        "title": "A General Formula for the Midpoint Riemann Sum",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "1423",
+        "content_id": "395",
+        "dom_id": "step-1423",
+        "selector": "#step-1423",
+        "step_anchor": "step-3",
+        "title": "Using the Midpoint Riemann Sum With a Regular Step Size",
+        "key_prerequisites": [
+          {
+            "topic_id": "363",
+            "name": "Intervals of Concavity",
+            "href": "/topics/363"
+          },
+          {
+            "topic_id": "477",
+            "name": "Approximating Areas With the Left Riemann Sum",
+            "href": "/topics/477"
+          },
+          {
+            "topic_id": "1281",
+            "name": "Approximating Areas With the Right Riemann Sum",
+            "href": "/topics/1281"
+          },
+          {
+            "topic_id": "1463",
+            "name": "Midpoints",
+            "href": "/topics/1463"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "49166",
+        "dom_id": "question-49166",
+        "selector": "#question-49166",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "49167",
+        "dom_id": "question-49167",
+        "selector": "#question-49167",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "1427",
+        "content_id": "742",
+        "dom_id": "step-1427",
+        "selector": "#step-1427",
+        "step_anchor": "step-6",
+        "title": "Midpoint Riemann Sum with Irregular Step Size",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "13296",
+        "content_id": "3851",
+        "dom_id": "step-13296",
+        "selector": "#step-13296",
+        "step_anchor": "step-7",
+        "title": "Using the Midpoint Riemann Sum With an Irregular Step Size",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "19739",
+        "dom_id": "question-19739",
+        "selector": "#question-19739",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "21001",
+        "dom_id": "question-21001",
+        "selector": "#question-21001",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "1431",
+        "content_id": "397",
+        "dom_id": "step-1431",
+        "selector": "#step-1431",
+        "step_anchor": "step-10",
+        "title": "Using the Midpoint Riemann Sum: Word Problems",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "21006",
+        "dom_id": "question-21006",
+        "selector": "#question-21006",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "51061",
+        "dom_id": "question-51061",
+        "selector": "#question-51061",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-1422",
+        "filename": "01-step-1422.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-1426",
+        "filename": "02-step-1426.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-1423",
+        "filename": "03-step-1423.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-49166",
+        "filename": "04-question-49166.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-49167",
+        "filename": "05-question-49167.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-1427",
+        "filename": "06-step-1427.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-13296",
+        "filename": "07-step-13296.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-19739",
+        "filename": "08-question-19739.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-21001",
+        "filename": "09-question-21001.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-1431",
+        "filename": "10-step-1431.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-21006",
+        "filename": "11-question-21006.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-51061",
+        "filename": "12-question-51061.png"
+      }
+    ]
+  }
+}

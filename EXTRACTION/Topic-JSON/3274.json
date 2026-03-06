@@ -1,0 +1,329 @@
+{
+  "schema_version": 1,
+  "topic_id": "3274",
+  "topic_title": "The CDF of the Poisson Distribution",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3274.html",
+  "source_url": "https://mathacademy.com/topics/3274",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "221725",
+        "dom_id": "sectionLink-221725",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-221725"
+      },
+      {
+        "index": 2,
+        "step_id": "221726",
+        "dom_id": "sectionLink-221726",
+        "name": "",
+        "title": "Constructing a Poisson CDF Table",
+        "selector": "#sectionLink-221726"
+      },
+      {
+        "index": 3,
+        "step_id": "221729",
+        "dom_id": "sectionLink-221729",
+        "name": "",
+        "title": "Computing a Poisson Probability Using a CDF Table",
+        "selector": "#sectionLink-221729"
+      },
+      {
+        "index": 4,
+        "step_id": "221732",
+        "dom_id": "sectionLink-221732",
+        "name": "",
+        "title": "Computing a Poisson Probability Over an Interval Using a CDF Table",
+        "selector": "#sectionLink-221732"
+      },
+      {
+        "index": 5,
+        "step_id": "221735",
+        "dom_id": "sectionLink-221735",
+        "name": "",
+        "title": "Computing a Probability Over an Interval Containing a \"Greater Than\" Symbol",
+        "selector": "#sectionLink-221735"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1087",
+        "name": "Limits of Sequences",
+        "href": "/topics/limits-of-sequences-1087"
+      },
+      {
+        "topic_id": "2024",
+        "name": "Cumulative Distribution Functions for Discrete Random Variables",
+        "href": "/topics/cumulative-distribution-functions-for-discrete-random-variables-2024"
+      },
+      {
+        "topic_id": "3282",
+        "name": "The Poisson Distribution",
+        "href": "/topics/the-poisson-distribution-3282"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "221725",
+        "content_id": "9443",
+        "dom_id": "step-221725",
+        "selector": "#step-221725",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "221726",
+        "content_id": "15057",
+        "dom_id": "step-221726",
+        "selector": "#step-221726",
+        "step_anchor": "step-2",
+        "title": "Constructing a Poisson CDF Table",
+        "key_prerequisites": [
+          {
+            "topic_id": "3282",
+            "name": "The Poisson Distribution",
+            "href": "/topics/3282"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "224475",
+        "dom_id": "question-224475",
+        "selector": "#question-224475",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "224476",
+        "dom_id": "question-224476",
+        "selector": "#question-224476",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "221729",
+        "content_id": "15058",
+        "dom_id": "step-221729",
+        "selector": "#step-221729",
+        "step_anchor": "step-5",
+        "title": "Computing a Poisson Probability Using a CDF Table",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "224479",
+        "dom_id": "question-224479",
+        "selector": "#question-224479",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "224481",
+        "dom_id": "question-224481",
+        "selector": "#question-224481",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "221732",
+        "content_id": "15059",
+        "dom_id": "step-221732",
+        "selector": "#step-221732",
+        "step_anchor": "step-8",
+        "title": "Computing a Poisson Probability Over an Interval Using a CDF Table",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "224486",
+        "dom_id": "question-224486",
+        "selector": "#question-224486",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "224488",
+        "dom_id": "question-224488",
+        "selector": "#question-224488",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "221735",
+        "content_id": "15060",
+        "dom_id": "step-221735",
+        "selector": "#step-221735",
+        "step_anchor": "step-11",
+        "title": "Computing a Probability Over an Interval Containing a \"Greater Than\" Symbol",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "224490",
+        "dom_id": "question-224490",
+        "selector": "#question-224490",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "224491",
+        "dom_id": "question-224491",
+        "selector": "#question-224491",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-221725",
+        "filename": "01-step-221725.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-221726",
+        "filename": "02-step-221726.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-224475",
+        "filename": "03-question-224475.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-224476",
+        "filename": "04-question-224476.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-221729",
+        "filename": "05-step-221729.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-224479",
+        "filename": "06-question-224479.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-224481",
+        "filename": "07-question-224481.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-221732",
+        "filename": "08-step-221732.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-224486",
+        "filename": "09-question-224486.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-224488",
+        "filename": "10-question-224488.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-221735",
+        "filename": "11-step-221735.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-224490",
+        "filename": "12-question-224490.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-224491",
+        "filename": "13-question-224491.png"
+      }
+    ]
+  }
+}

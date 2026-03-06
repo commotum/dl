@@ -1,0 +1,320 @@
+{
+  "schema_version": 1,
+  "topic_id": "1964",
+  "topic_title": "The Characteristic Equation of a Matrix",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1964.html",
+  "source_url": "https://mathacademy.com/topics/1964",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "20093",
+        "dom_id": "sectionLink-20093",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-20093"
+      },
+      {
+        "index": 2,
+        "step_id": "20094",
+        "dom_id": "sectionLink-20094",
+        "name": "",
+        "title": "Calculating the Eigenvalues of a 3x3 Matrix Containing a Block of Zeros",
+        "selector": "#sectionLink-20094"
+      },
+      {
+        "index": 3,
+        "step_id": "20095",
+        "dom_id": "sectionLink-20095",
+        "name": "",
+        "title": "The Algebraic Multiplicity of an Eigenvalue",
+        "selector": "#sectionLink-20095"
+      },
+      {
+        "index": 4,
+        "step_id": "25951",
+        "dom_id": "sectionLink-25951",
+        "name": "",
+        "title": "Calculating the Eigenvalues of a 4x4 Matrix Containing a Block of Zeros",
+        "selector": "#sectionLink-25951"
+      },
+      {
+        "index": 5,
+        "step_id": "20096",
+        "dom_id": "sectionLink-20096",
+        "name": "",
+        "title": "Finding the Eigenvalues of a General 3x3 Matrix",
+        "selector": "#sectionLink-20096"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "757",
+        "name": "The Rational Roots Theorem",
+        "href": "/topics/the-rational-roots-theorem-757"
+      },
+      {
+        "topic_id": "990",
+        "name": "Calculating the Eigenvalues of a 2x2 Matrix",
+        "href": "/topics/calculating-the-eigenvalues-of-a-2x2-matrix-990"
+      },
+      {
+        "topic_id": "1771",
+        "name": "Basic Properties of Determinants",
+        "href": "/topics/basic-properties-of-determinants-1771"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20093",
+        "content_id": "3564",
+        "dom_id": "step-20093",
+        "selector": "#step-20093",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20094",
+        "content_id": "5486",
+        "dom_id": "step-20094",
+        "selector": "#step-20094",
+        "step_anchor": "step-2",
+        "title": "Calculating the Eigenvalues of a 3x3 Matrix Containing a Block of Zeros",
+        "key_prerequisites": [
+          {
+            "topic_id": "990",
+            "name": "Calculating the Eigenvalues of a 2x2 Matrix",
+            "href": "/topics/990"
+          },
+          {
+            "topic_id": "1771",
+            "name": "Basic Properties of Determinants",
+            "href": "/topics/1771"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "36845",
+        "dom_id": "question-36845",
+        "selector": "#question-36845",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "36822",
+        "dom_id": "question-36822",
+        "selector": "#question-36822",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20095",
+        "content_id": "3565",
+        "dom_id": "step-20095",
+        "selector": "#step-20095",
+        "step_anchor": "step-5",
+        "title": "The Algebraic Multiplicity of an Eigenvalue",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "25951",
+        "content_id": "7047",
+        "dom_id": "step-25951",
+        "selector": "#step-25951",
+        "step_anchor": "step-6",
+        "title": "Calculating the Eigenvalues of a 4x4 Matrix Containing a Block of Zeros",
+        "key_prerequisites": [
+          {
+            "topic_id": "88",
+            "name": "Multiplicities of the Roots of Polynomials",
+            "href": "/topics/88"
+          },
+          {
+            "topic_id": "1770",
+            "name": "Finding Determinants Using Laplace Expansions",
+            "href": "/topics/1770"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "37355",
+        "dom_id": "question-37355",
+        "selector": "#question-37355",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "36819",
+        "dom_id": "question-36819",
+        "selector": "#question-36819",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20096",
+        "content_id": "5487",
+        "dom_id": "step-20096",
+        "selector": "#step-20096",
+        "step_anchor": "step-9",
+        "title": "Finding the Eigenvalues of a General 3x3 Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "728",
+            "name": "Dividing Polynomials Using Synthetic Division",
+            "href": "/topics/728"
+          },
+          {
+            "topic_id": "757",
+            "name": "The Rational Roots Theorem",
+            "href": "/topics/757"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "36841",
+        "dom_id": "question-36841",
+        "selector": "#question-36841",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "36824",
+        "dom_id": "question-36824",
+        "selector": "#question-36824",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-20093",
+        "filename": "01-step-20093.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-20094",
+        "filename": "02-step-20094.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-36845",
+        "filename": "03-question-36845.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-36822",
+        "filename": "04-question-36822.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-20095",
+        "filename": "05-step-20095.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-25951",
+        "filename": "06-step-25951.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-37355",
+        "filename": "07-question-37355.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-36819",
+        "filename": "08-question-36819.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-20096",
+        "filename": "09-step-20096.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-36841",
+        "filename": "10-question-36841.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-36824",
+        "filename": "11-question-36824.png"
+      }
+    ]
+  }
+}

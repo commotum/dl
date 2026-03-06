@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "topic_id": "284",
+  "topic_title": "Calculating Velocity for Straight-Line Motion Using Differentiation",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/284.html",
+  "source_url": "https://mathacademy.com/topics/284",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "861",
+        "dom_id": "sectionLink-861",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-861"
+      },
+      {
+        "index": 2,
+        "step_id": "862",
+        "dom_id": "sectionLink-862",
+        "name": "",
+        "title": "Calculating the Velocity of a Particle",
+        "selector": "#sectionLink-862"
+      },
+      {
+        "index": 3,
+        "step_id": "865",
+        "dom_id": "sectionLink-865",
+        "name": "",
+        "title": "Intuition Behind the Definition",
+        "selector": "#sectionLink-865"
+      },
+      {
+        "index": 4,
+        "step_id": "866",
+        "dom_id": "sectionLink-866",
+        "name": "",
+        "title": "Calculating the Velocity of a Particle at a Particular Moment",
+        "selector": "#sectionLink-866"
+      },
+      {
+        "index": 5,
+        "step_id": "871",
+        "dom_id": "sectionLink-871",
+        "name": "",
+        "title": "Speed vs Velocity",
+        "selector": "#sectionLink-871"
+      },
+      {
+        "index": 6,
+        "step_id": "872",
+        "dom_id": "sectionLink-872",
+        "name": "",
+        "title": "Calculating the Speed of a Particle at a Particular Moment",
+        "selector": "#sectionLink-872"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "296",
+        "name": "Interpreting the Meaning of the Derivative in Context",
+        "href": "/topics/interpreting-the-meaning-of-the-derivative-in-context-296"
+      },
+      {
+        "topic_id": "1115",
+        "name": "Selecting Procedures for Calculating Derivatives",
+        "href": "/topics/selecting-procedures-for-calculating-derivatives-1115"
+      },
+      {
+        "topic_id": "1589",
+        "name": "Distance-Time Graphs",
+        "href": "/topics/distance-time-graphs-1589"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "861",
+        "content_id": "463",
+        "dom_id": "step-861",
+        "selector": "#step-861",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "862",
+        "content_id": "211",
+        "dom_id": "step-862",
+        "selector": "#step-862",
+        "step_anchor": "step-2",
+        "title": "Calculating the Velocity of a Particle",
+        "key_prerequisites": [
+          {
+            "topic_id": "296",
+            "name": "Interpreting the Meaning of the Derivative in Context",
+            "href": "/topics/296"
+          },
+          {
+            "topic_id": "1115",
+            "name": "Selecting Procedures for Calculating Derivatives",
+            "href": "/topics/1115"
+          },
+          {
+            "topic_id": "1589",
+            "name": "Distance-Time Graphs",
+            "href": "/topics/1589"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "19297",
+        "dom_id": "question-19297",
+        "selector": "#question-19297",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "7167",
+        "dom_id": "question-7167",
+        "selector": "#question-7167",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "865",
+        "content_id": "465",
+        "dom_id": "step-865",
+        "selector": "#step-865",
+        "step_anchor": "step-5",
+        "title": "Intuition Behind the Definition",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "866",
+        "content_id": "212",
+        "dom_id": "step-866",
+        "selector": "#step-866",
+        "step_anchor": "step-6",
+        "title": "Calculating the Velocity of a Particle at a Particular Moment",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "2350",
+        "dom_id": "question-2350",
+        "selector": "#question-2350",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "7168",
+        "dom_id": "question-7168",
+        "selector": "#question-7168",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "871",
+        "content_id": "469",
+        "dom_id": "step-871",
+        "selector": "#step-871",
+        "step_anchor": "step-9",
+        "title": "Speed vs Velocity",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "872",
+        "content_id": "214",
+        "dom_id": "step-872",
+        "selector": "#step-872",
+        "step_anchor": "step-10",
+        "title": "Calculating the Speed of a Particle at a Particular Moment",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "7173",
+        "dom_id": "question-7173",
+        "selector": "#question-7173",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "7175",
+        "dom_id": "question-7175",
+        "selector": "#question-7175",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-861",
+        "filename": "01-step-861.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-862",
+        "filename": "02-step-862.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-19297",
+        "filename": "03-question-19297.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-7167",
+        "filename": "04-question-7167.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-865",
+        "filename": "05-step-865.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-866",
+        "filename": "06-step-866.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-2350",
+        "filename": "07-question-2350.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-7168",
+        "filename": "08-question-7168.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-871",
+        "filename": "09-step-871.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-872",
+        "filename": "10-step-872.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-7173",
+        "filename": "11-question-7173.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-7175",
+        "filename": "12-question-7175.png"
+      }
+    ]
+  }
+}

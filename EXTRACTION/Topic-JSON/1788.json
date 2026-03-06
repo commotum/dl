@@ -1,0 +1,419 @@
+{
+  "schema_version": 1,
+  "topic_id": "1788",
+  "topic_title": "Modeling RL Circuits With First-Order ODEs",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1788.html",
+  "source_url": "https://mathacademy.com/topics/1788",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "589205",
+        "dom_id": "sectionLink-589205",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-589205"
+      },
+      {
+        "index": 2,
+        "step_id": "608075",
+        "dom_id": "sectionLink-608075",
+        "name": "",
+        "title": "RL Circuits",
+        "selector": "#sectionLink-608075"
+      },
+      {
+        "index": 3,
+        "step_id": "589206",
+        "dom_id": "sectionLink-589206",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-589206"
+      },
+      {
+        "index": 4,
+        "step_id": "589207",
+        "dom_id": "sectionLink-589207",
+        "name": "",
+        "title": "Constructing an Equation Governing the Current in an RL Circuit",
+        "selector": "#sectionLink-589207"
+      },
+      {
+        "index": 5,
+        "step_id": "589210",
+        "dom_id": "sectionLink-589210",
+        "name": "",
+        "title": "Steady-State Solutions for Constant EMFs",
+        "selector": "#sectionLink-589210"
+      },
+      {
+        "index": 6,
+        "step_id": "589211",
+        "dom_id": "sectionLink-589211",
+        "name": "",
+        "title": "Solving an Equation Governing the Current in an RL Circuit: Constant EMF",
+        "selector": "#sectionLink-589211"
+      },
+      {
+        "index": 7,
+        "step_id": "589215",
+        "dom_id": "sectionLink-589215",
+        "name": "",
+        "title": "Steady-State Solutions for Sinusoidal EMFs",
+        "selector": "#sectionLink-589215"
+      },
+      {
+        "index": 8,
+        "step_id": "589216",
+        "dom_id": "sectionLink-589216",
+        "name": "",
+        "title": "Solving an Equation Governing the Current in an RL Circuit: Sinusoidal EMF",
+        "selector": "#sectionLink-589216"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1076",
+        "name": "Writing Sums of Trigonometric Functions in Amplitude-Phase Form",
+        "href": "/topics/writing-sums-of-trigonometric-functions-in-amplitude-phase-form-1076"
+      },
+      {
+        "topic_id": "2023",
+        "name": "Modeling With First-Order ODEs",
+        "href": "/topics/modeling-with-first-order-odes-2023"
+      },
+      {
+        "topic_id": "6680",
+        "name": "Solving First-Order Linear ODEs With Sinusoidal Forcing",
+        "href": "/topics/solving-first-order-linear-odes-with-sinusoidal-forcing-6680"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "589205",
+        "content_id": "14568",
+        "dom_id": "step-589205",
+        "selector": "#step-589205",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "608075",
+        "content_id": "14899",
+        "dom_id": "step-608075",
+        "selector": "#step-608075",
+        "step_anchor": "step-2",
+        "title": "RL Circuits",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "589206",
+        "content_id": "14572",
+        "dom_id": "step-589206",
+        "selector": "#step-589206",
+        "step_anchor": "step-3",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "589207",
+        "content_id": "21758",
+        "dom_id": "step-589207",
+        "selector": "#step-589207",
+        "step_anchor": "step-4",
+        "title": "Constructing an Equation Governing the Current in an RL Circuit",
+        "key_prerequisites": [
+          {
+            "topic_id": "2023",
+            "name": "Modeling With First-Order ODEs",
+            "href": "/topics/2023"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "336188",
+        "dom_id": "question-336188",
+        "selector": "#question-336188",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "336190",
+        "dom_id": "question-336190",
+        "selector": "#question-336190",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "589210",
+        "content_id": "14581",
+        "dom_id": "step-589210",
+        "selector": "#step-589210",
+        "step_anchor": "step-7",
+        "title": "Steady-State Solutions for Constant EMFs",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "589211",
+        "content_id": "21757",
+        "dom_id": "step-589211",
+        "selector": "#step-589211",
+        "step_anchor": "step-8",
+        "title": "Solving an Equation Governing the Current in an RL Circuit: Constant EMF",
+        "key_prerequisites": [
+          {
+            "topic_id": "1717",
+            "name": "Limits of Exponential Functions",
+            "href": "/topics/1717"
+          },
+          {
+            "topic_id": "6678",
+            "name": "General Solutions of First-Order Linear ODEs",
+            "href": "/topics/6678"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "336473",
+        "dom_id": "question-336473",
+        "selector": "#question-336473",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "336198",
+        "dom_id": "question-336198",
+        "selector": "#question-336198",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "336215",
+        "dom_id": "question-336215",
+        "selector": "#question-336215",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "589215",
+        "content_id": "14580",
+        "dom_id": "step-589215",
+        "selector": "#step-589215",
+        "step_anchor": "step-12",
+        "title": "Steady-State Solutions for Sinusoidal EMFs",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "589216",
+        "content_id": "21761",
+        "dom_id": "step-589216",
+        "selector": "#step-589216",
+        "step_anchor": "step-13",
+        "title": "Solving an Equation Governing the Current in an RL Circuit: Sinusoidal EMF",
+        "key_prerequisites": [
+          {
+            "topic_id": "1076",
+            "name": "Writing Sums of Trigonometric Functions in Amplitude-Phase Form",
+            "href": "/topics/1076"
+          },
+          {
+            "topic_id": "1719",
+            "name": "Limits of Trigonometric Functions",
+            "href": "/topics/1719"
+          },
+          {
+            "topic_id": "6680",
+            "name": "Solving First-Order Linear ODEs With Sinusoidal Forcing",
+            "href": "/topics/6680"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "336463",
+        "dom_id": "question-336463",
+        "selector": "#question-336463",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "336210",
+        "dom_id": "question-336210",
+        "selector": "#question-336210",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-589205",
+        "filename": "01-step-589205.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-608075",
+        "filename": "02-step-608075.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-589206",
+        "filename": "03-step-589206.png"
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "selector": "#step-589207",
+        "filename": "04-step-589207.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-336188",
+        "filename": "05-question-336188.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-336190",
+        "filename": "06-question-336190.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-589210",
+        "filename": "07-step-589210.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-589211",
+        "filename": "08-step-589211.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-336473",
+        "filename": "09-question-336473.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-336198",
+        "filename": "10-question-336198.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-336215",
+        "filename": "11-question-336215.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-589215",
+        "filename": "12-step-589215.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-589216",
+        "filename": "13-step-589216.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-336463",
+        "filename": "14-question-336463.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-336210",
+        "filename": "15-question-336210.png"
+      }
+    ]
+  }
+}

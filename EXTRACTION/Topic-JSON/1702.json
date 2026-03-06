@@ -1,0 +1,316 @@
+{
+  "schema_version": 1,
+  "topic_id": "1702",
+  "topic_title": "Cycles in Graphs",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1702.html",
+  "source_url": "https://mathacademy.com/topics/1702",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "416604",
+        "dom_id": "sectionLink-416604",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-416604"
+      },
+      {
+        "index": 2,
+        "step_id": "416605",
+        "dom_id": "sectionLink-416605",
+        "name": "",
+        "title": "Identifying Circuits and Cycles in Graphs",
+        "selector": "#sectionLink-416605"
+      },
+      {
+        "index": 3,
+        "step_id": "416608",
+        "dom_id": "sectionLink-416608",
+        "name": "",
+        "title": "Directed Cycles",
+        "selector": "#sectionLink-416608"
+      },
+      {
+        "index": 4,
+        "step_id": "416609",
+        "dom_id": "sectionLink-416609",
+        "name": "",
+        "title": "Identifying Circuits and Cycles in Directed Graphs",
+        "selector": "#sectionLink-416609"
+      },
+      {
+        "index": 5,
+        "step_id": "416612",
+        "dom_id": "sectionLink-416612",
+        "name": "",
+        "title": "The Girth and Circumference of a Graph",
+        "selector": "#sectionLink-416612"
+      },
+      {
+        "index": 6,
+        "step_id": "416613",
+        "dom_id": "sectionLink-416613",
+        "name": "",
+        "title": "Finding the Girth and Circumference of a Graph",
+        "selector": "#sectionLink-416613"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "5431",
+        "name": "Walks, Paths, and Distances in Directed Graphs",
+        "href": "/topics/walks-paths-and-distances-in-directed-graphs-5431"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "416604",
+        "content_id": "7111",
+        "dom_id": "step-416604",
+        "selector": "#step-416604",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "416605",
+        "content_id": "16006",
+        "dom_id": "step-416605",
+        "selector": "#step-416605",
+        "step_anchor": "step-2",
+        "title": "Identifying Circuits and Cycles in Graphs",
+        "key_prerequisites": [
+          {
+            "topic_id": "951",
+            "name": "Walks, Trails, Paths, and Distances",
+            "href": "/topics/951"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "258146",
+        "dom_id": "question-258146",
+        "selector": "#question-258146",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "243285",
+        "dom_id": "question-243285",
+        "selector": "#question-243285",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "416608",
+        "content_id": "10218",
+        "dom_id": "step-416608",
+        "selector": "#step-416608",
+        "step_anchor": "step-5",
+        "title": "Directed Cycles",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "416609",
+        "content_id": "16008",
+        "dom_id": "step-416609",
+        "selector": "#step-416609",
+        "step_anchor": "step-6",
+        "title": "Identifying Circuits and Cycles in Directed Graphs",
+        "key_prerequisites": [
+          {
+            "topic_id": "5431",
+            "name": "Walks, Paths, and Distances in Directed Graphs",
+            "href": "/topics/5431"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "243293",
+        "dom_id": "question-243293",
+        "selector": "#question-243293",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "258183",
+        "dom_id": "question-258183",
+        "selector": "#question-258183",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "416612",
+        "content_id": "10217",
+        "dom_id": "step-416612",
+        "selector": "#step-416612",
+        "step_anchor": "step-9",
+        "title": "The Girth and Circumference of a Graph",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "416613",
+        "content_id": "16007",
+        "dom_id": "step-416613",
+        "selector": "#step-416613",
+        "step_anchor": "step-10",
+        "title": "Finding the Girth and Circumference of a Graph",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "243286",
+        "dom_id": "question-243286",
+        "selector": "#question-243286",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "257793",
+        "dom_id": "question-257793",
+        "selector": "#question-257793",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-416604",
+        "filename": "01-step-416604.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-416605",
+        "filename": "02-step-416605.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-258146",
+        "filename": "03-question-258146.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-243285",
+        "filename": "04-question-243285.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-416608",
+        "filename": "05-step-416608.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-416609",
+        "filename": "06-step-416609.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-243293",
+        "filename": "07-question-243293.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-258183",
+        "filename": "08-question-258183.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-416612",
+        "filename": "09-step-416612.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-416613",
+        "filename": "10-step-416613.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-243286",
+        "filename": "11-question-243286.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-257793",
+        "filename": "12-question-257793.png"
+      }
+    ]
+  }
+}

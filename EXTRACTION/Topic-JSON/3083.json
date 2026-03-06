@@ -1,0 +1,331 @@
+{
+  "schema_version": 1,
+  "topic_id": "3083",
+  "topic_title": "Generating Functions",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3083.html",
+  "source_url": "https://mathacademy.com/topics/3083",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "30482",
+        "dom_id": "sectionLink-30482",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-30482"
+      },
+      {
+        "index": 2,
+        "step_id": "30483",
+        "dom_id": "sectionLink-30483",
+        "name": "",
+        "title": "Identifying the Generating Series of a Given Sequence",
+        "selector": "#sectionLink-30483"
+      },
+      {
+        "index": 3,
+        "step_id": "30487",
+        "dom_id": "sectionLink-30487",
+        "name": "",
+        "title": "Generating Functions",
+        "selector": "#sectionLink-30487"
+      },
+      {
+        "index": 4,
+        "step_id": "30484",
+        "dom_id": "sectionLink-30484",
+        "name": "",
+        "title": "Building Generating Functions in Some Simple Cases",
+        "selector": "#sectionLink-30484"
+      },
+      {
+        "index": 5,
+        "step_id": "30485",
+        "dom_id": "sectionLink-30485",
+        "name": "",
+        "title": "Building Generating Functions Using Differences",
+        "selector": "#sectionLink-30485"
+      },
+      {
+        "index": 6,
+        "step_id": "30486",
+        "dom_id": "sectionLink-30486",
+        "name": "",
+        "title": "Building Generating Functions Using Differences",
+        "selector": "#sectionLink-30486"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "361",
+        "name": "Multiplying Polynomials",
+        "href": "/topics/multiplying-polynomials-361"
+      },
+      {
+        "topic_id": "436",
+        "name": "Dividing Rational Expressions",
+        "href": "/topics/dividing-rational-expressions-436"
+      },
+      {
+        "topic_id": "691",
+        "name": "Finding the Sum of an Infinite Geometric Series",
+        "href": "/topics/finding-the-sum-of-an-infinite-geometric-series-691"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "30482",
+        "content_id": "4867",
+        "dom_id": "step-30482",
+        "selector": "#step-30482",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30483",
+        "content_id": "8145",
+        "dom_id": "step-30483",
+        "selector": "#step-30483",
+        "step_anchor": "step-2",
+        "title": "Identifying the Generating Series of a Given Sequence",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "92907",
+        "dom_id": "question-92907",
+        "selector": "#question-92907",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "92911",
+        "dom_id": "question-92911",
+        "selector": "#question-92911",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "30487",
+        "content_id": "4869",
+        "dom_id": "step-30487",
+        "selector": "#step-30487",
+        "step_anchor": "step-5",
+        "title": "Generating Functions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30484",
+        "content_id": "8146",
+        "dom_id": "step-30484",
+        "selector": "#step-30484",
+        "step_anchor": "step-6",
+        "title": "Building Generating Functions in Some Simple Cases",
+        "key_prerequisites": [
+          {
+            "topic_id": "691",
+            "name": "Finding the Sum of an Infinite Geometric Series",
+            "href": "/topics/691"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "92915",
+        "dom_id": "question-92915",
+        "selector": "#question-92915",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "92914",
+        "dom_id": "question-92914",
+        "selector": "#question-92914",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "30485",
+        "content_id": "4868",
+        "dom_id": "step-30485",
+        "selector": "#step-30485",
+        "step_anchor": "step-9",
+        "title": "Building Generating Functions Using Differences",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30486",
+        "content_id": "8147",
+        "dom_id": "step-30486",
+        "selector": "#step-30486",
+        "step_anchor": "step-10",
+        "title": "Building Generating Functions Using Differences",
+        "key_prerequisites": [
+          {
+            "topic_id": "361",
+            "name": "Multiplying Polynomials",
+            "href": "/topics/361"
+          },
+          {
+            "topic_id": "436",
+            "name": "Dividing Rational Expressions",
+            "href": "/topics/436"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "92923",
+        "dom_id": "question-92923",
+        "selector": "#question-92923",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "93928",
+        "dom_id": "question-93928",
+        "selector": "#question-93928",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-30482",
+        "filename": "01-step-30482.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-30483",
+        "filename": "02-step-30483.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-92907",
+        "filename": "03-question-92907.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-92911",
+        "filename": "04-question-92911.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-30487",
+        "filename": "05-step-30487.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-30484",
+        "filename": "06-step-30484.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-92915",
+        "filename": "07-question-92915.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-92914",
+        "filename": "08-question-92914.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-30485",
+        "filename": "09-step-30485.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-30486",
+        "filename": "10-step-30486.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-92923",
+        "filename": "11-question-92923.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-93928",
+        "filename": "12-question-93928.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "schema_version": 1,
+  "topic_id": "3793",
+  "topic_title": "Simplifying Logical Expressions Using Karnaugh Maps",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3793.html",
+  "source_url": "https://mathacademy.com/topics/3793",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "414709",
+        "dom_id": "sectionLink-414709",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-414709"
+      },
+      {
+        "index": 2,
+        "step_id": "414710",
+        "dom_id": "sectionLink-414710",
+        "name": "",
+        "title": "Building a Karnaugh Map",
+        "selector": "#sectionLink-414710"
+      },
+      {
+        "index": 3,
+        "step_id": "414713",
+        "dom_id": "sectionLink-414713",
+        "name": "",
+        "title": "Finding a Minimized DNF Using Karnaugh Maps",
+        "selector": "#sectionLink-414713"
+      },
+      {
+        "index": 4,
+        "step_id": "414714",
+        "dom_id": "sectionLink-414714",
+        "name": "",
+        "title": "Interpreting a Karnaugh Map to Minimize a DNF",
+        "selector": "#sectionLink-414714"
+      },
+      {
+        "index": 5,
+        "step_id": "414717",
+        "dom_id": "sectionLink-414717",
+        "name": "",
+        "title": "Minimizing a DNF",
+        "selector": "#sectionLink-414717"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3780",
+        "name": "Disjunctive Normal Forms",
+        "href": "/topics/disjunctive-normal-forms-3780"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "414709",
+        "content_id": "9559",
+        "dom_id": "step-414709",
+        "selector": "#step-414709",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "414710",
+        "content_id": "15414",
+        "dom_id": "step-414710",
+        "selector": "#step-414710",
+        "step_anchor": "step-2",
+        "title": "Building a Karnaugh Map",
+        "key_prerequisites": [
+          {
+            "topic_id": "3778",
+            "name": "Boolean Functions",
+            "href": "/topics/3778"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "257243",
+        "dom_id": "question-257243",
+        "selector": "#question-257243",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "227400",
+        "dom_id": "question-227400",
+        "selector": "#question-227400",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "414713",
+        "content_id": "9589",
+        "dom_id": "step-414713",
+        "selector": "#step-414713",
+        "step_anchor": "step-5",
+        "title": "Finding a Minimized DNF Using Karnaugh Maps",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "414714",
+        "content_id": "15415",
+        "dom_id": "step-414714",
+        "selector": "#step-414714",
+        "step_anchor": "step-6",
+        "title": "Interpreting a Karnaugh Map to Minimize a DNF",
+        "key_prerequisites": [
+          {
+            "topic_id": "3780",
+            "name": "Disjunctive Normal Forms",
+            "href": "/topics/3780"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "227402",
+        "dom_id": "question-227402",
+        "selector": "#question-227402",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "257307",
+        "dom_id": "question-257307",
+        "selector": "#question-257307",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "414717",
+        "content_id": "15462",
+        "dom_id": "step-414717",
+        "selector": "#step-414717",
+        "step_anchor": "step-9",
+        "title": "Minimizing a DNF",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "228879",
+        "dom_id": "question-228879",
+        "selector": "#question-228879",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "258247",
+        "dom_id": "question-258247",
+        "selector": "#question-258247",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-414709",
+        "filename": "01-step-414709.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-414710",
+        "filename": "02-step-414710.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-257243",
+        "filename": "03-question-257243.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-227400",
+        "filename": "04-question-227400.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-414713",
+        "filename": "05-step-414713.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-414714",
+        "filename": "06-step-414714.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-227402",
+        "filename": "07-question-227402.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-257307",
+        "filename": "08-question-257307.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-414717",
+        "filename": "09-step-414717.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-228879",
+        "filename": "10-question-228879.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-258247",
+        "filename": "11-question-258247.png"
+      }
+    ]
+  }
+}

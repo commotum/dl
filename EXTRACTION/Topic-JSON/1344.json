@@ -1,0 +1,292 @@
+{
+  "schema_version": 1,
+  "topic_id": "1344",
+  "topic_title": "The Inclusion-Exclusion Principle",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1344.html",
+  "source_url": "https://mathacademy.com/topics/1344",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "22366",
+        "dom_id": "sectionLink-22366",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-22366"
+      },
+      {
+        "index": 2,
+        "step_id": "22367",
+        "dom_id": "sectionLink-22367",
+        "name": "",
+        "title": "Counting the Number of Integers Satisfying Divisibility Criteria",
+        "selector": "#sectionLink-22367"
+      },
+      {
+        "index": 3,
+        "step_id": "22368",
+        "dom_id": "sectionLink-22368",
+        "name": "",
+        "title": "Counting the Number of Ways to Distribute Items into Categories Under a Constraint",
+        "selector": "#sectionLink-22368"
+      },
+      {
+        "index": 4,
+        "step_id": "22369",
+        "dom_id": "sectionLink-22369",
+        "name": "",
+        "title": "Counting the Number of Permutations Under a Constraint",
+        "selector": "#sectionLink-22369"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "290",
+        "name": "The Floor and Ceiling Functions",
+        "href": "/topics/the-floor-and-ceiling-functions-290"
+      },
+      {
+        "topic_id": "1343",
+        "name": "Combinations With Repetition",
+        "href": "/topics/combinations-with-repetition-1343"
+      },
+      {
+        "topic_id": "2826",
+        "name": "The Union of Sets",
+        "href": "/topics/the-union-of-sets-2826"
+      },
+      {
+        "topic_id": "2827",
+        "name": "The Intersection of Sets",
+        "href": "/topics/the-intersection-of-sets-2827"
+      },
+      {
+        "topic_id": "2829",
+        "name": "Set Complements",
+        "href": "/topics/set-complements-2829"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 10,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "22366",
+        "content_id": "3848",
+        "dom_id": "step-22366",
+        "selector": "#step-22366",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "22367",
+        "content_id": "6066",
+        "dom_id": "step-22367",
+        "selector": "#step-22367",
+        "step_anchor": "step-2",
+        "title": "Counting the Number of Integers Satisfying Divisibility Criteria",
+        "key_prerequisites": [
+          {
+            "topic_id": "290",
+            "name": "The Floor and Ceiling Functions",
+            "href": "/topics/290"
+          },
+          {
+            "topic_id": "2826",
+            "name": "The Union of Sets",
+            "href": "/topics/2826"
+          },
+          {
+            "topic_id": "2827",
+            "name": "The Intersection of Sets",
+            "href": "/topics/2827"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "43035",
+        "dom_id": "question-43035",
+        "selector": "#question-43035",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "43050",
+        "dom_id": "question-43050",
+        "selector": "#question-43050",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "22368",
+        "content_id": "6067",
+        "dom_id": "step-22368",
+        "selector": "#step-22368",
+        "step_anchor": "step-5",
+        "title": "Counting the Number of Ways to Distribute Items into Categories Under a Constraint",
+        "key_prerequisites": [
+          {
+            "topic_id": "1343",
+            "name": "Combinations With Repetition",
+            "href": "/topics/1343"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "43055",
+        "dom_id": "question-43055",
+        "selector": "#question-43055",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "43052",
+        "dom_id": "question-43052",
+        "selector": "#question-43052",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "22369",
+        "content_id": "6068",
+        "dom_id": "step-22369",
+        "selector": "#step-22369",
+        "step_anchor": "step-8",
+        "title": "Counting the Number of Permutations Under a Constraint",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "43934",
+        "dom_id": "question-43934",
+        "selector": "#question-43934",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "43059",
+        "dom_id": "question-43059",
+        "selector": "#question-43059",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-22366",
+        "filename": "01-step-22366.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-22367",
+        "filename": "02-step-22367.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-43035",
+        "filename": "03-question-43035.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-43050",
+        "filename": "04-question-43050.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-22368",
+        "filename": "05-step-22368.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-43055",
+        "filename": "06-question-43055.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-43052",
+        "filename": "07-question-43052.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-22369",
+        "filename": "08-step-22369.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-43934",
+        "filename": "09-question-43934.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-43059",
+        "filename": "10-question-43059.png"
+      }
+    ]
+  }
+}

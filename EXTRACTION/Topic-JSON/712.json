@@ -1,0 +1,460 @@
+{
+  "schema_version": 1,
+  "topic_id": "712",
+  "topic_title": "Strong Induction and Recurrence Relations",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/712.html",
+  "source_url": "https://mathacademy.com/topics/712",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "181631",
+        "dom_id": "sectionLink-181631",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-181631"
+      },
+      {
+        "index": 2,
+        "step_id": "181632",
+        "dom_id": "sectionLink-181632",
+        "name": "",
+        "title": "The Principle of Induction",
+        "selector": "#sectionLink-181632"
+      },
+      {
+        "index": 3,
+        "step_id": "181633",
+        "dom_id": "sectionLink-181633",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-181633"
+      },
+      {
+        "index": 4,
+        "step_id": "181634",
+        "dom_id": "sectionLink-181634",
+        "name": "",
+        "title": "Completing a Proof Template",
+        "selector": "#sectionLink-181634"
+      },
+      {
+        "index": 5,
+        "step_id": "181637",
+        "dom_id": "sectionLink-181637",
+        "name": "",
+        "title": "Proving Explicit Formulas for First-Order Recurrence Relations",
+        "selector": "#sectionLink-181637"
+      },
+      {
+        "index": 6,
+        "step_id": "181640",
+        "dom_id": "sectionLink-181640",
+        "name": "",
+        "title": "Second-Order Recurrence Relations",
+        "selector": "#sectionLink-181640"
+      },
+      {
+        "index": 7,
+        "step_id": "181641",
+        "dom_id": "sectionLink-181641",
+        "name": "",
+        "title": "Strong Induction",
+        "selector": "#sectionLink-181641"
+      },
+      {
+        "index": 8,
+        "step_id": "181642",
+        "dom_id": "sectionLink-181642",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-181642"
+      },
+      {
+        "index": 9,
+        "step_id": "181643",
+        "dom_id": "sectionLink-181643",
+        "name": "",
+        "title": "Completing a Proof Template",
+        "selector": "#sectionLink-181643"
+      },
+      {
+        "index": 10,
+        "step_id": "181646",
+        "dom_id": "sectionLink-181646",
+        "name": "",
+        "title": "Proving Explicit Formulas for Second-Order Recurrence Relations",
+        "selector": "#sectionLink-181646"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "642",
+        "name": "Mathematical Induction",
+        "href": "/topics/mathematical-induction-642"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 18,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "181631",
+        "content_id": "9173",
+        "dom_id": "step-181631",
+        "selector": "#step-181631",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "181632",
+        "content_id": "7934",
+        "dom_id": "step-181632",
+        "selector": "#step-181632",
+        "step_anchor": "step-2",
+        "title": "The Principle of Induction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "181633",
+        "content_id": "9172",
+        "dom_id": "step-181633",
+        "selector": "#step-181633",
+        "step_anchor": "step-3",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "181634",
+        "content_id": "13244",
+        "dom_id": "step-181634",
+        "selector": "#step-181634",
+        "step_anchor": "step-4",
+        "title": "Completing a Proof Template",
+        "key_prerequisites": [
+          {
+            "topic_id": "642",
+            "name": "Mathematical Induction",
+            "href": "/topics/642"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "183920",
+        "dom_id": "question-183920",
+        "selector": "#question-183920",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "183919",
+        "dom_id": "question-183919",
+        "selector": "#question-183919",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "181637",
+        "content_id": "13246",
+        "dom_id": "step-181637",
+        "selector": "#step-181637",
+        "step_anchor": "step-7",
+        "title": "Proving Explicit Formulas for First-Order Recurrence Relations",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "183958",
+        "dom_id": "question-183958",
+        "selector": "#question-183958",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "182727",
+        "dom_id": "question-182727",
+        "selector": "#question-182727",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "181640",
+        "content_id": "9174",
+        "dom_id": "step-181640",
+        "selector": "#step-181640",
+        "step_anchor": "step-10",
+        "title": "Second-Order Recurrence Relations",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "181641",
+        "content_id": "8320",
+        "dom_id": "step-181641",
+        "selector": "#step-181641",
+        "step_anchor": "step-11",
+        "title": "Strong Induction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "181642",
+        "content_id": "8271",
+        "dom_id": "step-181642",
+        "selector": "#step-181642",
+        "step_anchor": "step-12",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "181643",
+        "content_id": "13245",
+        "dom_id": "step-181643",
+        "selector": "#step-181643",
+        "step_anchor": "step-13",
+        "title": "Completing a Proof Template",
+        "key_prerequisites": [
+          {
+            "topic_id": "73",
+            "name": "Fibonacci Sequences",
+            "href": "/topics/73"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "183827",
+        "dom_id": "question-183827",
+        "selector": "#question-183827",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "183887",
+        "dom_id": "question-183887",
+        "selector": "#question-183887",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "181646",
+        "content_id": "13247",
+        "dom_id": "step-181646",
+        "selector": "#step-181646",
+        "step_anchor": "step-16",
+        "title": "Proving Explicit Formulas for Second-Order Recurrence Relations",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "question_id": "183882",
+        "dom_id": "question-183882",
+        "selector": "#question-183882",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 18,
+        "item_type": "question",
+        "question_id": "183885",
+        "dom_id": "question-183885",
+        "selector": "#question-183885",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-181631",
+        "filename": "01-step-181631.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-181632",
+        "filename": "02-step-181632.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-181633",
+        "filename": "03-step-181633.png"
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "selector": "#step-181634",
+        "filename": "04-step-181634.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-183920",
+        "filename": "05-question-183920.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-183919",
+        "filename": "06-question-183919.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-181637",
+        "filename": "07-step-181637.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-183958",
+        "filename": "08-question-183958.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-182727",
+        "filename": "09-question-182727.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-181640",
+        "filename": "10-step-181640.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-181641",
+        "filename": "11-step-181641.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-181642",
+        "filename": "12-step-181642.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-181643",
+        "filename": "13-step-181643.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-183827",
+        "filename": "14-question-183827.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-183887",
+        "filename": "15-question-183887.png"
+      },
+      {
+        "index": 16,
+        "item_type": "step",
+        "selector": "#step-181646",
+        "filename": "16-step-181646.png"
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "selector": "#question-183882",
+        "filename": "17-question-183882.png"
+      },
+      {
+        "index": 18,
+        "item_type": "question",
+        "selector": "#question-183885",
+        "filename": "18-question-183885.png"
+      }
+    ]
+  }
+}

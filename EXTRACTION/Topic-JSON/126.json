@@ -1,0 +1,332 @@
+{
+  "schema_version": 1,
+  "topic_id": "126",
+  "topic_title": "Estimating Means and Variances For Grouped Data",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/126.html",
+  "source_url": "https://mathacademy.com/topics/126",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "229358",
+        "dom_id": "sectionLink-229358",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-229358"
+      },
+      {
+        "index": 2,
+        "step_id": "229359",
+        "dom_id": "sectionLink-229359",
+        "name": "",
+        "title": "Estimating a Mean",
+        "selector": "#sectionLink-229359"
+      },
+      {
+        "index": 3,
+        "step_id": "229360",
+        "dom_id": "sectionLink-229360",
+        "name": "",
+        "title": "A Summary of Mean Estimation for Continuous Grouped Data",
+        "selector": "#sectionLink-229360"
+      },
+      {
+        "index": 4,
+        "step_id": "229361",
+        "dom_id": "sectionLink-229361",
+        "name": "",
+        "title": "Estimating a Mean From Grouped Data",
+        "selector": "#sectionLink-229361"
+      },
+      {
+        "index": 5,
+        "step_id": "229364",
+        "dom_id": "sectionLink-229364",
+        "name": "",
+        "title": "Estimating a Variance",
+        "selector": "#sectionLink-229364"
+      },
+      {
+        "index": 6,
+        "step_id": "229365",
+        "dom_id": "sectionLink-229365",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-229365"
+      },
+      {
+        "index": 7,
+        "step_id": "229366",
+        "dom_id": "sectionLink-229366",
+        "name": "",
+        "title": "Estimating a Variance or Standard Deviation",
+        "selector": "#sectionLink-229366"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1463",
+        "name": "Midpoints",
+        "href": "/topics/midpoints-1463"
+      },
+      {
+        "topic_id": "1632",
+        "name": "Variance and Standard Deviation",
+        "href": "/topics/variance-and-standard-deviation-1632"
+      },
+      {
+        "topic_id": "2510",
+        "name": "Histograms",
+        "href": "/topics/histograms-2510"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "229358",
+        "content_id": "8565",
+        "dom_id": "step-229358",
+        "selector": "#step-229358",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "229359",
+        "content_id": "10897",
+        "dom_id": "step-229359",
+        "selector": "#step-229359",
+        "step_anchor": "step-2",
+        "title": "Estimating a Mean",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "229360",
+        "content_id": "10899",
+        "dom_id": "step-229360",
+        "selector": "#step-229360",
+        "step_anchor": "step-3",
+        "title": "A Summary of Mean Estimation for Continuous Grouped Data",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "229361",
+        "content_id": "16511",
+        "dom_id": "step-229361",
+        "selector": "#step-229361",
+        "step_anchor": "step-4",
+        "title": "Estimating a Mean From Grouped Data",
+        "key_prerequisites": [
+          {
+            "topic_id": "1463",
+            "name": "Midpoints",
+            "href": "/topics/1463"
+          },
+          {
+            "topic_id": "1634",
+            "name": "The Mean of a Data Set",
+            "href": "/topics/1634"
+          },
+          {
+            "topic_id": "2310",
+            "name": "Compound Inequalities",
+            "href": "/topics/2310"
+          },
+          {
+            "topic_id": "2510",
+            "name": "Histograms",
+            "href": "/topics/2510"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "254665",
+        "dom_id": "question-254665",
+        "selector": "#question-254665",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "45852",
+        "dom_id": "question-45852",
+        "selector": "#question-45852",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "229364",
+        "content_id": "10898",
+        "dom_id": "step-229364",
+        "selector": "#step-229364",
+        "step_anchor": "step-7",
+        "title": "Estimating a Variance",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "229365",
+        "content_id": "10901",
+        "dom_id": "step-229365",
+        "selector": "#step-229365",
+        "step_anchor": "step-8",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "229366",
+        "content_id": "16512",
+        "dom_id": "step-229366",
+        "selector": "#step-229366",
+        "step_anchor": "step-9",
+        "title": "Estimating a Variance or Standard Deviation",
+        "key_prerequisites": [
+          {
+            "topic_id": "1632",
+            "name": "Variance and Standard Deviation",
+            "href": "/topics/1632"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "253145",
+        "dom_id": "question-253145",
+        "selector": "#question-253145",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "253146",
+        "dom_id": "question-253146",
+        "selector": "#question-253146",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-229358",
+        "filename": "01-step-229358.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-229359",
+        "filename": "02-step-229359.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-229360",
+        "filename": "03-step-229360.png"
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "selector": "#step-229361",
+        "filename": "04-step-229361.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-254665",
+        "filename": "05-question-254665.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-45852",
+        "filename": "06-question-45852.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-229364",
+        "filename": "07-step-229364.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-229365",
+        "filename": "08-step-229365.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-229366",
+        "filename": "09-step-229366.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-253145",
+        "filename": "10-question-253145.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-253146",
+        "filename": "11-question-253146.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,415 @@
+{
+  "schema_version": 1,
+  "topic_id": "6217",
+  "topic_title": "Sampling and Margin of Error",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/6217.html",
+  "source_url": "https://mathacademy.com/topics/6217",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "486804",
+        "dom_id": "sectionLink-486804",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-486804"
+      },
+      {
+        "index": 2,
+        "step_id": "486805",
+        "dom_id": "sectionLink-486805",
+        "name": "",
+        "title": "Calculating Plausible Bounds",
+        "selector": "#sectionLink-486805"
+      },
+      {
+        "index": 3,
+        "step_id": "486809",
+        "dom_id": "sectionLink-486809",
+        "name": "",
+        "title": "Calculating Plausible Population Values Given Percent Margin of Error",
+        "selector": "#sectionLink-486809"
+      },
+      {
+        "index": 4,
+        "step_id": "486846",
+        "dom_id": "sectionLink-486846",
+        "name": "",
+        "title": "Interpreting the Margin of Error",
+        "selector": "#sectionLink-486846"
+      },
+      {
+        "index": 5,
+        "step_id": "486812",
+        "dom_id": "sectionLink-486812",
+        "name": "",
+        "title": "Identifying True Statements Concerning Margin of Error",
+        "selector": "#sectionLink-486812"
+      },
+      {
+        "index": 6,
+        "step_id": "504254",
+        "dom_id": "sectionLink-504254",
+        "name": "",
+        "title": "Sample Size and Margin of Error",
+        "selector": "#sectionLink-504254"
+      },
+      {
+        "index": 7,
+        "step_id": "504255",
+        "dom_id": "sectionLink-504255",
+        "name": "",
+        "title": "The Relationship Between Margin of Error and Sample Size",
+        "selector": "#sectionLink-504255"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "6215",
+        "name": "Interpreting Survey Results",
+        "href": "/topics/interpreting-survey-results-6215"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 17,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "486804",
+        "content_id": "13568",
+        "dom_id": "step-486804",
+        "selector": "#step-486804",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "486805",
+        "content_id": "19039",
+        "dom_id": "step-486805",
+        "selector": "#step-486805",
+        "step_anchor": "step-2",
+        "title": "Calculating Plausible Bounds",
+        "key_prerequisites": [
+          {
+            "topic_id": "6215",
+            "name": "Interpreting Survey Results",
+            "href": "/topics/6215"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "301812",
+        "dom_id": "question-301812",
+        "selector": "#question-301812",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "301811",
+        "dom_id": "question-301811",
+        "selector": "#question-301811",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "301814",
+        "dom_id": "question-301814",
+        "selector": "#question-301814",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "486809",
+        "content_id": "19041",
+        "dom_id": "step-486809",
+        "selector": "#step-486809",
+        "step_anchor": "step-6",
+        "title": "Calculating Plausible Population Values Given Percent Margin of Error",
+        "key_prerequisites": [
+          {
+            "topic_id": "6214",
+            "name": "Estimation From Samples",
+            "href": "/topics/6214"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "301822",
+        "dom_id": "question-301822",
+        "selector": "#question-301822",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "301823",
+        "dom_id": "question-301823",
+        "selector": "#question-301823",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "486846",
+        "content_id": "13580",
+        "dom_id": "step-486846",
+        "selector": "#step-486846",
+        "step_anchor": "step-9",
+        "title": "Interpreting the Margin of Error",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "486812",
+        "content_id": "19040",
+        "dom_id": "step-486812",
+        "selector": "#step-486812",
+        "step_anchor": "step-10",
+        "title": "Identifying True Statements Concerning Margin of Error",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "302064",
+        "dom_id": "question-302064",
+        "selector": "#question-302064",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "301816",
+        "dom_id": "question-301816",
+        "selector": "#question-301816",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "302053",
+        "dom_id": "question-302053",
+        "selector": "#question-302053",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "504254",
+        "content_id": "13804",
+        "dom_id": "step-504254",
+        "selector": "#step-504254",
+        "step_anchor": "step-14",
+        "title": "Sample Size and Margin of Error",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "504255",
+        "content_id": "19755",
+        "dom_id": "step-504255",
+        "selector": "#step-504255",
+        "step_anchor": "step-15",
+        "title": "The Relationship Between Margin of Error and Sample Size",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "313290",
+        "dom_id": "question-313290",
+        "selector": "#question-313290",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "question_id": "313292",
+        "dom_id": "question-313292",
+        "selector": "#question-313292",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-486804",
+        "filename": "01-step-486804.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-486805",
+        "filename": "02-step-486805.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-301812",
+        "filename": "03-question-301812.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-301811",
+        "filename": "04-question-301811.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-301814",
+        "filename": "05-question-301814.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-486809",
+        "filename": "06-step-486809.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-301822",
+        "filename": "07-question-301822.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-301823",
+        "filename": "08-question-301823.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-486846",
+        "filename": "09-step-486846.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-486812",
+        "filename": "10-step-486812.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-302064",
+        "filename": "11-question-302064.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-301816",
+        "filename": "12-question-301816.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-302053",
+        "filename": "13-question-302053.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-504254",
+        "filename": "14-step-504254.png"
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "selector": "#step-504255",
+        "filename": "15-step-504255.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-313290",
+        "filename": "16-question-313290.png"
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "selector": "#question-313292",
+        "filename": "17-question-313292.png"
+      }
+    ]
+  }
+}

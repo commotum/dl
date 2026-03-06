@@ -1,0 +1,340 @@
+{
+  "schema_version": 1,
+  "topic_id": "2819",
+  "topic_title": "Solving Homogeneous Systems of ODEs With Complex Eigenvalues",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2819.html",
+  "source_url": "https://mathacademy.com/topics/2819",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "577657",
+        "dom_id": "sectionLink-577657",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-577657"
+      },
+      {
+        "index": 2,
+        "step_id": "577658",
+        "dom_id": "sectionLink-577658",
+        "name": "",
+        "title": "Finding the General Solution to a System of Linear Equations: Purely Imaginary Eigenvalues",
+        "selector": "#sectionLink-577658"
+      },
+      {
+        "index": 3,
+        "step_id": "577661",
+        "dom_id": "sectionLink-577661",
+        "name": "",
+        "title": "Solving an Initial Value Problem: Purely Imaginary Eigenvalues",
+        "selector": "#sectionLink-577661"
+      },
+      {
+        "index": 4,
+        "step_id": "577664",
+        "dom_id": "sectionLink-577664",
+        "name": "",
+        "title": "Finding the General Solution to a System of Linear Equations: Complex Eigenvalues",
+        "selector": "#sectionLink-577664"
+      },
+      {
+        "index": 5,
+        "step_id": "577667",
+        "dom_id": "sectionLink-577667",
+        "name": "",
+        "title": "Solving an Initial Value Problem: Complex Eigenvalues",
+        "selector": "#sectionLink-577667"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "898",
+        "name": "Euler's Formula",
+        "href": "/topics/eulers-formula-898"
+      },
+      {
+        "topic_id": "2088",
+        "name": "Solving Homogeneous Systems of ODEs With Distinct Eigenvalues and Initial Conditions",
+        "href": "/topics/solving-homogeneous-systems-of-odes-with-distinct-eigenvalues-and-initial-conditions-2088"
+      },
+      {
+        "topic_id": "3574",
+        "name": "Finding Complex Eigenvectors of Real 2x2 Matrices",
+        "href": "/topics/finding-complex-eigenvectors-of-real-2x2-matrices-3574"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "577657",
+        "content_id": "4283",
+        "dom_id": "step-577657",
+        "selector": "#step-577657",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "577658",
+        "content_id": "7043",
+        "dom_id": "step-577658",
+        "selector": "#step-577658",
+        "step_anchor": "step-2",
+        "title": "Finding the General Solution to a System of Linear Equations: Purely Imaginary Eigenvalues",
+        "key_prerequisites": [
+          {
+            "topic_id": "898",
+            "name": "Euler's Formula",
+            "href": "/topics/898"
+          },
+          {
+            "topic_id": "3574",
+            "name": "Finding Complex Eigenvectors of Real 2x2 Matrices",
+            "href": "/topics/3574"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "329578",
+        "dom_id": "question-329578",
+        "selector": "#question-329578",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "328592",
+        "dom_id": "question-328592",
+        "selector": "#question-328592",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "577661",
+        "content_id": "7044",
+        "dom_id": "step-577661",
+        "selector": "#step-577661",
+        "step_anchor": "step-5",
+        "title": "Solving an Initial Value Problem: Purely Imaginary Eigenvalues",
+        "key_prerequisites": [
+          {
+            "topic_id": "2088",
+            "name": "Solving Homogeneous Systems of ODEs With Distinct Eigenvalues and Initial Conditions",
+            "href": "/topics/2088"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "328593",
+        "dom_id": "question-328593",
+        "selector": "#question-328593",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "328594",
+        "dom_id": "question-328594",
+        "selector": "#question-328594",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "577664",
+        "content_id": "7045",
+        "dom_id": "step-577664",
+        "selector": "#step-577664",
+        "step_anchor": "step-8",
+        "title": "Finding the General Solution to a System of Linear Equations: Complex Eigenvalues",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "328595",
+        "dom_id": "question-328595",
+        "selector": "#question-328595",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "328596",
+        "dom_id": "question-328596",
+        "selector": "#question-328596",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "577667",
+        "content_id": "7046",
+        "dom_id": "step-577667",
+        "selector": "#step-577667",
+        "step_anchor": "step-11",
+        "title": "Solving an Initial Value Problem: Complex Eigenvalues",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "328597",
+        "dom_id": "question-328597",
+        "selector": "#question-328597",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "328599",
+        "dom_id": "question-328599",
+        "selector": "#question-328599",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-577657",
+        "filename": "01-step-577657.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-577658",
+        "filename": "02-step-577658.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-329578",
+        "filename": "03-question-329578.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-328592",
+        "filename": "04-question-328592.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-577661",
+        "filename": "05-step-577661.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-328593",
+        "filename": "06-question-328593.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-328594",
+        "filename": "07-question-328594.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-577664",
+        "filename": "08-step-577664.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-328595",
+        "filename": "09-question-328595.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-328596",
+        "filename": "10-question-328596.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-577667",
+        "filename": "11-step-577667.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-328597",
+        "filename": "12-question-328597.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-328599",
+        "filename": "13-question-328599.png"
+      }
+    ]
+  }
+}

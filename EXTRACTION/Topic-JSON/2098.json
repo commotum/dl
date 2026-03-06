@@ -1,0 +1,362 @@
+{
+  "schema_version": 1,
+  "topic_id": "2098",
+  "topic_title": "The Norm of a Vector in Inner Product Spaces",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2098.html",
+  "source_url": "https://mathacademy.com/topics/2098",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "20197",
+        "dom_id": "sectionLink-20197",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-20197"
+      },
+      {
+        "index": 2,
+        "step_id": "21783",
+        "dom_id": "sectionLink-21783",
+        "name": "",
+        "title": "Calculating the Norm of a Vector With Respect to a Given Inner Product",
+        "selector": "#sectionLink-21783"
+      },
+      {
+        "index": 3,
+        "step_id": "20198",
+        "dom_id": "sectionLink-20198",
+        "name": "",
+        "title": "Calculating the Norm of a Vector in an Inner Product Space of Polynomials",
+        "selector": "#sectionLink-20198"
+      },
+      {
+        "index": 4,
+        "step_id": "20199",
+        "dom_id": "sectionLink-20199",
+        "name": "",
+        "title": "Calculating the Norm of a Vector in an Inner Product Space of Continuous Functions",
+        "selector": "#sectionLink-20199"
+      },
+      {
+        "index": 5,
+        "step_id": "20200",
+        "dom_id": "sectionLink-20200",
+        "name": "",
+        "title": "Normalizing a Vector in Inner Product Spaces",
+        "selector": "#sectionLink-20200"
+      },
+      {
+        "index": 6,
+        "step_id": "20201",
+        "dom_id": "sectionLink-20201",
+        "name": "",
+        "title": "Normalizing a Vector in an Inner Product Space",
+        "selector": "#sectionLink-20201"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2095",
+        "name": "The Norm of a Vector in N-Dimensional Euclidean Space",
+        "href": "/topics/the-norm-of-a-vector-in-n-dimensional-euclidean-space-2095"
+      },
+      {
+        "topic_id": "2096",
+        "name": "Inner Product Spaces",
+        "href": "/topics/inner-product-spaces-2096"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20197",
+        "content_id": "3606",
+        "dom_id": "step-20197",
+        "selector": "#step-20197",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "21783",
+        "content_id": "5908",
+        "dom_id": "step-21783",
+        "selector": "#step-21783",
+        "step_anchor": "step-2",
+        "title": "Calculating the Norm of a Vector With Respect to a Given Inner Product",
+        "key_prerequisites": [
+          {
+            "topic_id": "2095",
+            "name": "The Norm of a Vector in N-Dimensional Euclidean Space",
+            "href": "/topics/2095"
+          },
+          {
+            "topic_id": "2096",
+            "name": "Inner Product Spaces",
+            "href": "/topics/2096"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "42714",
+        "dom_id": "question-42714",
+        "selector": "#question-42714",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "43925",
+        "dom_id": "question-43925",
+        "selector": "#question-43925",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20198",
+        "content_id": "5548",
+        "dom_id": "step-20198",
+        "selector": "#step-20198",
+        "step_anchor": "step-5",
+        "title": "Calculating the Norm of a Vector in an Inner Product Space of Polynomials",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "97420",
+        "dom_id": "question-97420",
+        "selector": "#question-97420",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "42726",
+        "dom_id": "question-42726",
+        "selector": "#question-42726",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20199",
+        "content_id": "5549",
+        "dom_id": "step-20199",
+        "selector": "#step-20199",
+        "step_anchor": "step-8",
+        "title": "Calculating the Norm of a Vector in an Inner Product Space of Continuous Functions",
+        "key_prerequisites": [
+          {
+            "topic_id": "1038",
+            "name": "Integration Using the Double-Angle Formulas",
+            "href": "/topics/1038"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "42734",
+        "dom_id": "question-42734",
+        "selector": "#question-42734",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "42727",
+        "dom_id": "question-42727",
+        "selector": "#question-42727",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20200",
+        "content_id": "3607",
+        "dom_id": "step-20200",
+        "selector": "#step-20200",
+        "step_anchor": "step-11",
+        "title": "Normalizing a Vector in Inner Product Spaces",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20201",
+        "content_id": "5550",
+        "dom_id": "step-20201",
+        "selector": "#step-20201",
+        "step_anchor": "step-12",
+        "title": "Normalizing a Vector in an Inner Product Space",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "42741",
+        "dom_id": "question-42741",
+        "selector": "#question-42741",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "97723",
+        "dom_id": "question-97723",
+        "selector": "#question-97723",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-20197",
+        "filename": "01-step-20197.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-21783",
+        "filename": "02-step-21783.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-42714",
+        "filename": "03-question-42714.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-43925",
+        "filename": "04-question-43925.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-20198",
+        "filename": "05-step-20198.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-97420",
+        "filename": "06-question-97420.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-42726",
+        "filename": "07-question-42726.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-20199",
+        "filename": "08-step-20199.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-42734",
+        "filename": "09-question-42734.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-42727",
+        "filename": "10-question-42727.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-20200",
+        "filename": "11-step-20200.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-20201",
+        "filename": "12-step-20201.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-42741",
+        "filename": "13-question-42741.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-97723",
+        "filename": "14-question-97723.png"
+      }
+    ]
+  }
+}

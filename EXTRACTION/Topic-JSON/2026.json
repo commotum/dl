@@ -1,0 +1,472 @@
+{
+  "schema_version": 1,
+  "topic_id": "2026",
+  "topic_title": "Moments and Center of Mass",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2026.html",
+  "source_url": "https://mathacademy.com/topics/2026",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "45153",
+        "dom_id": "sectionLink-45153",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-45153"
+      },
+      {
+        "index": 2,
+        "step_id": "45154",
+        "dom_id": "sectionLink-45154",
+        "name": "",
+        "title": "The Principle of Moments",
+        "selector": "#sectionLink-45154"
+      },
+      {
+        "index": 3,
+        "step_id": "45167",
+        "dom_id": "sectionLink-45167",
+        "name": "",
+        "title": "Applying the Principle of Moments",
+        "selector": "#sectionLink-45167"
+      },
+      {
+        "index": 4,
+        "step_id": "45155",
+        "dom_id": "sectionLink-45155",
+        "name": "",
+        "title": "Moments About the Origin",
+        "selector": "#sectionLink-45155"
+      },
+      {
+        "index": 5,
+        "step_id": "45156",
+        "dom_id": "sectionLink-45156",
+        "name": "",
+        "title": "Sums of Moments for Masses Distributed Along the X-Axis",
+        "selector": "#sectionLink-45156"
+      },
+      {
+        "index": 6,
+        "step_id": "45159",
+        "dom_id": "sectionLink-45159",
+        "name": "",
+        "title": "Center of Mass",
+        "selector": "#sectionLink-45159"
+      },
+      {
+        "index": 7,
+        "step_id": "45160",
+        "dom_id": "sectionLink-45160",
+        "name": "",
+        "title": "Calculating the Center of Mass for a Collection of Masses Along the X-Axis",
+        "selector": "#sectionLink-45160"
+      },
+      {
+        "index": 8,
+        "step_id": "45163",
+        "dom_id": "sectionLink-45163",
+        "name": "",
+        "title": "Center of Mass for Objects in the Plane",
+        "selector": "#sectionLink-45163"
+      },
+      {
+        "index": 9,
+        "step_id": "45164",
+        "dom_id": "sectionLink-45164",
+        "name": "",
+        "title": "Calculating the Center of Mass for a Collection of Masses in the Plane",
+        "selector": "#sectionLink-45164"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "487",
+        "name": "Solving Systems of Equations by Substitution",
+        "href": "/topics/solving-systems-of-equations-by-substitution-487"
+      },
+      {
+        "topic_id": "673",
+        "name": "Sigma Notation",
+        "href": "/topics/sigma-notation-673"
+      },
+      {
+        "topic_id": "1107",
+        "name": "Introduction to Vectors",
+        "href": "/topics/introduction-to-vectors-1107"
+      },
+      {
+        "topic_id": "2230",
+        "name": "Determining Units in Formulas",
+        "href": "/topics/determining-units-in-formulas-2230"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 18,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "45153",
+        "content_id": "7804",
+        "dom_id": "step-45153",
+        "selector": "#step-45153",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "45154",
+        "content_id": "7805",
+        "dom_id": "step-45154",
+        "selector": "#step-45154",
+        "step_anchor": "step-2",
+        "title": "The Principle of Moments",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "45167",
+        "content_id": "12533",
+        "dom_id": "step-45167",
+        "selector": "#step-45167",
+        "step_anchor": "step-3",
+        "title": "Applying the Principle of Moments",
+        "key_prerequisites": [
+          {
+            "topic_id": "487",
+            "name": "Solving Systems of Equations by Substitution",
+            "href": "/topics/487"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "163796",
+        "dom_id": "question-163796",
+        "selector": "#question-163796",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "163797",
+        "dom_id": "question-163797",
+        "selector": "#question-163797",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "163798",
+        "dom_id": "question-163798",
+        "selector": "#question-163798",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "45155",
+        "content_id": "7806",
+        "dom_id": "step-45155",
+        "selector": "#step-45155",
+        "step_anchor": "step-7",
+        "title": "Moments About the Origin",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "45156",
+        "content_id": "12530",
+        "dom_id": "step-45156",
+        "selector": "#step-45156",
+        "step_anchor": "step-8",
+        "title": "Sums of Moments for Masses Distributed Along the X-Axis",
+        "key_prerequisites": [
+          {
+            "topic_id": "673",
+            "name": "Sigma Notation",
+            "href": "/topics/673"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "163079",
+        "dom_id": "question-163079",
+        "selector": "#question-163079",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "163080",
+        "dom_id": "question-163080",
+        "selector": "#question-163080",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "45159",
+        "content_id": "7807",
+        "dom_id": "step-45159",
+        "selector": "#step-45159",
+        "step_anchor": "step-11",
+        "title": "Center of Mass",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "45160",
+        "content_id": "12531",
+        "dom_id": "step-45160",
+        "selector": "#step-45160",
+        "step_anchor": "step-12",
+        "title": "Calculating the Center of Mass for a Collection of Masses Along the X-Axis",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "163081",
+        "dom_id": "question-163081",
+        "selector": "#question-163081",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "163082",
+        "dom_id": "question-163082",
+        "selector": "#question-163082",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "45163",
+        "content_id": "7808",
+        "dom_id": "step-45163",
+        "selector": "#step-45163",
+        "step_anchor": "step-15",
+        "title": "Center of Mass for Objects in the Plane",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 16,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "45164",
+        "content_id": "12532",
+        "dom_id": "step-45164",
+        "selector": "#step-45164",
+        "step_anchor": "step-16",
+        "title": "Calculating the Center of Mass for a Collection of Masses in the Plane",
+        "key_prerequisites": [
+          {
+            "topic_id": "573",
+            "name": "Distances Between Points in the Coordinate Plane",
+            "href": "/topics/573"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "question_id": "163084",
+        "dom_id": "question-163084",
+        "selector": "#question-163084",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 18,
+        "item_type": "question",
+        "question_id": "163085",
+        "dom_id": "question-163085",
+        "selector": "#question-163085",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-45153",
+        "filename": "01-step-45153.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-45154",
+        "filename": "02-step-45154.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-45167",
+        "filename": "03-step-45167.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-163796",
+        "filename": "04-question-163796.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-163797",
+        "filename": "05-question-163797.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-163798",
+        "filename": "06-question-163798.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-45155",
+        "filename": "07-step-45155.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-45156",
+        "filename": "08-step-45156.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-163079",
+        "filename": "09-question-163079.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-163080",
+        "filename": "10-question-163080.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-45159",
+        "filename": "11-step-45159.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-45160",
+        "filename": "12-step-45160.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-163081",
+        "filename": "13-question-163081.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-163082",
+        "filename": "14-question-163082.png"
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "selector": "#step-45163",
+        "filename": "15-step-45163.png"
+      },
+      {
+        "index": 16,
+        "item_type": "step",
+        "selector": "#step-45164",
+        "filename": "16-step-45164.png"
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "selector": "#question-163084",
+        "filename": "17-question-163084.png"
+      },
+      {
+        "index": 18,
+        "item_type": "question",
+        "selector": "#question-163085",
+        "filename": "18-question-163085.png"
+      }
+    ]
+  }
+}

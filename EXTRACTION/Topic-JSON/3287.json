@@ -1,0 +1,326 @@
+{
+  "schema_version": 1,
+  "topic_id": "3287",
+  "topic_title": "Calculating Moments Using Moment-Generating Functions",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3287.html",
+  "source_url": "https://mathacademy.com/topics/3287",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "32350",
+        "dom_id": "sectionLink-32350",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-32350"
+      },
+      {
+        "index": 2,
+        "step_id": "32358",
+        "dom_id": "sectionLink-32358",
+        "name": "",
+        "title": "Computing a First Moment Using a Moment-Generating Function",
+        "selector": "#sectionLink-32358"
+      },
+      {
+        "index": 3,
+        "step_id": "34374",
+        "dom_id": "sectionLink-34374",
+        "name": "",
+        "title": "Calculating Second Moments From Moment-Generating Functions",
+        "selector": "#sectionLink-34374"
+      },
+      {
+        "index": 4,
+        "step_id": "32359",
+        "dom_id": "sectionLink-32359",
+        "name": "",
+        "title": "Computing the Second Moment Given a Moment-Generating Function",
+        "selector": "#sectionLink-32359"
+      },
+      {
+        "index": 5,
+        "step_id": "34376",
+        "dom_id": "sectionLink-34376",
+        "name": "",
+        "title": "Calculating General Moments From Moment-Generating Functions",
+        "selector": "#sectionLink-34376"
+      },
+      {
+        "index": 6,
+        "step_id": "32361",
+        "dom_id": "sectionLink-32361",
+        "name": "",
+        "title": "Computing the General Moment Given a Moment-Generating Function",
+        "selector": "#sectionLink-32361"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "281",
+        "name": "Second and Higher-Order Derivatives",
+        "href": "/topics/second-and-higher-order-derivatives-281"
+      },
+      {
+        "topic_id": "3401",
+        "name": "Moment-Generating Functions",
+        "href": "/topics/moment-generating-functions-3401"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "32350",
+        "content_id": "5139",
+        "dom_id": "step-32350",
+        "selector": "#step-32350",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "32358",
+        "content_id": "8704",
+        "dom_id": "step-32358",
+        "selector": "#step-32358",
+        "step_anchor": "step-2",
+        "title": "Computing a First Moment Using a Moment-Generating Function",
+        "key_prerequisites": [
+          {
+            "topic_id": "1115",
+            "name": "Selecting Procedures for Calculating Derivatives",
+            "href": "/topics/1115"
+          },
+          {
+            "topic_id": "3401",
+            "name": "Moment-Generating Functions",
+            "href": "/topics/3401"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "98294",
+        "dom_id": "question-98294",
+        "selector": "#question-98294",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "98673",
+        "dom_id": "question-98673",
+        "selector": "#question-98673",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "34374",
+        "content_id": "5531",
+        "dom_id": "step-34374",
+        "selector": "#step-34374",
+        "step_anchor": "step-5",
+        "title": "Calculating Second Moments From Moment-Generating Functions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "32359",
+        "content_id": "8705",
+        "dom_id": "step-32359",
+        "selector": "#step-32359",
+        "step_anchor": "step-6",
+        "title": "Computing the Second Moment Given a Moment-Generating Function",
+        "key_prerequisites": [
+          {
+            "topic_id": "281",
+            "name": "Second and Higher-Order Derivatives",
+            "href": "/topics/281"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "98727",
+        "dom_id": "question-98727",
+        "selector": "#question-98727",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "98731",
+        "dom_id": "question-98731",
+        "selector": "#question-98731",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "34376",
+        "content_id": "5533",
+        "dom_id": "step-34376",
+        "selector": "#step-34376",
+        "step_anchor": "step-9",
+        "title": "Calculating General Moments From Moment-Generating Functions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "32361",
+        "content_id": "8707",
+        "dom_id": "step-32361",
+        "selector": "#step-32361",
+        "step_anchor": "step-10",
+        "title": "Computing the General Moment Given a Moment-Generating Function",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "98297",
+        "dom_id": "question-98297",
+        "selector": "#question-98297",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "98795",
+        "dom_id": "question-98795",
+        "selector": "#question-98795",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-32350",
+        "filename": "01-step-32350.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-32358",
+        "filename": "02-step-32358.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-98294",
+        "filename": "03-question-98294.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-98673",
+        "filename": "04-question-98673.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-34374",
+        "filename": "05-step-34374.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-32359",
+        "filename": "06-step-32359.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-98727",
+        "filename": "07-question-98727.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-98731",
+        "filename": "08-question-98731.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-34376",
+        "filename": "09-step-34376.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-32361",
+        "filename": "10-step-32361.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-98297",
+        "filename": "11-question-98297.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-98795",
+        "filename": "12-question-98795.png"
+      }
+    ]
+  }
+}

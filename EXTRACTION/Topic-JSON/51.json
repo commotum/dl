@@ -1,0 +1,454 @@
+{
+  "schema_version": 1,
+  "topic_id": "51",
+  "topic_title": "Power Sets",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/51.html",
+  "source_url": "https://mathacademy.com/topics/51",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "153365",
+        "dom_id": "sectionLink-153365",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-153365"
+      },
+      {
+        "index": 2,
+        "step_id": "153366",
+        "dom_id": "sectionLink-153366",
+        "name": "",
+        "title": "Using a Tree Diagram",
+        "selector": "#sectionLink-153366"
+      },
+      {
+        "index": 3,
+        "step_id": "153367",
+        "dom_id": "sectionLink-153367",
+        "name": "",
+        "title": "Listing the Elements in a Power Set",
+        "selector": "#sectionLink-153367"
+      },
+      {
+        "index": 4,
+        "step_id": "153371",
+        "dom_id": "sectionLink-153371",
+        "name": "",
+        "title": "The Cardinality of a Power Set",
+        "selector": "#sectionLink-153371"
+      },
+      {
+        "index": 5,
+        "step_id": "153372",
+        "dom_id": "sectionLink-153372",
+        "name": "",
+        "title": "Computing the Cardinality of a Power Set",
+        "selector": "#sectionLink-153372"
+      },
+      {
+        "index": 6,
+        "step_id": "153376",
+        "dom_id": "sectionLink-153376",
+        "name": "",
+        "title": "Determining Cardinality in More Advanced Cases",
+        "selector": "#sectionLink-153376"
+      },
+      {
+        "index": 7,
+        "step_id": "153379",
+        "dom_id": "sectionLink-153379",
+        "name": "",
+        "title": "Identifying True Statements",
+        "selector": "#sectionLink-153379"
+      },
+      {
+        "index": 8,
+        "step_id": "153382",
+        "dom_id": "sectionLink-153382",
+        "name": "",
+        "title": "Power Sets of Infinite Sets",
+        "selector": "#sectionLink-153382"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "49",
+        "name": "The Cartesian Product",
+        "href": "/topics/the-cartesian-product-49"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 18,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "153365",
+        "content_id": "8241",
+        "dom_id": "step-153365",
+        "selector": "#step-153365",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "153366",
+        "content_id": "8511",
+        "dom_id": "step-153366",
+        "selector": "#step-153366",
+        "step_anchor": "step-2",
+        "title": "Using a Tree Diagram",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "153367",
+        "content_id": "13199",
+        "dom_id": "step-153367",
+        "selector": "#step-153367",
+        "step_anchor": "step-3",
+        "title": "Listing the Elements in a Power Set",
+        "key_prerequisites": [
+          {
+            "topic_id": "50",
+            "name": "Subsets",
+            "href": "/topics/50"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "1193",
+        "dom_id": "question-1193",
+        "selector": "#question-1193",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "1205",
+        "dom_id": "question-1205",
+        "selector": "#question-1205",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "1194",
+        "dom_id": "question-1194",
+        "selector": "#question-1194",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "153371",
+        "content_id": "8242",
+        "dom_id": "step-153371",
+        "selector": "#step-153371",
+        "step_anchor": "step-7",
+        "title": "The Cardinality of a Power Set",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "153372",
+        "content_id": "13200",
+        "dom_id": "step-153372",
+        "selector": "#step-153372",
+        "step_anchor": "step-8",
+        "title": "Computing the Cardinality of a Power Set",
+        "key_prerequisites": [
+          {
+            "topic_id": "48",
+            "name": "Cardinality of Finite Sets",
+            "href": "/topics/48"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "1195",
+        "dom_id": "question-1195",
+        "selector": "#question-1195",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "1198",
+        "dom_id": "question-1198",
+        "selector": "#question-1198",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "80937",
+        "dom_id": "question-80937",
+        "selector": "#question-80937",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "153376",
+        "content_id": "13201",
+        "dom_id": "step-153376",
+        "selector": "#step-153376",
+        "step_anchor": "step-12",
+        "title": "Determining Cardinality in More Advanced Cases",
+        "key_prerequisites": [
+          {
+            "topic_id": "49",
+            "name": "The Cartesian Product",
+            "href": "/topics/49"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "105138",
+        "dom_id": "question-105138",
+        "selector": "#question-105138",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "105150",
+        "dom_id": "question-105150",
+        "selector": "#question-105150",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "153379",
+        "content_id": "13214",
+        "dom_id": "step-153379",
+        "selector": "#step-153379",
+        "step_anchor": "step-15",
+        "title": "Identifying True Statements",
+        "key_prerequisites": [
+          {
+            "topic_id": "4386",
+            "name": "Infinite Sets",
+            "href": "/topics/4386"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "105125",
+        "dom_id": "question-105125",
+        "selector": "#question-105125",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "question_id": "104930",
+        "dom_id": "question-104930",
+        "selector": "#question-104930",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 18,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "153382",
+        "content_id": "8512",
+        "dom_id": "step-153382",
+        "selector": "#step-153382",
+        "step_anchor": "step-18",
+        "title": "Power Sets of Infinite Sets",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-153365",
+        "filename": "01-step-153365.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-153366",
+        "filename": "02-step-153366.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-153367",
+        "filename": "03-step-153367.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-1193",
+        "filename": "04-question-1193.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-1205",
+        "filename": "05-question-1205.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-1194",
+        "filename": "06-question-1194.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-153371",
+        "filename": "07-step-153371.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-153372",
+        "filename": "08-step-153372.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-1195",
+        "filename": "09-question-1195.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-1198",
+        "filename": "10-question-1198.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-80937",
+        "filename": "11-question-80937.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-153376",
+        "filename": "12-step-153376.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-105138",
+        "filename": "13-question-105138.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-105150",
+        "filename": "14-question-105150.png"
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "selector": "#step-153379",
+        "filename": "15-step-153379.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-105125",
+        "filename": "16-question-105125.png"
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "selector": "#question-104930",
+        "filename": "17-question-104930.png"
+      },
+      {
+        "index": 18,
+        "item_type": "step",
+        "selector": "#step-153382",
+        "filename": "18-step-153382.png"
+      }
+    ]
+  }
+}

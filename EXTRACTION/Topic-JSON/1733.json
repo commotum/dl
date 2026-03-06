@@ -1,0 +1,289 @@
+{
+  "schema_version": 1,
+  "topic_id": "1733",
+  "topic_title": "Gaussian Elimination For NxM Systems of Equations",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1733.html",
+  "source_url": "https://mathacademy.com/topics/1733",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "17213",
+        "dom_id": "sectionLink-17213",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-17213"
+      },
+      {
+        "index": 2,
+        "step_id": "17214",
+        "dom_id": "sectionLink-17214",
+        "name": "",
+        "title": "Solving a Consistent System of Equations Using Gauss-Jordan Elimination",
+        "selector": "#sectionLink-17214"
+      },
+      {
+        "index": 3,
+        "step_id": "17215",
+        "dom_id": "sectionLink-17215",
+        "name": "",
+        "title": "Consistent and Inconsistent Systems of Linear Equations",
+        "selector": "#sectionLink-17215"
+      },
+      {
+        "index": 4,
+        "step_id": "23072",
+        "dom_id": "sectionLink-23072",
+        "name": "",
+        "title": "Classifying a System as Consistent Dependent, Consistent Independent, or Inconsistent",
+        "selector": "#sectionLink-23072"
+      },
+      {
+        "index": 5,
+        "step_id": "17216",
+        "dom_id": "sectionLink-17216",
+        "name": "",
+        "title": "Determining the Value of a Constant for Which a Given Linear System Is Consistent or Inconsistent",
+        "selector": "#sectionLink-17216"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1049",
+        "name": "Reduced Row Echelon Form",
+        "href": "/topics/reduced-row-echelon-form-1049"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "17213",
+        "content_id": "3162",
+        "dom_id": "step-17213",
+        "selector": "#step-17213",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17214",
+        "content_id": "4711",
+        "dom_id": "step-17214",
+        "selector": "#step-17214",
+        "step_anchor": "step-2",
+        "title": "Solving a Consistent System of Equations Using Gauss-Jordan Elimination",
+        "key_prerequisites": [
+          {
+            "topic_id": "1049",
+            "name": "Reduced Row Echelon Form",
+            "href": "/topics/1049"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "32234",
+        "dom_id": "question-32234",
+        "selector": "#question-32234",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "42040",
+        "dom_id": "question-42040",
+        "selector": "#question-42040",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "17215",
+        "content_id": "3163",
+        "dom_id": "step-17215",
+        "selector": "#step-17215",
+        "step_anchor": "step-5",
+        "title": "Consistent and Inconsistent Systems of Linear Equations",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "23072",
+        "content_id": "6173",
+        "dom_id": "step-23072",
+        "selector": "#step-23072",
+        "step_anchor": "step-6",
+        "title": "Classifying a System as Consistent Dependent, Consistent Independent, or Inconsistent",
+        "key_prerequisites": [
+          {
+            "topic_id": "493",
+            "name": "Systems of Equations With No Solutions and Infinitely Many Solutions",
+            "href": "/topics/493"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "32242",
+        "dom_id": "question-32242",
+        "selector": "#question-32242",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "42061",
+        "dom_id": "question-42061",
+        "selector": "#question-42061",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17216",
+        "content_id": "4712",
+        "dom_id": "step-17216",
+        "selector": "#step-17216",
+        "step_anchor": "step-9",
+        "title": "Determining the Value of a Constant for Which a Given Linear System Is Consistent or Inconsistent",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "32246",
+        "dom_id": "question-32246",
+        "selector": "#question-32246",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "42059",
+        "dom_id": "question-42059",
+        "selector": "#question-42059",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-17213",
+        "filename": "01-step-17213.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-17214",
+        "filename": "02-step-17214.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-32234",
+        "filename": "03-question-32234.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-42040",
+        "filename": "04-question-42040.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-17215",
+        "filename": "05-step-17215.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-23072",
+        "filename": "06-step-23072.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-32242",
+        "filename": "07-question-32242.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-42061",
+        "filename": "08-question-42061.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-17216",
+        "filename": "09-step-17216.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-32246",
+        "filename": "10-question-32246.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-42059",
+        "filename": "11-question-42059.png"
+      }
+    ]
+  }
+}

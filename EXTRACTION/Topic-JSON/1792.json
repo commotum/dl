@@ -1,0 +1,347 @@
+{
+  "schema_version": 1,
+  "topic_id": "1792",
+  "topic_title": "Tangent Vectors and Tangent Lines to Curves",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1792.html",
+  "source_url": "https://mathacademy.com/topics/1792",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "45344",
+        "dom_id": "sectionLink-45344",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-45344"
+      },
+      {
+        "index": 2,
+        "step_id": "45345",
+        "dom_id": "sectionLink-45345",
+        "name": "",
+        "title": "Finding a Tangent Vector",
+        "selector": "#sectionLink-45345"
+      },
+      {
+        "index": 3,
+        "step_id": "45348",
+        "dom_id": "sectionLink-45348",
+        "name": "",
+        "title": "Finding a Tangent Line to a Curve",
+        "selector": "#sectionLink-45348"
+      },
+      {
+        "index": 4,
+        "step_id": "45392",
+        "dom_id": "sectionLink-45392",
+        "name": "",
+        "title": "Finding Points Where a Tangent Vector is Perpendicular to Another Vector",
+        "selector": "#sectionLink-45392"
+      },
+      {
+        "index": 5,
+        "step_id": "45351",
+        "dom_id": "sectionLink-45351",
+        "name": "",
+        "title": "Finding Points Where a Tangent Vector is Parallel to Another Vector",
+        "selector": "#sectionLink-45351"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "177",
+        "name": "Calculating the Dot Product Using Components",
+        "href": "/topics/calculating-the-dot-product-using-components-177"
+      },
+      {
+        "topic_id": "1376",
+        "name": "The Vector Equation of a Line",
+        "href": "/topics/the-vector-equation-of-a-line-1376"
+      },
+      {
+        "topic_id": "4139",
+        "name": "Differentiating Vector-Valued Functions",
+        "href": "/topics/differentiating-vector-valued-functions-4139"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "45344",
+        "content_id": "7864",
+        "dom_id": "step-45344",
+        "selector": "#step-45344",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "45345",
+        "content_id": "12567",
+        "dom_id": "step-45345",
+        "selector": "#step-45345",
+        "step_anchor": "step-2",
+        "title": "Finding a Tangent Vector",
+        "key_prerequisites": [
+          {
+            "topic_id": "4139",
+            "name": "Differentiating Vector-Valued Functions",
+            "href": "/topics/4139"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "32872",
+        "dom_id": "question-32872",
+        "selector": "#question-32872",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "32916",
+        "dom_id": "question-32916",
+        "selector": "#question-32916",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "45348",
+        "content_id": "12568",
+        "dom_id": "step-45348",
+        "selector": "#step-45348",
+        "step_anchor": "step-5",
+        "title": "Finding a Tangent Line to a Curve",
+        "key_prerequisites": [
+          {
+            "topic_id": "1376",
+            "name": "The Vector Equation of a Line",
+            "href": "/topics/1376"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "126845",
+        "dom_id": "question-126845",
+        "selector": "#question-126845",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "32917",
+        "dom_id": "question-32917",
+        "selector": "#question-32917",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "45392",
+        "content_id": "12580",
+        "dom_id": "step-45392",
+        "selector": "#step-45392",
+        "step_anchor": "step-8",
+        "title": "Finding Points Where a Tangent Vector is Perpendicular to Another Vector",
+        "key_prerequisites": [
+          {
+            "topic_id": "177",
+            "name": "Calculating the Dot Product Using Components",
+            "href": "/topics/177"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "75519",
+        "dom_id": "question-75519",
+        "selector": "#question-75519",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "33498",
+        "dom_id": "question-33498",
+        "selector": "#question-33498",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "45351",
+        "content_id": "12569",
+        "dom_id": "step-45351",
+        "selector": "#step-45351",
+        "step_anchor": "step-11",
+        "title": "Finding Points Where a Tangent Vector is Parallel to Another Vector",
+        "key_prerequisites": [
+          {
+            "topic_id": "1103",
+            "name": "Parallel Vectors",
+            "href": "/topics/1103"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "126902",
+        "dom_id": "question-126902",
+        "selector": "#question-126902",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "32918",
+        "dom_id": "question-32918",
+        "selector": "#question-32918",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-45344",
+        "filename": "01-step-45344.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-45345",
+        "filename": "02-step-45345.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-32872",
+        "filename": "03-question-32872.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-32916",
+        "filename": "04-question-32916.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-45348",
+        "filename": "05-step-45348.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-126845",
+        "filename": "06-question-126845.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-32917",
+        "filename": "07-question-32917.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-45392",
+        "filename": "08-step-45392.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-75519",
+        "filename": "09-question-75519.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-33498",
+        "filename": "10-question-33498.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-45351",
+        "filename": "11-step-45351.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-126902",
+        "filename": "12-question-126902.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-32918",
+        "filename": "13-question-32918.png"
+      }
+    ]
+  }
+}

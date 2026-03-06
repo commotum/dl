@@ -1,0 +1,337 @@
+{
+  "schema_version": 1,
+  "topic_id": "1173",
+  "topic_title": "The Remainder Estimate for the Integral Test",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1173.html",
+  "source_url": "https://mathacademy.com/topics/1173",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "37156",
+        "dom_id": "sectionLink-37156",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-37156"
+      },
+      {
+        "index": 2,
+        "step_id": "45601",
+        "dom_id": "sectionLink-45601",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-45601"
+      },
+      {
+        "index": 3,
+        "step_id": "37157",
+        "dom_id": "sectionLink-37157",
+        "name": "",
+        "title": "Using the Remainder Estimate to Determine an Upper Bound",
+        "selector": "#sectionLink-37157"
+      },
+      {
+        "index": 4,
+        "step_id": "37158",
+        "dom_id": "sectionLink-37158",
+        "name": "",
+        "title": "Using the Remainder Estimate to Determine a Lower Bound",
+        "selector": "#sectionLink-37158"
+      },
+      {
+        "index": 5,
+        "step_id": "37167",
+        "dom_id": "sectionLink-37167",
+        "name": "",
+        "title": "Bounding the Sum of a Convergent Series",
+        "selector": "#sectionLink-37167"
+      },
+      {
+        "index": 6,
+        "step_id": "37169",
+        "dom_id": "sectionLink-37169",
+        "name": "",
+        "title": "Bounding a Series",
+        "selector": "#sectionLink-37169"
+      },
+      {
+        "index": 7,
+        "step_id": "37160",
+        "dom_id": "sectionLink-37160",
+        "name": "",
+        "title": "The Intuition Behind the Bounds for the Remainder Estimate",
+        "selector": "#sectionLink-37160"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "744",
+        "name": "The Integral Test",
+        "href": "/topics/the-integral-test-744"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "37156",
+        "content_id": "6118",
+        "dom_id": "step-37156",
+        "selector": "#step-37156",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "45601",
+        "content_id": "7917",
+        "dom_id": "step-45601",
+        "selector": "#step-45601",
+        "step_anchor": "step-2",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "37157",
+        "content_id": "9878",
+        "dom_id": "step-37157",
+        "selector": "#step-37157",
+        "step_anchor": "step-3",
+        "title": "Using the Remainder Estimate to Determine an Upper Bound",
+        "key_prerequisites": [
+          {
+            "topic_id": "744",
+            "name": "The Integral Test",
+            "href": "/topics/744"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "14254",
+        "dom_id": "question-14254",
+        "selector": "#question-14254",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "14255",
+        "dom_id": "question-14255",
+        "selector": "#question-14255",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "37158",
+        "content_id": "9879",
+        "dom_id": "step-37158",
+        "selector": "#step-37158",
+        "step_anchor": "step-6",
+        "title": "Using the Remainder Estimate to Determine a Lower Bound",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "14261",
+        "dom_id": "question-14261",
+        "selector": "#question-14261",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "165997",
+        "dom_id": "question-165997",
+        "selector": "#question-165997",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "37167",
+        "content_id": "6120",
+        "dom_id": "step-37167",
+        "selector": "#step-37167",
+        "step_anchor": "step-9",
+        "title": "Bounding the Sum of a Convergent Series",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "37169",
+        "content_id": "9883",
+        "dom_id": "step-37169",
+        "selector": "#step-37169",
+        "step_anchor": "step-10",
+        "title": "Bounding a Series",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "14250",
+        "dom_id": "question-14250",
+        "selector": "#question-14250",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "138974",
+        "dom_id": "question-138974",
+        "selector": "#question-138974",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "37160",
+        "content_id": "6119",
+        "dom_id": "step-37160",
+        "selector": "#step-37160",
+        "step_anchor": "step-13",
+        "title": "The Intuition Behind the Bounds for the Remainder Estimate",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-37156",
+        "filename": "01-step-37156.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-45601",
+        "filename": "02-step-45601.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-37157",
+        "filename": "03-step-37157.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-14254",
+        "filename": "04-question-14254.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-14255",
+        "filename": "05-question-14255.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-37158",
+        "filename": "06-step-37158.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-14261",
+        "filename": "07-question-14261.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-165997",
+        "filename": "08-question-165997.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-37167",
+        "filename": "09-step-37167.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-37169",
+        "filename": "10-step-37169.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-14250",
+        "filename": "11-question-14250.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-138974",
+        "filename": "12-question-138974.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-37160",
+        "filename": "13-step-37160.png"
+      }
+    ]
+  }
+}

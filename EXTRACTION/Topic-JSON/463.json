@@ -1,0 +1,472 @@
+{
+  "schema_version": 1,
+  "topic_id": "463",
+  "topic_title": "L'Hopital's Rule",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/463.html",
+  "source_url": "https://mathacademy.com/topics/463",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "1125",
+        "dom_id": "sectionLink-1125",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-1125"
+      },
+      {
+        "index": 2,
+        "step_id": "1126",
+        "dom_id": "sectionLink-1126",
+        "name": "",
+        "title": "Calculating a Limit Using L'Hopital's Rule",
+        "selector": "#sectionLink-1126"
+      },
+      {
+        "index": 3,
+        "step_id": "1129",
+        "dom_id": "sectionLink-1129",
+        "name": "",
+        "title": "Calculating a Limit Using L'Hopital's Rule Twice",
+        "selector": "#sectionLink-1129"
+      },
+      {
+        "index": 4,
+        "step_id": "1131",
+        "dom_id": "sectionLink-1131",
+        "name": "",
+        "title": "L'Hopital's Rule for the Case of Infinity Divided by Infinity",
+        "selector": "#sectionLink-1131"
+      },
+      {
+        "index": 5,
+        "step_id": "1132",
+        "dom_id": "sectionLink-1132",
+        "name": "",
+        "title": "Calculating an Indeterminate Limit of the Form Infinity Divided by Infinity Using L'Hopital's Rule",
+        "selector": "#sectionLink-1132"
+      },
+      {
+        "index": 6,
+        "step_id": "1134",
+        "dom_id": "sectionLink-1134",
+        "name": "",
+        "title": "L'Hopital's Rule for Limits at Positive or Negative Infinity",
+        "selector": "#sectionLink-1134"
+      },
+      {
+        "index": 7,
+        "step_id": "1135",
+        "dom_id": "sectionLink-1135",
+        "name": "",
+        "title": "Calculating a Limit at Positive or Negative Infinity Using L'Hopital's Rule",
+        "selector": "#sectionLink-1135"
+      },
+      {
+        "index": 8,
+        "step_id": "28205",
+        "dom_id": "sectionLink-28205",
+        "name": "",
+        "title": "The General Theorem",
+        "selector": "#sectionLink-28205"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "281",
+        "name": "Second and Higher-Order Derivatives",
+        "href": "/topics/second-and-higher-order-derivatives-281"
+      },
+      {
+        "topic_id": "1115",
+        "name": "Selecting Procedures for Calculating Derivatives",
+        "href": "/topics/selecting-procedures-for-calculating-derivatives-1115"
+      },
+      {
+        "topic_id": "1377",
+        "name": "Limits of Logarithmic Functions",
+        "href": "/topics/limits-of-logarithmic-functions-1377"
+      },
+      {
+        "topic_id": "1717",
+        "name": "Limits of Exponential Functions",
+        "href": "/topics/limits-of-exponential-functions-1717"
+      },
+      {
+        "topic_id": "1905",
+        "name": "Limits of Reciprocal Functions",
+        "href": "/topics/limits-of-reciprocal-functions-1905"
+      },
+      {
+        "topic_id": "1958",
+        "name": "Limits of Reciprocal Trigonometric Functions",
+        "href": "/topics/limits-of-reciprocal-trigonometric-functions-1958"
+      },
+      {
+        "topic_id": "1986",
+        "name": "Limits of Radical Functions",
+        "href": "/topics/limits-of-radical-functions-1986"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 16,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "1125",
+        "content_id": "592",
+        "dom_id": "step-1125",
+        "selector": "#step-1125",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "1126",
+        "content_id": "300",
+        "dom_id": "step-1126",
+        "selector": "#step-1126",
+        "step_anchor": "step-2",
+        "title": "Calculating a Limit Using L'Hopital's Rule",
+        "key_prerequisites": [
+          {
+            "topic_id": "1115",
+            "name": "Selecting Procedures for Calculating Derivatives",
+            "href": "/topics/1115"
+          },
+          {
+            "topic_id": "1263",
+            "name": "Limits at Infinity of Polynomials",
+            "href": "/topics/1263"
+          },
+          {
+            "topic_id": "1377",
+            "name": "Limits of Logarithmic Functions",
+            "href": "/topics/1377"
+          },
+          {
+            "topic_id": "1717",
+            "name": "Limits of Exponential Functions",
+            "href": "/topics/1717"
+          },
+          {
+            "topic_id": "1719",
+            "name": "Limits of Trigonometric Functions",
+            "href": "/topics/1719"
+          },
+          {
+            "topic_id": "1986",
+            "name": "Limits of Radical Functions",
+            "href": "/topics/1986"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "31596",
+        "dom_id": "question-31596",
+        "selector": "#question-31596",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "3770",
+        "dom_id": "question-3770",
+        "selector": "#question-3770",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "1129",
+        "content_id": "301",
+        "dom_id": "step-1129",
+        "selector": "#step-1129",
+        "step_anchor": "step-5",
+        "title": "Calculating a Limit Using L'Hopital's Rule Twice",
+        "key_prerequisites": [
+          {
+            "topic_id": "281",
+            "name": "Second and Higher-Order Derivatives",
+            "href": "/topics/281"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "31518",
+        "dom_id": "question-31518",
+        "selector": "#question-31518",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "31268",
+        "dom_id": "question-31268",
+        "selector": "#question-31268",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "1131",
+        "content_id": "595",
+        "dom_id": "step-1131",
+        "selector": "#step-1131",
+        "step_anchor": "step-8",
+        "title": "L'Hopital's Rule for the Case of Infinity Divided by Infinity",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "1132",
+        "content_id": "302",
+        "dom_id": "step-1132",
+        "selector": "#step-1132",
+        "step_anchor": "step-9",
+        "title": "Calculating an Indeterminate Limit of the Form Infinity Divided by Infinity Using L'Hopital's Rule",
+        "key_prerequisites": [
+          {
+            "topic_id": "1905",
+            "name": "Limits of Reciprocal Functions",
+            "href": "/topics/1905"
+          },
+          {
+            "topic_id": "1958",
+            "name": "Limits of Reciprocal Trigonometric Functions",
+            "href": "/topics/1958"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "65731",
+        "dom_id": "question-65731",
+        "selector": "#question-65731",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "72339",
+        "dom_id": "question-72339",
+        "selector": "#question-72339",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "1134",
+        "content_id": "597",
+        "dom_id": "step-1134",
+        "selector": "#step-1134",
+        "step_anchor": "step-12",
+        "title": "L'Hopital's Rule for Limits at Positive or Negative Infinity",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "1135",
+        "content_id": "303",
+        "dom_id": "step-1135",
+        "selector": "#step-1135",
+        "step_anchor": "step-13",
+        "title": "Calculating a Limit at Positive or Negative Infinity Using L'Hopital's Rule",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "31597",
+        "dom_id": "question-31597",
+        "selector": "#question-31597",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "31273",
+        "dom_id": "question-31273",
+        "selector": "#question-31273",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "28205",
+        "content_id": "4583",
+        "dom_id": "step-28205",
+        "selector": "#step-28205",
+        "step_anchor": "step-16",
+        "title": "The General Theorem",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-1125",
+        "filename": "01-step-1125.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-1126",
+        "filename": "02-step-1126.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-31596",
+        "filename": "03-question-31596.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-3770",
+        "filename": "04-question-3770.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-1129",
+        "filename": "05-step-1129.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-31518",
+        "filename": "06-question-31518.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-31268",
+        "filename": "07-question-31268.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-1131",
+        "filename": "08-step-1131.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-1132",
+        "filename": "09-step-1132.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-65731",
+        "filename": "10-question-65731.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-72339",
+        "filename": "11-question-72339.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-1134",
+        "filename": "12-step-1134.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-1135",
+        "filename": "13-step-1135.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-31597",
+        "filename": "14-question-31597.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-31273",
+        "filename": "15-question-31273.png"
+      },
+      {
+        "index": 16,
+        "item_type": "step",
+        "selector": "#step-28205",
+        "filename": "16-step-28205.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,316 @@
+{
+  "schema_version": 1,
+  "topic_id": "3814",
+  "topic_title": "Nondeterministic Turing Machines",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3814.html",
+  "source_url": "https://mathacademy.com/topics/3814",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "421716",
+        "dom_id": "sectionLink-421716",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-421716"
+      },
+      {
+        "index": 2,
+        "step_id": "421717",
+        "dom_id": "sectionLink-421717",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-421717"
+      },
+      {
+        "index": 3,
+        "step_id": "421718",
+        "dom_id": "sectionLink-421718",
+        "name": "",
+        "title": "Building a Tree of Moves for a NTM Using a Table",
+        "selector": "#sectionLink-421718"
+      },
+      {
+        "index": 4,
+        "step_id": "421721",
+        "dom_id": "sectionLink-421721",
+        "name": "",
+        "title": "Building a Tree of Moves for a NTM Using a Diagram",
+        "selector": "#sectionLink-421721"
+      },
+      {
+        "index": 5,
+        "step_id": "421724",
+        "dom_id": "sectionLink-421724",
+        "name": "",
+        "title": "Other Types of Turing Machines",
+        "selector": "#sectionLink-421724"
+      },
+      {
+        "index": 6,
+        "step_id": "421727",
+        "dom_id": "sectionLink-421727",
+        "name": "",
+        "title": "Algorithmically Unsolvable Problems",
+        "selector": "#sectionLink-421727"
+      },
+      {
+        "index": 7,
+        "step_id": "421728",
+        "dom_id": "sectionLink-421728",
+        "name": "",
+        "title": "The P vs NP Problem",
+        "selector": "#sectionLink-421728"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3798",
+        "name": "Nondeterministic Finite Automata",
+        "href": "/topics/nondeterministic-finite-automata-3798"
+      },
+      {
+        "topic_id": "3807",
+        "name": "Big-Theta Notation",
+        "href": "/topics/big-theta-notation-3807"
+      },
+      {
+        "topic_id": "5420",
+        "name": "Processing Strings Using Turing Machines",
+        "href": "/topics/processing-strings-using-turing-machines-5420"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "421716",
+        "content_id": "10023",
+        "dom_id": "step-421716",
+        "selector": "#step-421716",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "421717",
+        "content_id": "11727",
+        "dom_id": "step-421717",
+        "selector": "#step-421717",
+        "step_anchor": "step-2",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "421718",
+        "content_id": "15702",
+        "dom_id": "step-421718",
+        "selector": "#step-421718",
+        "step_anchor": "step-3",
+        "title": "Building a Tree of Moves for a NTM Using a Table",
+        "key_prerequisites": [
+          {
+            "topic_id": "3798",
+            "name": "Nondeterministic Finite Automata",
+            "href": "/topics/3798"
+          },
+          {
+            "topic_id": "5420",
+            "name": "Processing Strings Using Turing Machines",
+            "href": "/topics/5420"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "259030",
+        "dom_id": "question-259030",
+        "selector": "#question-259030",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "238187",
+        "dom_id": "question-238187",
+        "selector": "#question-238187",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "421721",
+        "content_id": "16754",
+        "dom_id": "step-421721",
+        "selector": "#step-421721",
+        "step_anchor": "step-6",
+        "title": "Building a Tree of Moves for a NTM Using a Diagram",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "257708",
+        "dom_id": "question-257708",
+        "selector": "#question-257708",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "259247",
+        "dom_id": "question-259247",
+        "selector": "#question-259247",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "421724",
+        "content_id": "10024",
+        "dom_id": "step-421724",
+        "selector": "#step-421724",
+        "step_anchor": "step-9",
+        "title": "Other Types of Turing Machines",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "421727",
+        "content_id": "11728",
+        "dom_id": "step-421727",
+        "selector": "#step-421727",
+        "step_anchor": "step-10",
+        "title": "Algorithmically Unsolvable Problems",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "421728",
+        "content_id": "11729",
+        "dom_id": "step-421728",
+        "selector": "#step-421728",
+        "step_anchor": "step-11",
+        "title": "The P vs NP Problem",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-421716",
+        "filename": "01-step-421716.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-421717",
+        "filename": "02-step-421717.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-421718",
+        "filename": "03-step-421718.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-259030",
+        "filename": "04-question-259030.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-238187",
+        "filename": "05-question-238187.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-421721",
+        "filename": "06-step-421721.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-257708",
+        "filename": "07-question-257708.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-259247",
+        "filename": "08-question-259247.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-421724",
+        "filename": "09-step-421724.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-421727",
+        "filename": "10-step-421727.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-421728",
+        "filename": "11-step-421728.png"
+      }
+    ]
+  }
+}

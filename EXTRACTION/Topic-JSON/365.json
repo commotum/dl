@@ -1,0 +1,292 @@
+{
+  "schema_version": 1,
+  "topic_id": "365",
+  "topic_title": "Calculating Related Rates With Rectangular Solids",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/365.html",
+  "source_url": "https://mathacademy.com/topics/365",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "897",
+        "dom_id": "sectionLink-897",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-897"
+      },
+      {
+        "index": 2,
+        "step_id": "898",
+        "dom_id": "sectionLink-898",
+        "name": "",
+        "title": "Calculating the Rate of Change of a Side Given the Rate of Change of the Volume",
+        "selector": "#sectionLink-898"
+      },
+      {
+        "index": 3,
+        "step_id": "901",
+        "dom_id": "sectionLink-901",
+        "name": "",
+        "title": "Calculating the Rate of Change of the Surface Area Given the Rate of Change of a Side (and Vice Versa)",
+        "selector": "#sectionLink-901"
+      },
+      {
+        "index": 4,
+        "step_id": "904",
+        "dom_id": "sectionLink-904",
+        "name": "",
+        "title": "Calculating the Rate of Change of the Volume Given the Rate of Change of a Side",
+        "selector": "#sectionLink-904"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "368",
+        "name": "Calculating Related Rates With Squares",
+        "href": "/topics/calculating-related-rates-with-squares-368"
+      },
+      {
+        "topic_id": "674",
+        "name": "Surface Areas of Rectangular Solids",
+        "href": "/topics/surface-areas-of-rectangular-solids-674"
+      },
+      {
+        "topic_id": "1467",
+        "name": "Volumes of Cubes",
+        "href": "/topics/volumes-of-cubes-1467"
+      },
+      {
+        "topic_id": "1753",
+        "name": "Volumes of Rectangular Solids",
+        "href": "/topics/volumes-of-rectangular-solids-1753"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 10,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "897",
+        "content_id": "484",
+        "dom_id": "step-897",
+        "selector": "#step-897",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "898",
+        "content_id": "222",
+        "dom_id": "step-898",
+        "selector": "#step-898",
+        "step_anchor": "step-2",
+        "title": "Calculating the Rate of Change of a Side Given the Rate of Change of the Volume",
+        "key_prerequisites": [
+          {
+            "topic_id": "368",
+            "name": "Calculating Related Rates With Squares",
+            "href": "/topics/368"
+          },
+          {
+            "topic_id": "1467",
+            "name": "Volumes of Cubes",
+            "href": "/topics/1467"
+          },
+          {
+            "topic_id": "1753",
+            "name": "Volumes of Rectangular Solids",
+            "href": "/topics/1753"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "30091",
+        "dom_id": "question-30091",
+        "selector": "#question-30091",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "24801",
+        "dom_id": "question-24801",
+        "selector": "#question-24801",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "901",
+        "content_id": "223",
+        "dom_id": "step-901",
+        "selector": "#step-901",
+        "step_anchor": "step-5",
+        "title": "Calculating the Rate of Change of the Surface Area Given the Rate of Change of a Side (and Vice Versa)",
+        "key_prerequisites": [
+          {
+            "topic_id": "674",
+            "name": "Surface Areas of Rectangular Solids",
+            "href": "/topics/674"
+          },
+          {
+            "topic_id": "681",
+            "name": "Surface Areas of Cubes",
+            "href": "/topics/681"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "2790",
+        "dom_id": "question-2790",
+        "selector": "#question-2790",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "30090",
+        "dom_id": "question-30090",
+        "selector": "#question-30090",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "904",
+        "content_id": "224",
+        "dom_id": "step-904",
+        "selector": "#step-904",
+        "step_anchor": "step-8",
+        "title": "Calculating the Rate of Change of the Volume Given the Rate of Change of a Side",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "30022",
+        "dom_id": "question-30022",
+        "selector": "#question-30022",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "49009",
+        "dom_id": "question-49009",
+        "selector": "#question-49009",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-897",
+        "filename": "01-step-897.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-898",
+        "filename": "02-step-898.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-30091",
+        "filename": "03-question-30091.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-24801",
+        "filename": "04-question-24801.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-901",
+        "filename": "05-step-901.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-2790",
+        "filename": "06-question-2790.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-30090",
+        "filename": "07-question-30090.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-904",
+        "filename": "08-step-904.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-30022",
+        "filename": "09-question-30022.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-49009",
+        "filename": "10-question-49009.png"
+      }
+    ]
+  }
+}

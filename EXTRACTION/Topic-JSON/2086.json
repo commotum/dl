@@ -1,0 +1,432 @@
+{
+  "schema_version": 1,
+  "topic_id": "2086",
+  "topic_title": "Introduction to Systems of Linear ODEs",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2086.html",
+  "source_url": "https://mathacademy.com/topics/2086",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "594141",
+        "dom_id": "sectionLink-594141",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-594141"
+      },
+      {
+        "index": 2,
+        "step_id": "594142",
+        "dom_id": "sectionLink-594142",
+        "name": "",
+        "title": "Identifying a Linear System of Differential Equations",
+        "selector": "#sectionLink-594142"
+      },
+      {
+        "index": 3,
+        "step_id": "594145",
+        "dom_id": "sectionLink-594145",
+        "name": "",
+        "title": "Matrix Differential Equations",
+        "selector": "#sectionLink-594145"
+      },
+      {
+        "index": 4,
+        "step_id": "594146",
+        "dom_id": "sectionLink-594146",
+        "name": "",
+        "title": "Writing a Linear System of Differential Equations in Matrix Form",
+        "selector": "#sectionLink-594146"
+      },
+      {
+        "index": 5,
+        "step_id": "594149",
+        "dom_id": "sectionLink-594149",
+        "name": "",
+        "title": "Homogeneous and Inhomogeneous Systems",
+        "selector": "#sectionLink-594149"
+      },
+      {
+        "index": 6,
+        "step_id": "594150",
+        "dom_id": "sectionLink-594150",
+        "name": "",
+        "title": "Identifying Homogeneous and Inhomogeneous Systems",
+        "selector": "#sectionLink-594150"
+      },
+      {
+        "index": 7,
+        "step_id": "594153",
+        "dom_id": "sectionLink-594153",
+        "name": "",
+        "title": "Solutions for Systems of ODEs",
+        "selector": "#sectionLink-594153"
+      },
+      {
+        "index": 8,
+        "step_id": "594154",
+        "dom_id": "sectionLink-594154",
+        "name": "",
+        "title": "Identifying Solutions to a Matrix Differential Equation",
+        "selector": "#sectionLink-594154"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "906",
+        "name": "Introduction to First-Order Linear ODEs",
+        "href": "/topics/introduction-to-first-order-linear-odes-906"
+      },
+      {
+        "topic_id": "1181",
+        "name": "Verifying Solutions of Differential Equations",
+        "href": "/topics/verifying-solutions-of-differential-equations-1181"
+      },
+      {
+        "topic_id": "1729",
+        "name": "Representing 2x2 Systems of Equations Using a Matrix Product",
+        "href": "/topics/representing-2x2-systems-of-equations-using-a-matrix-product-1729"
+      },
+      {
+        "topic_id": "4139",
+        "name": "Differentiating Vector-Valued Functions",
+        "href": "/topics/differentiating-vector-valued-functions-4139"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 16,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "594141",
+        "content_id": "14659",
+        "dom_id": "step-594141",
+        "selector": "#step-594141",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "594142",
+        "content_id": "21818",
+        "dom_id": "step-594142",
+        "selector": "#step-594142",
+        "step_anchor": "step-2",
+        "title": "Identifying a Linear System of Differential Equations",
+        "key_prerequisites": [
+          {
+            "topic_id": "906",
+            "name": "Introduction to First-Order Linear ODEs",
+            "href": "/topics/906"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "339384",
+        "dom_id": "question-339384",
+        "selector": "#question-339384",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "339387",
+        "dom_id": "question-339387",
+        "selector": "#question-339387",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "594145",
+        "content_id": "14660",
+        "dom_id": "step-594145",
+        "selector": "#step-594145",
+        "step_anchor": "step-5",
+        "title": "Matrix Differential Equations",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "594146",
+        "content_id": "21820",
+        "dom_id": "step-594146",
+        "selector": "#step-594146",
+        "step_anchor": "step-6",
+        "title": "Writing a Linear System of Differential Equations in Matrix Form",
+        "key_prerequisites": [
+          {
+            "topic_id": "1729",
+            "name": "Representing 2x2 Systems of Equations Using a Matrix Product",
+            "href": "/topics/1729"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "339365",
+        "dom_id": "question-339365",
+        "selector": "#question-339365",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "339402",
+        "dom_id": "question-339402",
+        "selector": "#question-339402",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "594149",
+        "content_id": "14662",
+        "dom_id": "step-594149",
+        "selector": "#step-594149",
+        "step_anchor": "step-9",
+        "title": "Homogeneous and Inhomogeneous Systems",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "594150",
+        "content_id": "21821",
+        "dom_id": "step-594150",
+        "selector": "#step-594150",
+        "step_anchor": "step-10",
+        "title": "Identifying Homogeneous and Inhomogeneous Systems",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "339466",
+        "dom_id": "question-339466",
+        "selector": "#question-339466",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "339465",
+        "dom_id": "question-339465",
+        "selector": "#question-339465",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "594153",
+        "content_id": "14661",
+        "dom_id": "step-594153",
+        "selector": "#step-594153",
+        "step_anchor": "step-13",
+        "title": "Solutions for Systems of ODEs",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "594154",
+        "content_id": "21819",
+        "dom_id": "step-594154",
+        "selector": "#step-594154",
+        "step_anchor": "step-14",
+        "title": "Identifying Solutions to a Matrix Differential Equation",
+        "key_prerequisites": [
+          {
+            "topic_id": "1181",
+            "name": "Verifying Solutions of Differential Equations",
+            "href": "/topics/1181"
+          },
+          {
+            "topic_id": "4139",
+            "name": "Differentiating Vector-Valued Functions",
+            "href": "/topics/4139"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "339353",
+        "dom_id": "question-339353",
+        "selector": "#question-339353",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "339404",
+        "dom_id": "question-339404",
+        "selector": "#question-339404",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-594141",
+        "filename": "01-step-594141.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-594142",
+        "filename": "02-step-594142.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-339384",
+        "filename": "03-question-339384.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-339387",
+        "filename": "04-question-339387.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-594145",
+        "filename": "05-step-594145.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-594146",
+        "filename": "06-step-594146.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-339365",
+        "filename": "07-question-339365.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-339402",
+        "filename": "08-question-339402.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-594149",
+        "filename": "09-step-594149.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-594150",
+        "filename": "10-step-594150.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-339466",
+        "filename": "11-question-339466.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-339465",
+        "filename": "12-question-339465.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-594153",
+        "filename": "13-step-594153.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-594154",
+        "filename": "14-step-594154.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-339353",
+        "filename": "15-question-339353.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-339404",
+        "filename": "16-question-339404.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,535 @@
+{
+  "schema_version": 1,
+  "topic_id": "3242",
+  "topic_title": "Phase Portraits for Decoupled Linear Systems",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3242.html",
+  "source_url": "https://mathacademy.com/topics/3242",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "588112",
+        "dom_id": "sectionLink-588112",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-588112"
+      },
+      {
+        "index": 2,
+        "step_id": "588184",
+        "dom_id": "sectionLink-588184",
+        "name": "",
+        "title": "One Positive and One Negative Eigenvalue",
+        "selector": "#sectionLink-588184"
+      },
+      {
+        "index": 3,
+        "step_id": "588113",
+        "dom_id": "sectionLink-588113",
+        "name": "",
+        "title": "Both Positive Eigenvalues",
+        "selector": "#sectionLink-588113"
+      },
+      {
+        "index": 4,
+        "step_id": "588114",
+        "dom_id": "sectionLink-588114",
+        "name": "",
+        "title": "Both Negative Eigenvalues",
+        "selector": "#sectionLink-588114"
+      },
+      {
+        "index": 5,
+        "step_id": "588115",
+        "dom_id": "sectionLink-588115",
+        "name": "",
+        "title": "Identifying the Phase Portrait of a System",
+        "selector": "#sectionLink-588115"
+      },
+      {
+        "index": 6,
+        "step_id": "588118",
+        "dom_id": "sectionLink-588118",
+        "name": "",
+        "title": "Identifying the System Given a Phase Portrait",
+        "selector": "#sectionLink-588118"
+      },
+      {
+        "index": 7,
+        "step_id": "588121",
+        "dom_id": "sectionLink-588121",
+        "name": "",
+        "title": "Dominant Eigenvalue",
+        "selector": "#sectionLink-588121"
+      },
+      {
+        "index": 8,
+        "step_id": "608071",
+        "dom_id": "sectionLink-608071",
+        "name": "",
+        "title": "Unstable Node (Source)",
+        "selector": "#sectionLink-608071"
+      },
+      {
+        "index": 9,
+        "step_id": "608072",
+        "dom_id": "sectionLink-608072",
+        "name": "",
+        "title": "Stable Node (Sink)",
+        "selector": "#sectionLink-608072"
+      },
+      {
+        "index": 10,
+        "step_id": "588122",
+        "dom_id": "sectionLink-588122",
+        "name": "",
+        "title": "Identifying the Phase Portrait Given a System: Advanced Cases",
+        "selector": "#sectionLink-588122"
+      },
+      {
+        "index": 11,
+        "step_id": "588125",
+        "dom_id": "sectionLink-588125",
+        "name": "",
+        "title": "Classification of Equilibria",
+        "selector": "#sectionLink-588125"
+      },
+      {
+        "index": 12,
+        "step_id": "588126",
+        "dom_id": "sectionLink-588126",
+        "name": "",
+        "title": "Classifying Decoupled Systems of Linear Differential Equations",
+        "selector": "#sectionLink-588126"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3188",
+        "name": "Phase Planes and Phase Portraits",
+        "href": "/topics/phase-planes-and-phase-portraits-3188"
+      },
+      {
+        "topic_id": "6377",
+        "name": "Equilibrium Points and Stability for Systems of ODEs",
+        "href": "/topics/equilibrium-points-and-stability-for-systems-of-odes-6377"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 20,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "588112",
+        "content_id": "14436",
+        "dom_id": "step-588112",
+        "selector": "#step-588112",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "588184",
+        "content_id": "14565",
+        "dom_id": "step-588184",
+        "selector": "#step-588184",
+        "step_anchor": "step-2",
+        "title": "One Positive and One Negative Eigenvalue",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "588113",
+        "content_id": "14460",
+        "dom_id": "step-588113",
+        "selector": "#step-588113",
+        "step_anchor": "step-3",
+        "title": "Both Positive Eigenvalues",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "588114",
+        "content_id": "14461",
+        "dom_id": "step-588114",
+        "selector": "#step-588114",
+        "step_anchor": "step-4",
+        "title": "Both Negative Eigenvalues",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "588115",
+        "content_id": "21596",
+        "dom_id": "step-588115",
+        "selector": "#step-588115",
+        "step_anchor": "step-5",
+        "title": "Identifying the Phase Portrait of a System",
+        "key_prerequisites": [
+          {
+            "topic_id": "3188",
+            "name": "Phase Planes and Phase Portraits",
+            "href": "/topics/3188"
+          },
+          {
+            "topic_id": "3238",
+            "name": "Solving Decoupled Homogeneous Systems of ODEs",
+            "href": "/topics/3238"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "331400",
+        "dom_id": "question-331400",
+        "selector": "#question-331400",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "332579",
+        "dom_id": "question-332579",
+        "selector": "#question-332579",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "588118",
+        "content_id": "21597",
+        "dom_id": "step-588118",
+        "selector": "#step-588118",
+        "step_anchor": "step-8",
+        "title": "Identifying the System Given a Phase Portrait",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "331370",
+        "dom_id": "question-331370",
+        "selector": "#question-331370",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "332717",
+        "dom_id": "question-332717",
+        "selector": "#question-332717",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "588121",
+        "content_id": "14456",
+        "dom_id": "step-588121",
+        "selector": "#step-588121",
+        "step_anchor": "step-11",
+        "title": "Dominant Eigenvalue",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "608071",
+        "content_id": "14895",
+        "dom_id": "step-608071",
+        "selector": "#step-608071",
+        "step_anchor": "step-12",
+        "title": "Unstable Node (Source)",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "608072",
+        "content_id": "14896",
+        "dom_id": "step-608072",
+        "selector": "#step-608072",
+        "step_anchor": "step-13",
+        "title": "Stable Node (Sink)",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "588122",
+        "content_id": "21633",
+        "dom_id": "step-588122",
+        "selector": "#step-588122",
+        "step_anchor": "step-14",
+        "title": "Identifying the Phase Portrait Given a System: Advanced Cases",
+        "key_prerequisites": [
+          {
+            "topic_id": "798",
+            "name": "Differentiating Parametric Curves",
+            "href": "/topics/798"
+          },
+          {
+            "topic_id": "1717",
+            "name": "Limits of Exponential Functions",
+            "href": "/topics/1717"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "332271",
+        "dom_id": "question-332271",
+        "selector": "#question-332271",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "333187",
+        "dom_id": "question-333187",
+        "selector": "#question-333187",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 17,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "588125",
+        "content_id": "14462",
+        "dom_id": "step-588125",
+        "selector": "#step-588125",
+        "step_anchor": "step-17",
+        "title": "Classification of Equilibria",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 18,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "588126",
+        "content_id": "21607",
+        "dom_id": "step-588126",
+        "selector": "#step-588126",
+        "step_anchor": "step-18",
+        "title": "Classifying Decoupled Systems of Linear Differential Equations",
+        "key_prerequisites": [
+          {
+            "topic_id": "6377",
+            "name": "Equilibrium Points and Stability for Systems of ODEs",
+            "href": "/topics/6377"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 19,
+        "item_type": "question",
+        "question_id": "333216",
+        "dom_id": "question-333216",
+        "selector": "#question-333216",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 20,
+        "item_type": "question",
+        "question_id": "331517",
+        "dom_id": "question-331517",
+        "selector": "#question-331517",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-588112",
+        "filename": "01-step-588112.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-588184",
+        "filename": "02-step-588184.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-588113",
+        "filename": "03-step-588113.png"
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "selector": "#step-588114",
+        "filename": "04-step-588114.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-588115",
+        "filename": "05-step-588115.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-331400",
+        "filename": "06-question-331400.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-332579",
+        "filename": "07-question-332579.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-588118",
+        "filename": "08-step-588118.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-331370",
+        "filename": "09-question-331370.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-332717",
+        "filename": "10-question-332717.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-588121",
+        "filename": "11-step-588121.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-608071",
+        "filename": "12-step-608071.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-608072",
+        "filename": "13-step-608072.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-588122",
+        "filename": "14-step-588122.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-332271",
+        "filename": "15-question-332271.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-333187",
+        "filename": "16-question-333187.png"
+      },
+      {
+        "index": 17,
+        "item_type": "step",
+        "selector": "#step-588125",
+        "filename": "17-step-588125.png"
+      },
+      {
+        "index": 18,
+        "item_type": "step",
+        "selector": "#step-588126",
+        "filename": "18-step-588126.png"
+      },
+      {
+        "index": 19,
+        "item_type": "question",
+        "selector": "#question-333216",
+        "filename": "19-question-333216.png"
+      },
+      {
+        "index": 20,
+        "item_type": "question",
+        "selector": "#question-331517",
+        "filename": "20-question-331517.png"
+      }
+    ]
+  }
+}

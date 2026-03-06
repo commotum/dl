@@ -1,0 +1,351 @@
+{
+  "schema_version": 1,
+  "topic_id": "3013",
+  "topic_title": "Variance of Sample Means",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3013.html",
+  "source_url": "https://mathacademy.com/topics/3013",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "38034",
+        "dom_id": "sectionLink-38034",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-38034"
+      },
+      {
+        "index": 2,
+        "step_id": "38036",
+        "dom_id": "sectionLink-38036",
+        "name": "",
+        "title": "Finding the Variance of a Sample Mean",
+        "selector": "#sectionLink-38036"
+      },
+      {
+        "index": 3,
+        "step_id": "38149",
+        "dom_id": "sectionLink-38149",
+        "name": "",
+        "title": "The Standard Error",
+        "selector": "#sectionLink-38149"
+      },
+      {
+        "index": 4,
+        "step_id": "38037",
+        "dom_id": "sectionLink-38037",
+        "name": "",
+        "title": "Finding the Standard Error",
+        "selector": "#sectionLink-38037"
+      },
+      {
+        "index": 5,
+        "step_id": "38150",
+        "dom_id": "sectionLink-38150",
+        "name": "",
+        "title": "The Sample Mean and Large Samples",
+        "selector": "#sectionLink-38150"
+      },
+      {
+        "index": 6,
+        "step_id": "38040",
+        "dom_id": "sectionLink-38040",
+        "name": "",
+        "title": "Calculating an Appropriate Sample Size",
+        "selector": "#sectionLink-38040"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1905",
+        "name": "Limits of Reciprocal Functions",
+        "href": "/topics/limits-of-reciprocal-functions-1905"
+      },
+      {
+        "topic_id": "2856",
+        "name": "Solving Radical Inequalities",
+        "href": "/topics/solving-radical-inequalities-2856"
+      },
+      {
+        "topic_id": "3062",
+        "name": "Variance of Sums of Independent Random Variables",
+        "href": "/topics/variance-of-sums-of-independent-random-variables-3062"
+      },
+      {
+        "topic_id": "3864",
+        "name": "Sampling Distributions",
+        "href": "/topics/sampling-distributions-3864"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "38034",
+        "content_id": "6276",
+        "dom_id": "step-38034",
+        "selector": "#step-38034",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "38036",
+        "content_id": "10082",
+        "dom_id": "step-38036",
+        "selector": "#step-38036",
+        "step_anchor": "step-2",
+        "title": "Finding the Variance of a Sample Mean",
+        "key_prerequisites": [
+          {
+            "topic_id": "1388",
+            "name": "Variance of Discrete Random Variables",
+            "href": "/topics/1388"
+          },
+          {
+            "topic_id": "1632",
+            "name": "Variance and Standard Deviation",
+            "href": "/topics/1632"
+          },
+          {
+            "topic_id": "2980",
+            "name": "The Sample Mean",
+            "href": "/topics/2980"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "143189",
+        "dom_id": "question-143189",
+        "selector": "#question-143189",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "143192",
+        "dom_id": "question-143192",
+        "selector": "#question-143192",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "38149",
+        "content_id": "6300",
+        "dom_id": "step-38149",
+        "selector": "#step-38149",
+        "step_anchor": "step-5",
+        "title": "The Standard Error",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "38037",
+        "content_id": "10083",
+        "dom_id": "step-38037",
+        "selector": "#step-38037",
+        "step_anchor": "step-6",
+        "title": "Finding the Standard Error",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "143197",
+        "dom_id": "question-143197",
+        "selector": "#question-143197",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "143202",
+        "dom_id": "question-143202",
+        "selector": "#question-143202",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "38150",
+        "content_id": "6301",
+        "dom_id": "step-38150",
+        "selector": "#step-38150",
+        "step_anchor": "step-9",
+        "title": "The Sample Mean and Large Samples",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "38040",
+        "content_id": "10084",
+        "dom_id": "step-38040",
+        "selector": "#step-38040",
+        "step_anchor": "step-10",
+        "title": "Calculating an Appropriate Sample Size",
+        "key_prerequisites": [
+          {
+            "topic_id": "1415",
+            "name": "Solving Rational Equations Containing One Fractional Term",
+            "href": "/topics/1415"
+          },
+          {
+            "topic_id": "2240",
+            "name": "The Quotient Rule for Radicals",
+            "href": "/topics/2240"
+          },
+          {
+            "topic_id": "2856",
+            "name": "Solving Radical Inequalities",
+            "href": "/topics/2856"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "143205",
+        "dom_id": "question-143205",
+        "selector": "#question-143205",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "143498",
+        "dom_id": "question-143498",
+        "selector": "#question-143498",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-38034",
+        "filename": "01-step-38034.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-38036",
+        "filename": "02-step-38036.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-143189",
+        "filename": "03-question-143189.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-143192",
+        "filename": "04-question-143192.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-38149",
+        "filename": "05-step-38149.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-38037",
+        "filename": "06-step-38037.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-143197",
+        "filename": "07-question-143197.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-143202",
+        "filename": "08-question-143202.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-38150",
+        "filename": "09-step-38150.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-38040",
+        "filename": "10-step-38040.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-143205",
+        "filename": "11-question-143205.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-143498",
+        "filename": "12-question-143498.png"
+      }
+    ]
+  }
+}

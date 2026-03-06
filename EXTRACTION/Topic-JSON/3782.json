@@ -1,0 +1,351 @@
+{
+  "schema_version": 1,
+  "topic_id": "3782",
+  "topic_title": "Boolean Polynomials",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3782.html",
+  "source_url": "https://mathacademy.com/topics/3782",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "414357",
+        "dom_id": "sectionLink-414357",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-414357"
+      },
+      {
+        "index": 2,
+        "step_id": "414358",
+        "dom_id": "sectionLink-414358",
+        "name": "",
+        "title": "Identifying Boolean Polynomials",
+        "selector": "#sectionLink-414358"
+      },
+      {
+        "index": 3,
+        "step_id": "414361",
+        "dom_id": "sectionLink-414361",
+        "name": "",
+        "title": "Properties of Boolean Polynomials",
+        "selector": "#sectionLink-414361"
+      },
+      {
+        "index": 4,
+        "step_id": "414362",
+        "dom_id": "sectionLink-414362",
+        "name": "",
+        "title": "Finding the Boolean Polynomial of Boolean Functions With Two Variables",
+        "selector": "#sectionLink-414362"
+      },
+      {
+        "index": 5,
+        "step_id": "414365",
+        "dom_id": "sectionLink-414365",
+        "name": "",
+        "title": "Finding the Boolean Polynomial Given a Table",
+        "selector": "#sectionLink-414365"
+      },
+      {
+        "index": 6,
+        "step_id": "414368",
+        "dom_id": "sectionLink-414368",
+        "name": "",
+        "title": "Proving Properties of Boolean Polynomials",
+        "selector": "#sectionLink-414368"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2801",
+        "name": "Direct Proof",
+        "href": "/topics/direct-proof-2801"
+      },
+      {
+        "topic_id": "5396",
+        "name": "Principal Disjunctive Normal Forms",
+        "href": "/topics/principal-disjunctive-normal-forms-5396"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "414357",
+        "content_id": "9498",
+        "dom_id": "step-414357",
+        "selector": "#step-414357",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "414358",
+        "content_id": "15110",
+        "dom_id": "step-414358",
+        "selector": "#step-414358",
+        "step_anchor": "step-2",
+        "title": "Identifying Boolean Polynomials",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "255818",
+        "dom_id": "question-255818",
+        "selector": "#question-255818",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "225292",
+        "dom_id": "question-225292",
+        "selector": "#question-225292",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "414361",
+        "content_id": "9500",
+        "dom_id": "step-414361",
+        "selector": "#step-414361",
+        "step_anchor": "step-5",
+        "title": "Properties of Boolean Polynomials",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "414362",
+        "content_id": "15111",
+        "dom_id": "step-414362",
+        "selector": "#step-414362",
+        "step_anchor": "step-6",
+        "title": "Finding the Boolean Polynomial of Boolean Functions With Two Variables",
+        "key_prerequisites": [
+          {
+            "topic_id": "5396",
+            "name": "Principal Disjunctive Normal Forms",
+            "href": "/topics/5396"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "225293",
+        "dom_id": "question-225293",
+        "selector": "#question-225293",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "225294",
+        "dom_id": "question-225294",
+        "selector": "#question-225294",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "414365",
+        "content_id": "15107",
+        "dom_id": "step-414365",
+        "selector": "#step-414365",
+        "step_anchor": "step-9",
+        "title": "Finding the Boolean Polynomial Given a Table",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "255971",
+        "dom_id": "question-255971",
+        "selector": "#question-255971",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "225255",
+        "dom_id": "question-225255",
+        "selector": "#question-225255",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "414368",
+        "content_id": "16362",
+        "dom_id": "step-414368",
+        "selector": "#step-414368",
+        "step_anchor": "step-12",
+        "title": "Proving Properties of Boolean Polynomials",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "250151",
+        "dom_id": "question-250151",
+        "selector": "#question-250151",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "250152",
+        "dom_id": "question-250152",
+        "selector": "#question-250152",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-414357",
+        "filename": "01-step-414357.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-414358",
+        "filename": "02-step-414358.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-255818",
+        "filename": "03-question-255818.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-225292",
+        "filename": "04-question-225292.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-414361",
+        "filename": "05-step-414361.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-414362",
+        "filename": "06-step-414362.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-225293",
+        "filename": "07-question-225293.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-225294",
+        "filename": "08-question-225294.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-414365",
+        "filename": "09-step-414365.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-255971",
+        "filename": "10-question-255971.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-225255",
+        "filename": "11-question-225255.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-414368",
+        "filename": "12-step-414368.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-250151",
+        "filename": "13-question-250151.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-250152",
+        "filename": "14-question-250152.png"
+      }
+    ]
+  }
+}

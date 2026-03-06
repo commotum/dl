@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "topic_id": "1937",
+  "topic_title": "Linearization of Multivariable Functions",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1937.html",
+  "source_url": "https://mathacademy.com/topics/1937",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "10795",
+        "dom_id": "sectionLink-10795",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-10795"
+      },
+      {
+        "index": 2,
+        "step_id": "34498",
+        "dom_id": "sectionLink-34498",
+        "name": "",
+        "title": "Linearizing a Quadratic Function",
+        "selector": "#sectionLink-34498"
+      },
+      {
+        "index": 3,
+        "step_id": "32184",
+        "dom_id": "sectionLink-32184",
+        "name": "",
+        "title": "Estimating the Value of a Two-Variable Function",
+        "selector": "#sectionLink-32184"
+      },
+      {
+        "index": 4,
+        "step_id": "34419",
+        "dom_id": "sectionLink-34419",
+        "name": "",
+        "title": "Linearization of Multivariable Functions in General",
+        "selector": "#sectionLink-34419"
+      },
+      {
+        "index": 5,
+        "step_id": "32300",
+        "dom_id": "sectionLink-32300",
+        "name": "",
+        "title": "Estimating the Value of a Three-Variable Function",
+        "selector": "#sectionLink-32300"
+      },
+      {
+        "index": 6,
+        "step_id": "10796",
+        "dom_id": "sectionLink-10796",
+        "name": "",
+        "title": "Finding the Best Linear Approximation of a Multivariable Function",
+        "selector": "#sectionLink-10796"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "621",
+        "name": "Approximating Functions Using Local Linearity and Linearization",
+        "href": "/topics/approximating-functions-using-local-linearity-and-linearization-621"
+      },
+      {
+        "topic_id": "1934",
+        "name": "The Gradient Vector",
+        "href": "/topics/the-gradient-vector-1934"
+      },
+      {
+        "topic_id": "1980",
+        "name": "Tangent Planes to Surfaces",
+        "href": "/topics/tangent-planes-to-surfaces-1980"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "10795",
+        "content_id": "2414",
+        "dom_id": "step-10795",
+        "selector": "#step-10795",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "34498",
+        "content_id": "5593",
+        "dom_id": "step-34498",
+        "selector": "#step-34498",
+        "step_anchor": "step-2",
+        "title": "Linearizing a Quadratic Function",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "32184",
+        "content_id": "8674",
+        "dom_id": "step-32184",
+        "selector": "#step-32184",
+        "step_anchor": "step-3",
+        "title": "Estimating the Value of a Two-Variable Function",
+        "key_prerequisites": [
+          {
+            "topic_id": "621",
+            "name": "Approximating Functions Using Local Linearity and Linearization",
+            "href": "/topics/621"
+          },
+          {
+            "topic_id": "1934",
+            "name": "The Gradient Vector",
+            "href": "/topics/1934"
+          },
+          {
+            "topic_id": "1980",
+            "name": "Tangent Planes to Surfaces",
+            "href": "/topics/1980"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "97876",
+        "dom_id": "question-97876",
+        "selector": "#question-97876",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "97878",
+        "dom_id": "question-97878",
+        "selector": "#question-97878",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "34419",
+        "content_id": "5547",
+        "dom_id": "step-34419",
+        "selector": "#step-34419",
+        "step_anchor": "step-6",
+        "title": "Linearization of Multivariable Functions in General",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "32300",
+        "content_id": "8692",
+        "dom_id": "step-32300",
+        "selector": "#step-32300",
+        "step_anchor": "step-7",
+        "title": "Estimating the Value of a Three-Variable Function",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "97877",
+        "dom_id": "question-97877",
+        "selector": "#question-97877",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "97879",
+        "dom_id": "question-97879",
+        "selector": "#question-97879",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "10796",
+        "content_id": "3162",
+        "dom_id": "step-10796",
+        "selector": "#step-10796",
+        "step_anchor": "step-10",
+        "title": "Finding the Best Linear Approximation of a Multivariable Function",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "36747",
+        "dom_id": "question-36747",
+        "selector": "#question-36747",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "36746",
+        "dom_id": "question-36746",
+        "selector": "#question-36746",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-10795",
+        "filename": "01-step-10795.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-34498",
+        "filename": "02-step-34498.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-32184",
+        "filename": "03-step-32184.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-97876",
+        "filename": "04-question-97876.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-97878",
+        "filename": "05-question-97878.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-34419",
+        "filename": "06-step-34419.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-32300",
+        "filename": "07-step-32300.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-97877",
+        "filename": "08-question-97877.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-97879",
+        "filename": "09-question-97879.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-10796",
+        "filename": "10-step-10796.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-36747",
+        "filename": "11-question-36747.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-36746",
+        "filename": "12-question-36746.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "schema_version": 1,
+  "topic_id": "4151",
+  "topic_title": "Computing Triple Integrals Using a Change of Variables",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/4151.html",
+  "source_url": "https://mathacademy.com/topics/4151",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "42964",
+        "dom_id": "sectionLink-42964",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-42964"
+      },
+      {
+        "index": 2,
+        "step_id": "44576",
+        "dom_id": "sectionLink-44576",
+        "name": "",
+        "title": "Performing a Change of Variables in a Triple Integral",
+        "selector": "#sectionLink-44576"
+      },
+      {
+        "index": 3,
+        "step_id": "44578",
+        "dom_id": "sectionLink-44578",
+        "name": "",
+        "title": "Evaluating a Triple Integral Using a Change of Variables",
+        "selector": "#sectionLink-44578"
+      },
+      {
+        "index": 4,
+        "step_id": "44583",
+        "dom_id": "sectionLink-44583",
+        "name": "",
+        "title": "Computing the Volume of a Region Using a Change of Variables",
+        "selector": "#sectionLink-44583"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2053",
+        "name": "Calculating Volumes of Solids Using Triple Integrals",
+        "href": "/topics/calculating-volumes-of-solids-using-triple-integrals-2053"
+      },
+      {
+        "topic_id": "2058",
+        "name": "The Jacobian of a Three-Dimensional Transformation",
+        "href": "/topics/the-jacobian-of-a-three-dimensional-transformation-2058"
+      },
+      {
+        "topic_id": "4132",
+        "name": "Computing Double Integrals Using a Change of Variables",
+        "href": "/topics/computing-double-integrals-using-a-change-of-variables-4132"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 10,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "42964",
+        "content_id": "7217",
+        "dom_id": "step-42964",
+        "selector": "#step-42964",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44576",
+        "content_id": "12406",
+        "dom_id": "step-44576",
+        "selector": "#step-44576",
+        "step_anchor": "step-2",
+        "title": "Performing a Change of Variables in a Triple Integral",
+        "key_prerequisites": [
+          {
+            "topic_id": "2052",
+            "name": "Triple Integrals Over Rectangular Domains",
+            "href": "/topics/2052"
+          },
+          {
+            "topic_id": "2058",
+            "name": "The Jacobian of a Three-Dimensional Transformation",
+            "href": "/topics/2058"
+          },
+          {
+            "topic_id": "4132",
+            "name": "Computing Double Integrals Using a Change of Variables",
+            "href": "/topics/4132"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "39054",
+        "dom_id": "question-39054",
+        "selector": "#question-39054",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "38941",
+        "dom_id": "question-38941",
+        "selector": "#question-38941",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44578",
+        "content_id": "12407",
+        "dom_id": "step-44578",
+        "selector": "#step-44578",
+        "step_anchor": "step-5",
+        "title": "Evaluating a Triple Integral Using a Change of Variables",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "39055",
+        "dom_id": "question-39055",
+        "selector": "#question-39055",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "162139",
+        "dom_id": "question-162139",
+        "selector": "#question-162139",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44583",
+        "content_id": "12408",
+        "dom_id": "step-44583",
+        "selector": "#step-44583",
+        "step_anchor": "step-8",
+        "title": "Computing the Volume of a Region Using a Change of Variables",
+        "key_prerequisites": [
+          {
+            "topic_id": "2053",
+            "name": "Calculating Volumes of Solids Using Triple Integrals",
+            "href": "/topics/2053"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "162149",
+        "dom_id": "question-162149",
+        "selector": "#question-162149",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "39060",
+        "dom_id": "question-39060",
+        "selector": "#question-39060",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-42964",
+        "filename": "01-step-42964.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-44576",
+        "filename": "02-step-44576.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-39054",
+        "filename": "03-question-39054.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-38941",
+        "filename": "04-question-38941.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-44578",
+        "filename": "05-step-44578.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-39055",
+        "filename": "06-question-39055.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-162139",
+        "filename": "07-question-162139.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-44583",
+        "filename": "08-step-44583.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-162149",
+        "filename": "09-question-162149.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-39060",
+        "filename": "10-question-39060.png"
+      }
+    ]
+  }
+}

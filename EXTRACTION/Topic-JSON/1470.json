@@ -1,0 +1,352 @@
+{
+  "schema_version": 1,
+  "topic_id": "1470",
+  "topic_title": "Mean and Variance of the Normal Distribution",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1470.html",
+  "source_url": "https://mathacademy.com/topics/1470",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "118366",
+        "dom_id": "sectionLink-118366",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-118366"
+      },
+      {
+        "index": 2,
+        "step_id": "118367",
+        "dom_id": "sectionLink-118367",
+        "name": "",
+        "title": "Finding the Mean",
+        "selector": "#sectionLink-118367"
+      },
+      {
+        "index": 3,
+        "step_id": "118370",
+        "dom_id": "sectionLink-118370",
+        "name": "",
+        "title": "Finding the Variance or Standard Deviation",
+        "selector": "#sectionLink-118370"
+      },
+      {
+        "index": 4,
+        "step_id": "118376",
+        "dom_id": "sectionLink-118376",
+        "name": "",
+        "title": "Using Symmetry Properties",
+        "selector": "#sectionLink-118376"
+      },
+      {
+        "index": 5,
+        "step_id": "118373",
+        "dom_id": "sectionLink-118373",
+        "name": "",
+        "title": "Finding a Missing Parameter Using Symmetry When the Mean Is Zero",
+        "selector": "#sectionLink-118373"
+      },
+      {
+        "index": 6,
+        "step_id": "118377",
+        "dom_id": "sectionLink-118377",
+        "name": "",
+        "title": "Finding a Missing Parameter Using Symmetry When the Mean Is Nonzero",
+        "selector": "#sectionLink-118377"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1843",
+        "name": "The Normal Distribution",
+        "href": "/topics/the-normal-distribution-1843"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "118366",
+        "content_id": "8989",
+        "dom_id": "step-118366",
+        "selector": "#step-118366",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "118367",
+        "content_id": "14544",
+        "dom_id": "step-118367",
+        "selector": "#step-118367",
+        "step_anchor": "step-2",
+        "title": "Finding the Mean",
+        "key_prerequisites": [
+          {
+            "topic_id": "1843",
+            "name": "The Normal Distribution",
+            "href": "/topics/1843"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "132149",
+        "dom_id": "question-132149",
+        "selector": "#question-132149",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "132150",
+        "dom_id": "question-132150",
+        "selector": "#question-132150",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "118370",
+        "content_id": "14545",
+        "dom_id": "step-118370",
+        "selector": "#step-118370",
+        "step_anchor": "step-5",
+        "title": "Finding the Variance or Standard Deviation",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "132160",
+        "dom_id": "question-132160",
+        "selector": "#question-132160",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "132161",
+        "dom_id": "question-132161",
+        "selector": "#question-132161",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "118376",
+        "content_id": "8990",
+        "dom_id": "step-118376",
+        "selector": "#step-118376",
+        "step_anchor": "step-8",
+        "title": "Using Symmetry Properties",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "118373",
+        "content_id": "14546",
+        "dom_id": "step-118373",
+        "selector": "#step-118373",
+        "step_anchor": "step-9",
+        "title": "Finding a Missing Parameter Using Symmetry When the Mean Is Zero",
+        "key_prerequisites": [
+          {
+            "topic_id": "4420",
+            "name": "Symmetry Properties of the Standard Normal Distribution",
+            "href": "/topics/4420"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "94522",
+        "dom_id": "question-94522",
+        "selector": "#question-94522",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "94892",
+        "dom_id": "question-94892",
+        "selector": "#question-94892",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "118377",
+        "content_id": "14548",
+        "dom_id": "step-118377",
+        "selector": "#step-118377",
+        "step_anchor": "step-12",
+        "title": "Finding a Missing Parameter Using Symmetry When the Mean Is Nonzero",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "94895",
+        "dom_id": "question-94895",
+        "selector": "#question-94895",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "94875",
+        "dom_id": "question-94875",
+        "selector": "#question-94875",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-118366",
+        "filename": "01-step-118366.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-118367",
+        "filename": "02-step-118367.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-132149",
+        "filename": "03-question-132149.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-132150",
+        "filename": "04-question-132150.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-118370",
+        "filename": "05-step-118370.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-132160",
+        "filename": "06-question-132160.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-132161",
+        "filename": "07-question-132161.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-118376",
+        "filename": "08-step-118376.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-118373",
+        "filename": "09-step-118373.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-94522",
+        "filename": "10-question-94522.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-94892",
+        "filename": "11-question-94892.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-118377",
+        "filename": "12-step-118377.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-94895",
+        "filename": "13-question-94895.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-94875",
+        "filename": "14-question-94875.png"
+      }
+    ]
+  }
+}

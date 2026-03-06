@@ -1,0 +1,437 @@
+{
+  "schema_version": 1,
+  "topic_id": "1290",
+  "topic_title": "Probability Mass Functions of Discrete Random Variables",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1290.html",
+  "source_url": "https://mathacademy.com/topics/1290",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "27302",
+        "dom_id": "sectionLink-27302",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-27302"
+      },
+      {
+        "index": 2,
+        "step_id": "38089",
+        "dom_id": "sectionLink-38089",
+        "name": "",
+        "title": "Discrete Random Variables",
+        "selector": "#sectionLink-38089"
+      },
+      {
+        "index": 3,
+        "step_id": "27298",
+        "dom_id": "sectionLink-27298",
+        "name": "",
+        "title": "Identifying Discrete Random Variables",
+        "selector": "#sectionLink-27298"
+      },
+      {
+        "index": 4,
+        "step_id": "28351",
+        "dom_id": "sectionLink-28351",
+        "name": "",
+        "title": "The Probability Mass Function for a Discrete Random Variable",
+        "selector": "#sectionLink-28351"
+      },
+      {
+        "index": 5,
+        "step_id": "38090",
+        "dom_id": "sectionLink-38090",
+        "name": "",
+        "title": "Conditions for a Function To Be a Valid Probability Mass Function",
+        "selector": "#sectionLink-38090"
+      },
+      {
+        "index": 6,
+        "step_id": "27299",
+        "dom_id": "sectionLink-27299",
+        "name": "",
+        "title": "Identifying Probability Mass Functions",
+        "selector": "#sectionLink-27299"
+      },
+      {
+        "index": 7,
+        "step_id": "27301",
+        "dom_id": "sectionLink-27301",
+        "name": "",
+        "title": "Computing the Probability That a Discrete Random Variable Lies Within a Set of Values",
+        "selector": "#sectionLink-27301"
+      },
+      {
+        "index": 8,
+        "step_id": "27300",
+        "dom_id": "sectionLink-27300",
+        "name": "",
+        "title": "Computing the Probability That a Discrete Random Variable Lies Within an Interval",
+        "selector": "#sectionLink-27300"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "165",
+        "name": "Piecewise Functions",
+        "href": "/topics/piecewise-functions-165"
+      },
+      {
+        "topic_id": "673",
+        "name": "Sigma Notation",
+        "href": "/topics/sigma-notation-673"
+      },
+      {
+        "topic_id": "754",
+        "name": "The Range of a Function",
+        "href": "/topics/the-range-of-a-function-754"
+      },
+      {
+        "topic_id": "1154",
+        "name": "Mutually Exclusive Events",
+        "href": "/topics/mutually-exclusive-events-1154"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 16,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "27302",
+        "content_id": "4440",
+        "dom_id": "step-27302",
+        "selector": "#step-27302",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "38089",
+        "content_id": "6286",
+        "dom_id": "step-38089",
+        "selector": "#step-38089",
+        "step_anchor": "step-2",
+        "title": "Discrete Random Variables",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "27298",
+        "content_id": "7352",
+        "dom_id": "step-27298",
+        "selector": "#step-27298",
+        "step_anchor": "step-3",
+        "title": "Identifying Discrete Random Variables",
+        "key_prerequisites": [
+          {
+            "topic_id": "130",
+            "name": "Probability From Experimental Data",
+            "href": "/topics/130"
+          },
+          {
+            "topic_id": "239",
+            "name": "Interval Notation",
+            "href": "/topics/239"
+          },
+          {
+            "topic_id": "754",
+            "name": "The Range of a Function",
+            "href": "/topics/754"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "83453",
+        "dom_id": "question-83453",
+        "selector": "#question-83453",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "83451",
+        "dom_id": "question-83451",
+        "selector": "#question-83451",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "28351",
+        "content_id": "4609",
+        "dom_id": "step-28351",
+        "selector": "#step-28351",
+        "step_anchor": "step-6",
+        "title": "The Probability Mass Function for a Discrete Random Variable",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "38090",
+        "content_id": "6287",
+        "dom_id": "step-38090",
+        "selector": "#step-38090",
+        "step_anchor": "step-7",
+        "title": "Conditions for a Function To Be a Valid Probability Mass Function",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "27299",
+        "content_id": "7353",
+        "dom_id": "step-27299",
+        "selector": "#step-27299",
+        "step_anchor": "step-8",
+        "title": "Identifying Probability Mass Functions",
+        "key_prerequisites": [
+          {
+            "topic_id": "165",
+            "name": "Piecewise Functions",
+            "href": "/topics/165"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "83456",
+        "dom_id": "question-83456",
+        "selector": "#question-83456",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "83448",
+        "dom_id": "question-83448",
+        "selector": "#question-83448",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "27301",
+        "content_id": "7355",
+        "dom_id": "step-27301",
+        "selector": "#step-27301",
+        "step_anchor": "step-11",
+        "title": "Computing the Probability That a Discrete Random Variable Lies Within a Set of Values",
+        "key_prerequisites": [
+          {
+            "topic_id": "1154",
+            "name": "Mutually Exclusive Events",
+            "href": "/topics/1154"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "83450",
+        "dom_id": "question-83450",
+        "selector": "#question-83450",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "83457",
+        "dom_id": "question-83457",
+        "selector": "#question-83457",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "27300",
+        "content_id": "7354",
+        "dom_id": "step-27300",
+        "selector": "#step-27300",
+        "step_anchor": "step-14",
+        "title": "Computing the Probability That a Discrete Random Variable Lies Within an Interval",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "83449",
+        "dom_id": "question-83449",
+        "selector": "#question-83449",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "83458",
+        "dom_id": "question-83458",
+        "selector": "#question-83458",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-27302",
+        "filename": "01-step-27302.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-38089",
+        "filename": "02-step-38089.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-27298",
+        "filename": "03-step-27298.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-83453",
+        "filename": "04-question-83453.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-83451",
+        "filename": "05-question-83451.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-28351",
+        "filename": "06-step-28351.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-38090",
+        "filename": "07-step-38090.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-27299",
+        "filename": "08-step-27299.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-83456",
+        "filename": "09-question-83456.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-83448",
+        "filename": "10-question-83448.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-27301",
+        "filename": "11-step-27301.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-83450",
+        "filename": "12-question-83450.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-83457",
+        "filename": "13-question-83457.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-27300",
+        "filename": "14-step-27300.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-83449",
+        "filename": "15-question-83449.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-83458",
+        "filename": "16-question-83458.png"
+      }
+    ]
+  }
+}

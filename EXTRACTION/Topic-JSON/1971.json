@@ -1,0 +1,353 @@
+{
+  "schema_version": 1,
+  "topic_id": "1971",
+  "topic_title": "Diagonalizing a 3x3 Matrix in the General Case",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1971.html",
+  "source_url": "https://mathacademy.com/topics/1971",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "20129",
+        "dom_id": "sectionLink-20129",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-20129"
+      },
+      {
+        "index": 2,
+        "step_id": "37526",
+        "dom_id": "sectionLink-37526",
+        "name": "",
+        "title": "An Example of a Non-Diagonalizable 3x3 Matrix",
+        "selector": "#sectionLink-37526"
+      },
+      {
+        "index": 3,
+        "step_id": "37957",
+        "dom_id": "sectionLink-37957",
+        "name": "",
+        "title": "Determining Whether an NxN Matrix Is Diagonalizable",
+        "selector": "#sectionLink-37957"
+      },
+      {
+        "index": 4,
+        "step_id": "21531",
+        "dom_id": "sectionLink-21531",
+        "name": "",
+        "title": "Finding a Diagonal Matrix Corresponding to a Given Matrix",
+        "selector": "#sectionLink-21531"
+      },
+      {
+        "index": 5,
+        "step_id": "37527",
+        "dom_id": "sectionLink-37527",
+        "name": "",
+        "title": "The Diagonalization Algorithm",
+        "selector": "#sectionLink-37527"
+      },
+      {
+        "index": 6,
+        "step_id": "20130",
+        "dom_id": "sectionLink-20130",
+        "name": "",
+        "title": "Diagonalizing a 3x3 Matrix Given Part of the Diagonalization",
+        "selector": "#sectionLink-20130"
+      },
+      {
+        "index": 7,
+        "step_id": "31599",
+        "dom_id": "sectionLink-31599",
+        "name": "",
+        "title": "Diagonalizing a 3x3 Matrix",
+        "selector": "#sectionLink-31599"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1965",
+        "name": "Calculating the Eigenvectors of a 3x3 Matrix in the General Case",
+        "href": "/topics/calculating-the-eigenvectors-of-a-3x3-matrix-in-the-general-case-1965"
+      },
+      {
+        "topic_id": "1970",
+        "name": "Diagonalizing a 3x3 Matrix With Distinct Eigenvalues",
+        "href": "/topics/diagonalizing-a-3x3-matrix-with-distinct-eigenvalues-1970"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20129",
+        "content_id": "3579",
+        "dom_id": "step-20129",
+        "selector": "#step-20129",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "37526",
+        "content_id": "6190",
+        "dom_id": "step-37526",
+        "selector": "#step-37526",
+        "step_anchor": "step-2",
+        "title": "An Example of a Non-Diagonalizable 3x3 Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "37957",
+        "content_id": "6259",
+        "dom_id": "step-37957",
+        "selector": "#step-37957",
+        "step_anchor": "step-3",
+        "title": "Determining Whether an NxN Matrix Is Diagonalizable",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "21531",
+        "content_id": "5893",
+        "dom_id": "step-21531",
+        "selector": "#step-21531",
+        "step_anchor": "step-4",
+        "title": "Finding a Diagonal Matrix Corresponding to a Given Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "1964",
+            "name": "The Characteristic Equation of a Matrix",
+            "href": "/topics/1964"
+          },
+          {
+            "topic_id": "1965",
+            "name": "Calculating the Eigenvectors of a 3x3 Matrix in the General Case",
+            "href": "/topics/1965"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "37647",
+        "dom_id": "question-37647",
+        "selector": "#question-37647",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "37703",
+        "dom_id": "question-37703",
+        "selector": "#question-37703",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "37527",
+        "content_id": "6191",
+        "dom_id": "step-37527",
+        "selector": "#step-37527",
+        "step_anchor": "step-7",
+        "title": "The Diagonalization Algorithm",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20130",
+        "content_id": "5507",
+        "dom_id": "step-20130",
+        "selector": "#step-20130",
+        "step_anchor": "step-8",
+        "title": "Diagonalizing a 3x3 Matrix Given Part of the Diagonalization",
+        "key_prerequisites": [
+          {
+            "topic_id": "1970",
+            "name": "Diagonalizing a 3x3 Matrix With Distinct Eigenvalues",
+            "href": "/topics/1970"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "37329",
+        "dom_id": "question-37329",
+        "selector": "#question-37329",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "37327",
+        "dom_id": "question-37327",
+        "selector": "#question-37327",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "31599",
+        "content_id": "8495",
+        "dom_id": "step-31599",
+        "selector": "#step-31599",
+        "step_anchor": "step-11",
+        "title": "Diagonalizing a 3x3 Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "37717",
+        "dom_id": "question-37717",
+        "selector": "#question-37717",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "37304",
+        "dom_id": "question-37304",
+        "selector": "#question-37304",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-20129",
+        "filename": "01-step-20129.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-37526",
+        "filename": "02-step-37526.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-37957",
+        "filename": "03-step-37957.png"
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "selector": "#step-21531",
+        "filename": "04-step-21531.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-37647",
+        "filename": "05-question-37647.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-37703",
+        "filename": "06-question-37703.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-37527",
+        "filename": "07-step-37527.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-20130",
+        "filename": "08-step-20130.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-37329",
+        "filename": "09-question-37329.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-37327",
+        "filename": "10-question-37327.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-31599",
+        "filename": "11-step-31599.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-37717",
+        "filename": "12-question-37717.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-37304",
+        "filename": "13-question-37304.png"
+      }
+    ]
+  }
+}

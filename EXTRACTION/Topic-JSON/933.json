@@ -1,0 +1,303 @@
+{
+  "schema_version": 1,
+  "topic_id": "933",
+  "topic_title": "Combining Linear Transformations Using 2x2 Matrices",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/933.html",
+  "source_url": "https://mathacademy.com/topics/933",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "464582",
+        "dom_id": "sectionLink-464582",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-464582"
+      },
+      {
+        "index": 2,
+        "step_id": "464583",
+        "dom_id": "sectionLink-464583",
+        "name": "",
+        "title": "The Order in Which Transformations Are Applied",
+        "selector": "#sectionLink-464583"
+      },
+      {
+        "index": 3,
+        "step_id": "464584",
+        "dom_id": "sectionLink-464584",
+        "name": "",
+        "title": "Finding the Image of an Object Under a Combination of Linear Transformations",
+        "selector": "#sectionLink-464584"
+      },
+      {
+        "index": 4,
+        "step_id": "464587",
+        "dom_id": "sectionLink-464587",
+        "name": "",
+        "title": "Finding a Matrix That Represents a Combination of Two Linear Transformations",
+        "selector": "#sectionLink-464587"
+      },
+      {
+        "index": 5,
+        "step_id": "464590",
+        "dom_id": "sectionLink-464590",
+        "name": "",
+        "title": "Finding a Matrix That Represents a Combination of Three Linear Transformations",
+        "selector": "#sectionLink-464590"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "867",
+        "name": "Dilations and Reflections as Linear Transformations",
+        "href": "/topics/dilations-and-reflections-as-linear-transformations-867"
+      },
+      {
+        "topic_id": "932",
+        "name": "Rotations as Linear Transformations",
+        "href": "/topics/rotations-as-linear-transformations-932"
+      },
+      {
+        "topic_id": "1358",
+        "name": "Shear and Stretch as Linear Transformations",
+        "href": "/topics/shear-and-stretch-as-linear-transformations-1358"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "464582",
+        "content_id": "7815",
+        "dom_id": "step-464582",
+        "selector": "#step-464582",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "464583",
+        "content_id": "7816",
+        "dom_id": "step-464583",
+        "selector": "#step-464583",
+        "step_anchor": "step-2",
+        "title": "The Order in Which Transformations Are Applied",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "464584",
+        "content_id": "12538",
+        "dom_id": "step-464584",
+        "selector": "#step-464584",
+        "step_anchor": "step-3",
+        "title": "Finding the Image of an Object Under a Combination of Linear Transformations",
+        "key_prerequisites": [
+          {
+            "topic_id": "867",
+            "name": "Dilations and Reflections as Linear Transformations",
+            "href": "/topics/867"
+          },
+          {
+            "topic_id": "932",
+            "name": "Rotations as Linear Transformations",
+            "href": "/topics/932"
+          },
+          {
+            "topic_id": "1358",
+            "name": "Shear and Stretch as Linear Transformations",
+            "href": "/topics/1358"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "70642",
+        "dom_id": "question-70642",
+        "selector": "#question-70642",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "82525",
+        "dom_id": "question-82525",
+        "selector": "#question-82525",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "464587",
+        "content_id": "12539",
+        "dom_id": "step-464587",
+        "selector": "#step-464587",
+        "step_anchor": "step-6",
+        "title": "Finding a Matrix That Represents a Combination of Two Linear Transformations",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "12257",
+        "dom_id": "question-12257",
+        "selector": "#question-12257",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "12264",
+        "dom_id": "question-12264",
+        "selector": "#question-12264",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "464590",
+        "content_id": "12540",
+        "dom_id": "step-464590",
+        "selector": "#step-464590",
+        "step_anchor": "step-9",
+        "title": "Finding a Matrix That Represents a Combination of Three Linear Transformations",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "8580",
+        "dom_id": "question-8580",
+        "selector": "#question-8580",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "8548",
+        "dom_id": "question-8548",
+        "selector": "#question-8548",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-464582",
+        "filename": "01-step-464582.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-464583",
+        "filename": "02-step-464583.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-464584",
+        "filename": "03-step-464584.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-70642",
+        "filename": "04-question-70642.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-82525",
+        "filename": "05-question-82525.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-464587",
+        "filename": "06-step-464587.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-12257",
+        "filename": "07-question-12257.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-12264",
+        "filename": "08-question-12264.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-464590",
+        "filename": "09-step-464590.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-8580",
+        "filename": "10-question-8580.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-8548",
+        "filename": "11-question-8548.png"
+      }
+    ]
+  }
+}

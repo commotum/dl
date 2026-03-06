@@ -1,0 +1,295 @@
+{
+  "schema_version": 1,
+  "topic_id": "3818",
+  "topic_title": "Projecting Vectors Onto Subspaces in Euclidean Spaces (Arbitrary Bases): Applications",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3818.html",
+  "source_url": "https://mathacademy.com/topics/3818",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "37246",
+        "dom_id": "sectionLink-37246",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-37246"
+      },
+      {
+        "index": 2,
+        "step_id": "21956",
+        "dom_id": "sectionLink-21956",
+        "name": "",
+        "title": "Calculating the Distance Between a Vector and a Subspace",
+        "selector": "#sectionLink-21956"
+      },
+      {
+        "index": 3,
+        "step_id": "37248",
+        "dom_id": "sectionLink-37248",
+        "name": "",
+        "title": "Angle Between a Vector and a Subspace",
+        "selector": "#sectionLink-37248"
+      },
+      {
+        "index": 4,
+        "step_id": "37247",
+        "dom_id": "sectionLink-37247",
+        "name": "",
+        "title": "Calculating the Acute Angle Between a Vector and a Subspace",
+        "selector": "#sectionLink-37247"
+      },
+      {
+        "index": 5,
+        "step_id": "21957",
+        "dom_id": "sectionLink-21957",
+        "name": "",
+        "title": "Finding the Orthogonal Projection of a Vector Onto the Solution Space of a Linear System",
+        "selector": "#sectionLink-21957"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2124",
+        "name": "Projecting Vectors Onto Subspaces in Euclidean Spaces (Arbitrary Bases)",
+        "href": "/topics/projecting-vectors-onto-subspaces-in-euclidean-spaces-arbitrary-bases-2124"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "37246",
+        "content_id": "6131",
+        "dom_id": "step-37246",
+        "selector": "#step-37246",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "21956",
+        "content_id": "5922",
+        "dom_id": "step-21956",
+        "selector": "#step-21956",
+        "step_anchor": "step-2",
+        "title": "Calculating the Distance Between a Vector and a Subspace",
+        "key_prerequisites": [
+          {
+            "topic_id": "2124",
+            "name": "Projecting Vectors Onto Subspaces in Euclidean Spaces (Arbitrary Bases)",
+            "href": "/topics/2124"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "83617",
+        "dom_id": "question-83617",
+        "selector": "#question-83617",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "39817",
+        "dom_id": "question-39817",
+        "selector": "#question-39817",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "37248",
+        "content_id": "6132",
+        "dom_id": "step-37248",
+        "selector": "#step-37248",
+        "step_anchor": "step-5",
+        "title": "Angle Between a Vector and a Subspace",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "37247",
+        "content_id": "9906",
+        "dom_id": "step-37247",
+        "selector": "#step-37247",
+        "step_anchor": "step-6",
+        "title": "Calculating the Acute Angle Between a Vector and a Subspace",
+        "key_prerequisites": [
+          {
+            "topic_id": "2094",
+            "name": "The Dot Product in N-Dimensional Euclidean Space",
+            "href": "/topics/2094"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "40578",
+        "dom_id": "question-40578",
+        "selector": "#question-40578",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "86826",
+        "dom_id": "question-86826",
+        "selector": "#question-86826",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "21957",
+        "content_id": "5923",
+        "dom_id": "step-21957",
+        "selector": "#step-21957",
+        "step_anchor": "step-9",
+        "title": "Finding the Orthogonal Projection of a Vector Onto the Solution Space of a Linear System",
+        "key_prerequisites": [
+          {
+            "topic_id": "1733",
+            "name": "Gaussian Elimination For NxM Systems of Equations",
+            "href": "/topics/1733"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "40213",
+        "dom_id": "question-40213",
+        "selector": "#question-40213",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "39858",
+        "dom_id": "question-39858",
+        "selector": "#question-39858",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-37246",
+        "filename": "01-step-37246.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-21956",
+        "filename": "02-step-21956.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-83617",
+        "filename": "03-question-83617.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-39817",
+        "filename": "04-question-39817.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-37248",
+        "filename": "05-step-37248.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-37247",
+        "filename": "06-step-37247.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-40578",
+        "filename": "07-question-40578.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-86826",
+        "filename": "08-question-86826.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-21957",
+        "filename": "09-step-21957.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-40213",
+        "filename": "10-question-40213.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-39858",
+        "filename": "11-question-39858.png"
+      }
+    ]
+  }
+}

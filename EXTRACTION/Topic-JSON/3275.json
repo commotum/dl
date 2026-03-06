@@ -1,0 +1,310 @@
+{
+  "schema_version": 1,
+  "topic_id": "3275",
+  "topic_title": "Mean and Variance of the Exponential Distribution",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3275.html",
+  "source_url": "https://mathacademy.com/topics/3275",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "34474",
+        "dom_id": "sectionLink-34474",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-34474"
+      },
+      {
+        "index": 2,
+        "step_id": "34545",
+        "dom_id": "sectionLink-34545",
+        "name": "",
+        "title": "The Mean of an Exponential Distribution",
+        "selector": "#sectionLink-34545"
+      },
+      {
+        "index": 3,
+        "step_id": "37012",
+        "dom_id": "sectionLink-37012",
+        "name": "",
+        "title": "Modeling With the Mean of an Exponential Distribution",
+        "selector": "#sectionLink-37012"
+      },
+      {
+        "index": 4,
+        "step_id": "34494",
+        "dom_id": "sectionLink-34494",
+        "name": "",
+        "title": "Proof of the Variance Formula",
+        "selector": "#sectionLink-34494"
+      },
+      {
+        "index": 5,
+        "step_id": "34551",
+        "dom_id": "sectionLink-34551",
+        "name": "",
+        "title": "The Variance of a  Exponential Distribution",
+        "selector": "#sectionLink-34551"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "317",
+        "name": "Introduction to Integration by Parts",
+        "href": "/topics/introduction-to-integration-by-parts-317"
+      },
+      {
+        "topic_id": "2988",
+        "name": "Variance of Continuous Random Variables",
+        "href": "/topics/variance-of-continuous-random-variables-2988"
+      },
+      {
+        "topic_id": "3353",
+        "name": "Modeling With the Exponential Distribution",
+        "href": "/topics/modeling-with-the-exponential-distribution-3353"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "34474",
+        "content_id": "5576",
+        "dom_id": "step-34474",
+        "selector": "#step-34474",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "34545",
+        "content_id": "9242",
+        "dom_id": "step-34545",
+        "selector": "#step-34545",
+        "step_anchor": "step-2",
+        "title": "The Mean of an Exponential Distribution",
+        "key_prerequisites": [
+          {
+            "topic_id": "3074",
+            "name": "The Exponential Distribution",
+            "href": "/topics/3074"
+          },
+          {
+            "topic_id": "4012",
+            "name": "Expected Values of Continuous Random Variables",
+            "href": "/topics/4012"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "112754",
+        "dom_id": "question-112754",
+        "selector": "#question-112754",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "112755",
+        "dom_id": "question-112755",
+        "selector": "#question-112755",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "37012",
+        "content_id": "9839",
+        "dom_id": "step-37012",
+        "selector": "#step-37012",
+        "step_anchor": "step-5",
+        "title": "Modeling With the Mean of an Exponential Distribution",
+        "key_prerequisites": [
+          {
+            "topic_id": "3353",
+            "name": "Modeling With the Exponential Distribution",
+            "href": "/topics/3353"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "112757",
+        "dom_id": "question-112757",
+        "selector": "#question-112757",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "112758",
+        "dom_id": "question-112758",
+        "selector": "#question-112758",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "34494",
+        "content_id": "5591",
+        "dom_id": "step-34494",
+        "selector": "#step-34494",
+        "step_anchor": "step-8",
+        "title": "Proof of the Variance Formula",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "34551",
+        "content_id": "9244",
+        "dom_id": "step-34551",
+        "selector": "#step-34551",
+        "step_anchor": "step-9",
+        "title": "The Variance of a  Exponential Distribution",
+        "key_prerequisites": [
+          {
+            "topic_id": "2988",
+            "name": "Variance of Continuous Random Variables",
+            "href": "/topics/2988"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "112759",
+        "dom_id": "question-112759",
+        "selector": "#question-112759",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "112760",
+        "dom_id": "question-112760",
+        "selector": "#question-112760",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-34474",
+        "filename": "01-step-34474.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-34545",
+        "filename": "02-step-34545.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-112754",
+        "filename": "03-question-112754.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-112755",
+        "filename": "04-question-112755.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-37012",
+        "filename": "05-step-37012.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-112757",
+        "filename": "06-question-112757.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-112758",
+        "filename": "07-question-112758.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-34494",
+        "filename": "08-step-34494.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-34551",
+        "filename": "09-step-34551.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-112759",
+        "filename": "10-question-112759.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-112760",
+        "filename": "11-question-112760.png"
+      }
+    ]
+  }
+}

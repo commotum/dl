@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "topic_id": "3926",
+  "topic_title": "Conditional Variance for Discrete Random Variables",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3926.html",
+  "source_url": "https://mathacademy.com/topics/3926",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "38850",
+        "dom_id": "sectionLink-38850",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-38850"
+      },
+      {
+        "index": 2,
+        "step_id": "38837",
+        "dom_id": "sectionLink-38837",
+        "name": "",
+        "title": "Calculating a Conditional Variance Given a Conditional Mass Function",
+        "selector": "#sectionLink-38837"
+      },
+      {
+        "index": 3,
+        "step_id": "38984",
+        "dom_id": "sectionLink-38984",
+        "name": "",
+        "title": "Calculating a Conditional Variance Using Row Totals",
+        "selector": "#sectionLink-38984"
+      },
+      {
+        "index": 4,
+        "step_id": "38849",
+        "dom_id": "sectionLink-38849",
+        "name": "",
+        "title": "Calculating a Conditional Variance Using Column Totals",
+        "selector": "#sectionLink-38849"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1388",
+        "name": "Variance of Discrete Random Variables",
+        "href": "/topics/variance-of-discrete-random-variables-1388"
+      },
+      {
+        "topic_id": "3053",
+        "name": "Conditional Expectation for Discrete Random Variables",
+        "href": "/topics/conditional-expectation-for-discrete-random-variables-3053"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 10,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "38850",
+        "content_id": "6431",
+        "dom_id": "step-38850",
+        "selector": "#step-38850",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "38837",
+        "content_id": "10302",
+        "dom_id": "step-38837",
+        "selector": "#step-38837",
+        "step_anchor": "step-2",
+        "title": "Calculating a Conditional Variance Given a Conditional Mass Function",
+        "key_prerequisites": [
+          {
+            "topic_id": "1388",
+            "name": "Variance of Discrete Random Variables",
+            "href": "/topics/1388"
+          },
+          {
+            "topic_id": "3053",
+            "name": "Conditional Expectation for Discrete Random Variables",
+            "href": "/topics/3053"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "145550",
+        "dom_id": "question-145550",
+        "selector": "#question-145550",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "145561",
+        "dom_id": "question-145561",
+        "selector": "#question-145561",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "38984",
+        "content_id": "10352",
+        "dom_id": "step-38984",
+        "selector": "#step-38984",
+        "step_anchor": "step-5",
+        "title": "Calculating a Conditional Variance Using Row Totals",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "146159",
+        "dom_id": "question-146159",
+        "selector": "#question-146159",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "146230",
+        "dom_id": "question-146230",
+        "selector": "#question-146230",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "38849",
+        "content_id": "10306",
+        "dom_id": "step-38849",
+        "selector": "#step-38849",
+        "step_anchor": "step-8",
+        "title": "Calculating a Conditional Variance Using Column Totals",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "145581",
+        "dom_id": "question-145581",
+        "selector": "#question-145581",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "146289",
+        "dom_id": "question-146289",
+        "selector": "#question-146289",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-38850",
+        "filename": "01-step-38850.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-38837",
+        "filename": "02-step-38837.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-145550",
+        "filename": "03-question-145550.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-145561",
+        "filename": "04-question-145561.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-38984",
+        "filename": "05-step-38984.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-146159",
+        "filename": "06-question-146159.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-146230",
+        "filename": "07-question-146230.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-38849",
+        "filename": "08-step-38849.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-145581",
+        "filename": "09-question-145581.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-146289",
+        "filename": "10-question-146289.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "topic_id": "1780",
+  "topic_title": "LU Factorization of 3x3 Matrices",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1780.html",
+  "source_url": "https://mathacademy.com/topics/1780",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "17360",
+        "dom_id": "sectionLink-17360",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-17360"
+      },
+      {
+        "index": 2,
+        "step_id": "17361",
+        "dom_id": "sectionLink-17361",
+        "name": "",
+        "title": "Finding the LU Factorization Using a Single Elementary Row Operation",
+        "selector": "#sectionLink-17361"
+      },
+      {
+        "index": 3,
+        "step_id": "17362",
+        "dom_id": "sectionLink-17362",
+        "name": "",
+        "title": "Finding the Lower Triangular Matrix Given the Elementary Row Operations",
+        "selector": "#sectionLink-17362"
+      },
+      {
+        "index": 4,
+        "step_id": "17364",
+        "dom_id": "sectionLink-17364",
+        "name": "",
+        "title": "Finding the LU Factorization Using Two or More Elementary Row Operations",
+        "selector": "#sectionLink-17364"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1779",
+        "name": "LU Factorization of 2x2 Matrices",
+        "href": "/topics/lu-factorization-of-2x2-matrices-1779"
+      },
+      {
+        "topic_id": "2089",
+        "name": "Row Operations on 3x3 Matrices as Products of Elementary Matrices",
+        "href": "/topics/row-operations-on-3x3-matrices-as-products-of-elementary-matrices-2089"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 10,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "17360",
+        "content_id": "3178",
+        "dom_id": "step-17360",
+        "selector": "#step-17360",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17361",
+        "content_id": "4768",
+        "dom_id": "step-17361",
+        "selector": "#step-17361",
+        "step_anchor": "step-2",
+        "title": "Finding the LU Factorization Using a Single Elementary Row Operation",
+        "key_prerequisites": [
+          {
+            "topic_id": "1779",
+            "name": "LU Factorization of 2x2 Matrices",
+            "href": "/topics/1779"
+          },
+          {
+            "topic_id": "2089",
+            "name": "Row Operations on 3x3 Matrices as Products of Elementary Matrices",
+            "href": "/topics/2089"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "32587",
+        "dom_id": "question-32587",
+        "selector": "#question-32587",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "32569",
+        "dom_id": "question-32569",
+        "selector": "#question-32569",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17362",
+        "content_id": "4769",
+        "dom_id": "step-17362",
+        "selector": "#step-17362",
+        "step_anchor": "step-5",
+        "title": "Finding the Lower Triangular Matrix Given the Elementary Row Operations",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "32721",
+        "dom_id": "question-32721",
+        "selector": "#question-32721",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "32684",
+        "dom_id": "question-32684",
+        "selector": "#question-32684",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17364",
+        "content_id": "4770",
+        "dom_id": "step-17364",
+        "selector": "#step-17364",
+        "step_anchor": "step-8",
+        "title": "Finding the LU Factorization Using Two or More Elementary Row Operations",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "32534",
+        "dom_id": "question-32534",
+        "selector": "#question-32534",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "32532",
+        "dom_id": "question-32532",
+        "selector": "#question-32532",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-17360",
+        "filename": "01-step-17360.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-17361",
+        "filename": "02-step-17361.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-32587",
+        "filename": "03-question-32587.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-32569",
+        "filename": "04-question-32569.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-17362",
+        "filename": "05-step-17362.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-32721",
+        "filename": "06-question-32721.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-32684",
+        "filename": "07-question-32684.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-17364",
+        "filename": "08-step-17364.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-32534",
+        "filename": "09-question-32534.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-32532",
+        "filename": "10-question-32532.png"
+      }
+    ]
+  }
+}

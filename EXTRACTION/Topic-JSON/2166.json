@@ -1,0 +1,315 @@
+{
+  "schema_version": 1,
+  "topic_id": "2166",
+  "topic_title": "The Least-Squares Solution of a Linear System (Without Collinearity)",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2166.html",
+  "source_url": "https://mathacademy.com/topics/2166",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "20269",
+        "dom_id": "sectionLink-20269",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-20269"
+      },
+      {
+        "index": 2,
+        "step_id": "20271",
+        "dom_id": "sectionLink-20271",
+        "name": "",
+        "title": "Finding the Least-Squares Solution of a Linear System Given in Matrix Form",
+        "selector": "#sectionLink-20271"
+      },
+      {
+        "index": 3,
+        "step_id": "20270",
+        "dom_id": "sectionLink-20270",
+        "name": "",
+        "title": "Finding the Least-Squares Solution of a Linear System",
+        "selector": "#sectionLink-20270"
+      },
+      {
+        "index": 4,
+        "step_id": "27532",
+        "dom_id": "sectionLink-27532",
+        "name": "",
+        "title": "Finding the Distance Between a Vector to a Subspace of Solutions of a Linear System",
+        "selector": "#sectionLink-27532"
+      },
+      {
+        "index": 5,
+        "step_id": "37337",
+        "dom_id": "sectionLink-37337",
+        "name": "",
+        "title": "Deriving the Normal Equation",
+        "selector": "#sectionLink-37337"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "42",
+        "name": "Matrices With Easy-to-Find Inverses",
+        "href": "/topics/matrices-with-easy-to-find-inverses-42"
+      },
+      {
+        "topic_id": "155",
+        "name": "Representing 3x3 Systems of Equations Using a Matrix Product",
+        "href": "/topics/representing-3x3-systems-of-equations-using-a-matrix-product-155"
+      },
+      {
+        "topic_id": "3818",
+        "name": "Projecting Vectors Onto Subspaces in Euclidean Spaces (Arbitrary Bases): Applications",
+        "href": "/topics/projecting-vectors-onto-subspaces-in-euclidean-spaces-arbitrary-bases-applications-3818"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20269",
+        "content_id": "3636",
+        "dom_id": "step-20269",
+        "selector": "#step-20269",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20271",
+        "content_id": "5589",
+        "dom_id": "step-20271",
+        "selector": "#step-20271",
+        "step_anchor": "step-2",
+        "title": "Finding the Least-Squares Solution of a Linear System Given in Matrix Form",
+        "key_prerequisites": [
+          {
+            "topic_id": "2124",
+            "name": "Projecting Vectors Onto Subspaces in Euclidean Spaces (Arbitrary Bases)",
+            "href": "/topics/2124"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "40892",
+        "dom_id": "question-40892",
+        "selector": "#question-40892",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "40891",
+        "dom_id": "question-40891",
+        "selector": "#question-40891",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20270",
+        "content_id": "5588",
+        "dom_id": "step-20270",
+        "selector": "#step-20270",
+        "step_anchor": "step-5",
+        "title": "Finding the Least-Squares Solution of a Linear System",
+        "key_prerequisites": [
+          {
+            "topic_id": "42",
+            "name": "Matrices With Easy-to-Find Inverses",
+            "href": "/topics/42"
+          },
+          {
+            "topic_id": "155",
+            "name": "Representing 3x3 Systems of Equations Using a Matrix Product",
+            "href": "/topics/155"
+          },
+          {
+            "topic_id": "864",
+            "name": "Inverses of 2x2 Matrices",
+            "href": "/topics/864"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "41777",
+        "dom_id": "question-41777",
+        "selector": "#question-41777",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "41775",
+        "dom_id": "question-41775",
+        "selector": "#question-41775",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "27532",
+        "content_id": "7429",
+        "dom_id": "step-27532",
+        "selector": "#step-27532",
+        "step_anchor": "step-8",
+        "title": "Finding the Distance Between a Vector to a Subspace of Solutions of a Linear System",
+        "key_prerequisites": [
+          {
+            "topic_id": "3818",
+            "name": "Projecting Vectors Onto Subspaces in Euclidean Spaces (Arbitrary Bases): Applications",
+            "href": "/topics/3818"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "41783",
+        "dom_id": "question-41783",
+        "selector": "#question-41783",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "41782",
+        "dom_id": "question-41782",
+        "selector": "#question-41782",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "37337",
+        "content_id": "6154",
+        "dom_id": "step-37337",
+        "selector": "#step-37337",
+        "step_anchor": "step-11",
+        "title": "Deriving the Normal Equation",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-20269",
+        "filename": "01-step-20269.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-20271",
+        "filename": "02-step-20271.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-40892",
+        "filename": "03-question-40892.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-40891",
+        "filename": "04-question-40891.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-20270",
+        "filename": "05-step-20270.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-41777",
+        "filename": "06-question-41777.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-41775",
+        "filename": "07-question-41775.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-27532",
+        "filename": "08-step-27532.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-41783",
+        "filename": "09-question-41783.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-41782",
+        "filename": "10-question-41782.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-37337",
+        "filename": "11-step-37337.png"
+      }
+    ]
+  }
+}

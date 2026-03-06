@@ -1,0 +1,342 @@
+{
+  "schema_version": 1,
+  "topic_id": "6699",
+  "topic_title": "Modeling Escape Velocity With First-Order ODEs",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/6699.html",
+  "source_url": "https://mathacademy.com/topics/6699",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "592907",
+        "dom_id": "sectionLink-592907",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-592907"
+      },
+      {
+        "index": 2,
+        "step_id": "592908",
+        "dom_id": "sectionLink-592908",
+        "name": "",
+        "title": "Constructing a Radially Projected Model",
+        "selector": "#sectionLink-592908"
+      },
+      {
+        "index": 3,
+        "step_id": "592911",
+        "dom_id": "sectionLink-592911",
+        "name": "",
+        "title": "Modeling Velocity of an Object Projected Radially Outward",
+        "selector": "#sectionLink-592911"
+      },
+      {
+        "index": 4,
+        "step_id": "592912",
+        "dom_id": "sectionLink-592912",
+        "name": "",
+        "title": "Solving a Radially Projected Model for Velocity",
+        "selector": "#sectionLink-592912"
+      },
+      {
+        "index": 5,
+        "step_id": "592915",
+        "dom_id": "sectionLink-592915",
+        "name": "",
+        "title": "Modeling Escape Velocity",
+        "selector": "#sectionLink-592915"
+      },
+      {
+        "index": 6,
+        "step_id": "592916",
+        "dom_id": "sectionLink-592916",
+        "name": "",
+        "title": "Calculating Escape Velocity",
+        "selector": "#sectionLink-592916"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2722",
+        "name": "Newton's Second Law",
+        "href": "/topics/newtons-second-law-2722"
+      },
+      {
+        "topic_id": "3235",
+        "name": "Velocity and Acceleration as Functions of Displacement",
+        "href": "/topics/velocity-and-acceleration-as-functions-of-displacement-3235"
+      },
+      {
+        "topic_id": "6364",
+        "name": "Newton's Law of Universal Gravitation",
+        "href": "/topics/newtons-law-of-universal-gravitation-6364"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "592907",
+        "content_id": "14553",
+        "dom_id": "step-592907",
+        "selector": "#step-592907",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "592908",
+        "content_id": "21748",
+        "dom_id": "step-592908",
+        "selector": "#step-592908",
+        "step_anchor": "step-2",
+        "title": "Constructing a Radially Projected Model",
+        "key_prerequisites": [
+          {
+            "topic_id": "2722",
+            "name": "Newton's Second Law",
+            "href": "/topics/2722"
+          },
+          {
+            "topic_id": "3235",
+            "name": "Velocity and Acceleration as Functions of Displacement",
+            "href": "/topics/3235"
+          },
+          {
+            "topic_id": "6364",
+            "name": "Newton's Law of Universal Gravitation",
+            "href": "/topics/6364"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "335963",
+        "dom_id": "question-335963",
+        "selector": "#question-335963",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "335225",
+        "dom_id": "question-335225",
+        "selector": "#question-335225",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "592911",
+        "content_id": "14557",
+        "dom_id": "step-592911",
+        "selector": "#step-592911",
+        "step_anchor": "step-5",
+        "title": "Modeling Velocity of an Object Projected Radially Outward",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "592912",
+        "content_id": "21749",
+        "dom_id": "step-592912",
+        "selector": "#step-592912",
+        "step_anchor": "step-6",
+        "title": "Solving a Radially Projected Model for Velocity",
+        "key_prerequisites": [
+          {
+            "topic_id": "1179",
+            "name": "Solving First-Order IVPs Using Separation of Variables",
+            "href": "/topics/1179"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "336058",
+        "dom_id": "question-336058",
+        "selector": "#question-336058",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "335240",
+        "dom_id": "question-335240",
+        "selector": "#question-335240",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "592915",
+        "content_id": "14558",
+        "dom_id": "step-592915",
+        "selector": "#step-592915",
+        "step_anchor": "step-9",
+        "title": "Modeling Escape Velocity",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "592916",
+        "content_id": "21750",
+        "dom_id": "step-592916",
+        "selector": "#step-592916",
+        "step_anchor": "step-10",
+        "title": "Calculating Escape Velocity",
+        "key_prerequisites": [
+          {
+            "topic_id": "1495",
+            "name": "Solving Elementary Quadratic Inequalities",
+            "href": "/topics/1495"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "335809",
+        "dom_id": "question-335809",
+        "selector": "#question-335809",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "335820",
+        "dom_id": "question-335820",
+        "selector": "#question-335820",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-592907",
+        "filename": "01-step-592907.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-592908",
+        "filename": "02-step-592908.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-335963",
+        "filename": "03-question-335963.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-335225",
+        "filename": "04-question-335225.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-592911",
+        "filename": "05-step-592911.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-592912",
+        "filename": "06-step-592912.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-336058",
+        "filename": "07-question-336058.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-335240",
+        "filename": "08-question-335240.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-592915",
+        "filename": "09-step-592915.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-592916",
+        "filename": "10-step-592916.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-335809",
+        "filename": "11-question-335809.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-335820",
+        "filename": "12-question-335820.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,346 @@
+{
+  "schema_version": 1,
+  "topic_id": "3029",
+  "topic_title": "Creating Rows or Columns Containing Zeros Using Gaussian Elimination",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3029.html",
+  "source_url": "https://mathacademy.com/topics/3029",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "30052",
+        "dom_id": "sectionLink-30052",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-30052"
+      },
+      {
+        "index": 2,
+        "step_id": "30059",
+        "dom_id": "sectionLink-30059",
+        "name": "",
+        "title": "Using Row Operations to Create a Column of Zeros in a 3x3 Matrix",
+        "selector": "#sectionLink-30059"
+      },
+      {
+        "index": 3,
+        "step_id": "30053",
+        "dom_id": "sectionLink-30053",
+        "name": "",
+        "title": "Using Row Operations to Create a Column of Zeros in a 4x4 Matrix",
+        "selector": "#sectionLink-30053"
+      },
+      {
+        "index": 4,
+        "step_id": "218771",
+        "dom_id": "sectionLink-218771",
+        "name": "",
+        "title": "Column Operations",
+        "selector": "#sectionLink-218771"
+      },
+      {
+        "index": 5,
+        "step_id": "30061",
+        "dom_id": "sectionLink-30061",
+        "name": "",
+        "title": "Using Column Operations to Create a Row of Zeros in a 3x3 Matrix",
+        "selector": "#sectionLink-30061"
+      },
+      {
+        "index": 6,
+        "step_id": "30054",
+        "dom_id": "sectionLink-30054",
+        "name": "",
+        "title": "Using Column Operations to Create a Row of Zeros in a 4x4 Matrix",
+        "selector": "#sectionLink-30054"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "149",
+        "name": "Elementary Row Operations",
+        "href": "/topics/elementary-row-operations-149"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "30052",
+        "content_id": "4828",
+        "dom_id": "step-30052",
+        "selector": "#step-30052",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30059",
+        "content_id": "8050",
+        "dom_id": "step-30059",
+        "selector": "#step-30059",
+        "step_anchor": "step-2",
+        "title": "Using Row Operations to Create a Column of Zeros in a 3x3 Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "149",
+            "name": "Elementary Row Operations",
+            "href": "/topics/149"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "91163",
+        "dom_id": "question-91163",
+        "selector": "#question-91163",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "42531",
+        "dom_id": "question-42531",
+        "selector": "#question-42531",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30053",
+        "content_id": "8048",
+        "dom_id": "step-30053",
+        "selector": "#step-30053",
+        "step_anchor": "step-5",
+        "title": "Using Row Operations to Create a Column of Zeros in a 4x4 Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "42561",
+        "dom_id": "question-42561",
+        "selector": "#question-42561",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "91171",
+        "dom_id": "question-91171",
+        "selector": "#question-91171",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "218771",
+        "content_id": "10652",
+        "dom_id": "step-218771",
+        "selector": "#step-218771",
+        "step_anchor": "step-8",
+        "title": "Column Operations",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30061",
+        "content_id": "8051",
+        "dom_id": "step-30061",
+        "selector": "#step-30061",
+        "step_anchor": "step-9",
+        "title": "Using Column Operations to Create a Row of Zeros in a 3x3 Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "91189",
+        "dom_id": "question-91189",
+        "selector": "#question-91189",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "42917",
+        "dom_id": "question-42917",
+        "selector": "#question-42917",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30054",
+        "content_id": "8049",
+        "dom_id": "step-30054",
+        "selector": "#step-30054",
+        "step_anchor": "step-12",
+        "title": "Using Column Operations to Create a Row of Zeros in a 4x4 Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "91208",
+        "dom_id": "question-91208",
+        "selector": "#question-91208",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "42563",
+        "dom_id": "question-42563",
+        "selector": "#question-42563",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-30052",
+        "filename": "01-step-30052.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-30059",
+        "filename": "02-step-30059.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-91163",
+        "filename": "03-question-91163.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-42531",
+        "filename": "04-question-42531.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-30053",
+        "filename": "05-step-30053.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-42561",
+        "filename": "06-question-42561.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-91171",
+        "filename": "07-question-91171.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-218771",
+        "filename": "08-step-218771.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-30061",
+        "filename": "09-step-30061.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-91189",
+        "filename": "10-question-91189.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-42917",
+        "filename": "11-question-42917.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-30054",
+        "filename": "12-step-30054.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-91208",
+        "filename": "13-question-91208.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-42563",
+        "filename": "14-question-42563.png"
+      }
+    ]
+  }
+}

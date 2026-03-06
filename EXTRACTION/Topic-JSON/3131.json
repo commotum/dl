@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "topic_id": "3131",
+  "topic_title": "The Singular Values of a Matrix",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3131.html",
+  "source_url": "https://mathacademy.com/topics/3131",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "37249",
+        "dom_id": "sectionLink-37249",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-37249"
+      },
+      {
+        "index": 2,
+        "step_id": "37250",
+        "dom_id": "sectionLink-37250",
+        "name": "",
+        "title": "Finding the Semi-Major Axis of the Image of the Unit Sphere",
+        "selector": "#sectionLink-37250"
+      },
+      {
+        "index": 3,
+        "step_id": "37255",
+        "dom_id": "sectionLink-37255",
+        "name": "",
+        "title": "The Singular Values of a Matrix",
+        "selector": "#sectionLink-37255"
+      },
+      {
+        "index": 4,
+        "step_id": "37280",
+        "dom_id": "sectionLink-37280",
+        "name": "",
+        "title": "Associating Singular Values With an Ellipse's Principal Axes",
+        "selector": "#sectionLink-37280"
+      },
+      {
+        "index": 5,
+        "step_id": "37254",
+        "dom_id": "sectionLink-37254",
+        "name": "",
+        "title": "Finding the Semi-Major Axis of the Image of the Unit Sphere Given the Corresponding Singular Values",
+        "selector": "#sectionLink-37254"
+      },
+      {
+        "index": 6,
+        "step_id": "37251",
+        "dom_id": "sectionLink-37251",
+        "name": "",
+        "title": "Solving Problems Regarding the Image of the Unit Eigenvectors of a Quadratic Form",
+        "selector": "#sectionLink-37251"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "853",
+        "name": "Introduction to Ellipses",
+        "href": "/topics/introduction-to-ellipses-853"
+      },
+      {
+        "topic_id": "3127",
+        "name": "Positive-Definite and Negative-Definite Quadratic Forms",
+        "href": "/topics/positive-definite-and-negative-definite-quadratic-forms-3127"
+      },
+      {
+        "topic_id": "3335",
+        "name": "Diagonalization of 2x2 Symmetric Matrices",
+        "href": "/topics/diagonalization-of-2x2-symmetric-matrices-3335"
+      },
+      {
+        "topic_id": "4238",
+        "name": "Constrained Optimization of Quadratic Forms: Determining Where Extrema are Attained",
+        "href": "/topics/constrained-optimization-of-quadratic-forms-determining-where-extrema-are-attained-4238"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "37249",
+        "content_id": "6133",
+        "dom_id": "step-37249",
+        "selector": "#step-37249",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "37250",
+        "content_id": "9907",
+        "dom_id": "step-37250",
+        "selector": "#step-37250",
+        "step_anchor": "step-2",
+        "title": "Finding the Semi-Major Axis of the Image of the Unit Sphere",
+        "key_prerequisites": [
+          {
+            "topic_id": "853",
+            "name": "Introduction to Ellipses",
+            "href": "/topics/853"
+          },
+          {
+            "topic_id": "3171",
+            "name": "Constrained Optimization of Quadratic Forms",
+            "href": "/topics/3171"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "139415",
+        "dom_id": "question-139415",
+        "selector": "#question-139415",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "139491",
+        "dom_id": "question-139491",
+        "selector": "#question-139491",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "37255",
+        "content_id": "6134",
+        "dom_id": "step-37255",
+        "selector": "#step-37255",
+        "step_anchor": "step-5",
+        "title": "The Singular Values of a Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "37280",
+        "content_id": "6139",
+        "dom_id": "step-37280",
+        "selector": "#step-37280",
+        "step_anchor": "step-6",
+        "title": "Associating Singular Values With an Ellipse's Principal Axes",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "37254",
+        "content_id": "9909",
+        "dom_id": "step-37254",
+        "selector": "#step-37254",
+        "step_anchor": "step-7",
+        "title": "Finding the Semi-Major Axis of the Image of the Unit Sphere Given the Corresponding Singular Values",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "139418",
+        "dom_id": "question-139418",
+        "selector": "#question-139418",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "139507",
+        "dom_id": "question-139507",
+        "selector": "#question-139507",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "37251",
+        "content_id": "9908",
+        "dom_id": "step-37251",
+        "selector": "#step-37251",
+        "step_anchor": "step-10",
+        "title": "Solving Problems Regarding the Image of the Unit Eigenvectors of a Quadratic Form",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "139420",
+        "dom_id": "question-139420",
+        "selector": "#question-139420",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "139421",
+        "dom_id": "question-139421",
+        "selector": "#question-139421",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-37249",
+        "filename": "01-step-37249.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-37250",
+        "filename": "02-step-37250.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-139415",
+        "filename": "03-question-139415.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-139491",
+        "filename": "04-question-139491.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-37255",
+        "filename": "05-step-37255.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-37280",
+        "filename": "06-step-37280.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-37254",
+        "filename": "07-step-37254.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-139418",
+        "filename": "08-question-139418.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-139507",
+        "filename": "09-question-139507.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-37251",
+        "filename": "10-step-37251.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-139420",
+        "filename": "11-question-139420.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-139421",
+        "filename": "12-question-139421.png"
+      }
+    ]
+  }
+}

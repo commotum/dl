@@ -1,0 +1,320 @@
+{
+  "schema_version": 1,
+  "topic_id": "3002",
+  "topic_title": "Marginal Distributions for Discrete Random Variables",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3002.html",
+  "source_url": "https://mathacademy.com/topics/3002",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "34052",
+        "dom_id": "sectionLink-34052",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-34052"
+      },
+      {
+        "index": 2,
+        "step_id": "38105",
+        "dom_id": "sectionLink-38105",
+        "name": "",
+        "title": "Deducing the Marginal Mass Function for Y",
+        "selector": "#sectionLink-38105"
+      },
+      {
+        "index": 3,
+        "step_id": "38106",
+        "dom_id": "sectionLink-38106",
+        "name": "",
+        "title": "A Formal Definition of the Marginal Mass Function",
+        "selector": "#sectionLink-38106"
+      },
+      {
+        "index": 4,
+        "step_id": "34274",
+        "dom_id": "sectionLink-34274",
+        "name": "",
+        "title": "Finding a Marginal Probability",
+        "selector": "#sectionLink-34274"
+      },
+      {
+        "index": 5,
+        "step_id": "37907",
+        "dom_id": "sectionLink-37907",
+        "name": "",
+        "title": "Finding a Marginal Probability Distribution",
+        "selector": "#sectionLink-37907"
+      },
+      {
+        "index": 6,
+        "step_id": "34277",
+        "dom_id": "sectionLink-34277",
+        "name": "",
+        "title": "Finding a Cumulative Probability Given a Joint Distribution",
+        "selector": "#sectionLink-34277"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "773",
+        "name": "The Law of Total Probability",
+        "href": "/topics/the-law-of-total-probability-773"
+      },
+      {
+        "topic_id": "3001",
+        "name": "Joint Distributions for Discrete Random Variables",
+        "href": "/topics/joint-distributions-for-discrete-random-variables-3001"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "34052",
+        "content_id": "5469",
+        "dom_id": "step-34052",
+        "selector": "#step-34052",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "38105",
+        "content_id": "6290",
+        "dom_id": "step-38105",
+        "selector": "#step-38105",
+        "step_anchor": "step-2",
+        "title": "Deducing the Marginal Mass Function for Y",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "38106",
+        "content_id": "6291",
+        "dom_id": "step-38106",
+        "selector": "#step-38106",
+        "step_anchor": "step-3",
+        "title": "A Formal Definition of the Marginal Mass Function",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "34274",
+        "content_id": "9189",
+        "dom_id": "step-34274",
+        "selector": "#step-34274",
+        "step_anchor": "step-4",
+        "title": "Finding a Marginal Probability",
+        "key_prerequisites": [
+          {
+            "topic_id": "1290",
+            "name": "Probability Mass Functions of Discrete Random Variables",
+            "href": "/topics/1290"
+          },
+          {
+            "topic_id": "3001",
+            "name": "Joint Distributions for Discrete Random Variables",
+            "href": "/topics/3001"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "110394",
+        "dom_id": "question-110394",
+        "selector": "#question-110394",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "110398",
+        "dom_id": "question-110398",
+        "selector": "#question-110398",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "37907",
+        "content_id": "10044",
+        "dom_id": "step-37907",
+        "selector": "#step-37907",
+        "step_anchor": "step-7",
+        "title": "Finding a Marginal Probability Distribution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "110395",
+        "dom_id": "question-110395",
+        "selector": "#question-110395",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "142494",
+        "dom_id": "question-142494",
+        "selector": "#question-142494",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "34277",
+        "content_id": "9190",
+        "dom_id": "step-34277",
+        "selector": "#step-34277",
+        "step_anchor": "step-10",
+        "title": "Finding a Cumulative Probability Given a Joint Distribution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "110400",
+        "dom_id": "question-110400",
+        "selector": "#question-110400",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "142578",
+        "dom_id": "question-142578",
+        "selector": "#question-142578",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-34052",
+        "filename": "01-step-34052.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-38105",
+        "filename": "02-step-38105.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-38106",
+        "filename": "03-step-38106.png"
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "selector": "#step-34274",
+        "filename": "04-step-34274.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-110394",
+        "filename": "05-question-110394.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-110398",
+        "filename": "06-question-110398.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-37907",
+        "filename": "07-step-37907.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-110395",
+        "filename": "08-question-110395.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-142494",
+        "filename": "09-question-142494.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-34277",
+        "filename": "10-step-34277.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-110400",
+        "filename": "11-question-110400.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-142578",
+        "filename": "12-question-142578.png"
+      }
+    ]
+  }
+}

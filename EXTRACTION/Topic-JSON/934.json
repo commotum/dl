@@ -1,0 +1,240 @@
+{
+  "schema_version": 1,
+  "topic_id": "934",
+  "topic_title": "Solving 2x2 Systems of Equations Using Inverse Matrices",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/934.html",
+  "source_url": "https://mathacademy.com/topics/934",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "16467",
+        "dom_id": "sectionLink-16467",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-16467"
+      },
+      {
+        "index": 2,
+        "step_id": "16468",
+        "dom_id": "sectionLink-16468",
+        "name": "",
+        "title": "Solving a 2x2 System of Equations Using an Inverse Matrix",
+        "selector": "#sectionLink-16468"
+      },
+      {
+        "index": 3,
+        "step_id": "16469",
+        "dom_id": "sectionLink-16469",
+        "name": "",
+        "title": "Solving a 2x2 System of Equations Using an Inverse Matrix With Reorganization",
+        "selector": "#sectionLink-16469"
+      },
+      {
+        "index": 4,
+        "step_id": "16614",
+        "dom_id": "sectionLink-16614",
+        "name": "",
+        "title": "Systems of Equations Where the Coefficient Matrix is Singular",
+        "selector": "#sectionLink-16614"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "864",
+        "name": "Inverses of 2x2 Matrices",
+        "href": "/topics/inverses-of-2x2-matrices-864"
+      },
+      {
+        "topic_id": "1729",
+        "name": "Representing 2x2 Systems of Equations Using a Matrix Product",
+        "href": "/topics/representing-2x2-systems-of-equations-using-a-matrix-product-1729"
+      },
+      {
+        "topic_id": "4638",
+        "name": "Consistency and Dependency in Linear Systems",
+        "href": "/topics/consistency-and-dependency-in-linear-systems-4638"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 8,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "16467",
+        "content_id": "3049",
+        "dom_id": "step-16467",
+        "selector": "#step-16467",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "16468",
+        "content_id": "4508",
+        "dom_id": "step-16468",
+        "selector": "#step-16468",
+        "step_anchor": "step-2",
+        "title": "Solving a 2x2 System of Equations Using an Inverse Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "864",
+            "name": "Inverses of 2x2 Matrices",
+            "href": "/topics/864"
+          },
+          {
+            "topic_id": "1195",
+            "name": "Multiplying a Matrix by a Column Vector",
+            "href": "/topics/1195"
+          },
+          {
+            "topic_id": "1729",
+            "name": "Representing 2x2 Systems of Equations Using a Matrix Product",
+            "href": "/topics/1729"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "8858",
+        "dom_id": "question-8858",
+        "selector": "#question-8858",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "31893",
+        "dom_id": "question-31893",
+        "selector": "#question-31893",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "16469",
+        "content_id": "4509",
+        "dom_id": "step-16469",
+        "selector": "#step-16469",
+        "step_anchor": "step-5",
+        "title": "Solving a 2x2 System of Equations Using an Inverse Matrix With Reorganization",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "8857",
+        "dom_id": "question-8857",
+        "selector": "#question-8857",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "12286",
+        "dom_id": "question-12286",
+        "selector": "#question-12286",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "16614",
+        "content_id": "3066",
+        "dom_id": "step-16614",
+        "selector": "#step-16614",
+        "step_anchor": "step-8",
+        "title": "Systems of Equations Where the Coefficient Matrix is Singular",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-16467",
+        "filename": "01-step-16467.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-16468",
+        "filename": "02-step-16468.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-8858",
+        "filename": "03-question-8858.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-31893",
+        "filename": "04-question-31893.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-16469",
+        "filename": "05-step-16469.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-8857",
+        "filename": "06-question-8857.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-12286",
+        "filename": "07-question-12286.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-16614",
+        "filename": "08-step-16614.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,439 @@
+{
+  "schema_version": 1,
+  "topic_id": "3191",
+  "topic_title": "The Lotka-Volterra Predator-Prey Model",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3191.html",
+  "source_url": "https://mathacademy.com/topics/3191",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "589726",
+        "dom_id": "sectionLink-589726",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-589726"
+      },
+      {
+        "index": 2,
+        "step_id": "589727",
+        "dom_id": "sectionLink-589727",
+        "name": "",
+        "title": "Identifying and Interpreting the Lotka-Volterra Model",
+        "selector": "#sectionLink-589727"
+      },
+      {
+        "index": 3,
+        "step_id": "589752",
+        "dom_id": "sectionLink-589752",
+        "name": "",
+        "title": "Equilibrium Points",
+        "selector": "#sectionLink-589752"
+      },
+      {
+        "index": 4,
+        "step_id": "589730",
+        "dom_id": "sectionLink-589730",
+        "name": "",
+        "title": "Finding Equilibrium Points of the Lotka-Volterra System",
+        "selector": "#sectionLink-589730"
+      },
+      {
+        "index": 5,
+        "step_id": "589733",
+        "dom_id": "sectionLink-589733",
+        "name": "",
+        "title": "Local Behavior Near the Origin",
+        "selector": "#sectionLink-589733"
+      },
+      {
+        "index": 6,
+        "step_id": "589781",
+        "dom_id": "sectionLink-589781",
+        "name": "",
+        "title": "Local Behavior Near the Nonzero Equilibrium",
+        "selector": "#sectionLink-589781"
+      },
+      {
+        "index": 7,
+        "step_id": "589734",
+        "dom_id": "sectionLink-589734",
+        "name": "",
+        "title": "Classifying Equilibria of the Lotka-Volterra Model",
+        "selector": "#sectionLink-589734"
+      },
+      {
+        "index": 8,
+        "step_id": "589737",
+        "dom_id": "sectionLink-589737",
+        "name": "",
+        "title": "Population Dynamics Graph",
+        "selector": "#sectionLink-589737"
+      },
+      {
+        "index": 9,
+        "step_id": "589738",
+        "dom_id": "sectionLink-589738",
+        "name": "",
+        "title": "Analyzing a Solution of the Lotka-Volterra Model Given the Phase Portrait",
+        "selector": "#sectionLink-589738"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "6378",
+        "name": "Linear Approximations Near Equilibria",
+        "href": "/topics/linear-approximations-near-equilibria-6378"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 17,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "589726",
+        "content_id": "14531",
+        "dom_id": "step-589726",
+        "selector": "#step-589726",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "589727",
+        "content_id": "21734",
+        "dom_id": "step-589727",
+        "selector": "#step-589727",
+        "step_anchor": "step-2",
+        "title": "Identifying and Interpreting the Lotka-Volterra Model",
+        "key_prerequisites": [
+          {
+            "topic_id": "296",
+            "name": "Interpreting the Meaning of the Derivative in Context",
+            "href": "/topics/296"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "334771",
+        "dom_id": "question-334771",
+        "selector": "#question-334771",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "334774",
+        "dom_id": "question-334774",
+        "selector": "#question-334774",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "589752",
+        "content_id": "14592",
+        "dom_id": "step-589752",
+        "selector": "#step-589752",
+        "step_anchor": "step-5",
+        "title": "Equilibrium Points",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "589730",
+        "content_id": "21726",
+        "dom_id": "step-589730",
+        "selector": "#step-589730",
+        "step_anchor": "step-6",
+        "title": "Finding Equilibrium Points of the Lotka-Volterra System",
+        "key_prerequisites": [
+          {
+            "topic_id": "6377",
+            "name": "Equilibrium Points and Stability for Systems of ODEs",
+            "href": "/topics/6377"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "334640",
+        "dom_id": "question-334640",
+        "selector": "#question-334640",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "334992",
+        "dom_id": "question-334992",
+        "selector": "#question-334992",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "589733",
+        "content_id": "14532",
+        "dom_id": "step-589733",
+        "selector": "#step-589733",
+        "step_anchor": "step-9",
+        "title": "Local Behavior Near the Origin",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "589781",
+        "content_id": "14593",
+        "dom_id": "step-589781",
+        "selector": "#step-589781",
+        "step_anchor": "step-10",
+        "title": "Local Behavior Near the Nonzero Equilibrium",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "589734",
+        "content_id": "21727",
+        "dom_id": "step-589734",
+        "selector": "#step-589734",
+        "step_anchor": "step-11",
+        "title": "Classifying Equilibria of the Lotka-Volterra Model",
+        "key_prerequisites": [
+          {
+            "topic_id": "6378",
+            "name": "Linear Approximations Near Equilibria",
+            "href": "/topics/6378"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "334651",
+        "dom_id": "question-334651",
+        "selector": "#question-334651",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "334657",
+        "dom_id": "question-334657",
+        "selector": "#question-334657",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "589737",
+        "content_id": "14533",
+        "dom_id": "step-589737",
+        "selector": "#step-589737",
+        "step_anchor": "step-14",
+        "title": "Population Dynamics Graph",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "589738",
+        "content_id": "21728",
+        "dom_id": "step-589738",
+        "selector": "#step-589738",
+        "step_anchor": "step-15",
+        "title": "Analyzing a Solution of the Lotka-Volterra Model Given the Phase Portrait",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "335040",
+        "dom_id": "question-335040",
+        "selector": "#question-335040",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "question_id": "334754",
+        "dom_id": "question-334754",
+        "selector": "#question-334754",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-589726",
+        "filename": "01-step-589726.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-589727",
+        "filename": "02-step-589727.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-334771",
+        "filename": "03-question-334771.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-334774",
+        "filename": "04-question-334774.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-589752",
+        "filename": "05-step-589752.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-589730",
+        "filename": "06-step-589730.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-334640",
+        "filename": "07-question-334640.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-334992",
+        "filename": "08-question-334992.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-589733",
+        "filename": "09-step-589733.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-589781",
+        "filename": "10-step-589781.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-589734",
+        "filename": "11-step-589734.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-334651",
+        "filename": "12-question-334651.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-334657",
+        "filename": "13-question-334657.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-589737",
+        "filename": "14-step-589737.png"
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "selector": "#step-589738",
+        "filename": "15-step-589738.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-335040",
+        "filename": "16-question-335040.png"
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "selector": "#question-334754",
+        "filename": "17-question-334754.png"
+      }
+    ]
+  }
+}

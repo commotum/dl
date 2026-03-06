@@ -1,0 +1,346 @@
+{
+  "schema_version": 1,
+  "topic_id": "3638",
+  "topic_title": "Combining Multiple Normally Distributed Random Variables",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3638.html",
+  "source_url": "https://mathacademy.com/topics/3638",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "38095",
+        "dom_id": "sectionLink-38095",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-38095"
+      },
+      {
+        "index": 2,
+        "step_id": "34662",
+        "dom_id": "sectionLink-34662",
+        "name": "",
+        "title": "Finding the Distribution of a Sum of Normal Random Variables",
+        "selector": "#sectionLink-34662"
+      },
+      {
+        "index": 3,
+        "step_id": "34249",
+        "dom_id": "sectionLink-34249",
+        "name": "",
+        "title": "Linear Combinations of Normally Distributed Random Variables",
+        "selector": "#sectionLink-34249"
+      },
+      {
+        "index": 4,
+        "step_id": "37971",
+        "dom_id": "sectionLink-37971",
+        "name": "",
+        "title": "Finding the Distribution of a Linear Combination of Normal Random Variables",
+        "selector": "#sectionLink-37971"
+      },
+      {
+        "index": 5,
+        "step_id": "34665",
+        "dom_id": "sectionLink-34665",
+        "name": "",
+        "title": "Calculating Probabilities Involving Linear Combinations of Normally Distributed Random Variables",
+        "selector": "#sectionLink-34665"
+      },
+      {
+        "index": 6,
+        "step_id": "37972",
+        "dom_id": "sectionLink-37972",
+        "name": "",
+        "title": "Combinations of Normally Distributed Random Variables in Context",
+        "selector": "#sectionLink-37972"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3009",
+        "name": "Combining Two Normally Distributed Random Variables",
+        "href": "/topics/combining-two-normally-distributed-random-variables-3009"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "38095",
+        "content_id": "6288",
+        "dom_id": "step-38095",
+        "selector": "#step-38095",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "34662",
+        "content_id": "9265",
+        "dom_id": "step-34662",
+        "selector": "#step-34662",
+        "step_anchor": "step-2",
+        "title": "Finding the Distribution of a Sum of Normal Random Variables",
+        "key_prerequisites": [
+          {
+            "topic_id": "3009",
+            "name": "Combining Two Normally Distributed Random Variables",
+            "href": "/topics/3009"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "114456",
+        "dom_id": "question-114456",
+        "selector": "#question-114456",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "142948",
+        "dom_id": "question-142948",
+        "selector": "#question-142948",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "34249",
+        "content_id": "5505",
+        "dom_id": "step-34249",
+        "selector": "#step-34249",
+        "step_anchor": "step-5",
+        "title": "Linear Combinations of Normally Distributed Random Variables",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "37971",
+        "content_id": "10064",
+        "dom_id": "step-37971",
+        "selector": "#step-37971",
+        "step_anchor": "step-6",
+        "title": "Finding the Distribution of a Linear Combination of Normal Random Variables",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "142869",
+        "dom_id": "question-142869",
+        "selector": "#question-142869",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "114458",
+        "dom_id": "question-114458",
+        "selector": "#question-114458",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "34665",
+        "content_id": "9266",
+        "dom_id": "step-34665",
+        "selector": "#step-34665",
+        "step_anchor": "step-9",
+        "title": "Calculating Probabilities Involving Linear Combinations of Normally Distributed Random Variables",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "114459",
+        "dom_id": "question-114459",
+        "selector": "#question-114459",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "114461",
+        "dom_id": "question-114461",
+        "selector": "#question-114461",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "37972",
+        "content_id": "10065",
+        "dom_id": "step-37972",
+        "selector": "#step-37972",
+        "step_anchor": "step-12",
+        "title": "Combinations of Normally Distributed Random Variables in Context",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "110259",
+        "dom_id": "question-110259",
+        "selector": "#question-110259",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "114463",
+        "dom_id": "question-114463",
+        "selector": "#question-114463",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-38095",
+        "filename": "01-step-38095.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-34662",
+        "filename": "02-step-34662.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-114456",
+        "filename": "03-question-114456.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-142948",
+        "filename": "04-question-142948.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-34249",
+        "filename": "05-step-34249.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-37971",
+        "filename": "06-step-37971.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-142869",
+        "filename": "07-question-142869.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-114458",
+        "filename": "08-question-114458.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-34665",
+        "filename": "09-step-34665.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-114459",
+        "filename": "10-question-114459.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-114461",
+        "filename": "11-question-114461.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-37972",
+        "filename": "12-step-37972.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-110259",
+        "filename": "13-question-110259.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-114463",
+        "filename": "14-question-114463.png"
+      }
+    ]
+  }
+}

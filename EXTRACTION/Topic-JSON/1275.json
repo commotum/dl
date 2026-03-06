@@ -1,0 +1,352 @@
+{
+  "schema_version": 1,
+  "topic_id": "1275",
+  "topic_title": "The Area of a General Triangle",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1275.html",
+  "source_url": "https://mathacademy.com/topics/1275",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "463833",
+        "dom_id": "sectionLink-463833",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-463833"
+      },
+      {
+        "index": 2,
+        "step_id": "463834",
+        "dom_id": "sectionLink-463834",
+        "name": "",
+        "title": "Calculating the Area of a Triangle",
+        "selector": "#sectionLink-463834"
+      },
+      {
+        "index": 3,
+        "step_id": "463837",
+        "dom_id": "sectionLink-463837",
+        "name": "",
+        "title": "Calculating an Angle or Side of a Triangle Given the Area of a Triangle",
+        "selector": "#sectionLink-463837"
+      },
+      {
+        "index": 4,
+        "step_id": "463840",
+        "dom_id": "sectionLink-463840",
+        "name": "",
+        "title": "Calculating the Area of a Quadrilateral",
+        "selector": "#sectionLink-463840"
+      },
+      {
+        "index": 5,
+        "step_id": "463843",
+        "dom_id": "sectionLink-463843",
+        "name": "",
+        "title": "Finding the Area of a Triangle Given the Area of a Quadrilateral",
+        "selector": "#sectionLink-463843"
+      },
+      {
+        "index": 6,
+        "step_id": "463846",
+        "dom_id": "sectionLink-463846",
+        "name": "",
+        "title": "Deriving the Formula for the Area of a General Triangle",
+        "selector": "#sectionLink-463846"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1608",
+        "name": "Calculating Areas of Right Triangles Using Trigonometry",
+        "href": "/topics/calculating-areas-of-right-triangles-using-trigonometry-1608"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "463833",
+        "content_id": "2465",
+        "dom_id": "step-463833",
+        "selector": "#step-463833",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "463834",
+        "content_id": "3289",
+        "dom_id": "step-463834",
+        "selector": "#step-463834",
+        "step_anchor": "step-2",
+        "title": "Calculating the Area of a Triangle",
+        "key_prerequisites": [
+          {
+            "topic_id": "1608",
+            "name": "Calculating Areas of Right Triangles Using Trigonometry",
+            "href": "/topics/1608"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "18023",
+        "dom_id": "question-18023",
+        "selector": "#question-18023",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "18021",
+        "dom_id": "question-18021",
+        "selector": "#question-18021",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "463837",
+        "content_id": "4253",
+        "dom_id": "step-463837",
+        "selector": "#step-463837",
+        "step_anchor": "step-5",
+        "title": "Calculating an Angle or Side of a Triangle Given the Area of a Triangle",
+        "key_prerequisites": [
+          {
+            "topic_id": "765",
+            "name": "Special Trigonometric Ratios",
+            "href": "/topics/765"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "43310",
+        "dom_id": "question-43310",
+        "selector": "#question-43310",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "43343",
+        "dom_id": "question-43343",
+        "selector": "#question-43343",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "463840",
+        "content_id": "3294",
+        "dom_id": "step-463840",
+        "selector": "#step-463840",
+        "step_anchor": "step-8",
+        "title": "Calculating the Area of a Quadrilateral",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "18180",
+        "dom_id": "question-18180",
+        "selector": "#question-18180",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "54258",
+        "dom_id": "question-54258",
+        "selector": "#question-54258",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "463843",
+        "content_id": "3297",
+        "dom_id": "step-463843",
+        "selector": "#step-463843",
+        "step_anchor": "step-11",
+        "title": "Finding the Area of a Triangle Given the Area of a Quadrilateral",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "18188",
+        "dom_id": "question-18188",
+        "selector": "#question-18188",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "18192",
+        "dom_id": "question-18192",
+        "selector": "#question-18192",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "463846",
+        "content_id": "13277",
+        "dom_id": "step-463846",
+        "selector": "#step-463846",
+        "step_anchor": "step-14",
+        "title": "Deriving the Formula for the Area of a General Triangle",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-463833",
+        "filename": "01-step-463833.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-463834",
+        "filename": "02-step-463834.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-18023",
+        "filename": "03-question-18023.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-18021",
+        "filename": "04-question-18021.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-463837",
+        "filename": "05-step-463837.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-43310",
+        "filename": "06-question-43310.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-43343",
+        "filename": "07-question-43343.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-463840",
+        "filename": "08-step-463840.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-18180",
+        "filename": "09-question-18180.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-54258",
+        "filename": "10-question-54258.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-463843",
+        "filename": "11-step-463843.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-18188",
+        "filename": "12-question-18188.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-18192",
+        "filename": "13-question-18192.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-463846",
+        "filename": "14-step-463846.png"
+      }
+    ]
+  }
+}

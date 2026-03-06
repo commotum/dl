@@ -1,0 +1,358 @@
+{
+  "schema_version": 1,
+  "topic_id": "3817",
+  "topic_title": "Describing Function Composition",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3817.html",
+  "source_url": "https://mathacademy.com/topics/3817",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "510974",
+        "dom_id": "sectionLink-510974",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-510974"
+      },
+      {
+        "index": 2,
+        "step_id": "510975",
+        "dom_id": "sectionLink-510975",
+        "name": "",
+        "title": "Finding a Composite Function",
+        "selector": "#sectionLink-510975"
+      },
+      {
+        "index": 3,
+        "step_id": "510979",
+        "dom_id": "sectionLink-510979",
+        "name": "",
+        "title": "Composing a Function With Itself",
+        "selector": "#sectionLink-510979"
+      },
+      {
+        "index": 4,
+        "step_id": "510982",
+        "dom_id": "sectionLink-510982",
+        "name": "",
+        "title": "Evaluating a Function With a Variable Input",
+        "selector": "#sectionLink-510982"
+      },
+      {
+        "index": 5,
+        "step_id": "510985",
+        "dom_id": "sectionLink-510985",
+        "name": "",
+        "title": "Solving Equations Involving Composite Function",
+        "selector": "#sectionLink-510985"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "360",
+        "name": "Squaring Binomials",
+        "href": "/topics/squaring-binomials-360"
+      },
+      {
+        "topic_id": "1985",
+        "name": "Function Composition",
+        "href": "/topics/function-composition-1985"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "510974",
+        "content_id": "9264",
+        "dom_id": "step-510974",
+        "selector": "#step-510974",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "510975",
+        "content_id": "14883",
+        "dom_id": "step-510975",
+        "selector": "#step-510975",
+        "step_anchor": "step-2",
+        "title": "Finding a Composite Function",
+        "key_prerequisites": [
+          {
+            "topic_id": "360",
+            "name": "Squaring Binomials",
+            "href": "/topics/360"
+          },
+          {
+            "topic_id": "1985",
+            "name": "Function Composition",
+            "href": "/topics/1985"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "274",
+        "dom_id": "question-274",
+        "selector": "#question-274",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "350",
+        "dom_id": "question-350",
+        "selector": "#question-350",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "222417",
+        "dom_id": "question-222417",
+        "selector": "#question-222417",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "510979",
+        "content_id": "14886",
+        "dom_id": "step-510979",
+        "selector": "#step-510979",
+        "step_anchor": "step-6",
+        "title": "Composing a Function With Itself",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "138991",
+        "dom_id": "question-138991",
+        "selector": "#question-138991",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "222424",
+        "dom_id": "question-222424",
+        "selector": "#question-222424",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "510982",
+        "content_id": "14891",
+        "dom_id": "step-510982",
+        "selector": "#step-510982",
+        "step_anchor": "step-9",
+        "title": "Evaluating a Function With a Variable Input",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "221503",
+        "dom_id": "question-221503",
+        "selector": "#question-221503",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "222435",
+        "dom_id": "question-222435",
+        "selector": "#question-222435",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "510985",
+        "content_id": "19768",
+        "dom_id": "step-510985",
+        "selector": "#step-510985",
+        "step_anchor": "step-12",
+        "title": "Solving Equations Involving Composite Function",
+        "key_prerequisites": [
+          {
+            "topic_id": "138",
+            "name": "Simplifying Linear Expressions Using the Distributive Law",
+            "href": "/topics/138"
+          },
+          {
+            "topic_id": "356",
+            "name": "Solving Two-Variable Equations",
+            "href": "/topics/356"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "314840",
+        "dom_id": "question-314840",
+        "selector": "#question-314840",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "313448",
+        "dom_id": "question-313448",
+        "selector": "#question-313448",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-510974",
+        "filename": "01-step-510974.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-510975",
+        "filename": "02-step-510975.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-274",
+        "filename": "03-question-274.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-350",
+        "filename": "04-question-350.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-222417",
+        "filename": "05-question-222417.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-510979",
+        "filename": "06-step-510979.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-138991",
+        "filename": "07-question-138991.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-222424",
+        "filename": "08-question-222424.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-510982",
+        "filename": "09-step-510982.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-221503",
+        "filename": "10-question-221503.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-222435",
+        "filename": "11-question-222435.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-510985",
+        "filename": "12-step-510985.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-314840",
+        "filename": "13-question-314840.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-313448",
+        "filename": "14-question-313448.png"
+      }
+    ]
+  }
+}

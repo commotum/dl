@@ -1,0 +1,378 @@
+{
+  "schema_version": 1,
+  "topic_id": "1359",
+  "topic_title": "Determining Intervals on Which a Function Is Increasing or Decreasing",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1359.html",
+  "source_url": "https://mathacademy.com/topics/1359",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "12776",
+        "dom_id": "sectionLink-12776",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-12776"
+      },
+      {
+        "index": 2,
+        "step_id": "12783",
+        "dom_id": "sectionLink-12783",
+        "name": "",
+        "title": "Determining Intervals on Which the Derivative of a Graphed Function Is Positive or Negative",
+        "selector": "#sectionLink-12783"
+      },
+      {
+        "index": 3,
+        "step_id": "12785",
+        "dom_id": "sectionLink-12785",
+        "name": "",
+        "title": "Calculating Intervals on Which a Function Is Increasing or Decreasing Using Differentiation",
+        "selector": "#sectionLink-12785"
+      },
+      {
+        "index": 4,
+        "step_id": "12790",
+        "dom_id": "sectionLink-12790",
+        "name": "",
+        "title": "Determining the Intervals on Which a Function Is Decreasing Using Differentiation",
+        "selector": "#sectionLink-12790"
+      },
+      {
+        "index": 5,
+        "step_id": "12793",
+        "dom_id": "sectionLink-12793",
+        "name": "",
+        "title": "Determining the Intervals on Which a Function Is Increasing Using Differentiation",
+        "selector": "#sectionLink-12793"
+      },
+      {
+        "index": 6,
+        "step_id": "12796",
+        "dom_id": "sectionLink-12796",
+        "name": "",
+        "title": "Comparing Slopes of Functions at Different Points",
+        "selector": "#sectionLink-12796"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "752",
+        "name": "Using Differentiation to Calculate Critical Points",
+        "href": "/topics/using-differentiation-to-calculate-critical-points-752"
+      },
+      {
+        "topic_id": "2147",
+        "name": "Solving Polynomial Inequalities Using a Graphical Method",
+        "href": "/topics/solving-polynomial-inequalities-using-a-graphical-method-2147"
+      },
+      {
+        "topic_id": "2859",
+        "name": "Solving Inequalities Involving Exponential Functions and Polynomials",
+        "href": "/topics/solving-inequalities-involving-exponential-functions-and-polynomials-2859"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "12776",
+        "content_id": "2661",
+        "dom_id": "step-12776",
+        "selector": "#step-12776",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "12783",
+        "content_id": "3722",
+        "dom_id": "step-12783",
+        "selector": "#step-12783",
+        "step_anchor": "step-2",
+        "title": "Determining Intervals on Which the Derivative of a Graphed Function Is Positive or Negative",
+        "key_prerequisites": [
+          {
+            "topic_id": "332",
+            "name": "Calculating the Slope of a Tangent Line Using Differentiation",
+            "href": "/topics/332"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "18227",
+        "dom_id": "question-18227",
+        "selector": "#question-18227",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "16039",
+        "dom_id": "question-16039",
+        "selector": "#question-16039",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "12785",
+        "content_id": "2665",
+        "dom_id": "step-12785",
+        "selector": "#step-12785",
+        "step_anchor": "step-5",
+        "title": "Calculating Intervals on Which a Function Is Increasing or Decreasing Using Differentiation",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "12790",
+        "content_id": "3728",
+        "dom_id": "step-12790",
+        "selector": "#step-12790",
+        "step_anchor": "step-6",
+        "title": "Determining the Intervals on Which a Function Is Decreasing Using Differentiation",
+        "key_prerequisites": [
+          {
+            "topic_id": "1115",
+            "name": "Selecting Procedures for Calculating Derivatives",
+            "href": "/topics/1115"
+          },
+          {
+            "topic_id": "2859",
+            "name": "Solving Inequalities Involving Exponential Functions and Polynomials",
+            "href": "/topics/2859"
+          },
+          {
+            "topic_id": "3833",
+            "name": "Solving Quadratic Inequalities Using the Graphical Method",
+            "href": "/topics/3833"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "21021",
+        "dom_id": "question-21021",
+        "selector": "#question-21021",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "21029",
+        "dom_id": "question-21029",
+        "selector": "#question-21029",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "12793",
+        "content_id": "3731",
+        "dom_id": "step-12793",
+        "selector": "#step-12793",
+        "step_anchor": "step-9",
+        "title": "Determining the Intervals on Which a Function Is Increasing Using Differentiation",
+        "key_prerequisites": [
+          {
+            "topic_id": "2147",
+            "name": "Solving Polynomial Inequalities Using a Graphical Method",
+            "href": "/topics/2147"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "48592",
+        "dom_id": "question-48592",
+        "selector": "#question-48592",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "21018",
+        "dom_id": "question-21018",
+        "selector": "#question-21018",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "12796",
+        "content_id": "3734",
+        "dom_id": "step-12796",
+        "selector": "#step-12796",
+        "step_anchor": "step-12",
+        "title": "Comparing Slopes of Functions at Different Points",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "49005",
+        "dom_id": "question-49005",
+        "selector": "#question-49005",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "48996",
+        "dom_id": "question-48996",
+        "selector": "#question-48996",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-12776",
+        "filename": "01-step-12776.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-12783",
+        "filename": "02-step-12783.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-18227",
+        "filename": "03-question-18227.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-16039",
+        "filename": "04-question-16039.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-12785",
+        "filename": "05-step-12785.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-12790",
+        "filename": "06-step-12790.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-21021",
+        "filename": "07-question-21021.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-21029",
+        "filename": "08-question-21029.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-12793",
+        "filename": "09-step-12793.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-48592",
+        "filename": "10-question-48592.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-21018",
+        "filename": "11-question-21018.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-12796",
+        "filename": "12-step-12796.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-49005",
+        "filename": "13-question-49005.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-48996",
+        "filename": "14-question-48996.png"
+      }
+    ]
+  }
+}

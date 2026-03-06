@@ -1,0 +1,277 @@
+{
+  "schema_version": 1,
+  "topic_id": "2124",
+  "topic_title": "Projecting Vectors Onto Subspaces in Euclidean Spaces (Arbitrary Bases)",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2124.html",
+  "source_url": "https://mathacademy.com/topics/2124",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "20246",
+        "dom_id": "sectionLink-20246",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-20246"
+      },
+      {
+        "index": 2,
+        "step_id": "20248",
+        "dom_id": "sectionLink-20248",
+        "name": "",
+        "title": "The General Formula for the Orthogonal Projection of a Vector Onto a Subspace",
+        "selector": "#sectionLink-20248"
+      },
+      {
+        "index": 3,
+        "step_id": "20249",
+        "dom_id": "sectionLink-20249",
+        "name": "",
+        "title": "Finding the Orthogonal Projection of a Vector Onto a Plane",
+        "selector": "#sectionLink-20249"
+      },
+      {
+        "index": 4,
+        "step_id": "20247",
+        "dom_id": "sectionLink-20247",
+        "name": "",
+        "title": "Finding the Orthogonal Projection of a Vector Onto a Subspace",
+        "selector": "#sectionLink-20247"
+      },
+      {
+        "index": 5,
+        "step_id": "20250",
+        "dom_id": "sectionLink-20250",
+        "name": "",
+        "title": "Some Intuition Behind the Formula",
+        "selector": "#sectionLink-20250"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "232",
+        "name": "The Transpose of a Matrix",
+        "href": "/topics/the-transpose-of-a-matrix-232"
+      },
+      {
+        "topic_id": "864",
+        "name": "Inverses of 2x2 Matrices",
+        "href": "/topics/inverses-of-2x2-matrices-864"
+      },
+      {
+        "topic_id": "1196",
+        "name": "Multiplying Matrices",
+        "href": "/topics/multiplying-matrices-1196"
+      },
+      {
+        "topic_id": "2123",
+        "name": "Projecting Vectors Onto Subspaces in Euclidean Spaces (Orthogonal Bases)",
+        "href": "/topics/projecting-vectors-onto-subspaces-in-euclidean-spaces-orthogonal-bases-2123"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 9,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20246",
+        "content_id": "3626",
+        "dom_id": "step-20246",
+        "selector": "#step-20246",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20248",
+        "content_id": "3627",
+        "dom_id": "step-20248",
+        "selector": "#step-20248",
+        "step_anchor": "step-2",
+        "title": "The General Formula for the Orthogonal Projection of a Vector Onto a Subspace",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20249",
+        "content_id": "5576",
+        "dom_id": "step-20249",
+        "selector": "#step-20249",
+        "step_anchor": "step-3",
+        "title": "Finding the Orthogonal Projection of a Vector Onto a Plane",
+        "key_prerequisites": [
+          {
+            "topic_id": "232",
+            "name": "The Transpose of a Matrix",
+            "href": "/topics/232"
+          },
+          {
+            "topic_id": "864",
+            "name": "Inverses of 2x2 Matrices",
+            "href": "/topics/864"
+          },
+          {
+            "topic_id": "1806",
+            "name": "The Parametric Equations of a Plane",
+            "href": "/topics/1806"
+          },
+          {
+            "topic_id": "2123",
+            "name": "Projecting Vectors Onto Subspaces in Euclidean Spaces (Orthogonal Bases)",
+            "href": "/topics/2123"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "39857",
+        "dom_id": "question-39857",
+        "selector": "#question-39857",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "39869",
+        "dom_id": "question-39869",
+        "selector": "#question-39869",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20247",
+        "content_id": "5575",
+        "dom_id": "step-20247",
+        "selector": "#step-20247",
+        "step_anchor": "step-6",
+        "title": "Finding the Orthogonal Projection of a Vector Onto a Subspace",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "40570",
+        "dom_id": "question-40570",
+        "selector": "#question-40570",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "40627",
+        "dom_id": "question-40627",
+        "selector": "#question-40627",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20250",
+        "content_id": "3628",
+        "dom_id": "step-20250",
+        "selector": "#step-20250",
+        "step_anchor": "step-9",
+        "title": "Some Intuition Behind the Formula",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-20246",
+        "filename": "01-step-20246.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-20248",
+        "filename": "02-step-20248.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-20249",
+        "filename": "03-step-20249.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-39857",
+        "filename": "04-question-39857.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-39869",
+        "filename": "05-question-39869.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-20247",
+        "filename": "06-step-20247.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-40570",
+        "filename": "07-question-40570.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-40627",
+        "filename": "08-question-40627.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-20250",
+        "filename": "09-step-20250.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,345 @@
+{
+  "schema_version": 1,
+  "topic_id": "153",
+  "topic_title": "The Determinant of a 3x3 Matrix",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/153.html",
+  "source_url": "https://mathacademy.com/topics/153",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "464292",
+        "dom_id": "sectionLink-464292",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-464292"
+      },
+      {
+        "index": 2,
+        "step_id": "464293",
+        "dom_id": "sectionLink-464293",
+        "name": "",
+        "title": "Calculating the Determinant of a 3x3 Matrix",
+        "selector": "#sectionLink-464293"
+      },
+      {
+        "index": 3,
+        "step_id": "464296",
+        "dom_id": "sectionLink-464296",
+        "name": "",
+        "title": "Singular Matrices",
+        "selector": "#sectionLink-464296"
+      },
+      {
+        "index": 4,
+        "step_id": "464297",
+        "dom_id": "sectionLink-464297",
+        "name": "",
+        "title": "Identifying Singular Matrices",
+        "selector": "#sectionLink-464297"
+      },
+      {
+        "index": 5,
+        "step_id": "464300",
+        "dom_id": "sectionLink-464300",
+        "name": "",
+        "title": "Solving for a Variable",
+        "selector": "#sectionLink-464300"
+      },
+      {
+        "index": 6,
+        "step_id": "464301",
+        "dom_id": "sectionLink-464301",
+        "name": "",
+        "title": "Solving for an Unknown Given the Determinant",
+        "selector": "#sectionLink-464301"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "233",
+        "name": "The Minors of a 3x3 Matrix",
+        "href": "/topics/the-minors-of-a-3x3-matrix-233"
+      },
+      {
+        "topic_id": "863",
+        "name": "Introduction to the Inverse of a Matrix",
+        "href": "/topics/introduction-to-the-inverse-of-a-matrix-863"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "464292",
+        "content_id": "9175",
+        "dom_id": "step-464292",
+        "selector": "#step-464292",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "464293",
+        "content_id": "14762",
+        "dom_id": "step-464293",
+        "selector": "#step-464293",
+        "step_anchor": "step-2",
+        "title": "Calculating the Determinant of a 3x3 Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "233",
+            "name": "The Minors of a 3x3 Matrix",
+            "href": "/topics/233"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "9841",
+        "dom_id": "question-9841",
+        "selector": "#question-9841",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "38128",
+        "dom_id": "question-38128",
+        "selector": "#question-38128",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "464296",
+        "content_id": "9176",
+        "dom_id": "step-464296",
+        "selector": "#step-464296",
+        "step_anchor": "step-5",
+        "title": "Singular Matrices",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "464297",
+        "content_id": "14763",
+        "dom_id": "step-464297",
+        "selector": "#step-464297",
+        "step_anchor": "step-6",
+        "title": "Identifying Singular Matrices",
+        "key_prerequisites": [
+          {
+            "topic_id": "863",
+            "name": "Introduction to the Inverse of a Matrix",
+            "href": "/topics/863"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "9838",
+        "dom_id": "question-9838",
+        "selector": "#question-9838",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "128490",
+        "dom_id": "question-128490",
+        "selector": "#question-128490",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "464300",
+        "content_id": "9177",
+        "dom_id": "step-464300",
+        "selector": "#step-464300",
+        "step_anchor": "step-9",
+        "title": "Solving for a Variable",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "464301",
+        "content_id": "14764",
+        "dom_id": "step-464301",
+        "selector": "#step-464301",
+        "step_anchor": "step-10",
+        "title": "Solving for an Unknown Given the Determinant",
+        "key_prerequisites": [
+          {
+            "topic_id": "422",
+            "name": "The Quadratic Formula",
+            "href": "/topics/422"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "9669",
+        "dom_id": "question-9669",
+        "selector": "#question-9669",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "9657",
+        "dom_id": "question-9657",
+        "selector": "#question-9657",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "9852",
+        "dom_id": "question-9852",
+        "selector": "#question-9852",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-464292",
+        "filename": "01-step-464292.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-464293",
+        "filename": "02-step-464293.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-9841",
+        "filename": "03-question-9841.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-38128",
+        "filename": "04-question-38128.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-464296",
+        "filename": "05-step-464296.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-464297",
+        "filename": "06-step-464297.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-9838",
+        "filename": "07-question-9838.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-128490",
+        "filename": "08-question-128490.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-464300",
+        "filename": "09-step-464300.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-464301",
+        "filename": "10-step-464301.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-9669",
+        "filename": "11-question-9669.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-9657",
+        "filename": "12-question-9657.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-9852",
+        "filename": "13-question-9852.png"
+      }
+    ]
+  }
+}

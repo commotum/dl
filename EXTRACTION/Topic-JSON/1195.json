@@ -1,0 +1,304 @@
+{
+  "schema_version": 1,
+  "topic_id": "1195",
+  "topic_title": "Multiplying a Matrix by a Column Vector",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1195.html",
+  "source_url": "https://mathacademy.com/topics/1195",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "16171",
+        "dom_id": "sectionLink-16171",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-16171"
+      },
+      {
+        "index": 2,
+        "step_id": "16172",
+        "dom_id": "sectionLink-16172",
+        "name": "",
+        "title": "Multiplying a 2x2 Matrix by a Column Vector",
+        "selector": "#sectionLink-16172"
+      },
+      {
+        "index": 3,
+        "step_id": "16173",
+        "dom_id": "sectionLink-16173",
+        "name": "",
+        "title": "Multiplying a 3x3 Matrix by a Column Vector",
+        "selector": "#sectionLink-16173"
+      },
+      {
+        "index": 4,
+        "step_id": "16174",
+        "dom_id": "sectionLink-16174",
+        "name": "",
+        "title": "Multiplying a Matrix With Variable Entries by a Column Vector",
+        "selector": "#sectionLink-16174"
+      },
+      {
+        "index": 5,
+        "step_id": "16175",
+        "dom_id": "sectionLink-16175",
+        "name": "",
+        "title": "Alternative Rule",
+        "selector": "#sectionLink-16175"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "146",
+        "name": "Scalar Multiplication of Matrices",
+        "href": "/topics/scalar-multiplication-of-matrices-146"
+      },
+      {
+        "topic_id": "177",
+        "name": "Calculating the Dot Product Using Components",
+        "href": "/topics/calculating-the-dot-product-using-components-177"
+      },
+      {
+        "topic_id": "862",
+        "name": "Zero, Square, Diagonal and Identity Matrices",
+        "href": "/topics/zero-square-diagonal-and-identity-matrices-862"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "16171",
+        "content_id": "2987",
+        "dom_id": "step-16171",
+        "selector": "#step-16171",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "16172",
+        "content_id": "4397",
+        "dom_id": "step-16172",
+        "selector": "#step-16172",
+        "step_anchor": "step-2",
+        "title": "Multiplying a 2x2 Matrix by a Column Vector",
+        "key_prerequisites": [
+          {
+            "topic_id": "177",
+            "name": "Calculating the Dot Product Using Components",
+            "href": "/topics/177"
+          },
+          {
+            "topic_id": "861",
+            "name": "Introduction to Matrices",
+            "href": "/topics/861"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "13564",
+        "dom_id": "question-13564",
+        "selector": "#question-13564",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "13566",
+        "dom_id": "question-13566",
+        "selector": "#question-13566",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "16173",
+        "content_id": "4398",
+        "dom_id": "step-16173",
+        "selector": "#step-16173",
+        "step_anchor": "step-5",
+        "title": "Multiplying a 3x3 Matrix by a Column Vector",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "13558",
+        "dom_id": "question-13558",
+        "selector": "#question-13558",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "13557",
+        "dom_id": "question-13557",
+        "selector": "#question-13557",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "16174",
+        "content_id": "4399",
+        "dom_id": "step-16174",
+        "selector": "#step-16174",
+        "step_anchor": "step-8",
+        "title": "Multiplying a Matrix With Variable Entries by a Column Vector",
+        "key_prerequisites": [
+          {
+            "topic_id": "1783",
+            "name": "Simplifying Polynomials",
+            "href": "/topics/1783"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "13554",
+        "dom_id": "question-13554",
+        "selector": "#question-13554",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "127270",
+        "dom_id": "question-127270",
+        "selector": "#question-127270",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "16175",
+        "content_id": "2988",
+        "dom_id": "step-16175",
+        "selector": "#step-16175",
+        "step_anchor": "step-11",
+        "title": "Alternative Rule",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-16171",
+        "filename": "01-step-16171.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-16172",
+        "filename": "02-step-16172.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-13564",
+        "filename": "03-question-13564.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-13566",
+        "filename": "04-question-13566.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-16173",
+        "filename": "05-step-16173.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-13558",
+        "filename": "06-question-13558.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-13557",
+        "filename": "07-question-13557.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-16174",
+        "filename": "08-step-16174.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-13554",
+        "filename": "09-question-13554.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-127270",
+        "filename": "10-question-127270.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-16175",
+        "filename": "11-step-16175.png"
+      }
+    ]
+  }
+}

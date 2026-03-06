@@ -1,0 +1,495 @@
+{
+  "schema_version": 1,
+  "topic_id": "1772",
+  "topic_title": "Row and Column Operations on Determinants",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1772.html",
+  "source_url": "https://mathacademy.com/topics/1772",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "16213",
+        "dom_id": "sectionLink-16213",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-16213"
+      },
+      {
+        "index": 2,
+        "step_id": "17635",
+        "dom_id": "sectionLink-17635",
+        "name": "",
+        "title": "Switching Two Rows Changes the Sign of the Determinant",
+        "selector": "#sectionLink-17635"
+      },
+      {
+        "index": 3,
+        "step_id": "16214",
+        "dom_id": "sectionLink-16214",
+        "name": "",
+        "title": "Calculating a Determinant After Switching Two Rows",
+        "selector": "#sectionLink-16214"
+      },
+      {
+        "index": 4,
+        "step_id": "17658",
+        "dom_id": "sectionLink-17658",
+        "name": "",
+        "title": "Multiplying a Row By a Number Scales the Determinant By That Number",
+        "selector": "#sectionLink-17658"
+      },
+      {
+        "index": 5,
+        "step_id": "16215",
+        "dom_id": "sectionLink-16215",
+        "name": "",
+        "title": "Calculating a Determinant After Multiplying a Row by a Number",
+        "selector": "#sectionLink-16215"
+      },
+      {
+        "index": 6,
+        "step_id": "22922",
+        "dom_id": "sectionLink-22922",
+        "name": "",
+        "title": "Multiplying a Matrix By a Scalar",
+        "selector": "#sectionLink-22922"
+      },
+      {
+        "index": 7,
+        "step_id": "22923",
+        "dom_id": "sectionLink-22923",
+        "name": "",
+        "title": "Calculating a Determinant After Multiplying a Matrix by a Scalar",
+        "selector": "#sectionLink-22923"
+      },
+      {
+        "index": 8,
+        "step_id": "16216",
+        "dom_id": "sectionLink-16216",
+        "name": "",
+        "title": "Calculating a Determinant After Applying Several Elementary Operations",
+        "selector": "#sectionLink-16216"
+      },
+      {
+        "index": 9,
+        "step_id": "22905",
+        "dom_id": "sectionLink-22905",
+        "name": "",
+        "title": "Identifying a Row Operation Given the Connection Between Two Determinants",
+        "selector": "#sectionLink-22905"
+      },
+      {
+        "index": 10,
+        "step_id": "16217",
+        "dom_id": "sectionLink-16217",
+        "name": "",
+        "title": "Column Operations on Determinants",
+        "selector": "#sectionLink-16217"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1771",
+        "name": "Basic Properties of Determinants",
+        "href": "/topics/basic-properties-of-determinants-1771"
+      },
+      {
+        "topic_id": "3029",
+        "name": "Creating Rows or Columns Containing Zeros Using Gaussian Elimination",
+        "href": "/topics/creating-rows-or-columns-containing-zeros-using-gaussian-elimination-3029"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 20,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "16213",
+        "content_id": "3004",
+        "dom_id": "step-16213",
+        "selector": "#step-16213",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "17635",
+        "content_id": "3236",
+        "dom_id": "step-17635",
+        "selector": "#step-17635",
+        "step_anchor": "step-2",
+        "title": "Switching Two Rows Changes the Sign of the Determinant",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "16214",
+        "content_id": "4422",
+        "dom_id": "step-16214",
+        "selector": "#step-16214",
+        "step_anchor": "step-3",
+        "title": "Calculating a Determinant After Switching Two Rows",
+        "key_prerequisites": [
+          {
+            "topic_id": "149",
+            "name": "Elementary Row Operations",
+            "href": "/topics/149"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "43078",
+        "dom_id": "question-43078",
+        "selector": "#question-43078",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "43076",
+        "dom_id": "question-43076",
+        "selector": "#question-43076",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "17658",
+        "content_id": "3237",
+        "dom_id": "step-17658",
+        "selector": "#step-17658",
+        "step_anchor": "step-6",
+        "title": "Multiplying a Row By a Number Scales the Determinant By That Number",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "16215",
+        "content_id": "4423",
+        "dom_id": "step-16215",
+        "selector": "#step-16215",
+        "step_anchor": "step-7",
+        "title": "Calculating a Determinant After Multiplying a Row by a Number",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "43079",
+        "dom_id": "question-43079",
+        "selector": "#question-43079",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "43077",
+        "dom_id": "question-43077",
+        "selector": "#question-43077",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "22922",
+        "content_id": "3880",
+        "dom_id": "step-22922",
+        "selector": "#step-22922",
+        "step_anchor": "step-10",
+        "title": "Multiplying a Matrix By a Scalar",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "22923",
+        "content_id": "6148",
+        "dom_id": "step-22923",
+        "selector": "#step-22923",
+        "step_anchor": "step-11",
+        "title": "Calculating a Determinant After Multiplying a Matrix by a Scalar",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "72462",
+        "dom_id": "question-72462",
+        "selector": "#question-72462",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "72465",
+        "dom_id": "question-72465",
+        "selector": "#question-72465",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "16216",
+        "content_id": "4424",
+        "dom_id": "step-16216",
+        "selector": "#step-16216",
+        "step_anchor": "step-14",
+        "title": "Calculating a Determinant After Applying Several Elementary Operations",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "42503",
+        "dom_id": "question-42503",
+        "selector": "#question-42503",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "42505",
+        "dom_id": "question-42505",
+        "selector": "#question-42505",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 17,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "22905",
+        "content_id": "6143",
+        "dom_id": "step-22905",
+        "selector": "#step-22905",
+        "step_anchor": "step-17",
+        "title": "Identifying a Row Operation Given the Connection Between Two Determinants",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 18,
+        "item_type": "question",
+        "question_id": "43080",
+        "dom_id": "question-43080",
+        "selector": "#question-43080",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 19,
+        "item_type": "question",
+        "question_id": "42076",
+        "dom_id": "question-42076",
+        "selector": "#question-42076",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 20,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "16217",
+        "content_id": "3005",
+        "dom_id": "step-16217",
+        "selector": "#step-16217",
+        "step_anchor": "step-20",
+        "title": "Column Operations on Determinants",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-16213",
+        "filename": "01-step-16213.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-17635",
+        "filename": "02-step-17635.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-16214",
+        "filename": "03-step-16214.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-43078",
+        "filename": "04-question-43078.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-43076",
+        "filename": "05-question-43076.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-17658",
+        "filename": "06-step-17658.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-16215",
+        "filename": "07-step-16215.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-43079",
+        "filename": "08-question-43079.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-43077",
+        "filename": "09-question-43077.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-22922",
+        "filename": "10-step-22922.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-22923",
+        "filename": "11-step-22923.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-72462",
+        "filename": "12-question-72462.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-72465",
+        "filename": "13-question-72465.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-16216",
+        "filename": "14-step-16216.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-42503",
+        "filename": "15-question-42503.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-42505",
+        "filename": "16-question-42505.png"
+      },
+      {
+        "index": 17,
+        "item_type": "step",
+        "selector": "#step-22905",
+        "filename": "17-step-22905.png"
+      },
+      {
+        "index": 18,
+        "item_type": "question",
+        "selector": "#question-43080",
+        "filename": "18-question-43080.png"
+      },
+      {
+        "index": 19,
+        "item_type": "question",
+        "selector": "#question-42076",
+        "filename": "19-question-42076.png"
+      },
+      {
+        "index": 20,
+        "item_type": "step",
+        "selector": "#step-16217",
+        "filename": "20-step-16217.png"
+      }
+    ]
+  }
+}

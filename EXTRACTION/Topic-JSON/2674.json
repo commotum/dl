@@ -1,0 +1,440 @@
+{
+  "schema_version": 1,
+  "topic_id": "2674",
+  "topic_title": "The Multiplication Properties of Modular Arithmetic",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2674.html",
+  "source_url": "https://mathacademy.com/topics/2674",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "154615",
+        "dom_id": "sectionLink-154615",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-154615"
+      },
+      {
+        "index": 2,
+        "step_id": "154616",
+        "dom_id": "sectionLink-154616",
+        "name": "",
+        "title": "Using the Scalar Multiplication Property",
+        "selector": "#sectionLink-154616"
+      },
+      {
+        "index": 3,
+        "step_id": "154619",
+        "dom_id": "sectionLink-154619",
+        "name": "",
+        "title": "The Multiplicative Property",
+        "selector": "#sectionLink-154619"
+      },
+      {
+        "index": 4,
+        "step_id": "154620",
+        "dom_id": "sectionLink-154620",
+        "name": "",
+        "title": "Computing Residues of Products",
+        "selector": "#sectionLink-154620"
+      },
+      {
+        "index": 5,
+        "step_id": "154623",
+        "dom_id": "sectionLink-154623",
+        "name": "",
+        "title": "Computing Residues of Exponents",
+        "selector": "#sectionLink-154623"
+      },
+      {
+        "index": 6,
+        "step_id": "154627",
+        "dom_id": "sectionLink-154627",
+        "name": "",
+        "title": "The Exponentiation Property",
+        "selector": "#sectionLink-154627"
+      },
+      {
+        "index": 7,
+        "step_id": "154628",
+        "dom_id": "sectionLink-154628",
+        "name": "",
+        "title": "Computing a Final Digit",
+        "selector": "#sectionLink-154628"
+      },
+      {
+        "index": 8,
+        "step_id": "154631",
+        "dom_id": "sectionLink-154631",
+        "name": "",
+        "title": "Proving the Scalar Multiplication Property",
+        "selector": "#sectionLink-154631"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2786",
+        "name": "Modular Residues",
+        "href": "/topics/modular-residues-2786"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 17,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "154615",
+        "content_id": "9017",
+        "dom_id": "step-154615",
+        "selector": "#step-154615",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "154616",
+        "content_id": "14610",
+        "dom_id": "step-154616",
+        "selector": "#step-154616",
+        "step_anchor": "step-2",
+        "title": "Using the Scalar Multiplication Property",
+        "key_prerequisites": [
+          {
+            "topic_id": "2641",
+            "name": "Modular Congruence",
+            "href": "/topics/2641"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "211995",
+        "dom_id": "question-211995",
+        "selector": "#question-211995",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "213086",
+        "dom_id": "question-213086",
+        "selector": "#question-213086",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "154619",
+        "content_id": "9040",
+        "dom_id": "step-154619",
+        "selector": "#step-154619",
+        "step_anchor": "step-5",
+        "title": "The Multiplicative Property",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "154620",
+        "content_id": "14586",
+        "dom_id": "step-154620",
+        "selector": "#step-154620",
+        "step_anchor": "step-6",
+        "title": "Computing Residues of Products",
+        "key_prerequisites": [
+          {
+            "topic_id": "2786",
+            "name": "Modular Residues",
+            "href": "/topics/2786"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "213022",
+        "dom_id": "question-213022",
+        "selector": "#question-213022",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "213034",
+        "dom_id": "question-213034",
+        "selector": "#question-213034",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "154623",
+        "content_id": "14587",
+        "dom_id": "step-154623",
+        "selector": "#step-154623",
+        "step_anchor": "step-9",
+        "title": "Computing Residues of Exponents",
+        "key_prerequisites": [
+          {
+            "topic_id": "267",
+            "name": "The Product Rule for Exponents",
+            "href": "/topics/267"
+          },
+          {
+            "topic_id": "1224",
+            "name": "The Power Rule for Exponents",
+            "href": "/topics/1224"
+          },
+          {
+            "topic_id": "2012",
+            "name": "The Power of Product Rule for Exponents",
+            "href": "/topics/2012"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "213047",
+        "dom_id": "question-213047",
+        "selector": "#question-213047",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "76793",
+        "dom_id": "question-76793",
+        "selector": "#question-76793",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "213074",
+        "dom_id": "question-213074",
+        "selector": "#question-213074",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "154627",
+        "content_id": "9076",
+        "dom_id": "step-154627",
+        "selector": "#step-154627",
+        "step_anchor": "step-13",
+        "title": "The Exponentiation Property",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "154628",
+        "content_id": "14651",
+        "dom_id": "step-154628",
+        "selector": "#step-154628",
+        "step_anchor": "step-14",
+        "title": "Computing a Final Digit",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "213169",
+        "dom_id": "question-213169",
+        "selector": "#question-213169",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "213082",
+        "dom_id": "question-213082",
+        "selector": "#question-213082",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 17,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "154631",
+        "content_id": "9125",
+        "dom_id": "step-154631",
+        "selector": "#step-154631",
+        "step_anchor": "step-17",
+        "title": "Proving the Scalar Multiplication Property",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-154615",
+        "filename": "01-step-154615.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-154616",
+        "filename": "02-step-154616.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-211995",
+        "filename": "03-question-211995.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-213086",
+        "filename": "04-question-213086.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-154619",
+        "filename": "05-step-154619.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-154620",
+        "filename": "06-step-154620.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-213022",
+        "filename": "07-question-213022.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-213034",
+        "filename": "08-question-213034.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-154623",
+        "filename": "09-step-154623.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-213047",
+        "filename": "10-question-213047.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-76793",
+        "filename": "11-question-76793.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-213074",
+        "filename": "12-question-213074.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-154627",
+        "filename": "13-step-154627.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-154628",
+        "filename": "14-step-154628.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-213169",
+        "filename": "15-question-213169.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-213082",
+        "filename": "16-question-213082.png"
+      },
+      {
+        "index": 17,
+        "item_type": "step",
+        "selector": "#step-154631",
+        "filename": "17-step-154631.png"
+      }
+    ]
+  }
+}

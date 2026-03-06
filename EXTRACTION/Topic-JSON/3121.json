@@ -1,0 +1,404 @@
+{
+  "schema_version": 1,
+  "topic_id": "3121",
+  "topic_title": "Bilinear Forms",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3121.html",
+  "source_url": "https://mathacademy.com/topics/3121",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "30534",
+        "dom_id": "sectionLink-30534",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-30534"
+      },
+      {
+        "index": 2,
+        "step_id": "30561",
+        "dom_id": "sectionLink-30561",
+        "name": "",
+        "title": "Evaluating a Linear Form",
+        "selector": "#sectionLink-30561"
+      },
+      {
+        "index": 3,
+        "step_id": "30562",
+        "dom_id": "sectionLink-30562",
+        "name": "",
+        "title": "Bilinear Forms",
+        "selector": "#sectionLink-30562"
+      },
+      {
+        "index": 4,
+        "step_id": "30563",
+        "dom_id": "sectionLink-30563",
+        "name": "",
+        "title": "Evaluating a Bilinear Form",
+        "selector": "#sectionLink-30563"
+      },
+      {
+        "index": 5,
+        "step_id": "30564",
+        "dom_id": "sectionLink-30564",
+        "name": "",
+        "title": "Writing Down a Bilinear Form Given Its Matrix",
+        "selector": "#sectionLink-30564"
+      },
+      {
+        "index": 6,
+        "step_id": "30565",
+        "dom_id": "sectionLink-30565",
+        "name": "",
+        "title": "Finding the Matrix of a Bilinear Form",
+        "selector": "#sectionLink-30565"
+      },
+      {
+        "index": 7,
+        "step_id": "30572",
+        "dom_id": "sectionLink-30572",
+        "name": "",
+        "title": "Properties of Bilinear Forms",
+        "selector": "#sectionLink-30572"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "232",
+        "name": "The Transpose of a Matrix",
+        "href": "/topics/the-transpose-of-a-matrix-232"
+      },
+      {
+        "topic_id": "1196",
+        "name": "Multiplying Matrices",
+        "href": "/topics/multiplying-matrices-1196"
+      },
+      {
+        "topic_id": "1849",
+        "name": "Vectors in N-Dimensional Euclidean Space",
+        "href": "/topics/vectors-in-n-dimensional-euclidean-space-1849"
+      },
+      {
+        "topic_id": "3334",
+        "name": "Sets and Functions",
+        "href": "/topics/sets-and-functions-3334"
+      },
+      {
+        "topic_id": "4387",
+        "name": "Visualizing Cartesian Products",
+        "href": "/topics/visualizing-cartesian-products-4387"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "30534",
+        "content_id": "4883",
+        "dom_id": "step-30534",
+        "selector": "#step-30534",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30561",
+        "content_id": "8160",
+        "dom_id": "step-30561",
+        "selector": "#step-30561",
+        "step_anchor": "step-2",
+        "title": "Evaluating a Linear Form",
+        "key_prerequisites": [
+          {
+            "topic_id": "177",
+            "name": "Calculating the Dot Product Using Components",
+            "href": "/topics/177"
+          },
+          {
+            "topic_id": "470",
+            "name": "Introduction to Functions",
+            "href": "/topics/470"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "93610",
+        "dom_id": "question-93610",
+        "selector": "#question-93610",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "93899",
+        "dom_id": "question-93899",
+        "selector": "#question-93899",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "30562",
+        "content_id": "4896",
+        "dom_id": "step-30562",
+        "selector": "#step-30562",
+        "step_anchor": "step-5",
+        "title": "Bilinear Forms",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30563",
+        "content_id": "8161",
+        "dom_id": "step-30563",
+        "selector": "#step-30563",
+        "step_anchor": "step-6",
+        "title": "Evaluating a Bilinear Form",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "93679",
+        "dom_id": "question-93679",
+        "selector": "#question-93679",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "93681",
+        "dom_id": "question-93681",
+        "selector": "#question-93681",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30564",
+        "content_id": "8162",
+        "dom_id": "step-30564",
+        "selector": "#step-30564",
+        "step_anchor": "step-9",
+        "title": "Writing Down a Bilinear Form Given Its Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "1167",
+            "name": "Index Notation for Matrices",
+            "href": "/topics/1167"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "93684",
+        "dom_id": "question-93684",
+        "selector": "#question-93684",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "94004",
+        "dom_id": "question-94004",
+        "selector": "#question-94004",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30565",
+        "content_id": "8163",
+        "dom_id": "step-30565",
+        "selector": "#step-30565",
+        "step_anchor": "step-12",
+        "title": "Finding the Matrix of a Bilinear Form",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "93685",
+        "dom_id": "question-93685",
+        "selector": "#question-93685",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "94040",
+        "dom_id": "question-94040",
+        "selector": "#question-94040",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "30572",
+        "content_id": "4898",
+        "dom_id": "step-30572",
+        "selector": "#step-30572",
+        "step_anchor": "step-15",
+        "title": "Properties of Bilinear Forms",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-30534",
+        "filename": "01-step-30534.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-30561",
+        "filename": "02-step-30561.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-93610",
+        "filename": "03-question-93610.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-93899",
+        "filename": "04-question-93899.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-30562",
+        "filename": "05-step-30562.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-30563",
+        "filename": "06-step-30563.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-93679",
+        "filename": "07-question-93679.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-93681",
+        "filename": "08-question-93681.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-30564",
+        "filename": "09-step-30564.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-93684",
+        "filename": "10-question-93684.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-94004",
+        "filename": "11-question-94004.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-30565",
+        "filename": "12-step-30565.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-93685",
+        "filename": "13-question-93685.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-94040",
+        "filename": "14-question-94040.png"
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "selector": "#step-30572",
+        "filename": "15-step-30572.png"
+      }
+    ]
+  }
+}

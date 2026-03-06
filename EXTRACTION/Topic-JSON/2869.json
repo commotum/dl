@@ -1,0 +1,412 @@
+{
+  "schema_version": 1,
+  "topic_id": "2869",
+  "topic_title": "The RSA Cryptosystem",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2869.html",
+  "source_url": "https://mathacademy.com/topics/2869",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "417285",
+        "dom_id": "sectionLink-417285",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-417285"
+      },
+      {
+        "index": 2,
+        "step_id": "414168",
+        "dom_id": "sectionLink-414168",
+        "name": "",
+        "title": "Encrypting Messages Using RSA",
+        "selector": "#sectionLink-414168"
+      },
+      {
+        "index": 3,
+        "step_id": "414169",
+        "dom_id": "sectionLink-414169",
+        "name": "",
+        "title": "Encrypting Messages Using the RSA Cipher",
+        "selector": "#sectionLink-414169"
+      },
+      {
+        "index": 4,
+        "step_id": "414173",
+        "dom_id": "sectionLink-414173",
+        "name": "",
+        "title": "Decrypting Messages Using RSA",
+        "selector": "#sectionLink-414173"
+      },
+      {
+        "index": 5,
+        "step_id": "414174",
+        "dom_id": "sectionLink-414174",
+        "name": "",
+        "title": "Decrypting Messages Using the RSA Cipher When the Private Key is Given",
+        "selector": "#sectionLink-414174"
+      },
+      {
+        "index": 6,
+        "step_id": "414177",
+        "dom_id": "sectionLink-414177",
+        "name": "",
+        "title": "Decrypting Messages Using the RSA Cipher When the Public Key is Given",
+        "selector": "#sectionLink-414177"
+      },
+      {
+        "index": 7,
+        "step_id": "417287",
+        "dom_id": "sectionLink-417287",
+        "name": "",
+        "title": "Explaining Why the Decryption Step Works",
+        "selector": "#sectionLink-417287"
+      },
+      {
+        "index": 8,
+        "step_id": "430311",
+        "dom_id": "sectionLink-430311",
+        "name": "",
+        "title": "Justifying the RSA Cryptosystem",
+        "selector": "#sectionLink-430311"
+      },
+      {
+        "index": 9,
+        "step_id": "430312",
+        "dom_id": "sectionLink-430312",
+        "name": "",
+        "title": "The Magnitude of N",
+        "selector": "#sectionLink-430312"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2727",
+        "name": "Euler's Theorem",
+        "href": "/topics/eulers-theorem-2727"
+      },
+      {
+        "topic_id": "2877",
+        "name": "The Diffie-Hellman Protocol",
+        "href": "/topics/the-diffie-hellman-protocol-2877"
+      },
+      {
+        "topic_id": "4818",
+        "name": "Multiplicative Inverses Modulo N",
+        "href": "/topics/multiplicative-inverses-modulo-n-4818"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "417285",
+        "content_id": "11837",
+        "dom_id": "step-417285",
+        "selector": "#step-417285",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "414168",
+        "content_id": "9632",
+        "dom_id": "step-414168",
+        "selector": "#step-414168",
+        "step_anchor": "step-2",
+        "title": "Encrypting Messages Using RSA",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "414169",
+        "content_id": "15553",
+        "dom_id": "step-414169",
+        "selector": "#step-414169",
+        "step_anchor": "step-3",
+        "title": "Encrypting Messages Using the RSA Cipher",
+        "key_prerequisites": [
+          {
+            "topic_id": "2727",
+            "name": "Euler's Theorem",
+            "href": "/topics/2727"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "257238",
+        "dom_id": "question-257238",
+        "selector": "#question-257238",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "233778",
+        "dom_id": "question-233778",
+        "selector": "#question-233778",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "414173",
+        "content_id": "9633",
+        "dom_id": "step-414173",
+        "selector": "#step-414173",
+        "step_anchor": "step-6",
+        "title": "Decrypting Messages Using RSA",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "414174",
+        "content_id": "15554",
+        "dom_id": "step-414174",
+        "selector": "#step-414174",
+        "step_anchor": "step-7",
+        "title": "Decrypting Messages Using the RSA Cipher When the Private Key is Given",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "257296",
+        "dom_id": "question-257296",
+        "selector": "#question-257296",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "257225",
+        "dom_id": "question-257225",
+        "selector": "#question-257225",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "414177",
+        "content_id": "15555",
+        "dom_id": "step-414177",
+        "selector": "#step-414177",
+        "step_anchor": "step-10",
+        "title": "Decrypting Messages Using the RSA Cipher When the Public Key is Given",
+        "key_prerequisites": [
+          {
+            "topic_id": "2654",
+            "name": "Euler's Totient Function",
+            "href": "/topics/2654"
+          },
+          {
+            "topic_id": "4818",
+            "name": "Multiplicative Inverses Modulo N",
+            "href": "/topics/4818"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "257226",
+        "dom_id": "question-257226",
+        "selector": "#question-257226",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "257355",
+        "dom_id": "question-257355",
+        "selector": "#question-257355",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "417287",
+        "content_id": "11839",
+        "dom_id": "step-417287",
+        "selector": "#step-417287",
+        "step_anchor": "step-13",
+        "title": "Explaining Why the Decryption Step Works",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "430311",
+        "content_id": "12345",
+        "dom_id": "step-430311",
+        "selector": "#step-430311",
+        "step_anchor": "step-14",
+        "title": "Justifying the RSA Cryptosystem",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "430312",
+        "content_id": "12346",
+        "dom_id": "step-430312",
+        "selector": "#step-430312",
+        "step_anchor": "step-15",
+        "title": "The Magnitude of N",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-417285",
+        "filename": "01-step-417285.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-414168",
+        "filename": "02-step-414168.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-414169",
+        "filename": "03-step-414169.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-257238",
+        "filename": "04-question-257238.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-233778",
+        "filename": "05-question-233778.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-414173",
+        "filename": "06-step-414173.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-414174",
+        "filename": "07-step-414174.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-257296",
+        "filename": "08-question-257296.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-257225",
+        "filename": "09-question-257225.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-414177",
+        "filename": "10-step-414177.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-257226",
+        "filename": "11-question-257226.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-257355",
+        "filename": "12-question-257355.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-417287",
+        "filename": "13-step-417287.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-430311",
+        "filename": "14-step-430311.png"
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "selector": "#step-430312",
+        "filename": "15-step-430312.png"
+      }
+    ]
+  }
+}

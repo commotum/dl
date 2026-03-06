@@ -1,0 +1,262 @@
+{
+  "schema_version": 1,
+  "topic_id": "1732",
+  "topic_title": "Finding the Inverse of a 3x3 Matrix Using Row Operations",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1732.html",
+  "source_url": "https://mathacademy.com/topics/1732",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "17239",
+        "dom_id": "sectionLink-17239",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-17239"
+      },
+      {
+        "index": 2,
+        "step_id": "25045",
+        "dom_id": "sectionLink-25045",
+        "name": "",
+        "title": "Transforming a 3x3 Matrix Into the Identity Matrix Using Row Operations",
+        "selector": "#sectionLink-25045"
+      },
+      {
+        "index": 3,
+        "step_id": "28630",
+        "dom_id": "sectionLink-28630",
+        "name": "",
+        "title": "Identifying the Inverse of a 3x3 Matrix Calculated Using Row Operations",
+        "selector": "#sectionLink-28630"
+      },
+      {
+        "index": 4,
+        "step_id": "17240",
+        "dom_id": "sectionLink-17240",
+        "name": "",
+        "title": "Determining the Row Operations Required To Find the Inverse of a 3x3 Matrix",
+        "selector": "#sectionLink-17240"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1728",
+        "name": "Finding the Inverse of a 2x2 Matrix Using Row Operations",
+        "href": "/topics/finding-the-inverse-of-a-2x2-matrix-using-row-operations-1728"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 10,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "17239",
+        "content_id": "3170",
+        "dom_id": "step-17239",
+        "selector": "#step-17239",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "25045",
+        "content_id": "6778",
+        "dom_id": "step-25045",
+        "selector": "#step-25045",
+        "step_anchor": "step-2",
+        "title": "Transforming a 3x3 Matrix Into the Identity Matrix Using Row Operations",
+        "key_prerequisites": [
+          {
+            "topic_id": "862",
+            "name": "Zero, Square, Diagonal and Identity Matrices",
+            "href": "/topics/862"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "43067",
+        "dom_id": "question-43067",
+        "selector": "#question-43067",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "78426",
+        "dom_id": "question-78426",
+        "selector": "#question-78426",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "28630",
+        "content_id": "7698",
+        "dom_id": "step-28630",
+        "selector": "#step-28630",
+        "step_anchor": "step-5",
+        "title": "Identifying the Inverse of a 3x3 Matrix Calculated Using Row Operations",
+        "key_prerequisites": [
+          {
+            "topic_id": "1049",
+            "name": "Reduced Row Echelon Form",
+            "href": "/topics/1049"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "78715",
+        "dom_id": "question-78715",
+        "selector": "#question-78715",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "78718",
+        "dom_id": "question-78718",
+        "selector": "#question-78718",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17240",
+        "content_id": "4729",
+        "dom_id": "step-17240",
+        "selector": "#step-17240",
+        "step_anchor": "step-8",
+        "title": "Determining the Row Operations Required To Find the Inverse of a 3x3 Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "43066",
+        "dom_id": "question-43066",
+        "selector": "#question-43066",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "78749",
+        "dom_id": "question-78749",
+        "selector": "#question-78749",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-17239",
+        "filename": "01-step-17239.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-25045",
+        "filename": "02-step-25045.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-43067",
+        "filename": "03-question-43067.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-78426",
+        "filename": "04-question-78426.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-28630",
+        "filename": "05-step-28630.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-78715",
+        "filename": "06-question-78715.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-78718",
+        "filename": "07-question-78718.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-17240",
+        "filename": "08-step-17240.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-43066",
+        "filename": "09-question-43066.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-78749",
+        "filename": "10-question-78749.png"
+      }
+    ]
+  }
+}

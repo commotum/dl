@@ -1,0 +1,416 @@
+{
+  "schema_version": 1,
+  "topic_id": "954",
+  "topic_title": "The Degree of a Vertex",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/954.html",
+  "source_url": "https://mathacademy.com/topics/954",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "415680",
+        "dom_id": "sectionLink-415680",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-415680"
+      },
+      {
+        "index": 2,
+        "step_id": "415681",
+        "dom_id": "sectionLink-415681",
+        "name": "",
+        "title": "Finding the Degree of a Vertex",
+        "selector": "#sectionLink-415681"
+      },
+      {
+        "index": 3,
+        "step_id": "415684",
+        "dom_id": "sectionLink-415684",
+        "name": "",
+        "title": "The Degree Sum Formula",
+        "selector": "#sectionLink-415684"
+      },
+      {
+        "index": 4,
+        "step_id": "415685",
+        "dom_id": "sectionLink-415685",
+        "name": "",
+        "title": "Applying the Degree Sum Formula",
+        "selector": "#sectionLink-415685"
+      },
+      {
+        "index": 5,
+        "step_id": "415688",
+        "dom_id": "sectionLink-415688",
+        "name": "",
+        "title": "Applying the Degree Sum Formula in Context",
+        "selector": "#sectionLink-415688"
+      },
+      {
+        "index": 6,
+        "step_id": "415691",
+        "dom_id": "sectionLink-415691",
+        "name": "",
+        "title": "Vertex Degrees in Directed Graphs",
+        "selector": "#sectionLink-415691"
+      },
+      {
+        "index": 7,
+        "step_id": "415692",
+        "dom_id": "sectionLink-415692",
+        "name": "",
+        "title": "Finding the Degree of a Vertex in a Directed Graph",
+        "selector": "#sectionLink-415692"
+      },
+      {
+        "index": 8,
+        "step_id": "415695",
+        "dom_id": "sectionLink-415695",
+        "name": "",
+        "title": "The Degree Sum Formula in Directed Graphs",
+        "selector": "#sectionLink-415695"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "673",
+        "name": "Sigma Notation",
+        "href": "/topics/sigma-notation-673"
+      },
+      {
+        "topic_id": "950",
+        "name": "Introduction to Graphs",
+        "href": "/topics/introduction-to-graphs-950"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 16,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "415680",
+        "content_id": "10167",
+        "dom_id": "step-415680",
+        "selector": "#step-415680",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "415681",
+        "content_id": "15915",
+        "dom_id": "step-415681",
+        "selector": "#step-415681",
+        "step_anchor": "step-2",
+        "title": "Finding the Degree of a Vertex",
+        "key_prerequisites": [
+          {
+            "topic_id": "950",
+            "name": "Introduction to Graphs",
+            "href": "/topics/950"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "241834",
+        "dom_id": "question-241834",
+        "selector": "#question-241834",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "256898",
+        "dom_id": "question-256898",
+        "selector": "#question-256898",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "415684",
+        "content_id": "10168",
+        "dom_id": "step-415684",
+        "selector": "#step-415684",
+        "step_anchor": "step-5",
+        "title": "The Degree Sum Formula",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "415685",
+        "content_id": "15916",
+        "dom_id": "step-415685",
+        "selector": "#step-415685",
+        "step_anchor": "step-6",
+        "title": "Applying the Degree Sum Formula",
+        "key_prerequisites": [
+          {
+            "topic_id": "48",
+            "name": "Cardinality of Finite Sets",
+            "href": "/topics/48"
+          },
+          {
+            "topic_id": "673",
+            "name": "Sigma Notation",
+            "href": "/topics/673"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "241843",
+        "dom_id": "question-241843",
+        "selector": "#question-241843",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "256851",
+        "dom_id": "question-256851",
+        "selector": "#question-256851",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "415688",
+        "content_id": "15917",
+        "dom_id": "step-415688",
+        "selector": "#step-415688",
+        "step_anchor": "step-9",
+        "title": "Applying the Degree Sum Formula in Context",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "257148",
+        "dom_id": "question-257148",
+        "selector": "#question-257148",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "241846",
+        "dom_id": "question-241846",
+        "selector": "#question-241846",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "415691",
+        "content_id": "11057",
+        "dom_id": "step-415691",
+        "selector": "#step-415691",
+        "step_anchor": "step-12",
+        "title": "Vertex Degrees in Directed Graphs",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "415692",
+        "content_id": "16786",
+        "dom_id": "step-415692",
+        "selector": "#step-415692",
+        "step_anchor": "step-13",
+        "title": "Finding the Degree of a Vertex in a Directed Graph",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "258745",
+        "dom_id": "question-258745",
+        "selector": "#question-258745",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "258811",
+        "dom_id": "question-258811",
+        "selector": "#question-258811",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "415695",
+        "content_id": "11058",
+        "dom_id": "step-415695",
+        "selector": "#step-415695",
+        "step_anchor": "step-16",
+        "title": "The Degree Sum Formula in Directed Graphs",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-415680",
+        "filename": "01-step-415680.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-415681",
+        "filename": "02-step-415681.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-241834",
+        "filename": "03-question-241834.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-256898",
+        "filename": "04-question-256898.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-415684",
+        "filename": "05-step-415684.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-415685",
+        "filename": "06-step-415685.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-241843",
+        "filename": "07-question-241843.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-256851",
+        "filename": "08-question-256851.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-415688",
+        "filename": "09-step-415688.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-257148",
+        "filename": "10-question-257148.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-241846",
+        "filename": "11-question-241846.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-415691",
+        "filename": "12-step-415691.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-415692",
+        "filename": "13-step-415692.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-258745",
+        "filename": "14-question-258745.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-258811",
+        "filename": "15-question-258811.png"
+      },
+      {
+        "index": 16,
+        "item_type": "step",
+        "selector": "#step-415695",
+        "filename": "16-step-415695.png"
+      }
+    ]
+  }
+}

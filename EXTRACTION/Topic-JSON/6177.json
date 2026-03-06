@@ -1,0 +1,365 @@
+{
+  "schema_version": 1,
+  "topic_id": "6177",
+  "topic_title": "Calculating Medians From Frequency Tables",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/6177.html",
+  "source_url": "https://mathacademy.com/topics/6177",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "502871",
+        "dom_id": "sectionLink-502871",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-502871"
+      },
+      {
+        "index": 2,
+        "step_id": "502872",
+        "dom_id": "sectionLink-502872",
+        "name": "",
+        "title": "Using Cumulative Frequency",
+        "selector": "#sectionLink-502872"
+      },
+      {
+        "index": 3,
+        "step_id": "502873",
+        "dom_id": "sectionLink-502873",
+        "name": "",
+        "title": "Calculating the Median With an Odd Number of Data Points",
+        "selector": "#sectionLink-502873"
+      },
+      {
+        "index": 4,
+        "step_id": "502876",
+        "dom_id": "sectionLink-502876",
+        "name": "",
+        "title": "Even Number of Data Points",
+        "selector": "#sectionLink-502876"
+      },
+      {
+        "index": 5,
+        "step_id": "502877",
+        "dom_id": "sectionLink-502877",
+        "name": "",
+        "title": "Calculating the Median With an Even Number of Data Points",
+        "selector": "#sectionLink-502877"
+      },
+      {
+        "index": 6,
+        "step_id": "502880",
+        "dom_id": "sectionLink-502880",
+        "name": "",
+        "title": "Grouped Data",
+        "selector": "#sectionLink-502880"
+      },
+      {
+        "index": 7,
+        "step_id": "502881",
+        "dom_id": "sectionLink-502881",
+        "name": "",
+        "title": "Determining the Location of the Median for Grouped Data",
+        "selector": "#sectionLink-502881"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3749",
+        "name": "The Median of a Data Set",
+        "href": "/topics/the-median-of-a-data-set-3749"
+      },
+      {
+        "topic_id": "6187",
+        "name": "Cumulative Frequency",
+        "href": "/topics/cumulative-frequency-6187"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "502871",
+        "content_id": "13589",
+        "dom_id": "step-502871",
+        "selector": "#step-502871",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "502872",
+        "content_id": "13465",
+        "dom_id": "step-502872",
+        "selector": "#step-502872",
+        "step_anchor": "step-2",
+        "title": "Using Cumulative Frequency",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "502873",
+        "content_id": "18972",
+        "dom_id": "step-502873",
+        "selector": "#step-502873",
+        "step_anchor": "step-3",
+        "title": "Calculating the Median With an Odd Number of Data Points",
+        "key_prerequisites": [
+          {
+            "topic_id": "3749",
+            "name": "The Median of a Data Set",
+            "href": "/topics/3749"
+          },
+          {
+            "topic_id": "6187",
+            "name": "Cumulative Frequency",
+            "href": "/topics/6187"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "297512",
+        "dom_id": "question-297512",
+        "selector": "#question-297512",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "297524",
+        "dom_id": "question-297524",
+        "selector": "#question-297524",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "502876",
+        "content_id": "13517",
+        "dom_id": "step-502876",
+        "selector": "#step-502876",
+        "step_anchor": "step-6",
+        "title": "Even Number of Data Points",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "502877",
+        "content_id": "18973",
+        "dom_id": "step-502877",
+        "selector": "#step-502877",
+        "step_anchor": "step-7",
+        "title": "Calculating the Median With an Even Number of Data Points",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "297629",
+        "dom_id": "question-297629",
+        "selector": "#question-297629",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "297576",
+        "dom_id": "question-297576",
+        "selector": "#question-297576",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "502880",
+        "content_id": "13794",
+        "dom_id": "step-502880",
+        "selector": "#step-502880",
+        "step_anchor": "step-10",
+        "title": "Grouped Data",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "502881",
+        "content_id": "19743",
+        "dom_id": "step-502881",
+        "selector": "#step-502881",
+        "step_anchor": "step-11",
+        "title": "Determining the Location of the Median for Grouped Data",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "310397",
+        "dom_id": "question-310397",
+        "selector": "#question-310397",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "310398",
+        "dom_id": "question-310398",
+        "selector": "#question-310398",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "311545",
+        "dom_id": "question-311545",
+        "selector": "#question-311545",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-502871",
+        "filename": "01-step-502871.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-502872",
+        "filename": "02-step-502872.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-502873",
+        "filename": "03-step-502873.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-297512",
+        "filename": "04-question-297512.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-297524",
+        "filename": "05-question-297524.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-502876",
+        "filename": "06-step-502876.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-502877",
+        "filename": "07-step-502877.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-297629",
+        "filename": "08-question-297629.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-297576",
+        "filename": "09-question-297576.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-502880",
+        "filename": "10-step-502880.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-502881",
+        "filename": "11-step-502881.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-310397",
+        "filename": "12-question-310397.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-310398",
+        "filename": "13-question-310398.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-311545",
+        "filename": "14-question-311545.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "schema_version": 1,
+  "topic_id": "6680",
+  "topic_title": "Solving First-Order Linear ODEs With Sinusoidal Forcing",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/6680.html",
+  "source_url": "https://mathacademy.com/topics/6680",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "597581",
+        "dom_id": "sectionLink-597581",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-597581"
+      },
+      {
+        "index": 2,
+        "step_id": "597582",
+        "dom_id": "sectionLink-597582",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-597582"
+      },
+      {
+        "index": 3,
+        "step_id": "597583",
+        "dom_id": "sectionLink-597583",
+        "name": "",
+        "title": "Finding a Particular Solution to a First-Order Inhomogeneous ODE With Sinusoidal Forcing",
+        "selector": "#sectionLink-597583"
+      },
+      {
+        "index": 4,
+        "step_id": "597587",
+        "dom_id": "sectionLink-597587",
+        "name": "",
+        "title": "Finding the General Solution to a First-Order Inhomogeneous ODE With Sinusoidal Forcing",
+        "selector": "#sectionLink-597587"
+      },
+      {
+        "index": 5,
+        "step_id": "597591",
+        "dom_id": "sectionLink-597591",
+        "name": "",
+        "title": "Solving an Initial Value Problem",
+        "selector": "#sectionLink-597591"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "6678",
+        "name": "General Solutions of First-Order Linear ODEs",
+        "href": "/topics/general-solutions-of-first-order-linear-odes-6678"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "597581",
+        "content_id": "14448",
+        "dom_id": "step-597581",
+        "selector": "#step-597581",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "597582",
+        "content_id": "14704",
+        "dom_id": "step-597582",
+        "selector": "#step-597582",
+        "step_anchor": "step-2",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "597583",
+        "content_id": "21618",
+        "dom_id": "step-597583",
+        "selector": "#step-597583",
+        "step_anchor": "step-3",
+        "title": "Finding a Particular Solution to a First-Order Inhomogeneous ODE With Sinusoidal Forcing",
+        "key_prerequisites": [
+          {
+            "topic_id": "305",
+            "name": "The Chain Rule With Trigonometric Functions",
+            "href": "/topics/305"
+          },
+          {
+            "topic_id": "6678",
+            "name": "General Solutions of First-Order Linear ODEs",
+            "href": "/topics/6678"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "332441",
+        "dom_id": "question-332441",
+        "selector": "#question-332441",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "332623",
+        "dom_id": "question-332623",
+        "selector": "#question-332623",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "332684",
+        "dom_id": "question-332684",
+        "selector": "#question-332684",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "597587",
+        "content_id": "21619",
+        "dom_id": "step-597587",
+        "selector": "#step-597587",
+        "step_anchor": "step-7",
+        "title": "Finding the General Solution to a First-Order Inhomogeneous ODE With Sinusoidal Forcing",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "332446",
+        "dom_id": "question-332446",
+        "selector": "#question-332446",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "332793",
+        "dom_id": "question-332793",
+        "selector": "#question-332793",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "332875",
+        "dom_id": "question-332875",
+        "selector": "#question-332875",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "597591",
+        "content_id": "21620",
+        "dom_id": "step-597591",
+        "selector": "#step-597591",
+        "step_anchor": "step-11",
+        "title": "Solving an Initial Value Problem",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "332447",
+        "dom_id": "question-332447",
+        "selector": "#question-332447",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "332992",
+        "dom_id": "question-332992",
+        "selector": "#question-332992",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-597581",
+        "filename": "01-step-597581.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-597582",
+        "filename": "02-step-597582.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-597583",
+        "filename": "03-step-597583.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-332441",
+        "filename": "04-question-332441.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-332623",
+        "filename": "05-question-332623.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-332684",
+        "filename": "06-question-332684.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-597587",
+        "filename": "07-step-597587.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-332446",
+        "filename": "08-question-332446.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-332793",
+        "filename": "09-question-332793.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-332875",
+        "filename": "10-question-332875.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-597591",
+        "filename": "11-step-597591.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-332447",
+        "filename": "12-question-332447.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-332992",
+        "filename": "13-question-332992.png"
+      }
+    ]
+  }
+}

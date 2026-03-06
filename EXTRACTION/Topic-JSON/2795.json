@@ -1,0 +1,463 @@
+{
+  "schema_version": 1,
+  "topic_id": "2795",
+  "topic_title": "Proving Divisibility",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2795.html",
+  "source_url": "https://mathacademy.com/topics/2795",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "595022",
+        "dom_id": "sectionLink-595022",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-595022"
+      },
+      {
+        "index": 2,
+        "step_id": "595023",
+        "dom_id": "sectionLink-595023",
+        "name": "",
+        "title": "Proving a Divisibility Statement",
+        "selector": "#sectionLink-595023"
+      },
+      {
+        "index": 3,
+        "step_id": "595024",
+        "dom_id": "sectionLink-595024",
+        "name": "",
+        "title": "Stating the Full Proof",
+        "selector": "#sectionLink-595024"
+      },
+      {
+        "index": 4,
+        "step_id": "595025",
+        "dom_id": "sectionLink-595025",
+        "name": "",
+        "title": "Proving Divisibility Using the Definition",
+        "selector": "#sectionLink-595025"
+      },
+      {
+        "index": 5,
+        "step_id": "595028",
+        "dom_id": "sectionLink-595028",
+        "name": "",
+        "title": "Proving a Divisor of a Factor Given a Divisor of a Product",
+        "selector": "#sectionLink-595028"
+      },
+      {
+        "index": 6,
+        "step_id": "595031",
+        "dom_id": "sectionLink-595031",
+        "name": "",
+        "title": "The Division Algorithm",
+        "selector": "#sectionLink-595031"
+      },
+      {
+        "index": 7,
+        "step_id": "595032",
+        "dom_id": "sectionLink-595032",
+        "name": "",
+        "title": "Proving a Divisor Given Two Other (Coprime) Divisors",
+        "selector": "#sectionLink-595032"
+      },
+      {
+        "index": 8,
+        "step_id": "595036",
+        "dom_id": "sectionLink-595036",
+        "name": "",
+        "title": "Proving a Divisor Given Two Other (Coprime) Divisors: Advanced Cases",
+        "selector": "#sectionLink-595036"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2676",
+        "name": "The Euclidean Algorithm",
+        "href": "/topics/the-euclidean-algorithm-2676"
+      },
+      {
+        "topic_id": "2801",
+        "name": "Direct Proof",
+        "href": "/topics/direct-proof-2801"
+      },
+      {
+        "topic_id": "4305",
+        "name": "Disjunctive Syllogism and Transitivity of Implication",
+        "href": "/topics/disjunctive-syllogism-and-transitivity-of-implication-4305"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 18,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "595022",
+        "content_id": "9284",
+        "dom_id": "step-595022",
+        "selector": "#step-595022",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "595023",
+        "content_id": "7927",
+        "dom_id": "step-595023",
+        "selector": "#step-595023",
+        "step_anchor": "step-2",
+        "title": "Proving a Divisibility Statement",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "595024",
+        "content_id": "9285",
+        "dom_id": "step-595024",
+        "selector": "#step-595024",
+        "step_anchor": "step-3",
+        "title": "Stating the Full Proof",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "595025",
+        "content_id": "6885",
+        "dom_id": "step-595025",
+        "selector": "#step-595025",
+        "step_anchor": "step-4",
+        "title": "Proving Divisibility Using the Definition",
+        "key_prerequisites": [
+          {
+            "topic_id": "2801",
+            "name": "Direct Proof",
+            "href": "/topics/2801"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "184094",
+        "dom_id": "question-184094",
+        "selector": "#question-184094",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "184109",
+        "dom_id": "question-184109",
+        "selector": "#question-184109",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "595028",
+        "content_id": "13309",
+        "dom_id": "step-595028",
+        "selector": "#step-595028",
+        "step_anchor": "step-7",
+        "title": "Proving a Divisor of a Factor Given a Divisor of a Product",
+        "key_prerequisites": [
+          {
+            "topic_id": "4433",
+            "name": "Properties of Integer Divisibility",
+            "href": "/topics/4433"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "225300",
+        "dom_id": "question-225300",
+        "selector": "#question-225300",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "184418",
+        "dom_id": "question-184418",
+        "selector": "#question-184418",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "595031",
+        "content_id": "8330",
+        "dom_id": "step-595031",
+        "selector": "#step-595031",
+        "step_anchor": "step-10",
+        "title": "The Division Algorithm",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "595032",
+        "content_id": "6887",
+        "dom_id": "step-595032",
+        "selector": "#step-595032",
+        "step_anchor": "step-11",
+        "title": "Proving a Divisor Given Two Other (Coprime) Divisors",
+        "key_prerequisites": [
+          {
+            "topic_id": "2440",
+            "name": "Least Common Multiples",
+            "href": "/topics/2440"
+          },
+          {
+            "topic_id": "2689",
+            "name": "The Division Algorithm",
+            "href": "/topics/2689"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "337920",
+        "dom_id": "question-337920",
+        "selector": "#question-337920",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "225301",
+        "dom_id": "question-225301",
+        "selector": "#question-225301",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "184397",
+        "dom_id": "question-184397",
+        "selector": "#question-184397",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "595036",
+        "content_id": "13313",
+        "dom_id": "step-595036",
+        "selector": "#step-595036",
+        "step_anchor": "step-15",
+        "title": "Proving a Divisor Given Two Other (Coprime) Divisors: Advanced Cases",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "338363",
+        "dom_id": "question-338363",
+        "selector": "#question-338363",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "question_id": "184413",
+        "dom_id": "question-184413",
+        "selector": "#question-184413",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 18,
+        "item_type": "question",
+        "question_id": "184229",
+        "dom_id": "question-184229",
+        "selector": "#question-184229",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-595022",
+        "filename": "01-step-595022.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-595023",
+        "filename": "02-step-595023.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-595024",
+        "filename": "03-step-595024.png"
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "selector": "#step-595025",
+        "filename": "04-step-595025.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-184094",
+        "filename": "05-question-184094.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-184109",
+        "filename": "06-question-184109.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-595028",
+        "filename": "07-step-595028.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-225300",
+        "filename": "08-question-225300.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-184418",
+        "filename": "09-question-184418.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-595031",
+        "filename": "10-step-595031.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-595032",
+        "filename": "11-step-595032.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-337920",
+        "filename": "12-question-337920.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-225301",
+        "filename": "13-question-225301.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-184397",
+        "filename": "14-question-184397.png"
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "selector": "#step-595036",
+        "filename": "15-step-595036.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-338363",
+        "filename": "16-question-338363.png"
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "selector": "#question-184413",
+        "filename": "17-question-184413.png"
+      },
+      {
+        "index": 18,
+        "item_type": "question",
+        "selector": "#question-184229",
+        "filename": "18-question-184229.png"
+      }
+    ]
+  }
+}

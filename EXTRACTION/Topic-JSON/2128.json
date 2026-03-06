@@ -1,0 +1,288 @@
+{
+  "schema_version": 1,
+  "topic_id": "2128",
+  "topic_title": "The Gram-Schmidt Process in the General Case",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2128.html",
+  "source_url": "https://mathacademy.com/topics/2128",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "20262",
+        "dom_id": "sectionLink-20262",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-20262"
+      },
+      {
+        "index": 2,
+        "step_id": "20263",
+        "dom_id": "sectionLink-20263",
+        "name": "",
+        "title": "Finding an Orthogonal Basis of a Span Given Some Orthogonal Vectors",
+        "selector": "#sectionLink-20263"
+      },
+      {
+        "index": 3,
+        "step_id": "31080",
+        "dom_id": "sectionLink-31080",
+        "name": "",
+        "title": "Finding an Orthogonal Basis For the Column Space of a Matrix Given Some Orthogonal Columns",
+        "selector": "#sectionLink-31080"
+      },
+      {
+        "index": 4,
+        "step_id": "20264",
+        "dom_id": "sectionLink-20264",
+        "name": "",
+        "title": "Gram-Schmidt Process",
+        "selector": "#sectionLink-20264"
+      },
+      {
+        "index": 5,
+        "step_id": "20265",
+        "dom_id": "sectionLink-20265",
+        "name": "",
+        "title": "Finding an Orthogonal Basis Using the Gram-Schmidt Process",
+        "selector": "#sectionLink-20265"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2123",
+        "name": "Projecting Vectors Onto Subspaces in Euclidean Spaces (Orthogonal Bases)",
+        "href": "/topics/projecting-vectors-onto-subspaces-in-euclidean-spaces-orthogonal-bases-2123"
+      },
+      {
+        "topic_id": "2127",
+        "name": "The Gram-Schmidt Process for Two Vectors",
+        "href": "/topics/the-gram-schmidt-process-for-two-vectors-2127"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20262",
+        "content_id": "3633",
+        "dom_id": "step-20262",
+        "selector": "#step-20262",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20263",
+        "content_id": "5584",
+        "dom_id": "step-20263",
+        "selector": "#step-20263",
+        "step_anchor": "step-2",
+        "title": "Finding an Orthogonal Basis of a Span Given Some Orthogonal Vectors",
+        "key_prerequisites": [
+          {
+            "topic_id": "2127",
+            "name": "The Gram-Schmidt Process for Two Vectors",
+            "href": "/topics/2127"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "40774",
+        "dom_id": "question-40774",
+        "selector": "#question-40774",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "41627",
+        "dom_id": "question-41627",
+        "selector": "#question-41627",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "31080",
+        "content_id": "8321",
+        "dom_id": "step-31080",
+        "selector": "#step-31080",
+        "step_anchor": "step-5",
+        "title": "Finding an Orthogonal Basis For the Column Space of a Matrix Given Some Orthogonal Columns",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "40817",
+        "dom_id": "question-40817",
+        "selector": "#question-40817",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "40772",
+        "dom_id": "question-40772",
+        "selector": "#question-40772",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20264",
+        "content_id": "3634",
+        "dom_id": "step-20264",
+        "selector": "#step-20264",
+        "step_anchor": "step-8",
+        "title": "Gram-Schmidt Process",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20265",
+        "content_id": "5585",
+        "dom_id": "step-20265",
+        "selector": "#step-20265",
+        "step_anchor": "step-9",
+        "title": "Finding an Orthogonal Basis Using the Gram-Schmidt Process",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "41631",
+        "dom_id": "question-41631",
+        "selector": "#question-41631",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "40818",
+        "dom_id": "question-40818",
+        "selector": "#question-40818",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-20262",
+        "filename": "01-step-20262.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-20263",
+        "filename": "02-step-20263.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-40774",
+        "filename": "03-question-40774.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-41627",
+        "filename": "04-question-41627.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-31080",
+        "filename": "05-step-31080.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-40817",
+        "filename": "06-question-40817.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-40772",
+        "filename": "07-question-40772.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-20264",
+        "filename": "08-step-20264.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-20265",
+        "filename": "09-step-20265.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-41631",
+        "filename": "10-question-41631.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-40818",
+        "filename": "11-question-40818.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,363 @@
+{
+  "schema_version": 1,
+  "topic_id": "1633",
+  "topic_title": "Normal Approximations of Binomial Distributions",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1633.html",
+  "source_url": "https://mathacademy.com/topics/1633",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "30951",
+        "dom_id": "sectionLink-30951",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-30951"
+      },
+      {
+        "index": 2,
+        "step_id": "30952",
+        "dom_id": "sectionLink-30952",
+        "name": "",
+        "title": "Identifying Situations Where a Normal Approximation is Appropriate",
+        "selector": "#sectionLink-30952"
+      },
+      {
+        "index": 3,
+        "step_id": "34580",
+        "dom_id": "sectionLink-34580",
+        "name": "",
+        "title": "Using the Normal Approximation to the Binomial Distribution",
+        "selector": "#sectionLink-34580"
+      },
+      {
+        "index": 4,
+        "step_id": "34581",
+        "dom_id": "sectionLink-34581",
+        "name": "",
+        "title": "A Note on Rounding Errors",
+        "selector": "#sectionLink-34581"
+      },
+      {
+        "index": 5,
+        "step_id": "30953",
+        "dom_id": "sectionLink-30953",
+        "name": "",
+        "title": "Using a Normal Approximation to Approximate a Binomial Probability",
+        "selector": "#sectionLink-30953"
+      },
+      {
+        "index": 6,
+        "step_id": "30954",
+        "dom_id": "sectionLink-30954",
+        "name": "",
+        "title": "Using a Normal Approximation to Approximate a Binomial Probability Over an Interval",
+        "selector": "#sectionLink-30954"
+      },
+      {
+        "index": 7,
+        "step_id": "39428",
+        "dom_id": "sectionLink-39428",
+        "name": "",
+        "title": "The Normal Approximation as a Consequence of the Central Limit Theorem",
+        "selector": "#sectionLink-39428"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "788",
+        "name": "Modeling With the Normal Distribution",
+        "href": "/topics/modeling-with-the-normal-distribution-788"
+      },
+      {
+        "topic_id": "2149",
+        "name": "Mean and Variance of the Binomial Distribution",
+        "href": "/topics/mean-and-variance-of-the-binomial-distribution-2149"
+      },
+      {
+        "topic_id": "2994",
+        "name": "Approximating Discrete Random Variables as Continuous",
+        "href": "/topics/approximating-discrete-random-variables-as-continuous-2994"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "30951",
+        "content_id": "4970",
+        "dom_id": "step-30951",
+        "selector": "#step-30951",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30952",
+        "content_id": "8285",
+        "dom_id": "step-30952",
+        "selector": "#step-30952",
+        "step_anchor": "step-2",
+        "title": "Identifying Situations Where a Normal Approximation is Appropriate",
+        "key_prerequisites": [
+          {
+            "topic_id": "1395",
+            "name": "Modeling With the Binomial Distribution",
+            "href": "/topics/1395"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "94819",
+        "dom_id": "question-94819",
+        "selector": "#question-94819",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "95696",
+        "dom_id": "question-95696",
+        "selector": "#question-95696",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "34580",
+        "content_id": "5618",
+        "dom_id": "step-34580",
+        "selector": "#step-34580",
+        "step_anchor": "step-5",
+        "title": "Using the Normal Approximation to the Binomial Distribution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "34581",
+        "content_id": "5619",
+        "dom_id": "step-34581",
+        "selector": "#step-34581",
+        "step_anchor": "step-6",
+        "title": "A Note on Rounding Errors",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30953",
+        "content_id": "8286",
+        "dom_id": "step-30953",
+        "selector": "#step-30953",
+        "step_anchor": "step-7",
+        "title": "Using a Normal Approximation to Approximate a Binomial Probability",
+        "key_prerequisites": [
+          {
+            "topic_id": "788",
+            "name": "Modeling With the Normal Distribution",
+            "href": "/topics/788"
+          },
+          {
+            "topic_id": "2149",
+            "name": "Mean and Variance of the Binomial Distribution",
+            "href": "/topics/2149"
+          },
+          {
+            "topic_id": "2994",
+            "name": "Approximating Discrete Random Variables as Continuous",
+            "href": "/topics/2994"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "95099",
+        "dom_id": "question-95099",
+        "selector": "#question-95099",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "95746",
+        "dom_id": "question-95746",
+        "selector": "#question-95746",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30954",
+        "content_id": "8287",
+        "dom_id": "step-30954",
+        "selector": "#step-30954",
+        "step_anchor": "step-10",
+        "title": "Using a Normal Approximation to Approximate a Binomial Probability Over an Interval",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "95812",
+        "dom_id": "question-95812",
+        "selector": "#question-95812",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "95758",
+        "dom_id": "question-95758",
+        "selector": "#question-95758",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "39428",
+        "content_id": "6514",
+        "dom_id": "step-39428",
+        "selector": "#step-39428",
+        "step_anchor": "step-13",
+        "title": "The Normal Approximation as a Consequence of the Central Limit Theorem",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-30951",
+        "filename": "01-step-30951.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-30952",
+        "filename": "02-step-30952.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-94819",
+        "filename": "03-question-94819.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-95696",
+        "filename": "04-question-95696.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-34580",
+        "filename": "05-step-34580.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-34581",
+        "filename": "06-step-34581.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-30953",
+        "filename": "07-step-30953.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-95099",
+        "filename": "08-question-95099.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-95746",
+        "filename": "09-question-95746.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-30954",
+        "filename": "10-step-30954.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-95812",
+        "filename": "11-question-95812.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-95758",
+        "filename": "12-question-95758.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-39428",
+        "filename": "13-step-39428.png"
+      }
+    ]
+  }
+}

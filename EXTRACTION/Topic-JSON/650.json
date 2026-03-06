@@ -1,0 +1,380 @@
+{
+  "schema_version": 1,
+  "topic_id": "650",
+  "topic_title": "Differential Operators",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/650.html",
+  "source_url": "https://mathacademy.com/topics/650",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "593341",
+        "dom_id": "sectionLink-593341",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-593341"
+      },
+      {
+        "index": 2,
+        "step_id": "593342",
+        "dom_id": "sectionLink-593342",
+        "name": "",
+        "title": "Notation",
+        "selector": "#sectionLink-593342"
+      },
+      {
+        "index": 3,
+        "step_id": "593343",
+        "dom_id": "sectionLink-593343",
+        "name": "",
+        "title": "Applying Differential Operators With Constant Coefficients",
+        "selector": "#sectionLink-593343"
+      },
+      {
+        "index": 4,
+        "step_id": "593346",
+        "dom_id": "sectionLink-593346",
+        "name": "",
+        "title": "More Complex Differential Operators",
+        "selector": "#sectionLink-593346"
+      },
+      {
+        "index": 5,
+        "step_id": "608079",
+        "dom_id": "sectionLink-608079",
+        "name": "",
+        "title": "A General n-th Order Linear Differential Operator.",
+        "selector": "#sectionLink-608079"
+      },
+      {
+        "index": 6,
+        "step_id": "593347",
+        "dom_id": "sectionLink-593347",
+        "name": "",
+        "title": "Applying Differential Operators With Functions of X as Coefficients",
+        "selector": "#sectionLink-593347"
+      },
+      {
+        "index": 7,
+        "step_id": "593350",
+        "dom_id": "sectionLink-593350",
+        "name": "",
+        "title": "Applying Differential Operators With Multivariable Functions as Coefficients",
+        "selector": "#sectionLink-593350"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "281",
+        "name": "Second and Higher-Order Derivatives",
+        "href": "/topics/second-and-higher-order-derivatives-281"
+      },
+      {
+        "topic_id": "1115",
+        "name": "Selecting Procedures for Calculating Derivatives",
+        "href": "/topics/selecting-procedures-for-calculating-derivatives-1115"
+      },
+      {
+        "topic_id": "3387",
+        "name": "Affine Transformations",
+        "href": "/topics/affine-transformations-3387"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "593341",
+        "content_id": "4085",
+        "dom_id": "step-593341",
+        "selector": "#step-593341",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "593342",
+        "content_id": "14619",
+        "dom_id": "step-593342",
+        "selector": "#step-593342",
+        "step_anchor": "step-2",
+        "title": "Notation",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "593343",
+        "content_id": "6570",
+        "dom_id": "step-593343",
+        "selector": "#step-593343",
+        "step_anchor": "step-3",
+        "title": "Applying Differential Operators With Constant Coefficients",
+        "key_prerequisites": [
+          {
+            "topic_id": "281",
+            "name": "Second and Higher-Order Derivatives",
+            "href": "/topics/281"
+          },
+          {
+            "topic_id": "305",
+            "name": "The Chain Rule With Trigonometric Functions",
+            "href": "/topics/305"
+          },
+          {
+            "topic_id": "1007",
+            "name": "The Chain Rule With Exponential Functions",
+            "href": "/topics/1007"
+          },
+          {
+            "topic_id": "1036",
+            "name": "The Chain Rule With Logarithmic Functions",
+            "href": "/topics/1036"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "64898",
+        "dom_id": "question-64898",
+        "selector": "#question-64898",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "91042",
+        "dom_id": "question-91042",
+        "selector": "#question-91042",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "593346",
+        "content_id": "14618",
+        "dom_id": "step-593346",
+        "selector": "#step-593346",
+        "step_anchor": "step-6",
+        "title": "More Complex Differential Operators",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "608079",
+        "content_id": "14903",
+        "dom_id": "step-608079",
+        "selector": "#step-608079",
+        "step_anchor": "step-7",
+        "title": "A General n-th Order Linear Differential Operator.",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "593347",
+        "content_id": "6571",
+        "dom_id": "step-593347",
+        "selector": "#step-593347",
+        "step_anchor": "step-8",
+        "title": "Applying Differential Operators With Functions of X as Coefficients",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "65037",
+        "dom_id": "question-65037",
+        "selector": "#question-65037",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "64965",
+        "dom_id": "question-64965",
+        "selector": "#question-64965",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "593350",
+        "content_id": "21785",
+        "dom_id": "step-593350",
+        "selector": "#step-593350",
+        "step_anchor": "step-11",
+        "title": "Applying Differential Operators With Multivariable Functions as Coefficients",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "337559",
+        "dom_id": "question-337559",
+        "selector": "#question-337559",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "337986",
+        "dom_id": "question-337986",
+        "selector": "#question-337986",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "338253",
+        "dom_id": "question-338253",
+        "selector": "#question-338253",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-593341",
+        "filename": "01-step-593341.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-593342",
+        "filename": "02-step-593342.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-593343",
+        "filename": "03-step-593343.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-64898",
+        "filename": "04-question-64898.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-91042",
+        "filename": "05-question-91042.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-593346",
+        "filename": "06-step-593346.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-608079",
+        "filename": "07-step-608079.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-593347",
+        "filename": "08-step-593347.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-65037",
+        "filename": "09-question-65037.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-64965",
+        "filename": "10-question-64965.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-593350",
+        "filename": "11-step-593350.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-337559",
+        "filename": "12-question-337559.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-337986",
+        "filename": "13-question-337986.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-338253",
+        "filename": "14-question-338253.png"
+      }
+    ]
+  }
+}

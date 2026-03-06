@@ -1,0 +1,411 @@
+{
+  "schema_version": 1,
+  "topic_id": "3320",
+  "topic_title": "Estimating Sample Sizes for Proportions",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3320.html",
+  "source_url": "https://mathacademy.com/topics/3320",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "222963",
+        "dom_id": "sectionLink-222963",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-222963"
+      },
+      {
+        "index": 2,
+        "step_id": "222964",
+        "dom_id": "sectionLink-222964",
+        "name": "",
+        "title": "Cases When an Estimate Is Given",
+        "selector": "#sectionLink-222964"
+      },
+      {
+        "index": 3,
+        "step_id": "222965",
+        "dom_id": "sectionLink-222965",
+        "name": "",
+        "title": "Finding the Minimum Sample Size When a Point Estimate Is Given",
+        "selector": "#sectionLink-222965"
+      },
+      {
+        "index": 4,
+        "step_id": "222968",
+        "dom_id": "sectionLink-222968",
+        "name": "",
+        "title": "Cases When an Estimate Is Not Given",
+        "selector": "#sectionLink-222968"
+      },
+      {
+        "index": 5,
+        "step_id": "222969",
+        "dom_id": "sectionLink-222969",
+        "name": "",
+        "title": "Finding the Minimum Sample Size When a Point Estimate Is Not Given",
+        "selector": "#sectionLink-222969"
+      },
+      {
+        "index": 6,
+        "step_id": "222972",
+        "dom_id": "sectionLink-222972",
+        "name": "",
+        "title": "Finding the Minimum Sample Size When an Interval Estimate Is Given",
+        "selector": "#sectionLink-222972"
+      },
+      {
+        "index": 7,
+        "step_id": "222975",
+        "dom_id": "sectionLink-222975",
+        "name": "",
+        "title": "Factors Affecting Sample Size",
+        "selector": "#sectionLink-222975"
+      },
+      {
+        "index": 8,
+        "step_id": "222976",
+        "dom_id": "sectionLink-222976",
+        "name": "",
+        "title": "Understanding the Minimum Sample Size Formula",
+        "selector": "#sectionLink-222976"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1451",
+        "name": "The Average of the Roots Formula",
+        "href": "/topics/the-average-of-the-roots-formula-1451"
+      },
+      {
+        "topic_id": "3300",
+        "name": "Confidence Intervals for One Proportion",
+        "href": "/topics/confidence-intervals-for-one-proportion-3300"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 16,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "222963",
+        "content_id": "9433",
+        "dom_id": "step-222963",
+        "selector": "#step-222963",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "222964",
+        "content_id": "9470",
+        "dom_id": "step-222964",
+        "selector": "#step-222964",
+        "step_anchor": "step-2",
+        "title": "Cases When an Estimate Is Given",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "222965",
+        "content_id": "15098",
+        "dom_id": "step-222965",
+        "selector": "#step-222965",
+        "step_anchor": "step-3",
+        "title": "Finding the Minimum Sample Size When a Point Estimate Is Given",
+        "key_prerequisites": [
+          {
+            "topic_id": "3300",
+            "name": "Confidence Intervals for One Proportion",
+            "href": "/topics/3300"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "142733",
+        "dom_id": "question-142733",
+        "selector": "#question-142733",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "143236",
+        "dom_id": "question-143236",
+        "selector": "#question-143236",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "222968",
+        "content_id": "9471",
+        "dom_id": "step-222968",
+        "selector": "#step-222968",
+        "step_anchor": "step-6",
+        "title": "Cases When an Estimate Is Not Given",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "222969",
+        "content_id": "15099",
+        "dom_id": "step-222969",
+        "selector": "#step-222969",
+        "step_anchor": "step-7",
+        "title": "Finding the Minimum Sample Size When a Point Estimate Is Not Given",
+        "key_prerequisites": [
+          {
+            "topic_id": "1451",
+            "name": "The Average of the Roots Formula",
+            "href": "/topics/1451"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "142737",
+        "dom_id": "question-142737",
+        "selector": "#question-142737",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "143229",
+        "dom_id": "question-143229",
+        "selector": "#question-143229",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "222972",
+        "content_id": "15109",
+        "dom_id": "step-222972",
+        "selector": "#step-222972",
+        "step_anchor": "step-10",
+        "title": "Finding the Minimum Sample Size When an Interval Estimate Is Given",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "225178",
+        "dom_id": "question-225178",
+        "selector": "#question-225178",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "225951",
+        "dom_id": "question-225951",
+        "selector": "#question-225951",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "222975",
+        "content_id": "10765",
+        "dom_id": "step-222975",
+        "selector": "#step-222975",
+        "step_anchor": "step-13",
+        "title": "Factors Affecting Sample Size",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "222976",
+        "content_id": "15101",
+        "dom_id": "step-222976",
+        "selector": "#step-222976",
+        "step_anchor": "step-14",
+        "title": "Understanding the Minimum Sample Size Formula",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "225180",
+        "dom_id": "question-225180",
+        "selector": "#question-225180",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "225238",
+        "dom_id": "question-225238",
+        "selector": "#question-225238",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-222963",
+        "filename": "01-step-222963.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-222964",
+        "filename": "02-step-222964.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-222965",
+        "filename": "03-step-222965.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-142733",
+        "filename": "04-question-142733.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-143236",
+        "filename": "05-question-143236.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-222968",
+        "filename": "06-step-222968.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-222969",
+        "filename": "07-step-222969.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-142737",
+        "filename": "08-question-142737.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-143229",
+        "filename": "09-question-143229.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-222972",
+        "filename": "10-step-222972.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-225178",
+        "filename": "11-question-225178.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-225951",
+        "filename": "12-question-225951.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-222975",
+        "filename": "13-step-222975.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-222976",
+        "filename": "14-step-222976.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-225180",
+        "filename": "15-question-225180.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-225238",
+        "filename": "16-question-225238.png"
+      }
+    ]
+  }
+}

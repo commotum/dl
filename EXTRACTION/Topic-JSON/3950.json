@@ -1,0 +1,436 @@
+{
+  "schema_version": 1,
+  "topic_id": "3950",
+  "topic_title": "Approximating Areas Under Graphs of Composite Functions",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3950.html",
+  "source_url": "https://mathacademy.com/topics/3950",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "39566",
+        "dom_id": "sectionLink-39566",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-39566"
+      },
+      {
+        "index": 2,
+        "step_id": "39567",
+        "dom_id": "sectionLink-39567",
+        "name": "",
+        "title": "Computing a Riemann Sum of a Composite Function",
+        "selector": "#sectionLink-39567"
+      },
+      {
+        "index": 3,
+        "step_id": "44209",
+        "dom_id": "sectionLink-44209",
+        "name": "",
+        "title": "Volumes of Revolution",
+        "selector": "#sectionLink-44209"
+      },
+      {
+        "index": 4,
+        "step_id": "39706",
+        "dom_id": "sectionLink-39706",
+        "name": "",
+        "title": "Approximating Volumes of Revolution",
+        "selector": "#sectionLink-39706"
+      },
+      {
+        "index": 5,
+        "step_id": "44210",
+        "dom_id": "sectionLink-44210",
+        "name": "",
+        "title": "Arc Length",
+        "selector": "#sectionLink-44210"
+      },
+      {
+        "index": 6,
+        "step_id": "39568",
+        "dom_id": "sectionLink-39568",
+        "name": "",
+        "title": "Approximating Arc Length",
+        "selector": "#sectionLink-39568"
+      },
+      {
+        "index": 7,
+        "step_id": "39707",
+        "dom_id": "sectionLink-39707",
+        "name": "",
+        "title": "Determining Overestimates and Underestimates",
+        "selector": "#sectionLink-39707"
+      },
+      {
+        "index": 8,
+        "step_id": "39569",
+        "dom_id": "sectionLink-39569",
+        "name": "",
+        "title": "Determining Whether a Riemann Sum Gives an Overestimate or an Underestimate",
+        "selector": "#sectionLink-39569"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "477",
+        "name": "Approximating Areas With the Left Riemann Sum",
+        "href": "/topics/approximating-areas-with-the-left-riemann-sum-477"
+      },
+      {
+        "topic_id": "1040",
+        "name": "The Area Bounded by a Curve and the X-Axis",
+        "href": "/topics/the-area-bounded-by-a-curve-and-the-x-axis-1040"
+      },
+      {
+        "topic_id": "1281",
+        "name": "Approximating Areas With the Right Riemann Sum",
+        "href": "/topics/approximating-areas-with-the-right-riemann-sum-1281"
+      },
+      {
+        "topic_id": "1359",
+        "name": "Determining Intervals on Which a Function Is Increasing or Decreasing",
+        "href": "/topics/determining-intervals-on-which-a-function-is-increasing-or-decreasing-1359"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 16,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "39566",
+        "content_id": "6553",
+        "dom_id": "step-39566",
+        "selector": "#step-39566",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "39567",
+        "content_id": "10484",
+        "dom_id": "step-39567",
+        "selector": "#step-39567",
+        "step_anchor": "step-2",
+        "title": "Computing a Riemann Sum of a Composite Function",
+        "key_prerequisites": [
+          {
+            "topic_id": "477",
+            "name": "Approximating Areas With the Left Riemann Sum",
+            "href": "/topics/477"
+          },
+          {
+            "topic_id": "1040",
+            "name": "The Area Bounded by a Curve and the X-Axis",
+            "href": "/topics/1040"
+          },
+          {
+            "topic_id": "1281",
+            "name": "Approximating Areas With the Right Riemann Sum",
+            "href": "/topics/1281"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "148638",
+        "dom_id": "question-148638",
+        "selector": "#question-148638",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "149413",
+        "dom_id": "question-149413",
+        "selector": "#question-149413",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44209",
+        "content_id": "7613",
+        "dom_id": "step-44209",
+        "selector": "#step-44209",
+        "step_anchor": "step-5",
+        "title": "Volumes of Revolution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "39706",
+        "content_id": "10520",
+        "dom_id": "step-39706",
+        "selector": "#step-39706",
+        "step_anchor": "step-6",
+        "title": "Approximating Volumes of Revolution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "148639",
+        "dom_id": "question-148639",
+        "selector": "#question-148639",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "149439",
+        "dom_id": "question-149439",
+        "selector": "#question-149439",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44210",
+        "content_id": "7614",
+        "dom_id": "step-44210",
+        "selector": "#step-44210",
+        "step_anchor": "step-9",
+        "title": "Arc Length",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "39568",
+        "content_id": "10485",
+        "dom_id": "step-39568",
+        "selector": "#step-39568",
+        "step_anchor": "step-10",
+        "title": "Approximating Arc Length",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "148753",
+        "dom_id": "question-148753",
+        "selector": "#question-148753",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "149532",
+        "dom_id": "question-149532",
+        "selector": "#question-149532",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "39707",
+        "content_id": "6582",
+        "dom_id": "step-39707",
+        "selector": "#step-39707",
+        "step_anchor": "step-13",
+        "title": "Determining Overestimates and Underestimates",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "39569",
+        "content_id": "10486",
+        "dom_id": "step-39569",
+        "selector": "#step-39569",
+        "step_anchor": "step-14",
+        "title": "Determining Whether a Riemann Sum Gives an Overestimate or an Underestimate",
+        "key_prerequisites": [
+          {
+            "topic_id": "1109",
+            "name": "The Product Rule for Differentiation",
+            "href": "/topics/1109"
+          },
+          {
+            "topic_id": "1359",
+            "name": "Determining Intervals on Which a Function Is Increasing or Decreasing",
+            "href": "/topics/1359"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "148766",
+        "dom_id": "question-148766",
+        "selector": "#question-148766",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "148768",
+        "dom_id": "question-148768",
+        "selector": "#question-148768",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-39566",
+        "filename": "01-step-39566.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-39567",
+        "filename": "02-step-39567.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-148638",
+        "filename": "03-question-148638.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-149413",
+        "filename": "04-question-149413.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-44209",
+        "filename": "05-step-44209.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-39706",
+        "filename": "06-step-39706.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-148639",
+        "filename": "07-question-148639.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-149439",
+        "filename": "08-question-149439.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-44210",
+        "filename": "09-step-44210.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-39568",
+        "filename": "10-step-39568.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-148753",
+        "filename": "11-question-148753.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-149532",
+        "filename": "12-question-149532.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-39707",
+        "filename": "13-step-39707.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-39569",
+        "filename": "14-step-39569.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-148766",
+        "filename": "15-question-148766.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-148768",
+        "filename": "16-question-148768.png"
+      }
+    ]
+  }
+}

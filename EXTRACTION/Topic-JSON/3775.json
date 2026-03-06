@@ -1,0 +1,444 @@
+{
+  "schema_version": 1,
+  "topic_id": "3775",
+  "topic_title": "Introduction to Principal Component Analysis",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3775.html",
+  "source_url": "https://mathacademy.com/topics/3775",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "610816",
+        "dom_id": "sectionLink-610816",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-610816"
+      },
+      {
+        "index": 2,
+        "step_id": "610817",
+        "dom_id": "sectionLink-610817",
+        "name": "",
+        "title": "PCA: Data Setup",
+        "selector": "#sectionLink-610817"
+      },
+      {
+        "index": 3,
+        "step_id": "611695",
+        "dom_id": "sectionLink-611695",
+        "name": "",
+        "title": "PCA: Constructing the Covariance Matrix",
+        "selector": "#sectionLink-611695"
+      },
+      {
+        "index": 4,
+        "step_id": "611646",
+        "dom_id": "sectionLink-611646",
+        "name": "",
+        "title": "PCA: Diagonalization",
+        "selector": "#sectionLink-611646"
+      },
+      {
+        "index": 5,
+        "step_id": "611560",
+        "dom_id": "sectionLink-611560",
+        "name": "",
+        "title": "The Principal Components",
+        "selector": "#sectionLink-611560"
+      },
+      {
+        "index": 6,
+        "step_id": "610818",
+        "dom_id": "sectionLink-610818",
+        "name": "",
+        "title": "Interpretation of Principal Components",
+        "selector": "#sectionLink-610818"
+      },
+      {
+        "index": 7,
+        "step_id": "610819",
+        "dom_id": "sectionLink-610819",
+        "name": "",
+        "title": "Identifying the First Principal Component From a Scatter Plot",
+        "selector": "#sectionLink-610819"
+      },
+      {
+        "index": 8,
+        "step_id": "610822",
+        "dom_id": "sectionLink-610822",
+        "name": "",
+        "title": "Identifying the Second Principal Component From a Scatter Plot",
+        "selector": "#sectionLink-610822"
+      },
+      {
+        "index": 9,
+        "step_id": "610825",
+        "dom_id": "sectionLink-610825",
+        "name": "",
+        "title": "Applications of Principal Component Analysis",
+        "selector": "#sectionLink-610825"
+      },
+      {
+        "index": 10,
+        "step_id": "610826",
+        "dom_id": "sectionLink-610826",
+        "name": "",
+        "title": "Representing Principal Components as Linear Combinations",
+        "selector": "#sectionLink-610826"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "711",
+        "name": "The Z-Score",
+        "href": "/topics/the-z-score-711"
+      },
+      {
+        "topic_id": "3138",
+        "name": "The Sample Covariance Matrix",
+        "href": "/topics/the-sample-covariance-matrix-3138"
+      },
+      {
+        "topic_id": "3335",
+        "name": "Diagonalization of 2x2 Symmetric Matrices",
+        "href": "/topics/diagonalization-of-2x2-symmetric-matrices-3335"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 16,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "610816",
+        "content_id": "14783",
+        "dom_id": "step-610816",
+        "selector": "#step-610816",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "610817",
+        "content_id": "14784",
+        "dom_id": "step-610817",
+        "selector": "#step-610817",
+        "step_anchor": "step-2",
+        "title": "PCA: Data Setup",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "611695",
+        "content_id": "14962",
+        "dom_id": "step-611695",
+        "selector": "#step-611695",
+        "step_anchor": "step-3",
+        "title": "PCA: Constructing the Covariance Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "611646",
+        "content_id": "14961",
+        "dom_id": "step-611646",
+        "selector": "#step-611646",
+        "step_anchor": "step-4",
+        "title": "PCA: Diagonalization",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "611560",
+        "content_id": "14952",
+        "dom_id": "step-611560",
+        "selector": "#step-611560",
+        "step_anchor": "step-5",
+        "title": "The Principal Components",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "610818",
+        "content_id": "14785",
+        "dom_id": "step-610818",
+        "selector": "#step-610818",
+        "step_anchor": "step-6",
+        "title": "Interpretation of Principal Components",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "610819",
+        "content_id": "21882",
+        "dom_id": "step-610819",
+        "selector": "#step-610819",
+        "step_anchor": "step-7",
+        "title": "Identifying the First Principal Component From a Scatter Plot",
+        "key_prerequisites": [
+          {
+            "topic_id": "232",
+            "name": "The Transpose of a Matrix",
+            "href": "/topics/232"
+          },
+          {
+            "topic_id": "2585",
+            "name": "Scatter Plots",
+            "href": "/topics/2585"
+          },
+          {
+            "topic_id": "3335",
+            "name": "Diagonalization of 2x2 Symmetric Matrices",
+            "href": "/topics/3335"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "148440",
+        "dom_id": "question-148440",
+        "selector": "#question-148440",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "148157",
+        "dom_id": "question-148157",
+        "selector": "#question-148157",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "610822",
+        "content_id": "21885",
+        "dom_id": "step-610822",
+        "selector": "#step-610822",
+        "step_anchor": "step-10",
+        "title": "Identifying the Second Principal Component From a Scatter Plot",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "148491",
+        "dom_id": "question-148491",
+        "selector": "#question-148491",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "148159",
+        "dom_id": "question-148159",
+        "selector": "#question-148159",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "610825",
+        "content_id": "14789",
+        "dom_id": "step-610825",
+        "selector": "#step-610825",
+        "step_anchor": "step-13",
+        "title": "Applications of Principal Component Analysis",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "610826",
+        "content_id": "21886",
+        "dom_id": "step-610826",
+        "selector": "#step-610826",
+        "step_anchor": "step-14",
+        "title": "Representing Principal Components as Linear Combinations",
+        "key_prerequisites": [
+          {
+            "topic_id": "1195",
+            "name": "Multiplying a Matrix by a Column Vector",
+            "href": "/topics/1195"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "343703",
+        "dom_id": "question-343703",
+        "selector": "#question-343703",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "344071",
+        "dom_id": "question-344071",
+        "selector": "#question-344071",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-610816",
+        "filename": "01-step-610816.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-610817",
+        "filename": "02-step-610817.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-611695",
+        "filename": "03-step-611695.png"
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "selector": "#step-611646",
+        "filename": "04-step-611646.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-611560",
+        "filename": "05-step-611560.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-610818",
+        "filename": "06-step-610818.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-610819",
+        "filename": "07-step-610819.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-148440",
+        "filename": "08-question-148440.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-148157",
+        "filename": "09-question-148157.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-610822",
+        "filename": "10-step-610822.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-148491",
+        "filename": "11-question-148491.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-148159",
+        "filename": "12-question-148159.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-610825",
+        "filename": "13-step-610825.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-610826",
+        "filename": "14-step-610826.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-343703",
+        "filename": "15-question-343703.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-344071",
+        "filename": "16-question-344071.png"
+      }
+    ]
+  }
+}

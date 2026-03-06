@@ -1,0 +1,353 @@
+{
+  "schema_version": 1,
+  "topic_id": "1296",
+  "topic_title": "Directed Acyclic Graphs",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1296.html",
+  "source_url": "https://mathacademy.com/topics/1296",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "416845",
+        "dom_id": "sectionLink-416845",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-416845"
+      },
+      {
+        "index": 2,
+        "step_id": "416846",
+        "dom_id": "sectionLink-416846",
+        "name": "",
+        "title": "Directed Cyclic vs Directed Acyclic Graphs",
+        "selector": "#sectionLink-416846"
+      },
+      {
+        "index": 3,
+        "step_id": "416847",
+        "dom_id": "sectionLink-416847",
+        "name": "",
+        "title": "Identifying a Directed Acyclic Graph",
+        "selector": "#sectionLink-416847"
+      },
+      {
+        "index": 4,
+        "step_id": "416850",
+        "dom_id": "sectionLink-416850",
+        "name": "",
+        "title": "The Reachability Relation, Successors, and Predecessors",
+        "selector": "#sectionLink-416850"
+      },
+      {
+        "index": 5,
+        "step_id": "416851",
+        "dom_id": "sectionLink-416851",
+        "name": "",
+        "title": "Identifying Reachable and Unreachable Vertices",
+        "selector": "#sectionLink-416851"
+      },
+      {
+        "index": 6,
+        "step_id": "416854",
+        "dom_id": "sectionLink-416854",
+        "name": "",
+        "title": "Transitive Closure and Transitive Reduction",
+        "selector": "#sectionLink-416854"
+      },
+      {
+        "index": 7,
+        "step_id": "416855",
+        "dom_id": "sectionLink-416855",
+        "name": "",
+        "title": "Identifying Transitive Closures and Transitive Reductions",
+        "selector": "#sectionLink-416855"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1702",
+        "name": "Cycles in Graphs",
+        "href": "/topics/cycles-in-graphs-1702"
+      },
+      {
+        "topic_id": "4822",
+        "name": "Transitive Relations",
+        "href": "/topics/transitive-relations-4822"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "416845",
+        "content_id": "11064",
+        "dom_id": "step-416845",
+        "selector": "#step-416845",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "416846",
+        "content_id": "11065",
+        "dom_id": "step-416846",
+        "selector": "#step-416846",
+        "step_anchor": "step-2",
+        "title": "Directed Cyclic vs Directed Acyclic Graphs",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "416847",
+        "content_id": "16793",
+        "dom_id": "step-416847",
+        "selector": "#step-416847",
+        "step_anchor": "step-3",
+        "title": "Identifying a Directed Acyclic Graph",
+        "key_prerequisites": [
+          {
+            "topic_id": "1702",
+            "name": "Cycles in Graphs",
+            "href": "/topics/1702"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "258158",
+        "dom_id": "question-258158",
+        "selector": "#question-258158",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "258178",
+        "dom_id": "question-258178",
+        "selector": "#question-258178",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "416850",
+        "content_id": "11083",
+        "dom_id": "step-416850",
+        "selector": "#step-416850",
+        "step_anchor": "step-6",
+        "title": "The Reachability Relation, Successors, and Predecessors",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "416851",
+        "content_id": "16794",
+        "dom_id": "step-416851",
+        "selector": "#step-416851",
+        "step_anchor": "step-7",
+        "title": "Identifying Reachable and Unreachable Vertices",
+        "key_prerequisites": [
+          {
+            "topic_id": "4822",
+            "name": "Transitive Relations",
+            "href": "/topics/4822"
+          },
+          {
+            "topic_id": "5431",
+            "name": "Walks, Paths, and Distances in Directed Graphs",
+            "href": "/topics/5431"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "258207",
+        "dom_id": "question-258207",
+        "selector": "#question-258207",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "258230",
+        "dom_id": "question-258230",
+        "selector": "#question-258230",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "416854",
+        "content_id": "11066",
+        "dom_id": "step-416854",
+        "selector": "#step-416854",
+        "step_anchor": "step-10",
+        "title": "Transitive Closure and Transitive Reduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "416855",
+        "content_id": "16795",
+        "dom_id": "step-416855",
+        "selector": "#step-416855",
+        "step_anchor": "step-11",
+        "title": "Identifying Transitive Closures and Transitive Reductions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "258645",
+        "dom_id": "question-258645",
+        "selector": "#question-258645",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "258650",
+        "dom_id": "question-258650",
+        "selector": "#question-258650",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-416845",
+        "filename": "01-step-416845.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-416846",
+        "filename": "02-step-416846.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-416847",
+        "filename": "03-step-416847.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-258158",
+        "filename": "04-question-258158.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-258178",
+        "filename": "05-question-258178.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-416850",
+        "filename": "06-step-416850.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-416851",
+        "filename": "07-step-416851.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-258207",
+        "filename": "08-question-258207.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-258230",
+        "filename": "09-question-258230.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-416854",
+        "filename": "10-step-416854.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-416855",
+        "filename": "11-step-416855.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-258645",
+        "filename": "12-question-258645.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-258650",
+        "filename": "13-question-258650.png"
+      }
+    ]
+  }
+}

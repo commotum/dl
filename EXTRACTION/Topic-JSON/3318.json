@@ -1,0 +1,293 @@
+{
+  "schema_version": 1,
+  "topic_id": "3318",
+  "topic_title": "Hypothesis Tests for Two Variances",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3318.html",
+  "source_url": "https://mathacademy.com/topics/3318",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "227684",
+        "dom_id": "sectionLink-227684",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-227684"
+      },
+      {
+        "index": 2,
+        "step_id": "227685",
+        "dom_id": "sectionLink-227685",
+        "name": "",
+        "title": "Reformulating as a Right-Tailed Test",
+        "selector": "#sectionLink-227685"
+      },
+      {
+        "index": 3,
+        "step_id": "227686",
+        "dom_id": "sectionLink-227686",
+        "name": "",
+        "title": "Testing the Hypothesis That the First Variance Is Larger Than The Second",
+        "selector": "#sectionLink-227686"
+      },
+      {
+        "index": 4,
+        "step_id": "227689",
+        "dom_id": "sectionLink-227689",
+        "name": "",
+        "title": "Testing the Hypothesis That the First Variance Is Smaller Than The Second",
+        "selector": "#sectionLink-227689"
+      },
+      {
+        "index": 5,
+        "step_id": "227692",
+        "dom_id": "sectionLink-227692",
+        "name": "",
+        "title": "Testing the Hypothesis That the Variances are Unequal",
+        "selector": "#sectionLink-227692"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3060",
+        "name": "The F-Distribution",
+        "href": "/topics/the-f-distribution-3060"
+      },
+      {
+        "topic_id": "3314",
+        "name": "Hypothesis Tests for One Variance",
+        "href": "/topics/hypothesis-tests-for-one-variance-3314"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "227684",
+        "content_id": "10857",
+        "dom_id": "step-227684",
+        "selector": "#step-227684",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "227685",
+        "content_id": "10858",
+        "dom_id": "step-227685",
+        "selector": "#step-227685",
+        "step_anchor": "step-2",
+        "title": "Reformulating as a Right-Tailed Test",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "227686",
+        "content_id": "15633",
+        "dom_id": "step-227686",
+        "selector": "#step-227686",
+        "step_anchor": "step-3",
+        "title": "Testing the Hypothesis That the First Variance Is Larger Than The Second",
+        "key_prerequisites": [
+          {
+            "topic_id": "3060",
+            "name": "The F-Distribution",
+            "href": "/topics/3060"
+          },
+          {
+            "topic_id": "3314",
+            "name": "Hypothesis Tests for One Variance",
+            "href": "/topics/3314"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "251929",
+        "dom_id": "question-251929",
+        "selector": "#question-251929",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "251980",
+        "dom_id": "question-251980",
+        "selector": "#question-251980",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "227689",
+        "content_id": "16420",
+        "dom_id": "step-227689",
+        "selector": "#step-227689",
+        "step_anchor": "step-6",
+        "title": "Testing the Hypothesis That the First Variance Is Smaller Than The Second",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "252102",
+        "dom_id": "question-252102",
+        "selector": "#question-252102",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "251937",
+        "dom_id": "question-251937",
+        "selector": "#question-251937",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "227692",
+        "content_id": "16426",
+        "dom_id": "step-227692",
+        "selector": "#step-227692",
+        "step_anchor": "step-9",
+        "title": "Testing the Hypothesis That the Variances are Unequal",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "251950",
+        "dom_id": "question-251950",
+        "selector": "#question-251950",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "252147",
+        "dom_id": "question-252147",
+        "selector": "#question-252147",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-227684",
+        "filename": "01-step-227684.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-227685",
+        "filename": "02-step-227685.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-227686",
+        "filename": "03-step-227686.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-251929",
+        "filename": "04-question-251929.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-251980",
+        "filename": "05-question-251980.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-227689",
+        "filename": "06-step-227689.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-252102",
+        "filename": "07-question-252102.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-251937",
+        "filename": "08-question-251937.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-227692",
+        "filename": "09-step-227692.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-251950",
+        "filename": "10-question-251950.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-252147",
+        "filename": "11-question-252147.png"
+      }
+    ]
+  }
+}

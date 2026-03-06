@@ -1,0 +1,294 @@
+{
+  "schema_version": 1,
+  "topic_id": "2169",
+  "topic_title": "Linear Regression With Matrices",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2169.html",
+  "source_url": "https://mathacademy.com/topics/2169",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "20307",
+        "dom_id": "sectionLink-20307",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-20307"
+      },
+      {
+        "index": 2,
+        "step_id": "37273",
+        "dom_id": "sectionLink-37273",
+        "name": "",
+        "title": "Identifying Elements of a Regression Line in Terms of Matrices and Vectors",
+        "selector": "#sectionLink-37273"
+      },
+      {
+        "index": 3,
+        "step_id": "20308",
+        "dom_id": "sectionLink-20308",
+        "name": "",
+        "title": "Finding a Least-Squares Regression Line",
+        "selector": "#sectionLink-20308"
+      },
+      {
+        "index": 4,
+        "step_id": "20310",
+        "dom_id": "sectionLink-20310",
+        "name": "",
+        "title": "Finding a Least-Squares Regression Line in Context",
+        "selector": "#sectionLink-20310"
+      },
+      {
+        "index": 5,
+        "step_id": "37328",
+        "dom_id": "sectionLink-37328",
+        "name": "",
+        "title": "Least-Squares vs. Minimizing the Sum of the Squared Residuals",
+        "selector": "#sectionLink-37328"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2166",
+        "name": "The Least-Squares Solution of a Linear System (Without Collinearity)",
+        "href": "/topics/the-least-squares-solution-of-a-linear-system-without-collinearity-2166"
+      },
+      {
+        "topic_id": "3753",
+        "name": "Making Predictions Using Trend Lines",
+        "href": "/topics/making-predictions-using-trend-lines-3753"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20307",
+        "content_id": "3652",
+        "dom_id": "step-20307",
+        "selector": "#step-20307",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "37273",
+        "content_id": "9914",
+        "dom_id": "step-37273",
+        "selector": "#step-37273",
+        "step_anchor": "step-2",
+        "title": "Identifying Elements of a Regression Line in Terms of Matrices and Vectors",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "41462",
+        "dom_id": "question-41462",
+        "selector": "#question-41462",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "139517",
+        "dom_id": "question-139517",
+        "selector": "#question-139517",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20308",
+        "content_id": "5610",
+        "dom_id": "step-20308",
+        "selector": "#step-20308",
+        "step_anchor": "step-5",
+        "title": "Finding a Least-Squares Regression Line",
+        "key_prerequisites": [
+          {
+            "topic_id": "2166",
+            "name": "The Least-Squares Solution of a Linear System (Without Collinearity)",
+            "href": "/topics/2166"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "41559",
+        "dom_id": "question-41559",
+        "selector": "#question-41559",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "139618",
+        "dom_id": "question-139618",
+        "selector": "#question-139618",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20310",
+        "content_id": "5611",
+        "dom_id": "step-20310",
+        "selector": "#step-20310",
+        "step_anchor": "step-8",
+        "title": "Finding a Least-Squares Regression Line in Context",
+        "key_prerequisites": [
+          {
+            "topic_id": "3753",
+            "name": "Making Predictions Using Trend Lines",
+            "href": "/topics/3753"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "139750",
+        "dom_id": "question-139750",
+        "selector": "#question-139750",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "41742",
+        "dom_id": "question-41742",
+        "selector": "#question-41742",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "37328",
+        "content_id": "6149",
+        "dom_id": "step-37328",
+        "selector": "#step-37328",
+        "step_anchor": "step-11",
+        "title": "Least-Squares vs. Minimizing the Sum of the Squared Residuals",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-20307",
+        "filename": "01-step-20307.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-37273",
+        "filename": "02-step-37273.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-41462",
+        "filename": "03-question-41462.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-139517",
+        "filename": "04-question-139517.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-20308",
+        "filename": "05-step-20308.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-41559",
+        "filename": "06-question-41559.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-139618",
+        "filename": "07-question-139618.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-20310",
+        "filename": "08-step-20310.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-139750",
+        "filename": "09-question-139750.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-41742",
+        "filename": "10-question-41742.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-37328",
+        "filename": "11-step-37328.png"
+      }
+    ]
+  }
+}

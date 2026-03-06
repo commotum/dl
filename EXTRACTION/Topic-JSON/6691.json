@@ -1,0 +1,283 @@
+{
+  "schema_version": 1,
+  "topic_id": "6691",
+  "topic_title": "Solving Inhomogeneous Systems of ODEs Using Matrix Methods",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/6691.html",
+  "source_url": "https://mathacademy.com/topics/6691",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "589676",
+        "dom_id": "sectionLink-589676",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-589676"
+      },
+      {
+        "index": 2,
+        "step_id": "589677",
+        "dom_id": "sectionLink-589677",
+        "name": "",
+        "title": "Identifying the Matrix Exponential Formula for IVP Solution of an Inhomogeneous System",
+        "selector": "#sectionLink-589677"
+      },
+      {
+        "index": 3,
+        "step_id": "589680",
+        "dom_id": "sectionLink-589680",
+        "name": "",
+        "title": "Solving an Inhomogeneous System Using a Given Matrix Exponential",
+        "selector": "#sectionLink-589680"
+      },
+      {
+        "index": 4,
+        "step_id": "589683",
+        "dom_id": "sectionLink-589683",
+        "name": "",
+        "title": "Proving the Matrix Exponential Formula for IVP Solution of an Inhomogeneous System",
+        "selector": "#sectionLink-589683"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1744",
+        "name": "Integration Rules for Vector-Valued Functions",
+        "href": "/topics/integration-rules-for-vector-valued-functions-1744"
+      },
+      {
+        "topic_id": "2512",
+        "name": "Integrating Rates of Change",
+        "href": "/topics/integrating-rates-of-change-2512"
+      },
+      {
+        "topic_id": "6690",
+        "name": "Solving Homogeneous Systems of ODEs Using Matrix Methods",
+        "href": "/topics/solving-homogeneous-systems-of-odes-using-matrix-methods-6690"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 10,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "589676",
+        "content_id": "14524",
+        "dom_id": "step-589676",
+        "selector": "#step-589676",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "589677",
+        "content_id": "21722",
+        "dom_id": "step-589677",
+        "selector": "#step-589677",
+        "step_anchor": "step-2",
+        "title": "Identifying the Matrix Exponential Formula for IVP Solution of an Inhomogeneous System",
+        "key_prerequisites": [
+          {
+            "topic_id": "3237",
+            "name": "General Solutions of First-Order Linear Systems of ODEs",
+            "href": "/topics/3237"
+          },
+          {
+            "topic_id": "6690",
+            "name": "Solving Homogeneous Systems of ODEs Using Matrix Methods",
+            "href": "/topics/6690"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "334540",
+        "dom_id": "question-334540",
+        "selector": "#question-334540",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "334922",
+        "dom_id": "question-334922",
+        "selector": "#question-334922",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "589680",
+        "content_id": "21720",
+        "dom_id": "step-589680",
+        "selector": "#step-589680",
+        "step_anchor": "step-5",
+        "title": "Solving an Inhomogeneous System Using a Given Matrix Exponential",
+        "key_prerequisites": [
+          {
+            "topic_id": "1744",
+            "name": "Integration Rules for Vector-Valued Functions",
+            "href": "/topics/1744"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "334531",
+        "dom_id": "question-334531",
+        "selector": "#question-334531",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "335088",
+        "dom_id": "question-335088",
+        "selector": "#question-335088",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "589683",
+        "content_id": "21721",
+        "dom_id": "step-589683",
+        "selector": "#step-589683",
+        "step_anchor": "step-8",
+        "title": "Proving the Matrix Exponential Formula for IVP Solution of an Inhomogeneous System",
+        "key_prerequisites": [
+          {
+            "topic_id": "2512",
+            "name": "Integrating Rates of Change",
+            "href": "/topics/2512"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "334533",
+        "dom_id": "question-334533",
+        "selector": "#question-334533",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "335416",
+        "dom_id": "question-335416",
+        "selector": "#question-335416",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-589676",
+        "filename": "01-step-589676.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-589677",
+        "filename": "02-step-589677.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-334540",
+        "filename": "03-question-334540.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-334922",
+        "filename": "04-question-334922.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-589680",
+        "filename": "05-step-589680.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-334531",
+        "filename": "06-question-334531.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-335088",
+        "filename": "07-question-335088.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-589683",
+        "filename": "08-step-589683.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-334533",
+        "filename": "09-question-334533.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-335416",
+        "filename": "10-question-335416.png"
+      }
+    ]
+  }
+}

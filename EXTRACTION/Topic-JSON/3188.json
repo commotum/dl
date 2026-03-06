@@ -1,0 +1,336 @@
+{
+  "schema_version": 1,
+  "topic_id": "3188",
+  "topic_title": "Phase Planes and Phase Portraits",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3188.html",
+  "source_url": "https://mathacademy.com/topics/3188",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "587425",
+        "dom_id": "sectionLink-587425",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-587425"
+      },
+      {
+        "index": 2,
+        "step_id": "587426",
+        "dom_id": "sectionLink-587426",
+        "name": "",
+        "title": "Finding a Tangent to a Trajectory Given an Initial Value Problem",
+        "selector": "#sectionLink-587426"
+      },
+      {
+        "index": 3,
+        "step_id": "587429",
+        "dom_id": "sectionLink-587429",
+        "name": "",
+        "title": "Nullclines",
+        "selector": "#sectionLink-587429"
+      },
+      {
+        "index": 4,
+        "step_id": "587430",
+        "dom_id": "sectionLink-587430",
+        "name": "",
+        "title": "Finding Nullclines of a System of Differential Equation",
+        "selector": "#sectionLink-587430"
+      },
+      {
+        "index": 5,
+        "step_id": "587433",
+        "dom_id": "sectionLink-587433",
+        "name": "",
+        "title": "Sketching Trajectories",
+        "selector": "#sectionLink-587433"
+      },
+      {
+        "index": 6,
+        "step_id": "587434",
+        "dom_id": "sectionLink-587434",
+        "name": "",
+        "title": "Identifying a Trajectory Given a Starting Point and the Vector Field",
+        "selector": "#sectionLink-587434"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1792",
+        "name": "Tangent Vectors and Tangent Lines to Curves",
+        "href": "/topics/tangent-vectors-and-tangent-lines-to-curves-1792"
+      },
+      {
+        "topic_id": "2088",
+        "name": "Solving Homogeneous Systems of ODEs With Distinct Eigenvalues and Initial Conditions",
+        "href": "/topics/solving-homogeneous-systems-of-odes-with-distinct-eigenvalues-and-initial-conditions-2088"
+      },
+      {
+        "topic_id": "3344",
+        "name": "Visualizing Vector Fields",
+        "href": "/topics/visualizing-vector-fields-3344"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "587425",
+        "content_id": "14424",
+        "dom_id": "step-587425",
+        "selector": "#step-587425",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "587426",
+        "content_id": "21585",
+        "dom_id": "step-587426",
+        "selector": "#step-587426",
+        "step_anchor": "step-2",
+        "title": "Finding a Tangent to a Trajectory Given an Initial Value Problem",
+        "key_prerequisites": [
+          {
+            "topic_id": "1792",
+            "name": "Tangent Vectors and Tangent Lines to Curves",
+            "href": "/topics/1792"
+          },
+          {
+            "topic_id": "2088",
+            "name": "Solving Homogeneous Systems of ODEs With Distinct Eigenvalues and Initial Conditions",
+            "href": "/topics/2088"
+          },
+          {
+            "topic_id": "3238",
+            "name": "Solving Decoupled Homogeneous Systems of ODEs",
+            "href": "/topics/3238"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "331275",
+        "dom_id": "question-331275",
+        "selector": "#question-331275",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "331276",
+        "dom_id": "question-331276",
+        "selector": "#question-331276",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "587429",
+        "content_id": "14425",
+        "dom_id": "step-587429",
+        "selector": "#step-587429",
+        "step_anchor": "step-5",
+        "title": "Nullclines",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "587430",
+        "content_id": "21586",
+        "dom_id": "step-587430",
+        "selector": "#step-587430",
+        "step_anchor": "step-6",
+        "title": "Finding Nullclines of a System of Differential Equation",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "331282",
+        "dom_id": "question-331282",
+        "selector": "#question-331282",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "332632",
+        "dom_id": "question-332632",
+        "selector": "#question-332632",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "587433",
+        "content_id": "14427",
+        "dom_id": "step-587433",
+        "selector": "#step-587433",
+        "step_anchor": "step-9",
+        "title": "Sketching Trajectories",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "587434",
+        "content_id": "21588",
+        "dom_id": "step-587434",
+        "selector": "#step-587434",
+        "step_anchor": "step-10",
+        "title": "Identifying a Trajectory Given a Starting Point and the Vector Field",
+        "key_prerequisites": [
+          {
+            "topic_id": "3344",
+            "name": "Visualizing Vector Fields",
+            "href": "/topics/3344"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "331177",
+        "dom_id": "question-331177",
+        "selector": "#question-331177",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "332920",
+        "dom_id": "question-332920",
+        "selector": "#question-332920",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-587425",
+        "filename": "01-step-587425.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-587426",
+        "filename": "02-step-587426.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-331275",
+        "filename": "03-question-331275.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-331276",
+        "filename": "04-question-331276.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-587429",
+        "filename": "05-step-587429.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-587430",
+        "filename": "06-step-587430.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-331282",
+        "filename": "07-question-331282.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-332632",
+        "filename": "08-question-332632.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-587433",
+        "filename": "09-step-587433.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-587434",
+        "filename": "10-step-587434.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-331177",
+        "filename": "11-question-331177.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-332920",
+        "filename": "12-question-332920.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,315 @@
+{
+  "schema_version": 1,
+  "topic_id": "3639",
+  "topic_title": "Jordan Canonical Decomposition of a 3x3 Matrix",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3639.html",
+  "source_url": "https://mathacademy.com/topics/3639",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "34042",
+        "dom_id": "sectionLink-34042",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-34042"
+      },
+      {
+        "index": 2,
+        "step_id": "34045",
+        "dom_id": "sectionLink-34045",
+        "name": "",
+        "title": "Identifying the Columns of a Transformation Matrix in a Jordan Decomposition",
+        "selector": "#sectionLink-34045"
+      },
+      {
+        "index": 3,
+        "step_id": "34411",
+        "dom_id": "sectionLink-34411",
+        "name": "",
+        "title": "The Case of a Single 3x3 Jordan Block",
+        "selector": "#sectionLink-34411"
+      },
+      {
+        "index": 4,
+        "step_id": "34082",
+        "dom_id": "sectionLink-34082",
+        "name": "",
+        "title": "Finding a Jordan Decomposition of a 3x3 Matrix Given Its Single Eigenvalue",
+        "selector": "#sectionLink-34082"
+      },
+      {
+        "index": 5,
+        "step_id": "34412",
+        "dom_id": "sectionLink-34412",
+        "name": "",
+        "title": "The Case of Two Jordan Blocks Corresponding to Two Different Eigenvalues",
+        "selector": "#sectionLink-34412"
+      },
+      {
+        "index": 6,
+        "step_id": "34043",
+        "dom_id": "sectionLink-34043",
+        "name": "",
+        "title": "Finding a Jordan Decomposition of a 3x3 Matrix Given Its Two Distinct Eigenvalues",
+        "selector": "#sectionLink-34043"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3115",
+        "name": "Jordan Canonical Form of a 3x3 Matrix",
+        "href": "/topics/jordan-canonical-form-of-a-3x3-matrix-3115"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "34042",
+        "content_id": "5468",
+        "dom_id": "step-34042",
+        "selector": "#step-34042",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "34045",
+        "content_id": "9137",
+        "dom_id": "step-34045",
+        "selector": "#step-34045",
+        "step_anchor": "step-2",
+        "title": "Identifying the Columns of a Transformation Matrix in a Jordan Decomposition",
+        "key_prerequisites": [
+          {
+            "topic_id": "3115",
+            "name": "Jordan Canonical Form of a 3x3 Matrix",
+            "href": "/topics/3115"
+          },
+          {
+            "topic_id": "3652",
+            "name": "Jordan Canonical Decomposition of a 2x2 Matrix",
+            "href": "/topics/3652"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "109678",
+        "dom_id": "question-109678",
+        "selector": "#question-109678",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "109679",
+        "dom_id": "question-109679",
+        "selector": "#question-109679",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "34411",
+        "content_id": "5542",
+        "dom_id": "step-34411",
+        "selector": "#step-34411",
+        "step_anchor": "step-5",
+        "title": "The Case of a Single 3x3 Jordan Block",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "34082",
+        "content_id": "9144",
+        "dom_id": "step-34082",
+        "selector": "#step-34082",
+        "step_anchor": "step-6",
+        "title": "Finding a Jordan Decomposition of a 3x3 Matrix Given Its Single Eigenvalue",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "109416",
+        "dom_id": "question-109416",
+        "selector": "#question-109416",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "109417",
+        "dom_id": "question-109417",
+        "selector": "#question-109417",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "34412",
+        "content_id": "5543",
+        "dom_id": "step-34412",
+        "selector": "#step-34412",
+        "step_anchor": "step-9",
+        "title": "The Case of Two Jordan Blocks Corresponding to Two Different Eigenvalues",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "34043",
+        "content_id": "9135",
+        "dom_id": "step-34043",
+        "selector": "#step-34043",
+        "step_anchor": "step-10",
+        "title": "Finding a Jordan Decomposition of a 3x3 Matrix Given Its Two Distinct Eigenvalues",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "109410",
+        "dom_id": "question-109410",
+        "selector": "#question-109410",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "109408",
+        "dom_id": "question-109408",
+        "selector": "#question-109408",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-34042",
+        "filename": "01-step-34042.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-34045",
+        "filename": "02-step-34045.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-109678",
+        "filename": "03-question-109678.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-109679",
+        "filename": "04-question-109679.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-34411",
+        "filename": "05-step-34411.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-34082",
+        "filename": "06-step-34082.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-109416",
+        "filename": "07-question-109416.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-109417",
+        "filename": "08-question-109417.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-34412",
+        "filename": "09-step-34412.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-34043",
+        "filename": "10-step-34043.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-109410",
+        "filename": "11-question-109410.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-109408",
+        "filename": "12-question-109408.png"
+      }
+    ]
+  }
+}

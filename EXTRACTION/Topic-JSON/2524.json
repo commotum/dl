@@ -1,0 +1,420 @@
+{
+  "schema_version": 1,
+  "topic_id": "2524",
+  "topic_title": "Simple Harmonic Oscillators",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2524.html",
+  "source_url": "https://mathacademy.com/topics/2524",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "24667",
+        "dom_id": "sectionLink-24667",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-24667"
+      },
+      {
+        "index": 2,
+        "step_id": "24273",
+        "dom_id": "sectionLink-24273",
+        "name": "",
+        "title": "Identifying Equations that Represent Simple Harmonic Motion",
+        "selector": "#sectionLink-24273"
+      },
+      {
+        "index": 3,
+        "step_id": "24274",
+        "dom_id": "sectionLink-24274",
+        "name": "",
+        "title": "Calculating the Period of a Simple Harmonic Oscillation",
+        "selector": "#sectionLink-24274"
+      },
+      {
+        "index": 4,
+        "step_id": "24275",
+        "dom_id": "sectionLink-24275",
+        "name": "",
+        "title": "Identifying Solutions to Simple Harmonic Motion Equations",
+        "selector": "#sectionLink-24275"
+      },
+      {
+        "index": 5,
+        "step_id": "24276",
+        "dom_id": "sectionLink-24276",
+        "name": "",
+        "title": "Calculating the Amplitude of an Simple Harmonic Oscillation",
+        "selector": "#sectionLink-24276"
+      },
+      {
+        "index": 6,
+        "step_id": "25055",
+        "dom_id": "sectionLink-25055",
+        "name": "",
+        "title": "The Equation of Motion for a Mass-Spring System",
+        "selector": "#sectionLink-25055"
+      },
+      {
+        "index": 7,
+        "step_id": "24277",
+        "dom_id": "sectionLink-24277",
+        "name": "",
+        "title": "Identifying Properties of a Mass-Spring System",
+        "selector": "#sectionLink-24277"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "880",
+        "name": "Second-Order Homogeneous ODEs: Characteristic Equations With Complex Roots",
+        "href": "/topics/second-order-homogeneous-odes-characteristic-equations-with-complex-roots-880"
+      },
+      {
+        "topic_id": "1076",
+        "name": "Writing Sums of Trigonometric Functions in Amplitude-Phase Form",
+        "href": "/topics/writing-sums-of-trigonometric-functions-in-amplitude-phase-form-1076"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 17,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "24667",
+        "content_id": "4094",
+        "dom_id": "step-24667",
+        "selector": "#step-24667",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "24273",
+        "content_id": "6619",
+        "dom_id": "step-24273",
+        "selector": "#step-24273",
+        "step_anchor": "step-2",
+        "title": "Identifying Equations that Represent Simple Harmonic Motion",
+        "key_prerequisites": [
+          {
+            "topic_id": "3215",
+            "name": "Introduction to Differential Equations",
+            "href": "/topics/3215"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "64248",
+        "dom_id": "question-64248",
+        "selector": "#question-64248",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "64217",
+        "dom_id": "question-64217",
+        "selector": "#question-64217",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "24274",
+        "content_id": "6620",
+        "dom_id": "step-24274",
+        "selector": "#step-24274",
+        "step_anchor": "step-5",
+        "title": "Calculating the Period of a Simple Harmonic Oscillation",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "64249",
+        "dom_id": "question-64249",
+        "selector": "#question-64249",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "64221",
+        "dom_id": "question-64221",
+        "selector": "#question-64221",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "24275",
+        "content_id": "6621",
+        "dom_id": "step-24275",
+        "selector": "#step-24275",
+        "step_anchor": "step-8",
+        "title": "Identifying Solutions to Simple Harmonic Motion Equations",
+        "key_prerequisites": [
+          {
+            "topic_id": "1076",
+            "name": "Writing Sums of Trigonometric Functions in Amplitude-Phase Form",
+            "href": "/topics/1076"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "64231",
+        "dom_id": "question-64231",
+        "selector": "#question-64231",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "64251",
+        "dom_id": "question-64251",
+        "selector": "#question-64251",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "24276",
+        "content_id": "6622",
+        "dom_id": "step-24276",
+        "selector": "#step-24276",
+        "step_anchor": "step-11",
+        "title": "Calculating the Amplitude of an Simple Harmonic Oscillation",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "64254",
+        "dom_id": "question-64254",
+        "selector": "#question-64254",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "64218",
+        "dom_id": "question-64218",
+        "selector": "#question-64218",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "25055",
+        "content_id": "4140",
+        "dom_id": "step-25055",
+        "selector": "#step-25055",
+        "step_anchor": "step-14",
+        "title": "The Equation of Motion for a Mass-Spring System",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "24277",
+        "content_id": "6623",
+        "dom_id": "step-24277",
+        "selector": "#step-24277",
+        "step_anchor": "step-15",
+        "title": "Identifying Properties of a Mass-Spring System",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "64223",
+        "dom_id": "question-64223",
+        "selector": "#question-64223",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "question_id": "64229",
+        "dom_id": "question-64229",
+        "selector": "#question-64229",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-24667",
+        "filename": "01-step-24667.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-24273",
+        "filename": "02-step-24273.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-64248",
+        "filename": "03-question-64248.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-64217",
+        "filename": "04-question-64217.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-24274",
+        "filename": "05-step-24274.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-64249",
+        "filename": "06-question-64249.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-64221",
+        "filename": "07-question-64221.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-24275",
+        "filename": "08-step-24275.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-64231",
+        "filename": "09-question-64231.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-64251",
+        "filename": "10-question-64251.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-24276",
+        "filename": "11-step-24276.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-64254",
+        "filename": "12-question-64254.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-64218",
+        "filename": "13-question-64218.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-25055",
+        "filename": "14-step-25055.png"
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "selector": "#step-24277",
+        "filename": "15-step-24277.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-64223",
+        "filename": "16-question-64223.png"
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "selector": "#question-64229",
+        "filename": "17-question-64229.png"
+      }
+    ]
+  }
+}

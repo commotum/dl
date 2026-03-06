@@ -1,0 +1,443 @@
+{
+  "schema_version": 1,
+  "topic_id": "6375",
+  "topic_title": "Matrix Exponentials",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/6375.html",
+  "source_url": "https://mathacademy.com/topics/6375",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "588472",
+        "dom_id": "sectionLink-588472",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-588472"
+      },
+      {
+        "index": 2,
+        "step_id": "588473",
+        "dom_id": "sectionLink-588473",
+        "name": "",
+        "title": "2x2 Matrices With Distinct Real Eigenvalues",
+        "selector": "#sectionLink-588473"
+      },
+      {
+        "index": 3,
+        "step_id": "588474",
+        "dom_id": "sectionLink-588474",
+        "name": "",
+        "title": "Finding the Matrix Exponent for a Matrix With Distinct Real Eigenvalues",
+        "selector": "#sectionLink-588474"
+      },
+      {
+        "index": 4,
+        "step_id": "588478",
+        "dom_id": "sectionLink-588478",
+        "name": "",
+        "title": "Finding the Matrix Exponent for a Matrix With Distinct Complex Eigenvalues",
+        "selector": "#sectionLink-588478"
+      },
+      {
+        "index": 5,
+        "step_id": "588481",
+        "dom_id": "sectionLink-588481",
+        "name": "",
+        "title": "2x2 Matrices With Repeated Eigenvalues",
+        "selector": "#sectionLink-588481"
+      },
+      {
+        "index": 6,
+        "step_id": "588482",
+        "dom_id": "sectionLink-588482",
+        "name": "",
+        "title": "Finding the Matrix Exponent for a Matrix With Repeated Eigenvalues",
+        "selector": "#sectionLink-588482"
+      },
+      {
+        "index": 7,
+        "step_id": "588485",
+        "dom_id": "sectionLink-588485",
+        "name": "",
+        "title": "Derivatives of Matrix Exponentials",
+        "selector": "#sectionLink-588485"
+      },
+      {
+        "index": 8,
+        "step_id": "588486",
+        "dom_id": "sectionLink-588486",
+        "name": "",
+        "title": "Computing the Derivative of a Matrix Exponential",
+        "selector": "#sectionLink-588486"
+      },
+      {
+        "index": 9,
+        "step_id": "588489",
+        "dom_id": "sectionLink-588489",
+        "name": "",
+        "title": "Properties of the Matrix Exponential",
+        "selector": "#sectionLink-588489"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "36",
+        "name": "Differentiating Taylor Series",
+        "href": "/topics/differentiating-taylor-series-36"
+      },
+      {
+        "topic_id": "1972",
+        "name": "The Cayley-Hamilton Theorem",
+        "href": "/topics/the-cayley-hamilton-theorem-1972"
+      },
+      {
+        "topic_id": "2016",
+        "name": "Finding Complex Eigenvalues of Real 2x2 Matrices",
+        "href": "/topics/finding-complex-eigenvalues-of-real-2x2-matrices-2016"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 17,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "588472",
+        "content_id": "14270",
+        "dom_id": "step-588472",
+        "selector": "#step-588472",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "588473",
+        "content_id": "14389",
+        "dom_id": "step-588473",
+        "selector": "#step-588473",
+        "step_anchor": "step-2",
+        "title": "2x2 Matrices With Distinct Real Eigenvalues",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "588474",
+        "content_id": "21271",
+        "dom_id": "step-588474",
+        "selector": "#step-588474",
+        "step_anchor": "step-3",
+        "title": "Finding the Matrix Exponent for a Matrix With Distinct Real Eigenvalues",
+        "key_prerequisites": [
+          {
+            "topic_id": "990",
+            "name": "Calculating the Eigenvalues of a 2x2 Matrix",
+            "href": "/topics/990"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "333852",
+        "dom_id": "question-333852",
+        "selector": "#question-333852",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "323878",
+        "dom_id": "question-323878",
+        "selector": "#question-323878",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "588478",
+        "content_id": "21272",
+        "dom_id": "step-588478",
+        "selector": "#step-588478",
+        "step_anchor": "step-6",
+        "title": "Finding the Matrix Exponent for a Matrix With Distinct Complex Eigenvalues",
+        "key_prerequisites": [
+          {
+            "topic_id": "2016",
+            "name": "Finding Complex Eigenvalues of Real 2x2 Matrices",
+            "href": "/topics/2016"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "334632",
+        "dom_id": "question-334632",
+        "selector": "#question-334632",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "328966",
+        "dom_id": "question-328966",
+        "selector": "#question-328966",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "588481",
+        "content_id": "14388",
+        "dom_id": "step-588481",
+        "selector": "#step-588481",
+        "step_anchor": "step-9",
+        "title": "2x2 Matrices With Repeated Eigenvalues",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "588482",
+        "content_id": "21273",
+        "dom_id": "step-588482",
+        "selector": "#step-588482",
+        "step_anchor": "step-10",
+        "title": "Finding the Matrix Exponent for a Matrix With Repeated Eigenvalues",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "334721",
+        "dom_id": "question-334721",
+        "selector": "#question-334721",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "329001",
+        "dom_id": "question-329001",
+        "selector": "#question-329001",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "588485",
+        "content_id": "14526",
+        "dom_id": "step-588485",
+        "selector": "#step-588485",
+        "step_anchor": "step-13",
+        "title": "Derivatives of Matrix Exponentials",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "588486",
+        "content_id": "21724",
+        "dom_id": "step-588486",
+        "selector": "#step-588486",
+        "step_anchor": "step-14",
+        "title": "Computing the Derivative of a Matrix Exponential",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "333858",
+        "dom_id": "question-333858",
+        "selector": "#question-333858",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "335096",
+        "dom_id": "question-335096",
+        "selector": "#question-335096",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 17,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "588489",
+        "content_id": "14527",
+        "dom_id": "step-588489",
+        "selector": "#step-588489",
+        "step_anchor": "step-17",
+        "title": "Properties of the Matrix Exponential",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-588472",
+        "filename": "01-step-588472.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-588473",
+        "filename": "02-step-588473.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-588474",
+        "filename": "03-step-588474.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-333852",
+        "filename": "04-question-333852.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-323878",
+        "filename": "05-question-323878.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-588478",
+        "filename": "06-step-588478.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-334632",
+        "filename": "07-question-334632.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-328966",
+        "filename": "08-question-328966.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-588481",
+        "filename": "09-step-588481.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-588482",
+        "filename": "10-step-588482.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-334721",
+        "filename": "11-question-334721.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-329001",
+        "filename": "12-question-329001.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-588485",
+        "filename": "13-step-588485.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-588486",
+        "filename": "14-step-588486.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-333858",
+        "filename": "15-question-333858.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-335096",
+        "filename": "16-question-335096.png"
+      },
+      {
+        "index": 17,
+        "item_type": "step",
+        "selector": "#step-588489",
+        "filename": "17-step-588489.png"
+      }
+    ]
+  }
+}

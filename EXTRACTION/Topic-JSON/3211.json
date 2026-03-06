@@ -1,0 +1,310 @@
+{
+  "schema_version": 1,
+  "topic_id": "3211",
+  "topic_title": "Eigenvalues and Eigenfunctions of Homogeneous BVPs",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3211.html",
+  "source_url": "https://mathacademy.com/topics/3211",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "592744",
+        "dom_id": "sectionLink-592744",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-592744"
+      },
+      {
+        "index": 2,
+        "step_id": "608068",
+        "dom_id": "sectionLink-608068",
+        "name": "",
+        "title": "Trivial Solution of the Eigenvalue Problem",
+        "selector": "#sectionLink-608068"
+      },
+      {
+        "index": 3,
+        "step_id": "608067",
+        "dom_id": "sectionLink-608067",
+        "name": "",
+        "title": "Non-Trivial Solution of the Eigenvalue Problem",
+        "selector": "#sectionLink-608067"
+      },
+      {
+        "index": 4,
+        "step_id": "592745",
+        "dom_id": "sectionLink-592745",
+        "name": "",
+        "title": "Exponential Eigenfunctions",
+        "selector": "#sectionLink-592745"
+      },
+      {
+        "index": 5,
+        "step_id": "592751",
+        "dom_id": "sectionLink-592751",
+        "name": "",
+        "title": "Trigonometric Eigenfunctions",
+        "selector": "#sectionLink-592751"
+      },
+      {
+        "index": 6,
+        "step_id": "592748",
+        "dom_id": "sectionLink-592748",
+        "name": "",
+        "title": "Trigonometric Eigenfunctions",
+        "selector": "#sectionLink-592748"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "879",
+        "name": "Second-Order Homogeneous ODEs: Characteristic Equations With Repeated Roots",
+        "href": "/topics/second-order-homogeneous-odes-characteristic-equations-with-repeated-roots-879"
+      },
+      {
+        "topic_id": "1259",
+        "name": "General Solutions of Trigonometric Equations With Transformed Functions",
+        "href": "/topics/general-solutions-of-trigonometric-equations-with-transformed-functions-1259"
+      },
+      {
+        "topic_id": "6711",
+        "name": "Second-Order Homogeneous Boundary Value Problems",
+        "href": "/topics/second-order-homogeneous-boundary-value-problems-6711"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 10,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "592744",
+        "content_id": "14646",
+        "dom_id": "step-592744",
+        "selector": "#step-592744",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "608068",
+        "content_id": "14893",
+        "dom_id": "step-608068",
+        "selector": "#step-608068",
+        "step_anchor": "step-2",
+        "title": "Trivial Solution of the Eigenvalue Problem",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "608067",
+        "content_id": "14892",
+        "dom_id": "step-608067",
+        "selector": "#step-608067",
+        "step_anchor": "step-3",
+        "title": "Non-Trivial Solution of the Eigenvalue Problem",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "592745",
+        "content_id": "21808",
+        "dom_id": "step-592745",
+        "selector": "#step-592745",
+        "step_anchor": "step-4",
+        "title": "Exponential Eigenfunctions",
+        "key_prerequisites": [
+          {
+            "topic_id": "879",
+            "name": "Second-Order Homogeneous ODEs: Characteristic Equations With Repeated Roots",
+            "href": "/topics/879"
+          },
+          {
+            "topic_id": "1730",
+            "name": "The Invertible Matrix Theorem in Terms of 2x2 Systems of Equations",
+            "href": "/topics/1730"
+          },
+          {
+            "topic_id": "6711",
+            "name": "Second-Order Homogeneous Boundary Value Problems",
+            "href": "/topics/6711"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "338722",
+        "dom_id": "question-338722",
+        "selector": "#question-338722",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "338729",
+        "dom_id": "question-338729",
+        "selector": "#question-338729",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "592751",
+        "content_id": "14650",
+        "dom_id": "step-592751",
+        "selector": "#step-592751",
+        "step_anchor": "step-7",
+        "title": "Trigonometric Eigenfunctions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "592748",
+        "content_id": "21806",
+        "dom_id": "step-592748",
+        "selector": "#step-592748",
+        "step_anchor": "step-8",
+        "title": "Trigonometric Eigenfunctions",
+        "key_prerequisites": [
+          {
+            "topic_id": "880",
+            "name": "Second-Order Homogeneous ODEs: Characteristic Equations With Complex Roots",
+            "href": "/topics/880"
+          },
+          {
+            "topic_id": "1259",
+            "name": "General Solutions of Trigonometric Equations With Transformed Functions",
+            "href": "/topics/1259"
+          },
+          {
+            "topic_id": "6711",
+            "name": "Second-Order Homogeneous Boundary Value Problems",
+            "href": "/topics/6711"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "338667",
+        "dom_id": "question-338667",
+        "selector": "#question-338667",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "338712",
+        "dom_id": "question-338712",
+        "selector": "#question-338712",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-592744",
+        "filename": "01-step-592744.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-608068",
+        "filename": "02-step-608068.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-608067",
+        "filename": "03-step-608067.png"
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "selector": "#step-592745",
+        "filename": "04-step-592745.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-338722",
+        "filename": "05-question-338722.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-338729",
+        "filename": "06-question-338729.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-592751",
+        "filename": "07-step-592751.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-592748",
+        "filename": "08-step-592748.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-338667",
+        "filename": "09-question-338667.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-338712",
+        "filename": "10-question-338712.png"
+      }
+    ]
+  }
+}

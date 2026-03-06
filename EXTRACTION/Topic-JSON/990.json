@@ -1,0 +1,362 @@
+{
+  "schema_version": 1,
+  "topic_id": "990",
+  "topic_title": "Calculating the Eigenvalues of a 2x2 Matrix",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/990.html",
+  "source_url": "https://mathacademy.com/topics/990",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "20080",
+        "dom_id": "sectionLink-20080",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-20080"
+      },
+      {
+        "index": 2,
+        "step_id": "20082",
+        "dom_id": "sectionLink-20082",
+        "name": "",
+        "title": "Finding the Characteristic Equation of a Matrix",
+        "selector": "#sectionLink-20082"
+      },
+      {
+        "index": 3,
+        "step_id": "20084",
+        "dom_id": "sectionLink-20084",
+        "name": "",
+        "title": "The Number of Real Eigenvalues of a 2x2 Matrix",
+        "selector": "#sectionLink-20084"
+      },
+      {
+        "index": 4,
+        "step_id": "20085",
+        "dom_id": "sectionLink-20085",
+        "name": "",
+        "title": "Computing the Eigenvalues of a Matrix With Two Distinct Eigenvalues",
+        "selector": "#sectionLink-20085"
+      },
+      {
+        "index": 5,
+        "step_id": "20083",
+        "dom_id": "sectionLink-20083",
+        "name": "",
+        "title": "Computing the Eigenvalues of a Matrix With At Most One Distinct Eigenvalue",
+        "selector": "#sectionLink-20083"
+      },
+      {
+        "index": 6,
+        "step_id": "20087",
+        "dom_id": "sectionLink-20087",
+        "name": "",
+        "title": "Calculating the Eigenvalues of a Triangular/Diagonal Matrix",
+        "selector": "#sectionLink-20087"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1375",
+        "name": "The Eigenvalues and Eigenvectors of a 2x2 Matrix",
+        "href": "/topics/the-eigenvalues-and-eigenvectors-of-a-2x2-matrix-1375"
+      },
+      {
+        "topic_id": "1869",
+        "name": "The Invertible Matrix Theorem in Terms of Dimension, Rank and Nullity",
+        "href": "/topics/the-invertible-matrix-theorem-in-terms-of-dimension-rank-and-nullity-1869"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20080",
+        "content_id": "3559",
+        "dom_id": "step-20080",
+        "selector": "#step-20080",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20082",
+        "content_id": "5479",
+        "dom_id": "step-20082",
+        "selector": "#step-20082",
+        "step_anchor": "step-2",
+        "title": "Finding the Characteristic Equation of a Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "152",
+            "name": "The Determinant of a 2x2 Matrix",
+            "href": "/topics/152"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "36768",
+        "dom_id": "question-36768",
+        "selector": "#question-36768",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "36758",
+        "dom_id": "question-36758",
+        "selector": "#question-36758",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20084",
+        "content_id": "3560",
+        "dom_id": "step-20084",
+        "selector": "#step-20084",
+        "step_anchor": "step-5",
+        "title": "The Number of Real Eigenvalues of a 2x2 Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20085",
+        "content_id": "5481",
+        "dom_id": "step-20085",
+        "selector": "#step-20085",
+        "step_anchor": "step-6",
+        "title": "Computing the Eigenvalues of a Matrix With Two Distinct Eigenvalues",
+        "key_prerequisites": [
+          {
+            "topic_id": "375",
+            "name": "Solving Quadratic Equations by Factoring",
+            "href": "/topics/375"
+          },
+          {
+            "topic_id": "422",
+            "name": "The Quadratic Formula",
+            "href": "/topics/422"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "9341",
+        "dom_id": "question-9341",
+        "selector": "#question-9341",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "12299",
+        "dom_id": "question-12299",
+        "selector": "#question-12299",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20083",
+        "content_id": "5480",
+        "dom_id": "step-20083",
+        "selector": "#step-20083",
+        "step_anchor": "step-9",
+        "title": "Computing the Eigenvalues of a Matrix With At Most One Distinct Eigenvalue",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "36776",
+        "dom_id": "question-36776",
+        "selector": "#question-36776",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "9346",
+        "dom_id": "question-9346",
+        "selector": "#question-9346",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20087",
+        "content_id": "5482",
+        "dom_id": "step-20087",
+        "selector": "#step-20087",
+        "step_anchor": "step-12",
+        "title": "Calculating the Eigenvalues of a Triangular/Diagonal Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "11983",
+        "dom_id": "question-11983",
+        "selector": "#question-11983",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "36755",
+        "dom_id": "question-36755",
+        "selector": "#question-36755",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-20080",
+        "filename": "01-step-20080.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-20082",
+        "filename": "02-step-20082.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-36768",
+        "filename": "03-question-36768.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-36758",
+        "filename": "04-question-36758.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-20084",
+        "filename": "05-step-20084.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-20085",
+        "filename": "06-step-20085.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-9341",
+        "filename": "07-question-9341.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-12299",
+        "filename": "08-question-12299.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-20083",
+        "filename": "09-step-20083.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-36776",
+        "filename": "10-question-36776.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-9346",
+        "filename": "11-question-9346.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-20087",
+        "filename": "12-step-20087.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-11983",
+        "filename": "13-question-11983.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-36755",
+        "filename": "14-question-36755.png"
+      }
+    ]
+  }
+}

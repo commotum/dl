@@ -1,0 +1,337 @@
+{
+  "schema_version": 1,
+  "topic_id": "3028",
+  "topic_title": "Properties of Variance for Discrete Random Variables",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3028.html",
+  "source_url": "https://mathacademy.com/topics/3028",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "33964",
+        "dom_id": "sectionLink-33964",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-33964"
+      },
+      {
+        "index": 2,
+        "step_id": "33959",
+        "dom_id": "sectionLink-33959",
+        "name": "",
+        "title": "Computing the Variance of a Constant",
+        "selector": "#sectionLink-33959"
+      },
+      {
+        "index": 3,
+        "step_id": "33966",
+        "dom_id": "sectionLink-33966",
+        "name": "",
+        "title": "The Variance of a Scaled Random Variable",
+        "selector": "#sectionLink-33966"
+      },
+      {
+        "index": 4,
+        "step_id": "33961",
+        "dom_id": "sectionLink-33961",
+        "name": "",
+        "title": "Computing the Variance of a Scaled Random Variable",
+        "selector": "#sectionLink-33961"
+      },
+      {
+        "index": 5,
+        "step_id": "33968",
+        "dom_id": "sectionLink-33968",
+        "name": "",
+        "title": "The Variance of a Transformed Random Variable",
+        "selector": "#sectionLink-33968"
+      },
+      {
+        "index": 6,
+        "step_id": "33963",
+        "dom_id": "sectionLink-33963",
+        "name": "",
+        "title": "Computing the Variance of a Transformed Random Variable",
+        "selector": "#sectionLink-33963"
+      },
+      {
+        "index": 7,
+        "step_id": "33969",
+        "dom_id": "sectionLink-33969",
+        "name": "",
+        "title": "Proof of the General Formula",
+        "selector": "#sectionLink-33969"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1388",
+        "name": "Variance of Discrete Random Variables",
+        "href": "/topics/variance-of-discrete-random-variables-1388"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "33964",
+        "content_id": "5458",
+        "dom_id": "step-33964",
+        "selector": "#step-33964",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33959",
+        "content_id": "9111",
+        "dom_id": "step-33959",
+        "selector": "#step-33959",
+        "step_anchor": "step-2",
+        "title": "Computing the Variance of a Constant",
+        "key_prerequisites": [
+          {
+            "topic_id": "1388",
+            "name": "Variance of Discrete Random Variables",
+            "href": "/topics/1388"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "108934",
+        "dom_id": "question-108934",
+        "selector": "#question-108934",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "108935",
+        "dom_id": "question-108935",
+        "selector": "#question-108935",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "33966",
+        "content_id": "5459",
+        "dom_id": "step-33966",
+        "selector": "#step-33966",
+        "step_anchor": "step-5",
+        "title": "The Variance of a Scaled Random Variable",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33961",
+        "content_id": "9112",
+        "dom_id": "step-33961",
+        "selector": "#step-33961",
+        "step_anchor": "step-6",
+        "title": "Computing the Variance of a Scaled Random Variable",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "108936",
+        "dom_id": "question-108936",
+        "selector": "#question-108936",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "108945",
+        "dom_id": "question-108945",
+        "selector": "#question-108945",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "33968",
+        "content_id": "5460",
+        "dom_id": "step-33968",
+        "selector": "#step-33968",
+        "step_anchor": "step-9",
+        "title": "The Variance of a Transformed Random Variable",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33963",
+        "content_id": "9114",
+        "dom_id": "step-33963",
+        "selector": "#step-33963",
+        "step_anchor": "step-10",
+        "title": "Computing the Variance of a Transformed Random Variable",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "108940",
+        "dom_id": "question-108940",
+        "selector": "#question-108940",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "108946",
+        "dom_id": "question-108946",
+        "selector": "#question-108946",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "33969",
+        "content_id": "5461",
+        "dom_id": "step-33969",
+        "selector": "#step-33969",
+        "step_anchor": "step-13",
+        "title": "Proof of the General Formula",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-33964",
+        "filename": "01-step-33964.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-33959",
+        "filename": "02-step-33959.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-108934",
+        "filename": "03-question-108934.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-108935",
+        "filename": "04-question-108935.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-33966",
+        "filename": "05-step-33966.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-33961",
+        "filename": "06-step-33961.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-108936",
+        "filename": "07-question-108936.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-108945",
+        "filename": "08-question-108945.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-33968",
+        "filename": "09-step-33968.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-33963",
+        "filename": "10-step-33963.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-108940",
+        "filename": "11-question-108940.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-108946",
+        "filename": "12-question-108946.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-33969",
+        "filename": "13-step-33969.png"
+      }
+    ]
+  }
+}

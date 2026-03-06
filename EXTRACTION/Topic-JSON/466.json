@@ -1,0 +1,346 @@
+{
+  "schema_version": 1,
+  "topic_id": "466",
+  "topic_title": "Solving First-Order ODEs Using Separation of Variables",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/466.html",
+  "source_url": "https://mathacademy.com/topics/466",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "41051",
+        "dom_id": "sectionLink-41051",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-41051"
+      },
+      {
+        "index": 2,
+        "step_id": "41052",
+        "dom_id": "sectionLink-41052",
+        "name": "",
+        "title": "First-Order Separable Equations",
+        "selector": "#sectionLink-41052"
+      },
+      {
+        "index": 3,
+        "step_id": "41115",
+        "dom_id": "sectionLink-41115",
+        "name": "",
+        "title": "Separating the Variables in a Differential Equation",
+        "selector": "#sectionLink-41115"
+      },
+      {
+        "index": 4,
+        "step_id": "41758",
+        "dom_id": "sectionLink-41758",
+        "name": "",
+        "title": "Finding a General Solution in Implicit Form",
+        "selector": "#sectionLink-41758"
+      },
+      {
+        "index": 5,
+        "step_id": "41053",
+        "dom_id": "sectionLink-41053",
+        "name": "",
+        "title": "Finding a General Solution in Explicit Form",
+        "selector": "#sectionLink-41053"
+      },
+      {
+        "index": 6,
+        "step_id": "41056",
+        "dom_id": "sectionLink-41056",
+        "name": "",
+        "title": "Finding General Solutions by Rearranging Then Integrating",
+        "selector": "#sectionLink-41056"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1061",
+        "name": "Solving First-Order ODEs Using Direct Integration",
+        "href": "/topics/solving-first-order-odes-using-direct-integration-1061"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "41051",
+        "content_id": "6766",
+        "dom_id": "step-41051",
+        "selector": "#step-41051",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "41052",
+        "content_id": "6767",
+        "dom_id": "step-41052",
+        "selector": "#step-41052",
+        "step_anchor": "step-2",
+        "title": "First-Order Separable Equations",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "41115",
+        "content_id": "10849",
+        "dom_id": "step-41115",
+        "selector": "#step-41115",
+        "step_anchor": "step-3",
+        "title": "Separating the Variables in a Differential Equation",
+        "key_prerequisites": [
+          {
+            "topic_id": "1061",
+            "name": "Solving First-Order ODEs Using Direct Integration",
+            "href": "/topics/1061"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "154678",
+        "dom_id": "question-154678",
+        "selector": "#question-154678",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "157692",
+        "dom_id": "question-157692",
+        "selector": "#question-157692",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "41758",
+        "content_id": "10997",
+        "dom_id": "step-41758",
+        "selector": "#step-41758",
+        "step_anchor": "step-6",
+        "title": "Finding a General Solution in Implicit Form",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "154359",
+        "dom_id": "question-154359",
+        "selector": "#question-154359",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "154367",
+        "dom_id": "question-154367",
+        "selector": "#question-154367",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "41053",
+        "content_id": "10832",
+        "dom_id": "step-41053",
+        "selector": "#step-41053",
+        "step_anchor": "step-9",
+        "title": "Finding a General Solution in Explicit Form",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "14257",
+        "dom_id": "question-14257",
+        "selector": "#question-14257",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "14244",
+        "dom_id": "question-14244",
+        "selector": "#question-14244",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "41056",
+        "content_id": "10833",
+        "dom_id": "step-41056",
+        "selector": "#step-41056",
+        "step_anchor": "step-12",
+        "title": "Finding General Solutions by Rearranging Then Integrating",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "8303",
+        "dom_id": "question-8303",
+        "selector": "#question-8303",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "8305",
+        "dom_id": "question-8305",
+        "selector": "#question-8305",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-41051",
+        "filename": "01-step-41051.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-41052",
+        "filename": "02-step-41052.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-41115",
+        "filename": "03-step-41115.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-154678",
+        "filename": "04-question-154678.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-157692",
+        "filename": "05-question-157692.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-41758",
+        "filename": "06-step-41758.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-154359",
+        "filename": "07-question-154359.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-154367",
+        "filename": "08-question-154367.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-41053",
+        "filename": "09-step-41053.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-14257",
+        "filename": "10-question-14257.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-14244",
+        "filename": "11-question-14244.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-41056",
+        "filename": "12-step-41056.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-8303",
+        "filename": "13-question-8303.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-8305",
+        "filename": "14-question-8305.png"
+      }
+    ]
+  }
+}

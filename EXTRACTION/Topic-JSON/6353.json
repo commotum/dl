@@ -1,0 +1,400 @@
+{
+  "schema_version": 1,
+  "topic_id": "6353",
+  "topic_title": "Solving Exact ODEs Using Integrating Factors",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/6353.html",
+  "source_url": "https://mathacademy.com/topics/6353",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "601525",
+        "dom_id": "sectionLink-601525",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-601525"
+      },
+      {
+        "index": 2,
+        "step_id": "601526",
+        "dom_id": "sectionLink-601526",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-601526"
+      },
+      {
+        "index": 3,
+        "step_id": "601527",
+        "dom_id": "sectionLink-601527",
+        "name": "",
+        "title": "Testing Integrating Factors for ODEs in Differential Form",
+        "selector": "#sectionLink-601527"
+      },
+      {
+        "index": 4,
+        "step_id": "601530",
+        "dom_id": "sectionLink-601530",
+        "name": "",
+        "title": "Finding Integrating Factors Dependent on X Only",
+        "selector": "#sectionLink-601530"
+      },
+      {
+        "index": 5,
+        "step_id": "601531",
+        "dom_id": "sectionLink-601531",
+        "name": "",
+        "title": "Finding an Integrating Factor for an Inexact Equation: Condition on X Satisfied",
+        "selector": "#sectionLink-601531"
+      },
+      {
+        "index": 6,
+        "step_id": "606571",
+        "dom_id": "sectionLink-606571",
+        "name": "",
+        "title": "Finding Integrating Factors Dependent on Y Only",
+        "selector": "#sectionLink-606571"
+      },
+      {
+        "index": 7,
+        "step_id": "601534",
+        "dom_id": "sectionLink-601534",
+        "name": "",
+        "title": "Finding an Integrating Factor for an Inexact Equation: Condition on Y Satisfied",
+        "selector": "#sectionLink-601534"
+      },
+      {
+        "index": 8,
+        "step_id": "601537",
+        "dom_id": "sectionLink-601537",
+        "name": "",
+        "title": "Solving Inexact Differential Equations Using Integrating Factors",
+        "selector": "#sectionLink-601537"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2521",
+        "name": "Exact Differential Equations",
+        "href": "/topics/exact-differential-equations-2521"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 16,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "601525",
+        "content_id": "14044",
+        "dom_id": "step-601525",
+        "selector": "#step-601525",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "601526",
+        "content_id": "14707",
+        "dom_id": "step-601526",
+        "selector": "#step-601526",
+        "step_anchor": "step-2",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "601527",
+        "content_id": "20896",
+        "dom_id": "step-601527",
+        "selector": "#step-601527",
+        "step_anchor": "step-3",
+        "title": "Testing Integrating Factors for ODEs in Differential Form",
+        "key_prerequisites": [
+          {
+            "topic_id": "2521",
+            "name": "Exact Differential Equations",
+            "href": "/topics/2521"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "337133",
+        "dom_id": "question-337133",
+        "selector": "#question-337133",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "337143",
+        "dom_id": "question-337143",
+        "selector": "#question-337143",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "601530",
+        "content_id": "14594",
+        "dom_id": "step-601530",
+        "selector": "#step-601530",
+        "step_anchor": "step-6",
+        "title": "Finding Integrating Factors Dependent on X Only",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "601531",
+        "content_id": "20935",
+        "dom_id": "step-601531",
+        "selector": "#step-601531",
+        "step_anchor": "step-7",
+        "title": "Finding an Integrating Factor for an Inexact Equation: Condition on X Satisfied",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "337212",
+        "dom_id": "question-337212",
+        "selector": "#question-337212",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "318659",
+        "dom_id": "question-318659",
+        "selector": "#question-318659",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "606571",
+        "content_id": "14857",
+        "dom_id": "step-606571",
+        "selector": "#step-606571",
+        "step_anchor": "step-10",
+        "title": "Finding Integrating Factors Dependent on Y Only",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "601534",
+        "content_id": "21772",
+        "dom_id": "step-601534",
+        "selector": "#step-601534",
+        "step_anchor": "step-11",
+        "title": "Finding an Integrating Factor for an Inexact Equation: Condition on Y Satisfied",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "318660",
+        "dom_id": "question-318660",
+        "selector": "#question-318660",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "337692",
+        "dom_id": "question-337692",
+        "selector": "#question-337692",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "601537",
+        "content_id": "20898",
+        "dom_id": "step-601537",
+        "selector": "#step-601537",
+        "step_anchor": "step-14",
+        "title": "Solving Inexact Differential Equations Using Integrating Factors",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "337096",
+        "dom_id": "question-337096",
+        "selector": "#question-337096",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "337099",
+        "dom_id": "question-337099",
+        "selector": "#question-337099",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-601525",
+        "filename": "01-step-601525.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-601526",
+        "filename": "02-step-601526.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-601527",
+        "filename": "03-step-601527.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-337133",
+        "filename": "04-question-337133.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-337143",
+        "filename": "05-question-337143.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-601530",
+        "filename": "06-step-601530.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-601531",
+        "filename": "07-step-601531.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-337212",
+        "filename": "08-question-337212.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-318659",
+        "filename": "09-question-318659.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-606571",
+        "filename": "10-step-606571.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-601534",
+        "filename": "11-step-601534.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-318660",
+        "filename": "12-question-318660.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-337692",
+        "filename": "13-question-337692.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-601537",
+        "filename": "14-step-601537.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-337096",
+        "filename": "15-question-337096.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-337099",
+        "filename": "16-question-337099.png"
+      }
+    ]
+  }
+}

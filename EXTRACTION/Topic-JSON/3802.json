@@ -1,0 +1,316 @@
+{
+  "schema_version": 1,
+  "topic_id": "3802",
+  "topic_title": "Introduction to Turing Machines",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3802.html",
+  "source_url": "https://mathacademy.com/topics/3802",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "417616",
+        "dom_id": "sectionLink-417616",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-417616"
+      },
+      {
+        "index": 2,
+        "step_id": "417617",
+        "dom_id": "sectionLink-417617",
+        "name": "",
+        "title": "Representing Turing Machines Using Transition Diagrams and Tables",
+        "selector": "#sectionLink-417617"
+      },
+      {
+        "index": 3,
+        "step_id": "417618",
+        "dom_id": "sectionLink-417618",
+        "name": "",
+        "title": "Constructing the Transition Table of a Turing Machine Given a Transition Diagram",
+        "selector": "#sectionLink-417618"
+      },
+      {
+        "index": 4,
+        "step_id": "417621",
+        "dom_id": "sectionLink-417621",
+        "name": "",
+        "title": "Constructing the Transition Diagram  of a Turing Machine Given a Transition Table",
+        "selector": "#sectionLink-417621"
+      },
+      {
+        "index": 5,
+        "step_id": "417624",
+        "dom_id": "sectionLink-417624",
+        "name": "",
+        "title": "Configurations of a Turing Machine",
+        "selector": "#sectionLink-417624"
+      },
+      {
+        "index": 6,
+        "step_id": "417625",
+        "dom_id": "sectionLink-417625",
+        "name": "",
+        "title": "Updating the Configurations of a Turing Machine",
+        "selector": "#sectionLink-417625"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3795",
+        "name": "Mealy Machines",
+        "href": "/topics/mealy-machines-3795"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "417616",
+        "content_id": "9991",
+        "dom_id": "step-417616",
+        "selector": "#step-417616",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "417617",
+        "content_id": "11639",
+        "dom_id": "step-417617",
+        "selector": "#step-417617",
+        "step_anchor": "step-2",
+        "title": "Representing Turing Machines Using Transition Diagrams and Tables",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "417618",
+        "content_id": "15696",
+        "dom_id": "step-417618",
+        "selector": "#step-417618",
+        "step_anchor": "step-3",
+        "title": "Constructing the Transition Table of a Turing Machine Given a Transition Diagram",
+        "key_prerequisites": [
+          {
+            "topic_id": "3797",
+            "name": "Deterministic Finite Automata",
+            "href": "/topics/3797"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "259053",
+        "dom_id": "question-259053",
+        "selector": "#question-259053",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "238153",
+        "dom_id": "question-238153",
+        "selector": "#question-238153",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "417621",
+        "content_id": "15697",
+        "dom_id": "step-417621",
+        "selector": "#step-417621",
+        "step_anchor": "step-6",
+        "title": "Constructing the Transition Diagram  of a Turing Machine Given a Transition Table",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "238157",
+        "dom_id": "question-238157",
+        "selector": "#question-238157",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "262565",
+        "dom_id": "question-262565",
+        "selector": "#question-262565",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "417624",
+        "content_id": "11638",
+        "dom_id": "step-417624",
+        "selector": "#step-417624",
+        "step_anchor": "step-9",
+        "title": "Configurations of a Turing Machine",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "417625",
+        "content_id": "15699",
+        "dom_id": "step-417625",
+        "selector": "#step-417625",
+        "step_anchor": "step-10",
+        "title": "Updating the Configurations of a Turing Machine",
+        "key_prerequisites": [
+          {
+            "topic_id": "5414",
+            "name": "Processing Strings Using Deterministic Finite Automata",
+            "href": "/topics/5414"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "238164",
+        "dom_id": "question-238164",
+        "selector": "#question-238164",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "257533",
+        "dom_id": "question-257533",
+        "selector": "#question-257533",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-417616",
+        "filename": "01-step-417616.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-417617",
+        "filename": "02-step-417617.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-417618",
+        "filename": "03-step-417618.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-259053",
+        "filename": "04-question-259053.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-238153",
+        "filename": "05-question-238153.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-417621",
+        "filename": "06-step-417621.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-238157",
+        "filename": "07-question-238157.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-262565",
+        "filename": "08-question-262565.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-417624",
+        "filename": "09-step-417624.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-417625",
+        "filename": "10-step-417625.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-238164",
+        "filename": "11-question-238164.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-257533",
+        "filename": "12-question-257533.png"
+      }
+    ]
+  }
+}

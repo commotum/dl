@@ -1,0 +1,236 @@
+{
+  "schema_version": 1,
+  "topic_id": "2016",
+  "topic_title": "Finding Complex Eigenvalues of Real 2x2 Matrices",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2016.html",
+  "source_url": "https://mathacademy.com/topics/2016",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "20162",
+        "dom_id": "sectionLink-20162",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-20162"
+      },
+      {
+        "index": 2,
+        "step_id": "21687",
+        "dom_id": "sectionLink-21687",
+        "name": "",
+        "title": "Computing the Complex Eigenvalues of a Matrix",
+        "selector": "#sectionLink-21687"
+      },
+      {
+        "index": 3,
+        "step_id": "20165",
+        "dom_id": "sectionLink-20165",
+        "name": "",
+        "title": "Complex Eigenvalues and Eigenvectors Come in Conjugate Pairs",
+        "selector": "#sectionLink-20165"
+      },
+      {
+        "index": 4,
+        "step_id": "21688",
+        "dom_id": "sectionLink-21688",
+        "name": "",
+        "title": "Finding a Complex Eigenvalue of a 2x2 Matrix Given Another Eigenvalue",
+        "selector": "#sectionLink-21688"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "991",
+        "name": "Calculating the Eigenvectors of a 2x2 Matrix",
+        "href": "/topics/calculating-the-eigenvectors-of-a-2x2-matrix-991"
+      },
+      {
+        "topic_id": "2015",
+        "name": "Matrices Over the Complex Numbers",
+        "href": "/topics/matrices-over-the-complex-numbers-2015"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 8,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20162",
+        "content_id": "3592",
+        "dom_id": "step-20162",
+        "selector": "#step-20162",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "21687",
+        "content_id": "5904",
+        "dom_id": "step-21687",
+        "selector": "#step-21687",
+        "step_anchor": "step-2",
+        "title": "Computing the Complex Eigenvalues of a Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "895",
+            "name": "Solving Quadratic Equations With Complex Roots",
+            "href": "/topics/895"
+          },
+          {
+            "topic_id": "990",
+            "name": "Calculating the Eigenvalues of a 2x2 Matrix",
+            "href": "/topics/990"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "38482",
+        "dom_id": "question-38482",
+        "selector": "#question-38482",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "38474",
+        "dom_id": "question-38474",
+        "selector": "#question-38474",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20165",
+        "content_id": "3593",
+        "dom_id": "step-20165",
+        "selector": "#step-20165",
+        "step_anchor": "step-5",
+        "title": "Complex Eigenvalues and Eigenvectors Come in Conjugate Pairs",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "21688",
+        "content_id": "5905",
+        "dom_id": "step-21688",
+        "selector": "#step-21688",
+        "step_anchor": "step-6",
+        "title": "Finding a Complex Eigenvalue of a 2x2 Matrix Given Another Eigenvalue",
+        "key_prerequisites": [
+          {
+            "topic_id": "1647",
+            "name": "The Complex Conjugate and the Roots of a Quadratic Equation",
+            "href": "/topics/1647"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "39184",
+        "dom_id": "question-39184",
+        "selector": "#question-39184",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "39183",
+        "dom_id": "question-39183",
+        "selector": "#question-39183",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-20162",
+        "filename": "01-step-20162.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-21687",
+        "filename": "02-step-21687.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-38482",
+        "filename": "03-question-38482.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-38474",
+        "filename": "04-question-38474.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-20165",
+        "filename": "05-step-20165.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-21688",
+        "filename": "06-step-21688.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-39184",
+        "filename": "07-question-39184.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-39183",
+        "filename": "08-question-39183.png"
+      }
+    ]
+  }
+}

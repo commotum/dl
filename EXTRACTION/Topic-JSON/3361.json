@@ -1,0 +1,298 @@
+{
+  "schema_version": 1,
+  "topic_id": "3361",
+  "topic_title": "Green's Theorem in Flux Form",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3361.html",
+  "source_url": "https://mathacademy.com/topics/3361",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "35900",
+        "dom_id": "sectionLink-35900",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-35900"
+      },
+      {
+        "index": 2,
+        "step_id": "35877",
+        "dom_id": "sectionLink-35877",
+        "name": "",
+        "title": "Intuition Behind Green's Theorem in Flux Form",
+        "selector": "#sectionLink-35877"
+      },
+      {
+        "index": 3,
+        "step_id": "35836",
+        "dom_id": "sectionLink-35836",
+        "name": "",
+        "title": "Expressing Flux as a Double Integral Using Green's Theorem in Flux Form",
+        "selector": "#sectionLink-35836"
+      },
+      {
+        "index": 4,
+        "step_id": "35837",
+        "dom_id": "sectionLink-35837",
+        "name": "",
+        "title": "Calculating Flux Across Rectangles",
+        "selector": "#sectionLink-35837"
+      },
+      {
+        "index": 5,
+        "step_id": "35835",
+        "dom_id": "sectionLink-35835",
+        "name": "",
+        "title": "Calculating Flux Across Other Type I and Type II Regions",
+        "selector": "#sectionLink-35835"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2116",
+        "name": "Introduction to Green's Theorem",
+        "href": "/topics/introduction-to-greens-theorem-2116"
+      },
+      {
+        "topic_id": "2131",
+        "name": "The Divergence of a Vector Field",
+        "href": "/topics/the-divergence-of-a-vector-field-2131"
+      },
+      {
+        "topic_id": "3716",
+        "name": "Calculating Flux in Two-Dimensional Vector Fields",
+        "href": "/topics/calculating-flux-in-two-dimensional-vector-fields-3716"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "35900",
+        "content_id": "5868",
+        "dom_id": "step-35900",
+        "selector": "#step-35900",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "35877",
+        "content_id": "5862",
+        "dom_id": "step-35877",
+        "selector": "#step-35877",
+        "step_anchor": "step-2",
+        "title": "Intuition Behind Green's Theorem in Flux Form",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "35836",
+        "content_id": "9564",
+        "dom_id": "step-35836",
+        "selector": "#step-35836",
+        "step_anchor": "step-3",
+        "title": "Expressing Flux as a Double Integral Using Green's Theorem in Flux Form",
+        "key_prerequisites": [
+          {
+            "topic_id": "2116",
+            "name": "Introduction to Green's Theorem",
+            "href": "/topics/2116"
+          },
+          {
+            "topic_id": "3716",
+            "name": "Calculating Flux in Two-Dimensional Vector Fields",
+            "href": "/topics/3716"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "127070",
+        "dom_id": "question-127070",
+        "selector": "#question-127070",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "127072",
+        "dom_id": "question-127072",
+        "selector": "#question-127072",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "35837",
+        "content_id": "9565",
+        "dom_id": "step-35837",
+        "selector": "#step-35837",
+        "step_anchor": "step-6",
+        "title": "Calculating Flux Across Rectangles",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "126821",
+        "dom_id": "question-126821",
+        "selector": "#question-126821",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "126820",
+        "dom_id": "question-126820",
+        "selector": "#question-126820",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "35835",
+        "content_id": "9563",
+        "dom_id": "step-35835",
+        "selector": "#step-35835",
+        "step_anchor": "step-9",
+        "title": "Calculating Flux Across Other Type I and Type II Regions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "126817",
+        "dom_id": "question-126817",
+        "selector": "#question-126817",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "126814",
+        "dom_id": "question-126814",
+        "selector": "#question-126814",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-35900",
+        "filename": "01-step-35900.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-35877",
+        "filename": "02-step-35877.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-35836",
+        "filename": "03-step-35836.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-127070",
+        "filename": "04-question-127070.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-127072",
+        "filename": "05-question-127072.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-35837",
+        "filename": "06-step-35837.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-126821",
+        "filename": "07-question-126821.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-126820",
+        "filename": "08-question-126820.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-35835",
+        "filename": "09-step-35835.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-126817",
+        "filename": "10-question-126817.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-126814",
+        "filename": "11-question-126814.png"
+      }
+    ]
+  }
+}

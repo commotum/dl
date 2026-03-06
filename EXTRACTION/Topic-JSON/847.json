@@ -1,0 +1,303 @@
+{
+  "schema_version": 1,
+  "topic_id": "847",
+  "topic_title": "The Remainder Theorem",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/847.html",
+  "source_url": "https://mathacademy.com/topics/847",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "472891",
+        "dom_id": "sectionLink-472891",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-472891"
+      },
+      {
+        "index": 2,
+        "step_id": "472892",
+        "dom_id": "sectionLink-472892",
+        "name": "",
+        "title": "Finding the Value of the Remainder When a Polynomial is Divided by a Linear Factor",
+        "selector": "#sectionLink-472892"
+      },
+      {
+        "index": 3,
+        "step_id": "472896",
+        "dom_id": "sectionLink-472896",
+        "name": "",
+        "title": "Finding the Value of a Single Unknown in a Polynomial Given a Remainder",
+        "selector": "#sectionLink-472896"
+      },
+      {
+        "index": 4,
+        "step_id": "472900",
+        "dom_id": "sectionLink-472900",
+        "name": "",
+        "title": "Finding the Values of Two Unknowns in a Polynomial Given Two Remainders",
+        "selector": "#sectionLink-472900"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "728",
+        "name": "Dividing Polynomials Using Synthetic Division",
+        "href": "/topics/dividing-polynomials-using-synthetic-division-728"
+      },
+      {
+        "topic_id": "4026",
+        "name": "Solving Systems of Linear Equations Using Elimination: One Transformation",
+        "href": "/topics/solving-systems-of-linear-equations-using-elimination-one-transformation-4026"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "472891",
+        "content_id": "3725",
+        "dom_id": "step-472891",
+        "selector": "#step-472891",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "472892",
+        "content_id": "5881",
+        "dom_id": "step-472892",
+        "selector": "#step-472892",
+        "step_anchor": "step-2",
+        "title": "Finding the Value of the Remainder When a Polynomial is Divided by a Linear Factor",
+        "key_prerequisites": [
+          {
+            "topic_id": "728",
+            "name": "Dividing Polynomials Using Synthetic Division",
+            "href": "/topics/728"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "7622",
+        "dom_id": "question-7622",
+        "selector": "#question-7622",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "112672",
+        "dom_id": "question-112672",
+        "selector": "#question-112672",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "38075",
+        "dom_id": "question-38075",
+        "selector": "#question-38075",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "472896",
+        "content_id": "5882",
+        "dom_id": "step-472896",
+        "selector": "#step-472896",
+        "step_anchor": "step-6",
+        "title": "Finding the Value of a Single Unknown in a Polynomial Given a Remainder",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "7651",
+        "dom_id": "question-7651",
+        "selector": "#question-7651",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "38201",
+        "dom_id": "question-38201",
+        "selector": "#question-38201",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "7629",
+        "dom_id": "question-7629",
+        "selector": "#question-7629",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "472900",
+        "content_id": "5883",
+        "dom_id": "step-472900",
+        "selector": "#step-472900",
+        "step_anchor": "step-10",
+        "title": "Finding the Values of Two Unknowns in a Polynomial Given Two Remainders",
+        "key_prerequisites": [
+          {
+            "topic_id": "742",
+            "name": "Introduction to the Elimination Method",
+            "href": "/topics/742"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "18146",
+        "dom_id": "question-18146",
+        "selector": "#question-18146",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "18935",
+        "dom_id": "question-18935",
+        "selector": "#question-18935",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-472891",
+        "filename": "01-step-472891.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-472892",
+        "filename": "02-step-472892.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-7622",
+        "filename": "03-question-7622.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-112672",
+        "filename": "04-question-112672.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-38075",
+        "filename": "05-question-38075.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-472896",
+        "filename": "06-step-472896.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-7651",
+        "filename": "07-question-7651.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-38201",
+        "filename": "08-question-38201.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-7629",
+        "filename": "09-question-7629.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-472900",
+        "filename": "10-step-472900.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-18146",
+        "filename": "11-question-18146.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-18935",
+        "filename": "12-question-18935.png"
+      }
+    ]
+  }
+}

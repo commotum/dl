@@ -1,0 +1,294 @@
+{
+  "schema_version": 1,
+  "topic_id": "3120",
+  "topic_title": "The Spectral Theorem",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3120.html",
+  "source_url": "https://mathacademy.com/topics/3120",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "30533",
+        "dom_id": "sectionLink-30533",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-30533"
+      },
+      {
+        "index": 2,
+        "step_id": "30970",
+        "dom_id": "sectionLink-30970",
+        "name": "",
+        "title": "Identifying True Statements Regarding the Spectral Theorem",
+        "selector": "#sectionLink-30970"
+      },
+      {
+        "index": 3,
+        "step_id": "30971",
+        "dom_id": "sectionLink-30971",
+        "name": "",
+        "title": "The Spectral Decomposition of a Symmetric Matrix",
+        "selector": "#sectionLink-30971"
+      },
+      {
+        "index": 4,
+        "step_id": "30973",
+        "dom_id": "sectionLink-30973",
+        "name": "",
+        "title": "Finding the Spectral Decomposition of a Symmetric Matrix",
+        "selector": "#sectionLink-30973"
+      },
+      {
+        "index": 5,
+        "step_id": "30972",
+        "dom_id": "sectionLink-30972",
+        "name": "",
+        "title": "Finding a Projection Matrix That Orthogonally Projects a Vector to the Subspace Spanned by an Eigenvector",
+        "selector": "#sectionLink-30972"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2125",
+        "name": "Projection Matrices, Linear Transformations and Their Properties",
+        "href": "/topics/projection-matrices-linear-transformations-and-their-properties-2125"
+      },
+      {
+        "topic_id": "3119",
+        "name": "Diagonalization of 3x3 Symmetric Matrices",
+        "href": "/topics/diagonalization-of-3x3-symmetric-matrices-3119"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "30533",
+        "content_id": "4882",
+        "dom_id": "step-30533",
+        "selector": "#step-30533",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30970",
+        "content_id": "8291",
+        "dom_id": "step-30970",
+        "selector": "#step-30970",
+        "step_anchor": "step-2",
+        "title": "Identifying True Statements Regarding the Spectral Theorem",
+        "key_prerequisites": [
+          {
+            "topic_id": "3335",
+            "name": "Diagonalization of 2x2 Symmetric Matrices",
+            "href": "/topics/3335"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "94766",
+        "dom_id": "question-94766",
+        "selector": "#question-94766",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "95411",
+        "dom_id": "question-95411",
+        "selector": "#question-95411",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "30971",
+        "content_id": "4973",
+        "dom_id": "step-30971",
+        "selector": "#step-30971",
+        "step_anchor": "step-5",
+        "title": "The Spectral Decomposition of a Symmetric Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30973",
+        "content_id": "8293",
+        "dom_id": "step-30973",
+        "selector": "#step-30973",
+        "step_anchor": "step-6",
+        "title": "Finding the Spectral Decomposition of a Symmetric Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "95730",
+        "dom_id": "question-95730",
+        "selector": "#question-95730",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "94769",
+        "dom_id": "question-94769",
+        "selector": "#question-94769",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30972",
+        "content_id": "8292",
+        "dom_id": "step-30972",
+        "selector": "#step-30972",
+        "step_anchor": "step-9",
+        "title": "Finding a Projection Matrix That Orthogonally Projects a Vector to the Subspace Spanned by an Eigenvector",
+        "key_prerequisites": [
+          {
+            "topic_id": "2125",
+            "name": "Projection Matrices, Linear Transformations and Their Properties",
+            "href": "/topics/2125"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "95714",
+        "dom_id": "question-95714",
+        "selector": "#question-95714",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "94768",
+        "dom_id": "question-94768",
+        "selector": "#question-94768",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-30533",
+        "filename": "01-step-30533.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-30970",
+        "filename": "02-step-30970.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-94766",
+        "filename": "03-question-94766.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-95411",
+        "filename": "04-question-95411.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-30971",
+        "filename": "05-step-30971.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-30973",
+        "filename": "06-step-30973.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-95730",
+        "filename": "07-question-95730.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-94769",
+        "filename": "08-question-94769.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-30972",
+        "filename": "09-step-30972.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-95714",
+        "filename": "10-question-95714.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-94768",
+        "filename": "11-question-94768.png"
+      }
+    ]
+  }
+}

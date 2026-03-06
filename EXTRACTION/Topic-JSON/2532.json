@@ -1,0 +1,390 @@
+{
+  "schema_version": 1,
+  "topic_id": "2532",
+  "topic_title": "Phase Lines of First-Order ODEs",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2532.html",
+  "source_url": "https://mathacademy.com/topics/2532",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "593578",
+        "dom_id": "sectionLink-593578",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-593578"
+      },
+      {
+        "index": 2,
+        "step_id": "593582",
+        "dom_id": "sectionLink-593582",
+        "name": "",
+        "title": "Identifying the Phase Line That Corresponds to a Differential Equation",
+        "selector": "#sectionLink-593582"
+      },
+      {
+        "index": 3,
+        "step_id": "610176",
+        "dom_id": "sectionLink-610176",
+        "name": "",
+        "title": "Analyzing Properties of a Differential Equation Given Its Phase Line",
+        "selector": "#sectionLink-610176"
+      },
+      {
+        "index": 4,
+        "step_id": "593585",
+        "dom_id": "sectionLink-593585",
+        "name": "",
+        "title": "Identifying a Differential Equation Corresponding to a Phase Line",
+        "selector": "#sectionLink-593585"
+      },
+      {
+        "index": 5,
+        "step_id": "593579",
+        "dom_id": "sectionLink-593579",
+        "name": "",
+        "title": "Identifying Phase Lines From Graphs",
+        "selector": "#sectionLink-593579"
+      },
+      {
+        "index": 6,
+        "step_id": "593588",
+        "dom_id": "sectionLink-593588",
+        "name": "",
+        "title": "Connection Between Phase Lines and Slope Fields",
+        "selector": "#sectionLink-593588"
+      },
+      {
+        "index": 7,
+        "step_id": "593589",
+        "dom_id": "sectionLink-593589",
+        "name": "",
+        "title": "Phase Lines and Slope Fields",
+        "selector": "#sectionLink-593589"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3220",
+        "name": "Analyzing Slope Fields for Autonomous Differential Equations",
+        "href": "/topics/analyzing-slope-fields-for-autonomous-differential-equations-3220"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "593578",
+        "content_id": "5569",
+        "dom_id": "step-593578",
+        "selector": "#step-593578",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "593582",
+        "content_id": "8533",
+        "dom_id": "step-593582",
+        "selector": "#step-593582",
+        "step_anchor": "step-2",
+        "title": "Identifying the Phase Line That Corresponds to a Differential Equation",
+        "key_prerequisites": [
+          {
+            "topic_id": "2162",
+            "name": "Solving Polynomial Inequalities Using the Sign Table Method",
+            "href": "/topics/2162"
+          },
+          {
+            "topic_id": "3184",
+            "name": "Equilibrium Solutions of First-Order ODEs",
+            "href": "/topics/3184"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "96512",
+        "dom_id": "question-96512",
+        "selector": "#question-96512",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "98532",
+        "dom_id": "question-98532",
+        "selector": "#question-98532",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "610176",
+        "content_id": "14933",
+        "dom_id": "step-610176",
+        "selector": "#step-610176",
+        "step_anchor": "step-5",
+        "title": "Analyzing Properties of a Differential Equation Given Its Phase Line",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "593585",
+        "content_id": "8586",
+        "dom_id": "step-593585",
+        "selector": "#step-593585",
+        "step_anchor": "step-6",
+        "title": "Identifying a Differential Equation Corresponding to a Phase Line",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "98630",
+        "dom_id": "question-98630",
+        "selector": "#question-98630",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "96513",
+        "dom_id": "question-96513",
+        "selector": "#question-96513",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "593579",
+        "content_id": "8535",
+        "dom_id": "step-593579",
+        "selector": "#step-593579",
+        "step_anchor": "step-9",
+        "title": "Identifying Phase Lines From Graphs",
+        "key_prerequisites": [
+          {
+            "topic_id": "2147",
+            "name": "Solving Polynomial Inequalities Using a Graphical Method",
+            "href": "/topics/2147"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "97931",
+        "dom_id": "question-97931",
+        "selector": "#question-97931",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "96516",
+        "dom_id": "question-96516",
+        "selector": "#question-96516",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "593588",
+        "content_id": "5570",
+        "dom_id": "step-593588",
+        "selector": "#step-593588",
+        "step_anchor": "step-12",
+        "title": "Connection Between Phase Lines and Slope Fields",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "593589",
+        "content_id": "8534",
+        "dom_id": "step-593589",
+        "selector": "#step-593589",
+        "step_anchor": "step-13",
+        "title": "Phase Lines and Slope Fields",
+        "key_prerequisites": [
+          {
+            "topic_id": "3220",
+            "name": "Analyzing Slope Fields for Autonomous Differential Equations",
+            "href": "/topics/3220"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "96514",
+        "dom_id": "question-96514",
+        "selector": "#question-96514",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "96515",
+        "dom_id": "question-96515",
+        "selector": "#question-96515",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-593578",
+        "filename": "01-step-593578.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-593582",
+        "filename": "02-step-593582.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-96512",
+        "filename": "03-question-96512.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-98532",
+        "filename": "04-question-98532.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-610176",
+        "filename": "05-step-610176.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-593585",
+        "filename": "06-step-593585.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-98630",
+        "filename": "07-question-98630.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-96513",
+        "filename": "08-question-96513.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-593579",
+        "filename": "09-step-593579.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-97931",
+        "filename": "10-question-97931.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-96516",
+        "filename": "11-question-96516.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-593588",
+        "filename": "12-step-593588.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-593589",
+        "filename": "13-step-593589.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-96514",
+        "filename": "14-question-96514.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-96515",
+        "filename": "15-question-96515.png"
+      }
+    ]
+  }
+}

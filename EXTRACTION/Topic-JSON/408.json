@@ -1,0 +1,340 @@
+{
+  "schema_version": 1,
+  "topic_id": "408",
+  "topic_title": "Calculating the Intersection of Two Lines",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/408.html",
+  "source_url": "https://mathacademy.com/topics/408",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "143915",
+        "dom_id": "sectionLink-143915",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-143915"
+      },
+      {
+        "index": 2,
+        "step_id": "143916",
+        "dom_id": "sectionLink-143916",
+        "name": "",
+        "title": "Finding the Intersection of Two Lines Given in Slope-Intercept Form",
+        "selector": "#sectionLink-143916"
+      },
+      {
+        "index": 3,
+        "step_id": "143920",
+        "dom_id": "sectionLink-143920",
+        "name": "",
+        "title": "Lines Given in Standard Form",
+        "selector": "#sectionLink-143920"
+      },
+      {
+        "index": 4,
+        "step_id": "143921",
+        "dom_id": "sectionLink-143921",
+        "name": "",
+        "title": "Finding the Intersection of Two Lines Given in Standard Form",
+        "selector": "#sectionLink-143921"
+      },
+      {
+        "index": 5,
+        "step_id": "143925",
+        "dom_id": "sectionLink-143925",
+        "name": "",
+        "title": "Calculating Unknown Parameters Given a Point of Intersection",
+        "selector": "#sectionLink-143925"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "487",
+        "name": "Solving Systems of Equations by Substitution",
+        "href": "/topics/solving-systems-of-equations-by-substitution-487"
+      },
+      {
+        "topic_id": "839",
+        "name": "Equations of Lines in Standard Form",
+        "href": "/topics/equations-of-lines-in-standard-form-839"
+      },
+      {
+        "topic_id": "4236",
+        "name": "Solving Systems of Linear Equations Using Elimination: Two Transformations",
+        "href": "/topics/solving-systems-of-linear-equations-using-elimination-two-transformations-4236"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "143915",
+        "content_id": "8709",
+        "dom_id": "step-143915",
+        "selector": "#step-143915",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "143916",
+        "content_id": "14010",
+        "dom_id": "step-143916",
+        "selector": "#step-143916",
+        "step_anchor": "step-2",
+        "title": "Finding the Intersection of Two Lines Given in Slope-Intercept Form",
+        "key_prerequisites": [
+          {
+            "topic_id": "487",
+            "name": "Solving Systems of Equations by Substitution",
+            "href": "/topics/487"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "208830",
+        "dom_id": "question-208830",
+        "selector": "#question-208830",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "3319",
+        "dom_id": "question-3319",
+        "selector": "#question-3319",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "208840",
+        "dom_id": "question-208840",
+        "selector": "#question-208840",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "143920",
+        "content_id": "9140",
+        "dom_id": "step-143920",
+        "selector": "#step-143920",
+        "step_anchor": "step-6",
+        "title": "Lines Given in Standard Form",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "143921",
+        "content_id": "14012",
+        "dom_id": "step-143921",
+        "selector": "#step-143921",
+        "step_anchor": "step-7",
+        "title": "Finding the Intersection of Two Lines Given in Standard Form",
+        "key_prerequisites": [
+          {
+            "topic_id": "839",
+            "name": "Equations of Lines in Standard Form",
+            "href": "/topics/839"
+          },
+          {
+            "topic_id": "4026",
+            "name": "Solving Systems of Linear Equations Using Elimination: One Transformation",
+            "href": "/topics/4026"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "75876",
+        "dom_id": "question-75876",
+        "selector": "#question-75876",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "215423",
+        "dom_id": "question-215423",
+        "selector": "#question-215423",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "208847",
+        "dom_id": "question-208847",
+        "selector": "#question-208847",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "143925",
+        "content_id": "14015",
+        "dom_id": "step-143925",
+        "selector": "#step-143925",
+        "step_anchor": "step-11",
+        "title": "Calculating Unknown Parameters Given a Point of Intersection",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "24481",
+        "dom_id": "question-24481",
+        "selector": "#question-24481",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "215453",
+        "dom_id": "question-215453",
+        "selector": "#question-215453",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-143915",
+        "filename": "01-step-143915.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-143916",
+        "filename": "02-step-143916.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-208830",
+        "filename": "03-question-208830.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-3319",
+        "filename": "04-question-3319.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-208840",
+        "filename": "05-question-208840.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-143920",
+        "filename": "06-step-143920.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-143921",
+        "filename": "07-step-143921.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-75876",
+        "filename": "08-question-75876.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-215423",
+        "filename": "09-question-215423.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-208847",
+        "filename": "10-question-208847.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-143925",
+        "filename": "11-step-143925.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-24481",
+        "filename": "12-question-24481.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-215453",
+        "filename": "13-question-215453.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,347 @@
+{
+  "schema_version": 1,
+  "topic_id": "744",
+  "topic_title": "The Integral Test",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/744.html",
+  "source_url": "https://mathacademy.com/topics/744",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "2398",
+        "dom_id": "sectionLink-2398",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-2398"
+      },
+      {
+        "index": 2,
+        "step_id": "2399",
+        "dom_id": "sectionLink-2399",
+        "name": "",
+        "title": "Applying the Integral Test to a Convergent Series",
+        "selector": "#sectionLink-2399"
+      },
+      {
+        "index": 3,
+        "step_id": "2402",
+        "dom_id": "sectionLink-2402",
+        "name": "",
+        "title": "Applying the Integral Test to a Divergent Series",
+        "selector": "#sectionLink-2402"
+      },
+      {
+        "index": 4,
+        "step_id": "2405",
+        "dom_id": "sectionLink-2405",
+        "name": "",
+        "title": "Comparing the Sum of the Series to the Value of an Integral",
+        "selector": "#sectionLink-2405"
+      },
+      {
+        "index": 5,
+        "step_id": "2406",
+        "dom_id": "sectionLink-2406",
+        "name": "",
+        "title": "Comparing the Sum of a Series to the Value of Its Corresponding Integral",
+        "selector": "#sectionLink-2406"
+      },
+      {
+        "index": 6,
+        "step_id": "2408",
+        "dom_id": "sectionLink-2408",
+        "name": "",
+        "title": "Why Does the Integral Test Work?",
+        "selector": "#sectionLink-2408"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "477",
+        "name": "Approximating Areas With the Left Riemann Sum",
+        "href": "/topics/approximating-areas-with-the-left-riemann-sum-477"
+      },
+      {
+        "topic_id": "758",
+        "name": "Improper Integrals",
+        "href": "/topics/improper-integrals-758"
+      },
+      {
+        "topic_id": "982",
+        "name": "Convergent and Divergent Infinite Series",
+        "href": "/topics/convergent-and-divergent-infinite-series-982"
+      },
+      {
+        "topic_id": "1281",
+        "name": "Approximating Areas With the Right Riemann Sum",
+        "href": "/topics/approximating-areas-with-the-right-riemann-sum-1281"
+      },
+      {
+        "topic_id": "1359",
+        "name": "Determining Intervals on Which a Function Is Increasing or Decreasing",
+        "href": "/topics/determining-intervals-on-which-a-function-is-increasing-or-decreasing-1359"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "2398",
+        "content_id": "1220",
+        "dom_id": "step-2398",
+        "selector": "#step-2398",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "2399",
+        "content_id": "699",
+        "dom_id": "step-2399",
+        "selector": "#step-2399",
+        "step_anchor": "step-2",
+        "title": "Applying the Integral Test to a Convergent Series",
+        "key_prerequisites": [
+          {
+            "topic_id": "758",
+            "name": "Improper Integrals",
+            "href": "/topics/758"
+          },
+          {
+            "topic_id": "982",
+            "name": "Convergent and Divergent Infinite Series",
+            "href": "/topics/982"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "50579",
+        "dom_id": "question-50579",
+        "selector": "#question-50579",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "50572",
+        "dom_id": "question-50572",
+        "selector": "#question-50572",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "2402",
+        "content_id": "700",
+        "dom_id": "step-2402",
+        "selector": "#step-2402",
+        "step_anchor": "step-5",
+        "title": "Applying the Integral Test to a Divergent Series",
+        "key_prerequisites": [
+          {
+            "topic_id": "443",
+            "name": "Integration Using Substitution",
+            "href": "/topics/443"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "50574",
+        "dom_id": "question-50574",
+        "selector": "#question-50574",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "50584",
+        "dom_id": "question-50584",
+        "selector": "#question-50584",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "2405",
+        "content_id": "1223",
+        "dom_id": "step-2405",
+        "selector": "#step-2405",
+        "step_anchor": "step-8",
+        "title": "Comparing the Sum of the Series to the Value of an Integral",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "2406",
+        "content_id": "701",
+        "dom_id": "step-2406",
+        "selector": "#step-2406",
+        "step_anchor": "step-9",
+        "title": "Comparing the Sum of a Series to the Value of Its Corresponding Integral",
+        "key_prerequisites": [
+          {
+            "topic_id": "477",
+            "name": "Approximating Areas With the Left Riemann Sum",
+            "href": "/topics/477"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "50605",
+        "dom_id": "question-50605",
+        "selector": "#question-50605",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "50472",
+        "dom_id": "question-50472",
+        "selector": "#question-50472",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "2408",
+        "content_id": "1225",
+        "dom_id": "step-2408",
+        "selector": "#step-2408",
+        "step_anchor": "step-12",
+        "title": "Why Does the Integral Test Work?",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-2398",
+        "filename": "01-step-2398.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-2399",
+        "filename": "02-step-2399.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-50579",
+        "filename": "03-question-50579.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-50572",
+        "filename": "04-question-50572.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-2402",
+        "filename": "05-step-2402.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-50574",
+        "filename": "06-question-50574.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-50584",
+        "filename": "07-question-50584.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-2405",
+        "filename": "08-step-2405.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-2406",
+        "filename": "09-step-2406.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-50605",
+        "filename": "10-question-50605.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-50472",
+        "filename": "11-question-50472.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-2408",
+        "filename": "12-step-2408.png"
+      }
+    ]
+  }
+}

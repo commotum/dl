@@ -1,0 +1,271 @@
+{
+  "schema_version": 1,
+  "topic_id": "1374",
+  "topic_title": "Solving 3x3 Singular Systems of Equations Using Gaussian Elimination",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1374.html",
+  "source_url": "https://mathacademy.com/topics/1374",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "17206",
+        "dom_id": "sectionLink-17206",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-17206"
+      },
+      {
+        "index": 2,
+        "step_id": "17207",
+        "dom_id": "sectionLink-17207",
+        "name": "",
+        "title": "Finding the General Solution of a Singular 3x3 System of Equations with Two Pivots",
+        "selector": "#sectionLink-17207"
+      },
+      {
+        "index": 3,
+        "step_id": "17208",
+        "dom_id": "sectionLink-17208",
+        "name": "",
+        "title": "Finding the General Solution of a Singular 3x3 System of Equations with One Pivot",
+        "selector": "#sectionLink-17208"
+      },
+      {
+        "index": 4,
+        "step_id": "23204",
+        "dom_id": "sectionLink-23204",
+        "name": "",
+        "title": "Identifying a Singular 3x3 System of Equations That Has No Solution",
+        "selector": "#sectionLink-23204"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1373",
+        "name": "Solving 2x2 Singular Systems of Equations Using Gaussian Elimination",
+        "href": "/topics/solving-2x2-singular-systems-of-equations-using-gaussian-elimination-1373"
+      },
+      {
+        "topic_id": "1806",
+        "name": "The Parametric Equations of a Plane",
+        "href": "/topics/the-parametric-equations-of-a-plane-1806"
+      },
+      {
+        "topic_id": "1904",
+        "name": "Identifying the Pivot Columns of a Matrix",
+        "href": "/topics/identifying-the-pivot-columns-of-a-matrix-1904"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 10,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "17206",
+        "content_id": "3159",
+        "dom_id": "step-17206",
+        "selector": "#step-17206",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17207",
+        "content_id": "4707",
+        "dom_id": "step-17207",
+        "selector": "#step-17207",
+        "step_anchor": "step-2",
+        "title": "Finding the General Solution of a Singular 3x3 System of Equations with Two Pivots",
+        "key_prerequisites": [
+          {
+            "topic_id": "1048",
+            "name": "Solving 3x3 Systems of Equations Using Gaussian Elimination",
+            "href": "/topics/1048"
+          },
+          {
+            "topic_id": "1373",
+            "name": "Solving 2x2 Singular Systems of Equations Using Gaussian Elimination",
+            "href": "/topics/1373"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "35589",
+        "dom_id": "question-35589",
+        "selector": "#question-35589",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "20969",
+        "dom_id": "question-20969",
+        "selector": "#question-20969",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17208",
+        "content_id": "4708",
+        "dom_id": "step-17208",
+        "selector": "#step-17208",
+        "step_anchor": "step-5",
+        "title": "Finding the General Solution of a Singular 3x3 System of Equations with One Pivot",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "20966",
+        "dom_id": "question-20966",
+        "selector": "#question-20966",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "73398",
+        "dom_id": "question-73398",
+        "selector": "#question-73398",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "23204",
+        "content_id": "6202",
+        "dom_id": "step-23204",
+        "selector": "#step-23204",
+        "step_anchor": "step-8",
+        "title": "Identifying a Singular 3x3 System of Equations That Has No Solution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "10293",
+        "dom_id": "question-10293",
+        "selector": "#question-10293",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "10680",
+        "dom_id": "question-10680",
+        "selector": "#question-10680",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-17206",
+        "filename": "01-step-17206.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-17207",
+        "filename": "02-step-17207.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-35589",
+        "filename": "03-question-35589.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-20969",
+        "filename": "04-question-20969.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-17208",
+        "filename": "05-step-17208.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-20966",
+        "filename": "06-question-20966.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-73398",
+        "filename": "07-question-73398.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-23204",
+        "filename": "08-step-23204.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-10293",
+        "filename": "09-question-10293.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-10680",
+        "filename": "10-question-10680.png"
+      }
+    ]
+  }
+}

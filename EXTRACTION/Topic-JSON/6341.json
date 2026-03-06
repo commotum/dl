@@ -1,0 +1,449 @@
+{
+  "schema_version": 1,
+  "topic_id": "6341",
+  "topic_title": "Finding Intersections of Lines and Quadratic Functions",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/6341.html",
+  "source_url": "https://mathacademy.com/topics/6341",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "509403",
+        "dom_id": "sectionLink-509403",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-509403"
+      },
+      {
+        "index": 2,
+        "step_id": "509404",
+        "dom_id": "sectionLink-509404",
+        "name": "",
+        "title": "Finding the X-Coordinates of the Intersection Points of a Parabola and a Line",
+        "selector": "#sectionLink-509404"
+      },
+      {
+        "index": 3,
+        "step_id": "509408",
+        "dom_id": "sectionLink-509408",
+        "name": "",
+        "title": "Finding the Y-Coordinates of the Intersection Points of a Parabola and a Line",
+        "selector": "#sectionLink-509408"
+      },
+      {
+        "index": 4,
+        "step_id": "509412",
+        "dom_id": "sectionLink-509412",
+        "name": "",
+        "title": "The Number of Intersection Points",
+        "selector": "#sectionLink-509412"
+      },
+      {
+        "index": 5,
+        "step_id": "509413",
+        "dom_id": "sectionLink-509413",
+        "name": "",
+        "title": "Finding the Intersection Point of a Parabola and a Line",
+        "selector": "#sectionLink-509413"
+      },
+      {
+        "index": 6,
+        "step_id": "509417",
+        "dom_id": "sectionLink-509417",
+        "name": "",
+        "title": "Finding the Range of an Unknown Parameter Given That There Are No Intersection Points",
+        "selector": "#sectionLink-509417"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "84",
+        "name": "Graphs of General Quadratic Functions",
+        "href": "/topics/graphs-of-general-quadratic-functions-84"
+      },
+      {
+        "topic_id": "408",
+        "name": "Calculating the Intersection of Two Lines",
+        "href": "/topics/calculating-the-intersection-of-two-lines-408"
+      },
+      {
+        "topic_id": "410",
+        "name": "Solving Systems of Nonlinear Equations",
+        "href": "/topics/solving-systems-of-nonlinear-equations-410"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 18,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "509403",
+        "content_id": "13862",
+        "dom_id": "step-509403",
+        "selector": "#step-509403",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "509404",
+        "content_id": "19814",
+        "dom_id": "step-509404",
+        "selector": "#step-509404",
+        "step_anchor": "step-2",
+        "title": "Finding the X-Coordinates of the Intersection Points of a Parabola and a Line",
+        "key_prerequisites": [
+          {
+            "topic_id": "84",
+            "name": "Graphs of General Quadratic Functions",
+            "href": "/topics/84"
+          },
+          {
+            "topic_id": "408",
+            "name": "Calculating the Intersection of Two Lines",
+            "href": "/topics/408"
+          },
+          {
+            "topic_id": "410",
+            "name": "Solving Systems of Nonlinear Equations",
+            "href": "/topics/410"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "152267",
+        "dom_id": "question-152267",
+        "selector": "#question-152267",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "220364",
+        "dom_id": "question-220364",
+        "selector": "#question-220364",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "155529",
+        "dom_id": "question-155529",
+        "selector": "#question-155529",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "509408",
+        "content_id": "19815",
+        "dom_id": "step-509408",
+        "selector": "#step-509408",
+        "step_anchor": "step-6",
+        "title": "Finding the Y-Coordinates of the Intersection Points of a Parabola and a Line",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "220366",
+        "dom_id": "question-220366",
+        "selector": "#question-220366",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "152275",
+        "dom_id": "question-152275",
+        "selector": "#question-152275",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "250077",
+        "dom_id": "question-250077",
+        "selector": "#question-250077",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "509412",
+        "content_id": "13863",
+        "dom_id": "step-509412",
+        "selector": "#step-509412",
+        "step_anchor": "step-10",
+        "title": "The Number of Intersection Points",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "509413",
+        "content_id": "19816",
+        "dom_id": "step-509413",
+        "selector": "#step-509413",
+        "step_anchor": "step-11",
+        "title": "Finding the Intersection Point of a Parabola and a Line",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "152278",
+        "dom_id": "question-152278",
+        "selector": "#question-152278",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "250095",
+        "dom_id": "question-250095",
+        "selector": "#question-250095",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "152276",
+        "dom_id": "question-152276",
+        "selector": "#question-152276",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "509417",
+        "content_id": "19817",
+        "dom_id": "step-509417",
+        "selector": "#step-509417",
+        "step_anchor": "step-15",
+        "title": "Finding the Range of an Unknown Parameter Given That There Are No Intersection Points",
+        "key_prerequisites": [
+          {
+            "topic_id": "425",
+            "name": "The Discriminant of a Quadratic Equation",
+            "href": "/topics/425"
+          },
+          {
+            "topic_id": "4021",
+            "name": "Solving Two-Step Inequalities",
+            "href": "/topics/4021"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "220369",
+        "dom_id": "question-220369",
+        "selector": "#question-220369",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "question_id": "152308",
+        "dom_id": "question-152308",
+        "selector": "#question-152308",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 18,
+        "item_type": "question",
+        "question_id": "250158",
+        "dom_id": "question-250158",
+        "selector": "#question-250158",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-509403",
+        "filename": "01-step-509403.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-509404",
+        "filename": "02-step-509404.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-152267",
+        "filename": "03-question-152267.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-220364",
+        "filename": "04-question-220364.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-155529",
+        "filename": "05-question-155529.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-509408",
+        "filename": "06-step-509408.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-220366",
+        "filename": "07-question-220366.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-152275",
+        "filename": "08-question-152275.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-250077",
+        "filename": "09-question-250077.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-509412",
+        "filename": "10-step-509412.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-509413",
+        "filename": "11-step-509413.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-152278",
+        "filename": "12-question-152278.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-250095",
+        "filename": "13-question-250095.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-152276",
+        "filename": "14-question-152276.png"
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "selector": "#step-509417",
+        "filename": "15-step-509417.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-220369",
+        "filename": "16-question-220369.png"
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "selector": "#question-152308",
+        "filename": "17-question-152308.png"
+      },
+      {
+        "index": 18,
+        "item_type": "question",
+        "selector": "#question-250158",
+        "filename": "18-question-250158.png"
+      }
+    ]
+  }
+}

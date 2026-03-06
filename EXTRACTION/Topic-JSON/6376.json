@@ -1,0 +1,357 @@
+{
+  "schema_version": 1,
+  "topic_id": "6376",
+  "topic_title": "Fundamental Matrices",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/6376.html",
+  "source_url": "https://mathacademy.com/topics/6376",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "594316",
+        "dom_id": "sectionLink-594316",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-594316"
+      },
+      {
+        "index": 2,
+        "step_id": "594317",
+        "dom_id": "sectionLink-594317",
+        "name": "",
+        "title": "Constructing a Fundamental Matrix",
+        "selector": "#sectionLink-594317"
+      },
+      {
+        "index": 3,
+        "step_id": "594320",
+        "dom_id": "sectionLink-594320",
+        "name": "",
+        "title": "Properties of the Fundamental Matrix",
+        "selector": "#sectionLink-594320"
+      },
+      {
+        "index": 4,
+        "step_id": "594321",
+        "dom_id": "sectionLink-594321",
+        "name": "",
+        "title": "Proving Properties of a Fundamental Matrix",
+        "selector": "#sectionLink-594321"
+      },
+      {
+        "index": 5,
+        "step_id": "594325",
+        "dom_id": "sectionLink-594325",
+        "name": "",
+        "title": "Fundamental Matrices and Matrix Exponentials",
+        "selector": "#sectionLink-594325"
+      },
+      {
+        "index": 6,
+        "step_id": "594326",
+        "dom_id": "sectionLink-594326",
+        "name": "",
+        "title": "Computing Fundamental Matrices Using Matrix Exponentials",
+        "selector": "#sectionLink-594326"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2088",
+        "name": "Solving Homogeneous Systems of ODEs With Distinct Eigenvalues and Initial Conditions",
+        "href": "/topics/solving-homogeneous-systems-of-odes-with-distinct-eigenvalues-and-initial-conditions-2088"
+      },
+      {
+        "topic_id": "6375",
+        "name": "Matrix Exponentials",
+        "href": "/topics/matrix-exponentials-6375"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "594316",
+        "content_id": "14508",
+        "dom_id": "step-594316",
+        "selector": "#step-594316",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "594317",
+        "content_id": "21695",
+        "dom_id": "step-594317",
+        "selector": "#step-594317",
+        "step_anchor": "step-2",
+        "title": "Constructing a Fundamental Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "6374",
+            "name": "Linear Independence for Homogeneous Systems of ODEs",
+            "href": "/topics/6374"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "333701",
+        "dom_id": "question-333701",
+        "selector": "#question-333701",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "334329",
+        "dom_id": "question-334329",
+        "selector": "#question-334329",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "594320",
+        "content_id": "14509",
+        "dom_id": "step-594320",
+        "selector": "#step-594320",
+        "step_anchor": "step-5",
+        "title": "Properties of the Fundamental Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "594321",
+        "content_id": "21697",
+        "dom_id": "step-594321",
+        "selector": "#step-594321",
+        "step_anchor": "step-6",
+        "title": "Proving Properties of a Fundamental Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "333722",
+        "dom_id": "question-333722",
+        "selector": "#question-333722",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "333723",
+        "dom_id": "question-333723",
+        "selector": "#question-333723",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "333719",
+        "dom_id": "question-333719",
+        "selector": "#question-333719",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "594325",
+        "content_id": "14510",
+        "dom_id": "step-594325",
+        "selector": "#step-594325",
+        "step_anchor": "step-10",
+        "title": "Fundamental Matrices and Matrix Exponentials",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "594326",
+        "content_id": "21696",
+        "dom_id": "step-594326",
+        "selector": "#step-594326",
+        "step_anchor": "step-11",
+        "title": "Computing Fundamental Matrices Using Matrix Exponentials",
+        "key_prerequisites": [
+          {
+            "topic_id": "6375",
+            "name": "Matrix Exponentials",
+            "href": "/topics/6375"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "333712",
+        "dom_id": "question-333712",
+        "selector": "#question-333712",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "333713",
+        "dom_id": "question-333713",
+        "selector": "#question-333713",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "333715",
+        "dom_id": "question-333715",
+        "selector": "#question-333715",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-594316",
+        "filename": "01-step-594316.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-594317",
+        "filename": "02-step-594317.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-333701",
+        "filename": "03-question-333701.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-334329",
+        "filename": "04-question-334329.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-594320",
+        "filename": "05-step-594320.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-594321",
+        "filename": "06-step-594321.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-333722",
+        "filename": "07-question-333722.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-333723",
+        "filename": "08-question-333723.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-333719",
+        "filename": "09-question-333719.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-594325",
+        "filename": "10-step-594325.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-594326",
+        "filename": "11-step-594326.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-333712",
+        "filename": "12-question-333712.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-333713",
+        "filename": "13-question-333713.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-333715",
+        "filename": "14-question-333715.png"
+      }
+    ]
+  }
+}

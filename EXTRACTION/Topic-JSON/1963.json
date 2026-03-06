@@ -1,0 +1,332 @@
+{
+  "schema_version": 1,
+  "topic_id": "1963",
+  "topic_title": "The Image and Rank of a Linear Transformation",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1963.html",
+  "source_url": "https://mathacademy.com/topics/1963",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "20015",
+        "dom_id": "sectionLink-20015",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-20015"
+      },
+      {
+        "index": 2,
+        "step_id": "20424",
+        "dom_id": "sectionLink-20424",
+        "name": "",
+        "title": "Determining a Component of a Vector in the Image of a Linear Transformation",
+        "selector": "#sectionLink-20424"
+      },
+      {
+        "index": 3,
+        "step_id": "25971",
+        "dom_id": "sectionLink-25971",
+        "name": "",
+        "title": "Determining If a Vector Lies in the Image",
+        "selector": "#sectionLink-25971"
+      },
+      {
+        "index": 4,
+        "step_id": "20016",
+        "dom_id": "sectionLink-20016",
+        "name": "",
+        "title": "Determining Whether a Vector Is in the Image of a Linear Transformation",
+        "selector": "#sectionLink-20016"
+      },
+      {
+        "index": 5,
+        "step_id": "26848",
+        "dom_id": "sectionLink-26848",
+        "name": "",
+        "title": "The Rank of a Linear Transformation",
+        "selector": "#sectionLink-26848"
+      },
+      {
+        "index": 6,
+        "step_id": "20017",
+        "dom_id": "sectionLink-20017",
+        "name": "",
+        "title": "Calculating the Rank of a Linear Transformation",
+        "selector": "#sectionLink-20017"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1867",
+        "name": "The Rank of a Matrix",
+        "href": "/topics/the-rank-of-a-matrix-1867"
+      },
+      {
+        "topic_id": "1959",
+        "name": "The Standard Matrix of a Linear Transformation",
+        "href": "/topics/the-standard-matrix-of-a-linear-transformation-1959"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20015",
+        "content_id": "3530",
+        "dom_id": "step-20015",
+        "selector": "#step-20015",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20424",
+        "content_id": "5619",
+        "dom_id": "step-20424",
+        "selector": "#step-20424",
+        "step_anchor": "step-2",
+        "title": "Determining a Component of a Vector in the Image of a Linear Transformation",
+        "key_prerequisites": [
+          {
+            "topic_id": "487",
+            "name": "Solving Systems of Equations by Substitution",
+            "href": "/topics/487"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "38627",
+        "dom_id": "question-38627",
+        "selector": "#question-38627",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "38615",
+        "dom_id": "question-38615",
+        "selector": "#question-38615",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "25971",
+        "content_id": "4276",
+        "dom_id": "step-25971",
+        "selector": "#step-25971",
+        "step_anchor": "step-5",
+        "title": "Determining If a Vector Lies in the Image",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20016",
+        "content_id": "5442",
+        "dom_id": "step-20016",
+        "selector": "#step-20016",
+        "step_anchor": "step-6",
+        "title": "Determining Whether a Vector Is in the Image of a Linear Transformation",
+        "key_prerequisites": [
+          {
+            "topic_id": "1733",
+            "name": "Gaussian Elimination For NxM Systems of Equations",
+            "href": "/topics/1733"
+          },
+          {
+            "topic_id": "1959",
+            "name": "The Standard Matrix of a Linear Transformation",
+            "href": "/topics/1959"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "38007",
+        "dom_id": "question-38007",
+        "selector": "#question-38007",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "38001",
+        "dom_id": "question-38001",
+        "selector": "#question-38001",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "26848",
+        "content_id": "4382",
+        "dom_id": "step-26848",
+        "selector": "#step-26848",
+        "step_anchor": "step-9",
+        "title": "The Rank of a Linear Transformation",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20017",
+        "content_id": "5443",
+        "dom_id": "step-20017",
+        "selector": "#step-20017",
+        "step_anchor": "step-10",
+        "title": "Calculating the Rank of a Linear Transformation",
+        "key_prerequisites": [
+          {
+            "topic_id": "1867",
+            "name": "The Rank of a Matrix",
+            "href": "/topics/1867"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "40210",
+        "dom_id": "question-40210",
+        "selector": "#question-40210",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "38005",
+        "dom_id": "question-38005",
+        "selector": "#question-38005",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-20015",
+        "filename": "01-step-20015.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-20424",
+        "filename": "02-step-20424.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-38627",
+        "filename": "03-question-38627.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-38615",
+        "filename": "04-question-38615.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-25971",
+        "filename": "05-step-25971.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-20016",
+        "filename": "06-step-20016.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-38007",
+        "filename": "07-question-38007.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-38001",
+        "filename": "08-question-38001.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-26848",
+        "filename": "09-step-26848.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-20017",
+        "filename": "10-step-20017.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-40210",
+        "filename": "11-question-40210.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-38005",
+        "filename": "12-question-38005.png"
+      }
+    ]
+  }
+}

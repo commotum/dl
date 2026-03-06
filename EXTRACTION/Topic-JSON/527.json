@@ -1,0 +1,340 @@
+{
+  "schema_version": 1,
+  "topic_id": "527",
+  "topic_title": "Partitioning Line Segments",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/527.html",
+  "source_url": "https://mathacademy.com/topics/527",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "213178",
+        "dom_id": "sectionLink-213178",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-213178"
+      },
+      {
+        "index": 2,
+        "step_id": "213179",
+        "dom_id": "sectionLink-213179",
+        "name": "",
+        "title": "Finding a Point Dividing a Horizontal Segment",
+        "selector": "#sectionLink-213179"
+      },
+      {
+        "index": 3,
+        "step_id": "213182",
+        "dom_id": "sectionLink-213182",
+        "name": "",
+        "title": "Partitioning a Vertical Segment",
+        "selector": "#sectionLink-213182"
+      },
+      {
+        "index": 4,
+        "step_id": "213183",
+        "dom_id": "sectionLink-213183",
+        "name": "",
+        "title": "Finding a Point Dividing a Vertical Segment",
+        "selector": "#sectionLink-213183"
+      },
+      {
+        "index": 5,
+        "step_id": "213186",
+        "dom_id": "sectionLink-213186",
+        "name": "",
+        "title": "Partitioning a Segment",
+        "selector": "#sectionLink-213186"
+      },
+      {
+        "index": 6,
+        "step_id": "213187",
+        "dom_id": "sectionLink-213187",
+        "name": "",
+        "title": "Finding a Point Dividing a Segment",
+        "selector": "#sectionLink-213187"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "64",
+        "name": "Evaluating Linear Expressions",
+        "href": "/topics/evaluating-linear-expressions-64"
+      },
+      {
+        "topic_id": "97",
+        "name": "Horizontal and Vertical Lines",
+        "href": "/topics/horizontal-and-vertical-lines-97"
+      },
+      {
+        "topic_id": "552",
+        "name": "Writing Ratios Using Fractions",
+        "href": "/topics/writing-ratios-using-fractions-552"
+      },
+      {
+        "topic_id": "573",
+        "name": "Distances Between Points in the Coordinate Plane",
+        "href": "/topics/distances-between-points-in-the-coordinate-plane-573"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "213178",
+        "content_id": "10457",
+        "dom_id": "step-213178",
+        "selector": "#step-213178",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "213179",
+        "content_id": "7831",
+        "dom_id": "step-213179",
+        "selector": "#step-213179",
+        "step_anchor": "step-2",
+        "title": "Finding a Point Dividing a Horizontal Segment",
+        "key_prerequisites": [
+          {
+            "topic_id": "64",
+            "name": "Evaluating Linear Expressions",
+            "href": "/topics/64"
+          },
+          {
+            "topic_id": "97",
+            "name": "Horizontal and Vertical Lines",
+            "href": "/topics/97"
+          },
+          {
+            "topic_id": "552",
+            "name": "Writing Ratios Using Fractions",
+            "href": "/topics/552"
+          },
+          {
+            "topic_id": "573",
+            "name": "Distances Between Points in the Coordinate Plane",
+            "href": "/topics/573"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "243169",
+        "dom_id": "question-243169",
+        "selector": "#question-243169",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "243203",
+        "dom_id": "question-243203",
+        "selector": "#question-243203",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "213182",
+        "content_id": "10458",
+        "dom_id": "step-213182",
+        "selector": "#step-213182",
+        "step_anchor": "step-5",
+        "title": "Partitioning a Vertical Segment",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "213183",
+        "content_id": "7878",
+        "dom_id": "step-213183",
+        "selector": "#step-213183",
+        "step_anchor": "step-6",
+        "title": "Finding a Point Dividing a Vertical Segment",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "243209",
+        "dom_id": "question-243209",
+        "selector": "#question-243209",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "243210",
+        "dom_id": "question-243210",
+        "selector": "#question-243210",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "213186",
+        "content_id": "4714",
+        "dom_id": "step-213186",
+        "selector": "#step-213186",
+        "step_anchor": "step-9",
+        "title": "Partitioning a Segment",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "213187",
+        "content_id": "7832",
+        "dom_id": "step-213187",
+        "selector": "#step-213187",
+        "step_anchor": "step-10",
+        "title": "Finding a Point Dividing a Segment",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "243187",
+        "dom_id": "question-243187",
+        "selector": "#question-243187",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "243188",
+        "dom_id": "question-243188",
+        "selector": "#question-243188",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-213178",
+        "filename": "01-step-213178.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-213179",
+        "filename": "02-step-213179.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-243169",
+        "filename": "03-question-243169.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-243203",
+        "filename": "04-question-243203.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-213182",
+        "filename": "05-step-213182.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-213183",
+        "filename": "06-step-213183.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-243209",
+        "filename": "07-question-243209.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-243210",
+        "filename": "08-question-243210.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-213186",
+        "filename": "09-step-213186.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-213187",
+        "filename": "10-step-213187.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-243187",
+        "filename": "11-question-243187.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-243188",
+        "filename": "12-question-243188.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,410 @@
+{
+  "schema_version": 1,
+  "topic_id": "2546",
+  "topic_title": "Cauchy-Euler Equations With Forcing",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2546.html",
+  "source_url": "https://mathacademy.com/topics/2546",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "24768",
+        "dom_id": "sectionLink-24768",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-24768"
+      },
+      {
+        "index": 2,
+        "step_id": "24290",
+        "dom_id": "sectionLink-24290",
+        "name": "",
+        "title": "Calculating a Particular Solution For a Cauchy-Euler Equation with Forcing",
+        "selector": "#sectionLink-24290"
+      },
+      {
+        "index": 3,
+        "step_id": "24291",
+        "dom_id": "sectionLink-24291",
+        "name": "",
+        "title": "Solving a Cauchy-Euler Equation With Forcing",
+        "selector": "#sectionLink-24291"
+      },
+      {
+        "index": 4,
+        "step_id": "24780",
+        "dom_id": "sectionLink-24780",
+        "name": "",
+        "title": "Solving a Cauchy-Euler Equation Using Variation of Parameters",
+        "selector": "#sectionLink-24780"
+      },
+      {
+        "index": 5,
+        "step_id": "24292",
+        "dom_id": "sectionLink-24292",
+        "name": "",
+        "title": "Calculating a Particular Solution For a Cauchy-Euler Equation Using Variation of Parameters",
+        "selector": "#sectionLink-24292"
+      },
+      {
+        "index": 6,
+        "step_id": "24779",
+        "dom_id": "sectionLink-24779",
+        "name": "",
+        "title": "Solving a Cauchy-Euler Equation Using a Substitution",
+        "selector": "#sectionLink-24779"
+      },
+      {
+        "index": 7,
+        "step_id": "24293",
+        "dom_id": "sectionLink-24293",
+        "name": "",
+        "title": "Solving a Cauchy-Euler Equation Using a Substitution",
+        "selector": "#sectionLink-24293"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "881",
+        "name": "Second-Order Inhomogeneous ODEs With Polynomial Forcing",
+        "href": "/topics/second-order-inhomogeneous-odes-with-polynomial-forcing-881"
+      },
+      {
+        "topic_id": "882",
+        "name": "Second-Order Inhomogeneous ODEs With Exponential Forcing",
+        "href": "/topics/second-order-inhomogeneous-odes-with-exponential-forcing-882"
+      },
+      {
+        "topic_id": "883",
+        "name": "Second-Order Inhomogeneous ODEs With Sinusoidal Forcing",
+        "href": "/topics/second-order-inhomogeneous-odes-with-sinusoidal-forcing-883"
+      },
+      {
+        "topic_id": "2544",
+        "name": "Cauchy-Euler Equations: Characteristic Equations With Repeated Roots",
+        "href": "/topics/cauchy-euler-equations-characteristic-equations-with-repeated-roots-2544"
+      },
+      {
+        "topic_id": "2545",
+        "name": "Cauchy-Euler Equations: Characteristic Equations With Complex Roots",
+        "href": "/topics/cauchy-euler-equations-characteristic-equations-with-complex-roots-2545"
+      },
+      {
+        "topic_id": "6704",
+        "name": "Solving Second-Order ODEs Using Variation of Parameters",
+        "href": "/topics/solving-second-order-odes-using-variation-of-parameters-6704"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "24768",
+        "content_id": "4099",
+        "dom_id": "step-24768",
+        "selector": "#step-24768",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "24290",
+        "content_id": "6633",
+        "dom_id": "step-24290",
+        "selector": "#step-24290",
+        "step_anchor": "step-2",
+        "title": "Calculating a Particular Solution For a Cauchy-Euler Equation with Forcing",
+        "key_prerequisites": [
+          {
+            "topic_id": "881",
+            "name": "Second-Order Inhomogeneous ODEs With Polynomial Forcing",
+            "href": "/topics/881"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "64894",
+        "dom_id": "question-64894",
+        "selector": "#question-64894",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "64943",
+        "dom_id": "question-64943",
+        "selector": "#question-64943",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "24291",
+        "content_id": "6634",
+        "dom_id": "step-24291",
+        "selector": "#step-24291",
+        "step_anchor": "step-5",
+        "title": "Solving a Cauchy-Euler Equation With Forcing",
+        "key_prerequisites": [
+          {
+            "topic_id": "2528",
+            "name": "Cauchy-Euler Equations: Characteristic Equations With Distinct Real Roots",
+            "href": "/topics/2528"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "64933",
+        "dom_id": "question-64933",
+        "selector": "#question-64933",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "64871",
+        "dom_id": "question-64871",
+        "selector": "#question-64871",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "24780",
+        "content_id": "4101",
+        "dom_id": "step-24780",
+        "selector": "#step-24780",
+        "step_anchor": "step-8",
+        "title": "Solving a Cauchy-Euler Equation Using Variation of Parameters",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "24292",
+        "content_id": "6635",
+        "dom_id": "step-24292",
+        "selector": "#step-24292",
+        "step_anchor": "step-9",
+        "title": "Calculating a Particular Solution For a Cauchy-Euler Equation Using Variation of Parameters",
+        "key_prerequisites": [
+          {
+            "topic_id": "2527",
+            "name": "Variation of Parameters for Second-Order ODEs",
+            "href": "/topics/2527"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "64976",
+        "dom_id": "question-64976",
+        "selector": "#question-64976",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "64891",
+        "dom_id": "question-64891",
+        "selector": "#question-64891",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "24779",
+        "content_id": "4100",
+        "dom_id": "step-24779",
+        "selector": "#step-24779",
+        "step_anchor": "step-12",
+        "title": "Solving a Cauchy-Euler Equation Using a Substitution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "24293",
+        "content_id": "6636",
+        "dom_id": "step-24293",
+        "selector": "#step-24293",
+        "step_anchor": "step-13",
+        "title": "Solving a Cauchy-Euler Equation Using a Substitution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "64952",
+        "dom_id": "question-64952",
+        "selector": "#question-64952",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "64878",
+        "dom_id": "question-64878",
+        "selector": "#question-64878",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-24768",
+        "filename": "01-step-24768.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-24290",
+        "filename": "02-step-24290.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-64894",
+        "filename": "03-question-64894.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-64943",
+        "filename": "04-question-64943.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-24291",
+        "filename": "05-step-24291.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-64933",
+        "filename": "06-question-64933.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-64871",
+        "filename": "07-question-64871.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-24780",
+        "filename": "08-step-24780.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-24292",
+        "filename": "09-step-24292.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-64976",
+        "filename": "10-question-64976.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-64891",
+        "filename": "11-question-64891.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-24779",
+        "filename": "12-step-24779.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-24293",
+        "filename": "13-step-24293.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-64952",
+        "filename": "14-question-64952.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-64878",
+        "filename": "15-question-64878.png"
+      }
+    ]
+  }
+}

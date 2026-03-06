@@ -1,0 +1,368 @@
+{
+  "schema_version": 1,
+  "topic_id": "2992",
+  "topic_title": "Mean and Variance of the Geometric Distribution",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2992.html",
+  "source_url": "https://mathacademy.com/topics/2992",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "34475",
+        "dom_id": "sectionLink-34475",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-34475"
+      },
+      {
+        "index": 2,
+        "step_id": "34530",
+        "dom_id": "sectionLink-34530",
+        "name": "",
+        "title": "The Mean of a Geometric Distribution",
+        "selector": "#sectionLink-34530"
+      },
+      {
+        "index": 3,
+        "step_id": "34534",
+        "dom_id": "sectionLink-34534",
+        "name": "",
+        "title": "Finding the Mean of a Geometric Distribution in Context",
+        "selector": "#sectionLink-34534"
+      },
+      {
+        "index": 4,
+        "step_id": "34539",
+        "dom_id": "sectionLink-34539",
+        "name": "",
+        "title": "The Variance of a Geometric Distribution",
+        "selector": "#sectionLink-34539"
+      },
+      {
+        "index": 5,
+        "step_id": "34542",
+        "dom_id": "sectionLink-34542",
+        "name": "",
+        "title": "Finding the Variance of a Geometric Distribution in Context",
+        "selector": "#sectionLink-34542"
+      },
+      {
+        "index": 6,
+        "step_id": "221305",
+        "dom_id": "sectionLink-221305",
+        "name": "",
+        "title": "Justification for the Mean",
+        "selector": "#sectionLink-221305"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1388",
+        "name": "Variance of Discrete Random Variables",
+        "href": "/topics/variance-of-discrete-random-variables-1388"
+      },
+      {
+        "topic_id": "2839",
+        "name": "Modeling With the Geometric Distribution",
+        "href": "/topics/modeling-with-the-geometric-distribution-2839"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "34475",
+        "content_id": "5577",
+        "dom_id": "step-34475",
+        "selector": "#step-34475",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "34530",
+        "content_id": "9236",
+        "dom_id": "step-34530",
+        "selector": "#step-34530",
+        "step_anchor": "step-2",
+        "title": "The Mean of a Geometric Distribution",
+        "key_prerequisites": [
+          {
+            "topic_id": "730",
+            "name": "Expected Values of Discrete Random Variables",
+            "href": "/topics/730"
+          },
+          {
+            "topic_id": "3284",
+            "name": "The Geometric Distribution",
+            "href": "/topics/3284"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "112743",
+        "dom_id": "question-112743",
+        "selector": "#question-112743",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "112744",
+        "dom_id": "question-112744",
+        "selector": "#question-112744",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "34534",
+        "content_id": "9238",
+        "dom_id": "step-34534",
+        "selector": "#step-34534",
+        "step_anchor": "step-5",
+        "title": "Finding the Mean of a Geometric Distribution in Context",
+        "key_prerequisites": [
+          {
+            "topic_id": "2839",
+            "name": "Modeling With the Geometric Distribution",
+            "href": "/topics/2839"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "112745",
+        "dom_id": "question-112745",
+        "selector": "#question-112745",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "112746",
+        "dom_id": "question-112746",
+        "selector": "#question-112746",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "34539",
+        "content_id": "9240",
+        "dom_id": "step-34539",
+        "selector": "#step-34539",
+        "step_anchor": "step-8",
+        "title": "The Variance of a Geometric Distribution",
+        "key_prerequisites": [
+          {
+            "topic_id": "1388",
+            "name": "Variance of Discrete Random Variables",
+            "href": "/topics/1388"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "112749",
+        "dom_id": "question-112749",
+        "selector": "#question-112749",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "112750",
+        "dom_id": "question-112750",
+        "selector": "#question-112750",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "34542",
+        "content_id": "9241",
+        "dom_id": "step-34542",
+        "selector": "#step-34542",
+        "step_anchor": "step-11",
+        "title": "Finding the Variance of a Geometric Distribution in Context",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "112751",
+        "dom_id": "question-112751",
+        "selector": "#question-112751",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "112752",
+        "dom_id": "question-112752",
+        "selector": "#question-112752",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "221305",
+        "content_id": "10729",
+        "dom_id": "step-221305",
+        "selector": "#step-221305",
+        "step_anchor": "step-14",
+        "title": "Justification for the Mean",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-34475",
+        "filename": "01-step-34475.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-34530",
+        "filename": "02-step-34530.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-112743",
+        "filename": "03-question-112743.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-112744",
+        "filename": "04-question-112744.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-34534",
+        "filename": "05-step-34534.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-112745",
+        "filename": "06-question-112745.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-112746",
+        "filename": "07-question-112746.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-34539",
+        "filename": "08-step-34539.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-112749",
+        "filename": "09-question-112749.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-112750",
+        "filename": "10-question-112750.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-34542",
+        "filename": "11-step-34542.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-112751",
+        "filename": "12-question-112751.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-112752",
+        "filename": "13-question-112752.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-221305",
+        "filename": "14-step-221305.png"
+      }
+    ]
+  }
+}

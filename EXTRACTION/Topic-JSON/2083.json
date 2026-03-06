@@ -1,0 +1,357 @@
+{
+  "schema_version": 1,
+  "topic_id": "2083",
+  "topic_title": "Row Echelon Form",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2083.html",
+  "source_url": "https://mathacademy.com/topics/2083",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "17175",
+        "dom_id": "sectionLink-17175",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-17175"
+      },
+      {
+        "index": 2,
+        "step_id": "23025",
+        "dom_id": "sectionLink-23025",
+        "name": "",
+        "title": "Identifying the Leading Entries of a Matrix",
+        "selector": "#sectionLink-23025"
+      },
+      {
+        "index": 3,
+        "step_id": "23024",
+        "dom_id": "sectionLink-23024",
+        "name": "",
+        "title": "Row Echelon Form",
+        "selector": "#sectionLink-23024"
+      },
+      {
+        "index": 4,
+        "step_id": "17177",
+        "dom_id": "sectionLink-17177",
+        "name": "",
+        "title": "Identifying Matrices in Row Echelon Form",
+        "selector": "#sectionLink-17177"
+      },
+      {
+        "index": 5,
+        "step_id": "17176",
+        "dom_id": "sectionLink-17176",
+        "name": "",
+        "title": "Identifying Augmented Matrices in Row Echelon Form",
+        "selector": "#sectionLink-17176"
+      },
+      {
+        "index": 6,
+        "step_id": "17178",
+        "dom_id": "sectionLink-17178",
+        "name": "",
+        "title": "Identifying Operations That Would Transform a Matrix To Row Echelon Form",
+        "selector": "#sectionLink-17178"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "148",
+        "name": "Systems of Equations as Augmented Matrices",
+        "href": "/topics/systems-of-equations-as-augmented-matrices-148"
+      },
+      {
+        "topic_id": "1167",
+        "name": "Index Notation for Matrices",
+        "href": "/topics/index-notation-for-matrices-1167"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "17175",
+        "content_id": "3148",
+        "dom_id": "step-17175",
+        "selector": "#step-17175",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "23025",
+        "content_id": "6166",
+        "dom_id": "step-23025",
+        "selector": "#step-23025",
+        "step_anchor": "step-2",
+        "title": "Identifying the Leading Entries of a Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "1167",
+            "name": "Index Notation for Matrices",
+            "href": "/topics/1167"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "42362",
+        "dom_id": "question-42362",
+        "selector": "#question-42362",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "42363",
+        "dom_id": "question-42363",
+        "selector": "#question-42363",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "23024",
+        "content_id": "3896",
+        "dom_id": "step-23024",
+        "selector": "#step-23024",
+        "step_anchor": "step-5",
+        "title": "Row Echelon Form",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17177",
+        "content_id": "4688",
+        "dom_id": "step-17177",
+        "selector": "#step-17177",
+        "step_anchor": "step-6",
+        "title": "Identifying Matrices in Row Echelon Form",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "42369",
+        "dom_id": "question-42369",
+        "selector": "#question-42369",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "42024",
+        "dom_id": "question-42024",
+        "selector": "#question-42024",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17176",
+        "content_id": "4687",
+        "dom_id": "step-17176",
+        "selector": "#step-17176",
+        "step_anchor": "step-9",
+        "title": "Identifying Augmented Matrices in Row Echelon Form",
+        "key_prerequisites": [
+          {
+            "topic_id": "148",
+            "name": "Systems of Equations as Augmented Matrices",
+            "href": "/topics/148"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "42026",
+        "dom_id": "question-42026",
+        "selector": "#question-42026",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "42006",
+        "dom_id": "question-42006",
+        "selector": "#question-42006",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17178",
+        "content_id": "4689",
+        "dom_id": "step-17178",
+        "selector": "#step-17178",
+        "step_anchor": "step-12",
+        "title": "Identifying Operations That Would Transform a Matrix To Row Echelon Form",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "42008",
+        "dom_id": "question-42008",
+        "selector": "#question-42008",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "42370",
+        "dom_id": "question-42370",
+        "selector": "#question-42370",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-17175",
+        "filename": "01-step-17175.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-23025",
+        "filename": "02-step-23025.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-42362",
+        "filename": "03-question-42362.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-42363",
+        "filename": "04-question-42363.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-23024",
+        "filename": "05-step-23024.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-17177",
+        "filename": "06-step-17177.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-42369",
+        "filename": "07-question-42369.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-42024",
+        "filename": "08-question-42024.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-17176",
+        "filename": "09-step-17176.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-42026",
+        "filename": "10-question-42026.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-42006",
+        "filename": "11-question-42006.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-17178",
+        "filename": "12-step-17178.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-42008",
+        "filename": "13-question-42008.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-42370",
+        "filename": "14-question-42370.png"
+      }
+    ]
+  }
+}

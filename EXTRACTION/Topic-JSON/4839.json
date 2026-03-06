@@ -1,0 +1,484 @@
+{
+  "schema_version": 1,
+  "topic_id": "4839",
+  "topic_title": "Solving Linear Congruences",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/4839.html",
+  "source_url": "https://mathacademy.com/topics/4839",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "138850",
+        "dom_id": "sectionLink-138850",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-138850"
+      },
+      {
+        "index": 2,
+        "step_id": "138851",
+        "dom_id": "sectionLink-138851",
+        "name": "",
+        "title": "Solving Linear Congruences by Trial and Error",
+        "selector": "#sectionLink-138851"
+      },
+      {
+        "index": 3,
+        "step_id": "138855",
+        "dom_id": "sectionLink-138855",
+        "name": "",
+        "title": "Using the Multiplicative Inverse",
+        "selector": "#sectionLink-138855"
+      },
+      {
+        "index": 4,
+        "step_id": "138856",
+        "dom_id": "sectionLink-138856",
+        "name": "",
+        "title": "Uniqueness of Solutions",
+        "selector": "#sectionLink-138856"
+      },
+      {
+        "index": 5,
+        "step_id": "138857",
+        "dom_id": "sectionLink-138857",
+        "name": "",
+        "title": "Solving Congruences Using Multiplicative Inverses",
+        "selector": "#sectionLink-138857"
+      },
+      {
+        "index": 6,
+        "step_id": "138861",
+        "dom_id": "sectionLink-138861",
+        "name": "",
+        "title": "Solving Congruences Using Additive and Multiplicative Inverses",
+        "selector": "#sectionLink-138861"
+      },
+      {
+        "index": 7,
+        "step_id": "138865",
+        "dom_id": "sectionLink-138865",
+        "name": "",
+        "title": "Solving Congruences Using the Extended Euclidean Algorithm",
+        "selector": "#sectionLink-138865"
+      },
+      {
+        "index": 8,
+        "step_id": "138869",
+        "dom_id": "sectionLink-138869",
+        "name": "",
+        "title": "Proof of the Theorem",
+        "selector": "#sectionLink-138869"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "4818",
+        "name": "Multiplicative Inverses Modulo N",
+        "href": "/topics/multiplicative-inverses-modulo-n-4818"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 20,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "138850",
+        "content_id": "9020",
+        "dom_id": "step-138850",
+        "selector": "#step-138850",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "138851",
+        "content_id": "14590",
+        "dom_id": "step-138851",
+        "selector": "#step-138851",
+        "step_anchor": "step-2",
+        "title": "Solving Linear Congruences by Trial and Error",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "78146",
+        "dom_id": "question-78146",
+        "selector": "#question-78146",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "213460",
+        "dom_id": "question-213460",
+        "selector": "#question-213460",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "213461",
+        "dom_id": "question-213461",
+        "selector": "#question-213461",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "138855",
+        "content_id": "9022",
+        "dom_id": "step-138855",
+        "selector": "#step-138855",
+        "step_anchor": "step-6",
+        "title": "Using the Multiplicative Inverse",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "138856",
+        "content_id": "9023",
+        "dom_id": "step-138856",
+        "selector": "#step-138856",
+        "step_anchor": "step-7",
+        "title": "Uniqueness of Solutions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "138857",
+        "content_id": "14591",
+        "dom_id": "step-138857",
+        "selector": "#step-138857",
+        "step_anchor": "step-8",
+        "title": "Solving Congruences Using Multiplicative Inverses",
+        "key_prerequisites": [
+          {
+            "topic_id": "2674",
+            "name": "The Multiplication Properties of Modular Arithmetic",
+            "href": "/topics/2674"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "213469",
+        "dom_id": "question-213469",
+        "selector": "#question-213469",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "78169",
+        "dom_id": "question-78169",
+        "selector": "#question-78169",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "212057",
+        "dom_id": "question-212057",
+        "selector": "#question-212057",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "138861",
+        "content_id": "14662",
+        "dom_id": "step-138861",
+        "selector": "#step-138861",
+        "step_anchor": "step-12",
+        "title": "Solving Congruences Using Additive and Multiplicative Inverses",
+        "key_prerequisites": [
+          {
+            "topic_id": "2735",
+            "name": "Additive Inverses Modulo N",
+            "href": "/topics/2735"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "213415",
+        "dom_id": "question-213415",
+        "selector": "#question-213415",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "213606",
+        "dom_id": "question-213606",
+        "selector": "#question-213606",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "213520",
+        "dom_id": "question-213520",
+        "selector": "#question-213520",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "138865",
+        "content_id": "14592",
+        "dom_id": "step-138865",
+        "selector": "#step-138865",
+        "step_anchor": "step-16",
+        "title": "Solving Congruences Using the Extended Euclidean Algorithm",
+        "key_prerequisites": [
+          {
+            "topic_id": "4818",
+            "name": "Multiplicative Inverses Modulo N",
+            "href": "/topics/4818"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "question_id": "212061",
+        "dom_id": "question-212061",
+        "selector": "#question-212061",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 18,
+        "item_type": "question",
+        "question_id": "78184",
+        "dom_id": "question-78184",
+        "selector": "#question-78184",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 19,
+        "item_type": "question",
+        "question_id": "78069",
+        "dom_id": "question-78069",
+        "selector": "#question-78069",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 20,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "138869",
+        "content_id": "9024",
+        "dom_id": "step-138869",
+        "selector": "#step-138869",
+        "step_anchor": "step-20",
+        "title": "Proof of the Theorem",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-138850",
+        "filename": "01-step-138850.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-138851",
+        "filename": "02-step-138851.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-78146",
+        "filename": "03-question-78146.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-213460",
+        "filename": "04-question-213460.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-213461",
+        "filename": "05-question-213461.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-138855",
+        "filename": "06-step-138855.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-138856",
+        "filename": "07-step-138856.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-138857",
+        "filename": "08-step-138857.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-213469",
+        "filename": "09-question-213469.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-78169",
+        "filename": "10-question-78169.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-212057",
+        "filename": "11-question-212057.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-138861",
+        "filename": "12-step-138861.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-213415",
+        "filename": "13-question-213415.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-213606",
+        "filename": "14-question-213606.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-213520",
+        "filename": "15-question-213520.png"
+      },
+      {
+        "index": 16,
+        "item_type": "step",
+        "selector": "#step-138865",
+        "filename": "16-step-138865.png"
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "selector": "#question-212061",
+        "filename": "17-question-212061.png"
+      },
+      {
+        "index": 18,
+        "item_type": "question",
+        "selector": "#question-78184",
+        "filename": "18-question-78184.png"
+      },
+      {
+        "index": 19,
+        "item_type": "question",
+        "selector": "#question-78069",
+        "filename": "19-question-78069.png"
+      },
+      {
+        "index": 20,
+        "item_type": "step",
+        "selector": "#step-138869",
+        "filename": "20-step-138869.png"
+      }
+    ]
+  }
+}

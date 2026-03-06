@@ -1,0 +1,287 @@
+{
+  "schema_version": 1,
+  "topic_id": "2824",
+  "topic_title": "The Second Derivative of a Multivariable Function",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2824.html",
+  "source_url": "https://mathacademy.com/topics/2824",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "45105",
+        "dom_id": "sectionLink-45105",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-45105"
+      },
+      {
+        "index": 2,
+        "step_id": "45106",
+        "dom_id": "sectionLink-45106",
+        "name": "",
+        "title": "Finding the Second Derivative of a Function Given Its First Derivative",
+        "selector": "#sectionLink-45106"
+      },
+      {
+        "index": 3,
+        "step_id": "45116",
+        "dom_id": "sectionLink-45116",
+        "name": "",
+        "title": "Finding the Second Derivative of a Function",
+        "selector": "#sectionLink-45116"
+      },
+      {
+        "index": 4,
+        "step_id": "45109",
+        "dom_id": "sectionLink-45109",
+        "name": "",
+        "title": "Evaluating a Hessian Determinant",
+        "selector": "#sectionLink-45109"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1957",
+        "name": "Equality of Mixed Partial Derivatives",
+        "href": "/topics/equality-of-mixed-partial-derivatives-1957"
+      },
+      {
+        "topic_id": "3118",
+        "name": "Symmetric Matrices",
+        "href": "/topics/symmetric-matrices-3118"
+      },
+      {
+        "topic_id": "4169",
+        "name": "The Derivative of a Multivariable Function",
+        "href": "/topics/the-derivative-of-a-multivariable-function-4169"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 10,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "45105",
+        "content_id": "7795",
+        "dom_id": "step-45105",
+        "selector": "#step-45105",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "45106",
+        "content_id": "12522",
+        "dom_id": "step-45106",
+        "selector": "#step-45106",
+        "step_anchor": "step-2",
+        "title": "Finding the Second Derivative of a Function Given Its First Derivative",
+        "key_prerequisites": [
+          {
+            "topic_id": "1933",
+            "name": "Higher-Order Partial Derivatives",
+            "href": "/topics/1933"
+          },
+          {
+            "topic_id": "1957",
+            "name": "Equality of Mixed Partial Derivatives",
+            "href": "/topics/1957"
+          },
+          {
+            "topic_id": "3118",
+            "name": "Symmetric Matrices",
+            "href": "/topics/3118"
+          },
+          {
+            "topic_id": "4169",
+            "name": "The Derivative of a Multivariable Function",
+            "href": "/topics/4169"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "80940",
+        "dom_id": "question-80940",
+        "selector": "#question-80940",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "102477",
+        "dom_id": "question-102477",
+        "selector": "#question-102477",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "45116",
+        "content_id": "12524",
+        "dom_id": "step-45116",
+        "selector": "#step-45116",
+        "step_anchor": "step-5",
+        "title": "Finding the Second Derivative of a Function",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "80939",
+        "dom_id": "question-80939",
+        "selector": "#question-80939",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "102699",
+        "dom_id": "question-102699",
+        "selector": "#question-102699",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "45109",
+        "content_id": "12523",
+        "dom_id": "step-45109",
+        "selector": "#step-45109",
+        "step_anchor": "step-8",
+        "title": "Evaluating a Hessian Determinant",
+        "key_prerequisites": [
+          {
+            "topic_id": "152",
+            "name": "The Determinant of a 2x2 Matrix",
+            "href": "/topics/152"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "80944",
+        "dom_id": "question-80944",
+        "selector": "#question-80944",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "81029",
+        "dom_id": "question-81029",
+        "selector": "#question-81029",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-45105",
+        "filename": "01-step-45105.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-45106",
+        "filename": "02-step-45106.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-80940",
+        "filename": "03-question-80940.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-102477",
+        "filename": "04-question-102477.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-45116",
+        "filename": "05-step-45116.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-80939",
+        "filename": "06-question-80939.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-102699",
+        "filename": "07-question-102699.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-45109",
+        "filename": "08-step-45109.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-80944",
+        "filename": "09-question-80944.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-81029",
+        "filename": "10-question-81029.png"
+      }
+    ]
+  }
+}

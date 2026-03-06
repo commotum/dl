@@ -1,0 +1,388 @@
+{
+  "schema_version": 1,
+  "topic_id": "1016",
+  "topic_title": "The Sum of a Finite Geometric Series",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1016.html",
+  "source_url": "https://mathacademy.com/topics/1016",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "465989",
+        "dom_id": "sectionLink-465989",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-465989"
+      },
+      {
+        "index": 2,
+        "step_id": "465990",
+        "dom_id": "sectionLink-465990",
+        "name": "",
+        "title": "Calculating the Sum of a Geometric Series",
+        "selector": "#sectionLink-465990"
+      },
+      {
+        "index": 3,
+        "step_id": "465994",
+        "dom_id": "sectionLink-465994",
+        "name": "",
+        "title": "Calculating the Sum of a Geometric Series With a Negative Common Ratio",
+        "selector": "#sectionLink-465994"
+      },
+      {
+        "index": 4,
+        "step_id": "465998",
+        "dom_id": "sectionLink-465998",
+        "name": "",
+        "title": "Calculating the Sum of a Geometric Series Given the Last Term of the Series",
+        "selector": "#sectionLink-465998"
+      },
+      {
+        "index": 5,
+        "step_id": "466001",
+        "dom_id": "sectionLink-466001",
+        "name": "",
+        "title": "Calculating the Sum of a Geometric Series Given Two Consecutive Terms of the Series",
+        "selector": "#sectionLink-466001"
+      },
+      {
+        "index": 6,
+        "step_id": "466004",
+        "dom_id": "sectionLink-466004",
+        "name": "",
+        "title": "Proof of the Formula for the Sum of a Geometric Series",
+        "selector": "#sectionLink-466004"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "685",
+        "name": "Determining Indexes of Terms in Geometric Sequences",
+        "href": "/topics/determining-indexes-of-terms-in-geometric-sequences-685"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 16,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "465989",
+        "content_id": "2835",
+        "dom_id": "step-465989",
+        "selector": "#step-465989",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "465990",
+        "content_id": "4163",
+        "dom_id": "step-465990",
+        "selector": "#step-465990",
+        "step_anchor": "step-2",
+        "title": "Calculating the Sum of a Geometric Series",
+        "key_prerequisites": [
+          {
+            "topic_id": "679",
+            "name": "Introduction to Geometric Sequences",
+            "href": "/topics/679"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "9726",
+        "dom_id": "question-9726",
+        "selector": "#question-9726",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "9725",
+        "dom_id": "question-9725",
+        "selector": "#question-9725",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "67173",
+        "dom_id": "question-67173",
+        "selector": "#question-67173",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "465994",
+        "content_id": "4164",
+        "dom_id": "step-465994",
+        "selector": "#step-465994",
+        "step_anchor": "step-6",
+        "title": "Calculating the Sum of a Geometric Series With a Negative Common Ratio",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "67211",
+        "dom_id": "question-67211",
+        "selector": "#question-67211",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "67016",
+        "dom_id": "question-67016",
+        "selector": "#question-67016",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "67175",
+        "dom_id": "question-67175",
+        "selector": "#question-67175",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "465998",
+        "content_id": "4189",
+        "dom_id": "step-465998",
+        "selector": "#step-465998",
+        "step_anchor": "step-10",
+        "title": "Calculating the Sum of a Geometric Series Given the Last Term of the Series",
+        "key_prerequisites": [
+          {
+            "topic_id": "685",
+            "name": "Determining Indexes of Terms in Geometric Sequences",
+            "href": "/topics/685"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "67022",
+        "dom_id": "question-67022",
+        "selector": "#question-67022",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "67157",
+        "dom_id": "question-67157",
+        "selector": "#question-67157",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "466001",
+        "content_id": "4165",
+        "dom_id": "step-466001",
+        "selector": "#step-466001",
+        "step_anchor": "step-13",
+        "title": "Calculating the Sum of a Geometric Series Given Two Consecutive Terms of the Series",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "67255",
+        "dom_id": "question-67255",
+        "selector": "#question-67255",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "39913",
+        "dom_id": "question-39913",
+        "selector": "#question-39913",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "466004",
+        "content_id": "2836",
+        "dom_id": "step-466004",
+        "selector": "#step-466004",
+        "step_anchor": "step-16",
+        "title": "Proof of the Formula for the Sum of a Geometric Series",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-465989",
+        "filename": "01-step-465989.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-465990",
+        "filename": "02-step-465990.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-9726",
+        "filename": "03-question-9726.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-9725",
+        "filename": "04-question-9725.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-67173",
+        "filename": "05-question-67173.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-465994",
+        "filename": "06-step-465994.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-67211",
+        "filename": "07-question-67211.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-67016",
+        "filename": "08-question-67016.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-67175",
+        "filename": "09-question-67175.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-465998",
+        "filename": "10-step-465998.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-67022",
+        "filename": "11-question-67022.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-67157",
+        "filename": "12-question-67157.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-466001",
+        "filename": "13-step-466001.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-67255",
+        "filename": "14-question-67255.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-39913",
+        "filename": "15-question-39913.png"
+      },
+      {
+        "index": 16,
+        "item_type": "step",
+        "selector": "#step-466004",
+        "filename": "16-step-466004.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,404 @@
+{
+  "schema_version": 1,
+  "topic_id": "1906",
+  "topic_title": "Introduction to Abstract Vector Spaces",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1906.html",
+  "source_url": "https://mathacademy.com/topics/1906",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "30790",
+        "dom_id": "sectionLink-30790",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-30790"
+      },
+      {
+        "index": 2,
+        "step_id": "37838",
+        "dom_id": "sectionLink-37838",
+        "name": "",
+        "title": "Sets That Are Not Closed",
+        "selector": "#sectionLink-37838"
+      },
+      {
+        "index": 3,
+        "step_id": "37506",
+        "dom_id": "sectionLink-37506",
+        "name": "",
+        "title": "Identifying Sets Closed Under Addition and Scalar Multiplication",
+        "selector": "#sectionLink-37506"
+      },
+      {
+        "index": 4,
+        "step_id": "17452",
+        "dom_id": "sectionLink-17452",
+        "name": "",
+        "title": "Addition of Vectors",
+        "selector": "#sectionLink-17452"
+      },
+      {
+        "index": 5,
+        "step_id": "17454",
+        "dom_id": "sectionLink-17454",
+        "name": "",
+        "title": "Verifying Properties Involving Vector Addition",
+        "selector": "#sectionLink-17454"
+      },
+      {
+        "index": 6,
+        "step_id": "30789",
+        "dom_id": "sectionLink-30789",
+        "name": "",
+        "title": "Scalar Multiplication and the Distributive Laws",
+        "selector": "#sectionLink-30789"
+      },
+      {
+        "index": 7,
+        "step_id": "30785",
+        "dom_id": "sectionLink-30785",
+        "name": "",
+        "title": "Verifying Properties Involving Scalar Multiplication and the Distributive Laws",
+        "selector": "#sectionLink-30785"
+      },
+      {
+        "index": 8,
+        "step_id": "37839",
+        "dom_id": "sectionLink-37839",
+        "name": "",
+        "title": "A Summary of the Addition and Scalar Multiplication Properties of Euclidian Space",
+        "selector": "#sectionLink-37839"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "33",
+        "name": "Multiplying Complex Numbers",
+        "href": "/topics/multiplying-complex-numbers-33"
+      },
+      {
+        "topic_id": "140",
+        "name": "The Arithmetic of Functions",
+        "href": "/topics/the-arithmetic-of-functions-140"
+      },
+      {
+        "topic_id": "146",
+        "name": "Scalar Multiplication of Matrices",
+        "href": "/topics/scalar-multiplication-of-matrices-146"
+      },
+      {
+        "topic_id": "942",
+        "name": "Closure Properties of Polynomials",
+        "href": "/topics/closure-properties-of-polynomials-942"
+      },
+      {
+        "topic_id": "1851",
+        "name": "Linear Combinations of Vectors in N-Dimensional Euclidean Space",
+        "href": "/topics/linear-combinations-of-vectors-in-n-dimensional-euclidean-space-1851"
+      },
+      {
+        "topic_id": "3334",
+        "name": "Sets and Functions",
+        "href": "/topics/sets-and-functions-3334"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "30790",
+        "content_id": "4935",
+        "dom_id": "step-30790",
+        "selector": "#step-30790",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "37838",
+        "content_id": "6230",
+        "dom_id": "step-37838",
+        "selector": "#step-37838",
+        "step_anchor": "step-2",
+        "title": "Sets That Are Not Closed",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "37506",
+        "content_id": "9960",
+        "dom_id": "step-37506",
+        "selector": "#step-37506",
+        "step_anchor": "step-3",
+        "title": "Identifying Sets Closed Under Addition and Scalar Multiplication",
+        "key_prerequisites": [
+          {
+            "topic_id": "29",
+            "name": "Adding and Subtracting Matrices",
+            "href": "/topics/29"
+          },
+          {
+            "topic_id": "140",
+            "name": "The Arithmetic of Functions",
+            "href": "/topics/140"
+          },
+          {
+            "topic_id": "146",
+            "name": "Scalar Multiplication of Matrices",
+            "href": "/topics/146"
+          },
+          {
+            "topic_id": "942",
+            "name": "Closure Properties of Polynomials",
+            "href": "/topics/942"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "94655",
+        "dom_id": "question-94655",
+        "selector": "#question-94655",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "94694",
+        "dom_id": "question-94694",
+        "selector": "#question-94694",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "17452",
+        "content_id": "3184",
+        "dom_id": "step-17452",
+        "selector": "#step-17452",
+        "step_anchor": "step-6",
+        "title": "Addition of Vectors",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17454",
+        "content_id": "4787",
+        "dom_id": "step-17454",
+        "selector": "#step-17454",
+        "step_anchor": "step-7",
+        "title": "Verifying Properties Involving Vector Addition",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "74700",
+        "dom_id": "question-74700",
+        "selector": "#question-74700",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "106686",
+        "dom_id": "question-106686",
+        "selector": "#question-106686",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "30789",
+        "content_id": "4934",
+        "dom_id": "step-30789",
+        "selector": "#step-30789",
+        "step_anchor": "step-10",
+        "title": "Scalar Multiplication and the Distributive Laws",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30785",
+        "content_id": "8229",
+        "dom_id": "step-30785",
+        "selector": "#step-30785",
+        "step_anchor": "step-11",
+        "title": "Verifying Properties Involving Scalar Multiplication and the Distributive Laws",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "94740",
+        "dom_id": "question-94740",
+        "selector": "#question-94740",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "106806",
+        "dom_id": "question-106806",
+        "selector": "#question-106806",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "37839",
+        "content_id": "6231",
+        "dom_id": "step-37839",
+        "selector": "#step-37839",
+        "step_anchor": "step-14",
+        "title": "A Summary of the Addition and Scalar Multiplication Properties of Euclidian Space",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-30790",
+        "filename": "01-step-30790.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-37838",
+        "filename": "02-step-37838.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-37506",
+        "filename": "03-step-37506.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-94655",
+        "filename": "04-question-94655.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-94694",
+        "filename": "05-question-94694.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-17452",
+        "filename": "06-step-17452.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-17454",
+        "filename": "07-step-17454.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-74700",
+        "filename": "08-question-74700.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-106686",
+        "filename": "09-question-106686.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-30789",
+        "filename": "10-step-30789.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-30785",
+        "filename": "11-step-30785.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-94740",
+        "filename": "12-question-94740.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-106806",
+        "filename": "13-question-106806.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-37839",
+        "filename": "14-step-37839.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,331 @@
+{
+  "schema_version": 1,
+  "topic_id": "878",
+  "topic_title": "Homogeneous First-Order ODEs",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/878.html",
+  "source_url": "https://mathacademy.com/topics/878",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "8087",
+        "dom_id": "sectionLink-8087",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-8087"
+      },
+      {
+        "index": 2,
+        "step_id": "8088",
+        "dom_id": "sectionLink-8088",
+        "name": "",
+        "title": "Identifying Homogeneous Differential Equations",
+        "selector": "#sectionLink-8088"
+      },
+      {
+        "index": 3,
+        "step_id": "7887",
+        "dom_id": "sectionLink-7887",
+        "name": "",
+        "title": "Solving a Homogeneous Differential Equation",
+        "selector": "#sectionLink-7887"
+      },
+      {
+        "index": 4,
+        "step_id": "7889",
+        "dom_id": "sectionLink-7889",
+        "name": "",
+        "title": "Transforming a Homogeneous Differential Equation into a Separable Equation Using a Substitution",
+        "selector": "#sectionLink-7889"
+      },
+      {
+        "index": 5,
+        "step_id": "7890",
+        "dom_id": "sectionLink-7890",
+        "name": "",
+        "title": "Solving a Homogeneous Differential Equation",
+        "selector": "#sectionLink-7890"
+      },
+      {
+        "index": 6,
+        "step_id": "24848",
+        "dom_id": "sectionLink-24848",
+        "name": "",
+        "title": "Proof That Homogeneous First-Order Differential Equations Can Always Be Made Separable",
+        "selector": "#sectionLink-24848"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "466",
+        "name": "Solving First-Order ODEs Using Separation of Variables",
+        "href": "/topics/solving-first-order-odes-using-separation-of-variables-466"
+      },
+      {
+        "topic_id": "906",
+        "name": "Introduction to First-Order Linear ODEs",
+        "href": "/topics/introduction-to-first-order-linear-odes-906"
+      },
+      {
+        "topic_id": "2536",
+        "name": "Homogeneous Functions",
+        "href": "/topics/homogeneous-functions-2536"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "8087",
+        "content_id": "2106",
+        "dom_id": "step-8087",
+        "selector": "#step-8087",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "8088",
+        "content_id": "2393",
+        "dom_id": "step-8088",
+        "selector": "#step-8088",
+        "step_anchor": "step-2",
+        "title": "Identifying Homogeneous Differential Equations",
+        "key_prerequisites": [
+          {
+            "topic_id": "2536",
+            "name": "Homogeneous Functions",
+            "href": "/topics/2536"
+          },
+          {
+            "topic_id": "3215",
+            "name": "Introduction to Differential Equations",
+            "href": "/topics/3215"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "8741",
+        "dom_id": "question-8741",
+        "selector": "#question-8741",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "8739",
+        "dom_id": "question-8739",
+        "selector": "#question-8739",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "7887",
+        "content_id": "2061",
+        "dom_id": "step-7887",
+        "selector": "#step-7887",
+        "step_anchor": "step-5",
+        "title": "Solving a Homogeneous Differential Equation",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "7889",
+        "content_id": "2301",
+        "dom_id": "step-7889",
+        "selector": "#step-7889",
+        "step_anchor": "step-6",
+        "title": "Transforming a Homogeneous Differential Equation into a Separable Equation Using a Substitution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "8745",
+        "dom_id": "question-8745",
+        "selector": "#question-8745",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "14315",
+        "dom_id": "question-14315",
+        "selector": "#question-14315",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "7890",
+        "content_id": "2302",
+        "dom_id": "step-7890",
+        "selector": "#step-7890",
+        "step_anchor": "step-9",
+        "title": "Solving a Homogeneous Differential Equation",
+        "key_prerequisites": [
+          {
+            "topic_id": "466",
+            "name": "Solving First-Order ODEs Using Separation of Variables",
+            "href": "/topics/466"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "8844",
+        "dom_id": "question-8844",
+        "selector": "#question-8844",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "8843",
+        "dom_id": "question-8843",
+        "selector": "#question-8843",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "24848",
+        "content_id": "4107",
+        "dom_id": "step-24848",
+        "selector": "#step-24848",
+        "step_anchor": "step-12",
+        "title": "Proof That Homogeneous First-Order Differential Equations Can Always Be Made Separable",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-8087",
+        "filename": "01-step-8087.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-8088",
+        "filename": "02-step-8088.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-8741",
+        "filename": "03-question-8741.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-8739",
+        "filename": "04-question-8739.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-7887",
+        "filename": "05-step-7887.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-7889",
+        "filename": "06-step-7889.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-8745",
+        "filename": "07-question-8745.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-14315",
+        "filename": "08-question-14315.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-7890",
+        "filename": "09-step-7890.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-8844",
+        "filename": "10-question-8844.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-8843",
+        "filename": "11-question-8843.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-24848",
+        "filename": "12-step-24848.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "schema_version": 1,
+  "topic_id": "1250",
+  "topic_title": "Minimizing a Function Using the Graph of its Derivative",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1250.html",
+  "source_url": "https://mathacademy.com/topics/1250",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "1580",
+        "dom_id": "sectionLink-1580",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-1580"
+      },
+      {
+        "index": 2,
+        "step_id": "38636",
+        "dom_id": "sectionLink-38636",
+        "name": "",
+        "title": "Finding a Minimum Value Given a Derivative Graph With One Area",
+        "selector": "#sectionLink-38636"
+      },
+      {
+        "index": 3,
+        "step_id": "1581",
+        "dom_id": "sectionLink-1581",
+        "name": "",
+        "title": "Finding a Minimum Value Given a Derivative Graph With More Than One Area",
+        "selector": "#sectionLink-1581"
+      },
+      {
+        "index": 4,
+        "step_id": "1585",
+        "dom_id": "sectionLink-1585",
+        "name": "",
+        "title": "Finding a Minimum Value by Computing Areas Under Curves",
+        "selector": "#sectionLink-1585"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "364",
+        "name": "The Candidates Test",
+        "href": "/topics/the-candidates-test-364"
+      },
+      {
+        "topic_id": "624",
+        "name": "Interpreting the Graph of a Function's Derivative",
+        "href": "/topics/interpreting-the-graph-of-a-functions-derivative-624"
+      },
+      {
+        "topic_id": "1201",
+        "name": "Calculating the Definite Integral of a Function's Derivative Given its Graph",
+        "href": "/topics/calculating-the-definite-integral-of-a-functions-derivative-given-its-graph-1201"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 10,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "1580",
+        "content_id": "822",
+        "dom_id": "step-1580",
+        "selector": "#step-1580",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "38636",
+        "content_id": "10250",
+        "dom_id": "step-38636",
+        "selector": "#step-38636",
+        "step_anchor": "step-2",
+        "title": "Finding a Minimum Value Given a Derivative Graph With One Area",
+        "key_prerequisites": [
+          {
+            "topic_id": "364",
+            "name": "The Candidates Test",
+            "href": "/topics/364"
+          },
+          {
+            "topic_id": "624",
+            "name": "Interpreting the Graph of a Function's Derivative",
+            "href": "/topics/624"
+          },
+          {
+            "topic_id": "1201",
+            "name": "Calculating the Definite Integral of a Function's Derivative Given its Graph",
+            "href": "/topics/1201"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "144824",
+        "dom_id": "question-144824",
+        "selector": "#question-144824",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "144825",
+        "dom_id": "question-144825",
+        "selector": "#question-144825",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "1581",
+        "content_id": "444",
+        "dom_id": "step-1581",
+        "selector": "#step-1581",
+        "step_anchor": "step-5",
+        "title": "Finding a Minimum Value Given a Derivative Graph With More Than One Area",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "51232",
+        "dom_id": "question-51232",
+        "selector": "#question-51232",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "15773",
+        "dom_id": "question-15773",
+        "selector": "#question-15773",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "1585",
+        "content_id": "445",
+        "dom_id": "step-1585",
+        "selector": "#step-1585",
+        "step_anchor": "step-8",
+        "title": "Finding a Minimum Value by Computing Areas Under Curves",
+        "key_prerequisites": [
+          {
+            "topic_id": "1353",
+            "name": "Areas of Trapezoids",
+            "href": "/topics/1353"
+          },
+          {
+            "topic_id": "1397",
+            "name": "Areas of Triangles",
+            "href": "/topics/1397"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "51219",
+        "dom_id": "question-51219",
+        "selector": "#question-51219",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "19085",
+        "dom_id": "question-19085",
+        "selector": "#question-19085",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-1580",
+        "filename": "01-step-1580.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-38636",
+        "filename": "02-step-38636.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-144824",
+        "filename": "03-question-144824.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-144825",
+        "filename": "04-question-144825.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-1581",
+        "filename": "05-step-1581.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-51232",
+        "filename": "06-question-51232.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-15773",
+        "filename": "07-question-15773.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-1585",
+        "filename": "08-step-1585.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-51219",
+        "filename": "09-question-51219.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-19085",
+        "filename": "10-question-19085.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,394 @@
+{
+  "schema_version": 1,
+  "topic_id": "57",
+  "topic_title": "Implicit Differentiation",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/57.html",
+  "source_url": "https://mathacademy.com/topics/57",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "806",
+        "dom_id": "sectionLink-806",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-806"
+      },
+      {
+        "index": 2,
+        "step_id": "807",
+        "dom_id": "sectionLink-807",
+        "name": "",
+        "title": "Finding the Derivative of a Function Given in Implicit Form",
+        "selector": "#sectionLink-807"
+      },
+      {
+        "index": 3,
+        "step_id": "22699",
+        "dom_id": "sectionLink-22699",
+        "name": "",
+        "title": "Finding the Derivative of a Function Given in Implicit Form Using the Product Rule",
+        "selector": "#sectionLink-22699"
+      },
+      {
+        "index": 4,
+        "step_id": "810",
+        "dom_id": "sectionLink-810",
+        "name": "",
+        "title": "Finding the Slope of the Tangent Line to a Curve Given in Implicit Form at a Point",
+        "selector": "#sectionLink-810"
+      },
+      {
+        "index": 5,
+        "step_id": "814",
+        "dom_id": "sectionLink-814",
+        "name": "",
+        "title": "Determining an Intercept of a Tangent or Normal Line to a Curve Given in Implicit Form",
+        "selector": "#sectionLink-814"
+      },
+      {
+        "index": 6,
+        "step_id": "210843",
+        "dom_id": "sectionLink-210843",
+        "name": "",
+        "title": "Deriving the Formula for the Derivative of the Natural Logarithm",
+        "selector": "#sectionLink-210843"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "987",
+        "name": "Calculating the Equation of a Normal Line Using Differentiation",
+        "href": "/topics/calculating-the-equation-of-a-normal-line-using-differentiation-987"
+      },
+      {
+        "topic_id": "1115",
+        "name": "Selecting Procedures for Calculating Derivatives",
+        "href": "/topics/selecting-procedures-for-calculating-derivatives-1115"
+      },
+      {
+        "topic_id": "3739",
+        "name": "Adding Rational Expressions With No Common Factors in the Denominator",
+        "href": "/topics/adding-rational-expressions-with-no-common-factors-in-the-denominator-3739"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "806",
+        "content_id": "433",
+        "dom_id": "step-806",
+        "selector": "#step-806",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "807",
+        "content_id": "190",
+        "dom_id": "step-807",
+        "selector": "#step-807",
+        "step_anchor": "step-2",
+        "title": "Finding the Derivative of a Function Given in Implicit Form",
+        "key_prerequisites": [
+          {
+            "topic_id": "305",
+            "name": "The Chain Rule With Trigonometric Functions",
+            "href": "/topics/305"
+          },
+          {
+            "topic_id": "354",
+            "name": "Solving Many-Variable Equations",
+            "href": "/topics/354"
+          },
+          {
+            "topic_id": "1007",
+            "name": "The Chain Rule With Exponential Functions",
+            "href": "/topics/1007"
+          },
+          {
+            "topic_id": "1036",
+            "name": "The Chain Rule With Logarithmic Functions",
+            "href": "/topics/1036"
+          },
+          {
+            "topic_id": "1108",
+            "name": "The Chain Rule for Differentiation",
+            "href": "/topics/1108"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "2282",
+        "dom_id": "question-2282",
+        "selector": "#question-2282",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "2284",
+        "dom_id": "question-2284",
+        "selector": "#question-2284",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "22699",
+        "content_id": "6114",
+        "dom_id": "step-22699",
+        "selector": "#step-22699",
+        "step_anchor": "step-5",
+        "title": "Finding the Derivative of a Function Given in Implicit Form Using the Product Rule",
+        "key_prerequisites": [
+          {
+            "topic_id": "1109",
+            "name": "The Product Rule for Differentiation",
+            "href": "/topics/1109"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "2286",
+        "dom_id": "question-2286",
+        "selector": "#question-2286",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "2287",
+        "dom_id": "question-2287",
+        "selector": "#question-2287",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "810",
+        "content_id": "191",
+        "dom_id": "step-810",
+        "selector": "#step-810",
+        "step_anchor": "step-8",
+        "title": "Finding the Slope of the Tangent Line to a Curve Given in Implicit Form at a Point",
+        "key_prerequisites": [
+          {
+            "topic_id": "332",
+            "name": "Calculating the Slope of a Tangent Line Using Differentiation",
+            "href": "/topics/332"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "15134",
+        "dom_id": "question-15134",
+        "selector": "#question-15134",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "53746",
+        "dom_id": "question-53746",
+        "selector": "#question-53746",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "814",
+        "content_id": "192",
+        "dom_id": "step-814",
+        "selector": "#step-814",
+        "step_anchor": "step-11",
+        "title": "Determining an Intercept of a Tangent or Normal Line to a Curve Given in Implicit Form",
+        "key_prerequisites": [
+          {
+            "topic_id": "987",
+            "name": "Calculating the Equation of a Normal Line Using Differentiation",
+            "href": "/topics/987"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "15140",
+        "dom_id": "question-15140",
+        "selector": "#question-15140",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "15259",
+        "dom_id": "question-15259",
+        "selector": "#question-15259",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "210843",
+        "content_id": "10531",
+        "dom_id": "step-210843",
+        "selector": "#step-210843",
+        "step_anchor": "step-14",
+        "title": "Deriving the Formula for the Derivative of the Natural Logarithm",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-806",
+        "filename": "01-step-806.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-807",
+        "filename": "02-step-807.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-2282",
+        "filename": "03-question-2282.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-2284",
+        "filename": "04-question-2284.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-22699",
+        "filename": "05-step-22699.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-2286",
+        "filename": "06-question-2286.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-2287",
+        "filename": "07-question-2287.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-810",
+        "filename": "08-step-810.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-15134",
+        "filename": "09-question-15134.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-53746",
+        "filename": "10-question-53746.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-814",
+        "filename": "11-step-814.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-15140",
+        "filename": "12-question-15140.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-15259",
+        "filename": "13-question-15259.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-210843",
+        "filename": "14-step-210843.png"
+      }
+    ]
+  }
+}

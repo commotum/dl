@@ -1,0 +1,453 @@
+{
+  "schema_version": 1,
+  "topic_id": "6297",
+  "topic_title": "Constructing Functions Representing Properties of Rectangular Solids",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/6297.html",
+  "source_url": "https://mathacademy.com/topics/6297",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "575784",
+        "dom_id": "sectionLink-575784",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-575784"
+      },
+      {
+        "index": 2,
+        "step_id": "575785",
+        "dom_id": "sectionLink-575785",
+        "name": "",
+        "title": "Interpreting Functions Representing Surface Area or Volume",
+        "selector": "#sectionLink-575785"
+      },
+      {
+        "index": 3,
+        "step_id": "575789",
+        "dom_id": "sectionLink-575789",
+        "name": "",
+        "title": "Constructing Functions Representing Surface Area or Volume",
+        "selector": "#sectionLink-575789"
+      },
+      {
+        "index": 4,
+        "step_id": "575792",
+        "dom_id": "sectionLink-575792",
+        "name": "",
+        "title": "Correctly Interpreting Problem Statements",
+        "selector": "#sectionLink-575792"
+      },
+      {
+        "index": 5,
+        "step_id": "575793",
+        "dom_id": "sectionLink-575793",
+        "name": "",
+        "title": "Constructing Functions Representing Volume: Harder Cases",
+        "selector": "#sectionLink-575793"
+      },
+      {
+        "index": 6,
+        "step_id": "575796",
+        "dom_id": "sectionLink-575796",
+        "name": "",
+        "title": "Expressing the Properties of a Cube in Terms of Another Cube",
+        "selector": "#sectionLink-575796"
+      },
+      {
+        "index": 7,
+        "step_id": "575797",
+        "dom_id": "sectionLink-575797",
+        "name": "",
+        "title": "Constructing Functions Representing Area or Volume Given Two Cubes",
+        "selector": "#sectionLink-575797"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "81",
+        "name": "Adding and Subtracting Polynomials",
+        "href": "/topics/adding-and-subtracting-polynomials-81"
+      },
+      {
+        "topic_id": "349",
+        "name": "The Distributive Law for Polynomials",
+        "href": "/topics/the-distributive-law-for-polynomials-349"
+      },
+      {
+        "topic_id": "674",
+        "name": "Surface Areas of Rectangular Solids",
+        "href": "/topics/surface-areas-of-rectangular-solids-674"
+      },
+      {
+        "topic_id": "1753",
+        "name": "Volumes of Rectangular Solids",
+        "href": "/topics/volumes-of-rectangular-solids-1753"
+      },
+      {
+        "topic_id": "6206",
+        "name": "Rewriting Radical Expressions Using the Laws of Exponents",
+        "href": "/topics/rewriting-radical-expressions-using-the-laws-of-exponents-6206"
+      },
+      {
+        "topic_id": "6294",
+        "name": "Solving Many-Variable Nonlinear Equations",
+        "href": "/topics/solving-many-variable-nonlinear-equations-6294"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 16,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "575784",
+        "content_id": "13825",
+        "dom_id": "step-575784",
+        "selector": "#step-575784",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "575785",
+        "content_id": "19689",
+        "dom_id": "step-575785",
+        "selector": "#step-575785",
+        "step_anchor": "step-2",
+        "title": "Interpreting Functions Representing Surface Area or Volume",
+        "key_prerequisites": [
+          {
+            "topic_id": "674",
+            "name": "Surface Areas of Rectangular Solids",
+            "href": "/topics/674"
+          },
+          {
+            "topic_id": "1753",
+            "name": "Volumes of Rectangular Solids",
+            "href": "/topics/1753"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "311647",
+        "dom_id": "question-311647",
+        "selector": "#question-311647",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "311318",
+        "dom_id": "question-311318",
+        "selector": "#question-311318",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "328636",
+        "dom_id": "question-328636",
+        "selector": "#question-328636",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "575789",
+        "content_id": "19685",
+        "dom_id": "step-575789",
+        "selector": "#step-575789",
+        "step_anchor": "step-6",
+        "title": "Constructing Functions Representing Surface Area or Volume",
+        "key_prerequisites": [
+          {
+            "topic_id": "81",
+            "name": "Adding and Subtracting Polynomials",
+            "href": "/topics/81"
+          },
+          {
+            "topic_id": "349",
+            "name": "The Distributive Law for Polynomials",
+            "href": "/topics/349"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "311475",
+        "dom_id": "question-311475",
+        "selector": "#question-311475",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "311317",
+        "dom_id": "question-311317",
+        "selector": "#question-311317",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "575792",
+        "content_id": "14382",
+        "dom_id": "step-575792",
+        "selector": "#step-575792",
+        "step_anchor": "step-9",
+        "title": "Correctly Interpreting Problem Statements",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "575793",
+        "content_id": "21533",
+        "dom_id": "step-575793",
+        "selector": "#step-575793",
+        "step_anchor": "step-10",
+        "title": "Constructing Functions Representing Volume: Harder Cases",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "311474",
+        "dom_id": "question-311474",
+        "selector": "#question-311474",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "327778",
+        "dom_id": "question-327778",
+        "selector": "#question-327778",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "575796",
+        "content_id": "13771",
+        "dom_id": "step-575796",
+        "selector": "#step-575796",
+        "step_anchor": "step-13",
+        "title": "Expressing the Properties of a Cube in Terms of Another Cube",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "575797",
+        "content_id": "19690",
+        "dom_id": "step-575797",
+        "selector": "#step-575797",
+        "step_anchor": "step-14",
+        "title": "Constructing Functions Representing Area or Volume Given Two Cubes",
+        "key_prerequisites": [
+          {
+            "topic_id": "681",
+            "name": "Surface Areas of Cubes",
+            "href": "/topics/681"
+          },
+          {
+            "topic_id": "1467",
+            "name": "Volumes of Cubes",
+            "href": "/topics/1467"
+          },
+          {
+            "topic_id": "6206",
+            "name": "Rewriting Radical Expressions Using the Laws of Exponents",
+            "href": "/topics/6206"
+          },
+          {
+            "topic_id": "6294",
+            "name": "Solving Many-Variable Nonlinear Equations",
+            "href": "/topics/6294"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "311319",
+        "dom_id": "question-311319",
+        "selector": "#question-311319",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "311234",
+        "dom_id": "question-311234",
+        "selector": "#question-311234",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-575784",
+        "filename": "01-step-575784.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-575785",
+        "filename": "02-step-575785.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-311647",
+        "filename": "03-question-311647.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-311318",
+        "filename": "04-question-311318.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-328636",
+        "filename": "05-question-328636.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-575789",
+        "filename": "06-step-575789.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-311475",
+        "filename": "07-question-311475.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-311317",
+        "filename": "08-question-311317.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-575792",
+        "filename": "09-step-575792.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-575793",
+        "filename": "10-step-575793.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-311474",
+        "filename": "11-question-311474.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-327778",
+        "filename": "12-question-327778.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-575796",
+        "filename": "13-step-575796.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-575797",
+        "filename": "14-step-575797.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-311319",
+        "filename": "15-question-311319.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-311234",
+        "filename": "16-question-311234.png"
+      }
+    ]
+  }
+}

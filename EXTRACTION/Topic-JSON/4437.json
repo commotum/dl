@@ -1,0 +1,372 @@
+{
+  "schema_version": 1,
+  "topic_id": "4437",
+  "topic_title": "Proving Parity by Contrapositive",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/4437.html",
+  "source_url": "https://mathacademy.com/topics/4437",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "180836",
+        "dom_id": "sectionLink-180836",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-180836"
+      },
+      {
+        "index": 2,
+        "step_id": "180837",
+        "dom_id": "sectionLink-180837",
+        "name": "",
+        "title": "Stating the Full Proof",
+        "selector": "#sectionLink-180837"
+      },
+      {
+        "index": 3,
+        "step_id": "180838",
+        "dom_id": "sectionLink-180838",
+        "name": "",
+        "title": "Template: Proving Parity Statements",
+        "selector": "#sectionLink-180838"
+      },
+      {
+        "index": 4,
+        "step_id": "180841",
+        "dom_id": "sectionLink-180841",
+        "name": "",
+        "title": "Proving Parity Statements",
+        "selector": "#sectionLink-180841"
+      },
+      {
+        "index": 5,
+        "step_id": "180844",
+        "dom_id": "sectionLink-180844",
+        "name": "",
+        "title": "Template: Proving Parity Statements by Cases",
+        "selector": "#sectionLink-180844"
+      },
+      {
+        "index": 6,
+        "step_id": "180847",
+        "dom_id": "sectionLink-180847",
+        "name": "",
+        "title": "Proving Parity Statements by Cases",
+        "selector": "#sectionLink-180847"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2807",
+        "name": "Proof by Contrapositive",
+        "href": "/topics/proof-by-contrapositive-2807"
+      },
+      {
+        "topic_id": "4302",
+        "name": "Simplifying Predicate Expressions Using De Morgan's Laws",
+        "href": "/topics/simplifying-predicate-expressions-using-de-morgans-laws-4302"
+      },
+      {
+        "topic_id": "4432",
+        "name": "Proof by Cases",
+        "href": "/topics/proof-by-cases-4432"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "180836",
+        "content_id": "8343",
+        "dom_id": "step-180836",
+        "selector": "#step-180836",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "180837",
+        "content_id": "9318",
+        "dom_id": "step-180837",
+        "selector": "#step-180837",
+        "step_anchor": "step-2",
+        "title": "Stating the Full Proof",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "180838",
+        "content_id": "13329",
+        "dom_id": "step-180838",
+        "selector": "#step-180838",
+        "step_anchor": "step-3",
+        "title": "Template: Proving Parity Statements",
+        "key_prerequisites": [
+          {
+            "topic_id": "2807",
+            "name": "Proof by Contrapositive",
+            "href": "/topics/2807"
+          },
+          {
+            "topic_id": "4302",
+            "name": "Simplifying Predicate Expressions Using De Morgan's Laws",
+            "href": "/topics/4302"
+          },
+          {
+            "topic_id": "4429",
+            "name": "Proving Parity",
+            "href": "/topics/4429"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "184246",
+        "dom_id": "question-184246",
+        "selector": "#question-184246",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "184795",
+        "dom_id": "question-184795",
+        "selector": "#question-184795",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "180841",
+        "content_id": "6902",
+        "dom_id": "step-180841",
+        "selector": "#step-180841",
+        "step_anchor": "step-6",
+        "title": "Proving Parity Statements",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "184806",
+        "dom_id": "question-184806",
+        "selector": "#question-184806",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "184237",
+        "dom_id": "question-184237",
+        "selector": "#question-184237",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "180844",
+        "content_id": "13330",
+        "dom_id": "step-180844",
+        "selector": "#step-180844",
+        "step_anchor": "step-9",
+        "title": "Template: Proving Parity Statements by Cases",
+        "key_prerequisites": [
+          {
+            "topic_id": "4432",
+            "name": "Proof by Cases",
+            "href": "/topics/4432"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "184528",
+        "dom_id": "question-184528",
+        "selector": "#question-184528",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "184531",
+        "dom_id": "question-184531",
+        "selector": "#question-184531",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "180847",
+        "content_id": "13331",
+        "dom_id": "step-180847",
+        "selector": "#step-180847",
+        "step_anchor": "step-12",
+        "title": "Proving Parity Statements by Cases",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "184457",
+        "dom_id": "question-184457",
+        "selector": "#question-184457",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "184458",
+        "dom_id": "question-184458",
+        "selector": "#question-184458",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-180836",
+        "filename": "01-step-180836.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-180837",
+        "filename": "02-step-180837.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-180838",
+        "filename": "03-step-180838.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-184246",
+        "filename": "04-question-184246.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-184795",
+        "filename": "05-question-184795.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-180841",
+        "filename": "06-step-180841.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-184806",
+        "filename": "07-question-184806.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-184237",
+        "filename": "08-question-184237.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-180844",
+        "filename": "09-step-180844.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-184528",
+        "filename": "10-question-184528.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-184531",
+        "filename": "11-question-184531.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-180847",
+        "filename": "12-step-180847.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-184457",
+        "filename": "13-question-184457.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-184458",
+        "filename": "14-question-184458.png"
+      }
+    ]
+  }
+}

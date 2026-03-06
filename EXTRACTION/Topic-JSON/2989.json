@@ -1,0 +1,304 @@
+{
+  "schema_version": 1,
+  "topic_id": "2989",
+  "topic_title": "The Trinomial Distribution",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2989.html",
+  "source_url": "https://mathacademy.com/topics/2989",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "229565",
+        "dom_id": "sectionLink-229565",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-229565"
+      },
+      {
+        "index": 2,
+        "step_id": "229566",
+        "dom_id": "sectionLink-229566",
+        "name": "",
+        "title": "The Trinomial Distribution",
+        "selector": "#sectionLink-229566"
+      },
+      {
+        "index": 3,
+        "step_id": "229567",
+        "dom_id": "sectionLink-229567",
+        "name": "",
+        "title": "Computing a Trinomial Probability",
+        "selector": "#sectionLink-229567"
+      },
+      {
+        "index": 4,
+        "step_id": "229570",
+        "dom_id": "sectionLink-229570",
+        "name": "",
+        "title": "Computing a Trinomial Probability Over an  Interval",
+        "selector": "#sectionLink-229570"
+      },
+      {
+        "index": 5,
+        "step_id": "229573",
+        "dom_id": "sectionLink-229573",
+        "name": "",
+        "title": "Computing a Trinomial Probability in Context",
+        "selector": "#sectionLink-229573"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1341",
+        "name": "Permutations With Repetition",
+        "href": "/topics/permutations-with-repetition-1341"
+      },
+      {
+        "topic_id": "1395",
+        "name": "Modeling With the Binomial Distribution",
+        "href": "/topics/modeling-with-the-binomial-distribution-1395"
+      },
+      {
+        "topic_id": "3048",
+        "name": "Independence of Discrete Random Variables",
+        "href": "/topics/independence-of-discrete-random-variables-3048"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "229565",
+        "content_id": "5612",
+        "dom_id": "step-229565",
+        "selector": "#step-229565",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "229566",
+        "content_id": "10903",
+        "dom_id": "step-229566",
+        "selector": "#step-229566",
+        "step_anchor": "step-2",
+        "title": "The Trinomial Distribution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "229567",
+        "content_id": "9259",
+        "dom_id": "step-229567",
+        "selector": "#step-229567",
+        "step_anchor": "step-3",
+        "title": "Computing a Trinomial Probability",
+        "key_prerequisites": [
+          {
+            "topic_id": "1341",
+            "name": "Permutations With Repetition",
+            "href": "/topics/1341"
+          },
+          {
+            "topic_id": "3001",
+            "name": "Joint Distributions for Discrete Random Variables",
+            "href": "/topics/3001"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "137973",
+        "dom_id": "question-137973",
+        "selector": "#question-137973",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "114437",
+        "dom_id": "question-114437",
+        "selector": "#question-114437",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "229570",
+        "content_id": "9260",
+        "dom_id": "step-229570",
+        "selector": "#step-229570",
+        "step_anchor": "step-6",
+        "title": "Computing a Trinomial Probability Over an  Interval",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "114439",
+        "dom_id": "question-114439",
+        "selector": "#question-114439",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "114440",
+        "dom_id": "question-114440",
+        "selector": "#question-114440",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "229573",
+        "content_id": "9261",
+        "dom_id": "step-229573",
+        "selector": "#step-229573",
+        "step_anchor": "step-9",
+        "title": "Computing a Trinomial Probability in Context",
+        "key_prerequisites": [
+          {
+            "topic_id": "1395",
+            "name": "Modeling With the Binomial Distribution",
+            "href": "/topics/1395"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "114444",
+        "dom_id": "question-114444",
+        "selector": "#question-114444",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "114443",
+        "dom_id": "question-114443",
+        "selector": "#question-114443",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-229565",
+        "filename": "01-step-229565.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-229566",
+        "filename": "02-step-229566.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-229567",
+        "filename": "03-step-229567.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-137973",
+        "filename": "04-question-137973.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-114437",
+        "filename": "05-question-114437.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-229570",
+        "filename": "06-step-229570.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-114439",
+        "filename": "07-question-114439.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-114440",
+        "filename": "08-question-114440.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-229573",
+        "filename": "09-step-229573.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-114444",
+        "filename": "10-question-114444.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-114443",
+        "filename": "11-question-114443.png"
+      }
+    ]
+  }
+}

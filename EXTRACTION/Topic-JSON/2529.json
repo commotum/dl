@@ -1,0 +1,417 @@
+{
+  "schema_version": 1,
+  "topic_id": "2529",
+  "topic_title": "Introduction to Laplace Transforms",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2529.html",
+  "source_url": "https://mathacademy.com/topics/2529",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "599014",
+        "dom_id": "sectionLink-599014",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-599014"
+      },
+      {
+        "index": 2,
+        "step_id": "599016",
+        "dom_id": "sectionLink-599016",
+        "name": "",
+        "title": "Evaluating Laplace Transforms of Constant Functions",
+        "selector": "#sectionLink-599016"
+      },
+      {
+        "index": 3,
+        "step_id": "599019",
+        "dom_id": "sectionLink-599019",
+        "name": "",
+        "title": "Laplace Transforms of Exponential Functions",
+        "selector": "#sectionLink-599019"
+      },
+      {
+        "index": 4,
+        "step_id": "599015",
+        "dom_id": "sectionLink-599015",
+        "name": "",
+        "title": "When Does a Laplace Transform Converge?",
+        "selector": "#sectionLink-599015"
+      },
+      {
+        "index": 5,
+        "step_id": "599020",
+        "dom_id": "sectionLink-599020",
+        "name": "",
+        "title": "Evaluating Laplace Transforms of Real Exponential Functions",
+        "selector": "#sectionLink-599020"
+      },
+      {
+        "index": 6,
+        "step_id": "599023",
+        "dom_id": "sectionLink-599023",
+        "name": "",
+        "title": "Laplace Transforms as Functions of a Complex Variable",
+        "selector": "#sectionLink-599023"
+      },
+      {
+        "index": 7,
+        "step_id": "599024",
+        "dom_id": "sectionLink-599024",
+        "name": "",
+        "title": "Evaluating Laplace Transforms of Complex Exponentials",
+        "selector": "#sectionLink-599024"
+      },
+      {
+        "index": 8,
+        "step_id": "599027",
+        "dom_id": "sectionLink-599027",
+        "name": "",
+        "title": "Key Results",
+        "selector": "#sectionLink-599027"
+      },
+      {
+        "index": 9,
+        "step_id": "599028",
+        "dom_id": "sectionLink-599028",
+        "name": "",
+        "title": "Existence of Laplace Transforms",
+        "selector": "#sectionLink-599028"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "898",
+        "name": "Euler's Formula",
+        "href": "/topics/eulers-formula-898"
+      },
+      {
+        "topic_id": "2854",
+        "name": "Big-O Notation",
+        "href": "/topics/big-o-notation-2854"
+      },
+      {
+        "topic_id": "4004",
+        "name": "Improper Integrals Involving Exponential Functions",
+        "href": "/topics/improper-integrals-involving-exponential-functions-4004"
+      },
+      {
+        "topic_id": "6669",
+        "name": "Piecewise Continuity",
+        "href": "/topics/piecewise-continuity-6669"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "599014",
+        "content_id": "14437",
+        "dom_id": "step-599014",
+        "selector": "#step-599014",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "599016",
+        "content_id": "21598",
+        "dom_id": "step-599016",
+        "selector": "#step-599016",
+        "step_anchor": "step-2",
+        "title": "Evaluating Laplace Transforms of Constant Functions",
+        "key_prerequisites": [
+          {
+            "topic_id": "4004",
+            "name": "Improper Integrals Involving Exponential Functions",
+            "href": "/topics/4004"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "331417",
+        "dom_id": "question-331417",
+        "selector": "#question-331417",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "340717",
+        "dom_id": "question-340717",
+        "selector": "#question-340717",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "599019",
+        "content_id": "14680",
+        "dom_id": "step-599019",
+        "selector": "#step-599019",
+        "step_anchor": "step-5",
+        "title": "Laplace Transforms of Exponential Functions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "599015",
+        "content_id": "14723",
+        "dom_id": "step-599015",
+        "selector": "#step-599015",
+        "step_anchor": "step-6",
+        "title": "When Does a Laplace Transform Converge?",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "599020",
+        "content_id": "21599",
+        "dom_id": "step-599020",
+        "selector": "#step-599020",
+        "step_anchor": "step-7",
+        "title": "Evaluating Laplace Transforms of Real Exponential Functions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "331422",
+        "dom_id": "question-331422",
+        "selector": "#question-331422",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "340730",
+        "dom_id": "question-340730",
+        "selector": "#question-340730",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "599023",
+        "content_id": "14441",
+        "dom_id": "step-599023",
+        "selector": "#step-599023",
+        "step_anchor": "step-10",
+        "title": "Laplace Transforms as Functions of a Complex Variable",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "599024",
+        "content_id": "21602",
+        "dom_id": "step-599024",
+        "selector": "#step-599024",
+        "step_anchor": "step-11",
+        "title": "Evaluating Laplace Transforms of Complex Exponentials",
+        "key_prerequisites": [
+          {
+            "topic_id": "898",
+            "name": "Euler's Formula",
+            "href": "/topics/898"
+          },
+          {
+            "topic_id": "1719",
+            "name": "Limits of Trigonometric Functions",
+            "href": "/topics/1719"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "340634",
+        "dom_id": "question-340634",
+        "selector": "#question-340634",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "340738",
+        "dom_id": "question-340738",
+        "selector": "#question-340738",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "599027",
+        "content_id": "14440",
+        "dom_id": "step-599027",
+        "selector": "#step-599027",
+        "step_anchor": "step-14",
+        "title": "Key Results",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "599028",
+        "content_id": "14694",
+        "dom_id": "step-599028",
+        "selector": "#step-599028",
+        "step_anchor": "step-15",
+        "title": "Existence of Laplace Transforms",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-599014",
+        "filename": "01-step-599014.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-599016",
+        "filename": "02-step-599016.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-331417",
+        "filename": "03-question-331417.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-340717",
+        "filename": "04-question-340717.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-599019",
+        "filename": "05-step-599019.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-599015",
+        "filename": "06-step-599015.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-599020",
+        "filename": "07-step-599020.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-331422",
+        "filename": "08-question-331422.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-340730",
+        "filename": "09-question-340730.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-599023",
+        "filename": "10-step-599023.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-599024",
+        "filename": "11-step-599024.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-340634",
+        "filename": "12-question-340634.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-340738",
+        "filename": "13-question-340738.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-599027",
+        "filename": "14-step-599027.png"
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "selector": "#step-599028",
+        "filename": "15-step-599028.png"
+      }
+    ]
+  }
+}

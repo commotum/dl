@@ -1,0 +1,372 @@
+{
+  "schema_version": 1,
+  "topic_id": "1861",
+  "topic_title": "Linear Dependence and Independence",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1861.html",
+  "source_url": "https://mathacademy.com/topics/1861",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "41352",
+        "dom_id": "sectionLink-41352",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-41352"
+      },
+      {
+        "index": 2,
+        "step_id": "41353",
+        "dom_id": "sectionLink-41353",
+        "name": "",
+        "title": "Sets of Two Vectors Containing the Zero Vector",
+        "selector": "#sectionLink-41353"
+      },
+      {
+        "index": 3,
+        "step_id": "41354",
+        "dom_id": "sectionLink-41354",
+        "name": "",
+        "title": "Finding a Vector That Makes a Set Linearly Dependent",
+        "selector": "#sectionLink-41354"
+      },
+      {
+        "index": 4,
+        "step_id": "41357",
+        "dom_id": "sectionLink-41357",
+        "name": "",
+        "title": "Linear Dependence and Independence for a General Set of Vectors",
+        "selector": "#sectionLink-41357"
+      },
+      {
+        "index": 5,
+        "step_id": "41358",
+        "dom_id": "sectionLink-41358",
+        "name": "",
+        "title": "General Sets of Vectors Containing the Zero Vector",
+        "selector": "#sectionLink-41358"
+      },
+      {
+        "index": 6,
+        "step_id": "41359",
+        "dom_id": "sectionLink-41359",
+        "name": "",
+        "title": "Identifying Linearly Independent Sets by Inspection",
+        "selector": "#sectionLink-41359"
+      },
+      {
+        "index": 7,
+        "step_id": "41362",
+        "dom_id": "sectionLink-41362",
+        "name": "",
+        "title": "Identifying Linearly Independent and Dependent Sets Using Row Reduction",
+        "selector": "#sectionLink-41362"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1852",
+        "name": "Linear Span of Vectors in N-Dimensional Euclidean Space",
+        "href": "/topics/linear-span-of-vectors-in-n-dimensional-euclidean-space-1852"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "41352",
+        "content_id": "6811",
+        "dom_id": "step-41352",
+        "selector": "#step-41352",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "41353",
+        "content_id": "6812",
+        "dom_id": "step-41353",
+        "selector": "#step-41353",
+        "step_anchor": "step-2",
+        "title": "Sets of Two Vectors Containing the Zero Vector",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "41354",
+        "content_id": "10906",
+        "dom_id": "step-41354",
+        "selector": "#step-41354",
+        "step_anchor": "step-3",
+        "title": "Finding a Vector That Makes a Set Linearly Dependent",
+        "key_prerequisites": [
+          {
+            "topic_id": "1852",
+            "name": "Linear Span of Vectors in N-Dimensional Euclidean Space",
+            "href": "/topics/1852"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "34289",
+        "dom_id": "question-34289",
+        "selector": "#question-34289",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "34291",
+        "dom_id": "question-34291",
+        "selector": "#question-34291",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "41357",
+        "content_id": "6813",
+        "dom_id": "step-41357",
+        "selector": "#step-41357",
+        "step_anchor": "step-6",
+        "title": "Linear Dependence and Independence for a General Set of Vectors",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "41358",
+        "content_id": "6814",
+        "dom_id": "step-41358",
+        "selector": "#step-41358",
+        "step_anchor": "step-7",
+        "title": "General Sets of Vectors Containing the Zero Vector",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "41359",
+        "content_id": "10907",
+        "dom_id": "step-41359",
+        "selector": "#step-41359",
+        "step_anchor": "step-8",
+        "title": "Identifying Linearly Independent Sets by Inspection",
+        "key_prerequisites": [
+          {
+            "topic_id": "1047",
+            "name": "Solving Systems of Equations Using Back Substitution",
+            "href": "/topics/1047"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "155967",
+        "dom_id": "question-155967",
+        "selector": "#question-155967",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "156591",
+        "dom_id": "question-156591",
+        "selector": "#question-156591",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "155965",
+        "dom_id": "question-155965",
+        "selector": "#question-155965",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "41362",
+        "content_id": "10908",
+        "dom_id": "step-41362",
+        "selector": "#step-41362",
+        "step_anchor": "step-12",
+        "title": "Identifying Linearly Independent and Dependent Sets Using Row Reduction",
+        "key_prerequisites": [
+          {
+            "topic_id": "1048",
+            "name": "Solving 3x3 Systems of Equations Using Gaussian Elimination",
+            "href": "/topics/1048"
+          },
+          {
+            "topic_id": "1374",
+            "name": "Solving 3x3 Singular Systems of Equations Using Gaussian Elimination",
+            "href": "/topics/1374"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "34273",
+        "dom_id": "question-34273",
+        "selector": "#question-34273",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "34153",
+        "dom_id": "question-34153",
+        "selector": "#question-34153",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-41352",
+        "filename": "01-step-41352.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-41353",
+        "filename": "02-step-41353.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-41354",
+        "filename": "03-step-41354.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-34289",
+        "filename": "04-question-34289.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-34291",
+        "filename": "05-question-34291.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-41357",
+        "filename": "06-step-41357.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-41358",
+        "filename": "07-step-41358.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-41359",
+        "filename": "08-step-41359.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-155967",
+        "filename": "09-question-155967.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-156591",
+        "filename": "10-question-156591.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-155965",
+        "filename": "11-question-155965.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-41362",
+        "filename": "12-step-41362.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-34273",
+        "filename": "13-question-34273.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-34153",
+        "filename": "14-question-34153.png"
+      }
+    ]
+  }
+}

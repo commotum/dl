@@ -1,0 +1,412 @@
+{
+  "schema_version": 1,
+  "topic_id": "2521",
+  "topic_title": "Exact Differential Equations",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2521.html",
+  "source_url": "https://mathacademy.com/topics/2521",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "594341",
+        "dom_id": "sectionLink-594341",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-594341"
+      },
+      {
+        "index": 2,
+        "step_id": "594342",
+        "dom_id": "sectionLink-594342",
+        "name": "",
+        "title": "Checking ODEs for Exactness",
+        "selector": "#sectionLink-594342"
+      },
+      {
+        "index": 3,
+        "step_id": "594346",
+        "dom_id": "sectionLink-594346",
+        "name": "",
+        "title": "Identifying Factors Giving an Exact ODE",
+        "selector": "#sectionLink-594346"
+      },
+      {
+        "index": 4,
+        "step_id": "594349",
+        "dom_id": "sectionLink-594349",
+        "name": "",
+        "title": "General Solutions of Exact ODEs",
+        "selector": "#sectionLink-594349"
+      },
+      {
+        "index": 5,
+        "step_id": "594350",
+        "dom_id": "sectionLink-594350",
+        "name": "",
+        "title": "Solving an Exact Differential Equation",
+        "selector": "#sectionLink-594350"
+      },
+      {
+        "index": 6,
+        "step_id": "594353",
+        "dom_id": "sectionLink-594353",
+        "name": "",
+        "title": "Rearranging an ODE Into Exact Form and Then Solving",
+        "selector": "#sectionLink-594353"
+      },
+      {
+        "index": 7,
+        "step_id": "594356",
+        "dom_id": "sectionLink-594356",
+        "name": "",
+        "title": "Justifying the Exactness Test",
+        "selector": "#sectionLink-594356"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1179",
+        "name": "Solving First-Order IVPs Using Separation of Variables",
+        "href": "/topics/solving-first-order-ivps-using-separation-of-variables-1179"
+      },
+      {
+        "topic_id": "1950",
+        "name": "Differentials",
+        "href": "/topics/differentials-1950"
+      },
+      {
+        "topic_id": "1951",
+        "name": "Calculating Potential Functions",
+        "href": "/topics/calculating-potential-functions-1951"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 16,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "594341",
+        "content_id": "14035",
+        "dom_id": "step-594341",
+        "selector": "#step-594341",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "594342",
+        "content_id": "20933",
+        "dom_id": "step-594342",
+        "selector": "#step-594342",
+        "step_anchor": "step-2",
+        "title": "Checking ODEs for Exactness",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "317821",
+        "dom_id": "question-317821",
+        "selector": "#question-317821",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "320435",
+        "dom_id": "question-320435",
+        "selector": "#question-320435",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "317662",
+        "dom_id": "question-317662",
+        "selector": "#question-317662",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "594346",
+        "content_id": "20894",
+        "dom_id": "step-594346",
+        "selector": "#step-594346",
+        "step_anchor": "step-6",
+        "title": "Identifying Factors Giving an Exact ODE",
+        "key_prerequisites": [
+          {
+            "topic_id": "1950",
+            "name": "Differentials",
+            "href": "/topics/1950"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "64207",
+        "dom_id": "question-64207",
+        "selector": "#question-64207",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "64180",
+        "dom_id": "question-64180",
+        "selector": "#question-64180",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "594349",
+        "content_id": "14036",
+        "dom_id": "step-594349",
+        "selector": "#step-594349",
+        "step_anchor": "step-9",
+        "title": "General Solutions of Exact ODEs",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "594350",
+        "content_id": "20895",
+        "dom_id": "step-594350",
+        "selector": "#step-594350",
+        "step_anchor": "step-10",
+        "title": "Solving an Exact Differential Equation",
+        "key_prerequisites": [
+          {
+            "topic_id": "1900",
+            "name": "Level Curves",
+            "href": "/topics/1900"
+          },
+          {
+            "topic_id": "1951",
+            "name": "Calculating Potential Functions",
+            "href": "/topics/1951"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "64181",
+        "dom_id": "question-64181",
+        "selector": "#question-64181",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "64215",
+        "dom_id": "question-64215",
+        "selector": "#question-64215",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "594353",
+        "content_id": "20934",
+        "dom_id": "step-594353",
+        "selector": "#step-594353",
+        "step_anchor": "step-13",
+        "title": "Rearranging an ODE Into Exact Form and Then Solving",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "317664",
+        "dom_id": "question-317664",
+        "selector": "#question-317664",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "318650",
+        "dom_id": "question-318650",
+        "selector": "#question-318650",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "594356",
+        "content_id": "14037",
+        "dom_id": "step-594356",
+        "selector": "#step-594356",
+        "step_anchor": "step-16",
+        "title": "Justifying the Exactness Test",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-594341",
+        "filename": "01-step-594341.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-594342",
+        "filename": "02-step-594342.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-317821",
+        "filename": "03-question-317821.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-320435",
+        "filename": "04-question-320435.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-317662",
+        "filename": "05-question-317662.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-594346",
+        "filename": "06-step-594346.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-64207",
+        "filename": "07-question-64207.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-64180",
+        "filename": "08-question-64180.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-594349",
+        "filename": "09-step-594349.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-594350",
+        "filename": "10-step-594350.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-64181",
+        "filename": "11-question-64181.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-64215",
+        "filename": "12-question-64215.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-594353",
+        "filename": "13-step-594353.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-317664",
+        "filename": "14-question-317664.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-318650",
+        "filename": "15-question-318650.png"
+      },
+      {
+        "index": 16,
+        "item_type": "step",
+        "selector": "#step-594356",
+        "filename": "16-step-594356.png"
+      }
+    ]
+  }
+}

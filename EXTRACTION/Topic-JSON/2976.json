@@ -1,0 +1,293 @@
+{
+  "schema_version": 1,
+  "topic_id": "2976",
+  "topic_title": "Qualitative Analysis of First-Order ODEs",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2976.html",
+  "source_url": "https://mathacademy.com/topics/2976",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "29506",
+        "dom_id": "sectionLink-29506",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-29506"
+      },
+      {
+        "index": 2,
+        "step_id": "29507",
+        "dom_id": "sectionLink-29507",
+        "name": "",
+        "title": "Determining Whether a Point on a Solution Curve Is a Stationary Point",
+        "selector": "#sectionLink-29507"
+      },
+      {
+        "index": 3,
+        "step_id": "29524",
+        "dom_id": "sectionLink-29524",
+        "name": "",
+        "title": "Calculating the Second Derivative at a Point on a Solution Curve",
+        "selector": "#sectionLink-29524"
+      },
+      {
+        "index": 4,
+        "step_id": "29527",
+        "dom_id": "sectionLink-29527",
+        "name": "",
+        "title": "Using the Second Derivative Test To Classify a Point on a Solution Curve",
+        "selector": "#sectionLink-29527"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "57",
+        "name": "Implicit Differentiation",
+        "href": "/topics/implicit-differentiation-57"
+      },
+      {
+        "topic_id": "339",
+        "name": "The Second Derivative Test",
+        "href": "/topics/the-second-derivative-test-339"
+      },
+      {
+        "topic_id": "1046",
+        "name": "Points of Inflection",
+        "href": "/topics/points-of-inflection-1046"
+      },
+      {
+        "topic_id": "1181",
+        "name": "Verifying Solutions of Differential Equations",
+        "href": "/topics/verifying-solutions-of-differential-equations-1181"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 10,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "29506",
+        "content_id": "4766",
+        "dom_id": "step-29506",
+        "selector": "#step-29506",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "29507",
+        "content_id": "7918",
+        "dom_id": "step-29507",
+        "selector": "#step-29507",
+        "step_anchor": "step-2",
+        "title": "Determining Whether a Point on a Solution Curve Is a Stationary Point",
+        "key_prerequisites": [
+          {
+            "topic_id": "752",
+            "name": "Using Differentiation to Calculate Critical Points",
+            "href": "/topics/752"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "89413",
+        "dom_id": "question-89413",
+        "selector": "#question-89413",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "89414",
+        "dom_id": "question-89414",
+        "selector": "#question-89414",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "29524",
+        "content_id": "7923",
+        "dom_id": "step-29524",
+        "selector": "#step-29524",
+        "step_anchor": "step-5",
+        "title": "Calculating the Second Derivative at a Point on a Solution Curve",
+        "key_prerequisites": [
+          {
+            "topic_id": "57",
+            "name": "Implicit Differentiation",
+            "href": "/topics/57"
+          },
+          {
+            "topic_id": "281",
+            "name": "Second and Higher-Order Derivatives",
+            "href": "/topics/281"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "89424",
+        "dom_id": "question-89424",
+        "selector": "#question-89424",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "89425",
+        "dom_id": "question-89425",
+        "selector": "#question-89425",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "29527",
+        "content_id": "7924",
+        "dom_id": "step-29527",
+        "selector": "#step-29527",
+        "step_anchor": "step-8",
+        "title": "Using the Second Derivative Test To Classify a Point on a Solution Curve",
+        "key_prerequisites": [
+          {
+            "topic_id": "339",
+            "name": "The Second Derivative Test",
+            "href": "/topics/339"
+          },
+          {
+            "topic_id": "1046",
+            "name": "Points of Inflection",
+            "href": "/topics/1046"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "89891",
+        "dom_id": "question-89891",
+        "selector": "#question-89891",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "89428",
+        "dom_id": "question-89428",
+        "selector": "#question-89428",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-29506",
+        "filename": "01-step-29506.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-29507",
+        "filename": "02-step-29507.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-89413",
+        "filename": "03-question-89413.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-89414",
+        "filename": "04-question-89414.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-29524",
+        "filename": "05-step-29524.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-89424",
+        "filename": "06-question-89424.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-89425",
+        "filename": "07-question-89425.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-29527",
+        "filename": "08-step-29527.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-89891",
+        "filename": "09-question-89891.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-89428",
+        "filename": "10-question-89428.png"
+      }
+    ]
+  }
+}

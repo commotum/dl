@@ -1,0 +1,404 @@
+{
+  "schema_version": 1,
+  "topic_id": "3860",
+  "topic_title": "Further Modeling With First-Order ODEs",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3860.html",
+  "source_url": "https://mathacademy.com/topics/3860",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "38001",
+        "dom_id": "sectionLink-38001",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-38001"
+      },
+      {
+        "index": 2,
+        "step_id": "38002",
+        "dom_id": "sectionLink-38002",
+        "name": "",
+        "title": "Translating Contextual Problems Into Differential Equations",
+        "selector": "#sectionLink-38002"
+      },
+      {
+        "index": 3,
+        "step_id": "53348",
+        "dom_id": "sectionLink-53348",
+        "name": "",
+        "title": "Recalling Some Facts From Elementary Geometry",
+        "selector": "#sectionLink-53348"
+      },
+      {
+        "index": 4,
+        "step_id": "38016",
+        "dom_id": "sectionLink-38016",
+        "name": "",
+        "title": "Translating Coordinate Plane Problems Into Differential Equations",
+        "selector": "#sectionLink-38016"
+      },
+      {
+        "index": 5,
+        "step_id": "1853",
+        "dom_id": "sectionLink-1853",
+        "name": "",
+        "title": "Expressing Two-Dimensional Related Rates Using Differential Equations",
+        "selector": "#sectionLink-1853"
+      },
+      {
+        "index": 6,
+        "step_id": "38012",
+        "dom_id": "sectionLink-38012",
+        "name": "",
+        "title": "Expressing Three-Dimensional Related Rates Using Differential Equations",
+        "selector": "#sectionLink-38012"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "287",
+        "name": "Calculating Related Rates With Circles and Spheres",
+        "href": "/topics/calculating-related-rates-with-circles-and-spheres-287"
+      },
+      {
+        "topic_id": "365",
+        "name": "Calculating Related Rates With Rectangular Solids",
+        "href": "/topics/calculating-related-rates-with-rectangular-solids-365"
+      },
+      {
+        "topic_id": "459",
+        "name": "The Distance Formula",
+        "href": "/topics/the-distance-formula-459"
+      },
+      {
+        "topic_id": "2023",
+        "name": "Modeling With First-Order ODEs",
+        "href": "/topics/modeling-with-first-order-odes-2023"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "38001",
+        "content_id": "6270",
+        "dom_id": "step-38001",
+        "selector": "#step-38001",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "38002",
+        "content_id": "10072",
+        "dom_id": "step-38002",
+        "selector": "#step-38002",
+        "step_anchor": "step-2",
+        "title": "Translating Contextual Problems Into Differential Equations",
+        "key_prerequisites": [
+          {
+            "topic_id": "296",
+            "name": "Interpreting the Meaning of the Derivative in Context",
+            "href": "/topics/296"
+          },
+          {
+            "topic_id": "2023",
+            "name": "Modeling With First-Order ODEs",
+            "href": "/topics/2023"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "38324",
+        "dom_id": "question-38324",
+        "selector": "#question-38324",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "38325",
+        "dom_id": "question-38325",
+        "selector": "#question-38325",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "53348",
+        "content_id": "8152",
+        "dom_id": "step-53348",
+        "selector": "#step-53348",
+        "step_anchor": "step-5",
+        "title": "Recalling Some Facts From Elementary Geometry",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "38016",
+        "content_id": "10076",
+        "dom_id": "step-38016",
+        "selector": "#step-38016",
+        "step_anchor": "step-6",
+        "title": "Translating Coordinate Plane Problems Into Differential Equations",
+        "key_prerequisites": [
+          {
+            "topic_id": "396",
+            "name": "Calculating Slopes of Straight Lines",
+            "href": "/topics/396"
+          },
+          {
+            "topic_id": "459",
+            "name": "The Distance Formula",
+            "href": "/topics/459"
+          },
+          {
+            "topic_id": "2281",
+            "name": "Absolute Value",
+            "href": "/topics/2281"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "38329",
+        "dom_id": "question-38329",
+        "selector": "#question-38329",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "38563",
+        "dom_id": "question-38563",
+        "selector": "#question-38563",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "1853",
+        "content_id": "524",
+        "dom_id": "step-1853",
+        "selector": "#step-1853",
+        "step_anchor": "step-9",
+        "title": "Expressing Two-Dimensional Related Rates Using Differential Equations",
+        "key_prerequisites": [
+          {
+            "topic_id": "287",
+            "name": "Calculating Related Rates With Circles and Spheres",
+            "href": "/topics/287"
+          },
+          {
+            "topic_id": "368",
+            "name": "Calculating Related Rates With Squares",
+            "href": "/topics/368"
+          },
+          {
+            "topic_id": "1044",
+            "name": "Introduction to Related Rates",
+            "href": "/topics/1044"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "119161",
+        "dom_id": "question-119161",
+        "selector": "#question-119161",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "119172",
+        "dom_id": "question-119172",
+        "selector": "#question-119172",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "38012",
+        "content_id": "10075",
+        "dom_id": "step-38012",
+        "selector": "#step-38012",
+        "step_anchor": "step-12",
+        "title": "Expressing Three-Dimensional Related Rates Using Differential Equations",
+        "key_prerequisites": [
+          {
+            "topic_id": "365",
+            "name": "Calculating Related Rates With Rectangular Solids",
+            "href": "/topics/365"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "38252",
+        "dom_id": "question-38252",
+        "selector": "#question-38252",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "80491",
+        "dom_id": "question-80491",
+        "selector": "#question-80491",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-38001",
+        "filename": "01-step-38001.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-38002",
+        "filename": "02-step-38002.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-38324",
+        "filename": "03-question-38324.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-38325",
+        "filename": "04-question-38325.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-53348",
+        "filename": "05-step-53348.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-38016",
+        "filename": "06-step-38016.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-38329",
+        "filename": "07-question-38329.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-38563",
+        "filename": "08-question-38563.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-1853",
+        "filename": "09-step-1853.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-119161",
+        "filename": "10-question-119161.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-119172",
+        "filename": "11-question-119172.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-38012",
+        "filename": "12-step-38012.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-38252",
+        "filename": "13-question-38252.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-80491",
+        "filename": "14-question-80491.png"
+      }
+    ]
+  }
+}

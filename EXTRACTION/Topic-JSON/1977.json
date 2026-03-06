@@ -1,0 +1,288 @@
+{
+  "schema_version": 1,
+  "topic_id": "1977",
+  "topic_title": "Calculating the Eigenvectors of a 3x3 Matrix With Distinct Eigenvalues",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1977.html",
+  "source_url": "https://mathacademy.com/topics/1977",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "20099",
+        "dom_id": "sectionLink-20099",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-20099"
+      },
+      {
+        "index": 2,
+        "step_id": "20100",
+        "dom_id": "sectionLink-20100",
+        "name": "",
+        "title": "Calculating the Components of an Eigenvector Corresponding to a Given Eigenvalue",
+        "selector": "#sectionLink-20100"
+      },
+      {
+        "index": 3,
+        "step_id": "20101",
+        "dom_id": "sectionLink-20101",
+        "name": "",
+        "title": "Calculating an Eigenvector Corresponding to a Given Eigenvalue",
+        "selector": "#sectionLink-20101"
+      },
+      {
+        "index": 4,
+        "step_id": "27265",
+        "dom_id": "sectionLink-27265",
+        "name": "",
+        "title": "Eigenvectors That Correspond to Different Eigenvalues",
+        "selector": "#sectionLink-27265"
+      },
+      {
+        "index": 5,
+        "step_id": "20102",
+        "dom_id": "sectionLink-20102",
+        "name": "",
+        "title": "Finding the Eigenvectors of a 3x3 Matrix",
+        "selector": "#sectionLink-20102"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "991",
+        "name": "Calculating the Eigenvectors of a 2x2 Matrix",
+        "href": "/topics/calculating-the-eigenvectors-of-a-2x2-matrix-991"
+      },
+      {
+        "topic_id": "1964",
+        "name": "The Characteristic Equation of a Matrix",
+        "href": "/topics/the-characteristic-equation-of-a-matrix-1964"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20099",
+        "content_id": "3566",
+        "dom_id": "step-20099",
+        "selector": "#step-20099",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20100",
+        "content_id": "5490",
+        "dom_id": "step-20100",
+        "selector": "#step-20100",
+        "step_anchor": "step-2",
+        "title": "Calculating the Components of an Eigenvector Corresponding to a Given Eigenvalue",
+        "key_prerequisites": [
+          {
+            "topic_id": "991",
+            "name": "Calculating the Eigenvectors of a 2x2 Matrix",
+            "href": "/topics/991"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "36814",
+        "dom_id": "question-36814",
+        "selector": "#question-36814",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "36946",
+        "dom_id": "question-36946",
+        "selector": "#question-36946",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20101",
+        "content_id": "5491",
+        "dom_id": "step-20101",
+        "selector": "#step-20101",
+        "step_anchor": "step-5",
+        "title": "Calculating an Eigenvector Corresponding to a Given Eigenvalue",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "37398",
+        "dom_id": "question-37398",
+        "selector": "#question-37398",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "37405",
+        "dom_id": "question-37405",
+        "selector": "#question-37405",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "27265",
+        "content_id": "4432",
+        "dom_id": "step-27265",
+        "selector": "#step-27265",
+        "step_anchor": "step-8",
+        "title": "Eigenvectors That Correspond to Different Eigenvalues",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20102",
+        "content_id": "5492",
+        "dom_id": "step-20102",
+        "selector": "#step-20102",
+        "step_anchor": "step-9",
+        "title": "Finding the Eigenvectors of a 3x3 Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "37385",
+        "dom_id": "question-37385",
+        "selector": "#question-37385",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "36949",
+        "dom_id": "question-36949",
+        "selector": "#question-36949",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-20099",
+        "filename": "01-step-20099.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-20100",
+        "filename": "02-step-20100.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-36814",
+        "filename": "03-question-36814.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-36946",
+        "filename": "04-question-36946.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-20101",
+        "filename": "05-step-20101.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-37398",
+        "filename": "06-question-37398.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-37405",
+        "filename": "07-question-37405.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-27265",
+        "filename": "08-step-27265.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-20102",
+        "filename": "09-step-20102.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-37385",
+        "filename": "10-question-37385.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-36949",
+        "filename": "11-question-36949.png"
+      }
+    ]
+  }
+}

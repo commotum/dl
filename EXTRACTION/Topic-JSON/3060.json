@@ -1,0 +1,304 @@
+{
+  "schema_version": 1,
+  "topic_id": "3060",
+  "topic_title": "The F-Distribution",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3060.html",
+  "source_url": "https://mathacademy.com/topics/3060",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "225303",
+        "dom_id": "sectionLink-225303",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-225303"
+      },
+      {
+        "index": 2,
+        "step_id": "225304",
+        "dom_id": "sectionLink-225304",
+        "name": "",
+        "title": "F-Distribution Tables",
+        "selector": "#sectionLink-225304"
+      },
+      {
+        "index": 3,
+        "step_id": "225305",
+        "dom_id": "sectionLink-225305",
+        "name": "",
+        "title": "Finding a Critical Value Corresponding to a Given Probability",
+        "selector": "#sectionLink-225305"
+      },
+      {
+        "index": 4,
+        "step_id": "225308",
+        "dom_id": "sectionLink-225308",
+        "name": "",
+        "title": "The Reciprocal Property",
+        "selector": "#sectionLink-225308"
+      },
+      {
+        "index": 5,
+        "step_id": "225310",
+        "dom_id": "sectionLink-225310",
+        "name": "",
+        "title": "Finding a Critical Value Using the Reciprocal Property",
+        "selector": "#sectionLink-225310"
+      },
+      {
+        "index": 6,
+        "step_id": "225313",
+        "dom_id": "sectionLink-225313",
+        "name": "",
+        "title": "Computing a Probability Over a Bounded Interval",
+        "selector": "#sectionLink-225313"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3023",
+        "name": "The Chi-Square Distribution",
+        "href": "/topics/the-chi-square-distribution-3023"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "225303",
+        "content_id": "10820",
+        "dom_id": "step-225303",
+        "selector": "#step-225303",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "225304",
+        "content_id": "10566",
+        "dom_id": "step-225304",
+        "selector": "#step-225304",
+        "step_anchor": "step-2",
+        "title": "F-Distribution Tables",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "225305",
+        "content_id": "15621",
+        "dom_id": "step-225305",
+        "selector": "#step-225305",
+        "step_anchor": "step-3",
+        "title": "Finding a Critical Value Corresponding to a Given Probability",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "236873",
+        "dom_id": "question-236873",
+        "selector": "#question-236873",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "236881",
+        "dom_id": "question-236881",
+        "selector": "#question-236881",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "225308",
+        "content_id": "10822",
+        "dom_id": "step-225308",
+        "selector": "#step-225308",
+        "step_anchor": "step-6",
+        "title": "The Reciprocal Property",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "225310",
+        "content_id": "15622",
+        "dom_id": "step-225310",
+        "selector": "#step-225310",
+        "step_anchor": "step-7",
+        "title": "Finding a Critical Value Using the Reciprocal Property",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "236889",
+        "dom_id": "question-236889",
+        "selector": "#question-236889",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "251822",
+        "dom_id": "question-251822",
+        "selector": "#question-251822",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "225313",
+        "content_id": "15624",
+        "dom_id": "step-225313",
+        "selector": "#step-225313",
+        "step_anchor": "step-10",
+        "title": "Computing a Probability Over a Bounded Interval",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "251789",
+        "dom_id": "question-251789",
+        "selector": "#question-251789",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "251843",
+        "dom_id": "question-251843",
+        "selector": "#question-251843",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-225303",
+        "filename": "01-step-225303.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-225304",
+        "filename": "02-step-225304.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-225305",
+        "filename": "03-step-225305.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-236873",
+        "filename": "04-question-236873.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-236881",
+        "filename": "05-question-236881.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-225308",
+        "filename": "06-step-225308.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-225310",
+        "filename": "07-step-225310.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-236889",
+        "filename": "08-question-236889.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-251822",
+        "filename": "09-question-251822.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-225313",
+        "filename": "10-step-225313.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-251789",
+        "filename": "11-question-251789.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-251843",
+        "filename": "12-question-251843.png"
+      }
+    ]
+  }
+}

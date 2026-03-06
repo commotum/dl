@@ -1,0 +1,257 @@
+{
+  "schema_version": 1,
+  "topic_id": "1373",
+  "topic_title": "Solving 2x2 Singular Systems of Equations Using Gaussian Elimination",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1373.html",
+  "source_url": "https://mathacademy.com/topics/1373",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "17192",
+        "dom_id": "sectionLink-17192",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-17192"
+      },
+      {
+        "index": 2,
+        "step_id": "17193",
+        "dom_id": "sectionLink-17193",
+        "name": "",
+        "title": "Reducing an Augmented Matrix for a Singular 2x2 System to REF and Solving the Resulting System",
+        "selector": "#sectionLink-17193"
+      },
+      {
+        "index": 3,
+        "step_id": "23052",
+        "dom_id": "sectionLink-23052",
+        "name": "",
+        "title": "Singular Systems with No Solution",
+        "selector": "#sectionLink-23052"
+      },
+      {
+        "index": 4,
+        "step_id": "17194",
+        "dom_id": "sectionLink-17194",
+        "name": "",
+        "title": "Solving a Singular 2x2 System of Equations Using Gaussian Elimination",
+        "selector": "#sectionLink-17194"
+      },
+      {
+        "index": 5,
+        "step_id": "17195",
+        "dom_id": "sectionLink-17195",
+        "name": "",
+        "title": "The Number of Solutions of a 2x2 System",
+        "selector": "#sectionLink-17195"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "151",
+        "name": "Solving 2x2 Systems of Equations Using Gaussian Elimination",
+        "href": "/topics/solving-2x2-systems-of-equations-using-gaussian-elimination-151"
+      },
+      {
+        "topic_id": "4638",
+        "name": "Consistency and Dependency in Linear Systems",
+        "href": "/topics/consistency-and-dependency-in-linear-systems-4638"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 9,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "17192",
+        "content_id": "3153",
+        "dom_id": "step-17192",
+        "selector": "#step-17192",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17193",
+        "content_id": "4699",
+        "dom_id": "step-17193",
+        "selector": "#step-17193",
+        "step_anchor": "step-2",
+        "title": "Reducing an Augmented Matrix for a Singular 2x2 System to REF and Solving the Resulting System",
+        "key_prerequisites": [
+          {
+            "topic_id": "151",
+            "name": "Solving 2x2 Systems of Equations Using Gaussian Elimination",
+            "href": "/topics/151"
+          },
+          {
+            "topic_id": "493",
+            "name": "Systems of Equations With No Solutions and Infinitely Many Solutions",
+            "href": "/topics/493"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "42155",
+        "dom_id": "question-42155",
+        "selector": "#question-42155",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "42156",
+        "dom_id": "question-42156",
+        "selector": "#question-42156",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "23052",
+        "content_id": "3901",
+        "dom_id": "step-23052",
+        "selector": "#step-23052",
+        "step_anchor": "step-5",
+        "title": "Singular Systems with No Solution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17194",
+        "content_id": "4700",
+        "dom_id": "step-17194",
+        "selector": "#step-17194",
+        "step_anchor": "step-6",
+        "title": "Solving a Singular 2x2 System of Equations Using Gaussian Elimination",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "42167",
+        "dom_id": "question-42167",
+        "selector": "#question-42167",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "42157",
+        "dom_id": "question-42157",
+        "selector": "#question-42157",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "17195",
+        "content_id": "3154",
+        "dom_id": "step-17195",
+        "selector": "#step-17195",
+        "step_anchor": "step-9",
+        "title": "The Number of Solutions of a 2x2 System",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-17192",
+        "filename": "01-step-17192.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-17193",
+        "filename": "02-step-17193.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-42155",
+        "filename": "03-question-42155.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-42156",
+        "filename": "04-question-42156.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-23052",
+        "filename": "05-step-23052.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-17194",
+        "filename": "06-step-17194.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-42167",
+        "filename": "07-question-42167.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-42157",
+        "filename": "08-question-42157.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-17195",
+        "filename": "09-step-17195.png"
+      }
+    ]
+  }
+}

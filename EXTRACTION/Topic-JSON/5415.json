@@ -1,0 +1,300 @@
+{
+  "schema_version": 1,
+  "topic_id": "5415",
+  "topic_title": "Adjacency Matrices of Directed Graphs",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/5415.html",
+  "source_url": "https://mathacademy.com/topics/5415",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "415991",
+        "dom_id": "sectionLink-415991",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-415991"
+      },
+      {
+        "index": 2,
+        "step_id": "415992",
+        "dom_id": "sectionLink-415992",
+        "name": "",
+        "title": "Building the Adjacency Matrix of a Directed Graph",
+        "selector": "#sectionLink-415992"
+      },
+      {
+        "index": 3,
+        "step_id": "415995",
+        "dom_id": "sectionLink-415995",
+        "name": "",
+        "title": "Adjacency Matrices of Directed Weighted Graphs",
+        "selector": "#sectionLink-415995"
+      },
+      {
+        "index": 4,
+        "step_id": "415996",
+        "dom_id": "sectionLink-415996",
+        "name": "",
+        "title": "Building the Adjacency Matrix of a Directed Weighted Graph (Without Multiple Edges)",
+        "selector": "#sectionLink-415996"
+      },
+      {
+        "index": 5,
+        "step_id": "415999",
+        "dom_id": "sectionLink-415999",
+        "name": "",
+        "title": "Building a Graph From an Adjacency Matrix (Without Multiple Edges)",
+        "selector": "#sectionLink-415999"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2757",
+        "name": "Adjacency Matrices",
+        "href": "/topics/adjacency-matrices-2757"
+      },
+      {
+        "topic_id": "5431",
+        "name": "Walks, Paths, and Distances in Directed Graphs",
+        "href": "/topics/walks-paths-and-distances-in-directed-graphs-5431"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "415991",
+        "content_id": "11019",
+        "dom_id": "step-415991",
+        "selector": "#step-415991",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "415992",
+        "content_id": "15996",
+        "dom_id": "step-415992",
+        "selector": "#step-415992",
+        "step_anchor": "step-2",
+        "title": "Building the Adjacency Matrix of a Directed Graph",
+        "key_prerequisites": [
+          {
+            "topic_id": "2757",
+            "name": "Adjacency Matrices",
+            "href": "/topics/2757"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "258263",
+        "dom_id": "question-258263",
+        "selector": "#question-258263",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "243167",
+        "dom_id": "question-243167",
+        "selector": "#question-243167",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "415995",
+        "content_id": "11020",
+        "dom_id": "step-415995",
+        "selector": "#step-415995",
+        "step_anchor": "step-5",
+        "title": "Adjacency Matrices of Directed Weighted Graphs",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "415996",
+        "content_id": "15998",
+        "dom_id": "step-415996",
+        "selector": "#step-415996",
+        "step_anchor": "step-6",
+        "title": "Building the Adjacency Matrix of a Directed Weighted Graph (Without Multiple Edges)",
+        "key_prerequisites": [
+          {
+            "topic_id": "5431",
+            "name": "Walks, Paths, and Distances in Directed Graphs",
+            "href": "/topics/5431"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "243168",
+        "dom_id": "question-243168",
+        "selector": "#question-243168",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "258096",
+        "dom_id": "question-258096",
+        "selector": "#question-258096",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "415999",
+        "content_id": "17277",
+        "dom_id": "step-415999",
+        "selector": "#step-415999",
+        "step_anchor": "step-9",
+        "title": "Building a Graph From an Adjacency Matrix (Without Multiple Edges)",
+        "key_prerequisites": [
+          {
+            "topic_id": "543",
+            "name": "Adding Fractions and Whole Numbers Using Models",
+            "href": "/topics/543"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "258300",
+        "dom_id": "question-258300",
+        "selector": "#question-258300",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "258287",
+        "dom_id": "question-258287",
+        "selector": "#question-258287",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-415991",
+        "filename": "01-step-415991.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-415992",
+        "filename": "02-step-415992.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-258263",
+        "filename": "03-question-258263.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-243167",
+        "filename": "04-question-243167.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-415995",
+        "filename": "05-step-415995.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-415996",
+        "filename": "06-step-415996.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-243168",
+        "filename": "07-question-243168.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-258096",
+        "filename": "08-question-258096.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-415999",
+        "filename": "09-step-415999.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-258300",
+        "filename": "10-question-258300.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-258287",
+        "filename": "11-question-258287.png"
+      }
+    ]
+  }
+}

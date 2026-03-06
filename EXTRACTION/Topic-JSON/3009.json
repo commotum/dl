@@ -1,0 +1,383 @@
+{
+  "schema_version": 1,
+  "topic_id": "3009",
+  "topic_title": "Combining Two Normally Distributed Random Variables",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3009.html",
+  "source_url": "https://mathacademy.com/topics/3009",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "33902",
+        "dom_id": "sectionLink-33902",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-33902"
+      },
+      {
+        "index": 2,
+        "step_id": "33933",
+        "dom_id": "sectionLink-33933",
+        "name": "",
+        "title": "Finding the Distribution of a Sum or Difference of Normal Random Variables",
+        "selector": "#sectionLink-33933"
+      },
+      {
+        "index": 3,
+        "step_id": "34366",
+        "dom_id": "sectionLink-34366",
+        "name": "",
+        "title": "Finding a Sum or Difference of Scaled Normal Random Variables",
+        "selector": "#sectionLink-34366"
+      },
+      {
+        "index": 4,
+        "step_id": "33983",
+        "dom_id": "sectionLink-33983",
+        "name": "",
+        "title": "Finding the Distribution of a Sum or Difference of Scaled Normal Random Variables",
+        "selector": "#sectionLink-33983"
+      },
+      {
+        "index": 5,
+        "step_id": "33986",
+        "dom_id": "sectionLink-33986",
+        "name": "",
+        "title": "Calculating a Probability Involving a Sum or Difference of Normally Distributed Random Variables",
+        "selector": "#sectionLink-33986"
+      },
+      {
+        "index": 6,
+        "step_id": "33988",
+        "dom_id": "sectionLink-33988",
+        "name": "",
+        "title": "Calculating a Probability Involving a Sum or Difference of Normally Distributed Random Variables in Context",
+        "selector": "#sectionLink-33988"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "788",
+        "name": "Modeling With the Normal Distribution",
+        "href": "/topics/modeling-with-the-normal-distribution-788"
+      },
+      {
+        "topic_id": "3062",
+        "name": "Variance of Sums of Independent Random Variables",
+        "href": "/topics/variance-of-sums-of-independent-random-variables-3062"
+      },
+      {
+        "topic_id": "3292",
+        "name": "Expected Values of Sums and Products of Random Variables",
+        "href": "/topics/expected-values-of-sums-and-products-of-random-variables-3292"
+      },
+      {
+        "topic_id": "3863",
+        "name": "Independence of Continuous Random Variables",
+        "href": "/topics/independence-of-continuous-random-variables-3863"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "33902",
+        "content_id": "5442",
+        "dom_id": "step-33902",
+        "selector": "#step-33902",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33933",
+        "content_id": "9103",
+        "dom_id": "step-33933",
+        "selector": "#step-33933",
+        "step_anchor": "step-2",
+        "title": "Finding the Distribution of a Sum or Difference of Normal Random Variables",
+        "key_prerequisites": [
+          {
+            "topic_id": "1843",
+            "name": "The Normal Distribution",
+            "href": "/topics/1843"
+          },
+          {
+            "topic_id": "3062",
+            "name": "Variance of Sums of Independent Random Variables",
+            "href": "/topics/3062"
+          },
+          {
+            "topic_id": "3292",
+            "name": "Expected Values of Sums and Products of Random Variables",
+            "href": "/topics/3292"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "109526",
+        "dom_id": "question-109526",
+        "selector": "#question-109526",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "108968",
+        "dom_id": "question-108968",
+        "selector": "#question-108968",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "34366",
+        "content_id": "5523",
+        "dom_id": "step-34366",
+        "selector": "#step-34366",
+        "step_anchor": "step-5",
+        "title": "Finding a Sum or Difference of Scaled Normal Random Variables",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33983",
+        "content_id": "9117",
+        "dom_id": "step-33983",
+        "selector": "#step-33983",
+        "step_anchor": "step-6",
+        "title": "Finding the Distribution of a Sum or Difference of Scaled Normal Random Variables",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "108908",
+        "dom_id": "question-108908",
+        "selector": "#question-108908",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "108970",
+        "dom_id": "question-108970",
+        "selector": "#question-108970",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33986",
+        "content_id": "9118",
+        "dom_id": "step-33986",
+        "selector": "#step-33986",
+        "step_anchor": "step-9",
+        "title": "Calculating a Probability Involving a Sum or Difference of Normally Distributed Random Variables",
+        "key_prerequisites": [
+          {
+            "topic_id": "265",
+            "name": "The Standard Normal Distribution",
+            "href": "/topics/265"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "108975",
+        "dom_id": "question-108975",
+        "selector": "#question-108975",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "109672",
+        "dom_id": "question-109672",
+        "selector": "#question-109672",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33988",
+        "content_id": "9119",
+        "dom_id": "step-33988",
+        "selector": "#step-33988",
+        "step_anchor": "step-12",
+        "title": "Calculating a Probability Involving a Sum or Difference of Normally Distributed Random Variables in Context",
+        "key_prerequisites": [
+          {
+            "topic_id": "788",
+            "name": "Modeling With the Normal Distribution",
+            "href": "/topics/788"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "108976",
+        "dom_id": "question-108976",
+        "selector": "#question-108976",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "110340",
+        "dom_id": "question-110340",
+        "selector": "#question-110340",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-33902",
+        "filename": "01-step-33902.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-33933",
+        "filename": "02-step-33933.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-109526",
+        "filename": "03-question-109526.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-108968",
+        "filename": "04-question-108968.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-34366",
+        "filename": "05-step-34366.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-33983",
+        "filename": "06-step-33983.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-108908",
+        "filename": "07-question-108908.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-108970",
+        "filename": "08-question-108970.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-33986",
+        "filename": "09-step-33986.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-108975",
+        "filename": "10-question-108975.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-109672",
+        "filename": "11-question-109672.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-33988",
+        "filename": "12-step-33988.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-108976",
+        "filename": "13-question-108976.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-110340",
+        "filename": "14-question-110340.png"
+      }
+    ]
+  }
+}

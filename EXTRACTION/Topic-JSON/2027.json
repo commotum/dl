@@ -1,0 +1,422 @@
+{
+  "schema_version": 1,
+  "topic_id": "2027",
+  "topic_title": "Moments of Inertia of Laminas About the Coordinate Axes",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2027.html",
+  "source_url": "https://mathacademy.com/topics/2027",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "31761",
+        "dom_id": "sectionLink-31761",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-31761"
+      },
+      {
+        "index": 2,
+        "step_id": "45104",
+        "dom_id": "sectionLink-45104",
+        "name": "",
+        "title": "Moment of Inertia of Plane Laminas",
+        "selector": "#sectionLink-45104"
+      },
+      {
+        "index": 3,
+        "step_id": "31765",
+        "dom_id": "sectionLink-31765",
+        "name": "",
+        "title": "Calculating the Moment of Inertia of a Lamina Given a Mass Density Function",
+        "selector": "#sectionLink-31765"
+      },
+      {
+        "index": 4,
+        "step_id": "31762",
+        "dom_id": "sectionLink-31762",
+        "name": "",
+        "title": "Calculating the Moment of Inertia of a Lamina With Uniform Mass Density",
+        "selector": "#sectionLink-31762"
+      },
+      {
+        "index": 5,
+        "step_id": "44944",
+        "dom_id": "sectionLink-44944",
+        "name": "",
+        "title": "Calculating the Moment of Inertia Given a Description of a Mass Density Function",
+        "selector": "#sectionLink-44944"
+      },
+      {
+        "index": 6,
+        "step_id": "44952",
+        "dom_id": "sectionLink-44952",
+        "name": "",
+        "title": "Moments of Inertia in Polar Coordinates",
+        "selector": "#sectionLink-44952"
+      },
+      {
+        "index": 7,
+        "step_id": "44945",
+        "dom_id": "sectionLink-44945",
+        "name": "",
+        "title": "Calculating Moments of Inertia Using Polar Coordinates",
+        "selector": "#sectionLink-44945"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2835",
+        "name": "Double Integrals Between Polar Curves",
+        "href": "/topics/double-integrals-between-polar-curves-2835"
+      },
+      {
+        "topic_id": "3338",
+        "name": "Circular Motion About the Origin",
+        "href": "/topics/circular-motion-about-the-origin-3338"
+      },
+      {
+        "topic_id": "3687",
+        "name": "The Work-Energy Principle",
+        "href": "/topics/the-work-energy-principle-3687"
+      },
+      {
+        "topic_id": "4166",
+        "name": "Moments and Centers of Mass of Plane Laminas",
+        "href": "/topics/moments-and-centers-of-mass-of-plane-laminas-4166"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 16,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "31761",
+        "content_id": "5071",
+        "dom_id": "step-31761",
+        "selector": "#step-31761",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "45104",
+        "content_id": "7794",
+        "dom_id": "step-45104",
+        "selector": "#step-45104",
+        "step_anchor": "step-2",
+        "title": "Moment of Inertia of Plane Laminas",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "31765",
+        "content_id": "8543",
+        "dom_id": "step-31765",
+        "selector": "#step-31765",
+        "step_anchor": "step-3",
+        "title": "Calculating the Moment of Inertia of a Lamina Given a Mass Density Function",
+        "key_prerequisites": [
+          {
+            "topic_id": "3338",
+            "name": "Circular Motion About the Origin",
+            "href": "/topics/3338"
+          },
+          {
+            "topic_id": "3687",
+            "name": "The Work-Energy Principle",
+            "href": "/topics/3687"
+          },
+          {
+            "topic_id": "4166",
+            "name": "Moments and Centers of Mass of Plane Laminas",
+            "href": "/topics/4166"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "162922",
+        "dom_id": "question-162922",
+        "selector": "#question-162922",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "162924",
+        "dom_id": "question-162924",
+        "selector": "#question-162924",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "31762",
+        "content_id": "8542",
+        "dom_id": "step-31762",
+        "selector": "#step-31762",
+        "step_anchor": "step-6",
+        "title": "Calculating the Moment of Inertia of a Lamina With Uniform Mass Density",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "162905",
+        "dom_id": "question-162905",
+        "selector": "#question-162905",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "162906",
+        "dom_id": "question-162906",
+        "selector": "#question-162906",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44944",
+        "content_id": "12482",
+        "dom_id": "step-44944",
+        "selector": "#step-44944",
+        "step_anchor": "step-9",
+        "title": "Calculating the Moment of Inertia Given a Description of a Mass Density Function",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "162986",
+        "dom_id": "question-162986",
+        "selector": "#question-162986",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "162987",
+        "dom_id": "question-162987",
+        "selector": "#question-162987",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44952",
+        "content_id": "7766",
+        "dom_id": "step-44952",
+        "selector": "#step-44952",
+        "step_anchor": "step-12",
+        "title": "Moments of Inertia in Polar Coordinates",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44945",
+        "content_id": "12483",
+        "dom_id": "step-44945",
+        "selector": "#step-44945",
+        "step_anchor": "step-13",
+        "title": "Calculating Moments of Inertia Using Polar Coordinates",
+        "key_prerequisites": [
+          {
+            "topic_id": "2835",
+            "name": "Double Integrals Between Polar Curves",
+            "href": "/topics/2835"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "162990",
+        "dom_id": "question-162990",
+        "selector": "#question-162990",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "162988",
+        "dom_id": "question-162988",
+        "selector": "#question-162988",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "38822",
+        "dom_id": "question-38822",
+        "selector": "#question-38822",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-31761",
+        "filename": "01-step-31761.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-45104",
+        "filename": "02-step-45104.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-31765",
+        "filename": "03-step-31765.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-162922",
+        "filename": "04-question-162922.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-162924",
+        "filename": "05-question-162924.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-31762",
+        "filename": "06-step-31762.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-162905",
+        "filename": "07-question-162905.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-162906",
+        "filename": "08-question-162906.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-44944",
+        "filename": "09-step-44944.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-162986",
+        "filename": "10-question-162986.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-162987",
+        "filename": "11-question-162987.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-44952",
+        "filename": "12-step-44952.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-44945",
+        "filename": "13-step-44945.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-162990",
+        "filename": "14-question-162990.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-162988",
+        "filename": "15-question-162988.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-38822",
+        "filename": "16-question-38822.png"
+      }
+    ]
+  }
+}

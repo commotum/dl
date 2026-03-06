@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "topic_id": "3237",
+  "topic_title": "General Solutions of First-Order Linear Systems of ODEs",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3237.html",
+  "source_url": "https://mathacademy.com/topics/3237",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "586734",
+        "dom_id": "sectionLink-586734",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-586734"
+      },
+      {
+        "index": 2,
+        "step_id": "586735",
+        "dom_id": "sectionLink-586735",
+        "name": "",
+        "title": "Applying the Linearity Principle to the Solutions of a Homogeneous System of ODEs",
+        "selector": "#sectionLink-586735"
+      },
+      {
+        "index": 3,
+        "step_id": "586738",
+        "dom_id": "sectionLink-586738",
+        "name": "",
+        "title": "Finding the Image of a Vector Under a Matrix Given Solutions to a Matrix ODE",
+        "selector": "#sectionLink-586738"
+      },
+      {
+        "index": 4,
+        "step_id": "586741",
+        "dom_id": "sectionLink-586741",
+        "name": "",
+        "title": "General Solutions of First-Order Linear Systems of ODEs",
+        "selector": "#sectionLink-586741"
+      },
+      {
+        "index": 5,
+        "step_id": "586742",
+        "dom_id": "sectionLink-586742",
+        "name": "",
+        "title": "Constructing General Solutions of First-Order Linear Systems of ODEs",
+        "selector": "#sectionLink-586742"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "865",
+        "name": "Introduction to Linear Transformations",
+        "href": "/topics/introduction-to-linear-transformations-865"
+      },
+      {
+        "topic_id": "2086",
+        "name": "Introduction to Systems of Linear ODEs",
+        "href": "/topics/introduction-to-systems-of-linear-odes-2086"
+      },
+      {
+        "topic_id": "6374",
+        "name": "Linear Independence for Homogeneous Systems of ODEs",
+        "href": "/topics/linear-independence-for-homogeneous-systems-of-odes-6374"
+      },
+      {
+        "topic_id": "6678",
+        "name": "General Solutions of First-Order Linear ODEs",
+        "href": "/topics/general-solutions-of-first-order-linear-odes-6678"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "586734",
+        "content_id": "14181",
+        "dom_id": "step-586734",
+        "selector": "#step-586734",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "586735",
+        "content_id": "21110",
+        "dom_id": "step-586735",
+        "selector": "#step-586735",
+        "step_anchor": "step-2",
+        "title": "Applying the Linearity Principle to the Solutions of a Homogeneous System of ODEs",
+        "key_prerequisites": [
+          {
+            "topic_id": "865",
+            "name": "Introduction to Linear Transformations",
+            "href": "/topics/865"
+          },
+          {
+            "topic_id": "2086",
+            "name": "Introduction to Systems of Linear ODEs",
+            "href": "/topics/2086"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "330348",
+        "dom_id": "question-330348",
+        "selector": "#question-330348",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "330326",
+        "dom_id": "question-330326",
+        "selector": "#question-330326",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "586738",
+        "content_id": "21112",
+        "dom_id": "step-586738",
+        "selector": "#step-586738",
+        "step_anchor": "step-5",
+        "title": "Finding the Image of a Vector Under a Matrix Given Solutions to a Matrix ODE",
+        "key_prerequisites": [
+          {
+            "topic_id": "305",
+            "name": "The Chain Rule With Trigonometric Functions",
+            "href": "/topics/305"
+          },
+          {
+            "topic_id": "1007",
+            "name": "The Chain Rule With Exponential Functions",
+            "href": "/topics/1007"
+          },
+          {
+            "topic_id": "4139",
+            "name": "Differentiating Vector-Valued Functions",
+            "href": "/topics/4139"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "38969",
+        "dom_id": "question-38969",
+        "selector": "#question-38969",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "168100",
+        "dom_id": "question-168100",
+        "selector": "#question-168100",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "586741",
+        "content_id": "14182",
+        "dom_id": "step-586741",
+        "selector": "#step-586741",
+        "step_anchor": "step-8",
+        "title": "General Solutions of First-Order Linear Systems of ODEs",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "586742",
+        "content_id": "21111",
+        "dom_id": "step-586742",
+        "selector": "#step-586742",
+        "step_anchor": "step-9",
+        "title": "Constructing General Solutions of First-Order Linear Systems of ODEs",
+        "key_prerequisites": [
+          {
+            "topic_id": "6374",
+            "name": "Linear Independence for Homogeneous Systems of ODEs",
+            "href": "/topics/6374"
+          },
+          {
+            "topic_id": "6678",
+            "name": "General Solutions of First-Order Linear ODEs",
+            "href": "/topics/6678"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "321731",
+        "dom_id": "question-321731",
+        "selector": "#question-321731",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "330290",
+        "dom_id": "question-330290",
+        "selector": "#question-330290",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-586734",
+        "filename": "01-step-586734.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-586735",
+        "filename": "02-step-586735.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-330348",
+        "filename": "03-question-330348.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-330326",
+        "filename": "04-question-330326.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-586738",
+        "filename": "05-step-586738.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-38969",
+        "filename": "06-question-38969.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-168100",
+        "filename": "07-question-168100.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-586741",
+        "filename": "08-step-586741.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-586742",
+        "filename": "09-step-586742.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-321731",
+        "filename": "10-question-321731.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-330290",
+        "filename": "11-question-330290.png"
+      }
+    ]
+  }
+}

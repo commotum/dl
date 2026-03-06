@@ -1,0 +1,384 @@
+{
+  "schema_version": 1,
+  "topic_id": "1086",
+  "topic_title": "Defining Definite Integrals Using Left and Right Riemann Sums",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1086.html",
+  "source_url": "https://mathacademy.com/topics/1086",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "1457",
+        "dom_id": "sectionLink-1457",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-1457"
+      },
+      {
+        "index": 2,
+        "step_id": "1461",
+        "dom_id": "sectionLink-1461",
+        "name": "",
+        "title": "General Notation",
+        "selector": "#sectionLink-1461"
+      },
+      {
+        "index": 3,
+        "step_id": "1458",
+        "dom_id": "sectionLink-1458",
+        "name": "",
+        "title": "Writing the Area Bounded by a Curve as a Definite Integral",
+        "selector": "#sectionLink-1458"
+      },
+      {
+        "index": 4,
+        "step_id": "1462",
+        "dom_id": "sectionLink-1462",
+        "name": "",
+        "title": "Expressing a Definite Integral as the Limit of a Left Riemann Sum",
+        "selector": "#sectionLink-1462"
+      },
+      {
+        "index": 5,
+        "step_id": "1464",
+        "dom_id": "sectionLink-1464",
+        "name": "",
+        "title": "Expressing the Limit of a Left Riemann Sum as a Definite Integral",
+        "selector": "#sectionLink-1464"
+      },
+      {
+        "index": 6,
+        "step_id": "1466",
+        "dom_id": "sectionLink-1466",
+        "name": "",
+        "title": "Using a Right Riemann Sum",
+        "selector": "#sectionLink-1466"
+      },
+      {
+        "index": 7,
+        "step_id": "1467",
+        "dom_id": "sectionLink-1467",
+        "name": "",
+        "title": "Expressing a Definite Integral as the Limit of a Right Riemann Sum",
+        "selector": "#sectionLink-1467"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1042",
+        "name": "Left and Right Riemann Sums in Sigma Notation",
+        "href": "/topics/left-and-right-riemann-sums-in-sigma-notation-1042"
+      },
+      {
+        "topic_id": "1873",
+        "name": "Limits at Infinity from Graphs",
+        "href": "/topics/limits-at-infinity-from-graphs-1873"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "1457",
+        "content_id": "759",
+        "dom_id": "step-1457",
+        "selector": "#step-1457",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "1461",
+        "content_id": "761",
+        "dom_id": "step-1461",
+        "selector": "#step-1461",
+        "step_anchor": "step-2",
+        "title": "General Notation",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "1458",
+        "content_id": "405",
+        "dom_id": "step-1458",
+        "selector": "#step-1458",
+        "step_anchor": "step-3",
+        "title": "Writing the Area Bounded by a Curve as a Definite Integral",
+        "key_prerequisites": [
+          {
+            "topic_id": "92",
+            "name": "The Cartesian Coordinate System",
+            "href": "/topics/92"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "30265",
+        "dom_id": "question-30265",
+        "selector": "#question-30265",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "30273",
+        "dom_id": "question-30273",
+        "selector": "#question-30273",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "1462",
+        "content_id": "406",
+        "dom_id": "step-1462",
+        "selector": "#step-1462",
+        "step_anchor": "step-6",
+        "title": "Expressing a Definite Integral as the Limit of a Left Riemann Sum",
+        "key_prerequisites": [
+          {
+            "topic_id": "1042",
+            "name": "Left and Right Riemann Sums in Sigma Notation",
+            "href": "/topics/1042"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "49179",
+        "dom_id": "question-49179",
+        "selector": "#question-49179",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "49190",
+        "dom_id": "question-49190",
+        "selector": "#question-49190",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "1464",
+        "content_id": "407",
+        "dom_id": "step-1464",
+        "selector": "#step-1464",
+        "step_anchor": "step-9",
+        "title": "Expressing the Limit of a Left Riemann Sum as a Definite Integral",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "49141",
+        "dom_id": "question-49141",
+        "selector": "#question-49141",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "49231",
+        "dom_id": "question-49231",
+        "selector": "#question-49231",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "1466",
+        "content_id": "764",
+        "dom_id": "step-1466",
+        "selector": "#step-1466",
+        "step_anchor": "step-12",
+        "title": "Using a Right Riemann Sum",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "1467",
+        "content_id": "408",
+        "dom_id": "step-1467",
+        "selector": "#step-1467",
+        "step_anchor": "step-13",
+        "title": "Expressing a Definite Integral as the Limit of a Right Riemann Sum",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "49193",
+        "dom_id": "question-49193",
+        "selector": "#question-49193",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "49142",
+        "dom_id": "question-49142",
+        "selector": "#question-49142",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-1457",
+        "filename": "01-step-1457.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-1461",
+        "filename": "02-step-1461.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-1458",
+        "filename": "03-step-1458.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-30265",
+        "filename": "04-question-30265.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-30273",
+        "filename": "05-question-30273.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-1462",
+        "filename": "06-step-1462.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-49179",
+        "filename": "07-question-49179.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-49190",
+        "filename": "08-question-49190.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-1464",
+        "filename": "09-step-1464.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-49141",
+        "filename": "10-question-49141.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-49231",
+        "filename": "11-question-49231.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-1466",
+        "filename": "12-step-1466.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-1467",
+        "filename": "13-step-1467.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-49193",
+        "filename": "14-question-49193.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-49142",
+        "filename": "15-question-49142.png"
+      }
+    ]
+  }
+}

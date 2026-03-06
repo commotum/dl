@@ -1,0 +1,359 @@
+{
+  "schema_version": 1,
+  "topic_id": "6692",
+  "topic_title": "d'Alembert Differential Equations",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/6692.html",
+  "source_url": "https://mathacademy.com/topics/6692",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "593433",
+        "dom_id": "sectionLink-593433",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-593433"
+      },
+      {
+        "index": 2,
+        "step_id": "593434",
+        "dom_id": "sectionLink-593434",
+        "name": "",
+        "title": "Identifying d'Alembert Differential Equations",
+        "selector": "#sectionLink-593434"
+      },
+      {
+        "index": 3,
+        "step_id": "593437",
+        "dom_id": "sectionLink-593437",
+        "name": "",
+        "title": "Reducing a d'Alembert Equation to First-Order Linear",
+        "selector": "#sectionLink-593437"
+      },
+      {
+        "index": 4,
+        "step_id": "593438",
+        "dom_id": "sectionLink-593438",
+        "name": "",
+        "title": "Constructing a First-Order Linear Equation From a d'Alembert Equation",
+        "selector": "#sectionLink-593438"
+      },
+      {
+        "index": 5,
+        "step_id": "593441",
+        "dom_id": "sectionLink-593441",
+        "name": "",
+        "title": "Solving d'Alembert Differential Equations",
+        "selector": "#sectionLink-593441"
+      },
+      {
+        "index": 6,
+        "step_id": "593442",
+        "dom_id": "sectionLink-593442",
+        "name": "",
+        "title": "Finding the General Solution",
+        "selector": "#sectionLink-593442"
+      },
+      {
+        "index": 7,
+        "step_id": "593445",
+        "dom_id": "sectionLink-593445",
+        "name": "",
+        "title": "The General Result",
+        "selector": "#sectionLink-593445"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "877",
+        "name": "Solving First-Order Linear ODEs Using Integrating Factors",
+        "href": "/topics/solving-first-order-linear-odes-using-integrating-factors-877"
+      },
+      {
+        "topic_id": "1164",
+        "name": "Reducing ODEs to First-Order Linear by Substitution",
+        "href": "/topics/reducing-odes-to-first-order-linear-by-substitution-1164"
+      },
+      {
+        "topic_id": "6355",
+        "name": "Clairaut Differential Equations",
+        "href": "/topics/clairaut-differential-equations-6355"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "593433",
+        "content_id": "14522",
+        "dom_id": "step-593433",
+        "selector": "#step-593433",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "593434",
+        "content_id": "21716",
+        "dom_id": "step-593434",
+        "selector": "#step-593434",
+        "step_anchor": "step-2",
+        "title": "Identifying d'Alembert Differential Equations",
+        "key_prerequisites": [
+          {
+            "topic_id": "6355",
+            "name": "Clairaut Differential Equations",
+            "href": "/topics/6355"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "337170",
+        "dom_id": "question-337170",
+        "selector": "#question-337170",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "334494",
+        "dom_id": "question-334494",
+        "selector": "#question-334494",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "593437",
+        "content_id": "14595",
+        "dom_id": "step-593437",
+        "selector": "#step-593437",
+        "step_anchor": "step-5",
+        "title": "Reducing a d'Alembert Equation to First-Order Linear",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "593438",
+        "content_id": "21773",
+        "dom_id": "step-593438",
+        "selector": "#step-593438",
+        "step_anchor": "step-6",
+        "title": "Constructing a First-Order Linear Equation From a d'Alembert Equation",
+        "key_prerequisites": [
+          {
+            "topic_id": "1164",
+            "name": "Reducing ODEs to First-Order Linear by Substitution",
+            "href": "/topics/1164"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "337184",
+        "dom_id": "question-337184",
+        "selector": "#question-337184",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "337100",
+        "dom_id": "question-337100",
+        "selector": "#question-337100",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "593441",
+        "content_id": "14523",
+        "dom_id": "step-593441",
+        "selector": "#step-593441",
+        "step_anchor": "step-9",
+        "title": "Solving d'Alembert Differential Equations",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "593442",
+        "content_id": "21717",
+        "dom_id": "step-593442",
+        "selector": "#step-593442",
+        "step_anchor": "step-10",
+        "title": "Finding the General Solution",
+        "key_prerequisites": [
+          {
+            "topic_id": "877",
+            "name": "Solving First-Order Linear ODEs Using Integrating Factors",
+            "href": "/topics/877"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "337103",
+        "dom_id": "question-337103",
+        "selector": "#question-337103",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "337105",
+        "dom_id": "question-337105",
+        "selector": "#question-337105",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "593445",
+        "content_id": "14596",
+        "dom_id": "step-593445",
+        "selector": "#step-593445",
+        "step_anchor": "step-13",
+        "title": "The General Result",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-593433",
+        "filename": "01-step-593433.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-593434",
+        "filename": "02-step-593434.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-337170",
+        "filename": "03-question-337170.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-334494",
+        "filename": "04-question-334494.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-593437",
+        "filename": "05-step-593437.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-593438",
+        "filename": "06-step-593438.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-337184",
+        "filename": "07-question-337184.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-337100",
+        "filename": "08-question-337100.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-593441",
+        "filename": "09-step-593441.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-593442",
+        "filename": "10-step-593442.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-337103",
+        "filename": "11-question-337103.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-337105",
+        "filename": "12-question-337105.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-593445",
+        "filename": "13-step-593445.png"
+      }
+    ]
+  }
+}

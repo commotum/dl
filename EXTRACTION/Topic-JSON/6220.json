@@ -1,0 +1,415 @@
+{
+  "schema_version": 1,
+  "topic_id": "6220",
+  "topic_title": "Time-Shifting Exponential Models",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/6220.html",
+  "source_url": "https://mathacademy.com/topics/6220",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "492711",
+        "dom_id": "sectionLink-492711",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-492711"
+      },
+      {
+        "index": 2,
+        "step_id": "492725",
+        "dom_id": "sectionLink-492725",
+        "name": "",
+        "title": "Avoiding Common Pitfalls",
+        "selector": "#sectionLink-492725"
+      },
+      {
+        "index": 3,
+        "step_id": "492712",
+        "dom_id": "sectionLink-492712",
+        "name": "",
+        "title": "Converting a Model to Different Time Units",
+        "selector": "#sectionLink-492712"
+      },
+      {
+        "index": 4,
+        "step_id": "492715",
+        "dom_id": "sectionLink-492715",
+        "name": "",
+        "title": "Interpreting Exponential Models Using Different Time Units",
+        "selector": "#sectionLink-492715"
+      },
+      {
+        "index": 5,
+        "step_id": "492716",
+        "dom_id": "sectionLink-492716",
+        "name": "",
+        "title": "Determining a Percentage Increase",
+        "selector": "#sectionLink-492716"
+      },
+      {
+        "index": 6,
+        "step_id": "492719",
+        "dom_id": "sectionLink-492719",
+        "name": "",
+        "title": "Determining a Percentage Decrease",
+        "selector": "#sectionLink-492719"
+      },
+      {
+        "index": 7,
+        "step_id": "492722",
+        "dom_id": "sectionLink-492722",
+        "name": "",
+        "title": "Determining the Time Period Required to Yield a Percentage Change",
+        "selector": "#sectionLink-492722"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1629",
+        "name": "Interpreting Exponential Decay",
+        "href": "/topics/interpreting-exponential-decay-1629"
+      },
+      {
+        "topic_id": "2465",
+        "name": "Interpreting Exponential Growth",
+        "href": "/topics/interpreting-exponential-growth-2465"
+      },
+      {
+        "topic_id": "3817",
+        "name": "Describing Function Composition",
+        "href": "/topics/describing-function-composition-3817"
+      },
+      {
+        "topic_id": "3870",
+        "name": "Unit Conversions Using Units of Time",
+        "href": "/topics/unit-conversions-using-units-of-time-3870"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "492711",
+        "content_id": "13582",
+        "dom_id": "step-492711",
+        "selector": "#step-492711",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "492725",
+        "content_id": "13643",
+        "dom_id": "step-492725",
+        "selector": "#step-492725",
+        "step_anchor": "step-2",
+        "title": "Avoiding Common Pitfalls",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "492712",
+        "content_id": "19050",
+        "dom_id": "step-492712",
+        "selector": "#step-492712",
+        "step_anchor": "step-3",
+        "title": "Converting a Model to Different Time Units",
+        "key_prerequisites": [
+          {
+            "topic_id": "2471",
+            "name": "Modeling Exponential Growth With Functions",
+            "href": "/topics/2471"
+          },
+          {
+            "topic_id": "2472",
+            "name": "Modeling Exponential Decay With Functions",
+            "href": "/topics/2472"
+          },
+          {
+            "topic_id": "3817",
+            "name": "Describing Function Composition",
+            "href": "/topics/3817"
+          },
+          {
+            "topic_id": "3870",
+            "name": "Unit Conversions Using Units of Time",
+            "href": "/topics/3870"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "304013",
+        "dom_id": "question-304013",
+        "selector": "#question-304013",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "304020",
+        "dom_id": "question-304020",
+        "selector": "#question-304020",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "492715",
+        "content_id": "13585",
+        "dom_id": "step-492715",
+        "selector": "#step-492715",
+        "step_anchor": "step-6",
+        "title": "Interpreting Exponential Models Using Different Time Units",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "492716",
+        "content_id": "19054",
+        "dom_id": "step-492716",
+        "selector": "#step-492716",
+        "step_anchor": "step-7",
+        "title": "Determining a Percentage Increase",
+        "key_prerequisites": [
+          {
+            "topic_id": "2465",
+            "name": "Interpreting Exponential Growth",
+            "href": "/topics/2465"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "304067",
+        "dom_id": "question-304067",
+        "selector": "#question-304067",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "304741",
+        "dom_id": "question-304741",
+        "selector": "#question-304741",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "492719",
+        "content_id": "19061",
+        "dom_id": "step-492719",
+        "selector": "#step-492719",
+        "step_anchor": "step-10",
+        "title": "Determining a Percentage Decrease",
+        "key_prerequisites": [
+          {
+            "topic_id": "1629",
+            "name": "Interpreting Exponential Decay",
+            "href": "/topics/1629"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "305541",
+        "dom_id": "question-305541",
+        "selector": "#question-305541",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "304117",
+        "dom_id": "question-304117",
+        "selector": "#question-304117",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "492722",
+        "content_id": "19053",
+        "dom_id": "step-492722",
+        "selector": "#step-492722",
+        "step_anchor": "step-13",
+        "title": "Determining the Time Period Required to Yield a Percentage Change",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "304036",
+        "dom_id": "question-304036",
+        "selector": "#question-304036",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "304150",
+        "dom_id": "question-304150",
+        "selector": "#question-304150",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-492711",
+        "filename": "01-step-492711.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-492725",
+        "filename": "02-step-492725.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-492712",
+        "filename": "03-step-492712.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-304013",
+        "filename": "04-question-304013.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-304020",
+        "filename": "05-question-304020.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-492715",
+        "filename": "06-step-492715.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-492716",
+        "filename": "07-step-492716.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-304067",
+        "filename": "08-question-304067.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-304741",
+        "filename": "09-question-304741.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-492719",
+        "filename": "10-step-492719.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-305541",
+        "filename": "11-question-305541.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-304117",
+        "filename": "12-question-304117.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-492722",
+        "filename": "13-step-492722.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-304036",
+        "filename": "14-question-304036.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-304150",
+        "filename": "15-question-304150.png"
+      }
+    ]
+  }
+}

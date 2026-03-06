@@ -1,0 +1,644 @@
+{
+  "schema_version": 1,
+  "topic_id": "6678",
+  "topic_title": "General Solutions of First-Order Linear ODEs",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/6678.html",
+  "source_url": "https://mathacademy.com/topics/6678",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "603073",
+        "dom_id": "sectionLink-603073",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-603073"
+      },
+      {
+        "index": 2,
+        "step_id": "603074",
+        "dom_id": "sectionLink-603074",
+        "name": "",
+        "title": "A Three-Step Process for Solving First-Order Inhomogeneous ODEs",
+        "selector": "#sectionLink-603074"
+      },
+      {
+        "index": 3,
+        "step_id": "603075",
+        "dom_id": "sectionLink-603075",
+        "name": "",
+        "title": "Finding a Complementary Solution",
+        "selector": "#sectionLink-603075"
+      },
+      {
+        "index": 4,
+        "step_id": "603076",
+        "dom_id": "sectionLink-603076",
+        "name": "",
+        "title": "Finding the Complementary Solution to a First-Order Inhomogeneous ODE",
+        "selector": "#sectionLink-603076"
+      },
+      {
+        "index": 5,
+        "step_id": "603080",
+        "dom_id": "sectionLink-603080",
+        "name": "",
+        "title": "Finding a Particular Solution",
+        "selector": "#sectionLink-603080"
+      },
+      {
+        "index": 6,
+        "step_id": "603081",
+        "dom_id": "sectionLink-603081",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-603081"
+      },
+      {
+        "index": 7,
+        "step_id": "603082",
+        "dom_id": "sectionLink-603082",
+        "name": "",
+        "title": "Finding a Particular Solution to a First-Order Inhomogeneous ODE With Polynomial Forcing",
+        "selector": "#sectionLink-603082"
+      },
+      {
+        "index": 8,
+        "step_id": "603086",
+        "dom_id": "sectionLink-603086",
+        "name": "",
+        "title": "Constructing the General Solution",
+        "selector": "#sectionLink-603086"
+      },
+      {
+        "index": 9,
+        "step_id": "603087",
+        "dom_id": "sectionLink-603087",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-603087"
+      },
+      {
+        "index": 10,
+        "step_id": "603088",
+        "dom_id": "sectionLink-603088",
+        "name": "",
+        "title": "Finding the General Solution to a First-Order Inhomogeneous ODE With Polynomial Forcing",
+        "selector": "#sectionLink-603088"
+      },
+      {
+        "index": 11,
+        "step_id": "603092",
+        "dom_id": "sectionLink-603092",
+        "name": "",
+        "title": "Solving an Initial Value Problem",
+        "selector": "#sectionLink-603092"
+      },
+      {
+        "index": 12,
+        "step_id": "603096",
+        "dom_id": "sectionLink-603096",
+        "name": "",
+        "title": "Proof of the Form of the General Solution",
+        "selector": "#sectionLink-603096"
+      },
+      {
+        "index": 13,
+        "step_id": "603097",
+        "dom_id": "sectionLink-603097",
+        "name": "",
+        "title": "A Common Convention for \u201cthe\u201d Particular Solution",
+        "selector": "#sectionLink-603097"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "906",
+        "name": "Introduction to First-Order Linear ODEs",
+        "href": "/topics/introduction-to-first-order-linear-odes-906"
+      },
+      {
+        "topic_id": "1047",
+        "name": "Solving Systems of Equations Using Back Substitution",
+        "href": "/topics/solving-systems-of-equations-using-back-substitution-1047"
+      },
+      {
+        "topic_id": "1179",
+        "name": "Solving First-Order IVPs Using Separation of Variables",
+        "href": "/topics/solving-first-order-ivps-using-separation-of-variables-1179"
+      },
+      {
+        "topic_id": "6092",
+        "name": "Equating Polynomial Coefficients",
+        "href": "/topics/equating-polynomial-coefficients-6092"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 25,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "603073",
+        "content_id": "14545",
+        "dom_id": "step-603073",
+        "selector": "#step-603073",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "603074",
+        "content_id": "14447",
+        "dom_id": "step-603074",
+        "selector": "#step-603074",
+        "step_anchor": "step-2",
+        "title": "A Three-Step Process for Solving First-Order Inhomogeneous ODEs",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "603075",
+        "content_id": "14698",
+        "dom_id": "step-603075",
+        "selector": "#step-603075",
+        "step_anchor": "step-3",
+        "title": "Finding a Complementary Solution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "603076",
+        "content_id": "21611",
+        "dom_id": "step-603076",
+        "selector": "#step-603076",
+        "step_anchor": "step-4",
+        "title": "Finding the Complementary Solution to a First-Order Inhomogeneous ODE",
+        "key_prerequisites": [
+          {
+            "topic_id": "466",
+            "name": "Solving First-Order ODEs Using Separation of Variables",
+            "href": "/topics/466"
+          },
+          {
+            "topic_id": "906",
+            "name": "Introduction to First-Order Linear ODEs",
+            "href": "/topics/906"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "332724",
+        "dom_id": "question-332724",
+        "selector": "#question-332724",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "332701",
+        "dom_id": "question-332701",
+        "selector": "#question-332701",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "331877",
+        "dom_id": "question-331877",
+        "selector": "#question-331877",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "603080",
+        "content_id": "14457",
+        "dom_id": "step-603080",
+        "selector": "#step-603080",
+        "step_anchor": "step-8",
+        "title": "Finding a Particular Solution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "603081",
+        "content_id": "14798",
+        "dom_id": "step-603081",
+        "selector": "#step-603081",
+        "step_anchor": "step-9",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "603082",
+        "content_id": "21612",
+        "dom_id": "step-603082",
+        "selector": "#step-603082",
+        "step_anchor": "step-10",
+        "title": "Finding a Particular Solution to a First-Order Inhomogeneous ODE With Polynomial Forcing",
+        "key_prerequisites": [
+          {
+            "topic_id": "1047",
+            "name": "Solving Systems of Equations Using Back Substitution",
+            "href": "/topics/1047"
+          },
+          {
+            "topic_id": "6092",
+            "name": "Equating Polynomial Coefficients",
+            "href": "/topics/6092"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "332265",
+        "dom_id": "question-332265",
+        "selector": "#question-332265",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "332266",
+        "dom_id": "question-332266",
+        "selector": "#question-332266",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "331913",
+        "dom_id": "question-331913",
+        "selector": "#question-331913",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "603086",
+        "content_id": "14458",
+        "dom_id": "step-603086",
+        "selector": "#step-603086",
+        "step_anchor": "step-14",
+        "title": "Constructing the General Solution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "603087",
+        "content_id": "14799",
+        "dom_id": "step-603087",
+        "selector": "#step-603087",
+        "step_anchor": "step-15",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 16,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "603088",
+        "content_id": "21613",
+        "dom_id": "step-603088",
+        "selector": "#step-603088",
+        "step_anchor": "step-16",
+        "title": "Finding the General Solution to a First-Order Inhomogeneous ODE With Polynomial Forcing",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "question_id": "332543",
+        "dom_id": "question-332543",
+        "selector": "#question-332543",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 18,
+        "item_type": "question",
+        "question_id": "332270",
+        "dom_id": "question-332270",
+        "selector": "#question-332270",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 19,
+        "item_type": "question",
+        "question_id": "331920",
+        "dom_id": "question-331920",
+        "selector": "#question-331920",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 20,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "603092",
+        "content_id": "21614",
+        "dom_id": "step-603092",
+        "selector": "#step-603092",
+        "step_anchor": "step-20",
+        "title": "Solving an Initial Value Problem",
+        "key_prerequisites": [
+          {
+            "topic_id": "1179",
+            "name": "Solving First-Order IVPs Using Separation of Variables",
+            "href": "/topics/1179"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 21,
+        "item_type": "question",
+        "question_id": "332773",
+        "dom_id": "question-332773",
+        "selector": "#question-332773",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 22,
+        "item_type": "question",
+        "question_id": "332272",
+        "dom_id": "question-332272",
+        "selector": "#question-332272",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 23,
+        "item_type": "question",
+        "question_id": "332988",
+        "dom_id": "question-332988",
+        "selector": "#question-332988",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 24,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "603096",
+        "content_id": "14549",
+        "dom_id": "step-603096",
+        "selector": "#step-603096",
+        "step_anchor": "step-24",
+        "title": "Proof of the Form of the General Solution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 25,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "603097",
+        "content_id": "14779",
+        "dom_id": "step-603097",
+        "selector": "#step-603097",
+        "step_anchor": "step-25",
+        "title": "A Common Convention for \u201cthe\u201d Particular Solution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-603073",
+        "filename": "01-step-603073.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-603074",
+        "filename": "02-step-603074.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-603075",
+        "filename": "03-step-603075.png"
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "selector": "#step-603076",
+        "filename": "04-step-603076.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-332724",
+        "filename": "05-question-332724.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-332701",
+        "filename": "06-question-332701.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-331877",
+        "filename": "07-question-331877.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-603080",
+        "filename": "08-step-603080.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-603081",
+        "filename": "09-step-603081.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-603082",
+        "filename": "10-step-603082.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-332265",
+        "filename": "11-question-332265.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-332266",
+        "filename": "12-question-332266.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-331913",
+        "filename": "13-question-331913.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-603086",
+        "filename": "14-step-603086.png"
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "selector": "#step-603087",
+        "filename": "15-step-603087.png"
+      },
+      {
+        "index": 16,
+        "item_type": "step",
+        "selector": "#step-603088",
+        "filename": "16-step-603088.png"
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "selector": "#question-332543",
+        "filename": "17-question-332543.png"
+      },
+      {
+        "index": 18,
+        "item_type": "question",
+        "selector": "#question-332270",
+        "filename": "18-question-332270.png"
+      },
+      {
+        "index": 19,
+        "item_type": "question",
+        "selector": "#question-331920",
+        "filename": "19-question-331920.png"
+      },
+      {
+        "index": 20,
+        "item_type": "step",
+        "selector": "#step-603092",
+        "filename": "20-step-603092.png"
+      },
+      {
+        "index": 21,
+        "item_type": "question",
+        "selector": "#question-332773",
+        "filename": "21-question-332773.png"
+      },
+      {
+        "index": 22,
+        "item_type": "question",
+        "selector": "#question-332272",
+        "filename": "22-question-332272.png"
+      },
+      {
+        "index": 23,
+        "item_type": "question",
+        "selector": "#question-332988",
+        "filename": "23-question-332988.png"
+      },
+      {
+        "index": 24,
+        "item_type": "step",
+        "selector": "#step-603096",
+        "filename": "24-step-603096.png"
+      },
+      {
+        "index": 25,
+        "item_type": "step",
+        "selector": "#step-603097",
+        "filename": "25-step-603097.png"
+      }
+    ]
+  }
+}

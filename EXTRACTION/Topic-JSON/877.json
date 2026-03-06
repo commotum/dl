@@ -1,0 +1,388 @@
+{
+  "schema_version": 1,
+  "topic_id": "877",
+  "topic_title": "Solving First-Order Linear ODEs Using Integrating Factors",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/877.html",
+  "source_url": "https://mathacademy.com/topics/877",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "597598",
+        "dom_id": "sectionLink-597598",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-597598"
+      },
+      {
+        "index": 2,
+        "step_id": "597599",
+        "dom_id": "sectionLink-597599",
+        "name": "",
+        "title": "The Integrating Factor Method",
+        "selector": "#sectionLink-597599"
+      },
+      {
+        "index": 3,
+        "step_id": "597600",
+        "dom_id": "sectionLink-597600",
+        "name": "",
+        "title": "Transforming First-Order Linear ODEs Using Integrating Factors",
+        "selector": "#sectionLink-597600"
+      },
+      {
+        "index": 4,
+        "step_id": "597603",
+        "dom_id": "sectionLink-597603",
+        "name": "",
+        "title": "Solving First-Order Linear ODEs Using Integrating Factors",
+        "selector": "#sectionLink-597603"
+      },
+      {
+        "index": 5,
+        "step_id": "597607",
+        "dom_id": "sectionLink-597607",
+        "name": "",
+        "title": "Solving First-Order Initial Value Problems Using Integrating Factors",
+        "selector": "#sectionLink-597607"
+      },
+      {
+        "index": 6,
+        "step_id": "597611",
+        "dom_id": "sectionLink-597611",
+        "name": "",
+        "title": "Deriving the Integrating Factor",
+        "selector": "#sectionLink-597611"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "317",
+        "name": "Introduction to Integration by Parts",
+        "href": "/topics/introduction-to-integration-by-parts-317"
+      },
+      {
+        "topic_id": "906",
+        "name": "Introduction to First-Order Linear ODEs",
+        "href": "/topics/introduction-to-first-order-linear-odes-906"
+      },
+      {
+        "topic_id": "1061",
+        "name": "Solving First-Order ODEs Using Direct Integration",
+        "href": "/topics/solving-first-order-odes-using-direct-integration-1061"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "597598",
+        "content_id": "14550",
+        "dom_id": "step-597598",
+        "selector": "#step-597598",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "597599",
+        "content_id": "14551",
+        "dom_id": "step-597599",
+        "selector": "#step-597599",
+        "step_anchor": "step-2",
+        "title": "The Integrating Factor Method",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "597600",
+        "content_id": "21741",
+        "dom_id": "step-597600",
+        "selector": "#step-597600",
+        "step_anchor": "step-3",
+        "title": "Transforming First-Order Linear ODEs Using Integrating Factors",
+        "key_prerequisites": [
+          {
+            "topic_id": "43",
+            "name": "The Constant Multiple Rule for Indefinite Integrals",
+            "href": "/topics/43"
+          },
+          {
+            "topic_id": "906",
+            "name": "Introduction to First-Order Linear ODEs",
+            "href": "/topics/906"
+          },
+          {
+            "topic_id": "1109",
+            "name": "The Product Rule for Differentiation",
+            "href": "/topics/1109"
+          },
+          {
+            "topic_id": "1361",
+            "name": "Integrating the Reciprocal Function",
+            "href": "/topics/1361"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "17540",
+        "dom_id": "question-17540",
+        "selector": "#question-17540",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "8546",
+        "dom_id": "question-8546",
+        "selector": "#question-8546",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "597603",
+        "content_id": "21742",
+        "dom_id": "step-597603",
+        "selector": "#step-597603",
+        "step_anchor": "step-6",
+        "title": "Solving First-Order Linear ODEs Using Integrating Factors",
+        "key_prerequisites": [
+          {
+            "topic_id": "317",
+            "name": "Introduction to Integration by Parts",
+            "href": "/topics/317"
+          },
+          {
+            "topic_id": "1061",
+            "name": "Solving First-Order ODEs Using Direct Integration",
+            "href": "/topics/1061"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "335392",
+        "dom_id": "question-335392",
+        "selector": "#question-335392",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "334915",
+        "dom_id": "question-334915",
+        "selector": "#question-334915",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "335069",
+        "dom_id": "question-335069",
+        "selector": "#question-335069",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "597607",
+        "content_id": "21743",
+        "dom_id": "step-597607",
+        "selector": "#step-597607",
+        "step_anchor": "step-10",
+        "title": "Solving First-Order Initial Value Problems Using Integrating Factors",
+        "key_prerequisites": [
+          {
+            "topic_id": "3770",
+            "name": "Integrating Exponential Functions Using Substitution",
+            "href": "/topics/3770"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "334916",
+        "dom_id": "question-334916",
+        "selector": "#question-334916",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "335810",
+        "dom_id": "question-335810",
+        "selector": "#question-335810",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "335808",
+        "dom_id": "question-335808",
+        "selector": "#question-335808",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "597611",
+        "content_id": "14640",
+        "dom_id": "step-597611",
+        "selector": "#step-597611",
+        "step_anchor": "step-14",
+        "title": "Deriving the Integrating Factor",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-597598",
+        "filename": "01-step-597598.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-597599",
+        "filename": "02-step-597599.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-597600",
+        "filename": "03-step-597600.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-17540",
+        "filename": "04-question-17540.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-8546",
+        "filename": "05-question-8546.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-597603",
+        "filename": "06-step-597603.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-335392",
+        "filename": "07-question-335392.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-334915",
+        "filename": "08-question-334915.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-335069",
+        "filename": "09-question-335069.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-597607",
+        "filename": "10-step-597607.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-334916",
+        "filename": "11-question-334916.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-335810",
+        "filename": "12-question-335810.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-335808",
+        "filename": "13-question-335808.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-597611",
+        "filename": "14-step-597611.png"
+      }
+    ]
+  }
+}

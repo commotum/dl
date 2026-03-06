@@ -1,0 +1,479 @@
+{
+  "schema_version": 1,
+  "topic_id": "3195",
+  "topic_title": "Introduction to Fourier Series",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3195.html",
+  "source_url": "https://mathacademy.com/topics/3195",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "600573",
+        "dom_id": "sectionLink-600573",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-600573"
+      },
+      {
+        "index": 2,
+        "step_id": "606168",
+        "dom_id": "sectionLink-606168",
+        "name": "",
+        "title": "Periodic Extensions",
+        "selector": "#sectionLink-606168"
+      },
+      {
+        "index": 3,
+        "step_id": "600574",
+        "dom_id": "sectionLink-600574",
+        "name": "",
+        "title": "Understanding the Periodic Extension of a Function",
+        "selector": "#sectionLink-600574"
+      },
+      {
+        "index": 4,
+        "step_id": "600578",
+        "dom_id": "sectionLink-600578",
+        "name": "",
+        "title": "Reminder: Orthogonal Functions",
+        "selector": "#sectionLink-600578"
+      },
+      {
+        "index": 5,
+        "step_id": "600579",
+        "dom_id": "sectionLink-600579",
+        "name": "",
+        "title": "Checking Orthogonality of Sines and Cosines",
+        "selector": "#sectionLink-600579"
+      },
+      {
+        "index": 6,
+        "step_id": "600583",
+        "dom_id": "sectionLink-600583",
+        "name": "",
+        "title": "Fourier Series Form For 2pi-Periodic Functions",
+        "selector": "#sectionLink-600583"
+      },
+      {
+        "index": 7,
+        "step_id": "606214",
+        "dom_id": "sectionLink-606214",
+        "name": "",
+        "title": "The Formula For the Constant Term",
+        "selector": "#sectionLink-606214"
+      },
+      {
+        "index": 8,
+        "step_id": "600584",
+        "dom_id": "sectionLink-600584",
+        "name": "",
+        "title": "Determining Expressions For Fourier Coefficients",
+        "selector": "#sectionLink-600584"
+      },
+      {
+        "index": 9,
+        "step_id": "600587",
+        "dom_id": "sectionLink-600587",
+        "name": "",
+        "title": "Deriving the Formulas For the Fourier Coefficients",
+        "selector": "#sectionLink-600587"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2097",
+        "name": "The Inner Product in Vector Spaces Over the Complex Numbers",
+        "href": "/topics/the-inner-product-in-vector-spaces-over-the-complex-numbers-2097"
+      },
+      {
+        "topic_id": "2100",
+        "name": "Orthogonal Vectors in Inner Product Spaces",
+        "href": "/topics/orthogonal-vectors-in-inner-product-spaces-2100"
+      },
+      {
+        "topic_id": "2126",
+        "name": "Projecting Vectors Onto Subspaces in Inner Product Spaces",
+        "href": "/topics/projecting-vectors-onto-subspaces-in-inner-product-spaces-2126"
+      },
+      {
+        "topic_id": "3224",
+        "name": "Integrating Products of Trigonometric Functions",
+        "href": "/topics/integrating-products-of-trigonometric-functions-3224"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 17,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "600573",
+        "content_id": "14624",
+        "dom_id": "step-600573",
+        "selector": "#step-600573",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "606168",
+        "content_id": "14853",
+        "dom_id": "step-606168",
+        "selector": "#step-606168",
+        "step_anchor": "step-2",
+        "title": "Periodic Extensions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "600574",
+        "content_id": "21787",
+        "dom_id": "step-600574",
+        "selector": "#step-600574",
+        "step_anchor": "step-3",
+        "title": "Understanding the Periodic Extension of a Function",
+        "key_prerequisites": [
+          {
+            "topic_id": "2148",
+            "name": "Periodic Functions",
+            "href": "/topics/2148"
+          },
+          {
+            "topic_id": "3540",
+            "name": "Describing Properties of the Sine Function",
+            "href": "/topics/3540"
+          },
+          {
+            "topic_id": "3557",
+            "name": "Describing Properties of the Cosine Function",
+            "href": "/topics/3557"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "338488",
+        "dom_id": "question-338488",
+        "selector": "#question-338488",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "338489",
+        "dom_id": "question-338489",
+        "selector": "#question-338489",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "338490",
+        "dom_id": "question-338490",
+        "selector": "#question-338490",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "600578",
+        "content_id": "14639",
+        "dom_id": "step-600578",
+        "selector": "#step-600578",
+        "step_anchor": "step-7",
+        "title": "Reminder: Orthogonal Functions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "600579",
+        "content_id": "21788",
+        "dom_id": "step-600579",
+        "selector": "#step-600579",
+        "step_anchor": "step-8",
+        "title": "Checking Orthogonality of Sines and Cosines",
+        "key_prerequisites": [
+          {
+            "topic_id": "1038",
+            "name": "Integration Using the Double-Angle Formulas",
+            "href": "/topics/1038"
+          },
+          {
+            "topic_id": "2100",
+            "name": "Orthogonal Vectors in Inner Product Spaces",
+            "href": "/topics/2100"
+          },
+          {
+            "topic_id": "3224",
+            "name": "Integrating Products of Trigonometric Functions",
+            "href": "/topics/3224"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "340366",
+        "dom_id": "question-340366",
+        "selector": "#question-340366",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "340367",
+        "dom_id": "question-340367",
+        "selector": "#question-340367",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "340368",
+        "dom_id": "question-340368",
+        "selector": "#question-340368",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "600583",
+        "content_id": "14628",
+        "dom_id": "step-600583",
+        "selector": "#step-600583",
+        "step_anchor": "step-12",
+        "title": "Fourier Series Form For 2pi-Periodic Functions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "606214",
+        "content_id": "14854",
+        "dom_id": "step-606214",
+        "selector": "#step-606214",
+        "step_anchor": "step-13",
+        "title": "The Formula For the Constant Term",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "600584",
+        "content_id": "21789",
+        "dom_id": "step-600584",
+        "selector": "#step-600584",
+        "step_anchor": "step-14",
+        "title": "Determining Expressions For Fourier Coefficients",
+        "key_prerequisites": [
+          {
+            "topic_id": "2096",
+            "name": "Inner Product Spaces",
+            "href": "/topics/2096"
+          },
+          {
+            "topic_id": "2126",
+            "name": "Projecting Vectors Onto Subspaces in Inner Product Spaces",
+            "href": "/topics/2126"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "341306",
+        "dom_id": "question-341306",
+        "selector": "#question-341306",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "340418",
+        "dom_id": "question-340418",
+        "selector": "#question-340418",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 17,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "600587",
+        "content_id": "14668",
+        "dom_id": "step-600587",
+        "selector": "#step-600587",
+        "step_anchor": "step-17",
+        "title": "Deriving the Formulas For the Fourier Coefficients",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-600573",
+        "filename": "01-step-600573.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-606168",
+        "filename": "02-step-606168.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-600574",
+        "filename": "03-step-600574.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-338488",
+        "filename": "04-question-338488.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-338489",
+        "filename": "05-question-338489.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-338490",
+        "filename": "06-question-338490.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-600578",
+        "filename": "07-step-600578.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-600579",
+        "filename": "08-step-600579.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-340366",
+        "filename": "09-question-340366.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-340367",
+        "filename": "10-question-340367.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-340368",
+        "filename": "11-question-340368.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-600583",
+        "filename": "12-step-600583.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-606214",
+        "filename": "13-step-606214.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-600584",
+        "filename": "14-step-600584.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-341306",
+        "filename": "15-question-341306.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-340418",
+        "filename": "16-question-340418.png"
+      },
+      {
+        "index": 17,
+        "item_type": "step",
+        "selector": "#step-600587",
+        "filename": "17-step-600587.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,406 @@
+{
+  "schema_version": 1,
+  "topic_id": "1049",
+  "topic_title": "Reduced Row Echelon Form",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1049.html",
+  "source_url": "https://mathacademy.com/topics/1049",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "17209",
+        "dom_id": "sectionLink-17209",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-17209"
+      },
+      {
+        "index": 2,
+        "step_id": "17210",
+        "dom_id": "sectionLink-17210",
+        "name": "",
+        "title": "General Algorithm (RREF)",
+        "selector": "#sectionLink-17210"
+      },
+      {
+        "index": 3,
+        "step_id": "17211",
+        "dom_id": "sectionLink-17211",
+        "name": "",
+        "title": "Finding the Reduced Row Echelon Form of a 3x3 System That Is Already in Row Echelon Form",
+        "selector": "#sectionLink-17211"
+      },
+      {
+        "index": 4,
+        "step_id": "17212",
+        "dom_id": "sectionLink-17212",
+        "name": "",
+        "title": "Finding the Reduced Row Echelon Form of a 3x3 System That Is Not in Row Echelon Form",
+        "selector": "#sectionLink-17212"
+      },
+      {
+        "index": 5,
+        "step_id": "23416",
+        "dom_id": "sectionLink-23416",
+        "name": "",
+        "title": "Using the Gauss-Jordan Method on a 3x3 System With Two Pivots",
+        "selector": "#sectionLink-23416"
+      },
+      {
+        "index": 6,
+        "step_id": "23346",
+        "dom_id": "sectionLink-23346",
+        "name": "",
+        "title": "Finding the Reduced Row Echelon Form of a Singular 3x3 System With Two Pivots",
+        "selector": "#sectionLink-23346"
+      },
+      {
+        "index": 7,
+        "step_id": "23417",
+        "dom_id": "sectionLink-23417",
+        "name": "",
+        "title": "Using the Gauss-Jordan Method on a 3x3 System With One Pivot",
+        "selector": "#sectionLink-23417"
+      },
+      {
+        "index": 8,
+        "step_id": "23347",
+        "dom_id": "sectionLink-23347",
+        "name": "",
+        "title": "Finding the Reduced Row Echelon Form of a Singular 3x3 System With One Pivot",
+        "selector": "#sectionLink-23347"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1374",
+        "name": "Solving 3x3 Singular Systems of Equations Using Gaussian Elimination",
+        "href": "/topics/solving-3x3-singular-systems-of-equations-using-gaussian-elimination-1374"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 16,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "17209",
+        "content_id": "3160",
+        "dom_id": "step-17209",
+        "selector": "#step-17209",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "17210",
+        "content_id": "3161",
+        "dom_id": "step-17210",
+        "selector": "#step-17210",
+        "step_anchor": "step-2",
+        "title": "General Algorithm (RREF)",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17211",
+        "content_id": "4709",
+        "dom_id": "step-17211",
+        "selector": "#step-17211",
+        "step_anchor": "step-3",
+        "title": "Finding the Reduced Row Echelon Form of a 3x3 System That Is Already in Row Echelon Form",
+        "key_prerequisites": [
+          {
+            "topic_id": "1048",
+            "name": "Solving 3x3 Systems of Equations Using Gaussian Elimination",
+            "href": "/topics/1048"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "20594",
+        "dom_id": "question-20594",
+        "selector": "#question-20594",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "20589",
+        "dom_id": "question-20589",
+        "selector": "#question-20589",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17212",
+        "content_id": "4710",
+        "dom_id": "step-17212",
+        "selector": "#step-17212",
+        "step_anchor": "step-6",
+        "title": "Finding the Reduced Row Echelon Form of a 3x3 System That Is Not in Row Echelon Form",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "20266",
+        "dom_id": "question-20266",
+        "selector": "#question-20266",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "20267",
+        "dom_id": "question-20267",
+        "selector": "#question-20267",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "23416",
+        "content_id": "3949",
+        "dom_id": "step-23416",
+        "selector": "#step-23416",
+        "step_anchor": "step-9",
+        "title": "Using the Gauss-Jordan Method on a 3x3 System With Two Pivots",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "23346",
+        "content_id": "6233",
+        "dom_id": "step-23346",
+        "selector": "#step-23346",
+        "step_anchor": "step-10",
+        "title": "Finding the Reduced Row Echelon Form of a Singular 3x3 System With Two Pivots",
+        "key_prerequisites": [
+          {
+            "topic_id": "1374",
+            "name": "Solving 3x3 Singular Systems of Equations Using Gaussian Elimination",
+            "href": "/topics/1374"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "74532",
+        "dom_id": "question-74532",
+        "selector": "#question-74532",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "74525",
+        "dom_id": "question-74525",
+        "selector": "#question-74525",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "23417",
+        "content_id": "3950",
+        "dom_id": "step-23417",
+        "selector": "#step-23417",
+        "step_anchor": "step-13",
+        "title": "Using the Gauss-Jordan Method on a 3x3 System With One Pivot",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "23347",
+        "content_id": "6234",
+        "dom_id": "step-23347",
+        "selector": "#step-23347",
+        "step_anchor": "step-14",
+        "title": "Finding the Reduced Row Echelon Form of a Singular 3x3 System With One Pivot",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "74534",
+        "dom_id": "question-74534",
+        "selector": "#question-74534",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "74536",
+        "dom_id": "question-74536",
+        "selector": "#question-74536",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-17209",
+        "filename": "01-step-17209.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-17210",
+        "filename": "02-step-17210.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-17211",
+        "filename": "03-step-17211.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-20594",
+        "filename": "04-question-20594.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-20589",
+        "filename": "05-question-20589.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-17212",
+        "filename": "06-step-17212.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-20266",
+        "filename": "07-question-20266.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-20267",
+        "filename": "08-question-20267.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-23416",
+        "filename": "09-step-23416.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-23346",
+        "filename": "10-step-23346.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-74532",
+        "filename": "11-question-74532.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-74525",
+        "filename": "12-question-74525.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-23417",
+        "filename": "13-step-23417.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-23347",
+        "filename": "14-step-23347.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-74534",
+        "filename": "15-question-74534.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-74536",
+        "filename": "16-question-74536.png"
+      }
+    ]
+  }
+}

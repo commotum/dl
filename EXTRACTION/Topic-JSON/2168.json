@@ -1,0 +1,236 @@
+{
+  "schema_version": 1,
+  "topic_id": "2168",
+  "topic_title": "Finding a Least-Squares Solution Using QR Factorization",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2168.html",
+  "source_url": "https://mathacademy.com/topics/2168",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "20276",
+        "dom_id": "sectionLink-20276",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-20276"
+      },
+      {
+        "index": 2,
+        "step_id": "37297",
+        "dom_id": "sectionLink-37297",
+        "name": "",
+        "title": "Identifying an Expression for a Least-Squares Solution in Terms of the Matrices Q and R",
+        "selector": "#sectionLink-37297"
+      },
+      {
+        "index": 3,
+        "step_id": "37330",
+        "dom_id": "sectionLink-37330",
+        "name": "",
+        "title": "Using QR Factorization to Solve a Least-Squares Problem",
+        "selector": "#sectionLink-37330"
+      },
+      {
+        "index": 4,
+        "step_id": "20278",
+        "dom_id": "sectionLink-20278",
+        "name": "",
+        "title": "Finding the Least-Squares Solution of a Linear System Given a QR Factorization",
+        "selector": "#sectionLink-20278"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2129",
+        "name": "QR Factorization",
+        "href": "/topics/qr-factorization-2129"
+      },
+      {
+        "topic_id": "2167",
+        "name": "The Least-Squares Solution of a Linear System (With Collinearity)",
+        "href": "/topics/the-least-squares-solution-of-a-linear-system-with-collinearity-2167"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 8,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20276",
+        "content_id": "3639",
+        "dom_id": "step-20276",
+        "selector": "#step-20276",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "37297",
+        "content_id": "9917",
+        "dom_id": "step-37297",
+        "selector": "#step-37297",
+        "step_anchor": "step-2",
+        "title": "Identifying an Expression for a Least-Squares Solution in Terms of the Matrices Q and R",
+        "key_prerequisites": [
+          {
+            "topic_id": "2129",
+            "name": "QR Factorization",
+            "href": "/topics/2129"
+          },
+          {
+            "topic_id": "2167",
+            "name": "The Least-Squares Solution of a Linear System (With Collinearity)",
+            "href": "/topics/2167"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "139690",
+        "dom_id": "question-139690",
+        "selector": "#question-139690",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "139773",
+        "dom_id": "question-139773",
+        "selector": "#question-139773",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "37330",
+        "content_id": "6150",
+        "dom_id": "step-37330",
+        "selector": "#step-37330",
+        "step_anchor": "step-5",
+        "title": "Using QR Factorization to Solve a Least-Squares Problem",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20278",
+        "content_id": "5592",
+        "dom_id": "step-20278",
+        "selector": "#step-20278",
+        "step_anchor": "step-6",
+        "title": "Finding the Least-Squares Solution of a Linear System Given a QR Factorization",
+        "key_prerequisites": [
+          {
+            "topic_id": "1047",
+            "name": "Solving Systems of Equations Using Back Substitution",
+            "href": "/topics/1047"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "40982",
+        "dom_id": "question-40982",
+        "selector": "#question-40982",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "40980",
+        "dom_id": "question-40980",
+        "selector": "#question-40980",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-20276",
+        "filename": "01-step-20276.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-37297",
+        "filename": "02-step-37297.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-139690",
+        "filename": "03-question-139690.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-139773",
+        "filename": "04-question-139773.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-37330",
+        "filename": "05-step-37330.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-20278",
+        "filename": "06-step-20278.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-40982",
+        "filename": "07-question-40982.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-40980",
+        "filename": "08-question-40980.png"
+      }
+    ]
+  }
+}

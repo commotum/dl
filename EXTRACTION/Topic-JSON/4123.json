@@ -1,0 +1,310 @@
+{
+  "schema_version": 1,
+  "topic_id": "4123",
+  "topic_title": "Likelihood Functions for Continuous Probability Distributions",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/4123.html",
+  "source_url": "https://mathacademy.com/topics/4123",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "42268",
+        "dom_id": "sectionLink-42268",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-42268"
+      },
+      {
+        "index": 2,
+        "step_id": "42301",
+        "dom_id": "sectionLink-42301",
+        "name": "",
+        "title": "Likelihood Functions for Continuous Random Variables",
+        "selector": "#sectionLink-42301"
+      },
+      {
+        "index": 3,
+        "step_id": "42283",
+        "dom_id": "sectionLink-42283",
+        "name": "",
+        "title": "Likelihood Functions for Exponential Random Variables",
+        "selector": "#sectionLink-42283"
+      },
+      {
+        "index": 4,
+        "step_id": "42321",
+        "dom_id": "sectionLink-42321",
+        "name": "",
+        "title": "The Normal Distribution",
+        "selector": "#sectionLink-42321"
+      },
+      {
+        "index": 5,
+        "step_id": "38121",
+        "dom_id": "sectionLink-38121",
+        "name": "",
+        "title": "Likelihood Functions for Normal Random Variables",
+        "selector": "#sectionLink-38121"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1843",
+        "name": "The Normal Distribution",
+        "href": "/topics/the-normal-distribution-1843"
+      },
+      {
+        "topic_id": "3074",
+        "name": "The Exponential Distribution",
+        "href": "/topics/the-exponential-distribution-3074"
+      },
+      {
+        "topic_id": "3603",
+        "name": "Likelihood Functions for Discrete Probability Distributions",
+        "href": "/topics/likelihood-functions-for-discrete-probability-distributions-3603"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "42268",
+        "content_id": "7001",
+        "dom_id": "step-42268",
+        "selector": "#step-42268",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "42301",
+        "content_id": "11123",
+        "dom_id": "step-42301",
+        "selector": "#step-42301",
+        "step_anchor": "step-2",
+        "title": "Likelihood Functions for Continuous Random Variables",
+        "key_prerequisites": [
+          {
+            "topic_id": "1347",
+            "name": "Probability Density Functions of Continuous Random Variables",
+            "href": "/topics/1347"
+          },
+          {
+            "topic_id": "3603",
+            "name": "Likelihood Functions for Discrete Probability Distributions",
+            "href": "/topics/3603"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "143497",
+        "dom_id": "question-143497",
+        "selector": "#question-143497",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "159849",
+        "dom_id": "question-159849",
+        "selector": "#question-159849",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "42283",
+        "content_id": "11121",
+        "dom_id": "step-42283",
+        "selector": "#step-42283",
+        "step_anchor": "step-5",
+        "title": "Likelihood Functions for Exponential Random Variables",
+        "key_prerequisites": [
+          {
+            "topic_id": "3074",
+            "name": "The Exponential Distribution",
+            "href": "/topics/3074"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "143475",
+        "dom_id": "question-143475",
+        "selector": "#question-143475",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "159781",
+        "dom_id": "question-159781",
+        "selector": "#question-159781",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "42321",
+        "content_id": "7019",
+        "dom_id": "step-42321",
+        "selector": "#step-42321",
+        "step_anchor": "step-8",
+        "title": "The Normal Distribution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "38121",
+        "content_id": "10106",
+        "dom_id": "step-38121",
+        "selector": "#step-38121",
+        "step_anchor": "step-9",
+        "title": "Likelihood Functions for Normal Random Variables",
+        "key_prerequisites": [
+          {
+            "topic_id": "1843",
+            "name": "The Normal Distribution",
+            "href": "/topics/1843"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "159785",
+        "dom_id": "question-159785",
+        "selector": "#question-159785",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "159786",
+        "dom_id": "question-159786",
+        "selector": "#question-159786",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-42268",
+        "filename": "01-step-42268.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-42301",
+        "filename": "02-step-42301.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-143497",
+        "filename": "03-question-143497.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-159849",
+        "filename": "04-question-159849.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-42283",
+        "filename": "05-step-42283.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-143475",
+        "filename": "06-question-143475.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-159781",
+        "filename": "07-question-159781.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-42321",
+        "filename": "08-step-42321.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-38121",
+        "filename": "09-step-38121.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-159785",
+        "filename": "10-question-159785.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-159786",
+        "filename": "11-question-159786.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,419 @@
+{
+  "schema_version": 1,
+  "topic_id": "3288",
+  "topic_title": "Constructing Moment-Generating Functions for Discrete Probability Distributions",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3288.html",
+  "source_url": "https://mathacademy.com/topics/3288",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "230835",
+        "dom_id": "sectionLink-230835",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-230835"
+      },
+      {
+        "index": 2,
+        "step_id": "230836",
+        "dom_id": "sectionLink-230836",
+        "name": "",
+        "title": "MGFs of Discrete Uniform Random Variables",
+        "selector": "#sectionLink-230836"
+      },
+      {
+        "index": 3,
+        "step_id": "230839",
+        "dom_id": "sectionLink-230839",
+        "name": "",
+        "title": "MGFs of Poisson Random Variables",
+        "selector": "#sectionLink-230839"
+      },
+      {
+        "index": 4,
+        "step_id": "230842",
+        "dom_id": "sectionLink-230842",
+        "name": "",
+        "title": "MGFs of Binomial Random Variables",
+        "selector": "#sectionLink-230842"
+      },
+      {
+        "index": 5,
+        "step_id": "230845",
+        "dom_id": "sectionLink-230845",
+        "name": "",
+        "title": "MGFs of Geometric Random Variables",
+        "selector": "#sectionLink-230845"
+      },
+      {
+        "index": 6,
+        "step_id": "230848",
+        "dom_id": "sectionLink-230848",
+        "name": "",
+        "title": "A Summary of the MGFs for Some Important Discrete Distributions",
+        "selector": "#sectionLink-230848"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "885",
+        "name": "Representing Functions as Power Series",
+        "href": "/topics/representing-functions-as-power-series-885"
+      },
+      {
+        "topic_id": "1156",
+        "name": "Expanding a Binomial Using Binomial Coefficients",
+        "href": "/topics/expanding-a-binomial-using-binomial-coefficients-1156"
+      },
+      {
+        "topic_id": "3010",
+        "name": "The Discrete Uniform Distribution",
+        "href": "/topics/the-discrete-uniform-distribution-3010"
+      },
+      {
+        "topic_id": "3071",
+        "name": "The Bernoulli Distribution",
+        "href": "/topics/the-bernoulli-distribution-3071"
+      },
+      {
+        "topic_id": "3072",
+        "name": "The Negative Binomial Distribution",
+        "href": "/topics/the-negative-binomial-distribution-3072"
+      },
+      {
+        "topic_id": "3281",
+        "name": "The Binomial Distribution",
+        "href": "/topics/the-binomial-distribution-3281"
+      },
+      {
+        "topic_id": "3282",
+        "name": "The Poisson Distribution",
+        "href": "/topics/the-poisson-distribution-3282"
+      },
+      {
+        "topic_id": "3401",
+        "name": "Moment-Generating Functions",
+        "href": "/topics/moment-generating-functions-3401"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "230835",
+        "content_id": "10925",
+        "dom_id": "step-230835",
+        "selector": "#step-230835",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "230836",
+        "content_id": "16685",
+        "dom_id": "step-230836",
+        "selector": "#step-230836",
+        "step_anchor": "step-2",
+        "title": "MGFs of Discrete Uniform Random Variables",
+        "key_prerequisites": [
+          {
+            "topic_id": "3010",
+            "name": "The Discrete Uniform Distribution",
+            "href": "/topics/3010"
+          },
+          {
+            "topic_id": "3401",
+            "name": "Moment-Generating Functions",
+            "href": "/topics/3401"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "256209",
+        "dom_id": "question-256209",
+        "selector": "#question-256209",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "256121",
+        "dom_id": "question-256121",
+        "selector": "#question-256121",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "230839",
+        "content_id": "16686",
+        "dom_id": "step-230839",
+        "selector": "#step-230839",
+        "step_anchor": "step-5",
+        "title": "MGFs of Poisson Random Variables",
+        "key_prerequisites": [
+          {
+            "topic_id": "885",
+            "name": "Representing Functions as Power Series",
+            "href": "/topics/885"
+          },
+          {
+            "topic_id": "3282",
+            "name": "The Poisson Distribution",
+            "href": "/topics/3282"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "256301",
+        "dom_id": "question-256301",
+        "selector": "#question-256301",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "256122",
+        "dom_id": "question-256122",
+        "selector": "#question-256122",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "230842",
+        "content_id": "16687",
+        "dom_id": "step-230842",
+        "selector": "#step-230842",
+        "step_anchor": "step-8",
+        "title": "MGFs of Binomial Random Variables",
+        "key_prerequisites": [
+          {
+            "topic_id": "1156",
+            "name": "Expanding a Binomial Using Binomial Coefficients",
+            "href": "/topics/1156"
+          },
+          {
+            "topic_id": "3281",
+            "name": "The Binomial Distribution",
+            "href": "/topics/3281"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "256232",
+        "dom_id": "question-256232",
+        "selector": "#question-256232",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "256123",
+        "dom_id": "question-256123",
+        "selector": "#question-256123",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "230845",
+        "content_id": "16688",
+        "dom_id": "step-230845",
+        "selector": "#step-230845",
+        "step_anchor": "step-11",
+        "title": "MGFs of Geometric Random Variables",
+        "key_prerequisites": [
+          {
+            "topic_id": "691",
+            "name": "Finding the Sum of an Infinite Geometric Series",
+            "href": "/topics/691"
+          },
+          {
+            "topic_id": "3284",
+            "name": "The Geometric Distribution",
+            "href": "/topics/3284"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "256353",
+        "dom_id": "question-256353",
+        "selector": "#question-256353",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "256124",
+        "dom_id": "question-256124",
+        "selector": "#question-256124",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "230848",
+        "content_id": "10947",
+        "dom_id": "step-230848",
+        "selector": "#step-230848",
+        "step_anchor": "step-14",
+        "title": "A Summary of the MGFs for Some Important Discrete Distributions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-230835",
+        "filename": "01-step-230835.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-230836",
+        "filename": "02-step-230836.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-256209",
+        "filename": "03-question-256209.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-256121",
+        "filename": "04-question-256121.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-230839",
+        "filename": "05-step-230839.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-256301",
+        "filename": "06-question-256301.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-256122",
+        "filename": "07-question-256122.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-230842",
+        "filename": "08-step-230842.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-256232",
+        "filename": "09-question-256232.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-256123",
+        "filename": "10-question-256123.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-230845",
+        "filename": "11-step-230845.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-256353",
+        "filename": "12-question-256353.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-256124",
+        "filename": "13-question-256124.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-230848",
+        "filename": "14-step-230848.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,372 @@
+{
+  "schema_version": 1,
+  "topic_id": "2008",
+  "topic_title": "Second-Order Homogeneous Recurrence Relations: Characteristic Equations with Complex Roots",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2008.html",
+  "source_url": "https://mathacademy.com/topics/2008",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "35978",
+        "dom_id": "sectionLink-35978",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-35978"
+      },
+      {
+        "index": 2,
+        "step_id": "35979",
+        "dom_id": "sectionLink-35979",
+        "name": "",
+        "title": "Finding and Solving a Characteristic Equation",
+        "selector": "#sectionLink-35979"
+      },
+      {
+        "index": 3,
+        "step_id": "35989",
+        "dom_id": "sectionLink-35989",
+        "name": "",
+        "title": "Simplifying the General Solution Using Complex Numbers in Polar Form",
+        "selector": "#sectionLink-35989"
+      },
+      {
+        "index": 4,
+        "step_id": "35980",
+        "dom_id": "sectionLink-35980",
+        "name": "",
+        "title": "Finding the General Solution to a Second-Order Recurrence Relation",
+        "selector": "#sectionLink-35980"
+      },
+      {
+        "index": 5,
+        "step_id": "35981",
+        "dom_id": "sectionLink-35981",
+        "name": "",
+        "title": "Solving Second-Order Recurrence Relations With Initial Conditions Given the General Solution",
+        "selector": "#sectionLink-35981"
+      },
+      {
+        "index": 6,
+        "step_id": "35982",
+        "dom_id": "sectionLink-35982",
+        "name": "",
+        "title": "Solving Second-Order Recurrence Relations With Initial Conditions",
+        "selector": "#sectionLink-35982"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "925",
+        "name": "De Moivre's Theorem",
+        "href": "/topics/de-moivres-theorem-925"
+      },
+      {
+        "topic_id": "1647",
+        "name": "The Complex Conjugate and the Roots of a Quadratic Equation",
+        "href": "/topics/the-complex-conjugate-and-the-roots-of-a-quadratic-equation-1647"
+      },
+      {
+        "topic_id": "2007",
+        "name": "Second-Order Homogeneous Recurrence Relations: Characteristic Equations with Distinct Real Roots",
+        "href": "/topics/second-order-homogeneous-recurrence-relations-characteristic-equations-with-distinct-real-roots-2007"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "35978",
+        "content_id": "5884",
+        "dom_id": "step-35978",
+        "selector": "#step-35978",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "35979",
+        "content_id": "9599",
+        "dom_id": "step-35979",
+        "selector": "#step-35979",
+        "step_anchor": "step-2",
+        "title": "Finding and Solving a Characteristic Equation",
+        "key_prerequisites": [
+          {
+            "topic_id": "895",
+            "name": "Solving Quadratic Equations With Complex Roots",
+            "href": "/topics/895"
+          },
+          {
+            "topic_id": "2007",
+            "name": "Second-Order Homogeneous Recurrence Relations: Characteristic Equations with Distinct Real Roots",
+            "href": "/topics/2007"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "128690",
+        "dom_id": "question-128690",
+        "selector": "#question-128690",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "128547",
+        "dom_id": "question-128547",
+        "selector": "#question-128547",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "35989",
+        "content_id": "5885",
+        "dom_id": "step-35989",
+        "selector": "#step-35989",
+        "step_anchor": "step-5",
+        "title": "Simplifying the General Solution Using Complex Numbers in Polar Form",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "35980",
+        "content_id": "9600",
+        "dom_id": "step-35980",
+        "selector": "#step-35980",
+        "step_anchor": "step-6",
+        "title": "Finding the General Solution to a Second-Order Recurrence Relation",
+        "key_prerequisites": [
+          {
+            "topic_id": "894",
+            "name": "The Polar Form of a Complex Number",
+            "href": "/topics/894"
+          },
+          {
+            "topic_id": "925",
+            "name": "De Moivre's Theorem",
+            "href": "/topics/925"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "128549",
+        "dom_id": "question-128549",
+        "selector": "#question-128549",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "128548",
+        "dom_id": "question-128548",
+        "selector": "#question-128548",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "35981",
+        "content_id": "9601",
+        "dom_id": "step-35981",
+        "selector": "#step-35981",
+        "step_anchor": "step-9",
+        "title": "Solving Second-Order Recurrence Relations With Initial Conditions Given the General Solution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "128550",
+        "dom_id": "question-128550",
+        "selector": "#question-128550",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "128870",
+        "dom_id": "question-128870",
+        "selector": "#question-128870",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "35982",
+        "content_id": "9602",
+        "dom_id": "step-35982",
+        "selector": "#step-35982",
+        "step_anchor": "step-12",
+        "title": "Solving Second-Order Recurrence Relations With Initial Conditions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "128551",
+        "dom_id": "question-128551",
+        "selector": "#question-128551",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "128552",
+        "dom_id": "question-128552",
+        "selector": "#question-128552",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-35978",
+        "filename": "01-step-35978.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-35979",
+        "filename": "02-step-35979.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-128690",
+        "filename": "03-question-128690.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-128547",
+        "filename": "04-question-128547.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-35989",
+        "filename": "05-step-35989.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-35980",
+        "filename": "06-step-35980.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-128549",
+        "filename": "07-question-128549.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-128548",
+        "filename": "08-question-128548.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-35981",
+        "filename": "09-step-35981.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-128550",
+        "filename": "10-question-128550.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-128870",
+        "filename": "11-question-128870.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-35982",
+        "filename": "12-step-35982.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-128551",
+        "filename": "13-question-128551.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-128552",
+        "filename": "14-question-128552.png"
+      }
+    ]
+  }
+}

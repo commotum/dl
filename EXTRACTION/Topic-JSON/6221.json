@@ -1,0 +1,506 @@
+{
+  "schema_version": 1,
+  "topic_id": "6221",
+  "topic_title": "Effects of Data Change on the Mean",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/6221.html",
+  "source_url": "https://mathacademy.com/topics/6221",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "531766",
+        "dom_id": "sectionLink-531766",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-531766"
+      },
+      {
+        "index": 2,
+        "step_id": "531767",
+        "dom_id": "sectionLink-531767",
+        "name": "",
+        "title": "A Concrete Example",
+        "selector": "#sectionLink-531767"
+      },
+      {
+        "index": 3,
+        "step_id": "531768",
+        "dom_id": "sectionLink-531768",
+        "name": "",
+        "title": "Another Example",
+        "selector": "#sectionLink-531768"
+      },
+      {
+        "index": 4,
+        "step_id": "531769",
+        "dom_id": "sectionLink-531769",
+        "name": "",
+        "title": "Comparing Means of Datasets That Differ By Adding One Data Point",
+        "selector": "#sectionLink-531769"
+      },
+      {
+        "index": 5,
+        "step_id": "531773",
+        "dom_id": "sectionLink-531773",
+        "name": "",
+        "title": "Removing a Data Point",
+        "selector": "#sectionLink-531773"
+      },
+      {
+        "index": 6,
+        "step_id": "531774",
+        "dom_id": "sectionLink-531774",
+        "name": "",
+        "title": "Comparing Means of Datasets That Differ By Removing One Data Point",
+        "selector": "#sectionLink-531774"
+      },
+      {
+        "index": 7,
+        "step_id": "531777",
+        "dom_id": "sectionLink-531777",
+        "name": "",
+        "title": "Comparing the Net Change",
+        "selector": "#sectionLink-531777"
+      },
+      {
+        "index": 8,
+        "step_id": "531778",
+        "dom_id": "sectionLink-531778",
+        "name": "",
+        "title": "Comparing Data Sets That Differ by One or More Data Points",
+        "selector": "#sectionLink-531778"
+      },
+      {
+        "index": 9,
+        "step_id": "531782",
+        "dom_id": "sectionLink-531782",
+        "name": "",
+        "title": "Recovering a Sum From the Mean",
+        "selector": "#sectionLink-531782"
+      },
+      {
+        "index": 10,
+        "step_id": "531783",
+        "dom_id": "sectionLink-531783",
+        "name": "",
+        "title": "Finding the Value of a Data Point Given the Means of Two Datasets",
+        "selector": "#sectionLink-531783"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2502",
+        "name": "Symmetry, Skew, and Outliers",
+        "href": "/topics/symmetry-skew-and-outliers-2502"
+      },
+      {
+        "topic_id": "6191",
+        "name": "Comparing Means",
+        "href": "/topics/comparing-means-6191"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 20,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "531766",
+        "content_id": "13611",
+        "dom_id": "step-531766",
+        "selector": "#step-531766",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "531767",
+        "content_id": "14219",
+        "dom_id": "step-531767",
+        "selector": "#step-531767",
+        "step_anchor": "step-2",
+        "title": "A Concrete Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "531768",
+        "content_id": "13876",
+        "dom_id": "step-531768",
+        "selector": "#step-531768",
+        "step_anchor": "step-3",
+        "title": "Another Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "531769",
+        "content_id": "19131",
+        "dom_id": "step-531769",
+        "selector": "#step-531769",
+        "step_anchor": "step-4",
+        "title": "Comparing Means of Datasets That Differ By Adding One Data Point",
+        "key_prerequisites": [
+          {
+            "topic_id": "2502",
+            "name": "Symmetry, Skew, and Outliers",
+            "href": "/topics/2502"
+          },
+          {
+            "topic_id": "6191",
+            "name": "Comparing Means",
+            "href": "/topics/6191"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "306151",
+        "dom_id": "question-306151",
+        "selector": "#question-306151",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "306163",
+        "dom_id": "question-306163",
+        "selector": "#question-306163",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "315429",
+        "dom_id": "question-315429",
+        "selector": "#question-315429",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "531773",
+        "content_id": "14060",
+        "dom_id": "step-531773",
+        "selector": "#step-531773",
+        "step_anchor": "step-8",
+        "title": "Removing a Data Point",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "531774",
+        "content_id": "19838",
+        "dom_id": "step-531774",
+        "selector": "#step-531774",
+        "step_anchor": "step-9",
+        "title": "Comparing Means of Datasets That Differ By Removing One Data Point",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "315724",
+        "dom_id": "question-315724",
+        "selector": "#question-315724",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "315739",
+        "dom_id": "question-315739",
+        "selector": "#question-315739",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "531777",
+        "content_id": "13877",
+        "dom_id": "step-531777",
+        "selector": "#step-531777",
+        "step_anchor": "step-12",
+        "title": "Comparing the Net Change",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "531778",
+        "content_id": "19837",
+        "dom_id": "step-531778",
+        "selector": "#step-531778",
+        "step_anchor": "step-13",
+        "title": "Comparing Data Sets That Differ by One or More Data Points",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "315928",
+        "dom_id": "question-315928",
+        "selector": "#question-315928",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "315529",
+        "dom_id": "question-315529",
+        "selector": "#question-315529",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "315799",
+        "dom_id": "question-315799",
+        "selector": "#question-315799",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 17,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "531782",
+        "content_id": "14065",
+        "dom_id": "step-531782",
+        "selector": "#step-531782",
+        "step_anchor": "step-17",
+        "title": "Recovering a Sum From the Mean",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 18,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "531783",
+        "content_id": "19132",
+        "dom_id": "step-531783",
+        "selector": "#step-531783",
+        "step_anchor": "step-18",
+        "title": "Finding the Value of a Data Point Given the Means of Two Datasets",
+        "key_prerequisites": [
+          {
+            "topic_id": "2479",
+            "name": "The Mean of a Data Set",
+            "href": "/topics/2479"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 19,
+        "item_type": "question",
+        "question_id": "306019",
+        "dom_id": "question-306019",
+        "selector": "#question-306019",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 20,
+        "item_type": "question",
+        "question_id": "315543",
+        "dom_id": "question-315543",
+        "selector": "#question-315543",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-531766",
+        "filename": "01-step-531766.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-531767",
+        "filename": "02-step-531767.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-531768",
+        "filename": "03-step-531768.png"
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "selector": "#step-531769",
+        "filename": "04-step-531769.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-306151",
+        "filename": "05-question-306151.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-306163",
+        "filename": "06-question-306163.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-315429",
+        "filename": "07-question-315429.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-531773",
+        "filename": "08-step-531773.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-531774",
+        "filename": "09-step-531774.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-315724",
+        "filename": "10-question-315724.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-315739",
+        "filename": "11-question-315739.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-531777",
+        "filename": "12-step-531777.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-531778",
+        "filename": "13-step-531778.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-315928",
+        "filename": "14-question-315928.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-315529",
+        "filename": "15-question-315529.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-315799",
+        "filename": "16-question-315799.png"
+      },
+      {
+        "index": 17,
+        "item_type": "step",
+        "selector": "#step-531782",
+        "filename": "17-step-531782.png"
+      },
+      {
+        "index": 18,
+        "item_type": "step",
+        "selector": "#step-531783",
+        "filename": "18-step-531783.png"
+      },
+      {
+        "index": 19,
+        "item_type": "question",
+        "selector": "#question-306019",
+        "filename": "19-question-306019.png"
+      },
+      {
+        "index": 20,
+        "item_type": "question",
+        "selector": "#question-315543",
+        "filename": "20-question-315543.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "schema_version": 1,
+  "topic_id": "755",
+  "topic_title": "Finding Lowest Common Multiples Using Prime Factorization",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/755.html",
+  "source_url": "https://mathacademy.com/topics/755",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "33113",
+        "dom_id": "sectionLink-33113",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-33113"
+      },
+      {
+        "index": 2,
+        "step_id": "34200",
+        "dom_id": "sectionLink-34200",
+        "name": "",
+        "title": "Finding the Lowest Common Multiple of Two Larger Numbers",
+        "selector": "#sectionLink-34200"
+      },
+      {
+        "index": 3,
+        "step_id": "33116",
+        "dom_id": "sectionLink-33116",
+        "name": "",
+        "title": "Finding the Lowest Common Multiple of Two Integers",
+        "selector": "#sectionLink-33116"
+      },
+      {
+        "index": 4,
+        "step_id": "33136",
+        "dom_id": "sectionLink-33136",
+        "name": "",
+        "title": "Finding the Lowest Common Multiple of Three Integers",
+        "selector": "#sectionLink-33136"
+      },
+      {
+        "index": 5,
+        "step_id": "33118",
+        "dom_id": "sectionLink-33118",
+        "name": "",
+        "title": "Finding the Lowest Common Denominator of Two Fractions",
+        "selector": "#sectionLink-33118"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "4250",
+        "name": "The Fundamental Theorem of Arithmetic",
+        "href": "/topics/the-fundamental-theorem-of-arithmetic-4250"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "33113",
+        "content_id": "5301",
+        "dom_id": "step-33113",
+        "selector": "#step-33113",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "34200",
+        "content_id": "5489",
+        "dom_id": "step-34200",
+        "selector": "#step-34200",
+        "step_anchor": "step-2",
+        "title": "Finding the Lowest Common Multiple of Two Larger Numbers",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33116",
+        "content_id": "8869",
+        "dom_id": "step-33116",
+        "selector": "#step-33116",
+        "step_anchor": "step-3",
+        "title": "Finding the Lowest Common Multiple of Two Integers",
+        "key_prerequisites": [
+          {
+            "topic_id": "829",
+            "name": "Prime Factors",
+            "href": "/topics/829"
+          },
+          {
+            "topic_id": "2206",
+            "name": "The Multiples of a Number",
+            "href": "/topics/2206"
+          },
+          {
+            "topic_id": "2321",
+            "name": "Evaluating Exponents",
+            "href": "/topics/2321"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "40529",
+        "dom_id": "question-40529",
+        "selector": "#question-40529",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "43568",
+        "dom_id": "question-43568",
+        "selector": "#question-43568",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33136",
+        "content_id": "8874",
+        "dom_id": "step-33136",
+        "selector": "#step-33136",
+        "step_anchor": "step-6",
+        "title": "Finding the Lowest Common Multiple of Three Integers",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "43577",
+        "dom_id": "question-43577",
+        "selector": "#question-43577",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "103763",
+        "dom_id": "question-103763",
+        "selector": "#question-103763",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33118",
+        "content_id": "8870",
+        "dom_id": "step-33118",
+        "selector": "#step-33118",
+        "step_anchor": "step-9",
+        "title": "Finding the Lowest Common Denominator of Two Fractions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "7553",
+        "dom_id": "question-7553",
+        "selector": "#question-7553",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "40528",
+        "dom_id": "question-40528",
+        "selector": "#question-40528",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-33113",
+        "filename": "01-step-33113.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-34200",
+        "filename": "02-step-34200.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-33116",
+        "filename": "03-step-33116.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-40529",
+        "filename": "04-question-40529.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-43568",
+        "filename": "05-question-43568.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-33136",
+        "filename": "06-step-33136.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-43577",
+        "filename": "07-question-43577.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-103763",
+        "filename": "08-question-103763.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-33118",
+        "filename": "09-step-33118.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-7553",
+        "filename": "10-question-7553.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-40528",
+        "filename": "11-question-40528.png"
+      }
+    ]
+  }
+}

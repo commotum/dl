@@ -1,0 +1,490 @@
+{
+  "schema_version": 1,
+  "topic_id": "2129",
+  "topic_title": "QR Factorization",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2129.html",
+  "source_url": "https://mathacademy.com/topics/2129",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "20266",
+        "dom_id": "sectionLink-20266",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-20266"
+      },
+      {
+        "index": 2,
+        "step_id": "31119",
+        "dom_id": "sectionLink-31119",
+        "name": "",
+        "title": "Identifying Dimensions of Factors in a QR Factorization",
+        "selector": "#sectionLink-31119"
+      },
+      {
+        "index": 3,
+        "step_id": "31388",
+        "dom_id": "sectionLink-31388",
+        "name": "",
+        "title": "Computing the Matrix R Given the Matrix Q in a QR Factorization",
+        "selector": "#sectionLink-31388"
+      },
+      {
+        "index": 4,
+        "step_id": "31108",
+        "dom_id": "sectionLink-31108",
+        "name": "",
+        "title": "Finding the Triangular Factor of a QR Factorization Given the Orthogonal Factor",
+        "selector": "#sectionLink-31108"
+      },
+      {
+        "index": 5,
+        "step_id": "31389",
+        "dom_id": "sectionLink-31389",
+        "name": "",
+        "title": "Interpreting Relations Between Two Bases as Matrix Multiplication",
+        "selector": "#sectionLink-31389"
+      },
+      {
+        "index": 6,
+        "step_id": "22120",
+        "dom_id": "sectionLink-22120",
+        "name": "",
+        "title": "Finding a QR Factorization of a Matrix Given an Orthogonal Basis in Terms of the Columns of a Matrix",
+        "selector": "#sectionLink-22120"
+      },
+      {
+        "index": 7,
+        "step_id": "31390",
+        "dom_id": "sectionLink-31390",
+        "name": "",
+        "title": "The QR Factorization Algorithm",
+        "selector": "#sectionLink-31390"
+      },
+      {
+        "index": 8,
+        "step_id": "31109",
+        "dom_id": "sectionLink-31109",
+        "name": "",
+        "title": "Finding a QR Factorization of a Matrix Given a Matrix With Orthogonal Columns",
+        "selector": "#sectionLink-31109"
+      },
+      {
+        "index": 9,
+        "step_id": "20267",
+        "dom_id": "sectionLink-20267",
+        "name": "",
+        "title": "Finding the QR Factorization of a Matrix",
+        "selector": "#sectionLink-20267"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2128",
+        "name": "The Gram-Schmidt Process in the General Case",
+        "href": "/topics/the-gram-schmidt-process-in-the-general-case-2128"
+      },
+      {
+        "topic_id": "4319",
+        "name": "Orthogonal Linear Transformations",
+        "href": "/topics/orthogonal-linear-transformations-4319"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 19,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20266",
+        "content_id": "3635",
+        "dom_id": "step-20266",
+        "selector": "#step-20266",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "31119",
+        "content_id": "8326",
+        "dom_id": "step-31119",
+        "selector": "#step-31119",
+        "step_anchor": "step-2",
+        "title": "Identifying Dimensions of Factors in a QR Factorization",
+        "key_prerequisites": [
+          {
+            "topic_id": "1777",
+            "name": "Triangular Matrices",
+            "href": "/topics/1777"
+          },
+          {
+            "topic_id": "1850",
+            "name": "The Column Space of a Matrix",
+            "href": "/topics/1850"
+          },
+          {
+            "topic_id": "2103",
+            "name": "Orthogonal Sets in Euclidean Spaces",
+            "href": "/topics/2103"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "95915",
+        "dom_id": "question-95915",
+        "selector": "#question-95915",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "95165",
+        "dom_id": "question-95165",
+        "selector": "#question-95165",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "31388",
+        "content_id": "5017",
+        "dom_id": "step-31388",
+        "selector": "#step-31388",
+        "step_anchor": "step-5",
+        "title": "Computing the Matrix R Given the Matrix Q in a QR Factorization",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "31108",
+        "content_id": "8324",
+        "dom_id": "step-31108",
+        "selector": "#step-31108",
+        "step_anchor": "step-6",
+        "title": "Finding the Triangular Factor of a QR Factorization Given the Orthogonal Factor",
+        "key_prerequisites": [
+          {
+            "topic_id": "2105",
+            "name": "Orthogonal Matrices",
+            "href": "/topics/2105"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "41418",
+        "dom_id": "question-41418",
+        "selector": "#question-41418",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "40786",
+        "dom_id": "question-40786",
+        "selector": "#question-40786",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "31389",
+        "content_id": "5018",
+        "dom_id": "step-31389",
+        "selector": "#step-31389",
+        "step_anchor": "step-9",
+        "title": "Interpreting Relations Between Two Bases as Matrix Multiplication",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "22120",
+        "content_id": "5959",
+        "dom_id": "step-22120",
+        "selector": "#step-22120",
+        "step_anchor": "step-10",
+        "title": "Finding a QR Factorization of a Matrix Given an Orthogonal Basis in Terms of the Columns of a Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "41417",
+        "dom_id": "question-41417",
+        "selector": "#question-41417",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "41415",
+        "dom_id": "question-41415",
+        "selector": "#question-41415",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "31390",
+        "content_id": "5019",
+        "dom_id": "step-31390",
+        "selector": "#step-31390",
+        "step_anchor": "step-13",
+        "title": "The QR Factorization Algorithm",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "31109",
+        "content_id": "8325",
+        "dom_id": "step-31109",
+        "selector": "#step-31109",
+        "step_anchor": "step-14",
+        "title": "Finding a QR Factorization of a Matrix Given a Matrix With Orthogonal Columns",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "40812",
+        "dom_id": "question-40812",
+        "selector": "#question-40812",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "41419",
+        "dom_id": "question-41419",
+        "selector": "#question-41419",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 17,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20267",
+        "content_id": "5586",
+        "dom_id": "step-20267",
+        "selector": "#step-20267",
+        "step_anchor": "step-17",
+        "title": "Finding the QR Factorization of a Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "2127",
+            "name": "The Gram-Schmidt Process for Two Vectors",
+            "href": "/topics/2127"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 18,
+        "item_type": "question",
+        "question_id": "40845",
+        "dom_id": "question-40845",
+        "selector": "#question-40845",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 19,
+        "item_type": "question",
+        "question_id": "40838",
+        "dom_id": "question-40838",
+        "selector": "#question-40838",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-20266",
+        "filename": "01-step-20266.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-31119",
+        "filename": "02-step-31119.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-95915",
+        "filename": "03-question-95915.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-95165",
+        "filename": "04-question-95165.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-31388",
+        "filename": "05-step-31388.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-31108",
+        "filename": "06-step-31108.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-41418",
+        "filename": "07-question-41418.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-40786",
+        "filename": "08-question-40786.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-31389",
+        "filename": "09-step-31389.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-22120",
+        "filename": "10-step-22120.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-41417",
+        "filename": "11-question-41417.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-41415",
+        "filename": "12-question-41415.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-31390",
+        "filename": "13-step-31390.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-31109",
+        "filename": "14-step-31109.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-40812",
+        "filename": "15-question-40812.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-41419",
+        "filename": "16-question-41419.png"
+      },
+      {
+        "index": 17,
+        "item_type": "step",
+        "selector": "#step-20267",
+        "filename": "17-step-20267.png"
+      },
+      {
+        "index": 18,
+        "item_type": "question",
+        "selector": "#question-40845",
+        "filename": "18-question-40845.png"
+      },
+      {
+        "index": 19,
+        "item_type": "question",
+        "selector": "#question-40838",
+        "filename": "19-question-40838.png"
+      }
+    ]
+  }
+}

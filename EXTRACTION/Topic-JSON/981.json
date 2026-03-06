@@ -1,0 +1,336 @@
+{
+  "schema_version": 1,
+  "topic_id": "981",
+  "topic_title": "Infinite Series and Partial Sums",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/981.html",
+  "source_url": "https://mathacademy.com/topics/981",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "2303",
+        "dom_id": "sectionLink-2303",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-2303"
+      },
+      {
+        "index": 2,
+        "step_id": "2304",
+        "dom_id": "sectionLink-2304",
+        "name": "",
+        "title": "Finding the First Partial Sums of an Infinite Series",
+        "selector": "#sectionLink-2304"
+      },
+      {
+        "index": 3,
+        "step_id": "2307",
+        "dom_id": "sectionLink-2307",
+        "name": "",
+        "title": "Finding a Partial Sum of an Infinite Arithmetic Series",
+        "selector": "#sectionLink-2307"
+      },
+      {
+        "index": 4,
+        "step_id": "2309",
+        "dom_id": "sectionLink-2309",
+        "name": "",
+        "title": "Finding a General Partial Sum of an Infinite Arithmetic Series",
+        "selector": "#sectionLink-2309"
+      },
+      {
+        "index": 5,
+        "step_id": "2311",
+        "dom_id": "sectionLink-2311",
+        "name": "",
+        "title": "Finding a Partial Sum of an Infinite Geometric Series",
+        "selector": "#sectionLink-2311"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "675",
+        "name": "Finding the Sum of an Arithmetic Series",
+        "href": "/topics/finding-the-sum-of-an-arithmetic-series-675"
+      },
+      {
+        "topic_id": "690",
+        "name": "Sums of Finite Geometric Series Given in Sigma Notation",
+        "href": "/topics/sums-of-finite-geometric-series-given-in-sigma-notation-690"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "2303",
+        "content_id": "1170",
+        "dom_id": "step-2303",
+        "selector": "#step-2303",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "2304",
+        "content_id": "661",
+        "dom_id": "step-2304",
+        "selector": "#step-2304",
+        "step_anchor": "step-2",
+        "title": "Finding the First Partial Sums of an Infinite Series",
+        "key_prerequisites": [
+          {
+            "topic_id": "673",
+            "name": "Sigma Notation",
+            "href": "/topics/673"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "13859",
+        "dom_id": "question-13859",
+        "selector": "#question-13859",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "49531",
+        "dom_id": "question-49531",
+        "selector": "#question-49531",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "2307",
+        "content_id": "662",
+        "dom_id": "step-2307",
+        "selector": "#step-2307",
+        "step_anchor": "step-5",
+        "title": "Finding a Partial Sum of an Infinite Arithmetic Series",
+        "key_prerequisites": [
+          {
+            "topic_id": "675",
+            "name": "Finding the Sum of an Arithmetic Series",
+            "href": "/topics/675"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "49600",
+        "dom_id": "question-49600",
+        "selector": "#question-49600",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "49601",
+        "dom_id": "question-49601",
+        "selector": "#question-49601",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "2309",
+        "content_id": "663",
+        "dom_id": "step-2309",
+        "selector": "#step-2309",
+        "step_anchor": "step-8",
+        "title": "Finding a General Partial Sum of an Infinite Arithmetic Series",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "49542",
+        "dom_id": "question-49542",
+        "selector": "#question-49542",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "49594",
+        "dom_id": "question-49594",
+        "selector": "#question-49594",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "2311",
+        "content_id": "664",
+        "dom_id": "step-2311",
+        "selector": "#step-2311",
+        "step_anchor": "step-11",
+        "title": "Finding a Partial Sum of an Infinite Geometric Series",
+        "key_prerequisites": [
+          {
+            "topic_id": "690",
+            "name": "Sums of Finite Geometric Series Given in Sigma Notation",
+            "href": "/topics/690"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "49629",
+        "dom_id": "question-49629",
+        "selector": "#question-49629",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "49544",
+        "dom_id": "question-49544",
+        "selector": "#question-49544",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-2303",
+        "filename": "01-step-2303.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-2304",
+        "filename": "02-step-2304.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-13859",
+        "filename": "03-question-13859.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-49531",
+        "filename": "04-question-49531.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-2307",
+        "filename": "05-step-2307.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-49600",
+        "filename": "06-question-49600.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-49601",
+        "filename": "07-question-49601.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-2309",
+        "filename": "08-step-2309.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-49542",
+        "filename": "09-question-49542.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-49594",
+        "filename": "10-question-49594.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-2311",
+        "filename": "11-step-2311.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-49629",
+        "filename": "12-question-49629.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-49544",
+        "filename": "13-question-49544.png"
+      }
+    ]
+  }
+}

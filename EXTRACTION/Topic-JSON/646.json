@@ -1,0 +1,294 @@
+{
+  "schema_version": 1,
+  "topic_id": "646",
+  "topic_title": "Proving Divisibility Using Induction",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/646.html",
+  "source_url": "https://mathacademy.com/topics/646",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "179446",
+        "dom_id": "sectionLink-179446",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-179446"
+      },
+      {
+        "index": 2,
+        "step_id": "179447",
+        "dom_id": "sectionLink-179447",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-179447"
+      },
+      {
+        "index": 3,
+        "step_id": "179448",
+        "dom_id": "sectionLink-179448",
+        "name": "",
+        "title": "Completing a Proof Template",
+        "selector": "#sectionLink-179448"
+      },
+      {
+        "index": 4,
+        "step_id": "179451",
+        "dom_id": "sectionLink-179451",
+        "name": "",
+        "title": "Proving Polynomial Divisibility",
+        "selector": "#sectionLink-179451"
+      },
+      {
+        "index": 5,
+        "step_id": "179454",
+        "dom_id": "sectionLink-179454",
+        "name": "",
+        "title": "Proving Divisibility of Exponential Expressions",
+        "selector": "#sectionLink-179454"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "642",
+        "name": "Mathematical Induction",
+        "href": "/topics/mathematical-induction-642"
+      },
+      {
+        "topic_id": "1157",
+        "name": "Expanding Binomials Using Pascal's Triangle",
+        "href": "/topics/expanding-binomials-using-pascals-triangle-1157"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "179446",
+        "content_id": "7932",
+        "dom_id": "step-179446",
+        "selector": "#step-179446",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "179447",
+        "content_id": "9167",
+        "dom_id": "step-179447",
+        "selector": "#step-179447",
+        "step_anchor": "step-2",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "179448",
+        "content_id": "13228",
+        "dom_id": "step-179448",
+        "selector": "#step-179448",
+        "step_anchor": "step-3",
+        "title": "Completing a Proof Template",
+        "key_prerequisites": [
+          {
+            "topic_id": "642",
+            "name": "Mathematical Induction",
+            "href": "/topics/642"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "182539",
+        "dom_id": "question-182539",
+        "selector": "#question-182539",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "182456",
+        "dom_id": "question-182456",
+        "selector": "#question-182456",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "179451",
+        "content_id": "13232",
+        "dom_id": "step-179451",
+        "selector": "#step-179451",
+        "step_anchor": "step-6",
+        "title": "Proving Polynomial Divisibility",
+        "key_prerequisites": [
+          {
+            "topic_id": "1157",
+            "name": "Expanding Binomials Using Pascal's Triangle",
+            "href": "/topics/1157"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "184243",
+        "dom_id": "question-184243",
+        "selector": "#question-184243",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "182639",
+        "dom_id": "question-182639",
+        "selector": "#question-182639",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "179454",
+        "content_id": "13233",
+        "dom_id": "step-179454",
+        "selector": "#step-179454",
+        "step_anchor": "step-9",
+        "title": "Proving Divisibility of Exponential Expressions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "182462",
+        "dom_id": "question-182462",
+        "selector": "#question-182462",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "182464",
+        "dom_id": "question-182464",
+        "selector": "#question-182464",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-179446",
+        "filename": "01-step-179446.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-179447",
+        "filename": "02-step-179447.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-179448",
+        "filename": "03-step-179448.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-182539",
+        "filename": "04-question-182539.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-182456",
+        "filename": "05-question-182456.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-179451",
+        "filename": "06-step-179451.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-184243",
+        "filename": "07-question-184243.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-182639",
+        "filename": "08-question-182639.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-179454",
+        "filename": "09-step-179454.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-182462",
+        "filename": "10-question-182462.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-182464",
+        "filename": "11-question-182464.png"
+      }
+    ]
+  }
+}

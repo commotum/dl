@@ -1,0 +1,292 @@
+{
+  "schema_version": 1,
+  "topic_id": "1401",
+  "topic_title": "Outward-Pointing Unit Normal Vectors in 2D",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1401.html",
+  "source_url": "https://mathacademy.com/topics/1401",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "35824",
+        "dom_id": "sectionLink-35824",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-35824"
+      },
+      {
+        "index": 2,
+        "step_id": "35838",
+        "dom_id": "sectionLink-35838",
+        "name": "",
+        "title": "Calculating an Outward-Pointing Unit Normal Vector for a Positively Oriented Curve",
+        "selector": "#sectionLink-35838"
+      },
+      {
+        "index": 3,
+        "step_id": "35876",
+        "dom_id": "sectionLink-35876",
+        "name": "",
+        "title": "Case of Negatively Oriented Curves",
+        "selector": "#sectionLink-35876"
+      },
+      {
+        "index": 4,
+        "step_id": "35855",
+        "dom_id": "sectionLink-35855",
+        "name": "",
+        "title": "Calculating an Outward-Pointing Unit Normal Vector for a Negatively Oriented Curve",
+        "selector": "#sectionLink-35855"
+      },
+      {
+        "index": 5,
+        "step_id": "35879",
+        "dom_id": "sectionLink-35879",
+        "name": "",
+        "title": "Deriving the General Formula for a Positively Oriented Curve",
+        "selector": "#sectionLink-35879"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "806",
+        "name": "Parametric Equations of Circles",
+        "href": "/topics/parametric-equations-of-circles-806"
+      },
+      {
+        "topic_id": "931",
+        "name": "Right-Angle Rotations as Linear Transformations",
+        "href": "/topics/right-angle-rotations-as-linear-transformations-931"
+      },
+      {
+        "topic_id": "1794",
+        "name": "Unit Tangent Vectors",
+        "href": "/topics/unit-tangent-vectors-1794"
+      },
+      {
+        "topic_id": "2746",
+        "name": "Parametric Equations of Ellipses",
+        "href": "/topics/parametric-equations-of-ellipses-2746"
+      },
+      {
+        "topic_id": "3356",
+        "name": "Simple, Closed, and Oriented Curves",
+        "href": "/topics/simple-closed-and-oriented-curves-3356"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 9,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "35824",
+        "content_id": "5850",
+        "dom_id": "step-35824",
+        "selector": "#step-35824",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "35838",
+        "content_id": "9566",
+        "dom_id": "step-35838",
+        "selector": "#step-35838",
+        "step_anchor": "step-2",
+        "title": "Calculating an Outward-Pointing Unit Normal Vector for a Positively Oriented Curve",
+        "key_prerequisites": [
+          {
+            "topic_id": "806",
+            "name": "Parametric Equations of Circles",
+            "href": "/topics/806"
+          },
+          {
+            "topic_id": "931",
+            "name": "Right-Angle Rotations as Linear Transformations",
+            "href": "/topics/931"
+          },
+          {
+            "topic_id": "1255",
+            "name": "Cartesian Equations of Parametric Curves",
+            "href": "/topics/1255"
+          },
+          {
+            "topic_id": "1794",
+            "name": "Unit Tangent Vectors",
+            "href": "/topics/1794"
+          },
+          {
+            "topic_id": "2746",
+            "name": "Parametric Equations of Ellipses",
+            "href": "/topics/2746"
+          },
+          {
+            "topic_id": "3356",
+            "name": "Simple, Closed, and Oriented Curves",
+            "href": "/topics/3356"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "126823",
+        "dom_id": "question-126823",
+        "selector": "#question-126823",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "126830",
+        "dom_id": "question-126830",
+        "selector": "#question-126830",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "35876",
+        "content_id": "5861",
+        "dom_id": "step-35876",
+        "selector": "#step-35876",
+        "step_anchor": "step-5",
+        "title": "Case of Negatively Oriented Curves",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "35855",
+        "content_id": "9571",
+        "dom_id": "step-35855",
+        "selector": "#step-35855",
+        "step_anchor": "step-6",
+        "title": "Calculating an Outward-Pointing Unit Normal Vector for a Negatively Oriented Curve",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "126826",
+        "dom_id": "question-126826",
+        "selector": "#question-126826",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "126931",
+        "dom_id": "question-126931",
+        "selector": "#question-126931",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "35879",
+        "content_id": "5864",
+        "dom_id": "step-35879",
+        "selector": "#step-35879",
+        "step_anchor": "step-9",
+        "title": "Deriving the General Formula for a Positively Oriented Curve",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-35824",
+        "filename": "01-step-35824.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-35838",
+        "filename": "02-step-35838.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-126823",
+        "filename": "03-question-126823.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-126830",
+        "filename": "04-question-126830.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-35876",
+        "filename": "05-step-35876.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-35855",
+        "filename": "06-step-35855.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-126826",
+        "filename": "07-question-126826.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-126931",
+        "filename": "08-question-126931.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-35879",
+        "filename": "09-step-35879.png"
+      }
+    ]
+  }
+}

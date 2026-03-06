@@ -1,0 +1,325 @@
+{
+  "schema_version": 1,
+  "topic_id": "5432",
+  "topic_title": "Topological Ordering",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/5432.html",
+  "source_url": "https://mathacademy.com/topics/5432",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "417552",
+        "dom_id": "sectionLink-417552",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-417552"
+      },
+      {
+        "index": 2,
+        "step_id": "417553",
+        "dom_id": "sectionLink-417553",
+        "name": "",
+        "title": "Another Example",
+        "selector": "#sectionLink-417553"
+      },
+      {
+        "index": 3,
+        "step_id": "417554",
+        "dom_id": "sectionLink-417554",
+        "name": "",
+        "title": "Understanding Topological Orderings",
+        "selector": "#sectionLink-417554"
+      },
+      {
+        "index": 4,
+        "step_id": "417557",
+        "dom_id": "sectionLink-417557",
+        "name": "",
+        "title": "Identifying Topological Orderings",
+        "selector": "#sectionLink-417557"
+      },
+      {
+        "index": 5,
+        "step_id": "417560",
+        "dom_id": "sectionLink-417560",
+        "name": "",
+        "title": "Constructing a Topological Ordering by Inspection",
+        "selector": "#sectionLink-417560"
+      },
+      {
+        "index": 6,
+        "step_id": "417563",
+        "dom_id": "sectionLink-417563",
+        "name": "",
+        "title": "Practical Applications of Topological Ordering",
+        "selector": "#sectionLink-417563"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1296",
+        "name": "Directed Acyclic Graphs",
+        "href": "/topics/directed-acyclic-graphs-1296"
+      },
+      {
+        "topic_id": "2756",
+        "name": "Connected Graphs",
+        "href": "/topics/connected-graphs-2756"
+      },
+      {
+        "topic_id": "3414",
+        "name": "Proof by Contradiction",
+        "href": "/topics/proof-by-contradiction-3414"
+      },
+      {
+        "topic_id": "4925",
+        "name": "Proving Biconditional Statements",
+        "href": "/topics/proving-biconditional-statements-4925"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "417552",
+        "content_id": "11177",
+        "dom_id": "step-417552",
+        "selector": "#step-417552",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "417553",
+        "content_id": "11850",
+        "dom_id": "step-417553",
+        "selector": "#step-417553",
+        "step_anchor": "step-2",
+        "title": "Another Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "417554",
+        "content_id": "16901",
+        "dom_id": "step-417554",
+        "selector": "#step-417554",
+        "step_anchor": "step-3",
+        "title": "Understanding Topological Orderings",
+        "key_prerequisites": [
+          {
+            "topic_id": "1296",
+            "name": "Directed Acyclic Graphs",
+            "href": "/topics/1296"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "259162",
+        "dom_id": "question-259162",
+        "selector": "#question-259162",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "262091",
+        "dom_id": "question-262091",
+        "selector": "#question-262091",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "417557",
+        "content_id": "16981",
+        "dom_id": "step-417557",
+        "selector": "#step-417557",
+        "step_anchor": "step-6",
+        "title": "Identifying Topological Orderings",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "259197",
+        "dom_id": "question-259197",
+        "selector": "#question-259197",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "259157",
+        "dom_id": "question-259157",
+        "selector": "#question-259157",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "417560",
+        "content_id": "16870",
+        "dom_id": "step-417560",
+        "selector": "#step-417560",
+        "step_anchor": "step-9",
+        "title": "Constructing a Topological Ordering by Inspection",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "259164",
+        "dom_id": "question-259164",
+        "selector": "#question-259164",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "259301",
+        "dom_id": "question-259301",
+        "selector": "#question-259301",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "417563",
+        "content_id": "11283",
+        "dom_id": "step-417563",
+        "selector": "#step-417563",
+        "step_anchor": "step-12",
+        "title": "Practical Applications of Topological Ordering",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-417552",
+        "filename": "01-step-417552.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-417553",
+        "filename": "02-step-417553.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-417554",
+        "filename": "03-step-417554.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-259162",
+        "filename": "04-question-259162.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-262091",
+        "filename": "05-question-262091.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-417557",
+        "filename": "06-step-417557.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-259197",
+        "filename": "07-question-259197.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-259157",
+        "filename": "08-question-259157.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-417560",
+        "filename": "09-step-417560.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-259164",
+        "filename": "10-question-259164.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-259301",
+        "filename": "11-question-259301.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-417563",
+        "filename": "12-step-417563.png"
+      }
+    ]
+  }
+}

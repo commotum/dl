@@ -1,0 +1,390 @@
+{
+  "schema_version": 1,
+  "topic_id": "2018",
+  "topic_title": "Reducing Real 2x2 Matrices to Rotation-Scaling Form",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2018.html",
+  "source_url": "https://mathacademy.com/topics/2018",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "20167",
+        "dom_id": "sectionLink-20167",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-20167"
+      },
+      {
+        "index": 2,
+        "step_id": "20169",
+        "dom_id": "sectionLink-20169",
+        "name": "",
+        "title": "The Rotation-Scaling Theorem",
+        "selector": "#sectionLink-20169"
+      },
+      {
+        "index": 3,
+        "step_id": "20170",
+        "dom_id": "sectionLink-20170",
+        "name": "",
+        "title": "Finding the Eigenvalues and Eigenvectors of a Matrix in Rotation-Scaling Form",
+        "selector": "#sectionLink-20170"
+      },
+      {
+        "index": 4,
+        "step_id": "20168",
+        "dom_id": "sectionLink-20168",
+        "name": "",
+        "title": "Converting a Matrix to Rotation-Scaling Form Given Multiple Parts of the Decomposition",
+        "selector": "#sectionLink-20168"
+      },
+      {
+        "index": 5,
+        "step_id": "32487",
+        "dom_id": "sectionLink-32487",
+        "name": "",
+        "title": "Converting a Matrix to Rotation-Scaling Form Using the Complex Conjugate",
+        "selector": "#sectionLink-32487"
+      },
+      {
+        "index": 6,
+        "step_id": "20171",
+        "dom_id": "sectionLink-20171",
+        "name": "",
+        "title": "Converting a Matrix to Rotation-Scaling Form Given Only One Eigenvalue",
+        "selector": "#sectionLink-20171"
+      },
+      {
+        "index": 7,
+        "step_id": "20172",
+        "dom_id": "sectionLink-20172",
+        "name": "",
+        "title": "The Geometric Interpretation of Rotation-Scaling Form",
+        "selector": "#sectionLink-20172"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2017",
+        "name": "Rotation-Scaling Matrices",
+        "href": "/topics/rotation-scaling-matrices-2017"
+      },
+      {
+        "topic_id": "3574",
+        "name": "Finding Complex Eigenvectors of Real 2x2 Matrices",
+        "href": "/topics/finding-complex-eigenvectors-of-real-2x2-matrices-3574"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20167",
+        "content_id": "3594",
+        "dom_id": "step-20167",
+        "selector": "#step-20167",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20169",
+        "content_id": "3595",
+        "dom_id": "step-20169",
+        "selector": "#step-20169",
+        "step_anchor": "step-2",
+        "title": "The Rotation-Scaling Theorem",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20170",
+        "content_id": "5531",
+        "dom_id": "step-20170",
+        "selector": "#step-20170",
+        "step_anchor": "step-3",
+        "title": "Finding the Eigenvalues and Eigenvectors of a Matrix in Rotation-Scaling Form",
+        "key_prerequisites": [
+          {
+            "topic_id": "2703",
+            "name": "Vectors Over the Complex Numbers",
+            "href": "/topics/2703"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "39130",
+        "dom_id": "question-39130",
+        "selector": "#question-39130",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "38559",
+        "dom_id": "question-38559",
+        "selector": "#question-38559",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20168",
+        "content_id": "5530",
+        "dom_id": "step-20168",
+        "selector": "#step-20168",
+        "step_anchor": "step-6",
+        "title": "Converting a Matrix to Rotation-Scaling Form Given Multiple Parts of the Decomposition",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "38571",
+        "dom_id": "question-38571",
+        "selector": "#question-38571",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "38557",
+        "dom_id": "question-38557",
+        "selector": "#question-38557",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "32487",
+        "content_id": "8734",
+        "dom_id": "step-32487",
+        "selector": "#step-32487",
+        "step_anchor": "step-9",
+        "title": "Converting a Matrix to Rotation-Scaling Form Using the Complex Conjugate",
+        "key_prerequisites": [
+          {
+            "topic_id": "2016",
+            "name": "Finding Complex Eigenvalues of Real 2x2 Matrices",
+            "href": "/topics/2016"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "39165",
+        "dom_id": "question-39165",
+        "selector": "#question-39165",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "39161",
+        "dom_id": "question-39161",
+        "selector": "#question-39161",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20171",
+        "content_id": "5532",
+        "dom_id": "step-20171",
+        "selector": "#step-20171",
+        "step_anchor": "step-12",
+        "title": "Converting a Matrix to Rotation-Scaling Form Given Only One Eigenvalue",
+        "key_prerequisites": [
+          {
+            "topic_id": "3574",
+            "name": "Finding Complex Eigenvectors of Real 2x2 Matrices",
+            "href": "/topics/3574"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "38570",
+        "dom_id": "question-38570",
+        "selector": "#question-38570",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "38565",
+        "dom_id": "question-38565",
+        "selector": "#question-38565",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20172",
+        "content_id": "3596",
+        "dom_id": "step-20172",
+        "selector": "#step-20172",
+        "step_anchor": "step-15",
+        "title": "The Geometric Interpretation of Rotation-Scaling Form",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-20167",
+        "filename": "01-step-20167.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-20169",
+        "filename": "02-step-20169.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-20170",
+        "filename": "03-step-20170.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-39130",
+        "filename": "04-question-39130.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-38559",
+        "filename": "05-question-38559.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-20168",
+        "filename": "06-step-20168.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-38571",
+        "filename": "07-question-38571.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-38557",
+        "filename": "08-question-38557.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-32487",
+        "filename": "09-step-32487.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-39165",
+        "filename": "10-question-39165.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-39161",
+        "filename": "11-question-39161.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-20171",
+        "filename": "12-step-20171.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-38570",
+        "filename": "13-question-38570.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-38565",
+        "filename": "14-question-38565.png"
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "selector": "#step-20172",
+        "filename": "15-step-20172.png"
+      }
+    ]
+  }
+}

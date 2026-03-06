@@ -1,0 +1,309 @@
+{
+  "schema_version": 1,
+  "topic_id": "1990",
+  "topic_title": "Defining Double Integrals Using Lower and Upper Riemann Sums",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1990.html",
+  "source_url": "https://mathacademy.com/topics/1990",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "22946",
+        "dom_id": "sectionLink-22946",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-22946"
+      },
+      {
+        "index": 2,
+        "step_id": "35559",
+        "dom_id": "sectionLink-35559",
+        "name": "",
+        "title": "Applying the Definition of the Double Integral in Terms of Lower and Upper Riemann Sums",
+        "selector": "#sectionLink-35559"
+      },
+      {
+        "index": 3,
+        "step_id": "22783",
+        "dom_id": "sectionLink-22783",
+        "name": "",
+        "title": "Calculating a Double Integral Using Lower and Upper Riemann Sums",
+        "selector": "#sectionLink-22783"
+      },
+      {
+        "index": 4,
+        "step_id": "35550",
+        "dom_id": "sectionLink-35550",
+        "name": "",
+        "title": "Calculating a Double Integral Using the Mean Value of X and Y",
+        "selector": "#sectionLink-35550"
+      },
+      {
+        "index": 5,
+        "step_id": "35700",
+        "dom_id": "sectionLink-35700",
+        "name": "",
+        "title": "Final Remarks",
+        "selector": "#sectionLink-35700"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1086",
+        "name": "Defining Definite Integrals Using Left and Right Riemann Sums",
+        "href": "/topics/defining-definite-integrals-using-left-and-right-riemann-sums-1086"
+      },
+      {
+        "topic_id": "2615",
+        "name": "Lower Riemann Sums Over General Rectangular Partitions",
+        "href": "/topics/lower-riemann-sums-over-general-rectangular-partitions-2615"
+      },
+      {
+        "topic_id": "3696",
+        "name": "Upper Riemann Sums Over General Rectangular Partitions",
+        "href": "/topics/upper-riemann-sums-over-general-rectangular-partitions-3696"
+      },
+      {
+        "topic_id": "3698",
+        "name": "Calculating Double Summations Over Partitions",
+        "href": "/topics/calculating-double-summations-over-partitions-3698"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "22946",
+        "content_id": "3884",
+        "dom_id": "step-22946",
+        "selector": "#step-22946",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "35559",
+        "content_id": "9497",
+        "dom_id": "step-35559",
+        "selector": "#step-35559",
+        "step_anchor": "step-2",
+        "title": "Applying the Definition of the Double Integral in Terms of Lower and Upper Riemann Sums",
+        "key_prerequisites": [
+          {
+            "topic_id": "2615",
+            "name": "Lower Riemann Sums Over General Rectangular Partitions",
+            "href": "/topics/2615"
+          },
+          {
+            "topic_id": "3696",
+            "name": "Upper Riemann Sums Over General Rectangular Partitions",
+            "href": "/topics/3696"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "123489",
+        "dom_id": "question-123489",
+        "selector": "#question-123489",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "123746",
+        "dom_id": "question-123746",
+        "selector": "#question-123746",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "22783",
+        "content_id": "6122",
+        "dom_id": "step-22783",
+        "selector": "#step-22783",
+        "step_anchor": "step-5",
+        "title": "Calculating a Double Integral Using Lower and Upper Riemann Sums",
+        "key_prerequisites": [
+          {
+            "topic_id": "3698",
+            "name": "Calculating Double Summations Over Partitions",
+            "href": "/topics/3698"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "123482",
+        "dom_id": "question-123482",
+        "selector": "#question-123482",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "72910",
+        "dom_id": "question-72910",
+        "selector": "#question-72910",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "35550",
+        "content_id": "9494",
+        "dom_id": "step-35550",
+        "selector": "#step-35550",
+        "step_anchor": "step-8",
+        "title": "Calculating a Double Integral Using the Mean Value of X and Y",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "72627",
+        "dom_id": "question-72627",
+        "selector": "#question-72627",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "72908",
+        "dom_id": "question-72908",
+        "selector": "#question-72908",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "35700",
+        "content_id": "5824",
+        "dom_id": "step-35700",
+        "selector": "#step-35700",
+        "step_anchor": "step-11",
+        "title": "Final Remarks",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-22946",
+        "filename": "01-step-22946.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-35559",
+        "filename": "02-step-35559.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-123489",
+        "filename": "03-question-123489.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-123746",
+        "filename": "04-question-123746.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-22783",
+        "filename": "05-step-22783.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-123482",
+        "filename": "06-question-123482.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-72910",
+        "filename": "07-question-72910.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-35550",
+        "filename": "08-step-35550.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-72627",
+        "filename": "09-question-72627.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-72908",
+        "filename": "10-question-72908.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-35700",
+        "filename": "11-step-35700.png"
+      }
+    ]
+  }
+}

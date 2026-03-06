@@ -1,0 +1,332 @@
+{
+  "schema_version": 1,
+  "topic_id": "4818",
+  "topic_title": "Multiplicative Inverses Modulo N",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/4818.html",
+  "source_url": "https://mathacademy.com/topics/4818",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "154718",
+        "dom_id": "sectionLink-154718",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-154718"
+      },
+      {
+        "index": 2,
+        "step_id": "154719",
+        "dom_id": "sectionLink-154719",
+        "name": "",
+        "title": "Determining the Existence of a Multiplicative Inverse",
+        "selector": "#sectionLink-154719"
+      },
+      {
+        "index": 3,
+        "step_id": "154722",
+        "dom_id": "sectionLink-154722",
+        "name": "",
+        "title": "Finding a Multiplicative Inverse Using Trial and Error",
+        "selector": "#sectionLink-154722"
+      },
+      {
+        "index": 4,
+        "step_id": "154723",
+        "dom_id": "sectionLink-154723",
+        "name": "",
+        "title": "Computing Inverses Using Exponentiation",
+        "selector": "#sectionLink-154723"
+      },
+      {
+        "index": 5,
+        "step_id": "154726",
+        "dom_id": "sectionLink-154726",
+        "name": "",
+        "title": "Using the Extended Euclidean Algorithm",
+        "selector": "#sectionLink-154726"
+      },
+      {
+        "index": 6,
+        "step_id": "154727",
+        "dom_id": "sectionLink-154727",
+        "name": "",
+        "title": "Computing Inverses Using the Extended Euclidean Algorithm",
+        "selector": "#sectionLink-154727"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2674",
+        "name": "The Multiplication Properties of Modular Arithmetic",
+        "href": "/topics/the-multiplication-properties-of-modular-arithmetic-2674"
+      },
+      {
+        "topic_id": "2677",
+        "name": "The Extended Euclidean Algorithm",
+        "href": "/topics/the-extended-euclidean-algorithm-2677"
+      },
+      {
+        "topic_id": "2735",
+        "name": "Additive Inverses Modulo N",
+        "href": "/topics/additive-inverses-modulo-n-2735"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "154718",
+        "content_id": "9080",
+        "dom_id": "step-154718",
+        "selector": "#step-154718",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "154719",
+        "content_id": "14656",
+        "dom_id": "step-154719",
+        "selector": "#step-154719",
+        "step_anchor": "step-2",
+        "title": "Determining the Existence of a Multiplicative Inverse",
+        "key_prerequisites": [
+          {
+            "topic_id": "2676",
+            "name": "The Euclidean Algorithm",
+            "href": "/topics/2676"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "213215",
+        "dom_id": "question-213215",
+        "selector": "#question-213215",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "213214",
+        "dom_id": "question-213214",
+        "selector": "#question-213214",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "154722",
+        "content_id": "9128",
+        "dom_id": "step-154722",
+        "selector": "#step-154722",
+        "step_anchor": "step-5",
+        "title": "Finding a Multiplicative Inverse Using Trial and Error",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "154723",
+        "content_id": "14657",
+        "dom_id": "step-154723",
+        "selector": "#step-154723",
+        "step_anchor": "step-6",
+        "title": "Computing Inverses Using Exponentiation",
+        "key_prerequisites": [
+          {
+            "topic_id": "2674",
+            "name": "The Multiplication Properties of Modular Arithmetic",
+            "href": "/topics/2674"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "213408",
+        "dom_id": "question-213408",
+        "selector": "#question-213408",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "213216",
+        "dom_id": "question-213216",
+        "selector": "#question-213216",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "154726",
+        "content_id": "9110",
+        "dom_id": "step-154726",
+        "selector": "#step-154726",
+        "step_anchor": "step-9",
+        "title": "Using the Extended Euclidean Algorithm",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "154727",
+        "content_id": "14658",
+        "dom_id": "step-154727",
+        "selector": "#step-154727",
+        "step_anchor": "step-10",
+        "title": "Computing Inverses Using the Extended Euclidean Algorithm",
+        "key_prerequisites": [
+          {
+            "topic_id": "2677",
+            "name": "The Extended Euclidean Algorithm",
+            "href": "/topics/2677"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "213219",
+        "dom_id": "question-213219",
+        "selector": "#question-213219",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "213511",
+        "dom_id": "question-213511",
+        "selector": "#question-213511",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-154718",
+        "filename": "01-step-154718.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-154719",
+        "filename": "02-step-154719.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-213215",
+        "filename": "03-question-213215.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-213214",
+        "filename": "04-question-213214.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-154722",
+        "filename": "05-step-154722.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-154723",
+        "filename": "06-step-154723.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-213408",
+        "filename": "07-question-213408.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-213216",
+        "filename": "08-question-213216.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-154726",
+        "filename": "09-step-154726.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-154727",
+        "filename": "10-step-154727.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-213219",
+        "filename": "11-question-213219.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-213511",
+        "filename": "12-question-213511.png"
+      }
+    ]
+  }
+}

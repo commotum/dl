@@ -1,0 +1,310 @@
+{
+  "schema_version": 1,
+  "topic_id": "1341",
+  "topic_title": "Permutations With Repetition",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1341.html",
+  "source_url": "https://mathacademy.com/topics/1341",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "229576",
+        "dom_id": "sectionLink-229576",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-229576"
+      },
+      {
+        "index": 2,
+        "step_id": "22347",
+        "dom_id": "sectionLink-22347",
+        "name": "",
+        "title": "The General Formula",
+        "selector": "#sectionLink-22347"
+      },
+      {
+        "index": 3,
+        "step_id": "22348",
+        "dom_id": "sectionLink-22348",
+        "name": "",
+        "title": "Computing the Number of Permutations With One Repeated Item",
+        "selector": "#sectionLink-22348"
+      },
+      {
+        "index": 4,
+        "step_id": "22349",
+        "dom_id": "sectionLink-22349",
+        "name": "",
+        "title": "Computing the Number of Permutations With Two Repeated Items",
+        "selector": "#sectionLink-22349"
+      },
+      {
+        "index": 5,
+        "step_id": "22350",
+        "dom_id": "sectionLink-22350",
+        "name": "",
+        "title": "Computing the Number of Permutations With Three or More Repeated Items",
+        "selector": "#sectionLink-22350"
+      },
+      {
+        "index": 6,
+        "step_id": "28022",
+        "dom_id": "sectionLink-28022",
+        "name": "",
+        "title": "The Relationship Between the Multinomial and Binomial Formulas",
+        "selector": "#sectionLink-28022"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "705",
+        "name": "Combinations",
+        "href": "/topics/combinations-705"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "229576",
+        "content_id": "10904",
+        "dom_id": "step-229576",
+        "selector": "#step-229576",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "22347",
+        "content_id": "3844",
+        "dom_id": "step-22347",
+        "selector": "#step-22347",
+        "step_anchor": "step-2",
+        "title": "The General Formula",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "22348",
+        "content_id": "6051",
+        "dom_id": "step-22348",
+        "selector": "#step-22348",
+        "step_anchor": "step-3",
+        "title": "Computing the Number of Permutations With One Repeated Item",
+        "key_prerequisites": [
+          {
+            "topic_id": "705",
+            "name": "Combinations",
+            "href": "/topics/705"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "42644",
+        "dom_id": "question-42644",
+        "selector": "#question-42644",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "42725",
+        "dom_id": "question-42725",
+        "selector": "#question-42725",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "22349",
+        "content_id": "6052",
+        "dom_id": "step-22349",
+        "selector": "#step-22349",
+        "step_anchor": "step-6",
+        "title": "Computing the Number of Permutations With Two Repeated Items",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "42632",
+        "dom_id": "question-42632",
+        "selector": "#question-42632",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "20248",
+        "dom_id": "question-20248",
+        "selector": "#question-20248",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "22350",
+        "content_id": "6053",
+        "dom_id": "step-22350",
+        "selector": "#step-22350",
+        "step_anchor": "step-9",
+        "title": "Computing the Number of Permutations With Three or More Repeated Items",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "42646",
+        "dom_id": "question-42646",
+        "selector": "#question-42646",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "42720",
+        "dom_id": "question-42720",
+        "selector": "#question-42720",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "28022",
+        "content_id": "4557",
+        "dom_id": "step-28022",
+        "selector": "#step-28022",
+        "step_anchor": "step-12",
+        "title": "The Relationship Between the Multinomial and Binomial Formulas",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-229576",
+        "filename": "01-step-229576.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-22347",
+        "filename": "02-step-22347.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-22348",
+        "filename": "03-step-22348.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-42644",
+        "filename": "04-question-42644.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-42725",
+        "filename": "05-question-42725.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-22349",
+        "filename": "06-step-22349.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-42632",
+        "filename": "07-question-42632.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-20248",
+        "filename": "08-question-20248.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-22350",
+        "filename": "09-step-22350.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-42646",
+        "filename": "10-question-42646.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-42720",
+        "filename": "11-question-42720.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-28022",
+        "filename": "12-step-28022.png"
+      }
+    ]
+  }
+}

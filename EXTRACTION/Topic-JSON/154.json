@@ -1,0 +1,310 @@
+{
+  "schema_version": 1,
+  "topic_id": "154",
+  "topic_title": "Calculating the Inverse of a 3x3 Matrix Using the Cofactor Method",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/154.html",
+  "source_url": "https://mathacademy.com/topics/154",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "16475",
+        "dom_id": "sectionLink-16475",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-16475"
+      },
+      {
+        "index": 2,
+        "step_id": "16476",
+        "dom_id": "sectionLink-16476",
+        "name": "",
+        "title": "Calculating the Inverse of a 3x3 Matrix Using the Matrix of Cofactors",
+        "selector": "#sectionLink-16476"
+      },
+      {
+        "index": 3,
+        "step_id": "16478",
+        "dom_id": "sectionLink-16478",
+        "name": "",
+        "title": "Calculating Individual Entries of the Matrix of Cofactors",
+        "selector": "#sectionLink-16478"
+      },
+      {
+        "index": 4,
+        "step_id": "16479",
+        "dom_id": "sectionLink-16479",
+        "name": "",
+        "title": "Calculating an Element of the Inverse of a 3x3 Matrix",
+        "selector": "#sectionLink-16479"
+      },
+      {
+        "index": 5,
+        "step_id": "16477",
+        "dom_id": "sectionLink-16477",
+        "name": "",
+        "title": "Calculating the Cofactor Method To Solve for an Unknown Quantity",
+        "selector": "#sectionLink-16477"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "153",
+        "name": "The Determinant of a 3x3 Matrix",
+        "href": "/topics/the-determinant-of-a-3x3-matrix-153"
+      },
+      {
+        "topic_id": "232",
+        "name": "The Transpose of a Matrix",
+        "href": "/topics/the-transpose-of-a-matrix-232"
+      },
+      {
+        "topic_id": "864",
+        "name": "Inverses of 2x2 Matrices",
+        "href": "/topics/inverses-of-2x2-matrices-864"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "16475",
+        "content_id": "3051",
+        "dom_id": "step-16475",
+        "selector": "#step-16475",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "16476",
+        "content_id": "4514",
+        "dom_id": "step-16476",
+        "selector": "#step-16476",
+        "step_anchor": "step-2",
+        "title": "Calculating the Inverse of a 3x3 Matrix Using the Matrix of Cofactors",
+        "key_prerequisites": [
+          {
+            "topic_id": "153",
+            "name": "The Determinant of a 3x3 Matrix",
+            "href": "/topics/153"
+          },
+          {
+            "topic_id": "232",
+            "name": "The Transpose of a Matrix",
+            "href": "/topics/232"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "9681",
+        "dom_id": "question-9681",
+        "selector": "#question-9681",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "9965",
+        "dom_id": "question-9965",
+        "selector": "#question-9965",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "16478",
+        "content_id": "3052",
+        "dom_id": "step-16478",
+        "selector": "#step-16478",
+        "step_anchor": "step-5",
+        "title": "Calculating Individual Entries of the Matrix of Cofactors",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "16479",
+        "content_id": "4516",
+        "dom_id": "step-16479",
+        "selector": "#step-16479",
+        "step_anchor": "step-6",
+        "title": "Calculating an Element of the Inverse of a 3x3 Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "1167",
+            "name": "Index Notation for Matrices",
+            "href": "/topics/1167"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "18280",
+        "dom_id": "question-18280",
+        "selector": "#question-18280",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "18279",
+        "dom_id": "question-18279",
+        "selector": "#question-18279",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "16477",
+        "content_id": "4515",
+        "dom_id": "step-16477",
+        "selector": "#step-16477",
+        "step_anchor": "step-9",
+        "title": "Calculating the Cofactor Method To Solve for an Unknown Quantity",
+        "key_prerequisites": [
+          {
+            "topic_id": "1415",
+            "name": "Solving Rational Equations Containing One Fractional Term",
+            "href": "/topics/1415"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "9710",
+        "dom_id": "question-9710",
+        "selector": "#question-9710",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "9997",
+        "dom_id": "question-9997",
+        "selector": "#question-9997",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-16475",
+        "filename": "01-step-16475.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-16476",
+        "filename": "02-step-16476.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-9681",
+        "filename": "03-question-9681.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-9965",
+        "filename": "04-question-9965.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-16478",
+        "filename": "05-step-16478.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-16479",
+        "filename": "06-step-16479.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-18280",
+        "filename": "07-question-18280.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-18279",
+        "filename": "08-question-18279.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-16477",
+        "filename": "09-step-16477.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-9710",
+        "filename": "10-question-9710.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-9997",
+        "filename": "11-question-9997.png"
+      }
+    ]
+  }
+}

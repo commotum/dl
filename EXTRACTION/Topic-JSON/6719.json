@@ -1,0 +1,322 @@
+{
+  "schema_version": 1,
+  "topic_id": "6719",
+  "topic_title": "Finding General Solutions Using the Method of Frobenius",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/6719.html",
+  "source_url": "https://mathacademy.com/topics/6719",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "608054",
+        "dom_id": "sectionLink-608054",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-608054"
+      },
+      {
+        "index": 2,
+        "step_id": "608055",
+        "dom_id": "sectionLink-608055",
+        "name": "",
+        "title": "Determining the First Solution in the General Solution Using the Method of Frobenius",
+        "selector": "#sectionLink-608055"
+      },
+      {
+        "index": 3,
+        "step_id": "608058",
+        "dom_id": "sectionLink-608058",
+        "name": "",
+        "title": "Determining the Coefficients of the First Solution Given the Recurrence Relation",
+        "selector": "#sectionLink-608058"
+      },
+      {
+        "index": 4,
+        "step_id": "608061",
+        "dom_id": "sectionLink-608061",
+        "name": "",
+        "title": "Finding the Second Linearly Independent Solution Using the Method of Frobenius",
+        "selector": "#sectionLink-608061"
+      },
+      {
+        "index": 5,
+        "step_id": "608062",
+        "dom_id": "sectionLink-608062",
+        "name": "",
+        "title": "Determining the Second  Linearly Independent Solution Using the Method of Frobenius",
+        "selector": "#sectionLink-608062"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2740",
+        "name": "General Solutions of Linear ODEs",
+        "href": "/topics/general-solutions-of-linear-odes-2740"
+      },
+      {
+        "topic_id": "6727",
+        "name": "Finding Recurrence Relations for the Coefficients of a Frobenius Solution",
+        "href": "/topics/finding-recurrence-relations-for-the-coefficients-of-a-frobenius-solution-6727"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "608054",
+        "content_id": "14702",
+        "dom_id": "step-608054",
+        "selector": "#step-608054",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "608055",
+        "content_id": "21853",
+        "dom_id": "step-608055",
+        "selector": "#step-608055",
+        "step_anchor": "step-2",
+        "title": "Determining the First Solution in the General Solution Using the Method of Frobenius",
+        "key_prerequisites": [
+          {
+            "topic_id": "1880",
+            "name": "Regular Singular Points",
+            "href": "/topics/1880"
+          },
+          {
+            "topic_id": "2523",
+            "name": "The Method of Frobenius",
+            "href": "/topics/2523"
+          },
+          {
+            "topic_id": "2740",
+            "name": "General Solutions of Linear ODEs",
+            "href": "/topics/2740"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "342425",
+        "dom_id": "question-342425",
+        "selector": "#question-342425",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "345653",
+        "dom_id": "question-345653",
+        "selector": "#question-345653",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "608058",
+        "content_id": "21898",
+        "dom_id": "step-608058",
+        "selector": "#step-608058",
+        "step_anchor": "step-5",
+        "title": "Determining the Coefficients of the First Solution Given the Recurrence Relation",
+        "key_prerequisites": [
+          {
+            "topic_id": "6727",
+            "name": "Finding Recurrence Relations for the Coefficients of a Frobenius Solution",
+            "href": "/topics/6727"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "344129",
+        "dom_id": "question-344129",
+        "selector": "#question-344129",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "345716",
+        "dom_id": "question-345716",
+        "selector": "#question-345716",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "608061",
+        "content_id": "14757",
+        "dom_id": "step-608061",
+        "selector": "#step-608061",
+        "step_anchor": "step-8",
+        "title": "Finding the Second Linearly Independent Solution Using the Method of Frobenius",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "608062",
+        "content_id": "21873",
+        "dom_id": "step-608062",
+        "selector": "#step-608062",
+        "step_anchor": "step-9",
+        "title": "Determining the Second  Linearly Independent Solution Using the Method of Frobenius",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "342494",
+        "dom_id": "question-342494",
+        "selector": "#question-342494",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "342587",
+        "dom_id": "question-342587",
+        "selector": "#question-342587",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "342755",
+        "dom_id": "question-342755",
+        "selector": "#question-342755",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-608054",
+        "filename": "01-step-608054.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-608055",
+        "filename": "02-step-608055.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-342425",
+        "filename": "03-question-342425.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-345653",
+        "filename": "04-question-345653.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-608058",
+        "filename": "05-step-608058.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-344129",
+        "filename": "06-question-344129.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-345716",
+        "filename": "07-question-345716.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-608061",
+        "filename": "08-step-608061.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-608062",
+        "filename": "09-step-608062.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-342494",
+        "filename": "10-question-342494.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-342587",
+        "filename": "11-question-342587.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-342755",
+        "filename": "12-question-342755.png"
+      }
+    ]
+  }
+}

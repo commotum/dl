@@ -1,0 +1,386 @@
+{
+  "schema_version": 1,
+  "topic_id": "6298",
+  "topic_title": "Comparing Data Points to Lines of Best Fit",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/6298.html",
+  "source_url": "https://mathacademy.com/topics/6298",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "511220",
+        "dom_id": "sectionLink-511220",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-511220"
+      },
+      {
+        "index": 2,
+        "step_id": "511221",
+        "dom_id": "sectionLink-511221",
+        "name": "",
+        "title": "Counting the Number of Points Underestimated or Overestimated by a Line of Best Fit",
+        "selector": "#sectionLink-511221"
+      },
+      {
+        "index": 3,
+        "step_id": "511224",
+        "dom_id": "sectionLink-511224",
+        "name": "",
+        "title": "Counting the Number of Underestimated or Overestimated Points in Contextual Situations",
+        "selector": "#sectionLink-511224"
+      },
+      {
+        "index": 4,
+        "step_id": "511227",
+        "dom_id": "sectionLink-511227",
+        "name": "",
+        "title": "Identifying Differences",
+        "selector": "#sectionLink-511227"
+      },
+      {
+        "index": 5,
+        "step_id": "511228",
+        "dom_id": "sectionLink-511228",
+        "name": "",
+        "title": "Identifying Data Points Corresponding to a Minimum Underestimate or Overestimate",
+        "selector": "#sectionLink-511228"
+      },
+      {
+        "index": 6,
+        "step_id": "511232",
+        "dom_id": "sectionLink-511232",
+        "name": "",
+        "title": "Identifying the Worst Predicted Data Point",
+        "selector": "#sectionLink-511232"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "178",
+        "name": "Inequalities",
+        "href": "/topics/inequalities-178"
+      },
+      {
+        "topic_id": "3753",
+        "name": "Making Predictions Using Trend Lines",
+        "href": "/topics/making-predictions-using-trend-lines-3753"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "511220",
+        "content_id": "13780",
+        "dom_id": "step-511220",
+        "selector": "#step-511220",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "511221",
+        "content_id": "19734",
+        "dom_id": "step-511221",
+        "selector": "#step-511221",
+        "step_anchor": "step-2",
+        "title": "Counting the Number of Points Underestimated or Overestimated by a Line of Best Fit",
+        "key_prerequisites": [
+          {
+            "topic_id": "2609",
+            "name": "Trend Lines",
+            "href": "/topics/2609"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "312598",
+        "dom_id": "question-312598",
+        "selector": "#question-312598",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "313067",
+        "dom_id": "question-313067",
+        "selector": "#question-313067",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "511224",
+        "content_id": "19720",
+        "dom_id": "step-511224",
+        "selector": "#step-511224",
+        "step_anchor": "step-5",
+        "title": "Counting the Number of Underestimated or Overestimated Points in Contextual Situations",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "313953",
+        "dom_id": "question-313953",
+        "selector": "#question-313953",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "311965",
+        "dom_id": "question-311965",
+        "selector": "#question-311965",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "511227",
+        "content_id": "13791",
+        "dom_id": "step-511227",
+        "selector": "#step-511227",
+        "step_anchor": "step-8",
+        "title": "Identifying Differences",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "511228",
+        "content_id": "19733",
+        "dom_id": "step-511228",
+        "selector": "#step-511228",
+        "step_anchor": "step-9",
+        "title": "Identifying Data Points Corresponding to a Minimum Underestimate or Overestimate",
+        "key_prerequisites": [
+          {
+            "topic_id": "3753",
+            "name": "Making Predictions Using Trend Lines",
+            "href": "/topics/3753"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "313200",
+        "dom_id": "question-313200",
+        "selector": "#question-313200",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "312600",
+        "dom_id": "question-312600",
+        "selector": "#question-312600",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "312861",
+        "dom_id": "question-312861",
+        "selector": "#question-312861",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "511232",
+        "content_id": "19732",
+        "dom_id": "step-511232",
+        "selector": "#step-511232",
+        "step_anchor": "step-13",
+        "title": "Identifying the Worst Predicted Data Point",
+        "key_prerequisites": [
+          {
+            "topic_id": "178",
+            "name": "Inequalities",
+            "href": "/topics/178"
+          },
+          {
+            "topic_id": "573",
+            "name": "Distances Between Points in the Coordinate Plane",
+            "href": "/topics/573"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "313501",
+        "dom_id": "question-313501",
+        "selector": "#question-313501",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "312593",
+        "dom_id": "question-312593",
+        "selector": "#question-312593",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-511220",
+        "filename": "01-step-511220.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-511221",
+        "filename": "02-step-511221.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-312598",
+        "filename": "03-question-312598.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-313067",
+        "filename": "04-question-313067.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-511224",
+        "filename": "05-step-511224.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-313953",
+        "filename": "06-question-313953.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-311965",
+        "filename": "07-question-311965.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-511227",
+        "filename": "08-step-511227.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-511228",
+        "filename": "09-step-511228.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-313200",
+        "filename": "10-question-313200.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-312600",
+        "filename": "11-question-312600.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-312861",
+        "filename": "12-question-312861.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-511232",
+        "filename": "13-step-511232.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-313501",
+        "filename": "14-question-313501.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-312593",
+        "filename": "15-question-312593.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,462 @@
+{
+  "schema_version": 1,
+  "topic_id": "1845",
+  "topic_title": "Modeling Capacitor Charge in RCL Circuits With Second-Order ODEs",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1845.html",
+  "source_url": "https://mathacademy.com/topics/1845",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "603819",
+        "dom_id": "sectionLink-603819",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-603819"
+      },
+      {
+        "index": 2,
+        "step_id": "603820",
+        "dom_id": "sectionLink-603820",
+        "name": "",
+        "title": "Finding an Expression for the Current",
+        "selector": "#sectionLink-603820"
+      },
+      {
+        "index": 3,
+        "step_id": "603823",
+        "dom_id": "sectionLink-603823",
+        "name": "",
+        "title": "Finding an Equation Governing the Capacitor Charge",
+        "selector": "#sectionLink-603823"
+      },
+      {
+        "index": 4,
+        "step_id": "603824",
+        "dom_id": "sectionLink-603824",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-603824"
+      },
+      {
+        "index": 5,
+        "step_id": "603825",
+        "dom_id": "sectionLink-603825",
+        "name": "",
+        "title": "Constructing an Equation Governing the Charge in an RCL Circuit",
+        "selector": "#sectionLink-603825"
+      },
+      {
+        "index": 6,
+        "step_id": "608076",
+        "dom_id": "sectionLink-608076",
+        "name": "",
+        "title": "The Steady-State Capacitor Charge",
+        "selector": "#sectionLink-608076"
+      },
+      {
+        "index": 7,
+        "step_id": "603828",
+        "dom_id": "sectionLink-603828",
+        "name": "",
+        "title": "Finding the Steady-State Capacitor Charge in an RCL Circuit: Constant EMF",
+        "selector": "#sectionLink-603828"
+      },
+      {
+        "index": 8,
+        "step_id": "603832",
+        "dom_id": "sectionLink-603832",
+        "name": "",
+        "title": "Solving an Equation Governing the Charge in an RCL Circuit: Sinusoidal EMF",
+        "selector": "#sectionLink-603832"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "883",
+        "name": "Second-Order Inhomogeneous ODEs With Sinusoidal Forcing",
+        "href": "/topics/second-order-inhomogeneous-odes-with-sinusoidal-forcing-883"
+      },
+      {
+        "topic_id": "1788",
+        "name": "Modeling RL Circuits With First-Order ODEs",
+        "href": "/topics/modeling-rl-circuits-with-first-order-odes-1788"
+      },
+      {
+        "topic_id": "6701",
+        "name": "Modeling RC Circuits With First-Order ODEs",
+        "href": "/topics/modeling-rc-circuits-with-first-order-odes-6701"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 18,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "603819",
+        "content_id": "14793",
+        "dom_id": "step-603819",
+        "selector": "#step-603819",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "603820",
+        "content_id": "21893",
+        "dom_id": "step-603820",
+        "selector": "#step-603820",
+        "step_anchor": "step-2",
+        "title": "Finding an Expression for the Current",
+        "key_prerequisites": [
+          {
+            "topic_id": "1076",
+            "name": "Writing Sums of Trigonometric Functions in Amplitude-Phase Form",
+            "href": "/topics/1076"
+          },
+          {
+            "topic_id": "1788",
+            "name": "Modeling RL Circuits With First-Order ODEs",
+            "href": "/topics/1788"
+          },
+          {
+            "topic_id": "6701",
+            "name": "Modeling RC Circuits With First-Order ODEs",
+            "href": "/topics/6701"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "343826",
+        "dom_id": "question-343826",
+        "selector": "#question-343826",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "343829",
+        "dom_id": "question-343829",
+        "selector": "#question-343829",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "603823",
+        "content_id": "14790",
+        "dom_id": "step-603823",
+        "selector": "#step-603823",
+        "step_anchor": "step-5",
+        "title": "Finding an Equation Governing the Capacitor Charge",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "603824",
+        "content_id": "14792",
+        "dom_id": "step-603824",
+        "selector": "#step-603824",
+        "step_anchor": "step-6",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "603825",
+        "content_id": "21890",
+        "dom_id": "step-603825",
+        "selector": "#step-603825",
+        "step_anchor": "step-7",
+        "title": "Constructing an Equation Governing the Charge in an RCL Circuit",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "343714",
+        "dom_id": "question-343714",
+        "selector": "#question-343714",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "343717",
+        "dom_id": "question-343717",
+        "selector": "#question-343717",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "608076",
+        "content_id": "14900",
+        "dom_id": "step-608076",
+        "selector": "#step-608076",
+        "step_anchor": "step-10",
+        "title": "The Steady-State Capacitor Charge",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "603828",
+        "content_id": "21891",
+        "dom_id": "step-603828",
+        "selector": "#step-603828",
+        "step_anchor": "step-11",
+        "title": "Finding the Steady-State Capacitor Charge in an RCL Circuit: Constant EMF",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "345012",
+        "dom_id": "question-345012",
+        "selector": "#question-345012",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "345014",
+        "dom_id": "question-345014",
+        "selector": "#question-345014",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "345015",
+        "dom_id": "question-345015",
+        "selector": "#question-345015",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "603832",
+        "content_id": "21892",
+        "dom_id": "step-603832",
+        "selector": "#step-603832",
+        "step_anchor": "step-15",
+        "title": "Solving an Equation Governing the Charge in an RCL Circuit: Sinusoidal EMF",
+        "key_prerequisites": [
+          {
+            "topic_id": "883",
+            "name": "Second-Order Inhomogeneous ODEs With Sinusoidal Forcing",
+            "href": "/topics/883"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "343786",
+        "dom_id": "question-343786",
+        "selector": "#question-343786",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "question_id": "343807",
+        "dom_id": "question-343807",
+        "selector": "#question-343807",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 18,
+        "item_type": "question",
+        "question_id": "343948",
+        "dom_id": "question-343948",
+        "selector": "#question-343948",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-603819",
+        "filename": "01-step-603819.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-603820",
+        "filename": "02-step-603820.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-343826",
+        "filename": "03-question-343826.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-343829",
+        "filename": "04-question-343829.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-603823",
+        "filename": "05-step-603823.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-603824",
+        "filename": "06-step-603824.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-603825",
+        "filename": "07-step-603825.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-343714",
+        "filename": "08-question-343714.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-343717",
+        "filename": "09-question-343717.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-608076",
+        "filename": "10-step-608076.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-603828",
+        "filename": "11-step-603828.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-345012",
+        "filename": "12-question-345012.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-345014",
+        "filename": "13-question-345014.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-345015",
+        "filename": "14-question-345015.png"
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "selector": "#step-603832",
+        "filename": "15-step-603832.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-343786",
+        "filename": "16-question-343786.png"
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "selector": "#question-343807",
+        "filename": "17-question-343807.png"
+      },
+      {
+        "index": 18,
+        "item_type": "question",
+        "selector": "#question-343948",
+        "filename": "18-question-343948.png"
+      }
+    ]
+  }
+}

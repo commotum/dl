@@ -1,0 +1,436 @@
+{
+  "schema_version": 1,
+  "topic_id": "642",
+  "topic_title": "Mathematical Induction",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/642.html",
+  "source_url": "https://mathacademy.com/topics/642",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "181045",
+        "dom_id": "sectionLink-181045",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-181045"
+      },
+      {
+        "index": 2,
+        "step_id": "181046",
+        "dom_id": "sectionLink-181046",
+        "name": "",
+        "title": "The Principle of Induction",
+        "selector": "#sectionLink-181046"
+      },
+      {
+        "index": 3,
+        "step_id": "181047",
+        "dom_id": "sectionLink-181047",
+        "name": "",
+        "title": "A Template for Proving Results Using Induction",
+        "selector": "#sectionLink-181047"
+      },
+      {
+        "index": 4,
+        "step_id": "181048",
+        "dom_id": "sectionLink-181048",
+        "name": "",
+        "title": "Completing a Proof Template",
+        "selector": "#sectionLink-181048"
+      },
+      {
+        "index": 5,
+        "step_id": "181051",
+        "dom_id": "sectionLink-181051",
+        "name": "",
+        "title": "Rewriting Finite Series",
+        "selector": "#sectionLink-181051"
+      },
+      {
+        "index": 6,
+        "step_id": "181052",
+        "dom_id": "sectionLink-181052",
+        "name": "",
+        "title": "Expressing S(k+1) in Terms of S(k)",
+        "selector": "#sectionLink-181052"
+      },
+      {
+        "index": 7,
+        "step_id": "181055",
+        "dom_id": "sectionLink-181055",
+        "name": "",
+        "title": "Proof By Induction",
+        "selector": "#sectionLink-181055"
+      },
+      {
+        "index": 8,
+        "step_id": "181056",
+        "dom_id": "sectionLink-181056",
+        "name": "",
+        "title": "Stating the Full Proof",
+        "selector": "#sectionLink-181056"
+      },
+      {
+        "index": 9,
+        "step_id": "181057",
+        "dom_id": "sectionLink-181057",
+        "name": "",
+        "title": "Proving Sums of Series Using Induction",
+        "selector": "#sectionLink-181057"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "675",
+        "name": "Finding the Sum of an Arithmetic Series",
+        "href": "/topics/finding-the-sum-of-an-arithmetic-series-675"
+      },
+      {
+        "topic_id": "690",
+        "name": "Sums of Finite Geometric Series Given in Sigma Notation",
+        "href": "/topics/sums-of-finite-geometric-series-given-in-sigma-notation-690"
+      },
+      {
+        "topic_id": "2787",
+        "name": "Universal and Existential Quantifiers",
+        "href": "/topics/universal-and-existential-quantifiers-2787"
+      },
+      {
+        "topic_id": "3958",
+        "name": "Properties of Finite Series",
+        "href": "/topics/properties-of-finite-series-3958"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 16,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "181045",
+        "content_id": "7931",
+        "dom_id": "step-181045",
+        "selector": "#step-181045",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "181046",
+        "content_id": "9162",
+        "dom_id": "step-181046",
+        "selector": "#step-181046",
+        "step_anchor": "step-2",
+        "title": "The Principle of Induction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "181047",
+        "content_id": "9163",
+        "dom_id": "step-181047",
+        "selector": "#step-181047",
+        "step_anchor": "step-3",
+        "title": "A Template for Proving Results Using Induction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "181048",
+        "content_id": "12669",
+        "dom_id": "step-181048",
+        "selector": "#step-181048",
+        "step_anchor": "step-4",
+        "title": "Completing a Proof Template",
+        "key_prerequisites": [
+          {
+            "topic_id": "3817",
+            "name": "Describing Function Composition",
+            "href": "/topics/3817"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "170320",
+        "dom_id": "question-170320",
+        "selector": "#question-170320",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "182624",
+        "dom_id": "question-182624",
+        "selector": "#question-182624",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "181051",
+        "content_id": "9164",
+        "dom_id": "step-181051",
+        "selector": "#step-181051",
+        "step_anchor": "step-7",
+        "title": "Rewriting Finite Series",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "181052",
+        "content_id": "12667",
+        "dom_id": "step-181052",
+        "selector": "#step-181052",
+        "step_anchor": "step-8",
+        "title": "Expressing S(k+1) in Terms of S(k)",
+        "key_prerequisites": [
+          {
+            "topic_id": "3958",
+            "name": "Properties of Finite Series",
+            "href": "/topics/3958"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "170316",
+        "dom_id": "question-170316",
+        "selector": "#question-170316",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "182716",
+        "dom_id": "question-182716",
+        "selector": "#question-182716",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "181055",
+        "content_id": "8266",
+        "dom_id": "step-181055",
+        "selector": "#step-181055",
+        "step_anchor": "step-11",
+        "title": "Proof By Induction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "181056",
+        "content_id": "9165",
+        "dom_id": "step-181056",
+        "selector": "#step-181056",
+        "step_anchor": "step-12",
+        "title": "Stating the Full Proof",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "181057",
+        "content_id": "12666",
+        "dom_id": "step-181057",
+        "selector": "#step-181057",
+        "step_anchor": "step-13",
+        "title": "Proving Sums of Series Using Induction",
+        "key_prerequisites": [
+          {
+            "topic_id": "2337",
+            "name": "Further Factoring of Polynomials Using GCFs",
+            "href": "/topics/2337"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "182573",
+        "dom_id": "question-182573",
+        "selector": "#question-182573",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "182614",
+        "dom_id": "question-182614",
+        "selector": "#question-182614",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "182690",
+        "dom_id": "question-182690",
+        "selector": "#question-182690",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-181045",
+        "filename": "01-step-181045.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-181046",
+        "filename": "02-step-181046.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-181047",
+        "filename": "03-step-181047.png"
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "selector": "#step-181048",
+        "filename": "04-step-181048.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-170320",
+        "filename": "05-question-170320.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-182624",
+        "filename": "06-question-182624.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-181051",
+        "filename": "07-step-181051.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-181052",
+        "filename": "08-step-181052.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-170316",
+        "filename": "09-question-170316.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-182716",
+        "filename": "10-question-182716.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-181055",
+        "filename": "11-step-181055.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-181056",
+        "filename": "12-step-181056.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-181057",
+        "filename": "13-step-181057.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-182573",
+        "filename": "14-question-182573.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-182614",
+        "filename": "15-question-182614.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-182690",
+        "filename": "16-question-182690.png"
+      }
+    ]
+  }
+}

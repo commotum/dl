@@ -1,0 +1,375 @@
+{
+  "schema_version": 1,
+  "topic_id": "1062",
+  "topic_title": "Expressing Rational Functions with Repeated Factors as Sums of Partial Fractions",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1062.html",
+  "source_url": "https://mathacademy.com/topics/1062",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "44189",
+        "dom_id": "sectionLink-44189",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-44189"
+      },
+      {
+        "index": 2,
+        "step_id": "44190",
+        "dom_id": "sectionLink-44190",
+        "name": "",
+        "title": "Calculating a Missing Coefficient",
+        "selector": "#sectionLink-44190"
+      },
+      {
+        "index": 3,
+        "step_id": "44193",
+        "dom_id": "sectionLink-44193",
+        "name": "",
+        "title": "Calculating a Two-Term Partial Fraction Decomposition",
+        "selector": "#sectionLink-44193"
+      },
+      {
+        "index": 4,
+        "step_id": "44196",
+        "dom_id": "sectionLink-44196",
+        "name": "",
+        "title": "Calculating a Three-Term Partial Fraction Decomposition",
+        "selector": "#sectionLink-44196"
+      },
+      {
+        "index": 5,
+        "step_id": "44199",
+        "dom_id": "sectionLink-44199",
+        "name": "",
+        "title": "Cubic and Higher Order Repeated Factors",
+        "selector": "#sectionLink-44199"
+      },
+      {
+        "index": 6,
+        "step_id": "44200",
+        "dom_id": "sectionLink-44200",
+        "name": "",
+        "title": "Finding a Partial Fraction Decomposition With Higher Order Factors",
+        "selector": "#sectionLink-44200"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "487",
+        "name": "Solving Systems of Equations by Substitution",
+        "href": "/topics/solving-systems-of-equations-by-substitution-487"
+      },
+      {
+        "topic_id": "1060",
+        "name": "Expressing Rational Functions as Sums of Partial Fractions",
+        "href": "/topics/expressing-rational-functions-as-sums-of-partial-fractions-1060"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44189",
+        "content_id": "7611",
+        "dom_id": "step-44189",
+        "selector": "#step-44189",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44190",
+        "content_id": "12333",
+        "dom_id": "step-44190",
+        "selector": "#step-44190",
+        "step_anchor": "step-2",
+        "title": "Calculating a Missing Coefficient",
+        "key_prerequisites": [
+          {
+            "topic_id": "1060",
+            "name": "Expressing Rational Functions as Sums of Partial Fractions",
+            "href": "/topics/1060"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "73194",
+        "dom_id": "question-73194",
+        "selector": "#question-73194",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "73193",
+        "dom_id": "question-73193",
+        "selector": "#question-73193",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44193",
+        "content_id": "12334",
+        "dom_id": "step-44193",
+        "selector": "#step-44193",
+        "step_anchor": "step-5",
+        "title": "Calculating a Two-Term Partial Fraction Decomposition",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "73200",
+        "dom_id": "question-73200",
+        "selector": "#question-73200",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "73204",
+        "dom_id": "question-73204",
+        "selector": "#question-73204",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44196",
+        "content_id": "12335",
+        "dom_id": "step-44196",
+        "selector": "#step-44196",
+        "step_anchor": "step-8",
+        "title": "Calculating a Three-Term Partial Fraction Decomposition",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "50045",
+        "dom_id": "question-50045",
+        "selector": "#question-50045",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "50053",
+        "dom_id": "question-50053",
+        "selector": "#question-50053",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "10999",
+        "dom_id": "question-10999",
+        "selector": "#question-10999",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44199",
+        "content_id": "7612",
+        "dom_id": "step-44199",
+        "selector": "#step-44199",
+        "step_anchor": "step-12",
+        "title": "Cubic and Higher Order Repeated Factors",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44200",
+        "content_id": "12336",
+        "dom_id": "step-44200",
+        "selector": "#step-44200",
+        "step_anchor": "step-13",
+        "title": "Finding a Partial Fraction Decomposition With Higher Order Factors",
+        "key_prerequisites": [
+          {
+            "topic_id": "487",
+            "name": "Solving Systems of Equations by Substitution",
+            "href": "/topics/487"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "50047",
+        "dom_id": "question-50047",
+        "selector": "#question-50047",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "50055",
+        "dom_id": "question-50055",
+        "selector": "#question-50055",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-44189",
+        "filename": "01-step-44189.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-44190",
+        "filename": "02-step-44190.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-73194",
+        "filename": "03-question-73194.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-73193",
+        "filename": "04-question-73193.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-44193",
+        "filename": "05-step-44193.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-73200",
+        "filename": "06-question-73200.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-73204",
+        "filename": "07-question-73204.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-44196",
+        "filename": "08-step-44196.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-50045",
+        "filename": "09-question-50045.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-50053",
+        "filename": "10-question-50053.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-10999",
+        "filename": "11-question-10999.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-44199",
+        "filename": "12-step-44199.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-44200",
+        "filename": "13-step-44200.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-50047",
+        "filename": "14-question-50047.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-50055",
+        "filename": "15-question-50055.png"
+      }
+    ]
+  }
+}

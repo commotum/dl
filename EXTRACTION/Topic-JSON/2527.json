@@ -1,0 +1,428 @@
+{
+  "schema_version": 1,
+  "topic_id": "2527",
+  "topic_title": "Variation of Parameters for Second-Order ODEs",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2527.html",
+  "source_url": "https://mathacademy.com/topics/2527",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "592933",
+        "dom_id": "sectionLink-592933",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-592933"
+      },
+      {
+        "index": 2,
+        "step_id": "592934",
+        "dom_id": "sectionLink-592934",
+        "name": "",
+        "title": "Variation of Parameters for Second-Order Equations",
+        "selector": "#sectionLink-592934"
+      },
+      {
+        "index": 3,
+        "step_id": "592935",
+        "dom_id": "sectionLink-592935",
+        "name": "",
+        "title": "A Summary",
+        "selector": "#sectionLink-592935"
+      },
+      {
+        "index": 4,
+        "step_id": "592936",
+        "dom_id": "sectionLink-592936",
+        "name": "",
+        "title": "Finding a VOP Equation by Substituting the Ansatz into the Original ODE",
+        "selector": "#sectionLink-592936"
+      },
+      {
+        "index": 5,
+        "step_id": "592939",
+        "dom_id": "sectionLink-592939",
+        "name": "",
+        "title": "Finding a Second Condition",
+        "selector": "#sectionLink-592939"
+      },
+      {
+        "index": 6,
+        "step_id": "592940",
+        "dom_id": "sectionLink-592940",
+        "name": "",
+        "title": "Finding a VOP Equation Using the Derivative Constraint",
+        "selector": "#sectionLink-592940"
+      },
+      {
+        "index": 7,
+        "step_id": "592943",
+        "dom_id": "sectionLink-592943",
+        "name": "",
+        "title": "The Variation of Parameters Method",
+        "selector": "#sectionLink-592943"
+      },
+      {
+        "index": 8,
+        "step_id": "592944",
+        "dom_id": "sectionLink-592944",
+        "name": "",
+        "title": "Applying Variation of Parameters to a Second-Order Inhomogeneous ODE",
+        "selector": "#sectionLink-592944"
+      },
+      {
+        "index": 9,
+        "step_id": "592947",
+        "dom_id": "sectionLink-592947",
+        "name": "",
+        "title": "Justifying the Derivative Condition",
+        "selector": "#sectionLink-592947"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "879",
+        "name": "Second-Order Homogeneous ODEs: Characteristic Equations With Repeated Roots",
+        "href": "/topics/second-order-homogeneous-odes-characteristic-equations-with-repeated-roots-879"
+      },
+      {
+        "topic_id": "880",
+        "name": "Second-Order Homogeneous ODEs: Characteristic Equations With Complex Roots",
+        "href": "/topics/second-order-homogeneous-odes-characteristic-equations-with-complex-roots-880"
+      },
+      {
+        "topic_id": "2973",
+        "name": "Variation of Parameters for First-Order Linear ODEs",
+        "href": "/topics/variation-of-parameters-for-first-order-linear-odes-2973"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "592933",
+        "content_id": "4093",
+        "dom_id": "step-592933",
+        "selector": "#step-592933",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "592934",
+        "content_id": "14605",
+        "dom_id": "step-592934",
+        "selector": "#step-592934",
+        "step_anchor": "step-2",
+        "title": "Variation of Parameters for Second-Order Equations",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "592935",
+        "content_id": "14606",
+        "dom_id": "step-592935",
+        "selector": "#step-592935",
+        "step_anchor": "step-3",
+        "title": "A Summary",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "592936",
+        "content_id": "21779",
+        "dom_id": "step-592936",
+        "selector": "#step-592936",
+        "step_anchor": "step-4",
+        "title": "Finding a VOP Equation by Substituting the Ansatz into the Original ODE",
+        "key_prerequisites": [
+          {
+            "topic_id": "614",
+            "name": "Second-Order Homogeneous ODEs: Characteristic Equations With Distinct Real Roots",
+            "href": "/topics/614"
+          },
+          {
+            "topic_id": "2740",
+            "name": "General Solutions of Linear ODEs",
+            "href": "/topics/2740"
+          },
+          {
+            "topic_id": "2973",
+            "name": "Variation of Parameters for First-Order Linear ODEs",
+            "href": "/topics/2973"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "337331",
+        "dom_id": "question-337331",
+        "selector": "#question-337331",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "337733",
+        "dom_id": "question-337733",
+        "selector": "#question-337733",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "592939",
+        "content_id": "14603",
+        "dom_id": "step-592939",
+        "selector": "#step-592939",
+        "step_anchor": "step-7",
+        "title": "Finding a Second Condition",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "592940",
+        "content_id": "21778",
+        "dom_id": "step-592940",
+        "selector": "#step-592940",
+        "step_anchor": "step-8",
+        "title": "Finding a VOP Equation Using the Derivative Constraint",
+        "key_prerequisites": [
+          {
+            "topic_id": "880",
+            "name": "Second-Order Homogeneous ODEs: Characteristic Equations With Complex Roots",
+            "href": "/topics/880"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "337218",
+        "dom_id": "question-337218",
+        "selector": "#question-337218",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "337940",
+        "dom_id": "question-337940",
+        "selector": "#question-337940",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "592943",
+        "content_id": "14604",
+        "dom_id": "step-592943",
+        "selector": "#step-592943",
+        "step_anchor": "step-11",
+        "title": "The Variation of Parameters Method",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "592944",
+        "content_id": "6615",
+        "dom_id": "step-592944",
+        "selector": "#step-592944",
+        "step_anchor": "step-12",
+        "title": "Applying Variation of Parameters to a Second-Order Inhomogeneous ODE",
+        "key_prerequisites": [
+          {
+            "topic_id": "1061",
+            "name": "Solving First-Order ODEs Using Direct Integration",
+            "href": "/topics/1061"
+          },
+          {
+            "topic_id": "2547",
+            "name": "Linear Independence of Solutions to Homogeneous ODEs",
+            "href": "/topics/2547"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "337332",
+        "dom_id": "question-337332",
+        "selector": "#question-337332",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "337211",
+        "dom_id": "question-337211",
+        "selector": "#question-337211",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "592947",
+        "content_id": "14608",
+        "dom_id": "step-592947",
+        "selector": "#step-592947",
+        "step_anchor": "step-15",
+        "title": "Justifying the Derivative Condition",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-592933",
+        "filename": "01-step-592933.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-592934",
+        "filename": "02-step-592934.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-592935",
+        "filename": "03-step-592935.png"
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "selector": "#step-592936",
+        "filename": "04-step-592936.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-337331",
+        "filename": "05-question-337331.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-337733",
+        "filename": "06-question-337733.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-592939",
+        "filename": "07-step-592939.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-592940",
+        "filename": "08-step-592940.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-337218",
+        "filename": "09-question-337218.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-337940",
+        "filename": "10-question-337940.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-592943",
+        "filename": "11-step-592943.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-592944",
+        "filename": "12-step-592944.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-337332",
+        "filename": "13-question-337332.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-337211",
+        "filename": "14-question-337211.png"
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "selector": "#step-592947",
+        "filename": "15-step-592947.png"
+      }
+    ]
+  }
+}

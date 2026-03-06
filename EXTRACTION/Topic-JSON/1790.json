@@ -1,0 +1,331 @@
+{
+  "schema_version": 1,
+  "topic_id": "1790",
+  "topic_title": "Areas of Parametric Surfaces",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1790.html",
+  "source_url": "https://mathacademy.com/topics/1790",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "33383",
+        "dom_id": "sectionLink-33383",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-33383"
+      },
+      {
+        "index": 2,
+        "step_id": "33384",
+        "dom_id": "sectionLink-33384",
+        "name": "",
+        "title": "Calculating the Fundamental Vector Product of a Parametric Surface",
+        "selector": "#sectionLink-33384"
+      },
+      {
+        "index": 3,
+        "step_id": "33400",
+        "dom_id": "sectionLink-33400",
+        "name": "",
+        "title": "Surface Areas of Parametric Surfaces",
+        "selector": "#sectionLink-33400"
+      },
+      {
+        "index": 4,
+        "step_id": "33437",
+        "dom_id": "sectionLink-33437",
+        "name": "",
+        "title": "Finding an Integral That Represents the Surface Area of a Parametric Surface",
+        "selector": "#sectionLink-33437"
+      },
+      {
+        "index": 5,
+        "step_id": "33401",
+        "dom_id": "sectionLink-33401",
+        "name": "",
+        "title": "Finding the Surface Area of a Parametric Surface",
+        "selector": "#sectionLink-33401"
+      },
+      {
+        "index": 6,
+        "step_id": "34316",
+        "dom_id": "sectionLink-34316",
+        "name": "",
+        "title": "Intuition Behind the Formula",
+        "selector": "#sectionLink-34316"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1299",
+        "name": "Finding Areas Using the Cross Product",
+        "href": "/topics/finding-areas-using-the-cross-product-1299"
+      },
+      {
+        "topic_id": "2000",
+        "name": "Properties of Double Integrals",
+        "href": "/topics/properties-of-double-integrals-2000"
+      },
+      {
+        "topic_id": "3373",
+        "name": "Tangent Planes to Parametric Surfaces",
+        "href": "/topics/tangent-planes-to-parametric-surfaces-3373"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "33383",
+        "content_id": "5332",
+        "dom_id": "step-33383",
+        "selector": "#step-33383",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33384",
+        "content_id": "8943",
+        "dom_id": "step-33384",
+        "selector": "#step-33384",
+        "step_anchor": "step-2",
+        "title": "Calculating the Fundamental Vector Product of a Parametric Surface",
+        "key_prerequisites": [
+          {
+            "topic_id": "3373",
+            "name": "Tangent Planes to Parametric Surfaces",
+            "href": "/topics/3373"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "105607",
+        "dom_id": "question-105607",
+        "selector": "#question-105607",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "105606",
+        "dom_id": "question-105606",
+        "selector": "#question-105606",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "33400",
+        "content_id": "5335",
+        "dom_id": "step-33400",
+        "selector": "#step-33400",
+        "step_anchor": "step-5",
+        "title": "Surface Areas of Parametric Surfaces",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33437",
+        "content_id": "8958",
+        "dom_id": "step-33437",
+        "selector": "#step-33437",
+        "step_anchor": "step-6",
+        "title": "Finding an Integral That Represents the Surface Area of a Parametric Surface",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "109941",
+        "dom_id": "question-109941",
+        "selector": "#question-109941",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "105613",
+        "dom_id": "question-105613",
+        "selector": "#question-105613",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33401",
+        "content_id": "8947",
+        "dom_id": "step-33401",
+        "selector": "#step-33401",
+        "step_anchor": "step-9",
+        "title": "Finding the Surface Area of a Parametric Surface",
+        "key_prerequisites": [
+          {
+            "topic_id": "1992",
+            "name": "Double Integrals Over Rectangular Domains",
+            "href": "/topics/1992"
+          },
+          {
+            "topic_id": "2000",
+            "name": "Properties of Double Integrals",
+            "href": "/topics/2000"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "105920",
+        "dom_id": "question-105920",
+        "selector": "#question-105920",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "105922",
+        "dom_id": "question-105922",
+        "selector": "#question-105922",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "34316",
+        "content_id": "5509",
+        "dom_id": "step-34316",
+        "selector": "#step-34316",
+        "step_anchor": "step-12",
+        "title": "Intuition Behind the Formula",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-33383",
+        "filename": "01-step-33383.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-33384",
+        "filename": "02-step-33384.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-105607",
+        "filename": "03-question-105607.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-105606",
+        "filename": "04-question-105606.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-33400",
+        "filename": "05-step-33400.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-33437",
+        "filename": "06-step-33437.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-109941",
+        "filename": "07-question-109941.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-105613",
+        "filename": "08-question-105613.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-33401",
+        "filename": "09-step-33401.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-105920",
+        "filename": "10-question-105920.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-105922",
+        "filename": "11-question-105922.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-34316",
+        "filename": "12-step-34316.png"
+      }
+    ]
+  }
+}

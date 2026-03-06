@@ -1,0 +1,377 @@
+{
+  "schema_version": 1,
+  "topic_id": "3282",
+  "topic_title": "The Poisson Distribution",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3282.html",
+  "source_url": "https://mathacademy.com/topics/3282",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "31456",
+        "dom_id": "sectionLink-31456",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-31456"
+      },
+      {
+        "index": 2,
+        "step_id": "31518",
+        "dom_id": "sectionLink-31518",
+        "name": "",
+        "title": "Computing a Probability at a Point",
+        "selector": "#sectionLink-31518"
+      },
+      {
+        "index": 3,
+        "step_id": "31519",
+        "dom_id": "sectionLink-31519",
+        "name": "",
+        "title": "Computing a Probability Over a Bounded Interval: Lower Bound is Zero",
+        "selector": "#sectionLink-31519"
+      },
+      {
+        "index": 4,
+        "step_id": "31520",
+        "dom_id": "sectionLink-31520",
+        "name": "",
+        "title": "Computing a Probability Over a Bounded Interval: Lower Bound is Not Zero",
+        "selector": "#sectionLink-31520"
+      },
+      {
+        "index": 5,
+        "step_id": "31521",
+        "dom_id": "sectionLink-31521",
+        "name": "",
+        "title": "Computing a Probability Over an Unbounded Interval Using the Complement",
+        "selector": "#sectionLink-31521"
+      },
+      {
+        "index": 6,
+        "step_id": "33487",
+        "dom_id": "sectionLink-33487",
+        "name": "",
+        "title": "Justification That the Poisson Distribution Forms a Probability Distribution",
+        "selector": "#sectionLink-33487"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "183",
+        "name": "Independent Events",
+        "href": "/topics/independent-events-183"
+      },
+      {
+        "topic_id": "774",
+        "name": "Factorials",
+        "href": "/topics/factorials-774"
+      },
+      {
+        "topic_id": "1153",
+        "name": "Exponential Functions",
+        "href": "/topics/exponential-functions-1153"
+      },
+      {
+        "topic_id": "1290",
+        "name": "Probability Mass Functions of Discrete Random Variables",
+        "href": "/topics/probability-mass-functions-of-discrete-random-variables-1290"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "31456",
+        "content_id": "5030",
+        "dom_id": "step-31456",
+        "selector": "#step-31456",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "31518",
+        "content_id": "8465",
+        "dom_id": "step-31518",
+        "selector": "#step-31518",
+        "step_anchor": "step-2",
+        "title": "Computing a Probability at a Point",
+        "key_prerequisites": [
+          {
+            "topic_id": "774",
+            "name": "Factorials",
+            "href": "/topics/774"
+          },
+          {
+            "topic_id": "1153",
+            "name": "Exponential Functions",
+            "href": "/topics/1153"
+          },
+          {
+            "topic_id": "1290",
+            "name": "Probability Mass Functions of Discrete Random Variables",
+            "href": "/topics/1290"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "96846",
+        "dom_id": "question-96846",
+        "selector": "#question-96846",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "95993",
+        "dom_id": "question-95993",
+        "selector": "#question-95993",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "31519",
+        "content_id": "8466",
+        "dom_id": "step-31519",
+        "selector": "#step-31519",
+        "step_anchor": "step-5",
+        "title": "Computing a Probability Over a Bounded Interval: Lower Bound is Zero",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "96880",
+        "dom_id": "question-96880",
+        "selector": "#question-96880",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "95994",
+        "dom_id": "question-95994",
+        "selector": "#question-95994",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "31520",
+        "content_id": "8467",
+        "dom_id": "step-31520",
+        "selector": "#step-31520",
+        "step_anchor": "step-8",
+        "title": "Computing a Probability Over a Bounded Interval: Lower Bound is Not Zero",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "95995",
+        "dom_id": "question-95995",
+        "selector": "#question-95995",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "96892",
+        "dom_id": "question-96892",
+        "selector": "#question-96892",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "31521",
+        "content_id": "8468",
+        "dom_id": "step-31521",
+        "selector": "#step-31521",
+        "step_anchor": "step-11",
+        "title": "Computing a Probability Over an Unbounded Interval Using the Complement",
+        "key_prerequisites": [
+          {
+            "topic_id": "1120",
+            "name": "The Complement of an Event",
+            "href": "/topics/1120"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "95996",
+        "dom_id": "question-95996",
+        "selector": "#question-95996",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "96901",
+        "dom_id": "question-96901",
+        "selector": "#question-96901",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "33487",
+        "content_id": "5357",
+        "dom_id": "step-33487",
+        "selector": "#step-33487",
+        "step_anchor": "step-14",
+        "title": "Justification That the Poisson Distribution Forms a Probability Distribution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-31456",
+        "filename": "01-step-31456.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-31518",
+        "filename": "02-step-31518.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-96846",
+        "filename": "03-question-96846.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-95993",
+        "filename": "04-question-95993.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-31519",
+        "filename": "05-step-31519.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-96880",
+        "filename": "06-question-96880.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-95994",
+        "filename": "07-question-95994.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-31520",
+        "filename": "08-step-31520.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-95995",
+        "filename": "09-question-95995.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-96892",
+        "filename": "10-question-96892.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-31521",
+        "filename": "11-step-31521.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-95996",
+        "filename": "12-question-95996.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-96901",
+        "filename": "13-question-96901.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-33487",
+        "filename": "14-step-33487.png"
+      }
+    ]
+  }
+}

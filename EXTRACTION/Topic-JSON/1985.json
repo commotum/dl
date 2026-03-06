@@ -1,0 +1,390 @@
+{
+  "schema_version": 1,
+  "topic_id": "1985",
+  "topic_title": "Function Composition",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1985.html",
+  "source_url": "https://mathacademy.com/topics/1985",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "458946",
+        "dom_id": "sectionLink-458946",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-458946"
+      },
+      {
+        "index": 2,
+        "step_id": "458947",
+        "dom_id": "sectionLink-458947",
+        "name": "",
+        "title": "Evaluating a Composite Function",
+        "selector": "#sectionLink-458947"
+      },
+      {
+        "index": 3,
+        "step_id": "458951",
+        "dom_id": "sectionLink-458951",
+        "name": "",
+        "title": "Function Composition With Tables",
+        "selector": "#sectionLink-458951"
+      },
+      {
+        "index": 4,
+        "step_id": "458956",
+        "dom_id": "sectionLink-458956",
+        "name": "",
+        "title": "Composing a Function With Itself",
+        "selector": "#sectionLink-458956"
+      },
+      {
+        "index": 5,
+        "step_id": "458959",
+        "dom_id": "sectionLink-458959",
+        "name": "",
+        "title": "Interpreting Function Composition",
+        "selector": "#sectionLink-458959"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3821",
+        "name": "Graphs of Functions",
+        "href": "/topics/graphs-of-functions-3821"
+      },
+      {
+        "topic_id": "6219",
+        "name": "Constructing Linear Functions",
+        "href": "/topics/constructing-linear-functions-6219"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 16,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "458946",
+        "content_id": "2752",
+        "dom_id": "step-458946",
+        "selector": "#step-458946",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "458947",
+        "content_id": "3915",
+        "dom_id": "step-458947",
+        "selector": "#step-458947",
+        "step_anchor": "step-2",
+        "title": "Evaluating a Composite Function",
+        "key_prerequisites": [
+          {
+            "topic_id": "470",
+            "name": "Introduction to Functions",
+            "href": "/topics/470"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "220291",
+        "dom_id": "question-220291",
+        "selector": "#question-220291",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "358",
+        "dom_id": "question-358",
+        "selector": "#question-358",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "250026",
+        "dom_id": "question-250026",
+        "selector": "#question-250026",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "458951",
+        "content_id": "9873",
+        "dom_id": "step-458951",
+        "selector": "#step-458951",
+        "step_anchor": "step-6",
+        "title": "Function Composition With Tables",
+        "key_prerequisites": [
+          {
+            "topic_id": "631",
+            "name": "Visual Representations of Functions",
+            "href": "/topics/631"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "138828",
+        "dom_id": "question-138828",
+        "selector": "#question-138828",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "220294",
+        "dom_id": "question-220294",
+        "selector": "#question-220294",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "138947",
+        "dom_id": "question-138947",
+        "selector": "#question-138947",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "139041",
+        "dom_id": "question-139041",
+        "selector": "#question-139041",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "458956",
+        "content_id": "3920",
+        "dom_id": "step-458956",
+        "selector": "#step-458956",
+        "step_anchor": "step-11",
+        "title": "Composing a Function With Itself",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "139050",
+        "dom_id": "question-139050",
+        "selector": "#question-139050",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "220297",
+        "dom_id": "question-220297",
+        "selector": "#question-220297",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "458959",
+        "content_id": "9870",
+        "dom_id": "step-458959",
+        "selector": "#step-458959",
+        "step_anchor": "step-14",
+        "title": "Interpreting Function Composition",
+        "key_prerequisites": [
+          {
+            "topic_id": "2220",
+            "name": "Modeling With Linear Functions",
+            "href": "/topics/2220"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "139089",
+        "dom_id": "question-139089",
+        "selector": "#question-139089",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "138829",
+        "dom_id": "question-138829",
+        "selector": "#question-138829",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-458946",
+        "filename": "01-step-458946.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-458947",
+        "filename": "02-step-458947.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-220291",
+        "filename": "03-question-220291.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-358",
+        "filename": "04-question-358.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-250026",
+        "filename": "05-question-250026.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-458951",
+        "filename": "06-step-458951.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-138828",
+        "filename": "07-question-138828.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-220294",
+        "filename": "08-question-220294.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-138947",
+        "filename": "09-question-138947.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-139041",
+        "filename": "10-question-139041.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-458956",
+        "filename": "11-step-458956.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-139050",
+        "filename": "12-question-139050.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-220297",
+        "filename": "13-question-220297.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-458959",
+        "filename": "14-step-458959.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-139089",
+        "filename": "15-question-139089.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-138829",
+        "filename": "16-question-138829.png"
+      }
+    ]
+  }
+}

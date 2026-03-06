@@ -1,0 +1,476 @@
+{
+  "schema_version": 1,
+  "topic_id": "3231",
+  "topic_title": "The Lotka-Volterra Model With Carrying Capacity",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3231.html",
+  "source_url": "https://mathacademy.com/topics/3231",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "590160",
+        "dom_id": "sectionLink-590160",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-590160"
+      },
+      {
+        "index": 2,
+        "step_id": "590161",
+        "dom_id": "sectionLink-590161",
+        "name": "",
+        "title": "Determining the Carrying Capacity for the Prey",
+        "selector": "#sectionLink-590161"
+      },
+      {
+        "index": 3,
+        "step_id": "590177",
+        "dom_id": "sectionLink-590177",
+        "name": "",
+        "title": "Equilibrium Points",
+        "selector": "#sectionLink-590177"
+      },
+      {
+        "index": 4,
+        "step_id": "590164",
+        "dom_id": "sectionLink-590164",
+        "name": "",
+        "title": "Finding Equilibrium Points of the Modified Lotka-Volterra System",
+        "selector": "#sectionLink-590164"
+      },
+      {
+        "index": 5,
+        "step_id": "590178",
+        "dom_id": "sectionLink-590178",
+        "name": "",
+        "title": "Local Behavior Near the Origin",
+        "selector": "#sectionLink-590178"
+      },
+      {
+        "index": 6,
+        "step_id": "590167",
+        "dom_id": "sectionLink-590167",
+        "name": "",
+        "title": "Local Behavior Near the Nonzero Equilibria",
+        "selector": "#sectionLink-590167"
+      },
+      {
+        "index": 7,
+        "step_id": "590179",
+        "dom_id": "sectionLink-590179",
+        "name": "",
+        "title": "A Worked Example for the Equilibrium on the x-Axis",
+        "selector": "#sectionLink-590179"
+      },
+      {
+        "index": 8,
+        "step_id": "590168",
+        "dom_id": "sectionLink-590168",
+        "name": "",
+        "title": "Classifying Equilibria of the Modified Lotka-Volterra Model: Stable Case",
+        "selector": "#sectionLink-590168"
+      },
+      {
+        "index": 9,
+        "step_id": "590172",
+        "dom_id": "sectionLink-590172",
+        "name": "",
+        "title": "Predator Extinction Case",
+        "selector": "#sectionLink-590172"
+      },
+      {
+        "index": 10,
+        "step_id": "590173",
+        "dom_id": "sectionLink-590173",
+        "name": "",
+        "title": "Classifying Equilibria of the Modified Lotka-Volterra Model: Predator Extinction Case",
+        "selector": "#sectionLink-590173"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3191",
+        "name": "The Lotka-Volterra Predator-Prey Model",
+        "href": "/topics/the-lotka-volterra-predator-prey-model-3191"
+      },
+      {
+        "topic_id": "3551",
+        "name": "Qualitative Analysis of the Logistic Growth Equation",
+        "href": "/topics/qualitative-analysis-of-the-logistic-growth-equation-3551"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 18,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "590160",
+        "content_id": "14542",
+        "dom_id": "step-590160",
+        "selector": "#step-590160",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "590161",
+        "content_id": "21739",
+        "dom_id": "step-590161",
+        "selector": "#step-590161",
+        "step_anchor": "step-2",
+        "title": "Determining the Carrying Capacity for the Prey",
+        "key_prerequisites": [
+          {
+            "topic_id": "3191",
+            "name": "The Lotka-Volterra Predator-Prey Model",
+            "href": "/topics/3191"
+          },
+          {
+            "topic_id": "3551",
+            "name": "Qualitative Analysis of the Logistic Growth Equation",
+            "href": "/topics/3551"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "335561",
+        "dom_id": "question-335561",
+        "selector": "#question-335561",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "334884",
+        "dom_id": "question-334884",
+        "selector": "#question-334884",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "590177",
+        "content_id": "14597",
+        "dom_id": "step-590177",
+        "selector": "#step-590177",
+        "step_anchor": "step-5",
+        "title": "Equilibrium Points",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "590164",
+        "content_id": "21735",
+        "dom_id": "step-590164",
+        "selector": "#step-590164",
+        "step_anchor": "step-6",
+        "title": "Finding Equilibrium Points of the Modified Lotka-Volterra System",
+        "key_prerequisites": [
+          {
+            "topic_id": "6377",
+            "name": "Equilibrium Points and Stability for Systems of ODEs",
+            "href": "/topics/6377"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "335579",
+        "dom_id": "question-335579",
+        "selector": "#question-335579",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "334808",
+        "dom_id": "question-334808",
+        "selector": "#question-334808",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "590178",
+        "content_id": "14598",
+        "dom_id": "step-590178",
+        "selector": "#step-590178",
+        "step_anchor": "step-9",
+        "title": "Local Behavior Near the Origin",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "590167",
+        "content_id": "14543",
+        "dom_id": "step-590167",
+        "selector": "#step-590167",
+        "step_anchor": "step-10",
+        "title": "Local Behavior Near the Nonzero Equilibria",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "590179",
+        "content_id": "14599",
+        "dom_id": "step-590179",
+        "selector": "#step-590179",
+        "step_anchor": "step-11",
+        "title": "A Worked Example for the Equilibrium on the x-Axis",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "590168",
+        "content_id": "21736",
+        "dom_id": "step-590168",
+        "selector": "#step-590168",
+        "step_anchor": "step-12",
+        "title": "Classifying Equilibria of the Modified Lotka-Volterra Model: Stable Case",
+        "key_prerequisites": [
+          {
+            "topic_id": "6378",
+            "name": "Linear Approximations Near Equilibria",
+            "href": "/topics/6378"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "334871",
+        "dom_id": "question-334871",
+        "selector": "#question-334871",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "335654",
+        "dom_id": "question-335654",
+        "selector": "#question-335654",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "590172",
+        "content_id": "14547",
+        "dom_id": "step-590172",
+        "selector": "#step-590172",
+        "step_anchor": "step-15",
+        "title": "Predator Extinction Case",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 16,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "590173",
+        "content_id": "21738",
+        "dom_id": "step-590173",
+        "selector": "#step-590173",
+        "step_anchor": "step-16",
+        "title": "Classifying Equilibria of the Modified Lotka-Volterra Model: Predator Extinction Case",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "question_id": "334877",
+        "dom_id": "question-334877",
+        "selector": "#question-334877",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 18,
+        "item_type": "question",
+        "question_id": "334875",
+        "dom_id": "question-334875",
+        "selector": "#question-334875",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-590160",
+        "filename": "01-step-590160.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-590161",
+        "filename": "02-step-590161.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-335561",
+        "filename": "03-question-335561.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-334884",
+        "filename": "04-question-334884.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-590177",
+        "filename": "05-step-590177.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-590164",
+        "filename": "06-step-590164.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-335579",
+        "filename": "07-question-335579.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-334808",
+        "filename": "08-question-334808.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-590178",
+        "filename": "09-step-590178.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-590167",
+        "filename": "10-step-590167.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-590179",
+        "filename": "11-step-590179.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-590168",
+        "filename": "12-step-590168.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-334871",
+        "filename": "13-question-334871.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-335654",
+        "filename": "14-question-335654.png"
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "selector": "#step-590172",
+        "filename": "15-step-590172.png"
+      },
+      {
+        "index": 16,
+        "item_type": "step",
+        "selector": "#step-590173",
+        "filename": "16-step-590173.png"
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "selector": "#question-334877",
+        "filename": "17-question-334877.png"
+      },
+      {
+        "index": 18,
+        "item_type": "question",
+        "selector": "#question-334875",
+        "filename": "18-question-334875.png"
+      }
+    ]
+  }
+}

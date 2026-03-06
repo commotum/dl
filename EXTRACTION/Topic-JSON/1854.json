@@ -1,0 +1,310 @@
+{
+  "schema_version": 1,
+  "topic_id": "1854",
+  "topic_title": "The Null Space of a Matrix",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1854.html",
+  "source_url": "https://mathacademy.com/topics/1854",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "17496",
+        "dom_id": "sectionLink-17496",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-17496"
+      },
+      {
+        "index": 2,
+        "step_id": "17498",
+        "dom_id": "sectionLink-17498",
+        "name": "",
+        "title": "Identifying Whether a Vector Lies in the Null Space of a Given Matrix",
+        "selector": "#sectionLink-17498"
+      },
+      {
+        "index": 3,
+        "step_id": "17500",
+        "dom_id": "sectionLink-17500",
+        "name": "",
+        "title": "Solve a Variable in a Vector Lying in the Null Space of a Given Matrix",
+        "selector": "#sectionLink-17500"
+      },
+      {
+        "index": 4,
+        "step_id": "23359",
+        "dom_id": "sectionLink-23359",
+        "name": "",
+        "title": "Writing the Null Space using Set-Builder Notation",
+        "selector": "#sectionLink-23359"
+      },
+      {
+        "index": 5,
+        "step_id": "17502",
+        "dom_id": "sectionLink-17502",
+        "name": "",
+        "title": "Finding the Null Space of a Given Matrix",
+        "selector": "#sectionLink-17502"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "155",
+        "name": "Representing 3x3 Systems of Equations Using a Matrix Product",
+        "href": "/topics/representing-3x3-systems-of-equations-using-a-matrix-product-155"
+      },
+      {
+        "topic_id": "1733",
+        "name": "Gaussian Elimination For NxM Systems of Equations",
+        "href": "/topics/gaussian-elimination-for-nxm-systems-of-equations-1733"
+      },
+      {
+        "topic_id": "4077",
+        "name": "Subspaces of N-Dimensional Space: Geometric Interpretation",
+        "href": "/topics/subspaces-of-n-dimensional-space-geometric-interpretation-4077"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "17496",
+        "content_id": "3204",
+        "dom_id": "step-17496",
+        "selector": "#step-17496",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17498",
+        "content_id": "4810",
+        "dom_id": "step-17498",
+        "selector": "#step-17498",
+        "step_anchor": "step-2",
+        "title": "Identifying Whether a Vector Lies in the Null Space of a Given Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "1195",
+            "name": "Multiplying a Matrix by a Column Vector",
+            "href": "/topics/1195"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "34390",
+        "dom_id": "question-34390",
+        "selector": "#question-34390",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "34331",
+        "dom_id": "question-34331",
+        "selector": "#question-34331",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17500",
+        "content_id": "4812",
+        "dom_id": "step-17500",
+        "selector": "#step-17500",
+        "step_anchor": "step-5",
+        "title": "Solve a Variable in a Vector Lying in the Null Space of a Given Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "66",
+            "name": "Solving Two-Step Equations",
+            "href": "/topics/66"
+          },
+          {
+            "topic_id": "155",
+            "name": "Representing 3x3 Systems of Equations Using a Matrix Product",
+            "href": "/topics/155"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "34386",
+        "dom_id": "question-34386",
+        "selector": "#question-34386",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "34948",
+        "dom_id": "question-34948",
+        "selector": "#question-34948",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "23359",
+        "content_id": "3943",
+        "dom_id": "step-23359",
+        "selector": "#step-23359",
+        "step_anchor": "step-8",
+        "title": "Writing the Null Space using Set-Builder Notation",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17502",
+        "content_id": "4814",
+        "dom_id": "step-17502",
+        "selector": "#step-17502",
+        "step_anchor": "step-9",
+        "title": "Finding the Null Space of a Given Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "1733",
+            "name": "Gaussian Elimination For NxM Systems of Equations",
+            "href": "/topics/1733"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "34951",
+        "dom_id": "question-34951",
+        "selector": "#question-34951",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "34333",
+        "dom_id": "question-34333",
+        "selector": "#question-34333",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-17496",
+        "filename": "01-step-17496.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-17498",
+        "filename": "02-step-17498.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-34390",
+        "filename": "03-question-34390.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-34331",
+        "filename": "04-question-34331.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-17500",
+        "filename": "05-step-17500.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-34386",
+        "filename": "06-question-34386.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-34948",
+        "filename": "07-question-34948.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-23359",
+        "filename": "08-step-23359.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-17502",
+        "filename": "09-step-17502.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-34951",
+        "filename": "10-question-34951.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-34333",
+        "filename": "11-question-34333.png"
+      }
+    ]
+  }
+}

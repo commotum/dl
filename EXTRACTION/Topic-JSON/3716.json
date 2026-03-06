@@ -1,0 +1,326 @@
+{
+  "schema_version": 1,
+  "topic_id": "3716",
+  "topic_title": "Calculating Flux in Two-Dimensional Vector Fields",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3716.html",
+  "source_url": "https://mathacademy.com/topics/3716",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "35829",
+        "dom_id": "sectionLink-35829",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-35829"
+      },
+      {
+        "index": 2,
+        "step_id": "35826",
+        "dom_id": "sectionLink-35826",
+        "name": "",
+        "title": "Calculating the Flux of a Vector Field Over a Closed Curve in Parametric Form",
+        "selector": "#sectionLink-35826"
+      },
+      {
+        "index": 3,
+        "step_id": "35827",
+        "dom_id": "sectionLink-35827",
+        "name": "",
+        "title": "Calculating the Flux of a Vector Field Over a Closed Curve in Cartesian Form",
+        "selector": "#sectionLink-35827"
+      },
+      {
+        "index": 4,
+        "step_id": "35901",
+        "dom_id": "sectionLink-35901",
+        "name": "",
+        "title": "Calculating Flux for Non-Closed Curves",
+        "selector": "#sectionLink-35901"
+      },
+      {
+        "index": 5,
+        "step_id": "35863",
+        "dom_id": "sectionLink-35863",
+        "name": "",
+        "title": "Calculating the Flux of a Vector Field Over a Non-Closed Curve",
+        "selector": "#sectionLink-35863"
+      },
+      {
+        "index": 6,
+        "step_id": "35902",
+        "dom_id": "sectionLink-35902",
+        "name": "",
+        "title": "Deriving the Main Formula",
+        "selector": "#sectionLink-35902"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3703",
+        "name": "Sums of Line Integrals With Respect to X and Y",
+        "href": "/topics/sums-of-line-integrals-with-respect-to-x-and-y-3703"
+      },
+      {
+        "topic_id": "3715",
+        "name": "Flux in Two-Dimensional Vector Fields",
+        "href": "/topics/flux-in-two-dimensional-vector-fields-3715"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "35829",
+        "content_id": "5851",
+        "dom_id": "step-35829",
+        "selector": "#step-35829",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "35826",
+        "content_id": "9560",
+        "dom_id": "step-35826",
+        "selector": "#step-35826",
+        "step_anchor": "step-2",
+        "title": "Calculating the Flux of a Vector Field Over a Closed Curve in Parametric Form",
+        "key_prerequisites": [
+          {
+            "topic_id": "3705",
+            "name": "Sums of Line Integrals With Respect to X and Y Over Parametric Curves",
+            "href": "/topics/3705"
+          },
+          {
+            "topic_id": "3715",
+            "name": "Flux in Two-Dimensional Vector Fields",
+            "href": "/topics/3715"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "126717",
+        "dom_id": "question-126717",
+        "selector": "#question-126717",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "127055",
+        "dom_id": "question-127055",
+        "selector": "#question-127055",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "35827",
+        "content_id": "9561",
+        "dom_id": "step-35827",
+        "selector": "#step-35827",
+        "step_anchor": "step-5",
+        "title": "Calculating the Flux of a Vector Field Over a Closed Curve in Cartesian Form",
+        "key_prerequisites": [
+          {
+            "topic_id": "3703",
+            "name": "Sums of Line Integrals With Respect to X and Y",
+            "href": "/topics/3703"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "126719",
+        "dom_id": "question-126719",
+        "selector": "#question-126719",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "127141",
+        "dom_id": "question-127141",
+        "selector": "#question-127141",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "35901",
+        "content_id": "5869",
+        "dom_id": "step-35901",
+        "selector": "#step-35901",
+        "step_anchor": "step-8",
+        "title": "Calculating Flux for Non-Closed Curves",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "35863",
+        "content_id": "9574",
+        "dom_id": "step-35863",
+        "selector": "#step-35863",
+        "step_anchor": "step-9",
+        "title": "Calculating the Flux of a Vector Field Over a Non-Closed Curve",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "126940",
+        "dom_id": "question-126940",
+        "selector": "#question-126940",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "126943",
+        "dom_id": "question-126943",
+        "selector": "#question-126943",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "35902",
+        "content_id": "5870",
+        "dom_id": "step-35902",
+        "selector": "#step-35902",
+        "step_anchor": "step-12",
+        "title": "Deriving the Main Formula",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-35829",
+        "filename": "01-step-35829.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-35826",
+        "filename": "02-step-35826.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-126717",
+        "filename": "03-question-126717.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-127055",
+        "filename": "04-question-127055.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-35827",
+        "filename": "05-step-35827.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-126719",
+        "filename": "06-question-126719.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-127141",
+        "filename": "07-question-127141.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-35901",
+        "filename": "08-step-35901.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-35863",
+        "filename": "09-step-35863.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-126940",
+        "filename": "10-question-126940.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-126943",
+        "filename": "11-question-126943.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-35902",
+        "filename": "12-step-35902.png"
+      }
+    ]
+  }
+}

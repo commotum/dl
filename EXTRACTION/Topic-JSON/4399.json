@@ -1,0 +1,355 @@
+{
+  "schema_version": 1,
+  "topic_id": "4399",
+  "topic_title": "Proving a Sequence Has an Infinite Limit",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/4399.html",
+  "source_url": "https://mathacademy.com/topics/4399",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "180326",
+        "dom_id": "sectionLink-180326",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-180326"
+      },
+      {
+        "index": 2,
+        "step_id": "180327",
+        "dom_id": "sectionLink-180327",
+        "name": "",
+        "title": "Finding a Suitable N",
+        "selector": "#sectionLink-180327"
+      },
+      {
+        "index": 3,
+        "step_id": "180328",
+        "dom_id": "sectionLink-180328",
+        "name": "",
+        "title": "Finding a Suitable Value of N",
+        "selector": "#sectionLink-180328"
+      },
+      {
+        "index": 4,
+        "step_id": "180332",
+        "dom_id": "sectionLink-180332",
+        "name": "",
+        "title": "Cases Where the Terms Change Sign",
+        "selector": "#sectionLink-180332"
+      },
+      {
+        "index": 5,
+        "step_id": "180335",
+        "dom_id": "sectionLink-180335",
+        "name": "",
+        "title": "Constructing a Proof",
+        "selector": "#sectionLink-180335"
+      },
+      {
+        "index": 6,
+        "step_id": "180336",
+        "dom_id": "sectionLink-180336",
+        "name": "",
+        "title": "Stating a Full Proof",
+        "selector": "#sectionLink-180336"
+      },
+      {
+        "index": 7,
+        "step_id": "180337",
+        "dom_id": "sectionLink-180337",
+        "name": "",
+        "title": "Proving That a Sequence Diverges",
+        "selector": "#sectionLink-180337"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "4344",
+        "name": "Infinite Limits of Sequences",
+        "href": "/topics/infinite-limits-of-sequences-4344"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "180326",
+        "content_id": "9234",
+        "dom_id": "step-180326",
+        "selector": "#step-180326",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "180327",
+        "content_id": "8246",
+        "dom_id": "step-180327",
+        "selector": "#step-180327",
+        "step_anchor": "step-2",
+        "title": "Finding a Suitable N",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "180328",
+        "content_id": "13211",
+        "dom_id": "step-180328",
+        "selector": "#step-180328",
+        "step_anchor": "step-3",
+        "title": "Finding a Suitable Value of N",
+        "key_prerequisites": [
+          {
+            "topic_id": "4344",
+            "name": "Infinite Limits of Sequences",
+            "href": "/topics/4344"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "182161",
+        "dom_id": "question-182161",
+        "selector": "#question-182161",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "182163",
+        "dom_id": "question-182163",
+        "selector": "#question-182163",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "182162",
+        "dom_id": "question-182162",
+        "selector": "#question-182162",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "180332",
+        "content_id": "13213",
+        "dom_id": "step-180332",
+        "selector": "#step-180332",
+        "step_anchor": "step-7",
+        "title": "Cases Where the Terms Change Sign",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "182166",
+        "dom_id": "question-182166",
+        "selector": "#question-182166",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "182587",
+        "dom_id": "question-182587",
+        "selector": "#question-182587",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "180335",
+        "content_id": "9235",
+        "dom_id": "step-180335",
+        "selector": "#step-180335",
+        "step_anchor": "step-10",
+        "title": "Constructing a Proof",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "180336",
+        "content_id": "9236",
+        "dom_id": "step-180336",
+        "selector": "#step-180336",
+        "step_anchor": "step-11",
+        "title": "Stating a Full Proof",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "180337",
+        "content_id": "13215",
+        "dom_id": "step-180337",
+        "selector": "#step-180337",
+        "step_anchor": "step-12",
+        "title": "Proving That a Sequence Diverges",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "182171",
+        "dom_id": "question-182171",
+        "selector": "#question-182171",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "182173",
+        "dom_id": "question-182173",
+        "selector": "#question-182173",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-180326",
+        "filename": "01-step-180326.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-180327",
+        "filename": "02-step-180327.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-180328",
+        "filename": "03-step-180328.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-182161",
+        "filename": "04-question-182161.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-182163",
+        "filename": "05-question-182163.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-182162",
+        "filename": "06-question-182162.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-180332",
+        "filename": "07-step-180332.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-182166",
+        "filename": "08-question-182166.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-182587",
+        "filename": "09-question-182587.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-180335",
+        "filename": "10-step-180335.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-180336",
+        "filename": "11-step-180336.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-180337",
+        "filename": "12-step-180337.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-182171",
+        "filename": "13-question-182171.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-182173",
+        "filename": "14-question-182173.png"
+      }
+    ]
+  }
+}

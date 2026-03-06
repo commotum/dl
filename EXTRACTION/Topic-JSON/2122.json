@@ -1,0 +1,305 @@
+{
+  "schema_version": 1,
+  "topic_id": "2122",
+  "topic_title": "Projecting Vectors Onto One-Dimensional Subspaces",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2122.html",
+  "source_url": "https://mathacademy.com/topics/2122",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "20237",
+        "dom_id": "sectionLink-20237",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-20237"
+      },
+      {
+        "index": 2,
+        "step_id": "20238",
+        "dom_id": "sectionLink-20238",
+        "name": "",
+        "title": "Finding the Orthogonal Projection of a Vector onto a One-Dimensional Subspace",
+        "selector": "#sectionLink-20238"
+      },
+      {
+        "index": 3,
+        "step_id": "20239",
+        "dom_id": "sectionLink-20239",
+        "name": "",
+        "title": "The Distance  Between a Vector and a One-Dimensional Subspace",
+        "selector": "#sectionLink-20239"
+      },
+      {
+        "index": 4,
+        "step_id": "20240",
+        "dom_id": "sectionLink-20240",
+        "name": "",
+        "title": "Calculating the Distance  Between a Vector and a One-Dimensional Subspace",
+        "selector": "#sectionLink-20240"
+      },
+      {
+        "index": 5,
+        "step_id": "20241",
+        "dom_id": "sectionLink-20241",
+        "name": "",
+        "title": "Finding the Orthogonal Projection of a Vector onto the Solution Space of a System of Equations",
+        "selector": "#sectionLink-20241"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1295",
+        "name": "Calculating a Vector Projection",
+        "href": "/topics/calculating-a-vector-projection-1295"
+      },
+      {
+        "topic_id": "2101",
+        "name": "The Cauchy-Schwarz Inequality and the Angle Between Two Vectors",
+        "href": "/topics/the-cauchy-schwarz-inequality-and-the-angle-between-two-vectors-2101"
+      },
+      {
+        "topic_id": "2102",
+        "name": "Orthogonal Complements",
+        "href": "/topics/orthogonal-complements-2102"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20237",
+        "content_id": "3622",
+        "dom_id": "step-20237",
+        "selector": "#step-20237",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20238",
+        "content_id": "5570",
+        "dom_id": "step-20238",
+        "selector": "#step-20238",
+        "step_anchor": "step-2",
+        "title": "Finding the Orthogonal Projection of a Vector onto a One-Dimensional Subspace",
+        "key_prerequisites": [
+          {
+            "topic_id": "1295",
+            "name": "Calculating a Vector Projection",
+            "href": "/topics/1295"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "39730",
+        "dom_id": "question-39730",
+        "selector": "#question-39730",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "39708",
+        "dom_id": "question-39708",
+        "selector": "#question-39708",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20239",
+        "content_id": "3623",
+        "dom_id": "step-20239",
+        "selector": "#step-20239",
+        "step_anchor": "step-5",
+        "title": "The Distance  Between a Vector and a One-Dimensional Subspace",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20240",
+        "content_id": "5571",
+        "dom_id": "step-20240",
+        "selector": "#step-20240",
+        "step_anchor": "step-6",
+        "title": "Calculating the Distance  Between a Vector and a One-Dimensional Subspace",
+        "key_prerequisites": [
+          {
+            "topic_id": "2102",
+            "name": "Orthogonal Complements",
+            "href": "/topics/2102"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "39712",
+        "dom_id": "question-39712",
+        "selector": "#question-39712",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "39711",
+        "dom_id": "question-39711",
+        "selector": "#question-39711",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20241",
+        "content_id": "5572",
+        "dom_id": "step-20241",
+        "selector": "#step-20241",
+        "step_anchor": "step-9",
+        "title": "Finding the Orthogonal Projection of a Vector onto the Solution Space of a System of Equations",
+        "key_prerequisites": [
+          {
+            "topic_id": "1733",
+            "name": "Gaussian Elimination For NxM Systems of Equations",
+            "href": "/topics/1733"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "39718",
+        "dom_id": "question-39718",
+        "selector": "#question-39718",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "40425",
+        "dom_id": "question-40425",
+        "selector": "#question-40425",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-20237",
+        "filename": "01-step-20237.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-20238",
+        "filename": "02-step-20238.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-39730",
+        "filename": "03-question-39730.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-39708",
+        "filename": "04-question-39708.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-20239",
+        "filename": "05-step-20239.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-20240",
+        "filename": "06-step-20240.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-39712",
+        "filename": "07-question-39712.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-39711",
+        "filename": "08-question-39711.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-20241",
+        "filename": "09-step-20241.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-39718",
+        "filename": "10-question-39718.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-40425",
+        "filename": "11-question-40425.png"
+      }
+    ]
+  }
+}

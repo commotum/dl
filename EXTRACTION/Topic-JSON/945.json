@@ -1,0 +1,404 @@
+{
+  "schema_version": 1,
+  "topic_id": "945",
+  "topic_title": "Approximating Areas With the Trapezoidal Rule",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/945.html",
+  "source_url": "https://mathacademy.com/topics/945",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "1433",
+        "dom_id": "sectionLink-1433",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-1433"
+      },
+      {
+        "index": 2,
+        "step_id": "7562",
+        "dom_id": "sectionLink-7562",
+        "name": "",
+        "title": "The General Formula",
+        "selector": "#sectionLink-7562"
+      },
+      {
+        "index": 3,
+        "step_id": "1434",
+        "dom_id": "sectionLink-1434",
+        "name": "",
+        "title": "Using the Trapezoidal Rule with Regular Step Size",
+        "selector": "#sectionLink-1434"
+      },
+      {
+        "index": 4,
+        "step_id": "27893",
+        "dom_id": "sectionLink-27893",
+        "name": "",
+        "title": "Identifying Whether the Trapezoidal Rule Sum Gives an Underestimate or Overestimate",
+        "selector": "#sectionLink-27893"
+      },
+      {
+        "index": 5,
+        "step_id": "1438",
+        "dom_id": "sectionLink-1438",
+        "name": "",
+        "title": "Trapezoidal Rule Sum with Irregular Step Size",
+        "selector": "#sectionLink-1438"
+      },
+      {
+        "index": 6,
+        "step_id": "1439",
+        "dom_id": "sectionLink-1439",
+        "name": "",
+        "title": "Using the Trapezoidal Rule With Irregular Step Size",
+        "selector": "#sectionLink-1439"
+      },
+      {
+        "index": 7,
+        "step_id": "1442",
+        "dom_id": "sectionLink-1442",
+        "name": "",
+        "title": "Using the Trapezoidal Rule: Word Problem",
+        "selector": "#sectionLink-1442"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "363",
+        "name": "Intervals of Concavity",
+        "href": "/topics/intervals-of-concavity-363"
+      },
+      {
+        "topic_id": "477",
+        "name": "Approximating Areas With the Left Riemann Sum",
+        "href": "/topics/approximating-areas-with-the-left-riemann-sum-477"
+      },
+      {
+        "topic_id": "1281",
+        "name": "Approximating Areas With the Right Riemann Sum",
+        "href": "/topics/approximating-areas-with-the-right-riemann-sum-1281"
+      },
+      {
+        "topic_id": "1353",
+        "name": "Areas of Trapezoids",
+        "href": "/topics/areas-of-trapezoids-1353"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "1433",
+        "content_id": "745",
+        "dom_id": "step-1433",
+        "selector": "#step-1433",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "7562",
+        "content_id": "2025",
+        "dom_id": "step-7562",
+        "selector": "#step-7562",
+        "step_anchor": "step-2",
+        "title": "The General Formula",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "1434",
+        "content_id": "398",
+        "dom_id": "step-1434",
+        "selector": "#step-1434",
+        "step_anchor": "step-3",
+        "title": "Using the Trapezoidal Rule with Regular Step Size",
+        "key_prerequisites": [
+          {
+            "topic_id": "477",
+            "name": "Approximating Areas With the Left Riemann Sum",
+            "href": "/topics/477"
+          },
+          {
+            "topic_id": "1281",
+            "name": "Approximating Areas With the Right Riemann Sum",
+            "href": "/topics/1281"
+          },
+          {
+            "topic_id": "1353",
+            "name": "Areas of Trapezoids",
+            "href": "/topics/1353"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "49196",
+        "dom_id": "question-49196",
+        "selector": "#question-49196",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "49211",
+        "dom_id": "question-49211",
+        "selector": "#question-49211",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "27893",
+        "content_id": "7515",
+        "dom_id": "step-27893",
+        "selector": "#step-27893",
+        "step_anchor": "step-6",
+        "title": "Identifying Whether the Trapezoidal Rule Sum Gives an Underestimate or Overestimate",
+        "key_prerequisites": [
+          {
+            "topic_id": "363",
+            "name": "Intervals of Concavity",
+            "href": "/topics/363"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "49159",
+        "dom_id": "question-49159",
+        "selector": "#question-49159",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "49157",
+        "dom_id": "question-49157",
+        "selector": "#question-49157",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "1438",
+        "content_id": "748",
+        "dom_id": "step-1438",
+        "selector": "#step-1438",
+        "step_anchor": "step-9",
+        "title": "Trapezoidal Rule Sum with Irregular Step Size",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "1439",
+        "content_id": "399",
+        "dom_id": "step-1439",
+        "selector": "#step-1439",
+        "step_anchor": "step-10",
+        "title": "Using the Trapezoidal Rule With Irregular Step Size",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "85265",
+        "dom_id": "question-85265",
+        "selector": "#question-85265",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "49197",
+        "dom_id": "question-49197",
+        "selector": "#question-49197",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "1442",
+        "content_id": "400",
+        "dom_id": "step-1442",
+        "selector": "#step-1442",
+        "step_anchor": "step-13",
+        "title": "Using the Trapezoidal Rule: Word Problem",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "49204",
+        "dom_id": "question-49204",
+        "selector": "#question-49204",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "49241",
+        "dom_id": "question-49241",
+        "selector": "#question-49241",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-1433",
+        "filename": "01-step-1433.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-7562",
+        "filename": "02-step-7562.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-1434",
+        "filename": "03-step-1434.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-49196",
+        "filename": "04-question-49196.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-49211",
+        "filename": "05-question-49211.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-27893",
+        "filename": "06-step-27893.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-49159",
+        "filename": "07-question-49159.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-49157",
+        "filename": "08-question-49157.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-1438",
+        "filename": "09-step-1438.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-1439",
+        "filename": "10-step-1439.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-85265",
+        "filename": "11-question-85265.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-49197",
+        "filename": "12-question-49197.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-1442",
+        "filename": "13-step-1442.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-49204",
+        "filename": "14-question-49204.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-49241",
+        "filename": "15-question-49241.png"
+      }
+    ]
+  }
+}

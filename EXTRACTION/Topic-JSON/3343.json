@@ -1,0 +1,304 @@
+{
+  "schema_version": 1,
+  "topic_id": "3343",
+  "topic_title": "Vector Fields",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3343.html",
+  "source_url": "https://mathacademy.com/topics/3343",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "35508",
+        "dom_id": "sectionLink-35508",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-35508"
+      },
+      {
+        "index": 2,
+        "step_id": "35426",
+        "dom_id": "sectionLink-35426",
+        "name": "",
+        "title": "Identifying Vector Fields on Two-Dimensions",
+        "selector": "#sectionLink-35426"
+      },
+      {
+        "index": 3,
+        "step_id": "35432",
+        "dom_id": "sectionLink-35432",
+        "name": "",
+        "title": "Identifying Vector Fields on Three-Dimensions",
+        "selector": "#sectionLink-35432"
+      },
+      {
+        "index": 4,
+        "step_id": "35510",
+        "dom_id": "sectionLink-35510",
+        "name": "",
+        "title": "The Domain of a Vector Field",
+        "selector": "#sectionLink-35510"
+      },
+      {
+        "index": 5,
+        "step_id": "35427",
+        "dom_id": "sectionLink-35427",
+        "name": "",
+        "title": "Finding the Domain of a Vector Field",
+        "selector": "#sectionLink-35427"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1737",
+        "name": "The Domain of a Vector-Valued Function",
+        "href": "/topics/the-domain-of-a-vector-valued-function-1737"
+      },
+      {
+        "topic_id": "1849",
+        "name": "Vectors in N-Dimensional Euclidean Space",
+        "href": "/topics/vectors-in-n-dimensional-euclidean-space-1849"
+      },
+      {
+        "topic_id": "1899",
+        "name": "The Domain of a Multivariable Function",
+        "href": "/topics/the-domain-of-a-multivariable-function-1899"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "35508",
+        "content_id": "5782",
+        "dom_id": "step-35508",
+        "selector": "#step-35508",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "35426",
+        "content_id": "9465",
+        "dom_id": "step-35426",
+        "selector": "#step-35426",
+        "step_anchor": "step-2",
+        "title": "Identifying Vector Fields on Two-Dimensions",
+        "key_prerequisites": [
+          {
+            "topic_id": "1849",
+            "name": "Vectors in N-Dimensional Euclidean Space",
+            "href": "/topics/1849"
+          },
+          {
+            "topic_id": "1899",
+            "name": "The Domain of a Multivariable Function",
+            "href": "/topics/1899"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "122465",
+        "dom_id": "question-122465",
+        "selector": "#question-122465",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "122643",
+        "dom_id": "question-122643",
+        "selector": "#question-122643",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "35432",
+        "content_id": "9468",
+        "dom_id": "step-35432",
+        "selector": "#step-35432",
+        "step_anchor": "step-5",
+        "title": "Identifying Vector Fields on Three-Dimensions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "122467",
+        "dom_id": "question-122467",
+        "selector": "#question-122467",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "122697",
+        "dom_id": "question-122697",
+        "selector": "#question-122697",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "35510",
+        "content_id": "5784",
+        "dom_id": "step-35510",
+        "selector": "#step-35510",
+        "step_anchor": "step-8",
+        "title": "The Domain of a Vector Field",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "35427",
+        "content_id": "9466",
+        "dom_id": "step-35427",
+        "selector": "#step-35427",
+        "step_anchor": "step-9",
+        "title": "Finding the Domain of a Vector Field",
+        "key_prerequisites": [
+          {
+            "topic_id": "1930",
+            "name": "Interior and Boundary Points",
+            "href": "/topics/1930"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "122474",
+        "dom_id": "question-122474",
+        "selector": "#question-122474",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "122518",
+        "dom_id": "question-122518",
+        "selector": "#question-122518",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-35508",
+        "filename": "01-step-35508.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-35426",
+        "filename": "02-step-35426.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-122465",
+        "filename": "03-question-122465.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-122643",
+        "filename": "04-question-122643.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-35432",
+        "filename": "05-step-35432.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-122467",
+        "filename": "06-question-122467.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-122697",
+        "filename": "07-question-122697.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-35510",
+        "filename": "08-step-35510.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-35427",
+        "filename": "09-step-35427.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-122474",
+        "filename": "10-question-122474.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-122518",
+        "filename": "11-question-122518.png"
+      }
+    ]
+  }
+}

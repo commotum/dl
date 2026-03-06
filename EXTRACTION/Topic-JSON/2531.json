@@ -1,0 +1,429 @@
+{
+  "schema_version": 1,
+  "topic_id": "2531",
+  "topic_title": "Solving First-Order ODEs Using Laplace Transforms",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2531.html",
+  "source_url": "https://mathacademy.com/topics/2531",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "612632",
+        "dom_id": "sectionLink-612632",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-612632"
+      },
+      {
+        "index": 2,
+        "step_id": "612633",
+        "dom_id": "sectionLink-612633",
+        "name": "",
+        "title": "Using Laplace Transforms to Solve First-Order IVPs",
+        "selector": "#sectionLink-612633"
+      },
+      {
+        "index": 3,
+        "step_id": "612634",
+        "dom_id": "sectionLink-612634",
+        "name": "",
+        "title": "Finding the Laplace Transform of the Unknown Function Satisfying the IVP",
+        "selector": "#sectionLink-612634"
+      },
+      {
+        "index": 4,
+        "step_id": "612635",
+        "dom_id": "sectionLink-612635",
+        "name": "",
+        "title": "Laplace Transforms of First-Order Linear IVPs",
+        "selector": "#sectionLink-612635"
+      },
+      {
+        "index": 5,
+        "step_id": "612638",
+        "dom_id": "sectionLink-612638",
+        "name": "",
+        "title": "Getting Ready for the Inverse Laplace Transform",
+        "selector": "#sectionLink-612638"
+      },
+      {
+        "index": 6,
+        "step_id": "612639",
+        "dom_id": "sectionLink-612639",
+        "name": "",
+        "title": "Solving First-Order Initial Value Problems Using Laplace Transforms",
+        "selector": "#sectionLink-612639"
+      },
+      {
+        "index": 7,
+        "step_id": "612643",
+        "dom_id": "sectionLink-612643",
+        "name": "",
+        "title": "Partial Fractions With Irreducible Quadratic Factors",
+        "selector": "#sectionLink-612643"
+      },
+      {
+        "index": 8,
+        "step_id": "612644",
+        "dom_id": "sectionLink-612644",
+        "name": "",
+        "title": "Solving First-Order Initial Value Problems With Sinusoidal Forcing",
+        "selector": "#sectionLink-612644"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "906",
+        "name": "Introduction to First-Order Linear ODEs",
+        "href": "/topics/introduction-to-first-order-linear-odes-906"
+      },
+      {
+        "topic_id": "1063",
+        "name": "Expressing Rational Functions with Irreducible Quadratic Factors as Sums of Partial Fractions",
+        "href": "/topics/expressing-rational-functions-with-irreducible-quadratic-factors-as-sums-of-partial-fractions-1063"
+      },
+      {
+        "topic_id": "2530",
+        "name": "Inverse Laplace Transforms",
+        "href": "/topics/inverse-laplace-transforms-2530"
+      },
+      {
+        "topic_id": "2538",
+        "name": "Laplace Transforms of Derivatives",
+        "href": "/topics/laplace-transforms-of-derivatives-2538"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "612632",
+        "content_id": "4111",
+        "dom_id": "step-612632",
+        "selector": "#step-612632",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "612633",
+        "content_id": "14889",
+        "dom_id": "step-612633",
+        "selector": "#step-612633",
+        "step_anchor": "step-2",
+        "title": "Using Laplace Transforms to Solve First-Order IVPs",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "612634",
+        "content_id": "14890",
+        "dom_id": "step-612634",
+        "selector": "#step-612634",
+        "step_anchor": "step-3",
+        "title": "Finding the Laplace Transform of the Unknown Function Satisfying the IVP",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "612635",
+        "content_id": "6657",
+        "dom_id": "step-612635",
+        "selector": "#step-612635",
+        "step_anchor": "step-4",
+        "title": "Laplace Transforms of First-Order Linear IVPs",
+        "key_prerequisites": [
+          {
+            "topic_id": "906",
+            "name": "Introduction to First-Order Linear ODEs",
+            "href": "/topics/906"
+          },
+          {
+            "topic_id": "2537",
+            "name": "Linearity of Laplace Transforms",
+            "href": "/topics/2537"
+          },
+          {
+            "topic_id": "2538",
+            "name": "Laplace Transforms of Derivatives",
+            "href": "/topics/2538"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "64375",
+        "dom_id": "question-64375",
+        "selector": "#question-64375",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "64483",
+        "dom_id": "question-64483",
+        "selector": "#question-64483",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "612638",
+        "content_id": "14742",
+        "dom_id": "step-612638",
+        "selector": "#step-612638",
+        "step_anchor": "step-7",
+        "title": "Getting Ready for the Inverse Laplace Transform",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "612639",
+        "content_id": "6661",
+        "dom_id": "step-612639",
+        "selector": "#step-612639",
+        "step_anchor": "step-8",
+        "title": "Solving First-Order Initial Value Problems Using Laplace Transforms",
+        "key_prerequisites": [
+          {
+            "topic_id": "1060",
+            "name": "Expressing Rational Functions as Sums of Partial Fractions",
+            "href": "/topics/1060"
+          },
+          {
+            "topic_id": "1062",
+            "name": "Expressing Rational Functions with Repeated Factors as Sums of Partial Fractions",
+            "href": "/topics/1062"
+          },
+          {
+            "topic_id": "2530",
+            "name": "Inverse Laplace Transforms",
+            "href": "/topics/2530"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "342285",
+        "dom_id": "question-342285",
+        "selector": "#question-342285",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "342287",
+        "dom_id": "question-342287",
+        "selector": "#question-342287",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "342293",
+        "dom_id": "question-342293",
+        "selector": "#question-342293",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "612643",
+        "content_id": "14743",
+        "dom_id": "step-612643",
+        "selector": "#step-612643",
+        "step_anchor": "step-12",
+        "title": "Partial Fractions With Irreducible Quadratic Factors",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "612644",
+        "content_id": "21862",
+        "dom_id": "step-612644",
+        "selector": "#step-612644",
+        "step_anchor": "step-13",
+        "title": "Solving First-Order Initial Value Problems With Sinusoidal Forcing",
+        "key_prerequisites": [
+          {
+            "topic_id": "1063",
+            "name": "Expressing Rational Functions with Irreducible Quadratic Factors as Sums of Partial Fractions",
+            "href": "/topics/1063"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "342714",
+        "dom_id": "question-342714",
+        "selector": "#question-342714",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "342288",
+        "dom_id": "question-342288",
+        "selector": "#question-342288",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-612632",
+        "filename": "01-step-612632.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-612633",
+        "filename": "02-step-612633.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-612634",
+        "filename": "03-step-612634.png"
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "selector": "#step-612635",
+        "filename": "04-step-612635.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-64375",
+        "filename": "05-question-64375.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-64483",
+        "filename": "06-question-64483.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-612638",
+        "filename": "07-step-612638.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-612639",
+        "filename": "08-step-612639.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-342285",
+        "filename": "09-question-342285.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-342287",
+        "filename": "10-question-342287.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-342293",
+        "filename": "11-question-342293.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-612643",
+        "filename": "12-step-612643.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-612644",
+        "filename": "13-step-612644.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-342714",
+        "filename": "14-question-342714.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-342288",
+        "filename": "15-question-342288.png"
+      }
+    ]
+  }
+}

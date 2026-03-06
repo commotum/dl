@@ -1,0 +1,315 @@
+{
+  "schema_version": 1,
+  "topic_id": "2836",
+  "topic_title": "Properties of Expectation for Discrete Random Variables",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2836.html",
+  "source_url": "https://mathacademy.com/topics/2836",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "27700",
+        "dom_id": "sectionLink-27700",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-27700"
+      },
+      {
+        "index": 2,
+        "step_id": "27503",
+        "dom_id": "sectionLink-27503",
+        "name": "",
+        "title": "Computing the Expected Value of a Constant",
+        "selector": "#sectionLink-27503"
+      },
+      {
+        "index": 3,
+        "step_id": "27747",
+        "dom_id": "sectionLink-27747",
+        "name": "",
+        "title": "The Expected Value of a Scaled Random Variable",
+        "selector": "#sectionLink-27747"
+      },
+      {
+        "index": 4,
+        "step_id": "27504",
+        "dom_id": "sectionLink-27504",
+        "name": "",
+        "title": "Computing the Expected Value of a Scaled Random Variable",
+        "selector": "#sectionLink-27504"
+      },
+      {
+        "index": 5,
+        "step_id": "33938",
+        "dom_id": "sectionLink-33938",
+        "name": "",
+        "title": "The Expected Value of a Transformed Random Variable",
+        "selector": "#sectionLink-33938"
+      },
+      {
+        "index": 6,
+        "step_id": "34021",
+        "dom_id": "sectionLink-34021",
+        "name": "",
+        "title": "Computing the Expected Value of a Transformed Random Variable",
+        "selector": "#sectionLink-34021"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "730",
+        "name": "Expected Values of Discrete Random Variables",
+        "href": "/topics/expected-values-of-discrete-random-variables-730"
+      },
+      {
+        "topic_id": "3631",
+        "name": "One-to-One Transformations of Discrete Random Variables",
+        "href": "/topics/one-to-one-transformations-of-discrete-random-variables-3631"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "27700",
+        "content_id": "4497",
+        "dom_id": "step-27700",
+        "selector": "#step-27700",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "27503",
+        "content_id": "7417",
+        "dom_id": "step-27503",
+        "selector": "#step-27503",
+        "step_anchor": "step-2",
+        "title": "Computing the Expected Value of a Constant",
+        "key_prerequisites": [
+          {
+            "topic_id": "730",
+            "name": "Expected Values of Discrete Random Variables",
+            "href": "/topics/730"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "83866",
+        "dom_id": "question-83866",
+        "selector": "#question-83866",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "83867",
+        "dom_id": "question-83867",
+        "selector": "#question-83867",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "27747",
+        "content_id": "4506",
+        "dom_id": "step-27747",
+        "selector": "#step-27747",
+        "step_anchor": "step-5",
+        "title": "The Expected Value of a Scaled Random Variable",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "27504",
+        "content_id": "7418",
+        "dom_id": "step-27504",
+        "selector": "#step-27504",
+        "step_anchor": "step-6",
+        "title": "Computing the Expected Value of a Scaled Random Variable",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "84102",
+        "dom_id": "question-84102",
+        "selector": "#question-84102",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "108922",
+        "dom_id": "question-108922",
+        "selector": "#question-108922",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "33938",
+        "content_id": "5452",
+        "dom_id": "step-33938",
+        "selector": "#step-33938",
+        "step_anchor": "step-9",
+        "title": "The Expected Value of a Transformed Random Variable",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "34021",
+        "content_id": "9130",
+        "dom_id": "step-34021",
+        "selector": "#step-34021",
+        "step_anchor": "step-10",
+        "title": "Computing the Expected Value of a Transformed Random Variable",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "83869",
+        "dom_id": "question-83869",
+        "selector": "#question-83869",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "108537",
+        "dom_id": "question-108537",
+        "selector": "#question-108537",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-27700",
+        "filename": "01-step-27700.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-27503",
+        "filename": "02-step-27503.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-83866",
+        "filename": "03-question-83866.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-83867",
+        "filename": "04-question-83867.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-27747",
+        "filename": "05-step-27747.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-27504",
+        "filename": "06-step-27504.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-84102",
+        "filename": "07-question-84102.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-108922",
+        "filename": "08-question-108922.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-33938",
+        "filename": "09-step-33938.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-34021",
+        "filename": "10-step-34021.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-83869",
+        "filename": "11-question-83869.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-108537",
+        "filename": "12-question-108537.png"
+      }
+    ]
+  }
+}

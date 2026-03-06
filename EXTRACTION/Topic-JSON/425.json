@@ -1,0 +1,368 @@
+{
+  "schema_version": 1,
+  "topic_id": "425",
+  "topic_title": "The Discriminant of a Quadratic Equation",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/425.html",
+  "source_url": "https://mathacademy.com/topics/425",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "40122",
+        "dom_id": "sectionLink-40122",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-40122"
+      },
+      {
+        "index": 2,
+        "step_id": "40125",
+        "dom_id": "sectionLink-40125",
+        "name": "",
+        "title": "Calculating the Discriminant of a Quadratic Equation",
+        "selector": "#sectionLink-40125"
+      },
+      {
+        "index": 3,
+        "step_id": "40128",
+        "dom_id": "sectionLink-40128",
+        "name": "",
+        "title": "Using the Discriminant to Determine the Number of Solutions to a Quadratic Equation",
+        "selector": "#sectionLink-40128"
+      },
+      {
+        "index": 4,
+        "step_id": "40131",
+        "dom_id": "sectionLink-40131",
+        "name": "",
+        "title": "Choosing a Parameter to Force a Desired Number of Solutions to a Quadratic Equation",
+        "selector": "#sectionLink-40131"
+      },
+      {
+        "index": 5,
+        "step_id": "40147",
+        "dom_id": "sectionLink-40147",
+        "name": "",
+        "title": "Rational Solutions of Quadratic Equations",
+        "selector": "#sectionLink-40147"
+      },
+      {
+        "index": 6,
+        "step_id": "40148",
+        "dom_id": "sectionLink-40148",
+        "name": "",
+        "title": "Identifying Quadratic Equations With Rational Solutions",
+        "selector": "#sectionLink-40148"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "422",
+        "name": "The Quadratic Formula",
+        "href": "/topics/the-quadratic-formula-422"
+      },
+      {
+        "topic_id": "2558",
+        "name": "Natural Numbers, Integers, and Rational Numbers",
+        "href": "/topics/natural-numbers-integers-and-rational-numbers-2558"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "40122",
+        "content_id": "6630",
+        "dom_id": "step-40122",
+        "selector": "#step-40122",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "40125",
+        "content_id": "10610",
+        "dom_id": "step-40125",
+        "selector": "#step-40125",
+        "step_anchor": "step-2",
+        "title": "Calculating the Discriminant of a Quadratic Equation",
+        "key_prerequisites": [
+          {
+            "topic_id": "422",
+            "name": "The Quadratic Formula",
+            "href": "/topics/422"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "7410",
+        "dom_id": "question-7410",
+        "selector": "#question-7410",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "7702",
+        "dom_id": "question-7702",
+        "selector": "#question-7702",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "40128",
+        "content_id": "10611",
+        "dom_id": "step-40128",
+        "selector": "#step-40128",
+        "step_anchor": "step-5",
+        "title": "Using the Discriminant to Determine the Number of Solutions to a Quadratic Equation",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "52251",
+        "dom_id": "question-52251",
+        "selector": "#question-52251",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "7714",
+        "dom_id": "question-7714",
+        "selector": "#question-7714",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "40131",
+        "content_id": "10612",
+        "dom_id": "step-40131",
+        "selector": "#step-40131",
+        "step_anchor": "step-8",
+        "title": "Choosing a Parameter to Force a Desired Number of Solutions to a Quadratic Equation",
+        "key_prerequisites": [
+          {
+            "topic_id": "38",
+            "name": "Solving One-Step Linear Inequalities",
+            "href": "/topics/38"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "10319",
+        "dom_id": "question-10319",
+        "selector": "#question-10319",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "44580",
+        "dom_id": "question-44580",
+        "selector": "#question-44580",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "40147",
+        "content_id": "6633",
+        "dom_id": "step-40147",
+        "selector": "#step-40147",
+        "step_anchor": "step-11",
+        "title": "Rational Solutions of Quadratic Equations",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "40148",
+        "content_id": "10616",
+        "dom_id": "step-40148",
+        "selector": "#step-40148",
+        "step_anchor": "step-12",
+        "title": "Identifying Quadratic Equations With Rational Solutions",
+        "key_prerequisites": [
+          {
+            "topic_id": "1822",
+            "name": "The Square Root of a Perfect Square",
+            "href": "/topics/1822"
+          },
+          {
+            "topic_id": "2558",
+            "name": "Natural Numbers, Integers, and Rational Numbers",
+            "href": "/topics/2558"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "150890",
+        "dom_id": "question-150890",
+        "selector": "#question-150890",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "150894",
+        "dom_id": "question-150894",
+        "selector": "#question-150894",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-40122",
+        "filename": "01-step-40122.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-40125",
+        "filename": "02-step-40125.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-7410",
+        "filename": "03-question-7410.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-7702",
+        "filename": "04-question-7702.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-40128",
+        "filename": "05-step-40128.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-52251",
+        "filename": "06-question-52251.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-7714",
+        "filename": "07-question-7714.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-40131",
+        "filename": "08-step-40131.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-10319",
+        "filename": "09-question-10319.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-44580",
+        "filename": "10-question-44580.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-40147",
+        "filename": "11-step-40147.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-40148",
+        "filename": "12-step-40148.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-150890",
+        "filename": "13-question-150890.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-150894",
+        "filename": "14-question-150894.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,336 @@
+{
+  "schema_version": 1,
+  "topic_id": "1807",
+  "topic_title": "The Cartesian Equation of a Plane",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1807.html",
+  "source_url": "https://mathacademy.com/topics/1807",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "17922",
+        "dom_id": "sectionLink-17922",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-17922"
+      },
+      {
+        "index": 2,
+        "step_id": "17923",
+        "dom_id": "sectionLink-17923",
+        "name": "",
+        "title": "Finding the Cartesian Equation of the Plane Perpendicular To a Given Vector",
+        "selector": "#sectionLink-17923"
+      },
+      {
+        "index": 3,
+        "step_id": "17924",
+        "dom_id": "sectionLink-17924",
+        "name": "",
+        "title": "Finding the Cartesian Equation of the Plane Perpendicular To a Given Line",
+        "selector": "#sectionLink-17924"
+      },
+      {
+        "index": 4,
+        "step_id": "17925",
+        "dom_id": "sectionLink-17925",
+        "name": "",
+        "title": "Finding the Vector Equation of a Plane Given Its Cartesian Equation",
+        "selector": "#sectionLink-17925"
+      },
+      {
+        "index": 5,
+        "step_id": "17926",
+        "dom_id": "sectionLink-17926",
+        "name": "",
+        "title": "Finding the Cartesian Equation of the Plane Parallel To Two Vectors",
+        "selector": "#sectionLink-17926"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "245",
+        "name": "Calculating the Cross Product Using Determinants",
+        "href": "/topics/calculating-the-cross-product-using-determinants-245"
+      },
+      {
+        "topic_id": "1805",
+        "name": "The Vector Equation of a Plane",
+        "href": "/topics/the-vector-equation-of-a-plane-1805"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "17922",
+        "content_id": "3256",
+        "dom_id": "step-17922",
+        "selector": "#step-17922",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17923",
+        "content_id": "4936",
+        "dom_id": "step-17923",
+        "selector": "#step-17923",
+        "step_anchor": "step-2",
+        "title": "Finding the Cartesian Equation of the Plane Perpendicular To a Given Vector",
+        "key_prerequisites": [
+          {
+            "topic_id": "1805",
+            "name": "The Vector Equation of a Plane",
+            "href": "/topics/1805"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "33139",
+        "dom_id": "question-33139",
+        "selector": "#question-33139",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "33931",
+        "dom_id": "question-33931",
+        "selector": "#question-33931",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17924",
+        "content_id": "4937",
+        "dom_id": "step-17924",
+        "selector": "#step-17924",
+        "step_anchor": "step-5",
+        "title": "Finding the Cartesian Equation of the Plane Perpendicular To a Given Line",
+        "key_prerequisites": [
+          {
+            "topic_id": "1799",
+            "name": "The Cartesian Equation of a Line",
+            "href": "/topics/1799"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "33165",
+        "dom_id": "question-33165",
+        "selector": "#question-33165",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "33146",
+        "dom_id": "question-33146",
+        "selector": "#question-33146",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17925",
+        "content_id": "4938",
+        "dom_id": "step-17925",
+        "selector": "#step-17925",
+        "step_anchor": "step-8",
+        "title": "Finding the Vector Equation of a Plane Given Its Cartesian Equation",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "33923",
+        "dom_id": "question-33923",
+        "selector": "#question-33923",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "33911",
+        "dom_id": "question-33911",
+        "selector": "#question-33911",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17926",
+        "content_id": "4939",
+        "dom_id": "step-17926",
+        "selector": "#step-17926",
+        "step_anchor": "step-11",
+        "title": "Finding the Cartesian Equation of the Plane Parallel To Two Vectors",
+        "key_prerequisites": [
+          {
+            "topic_id": "245",
+            "name": "Calculating the Cross Product Using Determinants",
+            "href": "/topics/245"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "33145",
+        "dom_id": "question-33145",
+        "selector": "#question-33145",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "33912",
+        "dom_id": "question-33912",
+        "selector": "#question-33912",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-17922",
+        "filename": "01-step-17922.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-17923",
+        "filename": "02-step-17923.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-33139",
+        "filename": "03-question-33139.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-33931",
+        "filename": "04-question-33931.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-17924",
+        "filename": "05-step-17924.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-33165",
+        "filename": "06-question-33165.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-33146",
+        "filename": "07-question-33146.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-17925",
+        "filename": "08-step-17925.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-33923",
+        "filename": "09-question-33923.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-33911",
+        "filename": "10-question-33911.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-17926",
+        "filename": "11-step-17926.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-33145",
+        "filename": "12-question-33145.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-33912",
+        "filename": "13-question-33912.png"
+      }
+    ]
+  }
+}

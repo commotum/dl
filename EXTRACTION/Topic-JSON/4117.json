@@ -1,0 +1,337 @@
+{
+  "schema_version": 1,
+  "topic_id": "4117",
+  "topic_title": "Pooled Variance",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/4117.html",
+  "source_url": "https://mathacademy.com/topics/4117",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "222903",
+        "dom_id": "sectionLink-222903",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-222903"
+      },
+      {
+        "index": 2,
+        "step_id": "222904",
+        "dom_id": "sectionLink-222904",
+        "name": "",
+        "title": "Some Notes",
+        "selector": "#sectionLink-222904"
+      },
+      {
+        "index": 3,
+        "step_id": "222905",
+        "dom_id": "sectionLink-222905",
+        "name": "",
+        "title": "Finding a Pooled Estimate of Variance for Samples of Equal Size",
+        "selector": "#sectionLink-222905"
+      },
+      {
+        "index": 4,
+        "step_id": "222908",
+        "dom_id": "sectionLink-222908",
+        "name": "",
+        "title": "Finding a Pooled Estimate of Variance for Two Samples of Different Size",
+        "selector": "#sectionLink-222908"
+      },
+      {
+        "index": 5,
+        "step_id": "222911",
+        "dom_id": "sectionLink-222911",
+        "name": "",
+        "title": "A General Formula for N Independent Samples",
+        "selector": "#sectionLink-222911"
+      },
+      {
+        "index": 6,
+        "step_id": "222912",
+        "dom_id": "sectionLink-222912",
+        "name": "",
+        "title": "Finding a Pooled Estimate of Variance for Three Or More Samples",
+        "selector": "#sectionLink-222912"
+      },
+      {
+        "index": 7,
+        "step_id": "222915",
+        "dom_id": "sectionLink-222915",
+        "name": "",
+        "title": "Proof of the Unbiasedness of the Pooled Variance",
+        "selector": "#sectionLink-222915"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3820",
+        "name": "The Sample Variance",
+        "href": "/topics/the-sample-variance-3820"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "222903",
+        "content_id": "9431",
+        "dom_id": "step-222903",
+        "selector": "#step-222903",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "222904",
+        "content_id": "9440",
+        "dom_id": "step-222904",
+        "selector": "#step-222904",
+        "step_anchor": "step-2",
+        "title": "Some Notes",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "222905",
+        "content_id": "15030",
+        "dom_id": "step-222905",
+        "selector": "#step-222905",
+        "step_anchor": "step-3",
+        "title": "Finding a Pooled Estimate of Variance for Samples of Equal Size",
+        "key_prerequisites": [
+          {
+            "topic_id": "3820",
+            "name": "The Sample Variance",
+            "href": "/topics/3820"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "224052",
+        "dom_id": "question-224052",
+        "selector": "#question-224052",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "224369",
+        "dom_id": "question-224369",
+        "selector": "#question-224369",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "222908",
+        "content_id": "15031",
+        "dom_id": "step-222908",
+        "selector": "#step-222908",
+        "step_anchor": "step-6",
+        "title": "Finding a Pooled Estimate of Variance for Two Samples of Different Size",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "224054",
+        "dom_id": "question-224054",
+        "selector": "#question-224054",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "224260",
+        "dom_id": "question-224260",
+        "selector": "#question-224260",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "222911",
+        "content_id": "9503",
+        "dom_id": "step-222911",
+        "selector": "#step-222911",
+        "step_anchor": "step-9",
+        "title": "A General Formula for N Independent Samples",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "222912",
+        "content_id": "15039",
+        "dom_id": "step-222912",
+        "selector": "#step-222912",
+        "step_anchor": "step-10",
+        "title": "Finding a Pooled Estimate of Variance for Three Or More Samples",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "224058",
+        "dom_id": "question-224058",
+        "selector": "#question-224058",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "224416",
+        "dom_id": "question-224416",
+        "selector": "#question-224416",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "222915",
+        "content_id": "10478",
+        "dom_id": "step-222915",
+        "selector": "#step-222915",
+        "step_anchor": "step-13",
+        "title": "Proof of the Unbiasedness of the Pooled Variance",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-222903",
+        "filename": "01-step-222903.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-222904",
+        "filename": "02-step-222904.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-222905",
+        "filename": "03-step-222905.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-224052",
+        "filename": "04-question-224052.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-224369",
+        "filename": "05-question-224369.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-222908",
+        "filename": "06-step-222908.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-224054",
+        "filename": "07-question-224054.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-224260",
+        "filename": "08-question-224260.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-222911",
+        "filename": "09-step-222911.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-222912",
+        "filename": "10-step-222912.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-224058",
+        "filename": "11-question-224058.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-224416",
+        "filename": "12-question-224416.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-222915",
+        "filename": "13-step-222915.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,385 @@
+{
+  "schema_version": 1,
+  "topic_id": "688",
+  "topic_title": "Modeling Downwards Vertical Motion",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/688.html",
+  "source_url": "https://mathacademy.com/topics/688",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "466912",
+        "dom_id": "sectionLink-466912",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-466912"
+      },
+      {
+        "index": 2,
+        "step_id": "466913",
+        "dom_id": "sectionLink-466913",
+        "name": "",
+        "title": "Solving for Displacement",
+        "selector": "#sectionLink-466913"
+      },
+      {
+        "index": 3,
+        "step_id": "466916",
+        "dom_id": "sectionLink-466916",
+        "name": "",
+        "title": "Solving for Initial Velocity",
+        "selector": "#sectionLink-466916"
+      },
+      {
+        "index": 4,
+        "step_id": "466920",
+        "dom_id": "sectionLink-466920",
+        "name": "",
+        "title": "Solving for Time",
+        "selector": "#sectionLink-466920"
+      },
+      {
+        "index": 5,
+        "step_id": "466925",
+        "dom_id": "sectionLink-466925",
+        "name": "",
+        "title": "Deriving the Formula",
+        "selector": "#sectionLink-466925"
+      },
+      {
+        "index": 6,
+        "step_id": "466926",
+        "dom_id": "sectionLink-466926",
+        "name": "",
+        "title": "Modeling Assumptions",
+        "selector": "#sectionLink-466926"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "661",
+        "name": "Roots of Quadratic Functions",
+        "href": "/topics/roots-of-quadratic-functions-661"
+      },
+      {
+        "topic_id": "2233",
+        "name": "Converting Between Mixed Units",
+        "href": "/topics/converting-between-mixed-units-2233"
+      },
+      {
+        "topic_id": "2327",
+        "name": "Speed-Time Graphs",
+        "href": "/topics/speed-time-graphs-2327"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "466912",
+        "content_id": "1657",
+        "dom_id": "step-466912",
+        "selector": "#step-466912",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "466913",
+        "content_id": "1488",
+        "dom_id": "step-466913",
+        "selector": "#step-466913",
+        "step_anchor": "step-2",
+        "title": "Solving for Displacement",
+        "key_prerequisites": [
+          {
+            "topic_id": "470",
+            "name": "Introduction to Functions",
+            "href": "/topics/470"
+          },
+          {
+            "topic_id": "2233",
+            "name": "Converting Between Mixed Units",
+            "href": "/topics/2233"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "10586",
+        "dom_id": "question-10586",
+        "selector": "#question-10586",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "221581",
+        "dom_id": "question-221581",
+        "selector": "#question-221581",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "466916",
+        "content_id": "9738",
+        "dom_id": "step-466916",
+        "selector": "#step-466916",
+        "step_anchor": "step-5",
+        "title": "Solving for Initial Velocity",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "221584",
+        "dom_id": "question-221584",
+        "selector": "#question-221584",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "25081",
+        "dom_id": "question-25081",
+        "selector": "#question-25081",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "251709",
+        "dom_id": "question-251709",
+        "selector": "#question-251709",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "466920",
+        "content_id": "1490",
+        "dom_id": "step-466920",
+        "selector": "#step-466920",
+        "step_anchor": "step-9",
+        "title": "Solving for Time",
+        "key_prerequisites": [
+          {
+            "topic_id": "661",
+            "name": "Roots of Quadratic Functions",
+            "href": "/topics/661"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "25080",
+        "dom_id": "question-25080",
+        "selector": "#question-25080",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "251719",
+        "dom_id": "question-251719",
+        "selector": "#question-251719",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "135224",
+        "dom_id": "question-135224",
+        "selector": "#question-135224",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "25182",
+        "dom_id": "question-25182",
+        "selector": "#question-25182",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "466925",
+        "content_id": "6111",
+        "dom_id": "step-466925",
+        "selector": "#step-466925",
+        "step_anchor": "step-14",
+        "title": "Deriving the Formula",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "466926",
+        "content_id": "1658",
+        "dom_id": "step-466926",
+        "selector": "#step-466926",
+        "step_anchor": "step-15",
+        "title": "Modeling Assumptions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-466912",
+        "filename": "01-step-466912.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-466913",
+        "filename": "02-step-466913.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-10586",
+        "filename": "03-question-10586.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-221581",
+        "filename": "04-question-221581.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-466916",
+        "filename": "05-step-466916.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-221584",
+        "filename": "06-question-221584.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-25081",
+        "filename": "07-question-25081.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-251709",
+        "filename": "08-question-251709.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-466920",
+        "filename": "09-step-466920.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-25080",
+        "filename": "10-question-25080.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-251719",
+        "filename": "11-question-251719.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-135224",
+        "filename": "12-question-135224.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-25182",
+        "filename": "13-question-25182.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-466925",
+        "filename": "14-step-466925.png"
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "selector": "#step-466926",
+        "filename": "15-step-466926.png"
+      }
+    ]
+  }
+}

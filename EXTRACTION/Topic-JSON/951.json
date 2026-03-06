@@ -1,0 +1,348 @@
+{
+  "schema_version": 1,
+  "topic_id": "951",
+  "topic_title": "Walks, Trails, Paths, and Distances",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/951.html",
+  "source_url": "https://mathacademy.com/topics/951",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "238482",
+        "dom_id": "sectionLink-238482",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-238482"
+      },
+      {
+        "index": 2,
+        "step_id": "238483",
+        "dom_id": "sectionLink-238483",
+        "name": "",
+        "title": "Identifying Walks, Trails, and Paths in Undirected Graphs",
+        "selector": "#sectionLink-238483"
+      },
+      {
+        "index": 3,
+        "step_id": "238486",
+        "dom_id": "sectionLink-238486",
+        "name": "",
+        "title": "Distances",
+        "selector": "#sectionLink-238486"
+      },
+      {
+        "index": 4,
+        "step_id": "238487",
+        "dom_id": "sectionLink-238487",
+        "name": "",
+        "title": "Weighted Graphs",
+        "selector": "#sectionLink-238487"
+      },
+      {
+        "index": 5,
+        "step_id": "238488",
+        "dom_id": "sectionLink-238488",
+        "name": "",
+        "title": "Finding Distances in Undirected Graphs",
+        "selector": "#sectionLink-238488"
+      },
+      {
+        "index": 6,
+        "step_id": "238491",
+        "dom_id": "sectionLink-238491",
+        "name": "",
+        "title": "Defining Eccentricity, Radius, Diameter, and Center for Unweighted Graphs",
+        "selector": "#sectionLink-238491"
+      },
+      {
+        "index": 7,
+        "step_id": "238492",
+        "dom_id": "sectionLink-238492",
+        "name": "",
+        "title": "Finding Numerical Characteristics of a Graph",
+        "selector": "#sectionLink-238492"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "950",
+        "name": "Introduction to Graphs",
+        "href": "/topics/introduction-to-graphs-950"
+      },
+      {
+        "topic_id": "4396",
+        "name": "The Maximum and Minimum of a Set",
+        "href": "/topics/the-maximum-and-minimum-of-a-set-4396"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "238482",
+        "content_id": "10161",
+        "dom_id": "step-238482",
+        "selector": "#step-238482",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "238483",
+        "content_id": "15910",
+        "dom_id": "step-238483",
+        "selector": "#step-238483",
+        "step_anchor": "step-2",
+        "title": "Identifying Walks, Trails, and Paths in Undirected Graphs",
+        "key_prerequisites": [
+          {
+            "topic_id": "950",
+            "name": "Introduction to Graphs",
+            "href": "/topics/950"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "241782",
+        "dom_id": "question-241782",
+        "selector": "#question-241782",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "257168",
+        "dom_id": "question-257168",
+        "selector": "#question-257168",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "238486",
+        "content_id": "10163",
+        "dom_id": "step-238486",
+        "selector": "#step-238486",
+        "step_anchor": "step-5",
+        "title": "Distances",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "238487",
+        "content_id": "11442",
+        "dom_id": "step-238487",
+        "selector": "#step-238487",
+        "step_anchor": "step-6",
+        "title": "Weighted Graphs",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "238488",
+        "content_id": "15912",
+        "dom_id": "step-238488",
+        "selector": "#step-238488",
+        "step_anchor": "step-7",
+        "title": "Finding Distances in Undirected Graphs",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "241807",
+        "dom_id": "question-241807",
+        "selector": "#question-241807",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "241817",
+        "dom_id": "question-241817",
+        "selector": "#question-241817",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "238491",
+        "content_id": "10164",
+        "dom_id": "step-238491",
+        "selector": "#step-238491",
+        "step_anchor": "step-10",
+        "title": "Defining Eccentricity, Radius, Diameter, and Center for Unweighted Graphs",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "238492",
+        "content_id": "15914",
+        "dom_id": "step-238492",
+        "selector": "#step-238492",
+        "step_anchor": "step-11",
+        "title": "Finding Numerical Characteristics of a Graph",
+        "key_prerequisites": [
+          {
+            "topic_id": "4396",
+            "name": "The Maximum and Minimum of a Set",
+            "href": "/topics/4396"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "241820",
+        "dom_id": "question-241820",
+        "selector": "#question-241820",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "241824",
+        "dom_id": "question-241824",
+        "selector": "#question-241824",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-238482",
+        "filename": "01-step-238482.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-238483",
+        "filename": "02-step-238483.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-241782",
+        "filename": "03-question-241782.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-257168",
+        "filename": "04-question-257168.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-238486",
+        "filename": "05-step-238486.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-238487",
+        "filename": "06-step-238487.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-238488",
+        "filename": "07-step-238488.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-241807",
+        "filename": "08-question-241807.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-241817",
+        "filename": "09-question-241817.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-238491",
+        "filename": "10-step-238491.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-238492",
+        "filename": "11-step-238492.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-241820",
+        "filename": "12-question-241820.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-241824",
+        "filename": "13-question-241824.png"
+      }
+    ]
+  }
+}

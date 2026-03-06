@@ -1,0 +1,364 @@
+{
+  "schema_version": 1,
+  "topic_id": "359",
+  "topic_title": "The Central Limit Theorem",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/359.html",
+  "source_url": "https://mathacademy.com/topics/359",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "34204",
+        "dom_id": "sectionLink-34204",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-34204"
+      },
+      {
+        "index": 2,
+        "step_id": "38151",
+        "dom_id": "sectionLink-38151",
+        "name": "",
+        "title": "Visualizing the Convergence of the Sampling Distribution",
+        "selector": "#sectionLink-38151"
+      },
+      {
+        "index": 3,
+        "step_id": "34303",
+        "dom_id": "sectionLink-34303",
+        "name": "",
+        "title": "Finding an Approximate Probability Using the Central Limit Theorem",
+        "selector": "#sectionLink-34303"
+      },
+      {
+        "index": 4,
+        "step_id": "38053",
+        "dom_id": "sectionLink-38053",
+        "name": "",
+        "title": "Using the CLT With a Population Whose Probability Distribution Is Discrete",
+        "selector": "#sectionLink-38053"
+      },
+      {
+        "index": 5,
+        "step_id": "38055",
+        "dom_id": "sectionLink-38055",
+        "name": "",
+        "title": "Using the CLT With a Population Whose Probability Distribution Is Continuous",
+        "selector": "#sectionLink-38055"
+      },
+      {
+        "index": 6,
+        "step_id": "39429",
+        "dom_id": "sectionLink-39429",
+        "name": "",
+        "title": "Sums of I.I.D. Random Variables",
+        "selector": "#sectionLink-39429"
+      },
+      {
+        "index": 7,
+        "step_id": "38174",
+        "dom_id": "sectionLink-38174",
+        "name": "",
+        "title": "Equivalent Forms of the Central Limit Theorem",
+        "selector": "#sectionLink-38174"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2988",
+        "name": "Variance of Continuous Random Variables",
+        "href": "/topics/variance-of-continuous-random-variables-2988"
+      },
+      {
+        "topic_id": "3067",
+        "name": "Sample Means From Normal Populations",
+        "href": "/topics/sample-means-from-normal-populations-3067"
+      },
+      {
+        "topic_id": "3281",
+        "name": "The Binomial Distribution",
+        "href": "/topics/the-binomial-distribution-3281"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "34204",
+        "content_id": "5490",
+        "dom_id": "step-34204",
+        "selector": "#step-34204",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "38151",
+        "content_id": "6302",
+        "dom_id": "step-38151",
+        "selector": "#step-38151",
+        "step_anchor": "step-2",
+        "title": "Visualizing the Convergence of the Sampling Distribution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "34303",
+        "content_id": "9197",
+        "dom_id": "step-34303",
+        "selector": "#step-34303",
+        "step_anchor": "step-3",
+        "title": "Finding an Approximate Probability Using the Central Limit Theorem",
+        "key_prerequisites": [
+          {
+            "topic_id": "3067",
+            "name": "Sample Means From Normal Populations",
+            "href": "/topics/3067"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "110430",
+        "dom_id": "question-110430",
+        "selector": "#question-110430",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "143493",
+        "dom_id": "question-143493",
+        "selector": "#question-143493",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "38053",
+        "content_id": "10088",
+        "dom_id": "step-38053",
+        "selector": "#step-38053",
+        "step_anchor": "step-6",
+        "title": "Using the CLT With a Population Whose Probability Distribution Is Discrete",
+        "key_prerequisites": [
+          {
+            "topic_id": "730",
+            "name": "Expected Values of Discrete Random Variables",
+            "href": "/topics/730"
+          },
+          {
+            "topic_id": "1388",
+            "name": "Variance of Discrete Random Variables",
+            "href": "/topics/1388"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "110431",
+        "dom_id": "question-110431",
+        "selector": "#question-110431",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "143510",
+        "dom_id": "question-143510",
+        "selector": "#question-143510",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "38055",
+        "content_id": "10090",
+        "dom_id": "step-38055",
+        "selector": "#step-38055",
+        "step_anchor": "step-9",
+        "title": "Using the CLT With a Population Whose Probability Distribution Is Continuous",
+        "key_prerequisites": [
+          {
+            "topic_id": "4012",
+            "name": "Expected Values of Continuous Random Variables",
+            "href": "/topics/4012"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "110432",
+        "dom_id": "question-110432",
+        "selector": "#question-110432",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "143503",
+        "dom_id": "question-143503",
+        "selector": "#question-143503",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "39429",
+        "content_id": "6515",
+        "dom_id": "step-39429",
+        "selector": "#step-39429",
+        "step_anchor": "step-12",
+        "title": "Sums of I.I.D. Random Variables",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "38174",
+        "content_id": "6305",
+        "dom_id": "step-38174",
+        "selector": "#step-38174",
+        "step_anchor": "step-13",
+        "title": "Equivalent Forms of the Central Limit Theorem",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-34204",
+        "filename": "01-step-34204.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-38151",
+        "filename": "02-step-38151.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-34303",
+        "filename": "03-step-34303.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-110430",
+        "filename": "04-question-110430.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-143493",
+        "filename": "05-question-143493.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-38053",
+        "filename": "06-step-38053.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-110431",
+        "filename": "07-question-110431.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-143510",
+        "filename": "08-question-143510.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-38055",
+        "filename": "09-step-38055.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-110432",
+        "filename": "10-question-110432.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-143503",
+        "filename": "11-question-143503.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-39429",
+        "filename": "12-step-39429.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-38174",
+        "filename": "13-step-38174.png"
+      }
+    ]
+  }
+}

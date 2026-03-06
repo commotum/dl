@@ -1,0 +1,238 @@
+{
+  "schema_version": 1,
+  "topic_id": "2899",
+  "topic_title": "Dijkstra's Algorithm",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2899.html",
+  "source_url": "https://mathacademy.com/topics/2899",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "443275",
+        "dom_id": "sectionLink-443275",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-443275"
+      },
+      {
+        "index": 2,
+        "step_id": "443276",
+        "dom_id": "sectionLink-443276",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-443276"
+      },
+      {
+        "index": 3,
+        "step_id": "443277",
+        "dom_id": "sectionLink-443277",
+        "name": "",
+        "title": "Applying One Iteration of Dijkstra's Algorithm",
+        "selector": "#sectionLink-443277"
+      },
+      {
+        "index": 4,
+        "step_id": "443280",
+        "dom_id": "sectionLink-443280",
+        "name": "",
+        "title": "Applying Dijkstra's Algorithm",
+        "selector": "#sectionLink-443280"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2895",
+        "name": "Shortest Paths in Unweighted Graphs",
+        "href": "/topics/shortest-paths-in-unweighted-graphs-2895"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 9,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "443275",
+        "content_id": "11246",
+        "dom_id": "step-443275",
+        "selector": "#step-443275",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "443276",
+        "content_id": "11247",
+        "dom_id": "step-443276",
+        "selector": "#step-443276",
+        "step_anchor": "step-2",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "443277",
+        "content_id": "16945",
+        "dom_id": "step-443277",
+        "selector": "#step-443277",
+        "step_anchor": "step-3",
+        "title": "Applying One Iteration of Dijkstra's Algorithm",
+        "key_prerequisites": [
+          {
+            "topic_id": "2895",
+            "name": "Shortest Paths in Unweighted Graphs",
+            "href": "/topics/2895"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "259318",
+        "dom_id": "question-259318",
+        "selector": "#question-259318",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "262780",
+        "dom_id": "question-262780",
+        "selector": "#question-262780",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "443280",
+        "content_id": "17171",
+        "dom_id": "step-443280",
+        "selector": "#step-443280",
+        "step_anchor": "step-6",
+        "title": "Applying Dijkstra's Algorithm",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "259321",
+        "dom_id": "question-259321",
+        "selector": "#question-259321",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "262731",
+        "dom_id": "question-262731",
+        "selector": "#question-262731",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "259434",
+        "dom_id": "question-259434",
+        "selector": "#question-259434",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-443275",
+        "filename": "01-step-443275.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-443276",
+        "filename": "02-step-443276.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-443277",
+        "filename": "03-step-443277.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-259318",
+        "filename": "04-question-259318.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-262780",
+        "filename": "05-question-262780.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-443280",
+        "filename": "06-step-443280.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-259321",
+        "filename": "07-question-259321.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-262731",
+        "filename": "08-question-262731.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-259434",
+        "filename": "09-question-259434.png"
+      }
+    ]
+  }
+}

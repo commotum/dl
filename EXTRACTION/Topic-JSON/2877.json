@@ -1,0 +1,384 @@
+{
+  "schema_version": 1,
+  "topic_id": "2877",
+  "topic_title": "The Diffie-Hellman Protocol",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2877.html",
+  "source_url": "https://mathacademy.com/topics/2877",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "414131",
+        "dom_id": "sectionLink-414131",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-414131"
+      },
+      {
+        "index": 2,
+        "step_id": "414132",
+        "dom_id": "sectionLink-414132",
+        "name": "",
+        "title": "Representing an Expression in a Suitable Form for Exponentiation",
+        "selector": "#sectionLink-414132"
+      },
+      {
+        "index": 3,
+        "step_id": "414135",
+        "dom_id": "sectionLink-414135",
+        "name": "",
+        "title": "Exponentiation by Squaring Given the Key Powers",
+        "selector": "#sectionLink-414135"
+      },
+      {
+        "index": 4,
+        "step_id": "414138",
+        "dom_id": "sectionLink-414138",
+        "name": "",
+        "title": "Exponentiation by Squaring",
+        "selector": "#sectionLink-414138"
+      },
+      {
+        "index": 5,
+        "step_id": "414141",
+        "dom_id": "sectionLink-414141",
+        "name": "",
+        "title": "The Diffie-Hellman Protocol",
+        "selector": "#sectionLink-414141"
+      },
+      {
+        "index": 6,
+        "step_id": "414143",
+        "dom_id": "sectionLink-414143",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-414143"
+      },
+      {
+        "index": 7,
+        "step_id": "414144",
+        "dom_id": "sectionLink-414144",
+        "name": "",
+        "title": "Applying the Diffie-Hellman Algorithm",
+        "selector": "#sectionLink-414144"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2674",
+        "name": "The Multiplication Properties of Modular Arithmetic",
+        "href": "/topics/the-multiplication-properties-of-modular-arithmetic-2674"
+      },
+      {
+        "topic_id": "2736",
+        "name": "Introduction to Cryptography",
+        "href": "/topics/introduction-to-cryptography-2736"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "414131",
+        "content_id": "5665",
+        "dom_id": "step-414131",
+        "selector": "#step-414131",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "414132",
+        "content_id": "9295",
+        "dom_id": "step-414132",
+        "selector": "#step-414132",
+        "step_anchor": "step-2",
+        "title": "Representing an Expression in a Suitable Form for Exponentiation",
+        "key_prerequisites": [
+          {
+            "topic_id": "2674",
+            "name": "The Multiplication Properties of Modular Arithmetic",
+            "href": "/topics/2674"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "115397",
+        "dom_id": "question-115397",
+        "selector": "#question-115397",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "258053",
+        "dom_id": "question-258053",
+        "selector": "#question-258053",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "414135",
+        "content_id": "9300",
+        "dom_id": "step-414135",
+        "selector": "#step-414135",
+        "step_anchor": "step-5",
+        "title": "Exponentiation by Squaring Given the Key Powers",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "253402",
+        "dom_id": "question-253402",
+        "selector": "#question-253402",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "258106",
+        "dom_id": "question-258106",
+        "selector": "#question-258106",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "414138",
+        "content_id": "9301",
+        "dom_id": "step-414138",
+        "selector": "#step-414138",
+        "step_anchor": "step-8",
+        "title": "Exponentiation by Squaring",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "258204",
+        "dom_id": "question-258204",
+        "selector": "#question-258204",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "253404",
+        "dom_id": "question-253404",
+        "selector": "#question-253404",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "414141",
+        "content_id": "11446",
+        "dom_id": "step-414141",
+        "selector": "#step-414141",
+        "step_anchor": "step-11",
+        "title": "The Diffie-Hellman Protocol",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "414143",
+        "content_id": "5667",
+        "dom_id": "step-414143",
+        "selector": "#step-414143",
+        "step_anchor": "step-12",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "414144",
+        "content_id": "9302",
+        "dom_id": "step-414144",
+        "selector": "#step-414144",
+        "step_anchor": "step-13",
+        "title": "Applying the Diffie-Hellman Algorithm",
+        "key_prerequisites": [
+          {
+            "topic_id": "2736",
+            "name": "Introduction to Cryptography",
+            "href": "/topics/2736"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "253340",
+        "dom_id": "question-253340",
+        "selector": "#question-253340",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "115398",
+        "dom_id": "question-115398",
+        "selector": "#question-115398",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-414131",
+        "filename": "01-step-414131.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-414132",
+        "filename": "02-step-414132.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-115397",
+        "filename": "03-question-115397.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-258053",
+        "filename": "04-question-258053.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-414135",
+        "filename": "05-step-414135.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-253402",
+        "filename": "06-question-253402.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-258106",
+        "filename": "07-question-258106.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-414138",
+        "filename": "08-step-414138.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-258204",
+        "filename": "09-question-258204.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-253404",
+        "filename": "10-question-253404.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-414141",
+        "filename": "11-step-414141.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-414143",
+        "filename": "12-step-414143.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-414144",
+        "filename": "13-step-414144.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-253340",
+        "filename": "14-question-253340.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-115398",
+        "filename": "15-question-115398.png"
+      }
+    ]
+  }
+}

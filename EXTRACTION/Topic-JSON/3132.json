@@ -1,0 +1,465 @@
+{
+  "schema_version": 1,
+  "topic_id": "3132",
+  "topic_title": "Singular Value Decomposition of 2x2 Matrices",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3132.html",
+  "source_url": "https://mathacademy.com/topics/3132",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "30547",
+        "dom_id": "sectionLink-30547",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-30547"
+      },
+      {
+        "index": 2,
+        "step_id": "31341",
+        "dom_id": "sectionLink-31341",
+        "name": "",
+        "title": "Identifying True Statements Regarding Singular Value Decomposition",
+        "selector": "#sectionLink-31341"
+      },
+      {
+        "index": 3,
+        "step_id": "31348",
+        "dom_id": "sectionLink-31348",
+        "name": "",
+        "title": "Finding the Second and Third Matrices of a Singular Value Decomposition",
+        "selector": "#sectionLink-31348"
+      },
+      {
+        "index": 4,
+        "step_id": "31343",
+        "dom_id": "sectionLink-31343",
+        "name": "",
+        "title": "Finding the Columns of the Third Matrix Given Part of a Singular Value Decomposition",
+        "selector": "#sectionLink-31343"
+      },
+      {
+        "index": 5,
+        "step_id": "31349",
+        "dom_id": "sectionLink-31349",
+        "name": "",
+        "title": "Finding the First Matrix of a Singular Value Decomposition",
+        "selector": "#sectionLink-31349"
+      },
+      {
+        "index": 6,
+        "step_id": "37257",
+        "dom_id": "sectionLink-37257",
+        "name": "",
+        "title": "Calculating the First Matrix - A Worked Example",
+        "selector": "#sectionLink-37257"
+      },
+      {
+        "index": 7,
+        "step_id": "31342",
+        "dom_id": "sectionLink-31342",
+        "name": "",
+        "title": "Determining the Columns of the First Matrix Given Part of a Singular Value Decomposition",
+        "selector": "#sectionLink-31342"
+      },
+      {
+        "index": 8,
+        "step_id": "31345",
+        "dom_id": "sectionLink-31345",
+        "name": "",
+        "title": "An Algorithm for Finding a Singular Value Decomposition",
+        "selector": "#sectionLink-31345"
+      },
+      {
+        "index": 9,
+        "step_id": "31344",
+        "dom_id": "sectionLink-31344",
+        "name": "",
+        "title": "The Singular Value Decomposition of a 2x2 Matrix",
+        "selector": "#sectionLink-31344"
+      },
+      {
+        "index": 10,
+        "step_id": "42397",
+        "dom_id": "sectionLink-42397",
+        "name": "",
+        "title": "Geometric Interpretation of the Singular Value Decomposition",
+        "selector": "#sectionLink-42397"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3819",
+        "name": "Computing the Singular Values of a Matrix",
+        "href": "/topics/computing-the-singular-values-of-a-matrix-3819"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 18,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "30547",
+        "content_id": "4892",
+        "dom_id": "step-30547",
+        "selector": "#step-30547",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "31341",
+        "content_id": "8413",
+        "dom_id": "step-31341",
+        "selector": "#step-31341",
+        "step_anchor": "step-2",
+        "title": "Identifying True Statements Regarding Singular Value Decomposition",
+        "key_prerequisites": [
+          {
+            "topic_id": "2105",
+            "name": "Orthogonal Matrices",
+            "href": "/topics/2105"
+          },
+          {
+            "topic_id": "3131",
+            "name": "The Singular Values of a Matrix",
+            "href": "/topics/3131"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "95713",
+        "dom_id": "question-95713",
+        "selector": "#question-95713",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "95711",
+        "dom_id": "question-95711",
+        "selector": "#question-95711",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "31348",
+        "content_id": "5011",
+        "dom_id": "step-31348",
+        "selector": "#step-31348",
+        "step_anchor": "step-5",
+        "title": "Finding the Second and Third Matrices of a Singular Value Decomposition",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "31343",
+        "content_id": "8415",
+        "dom_id": "step-31343",
+        "selector": "#step-31343",
+        "step_anchor": "step-6",
+        "title": "Finding the Columns of the Third Matrix Given Part of a Singular Value Decomposition",
+        "key_prerequisites": [
+          {
+            "topic_id": "3335",
+            "name": "Diagonalization of 2x2 Symmetric Matrices",
+            "href": "/topics/3335"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "95717",
+        "dom_id": "question-95717",
+        "selector": "#question-95717",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "95727",
+        "dom_id": "question-95727",
+        "selector": "#question-95727",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "31349",
+        "content_id": "5012",
+        "dom_id": "step-31349",
+        "selector": "#step-31349",
+        "step_anchor": "step-9",
+        "title": "Finding the First Matrix of a Singular Value Decomposition",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "37257",
+        "content_id": "6135",
+        "dom_id": "step-37257",
+        "selector": "#step-37257",
+        "step_anchor": "step-10",
+        "title": "Calculating the First Matrix - A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "31342",
+        "content_id": "8414",
+        "dom_id": "step-31342",
+        "selector": "#step-31342",
+        "step_anchor": "step-11",
+        "title": "Determining the Columns of the First Matrix Given Part of a Singular Value Decomposition",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "96317",
+        "dom_id": "question-96317",
+        "selector": "#question-96317",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "95734",
+        "dom_id": "question-95734",
+        "selector": "#question-95734",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "31345",
+        "content_id": "5010",
+        "dom_id": "step-31345",
+        "selector": "#step-31345",
+        "step_anchor": "step-14",
+        "title": "An Algorithm for Finding a Singular Value Decomposition",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "31344",
+        "content_id": "8416",
+        "dom_id": "step-31344",
+        "selector": "#step-31344",
+        "step_anchor": "step-15",
+        "title": "The Singular Value Decomposition of a 2x2 Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "96352",
+        "dom_id": "question-96352",
+        "selector": "#question-96352",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "question_id": "95735",
+        "dom_id": "question-95735",
+        "selector": "#question-95735",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 18,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "42397",
+        "content_id": "7033",
+        "dom_id": "step-42397",
+        "selector": "#step-42397",
+        "step_anchor": "step-18",
+        "title": "Geometric Interpretation of the Singular Value Decomposition",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-30547",
+        "filename": "01-step-30547.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-31341",
+        "filename": "02-step-31341.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-95713",
+        "filename": "03-question-95713.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-95711",
+        "filename": "04-question-95711.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-31348",
+        "filename": "05-step-31348.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-31343",
+        "filename": "06-step-31343.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-95717",
+        "filename": "07-question-95717.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-95727",
+        "filename": "08-question-95727.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-31349",
+        "filename": "09-step-31349.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-37257",
+        "filename": "10-step-37257.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-31342",
+        "filename": "11-step-31342.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-96317",
+        "filename": "12-question-96317.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-95734",
+        "filename": "13-question-95734.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-31345",
+        "filename": "14-step-31345.png"
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "selector": "#step-31344",
+        "filename": "15-step-31344.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-96352",
+        "filename": "16-question-96352.png"
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "selector": "#question-95735",
+        "filename": "17-question-95735.png"
+      },
+      {
+        "index": 18,
+        "item_type": "step",
+        "selector": "#step-42397",
+        "filename": "18-step-42397.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,438 @@
+{
+  "schema_version": 1,
+  "topic_id": "1276",
+  "topic_title": "Volumes of Solids with Triangular Cross Sections",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1276.html",
+  "source_url": "https://mathacademy.com/topics/1276",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "2043",
+        "dom_id": "sectionLink-2043",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-2043"
+      },
+      {
+        "index": 2,
+        "step_id": "27862",
+        "dom_id": "sectionLink-27862",
+        "name": "",
+        "title": "A Summary of Useful Triangle Formulas",
+        "selector": "#sectionLink-27862"
+      },
+      {
+        "index": 3,
+        "step_id": "2047",
+        "dom_id": "sectionLink-2047",
+        "name": "",
+        "title": "Computing the Volume When the Base Is Bounded by a Curve and the X-Axis",
+        "selector": "#sectionLink-2047"
+      },
+      {
+        "index": 4,
+        "step_id": "2044",
+        "dom_id": "sectionLink-2044",
+        "name": "",
+        "title": "Computing the Volume When the Base Is Bounded by Two Curves",
+        "selector": "#sectionLink-2044"
+      },
+      {
+        "index": 5,
+        "step_id": "2050",
+        "dom_id": "sectionLink-2050",
+        "name": "",
+        "title": "Cross-Sections Perpendicular to the y-Axis",
+        "selector": "#sectionLink-2050"
+      },
+      {
+        "index": 6,
+        "step_id": "2051",
+        "dom_id": "sectionLink-2051",
+        "name": "",
+        "title": "Computing the Volume  When the Cross Sections Are Perpendicular to the Y-Axis",
+        "selector": "#sectionLink-2051"
+      },
+      {
+        "index": 7,
+        "step_id": "27058",
+        "dom_id": "sectionLink-27058",
+        "name": "",
+        "title": "Computing the Volume When the Base Is Bounded by Two Curves",
+        "selector": "#sectionLink-27058"
+      },
+      {
+        "index": 8,
+        "step_id": "27863",
+        "dom_id": "sectionLink-27863",
+        "name": "",
+        "title": "Derivations of the Triangle Formulas",
+        "selector": "#sectionLink-27863"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1083",
+        "name": "Volumes of Solids with Square Cross Sections",
+        "href": "/topics/volumes-of-solids-with-square-cross-sections-1083"
+      },
+      {
+        "topic_id": "2885",
+        "name": "The Area of an Isosceles Right Triangle",
+        "href": "/topics/the-area-of-an-isosceles-right-triangle-2885"
+      },
+      {
+        "topic_id": "2886",
+        "name": "The Area of an Equilateral Triangle",
+        "href": "/topics/the-area-of-an-equilateral-triangle-2886"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 16,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "2043",
+        "content_id": "1040",
+        "dom_id": "step-2043",
+        "selector": "#step-2043",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "27862",
+        "content_id": "4529",
+        "dom_id": "step-27862",
+        "selector": "#step-27862",
+        "step_anchor": "step-2",
+        "title": "A Summary of Useful Triangle Formulas",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "2047",
+        "content_id": "583",
+        "dom_id": "step-2047",
+        "selector": "#step-2047",
+        "step_anchor": "step-3",
+        "title": "Computing the Volume When the Base Is Bounded by a Curve and the X-Axis",
+        "key_prerequisites": [
+          {
+            "topic_id": "1083",
+            "name": "Volumes of Solids with Square Cross Sections",
+            "href": "/topics/1083"
+          },
+          {
+            "topic_id": "2885",
+            "name": "The Area of an Isosceles Right Triangle",
+            "href": "/topics/2885"
+          },
+          {
+            "topic_id": "2886",
+            "name": "The Area of an Equilateral Triangle",
+            "href": "/topics/2886"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "19537",
+        "dom_id": "question-19537",
+        "selector": "#question-19537",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "50445",
+        "dom_id": "question-50445",
+        "selector": "#question-50445",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "2044",
+        "content_id": "582",
+        "dom_id": "step-2044",
+        "selector": "#step-2044",
+        "step_anchor": "step-6",
+        "title": "Computing the Volume When the Base Is Bounded by Two Curves",
+        "key_prerequisites": [
+          {
+            "topic_id": "395",
+            "name": "The Area Between Curves Expressed as Functions of X",
+            "href": "/topics/395"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "19586",
+        "dom_id": "question-19586",
+        "selector": "#question-19586",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "50693",
+        "dom_id": "question-50693",
+        "selector": "#question-50693",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "2050",
+        "content_id": "1043",
+        "dom_id": "step-2050",
+        "selector": "#step-2050",
+        "step_anchor": "step-9",
+        "title": "Cross-Sections Perpendicular to the y-Axis",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "2051",
+        "content_id": "584",
+        "dom_id": "step-2051",
+        "selector": "#step-2051",
+        "step_anchor": "step-10",
+        "title": "Computing the Volume  When the Cross Sections Are Perpendicular to the Y-Axis",
+        "key_prerequisites": [
+          {
+            "topic_id": "1041",
+            "name": "The Area Bounded by a Curve and the Y-Axis",
+            "href": "/topics/1041"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "19733",
+        "dom_id": "question-19733",
+        "selector": "#question-19733",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "50684",
+        "dom_id": "question-50684",
+        "selector": "#question-50684",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "27058",
+        "content_id": "7310",
+        "dom_id": "step-27058",
+        "selector": "#step-27058",
+        "step_anchor": "step-13",
+        "title": "Computing the Volume When the Base Is Bounded by Two Curves",
+        "key_prerequisites": [
+          {
+            "topic_id": "402",
+            "name": "The Area Between Curves Expressed as Functions of Y",
+            "href": "/topics/402"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "19875",
+        "dom_id": "question-19875",
+        "selector": "#question-19875",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "19878",
+        "dom_id": "question-19878",
+        "selector": "#question-19878",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "27863",
+        "content_id": "4530",
+        "dom_id": "step-27863",
+        "selector": "#step-27863",
+        "step_anchor": "step-16",
+        "title": "Derivations of the Triangle Formulas",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-2043",
+        "filename": "01-step-2043.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-27862",
+        "filename": "02-step-27862.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-2047",
+        "filename": "03-step-2047.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-19537",
+        "filename": "04-question-19537.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-50445",
+        "filename": "05-question-50445.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-2044",
+        "filename": "06-step-2044.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-19586",
+        "filename": "07-question-19586.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-50693",
+        "filename": "08-question-50693.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-2050",
+        "filename": "09-step-2050.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-2051",
+        "filename": "10-step-2051.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-19733",
+        "filename": "11-question-19733.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-50684",
+        "filename": "12-question-50684.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-27058",
+        "filename": "13-step-27058.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-19875",
+        "filename": "14-question-19875.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-19878",
+        "filename": "15-question-19878.png"
+      },
+      {
+        "index": 16,
+        "item_type": "step",
+        "selector": "#step-27863",
+        "filename": "16-step-27863.png"
+      }
+    ]
+  }
+}

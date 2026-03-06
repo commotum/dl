@@ -1,0 +1,293 @@
+{
+  "schema_version": 1,
+  "topic_id": "1850",
+  "topic_title": "The Column Space of a Matrix",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1850.html",
+  "source_url": "https://mathacademy.com/topics/1850",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "17489",
+        "dom_id": "sectionLink-17489",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-17489"
+      },
+      {
+        "index": 2,
+        "step_id": "17491",
+        "dom_id": "sectionLink-17491",
+        "name": "",
+        "title": "Determining if a Vector is in the Column Space of a Matrix",
+        "selector": "#sectionLink-17491"
+      },
+      {
+        "index": 3,
+        "step_id": "23239",
+        "dom_id": "sectionLink-23239",
+        "name": "",
+        "title": "Determining the Value of an Unknown Given a Vector That\u2019s in the Column Space of a Matrix",
+        "selector": "#sectionLink-23239"
+      },
+      {
+        "index": 4,
+        "step_id": "17493",
+        "dom_id": "sectionLink-17493",
+        "name": "",
+        "title": "Properties of the Column Space of a Matrix",
+        "selector": "#sectionLink-17493"
+      },
+      {
+        "index": 5,
+        "step_id": "17494",
+        "dom_id": "sectionLink-17494",
+        "name": "",
+        "title": "Determining if a Vector Is in the Column Space of a Larger Matrix",
+        "selector": "#sectionLink-17494"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "155",
+        "name": "Representing 3x3 Systems of Equations Using a Matrix Product",
+        "href": "/topics/representing-3x3-systems-of-equations-using-a-matrix-product-155"
+      },
+      {
+        "topic_id": "1852",
+        "name": "Linear Span of Vectors in N-Dimensional Euclidean Space",
+        "href": "/topics/linear-span-of-vectors-in-n-dimensional-euclidean-space-1852"
+      },
+      {
+        "topic_id": "4077",
+        "name": "Subspaces of N-Dimensional Space: Geometric Interpretation",
+        "href": "/topics/subspaces-of-n-dimensional-space-geometric-interpretation-4077"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "17489",
+        "content_id": "3201",
+        "dom_id": "step-17489",
+        "selector": "#step-17489",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17491",
+        "content_id": "4807",
+        "dom_id": "step-17491",
+        "selector": "#step-17491",
+        "step_anchor": "step-2",
+        "title": "Determining if a Vector is in the Column Space of a Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "1852",
+            "name": "Linear Span of Vectors in N-Dimensional Euclidean Space",
+            "href": "/topics/1852"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "34258",
+        "dom_id": "question-34258",
+        "selector": "#question-34258",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "34499",
+        "dom_id": "question-34499",
+        "selector": "#question-34499",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "23239",
+        "content_id": "6208",
+        "dom_id": "step-23239",
+        "selector": "#step-23239",
+        "step_anchor": "step-5",
+        "title": "Determining the Value of an Unknown Given a Vector That\u2019s in the Column Space of a Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "35567",
+        "dom_id": "question-35567",
+        "selector": "#question-35567",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "35568",
+        "dom_id": "question-35568",
+        "selector": "#question-35568",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "17493",
+        "content_id": "3203",
+        "dom_id": "step-17493",
+        "selector": "#step-17493",
+        "step_anchor": "step-8",
+        "title": "Properties of the Column Space of a Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17494",
+        "content_id": "4808",
+        "dom_id": "step-17494",
+        "selector": "#step-17494",
+        "step_anchor": "step-9",
+        "title": "Determining if a Vector Is in the Column Space of a Larger Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "74080",
+        "dom_id": "question-74080",
+        "selector": "#question-74080",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "34260",
+        "dom_id": "question-34260",
+        "selector": "#question-34260",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-17489",
+        "filename": "01-step-17489.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-17491",
+        "filename": "02-step-17491.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-34258",
+        "filename": "03-question-34258.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-34499",
+        "filename": "04-question-34499.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-23239",
+        "filename": "05-step-23239.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-35567",
+        "filename": "06-question-35567.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-35568",
+        "filename": "07-question-35568.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-17493",
+        "filename": "08-step-17493.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-17494",
+        "filename": "09-step-17494.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-74080",
+        "filename": "10-question-74080.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-34260",
+        "filename": "11-question-34260.png"
+      }
+    ]
+  }
+}

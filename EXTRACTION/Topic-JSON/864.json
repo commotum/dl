@@ -1,0 +1,341 @@
+{
+  "schema_version": 1,
+  "topic_id": "864",
+  "topic_title": "Inverses of 2x2 Matrices",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/864.html",
+  "source_url": "https://mathacademy.com/topics/864",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "16457",
+        "dom_id": "sectionLink-16457",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-16457"
+      },
+      {
+        "index": 2,
+        "step_id": "16458",
+        "dom_id": "sectionLink-16458",
+        "name": "",
+        "title": "Calculating the Inverse of a 2x2 Matrix",
+        "selector": "#sectionLink-16458"
+      },
+      {
+        "index": 3,
+        "step_id": "16459",
+        "dom_id": "sectionLink-16459",
+        "name": "",
+        "title": "Invertible and Singular Matrices",
+        "selector": "#sectionLink-16459"
+      },
+      {
+        "index": 4,
+        "step_id": "16460",
+        "dom_id": "sectionLink-16460",
+        "name": "",
+        "title": "Identifying Singular Matrices",
+        "selector": "#sectionLink-16460"
+      },
+      {
+        "index": 5,
+        "step_id": "16461",
+        "dom_id": "sectionLink-16461",
+        "name": "",
+        "title": "Solving for a Variable in a Singular Matrix",
+        "selector": "#sectionLink-16461"
+      },
+      {
+        "index": 6,
+        "step_id": "16462",
+        "dom_id": "sectionLink-16462",
+        "name": "",
+        "title": "Verifying the Formula",
+        "selector": "#sectionLink-16462"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "146",
+        "name": "Scalar Multiplication of Matrices",
+        "href": "/topics/scalar-multiplication-of-matrices-146"
+      },
+      {
+        "topic_id": "152",
+        "name": "The Determinant of a 2x2 Matrix",
+        "href": "/topics/the-determinant-of-a-2x2-matrix-152"
+      },
+      {
+        "topic_id": "375",
+        "name": "Solving Quadratic Equations by Factoring",
+        "href": "/topics/solving-quadratic-equations-by-factoring-375"
+      },
+      {
+        "topic_id": "863",
+        "name": "Introduction to the Inverse of a Matrix",
+        "href": "/topics/introduction-to-the-inverse-of-a-matrix-863"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "16457",
+        "content_id": "3045",
+        "dom_id": "step-16457",
+        "selector": "#step-16457",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "16458",
+        "content_id": "4502",
+        "dom_id": "step-16458",
+        "selector": "#step-16458",
+        "step_anchor": "step-2",
+        "title": "Calculating the Inverse of a 2x2 Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "152",
+            "name": "The Determinant of a 2x2 Matrix",
+            "href": "/topics/152"
+          },
+          {
+            "topic_id": "863",
+            "name": "Introduction to the Inverse of a Matrix",
+            "href": "/topics/863"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "7924",
+        "dom_id": "question-7924",
+        "selector": "#question-7924",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "11724",
+        "dom_id": "question-11724",
+        "selector": "#question-11724",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "16459",
+        "content_id": "3046",
+        "dom_id": "step-16459",
+        "selector": "#step-16459",
+        "step_anchor": "step-5",
+        "title": "Invertible and Singular Matrices",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "16460",
+        "content_id": "4503",
+        "dom_id": "step-16460",
+        "selector": "#step-16460",
+        "step_anchor": "step-6",
+        "title": "Identifying Singular Matrices",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "11718",
+        "dom_id": "question-11718",
+        "selector": "#question-11718",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "11725",
+        "dom_id": "question-11725",
+        "selector": "#question-11725",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "16461",
+        "content_id": "4504",
+        "dom_id": "step-16461",
+        "selector": "#step-16461",
+        "step_anchor": "step-9",
+        "title": "Solving for a Variable in a Singular Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "375",
+            "name": "Solving Quadratic Equations by Factoring",
+            "href": "/topics/375"
+          },
+          {
+            "topic_id": "430",
+            "name": "Solving Equations Using the Square Root Method",
+            "href": "/topics/430"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "11722",
+        "dom_id": "question-11722",
+        "selector": "#question-11722",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "11723",
+        "dom_id": "question-11723",
+        "selector": "#question-11723",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "16462",
+        "content_id": "3047",
+        "dom_id": "step-16462",
+        "selector": "#step-16462",
+        "step_anchor": "step-12",
+        "title": "Verifying the Formula",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-16457",
+        "filename": "01-step-16457.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-16458",
+        "filename": "02-step-16458.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-7924",
+        "filename": "03-question-7924.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-11724",
+        "filename": "04-question-11724.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-16459",
+        "filename": "05-step-16459.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-16460",
+        "filename": "06-step-16460.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-11718",
+        "filename": "07-question-11718.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-11725",
+        "filename": "08-question-11725.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-16461",
+        "filename": "09-step-16461.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-11722",
+        "filename": "10-question-11722.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-11723",
+        "filename": "11-question-11723.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-16462",
+        "filename": "12-step-16462.png"
+      }
+    ]
+  }
+}

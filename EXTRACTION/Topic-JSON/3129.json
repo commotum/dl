@@ -1,0 +1,362 @@
+{
+  "schema_version": 1,
+  "topic_id": "3129",
+  "topic_title": "Reducing a Quadratic Curve to Its Principal Axes",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3129.html",
+  "source_url": "https://mathacademy.com/topics/3129",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "30544",
+        "dom_id": "sectionLink-30544",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-30544"
+      },
+      {
+        "index": 2,
+        "step_id": "31528",
+        "dom_id": "sectionLink-31528",
+        "name": "",
+        "title": "Identifying the Principal Axes of a Quadratic Curve Using a Diagram",
+        "selector": "#sectionLink-31528"
+      },
+      {
+        "index": 3,
+        "step_id": "30925",
+        "dom_id": "sectionLink-30925",
+        "name": "",
+        "title": "Identifying a Quadratic Plane Curve",
+        "selector": "#sectionLink-30925"
+      },
+      {
+        "index": 4,
+        "step_id": "31799",
+        "dom_id": "sectionLink-31799",
+        "name": "",
+        "title": "Some Special Cases",
+        "selector": "#sectionLink-31799"
+      },
+      {
+        "index": 5,
+        "step_id": "32221",
+        "dom_id": "sectionLink-32221",
+        "name": "",
+        "title": "Finding the Principal Axes of a Quadratic Plane Curve Given the Corresponding Eigenvalues",
+        "selector": "#sectionLink-32221"
+      },
+      {
+        "index": 6,
+        "step_id": "30924",
+        "dom_id": "sectionLink-30924",
+        "name": "",
+        "title": "Finding the Principal Axes of a Quadratic Plane Curve",
+        "selector": "#sectionLink-30924"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "871",
+        "name": "Equations of Hyperbolas Centered at the Origin",
+        "href": "/topics/equations-of-hyperbolas-centered-at-the-origin-871"
+      },
+      {
+        "topic_id": "3126",
+        "name": "Finding the Canonical Form of a Quadratic Form Using Orthogonal Transformations",
+        "href": "/topics/finding-the-canonical-form-of-a-quadratic-form-using-orthogonal-transformations-3126"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "30544",
+        "content_id": "4890",
+        "dom_id": "step-30544",
+        "selector": "#step-30544",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "31528",
+        "content_id": "8473",
+        "dom_id": "step-31528",
+        "selector": "#step-31528",
+        "step_anchor": "step-2",
+        "title": "Identifying the Principal Axes of a Quadratic Curve Using a Diagram",
+        "key_prerequisites": [
+          {
+            "topic_id": "848",
+            "name": "Equations of Ellipses Centered at the Origin",
+            "href": "/topics/848"
+          },
+          {
+            "topic_id": "871",
+            "name": "Equations of Hyperbolas Centered at the Origin",
+            "href": "/topics/871"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "96720",
+        "dom_id": "question-96720",
+        "selector": "#question-96720",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "96031",
+        "dom_id": "question-96031",
+        "selector": "#question-96031",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30925",
+        "content_id": "8277",
+        "dom_id": "step-30925",
+        "selector": "#step-30925",
+        "step_anchor": "step-5",
+        "title": "Identifying a Quadratic Plane Curve",
+        "key_prerequisites": [
+          {
+            "topic_id": "3126",
+            "name": "Finding the Canonical Form of a Quadratic Form Using Orthogonal Transformations",
+            "href": "/topics/3126"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "94596",
+        "dom_id": "question-94596",
+        "selector": "#question-94596",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "94986",
+        "dom_id": "question-94986",
+        "selector": "#question-94986",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "31799",
+        "content_id": "5077",
+        "dom_id": "step-31799",
+        "selector": "#step-31799",
+        "step_anchor": "step-8",
+        "title": "Some Special Cases",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "32221",
+        "content_id": "8678",
+        "dom_id": "step-32221",
+        "selector": "#step-32221",
+        "step_anchor": "step-9",
+        "title": "Finding the Principal Axes of a Quadratic Plane Curve Given the Corresponding Eigenvalues",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "97986",
+        "dom_id": "question-97986",
+        "selector": "#question-97986",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "97987",
+        "dom_id": "question-97987",
+        "selector": "#question-97987",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30924",
+        "content_id": "8276",
+        "dom_id": "step-30924",
+        "selector": "#step-30924",
+        "step_anchor": "step-12",
+        "title": "Finding the Principal Axes of a Quadratic Plane Curve",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "94678",
+        "dom_id": "question-94678",
+        "selector": "#question-94678",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "95809",
+        "dom_id": "question-95809",
+        "selector": "#question-95809",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-30544",
+        "filename": "01-step-30544.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-31528",
+        "filename": "02-step-31528.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-96720",
+        "filename": "03-question-96720.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-96031",
+        "filename": "04-question-96031.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-30925",
+        "filename": "05-step-30925.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-94596",
+        "filename": "06-question-94596.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-94986",
+        "filename": "07-question-94986.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-31799",
+        "filename": "08-step-31799.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-32221",
+        "filename": "09-step-32221.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-97986",
+        "filename": "10-question-97986.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-97987",
+        "filename": "11-question-97987.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-30924",
+        "filename": "12-step-30924.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-94678",
+        "filename": "13-question-94678.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-95809",
+        "filename": "14-question-95809.png"
+      }
+    ]
+  }
+}

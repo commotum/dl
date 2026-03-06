@@ -1,0 +1,342 @@
+{
+  "schema_version": 1,
+  "topic_id": "602",
+  "topic_title": "Euler's Method: Calculating One Step",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/602.html",
+  "source_url": "https://mathacademy.com/topics/602",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "1888",
+        "dom_id": "sectionLink-1888",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-1888"
+      },
+      {
+        "index": 2,
+        "step_id": "1889",
+        "dom_id": "sectionLink-1889",
+        "name": "",
+        "title": "Approximating a Solution to an Initial Value Problem Using a Tangent Line Approximation",
+        "selector": "#sectionLink-1889"
+      },
+      {
+        "index": 3,
+        "step_id": "27235",
+        "dom_id": "sectionLink-27235",
+        "name": "",
+        "title": "Euler's Method",
+        "selector": "#sectionLink-27235"
+      },
+      {
+        "index": 4,
+        "step_id": "34946",
+        "dom_id": "sectionLink-34946",
+        "name": "",
+        "title": "A Worked Example of Euler's Method",
+        "selector": "#sectionLink-34946"
+      },
+      {
+        "index": 5,
+        "step_id": "28637",
+        "dom_id": "sectionLink-28637",
+        "name": "",
+        "title": "Completing the First Row of a Table Using Euler's Method",
+        "selector": "#sectionLink-28637"
+      },
+      {
+        "index": 6,
+        "step_id": "34949",
+        "dom_id": "sectionLink-34949",
+        "name": "",
+        "title": "Approximating the Solution to an Initial Value Problem Using Euler's Method With One Step",
+        "selector": "#sectionLink-34949"
+      },
+      {
+        "index": 7,
+        "step_id": "34957",
+        "dom_id": "sectionLink-34957",
+        "name": "",
+        "title": "A Graphical Explanation of Euler's Method",
+        "selector": "#sectionLink-34957"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "621",
+        "name": "Approximating Functions Using Local Linearity and Linearization",
+        "href": "/topics/approximating-functions-using-local-linearity-and-linearization-621"
+      },
+      {
+        "topic_id": "2976",
+        "name": "Qualitative Analysis of First-Order ODEs",
+        "href": "/topics/qualitative-analysis-of-first-order-odes-2976"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "1888",
+        "content_id": "965",
+        "dom_id": "step-1888",
+        "selector": "#step-1888",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "1889",
+        "content_id": "536",
+        "dom_id": "step-1889",
+        "selector": "#step-1889",
+        "step_anchor": "step-2",
+        "title": "Approximating a Solution to an Initial Value Problem Using a Tangent Line Approximation",
+        "key_prerequisites": [
+          {
+            "topic_id": "621",
+            "name": "Approximating Functions Using Local Linearity and Linearization",
+            "href": "/topics/621"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "50119",
+        "dom_id": "question-50119",
+        "selector": "#question-50119",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "53846",
+        "dom_id": "question-53846",
+        "selector": "#question-53846",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "27235",
+        "content_id": "4429",
+        "dom_id": "step-27235",
+        "selector": "#step-27235",
+        "step_anchor": "step-5",
+        "title": "Euler's Method",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "34946",
+        "content_id": "5692",
+        "dom_id": "step-34946",
+        "selector": "#step-34946",
+        "step_anchor": "step-6",
+        "title": "A Worked Example of Euler's Method",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "28637",
+        "content_id": "7700",
+        "dom_id": "step-28637",
+        "selector": "#step-28637",
+        "step_anchor": "step-7",
+        "title": "Completing the First Row of a Table Using Euler's Method",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "86967",
+        "dom_id": "question-86967",
+        "selector": "#question-86967",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "86900",
+        "dom_id": "question-86900",
+        "selector": "#question-86900",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "34949",
+        "content_id": "9340",
+        "dom_id": "step-34949",
+        "selector": "#step-34949",
+        "step_anchor": "step-10",
+        "title": "Approximating the Solution to an Initial Value Problem Using Euler's Method With One Step",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "116746",
+        "dom_id": "question-116746",
+        "selector": "#question-116746",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "86975",
+        "dom_id": "question-86975",
+        "selector": "#question-86975",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "34957",
+        "content_id": "5693",
+        "dom_id": "step-34957",
+        "selector": "#step-34957",
+        "step_anchor": "step-13",
+        "title": "A Graphical Explanation of Euler's Method",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-1888",
+        "filename": "01-step-1888.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-1889",
+        "filename": "02-step-1889.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-50119",
+        "filename": "03-question-50119.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-53846",
+        "filename": "04-question-53846.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-27235",
+        "filename": "05-step-27235.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-34946",
+        "filename": "06-step-34946.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-28637",
+        "filename": "07-step-28637.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-86967",
+        "filename": "08-question-86967.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-86900",
+        "filename": "09-question-86900.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-34949",
+        "filename": "10-step-34949.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-116746",
+        "filename": "11-question-116746.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-86975",
+        "filename": "12-question-86975.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-34957",
+        "filename": "13-step-34957.png"
+      }
+    ]
+  }
+}

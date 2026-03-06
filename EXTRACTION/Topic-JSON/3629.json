@@ -1,0 +1,331 @@
+{
+  "schema_version": 1,
+  "topic_id": "3629",
+  "topic_title": "Jordan Canonical Form of a 2x2 Matrix",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3629.html",
+  "source_url": "https://mathacademy.com/topics/3629",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "33887",
+        "dom_id": "sectionLink-33887",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-33887"
+      },
+      {
+        "index": 2,
+        "step_id": "33888",
+        "dom_id": "sectionLink-33888",
+        "name": "",
+        "title": "Finding a Jordan Canonical Form of a 2x2 Matrix With Two Distinct Eigenvalues",
+        "selector": "#sectionLink-33888"
+      },
+      {
+        "index": 3,
+        "step_id": "34490",
+        "dom_id": "sectionLink-34490",
+        "name": "",
+        "title": "Finding a Jordan Canonical Form of a 2x2 Scalar Matrix",
+        "selector": "#sectionLink-34490"
+      },
+      {
+        "index": 4,
+        "step_id": "34482",
+        "dom_id": "sectionLink-34482",
+        "name": "",
+        "title": "Finding a Jordan Canonical Form of a Non-Diagonalizable 2x2 Matrix",
+        "selector": "#sectionLink-34482"
+      },
+      {
+        "index": 5,
+        "step_id": "34489",
+        "dom_id": "sectionLink-34489",
+        "name": "",
+        "title": "Finding a Jordan Canonical Form of a 2x2 Matrix With Only One Eigenvalue",
+        "selector": "#sectionLink-34489"
+      },
+      {
+        "index": 6,
+        "step_id": "34509",
+        "dom_id": "sectionLink-34509",
+        "name": "",
+        "title": "Overview of All Possible Jordan Canonical Forms of 2x2 Matrices",
+        "selector": "#sectionLink-34509"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1969",
+        "name": "Properties of Diagonalization",
+        "href": "/topics/properties-of-diagonalization-1969"
+      },
+      {
+        "topic_id": "2738",
+        "name": "Generalized Eigenvectors",
+        "href": "/topics/generalized-eigenvectors-2738"
+      },
+      {
+        "topic_id": "3114",
+        "name": "Jordan Blocks and Jordan Matrices",
+        "href": "/topics/jordan-blocks-and-jordan-matrices-3114"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "33887",
+        "content_id": "5439",
+        "dom_id": "step-33887",
+        "selector": "#step-33887",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33888",
+        "content_id": "9087",
+        "dom_id": "step-33888",
+        "selector": "#step-33888",
+        "step_anchor": "step-2",
+        "title": "Finding a Jordan Canonical Form of a 2x2 Matrix With Two Distinct Eigenvalues",
+        "key_prerequisites": [
+          {
+            "topic_id": "990",
+            "name": "Calculating the Eigenvalues of a 2x2 Matrix",
+            "href": "/topics/990"
+          },
+          {
+            "topic_id": "3114",
+            "name": "Jordan Blocks and Jordan Matrices",
+            "href": "/topics/3114"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "108719",
+        "dom_id": "question-108719",
+        "selector": "#question-108719",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "112453",
+        "dom_id": "question-112453",
+        "selector": "#question-112453",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "34490",
+        "content_id": "9226",
+        "dom_id": "step-34490",
+        "selector": "#step-34490",
+        "step_anchor": "step-5",
+        "title": "Finding a Jordan Canonical Form of a 2x2 Scalar Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "112422",
+        "dom_id": "question-112422",
+        "selector": "#question-112422",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "112448",
+        "dom_id": "question-112448",
+        "selector": "#question-112448",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "34482",
+        "content_id": "5584",
+        "dom_id": "step-34482",
+        "selector": "#step-34482",
+        "step_anchor": "step-8",
+        "title": "Finding a Jordan Canonical Form of a Non-Diagonalizable 2x2 Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "34489",
+        "content_id": "9225",
+        "dom_id": "step-34489",
+        "selector": "#step-34489",
+        "step_anchor": "step-9",
+        "title": "Finding a Jordan Canonical Form of a 2x2 Matrix With Only One Eigenvalue",
+        "key_prerequisites": [
+          {
+            "topic_id": "1968",
+            "name": "Diagonalizing a 2x2 Matrix",
+            "href": "/topics/1968"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "108613",
+        "dom_id": "question-108613",
+        "selector": "#question-108613",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "109094",
+        "dom_id": "question-109094",
+        "selector": "#question-109094",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "34509",
+        "content_id": "5597",
+        "dom_id": "step-34509",
+        "selector": "#step-34509",
+        "step_anchor": "step-12",
+        "title": "Overview of All Possible Jordan Canonical Forms of 2x2 Matrices",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-33887",
+        "filename": "01-step-33887.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-33888",
+        "filename": "02-step-33888.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-108719",
+        "filename": "03-question-108719.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-112453",
+        "filename": "04-question-112453.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-34490",
+        "filename": "05-step-34490.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-112422",
+        "filename": "06-question-112422.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-112448",
+        "filename": "07-question-112448.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-34482",
+        "filename": "08-step-34482.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-34489",
+        "filename": "09-step-34489.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-108613",
+        "filename": "10-question-108613.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-109094",
+        "filename": "11-question-109094.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-34509",
+        "filename": "12-step-34509.png"
+      }
+    ]
+  }
+}

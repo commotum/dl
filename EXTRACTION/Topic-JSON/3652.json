@@ -1,0 +1,322 @@
+{
+  "schema_version": 1,
+  "topic_id": "3652",
+  "topic_title": "Jordan Canonical Decomposition of a 2x2 Matrix",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3652.html",
+  "source_url": "https://mathacademy.com/topics/3652",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "33889",
+        "dom_id": "sectionLink-33889",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-33889"
+      },
+      {
+        "index": 2,
+        "step_id": "34513",
+        "dom_id": "sectionLink-34513",
+        "name": "",
+        "title": "An Introductory Example",
+        "selector": "#sectionLink-34513"
+      },
+      {
+        "index": 3,
+        "step_id": "34493",
+        "dom_id": "sectionLink-34493",
+        "name": "",
+        "title": "Identifying Columns of a Transformation Matrix in a Jordan Decomposition",
+        "selector": "#sectionLink-34493"
+      },
+      {
+        "index": 4,
+        "step_id": "34497",
+        "dom_id": "sectionLink-34497",
+        "name": "",
+        "title": "Finding the Jordan Decomposition of a Non-Diagonalizable 2x2 Matrix",
+        "selector": "#sectionLink-34497"
+      },
+      {
+        "index": 5,
+        "step_id": "33890",
+        "dom_id": "sectionLink-33890",
+        "name": "",
+        "title": "Finding Elements of a Jordan Canonical Decomposition for a 2x2 Matrix: The First Column Case",
+        "selector": "#sectionLink-33890"
+      },
+      {
+        "index": 6,
+        "step_id": "33891",
+        "dom_id": "sectionLink-33891",
+        "name": "",
+        "title": "Finding Elements of a Jordan Canonical Decomposition for a 2x2 Matrix: The Second Column Case",
+        "selector": "#sectionLink-33891"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3629",
+        "name": "Jordan Canonical Form of a 2x2 Matrix",
+        "href": "/topics/jordan-canonical-form-of-a-2x2-matrix-3629"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "33889",
+        "content_id": "5440",
+        "dom_id": "step-33889",
+        "selector": "#step-33889",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "34513",
+        "content_id": "5601",
+        "dom_id": "step-34513",
+        "selector": "#step-34513",
+        "step_anchor": "step-2",
+        "title": "An Introductory Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "34493",
+        "content_id": "9227",
+        "dom_id": "step-34493",
+        "selector": "#step-34493",
+        "step_anchor": "step-3",
+        "title": "Identifying Columns of a Transformation Matrix in a Jordan Decomposition",
+        "key_prerequisites": [
+          {
+            "topic_id": "3629",
+            "name": "Jordan Canonical Form of a 2x2 Matrix",
+            "href": "/topics/3629"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "112432",
+        "dom_id": "question-112432",
+        "selector": "#question-112432",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "112431",
+        "dom_id": "question-112431",
+        "selector": "#question-112431",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "34497",
+        "content_id": "5592",
+        "dom_id": "step-34497",
+        "selector": "#step-34497",
+        "step_anchor": "step-6",
+        "title": "Finding the Jordan Decomposition of a Non-Diagonalizable 2x2 Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33890",
+        "content_id": "9088",
+        "dom_id": "step-33890",
+        "selector": "#step-33890",
+        "step_anchor": "step-7",
+        "title": "Finding Elements of a Jordan Canonical Decomposition for a 2x2 Matrix: The First Column Case",
+        "key_prerequisites": [
+          {
+            "topic_id": "991",
+            "name": "Calculating the Eigenvectors of a 2x2 Matrix",
+            "href": "/topics/991"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "109368",
+        "dom_id": "question-109368",
+        "selector": "#question-109368",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "108732",
+        "dom_id": "question-108732",
+        "selector": "#question-108732",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33891",
+        "content_id": "9089",
+        "dom_id": "step-33891",
+        "selector": "#step-33891",
+        "step_anchor": "step-10",
+        "title": "Finding Elements of a Jordan Canonical Decomposition for a 2x2 Matrix: The Second Column Case",
+        "key_prerequisites": [
+          {
+            "topic_id": "1373",
+            "name": "Solving 2x2 Singular Systems of Equations Using Gaussian Elimination",
+            "href": "/topics/1373"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "109381",
+        "dom_id": "question-109381",
+        "selector": "#question-109381",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "108728",
+        "dom_id": "question-108728",
+        "selector": "#question-108728",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-33889",
+        "filename": "01-step-33889.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-34513",
+        "filename": "02-step-34513.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-34493",
+        "filename": "03-step-34493.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-112432",
+        "filename": "04-question-112432.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-112431",
+        "filename": "05-question-112431.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-34497",
+        "filename": "06-step-34497.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-33890",
+        "filename": "07-step-33890.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-109368",
+        "filename": "08-question-109368.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-108732",
+        "filename": "09-question-108732.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-33891",
+        "filename": "10-step-33891.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-109381",
+        "filename": "11-question-109381.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-108728",
+        "filename": "12-question-108728.png"
+      }
+    ]
+  }
+}

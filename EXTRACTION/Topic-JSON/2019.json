@@ -1,0 +1,394 @@
+{
+  "schema_version": 1,
+  "topic_id": "2019",
+  "topic_title": "Block Diagonalization of NxN Matrices",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2019.html",
+  "source_url": "https://mathacademy.com/topics/2019",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "20173",
+        "dom_id": "sectionLink-20173",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-20173"
+      },
+      {
+        "index": 2,
+        "step_id": "20175",
+        "dom_id": "sectionLink-20175",
+        "name": "",
+        "title": "The Block Diagonalization Theorem for a 3x3 Matrix",
+        "selector": "#sectionLink-20175"
+      },
+      {
+        "index": 3,
+        "step_id": "21723",
+        "dom_id": "sectionLink-21723",
+        "name": "",
+        "title": "Finding the Eigenvalues and Corresponding Eigenvectors of a Matrix in Block Diagonal Form",
+        "selector": "#sectionLink-21723"
+      },
+      {
+        "index": 4,
+        "step_id": "20174",
+        "dom_id": "sectionLink-20174",
+        "name": "",
+        "title": "Finding a Block Diagonalization of a 3x3 Matrix",
+        "selector": "#sectionLink-20174"
+      },
+      {
+        "index": 5,
+        "step_id": "20176",
+        "dom_id": "sectionLink-20176",
+        "name": "",
+        "title": "Calculating the Invertible Matrix in Block Diagonal Form of a 3x3 Matrix",
+        "selector": "#sectionLink-20176"
+      },
+      {
+        "index": 6,
+        "step_id": "20177",
+        "dom_id": "sectionLink-20177",
+        "name": "",
+        "title": "Generalization of Block Diagonalization to NxN Matrices",
+        "selector": "#sectionLink-20177"
+      },
+      {
+        "index": 7,
+        "step_id": "20178",
+        "dom_id": "sectionLink-20178",
+        "name": "",
+        "title": "Calculating the Invertible Matrix in Block Diagonal Form of an NxN Matrix",
+        "selector": "#sectionLink-20178"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1735",
+        "name": "Partitioned and Block Matrices",
+        "href": "/topics/partitioned-and-block-matrices-1735"
+      },
+      {
+        "topic_id": "1971",
+        "name": "Diagonalizing a 3x3 Matrix in the General Case",
+        "href": "/topics/diagonalizing-a-3x3-matrix-in-the-general-case-1971"
+      },
+      {
+        "topic_id": "2018",
+        "name": "Reducing Real 2x2 Matrices to Rotation-Scaling Form",
+        "href": "/topics/reducing-real-2x2-matrices-to-rotation-scaling-form-2018"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20173",
+        "content_id": "3597",
+        "dom_id": "step-20173",
+        "selector": "#step-20173",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20175",
+        "content_id": "3598",
+        "dom_id": "step-20175",
+        "selector": "#step-20175",
+        "step_anchor": "step-2",
+        "title": "The Block Diagonalization Theorem for a 3x3 Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "21723",
+        "content_id": "5906",
+        "dom_id": "step-21723",
+        "selector": "#step-21723",
+        "step_anchor": "step-3",
+        "title": "Finding the Eigenvalues and Corresponding Eigenvectors of a Matrix in Block Diagonal Form",
+        "key_prerequisites": [
+          {
+            "topic_id": "1735",
+            "name": "Partitioned and Block Matrices",
+            "href": "/topics/1735"
+          },
+          {
+            "topic_id": "2018",
+            "name": "Reducing Real 2x2 Matrices to Rotation-Scaling Form",
+            "href": "/topics/2018"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "38656",
+        "dom_id": "question-38656",
+        "selector": "#question-38656",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "38665",
+        "dom_id": "question-38665",
+        "selector": "#question-38665",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20174",
+        "content_id": "5533",
+        "dom_id": "step-20174",
+        "selector": "#step-20174",
+        "step_anchor": "step-6",
+        "title": "Finding a Block Diagonalization of a 3x3 Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "1970",
+            "name": "Diagonalizing a 3x3 Matrix With Distinct Eigenvalues",
+            "href": "/topics/1970"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "38655",
+        "dom_id": "question-38655",
+        "selector": "#question-38655",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "38662",
+        "dom_id": "question-38662",
+        "selector": "#question-38662",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20176",
+        "content_id": "5534",
+        "dom_id": "step-20176",
+        "selector": "#step-20176",
+        "step_anchor": "step-9",
+        "title": "Calculating the Invertible Matrix in Block Diagonal Form of a 3x3 Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "38660",
+        "dom_id": "question-38660",
+        "selector": "#question-38660",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "38661",
+        "dom_id": "question-38661",
+        "selector": "#question-38661",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20177",
+        "content_id": "3599",
+        "dom_id": "step-20177",
+        "selector": "#step-20177",
+        "step_anchor": "step-12",
+        "title": "Generalization of Block Diagonalization to NxN Matrices",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20178",
+        "content_id": "5535",
+        "dom_id": "step-20178",
+        "selector": "#step-20178",
+        "step_anchor": "step-13",
+        "title": "Calculating the Invertible Matrix in Block Diagonal Form of an NxN Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "38667",
+        "dom_id": "question-38667",
+        "selector": "#question-38667",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "135542",
+        "dom_id": "question-135542",
+        "selector": "#question-135542",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-20173",
+        "filename": "01-step-20173.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-20175",
+        "filename": "02-step-20175.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-21723",
+        "filename": "03-step-21723.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-38656",
+        "filename": "04-question-38656.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-38665",
+        "filename": "05-question-38665.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-20174",
+        "filename": "06-step-20174.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-38655",
+        "filename": "07-question-38655.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-38662",
+        "filename": "08-question-38662.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-20176",
+        "filename": "09-step-20176.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-38660",
+        "filename": "10-question-38660.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-38661",
+        "filename": "11-question-38661.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-20177",
+        "filename": "12-step-20177.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-20178",
+        "filename": "13-step-20178.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-38667",
+        "filename": "14-question-38667.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-135542",
+        "filename": "15-question-135542.png"
+      }
+    ]
+  }
+}

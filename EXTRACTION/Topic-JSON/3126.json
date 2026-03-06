@@ -1,0 +1,278 @@
+{
+  "schema_version": 1,
+  "topic_id": "3126",
+  "topic_title": "Finding the Canonical Form of a Quadratic Form Using Orthogonal Transformations",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3126.html",
+  "source_url": "https://mathacademy.com/topics/3126",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "30542",
+        "dom_id": "sectionLink-30542",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-30542"
+      },
+      {
+        "index": 2,
+        "step_id": "30849",
+        "dom_id": "sectionLink-30849",
+        "name": "",
+        "title": "Finding the Canonical Form of a Quadratic Function by Finding Eigenvalues",
+        "selector": "#sectionLink-30849"
+      },
+      {
+        "index": 3,
+        "step_id": "30850",
+        "dom_id": "sectionLink-30850",
+        "name": "",
+        "title": "Reducing a Quadratic Function Over the 2D-Space to the Canonical Form Using Orthogonal Transformations",
+        "selector": "#sectionLink-30850"
+      },
+      {
+        "index": 4,
+        "step_id": "30851",
+        "dom_id": "sectionLink-30851",
+        "name": "",
+        "title": "Reducing a Quadratic Function Over the 3D-Space to the Canonical Form Using Orthogonal Transformations",
+        "selector": "#sectionLink-30851"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3119",
+        "name": "Diagonalization of 3x3 Symmetric Matrices",
+        "href": "/topics/diagonalization-of-3x3-symmetric-matrices-3119"
+      },
+      {
+        "topic_id": "3122",
+        "name": "Change of Variables in Quadratic Forms",
+        "href": "/topics/change-of-variables-in-quadratic-forms-3122"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 10,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "30542",
+        "content_id": "4888",
+        "dom_id": "step-30542",
+        "selector": "#step-30542",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30849",
+        "content_id": "8249",
+        "dom_id": "step-30849",
+        "selector": "#step-30849",
+        "step_anchor": "step-2",
+        "title": "Finding the Canonical Form of a Quadratic Function by Finding Eigenvalues",
+        "key_prerequisites": [
+          {
+            "topic_id": "990",
+            "name": "Calculating the Eigenvalues of a 2x2 Matrix",
+            "href": "/topics/990"
+          },
+          {
+            "topic_id": "3123",
+            "name": "Quadratic Forms",
+            "href": "/topics/3123"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "94446",
+        "dom_id": "question-94446",
+        "selector": "#question-94446",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "94449",
+        "dom_id": "question-94449",
+        "selector": "#question-94449",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30850",
+        "content_id": "8250",
+        "dom_id": "step-30850",
+        "selector": "#step-30850",
+        "step_anchor": "step-5",
+        "title": "Reducing a Quadratic Function Over the 2D-Space to the Canonical Form Using Orthogonal Transformations",
+        "key_prerequisites": [
+          {
+            "topic_id": "1968",
+            "name": "Diagonalizing a 2x2 Matrix",
+            "href": "/topics/1968"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "95064",
+        "dom_id": "question-95064",
+        "selector": "#question-95064",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "94454",
+        "dom_id": "question-94454",
+        "selector": "#question-94454",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30851",
+        "content_id": "8251",
+        "dom_id": "step-30851",
+        "selector": "#step-30851",
+        "step_anchor": "step-8",
+        "title": "Reducing a Quadratic Function Over the 3D-Space to the Canonical Form Using Orthogonal Transformations",
+        "key_prerequisites": [
+          {
+            "topic_id": "1970",
+            "name": "Diagonalizing a 3x3 Matrix With Distinct Eigenvalues",
+            "href": "/topics/1970"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "94461",
+        "dom_id": "question-94461",
+        "selector": "#question-94461",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "95095",
+        "dom_id": "question-95095",
+        "selector": "#question-95095",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-30542",
+        "filename": "01-step-30542.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-30849",
+        "filename": "02-step-30849.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-94446",
+        "filename": "03-question-94446.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-94449",
+        "filename": "04-question-94449.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-30850",
+        "filename": "05-step-30850.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-95064",
+        "filename": "06-question-95064.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-94454",
+        "filename": "07-question-94454.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-30851",
+        "filename": "08-step-30851.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-94461",
+        "filename": "09-question-94461.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-95095",
+        "filename": "10-question-95095.png"
+      }
+    ]
+  }
+}

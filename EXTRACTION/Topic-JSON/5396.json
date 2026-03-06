@@ -1,0 +1,373 @@
+{
+  "schema_version": 1,
+  "topic_id": "5396",
+  "topic_title": "Principal Disjunctive Normal Forms",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/5396.html",
+  "source_url": "https://mathacademy.com/topics/5396",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "414018",
+        "dom_id": "sectionLink-414018",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-414018"
+      },
+      {
+        "index": 2,
+        "step_id": "414019",
+        "dom_id": "sectionLink-414019",
+        "name": "",
+        "title": "Identifying Principal Disjunctive Normal Forms",
+        "selector": "#sectionLink-414019"
+      },
+      {
+        "index": 3,
+        "step_id": "414022",
+        "dom_id": "sectionLink-414022",
+        "name": "",
+        "title": "The Binary Tuple Associated With a Minterm",
+        "selector": "#sectionLink-414022"
+      },
+      {
+        "index": 4,
+        "step_id": "414023",
+        "dom_id": "sectionLink-414023",
+        "name": "",
+        "title": "Determining a Tuple Given a Minterm",
+        "selector": "#sectionLink-414023"
+      },
+      {
+        "index": 5,
+        "step_id": "414026",
+        "dom_id": "sectionLink-414026",
+        "name": "",
+        "title": "Determining a Minterm Given a Tuple",
+        "selector": "#sectionLink-414026"
+      },
+      {
+        "index": 6,
+        "step_id": "414029",
+        "dom_id": "sectionLink-414029",
+        "name": "",
+        "title": "Truth Tables and PDNFs",
+        "selector": "#sectionLink-414029"
+      },
+      {
+        "index": 7,
+        "step_id": "414030",
+        "dom_id": "sectionLink-414030",
+        "name": "",
+        "title": "Finding the PDNF of a Boolean Function",
+        "selector": "#sectionLink-414030"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3780",
+        "name": "Disjunctive Normal Forms",
+        "href": "/topics/disjunctive-normal-forms-3780"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "414018",
+        "content_id": "9497",
+        "dom_id": "step-414018",
+        "selector": "#step-414018",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "414019",
+        "content_id": "15103",
+        "dom_id": "step-414019",
+        "selector": "#step-414019",
+        "step_anchor": "step-2",
+        "title": "Identifying Principal Disjunctive Normal Forms",
+        "key_prerequisites": [
+          {
+            "topic_id": "3780",
+            "name": "Disjunctive Normal Forms",
+            "href": "/topics/3780"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "255861",
+        "dom_id": "question-255861",
+        "selector": "#question-255861",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "225231",
+        "dom_id": "question-225231",
+        "selector": "#question-225231",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "414022",
+        "content_id": "10870",
+        "dom_id": "step-414022",
+        "selector": "#step-414022",
+        "step_anchor": "step-5",
+        "title": "The Binary Tuple Associated With a Minterm",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "414023",
+        "content_id": "15104",
+        "dom_id": "step-414023",
+        "selector": "#step-414023",
+        "step_anchor": "step-6",
+        "title": "Determining a Tuple Given a Minterm",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "255960",
+        "dom_id": "question-255960",
+        "selector": "#question-255960",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "225233",
+        "dom_id": "question-225233",
+        "selector": "#question-225233",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "414026",
+        "content_id": "15105",
+        "dom_id": "step-414026",
+        "selector": "#step-414026",
+        "step_anchor": "step-9",
+        "title": "Determining a Minterm Given a Tuple",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "256230",
+        "dom_id": "question-256230",
+        "selector": "#question-256230",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "225234",
+        "dom_id": "question-225234",
+        "selector": "#question-225234",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "414029",
+        "content_id": "10871",
+        "dom_id": "step-414029",
+        "selector": "#step-414029",
+        "step_anchor": "step-12",
+        "title": "Truth Tables and PDNFs",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "414030",
+        "content_id": "15106",
+        "dom_id": "step-414030",
+        "selector": "#step-414030",
+        "step_anchor": "step-13",
+        "title": "Finding the PDNF of a Boolean Function",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "225237",
+        "dom_id": "question-225237",
+        "selector": "#question-225237",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "225235",
+        "dom_id": "question-225235",
+        "selector": "#question-225235",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-414018",
+        "filename": "01-step-414018.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-414019",
+        "filename": "02-step-414019.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-255861",
+        "filename": "03-question-255861.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-225231",
+        "filename": "04-question-225231.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-414022",
+        "filename": "05-step-414022.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-414023",
+        "filename": "06-step-414023.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-255960",
+        "filename": "07-question-255960.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-225233",
+        "filename": "08-question-225233.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-414026",
+        "filename": "09-step-414026.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-256230",
+        "filename": "10-question-256230.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-225234",
+        "filename": "11-question-225234.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-414029",
+        "filename": "12-step-414029.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-414030",
+        "filename": "13-step-414030.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-225237",
+        "filename": "14-question-225237.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-225235",
+        "filename": "15-question-225235.png"
+      }
+    ]
+  }
+}

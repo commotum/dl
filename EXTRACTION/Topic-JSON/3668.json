@@ -1,0 +1,283 @@
+{
+  "schema_version": 1,
+  "topic_id": "3668",
+  "topic_title": "Euler's Method: Calculating Multiple Steps",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3668.html",
+  "source_url": "https://mathacademy.com/topics/3668",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "34943",
+        "dom_id": "sectionLink-34943",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-34943"
+      },
+      {
+        "index": 2,
+        "step_id": "28638",
+        "dom_id": "sectionLink-28638",
+        "name": "",
+        "title": "Completing the Second Row of a Table Using Euler's Method",
+        "selector": "#sectionLink-28638"
+      },
+      {
+        "index": 3,
+        "step_id": "1894",
+        "dom_id": "sectionLink-1894",
+        "name": "",
+        "title": "Approximating the Solution to an Initial Value Problem Using Euler's Method With Two Steps",
+        "selector": "#sectionLink-1894"
+      },
+      {
+        "index": 4,
+        "step_id": "35018",
+        "dom_id": "sectionLink-35018",
+        "name": "",
+        "title": "Approximating the Solution to an Initial Value Problem Using Euler's Method With Three Steps",
+        "selector": "#sectionLink-35018"
+      },
+      {
+        "index": 5,
+        "step_id": "1897",
+        "dom_id": "sectionLink-1897",
+        "name": "",
+        "title": "The Importance of Step Size in Euler's Method",
+        "selector": "#sectionLink-1897"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "602",
+        "name": "Euler's Method: Calculating One Step",
+        "href": "/topics/eulers-method-calculating-one-step-602"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "34943",
+        "content_id": "5690",
+        "dom_id": "step-34943",
+        "selector": "#step-34943",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "28638",
+        "content_id": "7701",
+        "dom_id": "step-28638",
+        "selector": "#step-28638",
+        "step_anchor": "step-2",
+        "title": "Completing the Second Row of a Table Using Euler's Method",
+        "key_prerequisites": [
+          {
+            "topic_id": "602",
+            "name": "Euler's Method: Calculating One Step",
+            "href": "/topics/602"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "87081",
+        "dom_id": "question-87081",
+        "selector": "#question-87081",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "87004",
+        "dom_id": "question-87004",
+        "selector": "#question-87004",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "1894",
+        "content_id": "537",
+        "dom_id": "step-1894",
+        "selector": "#step-1894",
+        "step_anchor": "step-5",
+        "title": "Approximating the Solution to an Initial Value Problem Using Euler's Method With Two Steps",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "53876",
+        "dom_id": "question-53876",
+        "selector": "#question-53876",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "50118",
+        "dom_id": "question-50118",
+        "selector": "#question-50118",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "35018",
+        "content_id": "9354",
+        "dom_id": "step-35018",
+        "selector": "#step-35018",
+        "step_anchor": "step-8",
+        "title": "Approximating the Solution to an Initial Value Problem Using Euler's Method With Three Steps",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "117765",
+        "dom_id": "question-117765",
+        "selector": "#question-117765",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "117984",
+        "dom_id": "question-117984",
+        "selector": "#question-117984",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "1897",
+        "content_id": "969",
+        "dom_id": "step-1897",
+        "selector": "#step-1897",
+        "step_anchor": "step-11",
+        "title": "The Importance of Step Size in Euler's Method",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-34943",
+        "filename": "01-step-34943.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-28638",
+        "filename": "02-step-28638.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-87081",
+        "filename": "03-question-87081.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-87004",
+        "filename": "04-question-87004.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-1894",
+        "filename": "05-step-1894.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-53876",
+        "filename": "06-question-53876.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-50118",
+        "filename": "07-question-50118.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-35018",
+        "filename": "08-step-35018.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-117765",
+        "filename": "09-question-117765.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-117984",
+        "filename": "10-question-117984.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-1897",
+        "filename": "11-step-1897.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,416 @@
+{
+  "schema_version": 1,
+  "topic_id": "1934",
+  "topic_title": "The Gradient Vector",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1934.html",
+  "source_url": "https://mathacademy.com/topics/1934",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "10570",
+        "dom_id": "sectionLink-10570",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-10570"
+      },
+      {
+        "index": 2,
+        "step_id": "10571",
+        "dom_id": "sectionLink-10571",
+        "name": "",
+        "title": "Calculating the Gradient of a Function of Two Variables",
+        "selector": "#sectionLink-10571"
+      },
+      {
+        "index": 3,
+        "step_id": "10574",
+        "dom_id": "sectionLink-10574",
+        "name": "",
+        "title": "The Gradient of a Function of More Than Two Variables",
+        "selector": "#sectionLink-10574"
+      },
+      {
+        "index": 4,
+        "step_id": "10575",
+        "dom_id": "sectionLink-10575",
+        "name": "",
+        "title": "Calculating the Gradient of a Function of Three Variables",
+        "selector": "#sectionLink-10575"
+      },
+      {
+        "index": 5,
+        "step_id": "10578",
+        "dom_id": "sectionLink-10578",
+        "name": "",
+        "title": "Finding the Points Where a Gradient Vanishes",
+        "selector": "#sectionLink-10578"
+      },
+      {
+        "index": 6,
+        "step_id": "10581",
+        "dom_id": "sectionLink-10581",
+        "name": "",
+        "title": "Properties of the Gradient",
+        "selector": "#sectionLink-10581"
+      },
+      {
+        "index": 7,
+        "step_id": "10701",
+        "dom_id": "sectionLink-10701",
+        "name": "",
+        "title": "Calculating the Gradient Using the Properties of the Gradient",
+        "selector": "#sectionLink-10701"
+      },
+      {
+        "index": 8,
+        "step_id": "22631",
+        "dom_id": "sectionLink-22631",
+        "name": "",
+        "title": "Continuous Partial Derivatives Imply Continuity",
+        "selector": "#sectionLink-22631"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1691",
+        "name": "Continuity and Differentiability of Functions",
+        "href": "/topics/continuity-and-differentiability-of-functions-1691"
+      },
+      {
+        "topic_id": "1932",
+        "name": "Partial Differentiability of Multivariable Functions",
+        "href": "/topics/partial-differentiability-of-multivariable-functions-1932"
+      },
+      {
+        "topic_id": "1955",
+        "name": "Geometric Interpretations of Partial Derivatives",
+        "href": "/topics/geometric-interpretations-of-partial-derivatives-1955"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 16,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "10570",
+        "content_id": "2399",
+        "dom_id": "step-10570",
+        "selector": "#step-10570",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "10571",
+        "content_id": "3131",
+        "dom_id": "step-10571",
+        "selector": "#step-10571",
+        "step_anchor": "step-2",
+        "title": "Calculating the Gradient of a Function of Two Variables",
+        "key_prerequisites": [
+          {
+            "topic_id": "1929",
+            "name": "Introduction to Partial Derivatives",
+            "href": "/topics/1929"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "35990",
+        "dom_id": "question-35990",
+        "selector": "#question-35990",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "35988",
+        "dom_id": "question-35988",
+        "selector": "#question-35988",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "10574",
+        "content_id": "2400",
+        "dom_id": "step-10574",
+        "selector": "#step-10574",
+        "step_anchor": "step-5",
+        "title": "The Gradient of a Function of More Than Two Variables",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "10575",
+        "content_id": "3132",
+        "dom_id": "step-10575",
+        "selector": "#step-10575",
+        "step_anchor": "step-6",
+        "title": "Calculating the Gradient of a Function of Three Variables",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "36918",
+        "dom_id": "question-36918",
+        "selector": "#question-36918",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "36968",
+        "dom_id": "question-36968",
+        "selector": "#question-36968",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "10578",
+        "content_id": "3133",
+        "dom_id": "step-10578",
+        "selector": "#step-10578",
+        "step_anchor": "step-9",
+        "title": "Finding the Points Where a Gradient Vanishes",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "36970",
+        "dom_id": "question-36970",
+        "selector": "#question-36970",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "35995",
+        "dom_id": "question-35995",
+        "selector": "#question-35995",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "10581",
+        "content_id": "2401",
+        "dom_id": "step-10581",
+        "selector": "#step-10581",
+        "step_anchor": "step-12",
+        "title": "Properties of the Gradient",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "10701",
+        "content_id": "3150",
+        "dom_id": "step-10701",
+        "selector": "#step-10701",
+        "step_anchor": "step-13",
+        "title": "Calculating the Gradient Using the Properties of the Gradient",
+        "key_prerequisites": [
+          {
+            "topic_id": "1109",
+            "name": "The Product Rule for Differentiation",
+            "href": "/topics/1109"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "37466",
+        "dom_id": "question-37466",
+        "selector": "#question-37466",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "36144",
+        "dom_id": "question-36144",
+        "selector": "#question-36144",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "22631",
+        "content_id": "3864",
+        "dom_id": "step-22631",
+        "selector": "#step-22631",
+        "step_anchor": "step-16",
+        "title": "Continuous Partial Derivatives Imply Continuity",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-10570",
+        "filename": "01-step-10570.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-10571",
+        "filename": "02-step-10571.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-35990",
+        "filename": "03-question-35990.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-35988",
+        "filename": "04-question-35988.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-10574",
+        "filename": "05-step-10574.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-10575",
+        "filename": "06-step-10575.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-36918",
+        "filename": "07-question-36918.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-36968",
+        "filename": "08-question-36968.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-10578",
+        "filename": "09-step-10578.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-36970",
+        "filename": "10-question-36970.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-35995",
+        "filename": "11-question-35995.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-10581",
+        "filename": "12-step-10581.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-10701",
+        "filename": "13-step-10701.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-37466",
+        "filename": "14-question-37466.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-36144",
+        "filename": "15-question-36144.png"
+      },
+      {
+        "index": 16,
+        "item_type": "step",
+        "selector": "#step-22631",
+        "filename": "16-step-22631.png"
+      }
+    ]
+  }
+}

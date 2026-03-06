@@ -1,0 +1,410 @@
+{
+  "schema_version": 1,
+  "topic_id": "3173",
+  "topic_title": "The Multivariable Chain Rule",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3173.html",
+  "source_url": "https://mathacademy.com/topics/3173",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "30893",
+        "dom_id": "sectionLink-30893",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-30893"
+      },
+      {
+        "index": 2,
+        "step_id": "30861",
+        "dom_id": "sectionLink-30861",
+        "name": "",
+        "title": "Calculating the Derivative of a Multivariable Function With One Independent Variable",
+        "selector": "#sectionLink-30861"
+      },
+      {
+        "index": 3,
+        "step_id": "32539",
+        "dom_id": "sectionLink-32539",
+        "name": "",
+        "title": "A Special Case of the Multivariable Chain Rule",
+        "selector": "#sectionLink-32539"
+      },
+      {
+        "index": 4,
+        "step_id": "30862",
+        "dom_id": "sectionLink-30862",
+        "name": "",
+        "title": "Calculating the Derivative of a Multivariable Function With One Independent Variable in the Special Case",
+        "selector": "#sectionLink-30862"
+      },
+      {
+        "index": 5,
+        "step_id": "30894",
+        "dom_id": "sectionLink-30894",
+        "name": "",
+        "title": "The Multivariable Chain Rule With Two Independent Variables",
+        "selector": "#sectionLink-30894"
+      },
+      {
+        "index": 6,
+        "step_id": "30863",
+        "dom_id": "sectionLink-30863",
+        "name": "",
+        "title": "Calculating the Derivative of a Multivariable Function With Two Independent Variables",
+        "selector": "#sectionLink-30863"
+      },
+      {
+        "index": 7,
+        "step_id": "30895",
+        "dom_id": "sectionLink-30895",
+        "name": "",
+        "title": "The Generalized Multivariable Chain Rule",
+        "selector": "#sectionLink-30895"
+      },
+      {
+        "index": 8,
+        "step_id": "30864",
+        "dom_id": "sectionLink-30864",
+        "name": "",
+        "title": "Calculating the Derivative of a Function of Three Intermediate Variables and Two Independent Variables",
+        "selector": "#sectionLink-30864"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "271",
+        "name": "The Double-Angle Formula for Sine",
+        "href": "/topics/the-double-angle-formula-for-sine-271"
+      },
+      {
+        "topic_id": "831",
+        "name": "The Double-Angle Formula for Cosine",
+        "href": "/topics/the-double-angle-formula-for-cosine-831"
+      },
+      {
+        "topic_id": "4096",
+        "name": "Computing Partial Derivatives Using the Rules of Differentiation",
+        "href": "/topics/computing-partial-derivatives-using-the-rules-of-differentiation-4096"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 16,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "30893",
+        "content_id": "4957",
+        "dom_id": "step-30893",
+        "selector": "#step-30893",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30861",
+        "content_id": "8256",
+        "dom_id": "step-30861",
+        "selector": "#step-30861",
+        "step_anchor": "step-2",
+        "title": "Calculating the Derivative of a Multivariable Function With One Independent Variable",
+        "key_prerequisites": [
+          {
+            "topic_id": "1929",
+            "name": "Introduction to Partial Derivatives",
+            "href": "/topics/1929"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "95078",
+        "dom_id": "question-95078",
+        "selector": "#question-95078",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "94587",
+        "dom_id": "question-94587",
+        "selector": "#question-94587",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "32539",
+        "content_id": "5184",
+        "dom_id": "step-32539",
+        "selector": "#step-32539",
+        "step_anchor": "step-5",
+        "title": "A Special Case of the Multivariable Chain Rule",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30862",
+        "content_id": "8257",
+        "dom_id": "step-30862",
+        "selector": "#step-30862",
+        "step_anchor": "step-6",
+        "title": "Calculating the Derivative of a Multivariable Function With One Independent Variable in the Special Case",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "95121",
+        "dom_id": "question-95121",
+        "selector": "#question-95121",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "94588",
+        "dom_id": "question-94588",
+        "selector": "#question-94588",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "30894",
+        "content_id": "4958",
+        "dom_id": "step-30894",
+        "selector": "#step-30894",
+        "step_anchor": "step-9",
+        "title": "The Multivariable Chain Rule With Two Independent Variables",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30863",
+        "content_id": "8258",
+        "dom_id": "step-30863",
+        "selector": "#step-30863",
+        "step_anchor": "step-10",
+        "title": "Calculating the Derivative of a Multivariable Function With Two Independent Variables",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "37205",
+        "dom_id": "question-37205",
+        "selector": "#question-37205",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "94448",
+        "dom_id": "question-94448",
+        "selector": "#question-94448",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "30895",
+        "content_id": "4959",
+        "dom_id": "step-30895",
+        "selector": "#step-30895",
+        "step_anchor": "step-13",
+        "title": "The Generalized Multivariable Chain Rule",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30864",
+        "content_id": "8259",
+        "dom_id": "step-30864",
+        "selector": "#step-30864",
+        "step_anchor": "step-14",
+        "title": "Calculating the Derivative of a Function of Three Intermediate Variables and Two Independent Variables",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "94589",
+        "dom_id": "question-94589",
+        "selector": "#question-94589",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "94814",
+        "dom_id": "question-94814",
+        "selector": "#question-94814",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-30893",
+        "filename": "01-step-30893.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-30861",
+        "filename": "02-step-30861.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-95078",
+        "filename": "03-question-95078.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-94587",
+        "filename": "04-question-94587.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-32539",
+        "filename": "05-step-32539.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-30862",
+        "filename": "06-step-30862.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-95121",
+        "filename": "07-question-95121.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-94588",
+        "filename": "08-question-94588.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-30894",
+        "filename": "09-step-30894.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-30863",
+        "filename": "10-step-30863.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-37205",
+        "filename": "11-question-37205.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-94448",
+        "filename": "12-question-94448.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-30895",
+        "filename": "13-step-30895.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-30864",
+        "filename": "14-step-30864.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-94589",
+        "filename": "15-question-94589.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-94814",
+        "filename": "16-question-94814.png"
+      }
+    ]
+  }
+}

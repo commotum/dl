@@ -1,0 +1,293 @@
+{
+  "schema_version": 1,
+  "topic_id": "3371",
+  "topic_title": "Parametrizations of Ellipsoids and Cones",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3371.html",
+  "source_url": "https://mathacademy.com/topics/3371",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "33170",
+        "dom_id": "sectionLink-33170",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-33170"
+      },
+      {
+        "index": 2,
+        "step_id": "33172",
+        "dom_id": "sectionLink-33172",
+        "name": "",
+        "title": "Finding a Parametrization of a Sphere Using Spherical Coordinates",
+        "selector": "#sectionLink-33172"
+      },
+      {
+        "index": 3,
+        "step_id": "33171",
+        "dom_id": "sectionLink-33171",
+        "name": "",
+        "title": "Finding a Parametrization of an Ellipsoid Using Spherical Coordinates",
+        "selector": "#sectionLink-33171"
+      },
+      {
+        "index": 4,
+        "step_id": "33173",
+        "dom_id": "sectionLink-33173",
+        "name": "",
+        "title": "Finding a Parametrization of a Cone Using Cylindrical Coordinates",
+        "selector": "#sectionLink-33173"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1789",
+        "name": "Parametric Surfaces",
+        "href": "/topics/parametric-surfaces-1789"
+      },
+      {
+        "topic_id": "1894",
+        "name": "Elliptic Cones",
+        "href": "/topics/elliptic-cones-1894"
+      },
+      {
+        "topic_id": "3569",
+        "name": "Surfaces in Cylindrical Polar Coordinates",
+        "href": "/topics/surfaces-in-cylindrical-polar-coordinates-3569"
+      },
+      {
+        "topic_id": "3570",
+        "name": "Surfaces in Spherical Polar Coordinates",
+        "href": "/topics/surfaces-in-spherical-polar-coordinates-3570"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 10,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "33170",
+        "content_id": "5306",
+        "dom_id": "step-33170",
+        "selector": "#step-33170",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33172",
+        "content_id": "8883",
+        "dom_id": "step-33172",
+        "selector": "#step-33172",
+        "step_anchor": "step-2",
+        "title": "Finding a Parametrization of a Sphere Using Spherical Coordinates",
+        "key_prerequisites": [
+          {
+            "topic_id": "1789",
+            "name": "Parametric Surfaces",
+            "href": "/topics/1789"
+          },
+          {
+            "topic_id": "3570",
+            "name": "Surfaces in Spherical Polar Coordinates",
+            "href": "/topics/3570"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "105652",
+        "dom_id": "question-105652",
+        "selector": "#question-105652",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "103975",
+        "dom_id": "question-103975",
+        "selector": "#question-103975",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33171",
+        "content_id": "8882",
+        "dom_id": "step-33171",
+        "selector": "#step-33171",
+        "step_anchor": "step-5",
+        "title": "Finding a Parametrization of an Ellipsoid Using Spherical Coordinates",
+        "key_prerequisites": [
+          {
+            "topic_id": "1896",
+            "name": "Ellipsoids",
+            "href": "/topics/1896"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "105690",
+        "dom_id": "question-105690",
+        "selector": "#question-105690",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "103976",
+        "dom_id": "question-103976",
+        "selector": "#question-103976",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33173",
+        "content_id": "8884",
+        "dom_id": "step-33173",
+        "selector": "#step-33173",
+        "step_anchor": "step-8",
+        "title": "Finding a Parametrization of a Cone Using Cylindrical Coordinates",
+        "key_prerequisites": [
+          {
+            "topic_id": "1894",
+            "name": "Elliptic Cones",
+            "href": "/topics/1894"
+          },
+          {
+            "topic_id": "3569",
+            "name": "Surfaces in Cylindrical Polar Coordinates",
+            "href": "/topics/3569"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "105722",
+        "dom_id": "question-105722",
+        "selector": "#question-105722",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "103979",
+        "dom_id": "question-103979",
+        "selector": "#question-103979",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-33170",
+        "filename": "01-step-33170.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-33172",
+        "filename": "02-step-33172.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-105652",
+        "filename": "03-question-105652.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-103975",
+        "filename": "04-question-103975.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-33171",
+        "filename": "05-step-33171.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-105690",
+        "filename": "06-question-105690.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-103976",
+        "filename": "07-question-103976.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-33173",
+        "filename": "08-step-33173.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-105722",
+        "filename": "09-question-105722.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-103979",
+        "filename": "10-question-103979.png"
+      }
+    ]
+  }
+}

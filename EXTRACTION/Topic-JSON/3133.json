@@ -1,0 +1,364 @@
+{
+  "schema_version": 1,
+  "topic_id": "3133",
+  "topic_title": "Singular Value Decomposition of Larger Matrices",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3133.html",
+  "source_url": "https://mathacademy.com/topics/3133",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "30548",
+        "dom_id": "sectionLink-30548",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-30548"
+      },
+      {
+        "index": 2,
+        "step_id": "32048",
+        "dom_id": "sectionLink-32048",
+        "name": "",
+        "title": "Finding the Third Factor in the SVD of a Rectangular Matrix",
+        "selector": "#sectionLink-32048"
+      },
+      {
+        "index": 3,
+        "step_id": "32050",
+        "dom_id": "sectionLink-32050",
+        "name": "",
+        "title": "Finding the First Factor in the SVD of a Rectangular Matrix",
+        "selector": "#sectionLink-32050"
+      },
+      {
+        "index": 4,
+        "step_id": "32049",
+        "dom_id": "sectionLink-32049",
+        "name": "",
+        "title": "Finding the First Factor in the SVD of a Rectangular Matrix: Advanced Cases",
+        "selector": "#sectionLink-32049"
+      },
+      {
+        "index": 5,
+        "step_id": "32872",
+        "dom_id": "sectionLink-32872",
+        "name": "",
+        "title": "Finding the First Factor in the SVD of a Rectangular Matrix: Cases Requiring Orthogonalization",
+        "selector": "#sectionLink-32872"
+      },
+      {
+        "index": 6,
+        "step_id": "32060",
+        "dom_id": "sectionLink-32060",
+        "name": "",
+        "title": "The Singular Value Decomposition of a Transposed Matrix",
+        "selector": "#sectionLink-32060"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3278",
+        "name": "Singular Value Decomposition of 2x2 Matrices With Zero or Repeated Eigenvalues",
+        "href": "/topics/singular-value-decomposition-of-2x2-matrices-with-zero-or-repeated-eigenvalues-3278"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "30548",
+        "content_id": "4893",
+        "dom_id": "step-30548",
+        "selector": "#step-30548",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "32048",
+        "content_id": "8632",
+        "dom_id": "step-32048",
+        "selector": "#step-32048",
+        "step_anchor": "step-2",
+        "title": "Finding the Third Factor in the SVD of a Rectangular Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "3132",
+            "name": "Singular Value Decomposition of 2x2 Matrices",
+            "href": "/topics/3132"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "97366",
+        "dom_id": "question-97366",
+        "selector": "#question-97366",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "97364",
+        "dom_id": "question-97364",
+        "selector": "#question-97364",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "32050",
+        "content_id": "8634",
+        "dom_id": "step-32050",
+        "selector": "#step-32050",
+        "step_anchor": "step-5",
+        "title": "Finding the First Factor in the SVD of a Rectangular Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "2099",
+            "name": "Orthogonal Vectors in Euclidean Spaces",
+            "href": "/topics/2099"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "98797",
+        "dom_id": "question-98797",
+        "selector": "#question-98797",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "97365",
+        "dom_id": "question-97365",
+        "selector": "#question-97365",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "32049",
+        "content_id": "8633",
+        "dom_id": "step-32049",
+        "selector": "#step-32049",
+        "step_anchor": "step-8",
+        "title": "Finding the First Factor in the SVD of a Rectangular Matrix: Advanced Cases",
+        "key_prerequisites": [
+          {
+            "topic_id": "3278",
+            "name": "Singular Value Decomposition of 2x2 Matrices With Zero or Repeated Eigenvalues",
+            "href": "/topics/3278"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "97367",
+        "dom_id": "question-97367",
+        "selector": "#question-97367",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "98855",
+        "dom_id": "question-98855",
+        "selector": "#question-98855",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "32872",
+        "content_id": "8798",
+        "dom_id": "step-32872",
+        "selector": "#step-32872",
+        "step_anchor": "step-11",
+        "title": "Finding the First Factor in the SVD of a Rectangular Matrix: Cases Requiring Orthogonalization",
+        "key_prerequisites": [
+          {
+            "topic_id": "2127",
+            "name": "The Gram-Schmidt Process for Two Vectors",
+            "href": "/topics/2127"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "98840",
+        "dom_id": "question-98840",
+        "selector": "#question-98840",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "98854",
+        "dom_id": "question-98854",
+        "selector": "#question-98854",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "32060",
+        "content_id": "5110",
+        "dom_id": "step-32060",
+        "selector": "#step-32060",
+        "step_anchor": "step-14",
+        "title": "The Singular Value Decomposition of a Transposed Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-30548",
+        "filename": "01-step-30548.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-32048",
+        "filename": "02-step-32048.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-97366",
+        "filename": "03-question-97366.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-97364",
+        "filename": "04-question-97364.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-32050",
+        "filename": "05-step-32050.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-98797",
+        "filename": "06-question-98797.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-97365",
+        "filename": "07-question-97365.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-32049",
+        "filename": "08-step-32049.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-97367",
+        "filename": "09-question-97367.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-98855",
+        "filename": "10-question-98855.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-32872",
+        "filename": "11-step-32872.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-98840",
+        "filename": "12-question-98840.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-98854",
+        "filename": "13-question-98854.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-32060",
+        "filename": "14-step-32060.png"
+      }
+    ]
+  }
+}

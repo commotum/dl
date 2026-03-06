@@ -1,0 +1,336 @@
+{
+  "schema_version": 1,
+  "topic_id": "1998",
+  "topic_title": "Computing Areas Using a Change of Variables",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1998.html",
+  "source_url": "https://mathacademy.com/topics/1998",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "44616",
+        "dom_id": "sectionLink-44616",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-44616"
+      },
+      {
+        "index": 2,
+        "step_id": "44617",
+        "dom_id": "sectionLink-44617",
+        "name": "",
+        "title": "The Change of Variables Formula",
+        "selector": "#sectionLink-44617"
+      },
+      {
+        "index": 3,
+        "step_id": "42405",
+        "dom_id": "sectionLink-42405",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-42405"
+      },
+      {
+        "index": 4,
+        "step_id": "42406",
+        "dom_id": "sectionLink-42406",
+        "name": "",
+        "title": "Mapping an Area to a Rectangular Region: Transformations Given",
+        "selector": "#sectionLink-42406"
+      },
+      {
+        "index": 5,
+        "step_id": "42417",
+        "dom_id": "sectionLink-42417",
+        "name": "",
+        "title": "Mapping an Area to a Rectangular Region: Transformations Not Given",
+        "selector": "#sectionLink-42417"
+      },
+      {
+        "index": 6,
+        "step_id": "26975",
+        "dom_id": "sectionLink-26975",
+        "name": "",
+        "title": "Finding an Area by Transforming to a Type I Region",
+        "selector": "#sectionLink-26975"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2151",
+        "name": "Double Integrals Over Type I Regions",
+        "href": "/topics/double-integrals-over-type-i-regions-2151"
+      },
+      {
+        "topic_id": "4134",
+        "name": "Transformations of Regions Between Curves",
+        "href": "/topics/transformations-of-regions-between-curves-4134"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44616",
+        "content_id": "7682",
+        "dom_id": "step-44616",
+        "selector": "#step-44616",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44617",
+        "content_id": "7683",
+        "dom_id": "step-44617",
+        "selector": "#step-44617",
+        "step_anchor": "step-2",
+        "title": "The Change of Variables Formula",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "42405",
+        "content_id": "7037",
+        "dom_id": "step-42405",
+        "selector": "#step-42405",
+        "step_anchor": "step-3",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "42406",
+        "content_id": "11151",
+        "dom_id": "step-42406",
+        "selector": "#step-42406",
+        "step_anchor": "step-4",
+        "title": "Mapping an Area to a Rectangular Region: Transformations Given",
+        "key_prerequisites": [
+          {
+            "topic_id": "1992",
+            "name": "Double Integrals Over Rectangular Domains",
+            "href": "/topics/1992"
+          },
+          {
+            "topic_id": "2000",
+            "name": "Properties of Double Integrals",
+            "href": "/topics/2000"
+          },
+          {
+            "topic_id": "4149",
+            "name": "The Inverse Function Theorem",
+            "href": "/topics/4149"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "160365",
+        "dom_id": "question-160365",
+        "selector": "#question-160365",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "160379",
+        "dom_id": "question-160379",
+        "selector": "#question-160379",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "42417",
+        "content_id": "11154",
+        "dom_id": "step-42417",
+        "selector": "#step-42417",
+        "step_anchor": "step-7",
+        "title": "Mapping an Area to a Rectangular Region: Transformations Not Given",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "160864",
+        "dom_id": "question-160864",
+        "selector": "#question-160864",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "160373",
+        "dom_id": "question-160373",
+        "selector": "#question-160373",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "26975",
+        "content_id": "7283",
+        "dom_id": "step-26975",
+        "selector": "#step-26975",
+        "step_anchor": "step-10",
+        "title": "Finding an Area by Transforming to a Type I Region",
+        "key_prerequisites": [
+          {
+            "topic_id": "2151",
+            "name": "Double Integrals Over Type I Regions",
+            "href": "/topics/2151"
+          },
+          {
+            "topic_id": "4134",
+            "name": "Transformations of Regions Between Curves",
+            "href": "/topics/4134"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "38374",
+        "dom_id": "question-38374",
+        "selector": "#question-38374",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "82874",
+        "dom_id": "question-82874",
+        "selector": "#question-82874",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-44616",
+        "filename": "01-step-44616.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-44617",
+        "filename": "02-step-44617.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-42405",
+        "filename": "03-step-42405.png"
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "selector": "#step-42406",
+        "filename": "04-step-42406.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-160365",
+        "filename": "05-question-160365.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-160379",
+        "filename": "06-question-160379.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-42417",
+        "filename": "07-step-42417.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-160864",
+        "filename": "08-question-160864.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-160373",
+        "filename": "09-question-160373.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-26975",
+        "filename": "10-step-26975.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-38374",
+        "filename": "11-question-38374.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-82874",
+        "filename": "12-question-82874.png"
+      }
+    ]
+  }
+}

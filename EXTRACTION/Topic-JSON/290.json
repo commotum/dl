@@ -1,0 +1,387 @@
+{
+  "schema_version": 1,
+  "topic_id": "290",
+  "topic_title": "The Floor and Ceiling Functions",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/290.html",
+  "source_url": "https://mathacademy.com/topics/290",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "156959",
+        "dom_id": "sectionLink-156959",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-156959"
+      },
+      {
+        "index": 2,
+        "step_id": "156960",
+        "dom_id": "sectionLink-156960",
+        "name": "",
+        "title": "Evaluating the Floor Function",
+        "selector": "#sectionLink-156960"
+      },
+      {
+        "index": 3,
+        "step_id": "156963",
+        "dom_id": "sectionLink-156963",
+        "name": "",
+        "title": "Evaluating the Floor Function in More Complex Cases",
+        "selector": "#sectionLink-156963"
+      },
+      {
+        "index": 4,
+        "step_id": "156966",
+        "dom_id": "sectionLink-156966",
+        "name": "",
+        "title": "The Ceiling Function",
+        "selector": "#sectionLink-156966"
+      },
+      {
+        "index": 5,
+        "step_id": "156967",
+        "dom_id": "sectionLink-156967",
+        "name": "",
+        "title": "Evaluating the Ceiling Function",
+        "selector": "#sectionLink-156967"
+      },
+      {
+        "index": 6,
+        "step_id": "156970",
+        "dom_id": "sectionLink-156970",
+        "name": "",
+        "title": "Evaluating the Ceiling Function in More Complex Cases",
+        "selector": "#sectionLink-156970"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "47",
+        "name": "Special Sets",
+        "href": "/topics/special-sets-47"
+      },
+      {
+        "topic_id": "818",
+        "name": "The Natural Logarithm",
+        "href": "/topics/the-natural-logarithm-818"
+      },
+      {
+        "topic_id": "1153",
+        "name": "Exponential Functions",
+        "href": "/topics/exponential-functions-1153"
+      },
+      {
+        "topic_id": "2183",
+        "name": "Evaluating Rational Expressions",
+        "href": "/topics/evaluating-rational-expressions-2183"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "156959",
+        "content_id": "3832",
+        "dom_id": "step-156959",
+        "selector": "#step-156959",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "156960",
+        "content_id": "6017",
+        "dom_id": "step-156960",
+        "selector": "#step-156960",
+        "step_anchor": "step-2",
+        "title": "Evaluating the Floor Function",
+        "key_prerequisites": [
+          {
+            "topic_id": "47",
+            "name": "Special Sets",
+            "href": "/topics/47"
+          },
+          {
+            "topic_id": "470",
+            "name": "Introduction to Functions",
+            "href": "/topics/470"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "181720",
+        "dom_id": "question-181720",
+        "selector": "#question-181720",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "181980",
+        "dom_id": "question-181980",
+        "selector": "#question-181980",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "156963",
+        "content_id": "13202",
+        "dom_id": "step-156963",
+        "selector": "#step-156963",
+        "step_anchor": "step-5",
+        "title": "Evaluating the Floor Function in More Complex Cases",
+        "key_prerequisites": [
+          {
+            "topic_id": "589",
+            "name": "Evaluating Numerical Expressions Containing Radicals",
+            "href": "/topics/589"
+          },
+          {
+            "topic_id": "818",
+            "name": "The Natural Logarithm",
+            "href": "/topics/818"
+          },
+          {
+            "topic_id": "1153",
+            "name": "Exponential Functions",
+            "href": "/topics/1153"
+          },
+          {
+            "topic_id": "2183",
+            "name": "Evaluating Rational Expressions",
+            "href": "/topics/2183"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "41856",
+        "dom_id": "question-41856",
+        "selector": "#question-41856",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "182107",
+        "dom_id": "question-182107",
+        "selector": "#question-182107",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "156966",
+        "content_id": "3835",
+        "dom_id": "step-156966",
+        "selector": "#step-156966",
+        "step_anchor": "step-8",
+        "title": "The Ceiling Function",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "156967",
+        "content_id": "6022",
+        "dom_id": "step-156967",
+        "selector": "#step-156967",
+        "step_anchor": "step-9",
+        "title": "Evaluating the Ceiling Function",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "181940",
+        "dom_id": "question-181940",
+        "selector": "#question-181940",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "181981",
+        "dom_id": "question-181981",
+        "selector": "#question-181981",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "156970",
+        "content_id": "13203",
+        "dom_id": "step-156970",
+        "selector": "#step-156970",
+        "step_anchor": "step-12",
+        "title": "Evaluating the Ceiling Function in More Complex Cases",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "41796",
+        "dom_id": "question-41796",
+        "selector": "#question-41796",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "41793",
+        "dom_id": "question-41793",
+        "selector": "#question-41793",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-156959",
+        "filename": "01-step-156959.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-156960",
+        "filename": "02-step-156960.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-181720",
+        "filename": "03-question-181720.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-181980",
+        "filename": "04-question-181980.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-156963",
+        "filename": "05-step-156963.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-41856",
+        "filename": "06-question-41856.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-182107",
+        "filename": "07-question-182107.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-156966",
+        "filename": "08-step-156966.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-156967",
+        "filename": "09-step-156967.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-181940",
+        "filename": "10-question-181940.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-181981",
+        "filename": "11-question-181981.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-156970",
+        "filename": "12-step-156970.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-41796",
+        "filename": "13-question-41796.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-41793",
+        "filename": "14-question-41793.png"
+      }
+    ]
+  }
+}

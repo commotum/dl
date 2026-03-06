@@ -1,0 +1,399 @@
+{
+  "schema_version": 1,
+  "topic_id": "2125",
+  "topic_title": "Projection Matrices, Linear Transformations and Their Properties",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2125.html",
+  "source_url": "https://mathacademy.com/topics/2125",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "20251",
+        "dom_id": "sectionLink-20251",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-20251"
+      },
+      {
+        "index": 2,
+        "step_id": "20252",
+        "dom_id": "sectionLink-20252",
+        "name": "",
+        "title": "Finding a Matrix that Defines an Orthogonal Projection Onto the Subspace Spanned by a Vector",
+        "selector": "#sectionLink-20252"
+      },
+      {
+        "index": 3,
+        "step_id": "31059",
+        "dom_id": "sectionLink-31059",
+        "name": "",
+        "title": "Finding a Matrix That Defines an Orthogonal Projection Onto the Subspace Spanned by a Plane",
+        "selector": "#sectionLink-31059"
+      },
+      {
+        "index": 4,
+        "step_id": "31045",
+        "dom_id": "sectionLink-31045",
+        "name": "",
+        "title": "A Criterion of an Orthogonal Projection Matrix",
+        "selector": "#sectionLink-31045"
+      },
+      {
+        "index": 5,
+        "step_id": "20254",
+        "dom_id": "sectionLink-20254",
+        "name": "",
+        "title": "Identifying an Orthogonal Projection Matrix",
+        "selector": "#sectionLink-20254"
+      },
+      {
+        "index": 6,
+        "step_id": "20253",
+        "dom_id": "sectionLink-20253",
+        "name": "",
+        "title": "Projection Onto the Orthogonal Complement",
+        "selector": "#sectionLink-20253"
+      },
+      {
+        "index": 7,
+        "step_id": "20256",
+        "dom_id": "sectionLink-20256",
+        "name": "",
+        "title": "Finding an Orthogonal Projection Matrix Given Vectors That Span the Orthogonal Complement",
+        "selector": "#sectionLink-20256"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2124",
+        "name": "Projecting Vectors Onto Subspaces in Euclidean Spaces (Arbitrary Bases)",
+        "href": "/topics/projecting-vectors-onto-subspaces-in-euclidean-spaces-arbitrary-bases-2124"
+      },
+      {
+        "topic_id": "2211",
+        "name": "The Standard Matrix of a Linear Transformation in Terms of the Standard Basis",
+        "href": "/topics/the-standard-matrix-of-a-linear-transformation-in-terms-of-the-standard-basis-2211"
+      },
+      {
+        "topic_id": "3118",
+        "name": "Symmetric Matrices",
+        "href": "/topics/symmetric-matrices-3118"
+      },
+      {
+        "topic_id": "3776",
+        "name": "Nilpotent and Idempotent Matrices",
+        "href": "/topics/nilpotent-and-idempotent-matrices-3776"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20251",
+        "content_id": "3629",
+        "dom_id": "step-20251",
+        "selector": "#step-20251",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20252",
+        "content_id": "5577",
+        "dom_id": "step-20252",
+        "selector": "#step-20252",
+        "step_anchor": "step-2",
+        "title": "Finding a Matrix that Defines an Orthogonal Projection Onto the Subspace Spanned by a Vector",
+        "key_prerequisites": [
+          {
+            "topic_id": "2124",
+            "name": "Projecting Vectors Onto Subspaces in Euclidean Spaces (Arbitrary Bases)",
+            "href": "/topics/2124"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "40128",
+        "dom_id": "question-40128",
+        "selector": "#question-40128",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "95147",
+        "dom_id": "question-95147",
+        "selector": "#question-95147",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "31059",
+        "content_id": "8316",
+        "dom_id": "step-31059",
+        "selector": "#step-31059",
+        "step_anchor": "step-5",
+        "title": "Finding a Matrix That Defines an Orthogonal Projection Onto the Subspace Spanned by a Plane",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "95202",
+        "dom_id": "question-95202",
+        "selector": "#question-95202",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "40663",
+        "dom_id": "question-40663",
+        "selector": "#question-40663",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "31045",
+        "content_id": "4983",
+        "dom_id": "step-31045",
+        "selector": "#step-31045",
+        "step_anchor": "step-8",
+        "title": "A Criterion of an Orthogonal Projection Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20254",
+        "content_id": "5578",
+        "dom_id": "step-20254",
+        "selector": "#step-20254",
+        "step_anchor": "step-9",
+        "title": "Identifying an Orthogonal Projection Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "3118",
+            "name": "Symmetric Matrices",
+            "href": "/topics/3118"
+          },
+          {
+            "topic_id": "3776",
+            "name": "Nilpotent and Idempotent Matrices",
+            "href": "/topics/3776"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "40662",
+        "dom_id": "question-40662",
+        "selector": "#question-40662",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "40639",
+        "dom_id": "question-40639",
+        "selector": "#question-40639",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20253",
+        "content_id": "3630",
+        "dom_id": "step-20253",
+        "selector": "#step-20253",
+        "step_anchor": "step-12",
+        "title": "Projection Onto the Orthogonal Complement",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20256",
+        "content_id": "5580",
+        "dom_id": "step-20256",
+        "selector": "#step-20256",
+        "step_anchor": "step-13",
+        "title": "Finding an Orthogonal Projection Matrix Given Vectors That Span the Orthogonal Complement",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "40164",
+        "dom_id": "question-40164",
+        "selector": "#question-40164",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "40169",
+        "dom_id": "question-40169",
+        "selector": "#question-40169",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-20251",
+        "filename": "01-step-20251.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-20252",
+        "filename": "02-step-20252.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-40128",
+        "filename": "03-question-40128.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-95147",
+        "filename": "04-question-95147.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-31059",
+        "filename": "05-step-31059.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-95202",
+        "filename": "06-question-95202.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-40663",
+        "filename": "07-question-40663.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-31045",
+        "filename": "08-step-31045.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-20254",
+        "filename": "09-step-20254.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-40662",
+        "filename": "10-question-40662.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-40639",
+        "filename": "11-question-40639.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-20253",
+        "filename": "12-step-20253.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-20256",
+        "filename": "13-step-20256.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-40164",
+        "filename": "14-question-40164.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-40169",
+        "filename": "15-question-40169.png"
+      }
+    ]
+  }
+}

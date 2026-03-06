@@ -1,0 +1,375 @@
+{
+  "schema_version": 1,
+  "topic_id": "260",
+  "topic_title": "Confidence Intervals for One Mean: Known Population Variance",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/260.html",
+  "source_url": "https://mathacademy.com/topics/260",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "37842",
+        "dom_id": "sectionLink-37842",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-37842"
+      },
+      {
+        "index": 2,
+        "step_id": "38686",
+        "dom_id": "sectionLink-38686",
+        "name": "",
+        "title": "Constructing Confidence Intervals",
+        "selector": "#sectionLink-38686"
+      },
+      {
+        "index": 3,
+        "step_id": "38032",
+        "dom_id": "sectionLink-38032",
+        "name": "",
+        "title": "Summarizing Confidence Intervals for Normal Populations With Known Population Variance",
+        "selector": "#sectionLink-38032"
+      },
+      {
+        "index": 4,
+        "step_id": "37913",
+        "dom_id": "sectionLink-37913",
+        "name": "",
+        "title": "Finding Confidence Intervals From Normal Populations",
+        "selector": "#sectionLink-37913"
+      },
+      {
+        "index": 5,
+        "step_id": "37890",
+        "dom_id": "sectionLink-37890",
+        "name": "",
+        "title": "Interpreting Confidence Intervals",
+        "selector": "#sectionLink-37890"
+      },
+      {
+        "index": 6,
+        "step_id": "37884",
+        "dom_id": "sectionLink-37884",
+        "name": "",
+        "title": "Large Samples",
+        "selector": "#sectionLink-37884"
+      },
+      {
+        "index": 7,
+        "step_id": "37861",
+        "dom_id": "sectionLink-37861",
+        "name": "",
+        "title": "Finding Confidence Intervals From Large Samples",
+        "selector": "#sectionLink-37861"
+      },
+      {
+        "index": 8,
+        "step_id": "37883",
+        "dom_id": "sectionLink-37883",
+        "name": "",
+        "title": "Finding Confidence Intervals: Applications",
+        "selector": "#sectionLink-37883"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "359",
+        "name": "The Central Limit Theorem",
+        "href": "/topics/the-central-limit-theorem-359"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "37842",
+        "content_id": "6232",
+        "dom_id": "step-37842",
+        "selector": "#step-37842",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "38686",
+        "content_id": "6398",
+        "dom_id": "step-38686",
+        "selector": "#step-38686",
+        "step_anchor": "step-2",
+        "title": "Constructing Confidence Intervals",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "38032",
+        "content_id": "6275",
+        "dom_id": "step-38032",
+        "selector": "#step-38032",
+        "step_anchor": "step-3",
+        "title": "Summarizing Confidence Intervals for Normal Populations With Known Population Variance",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "37913",
+        "content_id": "10046",
+        "dom_id": "step-37913",
+        "selector": "#step-37913",
+        "step_anchor": "step-4",
+        "title": "Finding Confidence Intervals From Normal Populations",
+        "key_prerequisites": [
+          {
+            "topic_id": "3067",
+            "name": "Sample Means From Normal Populations",
+            "href": "/topics/3067"
+          },
+          {
+            "topic_id": "3214",
+            "name": "Percentage Points of the Standard Normal Distribution",
+            "href": "/topics/3214"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "142447",
+        "dom_id": "question-142447",
+        "selector": "#question-142447",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "142988",
+        "dom_id": "question-142988",
+        "selector": "#question-142988",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "37890",
+        "content_id": "6247",
+        "dom_id": "step-37890",
+        "selector": "#step-37890",
+        "step_anchor": "step-7",
+        "title": "Interpreting Confidence Intervals",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "37884",
+        "content_id": "6245",
+        "dom_id": "step-37884",
+        "selector": "#step-37884",
+        "step_anchor": "step-8",
+        "title": "Large Samples",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "37861",
+        "content_id": "10035",
+        "dom_id": "step-37861",
+        "selector": "#step-37861",
+        "step_anchor": "step-9",
+        "title": "Finding Confidence Intervals From Large Samples",
+        "key_prerequisites": [
+          {
+            "topic_id": "359",
+            "name": "The Central Limit Theorem",
+            "href": "/topics/359"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "142303",
+        "dom_id": "question-142303",
+        "selector": "#question-142303",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "142502",
+        "dom_id": "question-142502",
+        "selector": "#question-142502",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "37883",
+        "content_id": "10039",
+        "dom_id": "step-37883",
+        "selector": "#step-37883",
+        "step_anchor": "step-12",
+        "title": "Finding Confidence Intervals: Applications",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "142535",
+        "dom_id": "question-142535",
+        "selector": "#question-142535",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "142334",
+        "dom_id": "question-142334",
+        "selector": "#question-142334",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-37842",
+        "filename": "01-step-37842.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-38686",
+        "filename": "02-step-38686.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-38032",
+        "filename": "03-step-38032.png"
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "selector": "#step-37913",
+        "filename": "04-step-37913.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-142447",
+        "filename": "05-question-142447.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-142988",
+        "filename": "06-question-142988.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-37890",
+        "filename": "07-step-37890.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-37884",
+        "filename": "08-step-37884.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-37861",
+        "filename": "09-step-37861.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-142303",
+        "filename": "10-question-142303.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-142502",
+        "filename": "11-question-142502.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-37883",
+        "filename": "12-step-37883.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-142535",
+        "filename": "13-question-142535.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-142334",
+        "filename": "14-question-142334.png"
+      }
+    ]
+  }
+}

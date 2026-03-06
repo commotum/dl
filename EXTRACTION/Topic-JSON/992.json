@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "topic_id": "992",
+  "topic_title": "Estimating Derivatives Using a Forward Difference Quotient",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/992.html",
+  "source_url": "https://mathacademy.com/topics/992",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "676",
+        "dom_id": "sectionLink-676",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-676"
+      },
+      {
+        "index": 2,
+        "step_id": "677",
+        "dom_id": "sectionLink-677",
+        "name": "",
+        "title": "Estimating a Derivative From a Table Using a Forward Difference Approximation",
+        "selector": "#sectionLink-677"
+      },
+      {
+        "index": 3,
+        "step_id": "680",
+        "dom_id": "sectionLink-680",
+        "name": "",
+        "title": "Estimating a Derivative From a Graph Using a Forward Difference Approximation",
+        "selector": "#sectionLink-680"
+      },
+      {
+        "index": 4,
+        "step_id": "682",
+        "dom_id": "sectionLink-682",
+        "name": "",
+        "title": "Estimating a Derivative From a Table Using a Forward Difference Approximation: Word Problem",
+        "selector": "#sectionLink-682"
+      },
+      {
+        "index": 5,
+        "step_id": "684",
+        "dom_id": "sectionLink-684",
+        "name": "",
+        "title": "Estimating a Derivative From a Graph Using a Forward Difference Approximation: Word Problem",
+        "selector": "#sectionLink-684"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "296",
+        "name": "Interpreting the Meaning of the Derivative in Context",
+        "href": "/topics/interpreting-the-meaning-of-the-derivative-in-context-296"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "676",
+        "content_id": "363",
+        "dom_id": "step-676",
+        "selector": "#step-676",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "677",
+        "content_id": "151",
+        "dom_id": "step-677",
+        "selector": "#step-677",
+        "step_anchor": "step-2",
+        "title": "Estimating a Derivative From a Table Using a Forward Difference Approximation",
+        "key_prerequisites": [
+          {
+            "topic_id": "337",
+            "name": "The Instantaneous Rate of Change of a Function at a Point",
+            "href": "/topics/337"
+          },
+          {
+            "topic_id": "396",
+            "name": "Calculating Slopes of Straight Lines",
+            "href": "/topics/396"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "9439",
+        "dom_id": "question-9439",
+        "selector": "#question-9439",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "9430",
+        "dom_id": "question-9430",
+        "selector": "#question-9430",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "680",
+        "content_id": "152",
+        "dom_id": "step-680",
+        "selector": "#step-680",
+        "step_anchor": "step-5",
+        "title": "Estimating a Derivative From a Graph Using a Forward Difference Approximation",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "47386",
+        "dom_id": "question-47386",
+        "selector": "#question-47386",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "47385",
+        "dom_id": "question-47385",
+        "selector": "#question-47385",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "682",
+        "content_id": "153",
+        "dom_id": "step-682",
+        "selector": "#step-682",
+        "step_anchor": "step-8",
+        "title": "Estimating a Derivative From a Table Using a Forward Difference Approximation: Word Problem",
+        "key_prerequisites": [
+          {
+            "topic_id": "296",
+            "name": "Interpreting the Meaning of the Derivative in Context",
+            "href": "/topics/296"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "47380",
+        "dom_id": "question-47380",
+        "selector": "#question-47380",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "47379",
+        "dom_id": "question-47379",
+        "selector": "#question-47379",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "684",
+        "content_id": "154",
+        "dom_id": "step-684",
+        "selector": "#step-684",
+        "step_anchor": "step-11",
+        "title": "Estimating a Derivative From a Graph Using a Forward Difference Approximation: Word Problem",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "47383",
+        "dom_id": "question-47383",
+        "selector": "#question-47383",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "47389",
+        "dom_id": "question-47389",
+        "selector": "#question-47389",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-676",
+        "filename": "01-step-676.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-677",
+        "filename": "02-step-677.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-9439",
+        "filename": "03-question-9439.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-9430",
+        "filename": "04-question-9430.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-680",
+        "filename": "05-step-680.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-47386",
+        "filename": "06-question-47386.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-47385",
+        "filename": "07-question-47385.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-682",
+        "filename": "08-step-682.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-47380",
+        "filename": "09-question-47380.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-47379",
+        "filename": "10-question-47379.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-684",
+        "filename": "11-step-684.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-47383",
+        "filename": "12-question-47383.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-47389",
+        "filename": "13-question-47389.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,331 @@
+{
+  "schema_version": 1,
+  "topic_id": "1284",
+  "topic_title": "Trees and Forests",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1284.html",
+  "source_url": "https://mathacademy.com/topics/1284",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "416755",
+        "dom_id": "sectionLink-416755",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-416755"
+      },
+      {
+        "index": 2,
+        "step_id": "416756",
+        "dom_id": "sectionLink-416756",
+        "name": "",
+        "title": "Identifying Trees",
+        "selector": "#sectionLink-416756"
+      },
+      {
+        "index": 3,
+        "step_id": "416759",
+        "dom_id": "sectionLink-416759",
+        "name": "",
+        "title": "Spanning Trees",
+        "selector": "#sectionLink-416759"
+      },
+      {
+        "index": 4,
+        "step_id": "416760",
+        "dom_id": "sectionLink-416760",
+        "name": "",
+        "title": "Identifying Spanning Trees",
+        "selector": "#sectionLink-416760"
+      },
+      {
+        "index": 5,
+        "step_id": "416763",
+        "dom_id": "sectionLink-416763",
+        "name": "",
+        "title": "The Minimum Spanning Tree of a Weighted Graph",
+        "selector": "#sectionLink-416763"
+      },
+      {
+        "index": 6,
+        "step_id": "416764",
+        "dom_id": "sectionLink-416764",
+        "name": "",
+        "title": "Identifying Minimum Spanning Trees",
+        "selector": "#sectionLink-416764"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1260",
+        "name": "Subgraphs and Graph Complements",
+        "href": "/topics/subgraphs-and-graph-complements-1260"
+      },
+      {
+        "topic_id": "1702",
+        "name": "Cycles in Graphs",
+        "href": "/topics/cycles-in-graphs-1702"
+      },
+      {
+        "topic_id": "2789",
+        "name": "Disjoint Sets",
+        "href": "/topics/disjoint-sets-2789"
+      },
+      {
+        "topic_id": "5555",
+        "name": "Edge and Vertex Connectivity",
+        "href": "/topics/edge-and-vertex-connectivity-5555"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "416755",
+        "content_id": "10359",
+        "dom_id": "step-416755",
+        "selector": "#step-416755",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "416756",
+        "content_id": "16215",
+        "dom_id": "step-416756",
+        "selector": "#step-416756",
+        "step_anchor": "step-2",
+        "title": "Identifying Trees",
+        "key_prerequisites": [
+          {
+            "topic_id": "1702",
+            "name": "Cycles in Graphs",
+            "href": "/topics/1702"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "258679",
+        "dom_id": "question-258679",
+        "selector": "#question-258679",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "246801",
+        "dom_id": "question-246801",
+        "selector": "#question-246801",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "416759",
+        "content_id": "10360",
+        "dom_id": "step-416759",
+        "selector": "#step-416759",
+        "step_anchor": "step-5",
+        "title": "Spanning Trees",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "416760",
+        "content_id": "16216",
+        "dom_id": "step-416760",
+        "selector": "#step-416760",
+        "step_anchor": "step-6",
+        "title": "Identifying Spanning Trees",
+        "key_prerequisites": [
+          {
+            "topic_id": "1260",
+            "name": "Subgraphs and Graph Complements",
+            "href": "/topics/1260"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "257814",
+        "dom_id": "question-257814",
+        "selector": "#question-257814",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "246842",
+        "dom_id": "question-246842",
+        "selector": "#question-246842",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "416763",
+        "content_id": "10361",
+        "dom_id": "step-416763",
+        "selector": "#step-416763",
+        "step_anchor": "step-9",
+        "title": "The Minimum Spanning Tree of a Weighted Graph",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "416764",
+        "content_id": "16217",
+        "dom_id": "step-416764",
+        "selector": "#step-416764",
+        "step_anchor": "step-10",
+        "title": "Identifying Minimum Spanning Trees",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "246910",
+        "dom_id": "question-246910",
+        "selector": "#question-246910",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "259009",
+        "dom_id": "question-259009",
+        "selector": "#question-259009",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-416755",
+        "filename": "01-step-416755.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-416756",
+        "filename": "02-step-416756.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-258679",
+        "filename": "03-question-258679.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-246801",
+        "filename": "04-question-246801.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-416759",
+        "filename": "05-step-416759.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-416760",
+        "filename": "06-step-416760.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-257814",
+        "filename": "07-question-257814.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-246842",
+        "filename": "08-question-246842.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-416763",
+        "filename": "09-step-416763.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-416764",
+        "filename": "10-step-416764.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-246910",
+        "filename": "11-question-246910.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-259009",
+        "filename": "12-question-259009.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,404 @@
+{
+  "schema_version": 1,
+  "topic_id": "763",
+  "topic_title": "Calculating Velocity for Plane Motion Using Differentiation",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/763.html",
+  "source_url": "https://mathacademy.com/topics/763",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "2164",
+        "dom_id": "sectionLink-2164",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-2164"
+      },
+      {
+        "index": 2,
+        "step_id": "2165",
+        "dom_id": "sectionLink-2165",
+        "name": "",
+        "title": "Finding the Velocity Vector of a Particle Moving in Two Dimensions",
+        "selector": "#sectionLink-2165"
+      },
+      {
+        "index": 3,
+        "step_id": "2168",
+        "dom_id": "sectionLink-2168",
+        "name": "",
+        "title": "Calculating the Velocity Vector of a Particle Moving in Two Dimensions at a Given Time",
+        "selector": "#sectionLink-2168"
+      },
+      {
+        "index": 4,
+        "step_id": "2170",
+        "dom_id": "sectionLink-2170",
+        "name": "",
+        "title": "The Speed of a Particle",
+        "selector": "#sectionLink-2170"
+      },
+      {
+        "index": 5,
+        "step_id": "2171",
+        "dom_id": "sectionLink-2171",
+        "name": "",
+        "title": "Calculating the Speed of a Particle at a Given Time",
+        "selector": "#sectionLink-2171"
+      },
+      {
+        "index": 6,
+        "step_id": "2173",
+        "dom_id": "sectionLink-2173",
+        "name": "",
+        "title": "Times When the Particle is Stationary",
+        "selector": "#sectionLink-2173"
+      },
+      {
+        "index": 7,
+        "step_id": "2174",
+        "dom_id": "sectionLink-2174",
+        "name": "",
+        "title": "Calculating the Times at Which a Particle Is Stationary",
+        "selector": "#sectionLink-2174"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3581",
+        "name": "Determining Characteristics of Moving Objects Using Differentiation",
+        "href": "/topics/determining-characteristics-of-moving-objects-using-differentiation-3581"
+      },
+      {
+        "topic_id": "3767",
+        "name": "Calculating Displacement for Plane Motion",
+        "href": "/topics/calculating-displacement-for-plane-motion-3767"
+      },
+      {
+        "topic_id": "4139",
+        "name": "Differentiating Vector-Valued Functions",
+        "href": "/topics/differentiating-vector-valued-functions-4139"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "2164",
+        "content_id": "1101",
+        "dom_id": "step-2164",
+        "selector": "#step-2164",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "2165",
+        "content_id": "616",
+        "dom_id": "step-2165",
+        "selector": "#step-2165",
+        "step_anchor": "step-2",
+        "title": "Finding the Velocity Vector of a Particle Moving in Two Dimensions",
+        "key_prerequisites": [
+          {
+            "topic_id": "284",
+            "name": "Calculating Velocity for Straight-Line Motion Using Differentiation",
+            "href": "/topics/284"
+          },
+          {
+            "topic_id": "2036",
+            "name": "Velocity and Acceleration for Plane Motion",
+            "href": "/topics/2036"
+          },
+          {
+            "topic_id": "3767",
+            "name": "Calculating Displacement for Plane Motion",
+            "href": "/topics/3767"
+          },
+          {
+            "topic_id": "4139",
+            "name": "Differentiating Vector-Valued Functions",
+            "href": "/topics/4139"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "31637",
+        "dom_id": "question-31637",
+        "selector": "#question-31637",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "7146",
+        "dom_id": "question-7146",
+        "selector": "#question-7146",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "2168",
+        "content_id": "617",
+        "dom_id": "step-2168",
+        "selector": "#step-2168",
+        "step_anchor": "step-5",
+        "title": "Calculating the Velocity Vector of a Particle Moving in Two Dimensions at a Given Time",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "6387",
+        "dom_id": "question-6387",
+        "selector": "#question-6387",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "6388",
+        "dom_id": "question-6388",
+        "selector": "#question-6388",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "2170",
+        "content_id": "1104",
+        "dom_id": "step-2170",
+        "selector": "#step-2170",
+        "step_anchor": "step-8",
+        "title": "The Speed of a Particle",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "2171",
+        "content_id": "618",
+        "dom_id": "step-2171",
+        "selector": "#step-2171",
+        "step_anchor": "step-9",
+        "title": "Calculating the Speed of a Particle at a Given Time",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "31646",
+        "dom_id": "question-31646",
+        "selector": "#question-31646",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "7151",
+        "dom_id": "question-7151",
+        "selector": "#question-7151",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "2173",
+        "content_id": "1106",
+        "dom_id": "step-2173",
+        "selector": "#step-2173",
+        "step_anchor": "step-12",
+        "title": "Times When the Particle is Stationary",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "2174",
+        "content_id": "619",
+        "dom_id": "step-2174",
+        "selector": "#step-2174",
+        "step_anchor": "step-13",
+        "title": "Calculating the Times at Which a Particle Is Stationary",
+        "key_prerequisites": [
+          {
+            "topic_id": "3581",
+            "name": "Determining Characteristics of Moving Objects Using Differentiation",
+            "href": "/topics/3581"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "7155",
+        "dom_id": "question-7155",
+        "selector": "#question-7155",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "51304",
+        "dom_id": "question-51304",
+        "selector": "#question-51304",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-2164",
+        "filename": "01-step-2164.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-2165",
+        "filename": "02-step-2165.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-31637",
+        "filename": "03-question-31637.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-7146",
+        "filename": "04-question-7146.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-2168",
+        "filename": "05-step-2168.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-6387",
+        "filename": "06-question-6387.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-6388",
+        "filename": "07-question-6388.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-2170",
+        "filename": "08-step-2170.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-2171",
+        "filename": "09-step-2171.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-31646",
+        "filename": "10-question-31646.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-7151",
+        "filename": "11-question-7151.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-2173",
+        "filename": "12-step-2173.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-2174",
+        "filename": "13-step-2174.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-7155",
+        "filename": "14-question-7155.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-51304",
+        "filename": "15-question-51304.png"
+      }
+    ]
+  }
+}

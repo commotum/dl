@@ -1,0 +1,304 @@
+{
+  "schema_version": 1,
+  "topic_id": "2512",
+  "topic_title": "Integrating Rates of Change",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2512.html",
+  "source_url": "https://mathacademy.com/topics/2512",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "13518",
+        "dom_id": "sectionLink-13518",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-13518"
+      },
+      {
+        "index": 2,
+        "step_id": "13519",
+        "dom_id": "sectionLink-13519",
+        "name": "",
+        "title": "Finding the Net Change of a Function Given Its Rate of Change",
+        "selector": "#sectionLink-13519"
+      },
+      {
+        "index": 3,
+        "step_id": "13520",
+        "dom_id": "sectionLink-13520",
+        "name": "",
+        "title": "Finding Total Amounts Given Rates of Change",
+        "selector": "#sectionLink-13520"
+      },
+      {
+        "index": 4,
+        "step_id": "13521",
+        "dom_id": "sectionLink-13521",
+        "name": "",
+        "title": "Finding the Total Change of a Function Given Its Rate of Change",
+        "selector": "#sectionLink-13521"
+      },
+      {
+        "index": 5,
+        "step_id": "13522",
+        "dom_id": "sectionLink-13522",
+        "name": "",
+        "title": "Finding the Global Minimum or Maximum of a Function Given Its Rate of Change",
+        "selector": "#sectionLink-13522"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "613",
+        "name": "The Second Fundamental Theorem of Calculus",
+        "href": "/topics/the-second-fundamental-theorem-of-calculus-613"
+      },
+      {
+        "topic_id": "1360",
+        "name": "Using the First Derivative Test to Classify Local Extrema",
+        "href": "/topics/using-the-first-derivative-test-to-classify-local-extrema-1360"
+      },
+      {
+        "topic_id": "3770",
+        "name": "Integrating Exponential Functions Using Substitution",
+        "href": "/topics/integrating-exponential-functions-using-substitution-3770"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "13518",
+        "content_id": "2744",
+        "dom_id": "step-13518",
+        "selector": "#step-13518",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "13519",
+        "content_id": "3892",
+        "dom_id": "step-13519",
+        "selector": "#step-13519",
+        "step_anchor": "step-2",
+        "title": "Finding the Net Change of a Function Given Its Rate of Change",
+        "key_prerequisites": [
+          {
+            "topic_id": "333",
+            "name": "The Integral as an Accumulation Function",
+            "href": "/topics/333"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "62807",
+        "dom_id": "question-62807",
+        "selector": "#question-62807",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "62799",
+        "dom_id": "question-62799",
+        "selector": "#question-62799",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "13520",
+        "content_id": "2745",
+        "dom_id": "step-13520",
+        "selector": "#step-13520",
+        "step_anchor": "step-5",
+        "title": "Finding Total Amounts Given Rates of Change",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "13521",
+        "content_id": "3893",
+        "dom_id": "step-13521",
+        "selector": "#step-13521",
+        "step_anchor": "step-6",
+        "title": "Finding the Total Change of a Function Given Its Rate of Change",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "62817",
+        "dom_id": "question-62817",
+        "selector": "#question-62817",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "62822",
+        "dom_id": "question-62822",
+        "selector": "#question-62822",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "13522",
+        "content_id": "3894",
+        "dom_id": "step-13522",
+        "selector": "#step-13522",
+        "step_anchor": "step-9",
+        "title": "Finding the Global Minimum or Maximum of a Function Given Its Rate of Change",
+        "key_prerequisites": [
+          {
+            "topic_id": "613",
+            "name": "The Second Fundamental Theorem of Calculus",
+            "href": "/topics/613"
+          },
+          {
+            "topic_id": "1360",
+            "name": "Using the First Derivative Test to Classify Local Extrema",
+            "href": "/topics/1360"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "62837",
+        "dom_id": "question-62837",
+        "selector": "#question-62837",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "62828",
+        "dom_id": "question-62828",
+        "selector": "#question-62828",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-13518",
+        "filename": "01-step-13518.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-13519",
+        "filename": "02-step-13519.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-62807",
+        "filename": "03-question-62807.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-62799",
+        "filename": "04-question-62799.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-13520",
+        "filename": "05-step-13520.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-13521",
+        "filename": "06-step-13521.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-62817",
+        "filename": "07-question-62817.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-62822",
+        "filename": "08-question-62822.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-13522",
+        "filename": "09-step-13522.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-62837",
+        "filename": "10-question-62837.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-62828",
+        "filename": "11-question-62828.png"
+      }
+    ]
+  }
+}

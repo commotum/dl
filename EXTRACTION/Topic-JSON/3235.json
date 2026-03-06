@@ -1,0 +1,288 @@
+{
+  "schema_version": 1,
+  "topic_id": "3235",
+  "topic_title": "Velocity and Acceleration as Functions of Displacement",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3235.html",
+  "source_url": "https://mathacademy.com/topics/3235",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "33520",
+        "dom_id": "sectionLink-33520",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-33520"
+      },
+      {
+        "index": 2,
+        "step_id": "33782",
+        "dom_id": "sectionLink-33782",
+        "name": "",
+        "title": "Finding a Differential Equation That Relates the Velocity and Displacement of a Particle",
+        "selector": "#sectionLink-33782"
+      },
+      {
+        "index": 3,
+        "step_id": "33783",
+        "dom_id": "sectionLink-33783",
+        "name": "",
+        "title": "Solving a Differential Equation That Relates the Velocity and Displacement of a Particle",
+        "selector": "#sectionLink-33783"
+      },
+      {
+        "index": 4,
+        "step_id": "35398",
+        "dom_id": "sectionLink-35398",
+        "name": "",
+        "title": "Calculating the Displacement of a Particle as a Function of Time",
+        "selector": "#sectionLink-35398"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1179",
+        "name": "Solving First-Order IVPs Using Separation of Variables",
+        "href": "/topics/solving-first-order-ivps-using-separation-of-variables-1179"
+      },
+      {
+        "topic_id": "2023",
+        "name": "Modeling With First-Order ODEs",
+        "href": "/topics/modeling-with-first-order-odes-2023"
+      },
+      {
+        "topic_id": "3576",
+        "name": "Calculating the Displacement of a Particle Using Integration",
+        "href": "/topics/calculating-the-displacement-of-a-particle-using-integration-3576"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 10,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "33520",
+        "content_id": "5369",
+        "dom_id": "step-33520",
+        "selector": "#step-33520",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33782",
+        "content_id": "9050",
+        "dom_id": "step-33782",
+        "selector": "#step-33782",
+        "step_anchor": "step-2",
+        "title": "Finding a Differential Equation That Relates the Velocity and Displacement of a Particle",
+        "key_prerequisites": [
+          {
+            "topic_id": "284",
+            "name": "Calculating Velocity for Straight-Line Motion Using Differentiation",
+            "href": "/topics/284"
+          },
+          {
+            "topic_id": "1108",
+            "name": "The Chain Rule for Differentiation",
+            "href": "/topics/1108"
+          },
+          {
+            "topic_id": "2023",
+            "name": "Modeling With First-Order ODEs",
+            "href": "/topics/2023"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "107998",
+        "dom_id": "question-107998",
+        "selector": "#question-107998",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "108010",
+        "dom_id": "question-108010",
+        "selector": "#question-108010",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33783",
+        "content_id": "9051",
+        "dom_id": "step-33783",
+        "selector": "#step-33783",
+        "step_anchor": "step-5",
+        "title": "Solving a Differential Equation That Relates the Velocity and Displacement of a Particle",
+        "key_prerequisites": [
+          {
+            "topic_id": "1179",
+            "name": "Solving First-Order IVPs Using Separation of Variables",
+            "href": "/topics/1179"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "107999",
+        "dom_id": "question-107999",
+        "selector": "#question-107999",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "108002",
+        "dom_id": "question-108002",
+        "selector": "#question-108002",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "35398",
+        "content_id": "9455",
+        "dom_id": "step-35398",
+        "selector": "#step-35398",
+        "step_anchor": "step-8",
+        "title": "Calculating the Displacement of a Particle as a Function of Time",
+        "key_prerequisites": [
+          {
+            "topic_id": "3576",
+            "name": "Calculating the Displacement of a Particle Using Integration",
+            "href": "/topics/3576"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "122170",
+        "dom_id": "question-122170",
+        "selector": "#question-122170",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "108004",
+        "dom_id": "question-108004",
+        "selector": "#question-108004",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-33520",
+        "filename": "01-step-33520.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-33782",
+        "filename": "02-step-33782.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-107998",
+        "filename": "03-question-107998.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-108010",
+        "filename": "04-question-108010.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-33783",
+        "filename": "05-step-33783.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-107999",
+        "filename": "06-question-107999.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-108002",
+        "filename": "07-question-108002.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-35398",
+        "filename": "08-step-35398.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-122170",
+        "filename": "09-question-122170.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-108004",
+        "filename": "10-question-108004.png"
+      }
+    ]
+  }
+}

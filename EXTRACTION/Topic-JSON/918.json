@@ -1,0 +1,416 @@
+{
+  "schema_version": 1,
+  "topic_id": "918",
+  "topic_title": "The Bivariate Normal Distribution",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/918.html",
+  "source_url": "https://mathacademy.com/topics/918",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "42251",
+        "dom_id": "sectionLink-42251",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-42251"
+      },
+      {
+        "index": 2,
+        "step_id": "42318",
+        "dom_id": "sectionLink-42318",
+        "name": "",
+        "title": "Normal Distribution vs. Bivariate Normal Distribution",
+        "selector": "#sectionLink-42318"
+      },
+      {
+        "index": 3,
+        "step_id": "42320",
+        "dom_id": "sectionLink-42320",
+        "name": "",
+        "title": "Interpretation of Parameters in a Bivariate Normal Distribution",
+        "selector": "#sectionLink-42320"
+      },
+      {
+        "index": 4,
+        "step_id": "42252",
+        "dom_id": "sectionLink-42252",
+        "name": "",
+        "title": "The Joint PDF of a Bivariate Normal Random Variable",
+        "selector": "#sectionLink-42252"
+      },
+      {
+        "index": 5,
+        "step_id": "42319",
+        "dom_id": "sectionLink-42319",
+        "name": "",
+        "title": "Linear Combinations of Normal Random Variables From Bivariate Distributions",
+        "selector": "#sectionLink-42319"
+      },
+      {
+        "index": 6,
+        "step_id": "42253",
+        "dom_id": "sectionLink-42253",
+        "name": "",
+        "title": "Linear Combinations of Elements From a Bivariate Normal Random Variable",
+        "selector": "#sectionLink-42253"
+      },
+      {
+        "index": 7,
+        "step_id": "42260",
+        "dom_id": "sectionLink-42260",
+        "name": "",
+        "title": "The Multivariate Normal Distribution",
+        "selector": "#sectionLink-42260"
+      },
+      {
+        "index": 8,
+        "step_id": "42254",
+        "dom_id": "sectionLink-42254",
+        "name": "",
+        "title": "Linear Combinations of Elements From a Multivariate Normal Random Variable",
+        "selector": "#sectionLink-42254"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1900",
+        "name": "Level Curves",
+        "href": "/topics/level-curves-1900"
+      },
+      {
+        "topic_id": "3052",
+        "name": "Joint Distributions for Continuous Random Variables",
+        "href": "/topics/joint-distributions-for-continuous-random-variables-3052"
+      },
+      {
+        "topic_id": "3638",
+        "name": "Combining Multiple Normally Distributed Random Variables",
+        "href": "/topics/combining-multiple-normally-distributed-random-variables-3638"
+      },
+      {
+        "topic_id": "3939",
+        "name": "The Covariance Matrix",
+        "href": "/topics/the-covariance-matrix-3939"
+      },
+      {
+        "topic_id": "3940",
+        "name": "Variance of Sums of Random Variables",
+        "href": "/topics/variance-of-sums-of-random-variables-3940"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "42251",
+        "content_id": "6997",
+        "dom_id": "step-42251",
+        "selector": "#step-42251",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "42318",
+        "content_id": "7016",
+        "dom_id": "step-42318",
+        "selector": "#step-42318",
+        "step_anchor": "step-2",
+        "title": "Normal Distribution vs. Bivariate Normal Distribution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "42320",
+        "content_id": "7018",
+        "dom_id": "step-42320",
+        "selector": "#step-42320",
+        "step_anchor": "step-3",
+        "title": "Interpretation of Parameters in a Bivariate Normal Distribution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "42252",
+        "content_id": "11113",
+        "dom_id": "step-42252",
+        "selector": "#step-42252",
+        "step_anchor": "step-4",
+        "title": "The Joint PDF of a Bivariate Normal Random Variable",
+        "key_prerequisites": [
+          {
+            "topic_id": "152",
+            "name": "The Determinant of a 2x2 Matrix",
+            "href": "/topics/152"
+          },
+          {
+            "topic_id": "3050",
+            "name": "The Correlation Coefficient for Two Random Variables",
+            "href": "/topics/3050"
+          },
+          {
+            "topic_id": "3939",
+            "name": "The Covariance Matrix",
+            "href": "/topics/3939"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "159689",
+        "dom_id": "question-159689",
+        "selector": "#question-159689",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "159685",
+        "dom_id": "question-159685",
+        "selector": "#question-159685",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "42319",
+        "content_id": "7017",
+        "dom_id": "step-42319",
+        "selector": "#step-42319",
+        "step_anchor": "step-7",
+        "title": "Linear Combinations of Normal Random Variables From Bivariate Distributions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "42253",
+        "content_id": "11114",
+        "dom_id": "step-42253",
+        "selector": "#step-42253",
+        "step_anchor": "step-8",
+        "title": "Linear Combinations of Elements From a Bivariate Normal Random Variable",
+        "key_prerequisites": [
+          {
+            "topic_id": "3009",
+            "name": "Combining Two Normally Distributed Random Variables",
+            "href": "/topics/3009"
+          },
+          {
+            "topic_id": "3940",
+            "name": "Variance of Sums of Random Variables",
+            "href": "/topics/3940"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "143542",
+        "dom_id": "question-143542",
+        "selector": "#question-143542",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "159694",
+        "dom_id": "question-159694",
+        "selector": "#question-159694",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "42260",
+        "content_id": "6998",
+        "dom_id": "step-42260",
+        "selector": "#step-42260",
+        "step_anchor": "step-11",
+        "title": "The Multivariate Normal Distribution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "42254",
+        "content_id": "11115",
+        "dom_id": "step-42254",
+        "selector": "#step-42254",
+        "step_anchor": "step-12",
+        "title": "Linear Combinations of Elements From a Multivariate Normal Random Variable",
+        "key_prerequisites": [
+          {
+            "topic_id": "3123",
+            "name": "Quadratic Forms",
+            "href": "/topics/3123"
+          },
+          {
+            "topic_id": "3638",
+            "name": "Combining Multiple Normally Distributed Random Variables",
+            "href": "/topics/3638"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "159682",
+        "dom_id": "question-159682",
+        "selector": "#question-159682",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "159695",
+        "dom_id": "question-159695",
+        "selector": "#question-159695",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-42251",
+        "filename": "01-step-42251.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-42318",
+        "filename": "02-step-42318.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-42320",
+        "filename": "03-step-42320.png"
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "selector": "#step-42252",
+        "filename": "04-step-42252.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-159689",
+        "filename": "05-question-159689.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-159685",
+        "filename": "06-question-159685.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-42319",
+        "filename": "07-step-42319.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-42253",
+        "filename": "08-step-42253.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-143542",
+        "filename": "09-question-143542.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-159694",
+        "filename": "10-question-159694.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-42260",
+        "filename": "11-step-42260.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-42254",
+        "filename": "12-step-42254.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-159682",
+        "filename": "13-question-159682.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-159695",
+        "filename": "14-question-159695.png"
+      }
+    ]
+  }
+}

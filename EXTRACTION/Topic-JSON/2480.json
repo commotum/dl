@@ -1,0 +1,397 @@
+{
+  "schema_version": 1,
+  "topic_id": "2480",
+  "topic_title": "Range, Quartiles, and IQR",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2480.html",
+  "source_url": "https://mathacademy.com/topics/2480",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "79853",
+        "dom_id": "sectionLink-79853",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-79853"
+      },
+      {
+        "index": 2,
+        "step_id": "79854",
+        "dom_id": "sectionLink-79854",
+        "name": "",
+        "title": "Finding the Range",
+        "selector": "#sectionLink-79854"
+      },
+      {
+        "index": 3,
+        "step_id": "79857",
+        "dom_id": "sectionLink-79857",
+        "name": "",
+        "title": "Lower and Upper Quartiles",
+        "selector": "#sectionLink-79857"
+      },
+      {
+        "index": 4,
+        "step_id": "79858",
+        "dom_id": "sectionLink-79858",
+        "name": "",
+        "title": "Finding the Lower or Upper Quartile: Even Number of Elements",
+        "selector": "#sectionLink-79858"
+      },
+      {
+        "index": 5,
+        "step_id": "79861",
+        "dom_id": "sectionLink-79861",
+        "name": "",
+        "title": "Finding the Lower or Upper Quartile: Odd Number of Elements",
+        "selector": "#sectionLink-79861"
+      },
+      {
+        "index": 6,
+        "step_id": "79864",
+        "dom_id": "sectionLink-79864",
+        "name": "",
+        "title": "Interquartile Range",
+        "selector": "#sectionLink-79864"
+      },
+      {
+        "index": 7,
+        "step_id": "79865",
+        "dom_id": "sectionLink-79865",
+        "name": "",
+        "title": "Finding the Interquartile Range",
+        "selector": "#sectionLink-79865"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3749",
+        "name": "The Median of a Data Set",
+        "href": "/topics/the-median-of-a-data-set-3749"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 16,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "79853",
+        "content_id": "8195",
+        "dom_id": "step-79853",
+        "selector": "#step-79853",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "79854",
+        "content_id": "13105",
+        "dom_id": "step-79854",
+        "selector": "#step-79854",
+        "step_anchor": "step-2",
+        "title": "Finding the Range",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "62689",
+        "dom_id": "question-62689",
+        "selector": "#question-62689",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "62687",
+        "dom_id": "question-62687",
+        "selector": "#question-62687",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "79857",
+        "content_id": "8196",
+        "dom_id": "step-79857",
+        "selector": "#step-79857",
+        "step_anchor": "step-5",
+        "title": "Lower and Upper Quartiles",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "79858",
+        "content_id": "13106",
+        "dom_id": "step-79858",
+        "selector": "#step-79858",
+        "step_anchor": "step-6",
+        "title": "Finding the Lower or Upper Quartile: Even Number of Elements",
+        "key_prerequisites": [
+          {
+            "topic_id": "3749",
+            "name": "The Median of a Data Set",
+            "href": "/topics/3749"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "62667",
+        "dom_id": "question-62667",
+        "selector": "#question-62667",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "169422",
+        "dom_id": "question-169422",
+        "selector": "#question-169422",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "79861",
+        "content_id": "13366",
+        "dom_id": "step-79861",
+        "selector": "#step-79861",
+        "step_anchor": "step-9",
+        "title": "Finding the Lower or Upper Quartile: Odd Number of Elements",
+        "key_prerequisites": [
+          {
+            "topic_id": "2479",
+            "name": "The Mean of a Data Set",
+            "href": "/topics/2479"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "62671",
+        "dom_id": "question-62671",
+        "selector": "#question-62671",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "62658",
+        "dom_id": "question-62658",
+        "selector": "#question-62658",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "79864",
+        "content_id": "8197",
+        "dom_id": "step-79864",
+        "selector": "#step-79864",
+        "step_anchor": "step-12",
+        "title": "Interquartile Range",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "79865",
+        "content_id": "13107",
+        "dom_id": "step-79865",
+        "selector": "#step-79865",
+        "step_anchor": "step-13",
+        "title": "Finding the Interquartile Range",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "62094",
+        "dom_id": "question-62094",
+        "selector": "#question-62094",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "62402",
+        "dom_id": "question-62402",
+        "selector": "#question-62402",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "62102",
+        "dom_id": "question-62102",
+        "selector": "#question-62102",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-79853",
+        "filename": "01-step-79853.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-79854",
+        "filename": "02-step-79854.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-62689",
+        "filename": "03-question-62689.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-62687",
+        "filename": "04-question-62687.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-79857",
+        "filename": "05-step-79857.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-79858",
+        "filename": "06-step-79858.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-62667",
+        "filename": "07-question-62667.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-169422",
+        "filename": "08-question-169422.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-79861",
+        "filename": "09-step-79861.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-62671",
+        "filename": "10-question-62671.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-62658",
+        "filename": "11-question-62658.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-79864",
+        "filename": "12-step-79864.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-79865",
+        "filename": "13-step-79865.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-62094",
+        "filename": "14-question-62094.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-62402",
+        "filename": "15-question-62402.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-62102",
+        "filename": "16-question-62102.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,303 @@
+{
+  "schema_version": 1,
+  "topic_id": "3057",
+  "topic_title": "Conditional Expectation for Continuous Random Variables",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3057.html",
+  "source_url": "https://mathacademy.com/topics/3057",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "38822",
+        "dom_id": "sectionLink-38822",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-38822"
+      },
+      {
+        "index": 2,
+        "step_id": "39220",
+        "dom_id": "sectionLink-39220",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-39220"
+      },
+      {
+        "index": 3,
+        "step_id": "38880",
+        "dom_id": "sectionLink-38880",
+        "name": "",
+        "title": "Calculating a Conditional Expectation From a Conditional PDF",
+        "selector": "#sectionLink-38880"
+      },
+      {
+        "index": 4,
+        "step_id": "38861",
+        "dom_id": "sectionLink-38861",
+        "name": "",
+        "title": "Calculating Conditional Expectations Given Joint and Marginal PDFs",
+        "selector": "#sectionLink-38861"
+      },
+      {
+        "index": 5,
+        "step_id": "38877",
+        "dom_id": "sectionLink-38877",
+        "name": "",
+        "title": "Conditional Expectation as a Function",
+        "selector": "#sectionLink-38877"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3022",
+        "name": "Conditional Distributions for Continuous Random Variables",
+        "href": "/topics/conditional-distributions-for-continuous-random-variables-3022"
+      },
+      {
+        "topic_id": "3053",
+        "name": "Conditional Expectation for Discrete Random Variables",
+        "href": "/topics/conditional-expectation-for-discrete-random-variables-3053"
+      },
+      {
+        "topic_id": "4012",
+        "name": "Expected Values of Continuous Random Variables",
+        "href": "/topics/expected-values-of-continuous-random-variables-4012"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "38822",
+        "content_id": "6428",
+        "dom_id": "step-38822",
+        "selector": "#step-38822",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "39220",
+        "content_id": "6481",
+        "dom_id": "step-39220",
+        "selector": "#step-39220",
+        "step_anchor": "step-2",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "38880",
+        "content_id": "10316",
+        "dom_id": "step-38880",
+        "selector": "#step-38880",
+        "step_anchor": "step-3",
+        "title": "Calculating a Conditional Expectation From a Conditional PDF",
+        "key_prerequisites": [
+          {
+            "topic_id": "3022",
+            "name": "Conditional Distributions for Continuous Random Variables",
+            "href": "/topics/3022"
+          },
+          {
+            "topic_id": "3053",
+            "name": "Conditional Expectation for Discrete Random Variables",
+            "href": "/topics/3053"
+          },
+          {
+            "topic_id": "4012",
+            "name": "Expected Values of Continuous Random Variables",
+            "href": "/topics/4012"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "145631",
+        "dom_id": "question-145631",
+        "selector": "#question-145631",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "146213",
+        "dom_id": "question-146213",
+        "selector": "#question-146213",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "38861",
+        "content_id": "10311",
+        "dom_id": "step-38861",
+        "selector": "#step-38861",
+        "step_anchor": "step-6",
+        "title": "Calculating Conditional Expectations Given Joint and Marginal PDFs",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "145627",
+        "dom_id": "question-145627",
+        "selector": "#question-145627",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "146342",
+        "dom_id": "question-146342",
+        "selector": "#question-146342",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "38877",
+        "content_id": "10315",
+        "dom_id": "step-38877",
+        "selector": "#step-38877",
+        "step_anchor": "step-9",
+        "title": "Conditional Expectation as a Function",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "146424",
+        "dom_id": "question-146424",
+        "selector": "#question-146424",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "145622",
+        "dom_id": "question-145622",
+        "selector": "#question-145622",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-38822",
+        "filename": "01-step-38822.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-39220",
+        "filename": "02-step-39220.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-38880",
+        "filename": "03-step-38880.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-145631",
+        "filename": "04-question-145631.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-146213",
+        "filename": "05-question-146213.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-38861",
+        "filename": "06-step-38861.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-145627",
+        "filename": "07-question-145627.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-146342",
+        "filename": "08-question-146342.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-38877",
+        "filename": "09-step-38877.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-146424",
+        "filename": "10-question-146424.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-145622",
+        "filename": "11-question-145622.png"
+      }
+    ]
+  }
+}

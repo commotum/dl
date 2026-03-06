@@ -1,0 +1,480 @@
+{
+  "schema_version": 1,
+  "topic_id": "1712",
+  "topic_title": "Falling Body Problems With Linear Drag",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1712.html",
+  "source_url": "https://mathacademy.com/topics/1712",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "593310",
+        "dom_id": "sectionLink-593310",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-593310"
+      },
+      {
+        "index": 2,
+        "step_id": "593311",
+        "dom_id": "sectionLink-593311",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-593311"
+      },
+      {
+        "index": 3,
+        "step_id": "593312",
+        "dom_id": "sectionLink-593312",
+        "name": "",
+        "title": "Constructing and Solving a Falling Body Model With Negligible Drag",
+        "selector": "#sectionLink-593312"
+      },
+      {
+        "index": 4,
+        "step_id": "593316",
+        "dom_id": "sectionLink-593316",
+        "name": "",
+        "title": "Falling Body Problems With Linear Drag",
+        "selector": "#sectionLink-593316"
+      },
+      {
+        "index": 5,
+        "step_id": "593317",
+        "dom_id": "sectionLink-593317",
+        "name": "",
+        "title": "Constructing a Falling Body Model With Linear Drag",
+        "selector": "#sectionLink-593317"
+      },
+      {
+        "index": 6,
+        "step_id": "593321",
+        "dom_id": "sectionLink-593321",
+        "name": "",
+        "title": "Constructing and Solving a Falling Body Model With Linear Drag",
+        "selector": "#sectionLink-593321"
+      },
+      {
+        "index": 7,
+        "step_id": "593325",
+        "dom_id": "sectionLink-593325",
+        "name": "",
+        "title": "Terminal Velocity",
+        "selector": "#sectionLink-593325"
+      },
+      {
+        "index": 8,
+        "step_id": "593326",
+        "dom_id": "sectionLink-593326",
+        "name": "",
+        "title": "Finding a Terminal Velocity",
+        "selector": "#sectionLink-593326"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2023",
+        "name": "Modeling With First-Order ODEs",
+        "href": "/topics/modeling-with-first-order-odes-2023"
+      },
+      {
+        "topic_id": "2722",
+        "name": "Newton's Second Law",
+        "href": "/topics/newtons-second-law-2722"
+      },
+      {
+        "topic_id": "6678",
+        "name": "General Solutions of First-Order Linear ODEs",
+        "href": "/topics/general-solutions-of-first-order-linear-odes-6678"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 19,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "593310",
+        "content_id": "14520",
+        "dom_id": "step-593310",
+        "selector": "#step-593310",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "593311",
+        "content_id": "14525",
+        "dom_id": "step-593311",
+        "selector": "#step-593311",
+        "step_anchor": "step-2",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "593312",
+        "content_id": "21713",
+        "dom_id": "step-593312",
+        "selector": "#step-593312",
+        "step_anchor": "step-3",
+        "title": "Constructing and Solving a Falling Body Model With Negligible Drag",
+        "key_prerequisites": [
+          {
+            "topic_id": "2023",
+            "name": "Modeling With First-Order ODEs",
+            "href": "/topics/2023"
+          },
+          {
+            "topic_id": "2230",
+            "name": "Determining Units in Formulas",
+            "href": "/topics/2230"
+          },
+          {
+            "topic_id": "2722",
+            "name": "Newton's Second Law",
+            "href": "/topics/2722"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "334536",
+        "dom_id": "question-334536",
+        "selector": "#question-334536",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "334770",
+        "dom_id": "question-334770",
+        "selector": "#question-334770",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "334539",
+        "dom_id": "question-334539",
+        "selector": "#question-334539",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "593316",
+        "content_id": "14512",
+        "dom_id": "step-593316",
+        "selector": "#step-593316",
+        "step_anchor": "step-7",
+        "title": "Falling Body Problems With Linear Drag",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "593317",
+        "content_id": "21712",
+        "dom_id": "step-593317",
+        "selector": "#step-593317",
+        "step_anchor": "step-8",
+        "title": "Constructing a Falling Body Model With Linear Drag",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "334032",
+        "dom_id": "question-334032",
+        "selector": "#question-334032",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "334034",
+        "dom_id": "question-334034",
+        "selector": "#question-334034",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "334056",
+        "dom_id": "question-334056",
+        "selector": "#question-334056",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "593321",
+        "content_id": "21703",
+        "dom_id": "step-593321",
+        "selector": "#step-593321",
+        "step_anchor": "step-12",
+        "title": "Constructing and Solving a Falling Body Model With Linear Drag",
+        "key_prerequisites": [
+          {
+            "topic_id": "6678",
+            "name": "General Solutions of First-Order Linear ODEs",
+            "href": "/topics/6678"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "334550",
+        "dom_id": "question-334550",
+        "selector": "#question-334550",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "335190",
+        "dom_id": "question-335190",
+        "selector": "#question-335190",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "334554",
+        "dom_id": "question-334554",
+        "selector": "#question-334554",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "593325",
+        "content_id": "14517",
+        "dom_id": "step-593325",
+        "selector": "#step-593325",
+        "step_anchor": "step-16",
+        "title": "Terminal Velocity",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 17,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "593326",
+        "content_id": "21714",
+        "dom_id": "step-593326",
+        "selector": "#step-593326",
+        "step_anchor": "step-17",
+        "title": "Finding a Terminal Velocity",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 18,
+        "item_type": "question",
+        "question_id": "334572",
+        "dom_id": "question-334572",
+        "selector": "#question-334572",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 19,
+        "item_type": "question",
+        "question_id": "334575",
+        "dom_id": "question-334575",
+        "selector": "#question-334575",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-593310",
+        "filename": "01-step-593310.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-593311",
+        "filename": "02-step-593311.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-593312",
+        "filename": "03-step-593312.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-334536",
+        "filename": "04-question-334536.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-334770",
+        "filename": "05-question-334770.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-334539",
+        "filename": "06-question-334539.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-593316",
+        "filename": "07-step-593316.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-593317",
+        "filename": "08-step-593317.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-334032",
+        "filename": "09-question-334032.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-334034",
+        "filename": "10-question-334034.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-334056",
+        "filename": "11-question-334056.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-593321",
+        "filename": "12-step-593321.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-334550",
+        "filename": "13-question-334550.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-335190",
+        "filename": "14-question-335190.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-334554",
+        "filename": "15-question-334554.png"
+      },
+      {
+        "index": 16,
+        "item_type": "step",
+        "selector": "#step-593325",
+        "filename": "16-step-593325.png"
+      },
+      {
+        "index": 17,
+        "item_type": "step",
+        "selector": "#step-593326",
+        "filename": "17-step-593326.png"
+      },
+      {
+        "index": 18,
+        "item_type": "question",
+        "selector": "#question-334572",
+        "filename": "18-question-334572.png"
+      },
+      {
+        "index": 19,
+        "item_type": "question",
+        "selector": "#question-334575",
+        "filename": "19-question-334575.png"
+      }
+    ]
+  }
+}

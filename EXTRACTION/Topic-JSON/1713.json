@@ -1,0 +1,386 @@
+{
+  "schema_version": 1,
+  "topic_id": "1713",
+  "topic_title": "Modeling Mixture Problems With First-Order Separable ODEs",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1713.html",
+  "source_url": "https://mathacademy.com/topics/1713",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "593289",
+        "dom_id": "sectionLink-593289",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-593289"
+      },
+      {
+        "index": 2,
+        "step_id": "593290",
+        "dom_id": "sectionLink-593290",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-593290"
+      },
+      {
+        "index": 3,
+        "step_id": "593291",
+        "dom_id": "sectionLink-593291",
+        "name": "",
+        "title": "Constructing a Dilution Model",
+        "selector": "#sectionLink-593291"
+      },
+      {
+        "index": 4,
+        "step_id": "593294",
+        "dom_id": "sectionLink-593294",
+        "name": "",
+        "title": "Solving a Dilution Model Where the Input Has a Concentration of Zero",
+        "selector": "#sectionLink-593294"
+      },
+      {
+        "index": 5,
+        "step_id": "593295",
+        "dom_id": "sectionLink-593295",
+        "name": "",
+        "title": "Constructing and Solving a Dilution Model",
+        "selector": "#sectionLink-593295"
+      },
+      {
+        "index": 6,
+        "step_id": "593299",
+        "dom_id": "sectionLink-593299",
+        "name": "",
+        "title": "Points of Overflow and Emptying",
+        "selector": "#sectionLink-593299"
+      },
+      {
+        "index": 7,
+        "step_id": "593300",
+        "dom_id": "sectionLink-593300",
+        "name": "",
+        "title": "Determining an Amount at an Overflow Point",
+        "selector": "#sectionLink-593300"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1021",
+        "name": "Modeling Mixture Problems",
+        "href": "/topics/modeling-mixture-problems-1021"
+      },
+      {
+        "topic_id": "1179",
+        "name": "Solving First-Order IVPs Using Separation of Variables",
+        "href": "/topics/solving-first-order-ivps-using-separation-of-variables-1179"
+      },
+      {
+        "topic_id": "3860",
+        "name": "Further Modeling With First-Order ODEs",
+        "href": "/topics/further-modeling-with-first-order-odes-3860"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "593289",
+        "content_id": "14562",
+        "dom_id": "step-593289",
+        "selector": "#step-593289",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "593290",
+        "content_id": "14563",
+        "dom_id": "step-593290",
+        "selector": "#step-593290",
+        "step_anchor": "step-2",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "593291",
+        "content_id": "21751",
+        "dom_id": "step-593291",
+        "selector": "#step-593291",
+        "step_anchor": "step-3",
+        "title": "Constructing a Dilution Model",
+        "key_prerequisites": [
+          {
+            "topic_id": "296",
+            "name": "Interpreting the Meaning of the Derivative in Context",
+            "href": "/topics/296"
+          },
+          {
+            "topic_id": "1021",
+            "name": "Modeling Mixture Problems",
+            "href": "/topics/1021"
+          },
+          {
+            "topic_id": "2231",
+            "name": "Selecting Units for Rates of Change",
+            "href": "/topics/2231"
+          },
+          {
+            "topic_id": "3860",
+            "name": "Further Modeling With First-Order ODEs",
+            "href": "/topics/3860"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "336583",
+        "dom_id": "question-336583",
+        "selector": "#question-336583",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "335825",
+        "dom_id": "question-335825",
+        "selector": "#question-335825",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "593294",
+        "content_id": "14654",
+        "dom_id": "step-593294",
+        "selector": "#step-593294",
+        "step_anchor": "step-6",
+        "title": "Solving a Dilution Model Where the Input Has a Concentration of Zero",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "593295",
+        "content_id": "21752",
+        "dom_id": "step-593295",
+        "selector": "#step-593295",
+        "step_anchor": "step-7",
+        "title": "Constructing and Solving a Dilution Model",
+        "key_prerequisites": [
+          {
+            "topic_id": "1179",
+            "name": "Solving First-Order IVPs Using Separation of Variables",
+            "href": "/topics/1179"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "335865",
+        "dom_id": "question-335865",
+        "selector": "#question-335865",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "336680",
+        "dom_id": "question-336680",
+        "selector": "#question-336680",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "336401",
+        "dom_id": "question-336401",
+        "selector": "#question-336401",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "593299",
+        "content_id": "14564",
+        "dom_id": "step-593299",
+        "selector": "#step-593299",
+        "step_anchor": "step-11",
+        "title": "Points of Overflow and Emptying",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "593300",
+        "content_id": "21755",
+        "dom_id": "step-593300",
+        "selector": "#step-593300",
+        "step_anchor": "step-12",
+        "title": "Determining an Amount at an Overflow Point",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "336687",
+        "dom_id": "question-336687",
+        "selector": "#question-336687",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "336422",
+        "dom_id": "question-336422",
+        "selector": "#question-336422",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-593289",
+        "filename": "01-step-593289.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-593290",
+        "filename": "02-step-593290.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-593291",
+        "filename": "03-step-593291.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-336583",
+        "filename": "04-question-336583.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-335825",
+        "filename": "05-question-335825.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-593294",
+        "filename": "06-step-593294.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-593295",
+        "filename": "07-step-593295.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-335865",
+        "filename": "08-question-335865.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-336680",
+        "filename": "09-question-336680.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-336401",
+        "filename": "10-question-336401.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-593299",
+        "filename": "11-step-593299.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-593300",
+        "filename": "12-step-593300.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-336687",
+        "filename": "13-question-336687.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-336422",
+        "filename": "14-question-336422.png"
+      }
+    ]
+  }
+}

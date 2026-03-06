@@ -1,0 +1,383 @@
+{
+  "schema_version": 1,
+  "topic_id": "1818",
+  "topic_title": "The Recursive Formula for a Geometric Sequence",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1818.html",
+  "source_url": "https://mathacademy.com/topics/1818",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "455131",
+        "dom_id": "sectionLink-455131",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-455131"
+      },
+      {
+        "index": 2,
+        "step_id": "455132",
+        "dom_id": "sectionLink-455132",
+        "name": "",
+        "title": "Constructing a Recursive Formula for a Geometric Sequence",
+        "selector": "#sectionLink-455132"
+      },
+      {
+        "index": 3,
+        "step_id": "455136",
+        "dom_id": "sectionLink-455136",
+        "name": "",
+        "title": "Calculating a Term of a Geometric Sequence Given Its Recursive Formula",
+        "selector": "#sectionLink-455136"
+      },
+      {
+        "index": 4,
+        "step_id": "455140",
+        "dom_id": "sectionLink-455140",
+        "name": "",
+        "title": "Calculating a Term of a Geometric Sequence Given a Recursive Formula in Function Notation",
+        "selector": "#sectionLink-455140"
+      },
+      {
+        "index": 5,
+        "step_id": "455144",
+        "dom_id": "sectionLink-455144",
+        "name": "",
+        "title": "Identifying Geometric Sequences",
+        "selector": "#sectionLink-455144"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "679",
+        "name": "Introduction to Geometric Sequences",
+        "href": "/topics/introduction-to-geometric-sequences-679"
+      },
+      {
+        "topic_id": "1226",
+        "name": "Recursive Sequences",
+        "href": "/topics/recursive-sequences-1226"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 16,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "455131",
+        "content_id": "1668",
+        "dom_id": "step-455131",
+        "selector": "#step-455131",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "455132",
+        "content_id": "1506",
+        "dom_id": "step-455132",
+        "selector": "#step-455132",
+        "step_anchor": "step-2",
+        "title": "Constructing a Recursive Formula for a Geometric Sequence",
+        "key_prerequisites": [
+          {
+            "topic_id": "679",
+            "name": "Introduction to Geometric Sequences",
+            "href": "/topics/679"
+          },
+          {
+            "topic_id": "1226",
+            "name": "Recursive Sequences",
+            "href": "/topics/1226"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "44818",
+        "dom_id": "question-44818",
+        "selector": "#question-44818",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "249792",
+        "dom_id": "question-249792",
+        "selector": "#question-249792",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "249795",
+        "dom_id": "question-249795",
+        "selector": "#question-249795",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "455136",
+        "content_id": "1507",
+        "dom_id": "step-455136",
+        "selector": "#step-455136",
+        "step_anchor": "step-6",
+        "title": "Calculating a Term of a Geometric Sequence Given Its Recursive Formula",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "233046",
+        "dom_id": "question-233046",
+        "selector": "#question-233046",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "249805",
+        "dom_id": "question-249805",
+        "selector": "#question-249805",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "44819",
+        "dom_id": "question-44819",
+        "selector": "#question-44819",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "455140",
+        "content_id": "4232",
+        "dom_id": "step-455140",
+        "selector": "#step-455140",
+        "step_anchor": "step-10",
+        "title": "Calculating a Term of a Geometric Sequence Given a Recursive Formula in Function Notation",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "44957",
+        "dom_id": "question-44957",
+        "selector": "#question-44957",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "233070",
+        "dom_id": "question-233070",
+        "selector": "#question-233070",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "44958",
+        "dom_id": "question-44958",
+        "selector": "#question-44958",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "455144",
+        "content_id": "1508",
+        "dom_id": "step-455144",
+        "selector": "#step-455144",
+        "step_anchor": "step-14",
+        "title": "Identifying Geometric Sequences",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "39313",
+        "dom_id": "question-39313",
+        "selector": "#question-39313",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "44824",
+        "dom_id": "question-44824",
+        "selector": "#question-44824",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-455131",
+        "filename": "01-step-455131.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-455132",
+        "filename": "02-step-455132.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-44818",
+        "filename": "03-question-44818.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-249792",
+        "filename": "04-question-249792.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-249795",
+        "filename": "05-question-249795.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-455136",
+        "filename": "06-step-455136.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-233046",
+        "filename": "07-question-233046.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-249805",
+        "filename": "08-question-249805.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-44819",
+        "filename": "09-question-44819.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-455140",
+        "filename": "10-step-455140.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-44957",
+        "filename": "11-question-44957.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-233070",
+        "filename": "12-question-233070.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-44958",
+        "filename": "13-question-44958.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-455144",
+        "filename": "14-step-455144.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-39313",
+        "filename": "15-question-39313.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-44824",
+        "filename": "16-question-44824.png"
+      }
+    ]
+  }
+}

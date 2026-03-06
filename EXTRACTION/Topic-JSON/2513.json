@@ -1,0 +1,373 @@
+{
+  "schema_version": 1,
+  "topic_id": "2513",
+  "topic_title": "Integrating Density Functions",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2513.html",
+  "source_url": "https://mathacademy.com/topics/2513",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "13532",
+        "dom_id": "sectionLink-13532",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-13532"
+      },
+      {
+        "index": 2,
+        "step_id": "13533",
+        "dom_id": "sectionLink-13533",
+        "name": "",
+        "title": "Integrating a Density Function",
+        "selector": "#sectionLink-13533"
+      },
+      {
+        "index": 3,
+        "step_id": "13534",
+        "dom_id": "sectionLink-13534",
+        "name": "",
+        "title": "Integrating a Piecewise Density Function",
+        "selector": "#sectionLink-13534"
+      },
+      {
+        "index": 4,
+        "step_id": "13535",
+        "dom_id": "sectionLink-13535",
+        "name": "",
+        "title": "Integrating Areas of Cross-Sections",
+        "selector": "#sectionLink-13535"
+      },
+      {
+        "index": 5,
+        "step_id": "13536",
+        "dom_id": "sectionLink-13536",
+        "name": "",
+        "title": "Finding a Volume by Integrating Areas of Cross-Sections",
+        "selector": "#sectionLink-13536"
+      },
+      {
+        "index": 6,
+        "step_id": "13537",
+        "dom_id": "sectionLink-13537",
+        "name": "",
+        "title": "Finding the Rate of Change of a Volume Given the Areas of Its Cross Sections",
+        "selector": "#sectionLink-13537"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "613",
+        "name": "The Second Fundamental Theorem of Calculus",
+        "href": "/topics/the-second-fundamental-theorem-of-calculus-613"
+      },
+      {
+        "topic_id": "626",
+        "name": "Definite Integrals of Piecewise Functions",
+        "href": "/topics/definite-integrals-of-piecewise-functions-626"
+      },
+      {
+        "topic_id": "3770",
+        "name": "Integrating Exponential Functions Using Substitution",
+        "href": "/topics/integrating-exponential-functions-using-substitution-3770"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "13532",
+        "content_id": "2746",
+        "dom_id": "step-13532",
+        "selector": "#step-13532",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "13533",
+        "content_id": "3895",
+        "dom_id": "step-13533",
+        "selector": "#step-13533",
+        "step_anchor": "step-2",
+        "title": "Integrating a Density Function",
+        "key_prerequisites": [
+          {
+            "topic_id": "333",
+            "name": "The Integral as an Accumulation Function",
+            "href": "/topics/333"
+          },
+          {
+            "topic_id": "1112",
+            "name": "Integrating Exponential Functions Using Linear Substitution",
+            "href": "/topics/1112"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "62814",
+        "dom_id": "question-62814",
+        "selector": "#question-62814",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "62847",
+        "dom_id": "question-62847",
+        "selector": "#question-62847",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "13534",
+        "content_id": "3896",
+        "dom_id": "step-13534",
+        "selector": "#step-13534",
+        "step_anchor": "step-5",
+        "title": "Integrating a Piecewise Density Function",
+        "key_prerequisites": [
+          {
+            "topic_id": "626",
+            "name": "Definite Integrals of Piecewise Functions",
+            "href": "/topics/626"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "62883",
+        "dom_id": "question-62883",
+        "selector": "#question-62883",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "62818",
+        "dom_id": "question-62818",
+        "selector": "#question-62818",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "13535",
+        "content_id": "2747",
+        "dom_id": "step-13535",
+        "selector": "#step-13535",
+        "step_anchor": "step-8",
+        "title": "Integrating Areas of Cross-Sections",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "13536",
+        "content_id": "3897",
+        "dom_id": "step-13536",
+        "selector": "#step-13536",
+        "step_anchor": "step-9",
+        "title": "Finding a Volume by Integrating Areas of Cross-Sections",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "62802",
+        "dom_id": "question-62802",
+        "selector": "#question-62802",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "62806",
+        "dom_id": "question-62806",
+        "selector": "#question-62806",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "13537",
+        "content_id": "3898",
+        "dom_id": "step-13537",
+        "selector": "#step-13537",
+        "step_anchor": "step-12",
+        "title": "Finding the Rate of Change of a Volume Given the Areas of Its Cross Sections",
+        "key_prerequisites": [
+          {
+            "topic_id": "613",
+            "name": "The Second Fundamental Theorem of Calculus",
+            "href": "/topics/613"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "62809",
+        "dom_id": "question-62809",
+        "selector": "#question-62809",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "62836",
+        "dom_id": "question-62836",
+        "selector": "#question-62836",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-13532",
+        "filename": "01-step-13532.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-13533",
+        "filename": "02-step-13533.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-62814",
+        "filename": "03-question-62814.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-62847",
+        "filename": "04-question-62847.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-13534",
+        "filename": "05-step-13534.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-62883",
+        "filename": "06-question-62883.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-62818",
+        "filename": "07-question-62818.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-13535",
+        "filename": "08-step-13535.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-13536",
+        "filename": "09-step-13536.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-62802",
+        "filename": "10-question-62802.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-62806",
+        "filename": "11-question-62806.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-13537",
+        "filename": "12-step-13537.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-62809",
+        "filename": "13-question-62809.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-62836",
+        "filename": "14-question-62836.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "schema_version": 1,
+  "topic_id": "3946",
+  "topic_title": "The Connection Between PCA and SVD",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3946.html",
+  "source_url": "https://mathacademy.com/topics/3946",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "610887",
+        "dom_id": "sectionLink-610887",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-610887"
+      },
+      {
+        "index": 2,
+        "step_id": "610888",
+        "dom_id": "sectionLink-610888",
+        "name": "",
+        "title": "Finding a Principal Component from SVD",
+        "selector": "#sectionLink-610888"
+      },
+      {
+        "index": 3,
+        "step_id": "610891",
+        "dom_id": "sectionLink-610891",
+        "name": "",
+        "title": "Total Variance of the Observation Matrix",
+        "selector": "#sectionLink-610891"
+      },
+      {
+        "index": 4,
+        "step_id": "611564",
+        "dom_id": "sectionLink-611564",
+        "name": "",
+        "title": "Finding the Total Variance",
+        "selector": "#sectionLink-611564"
+      },
+      {
+        "index": 5,
+        "step_id": "610892",
+        "dom_id": "sectionLink-610892",
+        "name": "",
+        "title": "Computing the Remaining Variance After Dimensionality Reduction",
+        "selector": "#sectionLink-610892"
+      },
+      {
+        "index": 6,
+        "step_id": "610893",
+        "dom_id": "sectionLink-610893",
+        "name": "",
+        "title": "Finding the Variance from SVD",
+        "selector": "#sectionLink-610893"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3133",
+        "name": "Singular Value Decomposition of Larger Matrices",
+        "href": "/topics/singular-value-decomposition-of-larger-matrices-3133"
+      },
+      {
+        "topic_id": "3945",
+        "name": "Computing Principal Components",
+        "href": "/topics/computing-principal-components-3945"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 10,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "610887",
+        "content_id": "14786",
+        "dom_id": "step-610887",
+        "selector": "#step-610887",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "610888",
+        "content_id": "21883",
+        "dom_id": "step-610888",
+        "selector": "#step-610888",
+        "step_anchor": "step-2",
+        "title": "Finding a Principal Component from SVD",
+        "key_prerequisites": [
+          {
+            "topic_id": "3133",
+            "name": "Singular Value Decomposition of Larger Matrices",
+            "href": "/topics/3133"
+          },
+          {
+            "topic_id": "3775",
+            "name": "Introduction to Principal Component Analysis",
+            "href": "/topics/3775"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "343712",
+        "dom_id": "question-343712",
+        "selector": "#question-343712",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "343711",
+        "dom_id": "question-343711",
+        "selector": "#question-343711",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "610891",
+        "content_id": "14787",
+        "dom_id": "step-610891",
+        "selector": "#step-610891",
+        "step_anchor": "step-5",
+        "title": "Total Variance of the Observation Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "611564",
+        "content_id": "14956",
+        "dom_id": "step-611564",
+        "selector": "#step-611564",
+        "step_anchor": "step-6",
+        "title": "Finding the Total Variance",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "610892",
+        "content_id": "14788",
+        "dom_id": "step-610892",
+        "selector": "#step-610892",
+        "step_anchor": "step-7",
+        "title": "Computing the Remaining Variance After Dimensionality Reduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "610893",
+        "content_id": "21884",
+        "dom_id": "step-610893",
+        "selector": "#step-610893",
+        "step_anchor": "step-8",
+        "title": "Finding the Variance from SVD",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "345593",
+        "dom_id": "question-345593",
+        "selector": "#question-345593",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "343713",
+        "dom_id": "question-343713",
+        "selector": "#question-343713",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-610887",
+        "filename": "01-step-610887.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-610888",
+        "filename": "02-step-610888.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-343712",
+        "filename": "03-question-343712.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-343711",
+        "filename": "04-question-343711.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-610891",
+        "filename": "05-step-610891.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-611564",
+        "filename": "06-step-611564.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-610892",
+        "filename": "07-step-610892.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-610893",
+        "filename": "08-step-610893.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-345593",
+        "filename": "09-question-345593.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-343713",
+        "filename": "10-question-343713.png"
+      }
+    ]
+  }
+}

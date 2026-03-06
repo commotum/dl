@@ -1,0 +1,373 @@
+{
+  "schema_version": 1,
+  "topic_id": "5397",
+  "topic_title": "Principal Conjunctive Normal Forms",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/5397.html",
+  "source_url": "https://mathacademy.com/topics/5397",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "414247",
+        "dom_id": "sectionLink-414247",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-414247"
+      },
+      {
+        "index": 2,
+        "step_id": "414248",
+        "dom_id": "sectionLink-414248",
+        "name": "",
+        "title": "Identifying Principal Conjunctive Normal Forms",
+        "selector": "#sectionLink-414248"
+      },
+      {
+        "index": 3,
+        "step_id": "414251",
+        "dom_id": "sectionLink-414251",
+        "name": "",
+        "title": "The Binary Tuple Associated With a Maxterm",
+        "selector": "#sectionLink-414251"
+      },
+      {
+        "index": 4,
+        "step_id": "414252",
+        "dom_id": "sectionLink-414252",
+        "name": "",
+        "title": "Determining a Tuple Given a Maxterm",
+        "selector": "#sectionLink-414252"
+      },
+      {
+        "index": 5,
+        "step_id": "414255",
+        "dom_id": "sectionLink-414255",
+        "name": "",
+        "title": "Determining a Maxterm Given a Tuple",
+        "selector": "#sectionLink-414255"
+      },
+      {
+        "index": 6,
+        "step_id": "414258",
+        "dom_id": "sectionLink-414258",
+        "name": "",
+        "title": "Truth Tables and PCNFs",
+        "selector": "#sectionLink-414258"
+      },
+      {
+        "index": 7,
+        "step_id": "414259",
+        "dom_id": "sectionLink-414259",
+        "name": "",
+        "title": "Finding the Principal Conjunctive Normal Form",
+        "selector": "#sectionLink-414259"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3781",
+        "name": "Conjunctive Normal Forms",
+        "href": "/topics/conjunctive-normal-forms-3781"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "414247",
+        "content_id": "10894",
+        "dom_id": "step-414247",
+        "selector": "#step-414247",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "414248",
+        "content_id": "16675",
+        "dom_id": "step-414248",
+        "selector": "#step-414248",
+        "step_anchor": "step-2",
+        "title": "Identifying Principal Conjunctive Normal Forms",
+        "key_prerequisites": [
+          {
+            "topic_id": "3781",
+            "name": "Conjunctive Normal Forms",
+            "href": "/topics/3781"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "256800",
+        "dom_id": "question-256800",
+        "selector": "#question-256800",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "255744",
+        "dom_id": "question-255744",
+        "selector": "#question-255744",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "414251",
+        "content_id": "10895",
+        "dom_id": "step-414251",
+        "selector": "#step-414251",
+        "step_anchor": "step-5",
+        "title": "The Binary Tuple Associated With a Maxterm",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "414252",
+        "content_id": "16676",
+        "dom_id": "step-414252",
+        "selector": "#step-414252",
+        "step_anchor": "step-6",
+        "title": "Determining a Tuple Given a Maxterm",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "256578",
+        "dom_id": "question-256578",
+        "selector": "#question-256578",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "255745",
+        "dom_id": "question-255745",
+        "selector": "#question-255745",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "414255",
+        "content_id": "16677",
+        "dom_id": "step-414255",
+        "selector": "#step-414255",
+        "step_anchor": "step-9",
+        "title": "Determining a Maxterm Given a Tuple",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "256643",
+        "dom_id": "question-256643",
+        "selector": "#question-256643",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "255746",
+        "dom_id": "question-255746",
+        "selector": "#question-255746",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "414258",
+        "content_id": "10896",
+        "dom_id": "step-414258",
+        "selector": "#step-414258",
+        "step_anchor": "step-12",
+        "title": "Truth Tables and PCNFs",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "414259",
+        "content_id": "16678",
+        "dom_id": "step-414259",
+        "selector": "#step-414259",
+        "step_anchor": "step-13",
+        "title": "Finding the Principal Conjunctive Normal Form",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "255748",
+        "dom_id": "question-255748",
+        "selector": "#question-255748",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "255749",
+        "dom_id": "question-255749",
+        "selector": "#question-255749",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-414247",
+        "filename": "01-step-414247.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-414248",
+        "filename": "02-step-414248.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-256800",
+        "filename": "03-question-256800.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-255744",
+        "filename": "04-question-255744.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-414251",
+        "filename": "05-step-414251.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-414252",
+        "filename": "06-step-414252.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-256578",
+        "filename": "07-question-256578.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-255745",
+        "filename": "08-question-255745.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-414255",
+        "filename": "09-step-414255.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-256643",
+        "filename": "10-question-256643.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-255746",
+        "filename": "11-question-255746.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-414258",
+        "filename": "12-step-414258.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-414259",
+        "filename": "13-step-414259.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-255748",
+        "filename": "14-question-255748.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-255749",
+        "filename": "15-question-255749.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,305 @@
+{
+  "schema_version": 1,
+  "topic_id": "1726",
+  "topic_title": "Elementary 2x2 Matrices",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1726.html",
+  "source_url": "https://mathacademy.com/topics/1726",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "17220",
+        "dom_id": "sectionLink-17220",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-17220"
+      },
+      {
+        "index": 2,
+        "step_id": "17221",
+        "dom_id": "sectionLink-17221",
+        "name": "",
+        "title": "Identifying an Elementary 2x2 Matrix",
+        "selector": "#sectionLink-17221"
+      },
+      {
+        "index": 3,
+        "step_id": "17223",
+        "dom_id": "sectionLink-17223",
+        "name": "",
+        "title": "The Inverse of an Elementary Matrix",
+        "selector": "#sectionLink-17223"
+      },
+      {
+        "index": 4,
+        "step_id": "17224",
+        "dom_id": "sectionLink-17224",
+        "name": "",
+        "title": "Finding the Inverse of an Elementary 2x2 Matrix",
+        "selector": "#sectionLink-17224"
+      },
+      {
+        "index": 5,
+        "step_id": "17225",
+        "dom_id": "sectionLink-17225",
+        "name": "",
+        "title": "Computing a Product Involving the Inverse of an Elementary 2x2 Matrix",
+        "selector": "#sectionLink-17225"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "863",
+        "name": "Introduction to the Inverse of a Matrix",
+        "href": "/topics/introduction-to-the-inverse-of-a-matrix-863"
+      },
+      {
+        "topic_id": "3029",
+        "name": "Creating Rows or Columns Containing Zeros Using Gaussian Elimination",
+        "href": "/topics/creating-rows-or-columns-containing-zeros-using-gaussian-elimination-3029"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "17220",
+        "content_id": "3164",
+        "dom_id": "step-17220",
+        "selector": "#step-17220",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17221",
+        "content_id": "4716",
+        "dom_id": "step-17221",
+        "selector": "#step-17221",
+        "step_anchor": "step-2",
+        "title": "Identifying an Elementary 2x2 Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "862",
+            "name": "Zero, Square, Diagonal and Identity Matrices",
+            "href": "/topics/862"
+          },
+          {
+            "topic_id": "3029",
+            "name": "Creating Rows or Columns Containing Zeros Using Gaussian Elimination",
+            "href": "/topics/3029"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "42591",
+        "dom_id": "question-42591",
+        "selector": "#question-42591",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "31963",
+        "dom_id": "question-31963",
+        "selector": "#question-31963",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "17223",
+        "content_id": "3165",
+        "dom_id": "step-17223",
+        "selector": "#step-17223",
+        "step_anchor": "step-5",
+        "title": "The Inverse of an Elementary Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17224",
+        "content_id": "4718",
+        "dom_id": "step-17224",
+        "selector": "#step-17224",
+        "step_anchor": "step-6",
+        "title": "Finding the Inverse of an Elementary 2x2 Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "863",
+            "name": "Introduction to the Inverse of a Matrix",
+            "href": "/topics/863"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "42697",
+        "dom_id": "question-42697",
+        "selector": "#question-42697",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "42601",
+        "dom_id": "question-42601",
+        "selector": "#question-42601",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17225",
+        "content_id": "4719",
+        "dom_id": "step-17225",
+        "selector": "#step-17225",
+        "step_anchor": "step-9",
+        "title": "Computing a Product Involving the Inverse of an Elementary 2x2 Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "147",
+            "name": "Multiplying Square Matrices",
+            "href": "/topics/147"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "42696",
+        "dom_id": "question-42696",
+        "selector": "#question-42696",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "31932",
+        "dom_id": "question-31932",
+        "selector": "#question-31932",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-17220",
+        "filename": "01-step-17220.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-17221",
+        "filename": "02-step-17221.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-42591",
+        "filename": "03-question-42591.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-31963",
+        "filename": "04-question-31963.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-17223",
+        "filename": "05-step-17223.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-17224",
+        "filename": "06-step-17224.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-42697",
+        "filename": "07-question-42697.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-42601",
+        "filename": "08-question-42601.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-17225",
+        "filename": "09-step-17225.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-42696",
+        "filename": "10-question-42696.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-31932",
+        "filename": "11-question-31932.png"
+      }
+    ]
+  }
+}

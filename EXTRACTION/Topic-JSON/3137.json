@@ -1,0 +1,401 @@
+{
+  "schema_version": 1,
+  "topic_id": "3137",
+  "topic_title": "Sampling Proportions From Finite Populations",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3137.html",
+  "source_url": "https://mathacademy.com/topics/3137",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "39024",
+        "dom_id": "sectionLink-39024",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-39024"
+      },
+      {
+        "index": 2,
+        "step_id": "39030",
+        "dom_id": "sectionLink-39030",
+        "name": "",
+        "title": "Finding a Conditional Probability Given a Population Proportion",
+        "selector": "#sectionLink-39030"
+      },
+      {
+        "index": 3,
+        "step_id": "39214",
+        "dom_id": "sectionLink-39214",
+        "name": "",
+        "title": "Independence in Large Populations",
+        "selector": "#sectionLink-39214"
+      },
+      {
+        "index": 4,
+        "step_id": "39212",
+        "dom_id": "sectionLink-39212",
+        "name": "",
+        "title": "The Number of Sample Elements With a Characteristic",
+        "selector": "#sectionLink-39212"
+      },
+      {
+        "index": 5,
+        "step_id": "39031",
+        "dom_id": "sectionLink-39031",
+        "name": "",
+        "title": "Properties of Sums of Bernoulli Random Variables",
+        "selector": "#sectionLink-39031"
+      },
+      {
+        "index": 6,
+        "step_id": "39215",
+        "dom_id": "sectionLink-39215",
+        "name": "",
+        "title": "Mean and Variance of Sample Proportions",
+        "selector": "#sectionLink-39215"
+      },
+      {
+        "index": 7,
+        "step_id": "39234",
+        "dom_id": "sectionLink-39234",
+        "name": "",
+        "title": "The Standard Error",
+        "selector": "#sectionLink-39234"
+      },
+      {
+        "index": 8,
+        "step_id": "39025",
+        "dom_id": "sectionLink-39025",
+        "name": "",
+        "title": "Mean and Variance of Sample Proportions",
+        "selector": "#sectionLink-39025"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2149",
+        "name": "Mean and Variance of the Binomial Distribution",
+        "href": "/topics/mean-and-variance-of-the-binomial-distribution-2149"
+      },
+      {
+        "topic_id": "3028",
+        "name": "Properties of Variance for Discrete Random Variables",
+        "href": "/topics/properties-of-variance-for-discrete-random-variables-3028"
+      },
+      {
+        "topic_id": "3071",
+        "name": "The Bernoulli Distribution",
+        "href": "/topics/the-bernoulli-distribution-3071"
+      },
+      {
+        "topic_id": "3864",
+        "name": "Sampling Distributions",
+        "href": "/topics/sampling-distributions-3864"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "39024",
+        "content_id": "6461",
+        "dom_id": "step-39024",
+        "selector": "#step-39024",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "39030",
+        "content_id": "10363",
+        "dom_id": "step-39030",
+        "selector": "#step-39030",
+        "step_anchor": "step-2",
+        "title": "Finding a Conditional Probability Given a Population Proportion",
+        "key_prerequisites": [
+          {
+            "topic_id": "324",
+            "name": "Conditional Probabilities From Venn Diagrams",
+            "href": "/topics/324"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "146167",
+        "dom_id": "question-146167",
+        "selector": "#question-146167",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "146319",
+        "dom_id": "question-146319",
+        "selector": "#question-146319",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "39214",
+        "content_id": "6479",
+        "dom_id": "step-39214",
+        "selector": "#step-39214",
+        "step_anchor": "step-5",
+        "title": "Independence in Large Populations",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "39212",
+        "content_id": "6477",
+        "dom_id": "step-39212",
+        "selector": "#step-39212",
+        "step_anchor": "step-6",
+        "title": "The Number of Sample Elements With a Characteristic",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "39031",
+        "content_id": "10364",
+        "dom_id": "step-39031",
+        "selector": "#step-39031",
+        "step_anchor": "step-7",
+        "title": "Properties of Sums of Bernoulli Random Variables",
+        "key_prerequisites": [
+          {
+            "topic_id": "2149",
+            "name": "Mean and Variance of the Binomial Distribution",
+            "href": "/topics/2149"
+          },
+          {
+            "topic_id": "3071",
+            "name": "The Bernoulli Distribution",
+            "href": "/topics/3071"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "146301",
+        "dom_id": "question-146301",
+        "selector": "#question-146301",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "146303",
+        "dom_id": "question-146303",
+        "selector": "#question-146303",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "39215",
+        "content_id": "6480",
+        "dom_id": "step-39215",
+        "selector": "#step-39215",
+        "step_anchor": "step-10",
+        "title": "Mean and Variance of Sample Proportions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "39234",
+        "content_id": "6484",
+        "dom_id": "step-39234",
+        "selector": "#step-39234",
+        "step_anchor": "step-11",
+        "title": "The Standard Error",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "39025",
+        "content_id": "10362",
+        "dom_id": "step-39025",
+        "selector": "#step-39025",
+        "step_anchor": "step-12",
+        "title": "Mean and Variance of Sample Proportions",
+        "key_prerequisites": [
+          {
+            "topic_id": "2980",
+            "name": "The Sample Mean",
+            "href": "/topics/2980"
+          },
+          {
+            "topic_id": "3028",
+            "name": "Properties of Variance for Discrete Random Variables",
+            "href": "/topics/3028"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "146295",
+        "dom_id": "question-146295",
+        "selector": "#question-146295",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "146454",
+        "dom_id": "question-146454",
+        "selector": "#question-146454",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-39024",
+        "filename": "01-step-39024.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-39030",
+        "filename": "02-step-39030.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-146167",
+        "filename": "03-question-146167.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-146319",
+        "filename": "04-question-146319.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-39214",
+        "filename": "05-step-39214.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-39212",
+        "filename": "06-step-39212.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-39031",
+        "filename": "07-step-39031.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-146301",
+        "filename": "08-question-146301.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-146303",
+        "filename": "09-question-146303.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-39215",
+        "filename": "10-step-39215.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-39234",
+        "filename": "11-step-39234.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-39025",
+        "filename": "12-step-39025.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-146295",
+        "filename": "13-question-146295.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-146454",
+        "filename": "14-question-146454.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,356 @@
+{
+  "schema_version": 1,
+  "topic_id": "3138",
+  "topic_title": "The Sample Covariance Matrix",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3138.html",
+  "source_url": "https://mathacademy.com/topics/3138",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "36980",
+        "dom_id": "sectionLink-36980",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-36980"
+      },
+      {
+        "index": 2,
+        "step_id": "36981",
+        "dom_id": "sectionLink-36981",
+        "name": "",
+        "title": "Finding the Sample Mean of an Observation Matrix",
+        "selector": "#sectionLink-36981"
+      },
+      {
+        "index": 3,
+        "step_id": "37301",
+        "dom_id": "sectionLink-37301",
+        "name": "",
+        "title": "Mean-Deviation Form",
+        "selector": "#sectionLink-37301"
+      },
+      {
+        "index": 4,
+        "step_id": "36984",
+        "dom_id": "sectionLink-36984",
+        "name": "",
+        "title": "Finding the Mean-Deviation Form of an Observation Matrix",
+        "selector": "#sectionLink-36984"
+      },
+      {
+        "index": 5,
+        "step_id": "36983",
+        "dom_id": "sectionLink-36983",
+        "name": "",
+        "title": "The Covariance Matrix",
+        "selector": "#sectionLink-36983"
+      },
+      {
+        "index": 6,
+        "step_id": "36982",
+        "dom_id": "sectionLink-36982",
+        "name": "",
+        "title": "Finding the Covariance Matrix",
+        "selector": "#sectionLink-36982"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "232",
+        "name": "The Transpose of a Matrix",
+        "href": "/topics/the-transpose-of-a-matrix-232"
+      },
+      {
+        "topic_id": "1196",
+        "name": "Multiplying Matrices",
+        "href": "/topics/multiplying-matrices-1196"
+      },
+      {
+        "topic_id": "3820",
+        "name": "The Sample Variance",
+        "href": "/topics/the-sample-variance-3820"
+      },
+      {
+        "topic_id": "5204",
+        "name": "Sums of Squares",
+        "href": "/topics/sums-of-squares-5204"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "36980",
+        "content_id": "6079",
+        "dom_id": "step-36980",
+        "selector": "#step-36980",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "36981",
+        "content_id": "9833",
+        "dom_id": "step-36981",
+        "selector": "#step-36981",
+        "step_anchor": "step-2",
+        "title": "Finding the Sample Mean of an Observation Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "244",
+            "name": "Addition and Scalar Multiplication of Cartesian Vectors in 2D",
+            "href": "/topics/244"
+          },
+          {
+            "topic_id": "861",
+            "name": "Introduction to Matrices",
+            "href": "/topics/861"
+          },
+          {
+            "topic_id": "2980",
+            "name": "The Sample Mean",
+            "href": "/topics/2980"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "137266",
+        "dom_id": "question-137266",
+        "selector": "#question-137266",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "138589",
+        "dom_id": "question-138589",
+        "selector": "#question-138589",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "37301",
+        "content_id": "6143",
+        "dom_id": "step-37301",
+        "selector": "#step-37301",
+        "step_anchor": "step-5",
+        "title": "Mean-Deviation Form",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "36984",
+        "content_id": "9835",
+        "dom_id": "step-36984",
+        "selector": "#step-36984",
+        "step_anchor": "step-6",
+        "title": "Finding the Mean-Deviation Form of an Observation Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "137296",
+        "dom_id": "question-137296",
+        "selector": "#question-137296",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "138610",
+        "dom_id": "question-138610",
+        "selector": "#question-138610",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "36983",
+        "content_id": "6080",
+        "dom_id": "step-36983",
+        "selector": "#step-36983",
+        "step_anchor": "step-9",
+        "title": "The Covariance Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "36982",
+        "content_id": "9834",
+        "dom_id": "step-36982",
+        "selector": "#step-36982",
+        "step_anchor": "step-10",
+        "title": "Finding the Covariance Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "232",
+            "name": "The Transpose of a Matrix",
+            "href": "/topics/232"
+          },
+          {
+            "topic_id": "1196",
+            "name": "Multiplying Matrices",
+            "href": "/topics/1196"
+          },
+          {
+            "topic_id": "3591",
+            "name": "Covariance",
+            "href": "/topics/3591"
+          },
+          {
+            "topic_id": "3820",
+            "name": "The Sample Variance",
+            "href": "/topics/3820"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "137297",
+        "dom_id": "question-137297",
+        "selector": "#question-137297",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "137298",
+        "dom_id": "question-137298",
+        "selector": "#question-137298",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-36980",
+        "filename": "01-step-36980.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-36981",
+        "filename": "02-step-36981.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-137266",
+        "filename": "03-question-137266.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-138589",
+        "filename": "04-question-138589.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-37301",
+        "filename": "05-step-37301.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-36984",
+        "filename": "06-step-36984.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-137296",
+        "filename": "07-question-137296.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-138610",
+        "filename": "08-question-138610.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-36983",
+        "filename": "09-step-36983.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-36982",
+        "filename": "10-step-36982.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-137297",
+        "filename": "11-question-137297.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-137298",
+        "filename": "12-question-137298.png"
+      }
+    ]
+  }
+}

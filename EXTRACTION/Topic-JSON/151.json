@@ -1,0 +1,236 @@
+{
+  "schema_version": 1,
+  "topic_id": "151",
+  "topic_title": "Solving 2x2 Systems of Equations Using Gaussian Elimination",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/151.html",
+  "source_url": "https://mathacademy.com/topics/151",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "17188",
+        "dom_id": "sectionLink-17188",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-17188"
+      },
+      {
+        "index": 2,
+        "step_id": "17190",
+        "dom_id": "sectionLink-17190",
+        "name": "",
+        "title": "The Uniqueness of the Row Echelon Form Matrix",
+        "selector": "#sectionLink-17190"
+      },
+      {
+        "index": 3,
+        "step_id": "17189",
+        "dom_id": "sectionLink-17189",
+        "name": "",
+        "title": "Reducing a 2x2 Augmented Matrix to REF Using Gaussian Elimination",
+        "selector": "#sectionLink-17189"
+      },
+      {
+        "index": 4,
+        "step_id": "17191",
+        "dom_id": "sectionLink-17191",
+        "name": "",
+        "title": "Solving a 2x2 System of Equations Using Gaussian Elimination",
+        "selector": "#sectionLink-17191"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1047",
+        "name": "Solving Systems of Equations Using Back Substitution",
+        "href": "/topics/solving-systems-of-equations-using-back-substitution-1047"
+      },
+      {
+        "topic_id": "3029",
+        "name": "Creating Rows or Columns Containing Zeros Using Gaussian Elimination",
+        "href": "/topics/creating-rows-or-columns-containing-zeros-using-gaussian-elimination-3029"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 8,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "17188",
+        "content_id": "3151",
+        "dom_id": "step-17188",
+        "selector": "#step-17188",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "17190",
+        "content_id": "3152",
+        "dom_id": "step-17190",
+        "selector": "#step-17190",
+        "step_anchor": "step-2",
+        "title": "The Uniqueness of the Row Echelon Form Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17189",
+        "content_id": "4697",
+        "dom_id": "step-17189",
+        "selector": "#step-17189",
+        "step_anchor": "step-3",
+        "title": "Reducing a 2x2 Augmented Matrix to REF Using Gaussian Elimination",
+        "key_prerequisites": [
+          {
+            "topic_id": "1047",
+            "name": "Solving Systems of Equations Using Back Substitution",
+            "href": "/topics/1047"
+          },
+          {
+            "topic_id": "3029",
+            "name": "Creating Rows or Columns Containing Zeros Using Gaussian Elimination",
+            "href": "/topics/3029"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "10321",
+        "dom_id": "question-10321",
+        "selector": "#question-10321",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "1076",
+        "dom_id": "question-1076",
+        "selector": "#question-1076",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17191",
+        "content_id": "4698",
+        "dom_id": "step-17191",
+        "selector": "#step-17191",
+        "step_anchor": "step-6",
+        "title": "Solving a 2x2 System of Equations Using Gaussian Elimination",
+        "key_prerequisites": [
+          {
+            "topic_id": "148",
+            "name": "Systems of Equations as Augmented Matrices",
+            "href": "/topics/148"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "20496",
+        "dom_id": "question-20496",
+        "selector": "#question-20496",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "10522",
+        "dom_id": "question-10522",
+        "selector": "#question-10522",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-17188",
+        "filename": "01-step-17188.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-17190",
+        "filename": "02-step-17190.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-17189",
+        "filename": "03-step-17189.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-10321",
+        "filename": "04-question-10321.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-1076",
+        "filename": "05-question-1076.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-17191",
+        "filename": "06-step-17191.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-20496",
+        "filename": "07-question-20496.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-10522",
+        "filename": "08-question-10522.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,362 @@
+{
+  "schema_version": 1,
+  "topic_id": "1479",
+  "topic_title": "Calculating Perimeters in the Plane",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1479.html",
+  "source_url": "https://mathacademy.com/topics/1479",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "10815",
+        "dom_id": "sectionLink-10815",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-10815"
+      },
+      {
+        "index": 2,
+        "step_id": "10467",
+        "dom_id": "sectionLink-10467",
+        "name": "",
+        "title": "Calculating the Perimeter of a Polygon With Horizontal and Vertical Sides Only",
+        "selector": "#sectionLink-10467"
+      },
+      {
+        "index": 3,
+        "step_id": "10468",
+        "dom_id": "sectionLink-10468",
+        "name": "",
+        "title": "Calculating the Perimeter of a Polygon Using the Distance Formula",
+        "selector": "#sectionLink-10468"
+      },
+      {
+        "index": 4,
+        "step_id": "10471",
+        "dom_id": "sectionLink-10471",
+        "name": "",
+        "title": "Finding the Perimeter of a Square Given Two Opposite Coordinates",
+        "selector": "#sectionLink-10471"
+      },
+      {
+        "index": 5,
+        "step_id": "10474",
+        "dom_id": "sectionLink-10474",
+        "name": "",
+        "title": "Finding the Coordinates of a Vertex of a Polygon Given Its Perimeter",
+        "selector": "#sectionLink-10474"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "459",
+        "name": "The Distance Formula",
+        "href": "/topics/the-distance-formula-459"
+      },
+      {
+        "topic_id": "484",
+        "name": "Adding and Subtracting Radicals",
+        "href": "/topics/adding-and-subtracting-radicals-484"
+      },
+      {
+        "topic_id": "485",
+        "name": "Midpoints in the Coordinate Plane",
+        "href": "/topics/midpoints-in-the-coordinate-plane-485"
+      },
+      {
+        "topic_id": "2887",
+        "name": "Diagonals of Squares",
+        "href": "/topics/diagonals-of-squares-2887"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "10815",
+        "content_id": "2416",
+        "dom_id": "step-10815",
+        "selector": "#step-10815",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "10467",
+        "content_id": "3113",
+        "dom_id": "step-10467",
+        "selector": "#step-10467",
+        "step_anchor": "step-2",
+        "title": "Calculating the Perimeter of a Polygon With Horizontal and Vertical Sides Only",
+        "key_prerequisites": [
+          {
+            "topic_id": "573",
+            "name": "Distances Between Points in the Coordinate Plane",
+            "href": "/topics/573"
+          },
+          {
+            "topic_id": "1386",
+            "name": "The Perimeter of a Polygon",
+            "href": "/topics/1386"
+          },
+          {
+            "topic_id": "2281",
+            "name": "Absolute Value",
+            "href": "/topics/2281"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "24372",
+        "dom_id": "question-24372",
+        "selector": "#question-24372",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "24470",
+        "dom_id": "question-24470",
+        "selector": "#question-24470",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "10468",
+        "content_id": "3114",
+        "dom_id": "step-10468",
+        "selector": "#step-10468",
+        "step_anchor": "step-5",
+        "title": "Calculating the Perimeter of a Polygon Using the Distance Formula",
+        "key_prerequisites": [
+          {
+            "topic_id": "459",
+            "name": "The Distance Formula",
+            "href": "/topics/459"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "25448",
+        "dom_id": "question-25448",
+        "selector": "#question-25448",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "53615",
+        "dom_id": "question-53615",
+        "selector": "#question-53615",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "10471",
+        "content_id": "3117",
+        "dom_id": "step-10471",
+        "selector": "#step-10471",
+        "step_anchor": "step-8",
+        "title": "Finding the Perimeter of a Square Given Two Opposite Coordinates",
+        "key_prerequisites": [
+          {
+            "topic_id": "2887",
+            "name": "Diagonals of Squares",
+            "href": "/topics/2887"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "53635",
+        "dom_id": "question-53635",
+        "selector": "#question-53635",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "53634",
+        "dom_id": "question-53634",
+        "selector": "#question-53634",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "10474",
+        "content_id": "3118",
+        "dom_id": "step-10474",
+        "selector": "#step-10474",
+        "step_anchor": "step-11",
+        "title": "Finding the Coordinates of a Vertex of a Polygon Given Its Perimeter",
+        "key_prerequisites": [
+          {
+            "topic_id": "485",
+            "name": "Midpoints in the Coordinate Plane",
+            "href": "/topics/485"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "25456",
+        "dom_id": "question-25456",
+        "selector": "#question-25456",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "24998",
+        "dom_id": "question-24998",
+        "selector": "#question-24998",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-10815",
+        "filename": "01-step-10815.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-10467",
+        "filename": "02-step-10467.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-24372",
+        "filename": "03-question-24372.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-24470",
+        "filename": "04-question-24470.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-10468",
+        "filename": "05-step-10468.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-25448",
+        "filename": "06-question-25448.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-53615",
+        "filename": "07-question-53615.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-10471",
+        "filename": "08-step-10471.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-53635",
+        "filename": "09-question-53635.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-53634",
+        "filename": "10-question-53634.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-10474",
+        "filename": "11-step-10474.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-25456",
+        "filename": "12-question-25456.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-24998",
+        "filename": "13-question-24998.png"
+      }
+    ]
+  }
+}

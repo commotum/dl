@@ -1,0 +1,495 @@
+{
+  "schema_version": 1,
+  "topic_id": "4945",
+  "topic_title": "The Method of Moments",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/4945.html",
+  "source_url": "https://mathacademy.com/topics/4945",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "222060",
+        "dom_id": "sectionLink-222060",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-222060"
+      },
+      {
+        "index": 2,
+        "step_id": "222061",
+        "dom_id": "sectionLink-222061",
+        "name": "",
+        "title": "The Method of Moments",
+        "selector": "#sectionLink-222061"
+      },
+      {
+        "index": 3,
+        "step_id": "222062",
+        "dom_id": "sectionLink-222062",
+        "name": "",
+        "title": "Finding MM Estimators for Bernoulli Random Variables",
+        "selector": "#sectionLink-222062"
+      },
+      {
+        "index": 4,
+        "step_id": "222065",
+        "dom_id": "sectionLink-222065",
+        "name": "",
+        "title": "Finding MM Estimators for Poisson Random Variables",
+        "selector": "#sectionLink-222065"
+      },
+      {
+        "index": 5,
+        "step_id": "222068",
+        "dom_id": "sectionLink-222068",
+        "name": "",
+        "title": "Finding MM Estimators for Geometric Random Variables",
+        "selector": "#sectionLink-222068"
+      },
+      {
+        "index": 6,
+        "step_id": "222071",
+        "dom_id": "sectionLink-222071",
+        "name": "",
+        "title": "Finding MM Estimators for Exponential Random Variables",
+        "selector": "#sectionLink-222071"
+      },
+      {
+        "index": 7,
+        "step_id": "222074",
+        "dom_id": "sectionLink-222074",
+        "name": "",
+        "title": "Sample Moments as Unbiased Estimators of Population Moments",
+        "selector": "#sectionLink-222074"
+      },
+      {
+        "index": 8,
+        "step_id": "222077",
+        "dom_id": "sectionLink-222077",
+        "name": "",
+        "title": "The Law of Large Numbers",
+        "selector": "#sectionLink-222077"
+      },
+      {
+        "index": 9,
+        "step_id": "222083",
+        "dom_id": "sectionLink-222083",
+        "name": "",
+        "title": "Justifying the Method of Moments",
+        "selector": "#sectionLink-222083"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "982",
+        "name": "Convergent and Divergent Infinite Series",
+        "href": "/topics/convergent-and-divergent-infinite-series-982"
+      },
+      {
+        "topic_id": "2991",
+        "name": "Mean and Variance of the Poisson Distribution",
+        "href": "/topics/mean-and-variance-of-the-poisson-distribution-2991"
+      },
+      {
+        "topic_id": "2992",
+        "name": "Mean and Variance of the Geometric Distribution",
+        "href": "/topics/mean-and-variance-of-the-geometric-distribution-2992"
+      },
+      {
+        "topic_id": "3013",
+        "name": "Variance of Sample Means",
+        "href": "/topics/variance-of-sample-means-3013"
+      },
+      {
+        "topic_id": "3275",
+        "name": "Mean and Variance of the Exponential Distribution",
+        "href": "/topics/mean-and-variance-of-the-exponential-distribution-3275"
+      },
+      {
+        "topic_id": "3280",
+        "name": "Mean and Variance of the Bernoulli Distribution",
+        "href": "/topics/mean-and-variance-of-the-bernoulli-distribution-3280"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 17,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "222060",
+        "content_id": "10606",
+        "dom_id": "step-222060",
+        "selector": "#step-222060",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "222061",
+        "content_id": "10741",
+        "dom_id": "step-222061",
+        "selector": "#step-222061",
+        "step_anchor": "step-2",
+        "title": "The Method of Moments",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "222062",
+        "content_id": "16380",
+        "dom_id": "step-222062",
+        "selector": "#step-222062",
+        "step_anchor": "step-3",
+        "title": "Finding MM Estimators for Bernoulli Random Variables",
+        "key_prerequisites": [
+          {
+            "topic_id": "3280",
+            "name": "Mean and Variance of the Bernoulli Distribution",
+            "href": "/topics/3280"
+          },
+          {
+            "topic_id": "3642",
+            "name": "Moments of Discrete Random Variables",
+            "href": "/topics/3642"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "251302",
+        "dom_id": "question-251302",
+        "selector": "#question-251302",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "252031",
+        "dom_id": "question-252031",
+        "selector": "#question-252031",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "222065",
+        "content_id": "16438",
+        "dom_id": "step-222065",
+        "selector": "#step-222065",
+        "step_anchor": "step-6",
+        "title": "Finding MM Estimators for Poisson Random Variables",
+        "key_prerequisites": [
+          {
+            "topic_id": "375",
+            "name": "Solving Quadratic Equations by Factoring",
+            "href": "/topics/375"
+          },
+          {
+            "topic_id": "422",
+            "name": "The Quadratic Formula",
+            "href": "/topics/422"
+          },
+          {
+            "topic_id": "2991",
+            "name": "Mean and Variance of the Poisson Distribution",
+            "href": "/topics/2991"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "252033",
+        "dom_id": "question-252033",
+        "selector": "#question-252033",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "252079",
+        "dom_id": "question-252079",
+        "selector": "#question-252079",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "222068",
+        "content_id": "16439",
+        "dom_id": "step-222068",
+        "selector": "#step-222068",
+        "step_anchor": "step-9",
+        "title": "Finding MM Estimators for Geometric Random Variables",
+        "key_prerequisites": [
+          {
+            "topic_id": "1415",
+            "name": "Solving Rational Equations Containing One Fractional Term",
+            "href": "/topics/1415"
+          },
+          {
+            "topic_id": "2992",
+            "name": "Mean and Variance of the Geometric Distribution",
+            "href": "/topics/2992"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "252036",
+        "dom_id": "question-252036",
+        "selector": "#question-252036",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "252126",
+        "dom_id": "question-252126",
+        "selector": "#question-252126",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "222071",
+        "content_id": "16440",
+        "dom_id": "step-222071",
+        "selector": "#step-222071",
+        "step_anchor": "step-12",
+        "title": "Finding MM Estimators for Exponential Random Variables",
+        "key_prerequisites": [
+          {
+            "topic_id": "698",
+            "name": "Solving Rational Equations Using Cross-Multiplication",
+            "href": "/topics/698"
+          },
+          {
+            "topic_id": "3275",
+            "name": "Mean and Variance of the Exponential Distribution",
+            "href": "/topics/3275"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "252136",
+        "dom_id": "question-252136",
+        "selector": "#question-252136",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "252131",
+        "dom_id": "question-252131",
+        "selector": "#question-252131",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "222074",
+        "content_id": "10742",
+        "dom_id": "step-222074",
+        "selector": "#step-222074",
+        "step_anchor": "step-15",
+        "title": "Sample Moments as Unbiased Estimators of Population Moments",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 16,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "222077",
+        "content_id": "10745",
+        "dom_id": "step-222077",
+        "selector": "#step-222077",
+        "step_anchor": "step-16",
+        "title": "The Law of Large Numbers",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 17,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "222083",
+        "content_id": "10751",
+        "dom_id": "step-222083",
+        "selector": "#step-222083",
+        "step_anchor": "step-17",
+        "title": "Justifying the Method of Moments",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-222060",
+        "filename": "01-step-222060.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-222061",
+        "filename": "02-step-222061.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-222062",
+        "filename": "03-step-222062.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-251302",
+        "filename": "04-question-251302.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-252031",
+        "filename": "05-question-252031.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-222065",
+        "filename": "06-step-222065.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-252033",
+        "filename": "07-question-252033.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-252079",
+        "filename": "08-question-252079.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-222068",
+        "filename": "09-step-222068.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-252036",
+        "filename": "10-question-252036.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-252126",
+        "filename": "11-question-252126.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-222071",
+        "filename": "12-step-222071.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-252136",
+        "filename": "13-question-252136.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-252131",
+        "filename": "14-question-252131.png"
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "selector": "#step-222074",
+        "filename": "15-step-222074.png"
+      },
+      {
+        "index": 16,
+        "item_type": "step",
+        "selector": "#step-222077",
+        "filename": "16-step-222077.png"
+      },
+      {
+        "index": 17,
+        "item_type": "step",
+        "selector": "#step-222083",
+        "filename": "17-step-222083.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,373 @@
+{
+  "schema_version": 1,
+  "topic_id": "3273",
+  "topic_title": "Mean and Variance of the Negative Binomial Distribution",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3273.html",
+  "source_url": "https://mathacademy.com/topics/3273",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "221323",
+        "dom_id": "sectionLink-221323",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-221323"
+      },
+      {
+        "index": 2,
+        "step_id": "221324",
+        "dom_id": "sectionLink-221324",
+        "name": "",
+        "title": "Finding the Expected Value of a Negative Binomial Distribution",
+        "selector": "#sectionLink-221324"
+      },
+      {
+        "index": 3,
+        "step_id": "221327",
+        "dom_id": "sectionLink-221327",
+        "name": "",
+        "title": "Finding the Expected Value of a Negative Binomial Distribution in Context",
+        "selector": "#sectionLink-221327"
+      },
+      {
+        "index": 4,
+        "step_id": "221330",
+        "dom_id": "sectionLink-221330",
+        "name": "",
+        "title": "The Variance of a Negative Binomial Random Variable",
+        "selector": "#sectionLink-221330"
+      },
+      {
+        "index": 5,
+        "step_id": "221331",
+        "dom_id": "sectionLink-221331",
+        "name": "",
+        "title": "Finding the Variance of a Negative Binomial Distribution",
+        "selector": "#sectionLink-221331"
+      },
+      {
+        "index": 6,
+        "step_id": "221334",
+        "dom_id": "sectionLink-221334",
+        "name": "",
+        "title": "Finding the Variance of a Negative Binomial Distribution in Context",
+        "selector": "#sectionLink-221334"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2992",
+        "name": "Mean and Variance of the Geometric Distribution",
+        "href": "/topics/mean-and-variance-of-the-geometric-distribution-2992"
+      },
+      {
+        "topic_id": "3062",
+        "name": "Variance of Sums of Independent Random Variables",
+        "href": "/topics/variance-of-sums-of-independent-random-variables-3062"
+      },
+      {
+        "topic_id": "3285",
+        "name": "Modeling With the Negative Binomial Distribution",
+        "href": "/topics/modeling-with-the-negative-binomial-distribution-3285"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "221323",
+        "content_id": "5548",
+        "dom_id": "step-221323",
+        "selector": "#step-221323",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "221324",
+        "content_id": "8694",
+        "dom_id": "step-221324",
+        "selector": "#step-221324",
+        "step_anchor": "step-2",
+        "title": "Finding the Expected Value of a Negative Binomial Distribution",
+        "key_prerequisites": [
+          {
+            "topic_id": "2992",
+            "name": "Mean and Variance of the Geometric Distribution",
+            "href": "/topics/2992"
+          },
+          {
+            "topic_id": "3072",
+            "name": "The Negative Binomial Distribution",
+            "href": "/topics/3072"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "98193",
+        "dom_id": "question-98193",
+        "selector": "#question-98193",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "98144",
+        "dom_id": "question-98144",
+        "selector": "#question-98144",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "221327",
+        "content_id": "8695",
+        "dom_id": "step-221327",
+        "selector": "#step-221327",
+        "step_anchor": "step-5",
+        "title": "Finding the Expected Value of a Negative Binomial Distribution in Context",
+        "key_prerequisites": [
+          {
+            "topic_id": "3285",
+            "name": "Modeling With the Negative Binomial Distribution",
+            "href": "/topics/3285"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "98237",
+        "dom_id": "question-98237",
+        "selector": "#question-98237",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "98139",
+        "dom_id": "question-98139",
+        "selector": "#question-98139",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "221330",
+        "content_id": "10731",
+        "dom_id": "step-221330",
+        "selector": "#step-221330",
+        "step_anchor": "step-8",
+        "title": "The Variance of a Negative Binomial Random Variable",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "221331",
+        "content_id": "8696",
+        "dom_id": "step-221331",
+        "selector": "#step-221331",
+        "step_anchor": "step-9",
+        "title": "Finding the Variance of a Negative Binomial Distribution",
+        "key_prerequisites": [
+          {
+            "topic_id": "3062",
+            "name": "Variance of Sums of Independent Random Variables",
+            "href": "/topics/3062"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "98146",
+        "dom_id": "question-98146",
+        "selector": "#question-98146",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "98208",
+        "dom_id": "question-98208",
+        "selector": "#question-98208",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "221334",
+        "content_id": "8697",
+        "dom_id": "step-221334",
+        "selector": "#step-221334",
+        "step_anchor": "step-12",
+        "title": "Finding the Variance of a Negative Binomial Distribution in Context",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "98141",
+        "dom_id": "question-98141",
+        "selector": "#question-98141",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "98271",
+        "dom_id": "question-98271",
+        "selector": "#question-98271",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-221323",
+        "filename": "01-step-221323.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-221324",
+        "filename": "02-step-221324.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-98193",
+        "filename": "03-question-98193.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-98144",
+        "filename": "04-question-98144.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-221327",
+        "filename": "05-step-221327.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-98237",
+        "filename": "06-question-98237.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-98139",
+        "filename": "07-question-98139.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-221330",
+        "filename": "08-step-221330.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-221331",
+        "filename": "09-step-221331.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-98146",
+        "filename": "10-question-98146.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-98208",
+        "filename": "11-question-98208.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-221334",
+        "filename": "12-step-221334.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-98141",
+        "filename": "13-question-98141.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-98271",
+        "filename": "14-question-98271.png"
+      }
+    ]
+  }
+}

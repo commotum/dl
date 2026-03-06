@@ -1,0 +1,391 @@
+{
+  "schema_version": 1,
+  "topic_id": "3246",
+  "topic_title": "Error in Numerical Methods",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3246.html",
+  "source_url": "https://mathacademy.com/topics/3246",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "594506",
+        "dom_id": "sectionLink-594506",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-594506"
+      },
+      {
+        "index": 2,
+        "step_id": "594507",
+        "dom_id": "sectionLink-594507",
+        "name": "",
+        "title": "Computing Local Truncation Error Given Numerical Solutions to an Initial Value Problem",
+        "selector": "#sectionLink-594507"
+      },
+      {
+        "index": 3,
+        "step_id": "594510",
+        "dom_id": "sectionLink-594510",
+        "name": "",
+        "title": "Computing the LTE for a Numerical Method Given an Initial Value Problem",
+        "selector": "#sectionLink-594510"
+      },
+      {
+        "index": 4,
+        "step_id": "594514",
+        "dom_id": "sectionLink-594514",
+        "name": "",
+        "title": "Writing an Expression for the LTE for a Given Numerical Method",
+        "selector": "#sectionLink-594514"
+      },
+      {
+        "index": 5,
+        "step_id": "594517",
+        "dom_id": "sectionLink-594517",
+        "name": "",
+        "title": "Global Truncation Error",
+        "selector": "#sectionLink-594517"
+      },
+      {
+        "index": 6,
+        "step_id": "594518",
+        "dom_id": "sectionLink-594518",
+        "name": "",
+        "title": "Computing Global Truncation Error Given Numerical Solutions to an Initial Value Problem",
+        "selector": "#sectionLink-594518"
+      },
+      {
+        "index": 7,
+        "step_id": "594521",
+        "dom_id": "sectionLink-594521",
+        "name": "",
+        "title": "Relationship Between Local and Global Truncation Errors",
+        "selector": "#sectionLink-594521"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3668",
+        "name": "Euler's Method: Calculating Multiple Steps",
+        "href": "/topics/eulers-method-calculating-multiple-steps-3668"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 16,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "594506",
+        "content_id": "14216",
+        "dom_id": "step-594506",
+        "selector": "#step-594506",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "594507",
+        "content_id": "21605",
+        "dom_id": "step-594507",
+        "selector": "#step-594507",
+        "step_anchor": "step-2",
+        "title": "Computing Local Truncation Error Given Numerical Solutions to an Initial Value Problem",
+        "key_prerequisites": [
+          {
+            "topic_id": "3668",
+            "name": "Euler's Method: Calculating Multiple Steps",
+            "href": "/topics/3668"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "333163",
+        "dom_id": "question-333163",
+        "selector": "#question-333163",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "332275",
+        "dom_id": "question-332275",
+        "selector": "#question-332275",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "594510",
+        "content_id": "21604",
+        "dom_id": "step-594510",
+        "selector": "#step-594510",
+        "step_anchor": "step-5",
+        "title": "Computing the LTE for a Numerical Method Given an Initial Value Problem",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "331518",
+        "dom_id": "question-331518",
+        "selector": "#question-331518",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "331541",
+        "dom_id": "question-331541",
+        "selector": "#question-331541",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "332884",
+        "dom_id": "question-332884",
+        "selector": "#question-332884",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "594514",
+        "content_id": "21214",
+        "dom_id": "step-594514",
+        "selector": "#step-594514",
+        "step_anchor": "step-9",
+        "title": "Writing an Expression for the LTE for a Given Numerical Method",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "331513",
+        "dom_id": "question-331513",
+        "selector": "#question-331513",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "331510",
+        "dom_id": "question-331510",
+        "selector": "#question-331510",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "594517",
+        "content_id": "14439",
+        "dom_id": "step-594517",
+        "selector": "#step-594517",
+        "step_anchor": "step-12",
+        "title": "Global Truncation Error",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "594518",
+        "content_id": "21218",
+        "dom_id": "step-594518",
+        "selector": "#step-594518",
+        "step_anchor": "step-13",
+        "title": "Computing Global Truncation Error Given Numerical Solutions to an Initial Value Problem",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "334475",
+        "dom_id": "question-334475",
+        "selector": "#question-334475",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "331600",
+        "dom_id": "question-331600",
+        "selector": "#question-331600",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "594521",
+        "content_id": "14442",
+        "dom_id": "step-594521",
+        "selector": "#step-594521",
+        "step_anchor": "step-16",
+        "title": "Relationship Between Local and Global Truncation Errors",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-594506",
+        "filename": "01-step-594506.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-594507",
+        "filename": "02-step-594507.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-333163",
+        "filename": "03-question-333163.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-332275",
+        "filename": "04-question-332275.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-594510",
+        "filename": "05-step-594510.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-331518",
+        "filename": "06-question-331518.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-331541",
+        "filename": "07-question-331541.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-332884",
+        "filename": "08-question-332884.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-594514",
+        "filename": "09-step-594514.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-331513",
+        "filename": "10-question-331513.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-331510",
+        "filename": "11-question-331510.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-594517",
+        "filename": "12-step-594517.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-594518",
+        "filename": "13-step-594518.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-334475",
+        "filename": "14-question-334475.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-331600",
+        "filename": "15-question-331600.png"
+      },
+      {
+        "index": 16,
+        "item_type": "step",
+        "selector": "#step-594521",
+        "filename": "16-step-594521.png"
+      }
+    ]
+  }
+}

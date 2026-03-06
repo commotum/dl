@@ -1,0 +1,379 @@
+{
+  "schema_version": 1,
+  "topic_id": "1771",
+  "topic_title": "Basic Properties of Determinants",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1771.html",
+  "source_url": "https://mathacademy.com/topics/1771",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "41735",
+        "dom_id": "sectionLink-41735",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-41735"
+      },
+      {
+        "index": 2,
+        "step_id": "41736",
+        "dom_id": "sectionLink-41736",
+        "name": "",
+        "title": "Finding the Determinant of a Triangular Matrix",
+        "selector": "#sectionLink-41736"
+      },
+      {
+        "index": 3,
+        "step_id": "41739",
+        "dom_id": "sectionLink-41739",
+        "name": "",
+        "title": "Calculating the Determinant of a Matrix With Many Zeros",
+        "selector": "#sectionLink-41739"
+      },
+      {
+        "index": 4,
+        "step_id": "41761",
+        "dom_id": "sectionLink-41761",
+        "name": "",
+        "title": "Determinants as Volumes",
+        "selector": "#sectionLink-41761"
+      },
+      {
+        "index": 5,
+        "step_id": "41760",
+        "dom_id": "sectionLink-41760",
+        "name": "",
+        "title": "Computing the Volume of an N-Dimensional Parallelepiped",
+        "selector": "#sectionLink-41760"
+      },
+      {
+        "index": 6,
+        "step_id": "41742",
+        "dom_id": "sectionLink-41742",
+        "name": "",
+        "title": "Calculating an Expression Involving Given Determinants and Matrix Types",
+        "selector": "#sectionLink-41742"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1169",
+        "name": "The Geometric Interpretation of the 2x2 Determinant",
+        "href": "/topics/the-geometric-interpretation-of-the-2x2-determinant-1169"
+      },
+      {
+        "topic_id": "1770",
+        "name": "Finding Determinants Using Laplace Expansions",
+        "href": "/topics/finding-determinants-using-laplace-expansions-1770"
+      },
+      {
+        "topic_id": "1777",
+        "name": "Triangular Matrices",
+        "href": "/topics/triangular-matrices-1777"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "41735",
+        "content_id": "6887",
+        "dom_id": "step-41735",
+        "selector": "#step-41735",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "41736",
+        "content_id": "10991",
+        "dom_id": "step-41736",
+        "selector": "#step-41736",
+        "step_anchor": "step-2",
+        "title": "Finding the Determinant of a Triangular Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "862",
+            "name": "Zero, Square, Diagonal and Identity Matrices",
+            "href": "/topics/862"
+          },
+          {
+            "topic_id": "1777",
+            "name": "Triangular Matrices",
+            "href": "/topics/1777"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "42471",
+        "dom_id": "question-42471",
+        "selector": "#question-42471",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "42884",
+        "dom_id": "question-42884",
+        "selector": "#question-42884",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "41739",
+        "content_id": "10992",
+        "dom_id": "step-41739",
+        "selector": "#step-41739",
+        "step_anchor": "step-5",
+        "title": "Calculating the Determinant of a Matrix With Many Zeros",
+        "key_prerequisites": [
+          {
+            "topic_id": "1770",
+            "name": "Finding Determinants Using Laplace Expansions",
+            "href": "/topics/1770"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "42955",
+        "dom_id": "question-42955",
+        "selector": "#question-42955",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "42472",
+        "dom_id": "question-42472",
+        "selector": "#question-42472",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "41761",
+        "content_id": "6892",
+        "dom_id": "step-41761",
+        "selector": "#step-41761",
+        "step_anchor": "step-8",
+        "title": "Determinants as Volumes",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "41760",
+        "content_id": "10998",
+        "dom_id": "step-41760",
+        "selector": "#step-41760",
+        "step_anchor": "step-9",
+        "title": "Computing the Volume of an N-Dimensional Parallelepiped",
+        "key_prerequisites": [
+          {
+            "topic_id": "1169",
+            "name": "The Geometric Interpretation of the 2x2 Determinant",
+            "href": "/topics/1169"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "157695",
+        "dom_id": "question-157695",
+        "selector": "#question-157695",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "157694",
+        "dom_id": "question-157694",
+        "selector": "#question-157694",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "41742",
+        "content_id": "10993",
+        "dom_id": "step-41742",
+        "selector": "#step-41742",
+        "step_anchor": "step-12",
+        "title": "Calculating an Expression Involving Given Determinants and Matrix Types",
+        "key_prerequisites": [
+          {
+            "topic_id": "232",
+            "name": "The Transpose of a Matrix",
+            "href": "/topics/232"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "42468",
+        "dom_id": "question-42468",
+        "selector": "#question-42468",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "42480",
+        "dom_id": "question-42480",
+        "selector": "#question-42480",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-41735",
+        "filename": "01-step-41735.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-41736",
+        "filename": "02-step-41736.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-42471",
+        "filename": "03-question-42471.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-42884",
+        "filename": "04-question-42884.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-41739",
+        "filename": "05-step-41739.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-42955",
+        "filename": "06-question-42955.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-42472",
+        "filename": "07-question-42472.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-41761",
+        "filename": "08-step-41761.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-41760",
+        "filename": "09-step-41760.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-157695",
+        "filename": "10-question-157695.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-157694",
+        "filename": "11-question-157694.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-41742",
+        "filename": "12-step-41742.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-42468",
+        "filename": "13-question-42468.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-42480",
+        "filename": "14-question-42480.png"
+      }
+    ]
+  }
+}

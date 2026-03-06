@@ -1,0 +1,293 @@
+{
+  "schema_version": 1,
+  "topic_id": "3797",
+  "topic_title": "Deterministic Finite Automata",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3797.html",
+  "source_url": "https://mathacademy.com/topics/3797",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "414818",
+        "dom_id": "sectionLink-414818",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-414818"
+      },
+      {
+        "index": 2,
+        "step_id": "414819",
+        "dom_id": "sectionLink-414819",
+        "name": "",
+        "title": "Identifying Components of a DFA",
+        "selector": "#sectionLink-414819"
+      },
+      {
+        "index": 3,
+        "step_id": "414822",
+        "dom_id": "sectionLink-414822",
+        "name": "",
+        "title": "Transition Tables of Deterministic Finite Automata",
+        "selector": "#sectionLink-414822"
+      },
+      {
+        "index": 4,
+        "step_id": "414823",
+        "dom_id": "sectionLink-414823",
+        "name": "",
+        "title": "Constructing a Transition Table Given a Diagram",
+        "selector": "#sectionLink-414823"
+      },
+      {
+        "index": 5,
+        "step_id": "414826",
+        "dom_id": "sectionLink-414826",
+        "name": "",
+        "title": "Drawing a Diagram Given a Transition Table",
+        "selector": "#sectionLink-414826"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "49",
+        "name": "The Cartesian Product",
+        "href": "/topics/the-cartesian-product-49"
+      },
+      {
+        "topic_id": "950",
+        "name": "Introduction to Graphs",
+        "href": "/topics/introduction-to-graphs-950"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "414818",
+        "content_id": "9641",
+        "dom_id": "step-414818",
+        "selector": "#step-414818",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "414819",
+        "content_id": "15580",
+        "dom_id": "step-414819",
+        "selector": "#step-414819",
+        "step_anchor": "step-2",
+        "title": "Identifying Components of a DFA",
+        "key_prerequisites": [
+          {
+            "topic_id": "49",
+            "name": "The Cartesian Product",
+            "href": "/topics/49"
+          },
+          {
+            "topic_id": "950",
+            "name": "Introduction to Graphs",
+            "href": "/topics/950"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "257520",
+        "dom_id": "question-257520",
+        "selector": "#question-257520",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "235810",
+        "dom_id": "question-235810",
+        "selector": "#question-235810",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "414822",
+        "content_id": "11564",
+        "dom_id": "step-414822",
+        "selector": "#step-414822",
+        "step_anchor": "step-5",
+        "title": "Transition Tables of Deterministic Finite Automata",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "414823",
+        "content_id": "15574",
+        "dom_id": "step-414823",
+        "selector": "#step-414823",
+        "step_anchor": "step-6",
+        "title": "Constructing a Transition Table Given a Diagram",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "235792",
+        "dom_id": "question-235792",
+        "selector": "#question-235792",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "257690",
+        "dom_id": "question-257690",
+        "selector": "#question-257690",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "414826",
+        "content_id": "15575",
+        "dom_id": "step-414826",
+        "selector": "#step-414826",
+        "step_anchor": "step-9",
+        "title": "Drawing a Diagram Given a Transition Table",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "257761",
+        "dom_id": "question-257761",
+        "selector": "#question-257761",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "235815",
+        "dom_id": "question-235815",
+        "selector": "#question-235815",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-414818",
+        "filename": "01-step-414818.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-414819",
+        "filename": "02-step-414819.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-257520",
+        "filename": "03-question-257520.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-235810",
+        "filename": "04-question-235810.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-414822",
+        "filename": "05-step-414822.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-414823",
+        "filename": "06-step-414823.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-235792",
+        "filename": "07-question-235792.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-257690",
+        "filename": "08-question-257690.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-414826",
+        "filename": "09-step-414826.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-257761",
+        "filename": "10-question-257761.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-235815",
+        "filename": "11-question-235815.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,432 @@
+{
+  "schema_version": 1,
+  "topic_id": "3707",
+  "topic_title": "The Inverse of an Affine Transformation",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3707.html",
+  "source_url": "https://mathacademy.com/topics/3707",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "44660",
+        "dom_id": "sectionLink-44660",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-44660"
+      },
+      {
+        "index": 2,
+        "step_id": "44661",
+        "dom_id": "sectionLink-44661",
+        "name": "",
+        "title": "Identifying Invertible Affine Transformations",
+        "selector": "#sectionLink-44661"
+      },
+      {
+        "index": 3,
+        "step_id": "44664",
+        "dom_id": "sectionLink-44664",
+        "name": "",
+        "title": "Finding the Inverse of an Affine Transformation",
+        "selector": "#sectionLink-44664"
+      },
+      {
+        "index": 4,
+        "step_id": "44665",
+        "dom_id": "sectionLink-44665",
+        "name": "",
+        "title": "Inverting Affine Transformations Given in Matrix Form",
+        "selector": "#sectionLink-44665"
+      },
+      {
+        "index": 5,
+        "step_id": "44668",
+        "dom_id": "sectionLink-44668",
+        "name": "",
+        "title": "Inverting Affine Transformations Given in Parametric Form",
+        "selector": "#sectionLink-44668"
+      },
+      {
+        "index": 6,
+        "step_id": "44705",
+        "dom_id": "sectionLink-44705",
+        "name": "",
+        "title": "Image Types Formed by Affine Transformations",
+        "selector": "#sectionLink-44705"
+      },
+      {
+        "index": 7,
+        "step_id": "44723",
+        "dom_id": "sectionLink-44723",
+        "name": "",
+        "title": "A Summary of Image Types",
+        "selector": "#sectionLink-44723"
+      },
+      {
+        "index": 8,
+        "step_id": "44704",
+        "dom_id": "sectionLink-44704",
+        "name": "",
+        "title": "Identifying the Types of Images Formed by an Affine Transformation",
+        "selector": "#sectionLink-44704"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "934",
+        "name": "Solving 2x2 Systems of Equations Using Inverse Matrices",
+        "href": "/topics/solving-2x2-systems-of-equations-using-inverse-matrices-934"
+      },
+      {
+        "topic_id": "1351",
+        "name": "Singular Linear Transformations in the Plane",
+        "href": "/topics/singular-linear-transformations-in-the-plane-1351"
+      },
+      {
+        "topic_id": "3387",
+        "name": "Affine Transformations",
+        "href": "/topics/affine-transformations-3387"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 16,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44660",
+        "content_id": "7697",
+        "dom_id": "step-44660",
+        "selector": "#step-44660",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44661",
+        "content_id": "12428",
+        "dom_id": "step-44661",
+        "selector": "#step-44661",
+        "step_anchor": "step-2",
+        "title": "Identifying Invertible Affine Transformations",
+        "key_prerequisites": [
+          {
+            "topic_id": "864",
+            "name": "Inverses of 2x2 Matrices",
+            "href": "/topics/864"
+          },
+          {
+            "topic_id": "3387",
+            "name": "Affine Transformations",
+            "href": "/topics/3387"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "124111",
+        "dom_id": "question-124111",
+        "selector": "#question-124111",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "124109",
+        "dom_id": "question-124109",
+        "selector": "#question-124109",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44664",
+        "content_id": "7698",
+        "dom_id": "step-44664",
+        "selector": "#step-44664",
+        "step_anchor": "step-5",
+        "title": "Finding the Inverse of an Affine Transformation",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44665",
+        "content_id": "12429",
+        "dom_id": "step-44665",
+        "selector": "#step-44665",
+        "step_anchor": "step-6",
+        "title": "Inverting Affine Transformations Given in Matrix Form",
+        "key_prerequisites": [
+          {
+            "topic_id": "934",
+            "name": "Solving 2x2 Systems of Equations Using Inverse Matrices",
+            "href": "/topics/934"
+          },
+          {
+            "topic_id": "988",
+            "name": "Inverting Linear Transformations",
+            "href": "/topics/988"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "124117",
+        "dom_id": "question-124117",
+        "selector": "#question-124117",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "124249",
+        "dom_id": "question-124249",
+        "selector": "#question-124249",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44668",
+        "content_id": "12430",
+        "dom_id": "step-44668",
+        "selector": "#step-44668",
+        "step_anchor": "step-9",
+        "title": "Inverting Affine Transformations Given in Parametric Form",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "124114",
+        "dom_id": "question-124114",
+        "selector": "#question-124114",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "124317",
+        "dom_id": "question-124317",
+        "selector": "#question-124317",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44705",
+        "content_id": "7706",
+        "dom_id": "step-44705",
+        "selector": "#step-44705",
+        "step_anchor": "step-12",
+        "title": "Image Types Formed by Affine Transformations",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44723",
+        "content_id": "7710",
+        "dom_id": "step-44723",
+        "selector": "#step-44723",
+        "step_anchor": "step-13",
+        "title": "A Summary of Image Types",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44704",
+        "content_id": "12441",
+        "dom_id": "step-44704",
+        "selector": "#step-44704",
+        "step_anchor": "step-14",
+        "title": "Identifying the Types of Images Formed by an Affine Transformation",
+        "key_prerequisites": [
+          {
+            "topic_id": "1351",
+            "name": "Singular Linear Transformations in the Plane",
+            "href": "/topics/1351"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "162152",
+        "dom_id": "question-162152",
+        "selector": "#question-162152",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "162151",
+        "dom_id": "question-162151",
+        "selector": "#question-162151",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-44660",
+        "filename": "01-step-44660.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-44661",
+        "filename": "02-step-44661.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-124111",
+        "filename": "03-question-124111.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-124109",
+        "filename": "04-question-124109.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-44664",
+        "filename": "05-step-44664.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-44665",
+        "filename": "06-step-44665.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-124117",
+        "filename": "07-question-124117.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-124249",
+        "filename": "08-question-124249.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-44668",
+        "filename": "09-step-44668.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-124114",
+        "filename": "10-question-124114.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-124317",
+        "filename": "11-question-124317.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-44705",
+        "filename": "12-step-44705.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-44723",
+        "filename": "13-step-44723.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-44704",
+        "filename": "14-step-44704.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-162152",
+        "filename": "15-question-162152.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-162151",
+        "filename": "16-question-162151.png"
+      }
+    ]
+  }
+}

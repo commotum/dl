@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "topic_id": "3053",
+  "topic_title": "Conditional Expectation for Discrete Random Variables",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3053.html",
+  "source_url": "https://mathacademy.com/topics/3053",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "34579",
+        "dom_id": "sectionLink-34579",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-34579"
+      },
+      {
+        "index": 2,
+        "step_id": "38825",
+        "dom_id": "sectionLink-38825",
+        "name": "",
+        "title": "Calculating a Conditional Expected Value Given a Conditional Mass Function",
+        "selector": "#sectionLink-38825"
+      },
+      {
+        "index": 3,
+        "step_id": "38846",
+        "dom_id": "sectionLink-38846",
+        "name": "",
+        "title": "Calculating a Conditional Expectation Using Row Totals",
+        "selector": "#sectionLink-38846"
+      },
+      {
+        "index": 4,
+        "step_id": "38982",
+        "dom_id": "sectionLink-38982",
+        "name": "",
+        "title": "Calculating a Conditional Expectation Using Column Totals",
+        "selector": "#sectionLink-38982"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "730",
+        "name": "Expected Values of Discrete Random Variables",
+        "href": "/topics/expected-values-of-discrete-random-variables-730"
+      },
+      {
+        "topic_id": "3003",
+        "name": "Conditional Distributions for Discrete Random Variables",
+        "href": "/topics/conditional-distributions-for-discrete-random-variables-3003"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 10,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "34579",
+        "content_id": "5617",
+        "dom_id": "step-34579",
+        "selector": "#step-34579",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "38825",
+        "content_id": "10298",
+        "dom_id": "step-38825",
+        "selector": "#step-38825",
+        "step_anchor": "step-2",
+        "title": "Calculating a Conditional Expected Value Given a Conditional Mass Function",
+        "key_prerequisites": [
+          {
+            "topic_id": "730",
+            "name": "Expected Values of Discrete Random Variables",
+            "href": "/topics/730"
+          },
+          {
+            "topic_id": "3003",
+            "name": "Conditional Distributions for Discrete Random Variables",
+            "href": "/topics/3003"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "145411",
+        "dom_id": "question-145411",
+        "selector": "#question-145411",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "145557",
+        "dom_id": "question-145557",
+        "selector": "#question-145557",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "38846",
+        "content_id": "10305",
+        "dom_id": "step-38846",
+        "selector": "#step-38846",
+        "step_anchor": "step-5",
+        "title": "Calculating a Conditional Expectation Using Row Totals",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "145410",
+        "dom_id": "question-145410",
+        "selector": "#question-145410",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "146248",
+        "dom_id": "question-146248",
+        "selector": "#question-146248",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "38982",
+        "content_id": "10350",
+        "dom_id": "step-38982",
+        "selector": "#step-38982",
+        "step_anchor": "step-8",
+        "title": "Calculating a Conditional Expectation Using Column Totals",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "146151",
+        "dom_id": "question-146151",
+        "selector": "#question-146151",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "146288",
+        "dom_id": "question-146288",
+        "selector": "#question-146288",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-34579",
+        "filename": "01-step-34579.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-38825",
+        "filename": "02-step-38825.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-145411",
+        "filename": "03-question-145411.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-145557",
+        "filename": "04-question-145557.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-38846",
+        "filename": "05-step-38846.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-145410",
+        "filename": "06-question-145410.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-146248",
+        "filename": "07-question-146248.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-38982",
+        "filename": "08-step-38982.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-146151",
+        "filename": "09-question-146151.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-146288",
+        "filename": "10-question-146288.png"
+      }
+    ]
+  }
+}

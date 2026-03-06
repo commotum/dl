@@ -1,0 +1,350 @@
+{
+  "schema_version": 1,
+  "topic_id": "475",
+  "topic_title": "Defining Vector-Valued Functions",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/475.html",
+  "source_url": "https://mathacademy.com/topics/475",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "44768",
+        "dom_id": "sectionLink-44768",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-44768"
+      },
+      {
+        "index": 2,
+        "step_id": "44769",
+        "dom_id": "sectionLink-44769",
+        "name": "",
+        "title": "Evaluating a Vector-Valued Function",
+        "selector": "#sectionLink-44769"
+      },
+      {
+        "index": 3,
+        "step_id": "44780",
+        "dom_id": "sectionLink-44780",
+        "name": "",
+        "title": "Three-Component Functions",
+        "selector": "#sectionLink-44780"
+      },
+      {
+        "index": 4,
+        "step_id": "44776",
+        "dom_id": "sectionLink-44776",
+        "name": "",
+        "title": "Evaluating a Three-Component Vector-Valued Function",
+        "selector": "#sectionLink-44776"
+      },
+      {
+        "index": 5,
+        "step_id": "44772",
+        "dom_id": "sectionLink-44772",
+        "name": "",
+        "title": "The Magnitude of a Vector-Valued Function",
+        "selector": "#sectionLink-44772"
+      },
+      {
+        "index": 6,
+        "step_id": "44773",
+        "dom_id": "sectionLink-44773",
+        "name": "",
+        "title": "Finding the Magnitude of a Vector-Valued Function",
+        "selector": "#sectionLink-44773"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "803",
+        "name": "Graphing Curves Defined Parametrically",
+        "href": "/topics/graphing-curves-defined-parametrically-803"
+      },
+      {
+        "topic_id": "1277",
+        "name": "Calculating the Magnitude of Cartesian Vectors in 3D",
+        "href": "/topics/calculating-the-magnitude-of-cartesian-vectors-in-3d-1277"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44768",
+        "content_id": "7721",
+        "dom_id": "step-44768",
+        "selector": "#step-44768",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44769",
+        "content_id": "12450",
+        "dom_id": "step-44769",
+        "selector": "#step-44769",
+        "step_anchor": "step-2",
+        "title": "Evaluating a Vector-Valued Function",
+        "key_prerequisites": [
+          {
+            "topic_id": "803",
+            "name": "Graphing Curves Defined Parametrically",
+            "href": "/topics/803"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "50359",
+        "dom_id": "question-50359",
+        "selector": "#question-50359",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "50083",
+        "dom_id": "question-50083",
+        "selector": "#question-50083",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44780",
+        "content_id": "7723",
+        "dom_id": "step-44780",
+        "selector": "#step-44780",
+        "step_anchor": "step-5",
+        "title": "Three-Component Functions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44776",
+        "content_id": "12452",
+        "dom_id": "step-44776",
+        "selector": "#step-44776",
+        "step_anchor": "step-6",
+        "title": "Evaluating a Three-Component Vector-Valued Function",
+        "key_prerequisites": [
+          {
+            "topic_id": "1166",
+            "name": "Three-Dimensional Vectors in Component Form",
+            "href": "/topics/1166"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "160766",
+        "dom_id": "question-160766",
+        "selector": "#question-160766",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "160790",
+        "dom_id": "question-160790",
+        "selector": "#question-160790",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "160793",
+        "dom_id": "question-160793",
+        "selector": "#question-160793",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44772",
+        "content_id": "7722",
+        "dom_id": "step-44772",
+        "selector": "#step-44772",
+        "step_anchor": "step-10",
+        "title": "The Magnitude of a Vector-Valued Function",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44773",
+        "content_id": "12451",
+        "dom_id": "step-44773",
+        "selector": "#step-44773",
+        "step_anchor": "step-11",
+        "title": "Finding the Magnitude of a Vector-Valued Function",
+        "key_prerequisites": [
+          {
+            "topic_id": "176",
+            "name": "Calculating the Magnitude of Cartesian Vectors in 2D",
+            "href": "/topics/176"
+          },
+          {
+            "topic_id": "1277",
+            "name": "Calculating the Magnitude of Cartesian Vectors in 3D",
+            "href": "/topics/1277"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "50360",
+        "dom_id": "question-50360",
+        "selector": "#question-50360",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "50362",
+        "dom_id": "question-50362",
+        "selector": "#question-50362",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-44768",
+        "filename": "01-step-44768.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-44769",
+        "filename": "02-step-44769.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-50359",
+        "filename": "03-question-50359.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-50083",
+        "filename": "04-question-50083.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-44780",
+        "filename": "05-step-44780.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-44776",
+        "filename": "06-step-44776.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-160766",
+        "filename": "07-question-160766.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-160790",
+        "filename": "08-question-160790.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-160793",
+        "filename": "09-question-160793.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-44772",
+        "filename": "10-step-44772.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-44773",
+        "filename": "11-step-44773.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-50360",
+        "filename": "12-question-50360.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-50362",
+        "filename": "13-question-50362.png"
+      }
+    ]
+  }
+}

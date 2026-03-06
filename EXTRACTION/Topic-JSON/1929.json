@@ -1,0 +1,314 @@
+{
+  "schema_version": 1,
+  "topic_id": "1929",
+  "topic_title": "Introduction to Partial Derivatives",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1929.html",
+  "source_url": "https://mathacademy.com/topics/1929",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "41895",
+        "dom_id": "sectionLink-41895",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-41895"
+      },
+      {
+        "index": 2,
+        "step_id": "41966",
+        "dom_id": "sectionLink-41966",
+        "name": "",
+        "title": "Partial Derivatives as Limits of Difference Quotients",
+        "selector": "#sectionLink-41966"
+      },
+      {
+        "index": 3,
+        "step_id": "41969",
+        "dom_id": "sectionLink-41969",
+        "name": "",
+        "title": "Computing Partial Derivatives",
+        "selector": "#sectionLink-41969"
+      },
+      {
+        "index": 4,
+        "step_id": "41896",
+        "dom_id": "sectionLink-41896",
+        "name": "",
+        "title": "Finding Partial Derivatives of Two-Variable Functions",
+        "selector": "#sectionLink-41896"
+      },
+      {
+        "index": 5,
+        "step_id": "41990",
+        "dom_id": "sectionLink-41990",
+        "name": "",
+        "title": "Evaluating a Partial Derivative at a Point",
+        "selector": "#sectionLink-41990"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "303",
+        "name": "Differentiating Inverse Trigonometric Functions",
+        "href": "/topics/differentiating-inverse-trigonometric-functions-303"
+      },
+      {
+        "topic_id": "1931",
+        "name": "Limits and Continuity of Multivariable Functions",
+        "href": "/topics/limits-and-continuity-of-multivariable-functions-1931"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "41895",
+        "content_id": "6922",
+        "dom_id": "step-41895",
+        "selector": "#step-41895",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "41966",
+        "content_id": "11045",
+        "dom_id": "step-41966",
+        "selector": "#step-41966",
+        "step_anchor": "step-2",
+        "title": "Partial Derivatives as Limits of Difference Quotients",
+        "key_prerequisites": [
+          {
+            "topic_id": "812",
+            "name": "Defining the Derivative Using Derivative Notation",
+            "href": "/topics/812"
+          },
+          {
+            "topic_id": "1931",
+            "name": "Limits and Continuity of Multivariable Functions",
+            "href": "/topics/1931"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "158412",
+        "dom_id": "question-158412",
+        "selector": "#question-158412",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "158413",
+        "dom_id": "question-158413",
+        "selector": "#question-158413",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "41969",
+        "content_id": "6930",
+        "dom_id": "step-41969",
+        "selector": "#step-41969",
+        "step_anchor": "step-5",
+        "title": "Computing Partial Derivatives",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "41896",
+        "content_id": "11026",
+        "dom_id": "step-41896",
+        "selector": "#step-41896",
+        "step_anchor": "step-6",
+        "title": "Finding Partial Derivatives of Two-Variable Functions",
+        "key_prerequisites": [
+          {
+            "topic_id": "280",
+            "name": "Differentiating Trigonometric Functions",
+            "href": "/topics/280"
+          },
+          {
+            "topic_id": "303",
+            "name": "Differentiating Inverse Trigonometric Functions",
+            "href": "/topics/303"
+          },
+          {
+            "topic_id": "1114",
+            "name": "Differentiating Exponential Functions",
+            "href": "/topics/1114"
+          },
+          {
+            "topic_id": "1116",
+            "name": "Differentiating Logarithmic Functions",
+            "href": "/topics/1116"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "35709",
+        "dom_id": "question-35709",
+        "selector": "#question-35709",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "132241",
+        "dom_id": "question-132241",
+        "selector": "#question-132241",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "41990",
+        "content_id": "11049",
+        "dom_id": "step-41990",
+        "selector": "#step-41990",
+        "step_anchor": "step-9",
+        "title": "Evaluating a Partial Derivative at a Point",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "132257",
+        "dom_id": "question-132257",
+        "selector": "#question-132257",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "159604",
+        "dom_id": "question-159604",
+        "selector": "#question-159604",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-41895",
+        "filename": "01-step-41895.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-41966",
+        "filename": "02-step-41966.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-158412",
+        "filename": "03-question-158412.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-158413",
+        "filename": "04-question-158413.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-41969",
+        "filename": "05-step-41969.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-41896",
+        "filename": "06-step-41896.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-35709",
+        "filename": "07-question-35709.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-132241",
+        "filename": "08-question-132241.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-41990",
+        "filename": "09-step-41990.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-132257",
+        "filename": "10-question-132257.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-159604",
+        "filename": "11-question-159604.png"
+      }
+    ]
+  }
+}

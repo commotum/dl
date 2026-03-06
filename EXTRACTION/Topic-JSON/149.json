@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "topic_id": "149",
+  "topic_title": "Elementary Row Operations",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/149.html",
+  "source_url": "https://mathacademy.com/topics/149",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "17183",
+        "dom_id": "sectionLink-17183",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-17183"
+      },
+      {
+        "index": 2,
+        "step_id": "17184",
+        "dom_id": "sectionLink-17184",
+        "name": "",
+        "title": "Applying Row Operations To a Coefficients Matrix",
+        "selector": "#sectionLink-17184"
+      },
+      {
+        "index": 3,
+        "step_id": "17185",
+        "dom_id": "sectionLink-17185",
+        "name": "",
+        "title": "Applying Row Operations To an Augmented Matrix",
+        "selector": "#sectionLink-17185"
+      },
+      {
+        "index": 4,
+        "step_id": "17186",
+        "dom_id": "sectionLink-17186",
+        "name": "",
+        "title": "Identifying the Appropriate Row Operation To Transform One Matrix Into Another",
+        "selector": "#sectionLink-17186"
+      },
+      {
+        "index": 5,
+        "step_id": "17187",
+        "dom_id": "sectionLink-17187",
+        "name": "",
+        "title": "Identifying the Appropriate Row Operation To Transform a Given Entry to a Desired Value",
+        "selector": "#sectionLink-17187"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "148",
+        "name": "Systems of Equations as Augmented Matrices",
+        "href": "/topics/systems-of-equations-as-augmented-matrices-148"
+      },
+      {
+        "topic_id": "1167",
+        "name": "Index Notation for Matrices",
+        "href": "/topics/index-notation-for-matrices-1167"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "17183",
+        "content_id": "3150",
+        "dom_id": "step-17183",
+        "selector": "#step-17183",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17184",
+        "content_id": "4693",
+        "dom_id": "step-17184",
+        "selector": "#step-17184",
+        "step_anchor": "step-2",
+        "title": "Applying Row Operations To a Coefficients Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "1167",
+            "name": "Index Notation for Matrices",
+            "href": "/topics/1167"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "10248",
+        "dom_id": "question-10248",
+        "selector": "#question-10248",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "10250",
+        "dom_id": "question-10250",
+        "selector": "#question-10250",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17185",
+        "content_id": "4694",
+        "dom_id": "step-17185",
+        "selector": "#step-17185",
+        "step_anchor": "step-5",
+        "title": "Applying Row Operations To an Augmented Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "148",
+            "name": "Systems of Equations as Augmented Matrices",
+            "href": "/topics/148"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "10217",
+        "dom_id": "question-10217",
+        "selector": "#question-10217",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "10252",
+        "dom_id": "question-10252",
+        "selector": "#question-10252",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17186",
+        "content_id": "4695",
+        "dom_id": "step-17186",
+        "selector": "#step-17186",
+        "step_anchor": "step-8",
+        "title": "Identifying the Appropriate Row Operation To Transform One Matrix Into Another",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "20389",
+        "dom_id": "question-20389",
+        "selector": "#question-20389",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "20240",
+        "dom_id": "question-20240",
+        "selector": "#question-20240",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17187",
+        "content_id": "4696",
+        "dom_id": "step-17187",
+        "selector": "#step-17187",
+        "step_anchor": "step-11",
+        "title": "Identifying the Appropriate Row Operation To Transform a Given Entry to a Desired Value",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "20392",
+        "dom_id": "question-20392",
+        "selector": "#question-20392",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "20388",
+        "dom_id": "question-20388",
+        "selector": "#question-20388",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-17183",
+        "filename": "01-step-17183.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-17184",
+        "filename": "02-step-17184.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-10248",
+        "filename": "03-question-10248.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-10250",
+        "filename": "04-question-10250.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-17185",
+        "filename": "05-step-17185.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-10217",
+        "filename": "06-question-10217.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-10252",
+        "filename": "07-question-10252.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-17186",
+        "filename": "08-step-17186.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-20389",
+        "filename": "09-question-20389.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-20240",
+        "filename": "10-question-20240.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-17187",
+        "filename": "11-step-17187.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-20392",
+        "filename": "12-question-20392.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-20388",
+        "filename": "13-question-20388.png"
+      }
+    ]
+  }
+}

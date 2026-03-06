@@ -1,0 +1,321 @@
+{
+  "schema_version": 1,
+  "topic_id": "265",
+  "topic_title": "The Standard Normal Distribution",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/265.html",
+  "source_url": "https://mathacademy.com/topics/265",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "68163",
+        "dom_id": "sectionLink-68163",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-68163"
+      },
+      {
+        "index": 2,
+        "step_id": "68164",
+        "dom_id": "sectionLink-68164",
+        "name": "",
+        "title": "Calculating Probabilities Using Areas",
+        "selector": "#sectionLink-68164"
+      },
+      {
+        "index": 3,
+        "step_id": "68165",
+        "dom_id": "sectionLink-68165",
+        "name": "",
+        "title": "The Standard Normal Cumulative Distribution Function",
+        "selector": "#sectionLink-68165"
+      },
+      {
+        "index": 4,
+        "step_id": "68166",
+        "dom_id": "sectionLink-68166",
+        "name": "",
+        "title": "Computing a Probability on an Unbounded Interval",
+        "selector": "#sectionLink-68166"
+      },
+      {
+        "index": 5,
+        "step_id": "68169",
+        "dom_id": "sectionLink-68169",
+        "name": "",
+        "title": "Computing a Probability on an Unbounded Interval Using the Complement",
+        "selector": "#sectionLink-68169"
+      },
+      {
+        "index": 6,
+        "step_id": "68172",
+        "dom_id": "sectionLink-68172",
+        "name": "",
+        "title": "Computing a Probability on a Bounded Interval",
+        "selector": "#sectionLink-68172"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1632",
+        "name": "Variance and Standard Deviation",
+        "href": "/topics/variance-and-standard-deviation-1632"
+      },
+      {
+        "topic_id": "2024",
+        "name": "Cumulative Distribution Functions for Discrete Random Variables",
+        "href": "/topics/cumulative-distribution-functions-for-discrete-random-variables-2024"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "68163",
+        "content_id": "8282",
+        "dom_id": "step-68163",
+        "selector": "#step-68163",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "68164",
+        "content_id": "8283",
+        "dom_id": "step-68164",
+        "selector": "#step-68164",
+        "step_anchor": "step-2",
+        "title": "Calculating Probabilities Using Areas",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "68165",
+        "content_id": "8284",
+        "dom_id": "step-68165",
+        "selector": "#step-68165",
+        "step_anchor": "step-3",
+        "title": "The Standard Normal Cumulative Distribution Function",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "68166",
+        "content_id": "13266",
+        "dom_id": "step-68166",
+        "selector": "#step-68166",
+        "step_anchor": "step-4",
+        "title": "Computing a Probability on an Unbounded Interval",
+        "key_prerequisites": [
+          {
+            "topic_id": "2024",
+            "name": "Cumulative Distribution Functions for Discrete Random Variables",
+            "href": "/topics/2024"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "93922",
+        "dom_id": "question-93922",
+        "selector": "#question-93922",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "94088",
+        "dom_id": "question-94088",
+        "selector": "#question-94088",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "68169",
+        "content_id": "13267",
+        "dom_id": "step-68169",
+        "selector": "#step-68169",
+        "step_anchor": "step-7",
+        "title": "Computing a Probability on an Unbounded Interval Using the Complement",
+        "key_prerequisites": [
+          {
+            "topic_id": "1120",
+            "name": "The Complement of an Event",
+            "href": "/topics/1120"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "94141",
+        "dom_id": "question-94141",
+        "selector": "#question-94141",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "93902",
+        "dom_id": "question-93902",
+        "selector": "#question-93902",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "68172",
+        "content_id": "13268",
+        "dom_id": "step-68172",
+        "selector": "#step-68172",
+        "step_anchor": "step-10",
+        "title": "Computing a Probability on a Bounded Interval",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "94195",
+        "dom_id": "question-94195",
+        "selector": "#question-94195",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "93903",
+        "dom_id": "question-93903",
+        "selector": "#question-93903",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-68163",
+        "filename": "01-step-68163.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-68164",
+        "filename": "02-step-68164.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-68165",
+        "filename": "03-step-68165.png"
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "selector": "#step-68166",
+        "filename": "04-step-68166.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-93922",
+        "filename": "05-question-93922.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-94088",
+        "filename": "06-question-94088.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-68169",
+        "filename": "07-step-68169.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-94141",
+        "filename": "08-question-94141.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-93902",
+        "filename": "09-question-93902.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-68172",
+        "filename": "10-step-68172.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-94195",
+        "filename": "11-question-94195.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-93903",
+        "filename": "12-question-93903.png"
+      }
+    ]
+  }
+}

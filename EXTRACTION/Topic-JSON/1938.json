@@ -1,0 +1,374 @@
+{
+  "schema_version": 1,
+  "topic_id": "1938",
+  "topic_title": "Directional Derivatives",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1938.html",
+  "source_url": "https://mathacademy.com/topics/1938",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "11245",
+        "dom_id": "sectionLink-11245",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-11245"
+      },
+      {
+        "index": 2,
+        "step_id": "11246",
+        "dom_id": "sectionLink-11246",
+        "name": "",
+        "title": "Calculating a Directional Derivative",
+        "selector": "#sectionLink-11246"
+      },
+      {
+        "index": 3,
+        "step_id": "11253",
+        "dom_id": "sectionLink-11253",
+        "name": "",
+        "title": "The Gradient as the Direction of Maximum Increase of a Function",
+        "selector": "#sectionLink-11253"
+      },
+      {
+        "index": 4,
+        "step_id": "11257",
+        "dom_id": "sectionLink-11257",
+        "name": "",
+        "title": "Finding the Direction of Maximum Increase or Maximum Decrease of a Function",
+        "selector": "#sectionLink-11257"
+      },
+      {
+        "index": 5,
+        "step_id": "11285",
+        "dom_id": "sectionLink-11285",
+        "name": "",
+        "title": "The Directional Derivative as a Generalization of the Partial Derivative",
+        "selector": "#sectionLink-11285"
+      },
+      {
+        "index": 6,
+        "step_id": "27522",
+        "dom_id": "sectionLink-27522",
+        "name": "",
+        "title": "The Rate of Change in the Direction of the Gradient",
+        "selector": "#sectionLink-27522"
+      },
+      {
+        "index": 7,
+        "step_id": "11260",
+        "dom_id": "sectionLink-11260",
+        "name": "",
+        "title": "Finding the Rate of Change of a Function in a Given Direction",
+        "selector": "#sectionLink-11260"
+      },
+      {
+        "index": 8,
+        "step_id": "11286",
+        "dom_id": "sectionLink-11286",
+        "name": "",
+        "title": "Deriving the Formula For the Directional Derivative",
+        "selector": "#sectionLink-11286"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1934",
+        "name": "The Gradient Vector",
+        "href": "/topics/the-gradient-vector-1934"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "11245",
+        "content_id": "2503",
+        "dom_id": "step-11245",
+        "selector": "#step-11245",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "11246",
+        "content_id": "3377",
+        "dom_id": "step-11246",
+        "selector": "#step-11246",
+        "step_anchor": "step-2",
+        "title": "Calculating a Directional Derivative",
+        "key_prerequisites": [
+          {
+            "topic_id": "176",
+            "name": "Calculating the Magnitude of Cartesian Vectors in 2D",
+            "href": "/topics/176"
+          },
+          {
+            "topic_id": "177",
+            "name": "Calculating the Dot Product Using Components",
+            "href": "/topics/177"
+          },
+          {
+            "topic_id": "1934",
+            "name": "The Gradient Vector",
+            "href": "/topics/1934"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "37077",
+        "dom_id": "question-37077",
+        "selector": "#question-37077",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "36273",
+        "dom_id": "question-36273",
+        "selector": "#question-36273",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "11253",
+        "content_id": "2505",
+        "dom_id": "step-11253",
+        "selector": "#step-11253",
+        "step_anchor": "step-5",
+        "title": "The Gradient as the Direction of Maximum Increase of a Function",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "11257",
+        "content_id": "3381",
+        "dom_id": "step-11257",
+        "selector": "#step-11257",
+        "step_anchor": "step-6",
+        "title": "Finding the Direction of Maximum Increase or Maximum Decrease of a Function",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "36305",
+        "dom_id": "question-36305",
+        "selector": "#question-36305",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "36293",
+        "dom_id": "question-36293",
+        "selector": "#question-36293",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "11285",
+        "content_id": "2508",
+        "dom_id": "step-11285",
+        "selector": "#step-11285",
+        "step_anchor": "step-9",
+        "title": "The Directional Derivative as a Generalization of the Partial Derivative",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "27522",
+        "content_id": "4469",
+        "dom_id": "step-27522",
+        "selector": "#step-27522",
+        "step_anchor": "step-10",
+        "title": "The Rate of Change in the Direction of the Gradient",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "11260",
+        "content_id": "3382",
+        "dom_id": "step-11260",
+        "selector": "#step-11260",
+        "step_anchor": "step-11",
+        "title": "Finding the Rate of Change of a Function in a Given Direction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "37074",
+        "dom_id": "question-37074",
+        "selector": "#question-37074",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "36297",
+        "dom_id": "question-36297",
+        "selector": "#question-36297",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "11286",
+        "content_id": "2509",
+        "dom_id": "step-11286",
+        "selector": "#step-11286",
+        "step_anchor": "step-14",
+        "title": "Deriving the Formula For the Directional Derivative",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-11245",
+        "filename": "01-step-11245.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-11246",
+        "filename": "02-step-11246.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-37077",
+        "filename": "03-question-37077.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-36273",
+        "filename": "04-question-36273.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-11253",
+        "filename": "05-step-11253.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-11257",
+        "filename": "06-step-11257.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-36305",
+        "filename": "07-question-36305.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-36293",
+        "filename": "08-question-36293.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-11285",
+        "filename": "09-step-11285.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-27522",
+        "filename": "10-step-27522.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-11260",
+        "filename": "11-step-11260.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-37074",
+        "filename": "12-question-37074.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-36297",
+        "filename": "13-question-36297.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-11286",
+        "filename": "14-step-11286.png"
+      }
+    ]
+  }
+}

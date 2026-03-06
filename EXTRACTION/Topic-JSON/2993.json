@@ -1,0 +1,336 @@
+{
+  "schema_version": 1,
+  "topic_id": "2993",
+  "topic_title": "The Normal Approximation of the Poisson Distribution",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2993.html",
+  "source_url": "https://mathacademy.com/topics/2993",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "30995",
+        "dom_id": "sectionLink-30995",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-30995"
+      },
+      {
+        "index": 2,
+        "step_id": "30996",
+        "dom_id": "sectionLink-30996",
+        "name": "",
+        "title": "Identifying Situations Where the Normal Approximation is Appropriate",
+        "selector": "#sectionLink-30996"
+      },
+      {
+        "index": 3,
+        "step_id": "34585",
+        "dom_id": "sectionLink-34585",
+        "name": "",
+        "title": "Using the Normal Approximation to the Poisson Distribution",
+        "selector": "#sectionLink-34585"
+      },
+      {
+        "index": 4,
+        "step_id": "34584",
+        "dom_id": "sectionLink-34584",
+        "name": "",
+        "title": "A Note on Rounding Errors",
+        "selector": "#sectionLink-34584"
+      },
+      {
+        "index": 5,
+        "step_id": "30997",
+        "dom_id": "sectionLink-30997",
+        "name": "",
+        "title": "Using the Normal Approximation to Compute a Probability at a Single Point",
+        "selector": "#sectionLink-30997"
+      },
+      {
+        "index": 6,
+        "step_id": "30998",
+        "dom_id": "sectionLink-30998",
+        "name": "",
+        "title": "Using the Normal Approximation to Compute a Probability Over an Interval",
+        "selector": "#sectionLink-30998"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "788",
+        "name": "Modeling With the Normal Distribution",
+        "href": "/topics/modeling-with-the-normal-distribution-788"
+      },
+      {
+        "topic_id": "2991",
+        "name": "Mean and Variance of the Poisson Distribution",
+        "href": "/topics/mean-and-variance-of-the-poisson-distribution-2991"
+      },
+      {
+        "topic_id": "2994",
+        "name": "Approximating Discrete Random Variables as Continuous",
+        "href": "/topics/approximating-discrete-random-variables-as-continuous-2994"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "30995",
+        "content_id": "4979",
+        "dom_id": "step-30995",
+        "selector": "#step-30995",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30996",
+        "content_id": "8302",
+        "dom_id": "step-30996",
+        "selector": "#step-30996",
+        "step_anchor": "step-2",
+        "title": "Identifying Situations Where the Normal Approximation is Appropriate",
+        "key_prerequisites": [
+          {
+            "topic_id": "2838",
+            "name": "Modeling With the Poisson Distribution",
+            "href": "/topics/2838"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "94821",
+        "dom_id": "question-94821",
+        "selector": "#question-94821",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "95379",
+        "dom_id": "question-95379",
+        "selector": "#question-95379",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "34585",
+        "content_id": "5623",
+        "dom_id": "step-34585",
+        "selector": "#step-34585",
+        "step_anchor": "step-5",
+        "title": "Using the Normal Approximation to the Poisson Distribution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "34584",
+        "content_id": "5622",
+        "dom_id": "step-34584",
+        "selector": "#step-34584",
+        "step_anchor": "step-6",
+        "title": "A Note on Rounding Errors",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30997",
+        "content_id": "8303",
+        "dom_id": "step-30997",
+        "selector": "#step-30997",
+        "step_anchor": "step-7",
+        "title": "Using the Normal Approximation to Compute a Probability at a Single Point",
+        "key_prerequisites": [
+          {
+            "topic_id": "788",
+            "name": "Modeling With the Normal Distribution",
+            "href": "/topics/788"
+          },
+          {
+            "topic_id": "2991",
+            "name": "Mean and Variance of the Poisson Distribution",
+            "href": "/topics/2991"
+          },
+          {
+            "topic_id": "2994",
+            "name": "Approximating Discrete Random Variables as Continuous",
+            "href": "/topics/2994"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "95106",
+        "dom_id": "question-95106",
+        "selector": "#question-95106",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "94822",
+        "dom_id": "question-94822",
+        "selector": "#question-94822",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30998",
+        "content_id": "8304",
+        "dom_id": "step-30998",
+        "selector": "#step-30998",
+        "step_anchor": "step-10",
+        "title": "Using the Normal Approximation to Compute a Probability Over an Interval",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "95485",
+        "dom_id": "question-95485",
+        "selector": "#question-95485",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "94823",
+        "dom_id": "question-94823",
+        "selector": "#question-94823",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-30995",
+        "filename": "01-step-30995.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-30996",
+        "filename": "02-step-30996.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-94821",
+        "filename": "03-question-94821.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-95379",
+        "filename": "04-question-95379.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-34585",
+        "filename": "05-step-34585.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-34584",
+        "filename": "06-step-34584.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-30997",
+        "filename": "07-step-30997.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-95106",
+        "filename": "08-question-95106.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-94822",
+        "filename": "09-question-94822.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-30998",
+        "filename": "10-step-30998.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-95485",
+        "filename": "11-question-95485.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-94823",
+        "filename": "12-question-94823.png"
+      }
+    ]
+  }
+}

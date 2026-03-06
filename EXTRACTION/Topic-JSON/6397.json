@@ -1,0 +1,464 @@
+{
+  "schema_version": 1,
+  "topic_id": "6397",
+  "topic_title": "The ABM2 Method",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/6397.html",
+  "source_url": "https://mathacademy.com/topics/6397",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "611738",
+        "dom_id": "sectionLink-611738",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-611738"
+      },
+      {
+        "index": 2,
+        "step_id": "611739",
+        "dom_id": "sectionLink-611739",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-611739"
+      },
+      {
+        "index": 3,
+        "step_id": "611740",
+        "dom_id": "sectionLink-611740",
+        "name": "",
+        "title": "Completing a Table Using the Predictor Equation of the ABM 2-Step Method",
+        "selector": "#sectionLink-611740"
+      },
+      {
+        "index": 4,
+        "step_id": "611743",
+        "dom_id": "sectionLink-611743",
+        "name": "",
+        "title": "The Two-Step Adams-Bashforth-Moulton Method",
+        "selector": "#sectionLink-611743"
+      },
+      {
+        "index": 5,
+        "step_id": "611744",
+        "dom_id": "sectionLink-611744",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-611744"
+      },
+      {
+        "index": 6,
+        "step_id": "611745",
+        "dom_id": "sectionLink-611745",
+        "name": "",
+        "title": "Calculating the Corrector Term",
+        "selector": "#sectionLink-611745"
+      },
+      {
+        "index": 7,
+        "step_id": "611748",
+        "dom_id": "sectionLink-611748",
+        "name": "",
+        "title": "Completing a Row of a Table Using the ABM 2-Step Method",
+        "selector": "#sectionLink-611748"
+      },
+      {
+        "index": 8,
+        "step_id": "611751",
+        "dom_id": "sectionLink-611751",
+        "name": "",
+        "title": "Approximating the Solution to an Initial Value Problem Using The ABM 2-Step Method",
+        "selector": "#sectionLink-611751"
+      },
+      {
+        "index": 9,
+        "step_id": "611754",
+        "dom_id": "sectionLink-611754",
+        "name": "",
+        "title": "Derivation of the AB2 Predictor",
+        "selector": "#sectionLink-611754"
+      },
+      {
+        "index": 10,
+        "step_id": "611755",
+        "dom_id": "sectionLink-611755",
+        "name": "",
+        "title": "Derivation of the AM2 Corrector",
+        "selector": "#sectionLink-611755"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3247",
+        "name": "The Modified Euler Method",
+        "href": "/topics/the-modified-euler-method-3247"
+      },
+      {
+        "topic_id": "3248",
+        "name": "The RK4 Method",
+        "href": "/topics/the-rk4-method-3248"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 18,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "611738",
+        "content_id": "14412",
+        "dom_id": "step-611738",
+        "selector": "#step-611738",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "611739",
+        "content_id": "14615",
+        "dom_id": "step-611739",
+        "selector": "#step-611739",
+        "step_anchor": "step-2",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "611740",
+        "content_id": "21539",
+        "dom_id": "step-611740",
+        "selector": "#step-611740",
+        "step_anchor": "step-3",
+        "title": "Completing a Table Using the Predictor Equation of the ABM 2-Step Method",
+        "key_prerequisites": [
+          {
+            "topic_id": "3247",
+            "name": "The Modified Euler Method",
+            "href": "/topics/3247"
+          },
+          {
+            "topic_id": "3248",
+            "name": "The RK4 Method",
+            "href": "/topics/3248"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "329474",
+        "dom_id": "question-329474",
+        "selector": "#question-329474",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "333066",
+        "dom_id": "question-333066",
+        "selector": "#question-333066",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "611743",
+        "content_id": "14372",
+        "dom_id": "step-611743",
+        "selector": "#step-611743",
+        "step_anchor": "step-6",
+        "title": "The Two-Step Adams-Bashforth-Moulton Method",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "611744",
+        "content_id": "14385",
+        "dom_id": "step-611744",
+        "selector": "#step-611744",
+        "step_anchor": "step-7",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "611745",
+        "content_id": "21565",
+        "dom_id": "step-611745",
+        "selector": "#step-611745",
+        "step_anchor": "step-8",
+        "title": "Calculating the Corrector Term",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "329336",
+        "dom_id": "question-329336",
+        "selector": "#question-329336",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "333090",
+        "dom_id": "question-333090",
+        "selector": "#question-333090",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "611748",
+        "content_id": "21538",
+        "dom_id": "step-611748",
+        "selector": "#step-611748",
+        "step_anchor": "step-11",
+        "title": "Completing a Row of a Table Using the ABM 2-Step Method",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "332813",
+        "dom_id": "question-332813",
+        "selector": "#question-332813",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "332816",
+        "dom_id": "question-332816",
+        "selector": "#question-332816",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "611751",
+        "content_id": "21566",
+        "dom_id": "step-611751",
+        "selector": "#step-611751",
+        "step_anchor": "step-14",
+        "title": "Approximating the Solution to an Initial Value Problem Using The ABM 2-Step Method",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "329310",
+        "dom_id": "question-329310",
+        "selector": "#question-329310",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "333679",
+        "dom_id": "question-333679",
+        "selector": "#question-333679",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 17,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "611754",
+        "content_id": "14478",
+        "dom_id": "step-611754",
+        "selector": "#step-611754",
+        "step_anchor": "step-17",
+        "title": "Derivation of the AB2 Predictor",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 18,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "611755",
+        "content_id": "14479",
+        "dom_id": "step-611755",
+        "selector": "#step-611755",
+        "step_anchor": "step-18",
+        "title": "Derivation of the AM2 Corrector",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-611738",
+        "filename": "01-step-611738.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-611739",
+        "filename": "02-step-611739.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-611740",
+        "filename": "03-step-611740.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-329474",
+        "filename": "04-question-329474.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-333066",
+        "filename": "05-question-333066.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-611743",
+        "filename": "06-step-611743.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-611744",
+        "filename": "07-step-611744.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-611745",
+        "filename": "08-step-611745.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-329336",
+        "filename": "09-question-329336.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-333090",
+        "filename": "10-question-333090.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-611748",
+        "filename": "11-step-611748.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-332813",
+        "filename": "12-question-332813.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-332816",
+        "filename": "13-question-332816.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-611751",
+        "filename": "14-step-611751.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-329310",
+        "filename": "15-question-329310.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-333679",
+        "filename": "16-question-333679.png"
+      },
+      {
+        "index": 17,
+        "item_type": "step",
+        "selector": "#step-611754",
+        "filename": "17-step-611754.png"
+      },
+      {
+        "index": 18,
+        "item_type": "step",
+        "selector": "#step-611755",
+        "filename": "18-step-611755.png"
+      }
+    ]
+  }
+}

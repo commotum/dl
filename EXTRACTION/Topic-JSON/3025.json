@@ -1,0 +1,357 @@
+{
+  "schema_version": 1,
+  "topic_id": "3025",
+  "topic_title": "Finding the Mode of a Continuous Random Variable",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3025.html",
+  "source_url": "https://mathacademy.com/topics/3025",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "30822",
+        "dom_id": "sectionLink-30822",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-30822"
+      },
+      {
+        "index": 2,
+        "step_id": "30823",
+        "dom_id": "sectionLink-30823",
+        "name": "",
+        "title": "Finding the Mode of a Continuous Random Variable Using a Graph: One Mode",
+        "selector": "#sectionLink-30823"
+      },
+      {
+        "index": 3,
+        "step_id": "30824",
+        "dom_id": "sectionLink-30824",
+        "name": "",
+        "title": "Finding the Mode of a Continuous Random Variable Using a Graph: Multiple Modes",
+        "selector": "#sectionLink-30824"
+      },
+      {
+        "index": 4,
+        "step_id": "32476",
+        "dom_id": "sectionLink-32476",
+        "name": "",
+        "title": "Finding the Mode of a Continuous Random Variable Algebraically",
+        "selector": "#sectionLink-32476"
+      },
+      {
+        "index": 5,
+        "step_id": "30826",
+        "dom_id": "sectionLink-30826",
+        "name": "",
+        "title": "Finding the Mode of a Continuous Random Variable Algebraically: One Mode",
+        "selector": "#sectionLink-30826"
+      },
+      {
+        "index": 6,
+        "step_id": "30825",
+        "dom_id": "sectionLink-30825",
+        "name": "",
+        "title": "Finding the Mode of a Continuous Random Variable Algebraically: Multiple Modes",
+        "selector": "#sectionLink-30825"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "364",
+        "name": "The Candidates Test",
+        "href": "/topics/the-candidates-test-364"
+      },
+      {
+        "topic_id": "4100",
+        "name": "Continuous Random Variables Over Infinite Domains",
+        "href": "/topics/continuous-random-variables-over-infinite-domains-4100"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "30822",
+        "content_id": "4943",
+        "dom_id": "step-30822",
+        "selector": "#step-30822",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30823",
+        "content_id": "8241",
+        "dom_id": "step-30823",
+        "selector": "#step-30823",
+        "step_anchor": "step-2",
+        "title": "Finding the Mode of a Continuous Random Variable Using a Graph: One Mode",
+        "key_prerequisites": [
+          {
+            "topic_id": "313",
+            "name": "Global vs. Local Extrema and Critical Points",
+            "href": "/topics/313"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "94955",
+        "dom_id": "question-94955",
+        "selector": "#question-94955",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "95160",
+        "dom_id": "question-95160",
+        "selector": "#question-95160",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30824",
+        "content_id": "8242",
+        "dom_id": "step-30824",
+        "selector": "#step-30824",
+        "step_anchor": "step-5",
+        "title": "Finding the Mode of a Continuous Random Variable Using a Graph: Multiple Modes",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "94956",
+        "dom_id": "question-94956",
+        "selector": "#question-94956",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "95187",
+        "dom_id": "question-95187",
+        "selector": "#question-95187",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "32476",
+        "content_id": "5172",
+        "dom_id": "step-32476",
+        "selector": "#step-32476",
+        "step_anchor": "step-8",
+        "title": "Finding the Mode of a Continuous Random Variable Algebraically",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30826",
+        "content_id": "8244",
+        "dom_id": "step-30826",
+        "selector": "#step-30826",
+        "step_anchor": "step-9",
+        "title": "Finding the Mode of a Continuous Random Variable Algebraically: One Mode",
+        "key_prerequisites": [
+          {
+            "topic_id": "364",
+            "name": "The Candidates Test",
+            "href": "/topics/364"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "94957",
+        "dom_id": "question-94957",
+        "selector": "#question-94957",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "95360",
+        "dom_id": "question-95360",
+        "selector": "#question-95360",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30825",
+        "content_id": "8243",
+        "dom_id": "step-30825",
+        "selector": "#step-30825",
+        "step_anchor": "step-12",
+        "title": "Finding the Mode of a Continuous Random Variable Algebraically: Multiple Modes",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "94958",
+        "dom_id": "question-94958",
+        "selector": "#question-94958",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "97049",
+        "dom_id": "question-97049",
+        "selector": "#question-97049",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-30822",
+        "filename": "01-step-30822.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-30823",
+        "filename": "02-step-30823.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-94955",
+        "filename": "03-question-94955.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-95160",
+        "filename": "04-question-95160.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-30824",
+        "filename": "05-step-30824.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-94956",
+        "filename": "06-question-94956.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-95187",
+        "filename": "07-question-95187.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-32476",
+        "filename": "08-step-32476.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-30826",
+        "filename": "09-step-30826.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-94957",
+        "filename": "10-question-94957.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-95360",
+        "filename": "11-question-95360.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-30825",
+        "filename": "12-step-30825.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-94958",
+        "filename": "13-question-94958.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-97049",
+        "filename": "14-question-97049.png"
+      }
+    ]
+  }
+}

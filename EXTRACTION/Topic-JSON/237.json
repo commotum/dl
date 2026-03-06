@@ -1,0 +1,294 @@
+{
+  "schema_version": 1,
+  "topic_id": "237",
+  "topic_title": "Continuously Compounded Interest",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/237.html",
+  "source_url": "https://mathacademy.com/topics/237",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "18991",
+        "dom_id": "sectionLink-18991",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-18991"
+      },
+      {
+        "index": 2,
+        "step_id": "19095",
+        "dom_id": "sectionLink-19095",
+        "name": "",
+        "title": "Calculating a Final Amount After Continuous Compounding Is Applied",
+        "selector": "#sectionLink-19095"
+      },
+      {
+        "index": 3,
+        "step_id": "18993",
+        "dom_id": "sectionLink-18993",
+        "name": "",
+        "title": "Calculating an Initial Amount",
+        "selector": "#sectionLink-18993"
+      },
+      {
+        "index": 4,
+        "step_id": "18994",
+        "dom_id": "sectionLink-18994",
+        "name": "",
+        "title": "Calculating a Rate or Time Duration",
+        "selector": "#sectionLink-18994"
+      },
+      {
+        "index": 5,
+        "step_id": "19150",
+        "dom_id": "sectionLink-19150",
+        "name": "",
+        "title": "The Relationship Between Continuous Compounding and the Compound Interest Equation",
+        "selector": "#sectionLink-19150"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "870",
+        "name": "Solving Equations Containing the Exponential Function",
+        "href": "/topics/solving-equations-containing-the-exponential-function-870"
+      },
+      {
+        "topic_id": "1481",
+        "name": "Modeling With Compound Interest",
+        "href": "/topics/modeling-with-compound-interest-1481"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "18991",
+        "content_id": "3396",
+        "dom_id": "step-18991",
+        "selector": "#step-18991",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "19095",
+        "content_id": "5185",
+        "dom_id": "step-19095",
+        "selector": "#step-19095",
+        "step_anchor": "step-2",
+        "title": "Calculating a Final Amount After Continuous Compounding Is Applied",
+        "key_prerequisites": [
+          {
+            "topic_id": "1481",
+            "name": "Modeling With Compound Interest",
+            "href": "/topics/1481"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "1442",
+        "dom_id": "question-1442",
+        "selector": "#question-1442",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "1445",
+        "dom_id": "question-1445",
+        "selector": "#question-1445",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "18993",
+        "content_id": "5166",
+        "dom_id": "step-18993",
+        "selector": "#step-18993",
+        "step_anchor": "step-5",
+        "title": "Calculating an Initial Amount",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "24145",
+        "dom_id": "question-24145",
+        "selector": "#question-24145",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "69937",
+        "dom_id": "question-69937",
+        "selector": "#question-69937",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "18994",
+        "content_id": "5167",
+        "dom_id": "step-18994",
+        "selector": "#step-18994",
+        "step_anchor": "step-8",
+        "title": "Calculating a Rate or Time Duration",
+        "key_prerequisites": [
+          {
+            "topic_id": "870",
+            "name": "Solving Equations Containing the Exponential Function",
+            "href": "/topics/870"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "1434",
+        "dom_id": "question-1434",
+        "selector": "#question-1434",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "1435",
+        "dom_id": "question-1435",
+        "selector": "#question-1435",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "19150",
+        "content_id": "3408",
+        "dom_id": "step-19150",
+        "selector": "#step-19150",
+        "step_anchor": "step-11",
+        "title": "The Relationship Between Continuous Compounding and the Compound Interest Equation",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-18991",
+        "filename": "01-step-18991.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-19095",
+        "filename": "02-step-19095.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-1442",
+        "filename": "03-question-1442.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-1445",
+        "filename": "04-question-1445.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-18993",
+        "filename": "05-step-18993.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-24145",
+        "filename": "06-question-24145.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-69937",
+        "filename": "07-question-69937.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-18994",
+        "filename": "08-step-18994.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-1434",
+        "filename": "09-question-1434.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-1435",
+        "filename": "10-question-1435.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-19150",
+        "filename": "11-step-19150.png"
+      }
+    ]
+  }
+}

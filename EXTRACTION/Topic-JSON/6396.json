@@ -1,0 +1,315 @@
+{
+  "schema_version": 1,
+  "topic_id": "6396",
+  "topic_title": "The Implicit Euler Method",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/6396.html",
+  "source_url": "https://mathacademy.com/topics/6396",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "601605",
+        "dom_id": "sectionLink-601605",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-601605"
+      },
+      {
+        "index": 2,
+        "step_id": "601606",
+        "dom_id": "sectionLink-601606",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-601606"
+      },
+      {
+        "index": 3,
+        "step_id": "601607",
+        "dom_id": "sectionLink-601607",
+        "name": "",
+        "title": "Determining a General Update Formula for the Implicit Euler Method",
+        "selector": "#sectionLink-601607"
+      },
+      {
+        "index": 4,
+        "step_id": "601610",
+        "dom_id": "sectionLink-601610",
+        "name": "",
+        "title": "Computing One Step Using the Implicit Euler Method",
+        "selector": "#sectionLink-601610"
+      },
+      {
+        "index": 5,
+        "step_id": "608073",
+        "dom_id": "sectionLink-608073",
+        "name": "",
+        "title": "Multiple Iterations of the Implicit Euler Method",
+        "selector": "#sectionLink-608073"
+      },
+      {
+        "index": 6,
+        "step_id": "601613",
+        "dom_id": "sectionLink-601613",
+        "name": "",
+        "title": "Computing Two Steps Using the Implicit Euler Method",
+        "selector": "#sectionLink-601613"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3668",
+        "name": "Euler's Method: Calculating Multiple Steps",
+        "href": "/topics/eulers-method-calculating-multiple-steps-3668"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "601605",
+        "content_id": "14289",
+        "dom_id": "step-601605",
+        "selector": "#step-601605",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "601606",
+        "content_id": "14290",
+        "dom_id": "step-601606",
+        "selector": "#step-601606",
+        "step_anchor": "step-2",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "601607",
+        "content_id": "21312",
+        "dom_id": "step-601607",
+        "selector": "#step-601607",
+        "step_anchor": "step-3",
+        "title": "Determining a General Update Formula for the Implicit Euler Method",
+        "key_prerequisites": [
+          {
+            "topic_id": "354",
+            "name": "Solving Many-Variable Equations",
+            "href": "/topics/354"
+          },
+          {
+            "topic_id": "3668",
+            "name": "Euler's Method: Calculating Multiple Steps",
+            "href": "/topics/3668"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "325169",
+        "dom_id": "question-325169",
+        "selector": "#question-325169",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "333409",
+        "dom_id": "question-333409",
+        "selector": "#question-333409",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "601610",
+        "content_id": "21318",
+        "dom_id": "step-601610",
+        "selector": "#step-601610",
+        "step_anchor": "step-6",
+        "title": "Computing One Step Using the Implicit Euler Method",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "339688",
+        "dom_id": "question-339688",
+        "selector": "#question-339688",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "339635",
+        "dom_id": "question-339635",
+        "selector": "#question-339635",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "608073",
+        "content_id": "14897",
+        "dom_id": "step-608073",
+        "selector": "#step-608073",
+        "step_anchor": "step-9",
+        "title": "Multiple Iterations of the Implicit Euler Method",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "601613",
+        "content_id": "21661",
+        "dom_id": "step-601613",
+        "selector": "#step-601613",
+        "step_anchor": "step-10",
+        "title": "Computing Two Steps Using the Implicit Euler Method",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "339642",
+        "dom_id": "question-339642",
+        "selector": "#question-339642",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "339722",
+        "dom_id": "question-339722",
+        "selector": "#question-339722",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-601605",
+        "filename": "01-step-601605.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-601606",
+        "filename": "02-step-601606.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-601607",
+        "filename": "03-step-601607.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-325169",
+        "filename": "04-question-325169.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-333409",
+        "filename": "05-question-333409.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-601610",
+        "filename": "06-step-601610.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-339688",
+        "filename": "07-question-339688.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-339635",
+        "filename": "08-question-339635.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-608073",
+        "filename": "09-step-608073.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-601613",
+        "filename": "10-step-601613.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-339642",
+        "filename": "11-question-339642.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-339722",
+        "filename": "12-question-339722.png"
+      }
+    ]
+  }
+}

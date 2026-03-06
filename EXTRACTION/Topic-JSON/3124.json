@@ -1,0 +1,321 @@
+{
+  "schema_version": 1,
+  "topic_id": "3124",
+  "topic_title": "Finding the Canonical Form of a Quadratic Form Using Lagrange's Method",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3124.html",
+  "source_url": "https://mathacademy.com/topics/3124",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "30539",
+        "dom_id": "sectionLink-30539",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-30539"
+      },
+      {
+        "index": 2,
+        "step_id": "30629",
+        "dom_id": "sectionLink-30629",
+        "name": "",
+        "title": "Identifying the Canonical Form of a Quadratic Form",
+        "selector": "#sectionLink-30629"
+      },
+      {
+        "index": 3,
+        "step_id": "30630",
+        "dom_id": "sectionLink-30630",
+        "name": "",
+        "title": "Lagrange's Method",
+        "selector": "#sectionLink-30630"
+      },
+      {
+        "index": 4,
+        "step_id": "30631",
+        "dom_id": "sectionLink-30631",
+        "name": "",
+        "title": "Reducing a Quadratic Form to Canonical Form Using Lagrange's Method: 2D-Case",
+        "selector": "#sectionLink-30631"
+      },
+      {
+        "index": 5,
+        "step_id": "30632",
+        "dom_id": "sectionLink-30632",
+        "name": "",
+        "title": "Reducing a Quadratic Form to Canonical Form Using Lagrange's Method: 3D-Case",
+        "selector": "#sectionLink-30632"
+      },
+      {
+        "index": 6,
+        "step_id": "31993",
+        "dom_id": "sectionLink-31993",
+        "name": "",
+        "title": "Non-Uniqueness of a Canonical Form",
+        "selector": "#sectionLink-31993"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3122",
+        "name": "Change of Variables in Quadratic Forms",
+        "href": "/topics/change-of-variables-in-quadratic-forms-3122"
+      },
+      {
+        "topic_id": "3824",
+        "name": "Completing the Square With Leading Coefficients",
+        "href": "/topics/completing-the-square-with-leading-coefficients-3824"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "30539",
+        "content_id": "4886",
+        "dom_id": "step-30539",
+        "selector": "#step-30539",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30629",
+        "content_id": "8184",
+        "dom_id": "step-30629",
+        "selector": "#step-30629",
+        "step_anchor": "step-2",
+        "title": "Identifying the Canonical Form of a Quadratic Form",
+        "key_prerequisites": [
+          {
+            "topic_id": "3123",
+            "name": "Quadratic Forms",
+            "href": "/topics/3123"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "93837",
+        "dom_id": "question-93837",
+        "selector": "#question-93837",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "94124",
+        "dom_id": "question-94124",
+        "selector": "#question-94124",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "30630",
+        "content_id": "4908",
+        "dom_id": "step-30630",
+        "selector": "#step-30630",
+        "step_anchor": "step-5",
+        "title": "Lagrange's Method",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30631",
+        "content_id": "8185",
+        "dom_id": "step-30631",
+        "selector": "#step-30631",
+        "step_anchor": "step-6",
+        "title": "Reducing a Quadratic Form to Canonical Form Using Lagrange's Method: 2D-Case",
+        "key_prerequisites": [
+          {
+            "topic_id": "3824",
+            "name": "Completing the Square With Leading Coefficients",
+            "href": "/topics/3824"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "93838",
+        "dom_id": "question-93838",
+        "selector": "#question-93838",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "94142",
+        "dom_id": "question-94142",
+        "selector": "#question-94142",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "30632",
+        "content_id": "8186",
+        "dom_id": "step-30632",
+        "selector": "#step-30632",
+        "step_anchor": "step-9",
+        "title": "Reducing a Quadratic Form to Canonical Form Using Lagrange's Method: 3D-Case",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "93845",
+        "dom_id": "question-93845",
+        "selector": "#question-93845",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "93852",
+        "dom_id": "question-93852",
+        "selector": "#question-93852",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "31993",
+        "content_id": "5097",
+        "dom_id": "step-31993",
+        "selector": "#step-31993",
+        "step_anchor": "step-12",
+        "title": "Non-Uniqueness of a Canonical Form",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-30539",
+        "filename": "01-step-30539.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-30629",
+        "filename": "02-step-30629.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-93837",
+        "filename": "03-question-93837.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-94124",
+        "filename": "04-question-94124.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-30630",
+        "filename": "05-step-30630.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-30631",
+        "filename": "06-step-30631.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-93838",
+        "filename": "07-question-93838.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-94142",
+        "filename": "08-question-94142.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-30632",
+        "filename": "09-step-30632.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-93845",
+        "filename": "10-question-93845.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-93852",
+        "filename": "11-question-93852.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-31993",
+        "filename": "12-step-31993.png"
+      }
+    ]
+  }
+}

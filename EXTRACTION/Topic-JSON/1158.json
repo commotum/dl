@@ -1,0 +1,386 @@
+{
+  "schema_version": 1,
+  "topic_id": "1158",
+  "topic_title": "Approximating Values Using the Binomial Theorem",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1158.html",
+  "source_url": "https://mathacademy.com/topics/1158",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "467302",
+        "dom_id": "sectionLink-467302",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-467302"
+      },
+      {
+        "index": 2,
+        "step_id": "467303",
+        "dom_id": "sectionLink-467303",
+        "name": "",
+        "title": "Approximating Powers of Numbers Close to Unity",
+        "selector": "#sectionLink-467303"
+      },
+      {
+        "index": 3,
+        "step_id": "467306",
+        "dom_id": "sectionLink-467306",
+        "name": "",
+        "title": "Approximating Powers of Numbers Close to Unity: Case With Alternating Signs",
+        "selector": "#sectionLink-467306"
+      },
+      {
+        "index": 4,
+        "step_id": "467309",
+        "dom_id": "sectionLink-467309",
+        "name": "",
+        "title": "Approximating Powers of Numbers Using the Binomial Theorem",
+        "selector": "#sectionLink-467309"
+      },
+      {
+        "index": 5,
+        "step_id": "467310",
+        "dom_id": "sectionLink-467310",
+        "name": "",
+        "title": "Approximating Powers of Numbers Using the Binomial Theorem",
+        "selector": "#sectionLink-467310"
+      },
+      {
+        "index": 6,
+        "step_id": "467313",
+        "dom_id": "sectionLink-467313",
+        "name": "",
+        "title": "Calculating the Percentage Error of an Approximation",
+        "selector": "#sectionLink-467313"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3764",
+        "name": "The Special Case of the Binomial Theorem",
+        "href": "/topics/the-special-case-of-the-binomial-theorem-3764"
+      },
+      {
+        "topic_id": "6666",
+        "name": "Calculating Percentage Change",
+        "href": "/topics/calculating-percentage-change-6666"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "467302",
+        "content_id": "8145",
+        "dom_id": "step-467302",
+        "selector": "#step-467302",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "467303",
+        "content_id": "13020",
+        "dom_id": "step-467303",
+        "selector": "#step-467303",
+        "step_anchor": "step-2",
+        "title": "Approximating Powers of Numbers Close to Unity",
+        "key_prerequisites": [
+          {
+            "topic_id": "3764",
+            "name": "The Special Case of the Binomial Theorem",
+            "href": "/topics/3764"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "134608",
+        "dom_id": "question-134608",
+        "selector": "#question-134608",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "234173",
+        "dom_id": "question-234173",
+        "selector": "#question-234173",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "467306",
+        "content_id": "13021",
+        "dom_id": "step-467306",
+        "selector": "#step-467306",
+        "step_anchor": "step-5",
+        "title": "Approximating Powers of Numbers Close to Unity: Case With Alternating Signs",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "234174",
+        "dom_id": "question-234174",
+        "selector": "#question-234174",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "134613",
+        "dom_id": "question-134613",
+        "selector": "#question-134613",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "467309",
+        "content_id": "8146",
+        "dom_id": "step-467309",
+        "selector": "#step-467309",
+        "step_anchor": "step-8",
+        "title": "Approximating Powers of Numbers Using the Binomial Theorem",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "467310",
+        "content_id": "13022",
+        "dom_id": "step-467310",
+        "selector": "#step-467310",
+        "step_anchor": "step-9",
+        "title": "Approximating Powers of Numbers Using the Binomial Theorem",
+        "key_prerequisites": [
+          {
+            "topic_id": "1156",
+            "name": "Expanding a Binomial Using Binomial Coefficients",
+            "href": "/topics/1156"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "134630",
+        "dom_id": "question-134630",
+        "selector": "#question-134630",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "235253",
+        "dom_id": "question-235253",
+        "selector": "#question-235253",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "467313",
+        "content_id": "13023",
+        "dom_id": "step-467313",
+        "selector": "#step-467313",
+        "step_anchor": "step-12",
+        "title": "Calculating the Percentage Error of an Approximation",
+        "key_prerequisites": [
+          {
+            "topic_id": "2281",
+            "name": "Absolute Value",
+            "href": "/topics/2281"
+          },
+          {
+            "topic_id": "6666",
+            "name": "Calculating Percentage Change",
+            "href": "/topics/6666"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "266369",
+        "dom_id": "question-266369",
+        "selector": "#question-266369",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "18703",
+        "dom_id": "question-18703",
+        "selector": "#question-18703",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "266378",
+        "dom_id": "question-266378",
+        "selector": "#question-266378",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-467302",
+        "filename": "01-step-467302.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-467303",
+        "filename": "02-step-467303.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-134608",
+        "filename": "03-question-134608.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-234173",
+        "filename": "04-question-234173.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-467306",
+        "filename": "05-step-467306.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-234174",
+        "filename": "06-question-234174.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-134613",
+        "filename": "07-question-134613.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-467309",
+        "filename": "08-step-467309.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-467310",
+        "filename": "09-step-467310.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-134630",
+        "filename": "10-question-134630.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-235253",
+        "filename": "11-question-235253.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-467313",
+        "filename": "12-step-467313.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-266369",
+        "filename": "13-question-266369.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-18703",
+        "filename": "14-question-18703.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-266378",
+        "filename": "15-question-266378.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,410 @@
+{
+  "schema_version": 1,
+  "topic_id": "6690",
+  "topic_title": "Solving Homogeneous Systems of ODEs Using Matrix Methods",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/6690.html",
+  "source_url": "https://mathacademy.com/topics/6690",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "592270",
+        "dom_id": "sectionLink-592270",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-592270"
+      },
+      {
+        "index": 2,
+        "step_id": "592271",
+        "dom_id": "sectionLink-592271",
+        "name": "",
+        "title": "Finding the General Solution of a Homogeneous System Using a Given Matrix Exponential",
+        "selector": "#sectionLink-592271"
+      },
+      {
+        "index": 3,
+        "step_id": "592274",
+        "dom_id": "sectionLink-592274",
+        "name": "",
+        "title": "Solving Initial Value Problems",
+        "selector": "#sectionLink-592274"
+      },
+      {
+        "index": 4,
+        "step_id": "592275",
+        "dom_id": "sectionLink-592275",
+        "name": "",
+        "title": "Solving a Homogeneous Initial Value Problem Using a Given Matrix Exponential",
+        "selector": "#sectionLink-592275"
+      },
+      {
+        "index": 5,
+        "step_id": "592278",
+        "dom_id": "sectionLink-592278",
+        "name": "",
+        "title": "Solving Initial Value Problems With Shifted Conditions",
+        "selector": "#sectionLink-592278"
+      },
+      {
+        "index": 6,
+        "step_id": "592279",
+        "dom_id": "sectionLink-592279",
+        "name": "",
+        "title": "Solving a Homogeneous Initial Value Problem Using a Given Matrix Exponential: Shifted Initial Conditions",
+        "selector": "#sectionLink-592279"
+      },
+      {
+        "index": 7,
+        "step_id": "592282",
+        "dom_id": "sectionLink-592282",
+        "name": "",
+        "title": "Reminder: Properties of Matrix Exponentials",
+        "selector": "#sectionLink-592282"
+      },
+      {
+        "index": 8,
+        "step_id": "592283",
+        "dom_id": "sectionLink-592283",
+        "name": "",
+        "title": "Proving the Matrix Exponential Formula for IVP Solution: Homogeneous Systems",
+        "selector": "#sectionLink-592283"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "967",
+        "name": "The Hyperbolic Functions",
+        "href": "/topics/the-hyperbolic-functions-967"
+      },
+      {
+        "topic_id": "6376",
+        "name": "Fundamental Matrices",
+        "href": "/topics/fundamental-matrices-6376"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 16,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "592270",
+        "content_id": "14515",
+        "dom_id": "step-592270",
+        "selector": "#step-592270",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "592271",
+        "content_id": "21707",
+        "dom_id": "step-592271",
+        "selector": "#step-592271",
+        "step_anchor": "step-2",
+        "title": "Finding the General Solution of a Homogeneous System Using a Given Matrix Exponential",
+        "key_prerequisites": [
+          {
+            "topic_id": "967",
+            "name": "The Hyperbolic Functions",
+            "href": "/topics/967"
+          },
+          {
+            "topic_id": "6376",
+            "name": "Fundamental Matrices",
+            "href": "/topics/6376"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "334772",
+        "dom_id": "question-334772",
+        "selector": "#question-334772",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "335023",
+        "dom_id": "question-335023",
+        "selector": "#question-335023",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "592274",
+        "content_id": "14529",
+        "dom_id": "step-592274",
+        "selector": "#step-592274",
+        "step_anchor": "step-5",
+        "title": "Solving Initial Value Problems",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "592275",
+        "content_id": "21725",
+        "dom_id": "step-592275",
+        "selector": "#step-592275",
+        "step_anchor": "step-6",
+        "title": "Solving a Homogeneous Initial Value Problem Using a Given Matrix Exponential",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "335267",
+        "dom_id": "question-335267",
+        "selector": "#question-335267",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "333981",
+        "dom_id": "question-333981",
+        "selector": "#question-333981",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "592278",
+        "content_id": "14530",
+        "dom_id": "step-592278",
+        "selector": "#step-592278",
+        "step_anchor": "step-9",
+        "title": "Solving Initial Value Problems With Shifted Conditions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "592279",
+        "content_id": "21723",
+        "dom_id": "step-592279",
+        "selector": "#step-592279",
+        "step_anchor": "step-10",
+        "title": "Solving a Homogeneous Initial Value Problem Using a Given Matrix Exponential: Shifted Initial Conditions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "334547",
+        "dom_id": "question-334547",
+        "selector": "#question-334547",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "335447",
+        "dom_id": "question-335447",
+        "selector": "#question-335447",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "592282",
+        "content_id": "14528",
+        "dom_id": "step-592282",
+        "selector": "#step-592282",
+        "step_anchor": "step-13",
+        "title": "Reminder: Properties of Matrix Exponentials",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "592283",
+        "content_id": "21711",
+        "dom_id": "step-592283",
+        "selector": "#step-592283",
+        "step_anchor": "step-14",
+        "title": "Proving the Matrix Exponential Formula for IVP Solution: Homogeneous Systems",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "333992",
+        "dom_id": "question-333992",
+        "selector": "#question-333992",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "336639",
+        "dom_id": "question-336639",
+        "selector": "#question-336639",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-592270",
+        "filename": "01-step-592270.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-592271",
+        "filename": "02-step-592271.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-334772",
+        "filename": "03-question-334772.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-335023",
+        "filename": "04-question-335023.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-592274",
+        "filename": "05-step-592274.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-592275",
+        "filename": "06-step-592275.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-335267",
+        "filename": "07-question-335267.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-333981",
+        "filename": "08-question-333981.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-592278",
+        "filename": "09-step-592278.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-592279",
+        "filename": "10-step-592279.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-334547",
+        "filename": "11-question-334547.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-335447",
+        "filename": "12-question-335447.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-592282",
+        "filename": "13-step-592282.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-592283",
+        "filename": "14-step-592283.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-333992",
+        "filename": "15-question-333992.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-336639",
+        "filename": "16-question-336639.png"
+      }
+    ]
+  }
+}

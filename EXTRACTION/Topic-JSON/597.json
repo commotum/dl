@@ -1,0 +1,357 @@
+{
+  "schema_version": 1,
+  "topic_id": "597",
+  "topic_title": "Calculating Arc Lengths of Circular Sectors",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/597.html",
+  "source_url": "https://mathacademy.com/topics/597",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "10889",
+        "dom_id": "sectionLink-10889",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-10889"
+      },
+      {
+        "index": 2,
+        "step_id": "27116",
+        "dom_id": "sectionLink-27116",
+        "name": "",
+        "title": "Calculating the Arc Length of a Circular Sector Given Its Radius",
+        "selector": "#sectionLink-27116"
+      },
+      {
+        "index": 3,
+        "step_id": "10891",
+        "dom_id": "sectionLink-10891",
+        "name": "",
+        "title": "Calculating the Radius of a Circular Sector Given Its Arc Length",
+        "selector": "#sectionLink-10891"
+      },
+      {
+        "index": 4,
+        "step_id": "10893",
+        "dom_id": "sectionLink-10893",
+        "name": "",
+        "title": "Solving for an Unknown Given the Radius of a Circle",
+        "selector": "#sectionLink-10893"
+      },
+      {
+        "index": 5,
+        "step_id": "10898",
+        "dom_id": "sectionLink-10898",
+        "name": "",
+        "title": "Solving for an Unknown Given the Perimeter of a Sector",
+        "selector": "#sectionLink-10898"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "323",
+        "name": "Fractions of Fractions",
+        "href": "/topics/fractions-of-fractions-323"
+      },
+      {
+        "topic_id": "460",
+        "name": "The Circumference of a Circle",
+        "href": "/topics/the-circumference-of-a-circle-460"
+      },
+      {
+        "topic_id": "550",
+        "name": "Central Angles and Arcs",
+        "href": "/topics/central-angles-and-arcs-550"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "10889",
+        "content_id": "2426",
+        "dom_id": "step-10889",
+        "selector": "#step-10889",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "27116",
+        "content_id": "7326",
+        "dom_id": "step-27116",
+        "selector": "#step-27116",
+        "step_anchor": "step-2",
+        "title": "Calculating the Arc Length of a Circular Sector Given Its Radius",
+        "key_prerequisites": [
+          {
+            "topic_id": "460",
+            "name": "The Circumference of a Circle",
+            "href": "/topics/460"
+          },
+          {
+            "topic_id": "550",
+            "name": "Central Angles and Arcs",
+            "href": "/topics/550"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "4448",
+        "dom_id": "question-4448",
+        "selector": "#question-4448",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "53727",
+        "dom_id": "question-53727",
+        "selector": "#question-53727",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "10891",
+        "content_id": "3189",
+        "dom_id": "step-10891",
+        "selector": "#step-10891",
+        "step_anchor": "step-5",
+        "title": "Calculating the Radius of a Circular Sector Given Its Arc Length",
+        "key_prerequisites": [
+          {
+            "topic_id": "40",
+            "name": "Solving One-Step Multiplication and Division Equations",
+            "href": "/topics/40"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "53728",
+        "dom_id": "question-53728",
+        "selector": "#question-53728",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "53730",
+        "dom_id": "question-53730",
+        "selector": "#question-53730",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "10893",
+        "content_id": "3191",
+        "dom_id": "step-10893",
+        "selector": "#step-10893",
+        "step_anchor": "step-8",
+        "title": "Solving for an Unknown Given the Radius of a Circle",
+        "key_prerequisites": [
+          {
+            "topic_id": "323",
+            "name": "Fractions of Fractions",
+            "href": "/topics/323"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "53729",
+        "dom_id": "question-53729",
+        "selector": "#question-53729",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "53732",
+        "dom_id": "question-53732",
+        "selector": "#question-53732",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "10898",
+        "content_id": "3195",
+        "dom_id": "step-10898",
+        "selector": "#step-10898",
+        "step_anchor": "step-11",
+        "title": "Solving for an Unknown Given the Perimeter of a Sector",
+        "key_prerequisites": [
+          {
+            "topic_id": "66",
+            "name": "Solving Two-Step Equations",
+            "href": "/topics/66"
+          },
+          {
+            "topic_id": "87",
+            "name": "Factoring Linear Expressions",
+            "href": "/topics/87"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "53757",
+        "dom_id": "question-53757",
+        "selector": "#question-53757",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "53779",
+        "dom_id": "question-53779",
+        "selector": "#question-53779",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-10889",
+        "filename": "01-step-10889.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-27116",
+        "filename": "02-step-27116.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-4448",
+        "filename": "03-question-4448.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-53727",
+        "filename": "04-question-53727.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-10891",
+        "filename": "05-step-10891.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-53728",
+        "filename": "06-question-53728.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-53730",
+        "filename": "07-question-53730.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-10893",
+        "filename": "08-step-10893.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-53729",
+        "filename": "09-question-53729.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-53732",
+        "filename": "10-question-53732.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-10898",
+        "filename": "11-step-10898.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-53757",
+        "filename": "12-question-53757.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-53779",
+        "filename": "13-question-53779.png"
+      }
+    ]
+  }
+}

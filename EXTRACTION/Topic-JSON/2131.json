@@ -1,0 +1,353 @@
+{
+  "schema_version": 1,
+  "topic_id": "2131",
+  "topic_title": "The Divergence of a Vector Field",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2131.html",
+  "source_url": "https://mathacademy.com/topics/2131",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "32111",
+        "dom_id": "sectionLink-32111",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-32111"
+      },
+      {
+        "index": 2,
+        "step_id": "35537",
+        "dom_id": "sectionLink-35537",
+        "name": "",
+        "title": "Some Important Notes About the Divergence of a Vector Field",
+        "selector": "#sectionLink-35537"
+      },
+      {
+        "index": 3,
+        "step_id": "32553",
+        "dom_id": "sectionLink-32553",
+        "name": "",
+        "title": "Finding the Divergence of a Vector Field in Two Dimensions",
+        "selector": "#sectionLink-32553"
+      },
+      {
+        "index": 4,
+        "step_id": "35525",
+        "dom_id": "sectionLink-35525",
+        "name": "",
+        "title": "Finding the Divergence of a Vector Field in Three Dimensions",
+        "selector": "#sectionLink-35525"
+      },
+      {
+        "index": 5,
+        "step_id": "34359",
+        "dom_id": "sectionLink-34359",
+        "name": "",
+        "title": "Physical Interpretation of Divergence",
+        "selector": "#sectionLink-34359"
+      },
+      {
+        "index": 6,
+        "step_id": "35536",
+        "dom_id": "sectionLink-35536",
+        "name": "",
+        "title": "Examples of Vector Field With Divergence and Solenoidal Vector Fields",
+        "selector": "#sectionLink-35536"
+      },
+      {
+        "index": 7,
+        "step_id": "33322",
+        "dom_id": "sectionLink-33322",
+        "name": "",
+        "title": "Interpreting Divergence",
+        "selector": "#sectionLink-33322"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1932",
+        "name": "Partial Differentiability of Multivariable Functions",
+        "href": "/topics/partial-differentiability-of-multivariable-functions-1932"
+      },
+      {
+        "topic_id": "3344",
+        "name": "Visualizing Vector Fields",
+        "href": "/topics/visualizing-vector-fields-3344"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "32111",
+        "content_id": "5116",
+        "dom_id": "step-32111",
+        "selector": "#step-32111",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "35537",
+        "content_id": "5794",
+        "dom_id": "step-35537",
+        "selector": "#step-35537",
+        "step_anchor": "step-2",
+        "title": "Some Important Notes About the Divergence of a Vector Field",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "32553",
+        "content_id": "8740",
+        "dom_id": "step-32553",
+        "selector": "#step-32553",
+        "step_anchor": "step-3",
+        "title": "Finding the Divergence of a Vector Field in Two Dimensions",
+        "key_prerequisites": [
+          {
+            "topic_id": "177",
+            "name": "Calculating the Dot Product Using Components",
+            "href": "/topics/177"
+          },
+          {
+            "topic_id": "1929",
+            "name": "Introduction to Partial Derivatives",
+            "href": "/topics/1929"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "41817",
+        "dom_id": "question-41817",
+        "selector": "#question-41817",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "105561",
+        "dom_id": "question-105561",
+        "selector": "#question-105561",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "35525",
+        "content_id": "9489",
+        "dom_id": "step-35525",
+        "selector": "#step-35525",
+        "step_anchor": "step-6",
+        "title": "Finding the Divergence of a Vector Field in Three Dimensions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "105555",
+        "dom_id": "question-105555",
+        "selector": "#question-105555",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "41839",
+        "dom_id": "question-41839",
+        "selector": "#question-41839",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "34359",
+        "content_id": "5518",
+        "dom_id": "step-34359",
+        "selector": "#step-34359",
+        "step_anchor": "step-9",
+        "title": "Physical Interpretation of Divergence",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "35536",
+        "content_id": "5793",
+        "dom_id": "step-35536",
+        "selector": "#step-35536",
+        "step_anchor": "step-10",
+        "title": "Examples of Vector Field With Divergence and Solenoidal Vector Fields",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33322",
+        "content_id": "8927",
+        "dom_id": "step-33322",
+        "selector": "#step-33322",
+        "step_anchor": "step-11",
+        "title": "Interpreting Divergence",
+        "key_prerequisites": [
+          {
+            "topic_id": "3344",
+            "name": "Visualizing Vector Fields",
+            "href": "/topics/3344"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "105571",
+        "dom_id": "question-105571",
+        "selector": "#question-105571",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "105075",
+        "dom_id": "question-105075",
+        "selector": "#question-105075",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-32111",
+        "filename": "01-step-32111.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-35537",
+        "filename": "02-step-35537.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-32553",
+        "filename": "03-step-32553.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-41817",
+        "filename": "04-question-41817.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-105561",
+        "filename": "05-question-105561.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-35525",
+        "filename": "06-step-35525.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-105555",
+        "filename": "07-question-105555.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-41839",
+        "filename": "08-question-41839.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-34359",
+        "filename": "09-step-34359.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-35536",
+        "filename": "10-step-35536.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-33322",
+        "filename": "11-step-33322.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-105571",
+        "filename": "12-question-105571.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-105075",
+        "filename": "13-question-105075.png"
+      }
+    ]
+  }
+}

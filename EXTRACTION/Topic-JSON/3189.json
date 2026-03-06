@@ -1,0 +1,426 @@
+{
+  "schema_version": 1,
+  "topic_id": "3189",
+  "topic_title": "Solving Inhomogeneous Systems of ODEs",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3189.html",
+  "source_url": "https://mathacademy.com/topics/3189",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "587221",
+        "dom_id": "sectionLink-587221",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-587221"
+      },
+      {
+        "index": 2,
+        "step_id": "587222",
+        "dom_id": "sectionLink-587222",
+        "name": "",
+        "title": "Writing Down an Inhomogeneous System of Linear ODEs in Matrix Form",
+        "selector": "#sectionLink-587222"
+      },
+      {
+        "index": 3,
+        "step_id": "587234",
+        "dom_id": "sectionLink-587234",
+        "name": "",
+        "title": "Complementary vs. Particular Solutions",
+        "selector": "#sectionLink-587234"
+      },
+      {
+        "index": 4,
+        "step_id": "587235",
+        "dom_id": "sectionLink-587235",
+        "name": "",
+        "title": "Choosing the Form of a Particular Solution",
+        "selector": "#sectionLink-587235"
+      },
+      {
+        "index": 5,
+        "step_id": "587225",
+        "dom_id": "sectionLink-587225",
+        "name": "",
+        "title": "Identifying the Form of a Particular Solution for Inhomogeneous System of Linear ODEs",
+        "selector": "#sectionLink-587225"
+      },
+      {
+        "index": 6,
+        "step_id": "587228",
+        "dom_id": "sectionLink-587228",
+        "name": "",
+        "title": "Finding the Particular Solution of an Inhomogeneous System of Linear ODEs",
+        "selector": "#sectionLink-587228"
+      },
+      {
+        "index": 7,
+        "step_id": "587231",
+        "dom_id": "sectionLink-587231",
+        "name": "",
+        "title": "Solving an Initial Value Problem for an Inhomogeneous System of Linear ODEs",
+        "selector": "#sectionLink-587231"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2818",
+        "name": "Solving Homogeneous Systems of ODEs With Repeated Eigenvalues",
+        "href": "/topics/solving-homogeneous-systems-of-odes-with-repeated-eigenvalues-2818"
+      },
+      {
+        "topic_id": "2819",
+        "name": "Solving Homogeneous Systems of ODEs With Complex Eigenvalues",
+        "href": "/topics/solving-homogeneous-systems-of-odes-with-complex-eigenvalues-2819"
+      },
+      {
+        "topic_id": "6679",
+        "name": "Solving First-Order Linear ODEs With Exponential Forcing",
+        "href": "/topics/solving-first-order-linear-odes-with-exponential-forcing-6679"
+      },
+      {
+        "topic_id": "6680",
+        "name": "Solving First-Order Linear ODEs With Sinusoidal Forcing",
+        "href": "/topics/solving-first-order-linear-odes-with-sinusoidal-forcing-6680"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "587221",
+        "content_id": "14390",
+        "dom_id": "step-587221",
+        "selector": "#step-587221",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "587222",
+        "content_id": "21544",
+        "dom_id": "step-587222",
+        "selector": "#step-587222",
+        "step_anchor": "step-2",
+        "title": "Writing Down an Inhomogeneous System of Linear ODEs in Matrix Form",
+        "key_prerequisites": [
+          {
+            "topic_id": "2086",
+            "name": "Introduction to Systems of Linear ODEs",
+            "href": "/topics/2086"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "329266",
+        "dom_id": "question-329266",
+        "selector": "#question-329266",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "329268",
+        "dom_id": "question-329268",
+        "selector": "#question-329268",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "587234",
+        "content_id": "14560",
+        "dom_id": "step-587234",
+        "selector": "#step-587234",
+        "step_anchor": "step-5",
+        "title": "Complementary vs. Particular Solutions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "587235",
+        "content_id": "14561",
+        "dom_id": "step-587235",
+        "selector": "#step-587235",
+        "step_anchor": "step-6",
+        "title": "Choosing the Form of a Particular Solution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "587225",
+        "content_id": "21543",
+        "dom_id": "step-587225",
+        "selector": "#step-587225",
+        "step_anchor": "step-7",
+        "title": "Identifying the Form of a Particular Solution for Inhomogeneous System of Linear ODEs",
+        "key_prerequisites": [
+          {
+            "topic_id": "6678",
+            "name": "General Solutions of First-Order Linear ODEs",
+            "href": "/topics/6678"
+          },
+          {
+            "topic_id": "6679",
+            "name": "Solving First-Order Linear ODEs With Exponential Forcing",
+            "href": "/topics/6679"
+          },
+          {
+            "topic_id": "6680",
+            "name": "Solving First-Order Linear ODEs With Sinusoidal Forcing",
+            "href": "/topics/6680"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "332745",
+        "dom_id": "question-332745",
+        "selector": "#question-332745",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "329262",
+        "dom_id": "question-329262",
+        "selector": "#question-329262",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "587228",
+        "content_id": "21540",
+        "dom_id": "step-587228",
+        "selector": "#step-587228",
+        "step_anchor": "step-10",
+        "title": "Finding the Particular Solution of an Inhomogeneous System of Linear ODEs",
+        "key_prerequisites": [
+          {
+            "topic_id": "2087",
+            "name": "Solving Homogeneous Systems of ODEs With Distinct Eigenvalues",
+            "href": "/topics/2087"
+          },
+          {
+            "topic_id": "2818",
+            "name": "Solving Homogeneous Systems of ODEs With Repeated Eigenvalues",
+            "href": "/topics/2818"
+          },
+          {
+            "topic_id": "2819",
+            "name": "Solving Homogeneous Systems of ODEs With Complex Eigenvalues",
+            "href": "/topics/2819"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "329230",
+        "dom_id": "question-329230",
+        "selector": "#question-329230",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "329074",
+        "dom_id": "question-329074",
+        "selector": "#question-329074",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "587231",
+        "content_id": "21541",
+        "dom_id": "step-587231",
+        "selector": "#step-587231",
+        "step_anchor": "step-13",
+        "title": "Solving an Initial Value Problem for an Inhomogeneous System of Linear ODEs",
+        "key_prerequisites": [
+          {
+            "topic_id": "2088",
+            "name": "Solving Homogeneous Systems of ODEs With Distinct Eigenvalues and Initial Conditions",
+            "href": "/topics/2088"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "329265",
+        "dom_id": "question-329265",
+        "selector": "#question-329265",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "333606",
+        "dom_id": "question-333606",
+        "selector": "#question-333606",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-587221",
+        "filename": "01-step-587221.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-587222",
+        "filename": "02-step-587222.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-329266",
+        "filename": "03-question-329266.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-329268",
+        "filename": "04-question-329268.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-587234",
+        "filename": "05-step-587234.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-587235",
+        "filename": "06-step-587235.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-587225",
+        "filename": "07-step-587225.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-332745",
+        "filename": "08-question-332745.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-329262",
+        "filename": "09-question-329262.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-587228",
+        "filename": "10-step-587228.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-329230",
+        "filename": "11-question-329230.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-329074",
+        "filename": "12-question-329074.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-587231",
+        "filename": "13-step-587231.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-329265",
+        "filename": "14-question-329265.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-333606",
+        "filename": "15-question-333606.png"
+      }
+    ]
+  }
+}

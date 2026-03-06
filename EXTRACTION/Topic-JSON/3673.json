@@ -1,0 +1,307 @@
+{
+  "schema_version": 1,
+  "topic_id": "3673",
+  "topic_title": "Exponential Growth and Decay Models With First-Order ODEs: Half-Life Problems",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3673.html",
+  "source_url": "https://mathacademy.com/topics/3673",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "616793",
+        "dom_id": "sectionLink-616793",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-616793"
+      },
+      {
+        "index": 2,
+        "step_id": "616794",
+        "dom_id": "sectionLink-616794",
+        "name": "",
+        "title": "Deriving a Formula for the Half-Life",
+        "selector": "#sectionLink-616794"
+      },
+      {
+        "index": 3,
+        "step_id": "616795",
+        "dom_id": "sectionLink-616795",
+        "name": "",
+        "title": "Using the Half-Life Formula",
+        "selector": "#sectionLink-616795"
+      },
+      {
+        "index": 4,
+        "step_id": "616798",
+        "dom_id": "sectionLink-616798",
+        "name": "",
+        "title": "Solving Problems Involving Radioactive Decay Given the Half-Life of a Substance",
+        "selector": "#sectionLink-616798"
+      },
+      {
+        "index": 5,
+        "step_id": "616801",
+        "dom_id": "sectionLink-616801",
+        "name": "",
+        "title": "Using Radioactive Dating to Estimate the Age of an Object",
+        "selector": "#sectionLink-616801"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3672",
+        "name": "Exponential Growth and Decay Models With First-Order ODEs: Calculating Unknown Times and Initial Values",
+        "href": "/topics/exponential-growth-and-decay-models-with-first-order-odes-calculating-unknown-times-and-initial-values-3672"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "616793",
+        "content_id": "4073",
+        "dom_id": "step-616793",
+        "selector": "#step-616793",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "616794",
+        "content_id": "5721",
+        "dom_id": "step-616794",
+        "selector": "#step-616794",
+        "step_anchor": "step-2",
+        "title": "Deriving a Formula for the Half-Life",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "616795",
+        "content_id": "9374",
+        "dom_id": "step-616795",
+        "selector": "#step-616795",
+        "step_anchor": "step-3",
+        "title": "Using the Half-Life Formula",
+        "key_prerequisites": [
+          {
+            "topic_id": "876",
+            "name": "Exponential Growth and Decay Models With First-Order ODEs",
+            "href": "/topics/876"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "118386",
+        "dom_id": "question-118386",
+        "selector": "#question-118386",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "15575",
+        "dom_id": "question-15575",
+        "selector": "#question-15575",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "616798",
+        "content_id": "6675",
+        "dom_id": "step-616798",
+        "selector": "#step-616798",
+        "step_anchor": "step-6",
+        "title": "Solving Problems Involving Radioactive Decay Given the Half-Life of a Substance",
+        "key_prerequisites": [
+          {
+            "topic_id": "3672",
+            "name": "Exponential Growth and Decay Models With First-Order ODEs: Calculating Unknown Times and Initial Values",
+            "href": "/topics/3672"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "118600",
+        "dom_id": "question-118600",
+        "selector": "#question-118600",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "15574",
+        "dom_id": "question-15574",
+        "selector": "#question-15574",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "616801",
+        "content_id": "9373",
+        "dom_id": "step-616801",
+        "selector": "#step-616801",
+        "step_anchor": "step-9",
+        "title": "Using Radioactive Dating to Estimate the Age of an Object",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "353607",
+        "dom_id": "question-353607",
+        "selector": "#question-353607",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "118730",
+        "dom_id": "question-118730",
+        "selector": "#question-118730",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "353639",
+        "dom_id": "question-353639",
+        "selector": "#question-353639",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-616793",
+        "filename": "01-step-616793.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-616794",
+        "filename": "02-step-616794.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-616795",
+        "filename": "03-step-616795.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-118386",
+        "filename": "04-question-118386.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-15575",
+        "filename": "05-question-15575.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-616798",
+        "filename": "06-step-616798.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-118600",
+        "filename": "07-question-118600.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-15574",
+        "filename": "08-question-15574.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-616801",
+        "filename": "09-step-616801.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-353607",
+        "filename": "10-question-353607.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-118730",
+        "filename": "11-question-118730.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-353639",
+        "filename": "12-question-353639.png"
+      }
+    ]
+  }
+}

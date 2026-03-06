@@ -1,0 +1,294 @@
+{
+  "schema_version": 1,
+  "topic_id": "3799",
+  "topic_title": "The Language of Automata",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3799.html",
+  "source_url": "https://mathacademy.com/topics/3799",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "415613",
+        "dom_id": "sectionLink-415613",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-415613"
+      },
+      {
+        "index": 2,
+        "step_id": "415614",
+        "dom_id": "sectionLink-415614",
+        "name": "",
+        "title": "Determining the Language Defined by an NFA",
+        "selector": "#sectionLink-415614"
+      },
+      {
+        "index": 3,
+        "step_id": "415617",
+        "dom_id": "sectionLink-415617",
+        "name": "",
+        "title": "Determining a NFA Defining a Language",
+        "selector": "#sectionLink-415617"
+      },
+      {
+        "index": 4,
+        "step_id": "415620",
+        "dom_id": "sectionLink-415620",
+        "name": "",
+        "title": "Determining the Language Defined by a DFA",
+        "selector": "#sectionLink-415620"
+      },
+      {
+        "index": 5,
+        "step_id": "415623",
+        "dom_id": "sectionLink-415623",
+        "name": "",
+        "title": "Deterministic vs Nondeterministic Automata",
+        "selector": "#sectionLink-415623"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2793",
+        "name": "Necessary and Sufficient Conditions",
+        "href": "/topics/necessary-and-sufficient-conditions-2793"
+      },
+      {
+        "topic_id": "3798",
+        "name": "Nondeterministic Finite Automata",
+        "href": "/topics/nondeterministic-finite-automata-3798"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "415613",
+        "content_id": "9724",
+        "dom_id": "step-415613",
+        "selector": "#step-415613",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "415614",
+        "content_id": "15652",
+        "dom_id": "step-415614",
+        "selector": "#step-415614",
+        "step_anchor": "step-2",
+        "title": "Determining the Language Defined by an NFA",
+        "key_prerequisites": [
+          {
+            "topic_id": "3798",
+            "name": "Nondeterministic Finite Automata",
+            "href": "/topics/3798"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "237414",
+        "dom_id": "question-237414",
+        "selector": "#question-237414",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "237468",
+        "dom_id": "question-237468",
+        "selector": "#question-237468",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "415617",
+        "content_id": "15651",
+        "dom_id": "step-415617",
+        "selector": "#step-415617",
+        "step_anchor": "step-5",
+        "title": "Determining a NFA Defining a Language",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "257774",
+        "dom_id": "question-257774",
+        "selector": "#question-257774",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "237409",
+        "dom_id": "question-237409",
+        "selector": "#question-237409",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "415620",
+        "content_id": "16728",
+        "dom_id": "step-415620",
+        "selector": "#step-415620",
+        "step_anchor": "step-8",
+        "title": "Determining the Language Defined by a DFA",
+        "key_prerequisites": [
+          {
+            "topic_id": "5414",
+            "name": "Processing Strings Using Deterministic Finite Automata",
+            "href": "/topics/5414"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "257337",
+        "dom_id": "question-257337",
+        "selector": "#question-257337",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "257824",
+        "dom_id": "question-257824",
+        "selector": "#question-257824",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "415623",
+        "content_id": "9860",
+        "dom_id": "step-415623",
+        "selector": "#step-415623",
+        "step_anchor": "step-11",
+        "title": "Deterministic vs Nondeterministic Automata",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-415613",
+        "filename": "01-step-415613.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-415614",
+        "filename": "02-step-415614.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-237414",
+        "filename": "03-question-237414.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-237468",
+        "filename": "04-question-237468.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-415617",
+        "filename": "05-step-415617.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-257774",
+        "filename": "06-question-257774.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-237409",
+        "filename": "07-question-237409.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-415620",
+        "filename": "08-step-415620.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-257337",
+        "filename": "09-question-257337.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-257824",
+        "filename": "10-question-257824.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-415623",
+        "filename": "11-step-415623.png"
+      }
+    ]
+  }
+}

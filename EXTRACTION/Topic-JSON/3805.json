@@ -1,0 +1,310 @@
+{
+  "schema_version": 1,
+  "topic_id": "3805",
+  "topic_title": "Big-Omega Notation",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3805.html",
+  "source_url": "https://mathacademy.com/topics/3805",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "419909",
+        "dom_id": "sectionLink-419909",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-419909"
+      },
+      {
+        "index": 2,
+        "step_id": "419910",
+        "dom_id": "sectionLink-419910",
+        "name": "",
+        "title": "Understanding the Definition of Big-Omega",
+        "selector": "#sectionLink-419910"
+      },
+      {
+        "index": 3,
+        "step_id": "419913",
+        "dom_id": "sectionLink-419913",
+        "name": "",
+        "title": "Proving That a Function Belongs to a Big-Omega Set",
+        "selector": "#sectionLink-419913"
+      },
+      {
+        "index": 4,
+        "step_id": "419916",
+        "dom_id": "sectionLink-419916",
+        "name": "",
+        "title": "Properties of Big-Omega Notation",
+        "selector": "#sectionLink-419916"
+      },
+      {
+        "index": 5,
+        "step_id": "419917",
+        "dom_id": "sectionLink-419917",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-419917"
+      },
+      {
+        "index": 6,
+        "step_id": "419918",
+        "dom_id": "sectionLink-419918",
+        "name": "",
+        "title": "Using Properties of Omega Notation",
+        "selector": "#sectionLink-419918"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3803",
+        "name": "Big-O Notation",
+        "href": "/topics/big-o-notation-3803"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "419909",
+        "content_id": "11084",
+        "dom_id": "step-419909",
+        "selector": "#step-419909",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "419910",
+        "content_id": "16808",
+        "dom_id": "step-419910",
+        "selector": "#step-419910",
+        "step_anchor": "step-2",
+        "title": "Understanding the Definition of Big-Omega",
+        "key_prerequisites": [
+          {
+            "topic_id": "3803",
+            "name": "Big-O Notation",
+            "href": "/topics/3803"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "258356",
+        "dom_id": "question-258356",
+        "selector": "#question-258356",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "258354",
+        "dom_id": "question-258354",
+        "selector": "#question-258354",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "419913",
+        "content_id": "16809",
+        "dom_id": "step-419913",
+        "selector": "#step-419913",
+        "step_anchor": "step-5",
+        "title": "Proving That a Function Belongs to a Big-Omega Set",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "259020",
+        "dom_id": "question-259020",
+        "selector": "#question-259020",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "259033",
+        "dom_id": "question-259033",
+        "selector": "#question-259033",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "419916",
+        "content_id": "11086",
+        "dom_id": "step-419916",
+        "selector": "#step-419916",
+        "step_anchor": "step-8",
+        "title": "Properties of Big-Omega Notation",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "419917",
+        "content_id": "11929",
+        "dom_id": "step-419917",
+        "selector": "#step-419917",
+        "step_anchor": "step-9",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "419918",
+        "content_id": "16810",
+        "dom_id": "step-419918",
+        "selector": "#step-419918",
+        "step_anchor": "step-10",
+        "title": "Using Properties of Omega Notation",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "259546",
+        "dom_id": "question-259546",
+        "selector": "#question-259546",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "258364",
+        "dom_id": "question-258364",
+        "selector": "#question-258364",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-419909",
+        "filename": "01-step-419909.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-419910",
+        "filename": "02-step-419910.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-258356",
+        "filename": "03-question-258356.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-258354",
+        "filename": "04-question-258354.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-419913",
+        "filename": "05-step-419913.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-259020",
+        "filename": "06-question-259020.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-259033",
+        "filename": "07-question-259033.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-419916",
+        "filename": "08-step-419916.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-419917",
+        "filename": "09-step-419917.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-419918",
+        "filename": "10-step-419918.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-259546",
+        "filename": "11-question-259546.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-258364",
+        "filename": "12-question-258364.png"
+      }
+    ]
+  }
+}

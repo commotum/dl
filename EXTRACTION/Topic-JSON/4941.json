@@ -1,0 +1,426 @@
+{
+  "schema_version": 1,
+  "topic_id": "4941",
+  "topic_title": "Proving Properties of Linear Congruences",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/4941.html",
+  "source_url": "https://mathacademy.com/topics/4941",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "184108",
+        "dom_id": "sectionLink-184108",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-184108"
+      },
+      {
+        "index": 2,
+        "step_id": "184109",
+        "dom_id": "sectionLink-184109",
+        "name": "",
+        "title": "Stating the Full Proof",
+        "selector": "#sectionLink-184109"
+      },
+      {
+        "index": 3,
+        "step_id": "184110",
+        "dom_id": "sectionLink-184110",
+        "name": "",
+        "title": "Proving the Existence of a Solution to a Congruence",
+        "selector": "#sectionLink-184110"
+      },
+      {
+        "index": 4,
+        "step_id": "184113",
+        "dom_id": "sectionLink-184113",
+        "name": "",
+        "title": "Proving Uniqueness",
+        "selector": "#sectionLink-184113"
+      },
+      {
+        "index": 5,
+        "step_id": "184114",
+        "dom_id": "sectionLink-184114",
+        "name": "",
+        "title": "Proving the Uniqueness of the Solution to a Congruence",
+        "selector": "#sectionLink-184114"
+      },
+      {
+        "index": 6,
+        "step_id": "184117",
+        "dom_id": "sectionLink-184117",
+        "name": "",
+        "title": "Stating a Full Proof of Existence and Uniqueness",
+        "selector": "#sectionLink-184117"
+      },
+      {
+        "index": 7,
+        "step_id": "184118",
+        "dom_id": "sectionLink-184118",
+        "name": "",
+        "title": "Proving That a Congruence Has No Solution",
+        "selector": "#sectionLink-184118"
+      },
+      {
+        "index": 8,
+        "step_id": "184121",
+        "dom_id": "sectionLink-184121",
+        "name": "",
+        "title": "Proving the Number of Solutions to a Congruence",
+        "selector": "#sectionLink-184121"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "253",
+        "name": "Proving Properties of Modular Congruence",
+        "href": "/topics/proving-properties-of-modular-congruence-253"
+      },
+      {
+        "topic_id": "2737",
+        "name": "Solving Advanced Linear Congruences",
+        "href": "/topics/solving-advanced-linear-congruences-2737"
+      },
+      {
+        "topic_id": "3414",
+        "name": "Proof by Contradiction",
+        "href": "/topics/proof-by-contradiction-3414"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 16,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "184108",
+        "content_id": "9425",
+        "dom_id": "step-184108",
+        "selector": "#step-184108",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "184109",
+        "content_id": "9652",
+        "dom_id": "step-184109",
+        "selector": "#step-184109",
+        "step_anchor": "step-2",
+        "title": "Stating the Full Proof",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "184110",
+        "content_id": "15023",
+        "dom_id": "step-184110",
+        "selector": "#step-184110",
+        "step_anchor": "step-3",
+        "title": "Proving the Existence of a Solution to a Congruence",
+        "key_prerequisites": [
+          {
+            "topic_id": "253",
+            "name": "Proving Properties of Modular Congruence",
+            "href": "/topics/253"
+          },
+          {
+            "topic_id": "3414",
+            "name": "Proof by Contradiction",
+            "href": "/topics/3414"
+          },
+          {
+            "topic_id": "4839",
+            "name": "Solving Linear Congruences",
+            "href": "/topics/4839"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "223638",
+        "dom_id": "question-223638",
+        "selector": "#question-223638",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "223637",
+        "dom_id": "question-223637",
+        "selector": "#question-223637",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "184113",
+        "content_id": "9651",
+        "dom_id": "step-184113",
+        "selector": "#step-184113",
+        "step_anchor": "step-6",
+        "title": "Proving Uniqueness",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "184114",
+        "content_id": "15022",
+        "dom_id": "step-184114",
+        "selector": "#step-184114",
+        "step_anchor": "step-7",
+        "title": "Proving the Uniqueness of the Solution to a Congruence",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "225200",
+        "dom_id": "question-225200",
+        "selector": "#question-225200",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "223636",
+        "dom_id": "question-223636",
+        "selector": "#question-223636",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "184117",
+        "content_id": "9645",
+        "dom_id": "step-184117",
+        "selector": "#step-184117",
+        "step_anchor": "step-10",
+        "title": "Stating a Full Proof of Existence and Uniqueness",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "184118",
+        "content_id": "15025",
+        "dom_id": "step-184118",
+        "selector": "#step-184118",
+        "step_anchor": "step-11",
+        "title": "Proving That a Congruence Has No Solution",
+        "key_prerequisites": [
+          {
+            "topic_id": "2737",
+            "name": "Solving Advanced Linear Congruences",
+            "href": "/topics/2737"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "224686",
+        "dom_id": "question-224686",
+        "selector": "#question-224686",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "223731",
+        "dom_id": "question-223731",
+        "selector": "#question-223731",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "184121",
+        "content_id": "15026",
+        "dom_id": "step-184121",
+        "selector": "#step-184121",
+        "step_anchor": "step-14",
+        "title": "Proving the Number of Solutions to a Congruence",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "224893",
+        "dom_id": "question-224893",
+        "selector": "#question-224893",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "224434",
+        "dom_id": "question-224434",
+        "selector": "#question-224434",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-184108",
+        "filename": "01-step-184108.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-184109",
+        "filename": "02-step-184109.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-184110",
+        "filename": "03-step-184110.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-223638",
+        "filename": "04-question-223638.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-223637",
+        "filename": "05-question-223637.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-184113",
+        "filename": "06-step-184113.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-184114",
+        "filename": "07-step-184114.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-225200",
+        "filename": "08-question-225200.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-223636",
+        "filename": "09-question-223636.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-184117",
+        "filename": "10-step-184117.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-184118",
+        "filename": "11-step-184118.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-224686",
+        "filename": "12-question-224686.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-223731",
+        "filename": "13-question-223731.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-184121",
+        "filename": "14-step-184121.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-224893",
+        "filename": "15-question-224893.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-224434",
+        "filename": "16-question-224434.png"
+      }
+    ]
+  }
+}

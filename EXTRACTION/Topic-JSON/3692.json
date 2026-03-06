@@ -1,0 +1,305 @@
+{
+  "schema_version": 1,
+  "topic_id": "3692",
+  "topic_title": "Gradient Vector Fields",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3692.html",
+  "source_url": "https://mathacademy.com/topics/3692",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "35370",
+        "dom_id": "sectionLink-35370",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-35370"
+      },
+      {
+        "index": 2,
+        "step_id": "35387",
+        "dom_id": "sectionLink-35387",
+        "name": "",
+        "title": "Calculating the Gradient Vector Field of a Function",
+        "selector": "#sectionLink-35387"
+      },
+      {
+        "index": 3,
+        "step_id": "35460",
+        "dom_id": "sectionLink-35460",
+        "name": "",
+        "title": "Sketching the Gradient Vector Field of a Function",
+        "selector": "#sectionLink-35460"
+      },
+      {
+        "index": 4,
+        "step_id": "35468",
+        "dom_id": "sectionLink-35468",
+        "name": "",
+        "title": "The Relationship Between the Vector Field of a Function and Its Contour Plot",
+        "selector": "#sectionLink-35468"
+      },
+      {
+        "index": 5,
+        "step_id": "35372",
+        "dom_id": "sectionLink-35372",
+        "name": "",
+        "title": "Using the Relationship Between the Vector Field of a Function and Its Contour Plot",
+        "selector": "#sectionLink-35372"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1939",
+        "name": "The Gradient as a Normal Vector",
+        "href": "/topics/the-gradient-as-a-normal-vector-1939"
+      },
+      {
+        "topic_id": "3344",
+        "name": "Visualizing Vector Fields",
+        "href": "/topics/visualizing-vector-fields-3344"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "35370",
+        "content_id": "5764",
+        "dom_id": "step-35370",
+        "selector": "#step-35370",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "35387",
+        "content_id": "9453",
+        "dom_id": "step-35387",
+        "selector": "#step-35387",
+        "step_anchor": "step-2",
+        "title": "Calculating the Gradient Vector Field of a Function",
+        "key_prerequisites": [
+          {
+            "topic_id": "1934",
+            "name": "The Gradient Vector",
+            "href": "/topics/1934"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "122399",
+        "dom_id": "question-122399",
+        "selector": "#question-122399",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "122404",
+        "dom_id": "question-122404",
+        "selector": "#question-122404",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "35460",
+        "content_id": "9474",
+        "dom_id": "step-35460",
+        "selector": "#step-35460",
+        "step_anchor": "step-5",
+        "title": "Sketching the Gradient Vector Field of a Function",
+        "key_prerequisites": [
+          {
+            "topic_id": "3344",
+            "name": "Visualizing Vector Fields",
+            "href": "/topics/3344"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "122407",
+        "dom_id": "question-122407",
+        "selector": "#question-122407",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "122789",
+        "dom_id": "question-122789",
+        "selector": "#question-122789",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "35468",
+        "content_id": "5774",
+        "dom_id": "step-35468",
+        "selector": "#step-35468",
+        "step_anchor": "step-8",
+        "title": "The Relationship Between the Vector Field of a Function and Its Contour Plot",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "35372",
+        "content_id": "9444",
+        "dom_id": "step-35372",
+        "selector": "#step-35372",
+        "step_anchor": "step-9",
+        "title": "Using the Relationship Between the Vector Field of a Function and Its Contour Plot",
+        "key_prerequisites": [
+          {
+            "topic_id": "1900",
+            "name": "Level Curves",
+            "href": "/topics/1900"
+          },
+          {
+            "topic_id": "1939",
+            "name": "The Gradient as a Normal Vector",
+            "href": "/topics/1939"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "122413",
+        "dom_id": "question-122413",
+        "selector": "#question-122413",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "122572",
+        "dom_id": "question-122572",
+        "selector": "#question-122572",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-35370",
+        "filename": "01-step-35370.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-35387",
+        "filename": "02-step-35387.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-122399",
+        "filename": "03-question-122399.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-122404",
+        "filename": "04-question-122404.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-35460",
+        "filename": "05-step-35460.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-122407",
+        "filename": "06-question-122407.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-122789",
+        "filename": "07-question-122789.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-35468",
+        "filename": "08-step-35468.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-35372",
+        "filename": "09-step-35372.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-122413",
+        "filename": "10-question-122413.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-122572",
+        "filename": "11-question-122572.png"
+      }
+    ]
+  }
+}

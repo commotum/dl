@@ -1,0 +1,321 @@
+{
+  "schema_version": 1,
+  "topic_id": "2101",
+  "topic_title": "The Cauchy-Schwarz Inequality and the Angle Between Two Vectors",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2101.html",
+  "source_url": "https://mathacademy.com/topics/2101",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "20206",
+        "dom_id": "sectionLink-20206",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-20206"
+      },
+      {
+        "index": 2,
+        "step_id": "20207",
+        "dom_id": "sectionLink-20207",
+        "name": "",
+        "title": "Determining a Minimum Possible Value Using the Cauchy-Schwarz Inequality",
+        "selector": "#sectionLink-20207"
+      },
+      {
+        "index": 3,
+        "step_id": "20208",
+        "dom_id": "sectionLink-20208",
+        "name": "",
+        "title": "The Angle Between Two Vectors",
+        "selector": "#sectionLink-20208"
+      },
+      {
+        "index": 4,
+        "step_id": "20209",
+        "dom_id": "sectionLink-20209",
+        "name": "",
+        "title": "Finding the Acute Angle Between Two Vectors",
+        "selector": "#sectionLink-20209"
+      },
+      {
+        "index": 5,
+        "step_id": "21811",
+        "dom_id": "sectionLink-21811",
+        "name": "",
+        "title": "Calculating the Cosine of an Angle",
+        "selector": "#sectionLink-21811"
+      },
+      {
+        "index": 6,
+        "step_id": "20213",
+        "dom_id": "sectionLink-20213",
+        "name": "",
+        "title": "Algebraic Proof of the Schwarz Inequality",
+        "selector": "#sectionLink-20213"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1278",
+        "name": "The Angle Between Two Vectors",
+        "href": "/topics/the-angle-between-two-vectors-1278"
+      },
+      {
+        "topic_id": "2095",
+        "name": "The Norm of a Vector in N-Dimensional Euclidean Space",
+        "href": "/topics/the-norm-of-a-vector-in-n-dimensional-euclidean-space-2095"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20206",
+        "content_id": "3609",
+        "dom_id": "step-20206",
+        "selector": "#step-20206",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20207",
+        "content_id": "5554",
+        "dom_id": "step-20207",
+        "selector": "#step-20207",
+        "step_anchor": "step-2",
+        "title": "Determining a Minimum Possible Value Using the Cauchy-Schwarz Inequality",
+        "key_prerequisites": [
+          {
+            "topic_id": "2095",
+            "name": "The Norm of a Vector in N-Dimensional Euclidean Space",
+            "href": "/topics/2095"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "40196",
+        "dom_id": "question-40196",
+        "selector": "#question-40196",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "39432",
+        "dom_id": "question-39432",
+        "selector": "#question-39432",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20208",
+        "content_id": "3610",
+        "dom_id": "step-20208",
+        "selector": "#step-20208",
+        "step_anchor": "step-5",
+        "title": "The Angle Between Two Vectors",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20209",
+        "content_id": "5555",
+        "dom_id": "step-20209",
+        "selector": "#step-20209",
+        "step_anchor": "step-6",
+        "title": "Finding the Acute Angle Between Two Vectors",
+        "key_prerequisites": [
+          {
+            "topic_id": "1278",
+            "name": "The Angle Between Two Vectors",
+            "href": "/topics/1278"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "40559",
+        "dom_id": "question-40559",
+        "selector": "#question-40559",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "40558",
+        "dom_id": "question-40558",
+        "selector": "#question-40558",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "21811",
+        "content_id": "5910",
+        "dom_id": "step-21811",
+        "selector": "#step-21811",
+        "step_anchor": "step-9",
+        "title": "Calculating the Cosine of an Angle",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "40886",
+        "dom_id": "question-40886",
+        "selector": "#question-40886",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "40902",
+        "dom_id": "question-40902",
+        "selector": "#question-40902",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20213",
+        "content_id": "3614",
+        "dom_id": "step-20213",
+        "selector": "#step-20213",
+        "step_anchor": "step-12",
+        "title": "Algebraic Proof of the Schwarz Inequality",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-20206",
+        "filename": "01-step-20206.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-20207",
+        "filename": "02-step-20207.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-40196",
+        "filename": "03-question-40196.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-39432",
+        "filename": "04-question-39432.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-20208",
+        "filename": "05-step-20208.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-20209",
+        "filename": "06-step-20209.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-40559",
+        "filename": "07-question-40559.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-40558",
+        "filename": "08-question-40558.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-21811",
+        "filename": "09-step-21811.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-40886",
+        "filename": "10-question-40886.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-40902",
+        "filename": "11-question-40902.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-20213",
+        "filename": "12-step-20213.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,373 @@
+{
+  "schema_version": 1,
+  "topic_id": "1911",
+  "topic_title": "Markov Chains",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1911.html",
+  "source_url": "https://mathacademy.com/topics/1911",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "20288",
+        "dom_id": "sectionLink-20288",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-20288"
+      },
+      {
+        "index": 2,
+        "step_id": "34164",
+        "dom_id": "sectionLink-34164",
+        "name": "",
+        "title": "Identifying Stochastic Vectors and Stochastic Matrices",
+        "selector": "#sectionLink-34164"
+      },
+      {
+        "index": 3,
+        "step_id": "20289",
+        "dom_id": "sectionLink-20289",
+        "name": "",
+        "title": "Constructing a Stochastic Matrix Given Some Data",
+        "selector": "#sectionLink-20289"
+      },
+      {
+        "index": 4,
+        "step_id": "20290",
+        "dom_id": "sectionLink-20290",
+        "name": "",
+        "title": "Markov Chains",
+        "selector": "#sectionLink-20290"
+      },
+      {
+        "index": 5,
+        "step_id": "22210",
+        "dom_id": "sectionLink-22210",
+        "name": "",
+        "title": "Calculating a State Vector",
+        "selector": "#sectionLink-22210"
+      },
+      {
+        "index": 6,
+        "step_id": "20291",
+        "dom_id": "sectionLink-20291",
+        "name": "",
+        "title": "Constructing a Stochastic Matrix and Making a Prediction",
+        "selector": "#sectionLink-20291"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1120",
+        "name": "The Complement of an Event",
+        "href": "/topics/the-complement-of-an-event-1120"
+      },
+      {
+        "topic_id": "1195",
+        "name": "Multiplying a Matrix by a Column Vector",
+        "href": "/topics/multiplying-a-matrix-by-a-column-vector-1195"
+      },
+      {
+        "topic_id": "1226",
+        "name": "Recursive Sequences",
+        "href": "/topics/recursive-sequences-1226"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20288",
+        "content_id": "3645",
+        "dom_id": "step-20288",
+        "selector": "#step-20288",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "34164",
+        "content_id": "9162",
+        "dom_id": "step-34164",
+        "selector": "#step-34164",
+        "step_anchor": "step-2",
+        "title": "Identifying Stochastic Vectors and Stochastic Matrices",
+        "key_prerequisites": [
+          {
+            "topic_id": "861",
+            "name": "Introduction to Matrices",
+            "href": "/topics/861"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "109881",
+        "dom_id": "question-109881",
+        "selector": "#question-109881",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "109882",
+        "dom_id": "question-109882",
+        "selector": "#question-109882",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20289",
+        "content_id": "5598",
+        "dom_id": "step-20289",
+        "selector": "#step-20289",
+        "step_anchor": "step-5",
+        "title": "Constructing a Stochastic Matrix Given Some Data",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "35787",
+        "dom_id": "question-35787",
+        "selector": "#question-35787",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "35791",
+        "dom_id": "question-35791",
+        "selector": "#question-35791",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20290",
+        "content_id": "3646",
+        "dom_id": "step-20290",
+        "selector": "#step-20290",
+        "step_anchor": "step-8",
+        "title": "Markov Chains",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "22210",
+        "content_id": "5971",
+        "dom_id": "step-22210",
+        "selector": "#step-22210",
+        "step_anchor": "step-9",
+        "title": "Calculating a State Vector",
+        "key_prerequisites": [
+          {
+            "topic_id": "1195",
+            "name": "Multiplying a Matrix by a Column Vector",
+            "href": "/topics/1195"
+          },
+          {
+            "topic_id": "1226",
+            "name": "Recursive Sequences",
+            "href": "/topics/1226"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "35842",
+        "dom_id": "question-35842",
+        "selector": "#question-35842",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "35846",
+        "dom_id": "question-35846",
+        "selector": "#question-35846",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20291",
+        "content_id": "5599",
+        "dom_id": "step-20291",
+        "selector": "#step-20291",
+        "step_anchor": "step-12",
+        "title": "Constructing a Stochastic Matrix and Making a Prediction",
+        "key_prerequisites": [
+          {
+            "topic_id": "1195",
+            "name": "Multiplying a Matrix by a Column Vector",
+            "href": "/topics/1195"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "35845",
+        "dom_id": "question-35845",
+        "selector": "#question-35845",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "135462",
+        "dom_id": "question-135462",
+        "selector": "#question-135462",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-20288",
+        "filename": "01-step-20288.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-34164",
+        "filename": "02-step-34164.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-109881",
+        "filename": "03-question-109881.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-109882",
+        "filename": "04-question-109882.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-20289",
+        "filename": "05-step-20289.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-35787",
+        "filename": "06-question-35787.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-35791",
+        "filename": "07-question-35791.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-20290",
+        "filename": "08-step-20290.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-22210",
+        "filename": "09-step-22210.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-35842",
+        "filename": "10-question-35842.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-35846",
+        "filename": "11-question-35846.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-20291",
+        "filename": "12-step-20291.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-35845",
+        "filename": "13-question-35845.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-135462",
+        "filename": "14-question-135462.png"
+      }
+    ]
+  }
+}

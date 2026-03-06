@@ -1,0 +1,282 @@
+{
+  "schema_version": 1,
+  "topic_id": "2727",
+  "topic_title": "Euler's Theorem",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2727.html",
+  "source_url": "https://mathacademy.com/topics/2727",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "27712",
+        "dom_id": "sectionLink-27712",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-27712"
+      },
+      {
+        "index": 2,
+        "step_id": "27705",
+        "dom_id": "sectionLink-27705",
+        "name": "",
+        "title": "Identifying When Euler's Theorem Is Applicable",
+        "selector": "#sectionLink-27705"
+      },
+      {
+        "index": 3,
+        "step_id": "27706",
+        "dom_id": "sectionLink-27706",
+        "name": "",
+        "title": "Computing Modular Residues of Single Exponents Using Euler's Theorem",
+        "selector": "#sectionLink-27706"
+      },
+      {
+        "index": 4,
+        "step_id": "27707",
+        "dom_id": "sectionLink-27707",
+        "name": "",
+        "title": "Computing Modular Residues of Nested Exponents Using Euler's Theorem",
+        "selector": "#sectionLink-27707"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2654",
+        "name": "Euler's Totient Function",
+        "href": "/topics/eulers-totient-function-2654"
+      },
+      {
+        "topic_id": "2726",
+        "name": "Fermat's Little Theorem",
+        "href": "/topics/fermats-little-theorem-2726"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 10,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "27712",
+        "content_id": "4500",
+        "dom_id": "step-27712",
+        "selector": "#step-27712",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "27705",
+        "content_id": "7465",
+        "dom_id": "step-27705",
+        "selector": "#step-27705",
+        "step_anchor": "step-2",
+        "title": "Identifying When Euler's Theorem Is Applicable",
+        "key_prerequisites": [
+          {
+            "topic_id": "2654",
+            "name": "Euler's Totient Function",
+            "href": "/topics/2654"
+          },
+          {
+            "topic_id": "2786",
+            "name": "Modular Residues",
+            "href": "/topics/2786"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "84710",
+        "dom_id": "question-84710",
+        "selector": "#question-84710",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "84711",
+        "dom_id": "question-84711",
+        "selector": "#question-84711",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "27706",
+        "content_id": "7466",
+        "dom_id": "step-27706",
+        "selector": "#step-27706",
+        "step_anchor": "step-5",
+        "title": "Computing Modular Residues of Single Exponents Using Euler's Theorem",
+        "key_prerequisites": [
+          {
+            "topic_id": "267",
+            "name": "The Product Rule for Exponents",
+            "href": "/topics/267"
+          },
+          {
+            "topic_id": "1224",
+            "name": "The Power Rule for Exponents",
+            "href": "/topics/1224"
+          },
+          {
+            "topic_id": "2674",
+            "name": "The Multiplication Properties of Modular Arithmetic",
+            "href": "/topics/2674"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "84720",
+        "dom_id": "question-84720",
+        "selector": "#question-84720",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "84914",
+        "dom_id": "question-84914",
+        "selector": "#question-84914",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "27707",
+        "content_id": "7467",
+        "dom_id": "step-27707",
+        "selector": "#step-27707",
+        "step_anchor": "step-8",
+        "title": "Computing Modular Residues of Nested Exponents Using Euler's Theorem",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "84723",
+        "dom_id": "question-84723",
+        "selector": "#question-84723",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "84929",
+        "dom_id": "question-84929",
+        "selector": "#question-84929",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-27712",
+        "filename": "01-step-27712.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-27705",
+        "filename": "02-step-27705.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-84710",
+        "filename": "03-question-84710.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-84711",
+        "filename": "04-question-84711.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-27706",
+        "filename": "05-step-27706.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-84720",
+        "filename": "06-question-84720.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-84914",
+        "filename": "07-question-84914.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-27707",
+        "filename": "08-step-27707.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-84723",
+        "filename": "09-question-84723.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-84929",
+        "filename": "10-question-84929.png"
+      }
+    ]
+  }
+}

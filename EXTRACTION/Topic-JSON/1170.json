@@ -1,0 +1,283 @@
+{
+  "schema_version": 1,
+  "topic_id": "1170",
+  "topic_title": "Finding Volumes of Tetrahedrons and Pyramids Using Vector Products",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1170.html",
+  "source_url": "https://mathacademy.com/topics/1170",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "15869",
+        "dom_id": "sectionLink-15869",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-15869"
+      },
+      {
+        "index": 2,
+        "step_id": "23365",
+        "dom_id": "sectionLink-23365",
+        "name": "",
+        "title": "Calculating the Volume of a Tetrahedron Spanned by Three Vectors",
+        "selector": "#sectionLink-23365"
+      },
+      {
+        "index": 3,
+        "step_id": "23366",
+        "dom_id": "sectionLink-23366",
+        "name": "",
+        "title": "The Volume of a Pyramid",
+        "selector": "#sectionLink-23366"
+      },
+      {
+        "index": 4,
+        "step_id": "15870",
+        "dom_id": "sectionLink-15870",
+        "name": "",
+        "title": "Calculating the Volume of a Pyramid Spanned by Three Vectors",
+        "selector": "#sectionLink-15870"
+      },
+      {
+        "index": 5,
+        "step_id": "15872",
+        "dom_id": "sectionLink-15872",
+        "name": "",
+        "title": "Calculating the Volume of a Tetrahedron Given the Coordinates of the Vertices",
+        "selector": "#sectionLink-15872"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1287",
+        "name": "Volumes of Parallelepipeds",
+        "href": "/topics/volumes-of-parallelepipeds-1287"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "15869",
+        "content_id": "2958",
+        "dom_id": "step-15869",
+        "selector": "#step-15869",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "23365",
+        "content_id": "6236",
+        "dom_id": "step-23365",
+        "selector": "#step-23365",
+        "step_anchor": "step-2",
+        "title": "Calculating the Volume of a Tetrahedron Spanned by Three Vectors",
+        "key_prerequisites": [
+          {
+            "topic_id": "1287",
+            "name": "Volumes of Parallelepipeds",
+            "href": "/topics/1287"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "18263",
+        "dom_id": "question-18263",
+        "selector": "#question-18263",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "20126",
+        "dom_id": "question-20126",
+        "selector": "#question-20126",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "23366",
+        "content_id": "3944",
+        "dom_id": "step-23366",
+        "selector": "#step-23366",
+        "step_anchor": "step-5",
+        "title": "The Volume of a Pyramid",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "15870",
+        "content_id": "4353",
+        "dom_id": "step-15870",
+        "selector": "#step-15870",
+        "step_anchor": "step-6",
+        "title": "Calculating the Volume of a Pyramid Spanned by Three Vectors",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "20146",
+        "dom_id": "question-20146",
+        "selector": "#question-20146",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "18264",
+        "dom_id": "question-18264",
+        "selector": "#question-18264",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "15872",
+        "content_id": "4355",
+        "dom_id": "step-15872",
+        "selector": "#step-15872",
+        "step_anchor": "step-9",
+        "title": "Calculating the Volume of a Tetrahedron Given the Coordinates of the Vertices",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "42871",
+        "dom_id": "question-42871",
+        "selector": "#question-42871",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "42915",
+        "dom_id": "question-42915",
+        "selector": "#question-42915",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-15869",
+        "filename": "01-step-15869.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-23365",
+        "filename": "02-step-23365.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-18263",
+        "filename": "03-question-18263.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-20126",
+        "filename": "04-question-20126.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-23366",
+        "filename": "05-step-23366.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-15870",
+        "filename": "06-step-15870.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-20146",
+        "filename": "07-question-20146.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-18264",
+        "filename": "08-question-18264.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-15872",
+        "filename": "09-step-15872.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-42871",
+        "filename": "10-question-42871.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-42915",
+        "filename": "11-question-42915.png"
+      }
+    ]
+  }
+}

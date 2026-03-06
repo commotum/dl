@@ -1,0 +1,399 @@
+{
+  "schema_version": 1,
+  "topic_id": "3601",
+  "topic_title": "Constructing Moment-Generating Functions for Continuous Probability Distributions",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3601.html",
+  "source_url": "https://mathacademy.com/topics/3601",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "230886",
+        "dom_id": "sectionLink-230886",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-230886"
+      },
+      {
+        "index": 2,
+        "step_id": "230887",
+        "dom_id": "sectionLink-230887",
+        "name": "",
+        "title": "MGFs of Continuous Uniform Random Variables",
+        "selector": "#sectionLink-230887"
+      },
+      {
+        "index": 3,
+        "step_id": "230890",
+        "dom_id": "sectionLink-230890",
+        "name": "",
+        "title": "MGFs of Exponential Random Variables",
+        "selector": "#sectionLink-230890"
+      },
+      {
+        "index": 4,
+        "step_id": "230893",
+        "dom_id": "sectionLink-230893",
+        "name": "",
+        "title": "MGFs of Normal Random Variables",
+        "selector": "#sectionLink-230893"
+      },
+      {
+        "index": 5,
+        "step_id": "230896",
+        "dom_id": "sectionLink-230896",
+        "name": "",
+        "title": "MGFs of Chi-Square Random Variables",
+        "selector": "#sectionLink-230896"
+      },
+      {
+        "index": 6,
+        "step_id": "230899",
+        "dom_id": "sectionLink-230899",
+        "name": "",
+        "title": "A Summary of the MGFs for Some Important Continuous Distributions",
+        "selector": "#sectionLink-230899"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "444",
+        "name": "Integrating Functions by Completing the Square",
+        "href": "/topics/integrating-functions-by-completing-the-square-444"
+      },
+      {
+        "topic_id": "791",
+        "name": "The Continuous Uniform Distribution",
+        "href": "/topics/the-continuous-uniform-distribution-791"
+      },
+      {
+        "topic_id": "1843",
+        "name": "The Normal Distribution",
+        "href": "/topics/the-normal-distribution-1843"
+      },
+      {
+        "topic_id": "3023",
+        "name": "The Chi-Square Distribution",
+        "href": "/topics/the-chi-square-distribution-3023"
+      },
+      {
+        "topic_id": "3075",
+        "name": "The Gamma Distribution",
+        "href": "/topics/the-gamma-distribution-3075"
+      },
+      {
+        "topic_id": "3288",
+        "name": "Constructing Moment-Generating Functions for Discrete Probability Distributions",
+        "href": "/topics/constructing-moment-generating-functions-for-discrete-probability-distributions-3288"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "230886",
+        "content_id": "10926",
+        "dom_id": "step-230886",
+        "selector": "#step-230886",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "230887",
+        "content_id": "16693",
+        "dom_id": "step-230887",
+        "selector": "#step-230887",
+        "step_anchor": "step-2",
+        "title": "MGFs of Continuous Uniform Random Variables",
+        "key_prerequisites": [
+          {
+            "topic_id": "791",
+            "name": "The Continuous Uniform Distribution",
+            "href": "/topics/791"
+          },
+          {
+            "topic_id": "3401",
+            "name": "Moment-Generating Functions",
+            "href": "/topics/3401"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "256312",
+        "dom_id": "question-256312",
+        "selector": "#question-256312",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "256197",
+        "dom_id": "question-256197",
+        "selector": "#question-256197",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "230890",
+        "content_id": "16694",
+        "dom_id": "step-230890",
+        "selector": "#step-230890",
+        "step_anchor": "step-5",
+        "title": "MGFs of Exponential Random Variables",
+        "key_prerequisites": [
+          {
+            "topic_id": "3074",
+            "name": "The Exponential Distribution",
+            "href": "/topics/3074"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "256357",
+        "dom_id": "question-256357",
+        "selector": "#question-256357",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "256204",
+        "dom_id": "question-256204",
+        "selector": "#question-256204",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "230893",
+        "content_id": "16695",
+        "dom_id": "step-230893",
+        "selector": "#step-230893",
+        "step_anchor": "step-8",
+        "title": "MGFs of Normal Random Variables",
+        "key_prerequisites": [
+          {
+            "topic_id": "444",
+            "name": "Integrating Functions by Completing the Square",
+            "href": "/topics/444"
+          },
+          {
+            "topic_id": "1843",
+            "name": "The Normal Distribution",
+            "href": "/topics/1843"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "256270",
+        "dom_id": "question-256270",
+        "selector": "#question-256270",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "256207",
+        "dom_id": "question-256207",
+        "selector": "#question-256207",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "230896",
+        "content_id": "16696",
+        "dom_id": "step-230896",
+        "selector": "#step-230896",
+        "step_anchor": "step-11",
+        "title": "MGFs of Chi-Square Random Variables",
+        "key_prerequisites": [
+          {
+            "topic_id": "3023",
+            "name": "The Chi-Square Distribution",
+            "href": "/topics/3023"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "256335",
+        "dom_id": "question-256335",
+        "selector": "#question-256335",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "256221",
+        "dom_id": "question-256221",
+        "selector": "#question-256221",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "230899",
+        "content_id": "10948",
+        "dom_id": "step-230899",
+        "selector": "#step-230899",
+        "step_anchor": "step-14",
+        "title": "A Summary of the MGFs for Some Important Continuous Distributions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-230886",
+        "filename": "01-step-230886.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-230887",
+        "filename": "02-step-230887.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-256312",
+        "filename": "03-question-256312.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-256197",
+        "filename": "04-question-256197.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-230890",
+        "filename": "05-step-230890.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-256357",
+        "filename": "06-question-256357.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-256204",
+        "filename": "07-question-256204.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-230893",
+        "filename": "08-step-230893.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-256270",
+        "filename": "09-question-256270.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-256207",
+        "filename": "10-question-256207.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-230896",
+        "filename": "11-step-230896.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-256335",
+        "filename": "12-question-256335.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-256221",
+        "filename": "13-question-256221.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-230899",
+        "filename": "14-step-230899.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,329 @@
+{
+  "schema_version": 1,
+  "topic_id": "3270",
+  "topic_title": "The CDF of the Binomial Distribution",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3270.html",
+  "source_url": "https://mathacademy.com/topics/3270",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "181471",
+        "dom_id": "sectionLink-181471",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-181471"
+      },
+      {
+        "index": 2,
+        "step_id": "181472",
+        "dom_id": "sectionLink-181472",
+        "name": "",
+        "title": "Constructing a Binomial CDF Table",
+        "selector": "#sectionLink-181472"
+      },
+      {
+        "index": 3,
+        "step_id": "181475",
+        "dom_id": "sectionLink-181475",
+        "name": "",
+        "title": "Computing a Binomial Probability Using the CDF",
+        "selector": "#sectionLink-181475"
+      },
+      {
+        "index": 4,
+        "step_id": "181478",
+        "dom_id": "sectionLink-181478",
+        "name": "",
+        "title": "Computing a Binomial Probability Over an Interval Using the CDF",
+        "selector": "#sectionLink-181478"
+      },
+      {
+        "index": 5,
+        "step_id": "181481",
+        "dom_id": "sectionLink-181481",
+        "name": "",
+        "title": "Computing a Binomial Probability Over an Interval Containing a \"Greater Than\" Symbol",
+        "selector": "#sectionLink-181481"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2024",
+        "name": "Cumulative Distribution Functions for Discrete Random Variables",
+        "href": "/topics/cumulative-distribution-functions-for-discrete-random-variables-2024"
+      },
+      {
+        "topic_id": "3281",
+        "name": "The Binomial Distribution",
+        "href": "/topics/the-binomial-distribution-3281"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "181471",
+        "content_id": "9442",
+        "dom_id": "step-181471",
+        "selector": "#step-181471",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "181472",
+        "content_id": "15052",
+        "dom_id": "step-181472",
+        "selector": "#step-181472",
+        "step_anchor": "step-2",
+        "title": "Constructing a Binomial CDF Table",
+        "key_prerequisites": [
+          {
+            "topic_id": "2024",
+            "name": "Cumulative Distribution Functions for Discrete Random Variables",
+            "href": "/topics/2024"
+          },
+          {
+            "topic_id": "3281",
+            "name": "The Binomial Distribution",
+            "href": "/topics/3281"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "224463",
+        "dom_id": "question-224463",
+        "selector": "#question-224463",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "224422",
+        "dom_id": "question-224422",
+        "selector": "#question-224422",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "181475",
+        "content_id": "15054",
+        "dom_id": "step-181475",
+        "selector": "#step-181475",
+        "step_anchor": "step-5",
+        "title": "Computing a Binomial Probability Using the CDF",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "224474",
+        "dom_id": "question-224474",
+        "selector": "#question-224474",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "224465",
+        "dom_id": "question-224465",
+        "selector": "#question-224465",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "181478",
+        "content_id": "15055",
+        "dom_id": "step-181478",
+        "selector": "#step-181478",
+        "step_anchor": "step-8",
+        "title": "Computing a Binomial Probability Over an Interval Using the CDF",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "224467",
+        "dom_id": "question-224467",
+        "selector": "#question-224467",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "224468",
+        "dom_id": "question-224468",
+        "selector": "#question-224468",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "181481",
+        "content_id": "15056",
+        "dom_id": "step-181481",
+        "selector": "#step-181481",
+        "step_anchor": "step-11",
+        "title": "Computing a Binomial Probability Over an Interval Containing a \"Greater Than\" Symbol",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "224469",
+        "dom_id": "question-224469",
+        "selector": "#question-224469",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "224470",
+        "dom_id": "question-224470",
+        "selector": "#question-224470",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-181471",
+        "filename": "01-step-181471.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-181472",
+        "filename": "02-step-181472.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-224463",
+        "filename": "03-question-224463.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-224422",
+        "filename": "04-question-224422.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-181475",
+        "filename": "05-step-181475.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-224474",
+        "filename": "06-question-224474.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-224465",
+        "filename": "07-question-224465.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-181478",
+        "filename": "08-step-181478.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-224467",
+        "filename": "09-question-224467.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-224468",
+        "filename": "10-question-224468.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-181481",
+        "filename": "11-step-181481.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-224469",
+        "filename": "12-question-224469.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-224470",
+        "filename": "13-question-224470.png"
+      }
+    ]
+  }
+}

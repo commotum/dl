@@ -1,0 +1,315 @@
+{
+  "schema_version": 1,
+  "topic_id": "4124",
+  "topic_title": "Log-Likelihood Functions for Discrete Probability Distributions",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/4124.html",
+  "source_url": "https://mathacademy.com/topics/4124",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "42269",
+        "dom_id": "sectionLink-42269",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-42269"
+      },
+      {
+        "index": 2,
+        "step_id": "42317",
+        "dom_id": "sectionLink-42317",
+        "name": "",
+        "title": "Likelihood vs Log-Likelihood",
+        "selector": "#sectionLink-42317"
+      },
+      {
+        "index": 3,
+        "step_id": "38134",
+        "dom_id": "sectionLink-38134",
+        "name": "",
+        "title": "Log-Likelihood Functions for Bernoulli Random Variables",
+        "selector": "#sectionLink-38134"
+      },
+      {
+        "index": 4,
+        "step_id": "42275",
+        "dom_id": "sectionLink-42275",
+        "name": "",
+        "title": "Log-Likelihood Functions for Binomial Random Variables",
+        "selector": "#sectionLink-42275"
+      },
+      {
+        "index": 5,
+        "step_id": "42276",
+        "dom_id": "sectionLink-42276",
+        "name": "",
+        "title": "Log-Likelihood Functions for Poisson Random Variables",
+        "selector": "#sectionLink-42276"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "30",
+        "name": "Combining the Laws of Logarithms",
+        "href": "/topics/combining-the-laws-of-logarithms-30"
+      },
+      {
+        "topic_id": "3603",
+        "name": "Likelihood Functions for Discrete Probability Distributions",
+        "href": "/topics/likelihood-functions-for-discrete-probability-distributions-3603"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "42269",
+        "content_id": "7002",
+        "dom_id": "step-42269",
+        "selector": "#step-42269",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "42317",
+        "content_id": "7015",
+        "dom_id": "step-42317",
+        "selector": "#step-42317",
+        "step_anchor": "step-2",
+        "title": "Likelihood vs Log-Likelihood",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "38134",
+        "content_id": "10112",
+        "dom_id": "step-38134",
+        "selector": "#step-38134",
+        "step_anchor": "step-3",
+        "title": "Log-Likelihood Functions for Bernoulli Random Variables",
+        "key_prerequisites": [
+          {
+            "topic_id": "30",
+            "name": "Combining the Laws of Logarithms",
+            "href": "/topics/30"
+          },
+          {
+            "topic_id": "3071",
+            "name": "The Bernoulli Distribution",
+            "href": "/topics/3071"
+          },
+          {
+            "topic_id": "3603",
+            "name": "Likelihood Functions for Discrete Probability Distributions",
+            "href": "/topics/3603"
+          },
+          {
+            "topic_id": "3958",
+            "name": "Properties of Finite Series",
+            "href": "/topics/3958"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "159769",
+        "dom_id": "question-159769",
+        "selector": "#question-159769",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "143469",
+        "dom_id": "question-143469",
+        "selector": "#question-143469",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "42275",
+        "content_id": "11119",
+        "dom_id": "step-42275",
+        "selector": "#step-42275",
+        "step_anchor": "step-6",
+        "title": "Log-Likelihood Functions for Binomial Random Variables",
+        "key_prerequisites": [
+          {
+            "topic_id": "3281",
+            "name": "The Binomial Distribution",
+            "href": "/topics/3281"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "159771",
+        "dom_id": "question-159771",
+        "selector": "#question-159771",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "143471",
+        "dom_id": "question-143471",
+        "selector": "#question-143471",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "42276",
+        "content_id": "11120",
+        "dom_id": "step-42276",
+        "selector": "#step-42276",
+        "step_anchor": "step-9",
+        "title": "Log-Likelihood Functions for Poisson Random Variables",
+        "key_prerequisites": [
+          {
+            "topic_id": "3282",
+            "name": "The Poisson Distribution",
+            "href": "/topics/3282"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "159772",
+        "dom_id": "question-159772",
+        "selector": "#question-159772",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "143473",
+        "dom_id": "question-143473",
+        "selector": "#question-143473",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-42269",
+        "filename": "01-step-42269.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-42317",
+        "filename": "02-step-42317.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-38134",
+        "filename": "03-step-38134.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-159769",
+        "filename": "04-question-159769.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-143469",
+        "filename": "05-question-143469.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-42275",
+        "filename": "06-step-42275.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-159771",
+        "filename": "07-question-159771.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-143471",
+        "filename": "08-question-143471.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-42276",
+        "filename": "09-step-42276.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-159772",
+        "filename": "10-question-159772.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-143473",
+        "filename": "11-question-143473.png"
+      }
+    ]
+  }
+}

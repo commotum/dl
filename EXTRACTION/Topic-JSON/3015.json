@@ -1,0 +1,406 @@
+{
+  "schema_version": 1,
+  "topic_id": "3015",
+  "topic_title": "Testing Binomial Models Using Chi-Square Goodness-of-Fit",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3015.html",
+  "source_url": "https://mathacademy.com/topics/3015",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "226045",
+        "dom_id": "sectionLink-226045",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-226045"
+      },
+      {
+        "index": 2,
+        "step_id": "226046",
+        "dom_id": "sectionLink-226046",
+        "name": "",
+        "title": "Calculating Expected Frequencies",
+        "selector": "#sectionLink-226046"
+      },
+      {
+        "index": 3,
+        "step_id": "226049",
+        "dom_id": "sectionLink-226049",
+        "name": "",
+        "title": "Estimating a Binomial Probability",
+        "selector": "#sectionLink-226049"
+      },
+      {
+        "index": 4,
+        "step_id": "226050",
+        "dom_id": "sectionLink-226050",
+        "name": "",
+        "title": "Estimating a Binomial Probability From Sample Data",
+        "selector": "#sectionLink-226050"
+      },
+      {
+        "index": 5,
+        "step_id": "226053",
+        "dom_id": "sectionLink-226053",
+        "name": "",
+        "title": "The Chi-Square Test",
+        "selector": "#sectionLink-226053"
+      },
+      {
+        "index": 6,
+        "step_id": "226054",
+        "dom_id": "sectionLink-226054",
+        "name": "",
+        "title": "Carrying Out a Chi-Square Test",
+        "selector": "#sectionLink-226054"
+      },
+      {
+        "index": 7,
+        "step_id": "226057",
+        "dom_id": "sectionLink-226057",
+        "name": "",
+        "title": "Cases Where Regrouping is Needed",
+        "selector": "#sectionLink-226057"
+      },
+      {
+        "index": 8,
+        "step_id": "226058",
+        "dom_id": "sectionLink-226058",
+        "name": "",
+        "title": "Carrying Out a Chi-Square Test (Regrouping Needed)",
+        "selector": "#sectionLink-226058"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3014",
+        "name": "Introduction to Chi-Square Goodness-of-Fit",
+        "href": "/topics/introduction-to-chi-square-goodness-of-fit-3014"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 16,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "226045",
+        "content_id": "5656",
+        "dom_id": "step-226045",
+        "selector": "#step-226045",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "226046",
+        "content_id": "16476",
+        "dom_id": "step-226046",
+        "selector": "#step-226046",
+        "step_anchor": "step-2",
+        "title": "Calculating Expected Frequencies",
+        "key_prerequisites": [
+          {
+            "topic_id": "1395",
+            "name": "Modeling With the Binomial Distribution",
+            "href": "/topics/1395"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "252588",
+        "dom_id": "question-252588",
+        "selector": "#question-252588",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "252655",
+        "dom_id": "question-252655",
+        "selector": "#question-252655",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "226049",
+        "content_id": "10831",
+        "dom_id": "step-226049",
+        "selector": "#step-226049",
+        "step_anchor": "step-5",
+        "title": "Estimating a Binomial Probability",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "226050",
+        "content_id": "9353",
+        "dom_id": "step-226050",
+        "selector": "#step-226050",
+        "step_anchor": "step-6",
+        "title": "Estimating a Binomial Probability From Sample Data",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "252628",
+        "dom_id": "question-252628",
+        "selector": "#question-252628",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "117586",
+        "dom_id": "question-117586",
+        "selector": "#question-117586",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "226053",
+        "content_id": "10832",
+        "dom_id": "step-226053",
+        "selector": "#step-226053",
+        "step_anchor": "step-9",
+        "title": "The Chi-Square Test",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "226054",
+        "content_id": "9322",
+        "dom_id": "step-226054",
+        "selector": "#step-226054",
+        "step_anchor": "step-10",
+        "title": "Carrying Out a Chi-Square Test",
+        "key_prerequisites": [
+          {
+            "topic_id": "3014",
+            "name": "Introduction to Chi-Square Goodness-of-Fit",
+            "href": "/topics/3014"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "252589",
+        "dom_id": "question-252589",
+        "selector": "#question-252589",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "252593",
+        "dom_id": "question-252593",
+        "selector": "#question-252593",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "226057",
+        "content_id": "10833",
+        "dom_id": "step-226057",
+        "selector": "#step-226057",
+        "step_anchor": "step-13",
+        "title": "Cases Where Regrouping is Needed",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "226058",
+        "content_id": "9323",
+        "dom_id": "step-226058",
+        "selector": "#step-226058",
+        "step_anchor": "step-14",
+        "title": "Carrying Out a Chi-Square Test (Regrouping Needed)",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "252595",
+        "dom_id": "question-252595",
+        "selector": "#question-252595",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "252594",
+        "dom_id": "question-252594",
+        "selector": "#question-252594",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-226045",
+        "filename": "01-step-226045.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-226046",
+        "filename": "02-step-226046.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-252588",
+        "filename": "03-question-252588.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-252655",
+        "filename": "04-question-252655.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-226049",
+        "filename": "05-step-226049.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-226050",
+        "filename": "06-step-226050.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-252628",
+        "filename": "07-question-252628.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-117586",
+        "filename": "08-question-117586.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-226053",
+        "filename": "09-step-226053.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-226054",
+        "filename": "10-step-226054.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-252589",
+        "filename": "11-question-252589.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-252593",
+        "filename": "12-question-252593.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-226057",
+        "filename": "13-step-226057.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-226058",
+        "filename": "14-step-226058.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-252595",
+        "filename": "15-question-252595.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-252594",
+        "filename": "16-question-252594.png"
+      }
+    ]
+  }
+}

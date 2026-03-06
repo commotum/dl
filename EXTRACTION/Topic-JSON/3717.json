@@ -1,0 +1,434 @@
+{
+  "schema_version": 1,
+  "topic_id": "3717",
+  "topic_title": "Stream Functions",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3717.html",
+  "source_url": "https://mathacademy.com/topics/3717",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "35867",
+        "dom_id": "sectionLink-35867",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-35867"
+      },
+      {
+        "index": 2,
+        "step_id": "44491",
+        "dom_id": "sectionLink-44491",
+        "name": "",
+        "title": "Constructing a Vector Field From Its Stream Function",
+        "selector": "#sectionLink-44491"
+      },
+      {
+        "index": 3,
+        "step_id": "44836",
+        "dom_id": "sectionLink-44836",
+        "name": "",
+        "title": "An Existence Condition for Stream Functions",
+        "selector": "#sectionLink-44836"
+      },
+      {
+        "index": 4,
+        "step_id": "44492",
+        "dom_id": "sectionLink-44492",
+        "name": "",
+        "title": "Determining Cases Where a Stream Function Exists",
+        "selector": "#sectionLink-44492"
+      },
+      {
+        "index": 5,
+        "step_id": "44700",
+        "dom_id": "sectionLink-44700",
+        "name": "",
+        "title": "Calculating a Stream Function From Its Vector Field",
+        "selector": "#sectionLink-44700"
+      },
+      {
+        "index": 6,
+        "step_id": "44750",
+        "dom_id": "sectionLink-44750",
+        "name": "",
+        "title": "Determining a Stream Function for a Vector Field",
+        "selector": "#sectionLink-44750"
+      },
+      {
+        "index": 7,
+        "step_id": "44698",
+        "dom_id": "sectionLink-44698",
+        "name": "",
+        "title": "Finding Streamlines of Vector Fields",
+        "selector": "#sectionLink-44698"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1061",
+        "name": "Solving First-Order ODEs Using Direct Integration",
+        "href": "/topics/solving-first-order-odes-using-direct-integration-1061"
+      },
+      {
+        "topic_id": "1940",
+        "name": "Tangent Lines to Level Curves",
+        "href": "/topics/tangent-lines-to-level-curves-1940"
+      },
+      {
+        "topic_id": "1957",
+        "name": "Equality of Mixed Partial Derivatives",
+        "href": "/topics/equality-of-mixed-partial-derivatives-1957"
+      },
+      {
+        "topic_id": "3344",
+        "name": "Visualizing Vector Fields",
+        "href": "/topics/visualizing-vector-fields-3344"
+      },
+      {
+        "topic_id": "3357",
+        "name": "Connected and Simply-Connected Regions",
+        "href": "/topics/connected-and-simply-connected-regions-3357"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 16,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "35867",
+        "content_id": "5856",
+        "dom_id": "step-35867",
+        "selector": "#step-35867",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44491",
+        "content_id": "12395",
+        "dom_id": "step-44491",
+        "selector": "#step-44491",
+        "step_anchor": "step-2",
+        "title": "Constructing a Vector Field From Its Stream Function",
+        "key_prerequisites": [
+          {
+            "topic_id": "1940",
+            "name": "Tangent Lines to Level Curves",
+            "href": "/topics/1940"
+          },
+          {
+            "topic_id": "3343",
+            "name": "Vector Fields",
+            "href": "/topics/3343"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "161434",
+        "dom_id": "question-161434",
+        "selector": "#question-161434",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "162514",
+        "dom_id": "question-162514",
+        "selector": "#question-162514",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44836",
+        "content_id": "7744",
+        "dom_id": "step-44836",
+        "selector": "#step-44836",
+        "step_anchor": "step-5",
+        "title": "An Existence Condition for Stream Functions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44492",
+        "content_id": "12396",
+        "dom_id": "step-44492",
+        "selector": "#step-44492",
+        "step_anchor": "step-6",
+        "title": "Determining Cases Where a Stream Function Exists",
+        "key_prerequisites": [
+          {
+            "topic_id": "3357",
+            "name": "Connected and Simply-Connected Regions",
+            "href": "/topics/3357"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "161436",
+        "dom_id": "question-161436",
+        "selector": "#question-161436",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "162640",
+        "dom_id": "question-162640",
+        "selector": "#question-162640",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44700",
+        "content_id": "7704",
+        "dom_id": "step-44700",
+        "selector": "#step-44700",
+        "step_anchor": "step-9",
+        "title": "Calculating a Stream Function From Its Vector Field",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44750",
+        "content_id": "12446",
+        "dom_id": "step-44750",
+        "selector": "#step-44750",
+        "step_anchor": "step-10",
+        "title": "Determining a Stream Function for a Vector Field",
+        "key_prerequisites": [
+          {
+            "topic_id": "1061",
+            "name": "Solving First-Order ODEs Using Direct Integration",
+            "href": "/topics/1061"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "126829",
+        "dom_id": "question-126829",
+        "selector": "#question-126829",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "161437",
+        "dom_id": "question-161437",
+        "selector": "#question-161437",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44698",
+        "content_id": "12439",
+        "dom_id": "step-44698",
+        "selector": "#step-44698",
+        "step_anchor": "step-13",
+        "title": "Finding Streamlines of Vector Fields",
+        "key_prerequisites": [
+          {
+            "topic_id": "3344",
+            "name": "Visualizing Vector Fields",
+            "href": "/topics/3344"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "162148",
+        "dom_id": "question-162148",
+        "selector": "#question-162148",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "162209",
+        "dom_id": "question-162209",
+        "selector": "#question-162209",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "162160",
+        "dom_id": "question-162160",
+        "selector": "#question-162160",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-35867",
+        "filename": "01-step-35867.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-44491",
+        "filename": "02-step-44491.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-161434",
+        "filename": "03-question-161434.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-162514",
+        "filename": "04-question-162514.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-44836",
+        "filename": "05-step-44836.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-44492",
+        "filename": "06-step-44492.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-161436",
+        "filename": "07-question-161436.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-162640",
+        "filename": "08-question-162640.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-44700",
+        "filename": "09-step-44700.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-44750",
+        "filename": "10-step-44750.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-126829",
+        "filename": "11-question-126829.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-161437",
+        "filename": "12-question-161437.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-44698",
+        "filename": "13-step-44698.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-162148",
+        "filename": "14-question-162148.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-162209",
+        "filename": "15-question-162209.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-162160",
+        "filename": "16-question-162160.png"
+      }
+    ]
+  }
+}

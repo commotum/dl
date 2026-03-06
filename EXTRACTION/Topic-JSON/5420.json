@@ -1,0 +1,310 @@
+{
+  "schema_version": 1,
+  "topic_id": "5420",
+  "topic_title": "Processing Strings Using Turing Machines",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/5420.html",
+  "source_url": "https://mathacademy.com/topics/5420",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "420718",
+        "dom_id": "sectionLink-420718",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-420718"
+      },
+      {
+        "index": 2,
+        "step_id": "420719",
+        "dom_id": "sectionLink-420719",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-420719"
+      },
+      {
+        "index": 3,
+        "step_id": "420720",
+        "dom_id": "sectionLink-420720",
+        "name": "",
+        "title": "Applying a Turing Machine to a String Using a Transition Diagram",
+        "selector": "#sectionLink-420720"
+      },
+      {
+        "index": 4,
+        "step_id": "420723",
+        "dom_id": "sectionLink-420723",
+        "name": "",
+        "title": "Applying a Turing Machine to a String Using a Transition Table",
+        "selector": "#sectionLink-420723"
+      },
+      {
+        "index": 5,
+        "step_id": "420726",
+        "dom_id": "sectionLink-420726",
+        "name": "",
+        "title": "Instantaneous Descriptions",
+        "selector": "#sectionLink-420726"
+      },
+      {
+        "index": 6,
+        "step_id": "420727",
+        "dom_id": "sectionLink-420727",
+        "name": "",
+        "title": "Applying a Turing Machine to a String Using Instantaneous Descriptions",
+        "selector": "#sectionLink-420727"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3802",
+        "name": "Introduction to Turing Machines",
+        "href": "/topics/introduction-to-turing-machines-3802"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "420718",
+        "content_id": "9992",
+        "dom_id": "step-420718",
+        "selector": "#step-420718",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "420719",
+        "content_id": "11640",
+        "dom_id": "step-420719",
+        "selector": "#step-420719",
+        "step_anchor": "step-2",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "420720",
+        "content_id": "15698",
+        "dom_id": "step-420720",
+        "selector": "#step-420720",
+        "step_anchor": "step-3",
+        "title": "Applying a Turing Machine to a String Using a Transition Diagram",
+        "key_prerequisites": [
+          {
+            "topic_id": "3802",
+            "name": "Introduction to Turing Machines",
+            "href": "/topics/3802"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "258782",
+        "dom_id": "question-258782",
+        "selector": "#question-258782",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "238162",
+        "dom_id": "question-238162",
+        "selector": "#question-238162",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "420723",
+        "content_id": "15700",
+        "dom_id": "step-420723",
+        "selector": "#step-420723",
+        "step_anchor": "step-6",
+        "title": "Applying a Turing Machine to a String Using a Transition Table",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "259073",
+        "dom_id": "question-259073",
+        "selector": "#question-259073",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "238163",
+        "dom_id": "question-238163",
+        "selector": "#question-238163",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "420726",
+        "content_id": "10022",
+        "dom_id": "step-420726",
+        "selector": "#step-420726",
+        "step_anchor": "step-9",
+        "title": "Instantaneous Descriptions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "420727",
+        "content_id": "15701",
+        "dom_id": "step-420727",
+        "selector": "#step-420727",
+        "step_anchor": "step-10",
+        "title": "Applying a Turing Machine to a String Using Instantaneous Descriptions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "238186",
+        "dom_id": "question-238186",
+        "selector": "#question-238186",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "259198",
+        "dom_id": "question-259198",
+        "selector": "#question-259198",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-420718",
+        "filename": "01-step-420718.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-420719",
+        "filename": "02-step-420719.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-420720",
+        "filename": "03-step-420720.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-258782",
+        "filename": "04-question-258782.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-238162",
+        "filename": "05-question-238162.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-420723",
+        "filename": "06-step-420723.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-259073",
+        "filename": "07-question-259073.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-238163",
+        "filename": "08-question-238163.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-420726",
+        "filename": "09-step-420726.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-420727",
+        "filename": "10-step-420727.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-238186",
+        "filename": "11-question-238186.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-259198",
+        "filename": "12-question-259198.png"
+      }
+    ]
+  }
+}

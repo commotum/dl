@@ -1,0 +1,315 @@
+{
+  "schema_version": 1,
+  "topic_id": "3820",
+  "topic_title": "The Sample Variance",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3820.html",
+  "source_url": "https://mathacademy.com/topics/3820",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "38668",
+        "dom_id": "sectionLink-38668",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-38668"
+      },
+      {
+        "index": 2,
+        "step_id": "37321",
+        "dom_id": "sectionLink-37321",
+        "name": "",
+        "title": "Computing an Estimate of the Population Variance",
+        "selector": "#sectionLink-37321"
+      },
+      {
+        "index": 3,
+        "step_id": "29346",
+        "dom_id": "sectionLink-29346",
+        "name": "",
+        "title": "Computing an Estimate of the Population Variance Using the Alternative Formula",
+        "selector": "#sectionLink-29346"
+      },
+      {
+        "index": 4,
+        "step_id": "29345",
+        "dom_id": "sectionLink-29345",
+        "name": "",
+        "title": "Estimating the Population Variance From Sample Data",
+        "selector": "#sectionLink-29345"
+      },
+      {
+        "index": 5,
+        "step_id": "38675",
+        "dom_id": "sectionLink-38675",
+        "name": "",
+        "title": "Proof of the Alternative Formula",
+        "selector": "#sectionLink-38675"
+      },
+      {
+        "index": 6,
+        "step_id": "36799",
+        "dom_id": "sectionLink-36799",
+        "name": "",
+        "title": "Proof That the Sample Variance Is an Unbiased Estimator",
+        "selector": "#sectionLink-36799"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3013",
+        "name": "Variance of Sample Means",
+        "href": "/topics/variance-of-sample-means-3013"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "38668",
+        "content_id": "6392",
+        "dom_id": "step-38668",
+        "selector": "#step-38668",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "37321",
+        "content_id": "9921",
+        "dom_id": "step-37321",
+        "selector": "#step-37321",
+        "step_anchor": "step-2",
+        "title": "Computing an Estimate of the Population Variance",
+        "key_prerequisites": [
+          {
+            "topic_id": "1632",
+            "name": "Variance and Standard Deviation",
+            "href": "/topics/1632"
+          },
+          {
+            "topic_id": "3864",
+            "name": "Sampling Distributions",
+            "href": "/topics/3864"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "139799",
+        "dom_id": "question-139799",
+        "selector": "#question-139799",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "139800",
+        "dom_id": "question-139800",
+        "selector": "#question-139800",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "29346",
+        "content_id": "7881",
+        "dom_id": "step-29346",
+        "selector": "#step-29346",
+        "step_anchor": "step-5",
+        "title": "Computing an Estimate of the Population Variance Using the Alternative Formula",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "88855",
+        "dom_id": "question-88855",
+        "selector": "#question-88855",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "88859",
+        "dom_id": "question-88859",
+        "selector": "#question-88859",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "29345",
+        "content_id": "7880",
+        "dom_id": "step-29345",
+        "selector": "#step-29345",
+        "step_anchor": "step-8",
+        "title": "Estimating the Population Variance From Sample Data",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "88857",
+        "dom_id": "question-88857",
+        "selector": "#question-88857",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "88860",
+        "dom_id": "question-88860",
+        "selector": "#question-88860",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "38675",
+        "content_id": "6397",
+        "dom_id": "step-38675",
+        "selector": "#step-38675",
+        "step_anchor": "step-11",
+        "title": "Proof of the Alternative Formula",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "36799",
+        "content_id": "6032",
+        "dom_id": "step-36799",
+        "selector": "#step-36799",
+        "step_anchor": "step-12",
+        "title": "Proof That the Sample Variance Is an Unbiased Estimator",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-38668",
+        "filename": "01-step-38668.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-37321",
+        "filename": "02-step-37321.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-139799",
+        "filename": "03-question-139799.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-139800",
+        "filename": "04-question-139800.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-29346",
+        "filename": "05-step-29346.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-88855",
+        "filename": "06-question-88855.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-88859",
+        "filename": "07-question-88859.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-29345",
+        "filename": "08-step-29345.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-88857",
+        "filename": "09-question-88857.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-88860",
+        "filename": "10-question-88860.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-38675",
+        "filename": "11-step-38675.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-36799",
+        "filename": "12-step-36799.png"
+      }
+    ]
+  }
+}

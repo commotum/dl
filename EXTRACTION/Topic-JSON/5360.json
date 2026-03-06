@@ -1,0 +1,300 @@
+{
+  "schema_version": 1,
+  "topic_id": "5360",
+  "topic_title": "One-Factor Analysis of Variance",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/5360.html",
+  "source_url": "https://mathacademy.com/topics/5360",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "229850",
+        "dom_id": "sectionLink-229850",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-229850"
+      },
+      {
+        "index": 2,
+        "step_id": "229851",
+        "dom_id": "sectionLink-229851",
+        "name": "",
+        "title": "The One-Factor ANOVA Table",
+        "selector": "#sectionLink-229851"
+      },
+      {
+        "index": 3,
+        "step_id": "229852",
+        "dom_id": "sectionLink-229852",
+        "name": "",
+        "title": "Completing a One-Factor ANOVA Table",
+        "selector": "#sectionLink-229852"
+      },
+      {
+        "index": 4,
+        "step_id": "229855",
+        "dom_id": "sectionLink-229855",
+        "name": "",
+        "title": "The Distribution of the F-Ratio",
+        "selector": "#sectionLink-229855"
+      },
+      {
+        "index": 5,
+        "step_id": "229856",
+        "dom_id": "sectionLink-229856",
+        "name": "",
+        "title": "Conducting a One-Factor ANOVA Test",
+        "selector": "#sectionLink-229856"
+      },
+      {
+        "index": 6,
+        "step_id": "229857",
+        "dom_id": "sectionLink-229857",
+        "name": "",
+        "title": "Testing a Hypothesis Using ANOVA",
+        "selector": "#sectionLink-229857"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3060",
+        "name": "The F-Distribution",
+        "href": "/topics/the-f-distribution-3060"
+      },
+      {
+        "topic_id": "3313",
+        "name": "Hypothesis Tests for Two Means: Equal But Unknown Population Variances",
+        "href": "/topics/hypothesis-tests-for-two-means-equal-but-unknown-population-variances-3313"
+      },
+      {
+        "topic_id": "5365",
+        "name": "The Relationship Between SSW, SSB, SST",
+        "href": "/topics/the-relationship-between-ssw-ssb-sst-5365"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 10,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "229850",
+        "content_id": "9927",
+        "dom_id": "step-229850",
+        "selector": "#step-229850",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "229851",
+        "content_id": "10869",
+        "dom_id": "step-229851",
+        "selector": "#step-229851",
+        "step_anchor": "step-2",
+        "title": "The One-Factor ANOVA Table",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "229852",
+        "content_id": "15639",
+        "dom_id": "step-229852",
+        "selector": "#step-229852",
+        "step_anchor": "step-3",
+        "title": "Completing a One-Factor ANOVA Table",
+        "key_prerequisites": [
+          {
+            "topic_id": "3315",
+            "name": "One-Factor Within Groups and Between Groups Variation",
+            "href": "/topics/3315"
+          },
+          {
+            "topic_id": "5365",
+            "name": "The Relationship Between SSW, SSB, SST",
+            "href": "/topics/5365"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "237413",
+        "dom_id": "question-237413",
+        "selector": "#question-237413",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "252396",
+        "dom_id": "question-252396",
+        "selector": "#question-252396",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "229855",
+        "content_id": "10872",
+        "dom_id": "step-229855",
+        "selector": "#step-229855",
+        "step_anchor": "step-6",
+        "title": "The Distribution of the F-Ratio",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "229856",
+        "content_id": "10874",
+        "dom_id": "step-229856",
+        "selector": "#step-229856",
+        "step_anchor": "step-7",
+        "title": "Conducting a One-Factor ANOVA Test",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "229857",
+        "content_id": "15640",
+        "dom_id": "step-229857",
+        "selector": "#step-229857",
+        "step_anchor": "step-8",
+        "title": "Testing a Hypothesis Using ANOVA",
+        "key_prerequisites": [
+          {
+            "topic_id": "3060",
+            "name": "The F-Distribution",
+            "href": "/topics/3060"
+          },
+          {
+            "topic_id": "3313",
+            "name": "Hypothesis Tests for Two Means: Equal But Unknown Population Variances",
+            "href": "/topics/3313"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "252372",
+        "dom_id": "question-252372",
+        "selector": "#question-252372",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "252478",
+        "dom_id": "question-252478",
+        "selector": "#question-252478",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-229850",
+        "filename": "01-step-229850.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-229851",
+        "filename": "02-step-229851.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-229852",
+        "filename": "03-step-229852.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-237413",
+        "filename": "04-question-237413.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-252396",
+        "filename": "05-question-252396.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-229855",
+        "filename": "06-step-229855.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-229856",
+        "filename": "07-step-229856.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-229857",
+        "filename": "08-step-229857.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-252372",
+        "filename": "09-question-252372.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-252478",
+        "filename": "10-question-252478.png"
+      }
+    ]
+  }
+}

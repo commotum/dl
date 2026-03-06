@@ -1,0 +1,470 @@
+{
+  "schema_version": 1,
+  "topic_id": "4342",
+  "topic_title": "The Limit of a Null Sequence",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/4342.html",
+  "source_url": "https://mathacademy.com/topics/4342",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "154338",
+        "dom_id": "sectionLink-154338",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-154338"
+      },
+      {
+        "index": 2,
+        "step_id": "154339",
+        "dom_id": "sectionLink-154339",
+        "name": "",
+        "title": "Identifying Null Sequences",
+        "selector": "#sectionLink-154339"
+      },
+      {
+        "index": 3,
+        "step_id": "154342",
+        "dom_id": "sectionLink-154342",
+        "name": "",
+        "title": "Finding an Index Whose Subsequent Terms Are Close to Zero",
+        "selector": "#sectionLink-154342"
+      },
+      {
+        "index": 4,
+        "step_id": "154343",
+        "dom_id": "sectionLink-154343",
+        "name": "",
+        "title": "Finding N Given a Concrete Epsilon",
+        "selector": "#sectionLink-154343"
+      },
+      {
+        "index": 5,
+        "step_id": "154347",
+        "dom_id": "sectionLink-154347",
+        "name": "",
+        "title": "Further Discussion of a Prior Result",
+        "selector": "#sectionLink-154347"
+      },
+      {
+        "index": 6,
+        "step_id": "154348",
+        "dom_id": "sectionLink-154348",
+        "name": "",
+        "title": "The Definition of the Limit of a Null Sequence",
+        "selector": "#sectionLink-154348"
+      },
+      {
+        "index": 7,
+        "step_id": "154349",
+        "dom_id": "sectionLink-154349",
+        "name": "",
+        "title": "Constructing the Definition of a Limit",
+        "selector": "#sectionLink-154349"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "250",
+        "name": "Conditional Statements",
+        "href": "/topics/conditional-statements-250"
+      },
+      {
+        "topic_id": "290",
+        "name": "The Floor and Ceiling Functions",
+        "href": "/topics/the-floor-and-ceiling-functions-290"
+      },
+      {
+        "topic_id": "1004",
+        "name": "Solving Inequalities Involving Geometric Sequences",
+        "href": "/topics/solving-inequalities-involving-geometric-sequences-1004"
+      },
+      {
+        "topic_id": "1087",
+        "name": "Limits of Sequences",
+        "href": "/topics/limits-of-sequences-1087"
+      },
+      {
+        "topic_id": "1088",
+        "name": "Convergence of Geometric Sequences",
+        "href": "/topics/convergence-of-geometric-sequences-1088"
+      },
+      {
+        "topic_id": "1986",
+        "name": "Limits of Radical Functions",
+        "href": "/topics/limits-of-radical-functions-1986"
+      },
+      {
+        "topic_id": "2792",
+        "name": "Nested Quantifiers",
+        "href": "/topics/nested-quantifiers-2792"
+      },
+      {
+        "topic_id": "2798",
+        "name": "Formal and Informal Language",
+        "href": "/topics/formal-and-informal-language-2798"
+      },
+      {
+        "topic_id": "2856",
+        "name": "Solving Radical Inequalities",
+        "href": "/topics/solving-radical-inequalities-2856"
+      },
+      {
+        "topic_id": "3355",
+        "name": "Solving Rational Inequalities",
+        "href": "/topics/solving-rational-inequalities-3355"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "154338",
+        "content_id": "8179",
+        "dom_id": "step-154338",
+        "selector": "#step-154338",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "154339",
+        "content_id": "13074",
+        "dom_id": "step-154339",
+        "selector": "#step-154339",
+        "step_anchor": "step-2",
+        "title": "Identifying Null Sequences",
+        "key_prerequisites": [
+          {
+            "topic_id": "1087",
+            "name": "Limits of Sequences",
+            "href": "/topics/1087"
+          },
+          {
+            "topic_id": "1088",
+            "name": "Convergence of Geometric Sequences",
+            "href": "/topics/1088"
+          },
+          {
+            "topic_id": "1986",
+            "name": "Limits of Radical Functions",
+            "href": "/topics/1986"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "181433",
+        "dom_id": "question-181433",
+        "selector": "#question-181433",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "179369",
+        "dom_id": "question-179369",
+        "selector": "#question-179369",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "154342",
+        "content_id": "8143",
+        "dom_id": "step-154342",
+        "selector": "#step-154342",
+        "step_anchor": "step-5",
+        "title": "Finding an Index Whose Subsequent Terms Are Close to Zero",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "154343",
+        "content_id": "13080",
+        "dom_id": "step-154343",
+        "selector": "#step-154343",
+        "step_anchor": "step-6",
+        "title": "Finding N Given a Concrete Epsilon",
+        "key_prerequisites": [
+          {
+            "topic_id": "290",
+            "name": "The Floor and Ceiling Functions",
+            "href": "/topics/290"
+          },
+          {
+            "topic_id": "1004",
+            "name": "Solving Inequalities Involving Geometric Sequences",
+            "href": "/topics/1004"
+          },
+          {
+            "topic_id": "1495",
+            "name": "Solving Elementary Quadratic Inequalities",
+            "href": "/topics/1495"
+          },
+          {
+            "topic_id": "2856",
+            "name": "Solving Radical Inequalities",
+            "href": "/topics/2856"
+          },
+          {
+            "topic_id": "3355",
+            "name": "Solving Rational Inequalities",
+            "href": "/topics/3355"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "179527",
+        "dom_id": "question-179527",
+        "selector": "#question-179527",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "179555",
+        "dom_id": "question-179555",
+        "selector": "#question-179555",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "181120",
+        "dom_id": "question-181120",
+        "selector": "#question-181120",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "154347",
+        "content_id": "9216",
+        "dom_id": "step-154347",
+        "selector": "#step-154347",
+        "step_anchor": "step-10",
+        "title": "Further Discussion of a Prior Result",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "154348",
+        "content_id": "8180",
+        "dom_id": "step-154348",
+        "selector": "#step-154348",
+        "step_anchor": "step-11",
+        "title": "The Definition of the Limit of a Null Sequence",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "154349",
+        "content_id": "13024",
+        "dom_id": "step-154349",
+        "selector": "#step-154349",
+        "step_anchor": "step-12",
+        "title": "Constructing the Definition of a Limit",
+        "key_prerequisites": [
+          {
+            "topic_id": "250",
+            "name": "Conditional Statements",
+            "href": "/topics/250"
+          },
+          {
+            "topic_id": "2792",
+            "name": "Nested Quantifiers",
+            "href": "/topics/2792"
+          },
+          {
+            "topic_id": "2798",
+            "name": "Formal and Informal Language",
+            "href": "/topics/2798"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "178358",
+        "dom_id": "question-178358",
+        "selector": "#question-178358",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "180100",
+        "dom_id": "question-180100",
+        "selector": "#question-180100",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "178516",
+        "dom_id": "question-178516",
+        "selector": "#question-178516",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-154338",
+        "filename": "01-step-154338.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-154339",
+        "filename": "02-step-154339.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-181433",
+        "filename": "03-question-181433.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-179369",
+        "filename": "04-question-179369.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-154342",
+        "filename": "05-step-154342.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-154343",
+        "filename": "06-step-154343.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-179527",
+        "filename": "07-question-179527.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-179555",
+        "filename": "08-question-179555.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-181120",
+        "filename": "09-question-181120.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-154347",
+        "filename": "10-step-154347.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-154348",
+        "filename": "11-step-154348.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-154349",
+        "filename": "12-step-154349.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-178358",
+        "filename": "13-question-178358.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-180100",
+        "filename": "14-question-180100.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-178516",
+        "filename": "15-question-178516.png"
+      }
+    ]
+  }
+}

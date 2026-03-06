@@ -1,0 +1,288 @@
+{
+  "schema_version": 1,
+  "topic_id": "3278",
+  "topic_title": "Singular Value Decomposition of 2x2 Matrices With Zero or Repeated Eigenvalues",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3278.html",
+  "source_url": "https://mathacademy.com/topics/3278",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "31418",
+        "dom_id": "sectionLink-31418",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-31418"
+      },
+      {
+        "index": 2,
+        "step_id": "31420",
+        "dom_id": "sectionLink-31420",
+        "name": "",
+        "title": "Finding the Columns of the First Matrix Given Part of an SVD With a Zero Eigenvalue",
+        "selector": "#sectionLink-31420"
+      },
+      {
+        "index": 3,
+        "step_id": "31421",
+        "dom_id": "sectionLink-31421",
+        "name": "",
+        "title": "The Singular Value Decomposition of a 2x2 Matrix With a Zero Eigenvalue",
+        "selector": "#sectionLink-31421"
+      },
+      {
+        "index": 4,
+        "step_id": "31529",
+        "dom_id": "sectionLink-31529",
+        "name": "",
+        "title": "Singular Value Decomposition of 2x2 Matrices With Repeated Eigenvalues",
+        "selector": "#sectionLink-31529"
+      },
+      {
+        "index": 5,
+        "step_id": "31419",
+        "dom_id": "sectionLink-31419",
+        "name": "",
+        "title": "The Singular Value Decomposition of a 2x2 Matrix With Repeated Eigenvalues",
+        "selector": "#sectionLink-31419"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3132",
+        "name": "Singular Value Decomposition of 2x2 Matrices",
+        "href": "/topics/singular-value-decomposition-of-2x2-matrices-3132"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "31418",
+        "content_id": "5024",
+        "dom_id": "step-31418",
+        "selector": "#step-31418",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "31420",
+        "content_id": "8438",
+        "dom_id": "step-31420",
+        "selector": "#step-31420",
+        "step_anchor": "step-2",
+        "title": "Finding the Columns of the First Matrix Given Part of an SVD With a Zero Eigenvalue",
+        "key_prerequisites": [
+          {
+            "topic_id": "2099",
+            "name": "Orthogonal Vectors in Euclidean Spaces",
+            "href": "/topics/2099"
+          },
+          {
+            "topic_id": "3132",
+            "name": "Singular Value Decomposition of 2x2 Matrices",
+            "href": "/topics/3132"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "96278",
+        "dom_id": "question-96278",
+        "selector": "#question-96278",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "95731",
+        "dom_id": "question-95731",
+        "selector": "#question-95731",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "31421",
+        "content_id": "8439",
+        "dom_id": "step-31421",
+        "selector": "#step-31421",
+        "step_anchor": "step-5",
+        "title": "The Singular Value Decomposition of a 2x2 Matrix With a Zero Eigenvalue",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "96351",
+        "dom_id": "question-96351",
+        "selector": "#question-96351",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "95921",
+        "dom_id": "question-95921",
+        "selector": "#question-95921",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "31529",
+        "content_id": "5040",
+        "dom_id": "step-31529",
+        "selector": "#step-31529",
+        "step_anchor": "step-8",
+        "title": "Singular Value Decomposition of 2x2 Matrices With Repeated Eigenvalues",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "31419",
+        "content_id": "8437",
+        "dom_id": "step-31419",
+        "selector": "#step-31419",
+        "step_anchor": "step-9",
+        "title": "The Singular Value Decomposition of a 2x2 Matrix With Repeated Eigenvalues",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "95913",
+        "dom_id": "question-95913",
+        "selector": "#question-95913",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "96434",
+        "dom_id": "question-96434",
+        "selector": "#question-96434",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-31418",
+        "filename": "01-step-31418.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-31420",
+        "filename": "02-step-31420.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-96278",
+        "filename": "03-question-96278.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-95731",
+        "filename": "04-question-95731.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-31421",
+        "filename": "05-step-31421.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-96351",
+        "filename": "06-question-96351.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-95921",
+        "filename": "07-question-95921.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-31529",
+        "filename": "08-step-31529.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-31419",
+        "filename": "09-step-31419.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-95913",
+        "filename": "10-question-95913.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-96434",
+        "filename": "11-question-96434.png"
+      }
+    ]
+  }
+}

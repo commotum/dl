@@ -1,0 +1,337 @@
+{
+  "schema_version": 1,
+  "topic_id": "2110",
+  "topic_title": "The Fundamental Theorem for Line Integrals",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2110.html",
+  "source_url": "https://mathacademy.com/topics/2110",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "26178",
+        "dom_id": "sectionLink-26178",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-26178"
+      },
+      {
+        "index": 2,
+        "step_id": "35721",
+        "dom_id": "sectionLink-35721",
+        "name": "",
+        "title": "A Concrete Example",
+        "selector": "#sectionLink-35721"
+      },
+      {
+        "index": 3,
+        "step_id": "32622",
+        "dom_id": "sectionLink-32622",
+        "name": "",
+        "title": "Applying the Fundamental Theorem of Line Integrals Over Parametric Curves",
+        "selector": "#sectionLink-32622"
+      },
+      {
+        "index": 4,
+        "step_id": "35588",
+        "dom_id": "sectionLink-35588",
+        "name": "",
+        "title": "Applying the Fundamental Theorem of Line Integrals Over Cartesian Curves",
+        "selector": "#sectionLink-35588"
+      },
+      {
+        "index": 5,
+        "step_id": "32627",
+        "dom_id": "sectionLink-32627",
+        "name": "",
+        "title": "Applying the Fundamental Theorem of Line Integrals When the Potential Function Is Not Given",
+        "selector": "#sectionLink-32627"
+      },
+      {
+        "index": 6,
+        "step_id": "35722",
+        "dom_id": "sectionLink-35722",
+        "name": "",
+        "title": "Proof of the Fundamental Theorem for Smooth Curves",
+        "selector": "#sectionLink-35722"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1951",
+        "name": "Calculating Potential Functions",
+        "href": "/topics/calculating-potential-functions-1951"
+      },
+      {
+        "topic_id": "3711",
+        "name": "Line Integrals of Vector-Valued Functions Over General Curves",
+        "href": "/topics/line-integrals-of-vector-valued-functions-over-general-curves-3711"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "26178",
+        "content_id": "4306",
+        "dom_id": "step-26178",
+        "selector": "#step-26178",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "35721",
+        "content_id": "5829",
+        "dom_id": "step-35721",
+        "selector": "#step-35721",
+        "step_anchor": "step-2",
+        "title": "A Concrete Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "32622",
+        "content_id": "8759",
+        "dom_id": "step-32622",
+        "selector": "#step-32622",
+        "step_anchor": "step-3",
+        "title": "Applying the Fundamental Theorem of Line Integrals Over Parametric Curves",
+        "key_prerequisites": [
+          {
+            "topic_id": "2108",
+            "name": "Line Integrals of Vector-Valued Functions Over Parametric Curves",
+            "href": "/topics/2108"
+          },
+          {
+            "topic_id": "3149",
+            "name": "Conservative Vector Fields in the Cartesian Plane",
+            "href": "/topics/3149"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "104616",
+        "dom_id": "question-104616",
+        "selector": "#question-104616",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "99008",
+        "dom_id": "question-99008",
+        "selector": "#question-99008",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "35588",
+        "content_id": "9502",
+        "dom_id": "step-35588",
+        "selector": "#step-35588",
+        "step_anchor": "step-6",
+        "title": "Applying the Fundamental Theorem of Line Integrals Over Cartesian Curves",
+        "key_prerequisites": [
+          {
+            "topic_id": "2635",
+            "name": "Line Integrals of Scalar Functions Over Paths Expressed as Functions of X",
+            "href": "/topics/2635"
+          },
+          {
+            "topic_id": "3689",
+            "name": "Line Integrals of Scalar Functions Over Paths Expressed as Functions of Y",
+            "href": "/topics/3689"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "39749",
+        "dom_id": "question-39749",
+        "selector": "#question-39749",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "123879",
+        "dom_id": "question-123879",
+        "selector": "#question-123879",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "32627",
+        "content_id": "8760",
+        "dom_id": "step-32627",
+        "selector": "#step-32627",
+        "step_anchor": "step-9",
+        "title": "Applying the Fundamental Theorem of Line Integrals When the Potential Function Is Not Given",
+        "key_prerequisites": [
+          {
+            "topic_id": "1951",
+            "name": "Calculating Potential Functions",
+            "href": "/topics/1951"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "98995",
+        "dom_id": "question-98995",
+        "selector": "#question-98995",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "39349",
+        "dom_id": "question-39349",
+        "selector": "#question-39349",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "35722",
+        "content_id": "5830",
+        "dom_id": "step-35722",
+        "selector": "#step-35722",
+        "step_anchor": "step-12",
+        "title": "Proof of the Fundamental Theorem for Smooth Curves",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-26178",
+        "filename": "01-step-26178.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-35721",
+        "filename": "02-step-35721.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-32622",
+        "filename": "03-step-32622.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-104616",
+        "filename": "04-question-104616.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-99008",
+        "filename": "05-question-99008.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-35588",
+        "filename": "06-step-35588.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-39749",
+        "filename": "07-question-39749.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-123879",
+        "filename": "08-question-123879.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-32627",
+        "filename": "09-step-32627.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-98995",
+        "filename": "10-question-98995.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-39349",
+        "filename": "11-question-39349.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-35722",
+        "filename": "12-step-35722.png"
+      }
+    ]
+  }
+}

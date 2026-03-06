@@ -1,0 +1,352 @@
+{
+  "schema_version": 1,
+  "topic_id": "3425",
+  "topic_title": "Cantor's Diagonal Argument",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3425.html",
+  "source_url": "https://mathacademy.com/topics/3425",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "146413",
+        "dom_id": "sectionLink-146413",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-146413"
+      },
+      {
+        "index": 2,
+        "step_id": "146414",
+        "dom_id": "sectionLink-146414",
+        "name": "",
+        "title": "Identifying Sets of Cardinality Continuum",
+        "selector": "#sectionLink-146414"
+      },
+      {
+        "index": 3,
+        "step_id": "146418",
+        "dom_id": "sectionLink-146418",
+        "name": "",
+        "title": "Cantor's Diagonal Argument",
+        "selector": "#sectionLink-146418"
+      },
+      {
+        "index": 4,
+        "step_id": "146419",
+        "dom_id": "sectionLink-146419",
+        "name": "",
+        "title": "Applying Cantor's Diagonal Argument to Finite Lists",
+        "selector": "#sectionLink-146419"
+      },
+      {
+        "index": 5,
+        "step_id": "146423",
+        "dom_id": "sectionLink-146423",
+        "name": "",
+        "title": "Proving Uncountability Using Cantor's Diagonal Argument",
+        "selector": "#sectionLink-146423"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3414",
+        "name": "Proof by Contradiction",
+        "href": "/topics/proof-by-contradiction-3414"
+      },
+      {
+        "topic_id": "4394",
+        "name": "Cardinality of the Natural Numbers, Integers, and Rationals",
+        "href": "/topics/cardinality-of-the-natural-numbers-integers-and-rationals-4394"
+      },
+      {
+        "topic_id": "4860",
+        "name": "Continuous Infinite Sets With Equal Cardinality",
+        "href": "/topics/continuous-infinite-sets-with-equal-cardinality-4860"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "146413",
+        "content_id": "8252",
+        "dom_id": "step-146413",
+        "selector": "#step-146413",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "146414",
+        "content_id": "13210",
+        "dom_id": "step-146414",
+        "selector": "#step-146414",
+        "step_anchor": "step-2",
+        "title": "Identifying Sets of Cardinality Continuum",
+        "key_prerequisites": [
+          {
+            "topic_id": "4394",
+            "name": "Cardinality of the Natural Numbers, Integers, and Rationals",
+            "href": "/topics/4394"
+          },
+          {
+            "topic_id": "4860",
+            "name": "Continuous Infinite Sets With Equal Cardinality",
+            "href": "/topics/4860"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "182734",
+        "dom_id": "question-182734",
+        "selector": "#question-182734",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "182621",
+        "dom_id": "question-182621",
+        "selector": "#question-182621",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "182622",
+        "dom_id": "question-182622",
+        "selector": "#question-182622",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "146418",
+        "content_id": "8254",
+        "dom_id": "step-146418",
+        "selector": "#step-146418",
+        "step_anchor": "step-6",
+        "title": "Cantor's Diagonal Argument",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "146419",
+        "content_id": "13217",
+        "dom_id": "step-146419",
+        "selector": "#step-146419",
+        "step_anchor": "step-7",
+        "title": "Applying Cantor's Diagonal Argument to Finite Lists",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "182798",
+        "dom_id": "question-182798",
+        "selector": "#question-182798",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "182806",
+        "dom_id": "question-182806",
+        "selector": "#question-182806",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "182269",
+        "dom_id": "question-182269",
+        "selector": "#question-182269",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "146423",
+        "content_id": "13218",
+        "dom_id": "step-146423",
+        "selector": "#step-146423",
+        "step_anchor": "step-11",
+        "title": "Proving Uncountability Using Cantor's Diagonal Argument",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "182276",
+        "dom_id": "question-182276",
+        "selector": "#question-182276",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "182275",
+        "dom_id": "question-182275",
+        "selector": "#question-182275",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "182277",
+        "dom_id": "question-182277",
+        "selector": "#question-182277",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-146413",
+        "filename": "01-step-146413.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-146414",
+        "filename": "02-step-146414.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-182734",
+        "filename": "03-question-182734.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-182621",
+        "filename": "04-question-182621.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-182622",
+        "filename": "05-question-182622.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-146418",
+        "filename": "06-step-146418.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-146419",
+        "filename": "07-step-146419.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-182798",
+        "filename": "08-question-182798.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-182806",
+        "filename": "09-question-182806.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-182269",
+        "filename": "10-question-182269.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-146423",
+        "filename": "11-step-146423.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-182276",
+        "filename": "12-question-182276.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-182275",
+        "filename": "13-question-182275.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-182277",
+        "filename": "14-question-182277.png"
+      }
+    ]
+  }
+}

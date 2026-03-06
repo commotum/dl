@@ -1,0 +1,399 @@
+{
+  "schema_version": 1,
+  "topic_id": "1376",
+  "topic_title": "The Vector Equation of a Line",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1376.html",
+  "source_url": "https://mathacademy.com/topics/1376",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "44724",
+        "dom_id": "sectionLink-44724",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-44724"
+      },
+      {
+        "index": 2,
+        "step_id": "44725",
+        "dom_id": "sectionLink-44725",
+        "name": "",
+        "title": "Finding a Vector Equation of a Line Given a Point and Direction Vector",
+        "selector": "#sectionLink-44725"
+      },
+      {
+        "index": 3,
+        "step_id": "44728",
+        "dom_id": "sectionLink-44728",
+        "name": "",
+        "title": "Finding a Vector Equation of the Line Passing Through Two Given Points",
+        "selector": "#sectionLink-44728"
+      },
+      {
+        "index": 4,
+        "step_id": "44731",
+        "dom_id": "sectionLink-44731",
+        "name": "",
+        "title": "Geometric Intuition Behind the Formula",
+        "selector": "#sectionLink-44731"
+      },
+      {
+        "index": 5,
+        "step_id": "44732",
+        "dom_id": "sectionLink-44732",
+        "name": "",
+        "title": "Finding Points on a Line That Are a Fixed Distance From Another Point on the Line",
+        "selector": "#sectionLink-44732"
+      },
+      {
+        "index": 6,
+        "step_id": "44736",
+        "dom_id": "sectionLink-44736",
+        "name": "",
+        "title": "The Vector Equation of a Segment",
+        "selector": "#sectionLink-44736"
+      },
+      {
+        "index": 7,
+        "step_id": "44735",
+        "dom_id": "sectionLink-44735",
+        "name": "",
+        "title": "Finding the Vector Equation of a Line Segment",
+        "selector": "#sectionLink-44735"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "803",
+        "name": "Graphing Curves Defined Parametrically",
+        "href": "/topics/graphing-curves-defined-parametrically-803"
+      },
+      {
+        "topic_id": "1106",
+        "name": "Describing the Position Vector of a Point Using Known Vectors",
+        "href": "/topics/describing-the-position-vector-of-a-point-using-known-vectors-1106"
+      },
+      {
+        "topic_id": "1277",
+        "name": "Calculating the Magnitude of Cartesian Vectors in 3D",
+        "href": "/topics/calculating-the-magnitude-of-cartesian-vectors-in-3d-1277"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44724",
+        "content_id": "7711",
+        "dom_id": "step-44724",
+        "selector": "#step-44724",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44725",
+        "content_id": "12442",
+        "dom_id": "step-44725",
+        "selector": "#step-44725",
+        "step_anchor": "step-2",
+        "title": "Finding a Vector Equation of a Line Given a Point and Direction Vector",
+        "key_prerequisites": [
+          {
+            "topic_id": "175",
+            "name": "Addition and Scalar Multiplication of Cartesian Vectors in 3D",
+            "href": "/topics/175"
+          },
+          {
+            "topic_id": "1103",
+            "name": "Parallel Vectors",
+            "href": "/topics/1103"
+          },
+          {
+            "topic_id": "1106",
+            "name": "Describing the Position Vector of a Point Using Known Vectors",
+            "href": "/topics/1106"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "35960",
+        "dom_id": "question-35960",
+        "selector": "#question-35960",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "35966",
+        "dom_id": "question-35966",
+        "selector": "#question-35966",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44728",
+        "content_id": "12443",
+        "dom_id": "step-44728",
+        "selector": "#step-44728",
+        "step_anchor": "step-5",
+        "title": "Finding a Vector Equation of the Line Passing Through Two Given Points",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "35973",
+        "dom_id": "question-35973",
+        "selector": "#question-35973",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "35982",
+        "dom_id": "question-35982",
+        "selector": "#question-35982",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44731",
+        "content_id": "7712",
+        "dom_id": "step-44731",
+        "selector": "#step-44731",
+        "step_anchor": "step-8",
+        "title": "Geometric Intuition Behind the Formula",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44732",
+        "content_id": "12444",
+        "dom_id": "step-44732",
+        "selector": "#step-44732",
+        "step_anchor": "step-9",
+        "title": "Finding Points on a Line That Are a Fixed Distance From Another Point on the Line",
+        "key_prerequisites": [
+          {
+            "topic_id": "1277",
+            "name": "Calculating the Magnitude of Cartesian Vectors in 3D",
+            "href": "/topics/1277"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "32819",
+        "dom_id": "question-32819",
+        "selector": "#question-32819",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "22291",
+        "dom_id": "question-22291",
+        "selector": "#question-22291",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44736",
+        "content_id": "7713",
+        "dom_id": "step-44736",
+        "selector": "#step-44736",
+        "step_anchor": "step-12",
+        "title": "The Vector Equation of a Segment",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44735",
+        "content_id": "12445",
+        "dom_id": "step-44735",
+        "selector": "#step-44735",
+        "step_anchor": "step-13",
+        "title": "Finding the Vector Equation of a Line Segment",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "162143",
+        "dom_id": "question-162143",
+        "selector": "#question-162143",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "162144",
+        "dom_id": "question-162144",
+        "selector": "#question-162144",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-44724",
+        "filename": "01-step-44724.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-44725",
+        "filename": "02-step-44725.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-35960",
+        "filename": "03-question-35960.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-35966",
+        "filename": "04-question-35966.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-44728",
+        "filename": "05-step-44728.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-35973",
+        "filename": "06-question-35973.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-35982",
+        "filename": "07-question-35982.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-44731",
+        "filename": "08-step-44731.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-44732",
+        "filename": "09-step-44732.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-32819",
+        "filename": "10-question-32819.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-22291",
+        "filename": "11-question-22291.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-44736",
+        "filename": "12-step-44736.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-44735",
+        "filename": "13-step-44735.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-162143",
+        "filename": "14-question-162143.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-162144",
+        "filename": "15-question-162144.png"
+      }
+    ]
+  }
+}

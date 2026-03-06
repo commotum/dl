@@ -1,0 +1,351 @@
+{
+  "schema_version": 1,
+  "topic_id": "3219",
+  "topic_title": "Analyzing Slope Fields for Directly Integrable Differential Equations",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3219.html",
+  "source_url": "https://mathacademy.com/topics/3219",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "31327",
+        "dom_id": "sectionLink-31327",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-31327"
+      },
+      {
+        "index": 2,
+        "step_id": "31566",
+        "dom_id": "sectionLink-31566",
+        "name": "",
+        "title": "Identifying an Equation That Generates a Slope Field Using Stationary Points",
+        "selector": "#sectionLink-31566"
+      },
+      {
+        "index": 3,
+        "step_id": "31567",
+        "dom_id": "sectionLink-31567",
+        "name": "",
+        "title": "Identifying an Equation That Generates a Slope Field Using the Sign of the Slopes",
+        "selector": "#sectionLink-31567"
+      },
+      {
+        "index": 4,
+        "step_id": "34828",
+        "dom_id": "sectionLink-34828",
+        "name": "",
+        "title": "Identifying an Equation That Generates a Slope Field Using the Sign of the Slopes and Factoring",
+        "selector": "#sectionLink-34828"
+      },
+      {
+        "index": 5,
+        "step_id": "31569",
+        "dom_id": "sectionLink-31569",
+        "name": "",
+        "title": "Identifying an Equation That Generates a Slope Field Using Asymptotes",
+        "selector": "#sectionLink-31569"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1903",
+        "name": "Limits at Infinity and Horizontal Asymptotes of Rational Functions",
+        "href": "/topics/limits-at-infinity-and-horizontal-asymptotes-of-rational-functions-1903"
+      },
+      {
+        "topic_id": "3276",
+        "name": "Slope Fields for Directly Integrable Differential Equations",
+        "href": "/topics/slope-fields-for-directly-integrable-differential-equations-3276"
+      },
+      {
+        "topic_id": "3355",
+        "name": "Solving Rational Inequalities",
+        "href": "/topics/solving-rational-inequalities-3355"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "31327",
+        "content_id": "5009",
+        "dom_id": "step-31327",
+        "selector": "#step-31327",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "31566",
+        "content_id": "8483",
+        "dom_id": "step-31566",
+        "selector": "#step-31566",
+        "step_anchor": "step-2",
+        "title": "Identifying an Equation That Generates a Slope Field Using Stationary Points",
+        "key_prerequisites": [
+          {
+            "topic_id": "752",
+            "name": "Using Differentiation to Calculate Critical Points",
+            "href": "/topics/752"
+          },
+          {
+            "topic_id": "3276",
+            "name": "Slope Fields for Directly Integrable Differential Equations",
+            "href": "/topics/3276"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "96093",
+        "dom_id": "question-96093",
+        "selector": "#question-96093",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "96092",
+        "dom_id": "question-96092",
+        "selector": "#question-96092",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "31567",
+        "content_id": "8484",
+        "dom_id": "step-31567",
+        "selector": "#step-31567",
+        "step_anchor": "step-5",
+        "title": "Identifying an Equation That Generates a Slope Field Using the Sign of the Slopes",
+        "key_prerequisites": [
+          {
+            "topic_id": "2162",
+            "name": "Solving Polynomial Inequalities Using the Sign Table Method",
+            "href": "/topics/2162"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "96094",
+        "dom_id": "question-96094",
+        "selector": "#question-96094",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "96095",
+        "dom_id": "question-96095",
+        "selector": "#question-96095",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "34828",
+        "content_id": "9312",
+        "dom_id": "step-34828",
+        "selector": "#step-34828",
+        "step_anchor": "step-8",
+        "title": "Identifying an Equation That Generates a Slope Field Using the Sign of the Slopes and Factoring",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "115548",
+        "dom_id": "question-115548",
+        "selector": "#question-115548",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "96096",
+        "dom_id": "question-96096",
+        "selector": "#question-96096",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "31569",
+        "content_id": "8486",
+        "dom_id": "step-31569",
+        "selector": "#step-31569",
+        "step_anchor": "step-11",
+        "title": "Identifying an Equation That Generates a Slope Field Using Asymptotes",
+        "key_prerequisites": [
+          {
+            "topic_id": "1903",
+            "name": "Limits at Infinity and Horizontal Asymptotes of Rational Functions",
+            "href": "/topics/1903"
+          },
+          {
+            "topic_id": "3355",
+            "name": "Solving Rational Inequalities",
+            "href": "/topics/3355"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "96098",
+        "dom_id": "question-96098",
+        "selector": "#question-96098",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "96097",
+        "dom_id": "question-96097",
+        "selector": "#question-96097",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-31327",
+        "filename": "01-step-31327.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-31566",
+        "filename": "02-step-31566.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-96093",
+        "filename": "03-question-96093.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-96092",
+        "filename": "04-question-96092.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-31567",
+        "filename": "05-step-31567.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-96094",
+        "filename": "06-question-96094.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-96095",
+        "filename": "07-question-96095.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-34828",
+        "filename": "08-step-34828.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-115548",
+        "filename": "09-question-115548.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-96096",
+        "filename": "10-question-96096.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-31569",
+        "filename": "11-step-31569.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-96098",
+        "filename": "12-question-96098.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-96097",
+        "filename": "13-question-96097.png"
+      }
+    ]
+  }
+}

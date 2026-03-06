@@ -1,0 +1,365 @@
+{
+  "schema_version": 1,
+  "topic_id": "3241",
+  "topic_title": "Phase Portraits for Linear Systems With Complex Eigenvalues",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3241.html",
+  "source_url": "https://mathacademy.com/topics/3241",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "594290",
+        "dom_id": "sectionLink-594290",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-594290"
+      },
+      {
+        "index": 2,
+        "step_id": "594291",
+        "dom_id": "sectionLink-594291",
+        "name": "",
+        "title": "Systems With Complex Eigenvalues",
+        "selector": "#sectionLink-594291"
+      },
+      {
+        "index": 3,
+        "step_id": "594292",
+        "dom_id": "sectionLink-594292",
+        "name": "",
+        "title": "Sketching the Phase Portrait of a System",
+        "selector": "#sectionLink-594292"
+      },
+      {
+        "index": 4,
+        "step_id": "594295",
+        "dom_id": "sectionLink-594295",
+        "name": "",
+        "title": "Identifying the Parameters of a System Given Its Phase Portrait",
+        "selector": "#sectionLink-594295"
+      },
+      {
+        "index": 5,
+        "step_id": "594299",
+        "dom_id": "sectionLink-594299",
+        "name": "",
+        "title": "Classification of Equilibria",
+        "selector": "#sectionLink-594299"
+      },
+      {
+        "index": 6,
+        "step_id": "594300",
+        "dom_id": "sectionLink-594300",
+        "name": "",
+        "title": "Classifying Systems of Linear Differential Equations With Complex Eigenvalues",
+        "selector": "#sectionLink-594300"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2746",
+        "name": "Parametric Equations of Ellipses",
+        "href": "/topics/parametric-equations-of-ellipses-2746"
+      },
+      {
+        "topic_id": "2819",
+        "name": "Solving Homogeneous Systems of ODEs With Complex Eigenvalues",
+        "href": "/topics/solving-homogeneous-systems-of-odes-with-complex-eigenvalues-2819"
+      },
+      {
+        "topic_id": "3239",
+        "name": "Phase Portraits for Linear Systems With Real Distinct Eigenvalues",
+        "href": "/topics/phase-portraits-for-linear-systems-with-real-distinct-eigenvalues-3239"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "594290",
+        "content_id": "14482",
+        "dom_id": "step-594290",
+        "selector": "#step-594290",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "594291",
+        "content_id": "14483",
+        "dom_id": "step-594291",
+        "selector": "#step-594291",
+        "step_anchor": "step-2",
+        "title": "Systems With Complex Eigenvalues",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "594292",
+        "content_id": "21657",
+        "dom_id": "step-594292",
+        "selector": "#step-594292",
+        "step_anchor": "step-3",
+        "title": "Sketching the Phase Portrait of a System",
+        "key_prerequisites": [
+          {
+            "topic_id": "2746",
+            "name": "Parametric Equations of Ellipses",
+            "href": "/topics/2746"
+          },
+          {
+            "topic_id": "2819",
+            "name": "Solving Homogeneous Systems of ODEs With Complex Eigenvalues",
+            "href": "/topics/2819"
+          },
+          {
+            "topic_id": "3239",
+            "name": "Phase Portraits for Linear Systems With Real Distinct Eigenvalues",
+            "href": "/topics/3239"
+          },
+          {
+            "topic_id": "3242",
+            "name": "Phase Portraits for Decoupled Linear Systems",
+            "href": "/topics/3242"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "332878",
+        "dom_id": "question-332878",
+        "selector": "#question-332878",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "332880",
+        "dom_id": "question-332880",
+        "selector": "#question-332880",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "594295",
+        "content_id": "21658",
+        "dom_id": "step-594295",
+        "selector": "#step-594295",
+        "step_anchor": "step-6",
+        "title": "Identifying the Parameters of a System Given Its Phase Portrait",
+        "key_prerequisites": [
+          {
+            "topic_id": "898",
+            "name": "Euler's Formula",
+            "href": "/topics/898"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "332947",
+        "dom_id": "question-332947",
+        "selector": "#question-332947",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "334290",
+        "dom_id": "question-334290",
+        "selector": "#question-334290",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "332946",
+        "dom_id": "question-332946",
+        "selector": "#question-332946",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "594299",
+        "content_id": "14575",
+        "dom_id": "step-594299",
+        "selector": "#step-594299",
+        "step_anchor": "step-10",
+        "title": "Classification of Equilibria",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "594300",
+        "content_id": "21659",
+        "dom_id": "step-594300",
+        "selector": "#step-594300",
+        "step_anchor": "step-11",
+        "title": "Classifying Systems of Linear Differential Equations With Complex Eigenvalues",
+        "key_prerequisites": [
+          {
+            "topic_id": "6377",
+            "name": "Equilibrium Points and Stability for Systems of ODEs",
+            "href": "/topics/6377"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "332952",
+        "dom_id": "question-332952",
+        "selector": "#question-332952",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "334307",
+        "dom_id": "question-334307",
+        "selector": "#question-334307",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-594290",
+        "filename": "01-step-594290.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-594291",
+        "filename": "02-step-594291.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-594292",
+        "filename": "03-step-594292.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-332878",
+        "filename": "04-question-332878.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-332880",
+        "filename": "05-question-332880.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-594295",
+        "filename": "06-step-594295.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-332947",
+        "filename": "07-question-332947.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-334290",
+        "filename": "08-question-334290.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-332946",
+        "filename": "09-question-332946.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-594299",
+        "filename": "10-step-594299.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-594300",
+        "filename": "11-step-594300.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-332952",
+        "filename": "12-question-332952.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-334307",
+        "filename": "13-question-334307.png"
+      }
+    ]
+  }
+}

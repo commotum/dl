@@ -1,0 +1,423 @@
+{
+  "schema_version": 1,
+  "topic_id": "3247",
+  "topic_title": "The Modified Euler Method",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3247.html",
+  "source_url": "https://mathacademy.com/topics/3247",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "594387",
+        "dom_id": "sectionLink-594387",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-594387"
+      },
+      {
+        "index": 2,
+        "step_id": "594388",
+        "dom_id": "sectionLink-594388",
+        "name": "",
+        "title": "The Predictor Equation of the Modified Euler Method",
+        "selector": "#sectionLink-594388"
+      },
+      {
+        "index": 3,
+        "step_id": "594389",
+        "dom_id": "sectionLink-594389",
+        "name": "",
+        "title": "Completing a Table Using the Predictor Equation of the Modified Euler Method",
+        "selector": "#sectionLink-594389"
+      },
+      {
+        "index": 4,
+        "step_id": "594392",
+        "dom_id": "sectionLink-594392",
+        "name": "",
+        "title": "The Modified Euler Method",
+        "selector": "#sectionLink-594392"
+      },
+      {
+        "index": 5,
+        "step_id": "594393",
+        "dom_id": "sectionLink-594393",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-594393"
+      },
+      {
+        "index": 6,
+        "step_id": "594394",
+        "dom_id": "sectionLink-594394",
+        "name": "",
+        "title": "Calculating the Corrector Term",
+        "selector": "#sectionLink-594394"
+      },
+      {
+        "index": 7,
+        "step_id": "594397",
+        "dom_id": "sectionLink-594397",
+        "name": "",
+        "title": "Completing the First Row of a Table Using the Modified Euler Method",
+        "selector": "#sectionLink-594397"
+      },
+      {
+        "index": 8,
+        "step_id": "594401",
+        "dom_id": "sectionLink-594401",
+        "name": "",
+        "title": "Approximating the Solution to an Initial Value Problem Using The Modified Euler Method With One Step",
+        "selector": "#sectionLink-594401"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3668",
+        "name": "Euler's Method: Calculating Multiple Steps",
+        "href": "/topics/eulers-method-calculating-multiple-steps-3668"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 17,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "594387",
+        "content_id": "14269",
+        "dom_id": "step-594387",
+        "selector": "#step-594387",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "594388",
+        "content_id": "14404",
+        "dom_id": "step-594388",
+        "selector": "#step-594388",
+        "step_anchor": "step-2",
+        "title": "The Predictor Equation of the Modified Euler Method",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "594389",
+        "content_id": "21277",
+        "dom_id": "step-594389",
+        "selector": "#step-594389",
+        "step_anchor": "step-3",
+        "title": "Completing a Table Using the Predictor Equation of the Modified Euler Method",
+        "key_prerequisites": [
+          {
+            "topic_id": "602",
+            "name": "Euler's Method: Calculating One Step",
+            "href": "/topics/602"
+          },
+          {
+            "topic_id": "3668",
+            "name": "Euler's Method: Calculating Multiple Steps",
+            "href": "/topics/3668"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "330778",
+        "dom_id": "question-330778",
+        "selector": "#question-330778",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "329885",
+        "dom_id": "question-329885",
+        "selector": "#question-329885",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "594392",
+        "content_id": "14272",
+        "dom_id": "step-594392",
+        "selector": "#step-594392",
+        "step_anchor": "step-6",
+        "title": "The Modified Euler Method",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "594393",
+        "content_id": "14273",
+        "dom_id": "step-594393",
+        "selector": "#step-594393",
+        "step_anchor": "step-7",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "594394",
+        "content_id": "21560",
+        "dom_id": "step-594394",
+        "selector": "#step-594394",
+        "step_anchor": "step-8",
+        "title": "Calculating the Corrector Term",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "330869",
+        "dom_id": "question-330869",
+        "selector": "#question-330869",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "323980",
+        "dom_id": "question-323980",
+        "selector": "#question-323980",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "594397",
+        "content_id": "21274",
+        "dom_id": "step-594397",
+        "selector": "#step-594397",
+        "step_anchor": "step-11",
+        "title": "Completing the First Row of a Table Using the Modified Euler Method",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "323979",
+        "dom_id": "question-323979",
+        "selector": "#question-323979",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "324062",
+        "dom_id": "question-324062",
+        "selector": "#question-324062",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "323879",
+        "dom_id": "question-323879",
+        "selector": "#question-323879",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "594401",
+        "content_id": "21275",
+        "dom_id": "step-594401",
+        "selector": "#step-594401",
+        "step_anchor": "step-15",
+        "title": "Approximating the Solution to an Initial Value Problem Using The Modified Euler Method With One Step",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "331667",
+        "dom_id": "question-331667",
+        "selector": "#question-331667",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "question_id": "331702",
+        "dom_id": "question-331702",
+        "selector": "#question-331702",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-594387",
+        "filename": "01-step-594387.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-594388",
+        "filename": "02-step-594388.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-594389",
+        "filename": "03-step-594389.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-330778",
+        "filename": "04-question-330778.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-329885",
+        "filename": "05-question-329885.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-594392",
+        "filename": "06-step-594392.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-594393",
+        "filename": "07-step-594393.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-594394",
+        "filename": "08-step-594394.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-330869",
+        "filename": "09-question-330869.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-323980",
+        "filename": "10-question-323980.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-594397",
+        "filename": "11-step-594397.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-323979",
+        "filename": "12-question-323979.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-324062",
+        "filename": "13-question-324062.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-323879",
+        "filename": "14-question-323879.png"
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "selector": "#step-594401",
+        "filename": "15-step-594401.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-331667",
+        "filename": "16-question-331667.png"
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "selector": "#question-331702",
+        "filename": "17-question-331702.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,346 @@
+{
+  "schema_version": 1,
+  "topic_id": "1781",
+  "topic_title": "LU Factorization of NxN Matrices",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1781.html",
+  "source_url": "https://mathacademy.com/topics/1781",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "17365",
+        "dom_id": "sectionLink-17365",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-17365"
+      },
+      {
+        "index": 2,
+        "step_id": "37192",
+        "dom_id": "sectionLink-37192",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-37192"
+      },
+      {
+        "index": 3,
+        "step_id": "33312",
+        "dom_id": "sectionLink-33312",
+        "name": "",
+        "title": "Finding Missing Numbers in the Matrix U of an LU Factorization",
+        "selector": "#sectionLink-33312"
+      },
+      {
+        "index": 4,
+        "step_id": "17367",
+        "dom_id": "sectionLink-17367",
+        "name": "",
+        "title": "Finding Missing Numbers in the Matrix L of an LU Factorization",
+        "selector": "#sectionLink-17367"
+      },
+      {
+        "index": 5,
+        "step_id": "33317",
+        "dom_id": "sectionLink-33317",
+        "name": "",
+        "title": "Finding the LU Factorization of a 3x3 Matrix",
+        "selector": "#sectionLink-33317"
+      },
+      {
+        "index": 6,
+        "step_id": "17366",
+        "dom_id": "sectionLink-17366",
+        "name": "",
+        "title": "Finding the LU Factorization of a 4x4 Matrix",
+        "selector": "#sectionLink-17366"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1780",
+        "name": "LU Factorization of 3x3 Matrices",
+        "href": "/topics/lu-factorization-of-3x3-matrices-1780"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "17365",
+        "content_id": "3180",
+        "dom_id": "step-17365",
+        "selector": "#step-17365",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "37192",
+        "content_id": "6123",
+        "dom_id": "step-37192",
+        "selector": "#step-37192",
+        "step_anchor": "step-2",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33312",
+        "content_id": "8924",
+        "dom_id": "step-33312",
+        "selector": "#step-33312",
+        "step_anchor": "step-3",
+        "title": "Finding Missing Numbers in the Matrix U of an LU Factorization",
+        "key_prerequisites": [
+          {
+            "topic_id": "1780",
+            "name": "LU Factorization of 3x3 Matrices",
+            "href": "/topics/1780"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "32772",
+        "dom_id": "question-32772",
+        "selector": "#question-32772",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "32806",
+        "dom_id": "question-32806",
+        "selector": "#question-32806",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17367",
+        "content_id": "4772",
+        "dom_id": "step-17367",
+        "selector": "#step-17367",
+        "step_anchor": "step-6",
+        "title": "Finding Missing Numbers in the Matrix L of an LU Factorization",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "32726",
+        "dom_id": "question-32726",
+        "selector": "#question-32726",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "32805",
+        "dom_id": "question-32805",
+        "selector": "#question-32805",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33317",
+        "content_id": "8925",
+        "dom_id": "step-33317",
+        "selector": "#step-33317",
+        "step_anchor": "step-9",
+        "title": "Finding the LU Factorization of a 3x3 Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "32558",
+        "dom_id": "question-32558",
+        "selector": "#question-32558",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "105891",
+        "dom_id": "question-105891",
+        "selector": "#question-105891",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17366",
+        "content_id": "4771",
+        "dom_id": "step-17366",
+        "selector": "#step-17366",
+        "step_anchor": "step-12",
+        "title": "Finding the LU Factorization of a 4x4 Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "104844",
+        "dom_id": "question-104844",
+        "selector": "#question-104844",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "105914",
+        "dom_id": "question-105914",
+        "selector": "#question-105914",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-17365",
+        "filename": "01-step-17365.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-37192",
+        "filename": "02-step-37192.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-33312",
+        "filename": "03-step-33312.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-32772",
+        "filename": "04-question-32772.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-32806",
+        "filename": "05-question-32806.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-17367",
+        "filename": "06-step-17367.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-32726",
+        "filename": "07-question-32726.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-32805",
+        "filename": "08-question-32805.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-33317",
+        "filename": "09-step-33317.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-32558",
+        "filename": "10-question-32558.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-105891",
+        "filename": "11-question-105891.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-17366",
+        "filename": "12-step-17366.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-104844",
+        "filename": "13-question-104844.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-105914",
+        "filename": "14-question-105914.png"
+      }
+    ]
+  }
+}

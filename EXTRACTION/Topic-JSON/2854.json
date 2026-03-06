@@ -1,0 +1,348 @@
+{
+  "schema_version": 1,
+  "topic_id": "2854",
+  "topic_title": "Big-O Notation",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2854.html",
+  "source_url": "https://mathacademy.com/topics/2854",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "589699",
+        "dom_id": "sectionLink-589699",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-589699"
+      },
+      {
+        "index": 2,
+        "step_id": "589700",
+        "dom_id": "sectionLink-589700",
+        "name": "",
+        "title": "Proving the Order of a Polynomial",
+        "selector": "#sectionLink-589700"
+      },
+      {
+        "index": 3,
+        "step_id": "589703",
+        "dom_id": "sectionLink-589703",
+        "name": "",
+        "title": "Infinite Limit",
+        "selector": "#sectionLink-589703"
+      },
+      {
+        "index": 4,
+        "step_id": "589704",
+        "dom_id": "sectionLink-589704",
+        "name": "",
+        "title": "The Limit Test",
+        "selector": "#sectionLink-589704"
+      },
+      {
+        "index": 5,
+        "step_id": "589705",
+        "dom_id": "sectionLink-589705",
+        "name": "",
+        "title": "Applying the Limit Test",
+        "selector": "#sectionLink-589705"
+      },
+      {
+        "index": 6,
+        "step_id": "589708",
+        "dom_id": "sectionLink-589708",
+        "name": "",
+        "title": "Properties of Big-O",
+        "selector": "#sectionLink-589708"
+      },
+      {
+        "index": 7,
+        "step_id": "589709",
+        "dom_id": "sectionLink-589709",
+        "name": "",
+        "title": "Applying Properties of Big-O",
+        "selector": "#sectionLink-589709"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "463",
+        "name": "L'Hopital's Rule",
+        "href": "/topics/lhopitals-rule-463"
+      },
+      {
+        "topic_id": "2153",
+        "name": "The Pythagorean Theorem and the Triangle Inequality",
+        "href": "/topics/the-pythagorean-theorem-and-the-triangle-inequality-2153"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "589699",
+        "content_id": "4687",
+        "dom_id": "step-589699",
+        "selector": "#step-589699",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "589700",
+        "content_id": "21710",
+        "dom_id": "step-589700",
+        "selector": "#step-589700",
+        "step_anchor": "step-2",
+        "title": "Proving the Order of a Polynomial",
+        "key_prerequisites": [
+          {
+            "topic_id": "2153",
+            "name": "The Pythagorean Theorem and the Triangle Inequality",
+            "href": "/topics/2153"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "334055",
+        "dom_id": "question-334055",
+        "selector": "#question-334055",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "334066",
+        "dom_id": "question-334066",
+        "selector": "#question-334066",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "589703",
+        "content_id": "14539",
+        "dom_id": "step-589703",
+        "selector": "#step-589703",
+        "step_anchor": "step-5",
+        "title": "Infinite Limit",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "589704",
+        "content_id": "14540",
+        "dom_id": "step-589704",
+        "selector": "#step-589704",
+        "step_anchor": "step-6",
+        "title": "The Limit Test",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "589705",
+        "content_id": "7762",
+        "dom_id": "step-589705",
+        "selector": "#step-589705",
+        "step_anchor": "step-7",
+        "title": "Applying the Limit Test",
+        "key_prerequisites": [
+          {
+            "topic_id": "463",
+            "name": "L'Hopital's Rule",
+            "href": "/topics/463"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "334082",
+        "dom_id": "question-334082",
+        "selector": "#question-334082",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "334693",
+        "dom_id": "question-334693",
+        "selector": "#question-334693",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "589708",
+        "content_id": "14521",
+        "dom_id": "step-589708",
+        "selector": "#step-589708",
+        "step_anchor": "step-10",
+        "title": "Properties of Big-O",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "589709",
+        "content_id": "21715",
+        "dom_id": "step-589709",
+        "selector": "#step-589709",
+        "step_anchor": "step-11",
+        "title": "Applying Properties of Big-O",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "335368",
+        "dom_id": "question-335368",
+        "selector": "#question-335368",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "334685",
+        "dom_id": "question-334685",
+        "selector": "#question-334685",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-589699",
+        "filename": "01-step-589699.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-589700",
+        "filename": "02-step-589700.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-334055",
+        "filename": "03-question-334055.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-334066",
+        "filename": "04-question-334066.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-589703",
+        "filename": "05-step-589703.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-589704",
+        "filename": "06-step-589704.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-589705",
+        "filename": "07-step-589705.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-334082",
+        "filename": "08-question-334082.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-334693",
+        "filename": "09-question-334693.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-589708",
+        "filename": "10-step-589708.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-589709",
+        "filename": "11-step-589709.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-335368",
+        "filename": "12-question-335368.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-334685",
+        "filename": "13-question-334685.png"
+      }
+    ]
+  }
+}

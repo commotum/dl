@@ -1,0 +1,362 @@
+{
+  "schema_version": 1,
+  "topic_id": "724",
+  "topic_title": "The Fundamental Theorem of Algebra for Quadratic Equations",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/724.html",
+  "source_url": "https://mathacademy.com/topics/724",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "20996",
+        "dom_id": "sectionLink-20996",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-20996"
+      },
+      {
+        "index": 2,
+        "step_id": "21288",
+        "dom_id": "sectionLink-21288",
+        "name": "",
+        "title": "Finding a Quadratic Polynomial Given Two Real Roots and a Leading Coefficient",
+        "selector": "#sectionLink-21288"
+      },
+      {
+        "index": 3,
+        "step_id": "20997",
+        "dom_id": "sectionLink-20997",
+        "name": "",
+        "title": "Finding a Quadratic Polynomial Given a Double Root and a Leading Coefficient",
+        "selector": "#sectionLink-20997"
+      },
+      {
+        "index": 4,
+        "step_id": "20999",
+        "dom_id": "sectionLink-20999",
+        "name": "",
+        "title": "Finding a Quadratic Polynomial Given Two Imaginary or Complex Roots",
+        "selector": "#sectionLink-20999"
+      },
+      {
+        "index": 5,
+        "step_id": "21001",
+        "dom_id": "sectionLink-21001",
+        "name": "",
+        "title": "Factoring a Quadratic Polynomial With Complex Roots",
+        "selector": "#sectionLink-21001"
+      },
+      {
+        "index": 6,
+        "step_id": "34510",
+        "dom_id": "sectionLink-34510",
+        "name": "",
+        "title": "General Statement of the Fundamental Theorem of Algebra",
+        "selector": "#sectionLink-34510"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "88",
+        "name": "Multiplicities of the Roots of Polynomials",
+        "href": "/topics/multiplicities-of-the-roots-of-polynomials-88"
+      },
+      {
+        "topic_id": "696",
+        "name": "Extending Polynomial Identities to the Complex Numbers",
+        "href": "/topics/extending-polynomial-identities-to-the-complex-numbers-696"
+      },
+      {
+        "topic_id": "1647",
+        "name": "The Complex Conjugate and the Roots of a Quadratic Equation",
+        "href": "/topics/the-complex-conjugate-and-the-roots-of-a-quadratic-equation-1647"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20996",
+        "content_id": "3739",
+        "dom_id": "step-20996",
+        "selector": "#step-20996",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "21288",
+        "content_id": "5887",
+        "dom_id": "step-21288",
+        "selector": "#step-21288",
+        "step_anchor": "step-2",
+        "title": "Finding a Quadratic Polynomial Given Two Real Roots and a Leading Coefficient",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "46579",
+        "dom_id": "question-46579",
+        "selector": "#question-46579",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "46580",
+        "dom_id": "question-46580",
+        "selector": "#question-46580",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20997",
+        "content_id": "5788",
+        "dom_id": "step-20997",
+        "selector": "#step-20997",
+        "step_anchor": "step-5",
+        "title": "Finding a Quadratic Polynomial Given a Double Root and a Leading Coefficient",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "46591",
+        "dom_id": "question-46591",
+        "selector": "#question-46591",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "46583",
+        "dom_id": "question-46583",
+        "selector": "#question-46583",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20999",
+        "content_id": "5789",
+        "dom_id": "step-20999",
+        "selector": "#step-20999",
+        "step_anchor": "step-8",
+        "title": "Finding a Quadratic Polynomial Given Two Imaginary or Complex Roots",
+        "key_prerequisites": [
+          {
+            "topic_id": "1647",
+            "name": "The Complex Conjugate and the Roots of a Quadratic Equation",
+            "href": "/topics/1647"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "46596",
+        "dom_id": "question-46596",
+        "selector": "#question-46596",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "46644",
+        "dom_id": "question-46644",
+        "selector": "#question-46644",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "21001",
+        "content_id": "5791",
+        "dom_id": "step-21001",
+        "selector": "#step-21001",
+        "step_anchor": "step-11",
+        "title": "Factoring a Quadratic Polynomial With Complex Roots",
+        "key_prerequisites": [
+          {
+            "topic_id": "895",
+            "name": "Solving Quadratic Equations With Complex Roots",
+            "href": "/topics/895"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "46658",
+        "dom_id": "question-46658",
+        "selector": "#question-46658",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "46659",
+        "dom_id": "question-46659",
+        "selector": "#question-46659",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "34510",
+        "content_id": "5598",
+        "dom_id": "step-34510",
+        "selector": "#step-34510",
+        "step_anchor": "step-14",
+        "title": "General Statement of the Fundamental Theorem of Algebra",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-20996",
+        "filename": "01-step-20996.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-21288",
+        "filename": "02-step-21288.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-46579",
+        "filename": "03-question-46579.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-46580",
+        "filename": "04-question-46580.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-20997",
+        "filename": "05-step-20997.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-46591",
+        "filename": "06-question-46591.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-46583",
+        "filename": "07-question-46583.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-20999",
+        "filename": "08-step-20999.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-46596",
+        "filename": "09-question-46596.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-46644",
+        "filename": "10-question-46644.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-21001",
+        "filename": "11-step-21001.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-46658",
+        "filename": "12-question-46658.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-46659",
+        "filename": "13-question-46659.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-34510",
+        "filename": "14-step-34510.png"
+      }
+    ]
+  }
+}

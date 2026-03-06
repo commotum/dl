@@ -1,0 +1,369 @@
+{
+  "schema_version": 1,
+  "topic_id": "3800",
+  "topic_title": "Regular Expressions",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3800.html",
+  "source_url": "https://mathacademy.com/topics/3800",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "418452",
+        "dom_id": "sectionLink-418452",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-418452"
+      },
+      {
+        "index": 2,
+        "step_id": "418453",
+        "dom_id": "sectionLink-418453",
+        "name": "",
+        "title": "Applying Operations on Languages",
+        "selector": "#sectionLink-418453"
+      },
+      {
+        "index": 3,
+        "step_id": "418457",
+        "dom_id": "sectionLink-418457",
+        "name": "",
+        "title": "Regular Expressions",
+        "selector": "#sectionLink-418457"
+      },
+      {
+        "index": 4,
+        "step_id": "418458",
+        "dom_id": "sectionLink-418458",
+        "name": "",
+        "title": "Identifying Strings From Languages Defined by Regular Expressions",
+        "selector": "#sectionLink-418458"
+      },
+      {
+        "index": 5,
+        "step_id": "418463",
+        "dom_id": "sectionLink-418463",
+        "name": "",
+        "title": "Building a Regular Expression That Defines a Language",
+        "selector": "#sectionLink-418463"
+      },
+      {
+        "index": 6,
+        "step_id": "418466",
+        "dom_id": "sectionLink-418466",
+        "name": "",
+        "title": "Regular Languages, Deterministic, and Nondeterministic Automata",
+        "selector": "#sectionLink-418466"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3799",
+        "name": "The Language of Automata",
+        "href": "/topics/the-language-of-automata-3799"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "418452",
+        "content_id": "9814",
+        "dom_id": "step-418452",
+        "selector": "#step-418452",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "418453",
+        "content_id": "15671",
+        "dom_id": "step-418453",
+        "selector": "#step-418453",
+        "step_anchor": "step-2",
+        "title": "Applying Operations on Languages",
+        "key_prerequisites": [
+          {
+            "topic_id": "46",
+            "name": "The Constructive Definition of a Set",
+            "href": "/topics/46"
+          },
+          {
+            "topic_id": "3799",
+            "name": "The Language of Automata",
+            "href": "/topics/3799"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "258112",
+        "dom_id": "question-258112",
+        "selector": "#question-258112",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "237685",
+        "dom_id": "question-237685",
+        "selector": "#question-237685",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "237686",
+        "dom_id": "question-237686",
+        "selector": "#question-237686",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "418457",
+        "content_id": "9815",
+        "dom_id": "step-418457",
+        "selector": "#step-418457",
+        "step_anchor": "step-6",
+        "title": "Regular Expressions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "418458",
+        "content_id": "15670",
+        "dom_id": "step-418458",
+        "selector": "#step-418458",
+        "step_anchor": "step-7",
+        "title": "Identifying Strings From Languages Defined by Regular Expressions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "258643",
+        "dom_id": "question-258643",
+        "selector": "#question-258643",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "258278",
+        "dom_id": "question-258278",
+        "selector": "#question-258278",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "258274",
+        "dom_id": "question-258274",
+        "selector": "#question-258274",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "237684",
+        "dom_id": "question-237684",
+        "selector": "#question-237684",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "418463",
+        "content_id": "15673",
+        "dom_id": "step-418463",
+        "selector": "#step-418463",
+        "step_anchor": "step-12",
+        "title": "Building a Regular Expression That Defines a Language",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "258878",
+        "dom_id": "question-258878",
+        "selector": "#question-258878",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "237756",
+        "dom_id": "question-237756",
+        "selector": "#question-237756",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "418466",
+        "content_id": "9861",
+        "dom_id": "step-418466",
+        "selector": "#step-418466",
+        "step_anchor": "step-15",
+        "title": "Regular Languages, Deterministic, and Nondeterministic Automata",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-418452",
+        "filename": "01-step-418452.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-418453",
+        "filename": "02-step-418453.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-258112",
+        "filename": "03-question-258112.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-237685",
+        "filename": "04-question-237685.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-237686",
+        "filename": "05-question-237686.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-418457",
+        "filename": "06-step-418457.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-418458",
+        "filename": "07-step-418458.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-258643",
+        "filename": "08-question-258643.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-258278",
+        "filename": "09-question-258278.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-258274",
+        "filename": "10-question-258274.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-237684",
+        "filename": "11-question-237684.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-418463",
+        "filename": "12-step-418463.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-258878",
+        "filename": "13-question-258878.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-237756",
+        "filename": "14-question-237756.png"
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "selector": "#step-418466",
+        "filename": "15-step-418466.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,336 @@
+{
+  "schema_version": 1,
+  "topic_id": "2726",
+  "topic_title": "Fermat's Little Theorem",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2726.html",
+  "source_url": "https://mathacademy.com/topics/2726",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "27192",
+        "dom_id": "sectionLink-27192",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-27192"
+      },
+      {
+        "index": 2,
+        "step_id": "27194",
+        "dom_id": "sectionLink-27194",
+        "name": "",
+        "title": "Identifying When Fermat's Little Theorem Is Applicable",
+        "selector": "#sectionLink-27194"
+      },
+      {
+        "index": 3,
+        "step_id": "27193",
+        "dom_id": "sectionLink-27193",
+        "name": "",
+        "title": "Computing Modular Residues of Single Exponents Using Fermat's Little Theorem",
+        "selector": "#sectionLink-27193"
+      },
+      {
+        "index": 4,
+        "step_id": "27195",
+        "dom_id": "sectionLink-27195",
+        "name": "",
+        "title": "Computing Modular Residues of Nested Exponents Using Fermat's Little Theorem",
+        "selector": "#sectionLink-27195"
+      },
+      {
+        "index": 5,
+        "step_id": "27229",
+        "dom_id": "sectionLink-27229",
+        "name": "",
+        "title": "A Justification of the Special Case",
+        "selector": "#sectionLink-27229"
+      },
+      {
+        "index": 6,
+        "step_id": "27369",
+        "dom_id": "sectionLink-27369",
+        "name": "",
+        "title": "Deriving the General Form Using the Special Case",
+        "selector": "#sectionLink-27369"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2675",
+        "name": "The Division Properties of Modular Arithmetic",
+        "href": "/topics/the-division-properties-of-modular-arithmetic-2675"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "27192",
+        "content_id": "4418",
+        "dom_id": "step-27192",
+        "selector": "#step-27192",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "27194",
+        "content_id": "7337",
+        "dom_id": "step-27194",
+        "selector": "#step-27194",
+        "step_anchor": "step-2",
+        "title": "Identifying When Fermat's Little Theorem Is Applicable",
+        "key_prerequisites": [
+          {
+            "topic_id": "811",
+            "name": "Finding Greatest Common Factors Using Prime Factorization",
+            "href": "/topics/811"
+          },
+          {
+            "topic_id": "840",
+            "name": "Prime and Composite Numbers",
+            "href": "/topics/840"
+          },
+          {
+            "topic_id": "2641",
+            "name": "Modular Congruence",
+            "href": "/topics/2641"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "83368",
+        "dom_id": "question-83368",
+        "selector": "#question-83368",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "83160",
+        "dom_id": "question-83160",
+        "selector": "#question-83160",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "27193",
+        "content_id": "7336",
+        "dom_id": "step-27193",
+        "selector": "#step-27193",
+        "step_anchor": "step-5",
+        "title": "Computing Modular Residues of Single Exponents Using Fermat's Little Theorem",
+        "key_prerequisites": [
+          {
+            "topic_id": "267",
+            "name": "The Product Rule for Exponents",
+            "href": "/topics/267"
+          },
+          {
+            "topic_id": "1224",
+            "name": "The Power Rule for Exponents",
+            "href": "/topics/1224"
+          },
+          {
+            "topic_id": "2674",
+            "name": "The Multiplication Properties of Modular Arithmetic",
+            "href": "/topics/2674"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "83358",
+        "dom_id": "question-83358",
+        "selector": "#question-83358",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "83159",
+        "dom_id": "question-83159",
+        "selector": "#question-83159",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "27195",
+        "content_id": "7338",
+        "dom_id": "step-27195",
+        "selector": "#step-27195",
+        "step_anchor": "step-8",
+        "title": "Computing Modular Residues of Nested Exponents Using Fermat's Little Theorem",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "83162",
+        "dom_id": "question-83162",
+        "selector": "#question-83162",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "83385",
+        "dom_id": "question-83385",
+        "selector": "#question-83385",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "27229",
+        "content_id": "4425",
+        "dom_id": "step-27229",
+        "selector": "#step-27229",
+        "step_anchor": "step-11",
+        "title": "A Justification of the Special Case",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "27369",
+        "content_id": "4447",
+        "dom_id": "step-27369",
+        "selector": "#step-27369",
+        "step_anchor": "step-12",
+        "title": "Deriving the General Form Using the Special Case",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-27192",
+        "filename": "01-step-27192.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-27194",
+        "filename": "02-step-27194.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-83368",
+        "filename": "03-question-83368.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-83160",
+        "filename": "04-question-83160.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-27193",
+        "filename": "05-step-27193.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-83358",
+        "filename": "06-question-83358.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-83159",
+        "filename": "07-question-83159.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-27195",
+        "filename": "08-step-27195.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-83162",
+        "filename": "09-question-83162.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-83385",
+        "filename": "10-question-83385.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-27229",
+        "filename": "11-step-27229.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-27369",
+        "filename": "12-step-27369.png"
+      }
+    ]
+  }
+}

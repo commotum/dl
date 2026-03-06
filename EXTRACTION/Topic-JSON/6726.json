@@ -1,0 +1,345 @@
+{
+  "schema_version": 1,
+  "topic_id": "6726",
+  "topic_title": "Modeling Current in RCL Circuits With Second-Order ODEs",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/6726.html",
+  "source_url": "https://mathacademy.com/topics/6726",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "602721",
+        "dom_id": "sectionLink-602721",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-602721"
+      },
+      {
+        "index": 2,
+        "step_id": "602722",
+        "dom_id": "sectionLink-602722",
+        "name": "",
+        "title": "Constructing an Equation Governing the Charge in an RCL Circuit",
+        "selector": "#sectionLink-602722"
+      },
+      {
+        "index": 3,
+        "step_id": "603155",
+        "dom_id": "sectionLink-603155",
+        "name": "",
+        "title": "Initial Conditions for Solving the ODE Governing the Current in an RCL Circuit",
+        "selector": "#sectionLink-603155"
+      },
+      {
+        "index": 4,
+        "step_id": "608077",
+        "dom_id": "sectionLink-608077",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-608077"
+      },
+      {
+        "index": 5,
+        "step_id": "602725",
+        "dom_id": "sectionLink-602725",
+        "name": "",
+        "title": "Solving an Equation Governing the Current in an RCL Circuit: Constant EMF",
+        "selector": "#sectionLink-602725"
+      },
+      {
+        "index": 6,
+        "step_id": "602729",
+        "dom_id": "sectionLink-602729",
+        "name": "",
+        "title": "Solving an Equation Governing the Current in an RCL Circuit: Sinusoidal EMF",
+        "selector": "#sectionLink-602729"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "881",
+        "name": "Second-Order Inhomogeneous ODEs With Polynomial Forcing",
+        "href": "/topics/second-order-inhomogeneous-odes-with-polynomial-forcing-881"
+      },
+      {
+        "topic_id": "1845",
+        "name": "Modeling Capacitor Charge in RCL Circuits With Second-Order ODEs",
+        "href": "/topics/modeling-capacitor-charge-in-rcl-circuits-with-second-order-odes-1845"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "602721",
+        "content_id": "14791",
+        "dom_id": "step-602721",
+        "selector": "#step-602721",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "602722",
+        "content_id": "21894",
+        "dom_id": "step-602722",
+        "selector": "#step-602722",
+        "step_anchor": "step-2",
+        "title": "Constructing an Equation Governing the Charge in an RCL Circuit",
+        "key_prerequisites": [
+          {
+            "topic_id": "1845",
+            "name": "Modeling Capacitor Charge in RCL Circuits With Second-Order ODEs",
+            "href": "/topics/1845"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "343955",
+        "dom_id": "question-343955",
+        "selector": "#question-343955",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "343961",
+        "dom_id": "question-343961",
+        "selector": "#question-343961",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "603155",
+        "content_id": "14808",
+        "dom_id": "step-603155",
+        "selector": "#step-603155",
+        "step_anchor": "step-5",
+        "title": "Initial Conditions for Solving the ODE Governing the Current in an RCL Circuit",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "608077",
+        "content_id": "14901",
+        "dom_id": "step-608077",
+        "selector": "#step-608077",
+        "step_anchor": "step-6",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "602725",
+        "content_id": "21895",
+        "dom_id": "step-602725",
+        "selector": "#step-602725",
+        "step_anchor": "step-7",
+        "title": "Solving an Equation Governing the Current in an RCL Circuit: Constant EMF",
+        "key_prerequisites": [
+          {
+            "topic_id": "881",
+            "name": "Second-Order Inhomogeneous ODEs With Polynomial Forcing",
+            "href": "/topics/881"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "344036",
+        "dom_id": "question-344036",
+        "selector": "#question-344036",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "343985",
+        "dom_id": "question-343985",
+        "selector": "#question-343985",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "344046",
+        "dom_id": "question-344046",
+        "selector": "#question-344046",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "602729",
+        "content_id": "21896",
+        "dom_id": "step-602729",
+        "selector": "#step-602729",
+        "step_anchor": "step-11",
+        "title": "Solving an Equation Governing the Current in an RCL Circuit: Sinusoidal EMF",
+        "key_prerequisites": [
+          {
+            "topic_id": "883",
+            "name": "Second-Order Inhomogeneous ODEs With Sinusoidal Forcing",
+            "href": "/topics/883"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "344054",
+        "dom_id": "question-344054",
+        "selector": "#question-344054",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "344172",
+        "dom_id": "question-344172",
+        "selector": "#question-344172",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-602721",
+        "filename": "01-step-602721.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-602722",
+        "filename": "02-step-602722.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-343955",
+        "filename": "03-question-343955.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-343961",
+        "filename": "04-question-343961.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-603155",
+        "filename": "05-step-603155.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-608077",
+        "filename": "06-step-608077.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-602725",
+        "filename": "07-step-602725.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-344036",
+        "filename": "08-question-344036.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-343985",
+        "filename": "09-question-343985.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-344046",
+        "filename": "10-question-344046.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-602729",
+        "filename": "11-step-602729.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-344054",
+        "filename": "12-question-344054.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-344172",
+        "filename": "13-question-344172.png"
+      }
+    ]
+  }
+}

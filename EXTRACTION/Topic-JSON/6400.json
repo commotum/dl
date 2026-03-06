@@ -1,0 +1,298 @@
+{
+  "schema_version": 1,
+  "topic_id": "6400",
+  "topic_title": "Euler's Method for Second-Order ODEs",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/6400.html",
+  "source_url": "https://mathacademy.com/topics/6400",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "594421",
+        "dom_id": "sectionLink-594421",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-594421"
+      },
+      {
+        "index": 2,
+        "step_id": "606510",
+        "dom_id": "sectionLink-606510",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-606510"
+      },
+      {
+        "index": 3,
+        "step_id": "594422",
+        "dom_id": "sectionLink-594422",
+        "name": "",
+        "title": "Completing a Row of a Table Using Euler's Method for Second-Order ODEs",
+        "selector": "#sectionLink-594422"
+      },
+      {
+        "index": 4,
+        "step_id": "594425",
+        "dom_id": "sectionLink-594425",
+        "name": "",
+        "title": "Approximating the Solution to a Second-Order ODE Using Euler's Method With One Step",
+        "selector": "#sectionLink-594425"
+      },
+      {
+        "index": 5,
+        "step_id": "594428",
+        "dom_id": "sectionLink-594428",
+        "name": "",
+        "title": "Approximating the Solution to a Second-Order ODE Using Euler's Method With Two Steps",
+        "selector": "#sectionLink-594428"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2548",
+        "name": "Introduction to Second-Order Linear ODEs",
+        "href": "/topics/introduction-to-second-order-linear-odes-2548"
+      },
+      {
+        "topic_id": "3245",
+        "name": "Euler's Method for Systems of ODEs",
+        "href": "/topics/eulers-method-for-systems-of-odes-3245"
+      },
+      {
+        "topic_id": "3635",
+        "name": "Expressing Inhomogeneous ODEs as First-Order Systems",
+        "href": "/topics/expressing-inhomogeneous-odes-as-first-order-systems-3635"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "594421",
+        "content_id": "14485",
+        "dom_id": "step-594421",
+        "selector": "#step-594421",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "606510",
+        "content_id": "14856",
+        "dom_id": "step-606510",
+        "selector": "#step-606510",
+        "step_anchor": "step-2",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "594422",
+        "content_id": "21664",
+        "dom_id": "step-594422",
+        "selector": "#step-594422",
+        "step_anchor": "step-3",
+        "title": "Completing a Row of a Table Using Euler's Method for Second-Order ODEs",
+        "key_prerequisites": [
+          {
+            "topic_id": "3245",
+            "name": "Euler's Method for Systems of ODEs",
+            "href": "/topics/3245"
+          },
+          {
+            "topic_id": "3635",
+            "name": "Expressing Inhomogeneous ODEs as First-Order Systems",
+            "href": "/topics/3635"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "332977",
+        "dom_id": "question-332977",
+        "selector": "#question-332977",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "333555",
+        "dom_id": "question-333555",
+        "selector": "#question-333555",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "594425",
+        "content_id": "21668",
+        "dom_id": "step-594425",
+        "selector": "#step-594425",
+        "step_anchor": "step-6",
+        "title": "Approximating the Solution to a Second-Order ODE Using Euler's Method With One Step",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "333724",
+        "dom_id": "question-333724",
+        "selector": "#question-333724",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "332989",
+        "dom_id": "question-332989",
+        "selector": "#question-332989",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "594428",
+        "content_id": "21669",
+        "dom_id": "step-594428",
+        "selector": "#step-594428",
+        "step_anchor": "step-9",
+        "title": "Approximating the Solution to a Second-Order ODE Using Euler's Method With Two Steps",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "333965",
+        "dom_id": "question-333965",
+        "selector": "#question-333965",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "333374",
+        "dom_id": "question-333374",
+        "selector": "#question-333374",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-594421",
+        "filename": "01-step-594421.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-606510",
+        "filename": "02-step-606510.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-594422",
+        "filename": "03-step-594422.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-332977",
+        "filename": "04-question-332977.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-333555",
+        "filename": "05-question-333555.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-594425",
+        "filename": "06-step-594425.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-333724",
+        "filename": "07-question-333724.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-332989",
+        "filename": "08-question-332989.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-594428",
+        "filename": "09-step-594428.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-333965",
+        "filename": "10-question-333965.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-333374",
+        "filename": "11-question-333374.png"
+      }
+    ]
+  }
+}

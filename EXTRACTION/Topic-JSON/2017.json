@@ -1,0 +1,383 @@
+{
+  "schema_version": 1,
+  "topic_id": "2017",
+  "topic_title": "Rotation-Scaling Matrices",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2017.html",
+  "source_url": "https://mathacademy.com/topics/2017",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "7464",
+        "dom_id": "sectionLink-7464",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-7464"
+      },
+      {
+        "index": 2,
+        "step_id": "7465",
+        "dom_id": "sectionLink-7465",
+        "name": "",
+        "title": "Identifying Rotation-Scaling Matrices",
+        "selector": "#sectionLink-7465"
+      },
+      {
+        "index": 3,
+        "step_id": "26900",
+        "dom_id": "sectionLink-26900",
+        "name": "",
+        "title": "Constructing a Rotation-Scaling Matrix",
+        "selector": "#sectionLink-26900"
+      },
+      {
+        "index": 4,
+        "step_id": "7489",
+        "dom_id": "sectionLink-7489",
+        "name": "",
+        "title": "Constructing a Rotation-Scaling Matrix That Represents a Geometric Transformation",
+        "selector": "#sectionLink-7489"
+      },
+      {
+        "index": 5,
+        "step_id": "7473",
+        "dom_id": "sectionLink-7473",
+        "name": "",
+        "title": "Finding the Scale Factor and Rotation Angle Of a Rotation-Scaling Matrix",
+        "selector": "#sectionLink-7473"
+      },
+      {
+        "index": 6,
+        "step_id": "7474",
+        "dom_id": "sectionLink-7474",
+        "name": "",
+        "title": "Finding the Scale Factors and Angles of Rotation of Rotation-Scaling Matrices",
+        "selector": "#sectionLink-7474"
+      },
+      {
+        "index": 7,
+        "step_id": "7485",
+        "dom_id": "sectionLink-7485",
+        "name": "",
+        "title": "Sketching the Image of a Vector Under the Action Of a Rotation-Scaling Matrix",
+        "selector": "#sectionLink-7485"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "867",
+        "name": "Dilations and Reflections as Linear Transformations",
+        "href": "/topics/dilations-and-reflections-as-linear-transformations-867"
+      },
+      {
+        "topic_id": "932",
+        "name": "Rotations as Linear Transformations",
+        "href": "/topics/rotations-as-linear-transformations-932"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "7464",
+        "content_id": "2012",
+        "dom_id": "step-7464",
+        "selector": "#step-7464",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "7465",
+        "content_id": "2174",
+        "dom_id": "step-7465",
+        "selector": "#step-7465",
+        "step_anchor": "step-2",
+        "title": "Identifying Rotation-Scaling Matrices",
+        "key_prerequisites": [
+          {
+            "topic_id": "867",
+            "name": "Dilations and Reflections as Linear Transformations",
+            "href": "/topics/867"
+          },
+          {
+            "topic_id": "932",
+            "name": "Rotations as Linear Transformations",
+            "href": "/topics/932"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "38526",
+        "dom_id": "question-38526",
+        "selector": "#question-38526",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "38517",
+        "dom_id": "question-38517",
+        "selector": "#question-38517",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "26900",
+        "content_id": "4390",
+        "dom_id": "step-26900",
+        "selector": "#step-26900",
+        "step_anchor": "step-5",
+        "title": "Constructing a Rotation-Scaling Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "7489",
+        "content_id": "2182",
+        "dom_id": "step-7489",
+        "selector": "#step-7489",
+        "step_anchor": "step-6",
+        "title": "Constructing a Rotation-Scaling Matrix That Represents a Geometric Transformation",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "39391",
+        "dom_id": "question-39391",
+        "selector": "#question-39391",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "39388",
+        "dom_id": "question-39388",
+        "selector": "#question-39388",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "7473",
+        "content_id": "2014",
+        "dom_id": "step-7473",
+        "selector": "#step-7473",
+        "step_anchor": "step-9",
+        "title": "Finding the Scale Factor and Rotation Angle Of a Rotation-Scaling Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "7474",
+        "content_id": "2180",
+        "dom_id": "step-7474",
+        "selector": "#step-7474",
+        "step_anchor": "step-10",
+        "title": "Finding the Scale Factors and Angles of Rotation of Rotation-Scaling Matrices",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "38473",
+        "dom_id": "question-38473",
+        "selector": "#question-38473",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "38506",
+        "dom_id": "question-38506",
+        "selector": "#question-38506",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "7485",
+        "content_id": "2181",
+        "dom_id": "step-7485",
+        "selector": "#step-7485",
+        "step_anchor": "step-13",
+        "title": "Sketching the Image of a Vector Under the Action Of a Rotation-Scaling Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "39211",
+        "dom_id": "question-39211",
+        "selector": "#question-39211",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "39208",
+        "dom_id": "question-39208",
+        "selector": "#question-39208",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-7464",
+        "filename": "01-step-7464.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-7465",
+        "filename": "02-step-7465.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-38526",
+        "filename": "03-question-38526.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-38517",
+        "filename": "04-question-38517.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-26900",
+        "filename": "05-step-26900.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-7489",
+        "filename": "06-step-7489.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-39391",
+        "filename": "07-question-39391.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-39388",
+        "filename": "08-question-39388.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-7473",
+        "filename": "09-step-7473.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-7474",
+        "filename": "10-step-7474.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-38473",
+        "filename": "11-question-38473.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-38506",
+        "filename": "12-question-38506.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-7485",
+        "filename": "13-step-7485.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-39211",
+        "filename": "14-question-39211.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-39208",
+        "filename": "15-question-39208.png"
+      }
+    ]
+  }
+}

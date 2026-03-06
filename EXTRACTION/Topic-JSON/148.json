@@ -1,0 +1,356 @@
+{
+  "schema_version": 1,
+  "topic_id": "148",
+  "topic_title": "Systems of Equations as Augmented Matrices",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/148.html",
+  "source_url": "https://mathacademy.com/topics/148",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "17169",
+        "dom_id": "sectionLink-17169",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-17169"
+      },
+      {
+        "index": 2,
+        "step_id": "17172",
+        "dom_id": "sectionLink-17172",
+        "name": "",
+        "title": "The Order of the Variables in a Linear System",
+        "selector": "#sectionLink-17172"
+      },
+      {
+        "index": 3,
+        "step_id": "17170",
+        "dom_id": "sectionLink-17170",
+        "name": "",
+        "title": "Finding the Coefficient Matrix of a System of Linear Equations",
+        "selector": "#sectionLink-17170"
+      },
+      {
+        "index": 4,
+        "step_id": "17171",
+        "dom_id": "sectionLink-17171",
+        "name": "",
+        "title": "Finding the Augmented Matrix of a System of Linear Equations",
+        "selector": "#sectionLink-17171"
+      },
+      {
+        "index": 5,
+        "step_id": "17173",
+        "dom_id": "sectionLink-17173",
+        "name": "",
+        "title": "Finding the System of Equations Associated With an Augmented Matrix",
+        "selector": "#sectionLink-17173"
+      },
+      {
+        "index": 6,
+        "step_id": "17174",
+        "dom_id": "sectionLink-17174",
+        "name": "",
+        "title": "Finding the Augmented Matrix of a Linear System With Variables Other Than x, y, z",
+        "selector": "#sectionLink-17174"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "861",
+        "name": "Introduction to Matrices",
+        "href": "/topics/introduction-to-matrices-861"
+      },
+      {
+        "topic_id": "2225",
+        "name": "Introduction to Systems of Linear Equations",
+        "href": "/topics/introduction-to-systems-of-linear-equations-2225"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "17169",
+        "content_id": "3146",
+        "dom_id": "step-17169",
+        "selector": "#step-17169",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "17172",
+        "content_id": "3147",
+        "dom_id": "step-17172",
+        "selector": "#step-17172",
+        "step_anchor": "step-2",
+        "title": "The Order of the Variables in a Linear System",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17170",
+        "content_id": "4683",
+        "dom_id": "step-17170",
+        "selector": "#step-17170",
+        "step_anchor": "step-3",
+        "title": "Finding the Coefficient Matrix of a System of Linear Equations",
+        "key_prerequisites": [
+          {
+            "topic_id": "861",
+            "name": "Introduction to Matrices",
+            "href": "/topics/861"
+          },
+          {
+            "topic_id": "2225",
+            "name": "Introduction to Systems of Linear Equations",
+            "href": "/topics/2225"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "71713",
+        "dom_id": "question-71713",
+        "selector": "#question-71713",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "1069",
+        "dom_id": "question-1069",
+        "selector": "#question-1069",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17171",
+        "content_id": "4684",
+        "dom_id": "step-17171",
+        "selector": "#step-17171",
+        "step_anchor": "step-6",
+        "title": "Finding the Augmented Matrix of a System of Linear Equations",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "20361",
+        "dom_id": "question-20361",
+        "selector": "#question-20361",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "1051",
+        "dom_id": "question-1051",
+        "selector": "#question-1051",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17173",
+        "content_id": "4685",
+        "dom_id": "step-17173",
+        "selector": "#step-17173",
+        "step_anchor": "step-9",
+        "title": "Finding the System of Equations Associated With an Augmented Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "71724",
+        "dom_id": "question-71724",
+        "selector": "#question-71724",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "20223",
+        "dom_id": "question-20223",
+        "selector": "#question-20223",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "17174",
+        "content_id": "4686",
+        "dom_id": "step-17174",
+        "selector": "#step-17174",
+        "step_anchor": "step-12",
+        "title": "Finding the Augmented Matrix of a Linear System With Variables Other Than x, y, z",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "71730",
+        "dom_id": "question-71730",
+        "selector": "#question-71730",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "1074",
+        "dom_id": "question-1074",
+        "selector": "#question-1074",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-17169",
+        "filename": "01-step-17169.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-17172",
+        "filename": "02-step-17172.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-17170",
+        "filename": "03-step-17170.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-71713",
+        "filename": "04-question-71713.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-1069",
+        "filename": "05-question-1069.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-17171",
+        "filename": "06-step-17171.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-20361",
+        "filename": "07-question-20361.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-1051",
+        "filename": "08-question-1051.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-17173",
+        "filename": "09-step-17173.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-71724",
+        "filename": "10-question-71724.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-20223",
+        "filename": "11-question-20223.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-17174",
+        "filename": "12-step-17174.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-71730",
+        "filename": "13-question-71730.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-1074",
+        "filename": "14-question-1074.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,398 @@
+{
+  "schema_version": 1,
+  "topic_id": "3178",
+  "topic_title": "Flux in Three-Dimensional Vector Fields",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3178.html",
+  "source_url": "https://mathacademy.com/topics/3178",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "44782",
+        "dom_id": "sectionLink-44782",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-44782"
+      },
+      {
+        "index": 2,
+        "step_id": "44785",
+        "dom_id": "sectionLink-44785",
+        "name": "",
+        "title": "Orientable vs. Non-Orientable Surfaces",
+        "selector": "#sectionLink-44785"
+      },
+      {
+        "index": 3,
+        "step_id": "44784",
+        "dom_id": "sectionLink-44784",
+        "name": "",
+        "title": "Flux in Three-Dimensional Vector Fields",
+        "selector": "#sectionLink-44784"
+      },
+      {
+        "index": 4,
+        "step_id": "44277",
+        "dom_id": "sectionLink-44277",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-44277"
+      },
+      {
+        "index": 5,
+        "step_id": "44279",
+        "dom_id": "sectionLink-44279",
+        "name": "",
+        "title": "Rewriting a Flux Integral as a Surface Integral",
+        "selector": "#sectionLink-44279"
+      },
+      {
+        "index": 6,
+        "step_id": "44799",
+        "dom_id": "sectionLink-44799",
+        "name": "",
+        "title": "The Fundamental Vector Product for a Horizontal Plane",
+        "selector": "#sectionLink-44799"
+      },
+      {
+        "index": 7,
+        "step_id": "44437",
+        "dom_id": "sectionLink-44437",
+        "name": "",
+        "title": "Computing the Flux of a Vector Field Through a Horizontal Plane",
+        "selector": "#sectionLink-44437"
+      },
+      {
+        "index": 8,
+        "step_id": "44795",
+        "dom_id": "sectionLink-44795",
+        "name": "",
+        "title": "Computing the Flux of a Vector Field Through a Tilted Plane",
+        "selector": "#sectionLink-44795"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1264",
+        "name": "Surface Integrals Over Cartesian Surfaces",
+        "href": "/topics/surface-integrals-over-cartesian-surfaces-1264"
+      },
+      {
+        "topic_id": "3715",
+        "name": "Flux in Two-Dimensional Vector Fields",
+        "href": "/topics/flux-in-two-dimensional-vector-fields-3715"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44782",
+        "content_id": "7725",
+        "dom_id": "step-44782",
+        "selector": "#step-44782",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44785",
+        "content_id": "7728",
+        "dom_id": "step-44785",
+        "selector": "#step-44785",
+        "step_anchor": "step-2",
+        "title": "Orientable vs. Non-Orientable Surfaces",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44784",
+        "content_id": "7727",
+        "dom_id": "step-44784",
+        "selector": "#step-44784",
+        "step_anchor": "step-3",
+        "title": "Flux in Three-Dimensional Vector Fields",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44277",
+        "content_id": "7632",
+        "dom_id": "step-44277",
+        "selector": "#step-44277",
+        "step_anchor": "step-4",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44279",
+        "content_id": "12356",
+        "dom_id": "step-44279",
+        "selector": "#step-44279",
+        "step_anchor": "step-5",
+        "title": "Rewriting a Flux Integral as a Surface Integral",
+        "key_prerequisites": [
+          {
+            "topic_id": "3715",
+            "name": "Flux in Two-Dimensional Vector Fields",
+            "href": "/topics/3715"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "161149",
+        "dom_id": "question-161149",
+        "selector": "#question-161149",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "160838",
+        "dom_id": "question-160838",
+        "selector": "#question-160838",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44799",
+        "content_id": "7733",
+        "dom_id": "step-44799",
+        "selector": "#step-44799",
+        "step_anchor": "step-8",
+        "title": "The Fundamental Vector Product for a Horizontal Plane",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44437",
+        "content_id": "12384",
+        "dom_id": "step-44437",
+        "selector": "#step-44437",
+        "step_anchor": "step-9",
+        "title": "Computing the Flux of a Vector Field Through a Horizontal Plane",
+        "key_prerequisites": [
+          {
+            "topic_id": "1264",
+            "name": "Surface Integrals Over Cartesian Surfaces",
+            "href": "/topics/1264"
+          },
+          {
+            "topic_id": "1807",
+            "name": "The Cartesian Equation of a Plane",
+            "href": "/topics/1807"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "161152",
+        "dom_id": "question-161152",
+        "selector": "#question-161152",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "162146",
+        "dom_id": "question-162146",
+        "selector": "#question-162146",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "161196",
+        "dom_id": "question-161196",
+        "selector": "#question-161196",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44795",
+        "content_id": "12454",
+        "dom_id": "step-44795",
+        "selector": "#step-44795",
+        "step_anchor": "step-13",
+        "title": "Computing the Flux of a Vector Field Through a Tilted Plane",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "161158",
+        "dom_id": "question-161158",
+        "selector": "#question-161158",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "161244",
+        "dom_id": "question-161244",
+        "selector": "#question-161244",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-44782",
+        "filename": "01-step-44782.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-44785",
+        "filename": "02-step-44785.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-44784",
+        "filename": "03-step-44784.png"
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "selector": "#step-44277",
+        "filename": "04-step-44277.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-44279",
+        "filename": "05-step-44279.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-161149",
+        "filename": "06-question-161149.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-160838",
+        "filename": "07-question-160838.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-44799",
+        "filename": "08-step-44799.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-44437",
+        "filename": "09-step-44437.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-161152",
+        "filename": "10-question-161152.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-162146",
+        "filename": "11-question-162146.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-161196",
+        "filename": "12-question-161196.png"
+      },
+      {
+        "index": 13,
+        "item_type": "step",
+        "selector": "#step-44795",
+        "filename": "13-step-44795.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-161158",
+        "filename": "14-question-161158.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-161244",
+        "filename": "15-question-161244.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,364 @@
+{
+  "schema_version": 1,
+  "topic_id": "1913",
+  "topic_title": "Steady-State Vectors",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1913.html",
+  "source_url": "https://mathacademy.com/topics/1913",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "37332",
+        "dom_id": "sectionLink-37332",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-37332"
+      },
+      {
+        "index": 2,
+        "step_id": "34230",
+        "dom_id": "sectionLink-34230",
+        "name": "",
+        "title": "Steady-State Vectors",
+        "selector": "#sectionLink-34230"
+      },
+      {
+        "index": 3,
+        "step_id": "34231",
+        "dom_id": "sectionLink-34231",
+        "name": "",
+        "title": "Identifying Steady-State Vectors of Stochastic Matrices",
+        "selector": "#sectionLink-34231"
+      },
+      {
+        "index": 4,
+        "step_id": "34232",
+        "dom_id": "sectionLink-34232",
+        "name": "",
+        "title": "Finding the Steady-State Vector of a Stochastic Matrix",
+        "selector": "#sectionLink-34232"
+      },
+      {
+        "index": 5,
+        "step_id": "34235",
+        "dom_id": "sectionLink-34235",
+        "name": "",
+        "title": "Regular Stochastic Matrices",
+        "selector": "#sectionLink-34235"
+      },
+      {
+        "index": 6,
+        "step_id": "34233",
+        "dom_id": "sectionLink-34233",
+        "name": "",
+        "title": "Finding the Steady-State Vector of a Stochastic 2x2 Matrix",
+        "selector": "#sectionLink-34233"
+      },
+      {
+        "index": 7,
+        "step_id": "34234",
+        "dom_id": "sectionLink-34234",
+        "name": "",
+        "title": "Finding the Steady-State Vector of a Stochastic 3x3 Matrix",
+        "selector": "#sectionLink-34234"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1087",
+        "name": "Limits of Sequences",
+        "href": "/topics/limits-of-sequences-1087"
+      },
+      {
+        "topic_id": "1374",
+        "name": "Solving 3x3 Singular Systems of Equations Using Gaussian Elimination",
+        "href": "/topics/solving-3x3-singular-systems-of-equations-using-gaussian-elimination-1374"
+      },
+      {
+        "topic_id": "1911",
+        "name": "Markov Chains",
+        "href": "/topics/markov-chains-1911"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "37332",
+        "content_id": "6151",
+        "dom_id": "step-37332",
+        "selector": "#step-37332",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "34230",
+        "content_id": "5500",
+        "dom_id": "step-34230",
+        "selector": "#step-34230",
+        "step_anchor": "step-2",
+        "title": "Steady-State Vectors",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "34231",
+        "content_id": "9178",
+        "dom_id": "step-34231",
+        "selector": "#step-34231",
+        "step_anchor": "step-3",
+        "title": "Identifying Steady-State Vectors of Stochastic Matrices",
+        "key_prerequisites": [
+          {
+            "topic_id": "1195",
+            "name": "Multiplying a Matrix by a Column Vector",
+            "href": "/topics/1195"
+          },
+          {
+            "topic_id": "1911",
+            "name": "Markov Chains",
+            "href": "/topics/1911"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "110189",
+        "dom_id": "question-110189",
+        "selector": "#question-110189",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "110239",
+        "dom_id": "question-110239",
+        "selector": "#question-110239",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "34232",
+        "content_id": "5501",
+        "dom_id": "step-34232",
+        "selector": "#step-34232",
+        "step_anchor": "step-6",
+        "title": "Finding the Steady-State Vector of a Stochastic Matrix",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "34235",
+        "content_id": "5502",
+        "dom_id": "step-34235",
+        "selector": "#step-34235",
+        "step_anchor": "step-7",
+        "title": "Regular Stochastic Matrices",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "34233",
+        "content_id": "9179",
+        "dom_id": "step-34233",
+        "selector": "#step-34233",
+        "step_anchor": "step-8",
+        "title": "Finding the Steady-State Vector of a Stochastic 2x2 Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "1373",
+            "name": "Solving 2x2 Singular Systems of Equations Using Gaussian Elimination",
+            "href": "/topics/1373"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "110242",
+        "dom_id": "question-110242",
+        "selector": "#question-110242",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "111172",
+        "dom_id": "question-111172",
+        "selector": "#question-111172",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "34234",
+        "content_id": "9180",
+        "dom_id": "step-34234",
+        "selector": "#step-34234",
+        "step_anchor": "step-11",
+        "title": "Finding the Steady-State Vector of a Stochastic 3x3 Matrix",
+        "key_prerequisites": [
+          {
+            "topic_id": "1374",
+            "name": "Solving 3x3 Singular Systems of Equations Using Gaussian Elimination",
+            "href": "/topics/1374"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "110243",
+        "dom_id": "question-110243",
+        "selector": "#question-110243",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "111192",
+        "dom_id": "question-111192",
+        "selector": "#question-111192",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-37332",
+        "filename": "01-step-37332.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-34230",
+        "filename": "02-step-34230.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-34231",
+        "filename": "03-step-34231.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-110189",
+        "filename": "04-question-110189.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-110239",
+        "filename": "05-question-110239.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-34232",
+        "filename": "06-step-34232.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-34235",
+        "filename": "07-step-34235.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-34233",
+        "filename": "08-step-34233.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-110242",
+        "filename": "09-question-110242.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-111172",
+        "filename": "10-question-111172.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-34234",
+        "filename": "11-step-34234.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-110243",
+        "filename": "12-question-110243.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-111192",
+        "filename": "13-question-111192.png"
+      }
+    ]
+  }
+}

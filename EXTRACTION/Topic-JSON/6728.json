@@ -1,0 +1,371 @@
+{
+  "schema_version": 1,
+  "topic_id": "6728",
+  "topic_title": "Solving Second-Order ODEs With Time-Delayed Forcing Using Laplace Transforms",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/6728.html",
+  "source_url": "https://mathacademy.com/topics/6728",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "612666",
+        "dom_id": "sectionLink-612666",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-612666"
+      },
+      {
+        "index": 2,
+        "step_id": "612667",
+        "dom_id": "sectionLink-612667",
+        "name": "",
+        "title": "A Worked Example",
+        "selector": "#sectionLink-612667"
+      },
+      {
+        "index": 3,
+        "step_id": "612668",
+        "dom_id": "sectionLink-612668",
+        "name": "",
+        "title": "Finding the Laplace Transform of a Second-Order ODE With Step Function Forcing",
+        "selector": "#sectionLink-612668"
+      },
+      {
+        "index": 4,
+        "step_id": "612671",
+        "dom_id": "sectionLink-612671",
+        "name": "",
+        "title": "Time-Delayed Forcing and the Second Shifting Theorem",
+        "selector": "#sectionLink-612671"
+      },
+      {
+        "index": 5,
+        "step_id": "612672",
+        "dom_id": "sectionLink-612672",
+        "name": "",
+        "title": "Finding the Laplace Transform of a Second-Order ODE With Time-Delayed Forcing",
+        "selector": "#sectionLink-612672"
+      },
+      {
+        "index": 6,
+        "step_id": "612676",
+        "dom_id": "sectionLink-612676",
+        "name": "",
+        "title": "Solving for the Laplace Transform With Step Function Forcing",
+        "selector": "#sectionLink-612676"
+      },
+      {
+        "index": 7,
+        "step_id": "612677",
+        "dom_id": "sectionLink-612677",
+        "name": "",
+        "title": "Solving a Second-Order Initial Value Problem With Step Function Forcing",
+        "selector": "#sectionLink-612677"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2540",
+        "name": "Solving Second-Order ODEs Using Laplace Transforms",
+        "href": "/topics/solving-second-order-odes-using-laplace-transforms-2540"
+      },
+      {
+        "topic_id": "6718",
+        "name": "Solving First-Order ODEs With Time-Delayed Forcing Using Laplace Transforms",
+        "href": "/topics/solving-first-order-odes-with-time-delayed-forcing-using-laplace-transforms-6718"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "612666",
+        "content_id": "14810",
+        "dom_id": "step-612666",
+        "selector": "#step-612666",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "612667",
+        "content_id": "14834",
+        "dom_id": "step-612667",
+        "selector": "#step-612667",
+        "step_anchor": "step-2",
+        "title": "A Worked Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "612668",
+        "content_id": "6664",
+        "dom_id": "step-612668",
+        "selector": "#step-612668",
+        "step_anchor": "step-3",
+        "title": "Finding the Laplace Transform of a Second-Order ODE With Step Function Forcing",
+        "key_prerequisites": [
+          {
+            "topic_id": "2540",
+            "name": "Solving Second-Order ODEs Using Laplace Transforms",
+            "href": "/topics/2540"
+          },
+          {
+            "topic_id": "6718",
+            "name": "Solving First-Order ODEs With Time-Delayed Forcing Using Laplace Transforms",
+            "href": "/topics/6718"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "64441",
+        "dom_id": "question-64441",
+        "selector": "#question-64441",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "102424",
+        "dom_id": "question-102424",
+        "selector": "#question-102424",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "612671",
+        "content_id": "14829",
+        "dom_id": "step-612671",
+        "selector": "#step-612671",
+        "step_anchor": "step-6",
+        "title": "Time-Delayed Forcing and the Second Shifting Theorem",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "612672",
+        "content_id": "21904",
+        "dom_id": "step-612672",
+        "selector": "#step-612672",
+        "step_anchor": "step-7",
+        "title": "Finding the Laplace Transform of a Second-Order ODE With Time-Delayed Forcing",
+        "key_prerequisites": [
+          {
+            "topic_id": "6370",
+            "name": "The Second Shifting Theorem of Laplace Transforms",
+            "href": "/topics/6370"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "345073",
+        "dom_id": "question-345073",
+        "selector": "#question-345073",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "345069",
+        "dom_id": "question-345069",
+        "selector": "#question-345069",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "345074",
+        "dom_id": "question-345074",
+        "selector": "#question-345074",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "612676",
+        "content_id": "14830",
+        "dom_id": "step-612676",
+        "selector": "#step-612676",
+        "step_anchor": "step-11",
+        "title": "Solving for the Laplace Transform With Step Function Forcing",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "612677",
+        "content_id": "21903",
+        "dom_id": "step-612677",
+        "selector": "#step-612677",
+        "step_anchor": "step-12",
+        "title": "Solving a Second-Order Initial Value Problem With Step Function Forcing",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "345072",
+        "dom_id": "question-345072",
+        "selector": "#question-345072",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "345296",
+        "dom_id": "question-345296",
+        "selector": "#question-345296",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-612666",
+        "filename": "01-step-612666.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-612667",
+        "filename": "02-step-612667.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-612668",
+        "filename": "03-step-612668.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-64441",
+        "filename": "04-question-64441.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-102424",
+        "filename": "05-question-102424.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-612671",
+        "filename": "06-step-612671.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-612672",
+        "filename": "07-step-612672.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-345073",
+        "filename": "08-question-345073.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-345069",
+        "filename": "09-question-345069.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-345074",
+        "filename": "10-question-345074.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-612676",
+        "filename": "11-step-612676.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-612677",
+        "filename": "12-step-612677.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-345072",
+        "filename": "13-question-345072.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-345296",
+        "filename": "14-question-345296.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,316 @@
+{
+  "schema_version": 1,
+  "topic_id": "2198",
+  "topic_title": "Using Green's Theorem to Calculate Area",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2198.html",
+  "source_url": "https://mathacademy.com/topics/2198",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "35784",
+        "dom_id": "sectionLink-35784",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-35784"
+      },
+      {
+        "index": 2,
+        "step_id": "35792",
+        "dom_id": "sectionLink-35792",
+        "name": "",
+        "title": "A Concrete Example",
+        "selector": "#sectionLink-35792"
+      },
+      {
+        "index": 3,
+        "step_id": "35869",
+        "dom_id": "sectionLink-35869",
+        "name": "",
+        "title": "Negatively Oriented Curves",
+        "selector": "#sectionLink-35869"
+      },
+      {
+        "index": 4,
+        "step_id": "35785",
+        "dom_id": "sectionLink-35785",
+        "name": "",
+        "title": "Identifying Vector Fields That Satisfy the Unit Curl Property",
+        "selector": "#sectionLink-35785"
+      },
+      {
+        "index": 5,
+        "step_id": "35786",
+        "dom_id": "sectionLink-35786",
+        "name": "",
+        "title": "Expressing the Area Bounded by a Closed Curve Using Green\u2019s Theorem",
+        "selector": "#sectionLink-35786"
+      },
+      {
+        "index": 6,
+        "step_id": "35787",
+        "dom_id": "sectionLink-35787",
+        "name": "",
+        "title": "Calculating an Area Using Green's Theorem",
+        "selector": "#sectionLink-35787"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2116",
+        "name": "Introduction to Green's Theorem",
+        "href": "/topics/introduction-to-greens-theorem-2116"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "35784",
+        "content_id": "5839",
+        "dom_id": "step-35784",
+        "selector": "#step-35784",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "35792",
+        "content_id": "5840",
+        "dom_id": "step-35792",
+        "selector": "#step-35792",
+        "step_anchor": "step-2",
+        "title": "A Concrete Example",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "35869",
+        "content_id": "5857",
+        "dom_id": "step-35869",
+        "selector": "#step-35869",
+        "step_anchor": "step-3",
+        "title": "Negatively Oriented Curves",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "35785",
+        "content_id": "9553",
+        "dom_id": "step-35785",
+        "selector": "#step-35785",
+        "step_anchor": "step-4",
+        "title": "Identifying Vector Fields That Satisfy the Unit Curl Property",
+        "key_prerequisites": [
+          {
+            "topic_id": "2116",
+            "name": "Introduction to Green's Theorem",
+            "href": "/topics/2116"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "125852",
+        "dom_id": "question-125852",
+        "selector": "#question-125852",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "125853",
+        "dom_id": "question-125853",
+        "selector": "#question-125853",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "35786",
+        "content_id": "9554",
+        "dom_id": "step-35786",
+        "selector": "#step-35786",
+        "step_anchor": "step-7",
+        "title": "Expressing the Area Bounded by a Closed Curve Using Green\u2019s Theorem",
+        "key_prerequisites": [
+          {
+            "topic_id": "3705",
+            "name": "Sums of Line Integrals With Respect to X and Y Over Parametric Curves",
+            "href": "/topics/3705"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "42221",
+        "dom_id": "question-42221",
+        "selector": "#question-42221",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "42238",
+        "dom_id": "question-42238",
+        "selector": "#question-42238",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "35787",
+        "content_id": "9555",
+        "dom_id": "step-35787",
+        "selector": "#step-35787",
+        "step_anchor": "step-10",
+        "title": "Calculating an Area Using Green's Theorem",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "42215",
+        "dom_id": "question-42215",
+        "selector": "#question-42215",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "42298",
+        "dom_id": "question-42298",
+        "selector": "#question-42298",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-35784",
+        "filename": "01-step-35784.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-35792",
+        "filename": "02-step-35792.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-35869",
+        "filename": "03-step-35869.png"
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "selector": "#step-35785",
+        "filename": "04-step-35785.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-125852",
+        "filename": "05-question-125852.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-125853",
+        "filename": "06-question-125853.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-35786",
+        "filename": "07-step-35786.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-42221",
+        "filename": "08-question-42221.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-42238",
+        "filename": "09-question-42238.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-35787",
+        "filename": "10-step-35787.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-42215",
+        "filename": "11-question-42215.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-42298",
+        "filename": "12-question-42298.png"
+      }
+    ]
+  }
+}

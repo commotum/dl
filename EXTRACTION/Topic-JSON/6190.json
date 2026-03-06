@@ -1,0 +1,367 @@
+{
+  "schema_version": 1,
+  "topic_id": "6190",
+  "topic_title": "Calculating Modes and Medians From Histograms",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/6190.html",
+  "source_url": "https://mathacademy.com/topics/6190",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "502738",
+        "dom_id": "sectionLink-502738",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-502738"
+      },
+      {
+        "index": 2,
+        "step_id": "502739",
+        "dom_id": "sectionLink-502739",
+        "name": "",
+        "title": "Determining Modes From Histograms",
+        "selector": "#sectionLink-502739"
+      },
+      {
+        "index": 3,
+        "step_id": "502743",
+        "dom_id": "sectionLink-502743",
+        "name": "",
+        "title": "Calculating Medians",
+        "selector": "#sectionLink-502743"
+      },
+      {
+        "index": 4,
+        "step_id": "502744",
+        "dom_id": "sectionLink-502744",
+        "name": "",
+        "title": "Calculating Medians From Histograms",
+        "selector": "#sectionLink-502744"
+      },
+      {
+        "index": 5,
+        "step_id": "502747",
+        "dom_id": "sectionLink-502747",
+        "name": "",
+        "title": "Estimating Medians When the Data Is Grouped",
+        "selector": "#sectionLink-502747"
+      },
+      {
+        "index": 6,
+        "step_id": "502748",
+        "dom_id": "sectionLink-502748",
+        "name": "",
+        "title": "Estimating Medians From Histograms",
+        "selector": "#sectionLink-502748"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2510",
+        "name": "Histograms",
+        "href": "/topics/histograms-2510"
+      },
+      {
+        "topic_id": "6177",
+        "name": "Calculating Medians From Frequency Tables",
+        "href": "/topics/calculating-medians-from-frequency-tables-6177"
+      },
+      {
+        "topic_id": "6186",
+        "name": "Calculating Modes From Frequency Tables",
+        "href": "/topics/calculating-modes-from-frequency-tables-6186"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "502738",
+        "content_id": "13508",
+        "dom_id": "step-502738",
+        "selector": "#step-502738",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "502739",
+        "content_id": "18962",
+        "dom_id": "step-502739",
+        "selector": "#step-502739",
+        "step_anchor": "step-2",
+        "title": "Determining Modes From Histograms",
+        "key_prerequisites": [
+          {
+            "topic_id": "2510",
+            "name": "Histograms",
+            "href": "/topics/2510"
+          },
+          {
+            "topic_id": "3579",
+            "name": "The Mode of a Data Set",
+            "href": "/topics/3579"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "297850",
+        "dom_id": "question-297850",
+        "selector": "#question-297850",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "297867",
+        "dom_id": "question-297867",
+        "selector": "#question-297867",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "297876",
+        "dom_id": "question-297876",
+        "selector": "#question-297876",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "502743",
+        "content_id": "13550",
+        "dom_id": "step-502743",
+        "selector": "#step-502743",
+        "step_anchor": "step-6",
+        "title": "Calculating Medians",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "502744",
+        "content_id": "18943",
+        "dom_id": "step-502744",
+        "selector": "#step-502744",
+        "step_anchor": "step-7",
+        "title": "Calculating Medians From Histograms",
+        "key_prerequisites": [
+          {
+            "topic_id": "6177",
+            "name": "Calculating Medians From Frequency Tables",
+            "href": "/topics/6177"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "301566",
+        "dom_id": "question-301566",
+        "selector": "#question-301566",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "296710",
+        "dom_id": "question-296710",
+        "selector": "#question-296710",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "502747",
+        "content_id": "13471",
+        "dom_id": "step-502747",
+        "selector": "#step-502747",
+        "step_anchor": "step-10",
+        "title": "Estimating Medians When the Data Is Grouped",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "502748",
+        "content_id": "18944",
+        "dom_id": "step-502748",
+        "selector": "#step-502748",
+        "step_anchor": "step-11",
+        "title": "Estimating Medians From Histograms",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "301001",
+        "dom_id": "question-301001",
+        "selector": "#question-301001",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "301023",
+        "dom_id": "question-301023",
+        "selector": "#question-301023",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "297822",
+        "dom_id": "question-297822",
+        "selector": "#question-297822",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-502738",
+        "filename": "01-step-502738.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-502739",
+        "filename": "02-step-502739.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-297850",
+        "filename": "03-question-297850.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-297867",
+        "filename": "04-question-297867.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-297876",
+        "filename": "05-question-297876.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-502743",
+        "filename": "06-step-502743.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-502744",
+        "filename": "07-step-502744.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-301566",
+        "filename": "08-question-301566.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-296710",
+        "filename": "09-question-296710.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-502747",
+        "filename": "10-step-502747.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-502748",
+        "filename": "11-step-502748.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-301001",
+        "filename": "12-question-301001.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-301023",
+        "filename": "13-question-301023.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-297822",
+        "filename": "14-question-297822.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,378 @@
+{
+  "schema_version": 1,
+  "topic_id": "4096",
+  "topic_title": "Computing Partial Derivatives Using the Rules of Differentiation",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/4096.html",
+  "source_url": "https://mathacademy.com/topics/4096",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "41989",
+        "dom_id": "sectionLink-41989",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-41989"
+      },
+      {
+        "index": 2,
+        "step_id": "41983",
+        "dom_id": "sectionLink-41983",
+        "name": "",
+        "title": "Applying the Chain Rule",
+        "selector": "#sectionLink-41983"
+      },
+      {
+        "index": 3,
+        "step_id": "41903",
+        "dom_id": "sectionLink-41903",
+        "name": "",
+        "title": "Applying the Product Rule",
+        "selector": "#sectionLink-41903"
+      },
+      {
+        "index": 4,
+        "step_id": "42238",
+        "dom_id": "sectionLink-42238",
+        "name": "",
+        "title": "Applying the Quotient Rule",
+        "selector": "#sectionLink-42238"
+      },
+      {
+        "index": 5,
+        "step_id": "44640",
+        "dom_id": "sectionLink-44640",
+        "name": "",
+        "title": "Partial Derivatives of Three-Variable Functions",
+        "selector": "#sectionLink-44640"
+      },
+      {
+        "index": 6,
+        "step_id": "41900",
+        "dom_id": "sectionLink-41900",
+        "name": "",
+        "title": "Finding Partial Derivatives of Three-Variable Functions",
+        "selector": "#sectionLink-41900"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1929",
+        "name": "Introduction to Partial Derivatives",
+        "href": "/topics/introduction-to-partial-derivatives-1929"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "41989",
+        "content_id": "6937",
+        "dom_id": "step-41989",
+        "selector": "#step-41989",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "41983",
+        "content_id": "11048",
+        "dom_id": "step-41983",
+        "selector": "#step-41983",
+        "step_anchor": "step-2",
+        "title": "Applying the Chain Rule",
+        "key_prerequisites": [
+          {
+            "topic_id": "305",
+            "name": "The Chain Rule With Trigonometric Functions",
+            "href": "/topics/305"
+          },
+          {
+            "topic_id": "1007",
+            "name": "The Chain Rule With Exponential Functions",
+            "href": "/topics/1007"
+          },
+          {
+            "topic_id": "1036",
+            "name": "The Chain Rule With Logarithmic Functions",
+            "href": "/topics/1036"
+          },
+          {
+            "topic_id": "1108",
+            "name": "The Chain Rule for Differentiation",
+            "href": "/topics/1108"
+          },
+          {
+            "topic_id": "1929",
+            "name": "Introduction to Partial Derivatives",
+            "href": "/topics/1929"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "70024",
+        "dom_id": "question-70024",
+        "selector": "#question-70024",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "35718",
+        "dom_id": "question-35718",
+        "selector": "#question-35718",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "41903",
+        "content_id": "11028",
+        "dom_id": "step-41903",
+        "selector": "#step-41903",
+        "step_anchor": "step-5",
+        "title": "Applying the Product Rule",
+        "key_prerequisites": [
+          {
+            "topic_id": "1109",
+            "name": "The Product Rule for Differentiation",
+            "href": "/topics/1109"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "158465",
+        "dom_id": "question-158465",
+        "selector": "#question-158465",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "159751",
+        "dom_id": "question-159751",
+        "selector": "#question-159751",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "42238",
+        "content_id": "11112",
+        "dom_id": "step-42238",
+        "selector": "#step-42238",
+        "step_anchor": "step-8",
+        "title": "Applying the Quotient Rule",
+        "key_prerequisites": [
+          {
+            "topic_id": "1110",
+            "name": "The Quotient Rule for Differentiation",
+            "href": "/topics/1110"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "159724",
+        "dom_id": "question-159724",
+        "selector": "#question-159724",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "158466",
+        "dom_id": "question-158466",
+        "selector": "#question-158466",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44640",
+        "content_id": "7692",
+        "dom_id": "step-44640",
+        "selector": "#step-44640",
+        "step_anchor": "step-11",
+        "title": "Partial Derivatives of Three-Variable Functions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "41900",
+        "content_id": "11027",
+        "dom_id": "step-41900",
+        "selector": "#step-41900",
+        "step_anchor": "step-12",
+        "title": "Finding Partial Derivatives of Three-Variable Functions",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "35710",
+        "dom_id": "question-35710",
+        "selector": "#question-35710",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "132252",
+        "dom_id": "question-132252",
+        "selector": "#question-132252",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-41989",
+        "filename": "01-step-41989.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-41983",
+        "filename": "02-step-41983.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-70024",
+        "filename": "03-question-70024.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-35718",
+        "filename": "04-question-35718.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-41903",
+        "filename": "05-step-41903.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-158465",
+        "filename": "06-question-158465.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-159751",
+        "filename": "07-question-159751.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-42238",
+        "filename": "08-step-42238.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-159724",
+        "filename": "09-question-159724.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-158466",
+        "filename": "10-question-158466.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-44640",
+        "filename": "11-step-44640.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-41900",
+        "filename": "12-step-41900.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-35710",
+        "filename": "13-question-35710.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-132252",
+        "filename": "14-question-132252.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,368 @@
+{
+  "schema_version": 1,
+  "topic_id": "2103",
+  "topic_title": "Orthogonal Sets in Euclidean Spaces",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2103.html",
+  "source_url": "https://mathacademy.com/topics/2103",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "20224",
+        "dom_id": "sectionLink-20224",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-20224"
+      },
+      {
+        "index": 2,
+        "step_id": "26850",
+        "dom_id": "sectionLink-26850",
+        "name": "",
+        "title": "Determining Whether Sets are Orthogonal",
+        "selector": "#sectionLink-26850"
+      },
+      {
+        "index": 3,
+        "step_id": "26466",
+        "dom_id": "sectionLink-26466",
+        "name": "",
+        "title": "Orthonormal Sets and Orthonormal Bases",
+        "selector": "#sectionLink-26466"
+      },
+      {
+        "index": 4,
+        "step_id": "20225",
+        "dom_id": "sectionLink-20225",
+        "name": "",
+        "title": "Determining Whether Sets are Orthonormal",
+        "selector": "#sectionLink-20225"
+      },
+      {
+        "index": 5,
+        "step_id": "20226",
+        "dom_id": "sectionLink-20226",
+        "name": "",
+        "title": "Extending a Set to Form an Orthogonal Basis",
+        "selector": "#sectionLink-20226"
+      },
+      {
+        "index": 6,
+        "step_id": "26158",
+        "dom_id": "sectionLink-26158",
+        "name": "",
+        "title": "Extending a Set to Form an Orthonormal Basis",
+        "selector": "#sectionLink-26158"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1864",
+        "name": "Expressing the Coordinates of a Vector in a Given Basis",
+        "href": "/topics/expressing-the-coordinates-of-a-vector-in-a-given-basis-1864"
+      },
+      {
+        "topic_id": "2095",
+        "name": "The Norm of a Vector in N-Dimensional Euclidean Space",
+        "href": "/topics/the-norm-of-a-vector-in-n-dimensional-euclidean-space-2095"
+      },
+      {
+        "topic_id": "2099",
+        "name": "Orthogonal Vectors in Euclidean Spaces",
+        "href": "/topics/orthogonal-vectors-in-euclidean-spaces-2099"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "20224",
+        "content_id": "3618",
+        "dom_id": "step-20224",
+        "selector": "#step-20224",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "26850",
+        "content_id": "7257",
+        "dom_id": "step-26850",
+        "selector": "#step-26850",
+        "step_anchor": "step-2",
+        "title": "Determining Whether Sets are Orthogonal",
+        "key_prerequisites": [
+          {
+            "topic_id": "2099",
+            "name": "Orthogonal Vectors in Euclidean Spaces",
+            "href": "/topics/2099"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "39490",
+        "dom_id": "question-39490",
+        "selector": "#question-39490",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "40400",
+        "dom_id": "question-40400",
+        "selector": "#question-40400",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "26466",
+        "content_id": "4353",
+        "dom_id": "step-26466",
+        "selector": "#step-26466",
+        "step_anchor": "step-5",
+        "title": "Orthonormal Sets and Orthonormal Bases",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20225",
+        "content_id": "5563",
+        "dom_id": "step-20225",
+        "selector": "#step-20225",
+        "step_anchor": "step-6",
+        "title": "Determining Whether Sets are Orthonormal",
+        "key_prerequisites": [
+          {
+            "topic_id": "2095",
+            "name": "The Norm of a Vector in N-Dimensional Euclidean Space",
+            "href": "/topics/2095"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "39398",
+        "dom_id": "question-39398",
+        "selector": "#question-39398",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "40365",
+        "dom_id": "question-40365",
+        "selector": "#question-40365",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "20226",
+        "content_id": "5564",
+        "dom_id": "step-20226",
+        "selector": "#step-20226",
+        "step_anchor": "step-9",
+        "title": "Extending a Set to Form an Orthogonal Basis",
+        "key_prerequisites": [
+          {
+            "topic_id": "1733",
+            "name": "Gaussian Elimination For NxM Systems of Equations",
+            "href": "/topics/1733"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "39480",
+        "dom_id": "question-39480",
+        "selector": "#question-39480",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "40297",
+        "dom_id": "question-40297",
+        "selector": "#question-40297",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "26158",
+        "content_id": "7114",
+        "dom_id": "step-26158",
+        "selector": "#step-26158",
+        "step_anchor": "step-12",
+        "title": "Extending a Set to Form an Orthonormal Basis",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "39483",
+        "dom_id": "question-39483",
+        "selector": "#question-39483",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "81011",
+        "dom_id": "question-81011",
+        "selector": "#question-81011",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-20224",
+        "filename": "01-step-20224.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-26850",
+        "filename": "02-step-26850.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-39490",
+        "filename": "03-question-39490.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-40400",
+        "filename": "04-question-40400.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-26466",
+        "filename": "05-step-26466.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-20225",
+        "filename": "06-step-20225.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-39398",
+        "filename": "07-question-39398.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-40365",
+        "filename": "08-question-40365.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-20226",
+        "filename": "09-step-20226.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-39480",
+        "filename": "10-question-39480.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-40297",
+        "filename": "11-question-40297.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-26158",
+        "filename": "12-step-26158.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-39483",
+        "filename": "13-question-39483.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-81011",
+        "filename": "14-question-81011.png"
+      }
+    ]
+  }
+}

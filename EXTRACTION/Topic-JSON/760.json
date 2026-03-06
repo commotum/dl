@@ -1,0 +1,299 @@
+{
+  "schema_version": 1,
+  "topic_id": "760",
+  "topic_title": "The Arc Length of a Planar Curve",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/760.html",
+  "source_url": "https://mathacademy.com/topics/760",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "1974",
+        "dom_id": "sectionLink-1974",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-1974"
+      },
+      {
+        "index": 2,
+        "step_id": "26917",
+        "dom_id": "sectionLink-26917",
+        "name": "",
+        "title": "Finding an Integral Representation For an Arc Length",
+        "selector": "#sectionLink-26917"
+      },
+      {
+        "index": 3,
+        "step_id": "1975",
+        "dom_id": "sectionLink-1975",
+        "name": "",
+        "title": "Calculating the Arc Length of a Smooth Curve Using the Arc Length Formula",
+        "selector": "#sectionLink-1975"
+      },
+      {
+        "index": 4,
+        "step_id": "1979",
+        "dom_id": "sectionLink-1979",
+        "name": "",
+        "title": "Identifying a Possible Curve Given Its Arc Length As an Integral",
+        "selector": "#sectionLink-1979"
+      },
+      {
+        "index": 5,
+        "step_id": "28187",
+        "dom_id": "sectionLink-28187",
+        "name": "",
+        "title": "The Intuition Behind the Main Formula",
+        "selector": "#sectionLink-28187"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "315",
+        "name": "Integration by Substitution With Inverse Trigonometric Functions",
+        "href": "/topics/integration-by-substitution-with-inverse-trigonometric-functions-315"
+      },
+      {
+        "topic_id": "478",
+        "name": "Integrating Trigonometric Functions Using Substitution",
+        "href": "/topics/integrating-trigonometric-functions-using-substitution-478"
+      },
+      {
+        "topic_id": "3770",
+        "name": "Integrating Exponential Functions Using Substitution",
+        "href": "/topics/integrating-exponential-functions-using-substitution-3770"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "1974",
+        "content_id": "1006",
+        "dom_id": "step-1974",
+        "selector": "#step-1974",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "26917",
+        "content_id": "7268",
+        "dom_id": "step-26917",
+        "selector": "#step-26917",
+        "step_anchor": "step-2",
+        "title": "Finding an Integral Representation For an Arc Length",
+        "key_prerequisites": [
+          {
+            "topic_id": "1115",
+            "name": "Selecting Procedures for Calculating Derivatives",
+            "href": "/topics/1115"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "15397",
+        "dom_id": "question-15397",
+        "selector": "#question-15397",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "51267",
+        "dom_id": "question-51267",
+        "selector": "#question-51267",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "1975",
+        "content_id": "560",
+        "dom_id": "step-1975",
+        "selector": "#step-1975",
+        "step_anchor": "step-5",
+        "title": "Calculating the Arc Length of a Smooth Curve Using the Arc Length Formula",
+        "key_prerequisites": [
+          {
+            "topic_id": "1159",
+            "name": "Calculating Definite Integrals Using Substitution",
+            "href": "/topics/1159"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "5983",
+        "dom_id": "question-5983",
+        "selector": "#question-5983",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "85665",
+        "dom_id": "question-85665",
+        "selector": "#question-85665",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "1979",
+        "content_id": "561",
+        "dom_id": "step-1979",
+        "selector": "#step-1979",
+        "step_anchor": "step-8",
+        "title": "Identifying a Possible Curve Given Its Arc Length As an Integral",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "82624",
+        "dom_id": "question-82624",
+        "selector": "#question-82624",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "6002",
+        "dom_id": "question-6002",
+        "selector": "#question-6002",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "28187",
+        "content_id": "4576",
+        "dom_id": "step-28187",
+        "selector": "#step-28187",
+        "step_anchor": "step-11",
+        "title": "The Intuition Behind the Main Formula",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-1974",
+        "filename": "01-step-1974.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-26917",
+        "filename": "02-step-26917.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-15397",
+        "filename": "03-question-15397.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-51267",
+        "filename": "04-question-51267.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-1975",
+        "filename": "05-step-1975.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-5983",
+        "filename": "06-question-5983.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-85665",
+        "filename": "07-question-85665.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-1979",
+        "filename": "08-step-1979.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-82624",
+        "filename": "09-question-82624.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-6002",
+        "filename": "10-question-6002.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-28187",
+        "filename": "11-step-28187.png"
+      }
+    ]
+  }
+}

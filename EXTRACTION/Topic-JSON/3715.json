@@ -1,0 +1,453 @@
+{
+  "schema_version": 1,
+  "topic_id": "3715",
+  "topic_title": "Flux in Two-Dimensional Vector Fields",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3715.html",
+  "source_url": "https://mathacademy.com/topics/3715",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "184955",
+        "dom_id": "sectionLink-184955",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-184955"
+      },
+      {
+        "index": 2,
+        "step_id": "184956",
+        "dom_id": "sectionLink-184956",
+        "name": "",
+        "title": "Constructing an Integral Formula for the Flux",
+        "selector": "#sectionLink-184956"
+      },
+      {
+        "index": 3,
+        "step_id": "184957",
+        "dom_id": "sectionLink-184957",
+        "name": "",
+        "title": "Orientation-Independence",
+        "selector": "#sectionLink-184957"
+      },
+      {
+        "index": 4,
+        "step_id": "184958",
+        "dom_id": "sectionLink-184958",
+        "name": "",
+        "title": "Determining a Flux's Sign From a Diagram",
+        "selector": "#sectionLink-184958"
+      },
+      {
+        "index": 5,
+        "step_id": "184961",
+        "dom_id": "sectionLink-184961",
+        "name": "",
+        "title": "Calculating Flux",
+        "selector": "#sectionLink-184961"
+      },
+      {
+        "index": 6,
+        "step_id": "184962",
+        "dom_id": "sectionLink-184962",
+        "name": "",
+        "title": "Finding an Integral Expression for Flux",
+        "selector": "#sectionLink-184962"
+      },
+      {
+        "index": 7,
+        "step_id": "184965",
+        "dom_id": "sectionLink-184965",
+        "name": "",
+        "title": "Using  Symmetry to Simplify Flux Calculations",
+        "selector": "#sectionLink-184965"
+      },
+      {
+        "index": 8,
+        "step_id": "184966",
+        "dom_id": "sectionLink-184966",
+        "name": "",
+        "title": "Calculating Flux Across a Square Using Symmetry",
+        "selector": "#sectionLink-184966"
+      },
+      {
+        "index": 9,
+        "step_id": "184969",
+        "dom_id": "sectionLink-184969",
+        "name": "",
+        "title": "Calculating Flux Across a Rectangle Using Two Symmetry Properties",
+        "selector": "#sectionLink-184969"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1285",
+        "name": "Calculating a Scalar Projection",
+        "href": "/topics/calculating-a-scalar-projection-1285"
+      },
+      {
+        "topic_id": "1401",
+        "name": "Outward-Pointing Unit Normal Vectors in 2D",
+        "href": "/topics/outward-pointing-unit-normal-vectors-in-2d-1401"
+      },
+      {
+        "topic_id": "3699",
+        "name": "Line Integrals of Scalar Functions Over Line Segments",
+        "href": "/topics/line-integrals-of-scalar-functions-over-line-segments-3699"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 17,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "184955",
+        "content_id": "9521",
+        "dom_id": "step-184955",
+        "selector": "#step-184955",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "184956",
+        "content_id": "9522",
+        "dom_id": "step-184956",
+        "selector": "#step-184956",
+        "step_anchor": "step-2",
+        "title": "Constructing an Integral Formula for the Flux",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "184957",
+        "content_id": "9523",
+        "dom_id": "step-184957",
+        "selector": "#step-184957",
+        "step_anchor": "step-3",
+        "title": "Orientation-Independence",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "184958",
+        "content_id": "15147",
+        "dom_id": "step-184958",
+        "selector": "#step-184958",
+        "step_anchor": "step-4",
+        "title": "Determining a Flux's Sign From a Diagram",
+        "key_prerequisites": [
+          {
+            "topic_id": "1285",
+            "name": "Calculating a Scalar Projection",
+            "href": "/topics/1285"
+          },
+          {
+            "topic_id": "1401",
+            "name": "Outward-Pointing Unit Normal Vectors in 2D",
+            "href": "/topics/1401"
+          },
+          {
+            "topic_id": "3145",
+            "name": "Properties of Line Integrals of Scalar Functions",
+            "href": "/topics/3145"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "126726",
+        "dom_id": "question-126726",
+        "selector": "#question-126726",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "126728",
+        "dom_id": "question-126728",
+        "selector": "#question-126728",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "184961",
+        "content_id": "9524",
+        "dom_id": "step-184961",
+        "selector": "#step-184961",
+        "step_anchor": "step-7",
+        "title": "Calculating Flux",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "184962",
+        "content_id": "15148",
+        "dom_id": "step-184962",
+        "selector": "#step-184962",
+        "step_anchor": "step-8",
+        "title": "Finding an Integral Expression for Flux",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "126833",
+        "dom_id": "question-126833",
+        "selector": "#question-126833",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "126850",
+        "dom_id": "question-126850",
+        "selector": "#question-126850",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "184965",
+        "content_id": "9525",
+        "dom_id": "step-184965",
+        "selector": "#step-184965",
+        "step_anchor": "step-11",
+        "title": "Using  Symmetry to Simplify Flux Calculations",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "184966",
+        "content_id": "15149",
+        "dom_id": "step-184966",
+        "selector": "#step-184966",
+        "step_anchor": "step-12",
+        "title": "Calculating Flux Across a Square Using Symmetry",
+        "key_prerequisites": [
+          {
+            "topic_id": "3699",
+            "name": "Line Integrals of Scalar Functions Over Line Segments",
+            "href": "/topics/3699"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "126881",
+        "dom_id": "question-126881",
+        "selector": "#question-126881",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "127199",
+        "dom_id": "question-127199",
+        "selector": "#question-127199",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "184969",
+        "content_id": "15150",
+        "dom_id": "step-184969",
+        "selector": "#step-184969",
+        "step_anchor": "step-15",
+        "title": "Calculating Flux Across a Rectangle Using Two Symmetry Properties",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "126892",
+        "dom_id": "question-126892",
+        "selector": "#question-126892",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "question_id": "127205",
+        "dom_id": "question-127205",
+        "selector": "#question-127205",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-184955",
+        "filename": "01-step-184955.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-184956",
+        "filename": "02-step-184956.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-184957",
+        "filename": "03-step-184957.png"
+      },
+      {
+        "index": 4,
+        "item_type": "step",
+        "selector": "#step-184958",
+        "filename": "04-step-184958.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-126726",
+        "filename": "05-question-126726.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-126728",
+        "filename": "06-question-126728.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-184961",
+        "filename": "07-step-184961.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-184962",
+        "filename": "08-step-184962.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-126833",
+        "filename": "09-question-126833.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-126850",
+        "filename": "10-question-126850.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-184965",
+        "filename": "11-step-184965.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-184966",
+        "filename": "12-step-184966.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-126881",
+        "filename": "13-question-126881.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-127199",
+        "filename": "14-question-127199.png"
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "selector": "#step-184969",
+        "filename": "15-step-184969.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-126892",
+        "filename": "16-question-126892.png"
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "selector": "#question-127205",
+        "filename": "17-question-127205.png"
+      }
+    ]
+  }
+}

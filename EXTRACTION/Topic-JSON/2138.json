@@ -1,0 +1,396 @@
+{
+  "schema_version": 1,
+  "topic_id": "2138",
+  "topic_title": "Stokes' Theorem",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2138.html",
+  "source_url": "https://mathacademy.com/topics/2138",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "44883",
+        "dom_id": "sectionLink-44883",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-44883"
+      },
+      {
+        "index": 2,
+        "step_id": "44632",
+        "dom_id": "sectionLink-44632",
+        "name": "",
+        "title": "Circulation Over Space Curves",
+        "selector": "#sectionLink-44632"
+      },
+      {
+        "index": 3,
+        "step_id": "44631",
+        "dom_id": "sectionLink-44631",
+        "name": "",
+        "title": "A Review of Green's Theorem",
+        "selector": "#sectionLink-44631"
+      },
+      {
+        "index": 4,
+        "step_id": "44885",
+        "dom_id": "sectionLink-44885",
+        "name": "",
+        "title": "Induced Orientations of Boundary Curves",
+        "selector": "#sectionLink-44885"
+      },
+      {
+        "index": 5,
+        "step_id": "44722",
+        "dom_id": "sectionLink-44722",
+        "name": "",
+        "title": "Stokes' Theorem",
+        "selector": "#sectionLink-44722"
+      },
+      {
+        "index": 6,
+        "step_id": "44682",
+        "dom_id": "sectionLink-44682",
+        "name": "",
+        "title": "Evaluating a Surface Integral Using Stokes' Theorem",
+        "selector": "#sectionLink-44682"
+      },
+      {
+        "index": 7,
+        "step_id": "44684",
+        "dom_id": "sectionLink-44684",
+        "name": "",
+        "title": "Using Stokes' Theorem to Evaluate Line Integrals",
+        "selector": "#sectionLink-44684"
+      },
+      {
+        "index": 8,
+        "step_id": "44635",
+        "dom_id": "sectionLink-44635",
+        "name": "",
+        "title": "Evaluating a Line Integral Using Stokes' Theorem",
+        "selector": "#sectionLink-44635"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2116",
+        "name": "Introduction to Green's Theorem",
+        "href": "/topics/introduction-to-greens-theorem-2116"
+      },
+      {
+        "topic_id": "4143",
+        "name": "Calculating Flux Through Cartesian Surfaces",
+        "href": "/topics/calculating-flux-through-cartesian-surfaces-4143"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44883",
+        "content_id": "7754",
+        "dom_id": "step-44883",
+        "selector": "#step-44883",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44632",
+        "content_id": "12421",
+        "dom_id": "step-44632",
+        "selector": "#step-44632",
+        "step_anchor": "step-2",
+        "title": "Circulation Over Space Curves",
+        "key_prerequisites": [
+          {
+            "topic_id": "3713",
+            "name": "Circulation",
+            "href": "/topics/3713"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "161925",
+        "dom_id": "question-161925",
+        "selector": "#question-161925",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "162238",
+        "dom_id": "question-162238",
+        "selector": "#question-162238",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44631",
+        "content_id": "7690",
+        "dom_id": "step-44631",
+        "selector": "#step-44631",
+        "step_anchor": "step-5",
+        "title": "A Review of Green's Theorem",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44885",
+        "content_id": "7756",
+        "dom_id": "step-44885",
+        "selector": "#step-44885",
+        "step_anchor": "step-6",
+        "title": "Induced Orientations of Boundary Curves",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44722",
+        "content_id": "7709",
+        "dom_id": "step-44722",
+        "selector": "#step-44722",
+        "step_anchor": "step-7",
+        "title": "Stokes' Theorem",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44682",
+        "content_id": "12435",
+        "dom_id": "step-44682",
+        "selector": "#step-44682",
+        "step_anchor": "step-8",
+        "title": "Evaluating a Surface Integral Using Stokes' Theorem",
+        "key_prerequisites": [
+          {
+            "topic_id": "2116",
+            "name": "Introduction to Green's Theorem",
+            "href": "/topics/2116"
+          },
+          {
+            "topic_id": "2132",
+            "name": "The Curl of a Vector Field",
+            "href": "/topics/2132"
+          },
+          {
+            "topic_id": "3178",
+            "name": "Flux in Three-Dimensional Vector Fields",
+            "href": "/topics/3178"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "161928",
+        "dom_id": "question-161928",
+        "selector": "#question-161928",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "162377",
+        "dom_id": "question-162377",
+        "selector": "#question-162377",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44684",
+        "content_id": "7700",
+        "dom_id": "step-44684",
+        "selector": "#step-44684",
+        "step_anchor": "step-11",
+        "title": "Using Stokes' Theorem to Evaluate Line Integrals",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44635",
+        "content_id": "12422",
+        "dom_id": "step-44635",
+        "selector": "#step-44635",
+        "step_anchor": "step-12",
+        "title": "Evaluating a Line Integral Using Stokes' Theorem",
+        "key_prerequisites": [
+          {
+            "topic_id": "2030",
+            "name": "Double Integrals in Plane Polar Coordinates",
+            "href": "/topics/2030"
+          },
+          {
+            "topic_id": "4143",
+            "name": "Calculating Flux Through Cartesian Surfaces",
+            "href": "/topics/4143"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "161927",
+        "dom_id": "question-161927",
+        "selector": "#question-161927",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "161926",
+        "dom_id": "question-161926",
+        "selector": "#question-161926",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-44883",
+        "filename": "01-step-44883.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-44632",
+        "filename": "02-step-44632.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-161925",
+        "filename": "03-question-161925.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-162238",
+        "filename": "04-question-162238.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-44631",
+        "filename": "05-step-44631.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-44885",
+        "filename": "06-step-44885.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-44722",
+        "filename": "07-step-44722.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-44682",
+        "filename": "08-step-44682.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-161928",
+        "filename": "09-question-161928.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-162377",
+        "filename": "10-question-162377.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-44684",
+        "filename": "11-step-44684.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-44635",
+        "filename": "12-step-44635.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-161927",
+        "filename": "13-question-161927.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-161926",
+        "filename": "14-question-161926.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "schema_version": 1,
+  "topic_id": "1198",
+  "topic_title": "Conformability for Matrix Multiplication",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1198.html",
+  "source_url": "https://mathacademy.com/topics/1198",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "16180",
+        "dom_id": "sectionLink-16180",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-16180"
+      },
+      {
+        "index": 2,
+        "step_id": "21624",
+        "dom_id": "sectionLink-21624",
+        "name": "",
+        "title": "Conformability for Matrix Multiplication",
+        "selector": "#sectionLink-21624"
+      },
+      {
+        "index": 3,
+        "step_id": "16182",
+        "dom_id": "sectionLink-16182",
+        "name": "",
+        "title": "Determining Whether Two Matrices Are Conformable for Multiplication",
+        "selector": "#sectionLink-16182"
+      },
+      {
+        "index": 4,
+        "step_id": "16184",
+        "dom_id": "sectionLink-16184",
+        "name": "",
+        "title": "Determining the Dimension of the Product of Two Matrices Given the Dimensions of the Factors",
+        "selector": "#sectionLink-16184"
+      },
+      {
+        "index": 5,
+        "step_id": "16185",
+        "dom_id": "sectionLink-16185",
+        "name": "",
+        "title": "Determining the Dimension of the Product of Two Matrices",
+        "selector": "#sectionLink-16185"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "147",
+        "name": "Multiplying Square Matrices",
+        "href": "/topics/multiplying-square-matrices-147"
+      },
+      {
+        "topic_id": "1195",
+        "name": "Multiplying a Matrix by a Column Vector",
+        "href": "/topics/multiplying-a-matrix-by-a-column-vector-1195"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "16180",
+        "content_id": "2990",
+        "dom_id": "step-16180",
+        "selector": "#step-16180",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "21624",
+        "content_id": "3800",
+        "dom_id": "step-21624",
+        "selector": "#step-21624",
+        "step_anchor": "step-2",
+        "title": "Conformability for Matrix Multiplication",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "16182",
+        "content_id": "4403",
+        "dom_id": "step-16182",
+        "selector": "#step-16182",
+        "step_anchor": "step-3",
+        "title": "Determining Whether Two Matrices Are Conformable for Multiplication",
+        "key_prerequisites": [
+          {
+            "topic_id": "147",
+            "name": "Multiplying Square Matrices",
+            "href": "/topics/147"
+          },
+          {
+            "topic_id": "861",
+            "name": "Introduction to Matrices",
+            "href": "/topics/861"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "42374",
+        "dom_id": "question-42374",
+        "selector": "#question-42374",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "22063",
+        "dom_id": "question-22063",
+        "selector": "#question-22063",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "16184",
+        "content_id": "4404",
+        "dom_id": "step-16184",
+        "selector": "#step-16184",
+        "step_anchor": "step-6",
+        "title": "Determining the Dimension of the Product of Two Matrices Given the Dimensions of the Factors",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "42379",
+        "dom_id": "question-42379",
+        "selector": "#question-42379",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "42380",
+        "dom_id": "question-42380",
+        "selector": "#question-42380",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "16185",
+        "content_id": "4405",
+        "dom_id": "step-16185",
+        "selector": "#step-16185",
+        "step_anchor": "step-9",
+        "title": "Determining the Dimension of the Product of Two Matrices",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "22065",
+        "dom_id": "question-22065",
+        "selector": "#question-22065",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "22067",
+        "dom_id": "question-22067",
+        "selector": "#question-22067",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-16180",
+        "filename": "01-step-16180.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-21624",
+        "filename": "02-step-21624.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-16182",
+        "filename": "03-step-16182.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-42374",
+        "filename": "04-question-42374.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-22063",
+        "filename": "05-question-22063.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-16184",
+        "filename": "06-step-16184.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-42379",
+        "filename": "07-question-42379.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-42380",
+        "filename": "08-question-42380.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-16185",
+        "filename": "09-step-16185.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-22065",
+        "filename": "10-question-22065.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-22067",
+        "filename": "11-question-22067.png"
+      }
+    ]
+  }
+}

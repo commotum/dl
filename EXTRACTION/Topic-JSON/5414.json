@@ -1,0 +1,283 @@
+{
+  "schema_version": 1,
+  "topic_id": "5414",
+  "topic_title": "Processing Strings Using Deterministic Finite Automata",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/5414.html",
+  "source_url": "https://mathacademy.com/topics/5414",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "419488",
+        "dom_id": "sectionLink-419488",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-419488"
+      },
+      {
+        "index": 2,
+        "step_id": "419489",
+        "dom_id": "sectionLink-419489",
+        "name": "",
+        "title": "Applying a Transition Function to a String Given a Diagram",
+        "selector": "#sectionLink-419489"
+      },
+      {
+        "index": 3,
+        "step_id": "419492",
+        "dom_id": "sectionLink-419492",
+        "name": "",
+        "title": "Applying a Transition Function to a String Given a Transition Table",
+        "selector": "#sectionLink-419492"
+      },
+      {
+        "index": 4,
+        "step_id": "419495",
+        "dom_id": "sectionLink-419495",
+        "name": "",
+        "title": "The Language of a DFA",
+        "selector": "#sectionLink-419495"
+      },
+      {
+        "index": 5,
+        "step_id": "419496",
+        "dom_id": "sectionLink-419496",
+        "name": "",
+        "title": "Identifying Strings Accepted by a DFA",
+        "selector": "#sectionLink-419496"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3797",
+        "name": "Deterministic Finite Automata",
+        "href": "/topics/deterministic-finite-automata-3797"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "419488",
+        "content_id": "9650",
+        "dom_id": "step-419488",
+        "selector": "#step-419488",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "419489",
+        "content_id": "15585",
+        "dom_id": "step-419489",
+        "selector": "#step-419489",
+        "step_anchor": "step-2",
+        "title": "Applying a Transition Function to a String Given a Diagram",
+        "key_prerequisites": [
+          {
+            "topic_id": "3797",
+            "name": "Deterministic Finite Automata",
+            "href": "/topics/3797"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "235950",
+        "dom_id": "question-235950",
+        "selector": "#question-235950",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "257745",
+        "dom_id": "question-257745",
+        "selector": "#question-257745",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "419492",
+        "content_id": "15587",
+        "dom_id": "step-419492",
+        "selector": "#step-419492",
+        "step_anchor": "step-5",
+        "title": "Applying a Transition Function to a String Given a Transition Table",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "235998",
+        "dom_id": "question-235998",
+        "selector": "#question-235998",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "257786",
+        "dom_id": "question-257786",
+        "selector": "#question-257786",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "419495",
+        "content_id": "9655",
+        "dom_id": "step-419495",
+        "selector": "#step-419495",
+        "step_anchor": "step-8",
+        "title": "The Language of a DFA",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "419496",
+        "content_id": "15586",
+        "dom_id": "step-419496",
+        "selector": "#step-419496",
+        "step_anchor": "step-9",
+        "title": "Identifying Strings Accepted by a DFA",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "257859",
+        "dom_id": "question-257859",
+        "selector": "#question-257859",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "235956",
+        "dom_id": "question-235956",
+        "selector": "#question-235956",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-419488",
+        "filename": "01-step-419488.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-419489",
+        "filename": "02-step-419489.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-235950",
+        "filename": "03-question-235950.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-257745",
+        "filename": "04-question-257745.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-419492",
+        "filename": "05-step-419492.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-235998",
+        "filename": "06-question-235998.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-257786",
+        "filename": "07-question-257786.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-419495",
+        "filename": "08-step-419495.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-419496",
+        "filename": "09-step-419496.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-257859",
+        "filename": "10-question-257859.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-235956",
+        "filename": "11-question-235956.png"
+      }
+    ]
+  }
+}

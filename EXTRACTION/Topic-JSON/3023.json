@@ -1,0 +1,367 @@
+{
+  "schema_version": 1,
+  "topic_id": "3023",
+  "topic_title": "The Chi-Square Distribution",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3023.html",
+  "source_url": "https://mathacademy.com/topics/3023",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "217601",
+        "dom_id": "sectionLink-217601",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-217601"
+      },
+      {
+        "index": 2,
+        "step_id": "217602",
+        "dom_id": "sectionLink-217602",
+        "name": "",
+        "title": "Computing a Probability for a Chi-Square Random Variable Using the PDF",
+        "selector": "#sectionLink-217602"
+      },
+      {
+        "index": 3,
+        "step_id": "217605",
+        "dom_id": "sectionLink-217605",
+        "name": "",
+        "title": "Working With a Percentage Points Table",
+        "selector": "#sectionLink-217605"
+      },
+      {
+        "index": 4,
+        "step_id": "217606",
+        "dom_id": "sectionLink-217606",
+        "name": "",
+        "title": "Using a Percentage Points Table To Find a Chi-Square Probability",
+        "selector": "#sectionLink-217606"
+      },
+      {
+        "index": 5,
+        "step_id": "217609",
+        "dom_id": "sectionLink-217609",
+        "name": "",
+        "title": "Computing a Chi-Square Probability Using the Complement",
+        "selector": "#sectionLink-217609"
+      },
+      {
+        "index": 6,
+        "step_id": "217613",
+        "dom_id": "sectionLink-217613",
+        "name": "",
+        "title": "Finding a Probability Involving Sums of Squared Standard Normal Variables",
+        "selector": "#sectionLink-217613"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "265",
+        "name": "The Standard Normal Distribution",
+        "href": "/topics/the-standard-normal-distribution-265"
+      },
+      {
+        "topic_id": "3289",
+        "name": "The Gamma Function",
+        "href": "/topics/the-gamma-function-3289"
+      },
+      {
+        "topic_id": "4100",
+        "name": "Continuous Random Variables Over Infinite Domains",
+        "href": "/topics/continuous-random-variables-over-infinite-domains-4100"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "217601",
+        "content_id": "10602",
+        "dom_id": "step-217601",
+        "selector": "#step-217601",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "217602",
+        "content_id": "16428",
+        "dom_id": "step-217602",
+        "selector": "#step-217602",
+        "step_anchor": "step-2",
+        "title": "Computing a Probability for a Chi-Square Random Variable Using the PDF",
+        "key_prerequisites": [
+          {
+            "topic_id": "1347",
+            "name": "Probability Density Functions of Continuous Random Variables",
+            "href": "/topics/1347"
+          },
+          {
+            "topic_id": "3289",
+            "name": "The Gamma Function",
+            "href": "/topics/3289"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "105784",
+        "dom_id": "question-105784",
+        "selector": "#question-105784",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "105783",
+        "dom_id": "question-105783",
+        "selector": "#question-105783",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "217605",
+        "content_id": "10603",
+        "dom_id": "step-217605",
+        "selector": "#step-217605",
+        "step_anchor": "step-5",
+        "title": "Working With a Percentage Points Table",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "217606",
+        "content_id": "16429",
+        "dom_id": "step-217606",
+        "selector": "#step-217606",
+        "step_anchor": "step-6",
+        "title": "Using a Percentage Points Table To Find a Chi-Square Probability",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "105788",
+        "dom_id": "question-105788",
+        "selector": "#question-105788",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "108269",
+        "dom_id": "question-108269",
+        "selector": "#question-108269",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "217609",
+        "content_id": "16430",
+        "dom_id": "step-217609",
+        "selector": "#step-217609",
+        "step_anchor": "step-9",
+        "title": "Computing a Chi-Square Probability Using the Complement",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "108307",
+        "dom_id": "question-108307",
+        "selector": "#question-108307",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "105793",
+        "dom_id": "question-105793",
+        "selector": "#question-105793",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "217613",
+        "content_id": "16432",
+        "dom_id": "step-217613",
+        "selector": "#step-217613",
+        "step_anchor": "step-12",
+        "title": "Finding a Probability Involving Sums of Squared Standard Normal Variables",
+        "key_prerequisites": [
+          {
+            "topic_id": "265",
+            "name": "The Standard Normal Distribution",
+            "href": "/topics/265"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "252029",
+        "dom_id": "question-252029",
+        "selector": "#question-252029",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "252030",
+        "dom_id": "question-252030",
+        "selector": "#question-252030",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-217601",
+        "filename": "01-step-217601.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-217602",
+        "filename": "02-step-217602.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-105784",
+        "filename": "03-question-105784.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-105783",
+        "filename": "04-question-105783.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-217605",
+        "filename": "05-step-217605.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-217606",
+        "filename": "06-step-217606.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-105788",
+        "filename": "07-question-105788.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-108269",
+        "filename": "08-question-108269.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-217609",
+        "filename": "09-step-217609.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-108307",
+        "filename": "10-question-108307.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-105793",
+        "filename": "11-question-105793.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-217613",
+        "filename": "12-step-217613.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-252029",
+        "filename": "13-question-252029.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-252030",
+        "filename": "14-question-252030.png"
+      }
+    ]
+  }
+}

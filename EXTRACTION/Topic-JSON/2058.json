@@ -1,0 +1,347 @@
+{
+  "schema_version": 1,
+  "topic_id": "2058",
+  "topic_title": "The Jacobian of a Three-Dimensional Transformation",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2058.html",
+  "source_url": "https://mathacademy.com/topics/2058",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "43046",
+        "dom_id": "sectionLink-43046",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-43046"
+      },
+      {
+        "index": 2,
+        "step_id": "44764",
+        "dom_id": "sectionLink-44764",
+        "name": "",
+        "title": "Intuition Behind the Jacobian",
+        "selector": "#sectionLink-44764"
+      },
+      {
+        "index": 3,
+        "step_id": "43048",
+        "dom_id": "sectionLink-43048",
+        "name": "",
+        "title": "Finding the Jacobian of a Three-Dimensional Transformation",
+        "selector": "#sectionLink-43048"
+      },
+      {
+        "index": 4,
+        "step_id": "44587",
+        "dom_id": "sectionLink-44587",
+        "name": "",
+        "title": "The Critical Points of a Transformation",
+        "selector": "#sectionLink-44587"
+      },
+      {
+        "index": 5,
+        "step_id": "42966",
+        "dom_id": "sectionLink-42966",
+        "name": "",
+        "title": "Determining the Critical Points of a Transformation",
+        "selector": "#sectionLink-42966"
+      },
+      {
+        "index": 6,
+        "step_id": "42965",
+        "dom_id": "sectionLink-42965",
+        "name": "",
+        "title": "Finding the Jacobian of an Inverse Transformation",
+        "selector": "#sectionLink-42965"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1770",
+        "name": "Finding Determinants Using Laplace Expansions",
+        "href": "/topics/finding-determinants-using-laplace-expansions-1770"
+      },
+      {
+        "topic_id": "1771",
+        "name": "Basic Properties of Determinants",
+        "href": "/topics/basic-properties-of-determinants-1771"
+      },
+      {
+        "topic_id": "1898",
+        "name": "Identifying Quadric Surfaces",
+        "href": "/topics/identifying-quadric-surfaces-1898"
+      },
+      {
+        "topic_id": "4149",
+        "name": "The Inverse Function Theorem",
+        "href": "/topics/the-inverse-function-theorem-4149"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "43046",
+        "content_id": "7237",
+        "dom_id": "step-43046",
+        "selector": "#step-43046",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44764",
+        "content_id": "7718",
+        "dom_id": "step-44764",
+        "selector": "#step-44764",
+        "step_anchor": "step-2",
+        "title": "Intuition Behind the Jacobian",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "43048",
+        "content_id": "11579",
+        "dom_id": "step-43048",
+        "selector": "#step-43048",
+        "step_anchor": "step-3",
+        "title": "Finding the Jacobian of a Three-Dimensional Transformation",
+        "key_prerequisites": [
+          {
+            "topic_id": "1770",
+            "name": "Finding Determinants Using Laplace Expansions",
+            "href": "/topics/1770"
+          },
+          {
+            "topic_id": "1771",
+            "name": "Basic Properties of Determinants",
+            "href": "/topics/1771"
+          },
+          {
+            "topic_id": "1999",
+            "name": "The Jacobian",
+            "href": "/topics/1999"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "39666",
+        "dom_id": "question-39666",
+        "selector": "#question-39666",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "39299",
+        "dom_id": "question-39299",
+        "selector": "#question-39299",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44587",
+        "content_id": "7676",
+        "dom_id": "step-44587",
+        "selector": "#step-44587",
+        "step_anchor": "step-6",
+        "title": "The Critical Points of a Transformation",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "42966",
+        "content_id": "11518",
+        "dom_id": "step-42966",
+        "selector": "#step-42966",
+        "step_anchor": "step-7",
+        "title": "Determining the Critical Points of a Transformation",
+        "key_prerequisites": [
+          {
+            "topic_id": "1898",
+            "name": "Identifying Quadric Surfaces",
+            "href": "/topics/1898"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "39709",
+        "dom_id": "question-39709",
+        "selector": "#question-39709",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "161819",
+        "dom_id": "question-161819",
+        "selector": "#question-161819",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "42965",
+        "content_id": "11517",
+        "dom_id": "step-42965",
+        "selector": "#step-42965",
+        "step_anchor": "step-10",
+        "title": "Finding the Jacobian of an Inverse Transformation",
+        "key_prerequisites": [
+          {
+            "topic_id": "4149",
+            "name": "The Inverse Function Theorem",
+            "href": "/topics/4149"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "39669",
+        "dom_id": "question-39669",
+        "selector": "#question-39669",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "39300",
+        "dom_id": "question-39300",
+        "selector": "#question-39300",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-43046",
+        "filename": "01-step-43046.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-44764",
+        "filename": "02-step-44764.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-43048",
+        "filename": "03-step-43048.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-39666",
+        "filename": "04-question-39666.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-39299",
+        "filename": "05-question-39299.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-44587",
+        "filename": "06-step-44587.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-42966",
+        "filename": "07-step-42966.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-39709",
+        "filename": "08-question-39709.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-161819",
+        "filename": "09-question-161819.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-42965",
+        "filename": "10-step-42965.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-39669",
+        "filename": "11-question-39669.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-39300",
+        "filename": "12-question-39300.png"
+      }
+    ]
+  }
+}

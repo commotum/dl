@@ -1,0 +1,304 @@
+{
+  "schema_version": 1,
+  "topic_id": "2703",
+  "topic_title": "Vectors Over the Complex Numbers",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2703.html",
+  "source_url": "https://mathacademy.com/topics/2703",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "24120",
+        "dom_id": "sectionLink-24120",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-24120"
+      },
+      {
+        "index": 2,
+        "step_id": "24121",
+        "dom_id": "sectionLink-24121",
+        "name": "",
+        "title": "Calculating the Complex Conjugate of a Complex Vector",
+        "selector": "#sectionLink-24121"
+      },
+      {
+        "index": 3,
+        "step_id": "24122",
+        "dom_id": "sectionLink-24122",
+        "name": "",
+        "title": "Computing Components of the Real and Imaginary Parts of a Complex Vector",
+        "selector": "#sectionLink-24122"
+      },
+      {
+        "index": 4,
+        "step_id": "37513",
+        "dom_id": "sectionLink-37513",
+        "name": "",
+        "title": "Properties of Vectors Over the Complex Numbers",
+        "selector": "#sectionLink-37513"
+      },
+      {
+        "index": 5,
+        "step_id": "27256",
+        "dom_id": "sectionLink-27256",
+        "name": "",
+        "title": "Finding the Real or Imaginary Part of a Scalar Given the Conjugate of a Scaled Vector",
+        "selector": "#sectionLink-27256"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "175",
+        "name": "Addition and Scalar Multiplication of Cartesian Vectors in 3D",
+        "href": "/topics/addition-and-scalar-multiplication-of-cartesian-vectors-in-3d-175"
+      },
+      {
+        "topic_id": "227",
+        "name": "Dividing Complex Numbers",
+        "href": "/topics/dividing-complex-numbers-227"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "24120",
+        "content_id": "4042",
+        "dom_id": "step-24120",
+        "selector": "#step-24120",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "24121",
+        "content_id": "6559",
+        "dom_id": "step-24121",
+        "selector": "#step-24121",
+        "step_anchor": "step-2",
+        "title": "Calculating the Complex Conjugate of a Complex Vector",
+        "key_prerequisites": [
+          {
+            "topic_id": "892",
+            "name": "The Complex Conjugate",
+            "href": "/topics/892"
+          },
+          {
+            "topic_id": "1166",
+            "name": "Three-Dimensional Vectors in Component Form",
+            "href": "/topics/1166"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "38389",
+        "dom_id": "question-38389",
+        "selector": "#question-38389",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "38387",
+        "dom_id": "question-38387",
+        "selector": "#question-38387",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "24122",
+        "content_id": "6560",
+        "dom_id": "step-24122",
+        "selector": "#step-24122",
+        "step_anchor": "step-5",
+        "title": "Computing Components of the Real and Imaginary Parts of a Complex Vector",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "38388",
+        "dom_id": "question-38388",
+        "selector": "#question-38388",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "38396",
+        "dom_id": "question-38396",
+        "selector": "#question-38396",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "37513",
+        "content_id": "6189",
+        "dom_id": "step-37513",
+        "selector": "#step-37513",
+        "step_anchor": "step-8",
+        "title": "Properties of Vectors Over the Complex Numbers",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "27256",
+        "content_id": "7345",
+        "dom_id": "step-27256",
+        "selector": "#step-27256",
+        "step_anchor": "step-9",
+        "title": "Finding the Real or Imaginary Part of a Scalar Given the Conjugate of a Scaled Vector",
+        "key_prerequisites": [
+          {
+            "topic_id": "175",
+            "name": "Addition and Scalar Multiplication of Cartesian Vectors in 3D",
+            "href": "/topics/175"
+          },
+          {
+            "topic_id": "227",
+            "name": "Dividing Complex Numbers",
+            "href": "/topics/227"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "81931",
+        "dom_id": "question-81931",
+        "selector": "#question-81931",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "82041",
+        "dom_id": "question-82041",
+        "selector": "#question-82041",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-24120",
+        "filename": "01-step-24120.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-24121",
+        "filename": "02-step-24121.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-38389",
+        "filename": "03-question-38389.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-38387",
+        "filename": "04-question-38387.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-24122",
+        "filename": "05-step-24122.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-38388",
+        "filename": "06-question-38388.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-38396",
+        "filename": "07-question-38396.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-37513",
+        "filename": "08-step-37513.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-27256",
+        "filename": "09-step-27256.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-81931",
+        "filename": "10-question-81931.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-82041",
+        "filename": "11-question-82041.png"
+      }
+    ]
+  }
+}

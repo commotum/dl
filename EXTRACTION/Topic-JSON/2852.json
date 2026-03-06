@@ -1,0 +1,394 @@
+{
+  "schema_version": 1,
+  "topic_id": "2852",
+  "topic_title": "Counting Integer Solutions of a Constrained Equation",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2852.html",
+  "source_url": "https://mathacademy.com/topics/2852",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "28273",
+        "dom_id": "sectionLink-28273",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-28273"
+      },
+      {
+        "index": 2,
+        "step_id": "28307",
+        "dom_id": "sectionLink-28307",
+        "name": "",
+        "title": "Counting Positive Integer Solutions Using a Two-Line Format with Dots",
+        "selector": "#sectionLink-28307"
+      },
+      {
+        "index": 3,
+        "step_id": "28312",
+        "dom_id": "sectionLink-28312",
+        "name": "",
+        "title": "Counting Positive Integer Solutions Using Combinations with Repetition: No Constraint",
+        "selector": "#sectionLink-28312"
+      },
+      {
+        "index": 4,
+        "step_id": "28314",
+        "dom_id": "sectionLink-28314",
+        "name": "",
+        "title": "Counting Positive Integer Solutions Using Combinations with Repetition: Constraint",
+        "selector": "#sectionLink-28314"
+      },
+      {
+        "index": 5,
+        "step_id": "28310",
+        "dom_id": "sectionLink-28310",
+        "name": "",
+        "title": "Counting Positive Integer Solutions Using the Inclusion-Exclusion Principle",
+        "selector": "#sectionLink-28310"
+      },
+      {
+        "index": 6,
+        "step_id": "28311",
+        "dom_id": "sectionLink-28311",
+        "name": "",
+        "title": "Counting Positive Integer Solutions Using the Inclusion-Exclusion Principle and Subtraction",
+        "selector": "#sectionLink-28311"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1344",
+        "name": "The Inclusion-Exclusion Principle",
+        "href": "/topics/the-inclusion-exclusion-principle-1344"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 16,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "28273",
+        "content_id": "4597",
+        "dom_id": "step-28273",
+        "selector": "#step-28273",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "28307",
+        "content_id": "7592",
+        "dom_id": "step-28307",
+        "selector": "#step-28307",
+        "step_anchor": "step-2",
+        "title": "Counting Positive Integer Solutions Using a Two-Line Format with Dots",
+        "key_prerequisites": [
+          {
+            "topic_id": "2310",
+            "name": "Compound Inequalities",
+            "href": "/topics/2310"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "86873",
+        "dom_id": "question-86873",
+        "selector": "#question-86873",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "86878",
+        "dom_id": "question-86878",
+        "selector": "#question-86878",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "28312",
+        "content_id": "7596",
+        "dom_id": "step-28312",
+        "selector": "#step-28312",
+        "step_anchor": "step-5",
+        "title": "Counting Positive Integer Solutions Using Combinations with Repetition: No Constraint",
+        "key_prerequisites": [
+          {
+            "topic_id": "1343",
+            "name": "Combinations With Repetition",
+            "href": "/topics/1343"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "86874",
+        "dom_id": "question-86874",
+        "selector": "#question-86874",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "86879",
+        "dom_id": "question-86879",
+        "selector": "#question-86879",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "28314",
+        "content_id": "7597",
+        "dom_id": "step-28314",
+        "selector": "#step-28314",
+        "step_anchor": "step-8",
+        "title": "Counting Positive Integer Solutions Using Combinations with Repetition: Constraint",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "86875",
+        "dom_id": "question-86875",
+        "selector": "#question-86875",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "86880",
+        "dom_id": "question-86880",
+        "selector": "#question-86880",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "28310",
+        "content_id": "7594",
+        "dom_id": "step-28310",
+        "selector": "#step-28310",
+        "step_anchor": "step-11",
+        "title": "Counting Positive Integer Solutions Using the Inclusion-Exclusion Principle",
+        "key_prerequisites": [
+          {
+            "topic_id": "1344",
+            "name": "The Inclusion-Exclusion Principle",
+            "href": "/topics/1344"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "86876",
+        "dom_id": "question-86876",
+        "selector": "#question-86876",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "86881",
+        "dom_id": "question-86881",
+        "selector": "#question-86881",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "28311",
+        "content_id": "7595",
+        "dom_id": "step-28311",
+        "selector": "#step-28311",
+        "step_anchor": "step-14",
+        "title": "Counting Positive Integer Solutions Using the Inclusion-Exclusion Principle and Subtraction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "86877",
+        "dom_id": "question-86877",
+        "selector": "#question-86877",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "87408",
+        "dom_id": "question-87408",
+        "selector": "#question-87408",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-28273",
+        "filename": "01-step-28273.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-28307",
+        "filename": "02-step-28307.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-86873",
+        "filename": "03-question-86873.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-86878",
+        "filename": "04-question-86878.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-28312",
+        "filename": "05-step-28312.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-86874",
+        "filename": "06-question-86874.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-86879",
+        "filename": "07-question-86879.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-28314",
+        "filename": "08-step-28314.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-86875",
+        "filename": "09-question-86875.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-86880",
+        "filename": "10-question-86880.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-28310",
+        "filename": "11-step-28310.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-86876",
+        "filename": "12-question-86876.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-86881",
+        "filename": "13-question-86881.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-28311",
+        "filename": "14-step-28311.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-86877",
+        "filename": "15-question-86877.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-87408",
+        "filename": "16-question-87408.png"
+      }
+    ]
+  }
+}

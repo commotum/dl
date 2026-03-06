@@ -1,0 +1,401 @@
+{
+  "schema_version": 1,
+  "topic_id": "2060",
+  "topic_title": "Triple Integrals in Spherical Polar Coordinates",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2060.html",
+  "source_url": "https://mathacademy.com/topics/2060",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "42751",
+        "dom_id": "sectionLink-42751",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-42751"
+      },
+      {
+        "index": 2,
+        "step_id": "42752",
+        "dom_id": "sectionLink-42752",
+        "name": "",
+        "title": "Rewriting a Triple Integral Defined Over a Sphere",
+        "selector": "#sectionLink-42752"
+      },
+      {
+        "index": 3,
+        "step_id": "44584",
+        "dom_id": "sectionLink-44584",
+        "name": "",
+        "title": "Rewriting a Triple Integral Defined Over a Part-Sphere",
+        "selector": "#sectionLink-44584"
+      },
+      {
+        "index": 4,
+        "step_id": "42753",
+        "dom_id": "sectionLink-42753",
+        "name": "",
+        "title": "Rewriting a Triple Integral Defined Over a Shifted Sphere",
+        "selector": "#sectionLink-42753"
+      },
+      {
+        "index": 5,
+        "step_id": "42755",
+        "dom_id": "sectionLink-42755",
+        "name": "",
+        "title": "Evaluating a Triple Integral by Converting to Spherical Polar Coordinates",
+        "selector": "#sectionLink-42755"
+      },
+      {
+        "index": 6,
+        "step_id": "44767",
+        "dom_id": "sectionLink-44767",
+        "name": "",
+        "title": "Deriving the Jacobian for Spherical Polar Coordinates",
+        "selector": "#sectionLink-44767"
+      },
+      {
+        "index": 7,
+        "step_id": "44789",
+        "dom_id": "sectionLink-44789",
+        "name": "",
+        "title": "Deriving the Change of Variables Formula Using Geometry",
+        "selector": "#sectionLink-44789"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3570",
+        "name": "Surfaces in Spherical Polar Coordinates",
+        "href": "/topics/surfaces-in-spherical-polar-coordinates-3570"
+      },
+      {
+        "topic_id": "4151",
+        "name": "Computing Triple Integrals Using a Change of Variables",
+        "href": "/topics/computing-triple-integrals-using-a-change-of-variables-4151"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 16,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "42751",
+        "content_id": "7149",
+        "dom_id": "step-42751",
+        "selector": "#step-42751",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "42752",
+        "content_id": "11372",
+        "dom_id": "step-42752",
+        "selector": "#step-42752",
+        "step_anchor": "step-2",
+        "title": "Rewriting a Triple Integral Defined Over a Sphere",
+        "key_prerequisites": [
+          {
+            "topic_id": "3570",
+            "name": "Surfaces in Spherical Polar Coordinates",
+            "href": "/topics/3570"
+          },
+          {
+            "topic_id": "4151",
+            "name": "Computing Triple Integrals Using a Change of Variables",
+            "href": "/topics/4151"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "40073",
+        "dom_id": "question-40073",
+        "selector": "#question-40073",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "161754",
+        "dom_id": "question-161754",
+        "selector": "#question-161754",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "44584",
+        "content_id": "12409",
+        "dom_id": "step-44584",
+        "selector": "#step-44584",
+        "step_anchor": "step-5",
+        "title": "Rewriting a Triple Integral Defined Over a Part-Sphere",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "40154",
+        "dom_id": "question-40154",
+        "selector": "#question-40154",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "161766",
+        "dom_id": "question-161766",
+        "selector": "#question-161766",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "42753",
+        "content_id": "11373",
+        "dom_id": "step-42753",
+        "selector": "#step-42753",
+        "step_anchor": "step-8",
+        "title": "Rewriting a Triple Integral Defined Over a Shifted Sphere",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "40152",
+        "dom_id": "question-40152",
+        "selector": "#question-40152",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "40089",
+        "dom_id": "question-40089",
+        "selector": "#question-40089",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "42755",
+        "content_id": "11374",
+        "dom_id": "step-42755",
+        "selector": "#step-42755",
+        "step_anchor": "step-11",
+        "title": "Evaluating a Triple Integral by Converting to Spherical Polar Coordinates",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "40155",
+        "dom_id": "question-40155",
+        "selector": "#question-40155",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "39665",
+        "dom_id": "question-39665",
+        "selector": "#question-39665",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "161597",
+        "dom_id": "question-161597",
+        "selector": "#question-161597",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44767",
+        "content_id": "7720",
+        "dom_id": "step-44767",
+        "selector": "#step-44767",
+        "step_anchor": "step-15",
+        "title": "Deriving the Jacobian for Spherical Polar Coordinates",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 16,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "44789",
+        "content_id": "7730",
+        "dom_id": "step-44789",
+        "selector": "#step-44789",
+        "step_anchor": "step-16",
+        "title": "Deriving the Change of Variables Formula Using Geometry",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-42751",
+        "filename": "01-step-42751.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-42752",
+        "filename": "02-step-42752.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-40073",
+        "filename": "03-question-40073.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-161754",
+        "filename": "04-question-161754.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-44584",
+        "filename": "05-step-44584.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-40154",
+        "filename": "06-question-40154.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-161766",
+        "filename": "07-question-161766.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-42753",
+        "filename": "08-step-42753.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-40152",
+        "filename": "09-question-40152.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-40089",
+        "filename": "10-question-40089.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-42755",
+        "filename": "11-step-42755.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-40155",
+        "filename": "12-question-40155.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-39665",
+        "filename": "13-question-39665.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-161597",
+        "filename": "14-question-161597.png"
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "selector": "#step-44767",
+        "filename": "15-step-44767.png"
+      },
+      {
+        "index": 16,
+        "item_type": "step",
+        "selector": "#step-44789",
+        "filename": "16-step-44789.png"
+      }
+    ]
+  }
+}

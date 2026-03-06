@@ -1,0 +1,289 @@
+{
+  "schema_version": 1,
+  "topic_id": "4218",
+  "topic_title": "Optimizing Distances to Curves",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/4218.html",
+  "source_url": "https://mathacademy.com/topics/4218",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "119264",
+        "dom_id": "sectionLink-119264",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-119264"
+      },
+      {
+        "index": 2,
+        "step_id": "119265",
+        "dom_id": "sectionLink-119265",
+        "name": "",
+        "title": "Finding an Equation That Determines a Minimum Distance",
+        "selector": "#sectionLink-119265"
+      },
+      {
+        "index": 3,
+        "step_id": "119268",
+        "dom_id": "sectionLink-119268",
+        "name": "",
+        "title": "The Candidates Test For Multiple Stationary Points",
+        "selector": "#sectionLink-119268"
+      },
+      {
+        "index": 4,
+        "step_id": "119269",
+        "dom_id": "sectionLink-119269",
+        "name": "",
+        "title": "Determining the Closest Points on a Curve to a Point",
+        "selector": "#sectionLink-119269"
+      },
+      {
+        "index": 5,
+        "step_id": "119272",
+        "dom_id": "sectionLink-119272",
+        "name": "",
+        "title": "Determining the Smallest Distance From a Point to a Curve",
+        "selector": "#sectionLink-119272"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1216",
+        "name": "Optimizing Distances",
+        "href": "/topics/optimizing-distances-1216"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "119264",
+        "content_id": "7893",
+        "dom_id": "step-119264",
+        "selector": "#step-119264",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "119265",
+        "content_id": "12596",
+        "dom_id": "step-119265",
+        "selector": "#step-119265",
+        "step_anchor": "step-2",
+        "title": "Finding an Equation That Determines a Minimum Distance",
+        "key_prerequisites": [
+          {
+            "topic_id": "1216",
+            "name": "Optimizing Distances",
+            "href": "/topics/1216"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "49055",
+        "dom_id": "question-49055",
+        "selector": "#question-49055",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "118390",
+        "dom_id": "question-118390",
+        "selector": "#question-118390",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "119268",
+        "content_id": "7889",
+        "dom_id": "step-119268",
+        "selector": "#step-119268",
+        "step_anchor": "step-5",
+        "title": "The Candidates Test For Multiple Stationary Points",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "119269",
+        "content_id": "12597",
+        "dom_id": "step-119269",
+        "selector": "#step-119269",
+        "step_anchor": "step-6",
+        "title": "Determining the Closest Points on a Curve to a Point",
+        "key_prerequisites": [
+          {
+            "topic_id": "364",
+            "name": "The Candidates Test",
+            "href": "/topics/364"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "16977",
+        "dom_id": "question-16977",
+        "selector": "#question-16977",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "18499",
+        "dom_id": "question-18499",
+        "selector": "#question-18499",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "119272",
+        "content_id": "12606",
+        "dom_id": "step-119272",
+        "selector": "#step-119272",
+        "step_anchor": "step-9",
+        "title": "Determining the Smallest Distance From a Point to a Curve",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "3442",
+        "dom_id": "question-3442",
+        "selector": "#question-3442",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "211243",
+        "dom_id": "question-211243",
+        "selector": "#question-211243",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-119264",
+        "filename": "01-step-119264.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-119265",
+        "filename": "02-step-119265.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-49055",
+        "filename": "03-question-49055.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-118390",
+        "filename": "04-question-118390.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-119268",
+        "filename": "05-step-119268.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-119269",
+        "filename": "06-step-119269.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-16977",
+        "filename": "07-question-16977.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-18499",
+        "filename": "08-question-18499.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-119272",
+        "filename": "09-step-119272.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-3442",
+        "filename": "10-question-3442.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-211243",
+        "filename": "11-question-211243.png"
+      }
+    ]
+  }
+}

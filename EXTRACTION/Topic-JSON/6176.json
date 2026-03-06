@@ -1,0 +1,363 @@
+{
+  "schema_version": 1,
+  "topic_id": "6176",
+  "topic_title": "Calculating Means From Frequency Tables",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/6176.html",
+  "source_url": "https://mathacademy.com/topics/6176",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "502795",
+        "dom_id": "sectionLink-502795",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-502795"
+      },
+      {
+        "index": 2,
+        "step_id": "502796",
+        "dom_id": "sectionLink-502796",
+        "name": "",
+        "title": "Computing the Mean in Stages",
+        "selector": "#sectionLink-502796"
+      },
+      {
+        "index": 3,
+        "step_id": "502797",
+        "dom_id": "sectionLink-502797",
+        "name": "",
+        "title": "Calculating the Mean From a Frequency Table",
+        "selector": "#sectionLink-502797"
+      },
+      {
+        "index": 4,
+        "step_id": "502800",
+        "dom_id": "sectionLink-502800",
+        "name": "",
+        "title": "Calculating a Missing Frequency",
+        "selector": "#sectionLink-502800"
+      },
+      {
+        "index": 5,
+        "step_id": "502801",
+        "dom_id": "sectionLink-502801",
+        "name": "",
+        "title": "Calculating a Missing Frequency Given the Mean",
+        "selector": "#sectionLink-502801"
+      },
+      {
+        "index": 6,
+        "step_id": "502804",
+        "dom_id": "sectionLink-502804",
+        "name": "",
+        "title": "Estimating Means From Grouped Data",
+        "selector": "#sectionLink-502804"
+      },
+      {
+        "index": 7,
+        "step_id": "502805",
+        "dom_id": "sectionLink-502805",
+        "name": "",
+        "title": "Calculating the Mean From a Frequency Table Containing Grouped Data",
+        "selector": "#sectionLink-502805"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1415",
+        "name": "Solving Rational Equations Containing One Fractional Term",
+        "href": "/topics/solving-rational-equations-containing-one-fractional-term-1415"
+      },
+      {
+        "topic_id": "2479",
+        "name": "The Mean of a Data Set",
+        "href": "/topics/the-mean-of-a-data-set-2479"
+      },
+      {
+        "topic_id": "2509",
+        "name": "Frequency Tables",
+        "href": "/topics/frequency-tables-2509"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 13,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "502795",
+        "content_id": "13513",
+        "dom_id": "step-502795",
+        "selector": "#step-502795",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "502796",
+        "content_id": "13588",
+        "dom_id": "step-502796",
+        "selector": "#step-502796",
+        "step_anchor": "step-2",
+        "title": "Computing the Mean in Stages",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "502797",
+        "content_id": "18897",
+        "dom_id": "step-502797",
+        "selector": "#step-502797",
+        "step_anchor": "step-3",
+        "title": "Calculating the Mean From a Frequency Table",
+        "key_prerequisites": [
+          {
+            "topic_id": "2479",
+            "name": "The Mean of a Data Set",
+            "href": "/topics/2479"
+          },
+          {
+            "topic_id": "2509",
+            "name": "Frequency Tables",
+            "href": "/topics/2509"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "296253",
+        "dom_id": "question-296253",
+        "selector": "#question-296253",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "296291",
+        "dom_id": "question-296291",
+        "selector": "#question-296291",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "502800",
+        "content_id": "13518",
+        "dom_id": "step-502800",
+        "selector": "#step-502800",
+        "step_anchor": "step-6",
+        "title": "Calculating a Missing Frequency",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "502801",
+        "content_id": "18975",
+        "dom_id": "step-502801",
+        "selector": "#step-502801",
+        "step_anchor": "step-7",
+        "title": "Calculating a Missing Frequency Given the Mean",
+        "key_prerequisites": [
+          {
+            "topic_id": "135",
+            "name": "Applying the Distributive Law With Linear Expressions",
+            "href": "/topics/135"
+          },
+          {
+            "topic_id": "1415",
+            "name": "Solving Rational Equations Containing One Fractional Term",
+            "href": "/topics/1415"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "296350",
+        "dom_id": "question-296350",
+        "selector": "#question-296350",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "296691",
+        "dom_id": "question-296691",
+        "selector": "#question-296691",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "502804",
+        "content_id": "13793",
+        "dom_id": "step-502804",
+        "selector": "#step-502804",
+        "step_anchor": "step-10",
+        "title": "Estimating Means From Grouped Data",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "502805",
+        "content_id": "19742",
+        "dom_id": "step-502805",
+        "selector": "#step-502805",
+        "step_anchor": "step-11",
+        "title": "Calculating the Mean From a Frequency Table Containing Grouped Data",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "310388",
+        "dom_id": "question-310388",
+        "selector": "#question-310388",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "311384",
+        "dom_id": "question-311384",
+        "selector": "#question-311384",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-502795",
+        "filename": "01-step-502795.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-502796",
+        "filename": "02-step-502796.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-502797",
+        "filename": "03-step-502797.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-296253",
+        "filename": "04-question-296253.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-296291",
+        "filename": "05-question-296291.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-502800",
+        "filename": "06-step-502800.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-502801",
+        "filename": "07-step-502801.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-296350",
+        "filename": "08-question-296350.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-296691",
+        "filename": "09-question-296691.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-502804",
+        "filename": "10-step-502804.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-502805",
+        "filename": "11-step-502805.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-310388",
+        "filename": "12-question-310388.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-311384",
+        "filename": "13-question-311384.png"
+      }
+    ]
+  }
+}

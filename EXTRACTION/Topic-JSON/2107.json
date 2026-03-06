@@ -1,0 +1,336 @@
+{
+  "schema_version": 1,
+  "topic_id": "2107",
+  "topic_title": "Line Integrals of Scalar Functions",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2107.html",
+  "source_url": "https://mathacademy.com/topics/2107",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "24164",
+        "dom_id": "sectionLink-24164",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-24164"
+      },
+      {
+        "index": 2,
+        "step_id": "24835",
+        "dom_id": "sectionLink-24835",
+        "name": "",
+        "title": "The General Formula",
+        "selector": "#sectionLink-24835"
+      },
+      {
+        "index": 3,
+        "step_id": "23677",
+        "dom_id": "sectionLink-23677",
+        "name": "",
+        "title": "Writing the Line Integral of a Scalar Function as a Definite Integral",
+        "selector": "#sectionLink-23677"
+      },
+      {
+        "index": 4,
+        "step_id": "23678",
+        "dom_id": "sectionLink-23678",
+        "name": "",
+        "title": "Evaluating the Line Integral of a Scalar Function",
+        "selector": "#sectionLink-23678"
+      },
+      {
+        "index": 5,
+        "step_id": "23617",
+        "dom_id": "sectionLink-23617",
+        "name": "",
+        "title": "Evaluating the Line Integral of a Scalar Function Using a Substitution",
+        "selector": "#sectionLink-23617"
+      },
+      {
+        "index": 6,
+        "step_id": "23618",
+        "dom_id": "sectionLink-23618",
+        "name": "",
+        "title": "Derivation of the  Line Integral Formula",
+        "selector": "#sectionLink-23618"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "317",
+        "name": "Introduction to Integration by Parts",
+        "href": "/topics/introduction-to-integration-by-parts-317"
+      },
+      {
+        "topic_id": "1837",
+        "name": "The Arc Length of a Vector-Valued Function",
+        "href": "/topics/the-arc-length-of-a-vector-valued-function-1837"
+      },
+      {
+        "topic_id": "1899",
+        "name": "The Domain of a Multivariable Function",
+        "href": "/topics/the-domain-of-a-multivariable-function-1899"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "24164",
+        "content_id": "4043",
+        "dom_id": "step-24164",
+        "selector": "#step-24164",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "24835",
+        "content_id": "4105",
+        "dom_id": "step-24835",
+        "selector": "#step-24835",
+        "step_anchor": "step-2",
+        "title": "The General Formula",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "23677",
+        "content_id": "6307",
+        "dom_id": "step-23677",
+        "selector": "#step-23677",
+        "step_anchor": "step-3",
+        "title": "Writing the Line Integral of a Scalar Function as a Definite Integral",
+        "key_prerequisites": [
+          {
+            "topic_id": "1837",
+            "name": "The Arc Length of a Vector-Valued Function",
+            "href": "/topics/1837"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "76368",
+        "dom_id": "question-76368",
+        "selector": "#question-76368",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "40253",
+        "dom_id": "question-40253",
+        "selector": "#question-40253",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "23678",
+        "content_id": "6308",
+        "dom_id": "step-23678",
+        "selector": "#step-23678",
+        "step_anchor": "step-6",
+        "title": "Evaluating the Line Integral of a Scalar Function",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "40258",
+        "dom_id": "question-40258",
+        "selector": "#question-40258",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "41160",
+        "dom_id": "question-41160",
+        "selector": "#question-41160",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "23617",
+        "content_id": "6283",
+        "dom_id": "step-23617",
+        "selector": "#step-23617",
+        "step_anchor": "step-9",
+        "title": "Evaluating the Line Integral of a Scalar Function Using a Substitution",
+        "key_prerequisites": [
+          {
+            "topic_id": "317",
+            "name": "Introduction to Integration by Parts",
+            "href": "/topics/317"
+          },
+          {
+            "topic_id": "334",
+            "name": "Integrating Algebraic Functions Using Substitution",
+            "href": "/topics/334"
+          },
+          {
+            "topic_id": "478",
+            "name": "Integrating Trigonometric Functions Using Substitution",
+            "href": "/topics/478"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "76186",
+        "dom_id": "question-76186",
+        "selector": "#question-76186",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "76187",
+        "dom_id": "question-76187",
+        "selector": "#question-76187",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "23618",
+        "content_id": "3974",
+        "dom_id": "step-23618",
+        "selector": "#step-23618",
+        "step_anchor": "step-12",
+        "title": "Derivation of the  Line Integral Formula",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-24164",
+        "filename": "01-step-24164.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-24835",
+        "filename": "02-step-24835.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-23677",
+        "filename": "03-step-23677.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-76368",
+        "filename": "04-question-76368.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-40253",
+        "filename": "05-question-40253.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-23678",
+        "filename": "06-step-23678.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-40258",
+        "filename": "07-question-40258.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-41160",
+        "filename": "08-question-41160.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-23617",
+        "filename": "09-step-23617.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-76186",
+        "filename": "10-question-76186.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-76187",
+        "filename": "11-question-76187.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-23618",
+        "filename": "12-step-23618.png"
+      }
+    ]
+  }
+}

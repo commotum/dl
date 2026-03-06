@@ -1,0 +1,376 @@
+{
+  "schema_version": 1,
+  "topic_id": "1590",
+  "topic_title": "Calculating Distance From a Speed-Time Graph",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1590.html",
+  "source_url": "https://mathacademy.com/topics/1590",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "193535",
+        "dom_id": "sectionLink-193535",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-193535"
+      },
+      {
+        "index": 2,
+        "step_id": "193536",
+        "dom_id": "sectionLink-193536",
+        "name": "",
+        "title": "Calculating the Area Under a Triangular Speed-Time Graph",
+        "selector": "#sectionLink-193536"
+      },
+      {
+        "index": 3,
+        "step_id": "193539",
+        "dom_id": "sectionLink-193539",
+        "name": "",
+        "title": "Calculating the Area Under a Trapezoidal Speed-Time Graph",
+        "selector": "#sectionLink-193539"
+      },
+      {
+        "index": 4,
+        "step_id": "193543",
+        "dom_id": "sectionLink-193543",
+        "name": "",
+        "title": "Solving for Some Missing Information in a Speed-Time Graph",
+        "selector": "#sectionLink-193543"
+      },
+      {
+        "index": 5,
+        "step_id": "193546",
+        "dom_id": "sectionLink-193546",
+        "name": "",
+        "title": "Constructing a Speed-Time Graph and Calculating the Distance Traveled",
+        "selector": "#sectionLink-193546"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1353",
+        "name": "Areas of Trapezoids",
+        "href": "/topics/areas-of-trapezoids-1353"
+      },
+      {
+        "topic_id": "2327",
+        "name": "Speed-Time Graphs",
+        "href": "/topics/speed-time-graphs-2327"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "193535",
+        "content_id": "8713",
+        "dom_id": "step-193535",
+        "selector": "#step-193535",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "193536",
+        "content_id": "14018",
+        "dom_id": "step-193536",
+        "selector": "#step-193536",
+        "step_anchor": "step-2",
+        "title": "Calculating the Area Under a Triangular Speed-Time Graph",
+        "key_prerequisites": [
+          {
+            "topic_id": "1397",
+            "name": "Areas of Triangles",
+            "href": "/topics/1397"
+          },
+          {
+            "topic_id": "2230",
+            "name": "Determining Units in Formulas",
+            "href": "/topics/2230"
+          },
+          {
+            "topic_id": "2327",
+            "name": "Speed-Time Graphs",
+            "href": "/topics/2327"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "59768",
+        "dom_id": "question-59768",
+        "selector": "#question-59768",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "237038",
+        "dom_id": "question-237038",
+        "selector": "#question-237038",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "193539",
+        "content_id": "14026",
+        "dom_id": "step-193539",
+        "selector": "#step-193539",
+        "step_anchor": "step-5",
+        "title": "Calculating the Area Under a Trapezoidal Speed-Time Graph",
+        "key_prerequisites": [
+          {
+            "topic_id": "1353",
+            "name": "Areas of Trapezoids",
+            "href": "/topics/1353"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "208838",
+        "dom_id": "question-208838",
+        "selector": "#question-208838",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "26501",
+        "dom_id": "question-26501",
+        "selector": "#question-26501",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "237063",
+        "dom_id": "question-237063",
+        "selector": "#question-237063",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "193543",
+        "content_id": "14032",
+        "dom_id": "step-193543",
+        "selector": "#step-193543",
+        "step_anchor": "step-9",
+        "title": "Solving for Some Missing Information in a Speed-Time Graph",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "59772",
+        "dom_id": "question-59772",
+        "selector": "#question-59772",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "237117",
+        "dom_id": "question-237117",
+        "selector": "#question-237117",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "193546",
+        "content_id": "14037",
+        "dom_id": "step-193546",
+        "selector": "#step-193546",
+        "step_anchor": "step-12",
+        "title": "Constructing a Speed-Time Graph and Calculating the Distance Traveled",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "222494",
+        "dom_id": "question-222494",
+        "selector": "#question-222494",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "26156",
+        "dom_id": "question-26156",
+        "selector": "#question-26156",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "237172",
+        "dom_id": "question-237172",
+        "selector": "#question-237172",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-193535",
+        "filename": "01-step-193535.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-193536",
+        "filename": "02-step-193536.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-59768",
+        "filename": "03-question-59768.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-237038",
+        "filename": "04-question-237038.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-193539",
+        "filename": "05-step-193539.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-208838",
+        "filename": "06-question-208838.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-26501",
+        "filename": "07-question-26501.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-237063",
+        "filename": "08-question-237063.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-193543",
+        "filename": "09-step-193543.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-59772",
+        "filename": "10-question-59772.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-237117",
+        "filename": "11-question-237117.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-193546",
+        "filename": "12-step-193546.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-222494",
+        "filename": "13-question-222494.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-26156",
+        "filename": "14-question-26156.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-237172",
+        "filename": "15-question-237172.png"
+      }
+    ]
+  }
+}

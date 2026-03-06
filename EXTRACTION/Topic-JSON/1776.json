@@ -1,0 +1,293 @@
+{
+  "schema_version": 1,
+  "topic_id": "1776",
+  "topic_title": "Cramer\u2019s Rule for 3x3 Systems",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1776.html",
+  "source_url": "https://mathacademy.com/topics/1776",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "16705",
+        "dom_id": "sectionLink-16705",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-16705"
+      },
+      {
+        "index": 2,
+        "step_id": "17835",
+        "dom_id": "sectionLink-17835",
+        "name": "",
+        "title": "A Demonstration of Cramer's Rule on a 3x3 Linear System",
+        "selector": "#sectionLink-17835"
+      },
+      {
+        "index": 3,
+        "step_id": "23061",
+        "dom_id": "sectionLink-23061",
+        "name": "",
+        "title": "Identifying Parts of Cramer's Rule",
+        "selector": "#sectionLink-23061"
+      },
+      {
+        "index": 4,
+        "step_id": "16707",
+        "dom_id": "sectionLink-16707",
+        "name": "",
+        "title": "Solving for an Unknown in a 3x3 Linear System Using Cramer's Rule",
+        "selector": "#sectionLink-16707"
+      },
+      {
+        "index": 5,
+        "step_id": "16711",
+        "dom_id": "sectionLink-16711",
+        "name": "",
+        "title": "Solving for a Coefficient in a 3x3 Linear System Using Cramer's Rule",
+        "selector": "#sectionLink-16711"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "153",
+        "name": "The Determinant of a 3x3 Matrix",
+        "href": "/topics/the-determinant-of-a-3x3-matrix-153"
+      },
+      {
+        "topic_id": "1775",
+        "name": "Cramer\u2019s Rule for 2x2 Systems of Linear Equations",
+        "href": "/topics/cramers-rule-for-2x2-systems-of-linear-equations-1775"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 11,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "16705",
+        "content_id": "3079",
+        "dom_id": "step-16705",
+        "selector": "#step-16705",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "17835",
+        "content_id": "3241",
+        "dom_id": "step-17835",
+        "selector": "#step-17835",
+        "step_anchor": "step-2",
+        "title": "A Demonstration of Cramer's Rule on a 3x3 Linear System",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "23061",
+        "content_id": "6172",
+        "dom_id": "step-23061",
+        "selector": "#step-23061",
+        "step_anchor": "step-3",
+        "title": "Identifying Parts of Cramer's Rule",
+        "key_prerequisites": [
+          {
+            "topic_id": "153",
+            "name": "The Determinant of a 3x3 Matrix",
+            "href": "/topics/153"
+          },
+          {
+            "topic_id": "1775",
+            "name": "Cramer\u2019s Rule for 2x2 Systems of Linear Equations",
+            "href": "/topics/1775"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "42681",
+        "dom_id": "question-42681",
+        "selector": "#question-42681",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "42625",
+        "dom_id": "question-42625",
+        "selector": "#question-42625",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "16707",
+        "content_id": "4577",
+        "dom_id": "step-16707",
+        "selector": "#step-16707",
+        "step_anchor": "step-6",
+        "title": "Solving for an Unknown in a 3x3 Linear System Using Cramer's Rule",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "42671",
+        "dom_id": "question-42671",
+        "selector": "#question-42671",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "42623",
+        "dom_id": "question-42623",
+        "selector": "#question-42623",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "16711",
+        "content_id": "4579",
+        "dom_id": "step-16711",
+        "selector": "#step-16711",
+        "step_anchor": "step-9",
+        "title": "Solving for a Coefficient in a 3x3 Linear System Using Cramer's Rule",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "43115",
+        "dom_id": "question-43115",
+        "selector": "#question-43115",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "43113",
+        "dom_id": "question-43113",
+        "selector": "#question-43113",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-16705",
+        "filename": "01-step-16705.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-17835",
+        "filename": "02-step-17835.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-23061",
+        "filename": "03-step-23061.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-42681",
+        "filename": "04-question-42681.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-42625",
+        "filename": "05-question-42625.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-16707",
+        "filename": "06-step-16707.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-42671",
+        "filename": "07-question-42671.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-42623",
+        "filename": "08-question-42623.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-16711",
+        "filename": "09-step-16711.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-43115",
+        "filename": "10-question-43115.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-43113",
+        "filename": "11-question-43113.png"
+      }
+    ]
+  }
+}

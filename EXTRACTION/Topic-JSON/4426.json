@@ -1,0 +1,403 @@
+{
+  "schema_version": 1,
+  "topic_id": "4426",
+  "topic_title": "Proving Distributive Properties of Union and Intersection",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/4426.html",
+  "source_url": "https://mathacademy.com/topics/4426",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "182636",
+        "dom_id": "sectionLink-182636",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-182636"
+      },
+      {
+        "index": 2,
+        "step_id": "182637",
+        "dom_id": "sectionLink-182637",
+        "name": "",
+        "title": "Proof by Translating Between Logic and Set Operations",
+        "selector": "#sectionLink-182637"
+      },
+      {
+        "index": 3,
+        "step_id": "182638",
+        "dom_id": "sectionLink-182638",
+        "name": "",
+        "title": "Set Inclusions: Translating Between Logical and Set Operations",
+        "selector": "#sectionLink-182638"
+      },
+      {
+        "index": 4,
+        "step_id": "182641",
+        "dom_id": "sectionLink-182641",
+        "name": "",
+        "title": "Proof by Cases",
+        "selector": "#sectionLink-182641"
+      },
+      {
+        "index": 5,
+        "step_id": "182642",
+        "dom_id": "sectionLink-182642",
+        "name": "",
+        "title": "Stating the Full Proof",
+        "selector": "#sectionLink-182642"
+      },
+      {
+        "index": 6,
+        "step_id": "182643",
+        "dom_id": "sectionLink-182643",
+        "name": "",
+        "title": "Proving Set Inclusions Using Cases",
+        "selector": "#sectionLink-182643"
+      },
+      {
+        "index": 7,
+        "step_id": "182646",
+        "dom_id": "sectionLink-182646",
+        "name": "",
+        "title": "A Summary of Proof Strategies",
+        "selector": "#sectionLink-182646"
+      },
+      {
+        "index": 8,
+        "step_id": "182647",
+        "dom_id": "sectionLink-182647",
+        "name": "",
+        "title": "Proving the Distributive Properties",
+        "selector": "#sectionLink-182647"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2806",
+        "name": "Proving Elementary Properties of Set Operations",
+        "href": "/topics/proving-elementary-properties-of-set-operations-2806"
+      },
+      {
+        "topic_id": "4430",
+        "name": "Distributive Properties of Set Operations",
+        "href": "/topics/distributive-properties-of-set-operations-4430"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 15,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "182636",
+        "content_id": "9368",
+        "dom_id": "step-182636",
+        "selector": "#step-182636",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "182637",
+        "content_id": "9398",
+        "dom_id": "step-182637",
+        "selector": "#step-182637",
+        "step_anchor": "step-2",
+        "title": "Proof by Translating Between Logic and Set Operations",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "182638",
+        "content_id": "13293",
+        "dom_id": "step-182638",
+        "selector": "#step-182638",
+        "step_anchor": "step-3",
+        "title": "Set Inclusions: Translating Between Logical and Set Operations",
+        "key_prerequisites": [
+          {
+            "topic_id": "2806",
+            "name": "Proving Elementary Properties of Set Operations",
+            "href": "/topics/2806"
+          },
+          {
+            "topic_id": "2822",
+            "name": "The Distributive Laws",
+            "href": "/topics/2822"
+          },
+          {
+            "topic_id": "4430",
+            "name": "Distributive Properties of Set Operations",
+            "href": "/topics/4430"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "222182",
+        "dom_id": "question-222182",
+        "selector": "#question-222182",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "222135",
+        "dom_id": "question-222135",
+        "selector": "#question-222135",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "182641",
+        "content_id": "9397",
+        "dom_id": "step-182641",
+        "selector": "#step-182641",
+        "step_anchor": "step-6",
+        "title": "Proof by Cases",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "182642",
+        "content_id": "9399",
+        "dom_id": "step-182642",
+        "selector": "#step-182642",
+        "step_anchor": "step-7",
+        "title": "Stating the Full Proof",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "182643",
+        "content_id": "14985",
+        "dom_id": "step-182643",
+        "selector": "#step-182643",
+        "step_anchor": "step-8",
+        "title": "Proving Set Inclusions Using Cases",
+        "key_prerequisites": [
+          {
+            "topic_id": "4432",
+            "name": "Proof by Cases",
+            "href": "/topics/4432"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "222194",
+        "dom_id": "question-222194",
+        "selector": "#question-222194",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "222168",
+        "dom_id": "question-222168",
+        "selector": "#question-222168",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "182646",
+        "content_id": "9400",
+        "dom_id": "step-182646",
+        "selector": "#step-182646",
+        "step_anchor": "step-11",
+        "title": "A Summary of Proof Strategies",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "182647",
+        "content_id": "13295",
+        "dom_id": "step-182647",
+        "selector": "#step-182647",
+        "step_anchor": "step-12",
+        "title": "Proving the Distributive Properties",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "223304",
+        "dom_id": "question-223304",
+        "selector": "#question-223304",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "222123",
+        "dom_id": "question-222123",
+        "selector": "#question-222123",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "question_id": "222126",
+        "dom_id": "question-222126",
+        "selector": "#question-222126",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-182636",
+        "filename": "01-step-182636.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-182637",
+        "filename": "02-step-182637.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-182638",
+        "filename": "03-step-182638.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-222182",
+        "filename": "04-question-222182.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-222135",
+        "filename": "05-question-222135.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-182641",
+        "filename": "06-step-182641.png"
+      },
+      {
+        "index": 7,
+        "item_type": "step",
+        "selector": "#step-182642",
+        "filename": "07-step-182642.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-182643",
+        "filename": "08-step-182643.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-222194",
+        "filename": "09-question-222194.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-222168",
+        "filename": "10-question-222168.png"
+      },
+      {
+        "index": 11,
+        "item_type": "step",
+        "selector": "#step-182646",
+        "filename": "11-step-182646.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-182647",
+        "filename": "12-step-182647.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-223304",
+        "filename": "13-question-223304.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-222123",
+        "filename": "14-question-222123.png"
+      },
+      {
+        "index": 15,
+        "item_type": "question",
+        "selector": "#question-222126",
+        "filename": "15-question-222126.png"
+      }
+    ]
+  }
+}

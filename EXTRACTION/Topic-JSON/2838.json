@@ -1,0 +1,346 @@
+{
+  "schema_version": 1,
+  "topic_id": "2838",
+  "topic_title": "Modeling With the Poisson Distribution",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2838.html",
+  "source_url": "https://mathacademy.com/topics/2838",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "27850",
+        "dom_id": "sectionLink-27850",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-27850"
+      },
+      {
+        "index": 2,
+        "step_id": "27932",
+        "dom_id": "sectionLink-27932",
+        "name": "",
+        "title": "The Graph of the Poisson Distribution",
+        "selector": "#sectionLink-27932"
+      },
+      {
+        "index": 3,
+        "step_id": "27837",
+        "dom_id": "sectionLink-27837",
+        "name": "",
+        "title": "Identifying Random Variables that Follow a Poisson Distribution",
+        "selector": "#sectionLink-27837"
+      },
+      {
+        "index": 4,
+        "step_id": "27839",
+        "dom_id": "sectionLink-27839",
+        "name": "",
+        "title": "Computing the Probability of a Poisson Random Variable at Some Value",
+        "selector": "#sectionLink-27839"
+      },
+      {
+        "index": 5,
+        "step_id": "27840",
+        "dom_id": "sectionLink-27840",
+        "name": "",
+        "title": "Computing the Probability of a Poisson Random Variable on a Bounded Interval",
+        "selector": "#sectionLink-27840"
+      },
+      {
+        "index": 6,
+        "step_id": "27841",
+        "dom_id": "sectionLink-27841",
+        "name": "",
+        "title": "Computing the Probability of a Poisson Random Variable on an Unbounded Interval",
+        "selector": "#sectionLink-27841"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "3282",
+        "name": "The Poisson Distribution",
+        "href": "/topics/the-poisson-distribution-3282"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "27850",
+        "content_id": "4525",
+        "dom_id": "step-27850",
+        "selector": "#step-27850",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "27932",
+        "content_id": "4534",
+        "dom_id": "step-27932",
+        "selector": "#step-27932",
+        "step_anchor": "step-2",
+        "title": "The Graph of the Poisson Distribution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "27837",
+        "content_id": "7493",
+        "dom_id": "step-27837",
+        "selector": "#step-27837",
+        "step_anchor": "step-3",
+        "title": "Identifying Random Variables that Follow a Poisson Distribution",
+        "key_prerequisites": [
+          {
+            "topic_id": "3282",
+            "name": "The Poisson Distribution",
+            "href": "/topics/3282"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "85202",
+        "dom_id": "question-85202",
+        "selector": "#question-85202",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "question_id": "85149",
+        "dom_id": "question-85149",
+        "selector": "#question-85149",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "27839",
+        "content_id": "7495",
+        "dom_id": "step-27839",
+        "selector": "#step-27839",
+        "step_anchor": "step-6",
+        "title": "Computing the Probability of a Poisson Random Variable at Some Value",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "85151",
+        "dom_id": "question-85151",
+        "selector": "#question-85151",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "85150",
+        "dom_id": "question-85150",
+        "selector": "#question-85150",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "27840",
+        "content_id": "7496",
+        "dom_id": "step-27840",
+        "selector": "#step-27840",
+        "step_anchor": "step-9",
+        "title": "Computing the Probability of a Poisson Random Variable on a Bounded Interval",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "85252",
+        "dom_id": "question-85252",
+        "selector": "#question-85252",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "85251",
+        "dom_id": "question-85251",
+        "selector": "#question-85251",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "27841",
+        "content_id": "7497",
+        "dom_id": "step-27841",
+        "selector": "#step-27841",
+        "step_anchor": "step-12",
+        "title": "Computing the Probability of a Poisson Random Variable on an Unbounded Interval",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "85254",
+        "dom_id": "question-85254",
+        "selector": "#question-85254",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "85253",
+        "dom_id": "question-85253",
+        "selector": "#question-85253",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-27850",
+        "filename": "01-step-27850.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-27932",
+        "filename": "02-step-27932.png"
+      },
+      {
+        "index": 3,
+        "item_type": "step",
+        "selector": "#step-27837",
+        "filename": "03-step-27837.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-85202",
+        "filename": "04-question-85202.png"
+      },
+      {
+        "index": 5,
+        "item_type": "question",
+        "selector": "#question-85149",
+        "filename": "05-question-85149.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-27839",
+        "filename": "06-step-27839.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-85151",
+        "filename": "07-question-85151.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-85150",
+        "filename": "08-question-85150.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-27840",
+        "filename": "09-step-27840.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-85252",
+        "filename": "10-question-85252.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-85251",
+        "filename": "11-question-85251.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-27841",
+        "filename": "12-step-27841.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-85254",
+        "filename": "13-question-85254.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-85253",
+        "filename": "14-question-85253.png"
+      }
+    ]
+  }
+}

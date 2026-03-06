@@ -1,0 +1,450 @@
+{
+  "schema_version": 1,
+  "topic_id": "1524",
+  "topic_title": "Medians and Centroids of Triangles",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/1524.html",
+  "source_url": "https://mathacademy.com/topics/1524",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "200894",
+        "dom_id": "sectionLink-200894",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-200894"
+      },
+      {
+        "index": 2,
+        "step_id": "200895",
+        "dom_id": "sectionLink-200895",
+        "name": "",
+        "title": "Identifying a Median",
+        "selector": "#sectionLink-200895"
+      },
+      {
+        "index": 3,
+        "step_id": "200898",
+        "dom_id": "sectionLink-200898",
+        "name": "",
+        "title": "The Centroid Theorem",
+        "selector": "#sectionLink-200898"
+      },
+      {
+        "index": 4,
+        "step_id": "200899",
+        "dom_id": "sectionLink-200899",
+        "name": "",
+        "title": "Identifying a Centroid",
+        "selector": "#sectionLink-200899"
+      },
+      {
+        "index": 5,
+        "step_id": "200909",
+        "dom_id": "sectionLink-200909",
+        "name": "",
+        "title": "The Centroid Ratio Theorem",
+        "selector": "#sectionLink-200909"
+      },
+      {
+        "index": 6,
+        "step_id": "200902",
+        "dom_id": "sectionLink-200902",
+        "name": "",
+        "title": "Applying the Centroid Ratio Theorem",
+        "selector": "#sectionLink-200902"
+      },
+      {
+        "index": 7,
+        "step_id": "200910",
+        "dom_id": "sectionLink-200910",
+        "name": "",
+        "title": "Coordinates of the Centroid",
+        "selector": "#sectionLink-200910"
+      },
+      {
+        "index": 8,
+        "step_id": "200906",
+        "dom_id": "sectionLink-200906",
+        "name": "",
+        "title": "Finding the Coordinates of a Centroid",
+        "selector": "#sectionLink-200906"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "485",
+        "name": "Midpoints in the Coordinate Plane",
+        "href": "/topics/midpoints-in-the-coordinate-plane-485"
+      },
+      {
+        "topic_id": "552",
+        "name": "Writing Ratios Using Fractions",
+        "href": "/topics/writing-ratios-using-fractions-552"
+      },
+      {
+        "topic_id": "1317",
+        "name": "Polygons",
+        "href": "/topics/polygons-1317"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 17,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "200894",
+        "content_id": "10198",
+        "dom_id": "step-200894",
+        "selector": "#step-200894",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "200895",
+        "content_id": "11449",
+        "dom_id": "step-200895",
+        "selector": "#step-200895",
+        "step_anchor": "step-2",
+        "title": "Identifying a Median",
+        "key_prerequisites": [
+          {
+            "topic_id": "1317",
+            "name": "Polygons",
+            "href": "/topics/1317"
+          },
+          {
+            "topic_id": "1463",
+            "name": "Midpoints",
+            "href": "/topics/1463"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "28132",
+        "dom_id": "question-28132",
+        "selector": "#question-28132",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "242774",
+        "dom_id": "question-242774",
+        "selector": "#question-242774",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "200898",
+        "content_id": "7186",
+        "dom_id": "step-200898",
+        "selector": "#step-200898",
+        "step_anchor": "step-5",
+        "title": "The Centroid Theorem",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "200899",
+        "content_id": "11450",
+        "dom_id": "step-200899",
+        "selector": "#step-200899",
+        "step_anchor": "step-6",
+        "title": "Identifying a Centroid",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "241989",
+        "dom_id": "question-241989",
+        "selector": "#question-241989",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "242806",
+        "dom_id": "question-242806",
+        "selector": "#question-242806",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "200909",
+        "content_id": "10203",
+        "dom_id": "step-200909",
+        "selector": "#step-200909",
+        "step_anchor": "step-9",
+        "title": "The Centroid Ratio Theorem",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "200902",
+        "content_id": "11451",
+        "dom_id": "step-200902",
+        "selector": "#step-200902",
+        "step_anchor": "step-10",
+        "title": "Applying the Centroid Ratio Theorem",
+        "key_prerequisites": [
+          {
+            "topic_id": "552",
+            "name": "Writing Ratios Using Fractions",
+            "href": "/topics/552"
+          },
+          {
+            "topic_id": "1379",
+            "name": "Measures of Segments",
+            "href": "/topics/1379"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "242671",
+        "dom_id": "question-242671",
+        "selector": "#question-242671",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "242714",
+        "dom_id": "question-242714",
+        "selector": "#question-242714",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "242002",
+        "dom_id": "question-242002",
+        "selector": "#question-242002",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "200910",
+        "content_id": "10204",
+        "dom_id": "step-200910",
+        "selector": "#step-200910",
+        "step_anchor": "step-14",
+        "title": "Coordinates of the Centroid",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "200906",
+        "content_id": "11452",
+        "dom_id": "step-200906",
+        "selector": "#step-200906",
+        "step_anchor": "step-15",
+        "title": "Finding the Coordinates of a Centroid",
+        "key_prerequisites": [
+          {
+            "topic_id": "485",
+            "name": "Midpoints in the Coordinate Plane",
+            "href": "/topics/485"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "242022",
+        "dom_id": "question-242022",
+        "selector": "#question-242022",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "question_id": "242023",
+        "dom_id": "question-242023",
+        "selector": "#question-242023",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-200894",
+        "filename": "01-step-200894.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-200895",
+        "filename": "02-step-200895.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-28132",
+        "filename": "03-question-28132.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-242774",
+        "filename": "04-question-242774.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-200898",
+        "filename": "05-step-200898.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-200899",
+        "filename": "06-step-200899.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-241989",
+        "filename": "07-question-241989.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-242806",
+        "filename": "08-question-242806.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-200909",
+        "filename": "09-step-200909.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-200902",
+        "filename": "10-step-200902.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-242671",
+        "filename": "11-question-242671.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-242714",
+        "filename": "12-question-242714.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-242002",
+        "filename": "13-question-242002.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-200910",
+        "filename": "14-step-200910.png"
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "selector": "#step-200906",
+        "filename": "15-step-200906.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-242022",
+        "filename": "16-question-242022.png"
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "selector": "#question-242023",
+        "filename": "17-question-242023.png"
+      }
+    ]
+  }
+}

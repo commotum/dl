@@ -1,0 +1,434 @@
+{
+  "schema_version": 1,
+  "topic_id": "2502",
+  "topic_title": "Symmetry, Skew, and Outliers",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2502.html",
+  "source_url": "https://mathacademy.com/topics/2502",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "516021",
+        "dom_id": "sectionLink-516021",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-516021"
+      },
+      {
+        "index": 2,
+        "step_id": "516022",
+        "dom_id": "sectionLink-516022",
+        "name": "",
+        "title": "Identifying Outliers From a Dot Plot",
+        "selector": "#sectionLink-516022"
+      },
+      {
+        "index": 3,
+        "step_id": "516025",
+        "dom_id": "sectionLink-516025",
+        "name": "",
+        "title": "Tails, Skew, and Symmetry",
+        "selector": "#sectionLink-516025"
+      },
+      {
+        "index": 4,
+        "step_id": "516026",
+        "dom_id": "sectionLink-516026",
+        "name": "",
+        "title": "Identifying Symmetry and Skew From a Dot Plot",
+        "selector": "#sectionLink-516026"
+      },
+      {
+        "index": 5,
+        "step_id": "516029",
+        "dom_id": "sectionLink-516029",
+        "name": "",
+        "title": "The Mean and Median of a Symmetric Distribution",
+        "selector": "#sectionLink-516029"
+      },
+      {
+        "index": 6,
+        "step_id": "516030",
+        "dom_id": "sectionLink-516030",
+        "name": "",
+        "title": "Calculating Mean and Median for Symmetric Data Sets",
+        "selector": "#sectionLink-516030"
+      },
+      {
+        "index": 7,
+        "step_id": "516034",
+        "dom_id": "sectionLink-516034",
+        "name": "",
+        "title": "The Effect of Skew on the Mean",
+        "selector": "#sectionLink-516034"
+      },
+      {
+        "index": 8,
+        "step_id": "516035",
+        "dom_id": "sectionLink-516035",
+        "name": "",
+        "title": "Estimating the Location of the Mean From a Dot Plot",
+        "selector": "#sectionLink-516035"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "2501",
+        "name": "Measuring Range and MAD From Dot Plots",
+        "href": "/topics/measuring-range-and-mad-from-dot-plots-2501"
+      },
+      {
+        "topic_id": "2517",
+        "name": "Outliers",
+        "href": "/topics/outliers-2517"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 17,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "516021",
+        "content_id": "2336",
+        "dom_id": "step-516021",
+        "selector": "#step-516021",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "516022",
+        "content_id": "2800",
+        "dom_id": "step-516022",
+        "selector": "#step-516022",
+        "step_anchor": "step-2",
+        "title": "Identifying Outliers From a Dot Plot",
+        "key_prerequisites": [
+          {
+            "topic_id": "2499",
+            "name": "Dot Plots",
+            "href": "/topics/2499"
+          },
+          {
+            "topic_id": "2517",
+            "name": "Outliers",
+            "href": "/topics/2517"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "63557",
+        "dom_id": "question-63557",
+        "selector": "#question-63557",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "91392",
+        "dom_id": "question-91392",
+        "selector": "#question-91392",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "516025",
+        "content_id": "2337",
+        "dom_id": "step-516025",
+        "selector": "#step-516025",
+        "step_anchor": "step-5",
+        "title": "Tails, Skew, and Symmetry",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "516026",
+        "content_id": "2807",
+        "dom_id": "step-516026",
+        "selector": "#step-516026",
+        "step_anchor": "step-6",
+        "title": "Identifying Symmetry and Skew From a Dot Plot",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "63269",
+        "dom_id": "question-63269",
+        "selector": "#question-63269",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "63561",
+        "dom_id": "question-63561",
+        "selector": "#question-63561",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "516029",
+        "content_id": "2338",
+        "dom_id": "step-516029",
+        "selector": "#step-516029",
+        "step_anchor": "step-9",
+        "title": "The Mean and Median of a Symmetric Distribution",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "516030",
+        "content_id": "19157",
+        "dom_id": "step-516030",
+        "selector": "#step-516030",
+        "step_anchor": "step-10",
+        "title": "Calculating Mean and Median for Symmetric Data Sets",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "317081",
+        "dom_id": "question-317081",
+        "selector": "#question-317081",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "question_id": "317083",
+        "dom_id": "question-317083",
+        "selector": "#question-317083",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "317183",
+        "dom_id": "question-317183",
+        "selector": "#question-317183",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "516034",
+        "content_id": "5979",
+        "dom_id": "step-516034",
+        "selector": "#step-516034",
+        "step_anchor": "step-14",
+        "title": "The Effect of Skew on the Mean",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "516035",
+        "content_id": "2818",
+        "dom_id": "step-516035",
+        "selector": "#step-516035",
+        "step_anchor": "step-15",
+        "title": "Estimating the Location of the Mean From a Dot Plot",
+        "key_prerequisites": [
+          {
+            "topic_id": "2500",
+            "name": "Measuring Centrality From Dot Plots",
+            "href": "/topics/2500"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "question_id": "62478",
+        "dom_id": "question-62478",
+        "selector": "#question-62478",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "question_id": "92093",
+        "dom_id": "question-92093",
+        "selector": "#question-92093",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-516021",
+        "filename": "01-step-516021.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-516022",
+        "filename": "02-step-516022.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-63557",
+        "filename": "03-question-63557.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-91392",
+        "filename": "04-question-91392.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-516025",
+        "filename": "05-step-516025.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-516026",
+        "filename": "06-step-516026.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-63269",
+        "filename": "07-question-63269.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-63561",
+        "filename": "08-question-63561.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-516029",
+        "filename": "09-step-516029.png"
+      },
+      {
+        "index": 10,
+        "item_type": "step",
+        "selector": "#step-516030",
+        "filename": "10-step-516030.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-317081",
+        "filename": "11-question-317081.png"
+      },
+      {
+        "index": 12,
+        "item_type": "question",
+        "selector": "#question-317083",
+        "filename": "12-question-317083.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-317183",
+        "filename": "13-question-317183.png"
+      },
+      {
+        "index": 14,
+        "item_type": "step",
+        "selector": "#step-516034",
+        "filename": "14-step-516034.png"
+      },
+      {
+        "index": 15,
+        "item_type": "step",
+        "selector": "#step-516035",
+        "filename": "15-step-516035.png"
+      },
+      {
+        "index": 16,
+        "item_type": "question",
+        "selector": "#question-62478",
+        "filename": "16-question-62478.png"
+      },
+      {
+        "index": 17,
+        "item_type": "question",
+        "selector": "#question-92093",
+        "filename": "17-question-92093.png"
+      }
+    ]
+  }
+}

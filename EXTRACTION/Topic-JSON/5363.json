@@ -1,0 +1,288 @@
+{
+  "schema_version": 1,
+  "topic_id": "5363",
+  "topic_title": "The Method of Moments: Two-Parameter Distributions",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/5363.html",
+  "source_url": "https://mathacademy.com/topics/5363",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "222101",
+        "dom_id": "sectionLink-222101",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-222101"
+      },
+      {
+        "index": 2,
+        "step_id": "222102",
+        "dom_id": "sectionLink-222102",
+        "name": "",
+        "title": "Finding MM Estimators for Continuous Uniform Random Variables",
+        "selector": "#sectionLink-222102"
+      },
+      {
+        "index": 3,
+        "step_id": "222105",
+        "dom_id": "sectionLink-222105",
+        "name": "",
+        "title": "Finding MM Estimators for Binomial Random Variables",
+        "selector": "#sectionLink-222105"
+      },
+      {
+        "index": 4,
+        "step_id": "222108",
+        "dom_id": "sectionLink-222108",
+        "name": "",
+        "title": "Finding MM Estimators for Normal Random Variables",
+        "selector": "#sectionLink-222108"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1843",
+        "name": "The Normal Distribution",
+        "href": "/topics/the-normal-distribution-1843"
+      },
+      {
+        "topic_id": "2149",
+        "name": "Mean and Variance of the Binomial Distribution",
+        "href": "/topics/mean-and-variance-of-the-binomial-distribution-2149"
+      },
+      {
+        "topic_id": "3277",
+        "name": "Mean and Variance of the Continuous Uniform Distribution",
+        "href": "/topics/mean-and-variance-of-the-continuous-uniform-distribution-3277"
+      },
+      {
+        "topic_id": "4945",
+        "name": "The Method of Moments",
+        "href": "/topics/the-method-of-moments-4945"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 10,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "222101",
+        "content_id": "10607",
+        "dom_id": "step-222101",
+        "selector": "#step-222101",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "222102",
+        "content_id": "16381",
+        "dom_id": "step-222102",
+        "selector": "#step-222102",
+        "step_anchor": "step-2",
+        "title": "Finding MM Estimators for Continuous Uniform Random Variables",
+        "key_prerequisites": [
+          {
+            "topic_id": "3277",
+            "name": "Mean and Variance of the Continuous Uniform Distribution",
+            "href": "/topics/3277"
+          },
+          {
+            "topic_id": "4945",
+            "name": "The Method of Moments",
+            "href": "/topics/4945"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "251313",
+        "dom_id": "question-251313",
+        "selector": "#question-251313",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "252159",
+        "dom_id": "question-252159",
+        "selector": "#question-252159",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "222105",
+        "content_id": "16441",
+        "dom_id": "step-222105",
+        "selector": "#step-222105",
+        "step_anchor": "step-5",
+        "title": "Finding MM Estimators for Binomial Random Variables",
+        "key_prerequisites": [
+          {
+            "topic_id": "2149",
+            "name": "Mean and Variance of the Binomial Distribution",
+            "href": "/topics/2149"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "252185",
+        "dom_id": "question-252185",
+        "selector": "#question-252185",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "251306",
+        "dom_id": "question-251306",
+        "selector": "#question-251306",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "222108",
+        "content_id": "16442",
+        "dom_id": "step-222108",
+        "selector": "#step-222108",
+        "step_anchor": "step-8",
+        "title": "Finding MM Estimators for Normal Random Variables",
+        "key_prerequisites": [
+          {
+            "topic_id": "1843",
+            "name": "The Normal Distribution",
+            "href": "/topics/1843"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "question_id": "252203",
+        "dom_id": "question-252203",
+        "selector": "#question-252203",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "251316",
+        "dom_id": "question-251316",
+        "selector": "#question-251316",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-222101",
+        "filename": "01-step-222101.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-222102",
+        "filename": "02-step-222102.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-251313",
+        "filename": "03-question-251313.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-252159",
+        "filename": "04-question-252159.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-222105",
+        "filename": "05-step-222105.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-252185",
+        "filename": "06-question-252185.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-251306",
+        "filename": "07-question-251306.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-222108",
+        "filename": "08-step-222108.png"
+      },
+      {
+        "index": 9,
+        "item_type": "question",
+        "selector": "#question-252203",
+        "filename": "09-question-252203.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-251316",
+        "filename": "10-question-251316.png"
+      }
+    ]
+  }
+}

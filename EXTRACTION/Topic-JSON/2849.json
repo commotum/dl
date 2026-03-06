@@ -1,0 +1,332 @@
+{
+  "schema_version": 1,
+  "topic_id": "2849",
+  "topic_title": "Euler's Formula for Polyhedra",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/2849.html",
+  "source_url": "https://mathacademy.com/topics/2849",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "33805",
+        "dom_id": "sectionLink-33805",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-33805"
+      },
+      {
+        "index": 2,
+        "step_id": "33806",
+        "dom_id": "sectionLink-33806",
+        "name": "",
+        "title": "Visually Identifying Convex Polyhedra",
+        "selector": "#sectionLink-33806"
+      },
+      {
+        "index": 3,
+        "step_id": "35129",
+        "dom_id": "sectionLink-35129",
+        "name": "",
+        "title": "Euler's Formula for Polyhedra",
+        "selector": "#sectionLink-35129"
+      },
+      {
+        "index": 4,
+        "step_id": "33807",
+        "dom_id": "sectionLink-33807",
+        "name": "",
+        "title": "Applying Euler's Formula for Polyhedra",
+        "selector": "#sectionLink-33807"
+      },
+      {
+        "index": 5,
+        "step_id": "33808",
+        "dom_id": "sectionLink-33808",
+        "name": "",
+        "title": "Applying Euler\u2019s Formula for Polyhedra Given a Description of a Polyhedron's Faces",
+        "selector": "#sectionLink-33808"
+      },
+      {
+        "index": 6,
+        "step_id": "33817",
+        "dom_id": "sectionLink-33817",
+        "name": "",
+        "title": "Euler Characteristic",
+        "selector": "#sectionLink-33817"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1317",
+        "name": "Polygons",
+        "href": "/topics/polygons-1317"
+      },
+      {
+        "topic_id": "2468",
+        "name": "Nets of Polyhedrons",
+        "href": "/topics/nets-of-polyhedrons-2468"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 12,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "33805",
+        "content_id": "5424",
+        "dom_id": "step-33805",
+        "selector": "#step-33805",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33806",
+        "content_id": "9060",
+        "dom_id": "step-33806",
+        "selector": "#step-33806",
+        "step_anchor": "step-2",
+        "title": "Visually Identifying Convex Polyhedra",
+        "key_prerequisites": [
+          {
+            "topic_id": "2467",
+            "name": "Identifying Three-Dimensional Shapes",
+            "href": "/topics/2467"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "108584",
+        "dom_id": "question-108584",
+        "selector": "#question-108584",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "108247",
+        "dom_id": "question-108247",
+        "selector": "#question-108247",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "35129",
+        "content_id": "5727",
+        "dom_id": "step-35129",
+        "selector": "#step-35129",
+        "step_anchor": "step-5",
+        "title": "Euler's Formula for Polyhedra",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33807",
+        "content_id": "9061",
+        "dom_id": "step-33807",
+        "selector": "#step-33807",
+        "step_anchor": "step-6",
+        "title": "Applying Euler's Formula for Polyhedra",
+        "key_prerequisites": [
+          {
+            "topic_id": "2484",
+            "name": "Faces, Vertices, and Edges of Polyhedrons",
+            "href": "/topics/2484"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "108249",
+        "dom_id": "question-108249",
+        "selector": "#question-108249",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "question_id": "108250",
+        "dom_id": "question-108250",
+        "selector": "#question-108250",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33808",
+        "content_id": "9062",
+        "dom_id": "step-33808",
+        "selector": "#step-33808",
+        "step_anchor": "step-9",
+        "title": "Applying Euler\u2019s Formula for Polyhedra Given a Description of a Polyhedron's Faces",
+        "key_prerequisites": [
+          {
+            "topic_id": "1317",
+            "name": "Polygons",
+            "href": "/topics/1317"
+          },
+          {
+            "topic_id": "2468",
+            "name": "Nets of Polyhedrons",
+            "href": "/topics/2468"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "108376",
+        "dom_id": "question-108376",
+        "selector": "#question-108376",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "108777",
+        "dom_id": "question-108777",
+        "selector": "#question-108777",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "33817",
+        "content_id": "5429",
+        "dom_id": "step-33817",
+        "selector": "#step-33817",
+        "step_anchor": "step-12",
+        "title": "Euler Characteristic",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-33805",
+        "filename": "01-step-33805.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-33806",
+        "filename": "02-step-33806.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-108584",
+        "filename": "03-question-108584.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-108247",
+        "filename": "04-question-108247.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-35129",
+        "filename": "05-step-35129.png"
+      },
+      {
+        "index": 6,
+        "item_type": "step",
+        "selector": "#step-33807",
+        "filename": "06-step-33807.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-108249",
+        "filename": "07-question-108249.png"
+      },
+      {
+        "index": 8,
+        "item_type": "question",
+        "selector": "#question-108250",
+        "filename": "08-question-108250.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-33808",
+        "filename": "09-step-33808.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-108376",
+        "filename": "10-question-108376.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-108777",
+        "filename": "11-question-108777.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-33817",
+        "filename": "12-step-33817.png"
+      }
+    ]
+  }
+}

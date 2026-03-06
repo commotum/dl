@@ -1,0 +1,372 @@
+{
+  "schema_version": 1,
+  "topic_id": "3373",
+  "topic_title": "Tangent Planes to Parametric Surfaces",
+  "source_html": "/home/jake/Developer/MA/DATA/Topic-HTML/3373.html",
+  "source_url": "https://mathacademy.com/topics/3373",
+  "toc": {
+    "sidebar_selector": "#sidebar",
+    "section_links_selector": "#sectionLinks .sectionLink",
+    "section_links": [
+      {
+        "index": 1,
+        "step_id": "33365",
+        "dom_id": "sectionLink-33365",
+        "name": "",
+        "title": "Introduction",
+        "selector": "#sectionLink-33365"
+      },
+      {
+        "index": 2,
+        "step_id": "33366",
+        "dom_id": "sectionLink-33366",
+        "name": "",
+        "title": "Finding a Normal Vector to a Parametric Surface Given Some Parameter Values",
+        "selector": "#sectionLink-33366"
+      },
+      {
+        "index": 3,
+        "step_id": "33367",
+        "dom_id": "sectionLink-33367",
+        "name": "",
+        "title": "Finding a Normal Vector to a Parametric Surface Given a Point on the Surface",
+        "selector": "#sectionLink-33367"
+      },
+      {
+        "index": 4,
+        "step_id": "33370",
+        "dom_id": "sectionLink-33370",
+        "name": "",
+        "title": "Tangent Plane to a Parametric Surface",
+        "selector": "#sectionLink-33370"
+      },
+      {
+        "index": 5,
+        "step_id": "33368",
+        "dom_id": "sectionLink-33368",
+        "name": "",
+        "title": "Finding the Equation of the Tangent Plane to a Parametric Surface Given Some Parameter Values",
+        "selector": "#sectionLink-33368"
+      },
+      {
+        "index": 6,
+        "step_id": "33369",
+        "dom_id": "sectionLink-33369",
+        "name": "",
+        "title": "Finding the Equation of the Tangent Plane to a Parametric Surface Given a Point on the Surface",
+        "selector": "#sectionLink-33369"
+      }
+    ],
+    "topic_prerequisites": [
+      {
+        "topic_id": "1789",
+        "name": "Parametric Surfaces",
+        "href": "/topics/parametric-surfaces-1789"
+      },
+      {
+        "topic_id": "1955",
+        "name": "Geometric Interpretations of Partial Derivatives",
+        "href": "/topics/geometric-interpretations-of-partial-derivatives-1955"
+      },
+      {
+        "topic_id": "1980",
+        "name": "Tangent Planes to Surfaces",
+        "href": "/topics/tangent-planes-to-surfaces-1980"
+      }
+    ]
+  },
+  "lesson": {
+    "container_selector": "#lessonContent",
+    "item_count": 14,
+    "items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "33365",
+        "content_id": "5330",
+        "dom_id": "step-33365",
+        "selector": "#step-33365",
+        "step_anchor": "step-1",
+        "title": "Introduction",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33366",
+        "content_id": "8938",
+        "dom_id": "step-33366",
+        "selector": "#step-33366",
+        "step_anchor": "step-2",
+        "title": "Finding a Normal Vector to a Parametric Surface Given Some Parameter Values",
+        "key_prerequisites": [
+          {
+            "topic_id": "245",
+            "name": "Calculating the Cross Product Using Determinants",
+            "href": "/topics/245"
+          },
+          {
+            "topic_id": "1789",
+            "name": "Parametric Surfaces",
+            "href": "/topics/1789"
+          },
+          {
+            "topic_id": "1955",
+            "name": "Geometric Interpretations of Partial Derivatives",
+            "href": "/topics/1955"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "question_id": "109888",
+        "dom_id": "question-109888",
+        "selector": "#question-109888",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "question_id": "105544",
+        "dom_id": "question-105544",
+        "selector": "#question-105544",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33367",
+        "content_id": "8939",
+        "dom_id": "step-33367",
+        "selector": "#step-33367",
+        "step_anchor": "step-5",
+        "title": "Finding a Normal Vector to a Parametric Surface Given a Point on the Surface",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "question_id": "105593",
+        "dom_id": "question-105593",
+        "selector": "#question-105593",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "question_id": "110066",
+        "dom_id": "question-110066",
+        "selector": "#question-110066",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "step_type": "tutorial",
+        "step_id": "33370",
+        "content_id": "5331",
+        "dom_id": "step-33370",
+        "selector": "#step-33370",
+        "step_anchor": "step-8",
+        "title": "Tangent Plane to a Parametric Surface",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33368",
+        "content_id": "8940",
+        "dom_id": "step-33368",
+        "selector": "#step-33368",
+        "step_anchor": "step-9",
+        "title": "Finding the Equation of the Tangent Plane to a Parametric Surface Given Some Parameter Values",
+        "key_prerequisites": [
+          {
+            "topic_id": "1980",
+            "name": "Tangent Planes to Surfaces",
+            "href": "/topics/1980"
+          }
+        ],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "question_id": "109709",
+        "dom_id": "question-109709",
+        "selector": "#question-109709",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "question_id": "105594",
+        "dom_id": "question-105594",
+        "selector": "#question-105594",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "step_type": "example",
+        "step_id": "33369",
+        "content_id": "8941",
+        "dom_id": "step-33369",
+        "selector": "#step-33369",
+        "step_anchor": "step-12",
+        "title": "Finding the Equation of the Tangent Plane to a Parametric Surface Given a Point on the Surface",
+        "key_prerequisites": [],
+        "has_content_in_snapshot": true
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "question_id": "109818",
+        "dom_id": "question-109818",
+        "selector": "#question-109818",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "question_id": "105597",
+        "dom_id": "question-105597",
+        "selector": "#question-105597",
+        "title": "",
+        "has_content_in_snapshot": false,
+        "hydration_required": true,
+        "question_format": "unknown",
+        "choice_count": 0
+      }
+    ]
+  },
+  "capture_targets": {
+    "toc": {
+      "selector": "#sidebar",
+      "filename": "00-TOC.png"
+    },
+    "lesson_items": [
+      {
+        "index": 1,
+        "item_type": "step",
+        "selector": "#step-33365",
+        "filename": "01-step-33365.png"
+      },
+      {
+        "index": 2,
+        "item_type": "step",
+        "selector": "#step-33366",
+        "filename": "02-step-33366.png"
+      },
+      {
+        "index": 3,
+        "item_type": "question",
+        "selector": "#question-109888",
+        "filename": "03-question-109888.png"
+      },
+      {
+        "index": 4,
+        "item_type": "question",
+        "selector": "#question-105544",
+        "filename": "04-question-105544.png"
+      },
+      {
+        "index": 5,
+        "item_type": "step",
+        "selector": "#step-33367",
+        "filename": "05-step-33367.png"
+      },
+      {
+        "index": 6,
+        "item_type": "question",
+        "selector": "#question-105593",
+        "filename": "06-question-105593.png"
+      },
+      {
+        "index": 7,
+        "item_type": "question",
+        "selector": "#question-110066",
+        "filename": "07-question-110066.png"
+      },
+      {
+        "index": 8,
+        "item_type": "step",
+        "selector": "#step-33370",
+        "filename": "08-step-33370.png"
+      },
+      {
+        "index": 9,
+        "item_type": "step",
+        "selector": "#step-33368",
+        "filename": "09-step-33368.png"
+      },
+      {
+        "index": 10,
+        "item_type": "question",
+        "selector": "#question-109709",
+        "filename": "10-question-109709.png"
+      },
+      {
+        "index": 11,
+        "item_type": "question",
+        "selector": "#question-105594",
+        "filename": "11-question-105594.png"
+      },
+      {
+        "index": 12,
+        "item_type": "step",
+        "selector": "#step-33369",
+        "filename": "12-step-33369.png"
+      },
+      {
+        "index": 13,
+        "item_type": "question",
+        "selector": "#question-109818",
+        "filename": "13-question-109818.png"
+      },
+      {
+        "index": 14,
+        "item_type": "question",
+        "selector": "#question-105597",
+        "filename": "14-question-105597.png"
+      }
+    ]
+  }
+}
