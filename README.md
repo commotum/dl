@@ -1,164 +1,132 @@
-# Principles of Practical Download Tooling
+# Practical Download Tooling
 
-This repo is a personal workspace for three small tools:
+This repo is a personal workspace for three small tools plus one top-level wrapper:
 
-- `cookiekit`: get cookies out of a logged-in browser and write `cookies.txt`
-- `requestkit`: make requests with sane browser-like session behavior
-- `downloadkit`: turn a URL into a correct file on disk
+- `cookiekit`: export `cookies.txt` from a browser where you are already logged in
+- `requestkit`: make requests with browser-like headers, retries, pacing, `429` handling, and redacted dumps
+- `downloadkit`: download a URL to disk with resume, fallback URLs, and binary-vs-HTML validation
+- `dl`: wrapper CLI that dispatches to the three package CLIs
 
-There is also a top-level `dl` wrapper that dispatches to those package CLIs.
+## Quick start
 
-These are principles of practical download tooling for logged-in web workflows, not principles of general web crawling.
+Show the wrapper help:
 
-## The point
+```bash
+uv run dl --help
+```
 
-Most download problems are not one problem.
+Export cookies from a logged-in browser:
 
-They are usually three different problems that get tangled together:
+```bash
+uv run dl cookiekit export-browser \
+  --browser chrome \
+  --domain .github.com \
+  --output github-cookies.txt
+```
 
-- finding the authenticated browser state you already have
-- making requests that survive real sites
-- downloading files without corrupting, truncating, or misclassifying them
+Inspect a request with browser-like headers:
 
-This repo keeps those concerns separate on purpose.
+```bash
+uv run dl requestkit dump \
+  https://example.com \
+  --browser chrome \
+  --json
+```
+
+Download a file using those cookies:
+
+```bash
+uv run dl downloadkit fetch \
+  https://example.com/file.bin \
+  -o file.bin \
+  --cookies github-cookies.txt \
+  --json
+```
 
 ## Principles
 
 ### 1. Prefer real browser state over scripted login
 
-If the user is already logged in, use that.
-
-That is usually more reliable than:
-
-- reimplementing login flows
-- storing usernames and passwords
-- chasing MFA and challenge pages
-
-This is why `cookiekit` exists.
+If the user is already logged in, reuse that session instead of reimplementing login flows.
 
 ### 2. Separate cookies, requests, and downloads
 
-Cookie extraction, request/session behavior, and file transfer are different concerns with different failure modes.
+Cookie extraction, request/session behavior, and file transfer are different concerns with different failure modes. They stay split here on purpose.
 
-They should not live in one giant kitchen-sink library unless that complexity is actually paying for itself.
+### 3. Optimize for ordinary failure modes
 
-The intended split here is:
-
-- `cookiekit` for browser cookies
-- `requestkit` for sessions and request behavior
-- `downloadkit` for robust file transfer
-
-### 3. Optimize for the real failure modes
-
-Naive tools usually fail because of ordinary operational problems:
+The tools focus on the things that usually break naive workflows:
 
 - wrong browser profile
 - stale or missing cookies
-- bad `Referer` or headers
+- bad headers or referers
 - `429` responses
 - challenge pages returned as HTML
-- expired tokenized media URLs
 - interrupted downloads
+- expired or flaky media URLs
 
-The toolkit should make those failure modes explicit and manageable.
+### 4. Keep the shared core generic
 
-### 4. Keep the core generic and the hacks local
-
-There is no universal anti-detection trick that works everywhere.
-
-The reusable core is things like:
+The reusable parts are:
 
 - browser-like headers
-- pacing and retries
+- retries and pacing
 - cookie loading
 - challenge detection
 - fallback URLs
 - resume support
 
-If a site needs weird reverse-engineered behavior, that should live in site-specific code, not in the shared core.
+Site-specific hacks belong outside the shared core.
 
-### 5. Small CLIs, composable libraries
+### 5. Small CLIs, small libraries
 
-Each package should be usable in two ways:
+Each package should work both as:
 
-- as a small CLI with obvious flags
-- as a library with a narrow surface area
+- a short CLI
+- a narrow Python library
 
-The CLI should be the shortest path for a human or an AI agent. The library should exist so tools can be composed without shelling out.
-
-In this workspace, the shortest path is usually:
+The wrapper CLI is the shortest path:
 
 - `uv run dl cookiekit ...`
 - `uv run dl requestkit ...`
 - `uv run dl downloadkit ...`
 
-### 6. Be explicit instead of magical
+### 6. Be explicit
 
-Good defaults matter, but hidden behavior should be limited.
+The tools favor visible behavior over hidden magic:
 
-Prefer:
-
-- explicit profile selection
-- explicit domain scoping
-- visible retry and sleep settings
+- explicit profile/domain selection
+- explicit retry and timeout settings
 - visible output paths
-- inspectable JSON or text summaries
+- JSON or readable text output
 
-The operator should be able to tell what happened without reverse-engineering the tool.
+### 7. Redact secrets
 
-### 7. Redact secrets and preserve evidence
-
-Debugging network problems is necessary. Leaking credentials is not.
-
-Diagnostics should:
-
-- allow request/response dumps
-- redact cookies and auth headers
-- preserve enough evidence to explain failures
+Diagnostics should help debug failures without leaking cookies or auth headers.
 
 ### 8. Personal tools first
 
-This repo is for personal use, not for building a maximal framework.
+This repo is for practical personal workflows, not for building a maximal framework.
 
-That means:
+## Current state
 
-- fewer abstractions
-- less ceremony
-- no speculative generalization
-- only enough packaging structure to keep the tools clean
-
-If a feature is not helping real workflows, it should probably not exist.
+- `cookiekit` is usable now
+- `requestkit` v1 is usable now
+- `downloadkit` v1 is usable now
+- `dl` wrapper is usable now
 
 ## Workspace map
 
-- `cookiekit/`: cookie extraction package
-- `requestkit/`: request/session package
-- `downloadkit/`: download package
-- `gallery-dl/`: reference codebase used for comparison and idea extraction
-- `building-clis-uv-summary.md`: notes on packaging small CLIs with `uv`
+- `cookiekit/`
+- `requestkit/`
+- `downloadkit/`
+- `gallery-dl/`
+- `building-clis-uv-summary.md`
 
-## Current status
+## Related docs
 
-- `cookiekit` is already usable
-- `requestkit` has a working v1 core with `get` and `dump`, browser-like session setup, retries, pacing, challenge detection, cookies.txt loading, and redacted diagnostics
-- `downloadkit` has a working v1 core with `fetch`, atomic file writes, resume support, fallback URLs, binary-vs-HTML validation, and JSON/plain-text result output
-- `dl` is a working top-level wrapper for all three CLIs
-
-Package-specific usage and implementation details belong in each package README, not in this root document.
-
-## Wrapper usage
-
-```bash
-uv run dl --help
-uv run dl cookiekit --help
-uv run dl requestkit --help
-uv run dl downloadkit --help
-```
-
-## Related Docs
-
-- Package README: [`cookiekit/README.md`](cookiekit/README.md)
-- Package README: [`requestkit/README.md`](requestkit/README.md)
-- Package README: [`downloadkit/README.md`](downloadkit/README.md)
-- `uv` tooling summary: [`building-clis-uv-summary.md`](building-clis-uv-summary.md)
-- Release workflow: [`cookiekit/docs/release.md`](cookiekit/docs/release.md)
+- [`cookiekit/README.md`](cookiekit/README.md)
+- [`requestkit/README.md`](requestkit/README.md)
+- [`downloadkit/README.md`](downloadkit/README.md)
+- [`building-clis-uv-summary.md`](building-clis-uv-summary.md)
+- [`cookiekit/docs/release.md`](cookiekit/docs/release.md)

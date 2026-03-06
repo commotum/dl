@@ -8,6 +8,18 @@ Primary use case:
 - optionally filter to a target domain
 - write a Netscape `cookies.txt` file
 
+Recommended CLI path from the workspace root:
+
+```bash
+uv run dl cookiekit --help
+```
+
+Direct package invocation also works:
+
+```bash
+uv run --package cookiekit cookiekit --help
+```
+
 ## Install
 
 From this workspace:
@@ -28,13 +40,13 @@ python -m pip install dist/cookiekit-*.whl
 Show help:
 
 ```bash
-uv run --package cookiekit cookiekit --help
+uv run dl cookiekit --help
 ```
 
 Export cookies from Chrome:
 
 ```bash
-uv run --package cookiekit cookiekit export-browser \
+uv run dl cookiekit export-browser \
   --browser chrome \
   --domain .github.com \
   --output github-cookies.txt
@@ -43,7 +55,7 @@ uv run --package cookiekit cookiekit export-browser \
 Export cookies from Firefox using a profile and container:
 
 ```bash
-uv run --package cookiekit cookiekit export-browser \
+uv run dl cookiekit export-browser \
   --browser firefox \
   --profile default-release \
   --container Work \
@@ -54,7 +66,7 @@ uv run --package cookiekit cookiekit export-browser \
 Use a full browser spec if you already have one:
 
 ```bash
-uv run --package cookiekit cookiekit export-browser \
+uv run dl cookiekit export-browser \
   --spec "chrome/.github.com:Default" \
   --output github-cookies.txt
 ```
@@ -62,7 +74,7 @@ uv run --package cookiekit cookiekit export-browser \
 Machine-readable summary:
 
 ```bash
-uv run --package cookiekit cookiekit export-browser \
+uv run dl cookiekit export-browser \
   --browser chrome \
   --domain .github.com \
   --output github-cookies.txt \
@@ -83,6 +95,8 @@ Important flags:
 - `--domain`: optional site filter. Use `.example.com` to include subdomains.
 - `--container`: Firefox-only container selection.
 - `--keyring`: Chromium-only Linux keyring override (`kwallet`, `gnomekeyring`, `basictext`).
+- `--json`: print a machine-readable summary for agents or scripts.
+- `--no-atomic`: write directly to the output path instead of temp-file replace.
 
 ## Library
 
@@ -150,3 +164,4 @@ from cookiekit import (
 - If you maintain multiple accounts, keep them in separate browser profiles or Firefox containers and select the right one at export time.
 - Chromium encrypted-cookie decryption uses `pycryptodome`.
 - Linux keyring access uses `secretstorage` for GNOME keyring and `kwallet-query` for KWallet.
+- The root `dl` wrapper is only a dispatcher. The actual CLI surface still lives in `cookiekit`.
