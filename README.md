@@ -45,68 +45,78 @@ uv run dl downloadkit fetch \
 
 ## Principles
 
+The goal here is practical, low-noise downloading: behave like a normal
+browser-backed session, make as few mistakes as possible, and avoid leaving an
+obvious "naive scraper" footprint.
+
 ### 1. Prefer real browser state over scripted login
 
-If the user is already logged in, reuse that session instead of reimplementing login flows.
+If you are already logged in, reuse that session instead of rebuilding login
+flows or automating forms by default.
 
-### 2. Separate cookies, requests, and downloads
+### 2. Minimize footprint
 
-Cookie extraction, request/session behavior, and file transfer are different concerns with different failure modes. They stay split here on purpose.
+Good scraping starts with not being noisy:
 
-### 3. Optimize for ordinary failure modes
+- make the fewest requests needed
+- reuse cookies and session state
+- send sensible headers and referers
+- back off on `429`
+- avoid pointless retries and probes
 
-The tools focus on the things that usually break naive workflows:
+### 3. Look browser-backed, not custom
 
-- wrong browser profile
-- stale or missing cookies
-- bad headers or referers
-- `429` responses
-- challenge pages returned as HTML
-- interrupted downloads
-- expired or flaky media URLs
+The safest default is usually to look like an ordinary browser-driven request
+flow, not a bespoke automation stack.
 
-### 4. Keep the shared core generic
-
-The reusable parts are:
+That means prioritizing:
 
 - browser-like headers
-- retries and pacing
-- cookie loading
-- challenge detection
-- fallback URLs
-- resume support
+- real cookies
+- sane pacing
+- consistent referers
+- ordinary request patterns
 
-Site-specific hacks belong outside the shared core.
+### 4. Treat detection as a failure signal
 
-### 5. Small CLIs, small libraries
+If a site starts returning login pages, challenge HTML, or other unexpected
+responses, stop and inspect the flow instead of trying to brute-force through
+it.
 
-Each package should work both as:
+The tools should make those failures visible.
 
-- a short CLI
-- a narrow Python library
+### 5. Download carefully
 
-The wrapper CLI is the shortest path:
+Good downloading is not just "GET and save":
 
-- `uv run dl cookiekit ...`
-- `uv run dl requestkit ...`
-- `uv run dl downloadkit ...`
+- write atomically
+- resume when possible
+- reject HTML masquerading as a file
+- validate the response before trusting it
+- use fallback URLs when the primary one is flaky
 
-### 6. Be explicit
+### 6. Be explicit and inspectable
 
-The tools favor visible behavior over hidden magic:
+These tools should favor visible behavior over hidden magic:
 
-- explicit profile/domain selection
+- explicit profile and domain selection
 - explicit retry and timeout settings
 - visible output paths
 - JSON or readable text output
+- redacted but useful diagnostics
 
-### 7. Redact secrets
+### 7. Keep the tools composable
 
-Diagnostics should help debug failures without leaking cookies or auth headers.
+`cookiekit`, `requestkit`, and `downloadkit` exist because cookies, requests,
+and file transfer are still useful mental buckets.
 
-### 8. Personal tools first
+They do not need perfect boundaries. Share code freely when it makes the
+personal workflow simpler.
 
-This repo is for practical personal workflows, not for building a maximal framework.
+### 8. Personal utility beats framework purity
+
+This repo is a personal toolbox. If a feature makes day-to-day scraping and
+downloading easier, that matters more than maintaining a pristine architecture.
 
 ## Current state
 
