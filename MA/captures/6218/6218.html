@@ -1,0 +1,1240 @@
+<!DOCTYPE html><html><head>
+        <title>Math Academy</title>
+        <meta charset="utf-8">
+
+        <link rel="shortcut icon" href="/img/favicon.ico">
+        <link rel="stylesheet" href="/css/app.css">
+        <link rel="stylesheet" href="/css/mathquill.css">
+        <link rel="stylesheet" href="/css/math-editor.css">
+
+        <link rel="stylesheet" href="/css/prism.css">
+        <script type="text/javascript" src="/js/prism.js"></script>
+
+        <script type="text/javascript" src="/js/jquery.1.11.0.min.js"></script>
+
+        <script>
+            $.noConflict();
+            // Code that uses other library's $ can follow here.
+        </script>
+
+        <script type="text/javascript" src="/js/mathquill.v2.1.min.js"></script>
+        <script type="text/javascript" src="/js/math-editor.js"></script> 
+        <script type="text/javascript" src="/js/mathjax-config.js"></script>
+        <script type="text/javascript" id="MathJax-script" async="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <!--
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>        
+        <script type="text/javascript" src="/js/katex-config.js"></script>
+        -->
+
+        <script>
+            function showSupportDialog() {
+                const dlg = new SupportDialog();
+                dlg.show();
+            }            
+        </script>
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
+        <script type="text/javascript" src="/js/commonFunctions.js"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/input/tex/extensions/color.js" charset="UTF-8"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/input/tex/extensions/enclose.js" charset="UTF-8"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/input/tex/extensions/bbox.js" charset="UTF-8"></script>
+        <script type="text/javascript" src="/js/core.js"></script>
+        <script type="text/javascript" src="/js/core-ui.js"></script>
+        <script type="text/javascript" src="/js/api.js"></script>
+        <script type="text/javascript" src="/js/api-new.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
+        <script type="text/javascript" src="/js/jdom.js"></script>
+        <script type="text/javascript" src="/js/header.js"></script>
+
+        <script>
+            var userTimeZone = 'America/Los_Angeles';
+            checkTimeZone(userTimeZone);
+        </script>
+
+        <style>
+            div#courseNameHeader {
+                margin-top: 50px;
+            }            
+        </style>        
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/input/tex/extensions/cancel.js" charset="UTF-8"></script><style type="text/css">.CtxtMenu_InfoClose {  top:.2em; right:.2em;}
+.CtxtMenu_InfoContent {  overflow:auto; text-align:left; font-size:80%;  padding:.4em .6em; border:1px inset; margin:1em 0px;  max-height:20em; max-width:30em; background-color:#EEEEEE;  white-space:normal;}
+.CtxtMenu_Info.CtxtMenu_MousePost {outline:none;}
+.CtxtMenu_Info {  position:fixed; left:50%; width:auto; text-align:center;  border:3px outset; padding:1em 2em; background-color:#DDDDDD;  color:black;  cursor:default; font-family:message-box; font-size:120%;  font-style:normal; text-indent:0; text-transform:none;  line-height:normal; letter-spacing:normal; word-spacing:normal;  word-wrap:normal; white-space:nowrap; float:none; z-index:201;  border-radius: 15px;                     /* Opera 10.5 and IE9 */  -webkit-border-radius:15px;               /* Safari and Chrome */  -moz-border-radius:15px;                  /* Firefox */  -khtml-border-radius:15px;                /* Konqueror */  box-shadow:0px 10px 20px #808080;         /* Opera 10.5 and IE9 */  -webkit-box-shadow:0px 10px 20px #808080; /* Safari 3 & Chrome */  -moz-box-shadow:0px 10px 20px #808080;    /* Forefox 3.5 */  -khtml-box-shadow:0px 10px 20px #808080;  /* Konqueror */  filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color="gray", Positive="true"); /* IE */}
+</style><style type="text/css">.CtxtMenu_MenuClose {  position:absolute;  cursor:pointer;  display:inline-block;  border:2px solid #AAA;  border-radius:18px;  -webkit-border-radius: 18px;             /* Safari and Chrome */  -moz-border-radius: 18px;                /* Firefox */  -khtml-border-radius: 18px;              /* Konqueror */  font-family: "Courier New", Courier;  font-size:24px;  color:#F0F0F0}
+.CtxtMenu_MenuClose span {  display:block; background-color:#AAA; border:1.5px solid;  border-radius:18px;  -webkit-border-radius: 18px;             /* Safari and Chrome */  -moz-border-radius: 18px;                /* Firefox */  -khtml-border-radius: 18px;              /* Konqueror */  line-height:0;  padding:8px 0 6px     /* may need to be browser-specific */}
+.CtxtMenu_MenuClose:hover {  color:white!important;  border:2px solid #CCC!important}
+.CtxtMenu_MenuClose:hover span {  background-color:#CCC!important}
+.CtxtMenu_MenuClose:hover:focus {  outline:none}
+</style><style type="text/css">.CtxtMenu_Menu {  position:absolute;  background-color:white;  color:black;  width:auto; padding:5px 0px;  border:1px solid #CCCCCC; margin:0; cursor:default;  font: menu; text-align:left; text-indent:0; text-transform:none;  line-height:normal; letter-spacing:normal; word-spacing:normal;  word-wrap:normal; white-space:nowrap; float:none; z-index:201;  border-radius: 5px;                     /* Opera 10.5 and IE9 */  -webkit-border-radius: 5px;             /* Safari and Chrome */  -moz-border-radius: 5px;                /* Firefox */  -khtml-border-radius: 5px;              /* Konqueror */  box-shadow:0px 10px 20px #808080;         /* Opera 10.5 and IE9 */  -webkit-box-shadow:0px 10px 20px #808080; /* Safari 3 & Chrome */  -moz-box-shadow:0px 10px 20px #808080;    /* Forefox 3.5 */  -khtml-box-shadow:0px 10px 20px #808080;  /* Konqueror */}
+.CtxtMenu_MenuItem {  padding: 1px 2em;  background:transparent;}
+.CtxtMenu_MenuArrow {  position:absolute; right:.5em; padding-top:.25em; color:#666666;  font-family: null; font-size: .75em}
+.CtxtMenu_MenuActive .CtxtMenu_MenuArrow {color:white}
+.CtxtMenu_MenuArrow.CtxtMenu_RTL {left:.5em; right:auto}
+.CtxtMenu_MenuCheck {  position:absolute; left:.7em;  font-family: null}
+.CtxtMenu_MenuCheck.CtxtMenu_RTL { right:.7em; left:auto }
+.CtxtMenu_MenuRadioCheck {  position:absolute; left: .7em;}
+.CtxtMenu_MenuRadioCheck.CtxtMenu_RTL {  right: .7em; left:auto}
+.CtxtMenu_MenuInputBox {  padding-left: 1em; right:.5em; color:#666666;  font-family: null;}
+.CtxtMenu_MenuInputBox.CtxtMenu_RTL {  left: .1em;}
+.CtxtMenu_MenuComboBox {  left:.1em; padding-bottom:.5em;}
+.CtxtMenu_MenuSlider {  left: .1em;}
+.CtxtMenu_SliderValue {  position:absolute; right:.1em; padding-top:.25em; color:#333333;  font-size: .75em}
+.CtxtMenu_SliderBar {  outline: none; background: #d3d3d3}
+.CtxtMenu_MenuLabel {  padding: 1px 2em 3px 1.33em;  font-style:italic}
+.CtxtMenu_MenuRule {  border-top: 1px solid #DDDDDD;  margin: 4px 3px;}
+.CtxtMenu_MenuDisabled {  color:GrayText}
+.CtxtMenu_MenuActive {  background-color: #606872;  color: white;}
+.CtxtMenu_MenuDisabled:focus {  background-color: #E8E8E8}
+.CtxtMenu_MenuLabel:focus {  background-color: #E8E8E8}
+.CtxtMenu_ContextMenu:focus {  outline:none}
+.CtxtMenu_ContextMenu .CtxtMenu_MenuItem:focus {  outline:none}
+.CtxtMenu_SelectionMenu {  position:relative; float:left;  border-bottom: none; -webkit-box-shadow:none; -webkit-border-radius:0px; }
+.CtxtMenu_SelectionItem {  padding-right: 1em;}
+.CtxtMenu_Selection {  right: 40%; width:50%; }
+.CtxtMenu_SelectionBox {  padding: 0em; max-height:20em; max-width: none;  background-color:#FFFFFF;}
+.CtxtMenu_SelectionDivider {  clear: both; border-top: 2px solid #000000;}
+.CtxtMenu_Menu .CtxtMenu_MenuClose {  top:-10px; left:-10px}
+</style><style id="MJX-CHTML-styles">
+mjx-container[jax="CHTML"] {
+  line-height: 0;
+}
+
+mjx-container [space="1"] {
+  margin-left: .111em;
+}
+
+mjx-container [space="2"] {
+  margin-left: .167em;
+}
+
+mjx-container [space="3"] {
+  margin-left: .222em;
+}
+
+mjx-container [space="4"] {
+  margin-left: .278em;
+}
+
+mjx-container [space="5"] {
+  margin-left: .333em;
+}
+
+mjx-container [rspace="1"] {
+  margin-right: .111em;
+}
+
+mjx-container [rspace="2"] {
+  margin-right: .167em;
+}
+
+mjx-container [rspace="3"] {
+  margin-right: .222em;
+}
+
+mjx-container [rspace="4"] {
+  margin-right: .278em;
+}
+
+mjx-container [rspace="5"] {
+  margin-right: .333em;
+}
+
+mjx-container [size="s"] {
+  font-size: 70.7%;
+}
+
+mjx-container [size="ss"] {
+  font-size: 50%;
+}
+
+mjx-container [size="Tn"] {
+  font-size: 60%;
+}
+
+mjx-container [size="sm"] {
+  font-size: 85%;
+}
+
+mjx-container [size="lg"] {
+  font-size: 120%;
+}
+
+mjx-container [size="Lg"] {
+  font-size: 144%;
+}
+
+mjx-container [size="LG"] {
+  font-size: 173%;
+}
+
+mjx-container [size="hg"] {
+  font-size: 207%;
+}
+
+mjx-container [size="HG"] {
+  font-size: 249%;
+}
+
+mjx-container [width="full"] {
+  width: 100%;
+}
+
+mjx-box {
+  display: inline-block;
+}
+
+mjx-block {
+  display: block;
+}
+
+mjx-itable {
+  display: inline-table;
+}
+
+mjx-row {
+  display: table-row;
+}
+
+mjx-row > * {
+  display: table-cell;
+}
+
+mjx-mtext {
+  display: inline-block;
+}
+
+mjx-mstyle {
+  display: inline-block;
+}
+
+mjx-merror {
+  display: inline-block;
+  color: red;
+  background-color: yellow;
+}
+
+mjx-mphantom {
+  visibility: hidden;
+}
+
+_::-webkit-full-page-media, _:future, :root mjx-container {
+  will-change: opacity;
+}
+
+mjx-assistive-mml {
+  position: absolute !important;
+  top: 0px;
+  left: 0px;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 1px 0px 0px 0px !important;
+  border: 0px !important;
+  display: block !important;
+  width: auto !important;
+  overflow: hidden !important;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+mjx-assistive-mml[display="block"] {
+  width: 100% !important;
+}
+
+mjx-math {
+  display: inline-block;
+  text-align: left;
+  line-height: 0;
+  text-indent: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100%;
+  font-size-adjust: none;
+  letter-spacing: normal;
+  border-collapse: collapse;
+  word-wrap: normal;
+  word-spacing: normal;
+  white-space: nowrap;
+  direction: ltr;
+  padding: 1px 0;
+}
+
+mjx-container[jax="CHTML"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="CHTML"][display="true"][width="full"] {
+  display: flex;
+}
+
+mjx-container[jax="CHTML"][display="true"] mjx-math {
+  padding: 0;
+}
+
+mjx-container[jax="CHTML"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="CHTML"][justify="right"] {
+  text-align: right;
+}
+
+mjx-c::before {
+  display: block;
+  width: 0;
+}
+
+.MJX-TEX {
+  font-family: MJXZERO, MJXTEX;
+}
+
+.TEX-B {
+  font-family: MJXZERO, MJXTEX-B;
+}
+
+.TEX-I {
+  font-family: MJXZERO, MJXTEX-I;
+}
+
+.TEX-MI {
+  font-family: MJXZERO, MJXTEX-MI;
+}
+
+.TEX-BI {
+  font-family: MJXZERO, MJXTEX-BI;
+}
+
+.TEX-S1 {
+  font-family: MJXZERO, MJXTEX-S1;
+}
+
+.TEX-S2 {
+  font-family: MJXZERO, MJXTEX-S2;
+}
+
+.TEX-S3 {
+  font-family: MJXZERO, MJXTEX-S3;
+}
+
+.TEX-S4 {
+  font-family: MJXZERO, MJXTEX-S4;
+}
+
+.TEX-A {
+  font-family: MJXZERO, MJXTEX-A;
+}
+
+.TEX-C {
+  font-family: MJXZERO, MJXTEX-C;
+}
+
+.TEX-CB {
+  font-family: MJXZERO, MJXTEX-CB;
+}
+
+.TEX-FR {
+  font-family: MJXZERO, MJXTEX-FR;
+}
+
+.TEX-FRB {
+  font-family: MJXZERO, MJXTEX-FRB;
+}
+
+.TEX-SS {
+  font-family: MJXZERO, MJXTEX-SS;
+}
+
+.TEX-SSB {
+  font-family: MJXZERO, MJXTEX-SSB;
+}
+
+.TEX-SSI {
+  font-family: MJXZERO, MJXTEX-SSI;
+}
+
+.TEX-SC {
+  font-family: MJXZERO, MJXTEX-SC;
+}
+
+.TEX-T {
+  font-family: MJXZERO, MJXTEX-T;
+}
+
+.TEX-V {
+  font-family: MJXZERO, MJXTEX-V;
+}
+
+.TEX-VB {
+  font-family: MJXZERO, MJXTEX-VB;
+}
+
+mjx-stretchy-v mjx-c, mjx-stretchy-h mjx-c {
+  font-family: MJXZERO, MJXTEX-S1, MJXTEX-S4, MJXTEX, MJXTEX-A ! important;
+}
+
+@font-face /* 0 */ {
+  font-family: MJXZERO;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Zero.woff") format("woff");
+}
+
+@font-face /* 1 */ {
+  font-family: MJXTEX;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Regular.woff") format("woff");
+}
+
+@font-face /* 2 */ {
+  font-family: MJXTEX-B;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Bold.woff") format("woff");
+}
+
+@font-face /* 3 */ {
+  font-family: MJXTEX-I;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Math-Italic.woff") format("woff");
+}
+
+@font-face /* 4 */ {
+  font-family: MJXTEX-MI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Italic.woff") format("woff");
+}
+
+@font-face /* 5 */ {
+  font-family: MJXTEX-BI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Math-BoldItalic.woff") format("woff");
+}
+
+@font-face /* 6 */ {
+  font-family: MJXTEX-S1;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size1-Regular.woff") format("woff");
+}
+
+@font-face /* 7 */ {
+  font-family: MJXTEX-S2;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size2-Regular.woff") format("woff");
+}
+
+@font-face /* 8 */ {
+  font-family: MJXTEX-S3;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size3-Regular.woff") format("woff");
+}
+
+@font-face /* 9 */ {
+  font-family: MJXTEX-S4;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size4-Regular.woff") format("woff");
+}
+
+@font-face /* 10 */ {
+  font-family: MJXTEX-A;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_AMS-Regular.woff") format("woff");
+}
+
+@font-face /* 11 */ {
+  font-family: MJXTEX-C;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Regular.woff") format("woff");
+}
+
+@font-face /* 12 */ {
+  font-family: MJXTEX-CB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Bold.woff") format("woff");
+}
+
+@font-face /* 13 */ {
+  font-family: MJXTEX-FR;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Regular.woff") format("woff");
+}
+
+@font-face /* 14 */ {
+  font-family: MJXTEX-FRB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Bold.woff") format("woff");
+}
+
+@font-face /* 15 */ {
+  font-family: MJXTEX-SS;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Regular.woff") format("woff");
+}
+
+@font-face /* 16 */ {
+  font-family: MJXTEX-SSB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Bold.woff") format("woff");
+}
+
+@font-face /* 17 */ {
+  font-family: MJXTEX-SSI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Italic.woff") format("woff");
+}
+
+@font-face /* 18 */ {
+  font-family: MJXTEX-SC;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Script-Regular.woff") format("woff");
+}
+
+@font-face /* 19 */ {
+  font-family: MJXTEX-T;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Typewriter-Regular.woff") format("woff");
+}
+
+@font-face /* 20 */ {
+  font-family: MJXTEX-V;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Regular.woff") format("woff");
+}
+
+@font-face /* 21 */ {
+  font-family: MJXTEX-VB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Bold.woff") format("woff");
+}
+</style></head>
+
+    <body>
+        
+        <div id="topRibbon"></div>
+        
+
+        <div id="wrap">
+
+            
+            <div id="topBarContainer">
+
+                <table style="width: 1080px;">
+                    <tbody><tr>
+                        <td style="width: 100px;">
+                            <a href="/"><img class="logo" src="/img/math-academy-350-logo.png"></a>
+                        </td>
+                        <td>
+                            <div id="headerLinks">
+                                
+                                    
+                                        <a id="learnHeaderLink" class="headerLink" href="/learn">LEARN</a>
+                                        
+                                     
+
+                                         
+
+                                                                     
+                                                                                        
+                                                                                                   
+                                                    
+                                             
+                                    
+                                             
+
+                                    <a id="coursesHeaderLink" class="headerLink" onmouseover="showCoursesMenu(this, 'coursesMenu');">COURSES</a>  
+
+                                  
+                            </div>
+
+                            
+
+                            <div id="coursesMenu">
+                                <table id="coursesMenu-coursesTable" cellspacing="0" cellpadding="0">
+                                <tbody><tr>
+                                    <td class="coursesMenu-categoryList" style="padding-right: 15px;">
+                                        <div class="coursesMenu-categoryHeader">Early Grades</div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/4th-grade-math">4th Grade Math</a></div>                                             
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/5th-grade-math">5th Grade Math</a></div>                                    
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/prealgebra">Prealgebra</a></div>
+                                
+                                        <div class="coursesMenu-categoryHeader" style="margin-top: 20px;">High School</div>
+
+                                        <div class="coursesMenu-courseSequence" style="margin-top: 20px;">Traditional</div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/algebra-i">Algebra I</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/geometry">Geometry</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/algebra-ii">Algebra II</a></div>       
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/precalculus">Precalculus</a></div> 
+
+                                        <div class="coursesMenu-courseSequence">Integrated Math</div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/integrated-math-i">Integrated Math I</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/integrated-math-ii">Integrated Math II</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/integrated-math-iii">Integrated Math III</a></div>   
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/precalculus">Precalculus</a></div> 
+                                
+
+                                        <div class="coursesMenu-courseSequence">Integrated Math (Honors)</div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/integrated-math-i-honors">Integrated Math I (Honors)</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/integrated-math-ii-honors">Integrated Math II (Honors)</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/integrated-math-iii-honors">Integrated Math III (Honors)</a></div>                                     
+
+                                        <div class="coursesMenu-categoryHeader" style="margin-top: 20px;">Test Prep</div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/sat-math-fundamentals">SAT Math Fundamentals</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/act-math">ACT Math</a> *
+                                    </div></td>
+                                    <td class="coursesMenu-categoryList">
+
+                                        <div class="coursesMenu-categoryHeader">AP Courses</div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/ap-calculus-ab">AP Calculus AB</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/ap-calculus-bc">AP Calculus BC</a></div>
+
+                                        <div class="coursesMenu-categoryHeader" style="margin-top: 20px;">Foundations Series</div>
+
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/mathematical-foundations-i">Mathematical Foundations I</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/mathematical-foundations-ii">Mathematical Foundations II</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/mathematical-foundations-iii">Mathematical Foundations III</a></div>                                        
+
+                                        <div class="coursesMenu-categoryHeader" style="margin-top: 20px;">University</div>            
+
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/calculus-i">Calculus I</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/calculus-ii">Calculus II</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/linear-algebra">Linear Algebra</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/multivariable-calculus">Multivariable Calculus</a></div>                                     
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/methods-of-proof">Methods of Proof</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/differential-equations">Differential Equations</a></div>                                           
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/discrete-mathematics">Discrete Mathematics</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/probability-and-statistics">Probability &amp; Statistics</a></div>                                        
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/mathematics-for-machine-learning">Mathematics For Machine Learning</a></div>                                        
+                                                            
+                                        <div class="coursesMenu-course">
+                                            <a class="coursesMenu-courseLink" href="/courses/abstract-algebra">Abstract Algebra</a> *
+                                        </div>        
+                                    </td>
+                                </tr>
+                                </tbody></table>
+
+                                <div style="margin-top: 20px;">
+                                    * <span id="coursesMenu-underDevelopment">Currently under development</span> 
+                                </div>                            
+                            </div>                        
+                        </td>
+                        <td style="width: 250px;">
+                            <div id="topMenu">
+                                
+                                    
+
+                                        
+
+                                        
+                                            <div id="userHeader" onmouseover="showMenu(this, 'userMenu');">JP</div>
+                                        
+
+                                        <div id="userMenu">
+                                            <div id="userMenu-info">
+                                                <div id="userMenu-name">Jacob Peterson</div>
+                                                
+                                                    <div id="userMenu-username">commotum</div>
+                                                
+                                            </div>
+
+                                            <div class="headerMenuItem" onmousedown="Core.navigate('/settings/profile');">Settings</div>
+
+                                            
+
+                                            <div class="headerMenuItem" onmousedown="showSupportDialog();">Support</div>
+
+                                            <div class="headerMenuItem" onmousedown="Core.navigate('/logout');">Logout</div>                                        
+                                        </div>
+                                    
+                                                            
+                            </div> 
+                        </td>
+                    </tr>
+                </tbody></table>
+            </div>
+            
+
+            <div id="mathjaxCommands" style="display: none;">
+                <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" tabindex="0" ctxtmenu_counter="0" style="font-size: 113.1%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"></math></mjx-assistive-mml></mjx-container>
+            </div>
+
+            <div id="content">
+                <link rel="stylesheet" href="/css/select-list.css">
+<link rel="stylesheet" href="/css/student-reference.css">
+<link rel="stylesheet" href="/css/question-widget.css">
+
+<script type="text/javascript" src="/js/core/utils/splitter.js"></script>
+<script type="text/javascript" src="/js/core/utils/segment-parser.js"></script>
+<script type="text/javascript" src="/js/core/utils/graphics-parser.js"></script>
+<script type="text/javascript" src="/js/core/utils/block-parser.js"></script>
+<script type="text/javascript" src="/js/core/utils/code-renderer.js"></script>
+<script type="text/javascript" src="/js/core/question/components/input/input.js"></script>
+<script type="text/javascript" src="/js/core/question/components/input/select.js"></script>
+<script type="text/javascript" src="/js/core/question/components/input/textbox.js"></script>
+<script type="text/javascript" src="/js/core/question/components/question-body-section.js"></script>
+<script type="text/javascript" src="/js/core/question/components/question-body.js"></script>
+
+<script type="text/javascript" src="/js/error-reporter.js"></script>
+<script type="text/javascript" src="/js/marked.min.js"></script>
+<script type="text/javascript" src="/js/mathdown.js"></script>
+<script type="text/javascript" src="/js/task-event-storage.js"></script>
+<script type="text/javascript" src="/js/task-event.js"></script>
+<script type="text/javascript" src="/js/graphics-processor.js"></script>
+<script type="text/javascript" src="/js/free-response-parser.js"></script>
+<script type="text/javascript" src="/js/latex-parser.js"></script>
+<script type="text/javascript" src="/js/free-response-checker.js"></script>
+<script type="text/javascript" src="/js/select-list.js"></script>
+<script type="text/javascript" src="/js/question-body-widget.js"></script>
+<script type="text/javascript" src="/js/question-body-renderer.js"></script>
+
+<script type="text/javascript" src="/js/help-menu.js"></script>
+<script type="text/javascript" src="/js/question-widget.js"></script>
+<script type="text/javascript" src="/js/multiple-choice-question-widget.js"></script>
+<script type="text/javascript" src="/js/free-response-question-widget.js"></script>
+<script type="text/javascript" src="/js/static-select-question-widget.js"></script>
+<script type="text/javascript" src="/js/dynamic-select-question-widget.js"></script>
+<script type="text/javascript" src="/js/proof-question-widget.js"></script>
+
+<script type="text/javascript" src="/js/student-reference.js"></script>
+
+<script>
+var _topicId = 6218;
+</script>
+
+
+
+<div id="sidebar">
+    
+        
+    <div class="sidebarFrame">
+        <div id="topicName">Biased and Unbiased Samples</div>
+    
+        <div id="sectionLinks">
+        
+        
+                               
+                <div class="sectionTitle"><a id="sectionLink-488311" class="sectionLink" stepid="488311">Introduction</a></div>                            
+              
+        
+                               
+                <div class="sectionTitle"><a id="sectionLink-488312" class="sectionLink" stepid="488312" style="color: rgb(64, 64, 64);">Forms of Sample Bias</a></div>                            
+              
+        
+                               
+                <div class="sectionTitle"><a id="sectionLink-488313" class="sectionLink" stepid="488313">A Worked Example</a></div>                            
+              
+        
+                 
+                <div class="sectionTitle"><a id="sectionLink-488314" class="sectionLink" stepid="488314">Identifying Unbiased Sampling Methods</a></div> 
+              
+        
+              
+        
+              
+        
+                 
+                <div class="sectionTitle"><a id="sectionLink-488318" class="sectionLink" stepid="488318">Identifying True Statements</a></div> 
+              
+        
+              
+        
+              
+        
+                               
+                <div class="sectionTitle"><a id="sectionLink-488321" class="sectionLink" stepid="488321">Other Forms of Sample Bias</a></div>                            
+              
+        
+        </div>
+    
+            
+            <div id="prerequisitesHeader">Prerequisites</div> 
+            
+                <div class="prerequisite">
+                    <a href="/topics/estimation-from-samples-6214" class="prerequisiteLink">Estimation From Samples</a>
+                    
+                </div>
+                   
+          
+    </div>
+</div>
+
+
+
+<div id="lessonContent">        
+
+
+
+        
+                
+        <div id="step-488311" class="step" style="display: block" stepid="488311" steptype="tutorial" contentid="13563">
+            <div class="stepHeader">
+                <div class="stepName">
+                    <a id="stepAnchor-488311" class="stepAnchor" name="step-1">Introduction</a>
+                </div>
+                <div class="helpButton" stepid="488311">?</div>
+            </div> 
+
+            <p>When conducting a survey or study, the goal is usually to gather information from a sample that accurately represents the entire population.</p>
+<p>If the sample is chosen well, where every member of the population has an <em>equal chance of being selected</em> (achieved by <em>randomly selecting</em> units from the entire population), we call it an <strong>unbiased sample</strong>; we can then use the results to make reliable conclusions about the entire population.</p>
+<p>However, if the method of selecting participants systematically favors certain individuals or groups, the result is a <strong>biased sample</strong>. Biased samples can give a distorted picture of reality and lead to incorrect conclusions.</p>
+
+        </div>
+
+
+        
+
+
+        
+                
+        <div id="step-488312" class="step" style="display: block" stepid="488312" steptype="tutorial" contentid="13597">
+            <div class="stepHeader">
+                <div class="stepName">
+                    <a id="stepAnchor-488312" class="stepAnchor" name="step-2">Forms of Sample Bias</a>
+                </div>
+                <div class="helpButton" stepid="488312">?</div>
+            </div> 
+
+            <p>There are many ways sampling bias can sneak in, often without researchers even realizing it. Let’s look at some of the most common sources of bias:</p>
+<ul>
+<li><p><strong>Convenience Sampling</strong></p>
+<p>This occurs when selecting participants who are easiest to reach, for example, by only surveying friends, classmates, or people nearby, rather than using a random process.</p>
+<p><strong>Problem</strong>: The sample may not accurately represent the population, as it disproportionately favors individuals with similar circumstances to those of the researchers.</p>
+</li>
+<li><p><strong>Voluntary Response Sampling</strong></p>
+<p>This occurs when, instead of selecting from a population at random, participation in a survey is left to the discretion of individuals, such as in online polls or call-in surveys.</p>
+<p><strong>Problem</strong>:  People with strong opinions, often negative ones, are more likely to respond, leading to a skewed sample.</p>
+</li>
+<li><p><strong>Undercoverage</strong></p>
+<p>Sometimes, important groups are unintentionally excluded from the sampling frame. For instance, using a landline phone directory excludes households that do not have landlines.</p>
+<p><strong>Problem</strong>: Entire segments of the population have zero chance of being selected.</p>
+</li>
+<li><p><strong>Survivorship Bias</strong></p>
+<p>This occurs when only "survivors" or cases that remain after some filtering are studied. For example, looking only at successful startups to find out what makes businesses succeed.</p>
+<p><strong>Problem</strong>: Ignoring the failures hides valuable information and creates an overly optimistic picture.</p>
+</li>
+<li><p><strong>Self-Selection within Groups</strong></p>
+<p>Suppose a survey requires several different groups to be studied. Even if the initial groups are chosen randomly, bias can occur when participants within groups are allowed to opt in or out of certain parts of the study, for example, filling out an optional feedback survey.</p>
+<p><strong>Problem</strong>: The subgroup that responds may not reflect the full diversity of the original sample.</p>
+</li>
+</ul>
+<p>Understanding these sources of bias helps us recognize when a sample might be misleading, and why unbiased sampling methods are essential for trustworthy conclusions.</p>
+
+        </div>
+
+
+        
+
+
+        
+                
+        <div id="step-488313" class="step" style="display: block" stepid="488313" steptype="tutorial" contentid="13565">
+            <div class="stepHeader">
+                <div class="stepName">
+                    <a id="stepAnchor-488313" class="stepAnchor" name="step-3">A Worked Example</a>
+                </div>
+                <div class="helpButton" stepid="488313">?</div>
+            </div> 
+
+            <p>To see how these ideas apply in practice, let’s consider an example involving surveys at a concert.</p>
+<p>Suppose a concert organizer wants to estimate the average amount of money attendees spend on merchandise during an event. They have the following ideas for collecting this information.</p>
+<ul>
+<li><p><strong>Method I</strong>: Surveying attendees seated in the upper balcony during the concert. </p>
+</li>
+<li><p><strong>Method II</strong>: Asking only attendees who exit through the VIP lounge.  </p>
+</li>
+<li><p><strong>Method III</strong>: Randomly selecting attendees from the ticket sales database and contacting them about their merchandise purchases.</p>
+</li>
+</ul>
+<p>Let's determine which of these sampling methods is most likely to produce unbiased results.</p>
+<p>Remember, an unbiased sample is one in which every member of the population has an equal chance of being included. To achieve this, we must select individual units at random from a complete list of the entire population.</p>
+<p>Let's examine each sampling method in turn.</p>
+<ul>
+<li><p><strong>Method I</strong>: Surveying only attendees seated in the upper balcony is biased, because these individuals may have different spending habits than the average attendee.</p>
+</li>
+<li><p><strong>Method II</strong>: Asking only people exiting through the VIP lounge is biased, since VIP guests may have above-average spending.  </p>
+</li>
+<li><p><strong>Method III</strong>: Randomly selecting attendees from the ticket sales database gives each attendee an equal chance of being chosen, so it can produce unbiased results.  </p>
+</li>
+</ul>
+<p>Therefore, Method III is most likely to produce unbiased results.</p>
+<p><strong>Note</strong>: Methods I and II are examples of <em>convenience sampling</em>, where participants are chosen because they are easy to reach.</p>
+
+        </div>
+
+
+        
+
+
+         
+
+        <div id="step-488314" class="step" style="display: block" stepid="488314" steptype="example" contentid="19016">
+            <div class="stepHeader">
+                <div class="stepName">
+                    Example: 
+                    <a id="stepAnchor-488314" class="stepAnchor" style="font-weight: normal;" name="step-4">Identifying Unbiased Sampling Methods</a> 
+                </div>      
+                <div class="helpButton" stepid="488314">?</div>
+            </div>
+            
+            <div class="exampleQuestion">
+                <p>A hospital wants to estimate the average number of hours nurses work per week.</p>
+<p>Which of the following sampling methods is most likely to produce unbiased results?</p>
+<ol class="questionStatements">
+<li>  Randomly selecting nurses from the hospital’s complete employee database. </li>
+<li>  Randomly selecting nurses from the list of those assigned to the emergency department. </li>
+<li>  Randomly selecting nurses from the list of those who attended a recent training workshop. </li>
+</ol>
+
+
+
+
+            </div>     
+
+            <div class="explanationHeader">EXPLANATION</div>
+
+            <div class="exampleExplanation">
+                <p>An unbiased sample is one in which every member of the population has an equal chance of being included. To achieve this, we must select individual units at random from a complete list of the entire population.</p>
+<p>Let's examine each sampling method in turn.</p>
+<ul>
+<li><p><strong>Method I:</strong> Randomly selecting from the hospital’s complete employee database gives every nurse an equal chance of being chosen, so this method can produce unbiased results.  </p>
+</li>
+<li><p><strong>Method II:</strong> Randomly selecting from the emergency department list is biased because it excludes nurses working in other departments, leading to <em>undercoverage</em>. These nurses may have different work schedules.  </p>
+</li>
+<li><p><strong>Method III:</strong> Randomly selecting from recent training attendees is biased because it excludes nurses who did not attend that training, also leading to <em>undercoverage</em>. These nurses may have different workloads.  </p>
+</li>
+</ul>
+<p>Therefore, the correct answer is "I only."</p>
+<p>Note that Methods II and III are examples of <em>undercoverage</em>, where certain members of the population are systematically excluded from the sample.</p>
+
+            </div>         
+
+            
+                <div class="keyPrerequisites">
+                    <div class="keyPrerequisitesHeader">
+                         
+                            KEY PREREQUISITE
+                         
+                    </div>                                    
+
+                    
+                        <div class="keyPrerequisite">
+                            <a href="/topics/6216" target="_blank">Sampling</a>
+                            <span class="keyPrerequisiteType"></span>                              
+                        </div>
+                       
+                </div>
+                
+        </div>                 
+                        
+        
+
+
+                 
+
+                                        
+
+        <div id="question-301720" class="step questionWidget" style="display: block;"><div class="questionWidget-header"><div class="questionWidget-title">Question 1</div><div class="questionWidget-helpButton">?</div></div><div class="questionWidget-text"><p>A financial analyst wants to estimate the average annual return of mutual funds over the past <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" tabindex="0" ctxtmenu_counter="1" style="font-size: 113.1%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mn class="mjx-n"><mjx-c class="mjx-c32"></mjx-c><mjx-c class="mjx-c30"></mjx-c></mjx-mn></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>20</mn></math></mjx-assistive-mml></mjx-container> years.</p>
+<p>Which of the following sampling methods is most likely to produce unbiased results?</p>
+<ol class="questionStatements">
+<li>  Selecting funds that are still active today and calculating their past <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" tabindex="0" ctxtmenu_counter="2" style="font-size: 113.1%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mn class="mjx-n"><mjx-c class="mjx-c32"></mjx-c><mjx-c class="mjx-c30"></mjx-c></mjx-mn></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>20</mn></math></mjx-assistive-mml></mjx-container>-year returns. </li>
+<li>  Selecting a random set of funds from the list of all funds that existed at any point in the past <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" tabindex="0" ctxtmenu_counter="3" style="font-size: 113.1%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mn class="mjx-n"><mjx-c class="mjx-c32"></mjx-c><mjx-c class="mjx-c30"></mjx-c></mjx-mn></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>20</mn></math></mjx-assistive-mml></mjx-container> years, including those that have since closed. </li>
+<li>  Selecting the top-performing funds from the past five years and using their historical returns. </li>
+</ol></div><table class="questionWidget-choicesTable"><tbody><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301720-a" class="questionWidget-choiceLetterCircle">a</div></td><td class="questionWidget-choiceText">III only</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301720-b" class="questionWidget-choiceLetterCircle">b</div></td><td class="questionWidget-choiceText">I only</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301720-c" class="questionWidget-choiceLetterCircle">c</div></td><td class="questionWidget-choiceText">I and II only</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301720-d" class="questionWidget-choiceLetterCircle">d</div></td><td class="questionWidget-choiceText">II only</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301720-e" class="questionWidget-choiceLetterCircle">e</div></td><td class="questionWidget-choiceText">II and III only</td></tr></tbody></table><div class="questionWidget-buttonBar"><div class="questionWidget-submitButton disabledButton">Submit</div></div><div class="questionWidget-spinnerFrame"><div class="questionWidget-spinner"></div></div></div>                
+        
+
+
+                 
+
+                                        
+
+        <div id="question-301668" class="step questionWidget" style="display: block;"><div class="questionWidget-header"><div class="questionWidget-title">Question 2</div><div class="questionWidget-helpButton">?</div></div><div class="questionWidget-text"><p>A city council wants to estimate the average amount of time residents spend commuting to work each day.</p>
+<p>Which of the following sampling methods is most likely to produce unbiased results?</p>
+<ol class="questionStatements">
+<li>  Posting a survey on the city’s website and asking visitors to respond. </li>
+<li>  Randomly selecting residents from the city census database and contacting them to ask about their commute times. </li>
+<li>  Asking for responses from people who call into a local radio show about traffic. </li>
+</ol></div><table class="questionWidget-choicesTable"><tbody><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301668-a" class="questionWidget-choiceLetterCircle">a</div></td><td class="questionWidget-choiceText">III only</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301668-b" class="questionWidget-choiceLetterCircle">b</div></td><td class="questionWidget-choiceText">I only</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301668-c" class="questionWidget-choiceLetterCircle">c</div></td><td class="questionWidget-choiceText">II and III only</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301668-d" class="questionWidget-choiceLetterCircle">d</div></td><td class="questionWidget-choiceText">II only</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301668-e" class="questionWidget-choiceLetterCircle">e</div></td><td class="questionWidget-choiceText">I and II only</td></tr></tbody></table><div class="questionWidget-buttonBar"><div class="questionWidget-submitButton disabledButton">Submit</div></div><div class="questionWidget-spinnerFrame"><div class="questionWidget-spinner"></div></div></div>                
+        
+
+
+         
+
+        <div id="step-488318" class="step" style="display: block" stepid="488318" steptype="example" contentid="19019">
+            <div class="stepHeader">
+                <div class="stepName">
+                    Example: 
+                    <a id="stepAnchor-488318" class="stepAnchor" style="font-weight: normal;" name="step-8">Identifying True Statements</a> 
+                </div>      
+                <div class="helpButton" stepid="488318">?</div>
+            </div>
+            
+            <div class="exampleQuestion">
+                <p>A national library association wants to estimate how many books the average adult reads each year.</p>
+<p>Which of the following sampling methods is most likely to produce unbiased results?</p>
+<ol class="questionStatements">
+<li>  Posting a survey on a popular book review website and asking visitors to respond. </li>
+<li>  Asking people in the library café on a Saturday afternoon to complete a questionnaire. </li>
+<li>  Randomly selecting adults from a national database of residents. </li>
+<li>  Randomly choosing several groups of adults across the state, then asking for volunteers from each group to complete the survey. </li>
+</ol>
+
+
+            </div>     
+
+            <div class="explanationHeader">EXPLANATION</div>
+
+            <div class="exampleExplanation">
+                <p>An unbiased sample is one in which every member of the population (here, all adults in the country) has an equal chance of being included. To achieve this, we must select individuals at random from a complete list of the population.</p>
+<p>Let's examine each method:</p>
+<ul>
+<li><p><strong>Method I:</strong> Posting on a book review site is <em>voluntary response sampling</em>, overrepresenting strong readers.  </p>
+</li>
+<li><p><strong>Method II:</strong> Asking people in the library café is <em>convenience sampling</em>, overrepresenting library users.  </p>
+</li>
+<li><p><strong>Method III:</strong> Randomly selecting from a national database of residents gives each registered resident an equal chance of being chosen, so it can produce <strong>unbiased</strong> results.  </p>
+</li>
+<li><p><strong>Method IV:</strong> Asking for volonteers from groups is <em>self-selection within groups</em>, it may attract people with strong opinions.</p>
+</li>
+</ul>
+<p>Therefore, the correct answer is "III only."</p>
+
+            </div>         
+
+                
+        </div>                 
+                        
+        
+
+
+                 
+
+                                        
+
+        <div id="question-302204" class="step questionWidget" style="display: block;"><div class="questionWidget-header"><div class="questionWidget-title">Question 3</div><div class="questionWidget-helpButton">?</div></div><div class="questionWidget-text"><p>A city council wants to assess the opinions of all city residents about building a new public dog park.</p>
+<p>Which of the following sampling methods is most likely to produce unbiased results?</p>
+<ol class="questionStatements">
+<li>  Standing near the current dog park on a Saturday afternoon and randomly asking people for their opinions. </li>
+<li>  Posting an online survey on the city’s website and inviting any resident to respond. </li>
+<li>  Randomly selecting residents from a comprehensive city address registry (including renters and homeowners) and contacting them by phone or mail. </li>
+<li>  Randomly selecting a sample of residents from the city’s dog-owner registration list. </li>
+</ol></div><table class="questionWidget-choicesTable"><tbody><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-302204-a" class="questionWidget-choiceLetterCircle">a</div></td><td class="questionWidget-choiceText">III only</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-302204-b" class="questionWidget-choiceLetterCircle">b</div></td><td class="questionWidget-choiceText">I only</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-302204-c" class="questionWidget-choiceLetterCircle">c</div></td><td class="questionWidget-choiceText">None</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-302204-d" class="questionWidget-choiceLetterCircle">d</div></td><td class="questionWidget-choiceText">II only</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-302204-e" class="questionWidget-choiceLetterCircle">e</div></td><td class="questionWidget-choiceText">IV only</td></tr></tbody></table><div class="questionWidget-buttonBar"><div class="questionWidget-submitButton disabledButton">Submit</div></div><div class="questionWidget-spinnerFrame"><div class="questionWidget-spinner"></div></div></div>                
+        
+
+
+                 
+
+                                        
+
+        <div id="question-301731" class="step questionWidget" style="display: block;"><div class="questionWidget-header"><div class="questionWidget-title">Question 4</div><div class="questionWidget-helpButton">?</div></div><div class="questionWidget-text"><p>A town council wants to assess the opinions of all town residents about building a new community swimming pool.</p>
+<p>Which of the following sampling methods is most likely to produce unbiased results?</p>
+<ol class="questionStatements">
+<li>  Randomly selecting a sample of residents drawn from the town’s swim-club membership list. </li>
+<li>  Randomly selecting residents from a comprehensive town address registry (including renters and homeowners) and contacting them by phone or mail. </li>
+<li>  Posting an online survey on the town website and inviting any resident to respond. </li>
+<li>  Standing near the current public pool on a Saturday afternoon and randomly asking people for their opinions. </li>
+</ol></div><table class="questionWidget-choicesTable"><tbody><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301731-a" class="questionWidget-choiceLetterCircle">a</div></td><td class="questionWidget-choiceText">I only</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301731-b" class="questionWidget-choiceLetterCircle">b</div></td><td class="questionWidget-choiceText">IV only</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301731-c" class="questionWidget-choiceLetterCircle">c</div></td><td class="questionWidget-choiceText">II only</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301731-d" class="questionWidget-choiceLetterCircle">d</div></td><td class="questionWidget-choiceText">None</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301731-e" class="questionWidget-choiceLetterCircle">e</div></td><td class="questionWidget-choiceText">III only</td></tr></tbody></table><div class="questionWidget-buttonBar"><div class="questionWidget-submitButton disabledButton">Submit</div></div><div class="questionWidget-spinnerFrame"><div class="questionWidget-spinner"></div></div></div>                
+        
+
+
+        
+                
+        <div id="step-488321" class="step" style="display: block" stepid="488321" steptype="tutorial" contentid="13598">
+            <div class="stepHeader">
+                <div class="stepName">
+                    <a id="stepAnchor-488321" class="stepAnchor" name="step-11">Other Forms of Sample Bias</a>
+                </div>
+                <div class="helpButton" stepid="488321">?</div>
+            </div> 
+
+            <style type="text/css">
+                            .mjpage .MJX-monospace {
+                            font-family: monospace
+                            }
+
+                            .mjpage .MJX-sans-serif {
+                            font-family: sans-serif
+                            }
+
+                            .mjpage {
+                            display: inline;
+                            font-style: normal;
+                            font-weight: normal;
+                            line-height: normal;
+                            font-size: 100%;
+                            font-size-adjust: none;
+                            text-indent: 0;
+                            text-align: left;
+                            text-transform: none;
+                            letter-spacing: normal;
+                            word-spacing: normal;
+                            word-wrap: normal;
+                            white-space: nowrap;
+                            float: none;
+                            direction: ltr;
+                            max-width: none;
+                            max-height: none;
+                            min-width: 0;
+                            min-height: 0;
+                            border: 0;
+                            padding: 0;
+                            margin: 0
+                            }
+
+                            .mjpage * {
+                            transition: none;
+                            -webkit-transition: none;
+                            -moz-transition: none;
+                            -ms-transition: none;
+                            -o-transition: none
+                            }
+
+                            .mjx-svg-href {
+                            fill: blue;
+                            stroke: blue
+                            }
+
+                            .MathJax_SVG_LineBox {
+                            display: table!important
+                            }
+
+                            .MathJax_SVG_LineBox span {
+                            display: table-cell!important;
+                            width: 10000em!important;
+                            min-width: 0;
+                            max-width: none;
+                            padding: 0;
+                            border: 0;
+                            margin: 0
+                            }
+
+                            .mjpage__block {
+                            text-align: center;
+                            margin: 1em 0em;
+                            position: relative;
+                            display: block!important;
+                            text-indent: 0;
+                            max-width: none;
+                            max-height: none;
+                            min-width: 0;
+                            min-height: 0;
+                            width: 100%
+                            }</style><p>Before we conclude, let's also note some other sources of bias that can occur during the sampling process.</p>
+<ul>
+<li><p><strong>Snowball Sampling</strong> </p>
+<p>This is where participants in a survey are asked to refer others, leading to an overrepresentation of certain social circles and the creation of clusters with similar characteristics. </p>
+</li>
+<li><p><strong>Quota Sampling Without Randomization</strong></p>
+<p>Filling demographic quotas (e.g., <span class="mjpage"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="4.261ex" height="2.343ex" style="vertical-align: -0.338ex;" viewBox="0 -863.1 1834.5 1008.6" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-1-Title">
+<title id="MathJax-SVG-1-Title">50\%</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E1-MJMAIN-35" d="M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z"></path>
+<path stroke-width="1" id="E1-MJMAIN-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"></path>
+<path stroke-width="1" id="E1-MJMAIN-25" d="M465 605Q428 605 394 614T340 632T319 641Q332 608 332 548Q332 458 293 403T202 347Q145 347 101 402T56 548Q56 637 101 693T202 750Q241 750 272 719Q359 642 464 642Q580 642 650 732Q662 748 668 749Q670 750 673 750Q682 750 688 743T693 726Q178 -47 170 -52Q166 -56 160 -56Q147 -56 142 -45Q137 -36 142 -27Q143 -24 363 304Q469 462 525 546T581 630Q528 605 465 605ZM207 385Q235 385 263 427T292 548Q292 617 267 664T200 712Q193 712 186 709T167 698T147 668T134 615Q132 595 132 548V527Q132 436 165 403Q183 385 203 385H207ZM500 146Q500 234 544 290T647 347Q699 347 737 292T776 146T737 0T646 -56Q590 -56 545 0T500 146ZM651 -18Q679 -18 707 24T736 146Q736 215 711 262T644 309Q637 309 630 306T611 295T591 265T578 212Q577 200 577 146V124Q577 -18 647 -18H651Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+ <use xlink:href="#E1-MJMAIN-35"></use>
+ <use xlink:href="#E1-MJMAIN-30" x="500" y="0"></use>
+ <use xlink:href="#E1-MJMAIN-25" x="1001" y="0"></use>
+</g>
+</svg></span> male, <span class="mjpage"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="4.261ex" height="2.343ex" style="vertical-align: -0.338ex;" viewBox="0 -863.1 1834.5 1008.6" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-2-Title">
+<title id="MathJax-SVG-2-Title">50\%</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E2-MJMAIN-35" d="M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z"></path>
+<path stroke-width="1" id="E2-MJMAIN-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"></path>
+<path stroke-width="1" id="E2-MJMAIN-25" d="M465 605Q428 605 394 614T340 632T319 641Q332 608 332 548Q332 458 293 403T202 347Q145 347 101 402T56 548Q56 637 101 693T202 750Q241 750 272 719Q359 642 464 642Q580 642 650 732Q662 748 668 749Q670 750 673 750Q682 750 688 743T693 726Q178 -47 170 -52Q166 -56 160 -56Q147 -56 142 -45Q137 -36 142 -27Q143 -24 363 304Q469 462 525 546T581 630Q528 605 465 605ZM207 385Q235 385 263 427T292 548Q292 617 267 664T200 712Q193 712 186 709T167 698T147 668T134 615Q132 595 132 548V527Q132 436 165 403Q183 385 203 385H207ZM500 146Q500 234 544 290T647 347Q699 347 737 292T776 146T737 0T646 -56Q590 -56 545 0T500 146ZM651 -18Q679 -18 707 24T736 146Q736 215 711 262T644 309Q637 309 630 306T611 295T591 265T578 212Q577 200 577 146V124Q577 -18 647 -18H651Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+ <use xlink:href="#E2-MJMAIN-35"></use>
+ <use xlink:href="#E2-MJMAIN-30" x="500" y="0"></use>
+ <use xlink:href="#E2-MJMAIN-25" x="1001" y="0"></use>
+</g>
+</svg></span> female) can result in individuals being selected haphazardly (not randomly) within each group.</p>
+</li>
+</ul>
+
+        </div>
+
+
+        
+
+</div>
+
+
+<link rel="stylesheet" href="/css/flag-content-dialog.css">
+
+<script type="text/javascript" src="/js/flag-content-dialog.js"></script>
+
+<div id="flagContentDialog">
+    <div id="flagContentDialog-title">Flag Content</div>
+
+    <div id="flagContentDialog-instructions">Did you notice an error, or do you simply believe that something could be improved? Please explain below.</div>
+
+    <textarea id="flagContentDialog-description"></textarea>
+
+    <div id="flagContentDialog-submitButton">Submit</div>
+    <div id="flagContentDialog-cancelButton">Cancel</div>
+</div>            
+            </div> 
+        </div>
+
+        <link rel="stylesheet" href="/css/support-dialog.css">
+
+<script type="text/javascript" src="/js/support-dialog.js"></script>
+
+<div id="supportDialog">
+    <div id="supportDialog-title">Support</div>
+
+    <div id="supportDialog-message">
+        If you need support, please email <b>support@mathacademy.com</b>.
+    </div>
+
+    <div id="supportDialog-buttons">
+        <div id="supportDialog-closeButton">Close</div>
+    </div>
+</div>
+        <link rel="stylesheet" href="/css/xp-goals-dialog.css">
+
+<script type="text/javascript" src="/js/xp-goals-dialog.js"></script>
+
+<div id="xpGoalsDialog">
+    <div id="xpGoalsDialog-title">XP Goals</div>
+
+    <table id="xpGoalsDialog-goals" cellpadding="0" cellspacing="0">
+        <tbody><tr>
+            <td class="xpGoalsDialog-dayOfWeek">Sun</td>
+            <td class="xpGoalsDialog-dayOfWeek">Mon</td>
+            <td class="xpGoalsDialog-dayOfWeek">Tue</td>
+            <td class="xpGoalsDialog-dayOfWeek">Wed</td>
+            <td class="xpGoalsDialog-dayOfWeek">Thu</td>
+            <td class="xpGoalsDialog-dayOfWeek">Fri</td>
+            <td class="xpGoalsDialog-dayOfWeek">Sat</td>
+        </tr>
+        <tr>
+            <td><input id="xpGoalsDialog-sunGoal" class="xpGoalsDialog-goal" type="text"> </td>
+            <td><input id="xpGoalsDialog-monGoal" class="xpGoalsDialog-goal" type="text"> </td>
+            <td><input id="xpGoalsDialog-tueGoal" class="xpGoalsDialog-goal" type="text"> </td>
+            <td><input id="xpGoalsDialog-wedGoal" class="xpGoalsDialog-goal" type="text"> </td>
+            <td><input id="xpGoalsDialog-thuGoal" class="xpGoalsDialog-goal" type="text"> </td>
+            <td><input id="xpGoalsDialog-friGoal" class="xpGoalsDialog-goal" type="text"> </td>
+            <td><input id="xpGoalsDialog-satGoal" class="xpGoalsDialog-goal" type="text"> </td>
+        </tr> 
+    </tbody></table>
+
+
+    <div id="xpGoalsDialog-courseCompletionText"></div>
+
+    <div id="xpGoalsDialog-pausedFrame">
+        <input id="xpGoalsDialog-paused" name="xpGoalsDialog-paused" type="checkbox"> 
+        <label id="xpGoalsDialog-pausedLabel" for="xpGoalsDialog-paused">Paused</label>
+    </div>
+
+    <div id="xpGoalsDialog-buttonBar">
+        <div id="xpGoalsDialog-submitButton">SUBMIT</div>
+        <div id="xpGoalsDialog-cancelButton">CANCEL</div>
+    </div>
+</div>
+        <link rel="stylesheet" href="/css/course-dialog.css">
+
+<script type="text/javascript" src="/js/course-dialog.js"></script>
+
+<div id="courseDialog">
+    <div id="courseDialog-title">Change Course</div>
+
+    <div id="courseDialog-course">
+        <label id="courseDialog-courseLabel">Course</label>
+
+        <select id="courseDialog-courseSelect">
+            <option selected="">-</option>
+        </select>
+    </div>
+
+    <div id="courseDialog-buttonBar">
+        <div id="courseDialog-submitButton">SUBMIT</div>
+        <div id="courseDialog-cancelButton">CANCEL</div>
+    </div>
+</div>
+
+                
+
+                                    
+    
+              
+    
+</body></html>

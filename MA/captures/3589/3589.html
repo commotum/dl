@@ -1,0 +1,2159 @@
+<!DOCTYPE html><html><head>
+        <title>Math Academy</title>
+        <meta charset="utf-8">
+
+        <link rel="shortcut icon" href="/img/favicon.ico">
+        <link rel="stylesheet" href="/css/app.css">
+        <link rel="stylesheet" href="/css/mathquill.css">
+        <link rel="stylesheet" href="/css/math-editor.css">
+
+        <link rel="stylesheet" href="/css/prism.css">
+        <script type="text/javascript" src="/js/prism.js"></script>
+
+        <script type="text/javascript" src="/js/jquery.1.11.0.min.js"></script>
+
+        <script>
+            $.noConflict();
+            // Code that uses other library's $ can follow here.
+        </script>
+
+        <script type="text/javascript" src="/js/mathquill.v2.1.min.js"></script>
+        <script type="text/javascript" src="/js/math-editor.js"></script> 
+        <script type="text/javascript" src="/js/mathjax-config.js"></script>
+        <script type="text/javascript" id="MathJax-script" async="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <!--
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>        
+        <script type="text/javascript" src="/js/katex-config.js"></script>
+        -->
+
+        <script>
+            function showSupportDialog() {
+                const dlg = new SupportDialog();
+                dlg.show();
+            }            
+        </script>
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
+        <script type="text/javascript" src="/js/commonFunctions.js"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/input/tex/extensions/color.js" charset="UTF-8"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/input/tex/extensions/enclose.js" charset="UTF-8"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/input/tex/extensions/bbox.js" charset="UTF-8"></script>
+        <script type="text/javascript" src="/js/core.js"></script>
+        <script type="text/javascript" src="/js/core-ui.js"></script>
+        <script type="text/javascript" src="/js/api.js"></script>
+        <script type="text/javascript" src="/js/api-new.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
+        <script type="text/javascript" src="/js/jdom.js"></script>
+        <script type="text/javascript" src="/js/header.js"></script>
+
+        <script>
+            var userTimeZone = 'America/Los_Angeles';
+            checkTimeZone(userTimeZone);
+        </script>
+
+        <style>
+            div#courseNameHeader {
+                margin-top: 50px;
+            }            
+        </style>        
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/input/tex/extensions/cancel.js" charset="UTF-8"></script><style type="text/css">.CtxtMenu_InfoClose {  top:.2em; right:.2em;}
+.CtxtMenu_InfoContent {  overflow:auto; text-align:left; font-size:80%;  padding:.4em .6em; border:1px inset; margin:1em 0px;  max-height:20em; max-width:30em; background-color:#EEEEEE;  white-space:normal;}
+.CtxtMenu_Info.CtxtMenu_MousePost {outline:none;}
+.CtxtMenu_Info {  position:fixed; left:50%; width:auto; text-align:center;  border:3px outset; padding:1em 2em; background-color:#DDDDDD;  color:black;  cursor:default; font-family:message-box; font-size:120%;  font-style:normal; text-indent:0; text-transform:none;  line-height:normal; letter-spacing:normal; word-spacing:normal;  word-wrap:normal; white-space:nowrap; float:none; z-index:201;  border-radius: 15px;                     /* Opera 10.5 and IE9 */  -webkit-border-radius:15px;               /* Safari and Chrome */  -moz-border-radius:15px;                  /* Firefox */  -khtml-border-radius:15px;                /* Konqueror */  box-shadow:0px 10px 20px #808080;         /* Opera 10.5 and IE9 */  -webkit-box-shadow:0px 10px 20px #808080; /* Safari 3 & Chrome */  -moz-box-shadow:0px 10px 20px #808080;    /* Forefox 3.5 */  -khtml-box-shadow:0px 10px 20px #808080;  /* Konqueror */  filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color="gray", Positive="true"); /* IE */}
+</style><style type="text/css">.CtxtMenu_MenuClose {  position:absolute;  cursor:pointer;  display:inline-block;  border:2px solid #AAA;  border-radius:18px;  -webkit-border-radius: 18px;             /* Safari and Chrome */  -moz-border-radius: 18px;                /* Firefox */  -khtml-border-radius: 18px;              /* Konqueror */  font-family: "Courier New", Courier;  font-size:24px;  color:#F0F0F0}
+.CtxtMenu_MenuClose span {  display:block; background-color:#AAA; border:1.5px solid;  border-radius:18px;  -webkit-border-radius: 18px;             /* Safari and Chrome */  -moz-border-radius: 18px;                /* Firefox */  -khtml-border-radius: 18px;              /* Konqueror */  line-height:0;  padding:8px 0 6px     /* may need to be browser-specific */}
+.CtxtMenu_MenuClose:hover {  color:white!important;  border:2px solid #CCC!important}
+.CtxtMenu_MenuClose:hover span {  background-color:#CCC!important}
+.CtxtMenu_MenuClose:hover:focus {  outline:none}
+</style><style type="text/css">.CtxtMenu_Menu {  position:absolute;  background-color:white;  color:black;  width:auto; padding:5px 0px;  border:1px solid #CCCCCC; margin:0; cursor:default;  font: menu; text-align:left; text-indent:0; text-transform:none;  line-height:normal; letter-spacing:normal; word-spacing:normal;  word-wrap:normal; white-space:nowrap; float:none; z-index:201;  border-radius: 5px;                     /* Opera 10.5 and IE9 */  -webkit-border-radius: 5px;             /* Safari and Chrome */  -moz-border-radius: 5px;                /* Firefox */  -khtml-border-radius: 5px;              /* Konqueror */  box-shadow:0px 10px 20px #808080;         /* Opera 10.5 and IE9 */  -webkit-box-shadow:0px 10px 20px #808080; /* Safari 3 & Chrome */  -moz-box-shadow:0px 10px 20px #808080;    /* Forefox 3.5 */  -khtml-box-shadow:0px 10px 20px #808080;  /* Konqueror */}
+.CtxtMenu_MenuItem {  padding: 1px 2em;  background:transparent;}
+.CtxtMenu_MenuArrow {  position:absolute; right:.5em; padding-top:.25em; color:#666666;  font-family: null; font-size: .75em}
+.CtxtMenu_MenuActive .CtxtMenu_MenuArrow {color:white}
+.CtxtMenu_MenuArrow.CtxtMenu_RTL {left:.5em; right:auto}
+.CtxtMenu_MenuCheck {  position:absolute; left:.7em;  font-family: null}
+.CtxtMenu_MenuCheck.CtxtMenu_RTL { right:.7em; left:auto }
+.CtxtMenu_MenuRadioCheck {  position:absolute; left: .7em;}
+.CtxtMenu_MenuRadioCheck.CtxtMenu_RTL {  right: .7em; left:auto}
+.CtxtMenu_MenuInputBox {  padding-left: 1em; right:.5em; color:#666666;  font-family: null;}
+.CtxtMenu_MenuInputBox.CtxtMenu_RTL {  left: .1em;}
+.CtxtMenu_MenuComboBox {  left:.1em; padding-bottom:.5em;}
+.CtxtMenu_MenuSlider {  left: .1em;}
+.CtxtMenu_SliderValue {  position:absolute; right:.1em; padding-top:.25em; color:#333333;  font-size: .75em}
+.CtxtMenu_SliderBar {  outline: none; background: #d3d3d3}
+.CtxtMenu_MenuLabel {  padding: 1px 2em 3px 1.33em;  font-style:italic}
+.CtxtMenu_MenuRule {  border-top: 1px solid #DDDDDD;  margin: 4px 3px;}
+.CtxtMenu_MenuDisabled {  color:GrayText}
+.CtxtMenu_MenuActive {  background-color: #606872;  color: white;}
+.CtxtMenu_MenuDisabled:focus {  background-color: #E8E8E8}
+.CtxtMenu_MenuLabel:focus {  background-color: #E8E8E8}
+.CtxtMenu_ContextMenu:focus {  outline:none}
+.CtxtMenu_ContextMenu .CtxtMenu_MenuItem:focus {  outline:none}
+.CtxtMenu_SelectionMenu {  position:relative; float:left;  border-bottom: none; -webkit-box-shadow:none; -webkit-border-radius:0px; }
+.CtxtMenu_SelectionItem {  padding-right: 1em;}
+.CtxtMenu_Selection {  right: 40%; width:50%; }
+.CtxtMenu_SelectionBox {  padding: 0em; max-height:20em; max-width: none;  background-color:#FFFFFF;}
+.CtxtMenu_SelectionDivider {  clear: both; border-top: 2px solid #000000;}
+.CtxtMenu_Menu .CtxtMenu_MenuClose {  top:-10px; left:-10px}
+</style><style id="MJX-CHTML-styles">
+mjx-container[jax="CHTML"] {
+  line-height: 0;
+}
+
+mjx-container [space="1"] {
+  margin-left: .111em;
+}
+
+mjx-container [space="2"] {
+  margin-left: .167em;
+}
+
+mjx-container [space="3"] {
+  margin-left: .222em;
+}
+
+mjx-container [space="4"] {
+  margin-left: .278em;
+}
+
+mjx-container [space="5"] {
+  margin-left: .333em;
+}
+
+mjx-container [rspace="1"] {
+  margin-right: .111em;
+}
+
+mjx-container [rspace="2"] {
+  margin-right: .167em;
+}
+
+mjx-container [rspace="3"] {
+  margin-right: .222em;
+}
+
+mjx-container [rspace="4"] {
+  margin-right: .278em;
+}
+
+mjx-container [rspace="5"] {
+  margin-right: .333em;
+}
+
+mjx-container [size="s"] {
+  font-size: 70.7%;
+}
+
+mjx-container [size="ss"] {
+  font-size: 50%;
+}
+
+mjx-container [size="Tn"] {
+  font-size: 60%;
+}
+
+mjx-container [size="sm"] {
+  font-size: 85%;
+}
+
+mjx-container [size="lg"] {
+  font-size: 120%;
+}
+
+mjx-container [size="Lg"] {
+  font-size: 144%;
+}
+
+mjx-container [size="LG"] {
+  font-size: 173%;
+}
+
+mjx-container [size="hg"] {
+  font-size: 207%;
+}
+
+mjx-container [size="HG"] {
+  font-size: 249%;
+}
+
+mjx-container [width="full"] {
+  width: 100%;
+}
+
+mjx-box {
+  display: inline-block;
+}
+
+mjx-block {
+  display: block;
+}
+
+mjx-itable {
+  display: inline-table;
+}
+
+mjx-row {
+  display: table-row;
+}
+
+mjx-row > * {
+  display: table-cell;
+}
+
+mjx-mtext {
+  display: inline-block;
+}
+
+mjx-mstyle {
+  display: inline-block;
+}
+
+mjx-merror {
+  display: inline-block;
+  color: red;
+  background-color: yellow;
+}
+
+mjx-mphantom {
+  visibility: hidden;
+}
+
+_::-webkit-full-page-media, _:future, :root mjx-container {
+  will-change: opacity;
+}
+
+mjx-assistive-mml {
+  position: absolute !important;
+  top: 0px;
+  left: 0px;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 1px 0px 0px 0px !important;
+  border: 0px !important;
+  display: block !important;
+  width: auto !important;
+  overflow: hidden !important;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+mjx-assistive-mml[display="block"] {
+  width: 100% !important;
+}
+
+mjx-math {
+  display: inline-block;
+  text-align: left;
+  line-height: 0;
+  text-indent: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100%;
+  font-size-adjust: none;
+  letter-spacing: normal;
+  border-collapse: collapse;
+  word-wrap: normal;
+  word-spacing: normal;
+  white-space: nowrap;
+  direction: ltr;
+  padding: 1px 0;
+}
+
+mjx-container[jax="CHTML"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="CHTML"][display="true"][width="full"] {
+  display: flex;
+}
+
+mjx-container[jax="CHTML"][display="true"] mjx-math {
+  padding: 0;
+}
+
+mjx-container[jax="CHTML"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="CHTML"][justify="right"] {
+  text-align: right;
+}
+
+mjx-c::before {
+  display: block;
+  width: 0;
+}
+
+.MJX-TEX {
+  font-family: MJXZERO, MJXTEX;
+}
+
+.TEX-B {
+  font-family: MJXZERO, MJXTEX-B;
+}
+
+.TEX-I {
+  font-family: MJXZERO, MJXTEX-I;
+}
+
+.TEX-MI {
+  font-family: MJXZERO, MJXTEX-MI;
+}
+
+.TEX-BI {
+  font-family: MJXZERO, MJXTEX-BI;
+}
+
+.TEX-S1 {
+  font-family: MJXZERO, MJXTEX-S1;
+}
+
+.TEX-S2 {
+  font-family: MJXZERO, MJXTEX-S2;
+}
+
+.TEX-S3 {
+  font-family: MJXZERO, MJXTEX-S3;
+}
+
+.TEX-S4 {
+  font-family: MJXZERO, MJXTEX-S4;
+}
+
+.TEX-A {
+  font-family: MJXZERO, MJXTEX-A;
+}
+
+.TEX-C {
+  font-family: MJXZERO, MJXTEX-C;
+}
+
+.TEX-CB {
+  font-family: MJXZERO, MJXTEX-CB;
+}
+
+.TEX-FR {
+  font-family: MJXZERO, MJXTEX-FR;
+}
+
+.TEX-FRB {
+  font-family: MJXZERO, MJXTEX-FRB;
+}
+
+.TEX-SS {
+  font-family: MJXZERO, MJXTEX-SS;
+}
+
+.TEX-SSB {
+  font-family: MJXZERO, MJXTEX-SSB;
+}
+
+.TEX-SSI {
+  font-family: MJXZERO, MJXTEX-SSI;
+}
+
+.TEX-SC {
+  font-family: MJXZERO, MJXTEX-SC;
+}
+
+.TEX-T {
+  font-family: MJXZERO, MJXTEX-T;
+}
+
+.TEX-V {
+  font-family: MJXZERO, MJXTEX-V;
+}
+
+.TEX-VB {
+  font-family: MJXZERO, MJXTEX-VB;
+}
+
+mjx-stretchy-v mjx-c, mjx-stretchy-h mjx-c {
+  font-family: MJXZERO, MJXTEX-S1, MJXTEX-S4, MJXTEX, MJXTEX-A ! important;
+}
+
+@font-face /* 0 */ {
+  font-family: MJXZERO;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Zero.woff") format("woff");
+}
+
+@font-face /* 1 */ {
+  font-family: MJXTEX;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Regular.woff") format("woff");
+}
+
+@font-face /* 2 */ {
+  font-family: MJXTEX-B;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Bold.woff") format("woff");
+}
+
+@font-face /* 3 */ {
+  font-family: MJXTEX-I;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Math-Italic.woff") format("woff");
+}
+
+@font-face /* 4 */ {
+  font-family: MJXTEX-MI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Italic.woff") format("woff");
+}
+
+@font-face /* 5 */ {
+  font-family: MJXTEX-BI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Math-BoldItalic.woff") format("woff");
+}
+
+@font-face /* 6 */ {
+  font-family: MJXTEX-S1;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size1-Regular.woff") format("woff");
+}
+
+@font-face /* 7 */ {
+  font-family: MJXTEX-S2;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size2-Regular.woff") format("woff");
+}
+
+@font-face /* 8 */ {
+  font-family: MJXTEX-S3;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size3-Regular.woff") format("woff");
+}
+
+@font-face /* 9 */ {
+  font-family: MJXTEX-S4;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size4-Regular.woff") format("woff");
+}
+
+@font-face /* 10 */ {
+  font-family: MJXTEX-A;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_AMS-Regular.woff") format("woff");
+}
+
+@font-face /* 11 */ {
+  font-family: MJXTEX-C;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Regular.woff") format("woff");
+}
+
+@font-face /* 12 */ {
+  font-family: MJXTEX-CB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Bold.woff") format("woff");
+}
+
+@font-face /* 13 */ {
+  font-family: MJXTEX-FR;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Regular.woff") format("woff");
+}
+
+@font-face /* 14 */ {
+  font-family: MJXTEX-FRB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Bold.woff") format("woff");
+}
+
+@font-face /* 15 */ {
+  font-family: MJXTEX-SS;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Regular.woff") format("woff");
+}
+
+@font-face /* 16 */ {
+  font-family: MJXTEX-SSB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Bold.woff") format("woff");
+}
+
+@font-face /* 17 */ {
+  font-family: MJXTEX-SSI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Italic.woff") format("woff");
+}
+
+@font-face /* 18 */ {
+  font-family: MJXTEX-SC;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Script-Regular.woff") format("woff");
+}
+
+@font-face /* 19 */ {
+  font-family: MJXTEX-T;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Typewriter-Regular.woff") format("woff");
+}
+
+@font-face /* 20 */ {
+  font-family: MJXTEX-V;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Regular.woff") format("woff");
+}
+
+@font-face /* 21 */ {
+  font-family: MJXTEX-VB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Bold.woff") format("woff");
+}
+</style></head>
+
+    <body>
+        
+        <div id="topRibbon"></div>
+        
+
+        <div id="wrap">
+
+            
+            <div id="topBarContainer">
+
+                <table style="width: 1080px;">
+                    <tbody><tr>
+                        <td style="width: 100px;">
+                            <a href="/"><img class="logo" src="/img/math-academy-350-logo.png"></a>
+                        </td>
+                        <td>
+                            <div id="headerLinks">
+                                
+                                    
+                                        <a id="learnHeaderLink" class="headerLink" href="/learn">LEARN</a>
+                                        
+                                     
+
+                                         
+
+                                                                     
+                                                                                        
+                                                                                                   
+                                                    
+                                             
+                                    
+                                             
+
+                                    <a id="coursesHeaderLink" class="headerLink" onmouseover="showCoursesMenu(this, 'coursesMenu');">COURSES</a>  
+
+                                  
+                            </div>
+
+                            
+
+                            <div id="coursesMenu">
+                                <table id="coursesMenu-coursesTable" cellspacing="0" cellpadding="0">
+                                <tbody><tr>
+                                    <td class="coursesMenu-categoryList" style="padding-right: 15px;">
+                                        <div class="coursesMenu-categoryHeader">Early Grades</div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/4th-grade-math">4th Grade Math</a></div>                                             
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/5th-grade-math">5th Grade Math</a></div>                                    
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/prealgebra">Prealgebra</a></div>
+                                
+                                        <div class="coursesMenu-categoryHeader" style="margin-top: 20px;">High School</div>
+
+                                        <div class="coursesMenu-courseSequence" style="margin-top: 20px;">Traditional</div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/algebra-i">Algebra I</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/geometry">Geometry</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/algebra-ii">Algebra II</a></div>       
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/precalculus">Precalculus</a></div> 
+
+                                        <div class="coursesMenu-courseSequence">Integrated Math</div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/integrated-math-i">Integrated Math I</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/integrated-math-ii">Integrated Math II</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/integrated-math-iii">Integrated Math III</a></div>   
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/precalculus">Precalculus</a></div> 
+                                
+
+                                        <div class="coursesMenu-courseSequence">Integrated Math (Honors)</div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/integrated-math-i-honors">Integrated Math I (Honors)</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/integrated-math-ii-honors">Integrated Math II (Honors)</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/integrated-math-iii-honors">Integrated Math III (Honors)</a></div>                                     
+
+                                        <div class="coursesMenu-categoryHeader" style="margin-top: 20px;">Test Prep</div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/sat-math-fundamentals">SAT Math Fundamentals</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/act-math">ACT Math</a> *
+                                    </div></td>
+                                    <td class="coursesMenu-categoryList">
+
+                                        <div class="coursesMenu-categoryHeader">AP Courses</div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/ap-calculus-ab">AP Calculus AB</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/ap-calculus-bc">AP Calculus BC</a></div>
+
+                                        <div class="coursesMenu-categoryHeader" style="margin-top: 20px;">Foundations Series</div>
+
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/mathematical-foundations-i">Mathematical Foundations I</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/mathematical-foundations-ii">Mathematical Foundations II</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/mathematical-foundations-iii">Mathematical Foundations III</a></div>                                        
+
+                                        <div class="coursesMenu-categoryHeader" style="margin-top: 20px;">University</div>            
+
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/calculus-i">Calculus I</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/calculus-ii">Calculus II</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/linear-algebra">Linear Algebra</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/multivariable-calculus">Multivariable Calculus</a></div>                                     
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/methods-of-proof">Methods of Proof</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/differential-equations">Differential Equations</a></div>                                           
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/discrete-mathematics">Discrete Mathematics</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/probability-and-statistics">Probability &amp; Statistics</a></div>                                        
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/mathematics-for-machine-learning">Mathematics For Machine Learning</a></div>                                        
+                                                            
+                                        <div class="coursesMenu-course">
+                                            <a class="coursesMenu-courseLink" href="/courses/abstract-algebra">Abstract Algebra</a> *
+                                        </div>        
+                                    </td>
+                                </tr>
+                                </tbody></table>
+
+                                <div style="margin-top: 20px;">
+                                    * <span id="coursesMenu-underDevelopment">Currently under development</span> 
+                                </div>                            
+                            </div>                        
+                        </td>
+                        <td style="width: 250px;">
+                            <div id="topMenu">
+                                
+                                    
+
+                                        
+
+                                        
+                                            <div id="userHeader" onmouseover="showMenu(this, 'userMenu');">JP</div>
+                                        
+
+                                        <div id="userMenu">
+                                            <div id="userMenu-info">
+                                                <div id="userMenu-name">Jacob Peterson</div>
+                                                
+                                                    <div id="userMenu-username">commotum</div>
+                                                
+                                            </div>
+
+                                            <div class="headerMenuItem" onmousedown="Core.navigate('/settings/profile');">Settings</div>
+
+                                            
+
+                                            <div class="headerMenuItem" onmousedown="showSupportDialog();">Support</div>
+
+                                            <div class="headerMenuItem" onmousedown="Core.navigate('/logout');">Logout</div>                                        
+                                        </div>
+                                    
+                                                            
+                            </div> 
+                        </td>
+                    </tr>
+                </tbody></table>
+            </div>
+            
+
+            <div id="mathjaxCommands" style="display: none;">
+                <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" tabindex="0" ctxtmenu_counter="0" style="font-size: 113.1%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"></math></mjx-assistive-mml></mjx-container>
+            </div>
+
+            <div id="content">
+                <link rel="stylesheet" href="/css/select-list.css">
+<link rel="stylesheet" href="/css/student-reference.css">
+<link rel="stylesheet" href="/css/question-widget.css">
+
+<script type="text/javascript" src="/js/core/utils/splitter.js"></script>
+<script type="text/javascript" src="/js/core/utils/segment-parser.js"></script>
+<script type="text/javascript" src="/js/core/utils/graphics-parser.js"></script>
+<script type="text/javascript" src="/js/core/utils/block-parser.js"></script>
+<script type="text/javascript" src="/js/core/utils/code-renderer.js"></script>
+<script type="text/javascript" src="/js/core/question/components/input/input.js"></script>
+<script type="text/javascript" src="/js/core/question/components/input/select.js"></script>
+<script type="text/javascript" src="/js/core/question/components/input/textbox.js"></script>
+<script type="text/javascript" src="/js/core/question/components/question-body-section.js"></script>
+<script type="text/javascript" src="/js/core/question/components/question-body.js"></script>
+
+<script type="text/javascript" src="/js/error-reporter.js"></script>
+<script type="text/javascript" src="/js/marked.min.js"></script>
+<script type="text/javascript" src="/js/mathdown.js"></script>
+<script type="text/javascript" src="/js/task-event-storage.js"></script>
+<script type="text/javascript" src="/js/task-event.js"></script>
+<script type="text/javascript" src="/js/graphics-processor.js"></script>
+<script type="text/javascript" src="/js/free-response-parser.js"></script>
+<script type="text/javascript" src="/js/latex-parser.js"></script>
+<script type="text/javascript" src="/js/free-response-checker.js"></script>
+<script type="text/javascript" src="/js/select-list.js"></script>
+<script type="text/javascript" src="/js/question-body-widget.js"></script>
+<script type="text/javascript" src="/js/question-body-renderer.js"></script>
+
+<script type="text/javascript" src="/js/help-menu.js"></script>
+<script type="text/javascript" src="/js/question-widget.js"></script>
+<script type="text/javascript" src="/js/multiple-choice-question-widget.js"></script>
+<script type="text/javascript" src="/js/free-response-question-widget.js"></script>
+<script type="text/javascript" src="/js/static-select-question-widget.js"></script>
+<script type="text/javascript" src="/js/dynamic-select-question-widget.js"></script>
+<script type="text/javascript" src="/js/proof-question-widget.js"></script>
+
+<script type="text/javascript" src="/js/student-reference.js"></script>
+
+<script>
+var _topicId = 3589;
+</script>
+
+
+
+<div id="sidebar">
+    
+        
+    <div class="sidebarFrame">
+        <div id="topicName">Correlation vs. Causation</div>
+    
+        <div id="sectionLinks">
+        
+        
+                               
+                <div class="sectionTitle"><a id="sectionLink-36357" class="sectionLink" stepid="36357" style="color: rgb(64, 64, 64);">Introduction</a></div>                            
+              
+        
+                               
+                <div class="sectionTitle"><a id="sectionLink-36708" class="sectionLink" stepid="36708">Reverse Causation</a></div>                            
+              
+        
+                               
+                <div class="sectionTitle"><a id="sectionLink-36385" class="sectionLink" stepid="36385">Outside Causations</a></div>                            
+              
+        
+                 
+                <div class="sectionTitle"><a id="sectionLink-36358" class="sectionLink" stepid="36358">Causation vs. Outside Causations</a></div> 
+              
+        
+              
+        
+              
+        
+                               
+                <div class="sectionTitle"><a id="sectionLink-36383" class="sectionLink" stepid="36383">Coincidence</a></div>                            
+              
+        
+                 
+                <div class="sectionTitle"><a id="sectionLink-36359" class="sectionLink" stepid="36359">Identifying Causation vs. Coincidence</a></div> 
+              
+        
+              
+        
+              
+        
+                               
+                <div class="sectionTitle"><a id="sectionLink-36384" class="sectionLink" stepid="36384">Multiple Causations</a></div>                            
+              
+        
+                 
+                <div class="sectionTitle"><a id="sectionLink-36360" class="sectionLink" stepid="36360">Identifying Causation vs. Multiple Causations</a></div> 
+              
+        
+              
+        
+              
+        
+        </div>
+    
+            
+            <div id="prerequisitesHeader">Prerequisites</div> 
+            
+                <div class="prerequisite">
+                    <a href="/topics/linear-correlation-734" class="prerequisiteLink">Linear Correlation</a>
+                    
+                </div>
+                   
+          
+    </div>
+</div>
+
+
+
+<div id="lessonContent">        
+
+
+
+        
+                
+        <div id="step-36357" class="step" style="display: block" stepid="36357" steptype="tutorial" contentid="5950">
+            <div class="stepHeader">
+                <div class="stepName">
+                    <a id="stepAnchor-36357" class="stepAnchor" name="step-1">Introduction</a>
+                </div>
+                <div class="helpButton" stepid="36357">?</div>
+            </div> 
+
+            <style type="text/css">
+                            .mjpage .MJX-monospace {
+                            font-family: monospace
+                            }
+
+                            .mjpage .MJX-sans-serif {
+                            font-family: sans-serif
+                            }
+
+                            .mjpage {
+                            display: inline;
+                            font-style: normal;
+                            font-weight: normal;
+                            line-height: normal;
+                            font-size: 100%;
+                            font-size-adjust: none;
+                            text-indent: 0;
+                            text-align: left;
+                            text-transform: none;
+                            letter-spacing: normal;
+                            word-spacing: normal;
+                            word-wrap: normal;
+                            white-space: nowrap;
+                            float: none;
+                            direction: ltr;
+                            max-width: none;
+                            max-height: none;
+                            min-width: 0;
+                            min-height: 0;
+                            border: 0;
+                            padding: 0;
+                            margin: 0
+                            }
+
+                            .mjpage * {
+                            transition: none;
+                            -webkit-transition: none;
+                            -moz-transition: none;
+                            -ms-transition: none;
+                            -o-transition: none
+                            }
+
+                            .mjx-svg-href {
+                            fill: blue;
+                            stroke: blue
+                            }
+
+                            .MathJax_SVG_LineBox {
+                            display: table!important
+                            }
+
+                            .MathJax_SVG_LineBox span {
+                            display: table-cell!important;
+                            width: 10000em!important;
+                            min-width: 0;
+                            max-width: none;
+                            padding: 0;
+                            border: 0;
+                            margin: 0
+                            }
+
+                            .mjpage__block {
+                            text-align: center;
+                            margin: 1em 0em;
+                            position: relative;
+                            display: block!important;
+                            text-indent: 0;
+                            max-width: none;
+                            max-height: none;
+                            min-width: 0;
+                            min-height: 0;
+                            width: 100%
+                            }</style><p>The scatter plot below compares data on the number of home runs and the annual salary of several baseball players.   </p>
+<div id="graphic-9de028b6d3c3f63d06ad2d5e41e560c6" class="graphic"><img src="/graphics/9de028b6d3c3f63d06ad2d5e41e560c6"></div>    
+
+<p>Our scatter plot shows a <em>correlation</em> between the number of home runs <span class="mjpage"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="3.552ex" height="2.843ex" style="vertical-align: -0.838ex;" viewBox="0 -863.1 1529.5 1223.9" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-1-Title">
+<title id="MathJax-SVG-1-Title">({\color{RoyalBlue}A})</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E1-MJMAIN-28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path>
+<path stroke-width="1" id="E1-MJMATHI-41" d="M208 74Q208 50 254 46Q272 46 272 35Q272 34 270 22Q267 8 264 4T251 0Q249 0 239 0T205 1T141 2Q70 2 50 0H42Q35 7 35 11Q37 38 48 46H62Q132 49 164 96Q170 102 345 401T523 704Q530 716 547 716H555H572Q578 707 578 706L606 383Q634 60 636 57Q641 46 701 46Q726 46 726 36Q726 34 723 22Q720 7 718 4T704 0Q701 0 690 0T651 1T578 2Q484 2 455 0H443Q437 6 437 9T439 27Q443 40 445 43L449 46H469Q523 49 533 63L521 213H283L249 155Q208 86 208 74ZM516 260Q516 271 504 416T490 562L463 519Q447 492 400 412L310 260L413 259Q516 259 516 260Z"></path>
+<path stroke-width="1" id="E1-MJMAIN-29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+ <use xlink:href="#E1-MJMAIN-28" x="0" y="0"></use>
+<g transform="translate(389,0)">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+ <use xlink:href="#E1-MJMATHI-41"></use>
+</g>
+</g>
+</g>
+</g>
+ <use xlink:href="#E1-MJMAIN-29" x="1140" y="0"></use>
+</g>
+</svg></span> and the annual salary <span class="mjpage"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="3.573ex" height="2.843ex" style="vertical-align: -0.838ex;" viewBox="0 -863.1 1538.5 1223.9" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-2-Title">
+<title id="MathJax-SVG-2-Title">({\color{RoyalBlue}B})</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E2-MJMAIN-28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path>
+<path stroke-width="1" id="E2-MJMATHI-42" d="M231 637Q204 637 199 638T194 649Q194 676 205 682Q206 683 335 683Q594 683 608 681Q671 671 713 636T756 544Q756 480 698 429T565 360L555 357Q619 348 660 311T702 219Q702 146 630 78T453 1Q446 0 242 0Q42 0 39 2Q35 5 35 10Q35 17 37 24Q42 43 47 45Q51 46 62 46H68Q95 46 128 49Q142 52 147 61Q150 65 219 339T288 628Q288 635 231 637ZM649 544Q649 574 634 600T585 634Q578 636 493 637Q473 637 451 637T416 636H403Q388 635 384 626Q382 622 352 506Q352 503 351 500L320 374H401Q482 374 494 376Q554 386 601 434T649 544ZM595 229Q595 273 572 302T512 336Q506 337 429 337Q311 337 310 336Q310 334 293 263T258 122L240 52Q240 48 252 48T333 46Q422 46 429 47Q491 54 543 105T595 229Z"></path>
+<path stroke-width="1" id="E2-MJMAIN-29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+ <use xlink:href="#E2-MJMAIN-28" x="0" y="0"></use>
+<g transform="translate(389,0)">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+ <use xlink:href="#E2-MJMATHI-42"></use>
+</g>
+</g>
+</g>
+</g>
+ <use xlink:href="#E2-MJMAIN-29" x="1149" y="0"></use>
+</g>
+</svg></span>, which suggests the following:</p>
+<blockquote>
+<p><em>An increase in the number of home runs causes an increase in salary.</em></p>
+</blockquote>
+<p>In this instance, this sounds like a reasonable thing. We can visualize this situation as follows: </p>
+<div id="graphic-3d4738b12b6dc788fc51eb848e0c0e83" class="graphic"><img src="/graphics/3d4738b12b6dc788fc51eb848e0c0e83"></div>
+
+<p>To better understand relationships like this, we must first understand the difference between <strong>correlation</strong> and <strong>causation</strong>:</p>
+<ul>
+<li><p>Correlation means a relationship/pattern exists between the outputs of two events.</p>
+</li>
+<li><p>Causation means that one event causes the other event to occur.</p>
+</li>
+</ul>
+<p>However, correlation is <em>not</em> causation! Let's consider another example that illustrates this.</p>
+
+        </div>
+
+
+        
+
+
+        
+                
+        <div id="step-36708" class="step" style="display: block" stepid="36708" steptype="tutorial" contentid="6018">
+            <div class="stepHeader">
+                <div class="stepName">
+                    <a id="stepAnchor-36708" class="stepAnchor" name="step-2">Reverse Causation</a>
+                </div>
+                <div class="helpButton" stepid="36708">?</div>
+            </div> 
+
+            <style type="text/css">
+                            .mjpage .MJX-monospace {
+                            font-family: monospace
+                            }
+
+                            .mjpage .MJX-sans-serif {
+                            font-family: sans-serif
+                            }
+
+                            .mjpage {
+                            display: inline;
+                            font-style: normal;
+                            font-weight: normal;
+                            line-height: normal;
+                            font-size: 100%;
+                            font-size-adjust: none;
+                            text-indent: 0;
+                            text-align: left;
+                            text-transform: none;
+                            letter-spacing: normal;
+                            word-spacing: normal;
+                            word-wrap: normal;
+                            white-space: nowrap;
+                            float: none;
+                            direction: ltr;
+                            max-width: none;
+                            max-height: none;
+                            min-width: 0;
+                            min-height: 0;
+                            border: 0;
+                            padding: 0;
+                            margin: 0
+                            }
+
+                            .mjpage * {
+                            transition: none;
+                            -webkit-transition: none;
+                            -moz-transition: none;
+                            -ms-transition: none;
+                            -o-transition: none
+                            }
+
+                            .mjx-svg-href {
+                            fill: blue;
+                            stroke: blue
+                            }
+
+                            .MathJax_SVG_LineBox {
+                            display: table!important
+                            }
+
+                            .MathJax_SVG_LineBox span {
+                            display: table-cell!important;
+                            width: 10000em!important;
+                            min-width: 0;
+                            max-width: none;
+                            padding: 0;
+                            border: 0;
+                            margin: 0
+                            }
+
+                            .mjpage__block {
+                            text-align: center;
+                            margin: 1em 0em;
+                            position: relative;
+                            display: block!important;
+                            text-indent: 0;
+                            max-width: none;
+                            max-height: none;
+                            min-width: 0;
+                            min-height: 0;
+                            width: 100%
+                            }</style><p>Suppose there is a correlation between the number of people who wear medical face masks in public <span class="mjpage"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="3.552ex" height="2.843ex" style="vertical-align: -0.838ex;" viewBox="0 -863.1 1529.5 1223.9" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-1-Title">
+<title id="MathJax-SVG-1-Title">({\color{RoyalBlue}A})</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E1-MJMAIN-28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path>
+<path stroke-width="1" id="E1-MJMATHI-41" d="M208 74Q208 50 254 46Q272 46 272 35Q272 34 270 22Q267 8 264 4T251 0Q249 0 239 0T205 1T141 2Q70 2 50 0H42Q35 7 35 11Q37 38 48 46H62Q132 49 164 96Q170 102 345 401T523 704Q530 716 547 716H555H572Q578 707 578 706L606 383Q634 60 636 57Q641 46 701 46Q726 46 726 36Q726 34 723 22Q720 7 718 4T704 0Q701 0 690 0T651 1T578 2Q484 2 455 0H443Q437 6 437 9T439 27Q443 40 445 43L449 46H469Q523 49 533 63L521 213H283L249 155Q208 86 208 74ZM516 260Q516 271 504 416T490 562L463 519Q447 492 400 412L310 260L413 259Q516 259 516 260Z"></path>
+<path stroke-width="1" id="E1-MJMAIN-29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+ <use xlink:href="#E1-MJMAIN-28" x="0" y="0"></use>
+<g transform="translate(389,0)">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+ <use xlink:href="#E1-MJMATHI-41"></use>
+</g>
+</g>
+</g>
+</g>
+ <use xlink:href="#E1-MJMAIN-29" x="1140" y="0"></use>
+</g>
+</svg></span> and the number of seasonal flu cases <span class="mjpage"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="3.573ex" height="2.843ex" style="vertical-align: -0.838ex;" viewBox="0 -863.1 1538.5 1223.9" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-2-Title">
+<title id="MathJax-SVG-2-Title">({\color{RoyalBlue}B})</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E2-MJMAIN-28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path>
+<path stroke-width="1" id="E2-MJMATHI-42" d="M231 637Q204 637 199 638T194 649Q194 676 205 682Q206 683 335 683Q594 683 608 681Q671 671 713 636T756 544Q756 480 698 429T565 360L555 357Q619 348 660 311T702 219Q702 146 630 78T453 1Q446 0 242 0Q42 0 39 2Q35 5 35 10Q35 17 37 24Q42 43 47 45Q51 46 62 46H68Q95 46 128 49Q142 52 147 61Q150 65 219 339T288 628Q288 635 231 637ZM649 544Q649 574 634 600T585 634Q578 636 493 637Q473 637 451 637T416 636H403Q388 635 384 626Q382 622 352 506Q352 503 351 500L320 374H401Q482 374 494 376Q554 386 601 434T649 544ZM595 229Q595 273 572 302T512 336Q506 337 429 337Q311 337 310 336Q310 334 293 263T258 122L240 52Q240 48 252 48T333 46Q422 46 429 47Q491 54 543 105T595 229Z"></path>
+<path stroke-width="1" id="E2-MJMAIN-29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+ <use xlink:href="#E2-MJMAIN-28" x="0" y="0"></use>
+<g transform="translate(389,0)">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+ <use xlink:href="#E2-MJMATHI-42"></use>
+</g>
+</g>
+</g>
+</g>
+ <use xlink:href="#E2-MJMAIN-29" x="1149" y="0"></use>
+</g>
+</svg></span>. </p>
+<div id="graphic-be80e7be79da6814a7c56d323f62ca35" class="graphic"><img src="/graphics/be80e7be79da6814a7c56d323f62ca35"></div>    
+
+<p>Although there is a clear correlation, this does <em>not</em> mean that an increase in the number of face masks <span class="mjpage"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="3.552ex" height="2.843ex" style="vertical-align: -0.838ex;" viewBox="0 -863.1 1529.5 1223.9" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-3-Title">
+<title id="MathJax-SVG-3-Title">({\color{RoyalBlue}A})</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E3-MJMAIN-28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path>
+<path stroke-width="1" id="E3-MJMATHI-41" d="M208 74Q208 50 254 46Q272 46 272 35Q272 34 270 22Q267 8 264 4T251 0Q249 0 239 0T205 1T141 2Q70 2 50 0H42Q35 7 35 11Q37 38 48 46H62Q132 49 164 96Q170 102 345 401T523 704Q530 716 547 716H555H572Q578 707 578 706L606 383Q634 60 636 57Q641 46 701 46Q726 46 726 36Q726 34 723 22Q720 7 718 4T704 0Q701 0 690 0T651 1T578 2Q484 2 455 0H443Q437 6 437 9T439 27Q443 40 445 43L449 46H469Q523 49 533 63L521 213H283L249 155Q208 86 208 74ZM516 260Q516 271 504 416T490 562L463 519Q447 492 400 412L310 260L413 259Q516 259 516 260Z"></path>
+<path stroke-width="1" id="E3-MJMAIN-29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+ <use xlink:href="#E3-MJMAIN-28" x="0" y="0"></use>
+<g transform="translate(389,0)">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+ <use xlink:href="#E3-MJMATHI-41"></use>
+</g>
+</g>
+</g>
+</g>
+ <use xlink:href="#E3-MJMAIN-29" x="1140" y="0"></use>
+</g>
+</svg></span> causes an increase in the number of flu cases <span class="mjpage"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="4.22ex" height="2.843ex" style="vertical-align: -0.838ex;" viewBox="0 -863.1 1817 1223.9" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-4-Title">
+<title id="MathJax-SVG-4-Title">({\color{RoyalBlue}B}).</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E4-MJMAIN-28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path>
+<path stroke-width="1" id="E4-MJMATHI-42" d="M231 637Q204 637 199 638T194 649Q194 676 205 682Q206 683 335 683Q594 683 608 681Q671 671 713 636T756 544Q756 480 698 429T565 360L555 357Q619 348 660 311T702 219Q702 146 630 78T453 1Q446 0 242 0Q42 0 39 2Q35 5 35 10Q35 17 37 24Q42 43 47 45Q51 46 62 46H68Q95 46 128 49Q142 52 147 61Q150 65 219 339T288 628Q288 635 231 637ZM649 544Q649 574 634 600T585 634Q578 636 493 637Q473 637 451 637T416 636H403Q388 635 384 626Q382 622 352 506Q352 503 351 500L320 374H401Q482 374 494 376Q554 386 601 434T649 544ZM595 229Q595 273 572 302T512 336Q506 337 429 337Q311 337 310 336Q310 334 293 263T258 122L240 52Q240 48 252 48T333 46Q422 46 429 47Q491 54 543 105T595 229Z"></path>
+<path stroke-width="1" id="E4-MJMAIN-29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path>
+<path stroke-width="1" id="E4-MJMAIN-2E" d="M78 60Q78 84 95 102T138 120Q162 120 180 104T199 61Q199 36 182 18T139 0T96 17T78 60Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+ <use xlink:href="#E4-MJMAIN-28" x="0" y="0"></use>
+<g transform="translate(389,0)">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+ <use xlink:href="#E4-MJMATHI-42"></use>
+</g>
+</g>
+</g>
+</g>
+ <use xlink:href="#E4-MJMAIN-29" x="1149" y="0"></use>
+ <use xlink:href="#E4-MJMAIN-2E" x="1538" y="0"></use>
+</g>
+</svg></span></p>
+<div id="graphic-d8d3934f056c39e203b7378f7c896c8f" class="graphic"><img src="/graphics/d8d3934f056c39e203b7378f7c896c8f"></div>
+
+<p>The situation is quite the opposite:</p>
+<blockquote>
+<p><em>An increase in the number the flu cases causes an increase in the number of people wearing face masks in public.</em></p>
+</blockquote>
+<p>We can visualize this statement as follows:</p>
+<div id="graphic-863225f820188fd60f40de3dc3414f30" class="graphic"><img src="/graphics/863225f820188fd60f40de3dc3414f30"></div>
+
+<p>This scenario is called a <strong>reverse causation</strong>. So, we always should be careful about what causes what.</p>
+<p>The connection between correlation and causation is generally more complicated than it seems. Let's see one more example.</p>
+
+        </div>
+
+
+        
+
+
+        
+                
+        <div id="step-36385" class="step" style="display: block" stepid="36385" steptype="tutorial" contentid="5958">
+            <div class="stepHeader">
+                <div class="stepName">
+                    <a id="stepAnchor-36385" class="stepAnchor" name="step-3">Outside Causations</a>
+                </div>
+                <div class="helpButton" stepid="36385">?</div>
+            </div> 
+
+            <style type="text/css">
+                            .mjpage .MJX-monospace {
+                            font-family: monospace
+                            }
+
+                            .mjpage .MJX-sans-serif {
+                            font-family: sans-serif
+                            }
+
+                            .mjpage {
+                            display: inline;
+                            font-style: normal;
+                            font-weight: normal;
+                            line-height: normal;
+                            font-size: 100%;
+                            font-size-adjust: none;
+                            text-indent: 0;
+                            text-align: left;
+                            text-transform: none;
+                            letter-spacing: normal;
+                            word-spacing: normal;
+                            word-wrap: normal;
+                            white-space: nowrap;
+                            float: none;
+                            direction: ltr;
+                            max-width: none;
+                            max-height: none;
+                            min-width: 0;
+                            min-height: 0;
+                            border: 0;
+                            padding: 0;
+                            margin: 0
+                            }
+
+                            .mjpage * {
+                            transition: none;
+                            -webkit-transition: none;
+                            -moz-transition: none;
+                            -ms-transition: none;
+                            -o-transition: none
+                            }
+
+                            .mjx-svg-href {
+                            fill: blue;
+                            stroke: blue
+                            }
+
+                            .MathJax_SVG_LineBox {
+                            display: table!important
+                            }
+
+                            .MathJax_SVG_LineBox span {
+                            display: table-cell!important;
+                            width: 10000em!important;
+                            min-width: 0;
+                            max-width: none;
+                            padding: 0;
+                            border: 0;
+                            margin: 0
+                            }
+
+                            .mjpage__block {
+                            text-align: center;
+                            margin: 1em 0em;
+                            position: relative;
+                            display: block!important;
+                            text-indent: 0;
+                            max-width: none;
+                            max-height: none;
+                            min-width: 0;
+                            min-height: 0;
+                            width: 100%
+                            }</style><p>Sometimes, when we look for causation between <span class="mjpage"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1.743ex" height="2.176ex" style="vertical-align: -0.338ex;" viewBox="0 -791.3 750.5 936.9" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-1-Title">
+<title id="MathJax-SVG-1-Title">{\color{RoyalBlue}A}</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E1-MJMATHI-41" d="M208 74Q208 50 254 46Q272 46 272 35Q272 34 270 22Q267 8 264 4T251 0Q249 0 239 0T205 1T141 2Q70 2 50 0H42Q35 7 35 11Q37 38 48 46H62Q132 49 164 96Q170 102 345 401T523 704Q530 716 547 716H555H572Q578 707 578 706L606 383Q634 60 636 57Q641 46 701 46Q726 46 726 36Q726 34 723 22Q720 7 718 4T704 0Q701 0 690 0T651 1T578 2Q484 2 455 0H443Q437 6 437 9T439 27Q443 40 445 43L449 46H469Q523 49 533 63L521 213H283L249 155Q208 86 208 74ZM516 260Q516 271 504 416T490 562L463 519Q447 492 400 412L310 260L413 259Q516 259 516 260Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+ <use xlink:href="#E1-MJMATHI-41"></use>
+</g>
+</g>
+</g>
+</g>
+</svg></span> and <span class="mjpage"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="2.411ex" height="2.509ex" style="vertical-align: -0.671ex;" viewBox="0 -791.3 1038 1080.4" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-2-Title">
+<title id="MathJax-SVG-2-Title">{\color{RoyalBlue}B},</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E2-MJMATHI-42" d="M231 637Q204 637 199 638T194 649Q194 676 205 682Q206 683 335 683Q594 683 608 681Q671 671 713 636T756 544Q756 480 698 429T565 360L555 357Q619 348 660 311T702 219Q702 146 630 78T453 1Q446 0 242 0Q42 0 39 2Q35 5 35 10Q35 17 37 24Q42 43 47 45Q51 46 62 46H68Q95 46 128 49Q142 52 147 61Q150 65 219 339T288 628Q288 635 231 637ZM649 544Q649 574 634 600T585 634Q578 636 493 637Q473 637 451 637T416 636H403Q388 635 384 626Q382 622 352 506Q352 503 351 500L320 374H401Q482 374 494 376Q554 386 601 434T649 544ZM595 229Q595 273 572 302T512 336Q506 337 429 337Q311 337 310 336Q310 334 293 263T258 122L240 52Q240 48 252 48T333 46Q422 46 429 47Q491 54 543 105T595 229Z"></path>
+<path stroke-width="1" id="E2-MJMAIN-2C" d="M78 35T78 60T94 103T137 121Q165 121 187 96T210 8Q210 -27 201 -60T180 -117T154 -158T130 -185T117 -194Q113 -194 104 -185T95 -172Q95 -168 106 -156T131 -126T157 -76T173 -3V9L172 8Q170 7 167 6T161 3T152 1T140 0Q113 0 96 17Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+ <use xlink:href="#E2-MJMATHI-42"></use>
+</g>
+</g>
+</g>
+ <use xlink:href="#E2-MJMAIN-2C" x="759" y="0"></use>
+</g>
+</svg></span> it turns out that there is a third variable <span class="mjpage"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1.766ex" height="2.176ex" style="vertical-align: -0.338ex;" viewBox="0 -791.3 760.5 936.9" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-3-Title">
+<title id="MathJax-SVG-3-Title">{\color{SandyBrown}C}</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E3-MJMATHI-43" d="M50 252Q50 367 117 473T286 641T490 704Q580 704 633 653Q642 643 648 636T656 626L657 623Q660 623 684 649Q691 655 699 663T715 679T725 690L740 705H746Q760 705 760 698Q760 694 728 561Q692 422 692 421Q690 416 687 415T669 413H653Q647 419 647 422Q647 423 648 429T650 449T651 481Q651 552 619 605T510 659Q484 659 454 652T382 628T299 572T226 479Q194 422 175 346T156 222Q156 108 232 58Q280 24 350 24Q441 24 512 92T606 240Q610 253 612 255T628 257Q648 257 648 248Q648 243 647 239Q618 132 523 55T319 -22Q206 -22 128 53T50 252Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+<g fill="SandyBrown" stroke="SandyBrown">
+<g fill="SandyBrown" stroke="SandyBrown">
+<g fill="SandyBrown" stroke="SandyBrown">
+ <use xlink:href="#E3-MJMATHI-43"></use>
+</g>
+</g>
+</g>
+</g>
+</svg></span> that causes both <span class="mjpage"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1.743ex" height="2.176ex" style="vertical-align: -0.338ex;" viewBox="0 -791.3 750.5 936.9" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-4-Title">
+<title id="MathJax-SVG-4-Title">{\color{RoyalBlue}A}</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E4-MJMATHI-41" d="M208 74Q208 50 254 46Q272 46 272 35Q272 34 270 22Q267 8 264 4T251 0Q249 0 239 0T205 1T141 2Q70 2 50 0H42Q35 7 35 11Q37 38 48 46H62Q132 49 164 96Q170 102 345 401T523 704Q530 716 547 716H555H572Q578 707 578 706L606 383Q634 60 636 57Q641 46 701 46Q726 46 726 36Q726 34 723 22Q720 7 718 4T704 0Q701 0 690 0T651 1T578 2Q484 2 455 0H443Q437 6 437 9T439 27Q443 40 445 43L449 46H469Q523 49 533 63L521 213H283L249 155Q208 86 208 74ZM516 260Q516 271 504 416T490 562L463 519Q447 492 400 412L310 260L413 259Q516 259 516 260Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+ <use xlink:href="#E4-MJMATHI-41"></use>
+</g>
+</g>
+</g>
+</g>
+</svg></span> and <span class="mjpage"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="2.411ex" height="2.176ex" style="vertical-align: -0.338ex;" viewBox="0 -791.3 1038 936.9" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-5-Title">
+<title id="MathJax-SVG-5-Title">{\color{RoyalBlue}B}.</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E5-MJMATHI-42" d="M231 637Q204 637 199 638T194 649Q194 676 205 682Q206 683 335 683Q594 683 608 681Q671 671 713 636T756 544Q756 480 698 429T565 360L555 357Q619 348 660 311T702 219Q702 146 630 78T453 1Q446 0 242 0Q42 0 39 2Q35 5 35 10Q35 17 37 24Q42 43 47 45Q51 46 62 46H68Q95 46 128 49Q142 52 147 61Q150 65 219 339T288 628Q288 635 231 637ZM649 544Q649 574 634 600T585 634Q578 636 493 637Q473 637 451 637T416 636H403Q388 635 384 626Q382 622 352 506Q352 503 351 500L320 374H401Q482 374 494 376Q554 386 601 434T649 544ZM595 229Q595 273 572 302T512 336Q506 337 429 337Q311 337 310 336Q310 334 293 263T258 122L240 52Q240 48 252 48T333 46Q422 46 429 47Q491 54 543 105T595 229Z"></path>
+<path stroke-width="1" id="E5-MJMAIN-2E" d="M78 60Q78 84 95 102T138 120Q162 120 180 104T199 61Q199 36 182 18T139 0T96 17T78 60Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+ <use xlink:href="#E5-MJMATHI-42"></use>
+</g>
+</g>
+</g>
+ <use xlink:href="#E5-MJMAIN-2E" x="759" y="0"></use>
+</g>
+</svg></span></p>
+<div id="graphic-b34500f116e2ea20b99a545a41fe14c7" class="graphic"><img src="/graphics/b34500f116e2ea20b99a545a41fe14c7"></div>
+
+<p>For example, perhaps there is a correlation between the number of ice creams sold <span class="mjpage"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="3.552ex" height="2.843ex" style="vertical-align: -0.838ex;" viewBox="0 -863.1 1529.5 1223.9" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-6-Title">
+<title id="MathJax-SVG-6-Title">({\color{RoyalBlue}A})</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E6-MJMAIN-28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path>
+<path stroke-width="1" id="E6-MJMATHI-41" d="M208 74Q208 50 254 46Q272 46 272 35Q272 34 270 22Q267 8 264 4T251 0Q249 0 239 0T205 1T141 2Q70 2 50 0H42Q35 7 35 11Q37 38 48 46H62Q132 49 164 96Q170 102 345 401T523 704Q530 716 547 716H555H572Q578 707 578 706L606 383Q634 60 636 57Q641 46 701 46Q726 46 726 36Q726 34 723 22Q720 7 718 4T704 0Q701 0 690 0T651 1T578 2Q484 2 455 0H443Q437 6 437 9T439 27Q443 40 445 43L449 46H469Q523 49 533 63L521 213H283L249 155Q208 86 208 74ZM516 260Q516 271 504 416T490 562L463 519Q447 492 400 412L310 260L413 259Q516 259 516 260Z"></path>
+<path stroke-width="1" id="E6-MJMAIN-29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+ <use xlink:href="#E6-MJMAIN-28" x="0" y="0"></use>
+<g transform="translate(389,0)">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+ <use xlink:href="#E6-MJMATHI-41"></use>
+</g>
+</g>
+</g>
+</g>
+ <use xlink:href="#E6-MJMAIN-29" x="1140" y="0"></use>
+</g>
+</svg></span> and the number of people who used the pool <span class="mjpage"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="3.573ex" height="2.843ex" style="vertical-align: -0.838ex;" viewBox="0 -863.1 1538.5 1223.9" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-7-Title">
+<title id="MathJax-SVG-7-Title">({\color{RoyalBlue}B})</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E7-MJMAIN-28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path>
+<path stroke-width="1" id="E7-MJMATHI-42" d="M231 637Q204 637 199 638T194 649Q194 676 205 682Q206 683 335 683Q594 683 608 681Q671 671 713 636T756 544Q756 480 698 429T565 360L555 357Q619 348 660 311T702 219Q702 146 630 78T453 1Q446 0 242 0Q42 0 39 2Q35 5 35 10Q35 17 37 24Q42 43 47 45Q51 46 62 46H68Q95 46 128 49Q142 52 147 61Q150 65 219 339T288 628Q288 635 231 637ZM649 544Q649 574 634 600T585 634Q578 636 493 637Q473 637 451 637T416 636H403Q388 635 384 626Q382 622 352 506Q352 503 351 500L320 374H401Q482 374 494 376Q554 386 601 434T649 544ZM595 229Q595 273 572 302T512 336Q506 337 429 337Q311 337 310 336Q310 334 293 263T258 122L240 52Q240 48 252 48T333 46Q422 46 429 47Q491 54 543 105T595 229Z"></path>
+<path stroke-width="1" id="E7-MJMAIN-29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+ <use xlink:href="#E7-MJMAIN-28" x="0" y="0"></use>
+<g transform="translate(389,0)">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+ <use xlink:href="#E7-MJMATHI-42"></use>
+</g>
+</g>
+</g>
+</g>
+ <use xlink:href="#E7-MJMAIN-29" x="1149" y="0"></use>
+</g>
+</svg></span> at a particular resort over the weekend. </p>
+<p>However, it is the weather <span class="mjpage"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="4.222ex" height="2.843ex" style="vertical-align: -0.838ex;" viewBox="0 -863.1 1818 1223.9" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-8-Title">
+<title id="MathJax-SVG-8-Title">({\color{SandyBrown}C}),</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E8-MJMAIN-28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path>
+<path stroke-width="1" id="E8-MJMATHI-43" d="M50 252Q50 367 117 473T286 641T490 704Q580 704 633 653Q642 643 648 636T656 626L657 623Q660 623 684 649Q691 655 699 663T715 679T725 690L740 705H746Q760 705 760 698Q760 694 728 561Q692 422 692 421Q690 416 687 415T669 413H653Q647 419 647 422Q647 423 648 429T650 449T651 481Q651 552 619 605T510 659Q484 659 454 652T382 628T299 572T226 479Q194 422 175 346T156 222Q156 108 232 58Q280 24 350 24Q441 24 512 92T606 240Q610 253 612 255T628 257Q648 257 648 248Q648 243 647 239Q618 132 523 55T319 -22Q206 -22 128 53T50 252Z"></path>
+<path stroke-width="1" id="E8-MJMAIN-29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path>
+<path stroke-width="1" id="E8-MJMAIN-2C" d="M78 35T78 60T94 103T137 121Q165 121 187 96T210 8Q210 -27 201 -60T180 -117T154 -158T130 -185T117 -194Q113 -194 104 -185T95 -172Q95 -168 106 -156T131 -126T157 -76T173 -3V9L172 8Q170 7 167 6T161 3T152 1T140 0Q113 0 96 17Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+ <use xlink:href="#E8-MJMAIN-28" x="0" y="0"></use>
+<g transform="translate(389,0)">
+<g fill="SandyBrown" stroke="SandyBrown">
+<g fill="SandyBrown" stroke="SandyBrown">
+<g fill="SandyBrown" stroke="SandyBrown">
+ <use xlink:href="#E8-MJMATHI-43"></use>
+</g>
+</g>
+</g>
+</g>
+ <use xlink:href="#E8-MJMAIN-29" x="1150" y="0"></use>
+ <use xlink:href="#E8-MJMAIN-2C" x="1539" y="0"></use>
+</g>
+</svg></span> the <strong>outside cause</strong>, that actually influences <em>both</em> <span class="mjpage"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1.743ex" height="2.176ex" style="vertical-align: -0.338ex;" viewBox="0 -791.3 750.5 936.9" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-9-Title">
+<title id="MathJax-SVG-9-Title">{\color{RoyalBlue}A}</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E9-MJMATHI-41" d="M208 74Q208 50 254 46Q272 46 272 35Q272 34 270 22Q267 8 264 4T251 0Q249 0 239 0T205 1T141 2Q70 2 50 0H42Q35 7 35 11Q37 38 48 46H62Q132 49 164 96Q170 102 345 401T523 704Q530 716 547 716H555H572Q578 707 578 706L606 383Q634 60 636 57Q641 46 701 46Q726 46 726 36Q726 34 723 22Q720 7 718 4T704 0Q701 0 690 0T651 1T578 2Q484 2 455 0H443Q437 6 437 9T439 27Q443 40 445 43L449 46H469Q523 49 533 63L521 213H283L249 155Q208 86 208 74ZM516 260Q516 271 504 416T490 562L463 519Q447 492 400 412L310 260L413 259Q516 259 516 260Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+ <use xlink:href="#E9-MJMATHI-41"></use>
+</g>
+</g>
+</g>
+</g>
+</svg></span> <em>and</em> <span class="mjpage"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="2.411ex" height="2.176ex" style="vertical-align: -0.338ex;" viewBox="0 -791.3 1038 936.9" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-10-Title">
+<title id="MathJax-SVG-10-Title">{\color{RoyalBlue}B}.</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E10-MJMATHI-42" d="M231 637Q204 637 199 638T194 649Q194 676 205 682Q206 683 335 683Q594 683 608 681Q671 671 713 636T756 544Q756 480 698 429T565 360L555 357Q619 348 660 311T702 219Q702 146 630 78T453 1Q446 0 242 0Q42 0 39 2Q35 5 35 10Q35 17 37 24Q42 43 47 45Q51 46 62 46H68Q95 46 128 49Q142 52 147 61Q150 65 219 339T288 628Q288 635 231 637ZM649 544Q649 574 634 600T585 634Q578 636 493 637Q473 637 451 637T416 636H403Q388 635 384 626Q382 622 352 506Q352 503 351 500L320 374H401Q482 374 494 376Q554 386 601 434T649 544ZM595 229Q595 273 572 302T512 336Q506 337 429 337Q311 337 310 336Q310 334 293 263T258 122L240 52Q240 48 252 48T333 46Q422 46 429 47Q491 54 543 105T595 229Z"></path>
+<path stroke-width="1" id="E10-MJMAIN-2E" d="M78 60Q78 84 95 102T138 120Q162 120 180 104T199 61Q199 36 182 18T139 0T96 17T78 60Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+ <use xlink:href="#E10-MJMATHI-42"></use>
+</g>
+</g>
+</g>
+ <use xlink:href="#E10-MJMAIN-2E" x="759" y="0"></use>
+</g>
+</svg></span> </p>
+
+        </div>
+
+
+        
+
+
+         
+
+        <div id="step-36358" class="step" style="display: block" stepid="36358" steptype="example" contentid="9699">
+            <div class="stepHeader">
+                <div class="stepName">
+                    Example: 
+                    <a id="stepAnchor-36358" class="stepAnchor" style="font-weight: normal;" name="step-4">Causation vs. Outside Causations</a> 
+                </div>      
+                <div class="helpButton" stepid="36358">?</div>
+            </div>
+            
+            <div class="exampleQuestion">
+                <p>There is a correlation between "the outside temperature is cold" and "people buy more canned soup." Which of the following statements is most likely true?</p>
+<ol class="questionStatements">
+<li>  An increase in canned soup sales causes a decrease in temperature. </li>
+<li>  A decrease in temperature causes people to buy more canned soups. </li>
+<li>  More people indoors causes the temperature to drop, and people buy more canned soups. </li>
+</ol>
+            </div>     
+
+            <div class="explanationHeader">EXPLANATION</div>
+
+            <div class="exampleExplanation">
+                <p>Correlation is not causation:</p>
+<ul>
+<li><p>Correlation means a relationship/pattern exists between the outputs of two events.</p>
+</li>
+<li><p>Causation means that one event causes the other event to occur.</p>
+</li>
+</ul>
+<p>People eat more soups to keep warm when the weather is colder, which suggests the following:</p>
+<blockquote>
+<p><em>"A decrease in temperature causes people to buy more canned soups."</em> </p>
+</blockquote>
+<p>Therefore, the correct answer is "II only."  </p>
+
+            </div>         
+
+            
+                <div class="keyPrerequisites">
+                    <div class="keyPrerequisitesHeader">
+                         
+                            KEY PREREQUISITE
+                         
+                    </div>                                    
+
+                    
+                        <div class="keyPrerequisite">
+                            <a href="/topics/734" target="_blank">Linear Correlation</a>
+                            <span class="keyPrerequisiteType"></span>                              
+                        </div>
+                       
+                </div>
+                
+        </div>                 
+                        
+        
+
+
+                 
+
+                                        
+
+        <div id="question-133924" class="step questionWidget" style="display: block;"><div class="questionWidget-header"><div class="questionWidget-title">Question 1</div><div class="questionWidget-helpButton">?</div></div><div class="questionWidget-text"><p>There is a correlation between "the temperature outside is hot" and "people buy more ice cream." Which of the following is most likely true?</p>
+<ol class="questionStatements">
+<li>  An increase in temperature causes people to buy more ice cream. </li>
+<li>  An increase in ice cream sales causes an increase in temperature. </li>
+<li>  More people outside causes the temperature to rise and people to buy more ice cream. </li>
+</ol></div><table class="questionWidget-choicesTable"><tbody><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-133924-a" class="questionWidget-choiceLetterCircle">a</div></td><td class="questionWidget-choiceText">III only</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-133924-b" class="questionWidget-choiceLetterCircle">b</div></td><td class="questionWidget-choiceText">I and III only</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-133924-c" class="questionWidget-choiceLetterCircle">c</div></td><td class="questionWidget-choiceText">II only</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-133924-d" class="questionWidget-choiceLetterCircle">d</div></td><td class="questionWidget-choiceText">II and III only</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-133924-e" class="questionWidget-choiceLetterCircle">e</div></td><td class="questionWidget-choiceText">I only</td></tr></tbody></table><div class="questionWidget-buttonBar"><div class="questionWidget-submitButton disabledButton">Submit</div></div><div class="questionWidget-spinnerFrame"><div class="questionWidget-spinner"></div></div></div>                
+        
+
+
+                 
+
+                                        
+
+        <div id="question-133934" class="step questionWidget" style="display: block;"><div class="questionWidget-header"><div class="questionWidget-title">Question 2</div><div class="questionWidget-helpButton">?</div></div><div class="questionWidget-graphic"><img src="/graphics/q-133934"></div><div class="questionWidget-text"><p>Each week, the admin of a local hospital adds up the number of heatstroke cases and swimming pool injuries. The results are shown in the scatter plot above. Which of the following is most likely true?</p>
+<ol class="questionStatements">
+<li>  An increase in the number of heatstroke cases causes an increase in swimming pool injuries. </li>
+<li>  An increase in the number of swimming pool injuries causes an increase in heatstroke cases. </li>
+<li>  Hotter weather influences the number of heatstroke cases and swimming pool injuries. </li>
+</ol></div><table class="questionWidget-choicesTable"><tbody><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-133934-a" class="questionWidget-choiceLetterCircle">a</div></td><td class="questionWidget-choiceText">I and III only</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-133934-b" class="questionWidget-choiceLetterCircle">b</div></td><td class="questionWidget-choiceText">II only</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-133934-c" class="questionWidget-choiceLetterCircle">c</div></td><td class="questionWidget-choiceText">II and III only</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-133934-d" class="questionWidget-choiceLetterCircle">d</div></td><td class="questionWidget-choiceText">III only</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-133934-e" class="questionWidget-choiceLetterCircle">e</div></td><td class="questionWidget-choiceText">I only</td></tr></tbody></table><div class="questionWidget-buttonBar"><div class="questionWidget-submitButton disabledButton">Submit</div></div><div class="questionWidget-spinnerFrame"><div class="questionWidget-spinner"></div></div></div>                
+        
+
+
+        
+                
+        <div id="step-36383" class="step" style="display: block" stepid="36383" steptype="tutorial" contentid="5956">
+            <div class="stepHeader">
+                <div class="stepName">
+                    <a id="stepAnchor-36383" class="stepAnchor" name="step-7">Coincidence</a>
+                </div>
+                <div class="helpButton" stepid="36383">?</div>
+            </div> 
+
+            <style type="text/css">
+                            .mjpage .MJX-monospace {
+                            font-family: monospace
+                            }
+
+                            .mjpage .MJX-sans-serif {
+                            font-family: sans-serif
+                            }
+
+                            .mjpage {
+                            display: inline;
+                            font-style: normal;
+                            font-weight: normal;
+                            line-height: normal;
+                            font-size: 100%;
+                            font-size-adjust: none;
+                            text-indent: 0;
+                            text-align: left;
+                            text-transform: none;
+                            letter-spacing: normal;
+                            word-spacing: normal;
+                            word-wrap: normal;
+                            white-space: nowrap;
+                            float: none;
+                            direction: ltr;
+                            max-width: none;
+                            max-height: none;
+                            min-width: 0;
+                            min-height: 0;
+                            border: 0;
+                            padding: 0;
+                            margin: 0
+                            }
+
+                            .mjpage * {
+                            transition: none;
+                            -webkit-transition: none;
+                            -moz-transition: none;
+                            -ms-transition: none;
+                            -o-transition: none
+                            }
+
+                            .mjx-svg-href {
+                            fill: blue;
+                            stroke: blue
+                            }
+
+                            .MathJax_SVG_LineBox {
+                            display: table!important
+                            }
+
+                            .MathJax_SVG_LineBox span {
+                            display: table-cell!important;
+                            width: 10000em!important;
+                            min-width: 0;
+                            max-width: none;
+                            padding: 0;
+                            border: 0;
+                            margin: 0
+                            }
+
+                            .mjpage__block {
+                            text-align: center;
+                            margin: 1em 0em;
+                            position: relative;
+                            display: block!important;
+                            text-indent: 0;
+                            max-width: none;
+                            max-height: none;
+                            min-width: 0;
+                            min-height: 0;
+                            width: 100%
+                            }</style><p>When looking for causation between two variables, it could be the case that there is no reasonable connection between them. In this case, we say that the correlation is <strong>coincidental</strong>. This can be visualized as follows:   </p>
+<div id="graphic-ff23755dea4a0afd79ac0a61ac4aaafe" class="graphic"><img src="/graphics/ff23755dea4a0afd79ac0a61ac4aaafe"></div>
+
+<p>For example, suppose the number of hot dogs sold at a baseball game <span class="mjpage"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="3.552ex" height="2.843ex" style="vertical-align: -0.838ex;" viewBox="0 -863.1 1529.5 1223.9" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-1-Title">
+<title id="MathJax-SVG-1-Title">({\color{RoyalBlue}A})</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E1-MJMAIN-28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path>
+<path stroke-width="1" id="E1-MJMATHI-41" d="M208 74Q208 50 254 46Q272 46 272 35Q272 34 270 22Q267 8 264 4T251 0Q249 0 239 0T205 1T141 2Q70 2 50 0H42Q35 7 35 11Q37 38 48 46H62Q132 49 164 96Q170 102 345 401T523 704Q530 716 547 716H555H572Q578 707 578 706L606 383Q634 60 636 57Q641 46 701 46Q726 46 726 36Q726 34 723 22Q720 7 718 4T704 0Q701 0 690 0T651 1T578 2Q484 2 455 0H443Q437 6 437 9T439 27Q443 40 445 43L449 46H469Q523 49 533 63L521 213H283L249 155Q208 86 208 74ZM516 260Q516 271 504 416T490 562L463 519Q447 492 400 412L310 260L413 259Q516 259 516 260Z"></path>
+<path stroke-width="1" id="E1-MJMAIN-29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+ <use xlink:href="#E1-MJMAIN-28" x="0" y="0"></use>
+<g transform="translate(389,0)">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+ <use xlink:href="#E1-MJMATHI-41"></use>
+</g>
+</g>
+</g>
+</g>
+ <use xlink:href="#E1-MJMAIN-29" x="1140" y="0"></use>
+</g>
+</svg></span> correlated with the number of runs scored by the team <span class="mjpage"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="4.22ex" height="2.843ex" style="vertical-align: -0.838ex;" viewBox="0 -863.1 1817 1223.9" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-2-Title">
+<title id="MathJax-SVG-2-Title">({\color{RoyalBlue}B}).</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E2-MJMAIN-28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path>
+<path stroke-width="1" id="E2-MJMATHI-42" d="M231 637Q204 637 199 638T194 649Q194 676 205 682Q206 683 335 683Q594 683 608 681Q671 671 713 636T756 544Q756 480 698 429T565 360L555 357Q619 348 660 311T702 219Q702 146 630 78T453 1Q446 0 242 0Q42 0 39 2Q35 5 35 10Q35 17 37 24Q42 43 47 45Q51 46 62 46H68Q95 46 128 49Q142 52 147 61Q150 65 219 339T288 628Q288 635 231 637ZM649 544Q649 574 634 600T585 634Q578 636 493 637Q473 637 451 637T416 636H403Q388 635 384 626Q382 622 352 506Q352 503 351 500L320 374H401Q482 374 494 376Q554 386 601 434T649 544ZM595 229Q595 273 572 302T512 336Q506 337 429 337Q311 337 310 336Q310 334 293 263T258 122L240 52Q240 48 252 48T333 46Q422 46 429 47Q491 54 543 105T595 229Z"></path>
+<path stroke-width="1" id="E2-MJMAIN-29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path>
+<path stroke-width="1" id="E2-MJMAIN-2E" d="M78 60Q78 84 95 102T138 120Q162 120 180 104T199 61Q199 36 182 18T139 0T96 17T78 60Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+ <use xlink:href="#E2-MJMAIN-28" x="0" y="0"></use>
+<g transform="translate(389,0)">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+ <use xlink:href="#E2-MJMATHI-42"></use>
+</g>
+</g>
+</g>
+</g>
+ <use xlink:href="#E2-MJMAIN-29" x="1149" y="0"></use>
+ <use xlink:href="#E2-MJMAIN-2E" x="1538" y="0"></use>
+</g>
+</svg></span> What kind of causation is this?</p>
+<p>Well, the number of hot dogs sold shouldn't influence the number of runs scored by the team. Similarly, the number of runs shouldn't affect hot dog sales.
+So, neither <span class="mjpage"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1.743ex" height="2.176ex" style="vertical-align: -0.338ex;" viewBox="0 -791.3 750.5 936.9" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-3-Title">
+<title id="MathJax-SVG-3-Title">{\color{RoyalBlue}A}</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E3-MJMATHI-41" d="M208 74Q208 50 254 46Q272 46 272 35Q272 34 270 22Q267 8 264 4T251 0Q249 0 239 0T205 1T141 2Q70 2 50 0H42Q35 7 35 11Q37 38 48 46H62Q132 49 164 96Q170 102 345 401T523 704Q530 716 547 716H555H572Q578 707 578 706L606 383Q634 60 636 57Q641 46 701 46Q726 46 726 36Q726 34 723 22Q720 7 718 4T704 0Q701 0 690 0T651 1T578 2Q484 2 455 0H443Q437 6 437 9T439 27Q443 40 445 43L449 46H469Q523 49 533 63L521 213H283L249 155Q208 86 208 74ZM516 260Q516 271 504 416T490 562L463 519Q447 492 400 412L310 260L413 259Q516 259 516 260Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+ <use xlink:href="#E3-MJMATHI-41"></use>
+</g>
+</g>
+</g>
+</g>
+</svg></span> causes <span class="mjpage"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="2.411ex" height="2.509ex" style="vertical-align: -0.671ex;" viewBox="0 -791.3 1038 1080.4" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-4-Title">
+<title id="MathJax-SVG-4-Title">{\color{RoyalBlue}B},</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E4-MJMATHI-42" d="M231 637Q204 637 199 638T194 649Q194 676 205 682Q206 683 335 683Q594 683 608 681Q671 671 713 636T756 544Q756 480 698 429T565 360L555 357Q619 348 660 311T702 219Q702 146 630 78T453 1Q446 0 242 0Q42 0 39 2Q35 5 35 10Q35 17 37 24Q42 43 47 45Q51 46 62 46H68Q95 46 128 49Q142 52 147 61Q150 65 219 339T288 628Q288 635 231 637ZM649 544Q649 574 634 600T585 634Q578 636 493 637Q473 637 451 637T416 636H403Q388 635 384 626Q382 622 352 506Q352 503 351 500L320 374H401Q482 374 494 376Q554 386 601 434T649 544ZM595 229Q595 273 572 302T512 336Q506 337 429 337Q311 337 310 336Q310 334 293 263T258 122L240 52Q240 48 252 48T333 46Q422 46 429 47Q491 54 543 105T595 229Z"></path>
+<path stroke-width="1" id="E4-MJMAIN-2C" d="M78 35T78 60T94 103T137 121Q165 121 187 96T210 8Q210 -27 201 -60T180 -117T154 -158T130 -185T117 -194Q113 -194 104 -185T95 -172Q95 -168 106 -156T131 -126T157 -76T173 -3V9L172 8Q170 7 167 6T161 3T152 1T140 0Q113 0 96 17Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+ <use xlink:href="#E4-MJMATHI-42"></use>
+</g>
+</g>
+</g>
+ <use xlink:href="#E4-MJMAIN-2C" x="759" y="0"></use>
+</g>
+</svg></span> nor <span class="mjpage"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1.764ex" height="2.176ex" style="vertical-align: -0.338ex;" viewBox="0 -791.3 759.5 936.9" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-5-Title">
+<title id="MathJax-SVG-5-Title">{\color{RoyalBlue}B}</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E5-MJMATHI-42" d="M231 637Q204 637 199 638T194 649Q194 676 205 682Q206 683 335 683Q594 683 608 681Q671 671 713 636T756 544Q756 480 698 429T565 360L555 357Q619 348 660 311T702 219Q702 146 630 78T453 1Q446 0 242 0Q42 0 39 2Q35 5 35 10Q35 17 37 24Q42 43 47 45Q51 46 62 46H68Q95 46 128 49Q142 52 147 61Q150 65 219 339T288 628Q288 635 231 637ZM649 544Q649 574 634 600T585 634Q578 636 493 637Q473 637 451 637T416 636H403Q388 635 384 626Q382 622 352 506Q352 503 351 500L320 374H401Q482 374 494 376Q554 386 601 434T649 544ZM595 229Q595 273 572 302T512 336Q506 337 429 337Q311 337 310 336Q310 334 293 263T258 122L240 52Q240 48 252 48T333 46Q422 46 429 47Q491 54 543 105T595 229Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+ <use xlink:href="#E5-MJMATHI-42"></use>
+</g>
+</g>
+</g>
+</g>
+</svg></span> causes <span class="mjpage"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="2.39ex" height="2.176ex" style="vertical-align: -0.338ex;" viewBox="0 -791.3 1029 936.9" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-6-Title">
+<title id="MathJax-SVG-6-Title">{\color{RoyalBlue}A}.</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E6-MJMATHI-41" d="M208 74Q208 50 254 46Q272 46 272 35Q272 34 270 22Q267 8 264 4T251 0Q249 0 239 0T205 1T141 2Q70 2 50 0H42Q35 7 35 11Q37 38 48 46H62Q132 49 164 96Q170 102 345 401T523 704Q530 716 547 716H555H572Q578 707 578 706L606 383Q634 60 636 57Q641 46 701 46Q726 46 726 36Q726 34 723 22Q720 7 718 4T704 0Q701 0 690 0T651 1T578 2Q484 2 455 0H443Q437 6 437 9T439 27Q443 40 445 43L449 46H469Q523 49 533 63L521 213H283L249 155Q208 86 208 74ZM516 260Q516 271 504 416T490 562L463 519Q447 492 400 412L310 260L413 259Q516 259 516 260Z"></path>
+<path stroke-width="1" id="E6-MJMAIN-2E" d="M78 60Q78 84 95 102T138 120Q162 120 180 104T199 61Q199 36 182 18T139 0T96 17T78 60Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+ <use xlink:href="#E6-MJMATHI-41"></use>
+</g>
+</g>
+</g>
+ <use xlink:href="#E6-MJMAIN-2E" x="750" y="0"></use>
+</g>
+</svg></span> The correlation is coincidental.</p>
+
+        </div>
+
+
+        
+
+
+         
+
+        <div id="step-36359" class="step" style="display: block" stepid="36359" steptype="example" contentid="9700">
+            <div class="stepHeader">
+                <div class="stepName">
+                    Example: 
+                    <a id="stepAnchor-36359" class="stepAnchor" style="font-weight: normal;" name="step-8">Identifying Causation vs. Coincidence</a> 
+                </div>      
+                <div class="helpButton" stepid="36359">?</div>
+            </div>
+            
+            <div class="exampleQuestion">
+                <p>There is a correlation between the number of people purchasing cool drinks in a store and the number of people buying newspapers. Which of the following statements is most likely true?</p>
+<ol class="questionStatements">
+<li>  More people purchasing newspapers causes more people to buy cool drinks. </li>
+<li>  More people purchasing cool drinks causes more people to buy newspapers. </li>
+<li>  The correlation between the number of people purchasing cool drinks and newspapers is coincidental. </li>
+</ol>
+
+            </div>     
+
+            <div class="explanationHeader">EXPLANATION</div>
+
+            <div class="exampleExplanation">
+                <p>Correlation is not causation:</p>
+<ul>
+<li><p>Correlation means a relationship/pattern exists between the outputs of two events.</p>
+</li>
+<li><p>Causation means that one event causes the other event to occur.</p>
+</li>
+</ul>
+<p>Purchasing cool drinks does not cause more people to buy newspapers, and buying newspapers does not cause people to buy cool drinks, which suggests the following:</p>
+<blockquote>
+<p><em>"The correlation between purchasing cool drinks and newspapers is coincidental."</em></p>
+</blockquote>
+<p>Therefore, the correct answer is "III only."  </p>
+
+            </div>         
+
+                
+        </div>                 
+                        
+        
+
+
+                 
+
+                                        
+
+        <div id="question-133925" class="step questionWidget" style="display: block;"><div class="questionWidget-header"><div class="questionWidget-title">Question 3</div><div class="questionWidget-helpButton">?</div></div><div class="questionWidget-text"><p>Sally, an athlete, records everything she eats and drinks. She found a correlation between her drinking more water and a higher calorie intake. Which of the following is most likely true?</p>
+<ol class="questionStatements">
+<li>  Drinking more water causes Sally to consume more calories. </li>
+<li>  Consuming more calories causes Sally to drink more water. </li>
+<li>  The correlation between drinking more water and a higher calorie intake is coincidental. </li>
+</ol></div><table class="questionWidget-choicesTable"><tbody><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-133925-a" class="questionWidget-choiceLetterCircle">a</div></td><td class="questionWidget-choiceText">II only</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-133925-b" class="questionWidget-choiceLetterCircle">b</div></td><td class="questionWidget-choiceText">I only</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-133925-c" class="questionWidget-choiceLetterCircle">c</div></td><td class="questionWidget-choiceText">I and III only</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-133925-d" class="questionWidget-choiceLetterCircle">d</div></td><td class="questionWidget-choiceText">II and III only</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-133925-e" class="questionWidget-choiceLetterCircle">e</div></td><td class="questionWidget-choiceText">III only</td></tr></tbody></table><div class="questionWidget-buttonBar"><div class="questionWidget-submitButton disabledButton">Submit</div></div><div class="questionWidget-spinnerFrame"><div class="questionWidget-spinner"></div></div></div>                
+        
+
+
+                 
+
+                                        
+
+        <div id="question-133927" class="step questionWidget" style="display: block;"><div class="questionWidget-header"><div class="questionWidget-title">Question 4</div><div class="questionWidget-helpButton">?</div></div><div class="questionWidget-graphic"><img src="/graphics/q-133927"></div><div class="questionWidget-text"><p>The scatter plot above shows the correspondence between the number of dogs at particular kennels around the country and the amount of dog food consumed in a month (in kilograms). Which of the following is most likely true?</p>
+<ol class="questionStatements">
+<li>  An increase in the amount of dog food consumed causes an increase in the number of dogs. </li>
+<li>  An increase in the number of dogs causes an increase in the amount of dog food consumed. </li>
+<li>  The correlation between the number of dogs and the food consumed is coincidental. </li>
+</ol></div><table class="questionWidget-choicesTable"><tbody><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-133927-a" class="questionWidget-choiceLetterCircle">a</div></td><td class="questionWidget-choiceText">II and III only</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-133927-b" class="questionWidget-choiceLetterCircle">b</div></td><td class="questionWidget-choiceText">I only</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-133927-c" class="questionWidget-choiceLetterCircle">c</div></td><td class="questionWidget-choiceText">I and III only</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-133927-d" class="questionWidget-choiceLetterCircle">d</div></td><td class="questionWidget-choiceText">II only</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-133927-e" class="questionWidget-choiceLetterCircle">e</div></td><td class="questionWidget-choiceText">III only</td></tr></tbody></table><div class="questionWidget-buttonBar"><div class="questionWidget-submitButton disabledButton">Submit</div></div><div class="questionWidget-spinnerFrame"><div class="questionWidget-spinner"></div></div></div>                
+        
+
+
+        
+                
+        <div id="step-36384" class="step" style="display: block" stepid="36384" steptype="tutorial" contentid="5957">
+            <div class="stepHeader">
+                <div class="stepName">
+                    <a id="stepAnchor-36384" class="stepAnchor" name="step-11">Multiple Causations</a>
+                </div>
+                <div class="helpButton" stepid="36384">?</div>
+            </div> 
+
+            <style type="text/css">
+                            .mjpage .MJX-monospace {
+                            font-family: monospace
+                            }
+
+                            .mjpage .MJX-sans-serif {
+                            font-family: sans-serif
+                            }
+
+                            .mjpage {
+                            display: inline;
+                            font-style: normal;
+                            font-weight: normal;
+                            line-height: normal;
+                            font-size: 100%;
+                            font-size-adjust: none;
+                            text-indent: 0;
+                            text-align: left;
+                            text-transform: none;
+                            letter-spacing: normal;
+                            word-spacing: normal;
+                            word-wrap: normal;
+                            white-space: nowrap;
+                            float: none;
+                            direction: ltr;
+                            max-width: none;
+                            max-height: none;
+                            min-width: 0;
+                            min-height: 0;
+                            border: 0;
+                            padding: 0;
+                            margin: 0
+                            }
+
+                            .mjpage * {
+                            transition: none;
+                            -webkit-transition: none;
+                            -moz-transition: none;
+                            -ms-transition: none;
+                            -o-transition: none
+                            }
+
+                            .mjx-svg-href {
+                            fill: blue;
+                            stroke: blue
+                            }
+
+                            .MathJax_SVG_LineBox {
+                            display: table!important
+                            }
+
+                            .MathJax_SVG_LineBox span {
+                            display: table-cell!important;
+                            width: 10000em!important;
+                            min-width: 0;
+                            max-width: none;
+                            padding: 0;
+                            border: 0;
+                            margin: 0
+                            }
+
+                            .mjpage__block {
+                            text-align: center;
+                            margin: 1em 0em;
+                            position: relative;
+                            display: block!important;
+                            text-indent: 0;
+                            max-width: none;
+                            max-height: none;
+                            min-width: 0;
+                            min-height: 0;
+                            width: 100%
+                            }</style><p>Finally, it might be the case that many variables, besides <span class="mjpage"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="2.39ex" height="2.509ex" style="vertical-align: -0.671ex;" viewBox="0 -791.3 1029 1080.4" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-1-Title">
+<title id="MathJax-SVG-1-Title">{\color{RoyalBlue}A},</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E1-MJMATHI-41" d="M208 74Q208 50 254 46Q272 46 272 35Q272 34 270 22Q267 8 264 4T251 0Q249 0 239 0T205 1T141 2Q70 2 50 0H42Q35 7 35 11Q37 38 48 46H62Q132 49 164 96Q170 102 345 401T523 704Q530 716 547 716H555H572Q578 707 578 706L606 383Q634 60 636 57Q641 46 701 46Q726 46 726 36Q726 34 723 22Q720 7 718 4T704 0Q701 0 690 0T651 1T578 2Q484 2 455 0H443Q437 6 437 9T439 27Q443 40 445 43L449 46H469Q523 49 533 63L521 213H283L249 155Q208 86 208 74ZM516 260Q516 271 504 416T490 562L463 519Q447 492 400 412L310 260L413 259Q516 259 516 260Z"></path>
+<path stroke-width="1" id="E1-MJMAIN-2C" d="M78 35T78 60T94 103T137 121Q165 121 187 96T210 8Q210 -27 201 -60T180 -117T154 -158T130 -185T117 -194Q113 -194 104 -185T95 -172Q95 -168 106 -156T131 -126T157 -76T173 -3V9L172 8Q170 7 167 6T161 3T152 1T140 0Q113 0 96 17Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+ <use xlink:href="#E1-MJMATHI-41"></use>
+</g>
+</g>
+</g>
+ <use xlink:href="#E1-MJMAIN-2C" x="750" y="0"></use>
+</g>
+</svg></span> cause <span class="mjpage"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="2.411ex" height="2.176ex" style="vertical-align: -0.338ex;" viewBox="0 -791.3 1038 936.9" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-2-Title">
+<title id="MathJax-SVG-2-Title">{\color{RoyalBlue}B}.</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E2-MJMATHI-42" d="M231 637Q204 637 199 638T194 649Q194 676 205 682Q206 683 335 683Q594 683 608 681Q671 671 713 636T756 544Q756 480 698 429T565 360L555 357Q619 348 660 311T702 219Q702 146 630 78T453 1Q446 0 242 0Q42 0 39 2Q35 5 35 10Q35 17 37 24Q42 43 47 45Q51 46 62 46H68Q95 46 128 49Q142 52 147 61Q150 65 219 339T288 628Q288 635 231 637ZM649 544Q649 574 634 600T585 634Q578 636 493 637Q473 637 451 637T416 636H403Q388 635 384 626Q382 622 352 506Q352 503 351 500L320 374H401Q482 374 494 376Q554 386 601 434T649 544ZM595 229Q595 273 572 302T512 336Q506 337 429 337Q311 337 310 336Q310 334 293 263T258 122L240 52Q240 48 252 48T333 46Q422 46 429 47Q491 54 543 105T595 229Z"></path>
+<path stroke-width="1" id="E2-MJMAIN-2E" d="M78 60Q78 84 95 102T138 120Q162 120 180 104T199 61Q199 36 182 18T139 0T96 17T78 60Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+ <use xlink:href="#E2-MJMATHI-42"></use>
+</g>
+</g>
+</g>
+ <use xlink:href="#E2-MJMAIN-2E" x="759" y="0"></use>
+</g>
+</svg></span> This can be visualized as follows:  </p>
+<div id="graphic-a3fb29e88e75c7396879e8954389e8d0" class="graphic"><img src="/graphics/a3fb29e88e75c7396879e8954389e8d0"></div>
+
+<p>For example, there is a correlation between the average speed of cars <span class="mjpage"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="3.552ex" height="2.843ex" style="vertical-align: -0.838ex;" viewBox="0 -863.1 1529.5 1223.9" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-3-Title">
+<title id="MathJax-SVG-3-Title">({\color{RoyalBlue}A})</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E3-MJMAIN-28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path>
+<path stroke-width="1" id="E3-MJMATHI-41" d="M208 74Q208 50 254 46Q272 46 272 35Q272 34 270 22Q267 8 264 4T251 0Q249 0 239 0T205 1T141 2Q70 2 50 0H42Q35 7 35 11Q37 38 48 46H62Q132 49 164 96Q170 102 345 401T523 704Q530 716 547 716H555H572Q578 707 578 706L606 383Q634 60 636 57Q641 46 701 46Q726 46 726 36Q726 34 723 22Q720 7 718 4T704 0Q701 0 690 0T651 1T578 2Q484 2 455 0H443Q437 6 437 9T439 27Q443 40 445 43L449 46H469Q523 49 533 63L521 213H283L249 155Q208 86 208 74ZM516 260Q516 271 504 416T490 562L463 519Q447 492 400 412L310 260L413 259Q516 259 516 260Z"></path>
+<path stroke-width="1" id="E3-MJMAIN-29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+ <use xlink:href="#E3-MJMAIN-28" x="0" y="0"></use>
+<g transform="translate(389,0)">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+ <use xlink:href="#E3-MJMATHI-41"></use>
+</g>
+</g>
+</g>
+</g>
+ <use xlink:href="#E3-MJMAIN-29" x="1140" y="0"></use>
+</g>
+</svg></span> and the number of car accidents <span class="mjpage"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="3.573ex" height="2.843ex" style="vertical-align: -0.838ex;" viewBox="0 -863.1 1538.5 1223.9" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-4-Title">
+<title id="MathJax-SVG-4-Title">({\color{RoyalBlue}B})</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E4-MJMAIN-28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path>
+<path stroke-width="1" id="E4-MJMATHI-42" d="M231 637Q204 637 199 638T194 649Q194 676 205 682Q206 683 335 683Q594 683 608 681Q671 671 713 636T756 544Q756 480 698 429T565 360L555 357Q619 348 660 311T702 219Q702 146 630 78T453 1Q446 0 242 0Q42 0 39 2Q35 5 35 10Q35 17 37 24Q42 43 47 45Q51 46 62 46H68Q95 46 128 49Q142 52 147 61Q150 65 219 339T288 628Q288 635 231 637ZM649 544Q649 574 634 600T585 634Q578 636 493 637Q473 637 451 637T416 636H403Q388 635 384 626Q382 622 352 506Q352 503 351 500L320 374H401Q482 374 494 376Q554 386 601 434T649 544ZM595 229Q595 273 572 302T512 336Q506 337 429 337Q311 337 310 336Q310 334 293 263T258 122L240 52Q240 48 252 48T333 46Q422 46 429 47Q491 54 543 105T595 229Z"></path>
+<path stroke-width="1" id="E4-MJMAIN-29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+ <use xlink:href="#E4-MJMAIN-28" x="0" y="0"></use>
+<g transform="translate(389,0)">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+ <use xlink:href="#E4-MJMATHI-42"></use>
+</g>
+</g>
+</g>
+</g>
+ <use xlink:href="#E4-MJMAIN-29" x="1149" y="0"></use>
+</g>
+</svg></span> on a certain highway. Does <span class="mjpage"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1.743ex" height="2.176ex" style="vertical-align: -0.338ex;" viewBox="0 -791.3 750.5 936.9" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-5-Title">
+<title id="MathJax-SVG-5-Title">{\color{RoyalBlue}A}</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E5-MJMATHI-41" d="M208 74Q208 50 254 46Q272 46 272 35Q272 34 270 22Q267 8 264 4T251 0Q249 0 239 0T205 1T141 2Q70 2 50 0H42Q35 7 35 11Q37 38 48 46H62Q132 49 164 96Q170 102 345 401T523 704Q530 716 547 716H555H572Q578 707 578 706L606 383Q634 60 636 57Q641 46 701 46Q726 46 726 36Q726 34 723 22Q720 7 718 4T704 0Q701 0 690 0T651 1T578 2Q484 2 455 0H443Q437 6 437 9T439 27Q443 40 445 43L449 46H469Q523 49 533 63L521 213H283L249 155Q208 86 208 74ZM516 260Q516 271 504 416T490 562L463 519Q447 492 400 412L310 260L413 259Q516 259 516 260Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+ <use xlink:href="#E5-MJMATHI-41"></use>
+</g>
+</g>
+</g>
+</g>
+</svg></span> cause <span class="mjpage"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1.764ex" height="2.176ex" style="vertical-align: -0.338ex;" viewBox="0 -791.3 759.5 936.9" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-6-Title">
+<title id="MathJax-SVG-6-Title">{\color{RoyalBlue}B}</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E6-MJMATHI-42" d="M231 637Q204 637 199 638T194 649Q194 676 205 682Q206 683 335 683Q594 683 608 681Q671 671 713 636T756 544Q756 480 698 429T565 360L555 357Q619 348 660 311T702 219Q702 146 630 78T453 1Q446 0 242 0Q42 0 39 2Q35 5 35 10Q35 17 37 24Q42 43 47 45Q51 46 62 46H68Q95 46 128 49Q142 52 147 61Q150 65 219 339T288 628Q288 635 231 637ZM649 544Q649 574 634 600T585 634Q578 636 493 637Q473 637 451 637T416 636H403Q388 635 384 626Q382 622 352 506Q352 503 351 500L320 374H401Q482 374 494 376Q554 386 601 434T649 544ZM595 229Q595 273 572 302T512 336Q506 337 429 337Q311 337 310 336Q310 334 293 263T258 122L240 52Q240 48 252 48T333 46Q422 46 429 47Q491 54 543 105T595 229Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+ <use xlink:href="#E6-MJMATHI-42"></use>
+</g>
+</g>
+</g>
+</g>
+</svg></span> here?</p>
+<p>The answer might be a bit more complicated. There are <strong>multiple causes</strong>. The speed <span class="mjpage"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="4.199ex" height="2.843ex" style="vertical-align: -0.838ex;" viewBox="0 -863.1 1808 1223.9" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-7-Title">
+<title id="MathJax-SVG-7-Title">({\color{RoyalBlue}A}),</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E7-MJMAIN-28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path>
+<path stroke-width="1" id="E7-MJMATHI-41" d="M208 74Q208 50 254 46Q272 46 272 35Q272 34 270 22Q267 8 264 4T251 0Q249 0 239 0T205 1T141 2Q70 2 50 0H42Q35 7 35 11Q37 38 48 46H62Q132 49 164 96Q170 102 345 401T523 704Q530 716 547 716H555H572Q578 707 578 706L606 383Q634 60 636 57Q641 46 701 46Q726 46 726 36Q726 34 723 22Q720 7 718 4T704 0Q701 0 690 0T651 1T578 2Q484 2 455 0H443Q437 6 437 9T439 27Q443 40 445 43L449 46H469Q523 49 533 63L521 213H283L249 155Q208 86 208 74ZM516 260Q516 271 504 416T490 562L463 519Q447 492 400 412L310 260L413 259Q516 259 516 260Z"></path>
+<path stroke-width="1" id="E7-MJMAIN-29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path>
+<path stroke-width="1" id="E7-MJMAIN-2C" d="M78 35T78 60T94 103T137 121Q165 121 187 96T210 8Q210 -27 201 -60T180 -117T154 -158T130 -185T117 -194Q113 -194 104 -185T95 -172Q95 -168 106 -156T131 -126T157 -76T173 -3V9L172 8Q170 7 167 6T161 3T152 1T140 0Q113 0 96 17Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+ <use xlink:href="#E7-MJMAIN-28" x="0" y="0"></use>
+<g transform="translate(389,0)">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+ <use xlink:href="#E7-MJMATHI-41"></use>
+</g>
+</g>
+</g>
+</g>
+ <use xlink:href="#E7-MJMAIN-29" x="1140" y="0"></use>
+ <use xlink:href="#E7-MJMAIN-2C" x="1529" y="0"></use>
+</g>
+</svg></span> the road conditions <span class="mjpage"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="4.222ex" height="2.843ex" style="vertical-align: -0.838ex;" viewBox="0 -863.1 1818 1223.9" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-8-Title">
+<title id="MathJax-SVG-8-Title">({\color{SandyBrown}C}),</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E8-MJMAIN-28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path>
+<path stroke-width="1" id="E8-MJMATHI-43" d="M50 252Q50 367 117 473T286 641T490 704Q580 704 633 653Q642 643 648 636T656 626L657 623Q660 623 684 649Q691 655 699 663T715 679T725 690L740 705H746Q760 705 760 698Q760 694 728 561Q692 422 692 421Q690 416 687 415T669 413H653Q647 419 647 422Q647 423 648 429T650 449T651 481Q651 552 619 605T510 659Q484 659 454 652T382 628T299 572T226 479Q194 422 175 346T156 222Q156 108 232 58Q280 24 350 24Q441 24 512 92T606 240Q610 253 612 255T628 257Q648 257 648 248Q648 243 647 239Q618 132 523 55T319 -22Q206 -22 128 53T50 252Z"></path>
+<path stroke-width="1" id="E8-MJMAIN-29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path>
+<path stroke-width="1" id="E8-MJMAIN-2C" d="M78 35T78 60T94 103T137 121Q165 121 187 96T210 8Q210 -27 201 -60T180 -117T154 -158T130 -185T117 -194Q113 -194 104 -185T95 -172Q95 -168 106 -156T131 -126T157 -76T173 -3V9L172 8Q170 7 167 6T161 3T152 1T140 0Q113 0 96 17Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+ <use xlink:href="#E8-MJMAIN-28" x="0" y="0"></use>
+<g transform="translate(389,0)">
+<g fill="SandyBrown" stroke="SandyBrown">
+<g fill="SandyBrown" stroke="SandyBrown">
+<g fill="SandyBrown" stroke="SandyBrown">
+ <use xlink:href="#E8-MJMATHI-43"></use>
+</g>
+</g>
+</g>
+</g>
+ <use xlink:href="#E8-MJMAIN-29" x="1150" y="0"></use>
+ <use xlink:href="#E8-MJMAIN-2C" x="1539" y="0"></use>
+</g>
+</svg></span> and the weather conditions <span class="mjpage"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="4.38ex" height="2.843ex" style="vertical-align: -0.838ex;" viewBox="0 -863.1 1886 1223.9" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-9-Title">
+<title id="MathJax-SVG-9-Title">({\color{SandyBrown}D}),</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E9-MJMAIN-28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path>
+<path stroke-width="1" id="E9-MJMATHI-44" d="M287 628Q287 635 230 637Q207 637 200 638T193 647Q193 655 197 667T204 682Q206 683 403 683Q570 682 590 682T630 676Q702 659 752 597T803 431Q803 275 696 151T444 3L430 1L236 0H125H72Q48 0 41 2T33 11Q33 13 36 25Q40 41 44 43T67 46Q94 46 127 49Q141 52 146 61Q149 65 218 339T287 628ZM703 469Q703 507 692 537T666 584T629 613T590 629T555 636Q553 636 541 636T512 636T479 637H436Q392 637 386 627Q384 623 313 339T242 52Q242 48 253 48T330 47Q335 47 349 47T373 46Q499 46 581 128Q617 164 640 212T683 339T703 469Z"></path>
+<path stroke-width="1" id="E9-MJMAIN-29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path>
+<path stroke-width="1" id="E9-MJMAIN-2C" d="M78 35T78 60T94 103T137 121Q165 121 187 96T210 8Q210 -27 201 -60T180 -117T154 -158T130 -185T117 -194Q113 -194 104 -185T95 -172Q95 -168 106 -156T131 -126T157 -76T173 -3V9L172 8Q170 7 167 6T161 3T152 1T140 0Q113 0 96 17Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+ <use xlink:href="#E9-MJMAIN-28" x="0" y="0"></use>
+<g transform="translate(389,0)">
+<g fill="SandyBrown" stroke="SandyBrown">
+<g fill="SandyBrown" stroke="SandyBrown">
+<g fill="SandyBrown" stroke="SandyBrown">
+ <use xlink:href="#E9-MJMATHI-44"></use>
+</g>
+</g>
+</g>
+</g>
+ <use xlink:href="#E9-MJMAIN-29" x="1218" y="0"></use>
+ <use xlink:href="#E9-MJMAIN-2C" x="1607" y="0"></use>
+</g>
+</svg></span> among others factors, are causes influencing the number of accidents on a highway <span class="mjpage"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="4.22ex" height="2.843ex" style="vertical-align: -0.838ex;" viewBox="0 -863.1 1817 1223.9" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-10-Title">
+<title id="MathJax-SVG-10-Title">({\color{RoyalBlue}B}).</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E10-MJMAIN-28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path>
+<path stroke-width="1" id="E10-MJMATHI-42" d="M231 637Q204 637 199 638T194 649Q194 676 205 682Q206 683 335 683Q594 683 608 681Q671 671 713 636T756 544Q756 480 698 429T565 360L555 357Q619 348 660 311T702 219Q702 146 630 78T453 1Q446 0 242 0Q42 0 39 2Q35 5 35 10Q35 17 37 24Q42 43 47 45Q51 46 62 46H68Q95 46 128 49Q142 52 147 61Q150 65 219 339T288 628Q288 635 231 637ZM649 544Q649 574 634 600T585 634Q578 636 493 637Q473 637 451 637T416 636H403Q388 635 384 626Q382 622 352 506Q352 503 351 500L320 374H401Q482 374 494 376Q554 386 601 434T649 544ZM595 229Q595 273 572 302T512 336Q506 337 429 337Q311 337 310 336Q310 334 293 263T258 122L240 52Q240 48 252 48T333 46Q422 46 429 47Q491 54 543 105T595 229Z"></path>
+<path stroke-width="1" id="E10-MJMAIN-29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path>
+<path stroke-width="1" id="E10-MJMAIN-2E" d="M78 60Q78 84 95 102T138 120Q162 120 180 104T199 61Q199 36 182 18T139 0T96 17T78 60Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+ <use xlink:href="#E10-MJMAIN-28" x="0" y="0"></use>
+<g transform="translate(389,0)">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+<g fill="#0071BC" stroke="#0071BC">
+ <use xlink:href="#E10-MJMATHI-42"></use>
+</g>
+</g>
+</g>
+</g>
+ <use xlink:href="#E10-MJMAIN-29" x="1149" y="0"></use>
+ <use xlink:href="#E10-MJMAIN-2E" x="1538" y="0"></use>
+</g>
+</svg></span></p>
+
+        </div>
+
+
+        
+
+
+         
+
+        <div id="step-36360" class="step" style="display: block" stepid="36360" steptype="example" contentid="9701">
+            <div class="stepHeader">
+                <div class="stepName">
+                    Example: 
+                    <a id="stepAnchor-36360" class="stepAnchor" style="font-weight: normal;" name="step-12">Identifying Causation vs. Multiple Causations</a> 
+                </div>      
+                <div class="helpButton" stepid="36360">?</div>
+            </div>
+            
+            <div class="exampleQuestion">
+                <div id="graphic-80b511b3618c14593df9c4dd365ba4ad" class="graphic"><img src="/graphics/80b511b3618c14593df9c4dd365ba4ad"></div>
+
+<p>The above scatter plot shows the correspondence between the ball possession percentage per game and the number of wins of teams in the NBA. Which of the following is most likely true? </p>
+<ol class="questionStatements">
+<li>  A higher percentage of ball possession is the only cause of an increase in the number of wins. </li>
+<li>  A higher percentage of ball possession causes a decrease in the number of wins. </li>
+<li>  A higher percentage of both ball possession and point shot attempts are factors that influence the number of wins. </li>
+</ol>
+            </div>     
+
+            <div class="explanationHeader">EXPLANATION</div>
+
+            <div class="exampleExplanation">
+                <p>The scatter plot shows that a team's ball possession and the number of wins correlate. But correlation is not causation: </p>
+<ul>
+<li><p>Correlation means a relationship/pattern exists between the outputs of two events.</p>
+</li>
+<li><p>Causation means that one event causes the other event to occur.</p>
+</li>
+</ul>
+<p>A higher percentage of ball possession causes a team to lose fewer games. But the number of point shot attempts also influences the number of wins, which suggests the following:</p>
+<blockquote>
+<p><em>"A higher percentage of both ball possession and point shot attempts are factors that influence the number of wins."</em>      </p>
+</blockquote>
+<p>Therefore, the correct answer is "III only."    </p>
+
+            </div>         
+
+                
+        </div>                 
+                        
+        
+
+
+                 
+
+                                        
+
+        <div id="question-133990" class="step questionWidget" style="display: block;"><div class="questionWidget-header"><div class="questionWidget-title">Question 5</div><div class="questionWidget-helpButton">?</div></div><div class="questionWidget-text"><p>There is a correlation between "the speed of a windmill's blades" and "the strength of the wind." Which of the following is most likely true?</p>
+<ol class="questionStatements">
+<li>  An increase in the speed of a windmill's blades causes an increase in the strength of the wind. </li>
+<li>  An increase in the strength of the wind causes an increase in the speed of a windmill's blades. </li>
+<li>  The strength of the wind and the amount of grain milled are both factors that influence the speed of the windmill's blades. </li>
+</ol>
+</div><table class="questionWidget-choicesTable"><tbody><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-133990-a" class="questionWidget-choiceLetterCircle">a</div></td><td class="questionWidget-choiceText">II and III only</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-133990-b" class="questionWidget-choiceLetterCircle">b</div></td><td class="questionWidget-choiceText">III only</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-133990-c" class="questionWidget-choiceLetterCircle">c</div></td><td class="questionWidget-choiceText">I and III only</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-133990-d" class="questionWidget-choiceLetterCircle">d</div></td><td class="questionWidget-choiceText">II only</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-133990-e" class="questionWidget-choiceLetterCircle">e</div></td><td class="questionWidget-choiceText">I only</td></tr></tbody></table><div class="questionWidget-buttonBar"><div class="questionWidget-submitButton disabledButton">Submit</div></div><div class="questionWidget-spinnerFrame"><div class="questionWidget-spinner"></div></div></div>                
+        
+
+
+                 
+
+                                        
+
+        <div id="question-133930" class="step questionWidget" style="display: block;"><div class="questionWidget-header"><div class="questionWidget-title">Question 6</div><div class="questionWidget-helpButton">?</div></div><div class="questionWidget-graphic"><img src="/graphics/q-133930"></div><div class="questionWidget-text"><p>Jake is practicing his baseball batting. The scatter plot above shows the correspondence between the angle at which Jake hits the ball and the distance the ball travels (in feet). Which of the following is most likely true?</p>
+<ol class="questionStatements">
+<li>  An increase in the angle of contact is the only cause of an increase in the distance traveled. </li>
+<li>  An increase in force the ball is struck is the only cause of an increase in the distance traveled. </li>
+<li>  The angle of contact and the force the ball is struck are both factors that influence the distance traveled. </li>
+</ol></div><table class="questionWidget-choicesTable"><tbody><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-133930-a" class="questionWidget-choiceLetterCircle">a</div></td><td class="questionWidget-choiceText">II and III only</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-133930-b" class="questionWidget-choiceLetterCircle">b</div></td><td class="questionWidget-choiceText">III only</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-133930-c" class="questionWidget-choiceLetterCircle">c</div></td><td class="questionWidget-choiceText">II only</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-133930-d" class="questionWidget-choiceLetterCircle">d</div></td><td class="questionWidget-choiceText">I only</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-133930-e" class="questionWidget-choiceLetterCircle">e</div></td><td class="questionWidget-choiceText">I and III only</td></tr></tbody></table><div class="questionWidget-buttonBar"><div class="questionWidget-submitButton disabledButton">Submit</div></div><div class="questionWidget-spinnerFrame"><div class="questionWidget-spinner"></div></div></div>                
+        
+
+</div>
+
+
+<link rel="stylesheet" href="/css/flag-content-dialog.css">
+
+<script type="text/javascript" src="/js/flag-content-dialog.js"></script>
+
+<div id="flagContentDialog">
+    <div id="flagContentDialog-title">Flag Content</div>
+
+    <div id="flagContentDialog-instructions">Did you notice an error, or do you simply believe that something could be improved? Please explain below.</div>
+
+    <textarea id="flagContentDialog-description"></textarea>
+
+    <div id="flagContentDialog-submitButton">Submit</div>
+    <div id="flagContentDialog-cancelButton">Cancel</div>
+</div>            
+            </div> 
+        </div>
+
+        <link rel="stylesheet" href="/css/support-dialog.css">
+
+<script type="text/javascript" src="/js/support-dialog.js"></script>
+
+<div id="supportDialog">
+    <div id="supportDialog-title">Support</div>
+
+    <div id="supportDialog-message">
+        If you need support, please email <b>support@mathacademy.com</b>.
+    </div>
+
+    <div id="supportDialog-buttons">
+        <div id="supportDialog-closeButton">Close</div>
+    </div>
+</div>
+        <link rel="stylesheet" href="/css/xp-goals-dialog.css">
+
+<script type="text/javascript" src="/js/xp-goals-dialog.js"></script>
+
+<div id="xpGoalsDialog">
+    <div id="xpGoalsDialog-title">XP Goals</div>
+
+    <table id="xpGoalsDialog-goals" cellpadding="0" cellspacing="0">
+        <tbody><tr>
+            <td class="xpGoalsDialog-dayOfWeek">Sun</td>
+            <td class="xpGoalsDialog-dayOfWeek">Mon</td>
+            <td class="xpGoalsDialog-dayOfWeek">Tue</td>
+            <td class="xpGoalsDialog-dayOfWeek">Wed</td>
+            <td class="xpGoalsDialog-dayOfWeek">Thu</td>
+            <td class="xpGoalsDialog-dayOfWeek">Fri</td>
+            <td class="xpGoalsDialog-dayOfWeek">Sat</td>
+        </tr>
+        <tr>
+            <td><input id="xpGoalsDialog-sunGoal" class="xpGoalsDialog-goal" type="text"> </td>
+            <td><input id="xpGoalsDialog-monGoal" class="xpGoalsDialog-goal" type="text"> </td>
+            <td><input id="xpGoalsDialog-tueGoal" class="xpGoalsDialog-goal" type="text"> </td>
+            <td><input id="xpGoalsDialog-wedGoal" class="xpGoalsDialog-goal" type="text"> </td>
+            <td><input id="xpGoalsDialog-thuGoal" class="xpGoalsDialog-goal" type="text"> </td>
+            <td><input id="xpGoalsDialog-friGoal" class="xpGoalsDialog-goal" type="text"> </td>
+            <td><input id="xpGoalsDialog-satGoal" class="xpGoalsDialog-goal" type="text"> </td>
+        </tr> 
+    </tbody></table>
+
+
+    <div id="xpGoalsDialog-courseCompletionText"></div>
+
+    <div id="xpGoalsDialog-pausedFrame">
+        <input id="xpGoalsDialog-paused" name="xpGoalsDialog-paused" type="checkbox"> 
+        <label id="xpGoalsDialog-pausedLabel" for="xpGoalsDialog-paused">Paused</label>
+    </div>
+
+    <div id="xpGoalsDialog-buttonBar">
+        <div id="xpGoalsDialog-submitButton">SUBMIT</div>
+        <div id="xpGoalsDialog-cancelButton">CANCEL</div>
+    </div>
+</div>
+        <link rel="stylesheet" href="/css/course-dialog.css">
+
+<script type="text/javascript" src="/js/course-dialog.js"></script>
+
+<div id="courseDialog">
+    <div id="courseDialog-title">Change Course</div>
+
+    <div id="courseDialog-course">
+        <label id="courseDialog-courseLabel">Course</label>
+
+        <select id="courseDialog-courseSelect">
+            <option selected="">-</option>
+        </select>
+    </div>
+
+    <div id="courseDialog-buttonBar">
+        <div id="courseDialog-submitButton">SUBMIT</div>
+        <div id="courseDialog-cancelButton">CANCEL</div>
+    </div>
+</div>
+
+                
+
+                                    
+    
+              
+    
+</body></html>

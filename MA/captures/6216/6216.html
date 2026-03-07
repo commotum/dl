@@ -1,0 +1,1606 @@
+<!DOCTYPE html><html><head>
+        <title>Math Academy</title>
+        <meta charset="utf-8">
+
+        <link rel="shortcut icon" href="/img/favicon.ico">
+        <link rel="stylesheet" href="/css/app.css">
+        <link rel="stylesheet" href="/css/mathquill.css">
+        <link rel="stylesheet" href="/css/math-editor.css">
+
+        <link rel="stylesheet" href="/css/prism.css">
+        <script type="text/javascript" src="/js/prism.js"></script>
+
+        <script type="text/javascript" src="/js/jquery.1.11.0.min.js"></script>
+
+        <script>
+            $.noConflict();
+            // Code that uses other library's $ can follow here.
+        </script>
+
+        <script type="text/javascript" src="/js/mathquill.v2.1.min.js"></script>
+        <script type="text/javascript" src="/js/math-editor.js"></script> 
+        <script type="text/javascript" src="/js/mathjax-config.js"></script>
+        <script type="text/javascript" id="MathJax-script" async="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <!--
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>        
+        <script type="text/javascript" src="/js/katex-config.js"></script>
+        -->
+
+        <script>
+            function showSupportDialog() {
+                const dlg = new SupportDialog();
+                dlg.show();
+            }            
+        </script>
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
+        <script type="text/javascript" src="/js/commonFunctions.js"></script>
+        <script type="text/javascript" src="/js/core.js"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/input/tex/extensions/color.js" charset="UTF-8"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/input/tex/extensions/enclose.js" charset="UTF-8"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/input/tex/extensions/bbox.js" charset="UTF-8"></script>
+        <script type="text/javascript" src="/js/core-ui.js"></script>
+        <script type="text/javascript" src="/js/api.js"></script>
+        <script type="text/javascript" src="/js/api-new.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
+        <script type="text/javascript" src="/js/jdom.js"></script>
+        <script type="text/javascript" src="/js/header.js"></script>
+
+        <script>
+            var userTimeZone = 'America/Los_Angeles';
+            checkTimeZone(userTimeZone);
+        </script>
+
+        <style>
+            div#courseNameHeader {
+                margin-top: 50px;
+            }            
+        </style>        
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/input/tex/extensions/cancel.js" charset="UTF-8"></script><style type="text/css">.CtxtMenu_InfoClose {  top:.2em; right:.2em;}
+.CtxtMenu_InfoContent {  overflow:auto; text-align:left; font-size:80%;  padding:.4em .6em; border:1px inset; margin:1em 0px;  max-height:20em; max-width:30em; background-color:#EEEEEE;  white-space:normal;}
+.CtxtMenu_Info.CtxtMenu_MousePost {outline:none;}
+.CtxtMenu_Info {  position:fixed; left:50%; width:auto; text-align:center;  border:3px outset; padding:1em 2em; background-color:#DDDDDD;  color:black;  cursor:default; font-family:message-box; font-size:120%;  font-style:normal; text-indent:0; text-transform:none;  line-height:normal; letter-spacing:normal; word-spacing:normal;  word-wrap:normal; white-space:nowrap; float:none; z-index:201;  border-radius: 15px;                     /* Opera 10.5 and IE9 */  -webkit-border-radius:15px;               /* Safari and Chrome */  -moz-border-radius:15px;                  /* Firefox */  -khtml-border-radius:15px;                /* Konqueror */  box-shadow:0px 10px 20px #808080;         /* Opera 10.5 and IE9 */  -webkit-box-shadow:0px 10px 20px #808080; /* Safari 3 & Chrome */  -moz-box-shadow:0px 10px 20px #808080;    /* Forefox 3.5 */  -khtml-box-shadow:0px 10px 20px #808080;  /* Konqueror */  filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color="gray", Positive="true"); /* IE */}
+</style><style type="text/css">.CtxtMenu_MenuClose {  position:absolute;  cursor:pointer;  display:inline-block;  border:2px solid #AAA;  border-radius:18px;  -webkit-border-radius: 18px;             /* Safari and Chrome */  -moz-border-radius: 18px;                /* Firefox */  -khtml-border-radius: 18px;              /* Konqueror */  font-family: "Courier New", Courier;  font-size:24px;  color:#F0F0F0}
+.CtxtMenu_MenuClose span {  display:block; background-color:#AAA; border:1.5px solid;  border-radius:18px;  -webkit-border-radius: 18px;             /* Safari and Chrome */  -moz-border-radius: 18px;                /* Firefox */  -khtml-border-radius: 18px;              /* Konqueror */  line-height:0;  padding:8px 0 6px     /* may need to be browser-specific */}
+.CtxtMenu_MenuClose:hover {  color:white!important;  border:2px solid #CCC!important}
+.CtxtMenu_MenuClose:hover span {  background-color:#CCC!important}
+.CtxtMenu_MenuClose:hover:focus {  outline:none}
+</style><style type="text/css">.CtxtMenu_Menu {  position:absolute;  background-color:white;  color:black;  width:auto; padding:5px 0px;  border:1px solid #CCCCCC; margin:0; cursor:default;  font: menu; text-align:left; text-indent:0; text-transform:none;  line-height:normal; letter-spacing:normal; word-spacing:normal;  word-wrap:normal; white-space:nowrap; float:none; z-index:201;  border-radius: 5px;                     /* Opera 10.5 and IE9 */  -webkit-border-radius: 5px;             /* Safari and Chrome */  -moz-border-radius: 5px;                /* Firefox */  -khtml-border-radius: 5px;              /* Konqueror */  box-shadow:0px 10px 20px #808080;         /* Opera 10.5 and IE9 */  -webkit-box-shadow:0px 10px 20px #808080; /* Safari 3 & Chrome */  -moz-box-shadow:0px 10px 20px #808080;    /* Forefox 3.5 */  -khtml-box-shadow:0px 10px 20px #808080;  /* Konqueror */}
+.CtxtMenu_MenuItem {  padding: 1px 2em;  background:transparent;}
+.CtxtMenu_MenuArrow {  position:absolute; right:.5em; padding-top:.25em; color:#666666;  font-family: null; font-size: .75em}
+.CtxtMenu_MenuActive .CtxtMenu_MenuArrow {color:white}
+.CtxtMenu_MenuArrow.CtxtMenu_RTL {left:.5em; right:auto}
+.CtxtMenu_MenuCheck {  position:absolute; left:.7em;  font-family: null}
+.CtxtMenu_MenuCheck.CtxtMenu_RTL { right:.7em; left:auto }
+.CtxtMenu_MenuRadioCheck {  position:absolute; left: .7em;}
+.CtxtMenu_MenuRadioCheck.CtxtMenu_RTL {  right: .7em; left:auto}
+.CtxtMenu_MenuInputBox {  padding-left: 1em; right:.5em; color:#666666;  font-family: null;}
+.CtxtMenu_MenuInputBox.CtxtMenu_RTL {  left: .1em;}
+.CtxtMenu_MenuComboBox {  left:.1em; padding-bottom:.5em;}
+.CtxtMenu_MenuSlider {  left: .1em;}
+.CtxtMenu_SliderValue {  position:absolute; right:.1em; padding-top:.25em; color:#333333;  font-size: .75em}
+.CtxtMenu_SliderBar {  outline: none; background: #d3d3d3}
+.CtxtMenu_MenuLabel {  padding: 1px 2em 3px 1.33em;  font-style:italic}
+.CtxtMenu_MenuRule {  border-top: 1px solid #DDDDDD;  margin: 4px 3px;}
+.CtxtMenu_MenuDisabled {  color:GrayText}
+.CtxtMenu_MenuActive {  background-color: #606872;  color: white;}
+.CtxtMenu_MenuDisabled:focus {  background-color: #E8E8E8}
+.CtxtMenu_MenuLabel:focus {  background-color: #E8E8E8}
+.CtxtMenu_ContextMenu:focus {  outline:none}
+.CtxtMenu_ContextMenu .CtxtMenu_MenuItem:focus {  outline:none}
+.CtxtMenu_SelectionMenu {  position:relative; float:left;  border-bottom: none; -webkit-box-shadow:none; -webkit-border-radius:0px; }
+.CtxtMenu_SelectionItem {  padding-right: 1em;}
+.CtxtMenu_Selection {  right: 40%; width:50%; }
+.CtxtMenu_SelectionBox {  padding: 0em; max-height:20em; max-width: none;  background-color:#FFFFFF;}
+.CtxtMenu_SelectionDivider {  clear: both; border-top: 2px solid #000000;}
+.CtxtMenu_Menu .CtxtMenu_MenuClose {  top:-10px; left:-10px}
+</style><style id="MJX-CHTML-styles">
+mjx-container[jax="CHTML"] {
+  line-height: 0;
+}
+
+mjx-container [space="1"] {
+  margin-left: .111em;
+}
+
+mjx-container [space="2"] {
+  margin-left: .167em;
+}
+
+mjx-container [space="3"] {
+  margin-left: .222em;
+}
+
+mjx-container [space="4"] {
+  margin-left: .278em;
+}
+
+mjx-container [space="5"] {
+  margin-left: .333em;
+}
+
+mjx-container [rspace="1"] {
+  margin-right: .111em;
+}
+
+mjx-container [rspace="2"] {
+  margin-right: .167em;
+}
+
+mjx-container [rspace="3"] {
+  margin-right: .222em;
+}
+
+mjx-container [rspace="4"] {
+  margin-right: .278em;
+}
+
+mjx-container [rspace="5"] {
+  margin-right: .333em;
+}
+
+mjx-container [size="s"] {
+  font-size: 70.7%;
+}
+
+mjx-container [size="ss"] {
+  font-size: 50%;
+}
+
+mjx-container [size="Tn"] {
+  font-size: 60%;
+}
+
+mjx-container [size="sm"] {
+  font-size: 85%;
+}
+
+mjx-container [size="lg"] {
+  font-size: 120%;
+}
+
+mjx-container [size="Lg"] {
+  font-size: 144%;
+}
+
+mjx-container [size="LG"] {
+  font-size: 173%;
+}
+
+mjx-container [size="hg"] {
+  font-size: 207%;
+}
+
+mjx-container [size="HG"] {
+  font-size: 249%;
+}
+
+mjx-container [width="full"] {
+  width: 100%;
+}
+
+mjx-box {
+  display: inline-block;
+}
+
+mjx-block {
+  display: block;
+}
+
+mjx-itable {
+  display: inline-table;
+}
+
+mjx-row {
+  display: table-row;
+}
+
+mjx-row > * {
+  display: table-cell;
+}
+
+mjx-mtext {
+  display: inline-block;
+}
+
+mjx-mstyle {
+  display: inline-block;
+}
+
+mjx-merror {
+  display: inline-block;
+  color: red;
+  background-color: yellow;
+}
+
+mjx-mphantom {
+  visibility: hidden;
+}
+
+_::-webkit-full-page-media, _:future, :root mjx-container {
+  will-change: opacity;
+}
+
+mjx-assistive-mml {
+  position: absolute !important;
+  top: 0px;
+  left: 0px;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 1px 0px 0px 0px !important;
+  border: 0px !important;
+  display: block !important;
+  width: auto !important;
+  overflow: hidden !important;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+mjx-assistive-mml[display="block"] {
+  width: 100% !important;
+}
+
+mjx-math {
+  display: inline-block;
+  text-align: left;
+  line-height: 0;
+  text-indent: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100%;
+  font-size-adjust: none;
+  letter-spacing: normal;
+  border-collapse: collapse;
+  word-wrap: normal;
+  word-spacing: normal;
+  white-space: nowrap;
+  direction: ltr;
+  padding: 1px 0;
+}
+
+mjx-container[jax="CHTML"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="CHTML"][display="true"][width="full"] {
+  display: flex;
+}
+
+mjx-container[jax="CHTML"][display="true"] mjx-math {
+  padding: 0;
+}
+
+mjx-container[jax="CHTML"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="CHTML"][justify="right"] {
+  text-align: right;
+}
+
+mjx-c::before {
+  display: block;
+  width: 0;
+}
+
+.MJX-TEX {
+  font-family: MJXZERO, MJXTEX;
+}
+
+.TEX-B {
+  font-family: MJXZERO, MJXTEX-B;
+}
+
+.TEX-I {
+  font-family: MJXZERO, MJXTEX-I;
+}
+
+.TEX-MI {
+  font-family: MJXZERO, MJXTEX-MI;
+}
+
+.TEX-BI {
+  font-family: MJXZERO, MJXTEX-BI;
+}
+
+.TEX-S1 {
+  font-family: MJXZERO, MJXTEX-S1;
+}
+
+.TEX-S2 {
+  font-family: MJXZERO, MJXTEX-S2;
+}
+
+.TEX-S3 {
+  font-family: MJXZERO, MJXTEX-S3;
+}
+
+.TEX-S4 {
+  font-family: MJXZERO, MJXTEX-S4;
+}
+
+.TEX-A {
+  font-family: MJXZERO, MJXTEX-A;
+}
+
+.TEX-C {
+  font-family: MJXZERO, MJXTEX-C;
+}
+
+.TEX-CB {
+  font-family: MJXZERO, MJXTEX-CB;
+}
+
+.TEX-FR {
+  font-family: MJXZERO, MJXTEX-FR;
+}
+
+.TEX-FRB {
+  font-family: MJXZERO, MJXTEX-FRB;
+}
+
+.TEX-SS {
+  font-family: MJXZERO, MJXTEX-SS;
+}
+
+.TEX-SSB {
+  font-family: MJXZERO, MJXTEX-SSB;
+}
+
+.TEX-SSI {
+  font-family: MJXZERO, MJXTEX-SSI;
+}
+
+.TEX-SC {
+  font-family: MJXZERO, MJXTEX-SC;
+}
+
+.TEX-T {
+  font-family: MJXZERO, MJXTEX-T;
+}
+
+.TEX-V {
+  font-family: MJXZERO, MJXTEX-V;
+}
+
+.TEX-VB {
+  font-family: MJXZERO, MJXTEX-VB;
+}
+
+mjx-stretchy-v mjx-c, mjx-stretchy-h mjx-c {
+  font-family: MJXZERO, MJXTEX-S1, MJXTEX-S4, MJXTEX, MJXTEX-A ! important;
+}
+
+@font-face /* 0 */ {
+  font-family: MJXZERO;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Zero.woff") format("woff");
+}
+
+@font-face /* 1 */ {
+  font-family: MJXTEX;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Regular.woff") format("woff");
+}
+
+@font-face /* 2 */ {
+  font-family: MJXTEX-B;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Bold.woff") format("woff");
+}
+
+@font-face /* 3 */ {
+  font-family: MJXTEX-I;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Math-Italic.woff") format("woff");
+}
+
+@font-face /* 4 */ {
+  font-family: MJXTEX-MI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Italic.woff") format("woff");
+}
+
+@font-face /* 5 */ {
+  font-family: MJXTEX-BI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Math-BoldItalic.woff") format("woff");
+}
+
+@font-face /* 6 */ {
+  font-family: MJXTEX-S1;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size1-Regular.woff") format("woff");
+}
+
+@font-face /* 7 */ {
+  font-family: MJXTEX-S2;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size2-Regular.woff") format("woff");
+}
+
+@font-face /* 8 */ {
+  font-family: MJXTEX-S3;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size3-Regular.woff") format("woff");
+}
+
+@font-face /* 9 */ {
+  font-family: MJXTEX-S4;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size4-Regular.woff") format("woff");
+}
+
+@font-face /* 10 */ {
+  font-family: MJXTEX-A;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_AMS-Regular.woff") format("woff");
+}
+
+@font-face /* 11 */ {
+  font-family: MJXTEX-C;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Regular.woff") format("woff");
+}
+
+@font-face /* 12 */ {
+  font-family: MJXTEX-CB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Bold.woff") format("woff");
+}
+
+@font-face /* 13 */ {
+  font-family: MJXTEX-FR;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Regular.woff") format("woff");
+}
+
+@font-face /* 14 */ {
+  font-family: MJXTEX-FRB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Bold.woff") format("woff");
+}
+
+@font-face /* 15 */ {
+  font-family: MJXTEX-SS;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Regular.woff") format("woff");
+}
+
+@font-face /* 16 */ {
+  font-family: MJXTEX-SSB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Bold.woff") format("woff");
+}
+
+@font-face /* 17 */ {
+  font-family: MJXTEX-SSI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Italic.woff") format("woff");
+}
+
+@font-face /* 18 */ {
+  font-family: MJXTEX-SC;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Script-Regular.woff") format("woff");
+}
+
+@font-face /* 19 */ {
+  font-family: MJXTEX-T;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Typewriter-Regular.woff") format("woff");
+}
+
+@font-face /* 20 */ {
+  font-family: MJXTEX-V;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Regular.woff") format("woff");
+}
+
+@font-face /* 21 */ {
+  font-family: MJXTEX-VB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Bold.woff") format("woff");
+}
+</style></head>
+
+    <body>
+        
+        <div id="topRibbon"></div>
+        
+
+        <div id="wrap">
+
+            
+            <div id="topBarContainer">
+
+                <table style="width: 1080px;">
+                    <tbody><tr>
+                        <td style="width: 100px;">
+                            <a href="/"><img class="logo" src="/img/math-academy-350-logo.png"></a>
+                        </td>
+                        <td>
+                            <div id="headerLinks">
+                                
+                                    
+                                        <a id="learnHeaderLink" class="headerLink" href="/learn">LEARN</a>
+                                        
+                                     
+
+                                         
+
+                                                                     
+                                                                                        
+                                                                                                   
+                                                    
+                                             
+                                    
+                                             
+
+                                    <a id="coursesHeaderLink" class="headerLink" onmouseover="showCoursesMenu(this, 'coursesMenu');">COURSES</a>  
+
+                                  
+                            </div>
+
+                            
+
+                            <div id="coursesMenu">
+                                <table id="coursesMenu-coursesTable" cellspacing="0" cellpadding="0">
+                                <tbody><tr>
+                                    <td class="coursesMenu-categoryList" style="padding-right: 15px;">
+                                        <div class="coursesMenu-categoryHeader">Early Grades</div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/4th-grade-math">4th Grade Math</a></div>                                             
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/5th-grade-math">5th Grade Math</a></div>                                    
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/prealgebra">Prealgebra</a></div>
+                                
+                                        <div class="coursesMenu-categoryHeader" style="margin-top: 20px;">High School</div>
+
+                                        <div class="coursesMenu-courseSequence" style="margin-top: 20px;">Traditional</div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/algebra-i">Algebra I</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/geometry">Geometry</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/algebra-ii">Algebra II</a></div>       
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/precalculus">Precalculus</a></div> 
+
+                                        <div class="coursesMenu-courseSequence">Integrated Math</div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/integrated-math-i">Integrated Math I</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/integrated-math-ii">Integrated Math II</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/integrated-math-iii">Integrated Math III</a></div>   
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/precalculus">Precalculus</a></div> 
+                                
+
+                                        <div class="coursesMenu-courseSequence">Integrated Math (Honors)</div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/integrated-math-i-honors">Integrated Math I (Honors)</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/integrated-math-ii-honors">Integrated Math II (Honors)</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/integrated-math-iii-honors">Integrated Math III (Honors)</a></div>                                     
+
+                                        <div class="coursesMenu-categoryHeader" style="margin-top: 20px;">Test Prep</div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/sat-math-fundamentals">SAT Math Fundamentals</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/act-math">ACT Math</a> *
+                                    </div></td>
+                                    <td class="coursesMenu-categoryList">
+
+                                        <div class="coursesMenu-categoryHeader">AP Courses</div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/ap-calculus-ab">AP Calculus AB</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/ap-calculus-bc">AP Calculus BC</a></div>
+
+                                        <div class="coursesMenu-categoryHeader" style="margin-top: 20px;">Foundations Series</div>
+
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/mathematical-foundations-i">Mathematical Foundations I</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/mathematical-foundations-ii">Mathematical Foundations II</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/mathematical-foundations-iii">Mathematical Foundations III</a></div>                                        
+
+                                        <div class="coursesMenu-categoryHeader" style="margin-top: 20px;">University</div>            
+
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/calculus-i">Calculus I</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/calculus-ii">Calculus II</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/linear-algebra">Linear Algebra</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/multivariable-calculus">Multivariable Calculus</a></div>                                     
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/methods-of-proof">Methods of Proof</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/differential-equations">Differential Equations</a></div>                                           
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/discrete-mathematics">Discrete Mathematics</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/probability-and-statistics">Probability &amp; Statistics</a></div>                                        
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/mathematics-for-machine-learning">Mathematics For Machine Learning</a></div>                                        
+                                                            
+                                        <div class="coursesMenu-course">
+                                            <a class="coursesMenu-courseLink" href="/courses/abstract-algebra">Abstract Algebra</a> *
+                                        </div>        
+                                    </td>
+                                </tr>
+                                </tbody></table>
+
+                                <div style="margin-top: 20px;">
+                                    * <span id="coursesMenu-underDevelopment">Currently under development</span> 
+                                </div>                            
+                            </div>                        
+                        </td>
+                        <td style="width: 250px;">
+                            <div id="topMenu">
+                                
+                                    
+
+                                        
+
+                                        
+                                            <div id="userHeader" onmouseover="showMenu(this, 'userMenu');">JP</div>
+                                        
+
+                                        <div id="userMenu">
+                                            <div id="userMenu-info">
+                                                <div id="userMenu-name">Jacob Peterson</div>
+                                                
+                                                    <div id="userMenu-username">commotum</div>
+                                                
+                                            </div>
+
+                                            <div class="headerMenuItem" onmousedown="Core.navigate('/settings/profile');">Settings</div>
+
+                                            
+
+                                            <div class="headerMenuItem" onmousedown="showSupportDialog();">Support</div>
+
+                                            <div class="headerMenuItem" onmousedown="Core.navigate('/logout');">Logout</div>                                        
+                                        </div>
+                                    
+                                                            
+                            </div> 
+                        </td>
+                    </tr>
+                </tbody></table>
+            </div>
+            
+
+            <div id="mathjaxCommands" style="display: none;">
+                <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" tabindex="0" ctxtmenu_counter="0" style="font-size: 113.1%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"></math></mjx-assistive-mml></mjx-container>
+            </div>
+
+            <div id="content">
+                <link rel="stylesheet" href="/css/select-list.css">
+<link rel="stylesheet" href="/css/student-reference.css">
+<link rel="stylesheet" href="/css/question-widget.css">
+
+<script type="text/javascript" src="/js/core/utils/splitter.js"></script>
+<script type="text/javascript" src="/js/core/utils/segment-parser.js"></script>
+<script type="text/javascript" src="/js/core/utils/graphics-parser.js"></script>
+<script type="text/javascript" src="/js/core/utils/block-parser.js"></script>
+<script type="text/javascript" src="/js/core/utils/code-renderer.js"></script>
+<script type="text/javascript" src="/js/core/question/components/input/input.js"></script>
+<script type="text/javascript" src="/js/core/question/components/input/select.js"></script>
+<script type="text/javascript" src="/js/core/question/components/input/textbox.js"></script>
+<script type="text/javascript" src="/js/core/question/components/question-body-section.js"></script>
+<script type="text/javascript" src="/js/core/question/components/question-body.js"></script>
+
+<script type="text/javascript" src="/js/error-reporter.js"></script>
+<script type="text/javascript" src="/js/marked.min.js"></script>
+<script type="text/javascript" src="/js/mathdown.js"></script>
+<script type="text/javascript" src="/js/task-event-storage.js"></script>
+<script type="text/javascript" src="/js/task-event.js"></script>
+<script type="text/javascript" src="/js/graphics-processor.js"></script>
+<script type="text/javascript" src="/js/free-response-parser.js"></script>
+<script type="text/javascript" src="/js/latex-parser.js"></script>
+<script type="text/javascript" src="/js/free-response-checker.js"></script>
+<script type="text/javascript" src="/js/select-list.js"></script>
+<script type="text/javascript" src="/js/question-body-widget.js"></script>
+<script type="text/javascript" src="/js/question-body-renderer.js"></script>
+
+<script type="text/javascript" src="/js/help-menu.js"></script>
+<script type="text/javascript" src="/js/question-widget.js"></script>
+<script type="text/javascript" src="/js/multiple-choice-question-widget.js"></script>
+<script type="text/javascript" src="/js/free-response-question-widget.js"></script>
+<script type="text/javascript" src="/js/static-select-question-widget.js"></script>
+<script type="text/javascript" src="/js/dynamic-select-question-widget.js"></script>
+<script type="text/javascript" src="/js/proof-question-widget.js"></script>
+
+<script type="text/javascript" src="/js/student-reference.js"></script>
+
+<script>
+var _topicId = 6216;
+</script>
+
+
+
+<div id="sidebar">
+    
+        
+    <div class="sidebarFrame">
+        <div id="topicName">Sampling</div>
+    
+        <div id="sectionLinks">
+        
+        
+                               
+                <div class="sectionTitle"><a id="sectionLink-488201" class="sectionLink" stepid="488201" style="color: rgb(64, 64, 64);">Introduction</a></div>                            
+              
+        
+                 
+                <div class="sectionTitle"><a id="sectionLink-488202" class="sectionLink" stepid="488202">Identifying Sampling Units</a></div> 
+              
+        
+              
+        
+              
+        
+                               
+                <div class="sectionTitle"><a id="sectionLink-488206" class="sectionLink" stepid="488206">Sampling Frames</a></div>                            
+              
+        
+                 
+                <div class="sectionTitle"><a id="sectionLink-488207" class="sectionLink" stepid="488207">Identifying Sampling Frames</a></div> 
+              
+        
+              
+        
+              
+        
+                               
+                <div class="sectionTitle"><a id="sectionLink-488210" class="sectionLink" stepid="488210">Advantages of Sampling</a></div>                            
+              
+        
+                               
+                <div class="sectionTitle"><a id="sectionLink-488211" class="sectionLink" stepid="488211">Disadvantages of Sampling</a></div>                            
+              
+        
+                 
+                <div class="sectionTitle"><a id="sectionLink-488212" class="sectionLink" stepid="488212">Identifying Advantages of Samples</a></div> 
+              
+        
+              
+        
+              
+        
+                               
+                <div class="sectionTitle"><a id="sectionLink-488216" class="sectionLink" stepid="488216">Advantages of Censuses</a></div>                            
+              
+        
+                               
+                <div class="sectionTitle"><a id="sectionLink-488217" class="sectionLink" stepid="488217">Disadvantages of Censuses</a></div>                            
+              
+        
+                 
+                <div class="sectionTitle"><a id="sectionLink-488218" class="sectionLink" stepid="488218">Identifying Advantages and Disadvantages of Censuses</a></div> 
+              
+        
+              
+        
+              
+        
+        </div>
+    
+            
+            <div id="prerequisitesHeader">Prerequisites</div> 
+            
+                <div class="prerequisite">
+                    <a href="/topics/introduction-to-statistics-2478" class="prerequisiteLink">Introduction to Statistics</a>
+                    
+                </div>
+                   
+          
+    </div>
+</div>
+
+
+
+<div id="lessonContent">        
+
+
+
+        
+                
+        <div id="step-488201" class="step" style="display: block" stepid="488201" steptype="tutorial" contentid="13557">
+            <div class="stepHeader">
+                <div class="stepName">
+                    <a id="stepAnchor-488201" class="stepAnchor" name="step-1">Introduction</a>
+                </div>
+                <div class="helpButton" stepid="488201">?</div>
+            </div> 
+
+            <p>In statistics, a <strong>population</strong> is the complete set of individuals or objects about which information is sought.</p>
+<p>For example: </p>
+<ul>
+<li><p>If we want to determine the voting intentions in an upcoming U.S. presidential election, the population would consist of <em>all eligible voters</em> in the United States.</p>
+</li>
+<li><p>If a scientist wants to study the average sugar content in oranges grown in Spain during a particular growing season, the population would be <em>every orange produced</em> in Spain during that season.</p>
+</li>
+</ul>
+<p>These examples show that studying every element of a population is often impractical — it may be too costly, too time-consuming, or simply impossible. Instead, we typically gather information from a <em>smaller</em> group that's representative of the whole population. This smaller subset is called a <strong>sample</strong>.</p>
+<div id="graphic-73836f0700c86cfb75d846867e6318f2" class="graphic"><img src="/graphics/73836f0700c86cfb75d846867e6318f2"></div>
+
+<p>When conducting a sample, the <strong>sampling units</strong> are the individual elements of a population from which observations are taken and could be selected in a sample.</p>
+<p>For example: </p>
+<ul>
+<li><p>If we want to determine the voting intentions of the population in an upcoming U.S. presidential election, the <em>sampling units</em> are the individual eligible voters.</p>
+</li>
+<li><p>If we want to determine the average sugar content in oranges grown in Spain during a particular growing season, the <em>sampling units</em> are the individual oranges.</p>
+</li>
+</ul>
+<p>An investigation that's carried out using a sample is called a <strong>survey.</strong></p>
+
+        </div>
+
+
+        
+
+
+         
+
+        <div id="step-488202" class="step" style="display: block" stepid="488202" steptype="example" contentid="19026">
+            <div class="stepHeader">
+                <div class="stepName">
+                    Example: 
+                    <a id="stepAnchor-488202" class="stepAnchor" style="font-weight: normal;" name="step-2">Identifying Sampling Units</a> 
+                </div>      
+                <div class="helpButton" stepid="488202">?</div>
+            </div>
+            
+            <div class="exampleQuestion">
+                <style type="text/css">
+                            .mjpage .MJX-monospace {
+                            font-family: monospace
+                            }
+
+                            .mjpage .MJX-sans-serif {
+                            font-family: sans-serif
+                            }
+
+                            .mjpage {
+                            display: inline;
+                            font-style: normal;
+                            font-weight: normal;
+                            line-height: normal;
+                            font-size: 100%;
+                            font-size-adjust: none;
+                            text-indent: 0;
+                            text-align: left;
+                            text-transform: none;
+                            letter-spacing: normal;
+                            word-spacing: normal;
+                            word-wrap: normal;
+                            white-space: nowrap;
+                            float: none;
+                            direction: ltr;
+                            max-width: none;
+                            max-height: none;
+                            min-width: 0;
+                            min-height: 0;
+                            border: 0;
+                            padding: 0;
+                            margin: 0
+                            }
+
+                            .mjpage * {
+                            transition: none;
+                            -webkit-transition: none;
+                            -moz-transition: none;
+                            -ms-transition: none;
+                            -o-transition: none
+                            }
+
+                            .mjx-svg-href {
+                            fill: blue;
+                            stroke: blue
+                            }
+
+                            .MathJax_SVG_LineBox {
+                            display: table!important
+                            }
+
+                            .MathJax_SVG_LineBox span {
+                            display: table-cell!important;
+                            width: 10000em!important;
+                            min-width: 0;
+                            max-width: none;
+                            padding: 0;
+                            border: 0;
+                            margin: 0
+                            }
+
+                            .mjpage__block {
+                            text-align: center;
+                            margin: 1em 0em;
+                            position: relative;
+                            display: block!important;
+                            text-indent: 0;
+                            max-width: none;
+                            max-height: none;
+                            min-width: 0;
+                            min-height: 0;
+                            width: 100%
+                            }</style><p>A transportation agency is studying car ownership in a suburban neighborhood. The neighborhood has <span class="mjpage"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="5.297ex" height="2.509ex" style="vertical-align: -0.671ex;" viewBox="0 -791.3 2280.5 1080.4" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-1-Title">
+<title id="MathJax-SVG-1-Title">1{,}500</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E1-MJMAIN-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path>
+<path stroke-width="1" id="E1-MJMAIN-2C" d="M78 35T78 60T94 103T137 121Q165 121 187 96T210 8Q210 -27 201 -60T180 -117T154 -158T130 -185T117 -194Q113 -194 104 -185T95 -172Q95 -168 106 -156T131 -126T157 -76T173 -3V9L172 8Q170 7 167 6T161 3T152 1T140 0Q113 0 96 17Z"></path>
+<path stroke-width="1" id="E1-MJMAIN-35" d="M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z"></path>
+<path stroke-width="1" id="E1-MJMAIN-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+ <use xlink:href="#E1-MJMAIN-31"></use>
+ <use xlink:href="#E1-MJMAIN-2C" x="500" y="0"></use>
+ <use xlink:href="#E1-MJMAIN-35" x="779" y="0"></use>
+ <use xlink:href="#E1-MJMAIN-30" x="1279" y="0"></use>
+ <use xlink:href="#E1-MJMAIN-30" x="1780" y="0"></use>
+</g>
+</svg></span> households. Surveyors randomly select <span class="mjpage"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="2.325ex" height="2.176ex" style="vertical-align: -0.338ex;" viewBox="0 -791.3 1001 936.9" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-2-Title">
+<title id="MathJax-SVG-2-Title">75</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E2-MJMAIN-37" d="M55 458Q56 460 72 567L88 674Q88 676 108 676H128V672Q128 662 143 655T195 646T364 644H485V605L417 512Q408 500 387 472T360 435T339 403T319 367T305 330T292 284T284 230T278 162T275 80Q275 66 275 52T274 28V19Q270 2 255 -10T221 -22Q210 -22 200 -19T179 0T168 40Q168 198 265 368Q285 400 349 489L395 552H302Q128 552 119 546Q113 543 108 522T98 479L95 458V455H55V458Z"></path>
+<path stroke-width="1" id="E2-MJMAIN-35" d="M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+ <use xlink:href="#E2-MJMAIN-37"></use>
+ <use xlink:href="#E2-MJMAIN-35" x="500" y="0"></use>
+</g>
+</svg></span> households and record the number of cars owned by each household.</p>
+<p>What are the <em>sampling units</em> in this study?</p>
+
+            </div>     
+
+            <div class="explanationHeader">EXPLANATION</div>
+
+            <div class="exampleExplanation">
+                <p>The <em>sampling units</em> are the <em>individual elements</em> of a population from which observations are taken and could be selected in a sample.</p>
+<p>In this case, the sampling units are the <em>individual households</em> in the suburban neighborhood. Each household is the basic unit selected for the sample, and the number of cars is recorded for each one. Although the data involve the people in the households, the selection is at the household level.</p>
+
+            </div>         
+
+            
+                <div class="keyPrerequisites">
+                    <div class="keyPrerequisitesHeader">
+                         
+                            KEY PREREQUISITE
+                         
+                    </div>                                    
+
+                    
+                        <div class="keyPrerequisite">
+                            <a href="/topics/2478" target="_blank">Introduction to Statistics</a>
+                            <span class="keyPrerequisiteType"></span>                              
+                        </div>
+                       
+                </div>
+                
+        </div>                 
+                        
+        
+
+
+                 
+
+                                        
+
+        <div id="question-301381" class="step questionWidget" style="display: block;"><div class="questionWidget-header"><div class="questionWidget-title">Question 1</div><div class="questionWidget-helpButton">?</div></div><div class="questionWidget-text"><p>A wildlife biologist is studying a population of <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" tabindex="0" ctxtmenu_counter="1" style="font-size: 113.1%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mn class="mjx-n"><mjx-c class="mjx-c32"></mjx-c><mjx-c class="mjx-c34"></mjx-c><mjx-c class="mjx-c30"></mjx-c></mjx-mn></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>240</mn></math></mjx-assistive-mml></mjx-container> sea turtles in a coastal bay. She randomly selects a group of turtles from the population and records whether each turtle has barnacles on its shell.  </p>
+<p>What are the sampling units in this study?</p>
+</div><table class="questionWidget-choicesTable"><tbody><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301381-a" class="questionWidget-choiceLetterCircle">a</div></td><td class="questionWidget-choiceText">All sea turtles in the coastal bay</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301381-b" class="questionWidget-choiceLetterCircle">b</div></td><td class="questionWidget-choiceText">Barnacles on the turtles’ shells</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301381-c" class="questionWidget-choiceLetterCircle">c</div></td><td class="questionWidget-choiceText">Individual sea turtles in the coastal bay</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301381-d" class="questionWidget-choiceLetterCircle">d</div></td><td class="questionWidget-choiceText">Groups of sea turtles in the coastal bay</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301381-e" class="questionWidget-choiceLetterCircle">e</div></td><td class="questionWidget-choiceText">The entire population of sea turtles worldwide</td></tr></tbody></table><div class="questionWidget-buttonBar"><div class="questionWidget-submitButton disabledButton">Submit</div></div><div class="questionWidget-spinnerFrame"><div class="questionWidget-spinner"></div></div></div>                
+        
+
+
+                 
+
+                                        
+
+        <div id="question-301383" class="step questionWidget" style="display: block;"><div class="questionWidget-header"><div class="questionWidget-title">Question 2</div><div class="questionWidget-helpButton">?</div></div><div class="questionWidget-text"><p>An environmental agency is studying plant diversity in a large grassland. The grassland is divided into <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" tabindex="0" ctxtmenu_counter="2" style="font-size: 113.1%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mn class="mjx-n"><mjx-c class="mjx-c35"></mjx-c><mjx-c class="mjx-c30"></mjx-c><mjx-c class="mjx-c30"></mjx-c></mjx-mn></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>500</mn></math></mjx-assistive-mml></mjx-container> square plots, each measuring <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" tabindex="0" ctxtmenu_counter="3" style="font-size: 113.1%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mn class="mjx-n"><mjx-c class="mjx-c31"></mjx-c><mjx-c class="mjx-c30"></mjx-c></mjx-mn><mjx-mo class="mjx-n" space="3"><mjx-c class="mjx-cD7"></mjx-c></mjx-mo><mjx-mn class="mjx-n" space="3"><mjx-c class="mjx-c31"></mjx-c><mjx-c class="mjx-c30"></mjx-c></mjx-mn></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>10</mn><mo>×</mo><mn>10</mn></math></mjx-assistive-mml></mjx-container> meters. Researchers randomly select <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" tabindex="0" ctxtmenu_counter="4" style="font-size: 113.1%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mn class="mjx-n"><mjx-c class="mjx-c35"></mjx-c><mjx-c class="mjx-c30"></mjx-c></mjx-mn></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>50</mn></math></mjx-assistive-mml></mjx-container> plots and record the number of different plant species growing in each plot.</p>
+<p>What are the <em>sampling units</em> in this study?</p>
+</div><table class="questionWidget-choicesTable"><tbody><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301383-a" class="questionWidget-choiceLetterCircle">a</div></td><td class="questionWidget-choiceText">All plants in the grassland</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301383-b" class="questionWidget-choiceLetterCircle">b</div></td><td class="questionWidget-choiceText">Groups of plants of the same species</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301383-c" class="questionWidget-choiceLetterCircle">c</div></td><td class="questionWidget-choiceText">Individual plots in the grassland</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301383-d" class="questionWidget-choiceLetterCircle">d</div></td><td class="questionWidget-choiceText">Individual plants in the grassland</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301383-e" class="questionWidget-choiceLetterCircle">e</div></td><td class="questionWidget-choiceText">The entire grassland</td></tr></tbody></table><div class="questionWidget-buttonBar"><div class="questionWidget-submitButton disabledButton">Submit</div></div><div class="questionWidget-spinnerFrame"><div class="questionWidget-spinner"></div></div></div>                
+        
+
+
+        
+                
+        <div id="step-488206" class="step" style="display: block" stepid="488206" steptype="tutorial" contentid="13594">
+            <div class="stepHeader">
+                <div class="stepName">
+                    <a id="stepAnchor-488206" class="stepAnchor" name="step-6">Sampling Frames</a>
+                </div>
+                <div class="helpButton" stepid="488206">?</div>
+            </div> 
+
+            <p>A <strong>sampling frame</strong> is the <em>list</em> or set of sampling units from which a sample is drawn.</p>
+<p>For example:</p>
+<ul>
+<li><p>If we want to determine the voting intentions of the population in an upcoming U.S. presidential election, the <em>sampling frame</em> is a list containing all eligible voters.</p>
+</li>
+<li><p>If a scientist wants to estimate the average sugar content in oranges grown in Spain during a particular season, the sampling frame might be a catalog or registry of all orchards in Spain along with their harvest inventories.</p>
+</li>
+</ul>
+<p>Typically, the sample is chosen from the sampling frame <em>at random</em> to fairly represent the population. We'll discuss this in more detail shortly.</p>
+<div id="graphic-7b8fc76f4e81e2983f6c41ae8db9beed" class="graphic"><img src="/graphics/7b8fc76f4e81e2983f6c41ae8db9beed"></div>
+        </div>
+
+
+        
+
+
+         
+
+        <div id="step-488207" class="step" style="display: block" stepid="488207" steptype="example" contentid="19027">
+            <div class="stepHeader">
+                <div class="stepName">
+                    Example: 
+                    <a id="stepAnchor-488207" class="stepAnchor" style="font-weight: normal;" name="step-7">Identifying Sampling Frames</a> 
+                </div>      
+                <div class="helpButton" stepid="488207">?</div>
+            </div>
+            
+            <div class="exampleQuestion">
+                <style type="text/css">
+                            .mjpage .MJX-monospace {
+                            font-family: monospace
+                            }
+
+                            .mjpage .MJX-sans-serif {
+                            font-family: sans-serif
+                            }
+
+                            .mjpage {
+                            display: inline;
+                            font-style: normal;
+                            font-weight: normal;
+                            line-height: normal;
+                            font-size: 100%;
+                            font-size-adjust: none;
+                            text-indent: 0;
+                            text-align: left;
+                            text-transform: none;
+                            letter-spacing: normal;
+                            word-spacing: normal;
+                            word-wrap: normal;
+                            white-space: nowrap;
+                            float: none;
+                            direction: ltr;
+                            max-width: none;
+                            max-height: none;
+                            min-width: 0;
+                            min-height: 0;
+                            border: 0;
+                            padding: 0;
+                            margin: 0
+                            }
+
+                            .mjpage * {
+                            transition: none;
+                            -webkit-transition: none;
+                            -moz-transition: none;
+                            -ms-transition: none;
+                            -o-transition: none
+                            }
+
+                            .mjx-svg-href {
+                            fill: blue;
+                            stroke: blue
+                            }
+
+                            .MathJax_SVG_LineBox {
+                            display: table!important
+                            }
+
+                            .MathJax_SVG_LineBox span {
+                            display: table-cell!important;
+                            width: 10000em!important;
+                            min-width: 0;
+                            max-width: none;
+                            padding: 0;
+                            border: 0;
+                            margin: 0
+                            }
+
+                            .mjpage__block {
+                            text-align: center;
+                            margin: 1em 0em;
+                            position: relative;
+                            display: block!important;
+                            text-indent: 0;
+                            max-width: none;
+                            max-height: none;
+                            min-width: 0;
+                            min-height: 0;
+                            width: 100%
+                            }</style><p>A university IT department wants to estimate the proportion of computers on campus running the latest operating system. They obtain a complete list of the <span class="mjpage"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="5.297ex" height="2.509ex" style="vertical-align: -0.671ex;" viewBox="0 -791.3 2280.5 1080.4" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-1-Title">
+<title id="MathJax-SVG-1-Title">3{,}200</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E1-MJMAIN-33" d="M127 463Q100 463 85 480T69 524Q69 579 117 622T233 665Q268 665 277 664Q351 652 390 611T430 522Q430 470 396 421T302 350L299 348Q299 347 308 345T337 336T375 315Q457 262 457 175Q457 96 395 37T238 -22Q158 -22 100 21T42 130Q42 158 60 175T105 193Q133 193 151 175T169 130Q169 119 166 110T159 94T148 82T136 74T126 70T118 67L114 66Q165 21 238 21Q293 21 321 74Q338 107 338 175V195Q338 290 274 322Q259 328 213 329L171 330L168 332Q166 335 166 348Q166 366 174 366Q202 366 232 371Q266 376 294 413T322 525V533Q322 590 287 612Q265 626 240 626Q208 626 181 615T143 592T132 580H135Q138 579 143 578T153 573T165 566T175 555T183 540T186 520Q186 498 172 481T127 463Z"></path>
+<path stroke-width="1" id="E1-MJMAIN-2C" d="M78 35T78 60T94 103T137 121Q165 121 187 96T210 8Q210 -27 201 -60T180 -117T154 -158T130 -185T117 -194Q113 -194 104 -185T95 -172Q95 -168 106 -156T131 -126T157 -76T173 -3V9L172 8Q170 7 167 6T161 3T152 1T140 0Q113 0 96 17Z"></path>
+<path stroke-width="1" id="E1-MJMAIN-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path>
+<path stroke-width="1" id="E1-MJMAIN-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+ <use xlink:href="#E1-MJMAIN-33"></use>
+ <use xlink:href="#E1-MJMAIN-2C" x="500" y="0"></use>
+ <use xlink:href="#E1-MJMAIN-32" x="779" y="0"></use>
+ <use xlink:href="#E1-MJMAIN-30" x="1279" y="0"></use>
+ <use xlink:href="#E1-MJMAIN-30" x="1780" y="0"></use>
+</g>
+</svg></span> device inventory numbers from the campus asset database and randomly select <span class="mjpage"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="3.487ex" height="2.176ex" style="vertical-align: -0.338ex;" viewBox="0 -791.3 1501.5 936.9" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-2-Title">
+<title id="MathJax-SVG-2-Title">150</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E2-MJMAIN-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path>
+<path stroke-width="1" id="E2-MJMAIN-35" d="M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z"></path>
+<path stroke-width="1" id="E2-MJMAIN-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+ <use xlink:href="#E2-MJMAIN-31"></use>
+ <use xlink:href="#E2-MJMAIN-35" x="500" y="0"></use>
+ <use xlink:href="#E2-MJMAIN-30" x="1001" y="0"></use>
+</g>
+</svg></span> computers to check.</p>
+<p>What is the <em>sampling frame</em> in this study?</p>
+
+            </div>     
+
+            <div class="explanationHeader">EXPLANATION</div>
+
+            <div class="exampleExplanation">
+                <style type="text/css">
+                            .mjpage .MJX-monospace {
+                            font-family: monospace
+                            }
+
+                            .mjpage .MJX-sans-serif {
+                            font-family: sans-serif
+                            }
+
+                            .mjpage {
+                            display: inline;
+                            font-style: normal;
+                            font-weight: normal;
+                            line-height: normal;
+                            font-size: 100%;
+                            font-size-adjust: none;
+                            text-indent: 0;
+                            text-align: left;
+                            text-transform: none;
+                            letter-spacing: normal;
+                            word-spacing: normal;
+                            word-wrap: normal;
+                            white-space: nowrap;
+                            float: none;
+                            direction: ltr;
+                            max-width: none;
+                            max-height: none;
+                            min-width: 0;
+                            min-height: 0;
+                            border: 0;
+                            padding: 0;
+                            margin: 0
+                            }
+
+                            .mjpage * {
+                            transition: none;
+                            -webkit-transition: none;
+                            -moz-transition: none;
+                            -ms-transition: none;
+                            -o-transition: none
+                            }
+
+                            .mjx-svg-href {
+                            fill: blue;
+                            stroke: blue
+                            }
+
+                            .MathJax_SVG_LineBox {
+                            display: table!important
+                            }
+
+                            .MathJax_SVG_LineBox span {
+                            display: table-cell!important;
+                            width: 10000em!important;
+                            min-width: 0;
+                            max-width: none;
+                            padding: 0;
+                            border: 0;
+                            margin: 0
+                            }
+
+                            .mjpage__block {
+                            text-align: center;
+                            margin: 1em 0em;
+                            position: relative;
+                            display: block!important;
+                            text-indent: 0;
+                            max-width: none;
+                            max-height: none;
+                            min-width: 0;
+                            min-height: 0;
+                            width: 100%
+                            }</style><p>A <em>sampling frame</em> is the list or set of <em>sampling units</em> from which a sample is drawn.</p>
+<p>In this case, the sampling frame is the <em>list of all <span class="mjpage"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="5.297ex" height="2.509ex" style="vertical-align: -0.671ex;" viewBox="0 -791.3 2280.5 1080.4" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-1-Title">
+<title id="MathJax-SVG-1-Title">3{,}200</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E1-MJMAIN-33" d="M127 463Q100 463 85 480T69 524Q69 579 117 622T233 665Q268 665 277 664Q351 652 390 611T430 522Q430 470 396 421T302 350L299 348Q299 347 308 345T337 336T375 315Q457 262 457 175Q457 96 395 37T238 -22Q158 -22 100 21T42 130Q42 158 60 175T105 193Q133 193 151 175T169 130Q169 119 166 110T159 94T148 82T136 74T126 70T118 67L114 66Q165 21 238 21Q293 21 321 74Q338 107 338 175V195Q338 290 274 322Q259 328 213 329L171 330L168 332Q166 335 166 348Q166 366 174 366Q202 366 232 371Q266 376 294 413T322 525V533Q322 590 287 612Q265 626 240 626Q208 626 181 615T143 592T132 580H135Q138 579 143 578T153 573T165 566T175 555T183 540T186 520Q186 498 172 481T127 463Z"></path>
+<path stroke-width="1" id="E1-MJMAIN-2C" d="M78 35T78 60T94 103T137 121Q165 121 187 96T210 8Q210 -27 201 -60T180 -117T154 -158T130 -185T117 -194Q113 -194 104 -185T95 -172Q95 -168 106 -156T131 -126T157 -76T173 -3V9L172 8Q170 7 167 6T161 3T152 1T140 0Q113 0 96 17Z"></path>
+<path stroke-width="1" id="E1-MJMAIN-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path>
+<path stroke-width="1" id="E1-MJMAIN-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+ <use xlink:href="#E1-MJMAIN-33"></use>
+ <use xlink:href="#E1-MJMAIN-2C" x="500" y="0"></use>
+ <use xlink:href="#E1-MJMAIN-32" x="779" y="0"></use>
+ <use xlink:href="#E1-MJMAIN-30" x="1279" y="0"></use>
+ <use xlink:href="#E1-MJMAIN-30" x="1780" y="0"></use>
+</g>
+</svg></span> device inventory numbers</em> obtained from the campus asset database. This is the set of all possible computers (the sampling units) that could be selected for the check.</p>
+
+            </div>         
+
+                
+        </div>                 
+                        
+        
+
+
+                 
+
+                                        
+
+        <div id="question-301875" class="step questionWidget" style="display: block;"><div class="questionWidget-header"><div class="questionWidget-title">Question 3</div><div class="questionWidget-helpButton">?</div></div><div class="questionWidget-text"><p>A university health center wants to estimate the proportion of dorm rooms that have a working carbon monoxide detector. They obtain a complete list of the <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" tabindex="0" ctxtmenu_counter="5" style="font-size: 113.1%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mn class="mjx-n"><mjx-c class="mjx-c34"></mjx-c><mjx-c class="mjx-c2C"></mjx-c><mjx-c class="mjx-c35"></mjx-c><mjx-c class="mjx-c30"></mjx-c><mjx-c class="mjx-c30"></mjx-c></mjx-mn></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>4,500</mn></math></mjx-assistive-mml></mjx-container> dorm room numbers from the housing office and randomly select <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" tabindex="0" ctxtmenu_counter="6" style="font-size: 113.1%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mn class="mjx-n"><mjx-c class="mjx-c32"></mjx-c><mjx-c class="mjx-c30"></mjx-c><mjx-c class="mjx-c30"></mjx-c></mjx-mn></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>200</mn></math></mjx-assistive-mml></mjx-container> rooms to inspect.</p>
+<p>What is the <em>sampling frame</em> in this study?</p>
+</div><table class="questionWidget-choicesTable"><tbody><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301875-a" class="questionWidget-choiceLetterCircle">a</div></td><td class="questionWidget-choiceText">The <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" tabindex="0" ctxtmenu_counter="7" style="font-size: 113.1%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mn class="mjx-n"><mjx-c class="mjx-c32"></mjx-c><mjx-c class="mjx-c30"></mjx-c><mjx-c class="mjx-c30"></mjx-c></mjx-mn></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>200</mn></math></mjx-assistive-mml></mjx-container> dorm rooms selected for inspection</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301875-b" class="questionWidget-choiceLetterCircle">b</div></td><td class="questionWidget-choiceText">All houses in the town</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301875-c" class="questionWidget-choiceLetterCircle">c</div></td><td class="questionWidget-choiceText">All students enrolled at the university</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301875-d" class="questionWidget-choiceLetterCircle">d</div></td><td class="questionWidget-choiceText">The list of all <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" tabindex="0" ctxtmenu_counter="8" style="font-size: 113.1%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mn class="mjx-n"><mjx-c class="mjx-c34"></mjx-c><mjx-c class="mjx-c2C"></mjx-c><mjx-c class="mjx-c35"></mjx-c><mjx-c class="mjx-c30"></mjx-c><mjx-c class="mjx-c30"></mjx-c></mjx-mn></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>4,500</mn></math></mjx-assistive-mml></mjx-container> dorm room numbers</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301875-e" class="questionWidget-choiceLetterCircle">e</div></td><td class="questionWidget-choiceText">A list of all students living on campus</td></tr></tbody></table><div class="questionWidget-buttonBar"><div class="questionWidget-submitButton disabledButton">Submit</div></div><div class="questionWidget-spinnerFrame"><div class="questionWidget-spinner"></div></div></div>                
+        
+
+
+                 
+
+                                        
+
+        <div id="question-301389" class="step questionWidget" style="display: block;"><div class="questionWidget-header"><div class="questionWidget-title">Question 4</div><div class="questionWidget-helpButton">?</div></div><div class="questionWidget-text"><p>A public health team wants to estimate the proportion of households in a small town that have a working smoke alarm. They obtain a complete list of the <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" tabindex="0" ctxtmenu_counter="9" style="font-size: 113.1%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mn class="mjx-n"><mjx-c class="mjx-c32"></mjx-c><mjx-c class="mjx-c2C"></mjx-c><mjx-c class="mjx-c38"></mjx-c><mjx-c class="mjx-c30"></mjx-c><mjx-c class="mjx-c30"></mjx-c></mjx-mn></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>2,800</mn></math></mjx-assistive-mml></mjx-container> residential addresses in the town from the town’s property records and randomly select <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" tabindex="0" ctxtmenu_counter="10" style="font-size: 113.1%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mn class="mjx-n"><mjx-c class="mjx-c31"></mjx-c><mjx-c class="mjx-c35"></mjx-c><mjx-c class="mjx-c30"></mjx-c></mjx-mn></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>150</mn></math></mjx-assistive-mml></mjx-container> addresses to visit.</p>
+<p>What is the <em>sampling frame</em> in this study?</p>
+</div><table class="questionWidget-choicesTable"><tbody><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301389-a" class="questionWidget-choiceLetterCircle">a</div></td><td class="questionWidget-choiceText">All people living in the town</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301389-b" class="questionWidget-choiceLetterCircle">b</div></td><td class="questionWidget-choiceText">A list of all people living in the town.</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301389-c" class="questionWidget-choiceLetterCircle">c</div></td><td class="questionWidget-choiceText">The <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" tabindex="0" ctxtmenu_counter="11" style="font-size: 113.1%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mn class="mjx-n"><mjx-c class="mjx-c31"></mjx-c><mjx-c class="mjx-c35"></mjx-c><mjx-c class="mjx-c30"></mjx-c></mjx-mn></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>150</mn></math></mjx-assistive-mml></mjx-container> households selected for the survey</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301389-d" class="questionWidget-choiceLetterCircle">d</div></td><td class="questionWidget-choiceText">The list of all <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" tabindex="0" ctxtmenu_counter="12" style="font-size: 113.1%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mn class="mjx-n"><mjx-c class="mjx-c32"></mjx-c><mjx-c class="mjx-c2C"></mjx-c><mjx-c class="mjx-c38"></mjx-c><mjx-c class="mjx-c30"></mjx-c><mjx-c class="mjx-c30"></mjx-c></mjx-mn></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>2,800</mn></math></mjx-assistive-mml></mjx-container> residential addresses in the town</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301389-e" class="questionWidget-choiceLetterCircle">e</div></td><td class="questionWidget-choiceText">All households in the county</td></tr></tbody></table><div class="questionWidget-buttonBar"><div class="questionWidget-submitButton disabledButton">Submit</div></div><div class="questionWidget-spinnerFrame"><div class="questionWidget-spinner"></div></div></div>                
+        
+
+
+        
+                
+        <div id="step-488210" class="step" style="display: block" stepid="488210" steptype="tutorial" contentid="13562">
+            <div class="stepHeader">
+                <div class="stepName">
+                    <a id="stepAnchor-488210" class="stepAnchor" name="step-10">Advantages of Sampling</a>
+                </div>
+                <div class="helpButton" stepid="488210">?</div>
+            </div> 
+
+            <p>Contrary to sampling, a <strong>census</strong> is a study in which data is collected from <em>every</em> member of the population. For example, if a school lunch survey included <em>every student in the school</em>, it would be a census.  </p>
+<p>Sampling has several advantages over a census:</p>
+<ul>
+<li><p><strong>Sampling is cheaper and faster</strong>  </p>
+<p>Conducting a census can be prohibitively expensive and time-consuming, especially for large populations. A sample provides useful information much more quickly and at a lower cost.  </p>
+</li>
+</ul>
+<ul>
+<li><p><strong>Sample data is more readily available</strong></p>
+<p>When a population is very large or widely dispersed, gathering information from every unit is impractical.  </p>
+<p>For example, to study the average age of deer in a certain county, it would be nearly impossible to locate every deer. By sampling a smaller group, we can still make reliable estimates.  </p>
+</li>
+</ul>
+<ul>
+<li><p><strong>Sampling is necessary when testing causes destruction</strong>  </p>
+<p>Some studies require destroying the sampling units being tested.  </p>
+<p>For example, to determine the average lifetime of a battery, testing every battery in a population would render them all useless. By sampling, we can estimate the average lifetime while preserving most of the population.  </p>
+</li>
+</ul>
+<ul>
+<li><p><strong>Sampling allows for more intensive study of each unit</strong>  </p>
+<p>Because fewer units are studied, researchers can afford to collect more detailed or higher-quality measurements than would be feasible in a census.  </p>
+</li>
+</ul>
+
+        </div>
+
+
+        
+
+
+        
+                
+        <div id="step-488211" class="step" style="display: block" stepid="488211" steptype="tutorial" contentid="13595">
+            <div class="stepHeader">
+                <div class="stepName">
+                    <a id="stepAnchor-488211" class="stepAnchor" name="step-11">Disadvantages of Sampling</a>
+                </div>
+                <div class="helpButton" stepid="488211">?</div>
+            </div> 
+
+            <p>Because a sample represents only part of the population, the way it is chosen matters. If the selection process is flawed, the sample may be <strong>biased</strong>.  </p>
+<p>For example, if a survey about school lunches only included girls, the results may not represent the opinions of the entire student body.  </p>
+<p>Sampling, therefore, has several <em>disadvantages</em> over a census. </p>
+<ul>
+<li><p><strong>Samples can be biased</strong>  </p>
+<p>If the sampling method is poorly designed or executed, the results <em>may not accurately represent the population.</em>  </p>
+</li>
+<li><p><strong>Samples show natural variation</strong>  </p>
+<p>There will always be some variation between any two samples due to differences among the sampling units that make them up.  </p>
+</li>
+<li><p><strong>Sampling error is unavoidable</strong>  </p>
+<p>Because a sample is only a subset of the population, estimates from a sample may differ from the true population values.  </p>
+</li>
+<li><p><strong>Rare characteristics may be missed</strong>  </p>
+<p>Certain uncommon features may not appear in a sample if the sample size is too small or if the selection method is inadequate.  </p>
+</li>
+</ul>
+<p>To reduce these problems, we often conduct a <strong>random sample</strong>, where each element of the population has an equal chance of being chosen. We will explore the details of bias and random sampling in future lessons.  </p>
+
+        </div>
+
+
+        
+
+
+         
+
+        <div id="step-488212" class="step" style="display: block" stepid="488212" steptype="example" contentid="19031">
+            <div class="stepHeader">
+                <div class="stepName">
+                    Example: 
+                    <a id="stepAnchor-488212" class="stepAnchor" style="font-weight: normal;" name="step-12">Identifying Advantages of Samples</a> 
+                </div>      
+                <div class="helpButton" stepid="488212">?</div>
+            </div>
+            
+            <div class="exampleQuestion">
+                <p>A meteorological research institute wants to estimate the average annual rainfall in remote villages across a large desert region. Why might the institute choose to use a sample instead of conducting a census?</p>
+
+            </div>     
+
+            <div class="explanationHeader">EXPLANATION</div>
+
+            <div class="exampleExplanation">
+                <p>Advantages of sampling:</p>
+<ul>
+<li><p>Sampling is generally cheaper and faster than taking a census.  </p>
+</li>
+<li><p>Sample data is more readily available, especially when the population is large or widely dispersed.  </p>
+</li>
+<li><p>Sampling is useful when testing items leads to their destruction (e.g., testing for the average lifetime of a battery).  </p>
+</li>
+<li><p>Sampling can allow more intensive study of each unit (e.g., collecting more detailed measurements than would be feasible in a census).  </p>
+</li>
+</ul>
+<p>In this case, traveling to every remote village in the desert to record rainfall data would be extremely time-consuming, costly, and logistically challenging. By selecting a representative sample of villages from different parts of the region, the institute can still estimate the average rainfall without needing to visit every single village.</p>
+<p>Sampling is more practical for gathering data when the population is widely dispersed.</p>
+
+            </div>         
+
+                
+        </div>                 
+                        
+        
+
+
+                 
+
+                                        
+
+        <div id="question-301595" class="step questionWidget" style="display: block;"><div class="questionWidget-header"><div class="questionWidget-title">Question 5</div><div class="questionWidget-helpButton">?</div></div><div class="questionWidget-text"><p>A national chain of restaurants wants to determine the average number of hours its chefs spend preparing food each week. Why might the company choose to use a sample instead of a census?</p>
+</div><table class="questionWidget-choicesTable"><tbody><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301595-a" class="questionWidget-choiceLetterCircle">a</div></td><td class="questionWidget-choiceText">It ensures data is collected from every chef in the company.</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301595-b" class="questionWidget-choiceLetterCircle">b</div></td><td class="questionWidget-choiceText">It guarantees that rare characteristics will be captured.</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301595-c" class="questionWidget-choiceLetterCircle">c</div></td><td class="questionWidget-choiceText">It completely eliminates any possibility of bias.</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301595-d" class="questionWidget-choiceLetterCircle">d</div></td><td class="questionWidget-choiceText">It prevents the results from becoming outdated.</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301595-e" class="questionWidget-choiceLetterCircle">e</div></td><td class="questionWidget-choiceText">It is cheaper and faster to collect data from a sample than from the entire population.</td></tr></tbody></table><div class="questionWidget-buttonBar"><div class="questionWidget-submitButton disabledButton">Submit</div></div><div class="questionWidget-spinnerFrame"><div class="questionWidget-spinner"></div></div></div>                
+        
+
+
+                 
+
+                                        
+
+        <div id="question-301597" class="step questionWidget" style="display: block;"><div class="questionWidget-header"><div class="questionWidget-title">Question 6</div><div class="questionWidget-helpButton">?</div></div><div class="questionWidget-text"><p>A wildlife research team wants to estimate the average weight of deer across an entire state. Why might the team choose to use a sample instead of conducting a census?</p>
+</div><table class="questionWidget-choicesTable"><tbody><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301597-a" class="questionWidget-choiceLetterCircle">a</div></td><td class="questionWidget-choiceText">It guarantees rare characteristics will always be recorded.</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301597-b" class="questionWidget-choiceLetterCircle">b</div></td><td class="questionWidget-choiceText">It completely eliminates sampling error.</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301597-c" class="questionWidget-choiceLetterCircle">c</div></td><td class="questionWidget-choiceText">It is more practical to gather data from a sample when the population is widely dispersed.</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301597-d" class="questionWidget-choiceLetterCircle">d</div></td><td class="questionWidget-choiceText">It prevents any possibility of data collection errors.</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301597-e" class="questionWidget-choiceLetterCircle">e</div></td><td class="questionWidget-choiceText">It ensures data is collected from every deer in the state.</td></tr></tbody></table><div class="questionWidget-buttonBar"><div class="questionWidget-submitButton disabledButton">Submit</div></div><div class="questionWidget-spinnerFrame"><div class="questionWidget-spinner"></div></div></div>                
+        
+
+
+        
+                
+        <div id="step-488216" class="step" style="display: block" stepid="488216" steptype="tutorial" contentid="13561">
+            <div class="stepHeader">
+                <div class="stepName">
+                    <a id="stepAnchor-488216" class="stepAnchor" name="step-16">Advantages of Censuses</a>
+                </div>
+                <div class="helpButton" stepid="488216">?</div>
+            </div> 
+
+            <p>Recall that a <strong>census</strong> is a study in which data is collected from <em>every</em> member of the population.  </p>
+<p>A census has several <em>advantages</em> over sampling:  </p>
+<ul>
+<li><p><strong>A census includes every unit in the population</strong>  </p>
+<p>Because data is collected from all members, the results reflect the entire population rather than a subset.  </p>
+</li>
+</ul>
+<ul>
+<li><p><strong>A census eliminates sampling error</strong>  </p>
+<p>Since there is no need to estimate from a sample, sampling error is avoided. Bias from sample selection is also removed.  </p>
+</li>
+</ul>
+<ul>
+<li><p><strong>A census allows detailed analysis of subgroups</strong>  </p>
+<p>Because all members are included, we can study small subgroups within the population that might be missed or underrepresented in a sample.  </p>
+<p>For example, a school lunch census would allow researchers to compare the opinions of different grade levels, even if some grades have very few students.  </p>
+</li>
+</ul>
+
+        </div>
+
+
+        
+
+
+        
+                
+        <div id="step-488217" class="step" style="display: block" stepid="488217" steptype="tutorial" contentid="13596">
+            <div class="stepHeader">
+                <div class="stepName">
+                    <a id="stepAnchor-488217" class="stepAnchor" name="step-17">Disadvantages of Censuses</a>
+                </div>
+                <div class="helpButton" stepid="488217">?</div>
+            </div> 
+
+            <p>There are also several <em>disadvantages</em> of conducting a census:  </p>
+<ul>
+<li><p><strong>A census is more expensive and time-consuming</strong>  </p>
+<p>Collecting information from every unit requires far more resources than working with a sample.  </p>
+</li>
+</ul>
+<ul>
+<li><p><strong>A census can be logistically difficult</strong>  </p>
+<p>For very large or widely dispersed populations, studying every unit may be impractical or even impossible.  </p>
+</li>
+</ul>
+<ul>
+<li><p><strong>Data collection errors can be harder to detect</strong>  </p>
+<p>Mistakes such as measurement errors or nonresponse can occur in a census, and these issues may be more difficult to identify at a large scale.  </p>
+</li>
+</ul>
+<ul>
+<li><p><strong>A census may be impossible if testing causes destruction</strong>  </p>
+<p>In cases where testing damages or destroys the item, a census cannot be conducted.  </p>
+</li>
+</ul>
+<ul>
+<li><p><strong>Census results may be outdated by the time they are completed</strong>  </p>
+<p>Because data collection takes so long, the information gathered may no longer accurately reflect the current population.  </p>
+</li>
+</ul>
+
+        </div>
+
+
+        
+
+
+         
+
+        <div id="step-488218" class="step" style="display: block" stepid="488218" steptype="example" contentid="19032">
+            <div class="stepHeader">
+                <div class="stepName">
+                    Example: 
+                    <a id="stepAnchor-488218" class="stepAnchor" style="font-weight: normal;" name="step-18">Identifying Advantages and Disadvantages of Censuses</a> 
+                </div>      
+                <div class="helpButton" stepid="488218">?</div>
+            </div>
+            
+            <div class="exampleQuestion">
+                <p>A large university wants to record the total number of publications authored by each faculty member in the current academic year. </p>
+<p>Why might the university decide to conduct a census instead of using a sample to gather this information?</p>
+
+            </div>     
+
+            <div class="explanationHeader">EXPLANATION</div>
+
+            <div class="exampleExplanation">
+                <p>Advantages of a census:</p>
+<ul>
+<li><p>Provides data for every unit in the population.</p>
+</li>
+<li><p>Eliminates sampling error and bias, since all units are measured.</p>
+</li>
+<li><p>Allows detailed analysis of small subgroups within the population.</p>
+</li>
+</ul>
+<p>In this case, a census will gather information from every faculty member in the university. This approach eliminates sampling error and bias, because all units in the population are measured rather than a subset.  </p>
+<p>Conducting a census ensures data is collected from every faculty member, eliminating sampling error and bias.</p>
+
+            </div>         
+
+                
+        </div>                 
+                        
+        
+
+
+                 
+
+                                        
+
+        <div id="question-301621" class="step questionWidget" style="display: block;"><div class="questionWidget-header"><div class="questionWidget-title">Question 7</div><div class="questionWidget-helpButton">?</div></div><div class="questionWidget-text"><p>A national health organization wants to study the dietary habits of all hospital patients in the country. </p>
+<p>Why might the organization decide to conduct a census instead of using a sample to gather this information?</p>
+</div><table class="questionWidget-choicesTable"><tbody><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301621-a" class="questionWidget-choiceLetterCircle">a</div></td><td class="questionWidget-choiceText">It guarantees more detailed responses from each patient.</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301621-b" class="questionWidget-choiceLetterCircle">b</div></td><td class="questionWidget-choiceText">It prevents the results from becoming outdated.</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301621-c" class="questionWidget-choiceLetterCircle">c</div></td><td class="questionWidget-choiceText">It is faster and cheaper than sampling.</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301621-d" class="questionWidget-choiceLetterCircle">d</div></td><td class="questionWidget-choiceText">It avoids any possibility of data collection errors.</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301621-e" class="questionWidget-choiceLetterCircle">e</div></td><td class="questionWidget-choiceText">It allows detailed analysis of small subgroups within the population.</td></tr></tbody></table><div class="questionWidget-buttonBar"><div class="questionWidget-submitButton disabledButton">Submit</div></div><div class="questionWidget-spinnerFrame"><div class="questionWidget-spinner"></div></div></div>                
+        
+
+
+                 
+
+                                        
+
+        <div id="question-301611" class="step questionWidget" style="display: block;"><div class="questionWidget-header"><div class="questionWidget-title">Question 8</div><div class="questionWidget-helpButton">?</div></div><div class="questionWidget-text"><p>A nationwide parcel delivery company wants to estimate the average number of minutes drivers spend on each delivery. </p>
+<p>Why might the company decide <strong>NOT</strong> to conduct a census to gather this information?</p>
+</div><table class="questionWidget-choicesTable"><tbody><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301611-a" class="questionWidget-choiceLetterCircle">a</div></td><td class="questionWidget-choiceText">A census can be biased because of the sampling method used.</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301611-b" class="questionWidget-choiceLetterCircle">b</div></td><td class="questionWidget-choiceText">A census would suffer from sampling error.</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301611-c" class="questionWidget-choiceLetterCircle">c</div></td><td class="questionWidget-choiceText">Different censuses of the same population will naturally vary a lot due to sample-to-sample variation.</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301611-d" class="questionWidget-choiceLetterCircle">d</div></td><td class="questionWidget-choiceText">A census may miss rare subgroups because it measures only a subset of the population.</td></tr><tr><td class="questionWidget-choiceLetter"><div id="questionWidget-choiceLetterCircle-301611-e" class="questionWidget-choiceLetterCircle">e</div></td><td class="questionWidget-choiceText">A census can be logistically difficult or impractical for large or widely dispersed populations.</td></tr></tbody></table><div class="questionWidget-buttonBar"><div class="questionWidget-submitButton disabledButton">Submit</div></div><div class="questionWidget-spinnerFrame"><div class="questionWidget-spinner"></div></div></div>                
+        
+
+</div>
+
+
+<link rel="stylesheet" href="/css/flag-content-dialog.css">
+
+<script type="text/javascript" src="/js/flag-content-dialog.js"></script>
+
+<div id="flagContentDialog">
+    <div id="flagContentDialog-title">Flag Content</div>
+
+    <div id="flagContentDialog-instructions">Did you notice an error, or do you simply believe that something could be improved? Please explain below.</div>
+
+    <textarea id="flagContentDialog-description"></textarea>
+
+    <div id="flagContentDialog-submitButton">Submit</div>
+    <div id="flagContentDialog-cancelButton">Cancel</div>
+</div>            
+            </div> 
+        </div>
+
+        <link rel="stylesheet" href="/css/support-dialog.css">
+
+<script type="text/javascript" src="/js/support-dialog.js"></script>
+
+<div id="supportDialog">
+    <div id="supportDialog-title">Support</div>
+
+    <div id="supportDialog-message">
+        If you need support, please email <b>support@mathacademy.com</b>.
+    </div>
+
+    <div id="supportDialog-buttons">
+        <div id="supportDialog-closeButton">Close</div>
+    </div>
+</div>
+        <link rel="stylesheet" href="/css/xp-goals-dialog.css">
+
+<script type="text/javascript" src="/js/xp-goals-dialog.js"></script>
+
+<div id="xpGoalsDialog">
+    <div id="xpGoalsDialog-title">XP Goals</div>
+
+    <table id="xpGoalsDialog-goals" cellpadding="0" cellspacing="0">
+        <tbody><tr>
+            <td class="xpGoalsDialog-dayOfWeek">Sun</td>
+            <td class="xpGoalsDialog-dayOfWeek">Mon</td>
+            <td class="xpGoalsDialog-dayOfWeek">Tue</td>
+            <td class="xpGoalsDialog-dayOfWeek">Wed</td>
+            <td class="xpGoalsDialog-dayOfWeek">Thu</td>
+            <td class="xpGoalsDialog-dayOfWeek">Fri</td>
+            <td class="xpGoalsDialog-dayOfWeek">Sat</td>
+        </tr>
+        <tr>
+            <td><input id="xpGoalsDialog-sunGoal" class="xpGoalsDialog-goal" type="text"> </td>
+            <td><input id="xpGoalsDialog-monGoal" class="xpGoalsDialog-goal" type="text"> </td>
+            <td><input id="xpGoalsDialog-tueGoal" class="xpGoalsDialog-goal" type="text"> </td>
+            <td><input id="xpGoalsDialog-wedGoal" class="xpGoalsDialog-goal" type="text"> </td>
+            <td><input id="xpGoalsDialog-thuGoal" class="xpGoalsDialog-goal" type="text"> </td>
+            <td><input id="xpGoalsDialog-friGoal" class="xpGoalsDialog-goal" type="text"> </td>
+            <td><input id="xpGoalsDialog-satGoal" class="xpGoalsDialog-goal" type="text"> </td>
+        </tr> 
+    </tbody></table>
+
+
+    <div id="xpGoalsDialog-courseCompletionText"></div>
+
+    <div id="xpGoalsDialog-pausedFrame">
+        <input id="xpGoalsDialog-paused" name="xpGoalsDialog-paused" type="checkbox"> 
+        <label id="xpGoalsDialog-pausedLabel" for="xpGoalsDialog-paused">Paused</label>
+    </div>
+
+    <div id="xpGoalsDialog-buttonBar">
+        <div id="xpGoalsDialog-submitButton">SUBMIT</div>
+        <div id="xpGoalsDialog-cancelButton">CANCEL</div>
+    </div>
+</div>
+        <link rel="stylesheet" href="/css/course-dialog.css">
+
+<script type="text/javascript" src="/js/course-dialog.js"></script>
+
+<div id="courseDialog">
+    <div id="courseDialog-title">Change Course</div>
+
+    <div id="courseDialog-course">
+        <label id="courseDialog-courseLabel">Course</label>
+
+        <select id="courseDialog-courseSelect">
+            <option selected="">-</option>
+        </select>
+    </div>
+
+    <div id="courseDialog-buttonBar">
+        <div id="courseDialog-submitButton">SUBMIT</div>
+        <div id="courseDialog-cancelButton">CANCEL</div>
+    </div>
+</div>
+
+                
+
+                                    
+    
+              
+    
+</body></html>

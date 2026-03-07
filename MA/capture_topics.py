@@ -29,6 +29,7 @@ DEFAULT_TOPICS_CSV = SCRIPT_DIR / "Topics.csv"
 DEFAULT_TOPIC_JSON_DIR = SCRIPT_DIR / "Topic-JSON"
 DEFAULT_OUTPUT_ROOT = SCRIPT_DIR / "captures"
 DEFAULT_STATE_FILE = "_capture_state.jsonl"
+CAPTURE_METADATA_FILE = "_capture_meta.json"
 
 
 @dataclass(frozen=True)
@@ -337,14 +338,74 @@ def load_manifest(topic_json_dir: Path, topic_id: str) -> dict[str, Any]:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def topic_complete(topic_dir: Path, manifest: dict[str, Any]) -> bool:
+def nonempty_file(path: Path) -> bool:
+    return path.is_file() and path.stat().st_size > 0
+
+
+def lesson_screenshot_paths(topic_dir: Path) -> list[Path]:
+    return sorted(path for path in topic_dir.glob("*.png") if path.name != "00-TOC.png")
+
+
+def load_capture_metadata(topic_dir: Path) -> dict[str, Any]:
+    path = topic_dir / CAPTURE_METADATA_FILE
+    if not path.is_file():
+        return {}
+
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+
+    return payload if isinstance(payload, dict) else {}
+
+
+def write_capture_metadata(topic_dir: Path, topic_id: str, filenames: list[str]) -> None:
+    payload = {
+        "topic_id": topic_id,
+        "lesson_count": len(filenames),
+        "filenames": filenames,
+    }
+    (topic_dir / CAPTURE_METADATA_FILE).write_text(
+        json.dumps(payload, indent=2, sort_keys=True) + "\n",
+        encoding="utf-8",
+    )
+
+
+def load_completed_lesson_counts(path: Path) -> dict[str, int]:
+    if not path.is_file():
+        return {}
+
+    counts: dict[str, int] = {}
+    with path.open("r", encoding="utf-8") as handle:
+        for line in handle:
+            try:
+                payload = json.loads(line)
+            except json.JSONDecodeError:
+                continue
+
+            if payload.get("status") != "completed":
+                continue
+
+            topic_id = str(payload.get("topic_id", "")).strip()
+            lesson_count = payload.get("lesson_count")
+            if topic_id and isinstance(lesson_count, int):
+                counts[topic_id] = lesson_count
+
+    return counts
+
+
+def topic_complete(
+    topic_dir: Path,
+    manifest: dict[str, Any],
+    completed_lesson_count: int | None = None,
+) -> bool:
     html_path = topic_dir / f"{manifest['topic_id']}.html"
     toc_path = topic_dir / "00-TOC.png"
     lesson_targets = manifest.get("capture_targets", {}).get("lesson_items", [])
 
-    if not html_path.is_file() or html_path.stat().st_size == 0:
+    if not nonempty_file(html_path):
         return False
-    if not toc_path.is_file() or toc_path.stat().st_size == 0:
+    if not nonempty_file(toc_path):
         return False
 
     for item in lesson_targets:
@@ -352,8 +413,26 @@ def topic_complete(topic_dir: Path, manifest: dict[str, Any]) -> bool:
         if not filename:
             return False
         path = topic_dir / filename
-        if not path.is_file() or path.stat().st_size == 0:
-            return False
+        if not nonempty_file(path):
+            break
+    else:
+        return True
+
+    metadata = load_capture_metadata(topic_dir)
+    metadata_filenames = metadata.get("filenames")
+    if isinstance(metadata_filenames, list) and metadata_filenames:
+        if all(isinstance(filename, str) and nonempty_file(topic_dir / filename) for filename in metadata_filenames):
+            lesson_count = metadata.get("lesson_count")
+            return not isinstance(lesson_count, int) or lesson_count == len(metadata_filenames)
+
+    if completed_lesson_count is None:
+        return False
+
+    lesson_paths = lesson_screenshot_paths(topic_dir)
+    if len(lesson_paths) != completed_lesson_count:
+        return False
+    if not all(nonempty_file(path) for path in lesson_paths):
+        return False
 
     return True
 
@@ -581,6 +660,8 @@ def capture_topic_once(
         screenshot_locator(locator, topic_dir / filename, args.render_wait_ms, args.timeout_ms)
         sleep_range(args.sleep_item_min, args.sleep_item_max, f"{topic.topic_id} lesson item")
 
+    write_capture_metadata(topic_dir, topic.topic_id, [filename for filename, _ in resolved_items])
+
     return {
         "html_path": str(html_path),
         "toc_path": str(toc_path),
@@ -648,6 +729,7 @@ def run(argv: list[str] | None = None) -> int:
 
     args.output_root.mkdir(parents=True, exist_ok=True)
     state_file = args.state_file or (args.output_root / DEFAULT_STATE_FILE)
+    completed_lesson_counts = load_completed_lesson_counts(state_file)
 
     if args.dry_run:
         logging.info("Dry run only")
@@ -686,7 +768,11 @@ def run(argv: list[str] | None = None) -> int:
                 manifest = load_manifest(args.topic_json_dir, topic.topic_id)
                 topic_dir = args.output_root / topic.topic_id
 
-                if not args.force and topic_complete(topic_dir, manifest):
+                if not args.force and topic_complete(
+                    topic_dir,
+                    manifest,
+                    completed_lesson_counts.get(topic.topic_id),
+                ):
                     logging.info("Skipping %s (%s): output already looks complete", topic.topic_id, topic.name)
                     skipped += 1
                     append_state(
@@ -753,6 +839,7 @@ def run(argv: list[str] | None = None) -> int:
                     continue
 
                 successes += 1
+                completed_lesson_counts[topic.topic_id] = result["lesson_count"]
                 append_state(
                     state_file,
                     {
