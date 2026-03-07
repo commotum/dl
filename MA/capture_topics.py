@@ -467,37 +467,65 @@ def visible_structural_items(page: Page) -> list[Locator]:
 def resolved_item_targets(page: Page, manifest: dict[str, Any]) -> list[tuple[str, Locator]]:
     lesson_targets = manifest.get("capture_targets", {}).get("lesson_items", [])
     structural = visible_structural_items(page)
-    resolved: list[tuple[str, Locator]] = []
+    topic_id = manifest.get("topic_id", "unknown")
+
+    if not structural:
+        raise RetryableCaptureError(f"No visible lesson items found for topic {topic_id}")
+
+    def structural_targets() -> list[tuple[str, Locator]]:
+        return [
+            (f"{index + 1:02d}-structural-{index + 1}.png", locator)
+            for index, locator in enumerate(structural)
+        ]
 
     if lesson_targets:
+        if len(structural) != len(lesson_targets):
+            logging.warning(
+                "Topic %s manifest expects %d lesson items but live DOM has %d; "
+                "falling back to structural targeting",
+                topic_id,
+                len(lesson_targets),
+                len(structural),
+            )
+            return structural_targets()
+
+        resolved: list[tuple[str, Locator]] = []
         for index, item in enumerate(lesson_targets):
             filename = item.get("filename") or f"{index + 1:02d}-item-{index + 1}.png"
             selector = item.get("selector")
-            locator: Locator | None = None
-
-            if selector:
-                candidate = page.locator(selector).first
-                try:
-                    if candidate.count():
-                        locator = candidate
-                except Exception:
-                    locator = None
-
-            if locator is None and index < len(structural):
-                locator = structural[index]
-
-            if locator is None:
-                raise RetryableCaptureError(
-                    f"Unable to resolve lesson item {index + 1} for topic {manifest['topic_id']}"
+            if not selector:
+                logging.warning(
+                    "Topic %s manifest item %d is missing a selector; falling back to structural targeting",
+                    topic_id,
+                    index + 1,
                 )
+                return structural_targets()
 
-            resolved.append((filename, locator))
+            candidate = page.locator(selector).first
+            try:
+                if not candidate.count():
+                    logging.warning(
+                        "Topic %s manifest selector %r failed for item %d; "
+                        "falling back to structural targeting",
+                        topic_id,
+                        selector,
+                        index + 1,
+                    )
+                    return structural_targets()
+            except Exception:
+                logging.warning(
+                    "Topic %s manifest selector %r errored for item %d; "
+                    "falling back to structural targeting",
+                    topic_id,
+                    selector,
+                    index + 1,
+                )
+                return structural_targets()
+
+            resolved.append((filename, candidate))
         return resolved
 
-    return [
-        (f"{index + 1:02d}-structural-{index + 1}.png", locator)
-        for index, locator in enumerate(structural)
-    ]
+    return structural_targets()
 
 
 def screenshot_locator(locator: Locator, path: Path, render_wait_ms: int, timeout_ms: int) -> None:
