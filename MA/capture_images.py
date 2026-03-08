@@ -9,6 +9,8 @@ import json
 import logging
 import os
 import random
+import shutil
+import subprocess
 import sys
 import time
 from collections import defaultdict
@@ -76,6 +78,10 @@ class RetryableCaptureError(CaptureError):
 
 class AuthenticationRequiredError(CaptureError):
     """Raised when the response looks unauthenticated or blocked."""
+
+
+class SyncError(CaptureError):
+    """Raised when post-topic sync work fails."""
 
 
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
@@ -177,6 +183,45 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         type=float,
         default=30.0,
         help="Per-request timeout in seconds.",
+    )
+
+    sync_group = parser.add_argument_group("post-topic sync")
+    sync_group.add_argument(
+        "--sync-after-topic",
+        action="store_true",
+        help=(
+            "After each completed topic, copy the topic outputs into the mirror directory "
+            "and commit/push both repos during the topic pacing window."
+        ),
+    )
+    sync_group.add_argument(
+        "--sync-copy-dest",
+        type=Path,
+        default=Path("/home/jake/Developer/MA/DATA/Images"),
+        help="Mirror directory to update when --sync-after-topic is enabled.",
+    )
+    sync_group.add_argument(
+        "--sync-source-repo",
+        type=Path,
+        default=Path("/home/jake/Developer/dl"),
+        help="Source repo root to commit/push when --sync-after-topic is enabled.",
+    )
+    sync_group.add_argument(
+        "--sync-dest-repo",
+        type=Path,
+        default=Path("/home/jake/Developer/MA"),
+        help="Mirror repo root to commit/push when --sync-after-topic is enabled.",
+    )
+    sync_group.add_argument(
+        "--sync-commit-prefix",
+        default="images",
+        help="Prefix used in the per-topic commit messages for repo syncs.",
+    )
+    sync_group.add_argument(
+        "--sync-command-timeout-seconds",
+        type=float,
+        default=600.0,
+        help="Timeout for each git add/commit/push command when --sync-after-topic is enabled.",
     )
 
     pacing = parser.add_argument_group("pacing")
@@ -282,9 +327,17 @@ def validate_args(args: argparse.Namespace) -> None:
         raise SystemExit("--retries cannot be negative")
     if args.timeout_seconds <= 0:
         raise SystemExit("--timeout-seconds must be positive")
+    if args.sync_command_timeout_seconds <= 0:
+        raise SystemExit("--sync-command-timeout-seconds must be positive")
 
     if args.cookie_domains is None:
         args.cookie_domains = [".mathacademy.com"]
+
+    if args.sync_after_topic and not args.dry_run:
+        if not args.sync_source_repo.is_dir():
+            raise SystemExit(f"--sync-source-repo does not exist: {args.sync_source_repo}")
+        if not args.sync_dest_repo.is_dir():
+            raise SystemExit(f"--sync-dest-repo does not exist: {args.sync_dest_repo}")
 
     if args.dry_run:
         return
@@ -544,6 +597,33 @@ def sleep_range(minimum: float, maximum: float, reason: str) -> float:
     return seconds
 
 
+def sleep_after_work(minimum: float, maximum: float, reason: str, work_elapsed: float) -> float:
+    budget = minimum if maximum <= minimum else random.uniform(minimum, maximum)
+    remaining = budget - max(0.0, work_elapsed)
+    if remaining > 0:
+        if work_elapsed > 0:
+            logging.info(
+                "Sleeping %.1fs (%s; %.1fs spent syncing within a %.1fs budget)",
+                remaining,
+                reason,
+                work_elapsed,
+                budget,
+            )
+        else:
+            logging.info("Sleeping %.1fs (%s)", remaining, reason)
+        time.sleep(remaining)
+        return remaining
+
+    if work_elapsed > 0:
+        logging.info(
+            "No extra sleep for %s; sync work took %.1fs against a %.1fs budget",
+            reason,
+            work_elapsed,
+            budget,
+        )
+    return 0.0
+
+
 def backoff_seconds(attempt: int, base: float, maximum: float) -> float:
     return min(base * attempt, maximum)
 
@@ -671,6 +751,81 @@ def atomic_write_bytes(path: Path, data: bytes) -> None:
     finally:
         if tmp_path.exists():
             tmp_path.unlink(missing_ok=True)
+
+
+def sync_topic_copy(output_root: Path, topic_id: str, state_file: Path, mirror_dir: Path) -> None:
+    source_topic_dir = output_root / topic_id
+    if not source_topic_dir.is_dir():
+        raise SyncError(f"Topic output directory does not exist: {source_topic_dir}")
+
+    mirror_dir.mkdir(parents=True, exist_ok=True)
+    shutil.copytree(
+        source_topic_dir,
+        mirror_dir / topic_id,
+        dirs_exist_ok=True,
+        copy_function=shutil.copy2,
+    )
+
+    if state_file.is_file():
+        shutil.copy2(state_file, mirror_dir / state_file.name)
+
+
+def run_sync_command(command: list[str], cwd: Path, timeout_seconds: float) -> subprocess.CompletedProcess[str]:
+    try:
+        return subprocess.run(
+            command,
+            cwd=str(cwd),
+            text=True,
+            capture_output=True,
+            timeout=timeout_seconds,
+            check=False,
+        )
+    except (OSError, subprocess.SubprocessError) as exc:
+        raise SyncError(f"Command failed to start in {cwd}: {' '.join(command)} ({exc})") from exc
+
+
+def ensure_command_ok(
+    command: list[str],
+    cwd: Path,
+    timeout_seconds: float,
+) -> subprocess.CompletedProcess[str]:
+    result = run_sync_command(command, cwd, timeout_seconds)
+    if result.returncode != 0:
+        message = result.stderr.strip() or result.stdout.strip() or f"exit {result.returncode}"
+        raise SyncError(f"{' '.join(command)} failed in {cwd}: {message}")
+    return result
+
+
+def sync_repo(repo_root: Path, commit_message: str, timeout_seconds: float) -> bool:
+    ensure_command_ok(["git", "add", "."], repo_root, timeout_seconds)
+    diff_result = run_sync_command(
+        ["git", "diff", "--cached", "--quiet", "--exit-code"],
+        repo_root,
+        timeout_seconds,
+    )
+    if diff_result.returncode == 0:
+        logging.info("No repo changes to push in %s", repo_root)
+        return False
+    if diff_result.returncode != 1:
+        message = diff_result.stderr.strip() or diff_result.stdout.strip() or f"exit {diff_result.returncode}"
+        raise SyncError(f"git diff --cached failed in {repo_root}: {message}")
+
+    ensure_command_ok(["git", "commit", "-m", commit_message], repo_root, timeout_seconds)
+    ensure_command_ok(["git", "push"], repo_root, timeout_seconds)
+    logging.info("Pushed repo sync for %s", repo_root)
+    return True
+
+
+def sync_commit_message(job: TopicImageJob, prefix: str) -> str:
+    cleaned = prefix.strip() or "images"
+    return f"{cleaned} topic {job.topic_id}"
+
+
+def sync_completed_topic(job: TopicImageJob, state_file: Path, args: argparse.Namespace) -> None:
+    sync_topic_copy(args.output_root, job.topic_id, state_file, args.sync_copy_dest)
+    message = sync_commit_message(job, args.sync_commit_prefix)
+    sync_repo(args.sync_source_repo, message, args.sync_command_timeout_seconds)
+    sync_repo(args.sync_dest_repo, message, args.sync_command_timeout_seconds)
 
 
 def fetch_image(
@@ -833,6 +988,11 @@ def run(argv: list[str] | None = None) -> int:
         logging.info("Output root: %s", args.output_root)
         logging.info("Selected topics: %d", len(selected))
         logging.info("Selected images: %d", sum(len(job.images) for job in selected))
+        if args.sync_after_topic:
+            logging.info("Post-topic sync enabled")
+            logging.info("Sync copy destination: %s", args.sync_copy_dest)
+            logging.info("Sync source repo: %s", args.sync_source_repo)
+            logging.info("Sync destination repo: %s", args.sync_dest_repo)
         for job in selected[:10]:
             logging.info("Would download %s (%d images) %s", job.topic_id, len(job.images), job.name)
         if len(selected) > 10:
@@ -949,9 +1109,23 @@ def run(argv: list[str] | None = None) -> int:
             progress.update(1)
             progress.set_postfix(success=successes, failed=failures, skipped=skipped)
 
+            sync_elapsed = 0.0
+            if args.sync_after_topic:
+                sync_started = time.monotonic()
+                try:
+                    sync_completed_topic(job, state_file, args)
+                except Exception:
+                    logging.exception("Post-topic sync failed for %s", job.topic_id)
+                sync_elapsed = time.monotonic() - sync_started
+
             is_last_topic = index == len(selected)
             if not is_last_topic:
-                sleep_range(args.sleep_topic_min, args.sleep_topic_max, f"{job.topic_id} topic pacing")
+                sleep_after_work(
+                    args.sleep_topic_min,
+                    args.sleep_topic_max,
+                    f"{job.topic_id} topic pacing",
+                    sync_elapsed,
+                )
                 if args.rest_every and successes % args.rest_every == 0:
                     sleep_range(args.rest_min, args.rest_max, "periodic cooldown")
     finally:

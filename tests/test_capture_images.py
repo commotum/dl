@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import importlib.util
 import json
+import subprocess
 import sys
 from pathlib import Path
 
@@ -56,6 +57,66 @@ class FakeClient:
         if not queue:
             raise AssertionError(f"Unexpected request for {url}")
         return queue.pop(0)
+
+
+def test_sync_completed_topic_copies_outputs_and_runs_git(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
+    output_root = tmp_path / "graphics"
+    topic_dir = output_root / "10"
+    topic_dir.mkdir(parents=True)
+    write_file(topic_dir / "alpha.png", PNG_BYTES)
+    write_file(topic_dir / capture_images.IMAGE_METADATA_FILE, '{"ok": true}\n')
+
+    state_file = output_root / "_image_state.jsonl"
+    write_file(state_file, '{"topic_id":"10","status":"completed"}\n')
+
+    mirror_dir = tmp_path / "mirror" / "Images"
+    source_repo = tmp_path / "source-repo"
+    dest_repo = tmp_path / "dest-repo"
+    source_repo.mkdir()
+    dest_repo.mkdir()
+
+    commands: list[tuple[tuple[str, ...], str]] = []
+
+    def fake_run(command, cwd, text, capture_output, timeout, check):  # type: ignore[no-untyped-def]
+        del text, capture_output, timeout, check
+        commands.append((tuple(command), cwd))
+        if command[:5] == ["git", "diff", "--cached", "--quiet", "--exit-code"]:
+            return subprocess.CompletedProcess(command, 1, "", "")
+        return subprocess.CompletedProcess(command, 0, "", "")
+
+    monkeypatch.setattr(capture_images.subprocess, "run", fake_run)
+
+    args = capture_images.argparse.Namespace(
+        output_root=output_root,
+        sync_copy_dest=mirror_dir,
+        sync_source_repo=source_repo,
+        sync_dest_repo=dest_repo,
+        sync_commit_prefix="images",
+        sync_command_timeout_seconds=30.0,
+    )
+    job = capture_images.TopicImageJob(
+        topic_id="10",
+        name="Topic Ten",
+        url="https://mathacademy.test/topics/10",
+        images=(capture_images.ImageRecord(topic_id="10", img_src="/graphics/alpha"),),
+    )
+
+    capture_images.sync_completed_topic(job, state_file, args)
+
+    assert (mirror_dir / "10" / "alpha.png").read_bytes() == PNG_BYTES
+    assert (mirror_dir / capture_images.DEFAULT_STATE_FILE).read_text(encoding="utf-8") == (
+        '{"topic_id":"10","status":"completed"}\n'
+    )
+    assert commands == [
+        (("git", "add", "."), str(source_repo)),
+        (("git", "diff", "--cached", "--quiet", "--exit-code"), str(source_repo)),
+        (("git", "commit", "-m", "images topic 10"), str(source_repo)),
+        (("git", "push"), str(source_repo)),
+        (("git", "add", "."), str(dest_repo)),
+        (("git", "diff", "--cached", "--quiet", "--exit-code"), str(dest_repo)),
+        (("git", "commit", "-m", "images topic 10"), str(dest_repo)),
+        (("git", "push"), str(dest_repo)),
+    ]
 
 
 def test_topic_complete_accepts_metadata_files(tmp_path: Path) -> None:
