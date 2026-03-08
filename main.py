@@ -1,4 +1,4 @@
-"""Convenience launcher for the default Math Academy capture job."""
+"""Convenience launcher for the default Math Academy image download job."""
 
 from __future__ import annotations
 
@@ -9,17 +9,16 @@ from types import ModuleType
 
 
 ROOT = Path(__file__).resolve().parent
-CAPTURE_SCRIPT = ROOT / "MA" / "capture_topics.py"
+CAPTURE_SCRIPT = ROOT / "MA" / "capture_images.py"
 DEFAULT_ARGS = [
     "--cookies",
     str(ROOT / "MA" / ".auth" / "mathacademy-cookies.txt"),
-    "--device-scale-factor",
-    "2",
+    "--sync-after-topic",
 ]
 
 
 def _load_capture_module() -> ModuleType:
-    spec = importlib.util.spec_from_file_location("ma_capture_topics", CAPTURE_SCRIPT)
+    spec = importlib.util.spec_from_file_location("ma_capture_images", CAPTURE_SCRIPT)
     if spec is None or spec.loader is None:
         raise RuntimeError(f"Unable to load capture script from {CAPTURE_SCRIPT}")
 
