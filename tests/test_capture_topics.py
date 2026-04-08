@@ -18,25 +18,24 @@ def write_file(path: Path, contents: str = "x") -> None:
     path.write_text(contents, encoding="utf-8")
 
 
-def test_topic_complete_accepts_manifest_named_files(tmp_path: Path) -> None:
+def test_topic_complete_accepts_structural_outputs_from_metadata(tmp_path: Path) -> None:
     topic_dir = tmp_path / "123"
     topic_dir.mkdir()
     write_file(topic_dir / "123.html")
     write_file(topic_dir / "00-TOC.png")
-    write_file(topic_dir / "01-step-1.png")
-    write_file(topic_dir / "02-question-2.png")
-
-    manifest = {
+    write_file(topic_dir / "01-structural-1.png")
+    write_file(topic_dir / "02-structural-2.png")
+    metadata = {
         "topic_id": "123",
-        "capture_targets": {
-            "lesson_items": [
-                {"filename": "01-step-1.png"},
-                {"filename": "02-question-2.png"},
-            ]
-        },
+        "lesson_count": 2,
+        "filenames": ["01-structural-1.png", "02-structural-2.png"],
     }
+    (topic_dir / capture_topics.CAPTURE_METADATA_FILE).write_text(
+        json.dumps(metadata),
+        encoding="utf-8",
+    )
 
-    assert capture_topics.topic_complete(topic_dir, manifest)
+    assert capture_topics.topic_complete(topic_dir, "123")
 
 
 def test_topic_complete_accepts_structural_fallback_from_metadata(tmp_path: Path) -> None:
@@ -57,18 +56,7 @@ def test_topic_complete_accepts_structural_fallback_from_metadata(tmp_path: Path
         encoding="utf-8",
     )
 
-    manifest = {
-        "topic_id": "1987",
-        "capture_targets": {
-            "lesson_items": [
-                {"filename": "01-step-54570.png"},
-                {"filename": "02-step-54571.png"},
-                {"filename": "03-question-100219.png"},
-            ]
-        },
-    }
-
-    assert capture_topics.topic_complete(topic_dir, manifest)
+    assert capture_topics.topic_complete(topic_dir, "1987")
 
 
 def test_topic_complete_accepts_existing_structural_fallback_from_state_count(tmp_path: Path) -> None:
@@ -80,17 +68,5 @@ def test_topic_complete_accepts_existing_structural_fallback_from_state_count(tm
     write_file(topic_dir / "02-structural-2.png")
     write_file(topic_dir / "03-structural-3.png")
 
-    manifest = {
-        "topic_id": "1989",
-        "capture_targets": {
-            "lesson_items": [
-                {"filename": "01-step-449955.png"},
-                {"filename": "02-step-449956.png"},
-                {"filename": "03-question-252990.png"},
-                {"filename": "04-question-253351.png"},
-            ]
-        },
-    }
-
-    assert capture_topics.topic_complete(topic_dir, manifest, completed_lesson_count=3)
-    assert not capture_topics.topic_complete(topic_dir, manifest, completed_lesson_count=4)
+    assert capture_topics.topic_complete(topic_dir, "1989", completed_lesson_count=3)
+    assert not capture_topics.topic_complete(topic_dir, "1989", completed_lesson_count=4)

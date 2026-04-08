@@ -26,7 +26,6 @@ from tqdm import tqdm
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 DEFAULT_TOPICS_CSV = SCRIPT_DIR / "Topics.csv"
-DEFAULT_TOPIC_JSON_DIR = SCRIPT_DIR / "Topic-JSON"
 DEFAULT_OUTPUT_ROOT = SCRIPT_DIR / "captures"
 DEFAULT_STATE_FILE = "_capture_state.jsonl"
 CAPTURE_METADATA_FILE = "_capture_meta.json"
@@ -64,8 +63,8 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument(
         "--topic-json-dir",
         type=Path,
-        default=DEFAULT_TOPIC_JSON_DIR,
-        help="Directory containing Topic-JSON manifests.",
+        default=None,
+        help="Legacy option retained for compatibility. Topic-JSON manifests are no longer used.",
     )
     parser.add_argument(
         "--output-root",
@@ -333,11 +332,6 @@ def select_topics(topics: list[TopicRecord], args: argparse.Namespace) -> list[T
     return selected
 
 
-def load_manifest(topic_json_dir: Path, topic_id: str) -> dict[str, Any]:
-    path = topic_json_dir / f"{topic_id}.json"
-    return json.loads(path.read_text(encoding="utf-8"))
-
-
 def nonempty_file(path: Path) -> bool:
     return path.is_file() and path.stat().st_size > 0
 
@@ -396,27 +390,16 @@ def load_completed_lesson_counts(path: Path) -> dict[str, int]:
 
 def topic_complete(
     topic_dir: Path,
-    manifest: dict[str, Any],
+    topic_id: str,
     completed_lesson_count: int | None = None,
 ) -> bool:
-    html_path = topic_dir / f"{manifest['topic_id']}.html"
+    html_path = topic_dir / f"{topic_id}.html"
     toc_path = topic_dir / "00-TOC.png"
-    lesson_targets = manifest.get("capture_targets", {}).get("lesson_items", [])
 
     if not nonempty_file(html_path):
         return False
     if not nonempty_file(toc_path):
         return False
-
-    for item in lesson_targets:
-        filename = item.get("filename")
-        if not filename:
-            return False
-        path = topic_dir / filename
-        if not nonempty_file(path):
-            break
-    else:
-        return True
 
     metadata = load_capture_metadata(topic_dir)
     metadata_filenames = metadata.get("filenames")
@@ -543,68 +526,16 @@ def visible_structural_items(page: Page) -> list[Locator]:
     return visible
 
 
-def resolved_item_targets(page: Page, manifest: dict[str, Any]) -> list[tuple[str, Locator]]:
-    lesson_targets = manifest.get("capture_targets", {}).get("lesson_items", [])
+def structural_item_targets(page: Page, topic_id: str) -> list[tuple[str, Locator]]:
     structural = visible_structural_items(page)
-    topic_id = manifest.get("topic_id", "unknown")
 
     if not structural:
         raise RetryableCaptureError(f"No visible lesson items found for topic {topic_id}")
 
-    def structural_targets() -> list[tuple[str, Locator]]:
-        return [
-            (f"{index + 1:02d}-structural-{index + 1}.png", locator)
-            for index, locator in enumerate(structural)
-        ]
-
-    if lesson_targets:
-        if len(structural) != len(lesson_targets):
-            logging.warning(
-                "Topic %s manifest expects %d lesson items but live DOM has %d; "
-                "falling back to structural targeting",
-                topic_id,
-                len(lesson_targets),
-                len(structural),
-            )
-            return structural_targets()
-
-        resolved: list[tuple[str, Locator]] = []
-        for index, item in enumerate(lesson_targets):
-            filename = item.get("filename") or f"{index + 1:02d}-item-{index + 1}.png"
-            selector = item.get("selector")
-            if not selector:
-                logging.warning(
-                    "Topic %s manifest item %d is missing a selector; falling back to structural targeting",
-                    topic_id,
-                    index + 1,
-                )
-                return structural_targets()
-
-            candidate = page.locator(selector).first
-            try:
-                if not candidate.count():
-                    logging.warning(
-                        "Topic %s manifest selector %r failed for item %d; "
-                        "falling back to structural targeting",
-                        topic_id,
-                        selector,
-                        index + 1,
-                    )
-                    return structural_targets()
-            except Exception:
-                logging.warning(
-                    "Topic %s manifest selector %r errored for item %d; "
-                    "falling back to structural targeting",
-                    topic_id,
-                    selector,
-                    index + 1,
-                )
-                return structural_targets()
-
-            resolved.append((filename, candidate))
-        return resolved
-
-    return structural_targets()
+    return [
+        (f"{index + 1:02d}-structural-{index + 1}.png", locator)
+        for index, locator in enumerate(structural)
+    ]
 
 
 def screenshot_locator(locator: Locator, path: Path, render_wait_ms: int, timeout_ms: int) -> None:
@@ -624,7 +555,6 @@ def screenshot_locator(locator: Locator, path: Path, render_wait_ms: int, timeou
 def capture_topic_once(
     page: Page,
     topic: TopicRecord,
-    manifest: dict[str, Any],
     topic_dir: Path,
     args: argparse.Namespace,
 ) -> dict[str, Any]:
@@ -655,7 +585,7 @@ def capture_topic_once(
     screenshot_locator(page.locator("#sidebar"), toc_path, args.render_wait_ms, args.timeout_ms)
     sleep_range(args.sleep_item_min, args.sleep_item_max, f"{topic.topic_id} toc")
 
-    resolved_items = resolved_item_targets(page, manifest)
+    resolved_items = structural_item_targets(page, topic.topic_id)
     for filename, locator in resolved_items:
         screenshot_locator(locator, topic_dir / filename, args.render_wait_ms, args.timeout_ms)
         sleep_range(args.sleep_item_min, args.sleep_item_max, f"{topic.topic_id} lesson item")
@@ -673,14 +603,13 @@ def capture_topic_once(
 def capture_topic_with_retries(
     page: Page,
     topic: TopicRecord,
-    manifest: dict[str, Any],
     topic_dir: Path,
     args: argparse.Namespace,
 ) -> dict[str, Any]:
     attempts = args.retries + 1
     for attempt in range(1, attempts + 1):
         try:
-            return capture_topic_once(page, topic, manifest, topic_dir, args)
+            return capture_topic_once(page, topic, topic_dir, args)
         except AuthenticationRequiredError:
             raise
         except RetryableCaptureError:
@@ -734,7 +663,6 @@ def run(argv: list[str] | None = None) -> int:
     if args.dry_run:
         logging.info("Dry run only")
         logging.info("Topics CSV: %s", args.topics_csv)
-        logging.info("Topic JSON dir: %s", args.topic_json_dir)
         logging.info("Output root: %s", args.output_root)
         logging.info("Selected topics: %d", len(selected))
         for topic in selected[:10]:
@@ -765,12 +693,11 @@ def run(argv: list[str] | None = None) -> int:
         try:
             for index, topic in enumerate(selected, start=1):
                 progress.set_description(f"topic {topic.topic_id}")
-                manifest = load_manifest(args.topic_json_dir, topic.topic_id)
                 topic_dir = args.output_root / topic.topic_id
 
                 if not args.force and topic_complete(
                     topic_dir,
-                    manifest,
+                    topic.topic_id,
                     completed_lesson_counts.get(topic.topic_id),
                 ):
                     logging.info("Skipping %s (%s): output already looks complete", topic.topic_id, topic.name)
@@ -801,7 +728,7 @@ def run(argv: list[str] | None = None) -> int:
                 )
 
                 try:
-                    result = capture_topic_with_retries(page, topic, manifest, topic_dir, args)
+                    result = capture_topic_with_retries(page, topic, topic_dir, args)
                 except AuthenticationRequiredError as exc:
                     failures += 1
                     logging.error("Stopping batch: %s", exc)
