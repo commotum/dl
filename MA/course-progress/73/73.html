@@ -1,0 +1,2538 @@
+<!DOCTYPE html><html><head>
+        <title>Math Academy</title>
+        <meta charset="utf-8">
+
+        <link rel="shortcut icon" href="/img/favicon.ico">
+        <link rel="stylesheet" href="/css/app.css">
+        <link rel="stylesheet" href="/css/mathquill.css">
+        <link rel="stylesheet" href="/css/math-editor.css">
+
+        <link rel="stylesheet" href="/css/prism.css">
+        <script type="text/javascript" src="/js/prism.js"></script>
+
+        <script type="text/javascript" src="/js/jquery.1.11.0.min.js"></script>
+
+        <script>
+            $.noConflict();
+            // Code that uses other library's $ can follow here.
+        </script>
+
+        <script type="text/javascript" src="/js/mathquill.v2.1.min.js"></script>
+        <script type="text/javascript" src="/js/math-editor.js"></script> 
+        <script type="text/javascript" src="/js/mathjax-config.js"></script>
+        <script type="text/javascript" id="MathJax-script" async="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <!--
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>        
+        <script type="text/javascript" src="/js/katex-config.js"></script>
+        -->
+
+        <script>
+            function showSupportDialog() {
+                const dlg = new SupportDialog();
+                dlg.show();
+            }            
+        </script>
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
+        <script type="text/javascript" src="/js/commonFunctions.js"></script>
+        <script type="text/javascript" src="/js/core.js"></script>
+        <script type="text/javascript" src="/js/core-ui.js"></script>
+        <script type="text/javascript" src="/js/api.js"></script>
+        <script type="text/javascript" src="/js/api-new.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
+        <script type="text/javascript" src="/js/jdom.js"></script>
+        <script type="text/javascript" src="/js/header.js"></script>
+
+        <script>
+            var userTimeZone = 'America/Los_Angeles';
+            checkTimeZone(userTimeZone);
+        </script>
+
+        <style>
+            div#courseNameHeader {
+                margin-top: 50px;
+            }            
+        </style>        
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/input/tex/extensions/color.js" charset="UTF-8"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/input/tex/extensions/enclose.js" charset="UTF-8"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/input/tex/extensions/bbox.js" charset="UTF-8"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/input/tex/extensions/cancel.js" charset="UTF-8"></script><style type="text/css">.CtxtMenu_InfoClose {  top:.2em; right:.2em;}
+.CtxtMenu_InfoContent {  overflow:auto; text-align:left; font-size:80%;  padding:.4em .6em; border:1px inset; margin:1em 0px;  max-height:20em; max-width:30em; background-color:#EEEEEE;  white-space:normal;}
+.CtxtMenu_Info.CtxtMenu_MousePost {outline:none;}
+.CtxtMenu_Info {  position:fixed; left:50%; width:auto; text-align:center;  border:3px outset; padding:1em 2em; background-color:#DDDDDD;  color:black;  cursor:default; font-family:message-box; font-size:120%;  font-style:normal; text-indent:0; text-transform:none;  line-height:normal; letter-spacing:normal; word-spacing:normal;  word-wrap:normal; white-space:nowrap; float:none; z-index:201;  border-radius: 15px;                     /* Opera 10.5 and IE9 */  -webkit-border-radius:15px;               /* Safari and Chrome */  -moz-border-radius:15px;                  /* Firefox */  -khtml-border-radius:15px;                /* Konqueror */  box-shadow:0px 10px 20px #808080;         /* Opera 10.5 and IE9 */  -webkit-box-shadow:0px 10px 20px #808080; /* Safari 3 & Chrome */  -moz-box-shadow:0px 10px 20px #808080;    /* Forefox 3.5 */  -khtml-box-shadow:0px 10px 20px #808080;  /* Konqueror */  filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color="gray", Positive="true"); /* IE */}
+</style><style type="text/css">.CtxtMenu_MenuClose {  position:absolute;  cursor:pointer;  display:inline-block;  border:2px solid #AAA;  border-radius:18px;  -webkit-border-radius: 18px;             /* Safari and Chrome */  -moz-border-radius: 18px;                /* Firefox */  -khtml-border-radius: 18px;              /* Konqueror */  font-family: "Courier New", Courier;  font-size:24px;  color:#F0F0F0}
+.CtxtMenu_MenuClose span {  display:block; background-color:#AAA; border:1.5px solid;  border-radius:18px;  -webkit-border-radius: 18px;             /* Safari and Chrome */  -moz-border-radius: 18px;                /* Firefox */  -khtml-border-radius: 18px;              /* Konqueror */  line-height:0;  padding:8px 0 6px     /* may need to be browser-specific */}
+.CtxtMenu_MenuClose:hover {  color:white!important;  border:2px solid #CCC!important}
+.CtxtMenu_MenuClose:hover span {  background-color:#CCC!important}
+.CtxtMenu_MenuClose:hover:focus {  outline:none}
+</style><style type="text/css">.CtxtMenu_Menu {  position:absolute;  background-color:white;  color:black;  width:auto; padding:5px 0px;  border:1px solid #CCCCCC; margin:0; cursor:default;  font: menu; text-align:left; text-indent:0; text-transform:none;  line-height:normal; letter-spacing:normal; word-spacing:normal;  word-wrap:normal; white-space:nowrap; float:none; z-index:201;  border-radius: 5px;                     /* Opera 10.5 and IE9 */  -webkit-border-radius: 5px;             /* Safari and Chrome */  -moz-border-radius: 5px;                /* Firefox */  -khtml-border-radius: 5px;              /* Konqueror */  box-shadow:0px 10px 20px #808080;         /* Opera 10.5 and IE9 */  -webkit-box-shadow:0px 10px 20px #808080; /* Safari 3 & Chrome */  -moz-box-shadow:0px 10px 20px #808080;    /* Forefox 3.5 */  -khtml-box-shadow:0px 10px 20px #808080;  /* Konqueror */}
+.CtxtMenu_MenuItem {  padding: 1px 2em;  background:transparent;}
+.CtxtMenu_MenuArrow {  position:absolute; right:.5em; padding-top:.25em; color:#666666;  font-family: null; font-size: .75em}
+.CtxtMenu_MenuActive .CtxtMenu_MenuArrow {color:white}
+.CtxtMenu_MenuArrow.CtxtMenu_RTL {left:.5em; right:auto}
+.CtxtMenu_MenuCheck {  position:absolute; left:.7em;  font-family: null}
+.CtxtMenu_MenuCheck.CtxtMenu_RTL { right:.7em; left:auto }
+.CtxtMenu_MenuRadioCheck {  position:absolute; left: .7em;}
+.CtxtMenu_MenuRadioCheck.CtxtMenu_RTL {  right: .7em; left:auto}
+.CtxtMenu_MenuInputBox {  padding-left: 1em; right:.5em; color:#666666;  font-family: null;}
+.CtxtMenu_MenuInputBox.CtxtMenu_RTL {  left: .1em;}
+.CtxtMenu_MenuComboBox {  left:.1em; padding-bottom:.5em;}
+.CtxtMenu_MenuSlider {  left: .1em;}
+.CtxtMenu_SliderValue {  position:absolute; right:.1em; padding-top:.25em; color:#333333;  font-size: .75em}
+.CtxtMenu_SliderBar {  outline: none; background: #d3d3d3}
+.CtxtMenu_MenuLabel {  padding: 1px 2em 3px 1.33em;  font-style:italic}
+.CtxtMenu_MenuRule {  border-top: 1px solid #DDDDDD;  margin: 4px 3px;}
+.CtxtMenu_MenuDisabled {  color:GrayText}
+.CtxtMenu_MenuActive {  background-color: #606872;  color: white;}
+.CtxtMenu_MenuDisabled:focus {  background-color: #E8E8E8}
+.CtxtMenu_MenuLabel:focus {  background-color: #E8E8E8}
+.CtxtMenu_ContextMenu:focus {  outline:none}
+.CtxtMenu_ContextMenu .CtxtMenu_MenuItem:focus {  outline:none}
+.CtxtMenu_SelectionMenu {  position:relative; float:left;  border-bottom: none; -webkit-box-shadow:none; -webkit-border-radius:0px; }
+.CtxtMenu_SelectionItem {  padding-right: 1em;}
+.CtxtMenu_Selection {  right: 40%; width:50%; }
+.CtxtMenu_SelectionBox {  padding: 0em; max-height:20em; max-width: none;  background-color:#FFFFFF;}
+.CtxtMenu_SelectionDivider {  clear: both; border-top: 2px solid #000000;}
+.CtxtMenu_Menu .CtxtMenu_MenuClose {  top:-10px; left:-10px}
+</style><style id="MJX-CHTML-styles">
+mjx-container[jax="CHTML"] {
+  line-height: 0;
+}
+
+mjx-container [space="1"] {
+  margin-left: .111em;
+}
+
+mjx-container [space="2"] {
+  margin-left: .167em;
+}
+
+mjx-container [space="3"] {
+  margin-left: .222em;
+}
+
+mjx-container [space="4"] {
+  margin-left: .278em;
+}
+
+mjx-container [space="5"] {
+  margin-left: .333em;
+}
+
+mjx-container [rspace="1"] {
+  margin-right: .111em;
+}
+
+mjx-container [rspace="2"] {
+  margin-right: .167em;
+}
+
+mjx-container [rspace="3"] {
+  margin-right: .222em;
+}
+
+mjx-container [rspace="4"] {
+  margin-right: .278em;
+}
+
+mjx-container [rspace="5"] {
+  margin-right: .333em;
+}
+
+mjx-container [size="s"] {
+  font-size: 70.7%;
+}
+
+mjx-container [size="ss"] {
+  font-size: 50%;
+}
+
+mjx-container [size="Tn"] {
+  font-size: 60%;
+}
+
+mjx-container [size="sm"] {
+  font-size: 85%;
+}
+
+mjx-container [size="lg"] {
+  font-size: 120%;
+}
+
+mjx-container [size="Lg"] {
+  font-size: 144%;
+}
+
+mjx-container [size="LG"] {
+  font-size: 173%;
+}
+
+mjx-container [size="hg"] {
+  font-size: 207%;
+}
+
+mjx-container [size="HG"] {
+  font-size: 249%;
+}
+
+mjx-container [width="full"] {
+  width: 100%;
+}
+
+mjx-box {
+  display: inline-block;
+}
+
+mjx-block {
+  display: block;
+}
+
+mjx-itable {
+  display: inline-table;
+}
+
+mjx-row {
+  display: table-row;
+}
+
+mjx-row > * {
+  display: table-cell;
+}
+
+mjx-mtext {
+  display: inline-block;
+}
+
+mjx-mstyle {
+  display: inline-block;
+}
+
+mjx-merror {
+  display: inline-block;
+  color: red;
+  background-color: yellow;
+}
+
+mjx-mphantom {
+  visibility: hidden;
+}
+
+_::-webkit-full-page-media, _:future, :root mjx-container {
+  will-change: opacity;
+}
+
+mjx-assistive-mml {
+  position: absolute !important;
+  top: 0px;
+  left: 0px;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 1px 0px 0px 0px !important;
+  border: 0px !important;
+  display: block !important;
+  width: auto !important;
+  overflow: hidden !important;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+mjx-assistive-mml[display="block"] {
+  width: 100% !important;
+}
+
+mjx-math {
+  display: inline-block;
+  text-align: left;
+  line-height: 0;
+  text-indent: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100%;
+  font-size-adjust: none;
+  letter-spacing: normal;
+  border-collapse: collapse;
+  word-wrap: normal;
+  word-spacing: normal;
+  white-space: nowrap;
+  direction: ltr;
+  padding: 1px 0;
+}
+
+mjx-container[jax="CHTML"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="CHTML"][display="true"][width="full"] {
+  display: flex;
+}
+
+mjx-container[jax="CHTML"][display="true"] mjx-math {
+  padding: 0;
+}
+
+mjx-container[jax="CHTML"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="CHTML"][justify="right"] {
+  text-align: right;
+}
+
+mjx-c::before {
+  display: block;
+  width: 0;
+}
+
+.MJX-TEX {
+  font-family: MJXZERO, MJXTEX;
+}
+
+.TEX-B {
+  font-family: MJXZERO, MJXTEX-B;
+}
+
+.TEX-I {
+  font-family: MJXZERO, MJXTEX-I;
+}
+
+.TEX-MI {
+  font-family: MJXZERO, MJXTEX-MI;
+}
+
+.TEX-BI {
+  font-family: MJXZERO, MJXTEX-BI;
+}
+
+.TEX-S1 {
+  font-family: MJXZERO, MJXTEX-S1;
+}
+
+.TEX-S2 {
+  font-family: MJXZERO, MJXTEX-S2;
+}
+
+.TEX-S3 {
+  font-family: MJXZERO, MJXTEX-S3;
+}
+
+.TEX-S4 {
+  font-family: MJXZERO, MJXTEX-S4;
+}
+
+.TEX-A {
+  font-family: MJXZERO, MJXTEX-A;
+}
+
+.TEX-C {
+  font-family: MJXZERO, MJXTEX-C;
+}
+
+.TEX-CB {
+  font-family: MJXZERO, MJXTEX-CB;
+}
+
+.TEX-FR {
+  font-family: MJXZERO, MJXTEX-FR;
+}
+
+.TEX-FRB {
+  font-family: MJXZERO, MJXTEX-FRB;
+}
+
+.TEX-SS {
+  font-family: MJXZERO, MJXTEX-SS;
+}
+
+.TEX-SSB {
+  font-family: MJXZERO, MJXTEX-SSB;
+}
+
+.TEX-SSI {
+  font-family: MJXZERO, MJXTEX-SSI;
+}
+
+.TEX-SC {
+  font-family: MJXZERO, MJXTEX-SC;
+}
+
+.TEX-T {
+  font-family: MJXZERO, MJXTEX-T;
+}
+
+.TEX-V {
+  font-family: MJXZERO, MJXTEX-V;
+}
+
+.TEX-VB {
+  font-family: MJXZERO, MJXTEX-VB;
+}
+
+mjx-stretchy-v mjx-c, mjx-stretchy-h mjx-c {
+  font-family: MJXZERO, MJXTEX-S1, MJXTEX-S4, MJXTEX, MJXTEX-A ! important;
+}
+
+@font-face /* 0 */ {
+  font-family: MJXZERO;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Zero.woff") format("woff");
+}
+
+@font-face /* 1 */ {
+  font-family: MJXTEX;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Regular.woff") format("woff");
+}
+
+@font-face /* 2 */ {
+  font-family: MJXTEX-B;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Bold.woff") format("woff");
+}
+
+@font-face /* 3 */ {
+  font-family: MJXTEX-I;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Math-Italic.woff") format("woff");
+}
+
+@font-face /* 4 */ {
+  font-family: MJXTEX-MI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Italic.woff") format("woff");
+}
+
+@font-face /* 5 */ {
+  font-family: MJXTEX-BI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Math-BoldItalic.woff") format("woff");
+}
+
+@font-face /* 6 */ {
+  font-family: MJXTEX-S1;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size1-Regular.woff") format("woff");
+}
+
+@font-face /* 7 */ {
+  font-family: MJXTEX-S2;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size2-Regular.woff") format("woff");
+}
+
+@font-face /* 8 */ {
+  font-family: MJXTEX-S3;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size3-Regular.woff") format("woff");
+}
+
+@font-face /* 9 */ {
+  font-family: MJXTEX-S4;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size4-Regular.woff") format("woff");
+}
+
+@font-face /* 10 */ {
+  font-family: MJXTEX-A;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_AMS-Regular.woff") format("woff");
+}
+
+@font-face /* 11 */ {
+  font-family: MJXTEX-C;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Regular.woff") format("woff");
+}
+
+@font-face /* 12 */ {
+  font-family: MJXTEX-CB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Bold.woff") format("woff");
+}
+
+@font-face /* 13 */ {
+  font-family: MJXTEX-FR;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Regular.woff") format("woff");
+}
+
+@font-face /* 14 */ {
+  font-family: MJXTEX-FRB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Bold.woff") format("woff");
+}
+
+@font-face /* 15 */ {
+  font-family: MJXTEX-SS;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Regular.woff") format("woff");
+}
+
+@font-face /* 16 */ {
+  font-family: MJXTEX-SSB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Bold.woff") format("woff");
+}
+
+@font-face /* 17 */ {
+  font-family: MJXTEX-SSI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Italic.woff") format("woff");
+}
+
+@font-face /* 18 */ {
+  font-family: MJXTEX-SC;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Script-Regular.woff") format("woff");
+}
+
+@font-face /* 19 */ {
+  font-family: MJXTEX-T;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Typewriter-Regular.woff") format("woff");
+}
+
+@font-face /* 20 */ {
+  font-family: MJXTEX-V;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Regular.woff") format("woff");
+}
+
+@font-face /* 21 */ {
+  font-family: MJXTEX-VB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Bold.woff") format("woff");
+}
+</style></head>
+
+    <body>
+        
+        <div id="topRibbon"></div>
+        
+
+        <div id="wrap">
+
+            
+            <div id="topBarContainer">
+
+                <table style="width: 1080px;">
+                    <tbody><tr>
+                        <td style="width: 100px;">
+                            <a href="/"><img class="logo" src="/img/math-academy-350-logo.png"></a>
+                        </td>
+                        <td>
+                            <div id="headerLinks">
+                                
+                                    
+                                        <a id="learnHeaderLink" class="headerLink" href="/learn">LEARN</a>
+                                        
+                                     
+
+                                         
+
+                                                                     
+                                                                                        
+                                                                                                   
+                                                    
+                                             
+                                    
+                                             
+
+                                    <a id="coursesHeaderLink" class="headerLink" onmouseover="showCoursesMenu(this, 'coursesMenu');">COURSES</a>  
+
+                                  
+                            </div>
+
+                            
+
+                            <div id="coursesMenu">
+                                <table id="coursesMenu-coursesTable" cellspacing="0" cellpadding="0">
+                                <tbody><tr>
+                                    <td class="coursesMenu-categoryList" style="padding-right: 15px;">
+                                        <div class="coursesMenu-categoryHeader">Elementary School</div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/4th-grade-math">4th Grade Math</a></div>                                             
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/5th-grade-math">5th Grade Math</a></div>         
+                                        
+                                        <div class="coursesMenu-categoryHeader" style="margin-top: 20px;">Middle School</div>                                        
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/6th-grade-math">6th Grade Math</a></div>         
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink">7th Grade Math</a> *</div>         
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink">8th Grade Math</a> *</div>         
+
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/prealgebra">Prealgebra</a></div>
+                                
+                                        <div class="coursesMenu-categoryHeader" style="margin-top: 20px;">High School</div>
+
+                                        <div class="coursesMenu-courseSequence" style="margin-top: 20px;">Traditional</div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/algebra-i">Algebra I</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/geometry">Geometry</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/algebra-ii">Algebra II</a></div>       
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/precalculus">Precalculus</a></div> 
+
+                                        <div class="coursesMenu-courseSequence">Integrated Math</div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/integrated-math-i">Integrated Math I</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/integrated-math-ii">Integrated Math II</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/integrated-math-iii">Integrated Math III</a></div>   
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/precalculus">Precalculus</a></div> 
+                                
+
+                                        <div class="coursesMenu-courseSequence">Integrated Math (Honors)</div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/integrated-math-i-honors">Integrated Math I (Honors)</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/integrated-math-ii-honors">Integrated Math II (Honors)</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/integrated-math-iii-honors">Integrated Math III (Honors)</a></div>                                     
+
+                                        <div class="coursesMenu-categoryHeader" style="margin-top: 20px;">Test Prep</div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/sat-math-fundamentals">SAT Math Fundamentals</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/sat-math-prep">SAT Math Prep</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/act-math">ACT Math</a> *</div>
+                                    </td>
+                                    <td class="coursesMenu-categoryList">
+
+                                        <div class="coursesMenu-categoryHeader">AP Courses</div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/ap-calculus-ab">AP Calculus AB</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/ap-calculus-bc">AP Calculus BC</a></div>
+
+                                        <div class="coursesMenu-categoryHeader" style="margin-top: 20px;">Foundations Series</div>
+
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/mathematical-foundations-i">Mathematical Foundations I</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/mathematical-foundations-ii">Mathematical Foundations II</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/mathematical-foundations-iii">Mathematical Foundations III</a></div>                                        
+
+                                        <div class="coursesMenu-categoryHeader" style="margin-top: 20px;">University</div>            
+
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/calculus-i">Calculus I</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/calculus-ii">Calculus II</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/linear-algebra">Linear Algebra</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/multivariable-calculus">Multivariable Calculus</a></div>                                     
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/methods-of-proof">Methods of Proof</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/differential-equations">Differential Equations</a></div>                                           
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/discrete-mathematics">Discrete Mathematics</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/probability-and-statistics">Probability &amp; Statistics</a></div>                                        
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/mathematics-for-machine-learning">Mathematics For Machine Learning</a></div>      
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/mathematical-methods-for-the-physical-sciences-i">Mathematical Methods for the Physical Sciences I</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/mathematical-methods-for-the-physical-sciences-ii">Mathematical Methods for the Physical Sciences II</a></div>                                                                             
+                                                            
+                                        <div class="coursesMenu-course">
+                                            <a class="coursesMenu-courseLink" href="/courses/abstract-algebra">Abstract Algebra</a> *
+                                        </div>        
+                                    </td>
+                                </tr>
+                                </tbody></table>
+
+                                <div style="margin-top: 20px;">
+                                    * <span id="coursesMenu-underDevelopment">Currently under development</span> 
+                                </div>                            
+                            </div>                        
+                        </td>
+                        <td style="width: 250px;">
+                            <div id="topMenu">
+                                
+                                    
+
+                                        
+
+                                        
+                                            <div id="userHeader" onmouseover="showMenu(this, 'userMenu');">JP</div>
+                                        
+
+                                        <div id="userMenu">
+                                            <div id="userMenu-info">
+                                                <div id="userMenu-name">Jacob Peterson</div>
+                                                
+                                                    <div id="userMenu-username">commotum</div>
+                                                
+                                            </div>
+
+                                            <div class="headerMenuItem" onmousedown="Core.navigate('/settings/profile');">Settings</div>
+
+                                            
+
+                                            <div class="headerMenuItem" onmousedown="Core.navigate('/help');">Help</div>
+
+                                            <div class="headerMenuItem" onmousedown="showSupportDialog();">Support</div>
+
+                                            <div class="headerMenuItem" onmousedown="Core.navigate('/logout');">Logout</div>                                        
+                                        </div>
+                                    
+                                                            
+                            </div> 
+                        </td>
+                    </tr>
+                </tbody></table>
+            </div>
+            
+
+            <div id="mathjaxCommands" style="display: none;">
+                <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" tabindex="0" ctxtmenu_counter="0" style="font-size: 113.1%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"></math></mjx-assistive-mml></mjx-container>
+            </div>
+
+            <div id="content">
+                <link rel="stylesheet" href="/css/student-progress.css">
+<link rel="stylesheet" href="/css/course-progress.css">
+
+<script type="text/javascript" src="/js/course-progress.js"></script>
+
+<div id="sidebar">
+    <div class="sidebarFrame">
+        <div id="sidebarTitle">
+            
+                Course Sequence
+             
+        </div>
+
+         
+            
+                <div class="course">
+                    
+                        <a href="/courses/75/progress">4th Grade Math</a>
+                     
+                </div>
+                            
+         
+            
+                <div class="course">
+                    
+                        <a href="/courses/30/progress">5th Grade Math</a>
+                     
+                </div>
+                            
+         
+            
+                <div class="course">
+                    
+                        <a href="/courses/99/progress">Prealgebra</a>
+                     
+                </div>
+                            
+         
+            
+                <div class="course">
+                    
+                        <a href="/courses/44/progress">Algebra I</a>
+                     
+                </div>
+                            
+         
+            
+                <div class="course">
+                    
+                        <a href="/courses/126/progress">Geometry</a>
+                     
+                </div>
+                            
+         
+            
+                <div class="course">
+                    
+                        <a href="/courses/51/progress">Algebra II</a>
+                     
+                </div>
+                            
+         
+            
+                <div class="course">
+                    
+                        <a href="/courses/43/progress">Precalculus</a>
+                     
+                </div>
+                            
+         
+            
+                <div class="course">
+                    
+                        <a href="/courses/105/progress">Calculus I</a>
+                     
+                </div>
+                            
+         
+            
+                <div class="course">
+                    
+                        <a href="/courses/106/progress">Calculus II</a>
+                     
+                </div>
+                            
+         
+            
+                <div class="course">
+                    
+                        <a href="/courses/55/progress">Linear Algebra</a>
+                     
+                </div>
+                            
+         
+            
+                <div class="course">
+                    
+                        <a href="/courses/54/progress">Multivariable Calculus</a>
+                     
+                </div>
+                            
+         
+            
+                <div class="selectedCourse">Probability &amp; Statistics</div>
+                            
+                     
+    </div>
+</div>
+
+<div id="progressContent">
+
+    <div id="units">
+         
+            <div class="unit">
+                <div class="unitHeader" onclick="toggleUnit(467);">
+                    <div class="unitNumber">1.</div> 
+                    <span class="unitName">Probability &amp; Random Variables</span>
+                    <div id="unitArrow-467" class="unitArrow"></div>
+                    <div class="unitNumTopics">20 topics</div>
+                </div>
+
+                <div class="unitProgressBarFrame" onclick="toggleUnit(467);">
+                    <table class="unitProgressBar" cellspacing="0" cellpadding="0" style="width: 310px;">
+                        <tbody><tr>
+                            <td style="height: 4px; width: 0%; background-color: rgb(23, 107, 181);"></td>                           
+                            <td style="height: 4px; width: 0%; background-color: rgb(29, 134, 226);"></td>                    
+                            <td style="height: 4px; width: 0%; background-color: rgb(74, 158, 232);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(120, 182, 237);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(165, 207, 243);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(210, 231, 249);"></td>   
+                            <td style="height: 4px; width: 100%; background-color: white;"></td>   
+                        </tr>
+                    </tbody></table>
+                </div>
+                
+                <div id="unitModules-467" class="unitModules">
+                     
+                        <div class="module">
+                            <div>1.1. Probability</div>
+    
+                            <div id="moduleTopics-120827" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">1.1.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/773?courseId=73">The Law of Total Probability</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">1.1.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/971?courseId=73">Extending the Law of Total Probability</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">1.1.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3272?courseId=73">Bayes' Theorem</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">1.1.4.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3286?courseId=73">Extending Bayes' Theorem</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                        <div class="module">
+                            <div>1.2. Combinatorics</div>
+    
+                            <div id="moduleTopics-123347" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">1.2.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/1341?courseId=73">Permutations With Repetition</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">1.2.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/1342?courseId=73">K Permutations of N With Repetition</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">1.2.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/1343?courseId=73">Combinations With Repetition</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                        <div class="module">
+                            <div>1.3. Random Variables</div>
+    
+                            <div id="moduleTopics-120824" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">1.3.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/1347?courseId=73">Probability Density Functions of Continuous Random Variables</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">1.3.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/4043?courseId=73">Calculating Probabilities With Continuous Random Variables</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">1.3.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/4100?courseId=73">Continuous Random Variables Over Infinite Domains</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">1.3.4.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2163?courseId=73">Cumulative Distribution Functions for Continuous Random Variables</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">1.3.5.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3024?courseId=73">Median, Quartiles and Percentiles of Continuous Random Variables</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">1.3.6.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3025?courseId=73">Finding the Mode of a Continuous Random Variable</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">1.3.7.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2994?courseId=73">Approximating Discrete Random Variables as Continuous</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">1.3.8.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3867?courseId=73">Simulating Random Observations</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                        <div class="module">
+                            <div>1.4. Functions of Random Variables</div>
+    
+                            <div id="moduleTopics-120826" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">1.4.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3631?courseId=73">One-to-One Transformations of Discrete Random Variables</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">1.4.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3647?courseId=73">Many-to-One Transformations of Discrete Random Variables</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">1.4.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3055?courseId=73">The Distribution Function Method</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">1.4.4.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3056?courseId=73">The Change-of-Variables Method for Continuous Random Variables</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">1.4.5.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3637?courseId=73">The Distribution Function Method With Many-to-One Transformations</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                </div>
+            </div>
+         
+            <div class="unit">
+                <div class="unitHeader" onclick="toggleUnit(468);">
+                    <div class="unitNumber">2.</div> 
+                    <span class="unitName">Expectation</span>
+                    <div id="unitArrow-468" class="unitArrow"></div>
+                    <div class="unitNumTopics">16 topics</div>
+                </div>
+
+                <div class="unitProgressBarFrame" onclick="toggleUnit(468);">
+                    <table class="unitProgressBar" cellspacing="0" cellpadding="0" style="width: 248px;">
+                        <tbody><tr>
+                            <td style="height: 4px; width: 0%; background-color: rgb(23, 107, 181);"></td>                           
+                            <td style="height: 4px; width: 0%; background-color: rgb(29, 134, 226);"></td>                    
+                            <td style="height: 4px; width: 0%; background-color: rgb(74, 158, 232);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(120, 182, 237);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(165, 207, 243);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(210, 231, 249);"></td>   
+                            <td style="height: 4px; width: 100%; background-color: white;"></td>   
+                        </tr>
+                    </tbody></table>
+                </div>
+                
+                <div id="unitModules-468" class="unitModules">
+                     
+                        <div class="module">
+                            <div>2.1. Expectation of Random Variables</div>
+    
+                            <div id="moduleTopics-120828" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">2.1.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/730?courseId=73">Expected Values of Discrete Random Variables</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">2.1.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2836?courseId=73">Properties of Expectation for Discrete Random Variables</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">2.1.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/1388?courseId=73">Variance of Discrete Random Variables</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">2.1.4.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3642?courseId=73">Moments of Discrete Random Variables</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">2.1.5.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3028?courseId=73">Properties of Variance for Discrete Random Variables</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">2.1.6.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2987?courseId=73">Moments of Continuous Random Variables</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">2.1.7.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/4012?courseId=73">Expected Values of Continuous Random Variables</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">2.1.8.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2988?courseId=73">Variance of Continuous Random Variables</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">2.1.9.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/1335?courseId=73">The Rule of the Lazy Statistician</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                        <div class="module">
+                            <div>2.2. Moment-Generating Functions</div>
+    
+                            <div id="moduleTopics-120831" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">2.2.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3401?courseId=73">Moment-Generating Functions</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">2.2.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3287?courseId=73">Calculating Moments Using Moment-Generating Functions</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">2.2.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3648?courseId=73">Calculating Variance and Standard Deviation Using Moment-Generating Functions</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">2.2.4.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3288?courseId=73">Constructing Moment-Generating Functions for Discrete Probability Distributions</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">2.2.5.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3601?courseId=73">Constructing Moment-Generating Functions for Continuous Probability Distributions</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">2.2.6.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3070?courseId=73">Properties of Moment-Generating Functions</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">2.2.7.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3293?courseId=73">The Uniqueness Property of MGFs</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                </div>
+            </div>
+         
+            <div class="unit">
+                <div class="unitHeader" onclick="toggleUnit(278);">
+                    <div class="unitNumber">3.</div> 
+                    <span class="unitName">Discrete Probability Distributions</span>
+                    <div id="unitArrow-278" class="unitArrow"></div>
+                    <div class="unitNumTopics">20 topics</div>
+                </div>
+
+                <div class="unitProgressBarFrame" onclick="toggleUnit(278);">
+                    <table class="unitProgressBar" cellspacing="0" cellpadding="0" style="width: 310px;">
+                        <tbody><tr>
+                            <td style="height: 4px; width: 0%; background-color: rgb(23, 107, 181);"></td>                           
+                            <td style="height: 4px; width: 0%; background-color: rgb(29, 134, 226);"></td>                    
+                            <td style="height: 4px; width: 0%; background-color: rgb(74, 158, 232);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(120, 182, 237);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(165, 207, 243);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(210, 231, 249);"></td>   
+                            <td style="height: 4px; width: 100%; background-color: white;"></td>   
+                        </tr>
+                    </tbody></table>
+                </div>
+                
+                <div id="unitModules-278" class="unitModules">
+                     
+                        <div class="module">
+                            <div>3.1. The Discrete Uniform Distribution</div>
+    
+                            <div id="moduleTopics-120832" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">3.1.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3010?courseId=73">The Discrete Uniform Distribution</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">3.1.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3402?courseId=73">Mean and Variance of the Discrete Uniform Distribution</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">3.1.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3269?courseId=73">Modeling With Discrete Uniform Distributions</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                        <div class="module">
+                            <div>3.2. The Bernoulli Distribution</div>
+    
+                            <div id="moduleTopics-120833" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">3.2.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3071?courseId=73">The Bernoulli Distribution</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">3.2.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3280?courseId=73">Mean and Variance of the Bernoulli Distribution</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                        <div class="module">
+                            <div>3.3. The Binomial Distribution</div>
+    
+                            <div id="moduleTopics-120834" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">3.3.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3281?courseId=73">The Binomial Distribution</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">3.3.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/1395?courseId=73">Modeling With the Binomial Distribution</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">3.3.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2149?courseId=73">Mean and Variance of the Binomial Distribution</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">3.3.4.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3270?courseId=73">The CDF of the Binomial Distribution</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                        <div class="module">
+                            <div>3.4. The Poisson Distribution</div>
+    
+                            <div id="moduleTopics-120835" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">3.4.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3282?courseId=73">The Poisson Distribution</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">3.4.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2838?courseId=73">Modeling With the Poisson Distribution</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">3.4.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2991?courseId=73">Mean and Variance of the Poisson Distribution</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">3.4.4.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3274?courseId=73">The CDF of the Poisson Distribution</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">3.4.5.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2840?courseId=73">The Poisson Approximation of the Binomial Distribution</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                        <div class="module">
+                            <div>3.5. The Geometric Distribution</div>
+    
+                            <div id="moduleTopics-120836" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">3.5.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3284?courseId=73">The Geometric Distribution</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">3.5.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2839?courseId=73">Modeling With the Geometric Distribution</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">3.5.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2992?courseId=73">Mean and Variance of the Geometric Distribution</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                        <div class="module">
+                            <div>3.6. The Negative Binomial Distribution</div>
+    
+                            <div id="moduleTopics-120837" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">3.6.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3072?courseId=73">The Negative Binomial Distribution</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">3.6.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3285?courseId=73">Modeling With the Negative Binomial Distribution</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">3.6.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3273?courseId=73">Mean and Variance of the Negative Binomial Distribution</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                </div>
+            </div>
+         
+            <div class="unit">
+                <div class="unitHeader" onclick="toggleUnit(279);">
+                    <div class="unitNumber">4.</div> 
+                    <span class="unitName">Continuous Probability Distributions</span>
+                    <div id="unitArrow-279" class="unitArrow"></div>
+                    <div class="unitNumTopics">21 topics</div>
+                </div>
+
+                <div class="unitProgressBarFrame" onclick="toggleUnit(279);">
+                    <table class="unitProgressBar" cellspacing="0" cellpadding="0" style="width: 325px;">
+                        <tbody><tr>
+                            <td style="height: 4px; width: 0%; background-color: rgb(23, 107, 181);"></td>                           
+                            <td style="height: 4px; width: 0%; background-color: rgb(29, 134, 226);"></td>                    
+                            <td style="height: 4px; width: 0%; background-color: rgb(74, 158, 232);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(120, 182, 237);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(165, 207, 243);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(210, 231, 249);"></td>   
+                            <td style="height: 4px; width: 100%; background-color: white;"></td>   
+                        </tr>
+                    </tbody></table>
+                </div>
+                
+                <div id="unitModules-279" class="unitModules">
+                     
+                        <div class="module">
+                            <div>4.1. The Normal Distribution</div>
+    
+                            <div id="moduleTopics-120840" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">4.1.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/711?courseId=73">The Z-Score</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">4.1.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/265?courseId=73">The Standard Normal Distribution</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">4.1.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/4420?courseId=73">Symmetry Properties of the Standard Normal Distribution</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">4.1.4.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/1843?courseId=73">The Normal Distribution</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">4.1.5.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/1470?courseId=73">Mean and Variance of the Normal Distribution</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">4.1.6.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3214?courseId=73">Percentage Points of the Standard Normal Distribution</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">4.1.7.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/788?courseId=73">Modeling With the Normal Distribution</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">4.1.8.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3594?courseId=73">The Empirical Rule for the Normal Distribution</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">4.1.9.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/1633?courseId=73">Normal Approximations of Binomial Distributions</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">4.1.10.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2993?courseId=73">The Normal Approximation of the Poisson Distribution</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                        <div class="module">
+                            <div>4.2. The Continuous Uniform Distribution</div>
+    
+                            <div id="moduleTopics-120839" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">4.2.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/791?courseId=73">The Continuous Uniform Distribution</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">4.2.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3277?courseId=73">Mean and Variance of the Continuous Uniform Distribution</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">4.2.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2990?courseId=73">Modeling With Continuous Uniform Distributions</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                        <div class="module">
+                            <div>4.3. The Exponential Distribution</div>
+    
+                            <div id="moduleTopics-120842" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">4.3.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3074?courseId=73">The Exponential Distribution</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">4.3.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3353?courseId=73">Modeling With the Exponential Distribution</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">4.3.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3275?courseId=73">Mean and Variance of the Exponential Distribution</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                        <div class="module">
+                            <div>4.4. Other Continous Distributions</div>
+    
+                            <div id="moduleTopics-120844" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">4.4.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3289?courseId=73">The Gamma Function</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">4.4.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3075?courseId=73">The Gamma Distribution</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">4.4.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3023?courseId=73">The Chi-Square Distribution</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">4.4.4.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3069?courseId=73">The Student's T-Distribution</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">4.4.5.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3060?courseId=73">The F-Distribution</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                </div>
+            </div>
+         
+            <div class="unit">
+                <div class="unitHeader" onclick="toggleUnit(280);">
+                    <div class="unitNumber">5.</div> 
+                    <span class="unitName">Combining Random Variables</span>
+                    <div id="unitArrow-280" class="unitArrow"></div>
+                    <div class="unitNumTopics">31 topics</div>
+                </div>
+
+                <div class="unitProgressBarFrame" onclick="toggleUnit(280);">
+                    <table class="unitProgressBar" cellspacing="0" cellpadding="0" style="width: 480px;">
+                        <tbody><tr>
+                            <td style="height: 4px; width: 0%; background-color: rgb(23, 107, 181);"></td>                           
+                            <td style="height: 4px; width: 0%; background-color: rgb(29, 134, 226);"></td>                    
+                            <td style="height: 4px; width: 0%; background-color: rgb(74, 158, 232);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(120, 182, 237);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(165, 207, 243);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(210, 231, 249);"></td>   
+                            <td style="height: 4px; width: 100%; background-color: white;"></td>   
+                        </tr>
+                    </tbody></table>
+                </div>
+                
+                <div id="unitModules-280" class="unitModules">
+                     
+                        <div class="module">
+                            <div>5.1. Distributions of Two Discrete Random Variables</div>
+    
+                            <div id="moduleTopics-120845" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">5.1.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3001?courseId=73">Joint Distributions for Discrete Random Variables</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">5.1.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3004?courseId=73">The Joint CDF of Two Discrete Random Variables</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">5.1.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3002?courseId=73">Marginal Distributions for Discrete Random Variables</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">5.1.4.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3048?courseId=73">Independence of Discrete Random Variables</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">5.1.5.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3003?courseId=73">Conditional Distributions for Discrete Random Variables</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">5.1.6.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2989?courseId=73">The Trinomial Distribution</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">5.1.7.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/5394?courseId=73">The Multinomial Distribution</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                        <div class="module">
+                            <div>5.2. Distributions of Two Continuous Random Variables</div>
+    
+                            <div id="moduleTopics-120846" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">5.2.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3052?courseId=73">Joint Distributions for Continuous Random Variables</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">5.2.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3636?courseId=73">Marginal Distributions for Continuous Random Variables</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">5.2.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3863?courseId=73">Independence of Continuous Random Variables</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">5.2.4.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3022?courseId=73">Conditional Distributions for Continuous Random Variables</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">5.2.5.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3640?courseId=73">The Joint CDF of Two Continuous Random Variables</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">5.2.6.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3866?courseId=73">Properties of the Joint CDF of Two Continuous Random Variables</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">5.2.7.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/918?courseId=73">The Bivariate Normal Distribution</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                        <div class="module">
+                            <div>5.3. Linear Combinations of Random Variables</div>
+    
+                            <div id="moduleTopics-120848" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">5.3.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3295?courseId=73">Linear Combinations of Binomial Random Variables</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">5.3.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3296?courseId=73">Linear Combinations of Poisson Random Variables</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">5.3.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3009?courseId=73">Combining Two Normally Distributed Random Variables</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">5.3.4.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3638?courseId=73">Combining Multiple Normally Distributed Random Variables</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">5.3.5.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3859?courseId=73">I.I.D Normal Random Variables</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                        <div class="module">
+                            <div>5.4. Expectation for Multivariate Distributions</div>
+    
+                            <div id="moduleTopics-120847" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">5.4.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3292?courseId=73">Expected Values of Sums and Products of Random Variables</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">5.4.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3062?courseId=73">Variance of Sums of Independent Random Variables</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">5.4.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3856?courseId=73">Computing Expected Values From Joint Distributions</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">5.4.4.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3053?courseId=73">Conditional Expectation for Discrete Random Variables</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">5.4.5.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3926?courseId=73">Conditional Variance for Discrete Random Variables</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">5.4.6.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3061?courseId=73">The Rule of the Lazy Statistician for Two Random Variables</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">5.4.7.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/5997?courseId=73">The Law of Total Expectation for Discrete Random Variables</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                        <div class="module">
+                            <div>5.5. Covariance of Random Variables</div>
+    
+                            <div id="moduleTopics-120849" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">5.5.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3049?courseId=73">The Covariance of Two Random Variables</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">5.5.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3940?courseId=73">Variance of Sums of Random Variables</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">5.5.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3939?courseId=73">The Covariance Matrix</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">5.5.4.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3050?courseId=73">The Correlation Coefficient for Two Random Variables</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">5.5.5.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3138?courseId=73">The Sample Covariance Matrix</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                </div>
+            </div>
+         
+            <div class="unit">
+                <div class="unitHeader" onclick="toggleUnit(282);">
+                    <div class="unitNumber">6.</div> 
+                    <span class="unitName">Parametric Inference</span>
+                    <div id="unitArrow-282" class="unitArrow"></div>
+                    <div class="unitNumTopics">21 topics</div>
+                </div>
+
+                <div class="unitProgressBarFrame" onclick="toggleUnit(282);">
+                    <table class="unitProgressBar" cellspacing="0" cellpadding="0" style="width: 325px;">
+                        <tbody><tr>
+                            <td style="height: 4px; width: 0%; background-color: rgb(23, 107, 181);"></td>                           
+                            <td style="height: 4px; width: 0%; background-color: rgb(29, 134, 226);"></td>                    
+                            <td style="height: 4px; width: 0%; background-color: rgb(74, 158, 232);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(120, 182, 237);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(165, 207, 243);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(210, 231, 249);"></td>   
+                            <td style="height: 4px; width: 100%; background-color: white;"></td>   
+                        </tr>
+                    </tbody></table>
+                </div>
+                
+                <div id="unitModules-282" class="unitModules">
+                     
+                        <div class="module">
+                            <div>6.1. Mean, Variance, and Proportion</div>
+    
+                            <div id="moduleTopics-120854" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">6.1.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2980?courseId=73">The Sample Mean</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">6.1.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3864?courseId=73">Sampling Distributions</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">6.1.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3820?courseId=73">The Sample Variance</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">6.1.4.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/4117?courseId=73">Pooled Variance</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">6.1.5.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3013?courseId=73">Variance of Sample Means</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">6.1.6.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3067?courseId=73">Sample Means From Normal Populations</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">6.1.7.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3137?courseId=73">Sampling Proportions From Finite Populations</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">6.1.8.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/4945?courseId=73">The Method of Moments</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">6.1.9.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/5363?courseId=73">The Method of Moments: Two-Parameter Distributions</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                        <div class="module">
+                            <div>6.2. The Central Limit Theorem</div>
+    
+                            <div id="moduleTopics-123298" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">6.2.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/359?courseId=73">The Central Limit Theorem</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">6.2.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3862?courseId=73">Applications of the Central Limit Theorem</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">6.2.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3930?courseId=73">Finite Population Corrections for Sample Means</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">6.2.4.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3932?courseId=73">Point Estimates of Population Proportions</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">6.2.5.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/5020?courseId=73">Finite Population Corrections for Sample Proportions</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                        <div class="module">
+                            <div>6.3. Maximum Likelihood</div>
+    
+                            <div id="moduleTopics-120856" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">6.3.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3081?courseId=73">Product Notation</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">6.3.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/294?courseId=73">Logarithmic Differentiation</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">6.3.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3603?courseId=73">Likelihood Functions for Discrete Probability Distributions</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">6.3.4.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/4124?courseId=73">Log-Likelihood Functions for Discrete Probability Distributions</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">6.3.5.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/4123?courseId=73">Likelihood Functions for Continuous Probability Distributions</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">6.3.6.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/4125?courseId=73">Log-Likelihood Functions for Continuous Probability Distributions</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">6.3.7.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3077?courseId=73">Maximum Likelihood Estimation</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                </div>
+            </div>
+         
+            <div class="unit">
+                <div class="unitHeader" onclick="toggleUnit(824);">
+                    <div class="unitNumber">7.</div> 
+                    <span class="unitName">Confidence Intervals</span>
+                    <div id="unitArrow-824" class="unitArrow"></div>
+                    <div class="unitNumTopics">15 topics</div>
+                </div>
+
+                <div class="unitProgressBarFrame" onclick="toggleUnit(824);">
+                    <table class="unitProgressBar" cellspacing="0" cellpadding="0" style="width: 232px;">
+                        <tbody><tr>
+                            <td style="height: 4px; width: 0%; background-color: rgb(23, 107, 181);"></td>                           
+                            <td style="height: 4px; width: 0%; background-color: rgb(29, 134, 226);"></td>                    
+                            <td style="height: 4px; width: 0%; background-color: rgb(74, 158, 232);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(120, 182, 237);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(165, 207, 243);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(210, 231, 249);"></td>   
+                            <td style="height: 4px; width: 100%; background-color: white;"></td>   
+                        </tr>
+                    </tbody></table>
+                </div>
+                
+                <div id="unitModules-824" class="unitModules">
+                     
+                        <div class="module">
+                            <div>7.1. One-Sample Procedures</div>
+    
+                            <div id="moduleTopics-120860" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">7.1.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/260?courseId=73">Confidence Intervals for One Mean: Known Population Variance</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">7.1.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3855?courseId=73">Confidence Intervals for One Mean: Unknown Population Variance</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">7.1.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/5275?courseId=73">Confidence Intervals for One Means: Finite Population Correction</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">7.1.4.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3300?courseId=73">Confidence Intervals for One Proportion</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">7.1.5.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3931?courseId=73">Confidence Intervals for One Proportion: Finite Population Corrections</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">7.1.6.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3299?courseId=73">Confidence Intervals for One Variance</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                        <div class="module">
+                            <div>7.2. Two-Sample Procedures</div>
+    
+                            <div id="moduleTopics-122598" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">7.2.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3298?courseId=73">Confidence Intervals for Two Means: Known and Unequal Population Variances</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">7.2.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/4946?courseId=73">Confidence Intervals for Two Means: Equal and Unknown Population Variance</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">7.2.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/4118?courseId=73">Confidence Intervals for Two Means: Unequal and Unknown Population Variance</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">7.2.4.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/4943?courseId=73">Confidence Intervals for Two Proportions</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">7.2.5.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3970?courseId=73">Confidence Intervals for Paired Samples: Known Variances</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">7.2.6.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3977?courseId=73">Confidence Intervals for Paired Samples: Unknown Variances</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                        <div class="module">
+                            <div>7.3. Sample Size</div>
+    
+                            <div id="moduleTopics-120861" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">7.3.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3319?courseId=73">Estimating Sample Sizes for Means</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">7.3.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3320?courseId=73">Estimating Sample Sizes for Proportions</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">7.3.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3321?courseId=73">Estimating Sample Sizes for Proportions: Finite Population Correction</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                </div>
+            </div>
+         
+            <div class="unit">
+                <div class="unitHeader" onclick="toggleUnit(831);">
+                    <div class="unitNumber">8.</div> 
+                    <span class="unitName">Hypothesis Testing</span>
+                    <div id="unitArrow-831" class="unitArrow"></div>
+                    <div class="unitNumTopics">19 topics</div>
+                </div>
+
+                <div class="unitProgressBarFrame" onclick="toggleUnit(831);">
+                    <table class="unitProgressBar" cellspacing="0" cellpadding="0" style="width: 294px;">
+                        <tbody><tr>
+                            <td style="height: 4px; width: 0%; background-color: rgb(23, 107, 181);"></td>                           
+                            <td style="height: 4px; width: 0%; background-color: rgb(29, 134, 226);"></td>                    
+                            <td style="height: 4px; width: 0%; background-color: rgb(74, 158, 232);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(120, 182, 237);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(165, 207, 243);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(210, 231, 249);"></td>   
+                            <td style="height: 4px; width: 100%; background-color: white;"></td>   
+                        </tr>
+                    </tbody></table>
+                </div>
+                
+                <div id="unitModules-831" class="unitModules">
+                     
+                        <div class="module">
+                            <div>8.1. One-Sample Procedures</div>
+    
+                            <div id="moduleTopics-120862" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">8.1.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2995?courseId=73">Introduction to Hypothesis Testing</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">8.1.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/4126?courseId=73">Hypothesis Tests for the Rate of a Poisson Distribution</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">8.1.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/4131?courseId=73">Critical Regions for Left-Tailed Hypothesis Tests</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">8.1.4.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/4948?courseId=73">Critical Regions for Right-Tailed Hypothesis Tests</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">8.1.5.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/4120?courseId=73">Two-Tailed Hypothesis Tests</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">8.1.6.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3012?courseId=73">Type I and Type II Errors</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">8.1.7.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3303?courseId=73">Hypothesis Tests for One Mean: Known Population Variance</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">8.1.8.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3311?courseId=73">Hypothesis Tests for One Mean: Unknown Population Variance</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">8.1.9.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3314?courseId=73">Hypothesis Tests for One Variance</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                        <div class="module">
+                            <div>8.2. Two-Sample Procedures</div>
+    
+                            <div id="moduleTopics-120866" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">8.2.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3310?courseId=73">Hypothesis Tests for Two Means: Known Population Variances</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">8.2.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3313?courseId=73">Hypothesis Tests for Two Means: Equal But Unknown Population Variances</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">8.2.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/4119?courseId=73">Hypothesis Tests for Two Means: Unequal and Unknown Population Variances</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">8.2.4.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3324?courseId=73">Hypothesis Tests for Two Proportions</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">8.2.5.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3312?courseId=73">Hypothesis Tests for Two Means: Paired-Sample Z-Test</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">8.2.6.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/4944?courseId=73">Hypothesis Tests for Two Means: Paired-Sample T-Test</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">8.2.7.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3318?courseId=73">Hypothesis Tests for Two Variances</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                        <div class="module">
+                            <div>8.3. Analysis of Variance</div>
+    
+                            <div id="moduleTopics-120867" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">8.3.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3315?courseId=73">One-Factor Within Groups and Between Groups Variation</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">8.3.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/5365?courseId=73">The Relationship Between SSW, SSB, SST</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">8.3.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/5360?courseId=73">One-Factor Analysis of Variance</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                </div>
+            </div>
+         
+            <div class="unit">
+                <div class="unitHeader" onclick="toggleUnit(1036);">
+                    <div class="unitNumber">9.</div> 
+                    <span class="unitName">Regression</span>
+                    <div id="unitArrow-1036" class="unitArrow"></div>
+                    <div class="unitNumTopics">11 topics</div>
+                </div>
+
+                <div class="unitProgressBarFrame" onclick="toggleUnit(1036);">
+                    <table class="unitProgressBar" cellspacing="0" cellpadding="0" style="width: 170px;">
+                        <tbody><tr>
+                            <td style="height: 4px; width: 18%; background-color: rgb(23, 107, 181);"></td>                           
+                            <td style="height: 4px; width: 0%; background-color: rgb(29, 134, 226);"></td>                    
+                            <td style="height: 4px; width: 0%; background-color: rgb(74, 158, 232);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(120, 182, 237);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(165, 207, 243);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(210, 231, 249);"></td>   
+                            <td style="height: 4px; width: 82%; background-color: white;"></td>   
+                        </tr>
+                    </tbody></table>
+                </div>
+                
+                <div id="unitModules-1036" class="unitModules">
+                     
+                        <div class="module">
+                            <div>9.1. Correlation and Regression</div>
+    
+                            <div id="moduleTopics-120859" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">9.1.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/1056?courseId=73">The Linear Correlation Coefficient</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">9.1.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/1057?courseId=73">Linear Regression</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">9.1.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3595?courseId=73">Residuals and Residual Plots</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">9.1.4.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3020?courseId=73">Spearman's Rank Correlation Coefficient</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">9.1.5.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3322?courseId=73">Confidence Intervals for Linear Regression Slope Parameters</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">9.1.6.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/4116?courseId=73">Confidence Intervals for Linear Regression Intercept Parameters</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                        <div class="module">
+                            <div>9.2. Linear and Nonlinear Regression With Matrices</div>
+    
+                            <div id="moduleTopics-123299" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">9.2.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2166?courseId=73">The Least-Squares Solution of a Linear System (Without Collinearity)</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">9.2.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2167?courseId=73">The Least-Squares Solution of a Linear System (With Collinearity)</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">9.2.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2169?courseId=73">Linear Regression With Matrices</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">9.2.4.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2170?courseId=73">Polynomial Regression With Matrices</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">9.2.5.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2171?courseId=73">Multiple Linear Regression With Matrices</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                </div>
+            </div>
+         
+            <div class="unit">
+                <div class="unitHeader" onclick="toggleUnit(281);">
+                    <div class="unitNumber">10.</div> 
+                    <span class="unitName">Nonparametric Inference</span>
+                    <div id="unitArrow-281" class="unitArrow"></div>
+                    <div class="unitNumTopics">7 topics</div>
+                </div>
+
+                <div class="unitProgressBarFrame" onclick="toggleUnit(281);">
+                    <table class="unitProgressBar" cellspacing="0" cellpadding="0" style="width: 108px;">
+                        <tbody><tr>
+                            <td style="height: 4px; width: 0%; background-color: rgb(23, 107, 181);"></td>                           
+                            <td style="height: 4px; width: 0%; background-color: rgb(29, 134, 226);"></td>                    
+                            <td style="height: 4px; width: 0%; background-color: rgb(74, 158, 232);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(120, 182, 237);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(165, 207, 243);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(210, 231, 249);"></td>   
+                            <td style="height: 4px; width: 100%; background-color: white;"></td>   
+                        </tr>
+                    </tbody></table>
+                </div>
+                
+                <div id="unitModules-281" class="unitModules">
+                     
+                        <div class="module">
+                            <div>10.1. Goodness-of-Fit and Order Statistics</div>
+    
+                            <div id="moduleTopics-120868" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">10.1.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3014?courseId=73">Introduction to Chi-Square Goodness-of-Fit</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">10.1.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3015?courseId=73">Testing Binomial Models Using Chi-Square Goodness-of-Fit</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">10.1.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3016?courseId=73">Testing Poisson Models Using Chi-Square Goodness-of-Fit</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">10.1.4.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3017?courseId=73">Testing Continuous Uniform Models Using Chi-Square Goodness-of-Fit</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">10.1.5.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3018?courseId=73">Testing Normal Models Using Chi-Square Goodness-of-Fit</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">10.1.6.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3317?courseId=73">Chi-Square Tests of Independence and Homogeneity</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: white; width: 10px; height: 10px; border-radius: 5px; border: 1px solid rgb(204, 204, 204);"></div></td>
+                                        <td class="topicNumber">10.1.7.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3326?courseId=73">Introduction to Order Statistics</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                </div>
+            </div>
+          
+    </div>
+
+</div>            
+            </div> 
+        </div>
+
+        <link rel="stylesheet" href="/css/support-dialog.css">
+
+<script type="text/javascript" src="/js/support-dialog.js"></script>
+
+<div id="supportDialog">
+    <div id="supportDialog-title">Support</div>
+
+    <div id="supportDialog-message">
+        If you need support, please email <b>support@mathacademy.com</b>.
+    </div>
+
+    <div id="supportDialog-buttons">
+        <div id="supportDialog-closeButton">Close</div>
+    </div>
+</div>
+        <link rel="stylesheet" href="/css/xp-goals-dialog.css">
+
+<script type="text/javascript" src="/js/xp-goals-dialog.js"></script>
+
+<div id="xpGoalsDialog">
+    <div id="xpGoalsDialog-title">XP Goals</div>
+
+    <table id="xpGoalsDialog-goals" cellpadding="0" cellspacing="0">
+        <tbody><tr>
+            <td class="xpGoalsDialog-dayOfWeek">Sun</td>
+            <td class="xpGoalsDialog-dayOfWeek">Mon</td>
+            <td class="xpGoalsDialog-dayOfWeek">Tue</td>
+            <td class="xpGoalsDialog-dayOfWeek">Wed</td>
+            <td class="xpGoalsDialog-dayOfWeek">Thu</td>
+            <td class="xpGoalsDialog-dayOfWeek">Fri</td>
+            <td class="xpGoalsDialog-dayOfWeek">Sat</td>
+        </tr>
+        <tr>
+            <td><input id="xpGoalsDialog-sunGoal" class="xpGoalsDialog-goal" type="text"> </td>
+            <td><input id="xpGoalsDialog-monGoal" class="xpGoalsDialog-goal" type="text"> </td>
+            <td><input id="xpGoalsDialog-tueGoal" class="xpGoalsDialog-goal" type="text"> </td>
+            <td><input id="xpGoalsDialog-wedGoal" class="xpGoalsDialog-goal" type="text"> </td>
+            <td><input id="xpGoalsDialog-thuGoal" class="xpGoalsDialog-goal" type="text"> </td>
+            <td><input id="xpGoalsDialog-friGoal" class="xpGoalsDialog-goal" type="text"> </td>
+            <td><input id="xpGoalsDialog-satGoal" class="xpGoalsDialog-goal" type="text"> </td>
+        </tr> 
+    </tbody></table>
+
+
+    <div id="xpGoalsDialog-courseCompletionText"></div>
+
+    <div id="xpGoalsDialog-pausedFrame">
+        <input id="xpGoalsDialog-paused" name="xpGoalsDialog-paused" type="checkbox"> 
+        <label id="xpGoalsDialog-pausedLabel" for="xpGoalsDialog-paused">Paused</label>
+    </div>
+
+    <div id="xpGoalsDialog-buttonBar">
+        <div id="xpGoalsDialog-submitButton">SUBMIT</div>
+        <div id="xpGoalsDialog-cancelButton">CANCEL</div>
+    </div>
+</div>
+        <link rel="stylesheet" href="/css/course-dialog.css">
+
+<script type="text/javascript" src="/js/course-dialog.js"></script>
+
+<div id="courseDialog">
+    <div id="courseDialog-title">Change Course</div>
+
+    <div id="courseDialog-course">
+        <label id="courseDialog-courseLabel">Course</label>
+
+        <select id="courseDialog-courseSelect">
+            <option selected="">-</option>
+        </select>
+    </div>
+
+    <div id="courseDialog-buttonBar">
+        <div id="courseDialog-submitButton">SUBMIT</div>
+        <div id="courseDialog-cancelButton">CANCEL</div>
+    </div>
+</div>
+
+                
+
+                                    
+    
+              
+    
+</body></html>

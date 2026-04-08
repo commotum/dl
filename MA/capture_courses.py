@@ -7,6 +7,7 @@ import argparse
 import json
 import logging
 import random
+import re
 import sys
 import time
 from dataclasses import dataclass
@@ -16,6 +17,7 @@ from typing import Any
 from cookiekit import load_browser_cookies, load_cookies_txt, parse_browser_spec
 from playwright.sync_api import (
     BrowserContext,
+    Error as PlaywrightError,
     Locator,
     Page,
     TimeoutError as PlaywrightTimeoutError,
@@ -31,11 +33,18 @@ DEFAULT_SETTINGS_URL = "https://mathacademy.com/settings/course"
 DEFAULT_PROGRESS_URL_TEMPLATE = "https://mathacademy.com/courses/{course_id}/progress"
 CONFIGURE_BUTTON_SELECTOR = "#configureCourseButton"
 CURRENT_COURSE_SELECTOR = "#course"
-COURSE_DIALOG_SELECTOR = "#configureCourseDialog-course, #courseDialog-course"
-COURSE_SELECT_SELECTOR = "#configureCourseDialog-courseSelect, #courseDialog-courseSelect"
-BUTTON_BAR_SELECTOR = "#configureCourseDialog-buttonBar, #courseDialog-buttonBar"
-SAVE_BUTTON_SELECTOR = "#configureCourseDialog-saveButton, #courseDialog-saveButton"
-CANCEL_BUTTON_SELECTOR = "#configureCourseDialog-cancelButton, #courseDialog-cancelButton"
+SCREEN_COVER_SELECTOR = ".screenCover"
+COURSE_DIALOG_ROOT_SELECTORS = ("#configureCourseDialog", "#courseDialog")
+COURSE_DIALOG_SELECTORS = ("#configureCourseDialog-course", "#courseDialog-course")
+COURSE_SELECT_SELECTORS = ("#configureCourseDialog-courseSelect", "#courseDialog-courseSelect")
+BUTTON_BAR_SELECTORS = ("#configureCourseDialog-buttonBar", "#courseDialog-buttonBar")
+SAVE_BUTTON_SELECTORS = (
+    "#configureCourseDialog-saveButton",
+    "#configureCourseDialog-submitButton",
+    "#courseDialog-saveButton",
+    "#courseDialog-submitButton",
+)
+CANCEL_BUTTON_SELECTORS = ("#configureCourseDialog-cancelButton", "#courseDialog-cancelButton")
 
 
 @dataclass(frozen=True)
@@ -55,6 +64,20 @@ class RetryableCaptureError(CaptureError):
 
 class AuthenticationRequiredError(CaptureError):
     """Raised when the page looks unauthenticated or blocked."""
+
+
+class CourseSelectionBlockedError(CaptureError):
+    """Raised when Math Academy blocks selecting a course for business-rule reasons."""
+
+
+@dataclass(frozen=True)
+class CourseDialogLocators:
+    root: Locator
+    dialog: Locator
+    select: Locator
+    button_bar: Locator
+    save_button: Locator
+    cancel_button: Locator
 
 
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
@@ -464,7 +487,7 @@ def load_auth_cookies(args: argparse.Namespace) -> list[dict[str, Any]]:
 
 def is_login_page(page: Page) -> bool:
     url = page.url.lower()
-    if "login" in url or "signin" in url:
+    if "login" in url or "signin" in url or "session-expired" in url:
         return True
 
     try:
@@ -500,7 +523,7 @@ def _settle_page(page: Page, settle_wait_ms: int) -> None:
 
 def ensure_settings_ready(page: Page, timeout_ms: int) -> None:
     try:
-        page.locator(CONFIGURE_BUTTON_SELECTOR).wait_for(state="visible", timeout=timeout_ms)
+        page.locator(CONFIGURE_BUTTON_SELECTOR).first.wait_for(state="visible", timeout=timeout_ms)
     except PlaywrightTimeoutError as exc:
         if is_login_page(page):
             raise AuthenticationRequiredError(
@@ -524,11 +547,241 @@ def ensure_progress_ready(page: Page, timeout_ms: int) -> None:
         ) from exc
 
 
-def open_course_dialog(page: Page, timeout_ms: int) -> None:
-    page.locator(CONFIGURE_BUTTON_SELECTOR).click(timeout=timeout_ms)
-    page.locator(COURSE_DIALOG_SELECTOR).wait_for(state="visible", timeout=timeout_ms)
-    page.locator(COURSE_SELECT_SELECTOR).wait_for(state="visible", timeout=timeout_ms)
-    page.locator(BUTTON_BAR_SELECTOR).wait_for(state="visible", timeout=timeout_ms)
+def resolve_visible_locator(
+    container: Page | Locator,
+    selectors: tuple[str, ...],
+    description: str,
+) -> Locator | None:
+    for selector in selectors:
+        locator = container.locator(selector).first
+        try:
+            if locator.is_visible():
+                logging.debug("Resolved %s using selector %s", description, selector)
+                return locator
+        except Exception:
+            continue
+    return None
+
+
+def course_select_payload(select: Locator) -> dict[str, Any]:
+    payload = select.evaluate(
+        """select => ({
+            selected: select.value || "",
+            options: Array.from(select.options).map(option => ({
+                value: option.value || "",
+                label: (option.textContent || "").trim(),
+                disabled: !!option.disabled,
+                group: option.parentElement && option.parentElement.tagName === "OPTGROUP"
+                    ? option.parentElement.label || ""
+                    : "",
+            })),
+        })"""
+    )
+    if not isinstance(payload, dict):
+        raise RetryableCaptureError("Course dialog returned an unreadable payload")
+    return payload
+
+
+def selectable_course_count(payload: dict[str, Any]) -> int:
+    options_payload = payload.get("options")
+    if not isinstance(options_payload, list):
+        return 0
+
+    count = 0
+    for item in options_payload:
+        if not isinstance(item, dict):
+            continue
+        course_id = str(item.get("value", "") or "").strip()
+        name = str(item.get("label", "") or "").strip()
+        if not course_id or not name or name == "-" or bool(item.get("disabled")):
+            continue
+        count += 1
+    return count
+
+
+def open_course_dialog(page: Page, timeout_ms: int) -> tuple[CourseDialogLocators, dict[str, Any]]:
+    page.locator(CONFIGURE_BUTTON_SELECTOR).first.click(timeout=timeout_ms)
+    deadline = time.monotonic() + (timeout_ms / 1000)
+    poll_ms = 200
+    last_visible_summary = "no visible dialog roots"
+
+    while time.monotonic() < deadline:
+        if is_login_page(page):
+            raise AuthenticationRequiredError(
+                f"Page {page.url} appears to be unauthenticated while waiting for the course dialog"
+            )
+
+        visible_summaries: list[str] = []
+        for root_selector in COURSE_DIALOG_ROOT_SELECTORS:
+            root = page.locator(root_selector).first
+            try:
+                if not root.is_visible():
+                    continue
+            except Exception:
+                continue
+
+            dialog = resolve_visible_locator(root, COURSE_DIALOG_SELECTORS, "course dialog")
+            select = resolve_visible_locator(root, COURSE_SELECT_SELECTORS, "course select")
+            button_bar = resolve_visible_locator(root, BUTTON_BAR_SELECTORS, "course dialog button bar")
+            save_button = resolve_visible_locator(root, SAVE_BUTTON_SELECTORS, "course dialog save button")
+            cancel_button = resolve_visible_locator(root, CANCEL_BUTTON_SELECTORS, "course dialog cancel button")
+            if any(locator is None for locator in (dialog, select, button_bar, save_button, cancel_button)):
+                visible_summaries.append(f"{root_selector}:incomplete")
+                continue
+
+            payload = course_select_payload(select)
+            selectable_count = selectable_course_count(payload)
+            visible_summaries.append(f"{root_selector}:{selectable_count}")
+            if selectable_count > 0:
+                return (
+                    CourseDialogLocators(
+                        root=root,
+                        dialog=dialog,
+                        select=select,
+                        button_bar=button_bar,
+                        save_button=save_button,
+                        cancel_button=cancel_button,
+                    ),
+                    payload,
+                )
+
+        if visible_summaries:
+            last_visible_summary = ", ".join(visible_summaries)
+        page.wait_for_timeout(poll_ms)
+
+    raise RetryableCaptureError(
+        "Timed out waiting for a populated course dialog on "
+        f"{page.url}. Last visible summary: {last_visible_summary}"
+    )
+
+
+def wait_for_selected_course(page: Page, course_name: str, timeout_ms: int) -> None:
+    page.wait_for_function(
+        """({selector, courseName}) => {
+            const element = document.querySelector(selector);
+            return !!element && (element.textContent || "").includes(courseName);
+        }""",
+        arg={"selector": CURRENT_COURSE_SELECTOR, "courseName": course_name},
+        timeout=timeout_ms,
+    )
+
+
+def visible_screen_cover_count(page: Page) -> int:
+    return int(
+        page.locator(SCREEN_COVER_SELECTOR).evaluate_all(
+            """elements => elements.filter(element => {
+                const style = window.getComputedStyle(element);
+                if (style.display === "none" || style.visibility === "hidden" || style.pointerEvents === "none") {
+                    return false;
+                }
+                const rect = element.getBoundingClientRect();
+                return rect.width > 0 && rect.height > 0;
+            }).length"""
+        )
+    )
+
+
+def save_button_is_disabled(save_button: Locator) -> bool:
+    return bool(
+        save_button.evaluate(
+            """button => (
+                !!button.disabled ||
+                button.getAttribute("aria-disabled") === "true" ||
+                button.classList.contains("buttonDisabled") ||
+                button.classList.contains("disabled")
+            )"""
+        )
+    )
+
+
+def selection_blocker_reason_from_text(body_text: str, course_name: str) -> str | None:
+    normalized = re.sub(r"\s+", " ", body_text).strip()
+    lower = normalized.lower()
+    course_lower = course_name.lower()
+
+    if "promotion only" in lower and "promotion-only course" in lower:
+        if course_lower in lower:
+            return normalized
+        return f"{course_name} is a promotion-only course and cannot be selected directly"
+
+    return None
+
+
+def dismiss_visible_ok(page: Page, timeout_ms: int) -> bool:
+    for selector in ('button:has-text("OK")', 'div:has-text("OK")'):
+        locator = page.locator(selector).first
+        try:
+            if locator.is_visible():
+                locator.click(timeout=timeout_ms)
+                return True
+        except Exception:
+            continue
+    return False
+
+
+def detect_selection_blocker(page: Page, course: CourseRecord, timeout_ms: int) -> str | None:
+    try:
+        body_text = page.locator("body").inner_text(timeout=min(timeout_ms, 2_000))
+    except Exception:
+        return None
+
+    reason = selection_blocker_reason_from_text(body_text, course.name)
+    if reason:
+        dismiss_visible_ok(page, timeout_ms=min(timeout_ms, 2_000))
+    return reason
+
+
+def wait_for_save_actionable(
+    page: Page,
+    save_button: Locator,
+    timeout_ms: int,
+    baseline_screen_covers: int,
+    course: CourseRecord,
+) -> None:
+    deadline = time.monotonic() + (timeout_ms / 1000)
+    poll_ms = 100
+    last_reason = "unknown"
+
+    while time.monotonic() < deadline:
+        if is_login_page(page):
+            raise AuthenticationRequiredError(
+                f"Page {page.url} appears to be unauthenticated while waiting for the save button"
+            )
+
+        try:
+            visible_covers = visible_screen_cover_count(page)
+            if visible_covers > baseline_screen_covers:
+                blocker_reason = detect_selection_blocker(page, course, timeout_ms)
+                if blocker_reason:
+                    raise CourseSelectionBlockedError(blocker_reason)
+                last_reason = f"extra screenCover visible ({visible_covers} > {baseline_screen_covers})"
+                page.wait_for_timeout(poll_ms)
+                continue
+        except Exception:
+            pass
+
+        try:
+            if save_button_is_disabled(save_button):
+                last_reason = "save button disabled"
+                page.wait_for_timeout(poll_ms)
+                continue
+        except Exception:
+            last_reason = "save button unreadable"
+            page.wait_for_timeout(poll_ms)
+            continue
+
+        try:
+            if save_button.is_visible():
+                return
+            last_reason = "save button not visible"
+        except Exception:
+            last_reason = "save button unreadable"
+
+        page.wait_for_timeout(poll_ms)
+
+    raise RetryableCaptureError(
+        f"Timed out waiting for the course dialog save action to become clickable on {page.url}: {last_reason}"
+    )
 
 
 def course_records_from_dialog_state(payload: dict[str, Any]) -> tuple[str | None, list[CourseRecord]]:
@@ -565,23 +818,7 @@ def load_available_courses(page: Page, args: argparse.Namespace) -> tuple[str | 
     _check_navigation_response(response, args.settings_url)
     _settle_page(page, args.settle_wait_ms)
     ensure_settings_ready(page, args.timeout_ms)
-    open_course_dialog(page, args.timeout_ms)
-
-    payload = page.locator(COURSE_SELECT_SELECTOR).evaluate(
-        """select => ({
-            selected: select.value || "",
-            options: Array.from(select.options).map(option => ({
-                value: option.value || "",
-                label: (option.textContent || "").trim(),
-                disabled: !!option.disabled,
-                group: option.parentElement && option.parentElement.tagName === "OPTGROUP"
-                    ? option.parentElement.label || ""
-                    : "",
-            })),
-        })"""
-    )
-    if not isinstance(payload, dict):
-        raise RetryableCaptureError("Course dialog returned an unreadable payload")
+    _, payload = open_course_dialog(page, args.timeout_ms)
     return course_records_from_dialog_state(payload)
 
 
@@ -590,15 +827,16 @@ def switch_course(page: Page, course: CourseRecord, args: argparse.Namespace) ->
     _check_navigation_response(response, args.settings_url)
     _settle_page(page, args.settle_wait_ms)
     ensure_settings_ready(page, args.timeout_ms)
-    open_course_dialog(page, args.timeout_ms)
+    dialog, _ = open_course_dialog(page, args.timeout_ms)
 
-    select = page.locator(COURSE_SELECT_SELECTOR)
+    select = dialog.select
     current_course_id = select.input_value(timeout=args.timeout_ms).strip()
     if current_course_id == course.course_id:
-        page.locator(CANCEL_BUTTON_SELECTOR).click(timeout=args.timeout_ms)
-        page.locator(COURSE_DIALOG_SELECTOR).wait_for(state="hidden", timeout=args.timeout_ms)
+        dialog.cancel_button.click(timeout=args.timeout_ms)
+        dialog.dialog.wait_for(state="hidden", timeout=args.timeout_ms)
         return
 
+    baseline_screen_covers = visible_screen_cover_count(page)
     selected = select.select_option(value=course.course_id, timeout=args.timeout_ms)
     if course.course_id not in selected:
         raise RetryableCaptureError(f"Failed to select course {course.course_id} in the configure-course dialog")
@@ -606,17 +844,20 @@ def switch_course(page: Page, course: CourseRecord, args: argparse.Namespace) ->
     if args.settle_wait_ms > 0:
         page.wait_for_timeout(args.settle_wait_ms)
 
-    page.locator(SAVE_BUTTON_SELECTOR).click(timeout=args.timeout_ms)
-    page.locator(COURSE_DIALOG_SELECTOR).wait_for(state="hidden", timeout=args.timeout_ms)
+    blocker_reason = detect_selection_blocker(page, course, args.timeout_ms)
+    if blocker_reason:
+        raise CourseSelectionBlockedError(blocker_reason)
+
+    wait_for_save_actionable(page, dialog.save_button, args.timeout_ms, baseline_screen_covers, course)
     try:
-        page.wait_for_function(
-            """({selector, courseName}) => {
-                const element = document.querySelector(selector);
-                return !!element && (element.textContent || "").includes(courseName);
-            }""",
-            {"selector": CURRENT_COURSE_SELECTOR, "courseName": course.name},
-            timeout=args.timeout_ms,
-        )
+        dialog.save_button.click(timeout=args.timeout_ms)
+        dialog.dialog.wait_for(state="hidden", timeout=args.timeout_ms)
+    except PlaywrightTimeoutError as exc:
+        raise RetryableCaptureError(
+            f"Timed out saving course selection for {course.course_id} {course.name}"
+        ) from exc
+    try:
+        wait_for_selected_course(page, course.name, args.timeout_ms)
     except PlaywrightTimeoutError as exc:
         raise RetryableCaptureError(
             f"Course selection did not appear to persist for {course.course_id} {course.name}"
@@ -667,15 +908,16 @@ def capture_course_with_retries(
             return capture_course_once(page, course, course_dir, args)
         except AuthenticationRequiredError:
             raise
-        except RetryableCaptureError:
+        except RetryableCaptureError as exc:
             if attempt >= attempts:
                 raise
             delay = backoff_seconds(attempt, args.retry_base_seconds, args.retry_max_seconds)
             logging.warning(
-                "Retryable failure on course %s (%s/%s). Backing off for %.1fs",
+                "Retryable failure on course %s (%s/%s): %s. Backing off for %.1fs",
                 course.course_id,
                 attempt,
                 attempts,
+                exc,
                 delay,
             )
             time.sleep(delay)
@@ -811,6 +1053,23 @@ def run(argv: list[str] | None = None) -> int:
                         progress.update(1)
                         progress.set_postfix(success=successes, failed=failures, skipped=skipped)
                         return 2
+                    except CourseSelectionBlockedError as exc:
+                        skipped += 1
+                        logging.warning("Skipping blocked course %s: %s", course.course_id, exc)
+                        append_state(
+                            state_file,
+                            {
+                                "course_id": course.course_id,
+                                "name": course.name,
+                                "group": course.group,
+                                "status": "blocked",
+                                "error": str(exc),
+                                "ts": int(time.time()),
+                            },
+                        )
+                        progress.update(1)
+                        progress.set_postfix(success=successes, failed=failures, skipped=skipped)
+                        continue
                     except Exception as exc:
                         failures += 1
                         logging.exception("Capture failed for %s", course.course_id)
@@ -873,8 +1132,14 @@ def run(argv: list[str] | None = None) -> int:
                     except Exception:
                         logging.exception("Failed to restore course %s", restore_course.course_id)
         finally:
-            context.close()
-            browser.close()
+            try:
+                context.close()
+            except PlaywrightError:
+                logging.debug("Browser context was already closed")
+            try:
+                browser.close()
+            except PlaywrightError:
+                logging.debug("Browser was already closed")
 
     logging.info("Finished. successes=%d failures=%d skipped=%d", successes, failures, skipped)
     return 0 if failures == 0 else 1

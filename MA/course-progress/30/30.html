@@ -1,0 +1,2043 @@
+<!DOCTYPE html><html><head>
+        <title>Math Academy</title>
+        <meta charset="utf-8">
+
+        <link rel="shortcut icon" href="/img/favicon.ico">
+        <link rel="stylesheet" href="/css/app.css">
+        <link rel="stylesheet" href="/css/mathquill.css">
+        <link rel="stylesheet" href="/css/math-editor.css">
+
+        <link rel="stylesheet" href="/css/prism.css">
+        <script type="text/javascript" src="/js/prism.js"></script>
+
+        <script type="text/javascript" src="/js/jquery.1.11.0.min.js"></script>
+
+        <script>
+            $.noConflict();
+            // Code that uses other library's $ can follow here.
+        </script>
+
+        <script type="text/javascript" src="/js/mathquill.v2.1.min.js"></script>
+        <script type="text/javascript" src="/js/math-editor.js"></script> 
+        <script type="text/javascript" src="/js/mathjax-config.js"></script>
+        <script type="text/javascript" id="MathJax-script" async="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <!--
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>        
+        <script type="text/javascript" src="/js/katex-config.js"></script>
+        -->
+
+        <script>
+            function showSupportDialog() {
+                const dlg = new SupportDialog();
+                dlg.show();
+            }            
+        </script>
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
+        <script type="text/javascript" src="/js/commonFunctions.js"></script>
+        <script type="text/javascript" src="/js/core.js"></script>
+        <script type="text/javascript" src="/js/core-ui.js"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/input/tex/extensions/color.js" charset="UTF-8"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/input/tex/extensions/enclose.js" charset="UTF-8"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/input/tex/extensions/bbox.js" charset="UTF-8"></script>
+        <script type="text/javascript" src="/js/api.js"></script>
+        <script type="text/javascript" src="/js/api-new.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
+        <script type="text/javascript" src="/js/jdom.js"></script>
+        <script type="text/javascript" src="/js/header.js"></script>
+
+        <script>
+            var userTimeZone = 'America/Los_Angeles';
+            checkTimeZone(userTimeZone);
+        </script>
+
+        <style>
+            div#courseNameHeader {
+                margin-top: 50px;
+            }            
+        </style>        
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/input/tex/extensions/cancel.js" charset="UTF-8"></script><style type="text/css">.CtxtMenu_InfoClose {  top:.2em; right:.2em;}
+.CtxtMenu_InfoContent {  overflow:auto; text-align:left; font-size:80%;  padding:.4em .6em; border:1px inset; margin:1em 0px;  max-height:20em; max-width:30em; background-color:#EEEEEE;  white-space:normal;}
+.CtxtMenu_Info.CtxtMenu_MousePost {outline:none;}
+.CtxtMenu_Info {  position:fixed; left:50%; width:auto; text-align:center;  border:3px outset; padding:1em 2em; background-color:#DDDDDD;  color:black;  cursor:default; font-family:message-box; font-size:120%;  font-style:normal; text-indent:0; text-transform:none;  line-height:normal; letter-spacing:normal; word-spacing:normal;  word-wrap:normal; white-space:nowrap; float:none; z-index:201;  border-radius: 15px;                     /* Opera 10.5 and IE9 */  -webkit-border-radius:15px;               /* Safari and Chrome */  -moz-border-radius:15px;                  /* Firefox */  -khtml-border-radius:15px;                /* Konqueror */  box-shadow:0px 10px 20px #808080;         /* Opera 10.5 and IE9 */  -webkit-box-shadow:0px 10px 20px #808080; /* Safari 3 & Chrome */  -moz-box-shadow:0px 10px 20px #808080;    /* Forefox 3.5 */  -khtml-box-shadow:0px 10px 20px #808080;  /* Konqueror */  filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color="gray", Positive="true"); /* IE */}
+</style><style type="text/css">.CtxtMenu_MenuClose {  position:absolute;  cursor:pointer;  display:inline-block;  border:2px solid #AAA;  border-radius:18px;  -webkit-border-radius: 18px;             /* Safari and Chrome */  -moz-border-radius: 18px;                /* Firefox */  -khtml-border-radius: 18px;              /* Konqueror */  font-family: "Courier New", Courier;  font-size:24px;  color:#F0F0F0}
+.CtxtMenu_MenuClose span {  display:block; background-color:#AAA; border:1.5px solid;  border-radius:18px;  -webkit-border-radius: 18px;             /* Safari and Chrome */  -moz-border-radius: 18px;                /* Firefox */  -khtml-border-radius: 18px;              /* Konqueror */  line-height:0;  padding:8px 0 6px     /* may need to be browser-specific */}
+.CtxtMenu_MenuClose:hover {  color:white!important;  border:2px solid #CCC!important}
+.CtxtMenu_MenuClose:hover span {  background-color:#CCC!important}
+.CtxtMenu_MenuClose:hover:focus {  outline:none}
+</style><style type="text/css">.CtxtMenu_Menu {  position:absolute;  background-color:white;  color:black;  width:auto; padding:5px 0px;  border:1px solid #CCCCCC; margin:0; cursor:default;  font: menu; text-align:left; text-indent:0; text-transform:none;  line-height:normal; letter-spacing:normal; word-spacing:normal;  word-wrap:normal; white-space:nowrap; float:none; z-index:201;  border-radius: 5px;                     /* Opera 10.5 and IE9 */  -webkit-border-radius: 5px;             /* Safari and Chrome */  -moz-border-radius: 5px;                /* Firefox */  -khtml-border-radius: 5px;              /* Konqueror */  box-shadow:0px 10px 20px #808080;         /* Opera 10.5 and IE9 */  -webkit-box-shadow:0px 10px 20px #808080; /* Safari 3 & Chrome */  -moz-box-shadow:0px 10px 20px #808080;    /* Forefox 3.5 */  -khtml-box-shadow:0px 10px 20px #808080;  /* Konqueror */}
+.CtxtMenu_MenuItem {  padding: 1px 2em;  background:transparent;}
+.CtxtMenu_MenuArrow {  position:absolute; right:.5em; padding-top:.25em; color:#666666;  font-family: null; font-size: .75em}
+.CtxtMenu_MenuActive .CtxtMenu_MenuArrow {color:white}
+.CtxtMenu_MenuArrow.CtxtMenu_RTL {left:.5em; right:auto}
+.CtxtMenu_MenuCheck {  position:absolute; left:.7em;  font-family: null}
+.CtxtMenu_MenuCheck.CtxtMenu_RTL { right:.7em; left:auto }
+.CtxtMenu_MenuRadioCheck {  position:absolute; left: .7em;}
+.CtxtMenu_MenuRadioCheck.CtxtMenu_RTL {  right: .7em; left:auto}
+.CtxtMenu_MenuInputBox {  padding-left: 1em; right:.5em; color:#666666;  font-family: null;}
+.CtxtMenu_MenuInputBox.CtxtMenu_RTL {  left: .1em;}
+.CtxtMenu_MenuComboBox {  left:.1em; padding-bottom:.5em;}
+.CtxtMenu_MenuSlider {  left: .1em;}
+.CtxtMenu_SliderValue {  position:absolute; right:.1em; padding-top:.25em; color:#333333;  font-size: .75em}
+.CtxtMenu_SliderBar {  outline: none; background: #d3d3d3}
+.CtxtMenu_MenuLabel {  padding: 1px 2em 3px 1.33em;  font-style:italic}
+.CtxtMenu_MenuRule {  border-top: 1px solid #DDDDDD;  margin: 4px 3px;}
+.CtxtMenu_MenuDisabled {  color:GrayText}
+.CtxtMenu_MenuActive {  background-color: #606872;  color: white;}
+.CtxtMenu_MenuDisabled:focus {  background-color: #E8E8E8}
+.CtxtMenu_MenuLabel:focus {  background-color: #E8E8E8}
+.CtxtMenu_ContextMenu:focus {  outline:none}
+.CtxtMenu_ContextMenu .CtxtMenu_MenuItem:focus {  outline:none}
+.CtxtMenu_SelectionMenu {  position:relative; float:left;  border-bottom: none; -webkit-box-shadow:none; -webkit-border-radius:0px; }
+.CtxtMenu_SelectionItem {  padding-right: 1em;}
+.CtxtMenu_Selection {  right: 40%; width:50%; }
+.CtxtMenu_SelectionBox {  padding: 0em; max-height:20em; max-width: none;  background-color:#FFFFFF;}
+.CtxtMenu_SelectionDivider {  clear: both; border-top: 2px solid #000000;}
+.CtxtMenu_Menu .CtxtMenu_MenuClose {  top:-10px; left:-10px}
+</style><style id="MJX-CHTML-styles">
+mjx-container[jax="CHTML"] {
+  line-height: 0;
+}
+
+mjx-container [space="1"] {
+  margin-left: .111em;
+}
+
+mjx-container [space="2"] {
+  margin-left: .167em;
+}
+
+mjx-container [space="3"] {
+  margin-left: .222em;
+}
+
+mjx-container [space="4"] {
+  margin-left: .278em;
+}
+
+mjx-container [space="5"] {
+  margin-left: .333em;
+}
+
+mjx-container [rspace="1"] {
+  margin-right: .111em;
+}
+
+mjx-container [rspace="2"] {
+  margin-right: .167em;
+}
+
+mjx-container [rspace="3"] {
+  margin-right: .222em;
+}
+
+mjx-container [rspace="4"] {
+  margin-right: .278em;
+}
+
+mjx-container [rspace="5"] {
+  margin-right: .333em;
+}
+
+mjx-container [size="s"] {
+  font-size: 70.7%;
+}
+
+mjx-container [size="ss"] {
+  font-size: 50%;
+}
+
+mjx-container [size="Tn"] {
+  font-size: 60%;
+}
+
+mjx-container [size="sm"] {
+  font-size: 85%;
+}
+
+mjx-container [size="lg"] {
+  font-size: 120%;
+}
+
+mjx-container [size="Lg"] {
+  font-size: 144%;
+}
+
+mjx-container [size="LG"] {
+  font-size: 173%;
+}
+
+mjx-container [size="hg"] {
+  font-size: 207%;
+}
+
+mjx-container [size="HG"] {
+  font-size: 249%;
+}
+
+mjx-container [width="full"] {
+  width: 100%;
+}
+
+mjx-box {
+  display: inline-block;
+}
+
+mjx-block {
+  display: block;
+}
+
+mjx-itable {
+  display: inline-table;
+}
+
+mjx-row {
+  display: table-row;
+}
+
+mjx-row > * {
+  display: table-cell;
+}
+
+mjx-mtext {
+  display: inline-block;
+}
+
+mjx-mstyle {
+  display: inline-block;
+}
+
+mjx-merror {
+  display: inline-block;
+  color: red;
+  background-color: yellow;
+}
+
+mjx-mphantom {
+  visibility: hidden;
+}
+
+_::-webkit-full-page-media, _:future, :root mjx-container {
+  will-change: opacity;
+}
+
+mjx-assistive-mml {
+  position: absolute !important;
+  top: 0px;
+  left: 0px;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 1px 0px 0px 0px !important;
+  border: 0px !important;
+  display: block !important;
+  width: auto !important;
+  overflow: hidden !important;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+mjx-assistive-mml[display="block"] {
+  width: 100% !important;
+}
+
+mjx-math {
+  display: inline-block;
+  text-align: left;
+  line-height: 0;
+  text-indent: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100%;
+  font-size-adjust: none;
+  letter-spacing: normal;
+  border-collapse: collapse;
+  word-wrap: normal;
+  word-spacing: normal;
+  white-space: nowrap;
+  direction: ltr;
+  padding: 1px 0;
+}
+
+mjx-container[jax="CHTML"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="CHTML"][display="true"][width="full"] {
+  display: flex;
+}
+
+mjx-container[jax="CHTML"][display="true"] mjx-math {
+  padding: 0;
+}
+
+mjx-container[jax="CHTML"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="CHTML"][justify="right"] {
+  text-align: right;
+}
+
+mjx-c::before {
+  display: block;
+  width: 0;
+}
+
+.MJX-TEX {
+  font-family: MJXZERO, MJXTEX;
+}
+
+.TEX-B {
+  font-family: MJXZERO, MJXTEX-B;
+}
+
+.TEX-I {
+  font-family: MJXZERO, MJXTEX-I;
+}
+
+.TEX-MI {
+  font-family: MJXZERO, MJXTEX-MI;
+}
+
+.TEX-BI {
+  font-family: MJXZERO, MJXTEX-BI;
+}
+
+.TEX-S1 {
+  font-family: MJXZERO, MJXTEX-S1;
+}
+
+.TEX-S2 {
+  font-family: MJXZERO, MJXTEX-S2;
+}
+
+.TEX-S3 {
+  font-family: MJXZERO, MJXTEX-S3;
+}
+
+.TEX-S4 {
+  font-family: MJXZERO, MJXTEX-S4;
+}
+
+.TEX-A {
+  font-family: MJXZERO, MJXTEX-A;
+}
+
+.TEX-C {
+  font-family: MJXZERO, MJXTEX-C;
+}
+
+.TEX-CB {
+  font-family: MJXZERO, MJXTEX-CB;
+}
+
+.TEX-FR {
+  font-family: MJXZERO, MJXTEX-FR;
+}
+
+.TEX-FRB {
+  font-family: MJXZERO, MJXTEX-FRB;
+}
+
+.TEX-SS {
+  font-family: MJXZERO, MJXTEX-SS;
+}
+
+.TEX-SSB {
+  font-family: MJXZERO, MJXTEX-SSB;
+}
+
+.TEX-SSI {
+  font-family: MJXZERO, MJXTEX-SSI;
+}
+
+.TEX-SC {
+  font-family: MJXZERO, MJXTEX-SC;
+}
+
+.TEX-T {
+  font-family: MJXZERO, MJXTEX-T;
+}
+
+.TEX-V {
+  font-family: MJXZERO, MJXTEX-V;
+}
+
+.TEX-VB {
+  font-family: MJXZERO, MJXTEX-VB;
+}
+
+mjx-stretchy-v mjx-c, mjx-stretchy-h mjx-c {
+  font-family: MJXZERO, MJXTEX-S1, MJXTEX-S4, MJXTEX, MJXTEX-A ! important;
+}
+
+@font-face /* 0 */ {
+  font-family: MJXZERO;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Zero.woff") format("woff");
+}
+
+@font-face /* 1 */ {
+  font-family: MJXTEX;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Regular.woff") format("woff");
+}
+
+@font-face /* 2 */ {
+  font-family: MJXTEX-B;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Bold.woff") format("woff");
+}
+
+@font-face /* 3 */ {
+  font-family: MJXTEX-I;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Math-Italic.woff") format("woff");
+}
+
+@font-face /* 4 */ {
+  font-family: MJXTEX-MI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Italic.woff") format("woff");
+}
+
+@font-face /* 5 */ {
+  font-family: MJXTEX-BI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Math-BoldItalic.woff") format("woff");
+}
+
+@font-face /* 6 */ {
+  font-family: MJXTEX-S1;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size1-Regular.woff") format("woff");
+}
+
+@font-face /* 7 */ {
+  font-family: MJXTEX-S2;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size2-Regular.woff") format("woff");
+}
+
+@font-face /* 8 */ {
+  font-family: MJXTEX-S3;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size3-Regular.woff") format("woff");
+}
+
+@font-face /* 9 */ {
+  font-family: MJXTEX-S4;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size4-Regular.woff") format("woff");
+}
+
+@font-face /* 10 */ {
+  font-family: MJXTEX-A;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_AMS-Regular.woff") format("woff");
+}
+
+@font-face /* 11 */ {
+  font-family: MJXTEX-C;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Regular.woff") format("woff");
+}
+
+@font-face /* 12 */ {
+  font-family: MJXTEX-CB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Bold.woff") format("woff");
+}
+
+@font-face /* 13 */ {
+  font-family: MJXTEX-FR;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Regular.woff") format("woff");
+}
+
+@font-face /* 14 */ {
+  font-family: MJXTEX-FRB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Bold.woff") format("woff");
+}
+
+@font-face /* 15 */ {
+  font-family: MJXTEX-SS;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Regular.woff") format("woff");
+}
+
+@font-face /* 16 */ {
+  font-family: MJXTEX-SSB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Bold.woff") format("woff");
+}
+
+@font-face /* 17 */ {
+  font-family: MJXTEX-SSI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Italic.woff") format("woff");
+}
+
+@font-face /* 18 */ {
+  font-family: MJXTEX-SC;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Script-Regular.woff") format("woff");
+}
+
+@font-face /* 19 */ {
+  font-family: MJXTEX-T;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Typewriter-Regular.woff") format("woff");
+}
+
+@font-face /* 20 */ {
+  font-family: MJXTEX-V;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Regular.woff") format("woff");
+}
+
+@font-face /* 21 */ {
+  font-family: MJXTEX-VB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Bold.woff") format("woff");
+}
+</style></head>
+
+    <body>
+        
+        <div id="topRibbon"></div>
+        
+
+        <div id="wrap">
+
+            
+            <div id="topBarContainer">
+
+                <table style="width: 1080px;">
+                    <tbody><tr>
+                        <td style="width: 100px;">
+                            <a href="/"><img class="logo" src="/img/math-academy-350-logo.png"></a>
+                        </td>
+                        <td>
+                            <div id="headerLinks">
+                                
+                                    
+                                        <a id="learnHeaderLink" class="headerLink" href="/learn">LEARN</a>
+                                        
+                                     
+
+                                         
+
+                                                                     
+                                                                                        
+                                                                                                   
+                                                    
+                                             
+                                    
+                                             
+
+                                    <a id="coursesHeaderLink" class="headerLink" onmouseover="showCoursesMenu(this, 'coursesMenu');">COURSES</a>  
+
+                                  
+                            </div>
+
+                            
+
+                            <div id="coursesMenu">
+                                <table id="coursesMenu-coursesTable" cellspacing="0" cellpadding="0">
+                                <tbody><tr>
+                                    <td class="coursesMenu-categoryList" style="padding-right: 15px;">
+                                        <div class="coursesMenu-categoryHeader">Elementary School</div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/4th-grade-math">4th Grade Math</a></div>                                             
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/5th-grade-math">5th Grade Math</a></div>         
+                                        
+                                        <div class="coursesMenu-categoryHeader" style="margin-top: 20px;">Middle School</div>                                        
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/6th-grade-math">6th Grade Math</a></div>         
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink">7th Grade Math</a> *</div>         
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink">8th Grade Math</a> *</div>         
+
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/prealgebra">Prealgebra</a></div>
+                                
+                                        <div class="coursesMenu-categoryHeader" style="margin-top: 20px;">High School</div>
+
+                                        <div class="coursesMenu-courseSequence" style="margin-top: 20px;">Traditional</div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/algebra-i">Algebra I</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/geometry">Geometry</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/algebra-ii">Algebra II</a></div>       
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/precalculus">Precalculus</a></div> 
+
+                                        <div class="coursesMenu-courseSequence">Integrated Math</div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/integrated-math-i">Integrated Math I</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/integrated-math-ii">Integrated Math II</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/integrated-math-iii">Integrated Math III</a></div>   
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/precalculus">Precalculus</a></div> 
+                                
+
+                                        <div class="coursesMenu-courseSequence">Integrated Math (Honors)</div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/integrated-math-i-honors">Integrated Math I (Honors)</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/integrated-math-ii-honors">Integrated Math II (Honors)</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/integrated-math-iii-honors">Integrated Math III (Honors)</a></div>                                     
+
+                                        <div class="coursesMenu-categoryHeader" style="margin-top: 20px;">Test Prep</div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/sat-math-fundamentals">SAT Math Fundamentals</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/sat-math-prep">SAT Math Prep</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/act-math">ACT Math</a> *</div>
+                                    </td>
+                                    <td class="coursesMenu-categoryList">
+
+                                        <div class="coursesMenu-categoryHeader">AP Courses</div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/ap-calculus-ab">AP Calculus AB</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/ap-calculus-bc">AP Calculus BC</a></div>
+
+                                        <div class="coursesMenu-categoryHeader" style="margin-top: 20px;">Foundations Series</div>
+
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/mathematical-foundations-i">Mathematical Foundations I</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/mathematical-foundations-ii">Mathematical Foundations II</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/mathematical-foundations-iii">Mathematical Foundations III</a></div>                                        
+
+                                        <div class="coursesMenu-categoryHeader" style="margin-top: 20px;">University</div>            
+
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/calculus-i">Calculus I</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/calculus-ii">Calculus II</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/linear-algebra">Linear Algebra</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/multivariable-calculus">Multivariable Calculus</a></div>                                     
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/methods-of-proof">Methods of Proof</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/differential-equations">Differential Equations</a></div>                                           
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/discrete-mathematics">Discrete Mathematics</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/probability-and-statistics">Probability &amp; Statistics</a></div>                                        
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/mathematics-for-machine-learning">Mathematics For Machine Learning</a></div>      
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/mathematical-methods-for-the-physical-sciences-i">Mathematical Methods for the Physical Sciences I</a></div>
+                                        <div class="coursesMenu-course"><a class="coursesMenu-courseLink" href="/courses/mathematical-methods-for-the-physical-sciences-ii">Mathematical Methods for the Physical Sciences II</a></div>                                                                             
+                                                            
+                                        <div class="coursesMenu-course">
+                                            <a class="coursesMenu-courseLink" href="/courses/abstract-algebra">Abstract Algebra</a> *
+                                        </div>        
+                                    </td>
+                                </tr>
+                                </tbody></table>
+
+                                <div style="margin-top: 20px;">
+                                    * <span id="coursesMenu-underDevelopment">Currently under development</span> 
+                                </div>                            
+                            </div>                        
+                        </td>
+                        <td style="width: 250px;">
+                            <div id="topMenu">
+                                
+                                    
+
+                                        
+
+                                        
+                                            <div id="userHeader" onmouseover="showMenu(this, 'userMenu');">JP</div>
+                                        
+
+                                        <div id="userMenu">
+                                            <div id="userMenu-info">
+                                                <div id="userMenu-name">Jacob Peterson</div>
+                                                
+                                                    <div id="userMenu-username">commotum</div>
+                                                
+                                            </div>
+
+                                            <div class="headerMenuItem" onmousedown="Core.navigate('/settings/profile');">Settings</div>
+
+                                            
+
+                                            <div class="headerMenuItem" onmousedown="Core.navigate('/help');">Help</div>
+
+                                            <div class="headerMenuItem" onmousedown="showSupportDialog();">Support</div>
+
+                                            <div class="headerMenuItem" onmousedown="Core.navigate('/logout');">Logout</div>                                        
+                                        </div>
+                                    
+                                                            
+                            </div> 
+                        </td>
+                    </tr>
+                </tbody></table>
+            </div>
+            
+
+            <div id="mathjaxCommands" style="display: none;">
+                <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" tabindex="0" ctxtmenu_counter="0" style="font-size: 113.1%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"></math></mjx-assistive-mml></mjx-container>
+            </div>
+
+            <div id="content">
+                <link rel="stylesheet" href="/css/student-progress.css">
+<link rel="stylesheet" href="/css/course-progress.css">
+
+<script type="text/javascript" src="/js/course-progress.js"></script>
+
+<div id="sidebar">
+    <div class="sidebarFrame">
+        <div id="sidebarTitle">
+            
+                Course Sequence
+             
+        </div>
+
+         
+            
+                <div class="course">
+                    
+                        <a href="/courses/75/progress">4th Grade Math</a>
+                     
+                </div>
+                            
+         
+            
+                <div class="selectedCourse">5th Grade Math</div>
+                            
+         
+            
+                <div class="course">
+                    
+                        <a href="/courses/99/progress">Prealgebra</a>
+                     
+                </div>
+                            
+         
+            
+                <div class="course">
+                    
+                        <a href="/courses/127/progress">Integrated Math I (Honors)</a>
+                     
+                </div>
+                            
+         
+            
+                <div class="course">
+                    
+                        <a href="/courses/128/progress">Integrated Math II (Honors)</a>
+                     
+                </div>
+                            
+         
+            
+                <div class="course">
+                    
+                        <a href="/courses/101/progress">Integrated Math III (Honors)</a>
+                     
+                </div>
+                            
+         
+            
+                <div class="course">
+                    
+                        <a href="/courses/21/progress">AP Calculus BC</a>
+                     
+                </div>
+                            
+                     
+    </div>
+</div>
+
+<div id="progressContent">
+
+    <div id="units">
+         
+            <div class="unit">
+                <div class="unitHeader" onclick="toggleUnit(221);">
+                    <div class="unitNumber">1.</div> 
+                    <span class="unitName">The Number System</span>
+                    <div id="unitArrow-221" class="unitArrow"></div>
+                    <div class="unitNumTopics">9 topics</div>
+                </div>
+
+                <div class="unitProgressBarFrame" onclick="toggleUnit(221);">
+                    <table class="unitProgressBar" cellspacing="0" cellpadding="0" style="width: 166px;">
+                        <tbody><tr>
+                            <td style="height: 4px; width: 100%; background-color: rgb(23, 107, 181);"></td>                           
+                            <td style="height: 4px; width: 0%; background-color: rgb(29, 134, 226);"></td>                    
+                            <td style="height: 4px; width: 0%; background-color: rgb(74, 158, 232);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(120, 182, 237);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(165, 207, 243);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(210, 231, 249);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: white;"></td>   
+                        </tr>
+                    </tbody></table>
+                </div>
+                
+                <div id="unitModules-221" class="unitModules">
+                     
+                        <div class="module">
+                            <div>1.1. Whole Number Expressions</div>
+    
+                            <div id="moduleTopics-120337" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">1.1.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2397?courseId=30">Evaluating Whole Number Expressions</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">1.1.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2398?courseId=30">Evaluating Whole Number Expressions With Parentheses</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">1.1.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2396?courseId=30">Creating and Interpreting Whole Number Expressions</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">1.1.4.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2485?courseId=30">Creating Whole Number Expressions From Terminology</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">1.1.5.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3750?courseId=30">Additive Comparisons of Whole Number Expressions</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">1.1.6.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2399?courseId=30">Multiplicative Comparisons of Whole Number Expressions</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                        <div class="module">
+                            <div>1.2. Introduction to Negative Numbers</div>
+    
+                            <div id="moduleTopics-120338" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">1.2.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2442?courseId=30">Negative Numbers</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">1.2.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2444?courseId=30">Comparing Negative Numbers</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">1.2.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2281?courseId=30">Absolute Value</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                </div>
+            </div>
+         
+            <div class="unit">
+                <div class="unitHeader" onclick="toggleUnit(622);">
+                    <div class="unitNumber">2.</div> 
+                    <span class="unitName">Multiplying &amp; Dividing Whole Numbers</span>
+                    <div id="unitArrow-622" class="unitArrow"></div>
+                    <div class="unitNumTopics">18 topics</div>
+                </div>
+
+                <div class="unitProgressBarFrame" onclick="toggleUnit(622);">
+                    <table class="unitProgressBar" cellspacing="0" cellpadding="0" style="width: 332px;">
+                        <tbody><tr>
+                            <td style="height: 4px; width: 100%; background-color: rgb(23, 107, 181);"></td>                           
+                            <td style="height: 4px; width: 0%; background-color: rgb(29, 134, 226);"></td>                    
+                            <td style="height: 4px; width: 0%; background-color: rgb(74, 158, 232);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(120, 182, 237);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(165, 207, 243);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(210, 231, 249);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: white;"></td>   
+                        </tr>
+                    </tbody></table>
+                </div>
+                
+                <div id="unitModules-622" class="unitModules">
+                     
+                        <div class="module">
+                            <div>2.1. Multiplying Whole Numbers</div>
+    
+                            <div id="moduleTopics-120339" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">2.1.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2322?courseId=30">Multiplying Numbers by Powers of Ten Using Place Value</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">2.1.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2392?courseId=30">Two-Digit by One-Digit Multiplication</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">2.1.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2291?courseId=30">Three- and Four-Digit by One-Digit Multiplication</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">2.1.4.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/4788?courseId=30">Five- and Six-Digit by One-Digit Multiplication</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">2.1.5.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/258?courseId=30">Two-Digit by Two-Digit Multiplication</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">2.1.6.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2288?courseId=30">Multi-Digit by Two-Digit Multiplication</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">2.1.7.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/383?courseId=30">Three-Digit by Three-Digit Multiplication</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                        <div class="module">
+                            <div>2.2. Dividing Whole Numbers</div>
+    
+                            <div id="moduleTopics-120340" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">2.2.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/535?courseId=30">Two-Digit by One-Digit Division</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">2.2.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/536?courseId=30">Three-Digit by One-Digit Division</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">2.2.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/540?courseId=30">Four-Digit by One-Digit Division</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">2.2.4.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2412?courseId=30">Using Fractions to Represent Division of Whole Numbers</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">2.2.5.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/4025?courseId=30">Dividing Numbers by One-Digit Numbers With Rounding</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">2.2.6.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2434?courseId=30">Dividing Numbers by One-Digit Numbers: Interpreting the Remainder</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">2.2.7.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2406?courseId=30">Dividing by Two-Digit Numbers by Connecting Multiplication and Division</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">2.2.8.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/537?courseId=30">Dividing by Two-Digit Numbers With Remainders by Connecting Multiplication and Division</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">2.2.9.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/541?courseId=30">Multi-Digit by Two-Digit Division Using Partial Quotients</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">2.2.10.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2329?courseId=30">Three-Digit by Two-Digit Division</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">2.2.11.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2331?courseId=30">Four-Digit by Two-Digit Division</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                </div>
+            </div>
+         
+            <div class="unit">
+                <div class="unitHeader" onclick="toggleUnit(222);">
+                    <div class="unitNumber">3.</div> 
+                    <span class="unitName">Adding &amp; Subtracting Fractions</span>
+                    <div id="unitArrow-222" class="unitArrow"></div>
+                    <div class="unitNumTopics">14 topics</div>
+                </div>
+
+                <div class="unitProgressBarFrame" onclick="toggleUnit(222);">
+                    <table class="unitProgressBar" cellspacing="0" cellpadding="0" style="width: 258px;">
+                        <tbody><tr>
+                            <td style="height: 4px; width: 100%; background-color: rgb(23, 107, 181);"></td>                           
+                            <td style="height: 4px; width: 0%; background-color: rgb(29, 134, 226);"></td>                    
+                            <td style="height: 4px; width: 0%; background-color: rgb(74, 158, 232);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(120, 182, 237);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(165, 207, 243);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(210, 231, 249);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: white;"></td>   
+                        </tr>
+                    </tbody></table>
+                </div>
+                
+                <div id="unitModules-222" class="unitModules">
+                     
+                        <div class="module">
+                            <div>3.1. Adding and Subtracting Fractions and Whole Numbers</div>
+    
+                            <div id="moduleTopics-120341" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">3.1.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/543?courseId=30">Adding Fractions and Whole Numbers Using Models</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">3.1.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/539?courseId=30">Adding Fractions and Whole Numbers</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">3.1.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/544?courseId=30">Subtracting Fractions and Whole Numbers Using Models</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">3.1.4.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/545?courseId=30">Subtracting Fractions and Whole Numbers</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                        <div class="module">
+                            <div>3.2. Adding and Subtracting Fractions</div>
+    
+                            <div id="moduleTopics-120342" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">3.2.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2373?courseId=30">Estimating Sums and Differences of Fractions</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">3.2.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2374?courseId=30">Adding Fractions With Unlike Denominators Using Models</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">3.2.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2372?courseId=30">Subtracting Fractions With Unlike Denominators Using Models</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">3.2.4.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2353?courseId=30">Adding Fractions With Unlike Denominators</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">3.2.5.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2357?courseId=30">Subtracting Fractions With Unlike Denominators</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">3.2.6.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2375?courseId=30">Adding and Subtracting Fractions With Unlike Denominators: Word Problems</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                        <div class="module">
+                            <div>3.3. Adding and Subtracting Mixed Numbers</div>
+    
+                            <div id="moduleTopics-120343" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">3.3.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2354?courseId=30">Adding Mixed Numbers With Unlike Denominators</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">3.3.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2356?courseId=30">Subtracting Mixed Numbers With Unlike Denominators</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">3.3.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/525?courseId=30">Subtracting Mixed Numbers With Unlike Denominators Using Improper Fractions</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">3.3.4.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2395?courseId=30">Adding and Subtracting Mixed Numbers With Unlike Denominators: Word Problems</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                </div>
+            </div>
+         
+            <div class="unit">
+                <div class="unitHeader" onclick="toggleUnit(621);">
+                    <div class="unitNumber">4.</div> 
+                    <span class="unitName">Multiplying &amp; Dividing Fractions</span>
+                    <div id="unitArrow-621" class="unitArrow"></div>
+                    <div class="unitNumTopics">26 topics</div>
+                </div>
+
+                <div class="unitProgressBarFrame" onclick="toggleUnit(621);">
+                    <table class="unitProgressBar" cellspacing="0" cellpadding="0" style="width: 480px;">
+                        <tbody><tr>
+                            <td style="height: 4px; width: 100%; background-color: rgb(23, 107, 181);"></td>                           
+                            <td style="height: 4px; width: 0%; background-color: rgb(29, 134, 226);"></td>                    
+                            <td style="height: 4px; width: 0%; background-color: rgb(74, 158, 232);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(120, 182, 237);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(165, 207, 243);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(210, 231, 249);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: white;"></td>   
+                        </tr>
+                    </tbody></table>
+                </div>
+                
+                <div id="unitModules-621" class="unitModules">
+                     
+                        <div class="module">
+                            <div>4.1. Multiplying Fractions</div>
+    
+                            <div id="moduleTopics-120344" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">4.1.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/565?courseId=30">Multiplying Fractions by Unit Fractions Using Models</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">4.1.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3079?courseId=30">Multiplying Fractions Using Models</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">4.1.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2378?courseId=30">Multiplying Fractions</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">4.1.4.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/567?courseId=30">Multiplying Fractions: Word Problems</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">4.1.5.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2459?courseId=30">Multiplying Fractions by Swapping Denominators</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">4.1.6.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2379?courseId=30">Multiplying Mixed Numbers by Whole Numbers</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">4.1.7.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2380?courseId=30">Multiplying Mixed Numbers by Fractions</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">4.1.8.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2381?courseId=30">Multiplying Mixed Numbers</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">4.1.9.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3762?courseId=30">Multiplying Mixed Numbers: Word Problems</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">4.1.10.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/569?courseId=30">Connecting Fraction Multiplication and Area</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">4.1.11.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/572?courseId=30">Finding Areas Using Fraction Multiplication</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">4.1.12.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/571?courseId=30">Fraction Multiplication Number Sense</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                        <div class="module">
+                            <div>4.2. Dividing Fractions</div>
+    
+                            <div id="moduleTopics-120345" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">4.2.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/568?courseId=30">Interpreting Fraction Division Using Area Models</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">4.2.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/529?courseId=30">Dividing Whole Numbers by Unit Fractions Using Models</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">4.2.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/533?courseId=30">Dividing Whole Numbers by Unit Fractions</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">4.2.4.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/528?courseId=30">Dividing Unit Fractions by Whole Numbers Using Models</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">4.2.5.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/530?courseId=30">Dividing Unit Fractions by Whole Numbers</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">4.2.6.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2388?courseId=30">Reciprocals</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">4.2.7.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2437?courseId=30">Dividing Whole Numbers by Fractions Using Models: Whole Number Results</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">4.2.8.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/4698?courseId=30">Dividing Whole Numbers by Fractions Using Models: Fractional Results</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">4.2.9.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2377?courseId=30">Dividing Whole Numbers by Fractions</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">4.2.10.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2436?courseId=30">Dividing Fractions by Whole Numbers Using Models</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">4.2.11.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2369?courseId=30">Dividing Fractions by Whole Numbers</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">4.2.12.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2497?courseId=30">Dividing Fractions and Whole Numbers: Word Problems</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">4.2.13.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2438?courseId=30">Dividing Fractions Using Models</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">4.2.14.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2382?courseId=30">Dividing Fractions</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                </div>
+            </div>
+         
+            <div class="unit">
+                <div class="unitHeader" onclick="toggleUnit(223);">
+                    <div class="unitNumber">5.</div> 
+                    <span class="unitName">Decimals</span>
+                    <div id="unitArrow-223" class="unitArrow"></div>
+                    <div class="unitNumTopics">18 topics</div>
+                </div>
+
+                <div class="unitProgressBarFrame" onclick="toggleUnit(223);">
+                    <table class="unitProgressBar" cellspacing="0" cellpadding="0" style="width: 332px;">
+                        <tbody><tr>
+                            <td style="height: 4px; width: 100%; background-color: rgb(23, 107, 181);"></td>                           
+                            <td style="height: 4px; width: 0%; background-color: rgb(29, 134, 226);"></td>                    
+                            <td style="height: 4px; width: 0%; background-color: rgb(74, 158, 232);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(120, 182, 237);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(165, 207, 243);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(210, 231, 249);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: white;"></td>   
+                        </tr>
+                    </tbody></table>
+                </div>
+                
+                <div id="unitModules-223" class="unitModules">
+                     
+                        <div class="module">
+                            <div>5.1. Decimals</div>
+    
+                            <div id="moduleTopics-120346" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">5.1.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2282?courseId=30">The Place Value System With Decimals</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">5.1.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2283?courseId=30">Comparing Place Values With Decimals</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">5.1.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2343?courseId=30">Reading and Writing Decimals Written in Words</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">5.1.4.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2285?courseId=30">Converting Decimals From Standard to Expanded Form</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">5.1.5.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2284?courseId=30">Converting Decimals From Expanded to Standard Form</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">5.1.6.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2344?courseId=30">Equivalent Decimals</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">5.1.7.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2286?courseId=30">Comparing Decimals</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">5.1.8.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2325?courseId=30">Rounding Down Decimals</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">5.1.9.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3585?courseId=30">Rounding Up Decimals</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">5.1.10.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/4033?courseId=30">Significant Figures</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">5.1.11.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/4314?courseId=30">Significant Figures With Decimals</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                        <div class="module">
+                            <div>5.2. Adding and Subtracting Decimals</div>
+    
+                            <div id="moduleTopics-120347" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">5.2.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2326?courseId=30">Estimating Decimal Addition and Subtraction</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">5.2.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/326?courseId=30">Adding Decimals</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">5.2.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2339?courseId=30">Addition With Unequal Numbers of Decimals</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">5.2.4.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/109?courseId=30">Subtracting Decimals</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">5.2.5.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2340?courseId=30">Subtraction With Unequal Numbers of Decimals</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">5.2.6.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2389?courseId=30">Estimating Decimal Addition With Benchmarks</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">5.2.7.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/4536?courseId=30">Estimating Decimal Subtraction With Benchmarks</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                </div>
+            </div>
+         
+            <div class="unit">
+                <div class="unitHeader" onclick="toggleUnit(623);">
+                    <div class="unitNumber">6.</div> 
+                    <span class="unitName">Multiplying &amp; Dividing Decimals</span>
+                    <div id="unitArrow-623" class="unitArrow"></div>
+                    <div class="unitNumTopics">17 topics</div>
+                </div>
+
+                <div class="unitProgressBarFrame" onclick="toggleUnit(623);">
+                    <table class="unitProgressBar" cellspacing="0" cellpadding="0" style="width: 314px;">
+                        <tbody><tr>
+                            <td style="height: 4px; width: 100%; background-color: rgb(23, 107, 181);"></td>                           
+                            <td style="height: 4px; width: 0%; background-color: rgb(29, 134, 226);"></td>                    
+                            <td style="height: 4px; width: 0%; background-color: rgb(74, 158, 232);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(120, 182, 237);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(165, 207, 243);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(210, 231, 249);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: white;"></td>   
+                        </tr>
+                    </tbody></table>
+                </div>
+                
+                <div id="unitModules-623" class="unitModules">
+                     
+                        <div class="module">
+                            <div>6.1. Multiplying Decimals</div>
+    
+                            <div id="moduleTopics-120348" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">6.1.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/110?courseId=30">Multiplying Decimals by Powers of Ten Using Place Value</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">6.1.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2318?courseId=30">Multiplying Decimals by Powers of Ten Using Decimal Point Placement</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">6.1.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2290?courseId=30">Estimating Decimal Multiplication</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">6.1.4.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2346?courseId=30">Multiplying a Decimal by a One-Digit Whole Number</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">6.1.5.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2347?courseId=30">Multiplying a Decimal by a Multi-Digit Whole Number</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">6.1.6.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/111?courseId=30">Multiplying Two-Digit Decimals</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">6.1.7.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2348?courseId=30">Multiplying Two-Digit Decimals by Three-Digit Decimals</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">6.1.8.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2355?courseId=30">Multiplying Three-Digit Decimals</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                        <div class="module">
+                            <div>6.2. Dividing Decimals</div>
+    
+                            <div id="moduleTopics-120349" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">6.2.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2323?courseId=30">Dividing Decimals by Powers of Ten Using Place Value</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">6.2.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2289?courseId=30">Dividing Decimals by Powers of Ten Using Decimal Point Placement</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">6.2.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/548?courseId=30">Estimating Decimal Division</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">6.2.4.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/551?courseId=30">Dividing Decimals Using Place Value Strategies</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">6.2.5.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2335?courseId=30">Division of Whole Numbers With Decimal Quotients</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">6.2.6.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/547?courseId=30">Division of Whole Numbers With Decimal Quotients and Rounding</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">6.2.7.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/549?courseId=30">Dividing Decimals Using the Standard Algorithm</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">6.2.8.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2328?courseId=30">Dividing Three-Digit Decimals by Two-Digit Decimals</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">6.2.9.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2435?courseId=30">Dividing Four-Digit and Five-Digit Decimals</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                </div>
+            </div>
+         
+            <div class="unit">
+                <div class="unitHeader" onclick="toggleUnit(224);">
+                    <div class="unitNumber">7.</div> 
+                    <span class="unitName">Exponents</span>
+                    <div id="unitArrow-224" class="unitArrow"></div>
+                    <div class="unitNumTopics">10 topics</div>
+                </div>
+
+                <div class="unitProgressBarFrame" onclick="toggleUnit(224);">
+                    <table class="unitProgressBar" cellspacing="0" cellpadding="0" style="width: 185px;">
+                        <tbody><tr>
+                            <td style="height: 4px; width: 100%; background-color: rgb(23, 107, 181);"></td>                           
+                            <td style="height: 4px; width: 0%; background-color: rgb(29, 134, 226);"></td>                    
+                            <td style="height: 4px; width: 0%; background-color: rgb(74, 158, 232);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(120, 182, 237);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(165, 207, 243);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(210, 231, 249);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: white;"></td>   
+                        </tr>
+                    </tbody></table>
+                </div>
+                
+                <div id="unitModules-224" class="unitModules">
+                     
+                        <div class="module">
+                            <div>7.1. Exponents</div>
+    
+                            <div id="moduleTopics-120350" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">7.1.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2315?courseId=30">Powers of Ten</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">7.1.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2316?courseId=30">Multiplying Numbers by Powers of Ten With Exponents</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">7.1.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2317?courseId=30">Multiplying Decimals by Powers of Ten With Exponents</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">7.1.4.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2314?courseId=30">Introduction to Exponents</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">7.1.5.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2321?courseId=30">Evaluating Exponents</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">7.1.6.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3537?courseId=30">Evaluating Larger Exponents</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">7.1.7.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2476?courseId=30">Evaluating Exponents With Fractional Bases</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">7.1.8.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2477?courseId=30">Evaluating Exponents With Decimal Bases</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">7.1.9.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2474?courseId=30">Comparing Exponents</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">7.1.10.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2475?courseId=30">Evaluating Whole Number Expressions Containing Exponents</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                </div>
+            </div>
+         
+            <div class="unit">
+                <div class="unitHeader" onclick="toggleUnit(225);">
+                    <div class="unitNumber">8.</div> 
+                    <span class="unitName">Measurement &amp; Data</span>
+                    <div id="unitArrow-225" class="unitArrow"></div>
+                    <div class="unitNumTopics">12 topics</div>
+                </div>
+
+                <div class="unitProgressBarFrame" onclick="toggleUnit(225);">
+                    <table class="unitProgressBar" cellspacing="0" cellpadding="0" style="width: 222px;">
+                        <tbody><tr>
+                            <td style="height: 4px; width: 100%; background-color: rgb(23, 107, 181);"></td>                           
+                            <td style="height: 4px; width: 0%; background-color: rgb(29, 134, 226);"></td>                    
+                            <td style="height: 4px; width: 0%; background-color: rgb(74, 158, 232);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(120, 182, 237);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(165, 207, 243);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(210, 231, 249);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: white;"></td>   
+                        </tr>
+                    </tbody></table>
+                </div>
+                
+                <div id="unitModules-225" class="unitModules">
+                     
+                        <div class="module">
+                            <div>8.1. Units and Data</div>
+    
+                            <div id="moduleTopics-120351" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">8.1.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3972?courseId=30">Converting Metric Units of Length to Larger Units</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">8.1.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/4073?courseId=30">Converting Customary Units of Length to Larger Units</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">8.1.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3974?courseId=30">Converting Units of Volume to Larger Units</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">8.1.4.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3975?courseId=30">Converting Units of Mass to Larger Units</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">8.1.5.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3976?courseId=30">Converting Units of Time to Larger Units</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">8.1.6.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2401?courseId=30">Operations on Fractions With Line Plots</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                        <div class="module">
+                            <div>8.2. Coordinates</div>
+    
+                            <div id="moduleTopics-120352" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">8.2.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2410?courseId=30">Describing the Coordinate Plane</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">8.2.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2413?courseId=30">Solving Real World Problems Using Coordinates</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">8.2.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2414?courseId=30">Coordinate Planes as Maps</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                        <div class="module">
+                            <div>8.3. Patterns and Relationships</div>
+    
+                            <div id="moduleTopics-120353" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">8.3.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3971?courseId=30">Connecting Patterns</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">8.3.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2432?courseId=30">Comparing Patterns</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">8.3.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2433?courseId=30">Graphing Patterns</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                </div>
+            </div>
+         
+            <div class="unit">
+                <div class="unitHeader" onclick="toggleUnit(429);">
+                    <div class="unitNumber">9.</div> 
+                    <span class="unitName">Geometry</span>
+                    <div id="unitArrow-429" class="unitArrow"></div>
+                    <div class="unitNumTopics">9 topics</div>
+                </div>
+
+                <div class="unitProgressBarFrame" onclick="toggleUnit(429);">
+                    <table class="unitProgressBar" cellspacing="0" cellpadding="0" style="width: 166px;">
+                        <tbody><tr>
+                            <td style="height: 4px; width: 100%; background-color: rgb(23, 107, 181);"></td>                           
+                            <td style="height: 4px; width: 0%; background-color: rgb(29, 134, 226);"></td>                    
+                            <td style="height: 4px; width: 0%; background-color: rgb(74, 158, 232);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(120, 182, 237);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(165, 207, 243);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: rgb(210, 231, 249);"></td>   
+                            <td style="height: 4px; width: 0%; background-color: white;"></td>   
+                        </tr>
+                    </tbody></table>
+                </div>
+                
+                <div id="unitModules-429" class="unitModules">
+                     
+                        <div class="module">
+                            <div>9.1. Volume</div>
+    
+                            <div id="moduleTopics-120354" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">9.1.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2403?courseId=30">Understanding Volume Using Unit Cubes</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">9.1.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3872?courseId=30">Units of Area and Volume</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">9.1.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2404?courseId=30">Volumes of Right Rectangular Prisms</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">9.1.4.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2411?courseId=30">Volumes of Right Rectangular Prisms: Word Problems</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                        <div class="module">
+                            <div>9.2. 2D Shapes</div>
+    
+                            <div id="moduleTopics-120355" class="moduleTopics">
+                                <table>
+                                                   
+                                    <tbody><tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">9.2.1.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2470?courseId=30">Polygons</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">9.2.2.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/2407?courseId=30">Quadrilaterals</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">9.2.3.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/3751?courseId=30">Rectangles, Rhombuses, and Squares</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">9.2.4.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/7743?courseId=30">Perimeters of Shapes</a></td>
+                                    </tr>                                                                        
+                                                   
+                                    <tr>
+                                        <td><div class="topicCircle" style="background: rgb(23, 107, 181); width: 12px; height: 12px; border-radius: 6px;"></div></td>
+                                        <td class="topicNumber">9.2.5.</td>
+                                        <td class="topicName"><a class="topicLink" href="/topics/570?courseId=30">Classifying Quadrilaterals</a></td>
+                                    </tr>                                                                        
+                                 
+                                </tbody></table>                                 
+                            </div>
+                        </div>
+                     
+                </div>
+            </div>
+          
+    </div>
+
+</div>            
+            </div> 
+        </div>
+
+        <link rel="stylesheet" href="/css/support-dialog.css">
+
+<script type="text/javascript" src="/js/support-dialog.js"></script>
+
+<div id="supportDialog">
+    <div id="supportDialog-title">Support</div>
+
+    <div id="supportDialog-message">
+        If you need support, please email <b>support@mathacademy.com</b>.
+    </div>
+
+    <div id="supportDialog-buttons">
+        <div id="supportDialog-closeButton">Close</div>
+    </div>
+</div>
+        <link rel="stylesheet" href="/css/xp-goals-dialog.css">
+
+<script type="text/javascript" src="/js/xp-goals-dialog.js"></script>
+
+<div id="xpGoalsDialog">
+    <div id="xpGoalsDialog-title">XP Goals</div>
+
+    <table id="xpGoalsDialog-goals" cellpadding="0" cellspacing="0">
+        <tbody><tr>
+            <td class="xpGoalsDialog-dayOfWeek">Sun</td>
+            <td class="xpGoalsDialog-dayOfWeek">Mon</td>
+            <td class="xpGoalsDialog-dayOfWeek">Tue</td>
+            <td class="xpGoalsDialog-dayOfWeek">Wed</td>
+            <td class="xpGoalsDialog-dayOfWeek">Thu</td>
+            <td class="xpGoalsDialog-dayOfWeek">Fri</td>
+            <td class="xpGoalsDialog-dayOfWeek">Sat</td>
+        </tr>
+        <tr>
+            <td><input id="xpGoalsDialog-sunGoal" class="xpGoalsDialog-goal" type="text"> </td>
+            <td><input id="xpGoalsDialog-monGoal" class="xpGoalsDialog-goal" type="text"> </td>
+            <td><input id="xpGoalsDialog-tueGoal" class="xpGoalsDialog-goal" type="text"> </td>
+            <td><input id="xpGoalsDialog-wedGoal" class="xpGoalsDialog-goal" type="text"> </td>
+            <td><input id="xpGoalsDialog-thuGoal" class="xpGoalsDialog-goal" type="text"> </td>
+            <td><input id="xpGoalsDialog-friGoal" class="xpGoalsDialog-goal" type="text"> </td>
+            <td><input id="xpGoalsDialog-satGoal" class="xpGoalsDialog-goal" type="text"> </td>
+        </tr> 
+    </tbody></table>
+
+
+    <div id="xpGoalsDialog-courseCompletionText"></div>
+
+    <div id="xpGoalsDialog-pausedFrame">
+        <input id="xpGoalsDialog-paused" name="xpGoalsDialog-paused" type="checkbox"> 
+        <label id="xpGoalsDialog-pausedLabel" for="xpGoalsDialog-paused">Paused</label>
+    </div>
+
+    <div id="xpGoalsDialog-buttonBar">
+        <div id="xpGoalsDialog-submitButton">SUBMIT</div>
+        <div id="xpGoalsDialog-cancelButton">CANCEL</div>
+    </div>
+</div>
+        <link rel="stylesheet" href="/css/course-dialog.css">
+
+<script type="text/javascript" src="/js/course-dialog.js"></script>
+
+<div id="courseDialog">
+    <div id="courseDialog-title">Change Course</div>
+
+    <div id="courseDialog-course">
+        <label id="courseDialog-courseLabel">Course</label>
+
+        <select id="courseDialog-courseSelect">
+            <option selected="">-</option>
+        </select>
+    </div>
+
+    <div id="courseDialog-buttonBar">
+        <div id="courseDialog-submitButton">SUBMIT</div>
+        <div id="courseDialog-cancelButton">CANCEL</div>
+    </div>
+</div>
+
+                
+
+                                    
+    
+              
+    
+</body></html>
